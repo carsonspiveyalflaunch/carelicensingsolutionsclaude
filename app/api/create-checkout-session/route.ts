@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
+import { PricingError, resolveCartItems } from "@/lib/pricing";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -40,7 +41,7 @@ export async function POST(request: NextRequest) {
     }
 
     const {
-      items,
+      items: requestedItems,
       successUrl,
       cancelUrl,
       discountCode,
@@ -48,13 +49,24 @@ export async function POST(request: NextRequest) {
       customerInfo
     } = await request.json();
 
-    console.log('📋 Checkout session request received with items:', JSON.stringify(items, null, 2));
+    console.log('📋 Checkout session request received with items:', JSON.stringify(requestedItems, null, 2));
 
-    if (!items || items.length === 0) {
+    if (!Array.isArray(requestedItems) || requestedItems.length === 0) {
       return NextResponse.json(
         { error: "No items provided" },
         { status: 400 }
       );
+    }
+
+    // Never charge the prices sent by the browser: look each item up server-side.
+    let items: any[];
+    try {
+      items = await resolveCartItems(supabase, requestedItems);
+    } catch (err) {
+      if (err instanceof PricingError) {
+        return NextResponse.json({ error: err.message }, { status: 400 });
+      }
+      throw err;
     }
 
     // Calculate totals

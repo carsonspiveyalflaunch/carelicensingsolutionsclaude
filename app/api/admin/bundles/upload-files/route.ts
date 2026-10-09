@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
+import { requireAdmin } from '@/utils/admin-auth';
 
 const DEFAULT_STORAGE_BUCKET = process.env.SUPABASE_STORAGE_BUCKET || "bundle-files";
 
@@ -21,6 +22,9 @@ function sanitizeFileName(value: string) {
 }
 
 export async function POST(request: Request) {
+  const denied = await requireAdmin(request);
+  if (denied) return denied;
+
   try {
     if (!isSupabaseConfigured()) {
       return NextResponse.json({ error: "Supabase not configured" }, { status: 500 });

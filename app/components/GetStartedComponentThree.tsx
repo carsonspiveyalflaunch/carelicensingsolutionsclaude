@@ -1,3 +1,4 @@
+import { DEFAULT_INDIVIDUAL_ITEM_PRICE, INDIVIDUAL_ITEM_PRICES } from "@/lib/pricing";
 import Stepper from "./Stepper";
 import { useToast } from "./SimpleToast";
 import { programTypeIcons } from "./lucide-icons";
@@ -51,12 +52,7 @@ export default function GetStartedComponentThree({
   const toast = useToast();
   const router = useRouter();
 
-  const individualItemPricing: Record<string, number> = {
-    "Market Research Report": 397,
-    "Policy & Procedure Manual": 497,
-    "Pro Forma P&L Template": 297,
-    "Licensing Checklist": 397,
-  };
+  const individualItemPricing = INDIVIDUAL_ITEM_PRICES;
 
   const individualItemDescriptions: Record<string, string> = {
     "Market Research Report": "Comprehensive market analysis, competitor landscape, demographic data, demand forecasting, and revenue projections.",
@@ -222,7 +218,7 @@ export default function GetStartedComponentThree({
                   {stateResources.map((resource, index) => {
                     const uniqueFileId = resource.name || resource.path || resource.url || index;
                     const itemId = `${resource.bundleId}-${resource.label}-${uniqueFileId}`;
-                    const itemPrice = individualItemPricing[resource.label] ?? 397;
+                    const itemPrice = individualItemPricing[resource.label] ?? DEFAULT_INDIVIDUAL_ITEM_PRICE;
                     const itemDesc = individualItemDescriptions[resource.label] ?? resource.label;
                     const isSelected = selectedProducts.includes(itemId);
 

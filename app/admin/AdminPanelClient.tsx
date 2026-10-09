@@ -27,6 +27,7 @@ import AdminLoginClient from "./AdminLoginClient";
 import AdminSidebar from "../components/AdminSidebar";
 import BundleCard from "../components/BundleCard";
 import type { BundleProduct, BundleFormPayload } from "@/lib/bundles";
+import { adminFetch } from "@/utils/admin-fetch";
 import {
   createAdminBundle,
   deleteAdminBundle,
@@ -436,7 +437,7 @@ export default function AdminPanelClient() {
   const refreshUsers = async () => {
     setLoadingUsers(true);
     try {
-      const response = await fetch("/api/admin/profiles");
+      const response = await adminFetch("/api/admin/profiles");
       const data = await response.json();
 
       if (!response.ok) {
@@ -466,7 +467,7 @@ export default function AdminPanelClient() {
     if (!result.isConfirmed) return;
 
     try {
-      const res = await fetch('/api/admin/profiles/toggle-access', {
+      const res = await adminFetch('/api/admin/profiles/toggle-access', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, action }),
@@ -980,7 +981,7 @@ export default function AdminPanelClient() {
       }, 10000); // 10 second timeout
 
       try {
-        const response = await fetch("/api/admin-stats");
+        const response = await adminFetch("/api/admin-stats");
         clearTimeout(timeoutId); // Clear timeout on success
         if (!response.ok) {
           throw new Error("Unable to load admin stats.");
@@ -1014,7 +1015,7 @@ export default function AdminPanelClient() {
     const loadUsers = async () => {
       setLoadingUsers(true);
       try {
-        const response = await fetch("/api/admin/profiles");
+        const response = await adminFetch("/api/admin/profiles");
         const data = await response.json();
 
         if (!response.ok) {

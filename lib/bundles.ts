@@ -1,3 +1,4 @@
+import { adminFetch } from '@/utils/admin-fetch';
 export interface BundleFileMetadata {
   label: string;
   name: string;
@@ -129,7 +130,7 @@ export async function fetchShopProducts(): Promise<BundleProduct[]> {
 }
 
 export async function fetchAdminBundles(): Promise<BundleProduct[]> {
-  const response = await fetch("/api/admin/bundles", { cache: "no-store" });
+  const response = await adminFetch("/api/admin/bundles", { cache: "no-store" });
   const body = await parseJson<any>(response);
   if (!response.ok) {
     throw new Error(body?.error || "Unable to load admin bundles.");
@@ -138,7 +139,7 @@ export async function fetchAdminBundles(): Promise<BundleProduct[]> {
 }
 
 export async function fetchAdminBundle(id: string): Promise<BundleProduct | null> {
-  const response = await fetch(`/api/admin/bundles?id=${encodeURIComponent(id)}`, { cache: "no-store" });
+  const response = await adminFetch(`/api/admin/bundles?id=${encodeURIComponent(id)}`, { cache: "no-store" });
   const body = await parseJson<any>(response);
   if (!response.ok) {
     throw new Error(body?.error || "Unable to load bundle details.");
@@ -147,7 +148,7 @@ export async function fetchAdminBundle(id: string): Promise<BundleProduct | null
 }
 
 export async function createAdminBundle(payload: BundleFormPayload): Promise<BundleProduct> {
-  const response = await fetch("/api/admin/bundles", {
+  const response = await adminFetch("/api/admin/bundles", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
@@ -164,7 +165,7 @@ export async function createAdminBundle(payload: BundleFormPayload): Promise<Bun
 
 export async function uploadBundleFiles(formData: FormData): Promise<BundleFileMetadata[]> {
   try {
-    const response = await fetch("/api/admin/bundles/upload-files", {
+    const response = await adminFetch("/api/admin/bundles/upload-files", {
       method: "POST",
       body: formData,
     });
@@ -186,7 +187,7 @@ export async function uploadBundleFiles(formData: FormData): Promise<BundleFileM
 }
 
 export async function updateAdminBundle(id: string, payload: Partial<BundleFormPayload>): Promise<BundleProduct> {
-  const response = await fetch(`/api/admin/bundles?id=${encodeURIComponent(id)}`, {
+  const response = await adminFetch(`/api/admin/bundles?id=${encodeURIComponent(id)}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
@@ -202,7 +203,7 @@ export async function updateAdminBundle(id: string, payload: Partial<BundleFormP
 }
 
 export async function deleteAdminBundle(id: string): Promise<void> {
-  const response = await fetch(`/api/admin/bundles?id=${encodeURIComponent(id)}`, {
+  const response = await adminFetch(`/api/admin/bundles?id=${encodeURIComponent(id)}`, {
     method: "DELETE",
   });
   const body = await parseJson<any>(response);
