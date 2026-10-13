@@ -24,6 +24,7 @@ import Swal from "sweetalert2";
 import { useAuth } from "../components/AuthContext";
 import Pagination from "../components/Pagination";
 import AdminLoginClient from "./AdminLoginClient";
+import BulkImportPanel from "./BulkImportPanel";
 import AdminSidebar from "../components/AdminSidebar";
 import BundleCard from "../components/BundleCard";
 import type { BundleProduct, BundleFormPayload } from "@/lib/bundles";
@@ -97,6 +98,7 @@ export default function AdminPanelClient() {
     | "Bundles"
     | "Upload Bundle"
     | "Upload Individual Bundle"
+    | "Import Files"
     | "Users"
     | "Profile Settings"
   >("Overview");
@@ -2128,6 +2130,8 @@ export default function AdminPanelClient() {
                   )}
                 </div>
               )}
+              {activeSection === "Import Files" && <BulkImportPanel />}
+
               {activeSection === "Users" && (
                 <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-2xl w-full">
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">

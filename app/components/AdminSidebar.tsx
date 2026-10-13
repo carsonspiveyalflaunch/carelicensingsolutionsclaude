@@ -1,8 +1,8 @@
 "use client";
 
-import { BarChart3, Package, Settings, Sparkles, Users, LogOut, X, UploadIcon, HardDriveUpload } from "lucide-react";
+import { BarChart3, Package, Settings, Sparkles, Users, LogOut, X, UploadIcon, HardDriveUpload, FolderUp } from "lucide-react";
 
-type AdminSection = "Overview" | "Bundles" | "Upload Bundle" | "Upload Individual Bundle" | "Users" | "Profile Settings";
+type AdminSection = "Overview" | "Bundles" | "Upload Bundle" | "Upload Individual Bundle" | "Import Files" | "Users" | "Profile Settings";
 
 interface SidebarItem {
   label: string;
@@ -24,6 +24,7 @@ const navItems: SidebarItem[] = [
   { label: "Bundles", section: "Bundles", icon: Package },
   { label: "Upload Bundle", section: "Upload Bundle", icon: HardDriveUpload, accent: "bg-emerald-500/15 text-emerald-300" },
   // { label: "Upload Individual Bundle", section: "Upload Individual Bundle", icon: UploadIcon, accent: "bg-emerald-500/15 text-emerald-300" },
+  { label: "Import Files", section: "Import Files", icon: FolderUp, accent: "bg-emerald-500/15 text-emerald-300" },
   { label: "Users", section: "Users", icon: Users },
   { label: "Profile Settings", section: "Profile Settings", icon: Settings },
 ];
