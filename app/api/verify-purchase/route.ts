@@ -1,31 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
+import { resolveProductForItem } from "@/lib/resolve-product";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
       apiVersion: "2026-02-25.clover",
     })
   : null;
-
-async function resolveProductForItem(supabase: any, item: any) {
-  const watchFields: string[] = [];
-  if (item.product_slug) watchFields.push(`product_slug.eq.${item.product_slug}`);
-  if (item.name) watchFields.push(`name.eq.${item.name}`);
-  if (item.stripe_price_id) watchFields.push(`stripe_price_id.eq.${item.stripe_price_id}`);
-
-  if (watchFields.length === 0) {
-    return null;
-  }
-
-  const { data } = await supabase
-    .from('products')
-    .select('id, product_slug, name, stripe_product_id, stripe_price_id')
-    .or(watchFields.join(','))
-    .maybeSingle();
-
-  return data;
-}
 
 async function grantAccessForPurchase(
   supabase: any,
@@ -36,23 +18,22 @@ async function grantAccessForPurchase(
 ) {
   const results: any[] = [];
 
-  // Group items by product_id to avoid duplicate entries
-  const itemsByProductId = items.reduce((acc: Record<string, any[]>, item: any) => {
-    if (item.product_id) {
-      if (!acc[item.product_id]) {
-        acc[item.product_id] = [];
-      }
-      acc[item.product_id].push(item);
-    }
-    return acc;
-  }, {});
-
-  for (const [productId, productItems] of Object.entries(itemsByProductId)) {
-    const product = await resolveProductForItem(supabase, productItems[0]);
-    if (!product?.id) {
-      results.push({ product_id: productId, items: productItems, success: false, reason: 'Unable to resolve product' });
+  // Resolve every item to a real product first (cart items don't always carry
+  // a product id), then group so each product is granted once.
+  const itemsByProductId: Record<string, any[]> = {};
+  const productsById: Record<string, any> = {};
+  for (const item of items) {
+    const resolved = await resolveProductForItem(supabase, item);
+    if (!resolved?.id) {
+      results.push({ items: [item], success: false, reason: 'Unable to resolve product' });
       continue;
     }
+    productsById[resolved.id] = resolved;
+    (itemsByProductId[resolved.id] ||= []).push(item);
+  }
+
+  for (const [productId, productItems] of Object.entries(itemsByProductId)) {
+    const product = productsById[productId];
 
     // Get purchased items from map if provided, otherwise try to extract from items
     const purchasedItems = purchasedItemsMap && purchasedItemsMap[product.id]

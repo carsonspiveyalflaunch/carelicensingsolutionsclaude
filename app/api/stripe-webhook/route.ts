@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { resolveProductForItem } from '@/lib/resolve-product';
 import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 
@@ -114,21 +115,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       const unitAmount = item.price || 0;
       const lineTotal = unitAmount * quantity;
 
-      let product: any = null;
-      const watchFields: string[] = [];
-      if (item.product_slug) watchFields.push(`product_slug.eq.${item.product_slug}`);
-      if (item.name) watchFields.push(`name.eq.${item.name}`);
-      if (item.stripe_price_id) watchFields.push(`stripe_price_id.eq.${item.stripe_price_id}`);
-
-      if (watchFields.length > 0) {
-        const { data } = await supabase
-          .from('products')
-          .select('id, product_slug, name, stripe_product_id, stripe_price_id, skool_group_id, skool_course_id, ghl_tag')
-          .or(watchFields.join(','))
-          .maybeSingle();
-
-        product = data;
-      }
+      const product: any = await resolveProductForItem(supabase, item);
 
       const enrichedItem = {
         product_slug: item.product_slug || null,
@@ -163,7 +150,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       }
 
       if (!enrichedItem.product_id) {
-        console.warn(`⚠️ Could not resolve product_id for item:`, { item, watchFields, product });
+        console.warn(`⚠️ Could not resolve product_id for item:`, { item });
       } else {
         console.log(`✓ Resolved product_id ${enrichedItem.product_id} for item: ${enrichedItem.name}`);
       }
