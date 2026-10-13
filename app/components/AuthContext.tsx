@@ -44,9 +44,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (!force && cachedProfile) {
       try {
         const parsed = JSON.parse(cachedProfile);
-        setProfile(parsed);
-        setProfileStatus('success');
-        return;
+        // Only trust a cached admin profile. A cached non-admin profile is
+        // re-checked so newly granted admin access shows up without signing out.
+        if (parsed?.is_admin) {
+          setProfile(parsed);
+          setProfileStatus('success');
+          return;
+        }
       } catch (e) {
         // Invalid cache, continue with load
       }

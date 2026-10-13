@@ -283,10 +283,6 @@ export default function AdminPanelClient() {
   const pageSize = 8;
 
   useEffect(() => {
-    if (!loading && !user && !isSigningOut) {
-      router.replace("/404");
-    }
-
     if (!loading && user && profileStatus === "success" && !isAdmin) {
       router.replace("/404");
     }
@@ -1102,7 +1098,8 @@ export default function AdminPanelClient() {
   }
 
   if (!user) {
-    return null;
+    // Signed-out visitors get the admin sign-in form instead of a 404.
+    return isSigningOut ? null : <AdminLoginClient />;
   }
 
   if (user && profileStatus !== "success") {

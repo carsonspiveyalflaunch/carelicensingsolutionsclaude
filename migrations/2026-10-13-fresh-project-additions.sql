@@ -53,3 +53,6 @@ create policy "Owners can read their product files" on storage.objects
 revoke execute on function public.handle_new_user() from public, anon, authenticated;
 revoke execute on function public.protect_profile_privileges() from public, anon, authenticated;
 revoke execute on function public.protect_profile_privileges_insert() from public, anon, authenticated;
+
+-- Guest checkouts (including all course enrollments) save purchases with no account.
+alter table public.purchases alter column user_id drop not null;
