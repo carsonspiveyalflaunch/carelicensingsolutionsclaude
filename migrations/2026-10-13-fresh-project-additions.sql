@@ -48,3 +48,8 @@ create policy "Owners can read their product files" on storage.objects
         and p.product_slug = (storage.foldername(name))[1]
     )
   );
+
+-- Trigger functions are not meant to be called through the API.
+revoke execute on function public.handle_new_user() from public, anon, authenticated;
+revoke execute on function public.protect_profile_privileges() from public, anon, authenticated;
+revoke execute on function public.protect_profile_privileges_insert() from public, anon, authenticated;
