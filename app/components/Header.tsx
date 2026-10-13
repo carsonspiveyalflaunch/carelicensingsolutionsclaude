@@ -55,10 +55,6 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    if (user && isAdmin && pathname === "/dashboard") {
-      router.replace("/admin");
-    }
-
     if (user && !isAdmin && pathname === "/admin") {
       router.replace("/dashboard");
     }
@@ -175,7 +171,7 @@ const Header = () => {
                         </p>
                       </div>
                       <div className="flex flex-col p-2 gap-2">
-                        {profile?.is_admin ? (
+                        {profile?.is_admin && (
                           <Link
                             href="/admin"
                             className="rounded-2xl px-3 py-3 text-sm font-medium text-slate-900 hover:bg-slate-100 transition"
@@ -183,15 +179,14 @@ const Header = () => {
                           >
                             Admin Dashboard
                           </Link>
-                        ) : (
-                          <Link
-                            href="/dashboard"
-                            className="rounded-2xl px-3 py-3 text-sm font-medium text-slate-900 hover:bg-slate-100 transition"
-                            onClick={() => setProfileMenuOpen(false)}
-                          >
-                            Dashboard
-                          </Link>
                         )}
+                        <Link
+                          href="/dashboard"
+                          className="rounded-2xl px-3 py-3 text-sm font-medium text-slate-900 hover:bg-slate-100 transition"
+                          onClick={() => setProfileMenuOpen(false)}
+                        >
+                          {profile?.is_admin ? "My Purchases" : "Dashboard"}
+                        </Link>
                         <button
                           type="button"
                           onClick={handleSignOut}
@@ -271,7 +266,7 @@ const Header = () => {
 
               {user && (
                 <>
-                  {profile?.is_admin ? (
+                  {profile?.is_admin && (
                     <a
                       href="/admin"
                       onClick={() => setMenuOpen(false)}
@@ -279,15 +274,14 @@ const Header = () => {
                     >
                       Admin Dashboard
                     </a>
-                  ) : (
-                    <a
-                      href="/dashboard"
-                      onClick={() => setMenuOpen(false)}
-                      className="text-lg font-semibold text-green-700 hover:text-green-800"
-                    >
-                      Dashboard
-                    </a>
                   )}
+                  <a
+                    href="/dashboard"
+                    onClick={() => setMenuOpen(false)}
+                    className="text-lg font-semibold text-green-700 hover:text-green-800"
+                  >
+                    {profile?.is_admin ? "My Purchases" : "Dashboard"}
+                  </a>
                 </>
               )}
 

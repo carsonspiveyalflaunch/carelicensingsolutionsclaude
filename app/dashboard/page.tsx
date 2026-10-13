@@ -20,14 +20,11 @@ export default function DashboardPage() {
       router.replace('/');
     }
 
-    if (!loading && user && profile?.is_admin) {
-      router.replace('/admin');
-    }
   }, [loading, user, profile, router]);
 
   useEffect(() => {
     const loadDashboardData = async () => {
-      if (!user || loading || profile?.is_admin) {
+      if (!user || loading) {
         setFetching(false);
         return;
       }
@@ -121,7 +118,7 @@ export default function DashboardPage() {
     );
   }
 
-  if (!user || profile?.is_admin) {
+  if (!user) {
     return null;
   }
 
