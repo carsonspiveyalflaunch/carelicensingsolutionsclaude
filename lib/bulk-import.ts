@@ -72,6 +72,7 @@ export function bundleSlug(state: string, program: Program): string {
 /** lower case, separators to spaces, parentheses and dashes dropped. */
 function norm(value: string): string {
   return value
+    .replace(/[\u200b-\u200d\ufeff]/g, '')
     .toLowerCase()
     .replace(/\.[a-z0-9]+$/i, '')
     .replace(/[_\-—–()&,]+/g, ' ')
