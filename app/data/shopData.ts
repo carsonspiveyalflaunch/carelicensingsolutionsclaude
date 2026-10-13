@@ -1,3 +1,4 @@
+import { PROGRAMS_BY_STATE } from "./programAvailability";
 import LogoImg from "@/public/assets/images/logo-dark-bg.png";
 
 export type Product = {
@@ -82,13 +83,14 @@ export const programCategories = [
   "Personal Home Care",
   "Residential Care (DD)",
   "Residential Treatment (Children)",
+  "Intermediate Care Facilities",
+  "Ambulatory Surgical Centers",
 ];
 
-// which programs are available in each state (slug names)
-// for simplicity we include all categories in every state; this can
-// be customized per-code later.
+// which programs are available in each state, from the Drive asset folder
+// (see app/data/programAvailability.ts)
 export const statePrograms: Record<string, string[]> = states.reduce((acc, s) => {
-  acc[s.code] = [...programCategories];
+  acc[s.code] = [...(PROGRAMS_BY_STATE[s.code] || [])];
   return acc;
 }, {} as Record<string, string[]>);
 

@@ -9,7 +9,9 @@ import {
   HomeIcon,
   Hospital,
   HeartPulse,
-  HeartHandshake
+  HeartHandshake,
+  Landmark,
+  Syringe
 } from "lucide-react";
 
 export const programTypeIcons: { [key: string]: React.ReactNode } = {
@@ -22,5 +24,7 @@ export const programTypeIcons: { [key: string]: React.ReactNode } = {
   "Group Homes for Children": <Home className="w-5 h-5" />,
   "Personal Home Care": <Stethoscope className="w-5 h-5" />,
   "Residential Care (DD)": <Accessibility className="w-5 h-5" />,
-  "Residential Treatment (Children)": <HomeIcon className="w-5 h-5" />
+  "Residential Treatment (Children)": <HomeIcon className="w-5 h-5" />,
+  "Intermediate Care Facilities": <Landmark className="w-5 h-5" />,
+  "Ambulatory Surgical Centers": <Syringe className="w-5 h-5" />
 };

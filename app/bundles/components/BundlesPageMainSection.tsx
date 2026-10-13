@@ -5,6 +5,7 @@ import { Clock, CheckCircle, Gift, Settings, Package, Star, BookOpen, ShoppingCa
 import { useRouter } from "next/navigation";
 import { useCart } from "../../components/cart-context";
 import useBuyNow from "../../components/useBuyNow";
+import { programsForState } from "../../data/programAvailability";
 
 const stateNames: { [abbr: string]: string } = {
   AL: "Alabama",
@@ -60,16 +61,7 @@ const stateNames: { [abbr: string]: string } = {
   DC: "District of Columbia",
 };
 
-const programTypes = [
-  "Home Health Agencies",
-  "Nursing Facilities",
-  "Assisted Living Facilities",
-  "Group Homes for Children",
-  "Adult Day Care Programs",
-  "Child Care Facilities",
-  "Residential Care (Developmental Disabilities)",
-  "Home Care Organizations (Non-Medical)",
-];
+
 
 export default function BundlesPageMainSection() {
   const router = useRouter();
@@ -77,6 +69,7 @@ export default function BundlesPageMainSection() {
   const { buyNow, loading: buyLoading } = useBuyNow();
   const [selectedState, setSelectedState] = useState("");
   const [selectedType, setSelectedType] = useState("");
+  const programTypes = useMemo(() => programsForState(selectedState), [selectedState]);
   const [timeLeft, setTimeLeft] = useState({
     hours: 0,
     minutes: 10,
@@ -177,11 +170,14 @@ export default function BundlesPageMainSection() {
                 </label>
                 <select
                   value={selectedState}
-                  onChange={(e) => setSelectedState(e.target.value)}
+                  onChange={(e) => {
+                    setSelectedState(e.target.value);
+                    setSelectedType("");
+                  }}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700"
                 >
                   <option value="">Select Your State</option>
-                  {Object.entries(stateNames).map(([abbr, name]) => (
+                  {Object.entries(stateNames).filter(([abbr]) => programsForState(abbr).length > 0).map(([abbr, name]) => (
                     <option key={abbr} value={abbr}>
                       {name}
                     </option>

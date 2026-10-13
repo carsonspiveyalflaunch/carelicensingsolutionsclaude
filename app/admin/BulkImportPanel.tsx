@@ -3,6 +3,10 @@
 import { useMemo, useRef, useState } from "react";
 import { FolderUp, CheckCircle2, AlertTriangle, Loader2, RotateCcw } from "lucide-react";
 import { adminFetch } from "@/utils/admin-fetch";
+import { programsForState } from "@/app/data/programAvailability";
+import { states as SHOP_STATES } from "@/app/data/shopData";
+
+const STATE_CODES: Record<string, string> = Object.fromEntries(SHOP_STATES.map((s) => [s.name, s.code]));
 import {
   PROGRAMS,
   RESOURCE_TITLE,
@@ -44,15 +48,19 @@ export default function BulkImportPanel() {
     }
     let complete = 0;
     const gaps: { state: string; program: string; missing: string[] }[] = [];
+    let total = 0;
     for (const state of STATES) {
-      for (const program of PROGRAMS) {
+      // Only bundles this state sells (see app/data/programAvailability.ts).
+      const offered = programsForState(STATE_CODES[state]);
+      for (const program of PROGRAMS.filter((p) => offered.includes(p))) {
+        total += 1;
         const have = byBundle.get(`${state}|${program}`) || new Set<Resource>();
         const missing = RESOURCES.filter((r) => !have.has(r));
         if (missing.length === 0) complete += 1;
         else gaps.push({ state, program, missing: missing.map((r) => RESOURCE_TITLE[r]) });
       }
     }
-    return { complete, gaps, total: STATES.length * PROGRAMS.length };
+    return { complete, gaps, total };
   }, [plan]);
 
   const onPick = (list: FileList | null) => {
@@ -68,7 +76,10 @@ export default function BulkImportPanel() {
       classified.push(c);
     }
     filesByPath.current = map;
-    setPlan(planUploads(classified));
+    // Skip bundles this state doesn't sell (e.g. the P&L copy for programs a state lacks).
+    setPlan(
+      planUploads(classified).filter((p) => programsForState(STATE_CODES[p.state]).includes(p.program)),
+    );
     setSkipped(skips);
     setFailed([]);
     setDone(0);
@@ -163,7 +174,7 @@ export default function BulkImportPanel() {
               <p className="text-2xl font-semibold text-slate-900">
                 {coverage.complete} / {coverage.total}
               </p>
-              <p className="text-xs font-medium uppercase tracking-wide text-slate-600">Bundles with all 4 files</p>
+              <p className="text-xs font-medium uppercase tracking-wide text-slate-600">Bundles with all files</p>
             </div>
             <div className="rounded-md bg-amber-50 p-4">
               <p className="text-2xl font-semibold text-amber-900">{skipped.length.toLocaleString()}</p>

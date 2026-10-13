@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import { programsForState } from "../data/programAvailability";
 import GetStartedComponentOne from "./GetStartedComponentOne";
 import GetStartedComponentTwo from "./GetStartedComponentTwo";
 import GetStartedComponentThree from "./GetStartedComponentThree";
@@ -115,8 +116,20 @@ export default function GetStartedSteps() {
         key: "Residential Treatment (Children)",
         desc: "Licensed residential treatment for children services",
       },
-    ],
-    [],
+      {
+        key: "Intermediate Care Facilities",
+        desc: "Licensed intermediate care facility services",
+      },
+      {
+        key: "Ambulatory Surgical Centers",
+        desc: "Licensed ambulatory surgical center services",
+      },
+    ].filter((type) => {
+      // Only programs this state actually offers (from the Drive asset folder).
+      const offered = programsForState(selectedState);
+      return !selectedState || offered.includes(type.key);
+    }),
+    [selectedState],
   );
 
   // Modal state must be declared at the top level

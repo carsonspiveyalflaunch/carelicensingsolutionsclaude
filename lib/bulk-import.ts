@@ -25,6 +25,8 @@ export const PROGRAMS = [
   'Personal Home Care',
   'Residential Care (DD)',
   'Residential Treatment (Children)',
+  'Intermediate Care Facilities',
+  'Ambulatory Surgical Centers',
 ] as const;
 export type Program = (typeof PROGRAMS)[number];
 
@@ -90,7 +92,8 @@ export function classifyProgram(raw: string): Program | null {
   const n = norm(raw);
   if (!n) return null;
 
-  if (/ambulatory|surg/.test(n)) return null;
+  if (/ambulatory|surg/.test(n)) return 'Ambulatory Surgical Centers';
+  if (/intermediate care/.test(n)) return 'Intermediate Care Facilities';
   if (/residential treatment|\brtf\b|childrens rtf/.test(n)) return 'Residential Treatment (Children)';
   if (/group homes? for children|children group ?home|dd children group ?home/.test(n)) return 'Group Homes for Children';
   if (/hospice/.test(n)) return 'Hospice Programs';
@@ -100,8 +103,6 @@ export function classifyProgram(raw: string): Program | null {
   if (/home care|homemaker|companion|personal assistance|home and community based care|private pay home/.test(n)) {
     return 'Personal Home Care';
   }
-  if (/intellectual disabilit/.test(n)) return 'Residential Care (DD)';
-  if (/intermediate care/.test(n)) return null;
   if (/nursing|\bsnf\b/.test(n)) return 'Nursing Facilities (SNF)';
   if (
     /developmental|habilitation|\bdd\b|mental illness|community|group homes? for adults|group homes?$|residential services|^residential facilities/.test(n)
