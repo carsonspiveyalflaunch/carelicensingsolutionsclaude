@@ -128,32 +128,46 @@ export default function DashboardClient({
           // If full bundle was purchased, don't filter (show all files)
           const itemsToShow = hasFullBundlePurchase ? null : (purchasedItemNames.size > 0 ? purchasedItemNames : null);
 
-          const files = data
-            .filter((file: any) => file?.name)
-            .map((file: any) => {
-              const path = `${bundle.products.product_slug}/${file.name}`;
-              const filename = file.name;
-              const label = filename
-                .replace(/\.[^/.]+$/, "")
-                .replace(/[-_]+/g, " ")
-                .replace(/\d+/g, "")
-                .trim();
-              const { data: publicUrlData } = client.storage
-                .from(
-                  process.env.NEXT_PUBLIC_SUPABASE_STORAGE_BUCKET ||
-                    "bundle-files",
-                )
-                .getPublicUrl(path);
+          const listed = data.filter(
+            (file: any) => file?.name && !file.name.startsWith("."),
+          );
+          const paths = listed.map(
+            (file: any) => `${bundle.products.product_slug}/${file.name}`,
+          );
 
-              return {
-                label: label || filename,
-                name: filename,
-                type: file.metadata?.contentType || "application/octet-stream",
-                size: file.size || 0,
-                path,
-                url: publicUrlData?.publicUrl,
-              };
+          // The bucket is private: hand out short-lived download links
+          // (1 hour) instead of permanent public URLs.
+          const signedByPath: Record<string, string> = {};
+          if (paths.length > 0) {
+            const { data: signed } = await client.storage
+              .from(
+                process.env.NEXT_PUBLIC_SUPABASE_STORAGE_BUCKET ||
+                  "bundle-files",
+              )
+              .createSignedUrls(paths, 60 * 60);
+            (signed || []).forEach((s: any) => {
+              if (s?.path && s?.signedUrl) signedByPath[s.path] = s.signedUrl;
             });
+          }
+
+          const files = listed.map((file: any) => {
+            const path = `${bundle.products.product_slug}/${file.name}`;
+            const filename = file.name;
+            const label = filename
+              .replace(/\.[^/.]+$/, "")
+              .replace(/[-_]+/g, " ")
+              .replace(/\d+/g, "")
+              .trim();
+
+            return {
+              label: label || filename,
+              name: filename,
+              type: file.metadata?.contentType || "application/octet-stream",
+              size: file.size || 0,
+              path,
+              url: signedByPath[path],
+            };
+          });
 
           return { id: bundle.id, files, purchasedItems: itemsToShow ? Array.from(itemsToShow) : null };
         }),

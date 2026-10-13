@@ -75,7 +75,7 @@ export async function POST(request: Request) {
         if (!bucketExists) {
           console.log(`Creating storage bucket: ${bucket}`);
           const { error: createBucketError } = await supabase.storage.createBucket(bucket, {
-            public: true,
+            public: false, // paid files: customers get signed links from their dashboard
             allowedMimeTypes,
             fileSizeLimit: 10485760, // 10MB
           });
