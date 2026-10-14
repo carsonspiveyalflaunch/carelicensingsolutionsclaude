@@ -1,9 +1,6 @@
 {
-  "note": "Pilot v2 retry: policy-only official items; offline fallback.",
-  "slugs": [
-    "maryland-residential-care-dd-complete-bundle",
-    "california-assisted-living-facilities-complete-bundle"
-  ],
-  "workers": 2,
+  "note": "Full run v2: remaining manuals (official requirement documents first). Existing manuals are skipped.",
+  "slugs": [],
+  "workers": 4,
   "budget_usd": 280
 }
