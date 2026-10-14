@@ -17,6 +17,12 @@ const TARGETS: { match: RegExp; name: string; type: string }[] = [
     name: "pro-forma-pl-template.xlsx",
     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   },
+  { match: /Policy and Procedure Manual\.pdf$/i, name: "policy-procedure-manual.pdf", type: "application/pdf" },
+  {
+    match: /Policy and Procedure Manual\.docx$/i,
+    name: "policy-procedure-manual-editable.docx",
+    type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  },
   {
     match: /Licensing Checklist\.xlsx$/i,
     name: "licensing-checklist.xlsx",

@@ -1,0 +1,61 @@
+name: Manual pipeline
+# Policy & Procedure Manuals. Runs when content-factory/pipeline/manual-request.json changes (or manually).
+on:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Comma-separated bundle slugs (blank = all bundles without a manual)"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - content-factory/pipeline/manual-request.json
+permissions:
+  contents: write
+concurrency:
+  group: content-pipeline
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install LibreOffice, fonts and Python packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-writer libreoffice-calc fonts-liberation > /dev/null
+          pip install -q anthropic openpyxl weasyprint markdown pypdf python-docx
+      - name: Run manual pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INPUT_SLUGS: ${{ github.event.inputs.slugs }}
+        run: |
+          REQ=content-factory/pipeline/manual-request.json
+          SLUGS="${INPUT_SLUGS}"; BUDGET=280; WORKERS=3
+          if [ -z "$SLUGS" ] && [ -f "$REQ" ]; then
+            SLUGS=$(python3 -c "import json;print(','.join(json.load(open('$REQ')).get('slugs',[])))")
+            BUDGET=$(python3 -c "import json;print(json.load(open('$REQ')).get('budget_usd',280))")
+            WORKERS=$(python3 -c "import json;print(json.load(open('$REQ')).get('workers',3))")
+          fi
+          export BUDGET_USD=$BUDGET
+          python3 content-factory/pipeline/manuals.py --slugs "$SLUGS" --workers "$WORKERS"
+      - name: Save results to the repo
+        if: always()
+        run: |
+          git config user.name "cls-factory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content-factory/manuals content-factory/status content-factory/pipeline/work || true
+          git commit -m "Manual pipeline results [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break || sleep 5; done
+      - name: Upload manuals
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: policy-manuals
+          path: content-factory/output/**/*Policy and Procedure Manual*
+          if-no-files-found: ignore
