@@ -7,6 +7,13 @@ Read first (all local files):
 - /home/claude/carelicensingsolutionsclaude/content-factory/reference/oklahoma/OK_market_research.txt — the quality bar for the report (structure, tone, "verified numbers only", "what this report does not claim").
 - The Oklahoma P&L and checklist in the same folder (open with python/openpyxl) to see the depth expected.
 
+Also read the finished example bundles in /home/claude/carelicensingsolutionsclaude/content-factory/research/
+(california-assisted-living…, florida-assisted-living…, texas-home-health…) — they passed an independent
+fact-check and show exactly the depth, structure and caveats expected. Read the "Lessons from the pilot
+fact-check" section of SCHEMA.md carefully; a separate fact-checker will check your numbers against them.
+If /home/claude/carelicensingsolutionsclaude/content-factory/packs/{STATE_CODE}.json exists, reuse its
+verified state facts (minimum wage, BLS wages, entity fees, Medicaid agency, contacts) and cite its sources.
+
 Tools: WebSearch and WebFetch for research. Google Drive is READ-ONLY for you (load with ToolSearch
 "select:mcp__Google_Drive__search_files,mcp__Google_Drive__read_file_content"); never create, edit,
 move, share or delete Drive files. The previous (unreliable) versions of this bundle's files are:

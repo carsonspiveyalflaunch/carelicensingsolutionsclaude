@@ -126,6 +126,39 @@ must trace to a source.
 }
 ```
 
+## Lessons from the pilot fact-check (follow these — they were the most common errors)
+
+- **Rent, utilities and other building costs are `fixed`, never `per_client`.** Size them per configuration
+  with `opex_overrides` (e.g. per licensed bed × beds). Vacant beds still cost rent.
+- **Entity-level taxes/fees by size:** state LLC/franchise/gross-receipts taxes, annual reports, business
+  licenses. Size them per configuration (overrides). Check whether small homes are exempt from local licenses.
+- **Wages:** statewide BLS is fine, but if a major metro has a higher local minimum wage than the modeled
+  wage, say so in `financial_narrative` and `risks` with the result at that wage (recompute it).
+  Keep leadership and field wages from the same geography as the revenue rates.
+- **Fees:** state exactly when each fee is paid (with the application vs at issuance) and use the 2026 value
+  (e.g. Medicaid provider enrollment application fee CY2026 = $750 — verify).
+- **License category / application choices** must match the rule text exactly (e.g. "licensed and certified").
+- **Timelines:** quote the rule's actual steps (e.g. 45 days completeness + 45 days decision), not a summary.
+- **Managed care / Medicare Advantage rates** have no public fee schedule. Use a citable benchmark (10-K
+  filings, MedPAC, state rate studies) and label it an assumption in notes + `not_claimed`; state in the
+  narrative the rate at which the default configuration breaks even.
+- **Unsourced productivity assumptions** (hours per visit, visits per day) must be labeled
+  "operator estimate — verify locally", with a sensitivity paragraph showing the result at a worse value.
+- **Private-pay benchmarks:** say what the survey measures (e.g. CareScout = private one-bedroom in an AL
+  community) and caveat it when applied to small residential homes.
+- **Mandatory vendors/equipment** the rules require (survey vendors like HHCAHPS, AEDs above a bed count,
+  generators, EVV) need a cost line even when the price is an operator estimate.
+- Every URL must actually contain the claim. Do not cite a news article that 404s; cite the primary source.
+
+## Optional fields the generators support
+
+- `configurations[].ramp`: `{start_clients, add_per_month, note}` — overrides the bundle ramp (larger homes
+  admit more per month).
+- `startup_costs[].category`: `"working_capital"` (advisory reserve, replaced in totals by the modeled ramp-up
+  deficit) or `"required_reserve"` (cash the rules require you to show).
+- `startup_costs[].min_capacity`: only applies to configurations at or above this capacity (e.g. AED at 17+).
+- Startup `low`/`high` ranges are scaled by configuration size (smallest config → low, largest → high).
+
 Notes on the financial model
 - `rate × units_per_client_month × share_of_clients` summed over lines = revenue per client per month.
   Use `share_of_clients` for payer mix (e.g. 0.7 private pay at $5,500 + 0.3 ALW at $95.69 × 30.42).

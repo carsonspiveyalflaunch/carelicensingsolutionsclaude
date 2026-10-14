@@ -1,0 +1,35 @@
+name: API key check
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/key-check.yml
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test the Anthropic API key with one tiny call
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          mkdir -p content-factory/status
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "missing: ANTHROPIC_API_KEY secret not set $(date -u +%FT%TZ)" > content-factory/status/key-check.txt
+          else
+            code=$(curl -s -o /tmp/resp.json -w "%{http_code}" https://api.anthropic.com/v1/messages \
+              -H "x-api-key: $ANTHROPIC_API_KEY" -H "anthropic-version: 2023-06-01" -H "content-type: application/json" \
+              -d '{"model":"claude-haiku-5-5","max_tokens":5,"messages":[{"role":"user","content":"Say OK"}]}')
+            err=$(python3 -c "import json;d=json.load(open('/tmp/resp.json'));print(d.get('error',{}).get('message',''))" 2>/dev/null)
+            echo "http $code $err $(date -u +%FT%TZ)" > content-factory/status/key-check.txt
+          fi
+          cat content-factory/status/key-check.txt
+      - name: Save result
+        run: |
+          git config user.name "cls-factory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content-factory/status/key-check.txt
+          git commit -m "API key check result [skip ci]" || exit 0
+          git push
