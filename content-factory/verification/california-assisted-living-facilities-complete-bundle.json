@@ -1,0 +1,176 @@
+{
+  "bundle_slug": "california-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Most material numbers check out against primary sources: HSC §1569.185 fee table; DHCS ALW Tier 1–5 rates ($95.69–$270.80), G9002/G9001/T2017/T2024; the 2023 ALW comparison; ALW enrollment/waitlist (14,831 / 15,910, March 2026); SSI/SSP $1,626.07 and $1,444.07/$182; the $16.90 2026 minimum wage; every BLS OEWS May 2025 CA wage used (17.51, 40.01, 39.59, 23.03, 22.08 — pulled from BLS OESServices); CareScout $7,000/$6,200; APFM $5,739/$6,850; Genworth $70,800; NIC 88.4%; USDA food $329.90/$363.90; EDD 2026 rates; LLC-1/LLC-12; the $800 FTB tax; admin cert fees ($100/$140/$300; 80/60 hrs; 40 CE incl. 8 dementia; 60-day exam); orientation $54.85; the 90–120 day timeline, CAB address/phone/email; ASCP, ACB, ombudsman and CDSS phones; 22 CCR §§87155(a)(13), 87307, 87303, 87405, 87411, 87415, 87465, 87507, 87632, 87706; HSC §§1569.605, 1569.616, 1569.625, 1569.69, 1569.84, 1569.85; W&I §15630; PPIC; the CHHS RCFE counts (recomputed exactly); San Diego FMR. Staffing meets the cited rules (one person on premises 24/7 beats the §87415 on-call rule for <16 beds). P&L recomputation matches the narrative table. Main problems: (1) the $17.51 caregiver wage is below 2026 local minimums in LA, San Diego, San Jose and SF, and at those minimums the 6-bed default turns unprofitable; (2) the mandatory FTB LLC fee ($900/$2,500/$6,000) is missing from every configuration; (3) the Medi-Cal enrollment fee is $750 for 2026, not $730; (4) the initial/application fee is described as charged at license issuance when it is paid with the application; (5) checklist[5] tells operators to get a city business license, which HSC §1569.185(b)(2) bars for 6-or-fewer homes. Not independently retrievable (HUD blocked): non-San Diego FMR values; WCIRB 9070 class rate (already in not_claimed).",
+  "verified_count": 96,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[*].staffing[role contains 'Caregiver'].wage_hourly",
+      "current": 17.51,
+      "correct": "17.51 statewide is valid, but add a local-minimum sensitivity: City of Los Angeles $18.42 (7/1/2026), unincorporated LA County $18.47, San Diego city $17.75, San Jose $18.45, Santa Clara $18.70, San Francisco $19.61",
+      "evidence": "BLS OEWS May 2025 CA 31-1120 mean $17.51 (median $16.50) confirmed via BLS OESServices CA table, and it is above the $16.90 state minimum. But $17.51 is below the legal minimum in the high-cost metros the report uses as rent examples (LA, San Diego, San Jose, SF). Recomputed with the bundle's own formulas at 88% occupancy: at $18.42 for caregivers, rcfe6_private goes from +$781/mo to -$134/mo, rcfe6x2_private from +$2,081 to +$514, and rcfe6_mixed_alw from -$1,142 to -$2,057. So the 'profitable' 6-bed default turns negative in LA.",
+      "source_url": "https://www.dwt.com/blogs/employment-labor-and-benefits/2026/06/california-local-minimum-wage-increases-july-2026",
+      "fix": "Keep 17.51 with S38. Add a source for 2026 local minimum wages (DWT July-2026 list and CalChamber Jan-2026 list, https://hrcalifornia.calchamber.com/articles/california-local-minimum-wage-rates-increases-starting-january-1-2026). In financial_narrative and risks, say the 6-bed private model goes break-even or negative at the LA/San Diego/Bay Area local minimum, and tell users to set wage_hourly to max(17.51, local minimum)."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.opex[item='California LLC annual tax ÷ 12']",
+      "current": {
+        "monthly": 66.67,
+        "notes": "... LLC fee also applies above $250k California income ($900–$2,500 for these sizes)."
+      },
+      "correct": "Add the mandatory FTB LLC fee to each configuration: 6-bed (~$390k/yr gross) $900/yr = $75/mo; two 6-bed homes (~$780k) $2,500/yr = $208.33/mo; 15-bed (~$1.002M at 88%) $6,000/yr = $500/mo",
+      "evidence": "FTB LLC fee schedule: $250,000–$499,999 = $900; $500,000–$999,999 = $2,500; $1,000,000–$4,999,999 = $6,000. Annual revenue at default occupancy from the bundle's own inputs: rcfe6_private $32,521×12 = $390k; rcfe6x2 $65,042×12 = $780k; rcfe15 $83,523×12 = $1,002k. No configuration includes the fee, and the note's '$900–$2,500 for these sizes' is wrong for the 15-bed model, which falls in the $6,000 bracket.",
+      "source_url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company",
+      "fix": "Add a fixed opex line 'California LLC fee (gross-receipts based) ÷ 12', source S55: 75 base; opex_overrides 208.33 for rcfe6x2_private and 500 for rcfe15_private. Change the note to '$900 / $2,500 / $6,000 depending on total CA income'. In checklist[2], add the $6,000 bracket for $1M–$4,999,999 and say a 15-bed home at the model's prices crosses $1M."
+    },
+    {
+      "severity": "major",
+      "json_path": "checklist[68].instructions; sections.licensing_pathway (cost table + ALW track); sections.recommendations item 5; financial_model.startup_costs[item='Medi-Cal ALW enrollment fee (optional)'].high; sources[S48].title",
+      "current": 730,
+      "correct": 750,
+      "evidence": "DHCS Application Fees page: 'The application fee amount for the calendar year 2026 is $750.00.' ... 'for the calendar year 2025 was $730.00.' The DHCS RCFE/ARF page (S48) still shows $730 with no year, so it is out of date.",
+      "source_url": "https://www.dhcs.ca.gov/providers-partners/application-fees/",
+      "fix": "Replace $730 with $750 (CY2026) everywhere, add the DHCS Application Fees page as a source, and cite it for the fee."
+    },
+    {
+      "severity": "major",
+      "json_path": "checklist[50].instructions; checklist[57].task/instructions; sections.licensing_pathway step 11; sections.licensing_pathway step 7",
+      "current": "Application fee paid with the packet; 'The initial license fee is charged at issuance ($990 for 4–6 beds...)'; step 11 'License issued; initial fee charged'",
+      "correct": "The $990 (4–6) / $1,486.80 (7–15) amount IS the non-refundable application fee and is paid with the application. No separate fee is charged at issuance. The annual fee ($495.60 / $742.80) is due on each license anniversary.",
+      "evidence": "HSC §1569.185(a)(1): 'An application fee adjusted by facility and capacity shall be charged by the department for the issuance of a license'. The table columns are 'Capacity / Initial Application / Annual'. CDSS CAB page: 'Submit the application with the nonrefundable fee. The proposed facility address must appear on the check.'",
+      "source_url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-2/section-1569-185/",
+      "fix": "checklist[50]: 'Include the non-refundable application fee ($990 for 4–6 beds; $1,486.80 for 7–15) payable to CDSS, with the applicant name and facility address on the check.' checklist[57]: 'Receive and post the license; calendar the annual fee...' (remove 'pay the initial license fee'). Step 11: 'License issued.' Move the fee to step 7."
+    },
+    {
+      "severity": "major",
+      "json_path": "checklist[5]",
+      "current": "Get a city business license (RCFEs serving 6 or fewer are exempt from business taxes and fees other family dwellings don't pay). ... cite: HSC §1569.84",
+      "correct": "For 6 or fewer: a local jurisdiction may not impose a business license, fee or tax for operating the facility (HSC §1569.185(b)(2)). Check local minimum wage. For 7+ beds, check city business license rules.",
+      "evidence": "HSC §1569.185(b)(2): 'A local jurisdiction shall not impose a business license, fee, or tax for the privilege of operating a facility licensed under this chapter that serves six or fewer persons.' §1569.84 is about fire-inspection fees, not business licenses.",
+      "source_url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-2/section-1569-185/",
+      "fix": "Rewrite the instructions as above. Change cite to 'HSC §1569.185(b)(2); DIR MW-2026' and source_id to S1."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[3].phone; contacts[5].contact",
+      "current": "(916) 552-9105 (option 5, then 2) for enrollment packets",
+      "correct": null,
+      "evidence": "The cited source S47 (DHCS RCFE/ARF provider enrollment page) lists no phone number. It says to email ProFacWAIVER@dhcs.ca.gov and WaiveProEnroll@dhcs.ca.gov. 916-552-9105 appears on DHCS's HCBS Provider Summary page as the In-Home Operations number for HCBS waiver provider information, with no menu options and no ALW reference.",
+      "source_url": "https://www.dhcs.ca.gov/services/long-term-care-alternatives-home-and-community-based-service-options/provider-enrollment-for-residential-care-facilities-for-the-elderly-and-adult-residential-facilities/",
+      "fix": "Unverifiable for ALW: remove the phone (leave it blank) and keep the two emails, or relabel it '916-552-9105 (DHCS In-Home Operations, general HCBS waiver provider info)' citing https://www.dhcs.ca.gov/providers-partners/home-and-community-based-services-provider-summary/. Drop 'option 5, then 2'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[id=rcfe6_memory].notes",
+      "current": "Awake night staff required (22 CCR §87705(c)).",
+      "correct": "22 CCR §87705(b)(2)",
+      "evidence": "Cornell LII text: '(b) Licensees shall be responsible for the following: ... (2) For facilities with fewer than 16 residents, ensuring there is at least one night staff person awake and on duty if any resident with dementia is determined ... to require awake night supervision.'",
+      "source_url": "https://www.law.cornell.edu/regulations/california/22-CCR-87705",
+      "fix": "Change '§87705(c)' to '§87705(b)(2)'. Also, the requirement applies only when a dementia resident needs awake supervision; it is not automatic."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[7] (SSI/SSP basic services rate); rates[9]; financial_model.configurations[id=rcfe6_mixed_alw].revenue_lines[2].source_id",
+      "current": "source_id S6 (CALA, secondary)",
+      "correct": "Same values ($1,444.07; $182 P&I; $706.07 R&B + $738 C&S) but cite an official source",
+      "evidence": "CALA confirms $1,444.07 / $182 / $706.07 / $738 eff. 1/1/2026. SCHEMA rule 1 limits secondary sources to market-size figures. DHCS's official ALW Program Description says 'the resident is responsible to pay for their own room and board' and gives the SSI-minus-P&I amount ($1,398.07 in 2024). The 2026 total grant of $1,626.07 is official (S5).",
+      "source_url": "https://www.dhcs.ca.gov/services/ltc/Documents/ALW-Program-Descriptand-Elig-2024.pdf",
+      "fix": "Add the DHCS ALW Program Description as an official source for 'resident pays room and board at the SSI rate less P&I'. Derive $1,444.07 as S5 $1,626.07 − $182 P&I and cite the CDSS SSI/SSP rate ACIN if available. Keep CALA as secondary only."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[0..] (RCFE count) ; sections.executive_summary; sections.market_conditions",
+      "current": "7,830 licensed RCFEs / 172,751 beds; 6,265 ≤6 beds; 320 7–15; 1,245 16+",
+      "correct": "Figures reproduce exactly for status = 'LICENSED'. Including the 23 'ON PROBATION' facilities (still licensed) gives 7,853 / 173,879 (6,275 / 321 / 1,257).",
+      "evidence": "Recomputed from the CHHS RCFE CSV (file_date 05252025): LICENSED-only = 7,830 facilities / 172,751 capacity; size bins 6,265 / 320 / 1,245, capacities 36,818 / 3,819 / 132,114. Top-10 county counts match.",
+      "source_url": "https://data.chhs.ca.gov/dataset/ccl-facilities",
+      "fix": "Keep the numbers but add 'status = LICENSED; excludes 23 facilities on probation and 132 CCRCs'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[11].source_id",
+      "current": "S37 only",
+      "correct": "S37 (minimum wage) and S38 (BLS $17.51)",
+      "evidence": "$17.51 comes from BLS OEWS (S38), not the DIR release.",
+      "source_url": "https://www.bls.gov/oes/current/oes_ca.htm",
+      "fix": "Cite both S37 and S38, or split into two rows."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[8].source_id",
+      "current": "S7",
+      "correct": "S7 + S8",
+      "evidence": "The awake-night-staff-for-dementia part of the value comes from 22 CCR §87705(b)(2) (S8), not §87415.",
+      "source_url": "https://www.law.cornell.edu/regulations/california/22-CCR-87705",
+      "fix": "Add S8."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S38].title",
+      "current": "... 31-1120, 11-9111, 29-2061, 35-2012, 37-2012",
+      "correct": "Add 11-9151 (Social & Community Service Managers, CA median $40.01) and 31-1131",
+      "evidence": "Every administrator staffing line uses the 11-9151 median ($40.01/hr; annual median $83,210), which the source title doesn't list. Verified values: 31-1120 mean 17.51/median 16.50; 11-9151 mean 46.11/median 40.01; 11-9111 76.52/68.02; 29-2061 mean 39.59; 35-2012 mean 23.03; 37-2012 mean 22.08; 31-1131 24.13/22.90.",
+      "source_url": "https://data.bls.gov/oes/#/area/0600000",
+      "fix": "Add 11-9151 and 31-1131 to the S38 title."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[17].source_id; checklist[4].source_id",
+      "current": "checklist[17] cites 22 CCR §87303 with S9 (§87411); checklist[4] cites §87217 with S21",
+      "correct": "Add sources for 22 CCR §87303 (https://www.law.cornell.edu/regulations/california/22-CCR-87303) and §87217",
+      "evidence": "§87303 content is verified (68°F minimum heat; 105–120°F hot water; cooling 78–85°F), but S9 is §87411.",
+      "source_url": "https://www.law.cornell.edu/regulations/california/22-CCR-87303",
+      "fix": "Add new source entries and repoint the source_ids."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[9].instructions",
+      "current": "Open-book on the RCFE Act and regulations.",
+      "correct": null,
+      "evidence": "60-day exam deadline and $100 fee verified (HSC §1569.616(c)(2); CDSS admin page). Neither source says the exam is open-book.",
+      "source_url": "https://www.cdss.ca.gov/inforesources/community-care/administrator-certification/administrator-information",
+      "fix": "Unverifiable: delete 'Open-book on the RCFE Act and regulations.' or source it."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex[*] and financial_model.startup_costs[*] and opex_overrides[*] lacking source_id",
+      "current": "Utilities, software, phone, vehicle, R&M, marketing, background checks, accounting, supplies, activities, 15-bed lease/utilities/insurance premiums, furniture, modifications, deposits, etc. labeled 'Operator estimate' with no source_id",
+      "correct": null,
+      "evidence": "SCHEMA rule 1: 'No number without a source.' These are disclosed as operator estimates, and only some are listed in not_claimed (insurance premiums, 15-bed rent, WC rate).",
+      "source_url": "https://www.huduser.gov/portal/datasets/fmr.html",
+      "fix": "Add a not_claimed line: 'Operating-cost lines marked Operator estimate (utilities, software, vehicle, maintenance, marketing, accounting, supplies, activities, start-up furnishing/modification costs) are planning placeholders, not sourced figures.' Remove source_id S44 from the rcfe6x2 lease override; HUD FMR doesn't support $5,000/home."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[id=rcfe15_private].opex_overrides[item='Annual license fee ÷ 12 (4–6 beds)'] and [item='Lease — 6-bed home (5-bedroom house)']",
+      "current": "Item names say '4–6 beds' / '6-bed home' while values are for a 15-bed license/property",
+      "correct": "Values are right ($742.80/12 = $61.90; $11,000 lease estimate). Labels are kept only to match base item names.",
+      "evidence": "HSC §1569.185 annual fee for 7–15 beds = $742.80.",
+      "source_url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-2/section-1569-185/",
+      "fix": "Add an optional 'display_label' (e.g., 'Annual license fee ÷ 12 (7–15 beds)', 'Lease — 15-bed property') so customer-facing output doesn't mislabel, or have the generator match on a stable key instead of the item text."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.financial_narrative (Key drivers #3)",
+      "current": "That is above the 4-BR FMR in most metros, but below San Diego ($4,845) plus a licensed-use premium in coastal markets",
+      "correct": "'$5,000 is above the 4-BR FMR in most metros (San Diego $4,845; Orange $5,246 is higher), and coastal licensed-use leases often run higher.'",
+      "evidence": "San Diego FY2026 4-BR FMR $4,845 verified (County of San Diego HACSD FY2026 FMR sheet). As written, the sentence is garbled.",
+      "source_url": "https://www.sandiegocounty.gov/content/dam/sdc/sdhcd/new-docs/Rental_assistance/2026_HACSD_FMR_1-1-2026.pdf",
+      "fix": "Reword as shown."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.startup_costs[item='Start-up funds: 3 months of operating costs (6-bed)']",
+      "current": {
+        "low": 90000,
+        "high": 100000
+      },
+      "correct": "Correct for 6-bed (recomputed ≈ $95.2k = 3 × $31,740). Larger configs need far more: 15-bed ≈ 3 × $63,658 ≈ $191k; two homes ≈ 3 × $62,961 ≈ $189k (each license needs its own 3-month showing).",
+      "evidence": "22 CCR §87155(a)(13): 'Start-up funds shall be sufficient to meet a minimum of three (3) months operating costs.' Monthly costs recomputed with the bundle's own inputs.",
+      "source_url": "https://www.law.cornell.edu/regulations/california/22-CCR-87155",
+      "fix": "Add a note or per-configuration startup override for 15-bed (~$190k) and two-home (~$95k per license) working capital, and cite §87155(a)(13)."
+    }
+  ]
+}

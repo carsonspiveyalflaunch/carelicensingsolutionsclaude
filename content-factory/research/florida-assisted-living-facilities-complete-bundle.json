@@ -1,0 +1,2350 @@
+{
+  "bundle_slug": "florida-assisted-living-facilities-complete-bundle",
+  "state": "Florida",
+  "state_code": "FL",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Assisted Living Facility (ALF) licensed by AHCA under Ch. 429 Part I, F.S. and rule chapter 59A-36, F.A.C. (specialty licenses: ECC, LNS, LMH)",
+  "as_of": "2026-10",
+  "report_title": "Florida Assisted Living Facility (ALF) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Section 429.07, F.S. — License required; fee (2025 Florida Statutes)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.07",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "Assisted Living Facility Licensure Application, AHCA Form 3110-1008 (August 2023) — fee schedule and required attachments",
+      "publisher": "Florida Agency for Health Care Administration (AHCA)",
+      "url": "https://ahca.myflorida.com/content/download/24119/file/Assisted_Living_Facility_Application_AHCA_Form_3110-1008_August2023.doc",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Assisted Living Facility Licensure Fee Increase Letter (CPI adjustment under s. 408.805(2), F.S.)",
+      "publisher": "AHCA Assisted Living Unit",
+      "url": "https://ahca.myflorida.com/content/download/9629/file/ALF_Fee_Increase.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "Section 408.805, F.S. — Fees required; adjustments (annual CPI adjustment)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/408.805",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Rule 59A-36.010, F.A.C. — Staffing Standards",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-010",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Rule 59A-36.011, F.A.C. — Staff Training Requirements and Competency Test (eff. 6/5/2024)",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-011",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Rule 59A-36.021, F.A.C. — Extended Congregate Care Services",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-021",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "Rule 59A-36.022, F.A.C. — Limited Nursing Services (eff. 6/11/2025)",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-022",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Rule 59A-36.020, F.A.C. — Limited Mental Health",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-020",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Section 429.075, F.S. — Limited mental health license",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.075",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "Chapter 59A-36, F.A.C. — Assisted Living Facility (rule list with effective dates)",
+      "publisher": "Florida Department of State, FLRules",
+      "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=59A-36",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Assisted Living Facility — Assisted Living Unit page (contacts, forms, rule authority)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/bureau-of-health-facility-regulation/assisted-living-unit/assisted-living-facility.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Section 429.52, F.S. — Staff training and educational requirements",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.52",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Rule 59A-36.013, F.A.C. — Fiscal Standards (trust funds, surety bonds, liability insurance)",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-013",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Section 429.275, F.S. — Business practice; personnel records; liability insurance",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.275",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Section 429.27, F.S. — Property and personal affairs of residents (surety bond)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.27",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Rule 59A-36.019, F.A.C. — Emergency Management",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-019",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "Rule 59A-36.025, F.A.C. — Emergency Environmental Control for Assisted Living Facilities",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-025",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Rule 59A-36.006, F.A.C. — Admission Procedures, Appropriateness of Placement and Continued Residency Criteria",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-006",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "Rule 59A-36.014, F.A.C. — Physical Plant Standards",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-014",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Rule 59A-36.005, F.A.C. — Inspection Responsibilities",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-005",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "Rule 59A-36.004, F.A.C. — License Requirements",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-004",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Rule 59A-36.003, F.A.C. — Licensing and Change of Ownership",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-003",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Section 429.255, F.S. — Use of personnel; emergency care (AED at 17+ beds)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.255",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Section 419.001, F.S. — Site selection of community residential homes",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/419.001",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Section 429.174, F.S. — Background screening",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.174",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Section 408.809, F.S. — Background screening; prohibited offenses (5-year rescreening)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/408.809",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Section 435.12, F.S. — Care Provider Background Screening Clearinghouse",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/435.12",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Background Screening Unit (contacts, Clearinghouse)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/bureau-of-central-services/background-screening.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Section 409.982, F.S. — Long-term care managed care plan accountability (plans and ALFs negotiate rates)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/409.982",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Section 409.983, F.S. — Long-term care managed care plan payment",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/409.983",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Statewide Medicaid Managed Care Long-term Care Program (AHCA/DCF/DOEA roles)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "SMMC Long-Term Care Recipient FAQs (covered services incl. assisted living; nursing facility level of care; wait list)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program/statewide-medicaid-managed-care-long-term-care-recipient-faqs.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "SMMC LTC Program Waitlist Release and Priority Ranks",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program/smmc-ltc-program-waitlist-release.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "Pick a Long-Term Care Plan (choice counseling)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program/pick-a-long-term-care-plan.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Section 409.212, F.S. — Optional supplementation",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/409.212",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Rule 65A-2.036, F.A.C. — Optional State Supplementation Base Provider Rates and Program Standards (eff. 6/24/2025)",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-65A-2-036",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "2026 Assistive Care Services Fee Schedule (T1020)",
+      "publisher": "AHCA Florida Medicaid",
+      "url": "https://ahca.myflorida.com/content/download/28095/file/2026%20Assistive%20Care%20Services%20Fee%20Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Rule 59G-4.002, Provider Reimbursement Schedules and Billing Codes (fee schedule effective dates)",
+      "publisher": "AHCA Florida Medicaid",
+      "url": "https://ahca.myflorida.com/medicaid/rules/rule-59g-4.002-provider-reimbursement-schedules-and-billing-codes.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "SSI Federal Payment Amounts for 2026",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/cola/SSIamts.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "CareScout Releases 2025 Cost of Care Data for Florida (assisted living annual median $66,000)",
+      "publisher": "CareScout via Business Wire (Mar 2, 2026)",
+      "url": "https://www.businesswire.com/news/home/20260302523108/en/CareScout-Releases-2025-Cost-of-Care-Data-for-Florida",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Long Term Care Costs Increase in Florida On Par with National Costs (CareScout 2024: assisted living $63,885/yr)",
+      "publisher": "CareScout via Business Wire (Mar 2025)",
+      "url": "https://businesswire.com/news/home/20250301664457/en/Long-Term-Care-Costs-Increase-in-Florida-On-Par-with-National-Costs/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Florida Assisted Living — By the Numbers (2,968 communities; 117,384 beds/units; 24% rely on Medicaid)",
+      "publisher": "National Center for Assisted Living (AHCA/NCAL)",
+      "url": "https://www.ahcancal.org/Assisted-Living/Facts-and-Figures/Documents/State%20Facts/Florida-AL.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "Senior Housing Occupancy Climbs in Second Quarter 2026 (assisted living 88.4%, primary markets)",
+      "publisher": "NIC MAP / National Investment Center",
+      "url": "https://www.nic.org/blog/senior-housing-occupancy-climbs-in-second-quarter-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Occupational Employment and Wage Statistics, May 2025, Florida (series OEUS12…: 31-1120, 31-1131, 29-2061, 29-1141, 35-2012, 37-2012, 49-9071, 11-9111)",
+      "publisher": "U.S. Bureau of Labor Statistics (OEWS public data API)",
+      "url": "https://www.bls.gov/oes/current/oes_fl.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Florida Constitution, Art. X, s. 24 — Minimum wage ($15.00 on September 30, 2026)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Constitution",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "Section 448.110, F.S. — Florida Minimum Wage Act",
+      "publisher": "Florida Legislature",
+      "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0448/Sections/0448.110.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "Section 440.02, F.S. — Workers' compensation definitions (four or more employees)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/440.02",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Section 443.131, F.S. — Reemployment assistance contributions (initial rate 2.7%)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/443.131",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "Section 443.1217, F.S. — Wages (first $7,000 taxable)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/443.1217",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "26 U.S.C. §3111 — Employer FICA (6.2% OASDI, 1.45% Medicare)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/uscode/text/26/3111",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "26 U.S.C. §3301 — FUTA rate",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/uscode/text/26/3301",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Section 605.0213, F.S. — LLC filing fees",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/605.0213",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "HUD FY2027 Small Area Fair Market Rent — ZIP 32825 (Orlando-Kissimmee-Sanford MSA), 4BR $3,020",
+      "publisher": "FairMarketRentMap (HUD SAFMR data)",
+      "url": "https://fairmarketrentmap.com/zip/32825",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "FALA 2024 Legislative Priorities whitepaper (SMMC LTC wait list 43,335 on 10/02/2023; ALF Medicaid participation)",
+      "publisher": "Florida Assisted Living Association",
+      "url": "https://assets-002.noviams.com/novi-file-uploads/fala/2024_Legislative_Documents/FALA_Whitepapers_2023_Session_Issues_FINAL_11_03_2023-fa0f5726.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "GAO-26-107884, Assisted Living Facilities: Information on Federal Spending and Medicaid Coverage (Jun 2026)",
+      "publisher": "U.S. Government Accountability Office",
+      "url": "https://files.gao.gov/reports/GAO-26-107884/index.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "QuickFacts: Florida (V2025 population; persons 65+)",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/fact/table/FL/PST045224",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "Online Licensing System",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/online-licensure-information/online-licensing-system.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "HQA Applications for Licensure (ALF application, checklist, Proof of Financial Ability to Operate forms)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/hqa-applications-for-licensure.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S60",
+      "title": "DCF Contact Us (Florida Abuse Hotline 1-800-962-2873)",
+      "publisher": "Florida Department of Children and Families",
+      "url": "https://www.myflfamilies.com/contact-us",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S61",
+      "title": "Current SMMC Program (plans by region, plan contacts for providers)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/current-smmc-program.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S62",
+      "title": "SMMC Re-procurement announcement, April 12, 2024 (ITN 010-22/23)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/content/download/24447/file/Final%20-%204.12.2024%20SMMC%20Reprocurement.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S63",
+      "title": "Rule 59A-36.018, F.A.C. — Resident Contracts",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-018",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S64",
+      "title": "Rule 59A-36.012, F.A.C. — Food Service Standards",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-012",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S65",
+      "title": "Rule 59A-36.015, F.A.C. — Records",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-015",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S66",
+      "title": "Section 429.26, F.S. — Appropriateness of placements; examinations of residents",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.26",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S68",
+      "title": "Section 429.24, F.S. — Contracts",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/429.24",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S69",
+      "title": "Rule 59A-36.008, F.A.C. — Medication Practices",
+      "publisher": "Florida Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-008",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S70",
+      "title": "Get an employer identification number",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Standard license fee (biennial, as charged by AHCA)",
+      "value": "$387.73 + $64.96 per private-pay bed (OSS beds exempt); cap $14,253.64; + $2/bed assessment (max $300)",
+      "source_id": "S2",
+      "as_of": "Form 3110-1008, Aug 2023"
+    },
+    {
+      "metric": "Statutory base fee (pre-CPI)",
+      "value": "$300 + $50/resident, cap $10,000; ECC +$400 + $10/res; LNS +$250 + $10/res",
+      "source_id": "S1",
+      "as_of": "2025 F.S."
+    },
+    {
+      "metric": "ECC / LNS / LMH add-on fees (as charged)",
+      "value": "ECC $546.07 + $10.15/bed; LNS $322.77 + $10.15/bed; LMH $0",
+      "source_id": "S2",
+      "as_of": "2023 form"
+    },
+    {
+      "metric": "Minimum staff hours per week",
+      "value": "168 (0–5 res.), 212 (6–15), 253 (16–25), 294 (26–35) … +42 per 20 over 95",
+      "source_id": "S5",
+      "as_of": "Rule 59A-36.010"
+    },
+    {
+      "metric": "Awake overnight staff",
+      "value": "Required at 17+ residents",
+      "source_id": "S5",
+      "as_of": "Rule 59A-36.010(3)(a)4"
+    },
+    {
+      "metric": "Administrator training",
+      "value": "26-hr core + competency test (75%) within 90 days; 12 hrs CE every 2 years",
+      "source_id": "S6",
+      "as_of": "eff. 6/5/2024"
+    },
+    {
+      "metric": "Florida private-pay assisted living median",
+      "value": "$66,000/yr (about $5,500/mo); 2024: $63,885",
+      "source_id": "S41",
+      "as_of": "2025"
+    },
+    {
+      "metric": "Medicaid assisted living payment",
+      "value": "SMMC LTC plans negotiate rates with each ALF — no public state rate table",
+      "source_id": "S30",
+      "as_of": "current"
+    },
+    {
+      "metric": "OSS base provider rate (room & board) / PNA",
+      "value": "$991.40/mo / $160",
+      "source_id": "S37",
+      "as_of": "eff. 6/24/2025"
+    },
+    {
+      "metric": "Medicaid Assistive Care Services (T1020)",
+      "value": "$15.58/day",
+      "source_id": "S38",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Florida minimum wage",
+      "value": "$15.00/hr from Sept 30, 2026 ($14.00 from Sept 30, 2025)",
+      "source_id": "S46",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Supply",
+      "value": "2,968 communities; 117,384 beds/units; 24% of residents rely on Medicaid",
+      "source_id": "S43",
+      "as_of": "NCAL fact sheet; data from National Post-acute and Long-Term Care Study 2020 and state licensure website"
+    }
+  ],
+  "not_claimed": [
+    "SMMC LTC plan payment rates to ALFs. Plans negotiate privately (s. 409.982, F.S.) and no public rate table or average was found. The model uses the public ACS rate as a floor only.",
+    "A current statewide SMMC LTC wait list count. The latest sourced figure is 43,335 (Oct 2, 2023, via FALA public records request).",
+    "Competitor names, market shares or regional bed saturation — no public source.",
+    "Florida-only assisted living occupancy — NIC MAP primary-market figure (88.4%) is national.",
+    "AHCA processing time for initial ALF licenses — AHCA publishes none.",
+    "Liability insurance premium levels and workers' comp rates — no rule minimum or public Florida ALF rate found; operator estimates used.",
+    "Lease costs for 14- and 36-bed buildings — the HUD-based $578.83 per licensed bed is applied to larger buildings as an operator estimate.",
+    "The 2026 COLA-adjusted OSS base provider rate — rule text shows $991.40 (eff. 6/24/2025); confirm current figure with DCF.",
+    "Break-even month — the generator computes it from inputs; no sourced figure is claimed.",
+    "Florida small-home (6–14 bed) or shared-room private-pay rates — no public source. The $5,500 CareScout median is for a private one-bedroom unit in an assisted living community and may overstate small-home revenue.",
+    "Share of Florida ALFs limiting Medicaid admissions — only source is a 2019 survey whose report link is dead."
+  ],
+  "regulators": [
+    {
+      "name": "Florida Agency for Health Care Administration (AHCA), Bureau of Health Facility Regulation — Assisted Living Unit",
+      "role": "Licenses and surveys ALFs; standard, ECC, LNS and LMH licenses",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/bureau-of-health-facility-regulation/assisted-living-unit/assisted-living-facility.html",
+      "phone": "(850) 412-4304",
+      "email": "assistedliving@ahca.myflorida.com",
+      "source_id": "S12"
+    },
+    {
+      "name": "AHCA Division of Medicaid — Statewide Medicaid Managed Care (SMMC) Long-Term Care",
+      "role": "Administers the LTC program that covers assisted living; contracts LTC plans",
+      "url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program.html",
+      "phone": "1-877-711-3662 (choice counseling)",
+      "email": "",
+      "source_id": "S35"
+    },
+    {
+      "name": "Florida Department of Elder Affairs (DOEA) / ADRCs / CARES",
+      "role": "LTC screening, wait list prioritization, nursing facility level-of-care determination",
+      "url": "https://elderaffairs.org/",
+      "phone": "",
+      "email": "",
+      "source_id": "S32"
+    },
+    {
+      "name": "Florida Department of Children and Families (DCF)",
+      "role": "Medicaid financial eligibility; Optional State Supplementation; LMH training approval; Abuse Hotline",
+      "url": "https://www.myflfamilies.com/contact-us",
+      "phone": "1-800-962-2873 (Abuse Hotline)",
+      "email": "",
+      "source_id": "S60"
+    },
+    {
+      "name": "County health departments (Florida DOH)",
+      "role": "Food hygiene, sanitation and biomedical waste inspections",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-005",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    },
+    {
+      "name": "Local fire authority / State Fire Marshal",
+      "role": "Uniform Fire Safety Standards inspections",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-005",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    },
+    {
+      "name": "County emergency management agencies",
+      "role": "Final authority on ALF emergency management plans",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-019",
+      "phone": "",
+      "email": "",
+      "source_id": "S17"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Ch. 429, Part I, F.S.",
+      "title": "Assisted Living Facilities Act (license, fees, specialty licenses, resident rights, training)",
+      "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0400-0499/0429/0429PARTIContentsIndex.html",
+      "source_id": "S12"
+    },
+    {
+      "cite": "Ch. 408, Part II, F.S.",
+      "title": "Health Care Licensing Procedures Act (fees, CPI adjustment, background screening)",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/408.805",
+      "source_id": "S4"
+    },
+    {
+      "cite": "Rule Ch. 59A-36, F.A.C.",
+      "title": "Assisted Living Facility rules (renumbered from 58A-5 on 7/1/2019)",
+      "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=59A-36",
+      "source_id": "S11"
+    },
+    {
+      "cite": "Rule Ch. 59A-35, F.A.C.",
+      "title": "Health Care Licensing — general provisions (online licensing, applications)",
+      "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=59A-35",
+      "source_id": "S12"
+    },
+    {
+      "cite": "Rule 59A-36.010, F.A.C.",
+      "title": "Staffing Standards",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-010",
+      "source_id": "S5"
+    },
+    {
+      "cite": "Rule 59A-36.011, F.A.C.",
+      "title": "Staff Training Requirements and Competency Test",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-011",
+      "source_id": "S6"
+    },
+    {
+      "cite": "Rule 59A-36.008, F.A.C.",
+      "title": "Medication Practices",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-008",
+      "source_id": "S69"
+    },
+    {
+      "cite": "Rule 59A-36.018, F.A.C.",
+      "title": "Resident Contracts",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-018",
+      "source_id": "S63"
+    },
+    {
+      "cite": "Rule 59A-36.019, F.A.C.",
+      "title": "Emergency Management",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-019",
+      "source_id": "S17"
+    },
+    {
+      "cite": "Rule 59A-36.025, F.A.C.",
+      "title": "Emergency Environmental Control (96-hour generator rule)",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-025",
+      "source_id": "S18"
+    },
+    {
+      "cite": "Rule 59A-36.020, F.A.C.",
+      "title": "Limited Mental Health",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-020",
+      "source_id": "S9"
+    },
+    {
+      "cite": "Rule 59A-36.021, F.A.C.",
+      "title": "Extended Congregate Care Services",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-021",
+      "source_id": "S7"
+    },
+    {
+      "cite": "Rule 59A-36.022, F.A.C.",
+      "title": "Limited Nursing Services",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-022",
+      "source_id": "S8"
+    },
+    {
+      "cite": "s. 419.001, F.S.",
+      "title": "Site selection of community residential homes (1–6 and 7–14 resident homes)",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/419.001",
+      "source_id": "S25"
+    },
+    {
+      "cite": "Ch. 435 & s. 408.809, F.S.",
+      "title": "Level 2 background screening; Clearinghouse",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/435.12",
+      "source_id": "S28"
+    },
+    {
+      "cite": "ss. 409.978–409.985, F.S.",
+      "title": "SMMC Long-Term Care managed care program",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/409.982",
+      "source_id": "S30"
+    },
+    {
+      "cite": "s. 409.212, F.S.; Rule 65A-2.036, F.A.C.",
+      "title": "Optional State Supplementation",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-65A-2-036",
+      "source_id": "S37"
+    },
+    {
+      "cite": "Ch. 440, F.S.",
+      "title": "Workers' compensation (4+ employees)",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/440.02",
+      "source_id": "S48"
+    },
+    {
+      "cite": "Fla. Const. Art. X, s. 24; s. 448.110, F.S.",
+      "title": "Florida minimum wage",
+      "url": "https://www.flsenate.gov/Laws/Constitution",
+      "source_id": "S46"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, Florida statewide median (private one-bedroom), 2025",
+      "rate": 5500,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "$66,000/year ÷ 12. Up 3% from 2024. National median $74,400/year. Measures a private one-bedroom unit in an assisted living community, not a shared room in a small residential home.",
+      "source_id": "S41"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, Florida statewide median, 2024",
+      "rate": 5324,
+      "unit": "per month",
+      "effective": "2024",
+      "notes": "$63,885/year ÷ 12 (CareScout 2024).",
+      "source_id": "S42"
+    },
+    {
+      "payer": "SMMC LTC managed care plans (Florida Medicaid)",
+      "code": "Negotiated",
+      "service": "Assisted living services for LTC enrollees",
+      "rate": 0,
+      "unit": "negotiated — no public rate table",
+      "effective": "current",
+      "notes": "Plans and ALFs negotiate rates, methods and terms of payment (s. 409.982, F.S.). Medicaid does not pay room and board. Get each plan's rate offer in writing. The 0 is a placeholder, not a rate.",
+      "source_id": "S30"
+    },
+    {
+      "payer": "Florida Medicaid — Assistive Care Services",
+      "code": "T1020",
+      "service": "ACS for non-waiver recipients in ALFs",
+      "rate": 15.58,
+      "unit": "per day",
+      "effective": "2026-01-01",
+      "notes": "Max 1 unit per day.",
+      "source_id": "S38"
+    },
+    {
+      "payer": "Optional State Supplementation (DCF) — paid via resident",
+      "code": "OSS",
+      "service": "OSS base provider rate (room & board only) for ALF residents",
+      "rate": 991.4,
+      "unit": "per month",
+      "effective": "2025-06-24",
+      "notes": "Resident keeps a $160 PNA. Income eligibility standard $1,045.40. Rule value eff. 6/24/2025; 2026 COLA adjustment under 65A-2.036(7) not published — confirm with DCF.",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Social Security Administration",
+      "code": "SSI",
+      "service": "SSI federal benefit rate, individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Most OSS residents' base income.",
+      "source_id": "S40"
+    },
+    {
+      "payer": "AHCA licensure fee",
+      "code": "Standard",
+      "service": "Biennial standard license: base + per private-pay bed",
+      "rate": 387.73,
+      "unit": "per license + $64.96/bed",
+      "effective": "licenses expiring on/after 2013-08-31; on current Form 3110-1008 (Aug 2023)",
+      "notes": "Cap $14,253.64. OSS beds exempt from the per-bed fee. Plus $2.00/bed biennial assessment (max $300).",
+      "source_id": "S2"
+    },
+    {
+      "payer": "AHCA licensure fee",
+      "code": "ECC",
+      "service": "Extended Congregate Care add-on",
+      "rate": 546.07,
+      "unit": "per license + $10.15/bed",
+      "effective": "current form",
+      "notes": "Added to the standard license fee.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "AHCA licensure fee",
+      "code": "LNS",
+      "service": "Limited Nursing Services add-on",
+      "rate": 322.77,
+      "unit": "per license + $10.15/bed",
+      "effective": "current form",
+      "notes": "Added to the standard license fee.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "AHCA licensure fee",
+      "code": "LMH",
+      "service": "Limited Mental Health",
+      "rate": 0,
+      "unit": "no additional fee",
+      "effective": "current form",
+      "notes": "",
+      "source_id": "S2"
+    }
+  ],
+  "sections": {
+    "executive_summary": "Florida assisted living facilities (ALFs) are licensed by the Agency for Health Care Administration (AHCA) under Chapter 429, Part I, Florida Statutes, Chapter 408, Part II, F.S., and rule chapter 59A-36, F.A.C. [S12][S11]. A standard license covers housing, meals and personal services. Three optional specialty licenses let residents age in place: Extended Congregate Care (ECC), Limited Nursing Services (LNS) and Limited Mental Health (LMH) [S1].\n\n**The market is large and mostly private pay.** NCAL counts 2,968 assisted living communities with 117,384 beds or units in Florida, and reports that 24% of residents rely on Medicaid for long-term care [S43]. Persons 65 and over are 22.8% of Florida's 23.46 million residents (V2025) [S57]. CareScout's 2025 survey puts the Florida assisted living median at $66,000 a year, about $5,500 a month, up 3% from 2024 [S41].\n\n**Medicaid does not pay a published state rate.** Florida Medicaid covers assisted living only through the Statewide Medicaid Managed Care (SMMC) Long-Term Care program. LTC plans and facilities \"negotiate mutually acceptable rates\" [S30], so no state rate table exists. LTC enrollment is not an entitlement. The Department of Elder Affairs releases people from a priority-ranked wait list as slots open [S33][S34]. Low-income residents often pay room and board through SSI plus Optional State Supplementation (OSS). The OSS base provider rate is $991.40 a month, room and board only [S37].\n\n**The profitable path is private pay at 10–16 beds or 30+ beds with a specialty license.** The model in Section 8 uses real staffing rules, BLS May 2025 Florida wages and the CareScout median. A 6-bed private-pay home is roughly break-even with a paid administrator and works mainly when the owner runs it. A 14-bed home stays under the 17-resident awake-overnight threshold [S5] and is the strongest small-facility model. A 36-bed facility with an LNS license earns the highest margin. Medicaid-heavy payer mixes lose money at the public floor rates. Medicaid only works where an LTC plan contract rate covers care costs.\n\n### Key Numbers (Verified)\nSee the Key Numbers table. Every figure traces to a source listed in this report.\n\n### What This Report Does Not Claim\nSee the list at the end of this summary. Where the prior report made numerical claims we could not verify (Medicaid \"tier\" rates, market shares, a $1,000–$1,565 license fee), we removed them rather than replace them with estimates.",
+    "service_model": "### Who is served\nALF residents must be at least 18 and able to perform activities of daily living with supervision or assistance. They must be able to transfer (with help if needed), not be bedridden (except under hospice), have no stage 3 or 4 pressure sores, and not need 24-hour licensed mental health treatment [S19]. Each resident needs a medical exam within 60 days before or 30 days after admission, recorded on AHCA Form 1823 or the practitioner's form [S66][S19]. NCAL's Florida profile shows 70% of residents are women, 45% are 85 or older, 47% have Alzheimer's or other dementia, and 63% need help bathing [S43].\n\n### License types\n- **Standard** — personal services, supervision and medication assistance. Licensed nurses may be employed or contracted to administer medications [S1].\n- **Limited Nursing Services (LNS)** — nursing for residents who do not need 24-hour nursing supervision, and for residents who need 24-hour care and are enrolled in hospice. The facility employs or contracts a nurse, needs practitioner orders and does monthly nursing assessments [S8]. You may apply at initial licensure [S2].\n- **Extended Congregate Care (ECC)** — any nursing service within license scope under a service plan, so residents who would otherwise be disqualified can stay. A facility licensed under 2 years gets only a provisional ECC license of no more than 6 months [S1][S7].\n- **Limited Mental Health (LMH)** — required before admitting any mental health resident. Needs a standard license and no uncorrected violations, staff mental health training, and each resident's community living support plan and cooperative agreement [S10][S9]. No extra AHCA fee [S2].\n\n### Regulatory framework\nAHCA's Assisted Living Unit licenses and surveys facilities [S12]. County health departments inspect food hygiene and sanitation. The local fire authority or State Fire Marshal inspects fire safety. County emergency management approves emergency plans [S21][S17]. The rules were renumbered from chapter 58A-5 to 59A-36 on July 1, 2019. Examples: staffing is now 59A-36.010 (formerly 58A-5.019), emergency management 59A-36.019, resident contracts 59A-36.018, medication 59A-36.008, LMH 59A-36.020, ECC 59A-36.021 and LNS 59A-36.022 [S11][S5].\n\n### Zoning by size\nA home of six or fewer residents counts as a single-family residential use and is allowed in single-family or multifamily zoning without local approval. It must not be within 1,000 feet of a similar home or 1,200 feet of a community residential home [S25]. Homes of 7–14 residents are community residential homes and go through the local notice and site-selection process [S25]. Larger facilities need zoning that allows ALF use.",
+    "licensing_pathway": "### Step-by-step\n1. **Form the entity and choose size and license scope.** LLC filing is $100 plus $25 for the registered agent designation [S53].\n2. **Secure a compliant site.** Confirm zoning and ch. 419 spacing [S25] and building and fire code compliance [S20]. Size the generator to keep temperature at or below 81°F for 96 hours, with 48 hours of fuel onsite (16 or fewer beds) or 72 hours (17+ beds) [S18].\n3. **Qualify the administrator.** Age 21+, high school diploma or GED, Level 2 screening. Complete 26 hours of core training and pass the competency test with 75% within 90 days of becoming administrator. Test fee is up to $200 per attempt [S5][S6][S13].\n4. **Screen owners and staff.** Level 2 fingerprinting through AHCA's Care Provider Background Screening Clearinghouse, with rescreening every 5 years [S26][S27][S28][S29].\n5. **Bind liability insurance** (required at all times, no dollar minimum in rule) [S15][S14]. **Add workers' compensation** once you have four or more employees [S48].\n6. **Write the CEMP** on AHCA Form 3180-5006 and get county emergency management approval [S17]. Submit the Emergency Environmental Control Plan before licensure [S18].\n7. **Pass local inspections:** fire safety, the DOH Residential Group Care (sanitation) inspection, and a food hygiene inspection for 11+ beds [S21][S2].\n8. **File AHCA Form 3110-1008** through the Online Licensing System [S58] with the required attachments. These include the liability certificate, EECP approval and Consumer Friendly Summary, inspection reports, zoning documentation, Proof of Financial Ability to Operate, the administrator's diploma, proof of occupancy, the visitation policy and the Form 3110-1024 addendum [S2]. Missing items must reach AHCA within 21 days of an omission notice or the application is withdrawn [S2].\n9. **AHCA survey, then license.** You may not operate without a license [S1].\n\n### Fees (biennial license)\nSection 429.07(4), F.S. sets the base fee at $300 per license plus $50 per resident (OSS beds exempt), capped at $10,000. ECC adds $400 + $10 per resident and LNS adds $250 + $10 per resident [S1]. Section 408.805(2) lets AHCA raise fees each year by CPI [S4], so AHCA actually charges higher amounts. The current application lists $387.73 + $64.96 per private-pay bed (cap $14,253.64), ECC $546.07 + $10.15/bed, LNS $322.77 + $10.15/bed, LMH $0, plus a $2.00/bed biennial assessment capped at $300 [S2][S3]. Examples: 6 beds = $789.49; 14 beds = $1,325.17; 36 beds with LNS = $3,486.46.\n\n### Timeline\nAHCA does not publish a processing standard for initial ALF licenses. The binding deadlines are the 21-day omission response window [S2] and the 90-day administrator core training deadline [S5]. Plan the full calendar around your local zoning, fire and county emergency management reviews, which vary by county.",
+    "reimbursement": "### How money flows\n1. **Private pay (dominant).** Residents and families pay a monthly rate under the resident contract. The contract must list services, rates, extra charges and a 30-day notice before increases [S68][S63]. CareScout: Florida median $66,000/year in 2025, about $5,500/month [S41]; $63,885 in 2024 [S42]. The CareScout median is for a private one-bedroom unit in an assisted living community; shared-room rates in small residential homes are typically lower, so price from local comparables.\n2. **SMMC Long-Term Care plans (Medicaid).** Assisted living is a covered LTC service [S33]. AHCA contracts LTC plans. The plans contract with ALFs and must negotiate \"mutually acceptable rates, methods, and terms of payment\" [S30]. AHCA pays plans a capitation rate, not per-facility rates [S31]. **No public state rate table exists for ALF services.** Your rate is whatever you negotiate with each plan. Medicaid cannot pay for room and board in assisted living [S56]. Enrollees must meet nursing facility level of care, be screened by an ADRC, and be released from the priority-ranked wait list [S33][S34]. Plans were re-procured under ITN 010-22/23 [S62]. Current plans by region are on AHCA's SMMC page [S61].\n3. **Optional State Supplementation (OSS).** A DCF cash supplement for low-income ALF residents on SSI. The resident pays the facility the OSS base provider rate, $991.40/month for room and board (rule effective 6/24/2025), and keeps a $160 personal needs allowance [S37]. OSS rates rise with the federal SSI COLA [S36][S37]. The 2026 SSI federal rate is $994/month [S40]. Third parties may add voluntary supplementation, paid to the facility, up to four times the OSS provider rate [S36]. OSS beds are exempt from the AHCA per-bed license fee, based on the prior period's average OSS census [S2][S23].\n4. **Medicaid Assistive Care Services (ACS).** T1020 pays $15.58/day (2026, effective 1/1/2026) for qualifying non-waiver Medicaid residents [S38][S39].\n\n### What it means for a new operator\nA low-income resident on OSS and ACS brings in about $1,465 a month ($991.40 + $15.58 × 30.42 days). That is roughly a quarter of the private-pay median. GAO reports that officials from one state and representatives from one organization said Medicaid assisted living rates are often about one-third of private-pay rates, which discourages participation [S56]. The model treats LTC plan contract rates as unknown until you negotiate them. It uses the public ACS rate as a floor, so Medicaid-mix configurations are conservative.",
+    "demand": "### Demographics\nFlorida has 23,462,518 residents (V2025), and 22.8% are 65 or older [S57]. Assisted living residents in Florida are mostly women (70%) and very old (45% are 85+). Nearly half have dementia [S43].\n\n### Medicaid LTC demand\nThe SMMC LTC wait list is managed by DOEA through ADRCs. Release depends on priority score and frailty rank, not time on the list [S34]. A public records response to the Florida Assisted Living Association showed 43,335 people on the LTC wait list on October 2, 2023. The largest group, 12,511, was 85 or older [S55]. GAO reports Florida expected to serve more than 20,000 Medicaid assisted living beneficiaries a year, one of four states above that level [S56].\n\n### Referral sources\n- Hospital and rehabilitation discharge planners\n- Home health and hospice agencies\n- SMMC LTC plan case managers (for Medicaid enrollees)\n- ADRCs and Medicaid choice counseling (1-877-711-3662) [S35]\n- Fee-based senior placement agencies, physicians and elder law attorneys\n\n### Occupancy\nNIC MAP reports assisted living occupancy of 88.4% in its 31 primary markets in 2Q 2026 [S44]. The model uses 90% at stabilization as the default — an operator target 1.6 points above the NIC figure — and shows 85% and 95% cases.",
+    "operations": "### Minimum staffing (Rule 59A-36.010)\nThe weekly staff-hour minimums by combined residents, day care participants and respite residents are: 0–5 = 168; 6–15 = 212; 16–25 = 253; 26–35 = 294; 36–45 = 335; 46–55 = 375; 56–65 = 416; 66–75 = 457; 76–85 = 498; 86–95 = 539; plus 42 hours for every 20 over 95 [S5].\n- A staff member with access to records must be in the facility whenever residents are present.\n- **At 17 or more residents, at least one staff member must be awake at all hours.** Below 17 the rule does not require awake overnight staff, though someone must still be present [S5].\n- A staff member with current First Aid and CPR must be in the facility at all times [S5].\n- The administrator or manager's hours count if they are on the schedule and active in daily care. Staff working only in maintenance, clerical or food preparation do not count [S5].\n- AHCA can order staffing above the minimum when resident needs are not met [S5].\n- LMH, ECC and LNS facilities must also meet the staffing rules in 59A-36.020, .021 and .022 [S5]. ECC requires adequate awake staff at all hours and a nurse on staff or under contract [S7]. LNS requires a nurse available as needed [S8].\n- One administrator may oversee up to three ALFs, with managers appointed in writing [S5].\n\n### Training (Rule 59A-36.011; s. 429.52)\n- **Administrator:** 26-hour core training plus a competency test (75% to pass) within 90 days; 12 hours CE every 2 years [S6][S13].\n- **Staff:** 2-hour preservice orientation; 1 hour infection control before personal care; within 30 days, 1 hour adverse incidents and emergency procedures, 1 hour resident rights and abuse, 3 hours behavior and ADLs, elopement training and HIV/AIDS [S6].\n- **Medication assistance by unlicensed staff:** 6 hours initial with an RN or pharmacist certificate, then 2 hours a year [S6][S13].\n- **ECC:** 4 hours for the administrator and ECC supervisor, plus 4 hours CE every 2 years; 2 hours for direct care staff [S6].\n- **LMH:** 6 hours within 6 months, then 3 hours every 2 years [S6][S10].\n\n### Required systems and plans\n- Annual CEMP approved by county emergency management [S17]\n- 96-hour emergency power plan [S18]\n- An AED at 17+ beds [S24]\n- Separate resident trust accounting [S14]\n- A written 24-hour staffing schedule [S5]\n- Records per 59A-36.015 [S65]\n\nFlorida has no EVV mandate for ALFs. An eMAR is an operator choice.",
+    "market_conditions": "### Supply\nNCAL reports 2,968 assisted living communities and 117,384 beds or units in Florida [S43]. This report does not claim regional saturation or competitor shares.\n\n### Pricing\nThe Florida private-pay median was $66,000/year in 2025, about $5,500/month, up 3% from 2024. The national median was $74,400/year [S41]. The 2024 Florida median was $63,885 [S42]. The CareScout figure measures a private one-bedroom unit in an assisted living community; shared-room rates in 6–14 bed residential homes are typically lower and no public Florida small-home price source exists, so price from local comparables. Medicaid pays much less (Section 4).\n\n### Wages (BLS OEWS May 2025, Florida medians) [S45]\n- Home health and personal care aides: $16.25/hr\n- Nursing assistants: $18.03\n- LPNs: $29.70\n- RNs: $40.48\n- Institutional cooks: $17.43\n- Housekeepers: $16.28\n- Maintenance: $22.15\n- Medical and health services managers: 10th percentile $33.61, 25th percentile $44.49\n\nFlorida's minimum wage rose to $15.00/hour on September 30, 2026, and will be CPI-indexed from January 1, 2028 [S46][S47]. The aide median is only $1.25 above the new floor, so expect wage pressure.\n\n### Employer costs\n- Employer FICA: 7.65% [S51]\n- Florida reemployment tax: 2.7% on the first $7,000 for new employers [S49][S50]\n- FUTA [S52]\n- Workers' comp: mandatory at four or more employees [S48]\n\n### Housing costs\nHUD's FY2027 Small Area Fair Market Rent for a 4-bedroom home in an Orlando-area ZIP is $3,020 [S54]. Rents in southeast Florida are higher — verify locally.",
+    "financial_narrative": "### How the P&L is built\nRevenue per resident × occupied residents, minus staffing (with payroll burden) and operating costs. Default occupancy is 90% [S44]. Ramp-up is set per configuration: the 6-bed homes start at 2 residents and add 1 per month, the 14-bed home starts at 2 and adds 2 per month, and the 36-bed facilities start at 4 and add 3 per month (operator planning assumptions — verify against your referral pipeline).\n\n**Revenue.** Private pay uses the CareScout 2025 Florida median of $5,500/month [S41]. That median is for a private one-bedroom unit in an assisted living community; shared-room rates in small residential homes are typically lower, so the 6- and 14-bed results may be optimistic — price from local comparables. Medicaid-mix configurations model low-income residents at the OSS base provider rate of $991.40 [S37] plus the public ACS rate of $15.58/day [S38]. That is a floor. Replace it with your negotiated SMMC LTC plan rate, which is not public [S30].\n\n**Staffing.** Every configuration meets the Rule 59A-36.010 weekly-hours table and 24-hour presence rules [S5], at BLS May 2025 Florida wages [S45], all above the $15.00 minimum [S46]. Configurations under 17 residents have no awake-overnight mandate. Those at 17+ staff awake overnight. Administrator pay uses Florida BLS manager percentiles: 10th percentile for small homes, 25th for larger ones.\n\n**Burden.** 8.3% payroll taxes, 4% workers' comp and 5% benefits. The comp and benefits rates are estimates.\n\n**Operating costs.**\n- Lease is a fixed cost from day one, sized at $578.83 per licensed bed from HUD FMR [S54] (6 beds $3,473; 14 beds $8,104; 36 beds $20,838 — larger buildings are an operator estimate)\n- Utilities split into a fixed base load per licensed bed plus a per-resident portion (operator estimate)\n- AHCA biennial license and assessment fees, including LNS/ECC fees where held, are amortized monthly per licensed bed [S2]\n- Liability insurance is required by law, with the premium estimated [S14]\n- Generator fuel and service are required by Rule 59A-36.025 [S18]\n- Food, utilities, supplies, software, accounting, marketing, training and transportation are operator estimates, labeled as such\n\n### Results at 90% occupancy (monthly, approximate)\n| Configuration | Revenue | Staffing | Opex | Net |\n|---|---|---|---|---|\n| 6-bed private pay | $29,700 | $21,000 | $9,200 | about –$500 |\n| 6-bed mixed (2 low-income) | $22,400 | $21,000 | $9,200 | about –$7,800 |\n| 14-bed private pay | $69,300 | $31,600 | $19,200 | about +$18,500 |\n| 36-bed LNS private pay | $178,200 | $69,900 | $46,800 | about +$61,500 |\n| 36-bed ECC, 25% low-income | $145,500 | $69,900 | $46,800 | about +$28,800 |\n\n### Key drivers\n- **Private-pay rate.** Each $250/month on 12.6 residents moves a 14-bed home by about $3,150/month.\n- **Size relative to the 17-resident line.** Crossing it adds awake-overnight labor, an AED and more fuel storage.\n- **Owner as administrator.** That removes about $6,830/month on a 6-bed home including payroll burden ($5,826 salary + 17.3% burden) and makes it profitable.\n- **Medicaid share.** Every low-income bed at floor rates gives up about $4,000/month versus private pay.\n\nThe generator calculates break-even from these inputs.",
+    "risks": "- **Medicaid rate risk.** No published LTC rate exists. Plans negotiate individually [S30], and low Medicaid rates discourage facility participation [S56]. Do not count on Medicaid revenue until you have a signed plan contract and rate.\n- **Wage floor.** The $15.00 minimum wage (Sept 30, 2026) and CPI indexing from 2028 [S46] squeeze margins at aide medians of $16.25 [S45].\n- **Hurricane and emergency compliance.** The 96-hour, 81°F generator rule and annual CEMP approval carry real capital and operating costs. Evacuations must be reported within 6 hours [S18][S17].\n- **Survey and enforcement.** AHCA can order staffing above the minimum [S5]. A class I or II violation, or repeated class III violations, can block ECC eligibility for 2 years [S1].\n- **Specialty license timing.** ECC is provisional for 6 months for facilities licensed under 2 years [S1]. LMH requires no uncorrected violations [S10].\n- **Zoning and spacing.** The 1,000/1,200-foot spacing rule for six-or-fewer homes [S25] can rule out properties in dense ALF markets.\n- **Resident funds.** Acting as payee or POA requires surety bonds and quarterly statements [S16][S14].\n- **Unlicensed activity.** Operating without a license is prohibited. AHCA publishes substantiated unlicensed locations [S1][S12].\n- **Occupancy ramp.** Fixed costs (administrator, lease, insurance) run from day one. Size your working capital for a 6–12 month fill.",
+    "recommendations": "1. **Lead with private pay at 10–16 beds.** The 14-bed configuration stays under the 17-resident awake-overnight line [S5]. It is profitable at the CareScout median [S41] with full rule-compliant staffing. Get ch. 419 site approval and a DOH food hygiene inspection for 11+ beds [S25][S2].\n2. **For a 6-bed home, run it as owner-administrator.** Hire for the remaining 172 caregiver hours a week. Price at or above the local median, and charge care-level add-ons in the contract [S63].\n3. **Add LNS at licensing if you plan to keep residents longer.** It costs $322.77 + $10.15/bed per biennium [S2]. It reduces move-outs from rising care needs and supports premium pricing. A new facility can apply for ECC before it has 2 years of history: it receives a provisional ECC license of up to 6 months, followed by an unannounced inspection [S1]. Many operators still wait until operations are stable.\n4. **Treat Medicaid as a selective add-on.** Limit low-income beds to a share your private-pay margin can carry. Negotiate rates in writing with each LTC plan in your region [S30][S61]. Use OSS-designated beds to reduce license fees [S2].\n5. **Budget for Florida-specific capital.** That means the generator and fuel storage [S18], fire safety [S21], and furnishings to Rule 59A-36.014 [S20].\n6. **Build compliance in from day one.** Have the administrator's core training and test done before opening [S6]. Use the Clearinghouse for all screening [S28]. Keep the CEMP calendar [S17], track staff training [S6], and file annual inspections within 30 days [S22].\n7. **Ramp with referrals.** Work hospital discharge planners, home health and hospice agencies, ADRCs, and LTC plan case managers (if contracted)."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide license scope and size before anything else",
+      "instructions": "Choose a standard license, and whether you will later add LNS, ECC or LMH. Choose your size: 1–6 residents (single-family use), 7–14 (community residential home, needs local site approval), or 15+ (commercial zoning). Crossing 16→17 residents adds the awake-overnight rule, an AED, 72 hours of onsite generator fuel and a different Proof of Financial Ability form.",
+      "cite": "s. 429.07(3), F.S.; Rule 59A-36.010(3)(a)4",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a Florida legal entity",
+      "instructions": "File Articles of Organization for an LLC on Sunbiz (Division of Corporations). Statutory fee is $100 plus $25 for the registered agent designation. The licensee named on the AHCA application must match this entity exactly.",
+      "cite": "s. 605.0213, F.S.",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN from the IRS",
+      "instructions": "Free at irs.gov and issued online the same day. Needed for payroll, banking, the AHCA application and insurance.",
+      "cite": "IRC §6109",
+      "source_id": "S70"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with the Florida Department of Revenue for reemployment tax",
+      "instructions": "Register as an employer before the first payroll. New employers pay 2.7% on the first $7,000 of each employee's wages.",
+      "cite": "s. 443.131(2)(a); s. 443.1217, F.S.",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open separate operating and resident trust bank accounts",
+      "instructions": "Facility funds and resident funds may not be co-mingled. One trust account is allowed if you keep a separate written accounting for each resident.",
+      "cite": "Rule 59A-36.013(2), F.A.C.",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Obtain a local business tax receipt",
+      "instructions": "Apply with the county and/or city tax collector once you have the address. Fees vary by jurisdiction — verify locally.",
+      "cite": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Prepare an ownership and controlling-interest roster",
+      "instructions": "List every owner, officer, administrator and management company. You need it for the Health Care Licensing Application Addendum (AHCA Form 3110-1024) and for Level 2 screening of controlling interests.",
+      "cite": "AHCA Form 3110-1008 §10",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Confirm zoning in writing before signing a lease",
+      "instructions": "Homes of six or fewer residents are a single-family residential use. They are allowed without local approval if no similar home is within 1,000 ft and no community residential home is within 1,200 ft. Bring the licensing-entity list of nearby homes to the local government. Homes of 7–14 residents follow the s. 419.001 notice and site-selection process. Local zoning documentation is a required AHCA attachment.",
+      "cite": "s. 419.001(2)–(3), F.S.; AHCA Form 3110-1008 §10",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Verify the building meets the Florida Building Code and fire standards for ALF use",
+      "instructions": "New construction and conversions must meet Florida Building Code Ch. 4 §464, the Uniform Fire Safety Standards for ALFs (ch. 69A-40, F.A.C.) and the NFPA codes in s. 429.41, F.S. Hire an architect or code consultant for any conversion and ask the local fire authority about sprinklers early.",
+      "cite": "Rule 59A-36.014(1)–(2), F.A.C.",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Plan resident rooms and furnishings to rule",
+      "instructions": "If you supply furnishings, each resident needs a bed with a mattress at least 36\"×72\", closet or wardrobe space, a dresser, a nightstand or table, a lamp, a wastebasket and a chair on request. Keep master keys to bedrooms. Provide linens and laundry service.",
+      "cite": "Rule 59A-36.014(3), F.A.C.",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Size the emergency power system for 96 hours at ≤81°F",
+      "instructions": "You need an alternate power source (generator) that keeps the cooled area at or below 81°F for 96 hours. Allow at least 20 net sq ft per resident, using 80% of licensed capacity. Store 48 hours of fuel onsite (16 or fewer beds) or 72 hours (17+ beds). Piped natural gas counts. You also need a carbon monoxide alarm.",
+      "cite": "Rule 59A-36.025(1), F.A.C.",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Confirm water and sewer service or schedule a septic/well evaluation",
+      "instructions": "If on septic or a private well, a DOH septic or water supply evaluation report is a required attachment for initial licensure.",
+      "cite": "AHCA Form 3110-1008 §10",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "Document proof of property occupancy",
+      "instructions": "Have a signed lease, deed/mortgage or transfer agreement in the licensee's name. It is a required attachment.",
+      "cite": "AHCA Form 3110-1008 §10",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "Buy an AED if licensed for 17+ beds",
+      "instructions": "Facilities with 17 or more beds must have a working automated external defibrillator on the premises at all times.",
+      "cite": "s. 429.255(3)(a), F.S.",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Designate a qualified administrator",
+      "instructions": "Administrator must be at least 21, have a high school diploma or GED, and clear Level 2 screening. A copy of the diploma or GED is a required attachment. One administrator may oversee up to three ALFs.",
+      "cite": "Rule 59A-36.010(1)(a), (c), F.A.C.",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete the 26-hour core training and pass the competency test (75%)",
+      "instructions": "Take the AHCA-approved core training (minimum 26 hours) and pass the competency test with at least 75%. This must be done within 90 days of becoming the administrator. Test fee is up to $200 per attempt. Licensed nursing home administrators are exempt from core training under the statute. Doing it before you open avoids risk.",
+      "cite": "Rule 59A-36.011, F.A.C.; s. 429.52(4), F.S.",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Run Level 2 background screening through the Clearinghouse",
+      "instructions": "Screen the administrator, controlling interests and all staff (including contracted staff who serve residents) with Level 2 fingerprinting through the AHCA Care Provider Background Screening Clearinghouse. Rescreen every 5 years. Clearinghouse help line: 850-412-4503.",
+      "cite": "s. 429.174; s. 408.809; s. 435.12, F.S.; Rule 59A-36.010(2)(f)",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "HIGH",
+      "task": "Appoint managers if one administrator runs multiple homes",
+      "instructions": "An administrator over more than one facility must appoint a manager in writing for each. Up to three homes of 16 or fewer beds within 15 miles need only two managers. Managers meet the same training and screening rules.",
+      "cite": "Rule 59A-36.010(1)(c)–(d), F.A.C.",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "HIGH",
+      "task": "Plan staff training to the rule",
+      "instructions": "Covers: 2-hour preservice orientation before working with residents; 1 hour of infection control before giving personal care; within 30 days, 1 hour of adverse incidents and emergency procedures, 1 hour of resident rights and abuse reporting, 3 hours of resident behavior and ADLs, elopement training and HIV/AIDS. A 6-hour medication assistance course with an RN or pharmacist certificate is required before unlicensed staff assist with medications, then 2 hours each year.",
+      "cite": "Rule 59A-36.011, F.A.C.; s. 429.52(1),(6), F.S.",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "HIGH",
+      "task": "Keep a CPR/First Aid–certified staff member on site at all times",
+      "instructions": "Schedule so at least one person with a current First Aid and CPR card (in-person skills demonstration) is in the facility around the clock.",
+      "cite": "Rule 59A-36.010(3)(a)5; 59A-36.011, F.A.C.",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR, BACKGROUND SCREENING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Train food service lead",
+      "instructions": "If the food service designee has not completed core training, they must complete its food and nutrition module, unless they are a certified food or dietary manager, dietitian or similar.",
+      "cite": "Rule 59A-36.012(1), F.A.C.",
+      "source_id": "S64"
+    },
+    {
+      "phase": "PHASE 4 — INSURANCE, FINANCIAL ABILITY & RESIDENT FUNDS",
+      "priority": "CRITICAL",
+      "task": "Bind general/professional liability insurance",
+      "instructions": "Coverage must be in force at all times. The certificate must show the facility's name, street address, that it is an ALF, licensed capacity and coverage dates. File it with AHCA at each renewal or policy change. No dollar minimum is set in rule; carriers commonly quote $1M/$3M — verify.",
+      "cite": "s. 429.275(3), F.S.; Rule 59A-36.013(4), F.A.C.",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 4 — INSURANCE, FINANCIAL ABILITY & RESIDENT FUNDS",
+      "priority": "CRITICAL",
+      "task": "Buy workers' compensation once you have 4 or more employees",
+      "instructions": "Workers' comp is mandatory for private employers with four or more employees, part-time included.",
+      "cite": "s. 440.02(17)(b)2, F.S.",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 4 — INSURANCE, FINANCIAL ABILITY & RESIDENT FUNDS",
+      "priority": "HIGH",
+      "task": "Complete Proof of Financial Ability to Operate",
+      "instructions": "Use AHCA's form for ALFs with 16 or fewer beds, or Form 3100-0009 for 17+ beds. Show startup costs and operating reserves. Required for initial and change of ownership.",
+      "cite": "AHCA Form 3110-1008 §10; HQA applications page",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 4 — INSURANCE, FINANCIAL ABILITY & RESIDENT FUNDS",
+      "priority": "MEDIUM",
+      "task": "Get a surety bond if you will be representative payee or hold power of attorney",
+      "instructions": "As representative payee the bond must equal twice the average monthly aggregate resident income you receive. Under a power of attorney it is per resident: twice monthly income plus property held. File a copy with AHCA each year.",
+      "cite": "s. 429.27(2), F.S.; Rule 59A-36.013(3)",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 4 — INSURANCE, FINANCIAL ABILITY & RESIDENT FUNDS",
+      "priority": "MEDIUM",
+      "task": "Set up resident funds accounting",
+      "instructions": "Safekeep up to $500 cash and $500 in effects by mutual consent. Give each resident a verified statement at least every 3 months.",
+      "cite": "s. 429.27(3)–(4), F.S.",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Write the resident contract",
+      "instructions": "Must list services, the daily, weekly or monthly rate, extra charges, 30-day notice before rate increases, deposit and refund policy, bed hold policy, religious affiliation and transfer notice. Executed at or before admission.",
+      "cite": "s. 429.24, F.S.; Rule 59A-36.018, F.A.C.",
+      "source_id": "S63"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Write admission and continued-residency criteria",
+      "instructions": "Residents must be 18+, able to do ADLs with assistance, able to transfer with help, not bedridden (except hospice), no stage 3–4 pressure sores, and not needing 24-hour licensed mental health treatment. Get a medical exam on AHCA Form 1823 (or the practitioner's form) within 60 days before or 30 days after admission.",
+      "cite": "Rule 59A-36.006, F.A.C.; s. 429.26(5), F.S.",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Write medication policies",
+      "instructions": "Cover self-administration, assistance with self-administration by trained unlicensed staff (with written informed consent), administration by licensed nurses only, storage and records.",
+      "cite": "Rule 59A-36.008, F.A.C.",
+      "source_id": "S69"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Write staffing plan and 24-hour schedule",
+      "instructions": "Keep a written 24-hour work schedule. Meet the 59A-36.010 weekly-hours table: 168 hrs for 0–5 residents, 212 for 6–15, 253 for 16–25, 294 for 26–35, 335 for 36–45, then +42 per 20 residents over 95. Count only on-the-job care staff. The administrator counts if on the schedule and active in care. Staff working only in food, maintenance or clerical roles do not count.",
+      "cite": "Rule 59A-36.010(3), F.A.C.",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Write resident rights, grievance and abuse reporting policies",
+      "instructions": "Post the Florida Abuse Hotline (1-800-962-2873). Train staff on recognizing and reporting abuse, neglect and exploitation within 30 days of hire.",
+      "cite": "Rule 59A-36.011; s. 429.28, F.S.",
+      "source_id": "S60"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Write elopement prevention and response policy",
+      "instructions": "All staff must be trained within 30 days and show competency.",
+      "cite": "Rule 59A-36.011, F.A.C.",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Write visitation policy",
+      "instructions": "A visitation policy and procedure is a required attachment for initial and renewal applications.",
+      "cite": "AHCA Form 3110-1008 §10",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Write food service policy and menus",
+      "instructions": "Meet 59A-36.012 food service standards. Name the food service designee in writing.",
+      "cite": "Rule 59A-36.012, F.A.C.",
+      "source_id": "S64"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Set up records system",
+      "instructions": "Display the license. Keep an admission and discharge log, resident records, staff records (screening, training, licenses) and accounting records.",
+      "cite": "Rule 59A-36.015, F.A.C.; s. 429.275(1)–(2), F.S.",
+      "source_id": "S65"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "MEDIUM",
+      "task": "Prepare the Consumer Friendly Summary",
+      "instructions": "AHCA posts a template. It is submitted with the Emergency Environmental Control Plan approval for initial licensure.",
+      "cite": "AHCA ALF page; Form 3110-1008 §10",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PROCEDURES & RESIDENT DOCUMENTS",
+      "priority": "MEDIUM",
+      "task": "Write dementia/ADRD policies if you advertise memory care or have secured areas",
+      "instructions": "Facilities that advertise special Alzheimer's/dementia care or keep secured areas must train staff under s. 430.5025, F.S.",
+      "cite": "Rule 59A-36.011, F.A.C.",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "CRITICAL",
+      "task": "Write the Comprehensive Emergency Management Plan (CEMP)",
+      "instructions": "Use AHCA Form 3180-5006 (Sept 2023). Cover all hazards, sheltering in place, evacuation, receiving evacuees, residents with ADRD or mobility limits, and county coordination.",
+      "cite": "Rule 59A-36.019(1), F.A.C.",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "CRITICAL",
+      "task": "Get county emergency management approval of the CEMP",
+      "instructions": "The county emergency management agency is the final authority. Submit every year, and within 30 days of any significant change. Contacts are listed at floridadisaster.org/counties.",
+      "cite": "Rule 59A-36.019(2), F.A.C.",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "CRITICAL",
+      "task": "Submit the Emergency Environmental Control Plan (generator plan) and get approval",
+      "instructions": "A new ALF must submit this plan before obtaining a license. The approval letter is a required AHCA attachment.",
+      "cite": "Rule 59A-36.025(2), F.A.C.; Form 3110-1008 §10",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "CRITICAL",
+      "task": "Pass the fire safety inspection",
+      "instructions": "Local fire authority or State Fire Marshal inspects under s. 429.41, F.S. and ch. 69A-40, F.A.C. The report is required for initial and renewal applications.",
+      "cite": "Rule 59A-36.005(2), F.A.C.",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "CRITICAL",
+      "task": "Pass the county health department Residential Group Care inspection",
+      "instructions": "County health department inspects sanitation (ch. 64E-12), food hygiene and biomedical waste. The report is required.",
+      "cite": "Rule 59A-36.005(1), F.A.C.; Form 3110-1008 §10",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "HIGH",
+      "task": "Get a DOH food hygiene inspection if 11 or more beds",
+      "instructions": "Required attachment for all application types for providers with 11+ beds.",
+      "cite": "AHCA Form 3110-1008 §10",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — EMERGENCY MANAGEMENT & LOCAL INSPECTIONS",
+      "priority": "MEDIUM",
+      "task": "Train all staff on the emergency plan within 30 days of hire",
+      "instructions": "Report any evacuation to county EM and AHCA within 6 hours of the order.",
+      "cite": "Rule 59A-36.019(3)–(4), F.A.C.",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "CRITICAL",
+      "task": "Download the current ALF application (AHCA Form 3110-1008) and checklist",
+      "instructions": "Get them from AHCA's HQA Applications for Licensure page. The old 'Form 3110-1023' cited in prior materials is not the ALF application.",
+      "cite": "Rule 59A-35.060; 59A-36.003, F.A.C.",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "CRITICAL",
+      "task": "Create AHCA portal access for the Online Licensing System",
+      "instructions": "Register, submit the signed User Agreement, and wait about 3 business days for access. Initial applications may be filed online. Renewals must be filed online (effective March 5, 2024).",
+      "cite": "Rule 59A-35.060, F.A.C.",
+      "source_id": "S58"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "CRITICAL",
+      "task": "Calculate and pay licensure fees",
+      "instructions": "Standard: $387.73 + $64.96 per private-pay bed (OSS beds exempt), capped at $14,253.64, plus a $2.00/bed biennial assessment (max $300). Example: 6 beds = $789.49; 14 beds = $1,325.17. Fees are nonrefundable. Statute shows the pre-CPI base ($300 + $50/bed, cap $10,000); AHCA charges the CPI-adjusted amounts on the form.",
+      "cite": "s. 429.07(4); s. 408.805, F.S.; AHCA Form 3110-1008 §2D",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "CRITICAL",
+      "task": "Assemble required attachments",
+      "instructions": "Liability certificate, EECP approval and Consumer Friendly Summary, fire report, DOH Residential Group Care report, septic/water report if applicable, DOH food hygiene report (11+ beds), zoning documentation, ch. 419 site documentation (7–14 residents), Proof of Financial Ability, administrator diploma or GED, proof of occupancy, visitation policy, Form 3110-1024 addendum.",
+      "cite": "AHCA Form 3110-1008 §10",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "HIGH",
+      "task": "Answer omission notices within 21 days",
+      "instructions": "The application is withdrawn if missing documents or fees are not received within 21 days of an omission notice.",
+      "cite": "AHCA Form 3110-1008 instructions",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "CRITICAL",
+      "task": "Prepare for the AHCA initial licensure survey",
+      "instructions": "AHCA inspects everything not covered by the fire authority or county health department. Use AHCA's ALF Survey Tags list for a mock survey.",
+      "cite": "Rule 59A-36.005(3), F.A.C.",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — AHCA APPLICATION, FEES & SURVEY",
+      "priority": "CRITICAL",
+      "task": "Do not admit residents until the license is issued",
+      "instructions": "A license is required to operate an ALF. AHCA publishes lists of substantiated unlicensed ALF locations.",
+      "cite": "s. 429.07(1), F.S.",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Recruit and price staff at or above Florida minimum wage",
+      "instructions": "Minimum wage is $15.00/hour from September 30, 2026 (CPI-indexed from Jan 1, 2028). FL median for home health and personal care aides is $16.25/hour (May 2025).",
+      "cite": "Fla. Const. Art. X, s. 24",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Set private-pay pricing from local comparables",
+      "instructions": "CareScout 2025 Florida median is $66,000/year (about $5,500/month) for a private one-bedroom unit in an assisted living community; shared rooms in small homes typically price lower. Survey 5–10 local ALFs and price care levels above the base.",
+      "cite": "—",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Build referral relationships",
+      "instructions": "Main sources: hospital and rehab discharge planners, home health and hospice agencies, SMMC LTC plan case managers, Aging and Disability Resource Centers, placement agencies (fee-based) and elder law attorneys.",
+      "cite": ""
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Contract with SMMC LTC plans if you will serve Medicaid residents",
+      "instructions": "Florida Medicaid pays for assisted living through SMMC Long-Term Care plans. The facility and each plan negotiate rates (no state rate table). Ask each LTC plan in your region for its credentialing packet and rate offer. Plan contacts for providers are on AHCA's SMMC page.",
+      "cite": "s. 409.982, F.S.",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Learn OSS for low-income residents",
+      "instructions": "OSS-eligible residents pay the facility the OSS base provider rate (room & board) and keep a $160 personal needs allowance. Rule 65A-2.036 lists $991.40/month (eff. 6/24/2025, COLA-adjusted yearly). DCF determines eligibility. Any third-party supplementation goes to the facility, is voluntary, and may not exceed four times the OSS provider rate.",
+      "cite": "s. 409.212, F.S.; Rule 65A-2.036, F.A.C.",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Enroll as a Medicaid Assistive Care Services provider if serving non-waiver Medicaid residents",
+      "instructions": "ACS (T1020) pays $15.58/day (2026 fee schedule, eff. 1/1/2026) for qualifying non-waiver Medicaid residents.",
+      "cite": "Rule 59G-4.002, F.A.C.",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING, OPENING & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up eMAR / care documentation",
+      "instructions": "No EVV mandate applies to Florida ALFs. Good documentation supports survey compliance and plan audits.",
+      "cite": ""
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "CRITICAL",
+      "task": "Submit fire and sanitation inspection reports to AHCA every year",
+      "instructions": "Send copies to AHCA Central Office within 30 days of each annual inspection.",
+      "cite": "Rule 59A-36.004(5), F.A.C.",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "CRITICAL",
+      "task": "Renew the license every two years, online, at least 60 days early",
+      "instructions": "Renewals filed less than 60 days before expiration incur a late fee. Pay the biennial license and assessment fees.",
+      "cite": "AHCA Form 3110-1008; Rule 59A-35.060",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Administrator continuing education — 12 hours every 2 years",
+      "instructions": "Keep certificates in the personnel file.",
+      "cite": "s. 429.52(5), F.S.; Rule 59A-36.011",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Annual medication-assistance CE (2 hrs) for unlicensed staff",
+      "instructions": "Track in personnel records.",
+      "cite": "Rule 59A-36.011, F.A.C.",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Re-submit the CEMP every year",
+      "instructions": "Submit to county emergency management. Include proof of submission with your renewal.",
+      "cite": "Rule 59A-36.019(2), F.A.C.",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Rescreen staff every 5 years (Level 2)",
+      "instructions": "Use the Clearinghouse.",
+      "cite": "s. 408.809(2), F.S.",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Get prior AHCA approval before changing capacity or use of space",
+      "instructions": "Capacity changes need AHCA Central Office approval. Converting space to resident use needs Field Office approval.",
+      "cite": "Rule 59A-36.004(2)–(3), F.A.C.",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Keep liability insurance continuous and file proof at each renewal or policy change",
+      "instructions": "Coverage must remain in force at all times.",
+      "cite": "Rule 59A-36.013(4), F.A.C.",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 10 — OPTIONAL SPECIALTY LICENSES (LNS, ECC, LMH)",
+      "priority": "MEDIUM",
+      "task": "Limited Nursing Services (LNS) license",
+      "instructions": "Can be applied for at initial licensure. Employ or contract a nurse available as needed. Services require a practitioner's order. Keep monthly nursing assessments and nursing progress notes. Fee: $322.77 + $10.15/bed per biennium.",
+      "cite": "Rule 59A-36.022, F.A.C.; s. 429.07(3)(c), F.S.",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 10 — OPTIONAL SPECIALTY LICENSES (LNS, ECC, LMH)",
+      "priority": "MEDIUM",
+      "task": "Extended Congregate Care (ECC) license",
+      "instructions": "Facilities licensed under 2 years get a provisional ECC license of no more than 6 months, then an unannounced inspection. The administrator needs 2 years of qualifying experience (a bachelor's degree can substitute for 1 year). Staff or contract a nurse. Monthly nursing assessments, quarterly service plan review, adequate awake staff at all hours. Training: 4 hrs administrator and ECC supervisor, 2 hrs direct care staff. Fee: $546.07 + $10.15/bed.",
+      "cite": "s. 429.07(3)(b), F.S.; Rule 59A-36.021; 59A-36.011",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 10 — OPTIONAL SPECIALTY LICENSES (LNS, ECC, LMH)",
+      "priority": "MEDIUM",
+      "task": "Limited Mental Health (LMH) license — required before admitting any mental health resident",
+      "instructions": "Requires a standard license and no uncorrected violations. Administrator and direct-contact staff need 6 hours of DCF-approved mental health training within 6 months, then 3 hours CE every two years. Keep each resident's community living support plan and cooperative agreement. No extra AHCA fee.",
+      "cite": "s. 429.075, F.S.; Rule 59A-36.020",
+      "source_id": "S10"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "AHCA Assisted Living Unit",
+      "role": "ALF licensure applications, renewals, specialty licenses",
+      "contact": "(850) 412-4304 / assistedliving@ahca.myflorida.com / 2727 Mahan Drive MS #30, Tallahassee, FL 32308"
+    },
+    {
+      "name": "AHCA Online Licensing System",
+      "role": "Electronic applications, renewals, fee payment",
+      "contact": "ahca.myflorida.com/health-quality-assurance/online-licensure-information/online-licensing-system.html"
+    },
+    {
+      "name": "AHCA Background Screening Unit / Clearinghouse",
+      "role": "Level 2 screening and Clearinghouse questions",
+      "contact": "850-412-4503 / bgscreen@ahca.myflorida.com / fax (850) 487-0470"
+    },
+    {
+      "name": "Medicaid Choice Counseling (SMMC)",
+      "role": "Plan selection for Medicaid residents; plan lists by region",
+      "contact": "1-877-711-3662 / flmedicaidmanagedcare.com"
+    },
+    {
+      "name": "AHCA SMMC — Plan Contacts for Provider Networks",
+      "role": "Find LTC plan provider-relations contacts to contract for assisted living",
+      "contact": "ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/current-smmc-program.html"
+    },
+    {
+      "name": "Florida Abuse Hotline (DCF)",
+      "role": "Mandatory abuse, neglect and exploitation reporting — post in the facility",
+      "contact": "1-800-962-2873 / myflfamilies.com/contact-us"
+    },
+    {
+      "name": "County Emergency Management Agency",
+      "role": "CEMP and Emergency Environmental Control Plan approval",
+      "contact": "Directory: floridadisaster.org/counties"
+    },
+    {
+      "name": "County Health Department (DOH)",
+      "role": "Residential Group Care sanitation, food hygiene and septic/water inspections",
+      "contact": "Your county DOH office — floridahealth.gov"
+    },
+    {
+      "name": "Local Fire Authority / State Fire Marshal",
+      "role": "Uniform Fire Safety Standards inspection (ch. 69A-40, F.A.C.)",
+      "contact": "Your city or county fire marshal"
+    },
+    {
+      "name": "Florida Division of Corporations (Sunbiz)",
+      "role": "LLC formation and annual reports",
+      "contact": "dos.fl.gov/sunbiz"
+    },
+    {
+      "name": "Department of Children and Families — OSS",
+      "role": "Optional State Supplementation eligibility for low-income residents",
+      "contact": "myflfamilies.com (ACCESS Florida)"
+    },
+    {
+      "name": "Aging and Disability Resource Centers (ADRCs)",
+      "role": "SMMC LTC screening and wait list; referral source",
+      "contact": "Via Florida Department of Elder Affairs (elderaffairs.org)"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.85,
+      "optimistic": 0.95,
+      "rationale": "NIC MAP reports assisted living occupancy of 88.4% across the 31 primary U.S. markets in 2Q 2026 [S44]. No Florida-only occupancy figure is published free of charge. The 90% default is an operator stabilization target, 1.6 points above the sourced NIC figure; the 85% conservative case sits below it. New homes ramp up from 2 residents (4 for the 36-bed configurations).",
+      "source_id": "S44"
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "alf6_private",
+        "label": "6-bed ALF in a residential home, 100% private pay",
+        "capacity": 6,
+        "notes": "The most common Florida small-ALF model. A home with six or fewer residents counts as a single-family use under s. 419.001(2), F.S. (1,000-ft spacing from similar homes). This model is near break-even with a paid administrator. It works mainly when the owner is the administrator. CareScout median is for a private one-bedroom unit in an assisted living community; shared-room rates in small residential homes are typically lower — price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S41"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / direct care staff (one on duty 24/7 plus overlap to reach 212 hrs/week with administrator)",
+            "basis": "hours_per_month",
+            "amount": 745.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.25,
+            "cite": "Rule 59A-36.010(3)(a), F.A.C.",
+            "notes": "212 staff hrs/week required at 6–15 residents. Administrator's 40 hrs count when on the schedule and active in care. A staff member must be in the building whenever residents are present. Under 17 residents no awake-overnight rule applies, but this model pays all overnight hours. Wage is the FL median for home health and personal care aides (31-1120), above the $15.00 minimum wage."
+          },
+          {
+            "role": "Administrator (full time, on staffing schedule)",
+            "basis": "annual_salary",
+            "amount": 69909,
+            "wage_source_id": "S45",
+            "cite": "Rule 59A-36.010(1), F.A.C.",
+            "notes": "FL 10th-percentile medical and health services manager wage ($33.61/h × 2,080). If the owner serves as administrator, this line is the owner's pay."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 3473.0,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "6 licensed beds × $578.83 = $3,473/month fixed."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 405.0,
+            "basis": "fixed",
+            "notes": "6 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "AHCA biennial license + assessment fee, per-bed portion (÷24, per licensed bed)",
+            "monthly": 16.74,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "6 licensed beds × $2.79."
+          }
+        ]
+      },
+      {
+        "id": "alf6_mixed",
+        "label": "6-bed ALF, 4 private-pay + 2 low-income Medicaid residents (OSS room & board + Medicaid floor rate)",
+        "capacity": 6,
+        "notes": "Shows the effect of low-income beds. SMMC LTC plans negotiate assisted living rates privately (s. 409.982, F.S.) and no state rate table exists, so the public ACS T1020 rate stands in as a floor. Enter your plan contract rate instead. OSS beds are exempt from the AHCA per-bed fee. CareScout median is for a private one-bedroom unit in an assisted living community; shared-room rates in small residential homes are typically lower — price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.6666666666666666,
+            "source_id": "S41"
+          },
+          {
+            "name": "Room & board paid by low-income resident from SSI + OSS (OSS base provider rate)",
+            "payer": "Resident (SSI/OSS)",
+            "code": "OSS",
+            "rate": 991.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3333333333333333,
+            "source_id": "S37"
+          },
+          {
+            "name": "Medicaid Assistive Care Services — public floor rate; replace with your SMMC LTC plan contract rate for waiver enrollees",
+            "payer": "Florida Medicaid (ACS) / SMMC LTC plan",
+            "code": "T1020",
+            "rate": 15.58,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3333333333333333,
+            "source_id": "S38"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / direct care staff (one on duty 24/7 plus overlap to reach 212 hrs/week with administrator)",
+            "basis": "hours_per_month",
+            "amount": 745.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.25,
+            "cite": "Rule 59A-36.010(3)(a), F.A.C.",
+            "notes": "212 staff hrs/week required at 6–15 residents. Administrator's 40 hrs count when on the schedule and active in care. A staff member must be in the building whenever residents are present. Under 17 residents no awake-overnight rule applies, but this model pays all overnight hours. Wage is the FL median for home health and personal care aides (31-1120), above the $15.00 minimum wage."
+          },
+          {
+            "role": "Administrator (full time, on staffing schedule)",
+            "basis": "annual_salary",
+            "amount": 69909,
+            "wage_source_id": "S45",
+            "cite": "Rule 59A-36.010(1), F.A.C.",
+            "notes": "FL 10th-percentile medical and health services manager wage ($33.61/h × 2,080). If the owner serves as administrator, this line is the owner's pay."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 3473.0,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "6 licensed beds × $578.83 = $3,473/month fixed."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 405.0,
+            "basis": "fixed",
+            "notes": "6 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "AHCA biennial license + assessment fee, per-bed portion (÷24, per licensed bed)",
+            "monthly": 16.74,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "6 licensed beds × $2.79."
+          }
+        ]
+      },
+      {
+        "id": "alf14_private",
+        "label": "14-bed ALF (under 17 — no awake-overnight mandate), 100% private pay",
+        "capacity": 14,
+        "notes": "The expert pick. Under 17 residents, 59A-36.010(3)(a)4 does not require awake overnight staff. At 7–14 residents the home is a community residential home under ch. 419, F.S., which needs local site approval and a DOH food hygiene inspection (11+ beds). Staffing runs above the rule minimum: 2 aides on days and evenings, 1 overnight. CareScout median is for a private one-bedroom unit in an assisted living community; shared-room rates in small residential homes are typically lower — price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S41"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers (2 day + 2 evening + 1 overnight, 8-h shifts = 280 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 1213.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.25,
+            "cite": "Rule 59A-36.010(3)(a), F.A.C.",
+            "notes": "Exceeds the 212 hrs/week minimum for 6–15 residents. Caregivers trained under 59A-36.011 (6-hour medication assistance course) assist with self-administered medication."
+          },
+          {
+            "role": "Cook / housekeeper (20 hrs/week; food-only staff do not count toward minimum hours)",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.28,
+            "cite": "Rule 59A-36.010(3)(a)7, F.A.C.",
+            "notes": "FL median maids and housekeeping cleaners (37-2012)."
+          },
+          {
+            "role": "Administrator (full time)",
+            "basis": "annual_salary",
+            "amount": 69909,
+            "wage_source_id": "S45",
+            "cite": "Rule 59A-36.010(1), F.A.C.",
+            "notes": "FL 10th-percentile medical and health services manager wage."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption: larger homes/agencies admit more clients per month in absolute terms. Verify against your local referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 8104.0,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "14 licensed beds × $578.83 = $8,104/month fixed. Larger-building rent is an operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 945.0,
+            "basis": "fixed",
+            "notes": "14 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "AHCA biennial license + assessment fee, per-bed portion (÷24, per licensed bed)",
+            "monthly": 39.06,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "14 licensed beds × $2.79."
+          }
+        ]
+      },
+      {
+        "id": "alf36_lns_private",
+        "label": "36-bed ALF with Limited Nursing Services (LNS) license, 100% private pay",
+        "capacity": 36,
+        "notes": "Purpose-built or converted facility. The LNS license lets residents who need limited nursing (no 24-hour nursing supervision) stay instead of moving out. Lease is an operator estimate. The $5,500 private-pay rate is the CareScout median for a private one-bedroom unit in an assisted living community [S41] — price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S41"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (3 day + 2 evening + 2 overnight awake = 392 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 1698.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.25,
+            "cite": "Rule 59A-36.010(3)(a)1 & 4",
+            "notes": "Rule minimum is 294 hrs/week at 26–35 residents and 335 hrs/week at 36–45 residents (a full 36-bed census), with at least one staff awake all night at 17+ residents."
+          },
+          {
+            "role": "CNA shift leads / medication assistance (1 day + 1 evening = 112 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 485.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 18.03,
+            "cite": "Rule 59A-36.008 / 59A-36.011",
+            "notes": "FL median nursing assistant (31-1131)."
+          },
+          {
+            "role": "LPN — LNS nursing services and monthly nursing assessments (20 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 29.7,
+            "cite": "Rule 59A-36.022",
+            "notes": "Rule requires a nurse employed or under contract and available as needed, plus a monthly nursing assessment per resident receiving those services."
+          },
+          {
+            "role": "RN oversight / supervision (5 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 21.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 40.48,
+            "cite": "Ch. 464, F.S.",
+            "notes": "Operator choice to supervise LPN practice and service plans. FL median RN (29-1141)."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "basis": "hours_per_month",
+            "amount": 260.0,
+            "wage_source_id": "S45",
+            "wage_hourly": 17.43,
+            "cite": "Rule 59A-36.012",
+            "notes": "FL median institutional cook (35-2012)."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.28,
+            "cite": "Rule 59A-36.014(3)(e)"
+          },
+          {
+            "role": "Maintenance (0.5 FTE)",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 22.15,
+            "cite": "Rule 59A-36.025",
+            "notes": "Also runs generator testing for the Emergency Environmental Control Plan."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.28,
+            "notes": "Operator choice. Housekeeper median wage used as proxy."
+          },
+          {
+            "role": "Administrator (full time; must meet ECC qualifications if ECC)",
+            "basis": "annual_salary",
+            "amount": 92539,
+            "wage_source_id": "S45",
+            "cite": "Rule 59A-36.010(1); 59A-36.021(3)(a)",
+            "notes": "FL 25th-percentile medical and health services manager wage ($44.49/h × 2,080)."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption: larger homes/agencies admit more clients per month in absolute terms. Verify against your local referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 20838.0,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "36 licensed beds × $578.83 = $20,838/month fixed. Larger-building rent is an operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 2430.0,
+            "basis": "fixed",
+            "notes": "36 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "AHCA biennial license + assessment fee, per-bed portion (÷24, per licensed bed)",
+            "monthly": 100.44,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "36 licensed beds × $2.79."
+          },
+          {
+            "item": "AHCA LNS biennial fee ÷ 24",
+            "monthly": 28.67,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "($322.77 + $10.15 × 36 beds) = $688.17 per biennium ÷ 24 [S2]."
+          }
+        ]
+      },
+      {
+        "id": "alf36_ecc_mixed",
+        "label": "36-bed ALF with Extended Congregate Care (ECC), 75% private pay / 25% low-income Medicaid",
+        "capacity": 36,
+        "notes": "ECC lets residents age in place. A facility licensed under 2 years gets only a 6-month provisional ECC license (s. 429.07(3)(b)2, F.S.). Low-income residents are modeled at OSS room & board plus the public ACS floor rate. SMMC LTC contract rates for ECC residents are negotiated and unpublished. The $5,500 private-pay rate is the CareScout median for a private one-bedroom unit in an assisted living community [S41] — price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.75,
+            "source_id": "S41"
+          },
+          {
+            "name": "Room & board paid by low-income resident from SSI + OSS (OSS base provider rate)",
+            "payer": "Resident (SSI/OSS)",
+            "code": "OSS",
+            "rate": 991.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S37"
+          },
+          {
+            "name": "Medicaid Assistive Care Services — public floor rate; replace with your SMMC LTC plan contract rate for waiver enrollees",
+            "payer": "Florida Medicaid (ACS) / SMMC LTC plan",
+            "code": "T1020",
+            "rate": 15.58,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.25,
+            "source_id": "S38"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (3 day + 2 evening + 2 overnight awake = 392 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 1698.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.25,
+            "cite": "Rule 59A-36.010(3)(a)1 & 4",
+            "notes": "Rule minimum is 294 hrs/week at 26–35 residents and 335 hrs/week at 36–45 residents (a full 36-bed census), with at least one staff awake all night at 17+ residents."
+          },
+          {
+            "role": "CNA shift leads / medication assistance (1 day + 1 evening = 112 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 485.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 18.03,
+            "cite": "Rule 59A-36.008 / 59A-36.011",
+            "notes": "FL median nursing assistant (31-1131)."
+          },
+          {
+            "role": "LPN — ECC nursing, monthly assessments, service plans (20 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 29.7,
+            "cite": "Rule 59A-36.021(3)",
+            "notes": "Rule requires a nurse employed or under contract and available as needed, plus a monthly nursing assessment per resident receiving those services."
+          },
+          {
+            "role": "RN oversight / supervision (5 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 21.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 40.48,
+            "cite": "Ch. 464, F.S.",
+            "notes": "Operator choice to supervise LPN practice and service plans. FL median RN (29-1141)."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "basis": "hours_per_month",
+            "amount": 260.0,
+            "wage_source_id": "S45",
+            "wage_hourly": 17.43,
+            "cite": "Rule 59A-36.012",
+            "notes": "FL median institutional cook (35-2012)."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.28,
+            "cite": "Rule 59A-36.014(3)(e)"
+          },
+          {
+            "role": "Maintenance (0.5 FTE)",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "wage_source_id": "S45",
+            "wage_hourly": 22.15,
+            "cite": "Rule 59A-36.025",
+            "notes": "Also runs generator testing for the Emergency Environmental Control Plan."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S45",
+            "wage_hourly": 16.28,
+            "notes": "Operator choice. Housekeeper median wage used as proxy."
+          },
+          {
+            "role": "Administrator (full time; must meet ECC qualifications if ECC)",
+            "basis": "annual_salary",
+            "amount": 92539,
+            "wage_source_id": "S45",
+            "cite": "Rule 59A-36.010(1); 59A-36.021(3)(a)",
+            "notes": "FL 25th-percentile medical and health services manager wage ($44.49/h × 2,080)."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption: larger homes/agencies admit more clients per month in absolute terms. Verify against your local referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 20838.0,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "36 licensed beds × $578.83 = $20,838/month fixed. Larger-building rent is an operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 2430.0,
+            "basis": "fixed",
+            "notes": "36 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "AHCA biennial license + assessment fee, per-bed portion (÷24, per licensed bed)",
+            "monthly": 100.44,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "36 licensed beds × $2.79."
+          },
+          {
+            "item": "AHCA ECC biennial fee ÷ 24",
+            "monthly": 37.98,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "($546.07 + $10.15 × 36 beds) = $911.47 per biennium ÷ 24 [S2]."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "alf14_private",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.083,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.05,
+      "notes": "Employer FICA is 7.65% [S51]. FUTA (0.6% net) and Florida reemployment tax at the 2.7% new-employer rate apply only to the first $7,000 per worker [S49][S50][S52], about 0.7% of an aide's pay, so taxes total about 8.3%. Workers' comp is mandatory at 4+ employees (s. 440.02, F.S.) [S48]. The 4% rate and the 5% benefits allowance are operator estimates — get a carrier quote for your class code.",
+      "source_id": "S51"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 3473.0,
+        "basis": "fixed",
+        "notes": "Fixed rent owed from day one regardless of census. Based on the HUD FY2027 SAFMR 4-bedroom rent for an Orlando-area ZIP ($3,020) [S54], scaled ×1.15 for a 5-bedroom home = about $3,473/month for a 6-bed home, or $578.83 per licensed bed per month. The 14-bed ($8,104) and 36-bed ($20,838) amounts apply the same per-bed figure — operator estimate — verify locally. Miami-Dade, Broward and Palm Beach run higher.",
+        "source_id": "S54"
+      },
+      {
+        "item": "Food (3 meals + snacks per resident)",
+        "monthly": 330,
+        "basis": "per_client",
+        "notes": "Operator estimate (about $10.85 per resident-day) — verify with your food vendor. Rule 59A-36.012 sets meal and menu standards."
+      },
+      {
+        "item": "Utilities (electric, water, gas, trash) — per-resident portion",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Half of the original $150/resident estimate scales with census; the other half is the fixed base-load line. Operator estimate — verify locally. Florida A/C load is high."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed beds)",
+        "monthly": 405.0,
+        "basis": "fixed",
+        "notes": "Building base load (A/C, water heating, common areas) that does not fall with census: $67.50 per licensed bed per month (6 beds $405; 14 beds $945; 36 beds $2,430). Operator estimate — verify locally."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 100,
+        "basis": "per_client",
+        "notes": "s. 429.275(3), F.S. and Rule 59A-36.013(4) require liability coverage in force at all times. No dollar minimum is set. Premium is an operator estimate — get quotes.",
+        "source_id": "S14"
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance",
+        "monthly": 50,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Generator fuel, testing and service (Emergency Environmental Control Plan)",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Rule 59A-36.025 requires an alternate power source that keeps temperature at or below 81°F for 96 hours, with 48 hours of fuel stored onsite (16 or fewer beds) or 72 hours (17+ beds). Cost is an operator estimate.",
+        "source_id": "S18"
+      },
+      {
+        "item": "Activities & recreation",
+        "monthly": 30,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "AHCA biennial license + assessment fee, per-bed portion (÷24, per licensed bed)",
+        "monthly": 16.74,
+        "basis": "fixed",
+        "notes": "($64.96 per private-pay bed + $2.00/bed assessment) ÷ 24 = $2.79 per licensed bed per month [S2], charged on licensed capacity, not occupied residents (6 beds $16.74; 14 beds $39.06; 36 beds $100.44). OSS beds are exempt from the $64.96, which this line conservatively ignores. LNS/ECC per-bed and base fees are separate lines on those configurations.",
+        "source_id": "S2"
+      },
+      {
+        "item": "AHCA biennial license base fee ($387.73 ÷ 24)",
+        "monthly": 16.16,
+        "basis": "fixed",
+        "notes": "Base fee for the standard license [S2]. ECC ($546.07 + $10.15/bed) and LNS ($322.77 + $10.15/bed) biennial fees are added as separate lines on the 36-bed ECC and LNS configurations.",
+        "source_id": "S2"
+      },
+      {
+        "item": "eMAR / care documentation software",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes. Florida has no EVV mandate for ALFs."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing & referral development",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate. Placement agencies typically charge a referral fee per move-in, which is not modeled."
+      },
+      {
+        "item": "Training, CE, CPR/First Aid and Level 2 screening",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Covers 59A-36.011 staff in-services, administrator 12-hr biennial CE, CPR/First Aid cards and Level 2 rescreening every 5 years (s. 408.809(2), F.S.). Cost is an operator estimate.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate. Transportation is optional, not required by rule."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Florida LLC Articles of Organization ($100) + registered agent designation ($25)",
+        "low": 125,
+        "high": 125,
+        "source_id": "S53"
+      },
+      {
+        "item": "AHCA initial license fee (6-bed standard → 36-bed with ECC; incl. $2/bed assessment)",
+        "low": 790,
+        "high": 3710,
+        "source_id": "S2"
+      },
+      {
+        "item": "Administrator core competency test fee (maximum per attempt)",
+        "low": 200,
+        "high": 200,
+        "source_id": "S6"
+      },
+      {
+        "item": "26-hour ALF core training course",
+        "low": 300,
+        "high": 600,
+        "notes": "Operator estimate — trainer prices vary."
+      },
+      {
+        "item": "Level 2 background screening (owners, administrator, staff) via the Clearinghouse",
+        "low": 300,
+        "high": 1500,
+        "notes": "Operator estimate — fingerprinting vendor fees vary."
+      },
+      {
+        "item": "Generator, transfer switch and fuel storage for the 96-hour 81°F requirement",
+        "low": 8000,
+        "high": 60000,
+        "source_id": "S18",
+        "notes": "Operator estimate — get electrician and engineer quotes."
+      },
+      {
+        "item": "Furnishings per Rule 59A-36.014(3)(b) (bed, closet, dresser, nightstand, lamp, chair) + common areas",
+        "low": 12000,
+        "high": 90000,
+        "source_id": "S20",
+        "notes": "Operator estimate of about $2,000–2,500 per bed."
+      },
+      {
+        "item": "Fire safety upgrades (alarms, extinguishers, signage; sprinklers if required) and life-safety inspection",
+        "low": 3000,
+        "high": 75000,
+        "notes": "Operator estimate — depends on building and local fire authority (Rule 59A-36.005(2); ch. 69A-40, F.A.C.)."
+      },
+      {
+        "item": "Lease deposit + first month",
+        "low": 7000,
+        "high": 42000,
+        "notes": "Two months of the modeled lease."
+      },
+      {
+        "item": "Insurance down payments, policies & procedures manual, eMAR setup",
+        "low": 3000,
+        "high": 10000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Automated external defibrillator (AED)",
+        "low": 1200,
+        "high": 2500,
+        "source_id": "S24",
+        "notes": "required at 17+ beds (s. 429.255(3)(a)); price is operator estimate — verify locally. Applies to the 36-bed configurations; not required under 17 beds.",
+        "min_capacity": 17
+      },
+      {
+        "item": "Working capital reserve through ramp-up (about 3–6 months of expenses)",
+        "low": 60000,
+        "high": 450000,
+        "notes": "Operator estimate. AHCA requires Proof of Financial Ability to Operate (separate forms for 16 or fewer and 17+ beds).",
+        "category": "working_capital"
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "The old report said ALF rules were in FAC 58A-5. They were renumbered to 59A-36 on 7/1/2019 (e.g., staffing 59A-36.010, formerly 58A-5.019).",
+    "The old report listed Medicaid ALF 'tiers' of $77.81/$99.30/$128.87 per day, plus a 10% dementia add-on, an $8/day behavioral add-on and a 5% rural add-on. No such state table exists. SMMC LTC plans negotiate rates with each facility (s. 409.982, F.S.). The public Medicaid ACS rate is $15.58/day (2026).",
+    "The old report gave the initial license fee as $1,000, $1,400 and $1,565–$2,000 in different places. AHCA charges $387.73 + $64.96 per private-pay bed (OSS exempt) plus a $2/bed assessment, which is $789.49 for 6 beds.",
+    "The old report said staffing was '42 direct care staff hours per 20 residents weekly.' The actual rule is a weekly-hours table (168 hrs for 0–5 residents, 212 for 6–15, 253 for 16–25 …). The 42-hour increment applies only per 20 residents above 95.",
+    "The old report said administrator CE was 'minimum 10 hours annually' (and elsewhere 12 annually). The statute and rule require 12 hours every 2 years (s. 429.52(5), F.S.).",
+    "The old report described a '1,000-hour Administrator in Training' and 40-hour mandatory staff initial training. Neither exists in rule. The rule requires a 2-hour preservice orientation plus specific in-service hours (Rule 59A-36.011).",
+    "The old report cited 'Florida Medicaid wage requirements' of $15/hr, 'Centennial Care' as a Florida plan, and plan market shares. Centennial Care is New Mexico's program. Plan shares are unsourced. Florida's minimum wage is $15.00 from 9/30/2026 by constitutional amendment.",
+    "The old report said 'only 30% of ALFs participate in Medicaid,' cited 3,609 providers and 340,000 residents, and gave a 66% turnover figure. None of these are sourced. NCAL reports 2,968 communities and 117,384 beds.",
+    "The old report gave a 40 sq ft per resident minimum citing 59A-36.025. That rule is the emergency power rule, which uses 20 net sq ft per resident for the cooled area.",
+    "The old checklist cited 'Form 3110-1023' as the ALF application. The current ALF application is AHCA Form 3110-1008 (Aug 2023). The checklist also said certificates 'must list AHCA as certificate holder,' required a 100% surety bond for any resident funds handled, and cited 59A-36.017/.016 for policies. Those rules were repealed in 2021. Bond amounts are twice monthly income under s. 429.27(2).",
+    "The old P&L defaulted to California rates and wages. Its 'Florida' row ($4,500/mo, $16.18/hr from BLS May 2024) is outdated. CareScout 2025 Florida median is $5,500/mo, and the BLS May 2025 FL median aide wage is $16.25."
+  ],
+  "verification_log": [
+    {
+      "issue": "CRITICAL: lease modeled per occupied resident ($643 per_client), understating rent during ramp and at low census.",
+      "change": "Base opex lease line now basis \"fixed\" at the 6-bed amount $3,473 (S54); opex_overrides on every configuration size it at $578.83 per licensed bed: 6-bed $3,473, 14-bed $8,104, 36-bed $20,838 (larger buildings labeled operator estimate — verify locally). Financial narrative, risks wording and not_claimed updated."
+    },
+    {
+      "issue": "Utilities ($150 per_client) had the same per-occupied-resident problem.",
+      "change": "Split per verifier guidance: $75/resident per_client portion plus a fixed base-load line at $67.50 per licensed bed (6-bed $405, 14-bed $945, 36-bed $2,430) via opex_overrides; both labeled operator estimate — verify locally."
+    },
+    {
+      "issue": "AHCA per-bed fee line was $3.10 per occupied resident; correct is $2.79 per licensed bed.",
+      "change": "Set to $2.79 per licensed bed as a fixed line (6-bed $16.74, 14-bed $39.06, 36-bed $100.44) via opex_overrides; notes updated."
+    },
+    {
+      "issue": "LNS/ECC specialty license fees excluded from opex of the 36-bed LNS and ECC configurations.",
+      "change": "Added opex_overrides: \"AHCA LNS biennial fee ÷ 24\" $28.67/month on alf36_lns_private and \"AHCA ECC biennial fee ÷ 24\" $37.98/month on alf36_ecc_mixed (S2); removed \"not included\" wording from base fee notes."
+    },
+    {
+      "issue": "Mandatory AED (17+ beds, s. 429.255(3)(a)) had no startup cost line.",
+      "change": "Added shared startup_costs line \"Automated external defibrillator (AED)\" low $0 / high $2,500, source S24, price labeled operator estimate — verify locally. Note: size scaling assigns about $667 to the 14-bed configs, which do not legally need one."
+    },
+    {
+      "issue": "$5,500 CareScout median (private one-bedroom in an AL community) applied to small homes without caveat.",
+      "change": "Kept $5,500 (sourced, S41). Added caveat to all configuration notes, rates[0].notes, sections.reimbursement, market_conditions, financial_narrative, checklist[52], and a not_claimed line."
+    },
+    {
+      "issue": "McKnight's source URL returns 404; \"a quarter of Florida ALFs reduced Medicaid admissions\" unverifiable.",
+      "change": "Removed the sentence from sections.reimbursement, removed the McKnight's cite from sections.risks (kept [S56], reworded to GAO's finding), deleted the McKnight's source from sources, added not_claimed line."
+    },
+    {
+      "issue": "GAO attribution overstated (\"state officials and national groups\").",
+      "change": "Reworded to \"officials from one state and representatives from one organization said...\" per GAO-26-107884."
+    },
+    {
+      "issue": "\"plans must honor reasonable facility choice\" not in s. 409.982 (S30).",
+      "change": "Deleted the parenthetical claim and the [S30] cite from sections.demand."
+    },
+    {
+      "issue": "Recommendation implied ECC requires 2 years of clean surveys.",
+      "change": "Replaced with provisional 6-month ECC license wording per s. 429.07(3)(b), F.S."
+    },
+    {
+      "issue": "36-bed aide staffing note omitted 335 hrs/week minimum at 36–45 residents.",
+      "change": "Updated configurations[3] and [4] staffing[0].notes."
+    },
+    {
+      "issue": "Cook/housekeeper cite was 59A-36.010(3)(a)9.",
+      "change": "Changed to Rule 59A-36.010(3)(a)7, F.A.C."
+    },
+    {
+      "issue": "Default occupancy 90% above the sourced 88.4% NIC figure.",
+      "change": "Kept 0.90; rationale and sections.demand now state it is an operator target 1.6 points above the sourced NIC figure."
+    },
+    {
+      "issue": "Choice-counseling phone cited to S32.",
+      "change": "regulators[1].source_id set to S35."
+    },
+    {
+      "issue": "DOEA regulator URL pointed at an AHCA page.",
+      "change": "regulators[2].url set to https://elderaffairs.org/ (S32 kept for role)."
+    },
+    {
+      "issue": "key_numbers[11].as_of lacked data vintage.",
+      "change": "Set to NCAL fact sheet; 2020 NPALS data and state licensure website."
+    },
+    {
+      "issue": "2026 OSS rate unverifiable (COLA adjustment under 65A-2.036(7) unpublished).",
+      "change": "Kept $991.40 as last published rule value; rates[4].notes now say \"rule value eff. 6/24/2025; 2026 COLA adjustment under 65A-2.036(7) not published\"; existing not_claimed entry kept."
+    },
+    {
+      "issue": "checklist[2] (EIN free, same day) had no source_id.",
+      "change": "Added IRS EIN page as S70 and set checklist[2].source_id = S70."
+    },
+    {
+      "issue": "Financial narrative ramp (single 2+1 ramp) and owner-administrator saving ($5,800) did not match model.",
+      "change": "Narrative now states per-configuration ramps (6-bed 2+1, 14-bed 2+2, 36-bed 4+3; set in configurations[].ramp, 6-bed uses the bundle default) and owner-administrator saving of about $6,830/month incl. burden; results table, lease/utilities/fee bullets regenerated from the model."
+    }
+  ]
+}

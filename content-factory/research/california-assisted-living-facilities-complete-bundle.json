@@ -1,0 +1,2540 @@
+{
+  "bundle_slug": "california-assisted-living-facilities-complete-bundle",
+  "state": "California",
+  "state_code": "CA",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Residential Care Facility for the Elderly (RCFE)",
+  "as_of": "2026-10",
+  "report_title": "California RCFE (Assisted Living) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Health & Safety Code §1569.185 — RCFE license fees (initial/annual by capacity, late fee, orientation fee)",
+      "publisher": "California Legislature (via Justia, 2025 Code)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-2/section-1569-185/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "Assisted Living Waiver Reimbursement Rates (rate sheet, '2025 Payment Rates', updated 12/2025)",
+      "publisher": "CA Dept. of Health Care Services (DHCS)",
+      "url": "https://www.dhcs.ca.gov/vi/services/ltc/Documents/ALW-Rate-Sheet-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Assisted Living Waiver — program page (eligibility, 15 counties, waiver term 3/1/2024–2/28/2029)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/services/long-term-care-alternatives-home-and-community-based-service-options/assisted-living-waiver/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "ALW Enrollment and Waitlist (data through March 2026)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/wp-content/uploads/2026/07/ALW-Enrollment-and-Waitlist.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "SSI/SSP Payment Standards Effective January 1, 2026 (ACWDL 25-29, Enclosure 1)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/services/medi-cal/eligibility/letters/Pages/ACWDL-25-29-Enclosure-1.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "SSI/SSP Rates for RCFE residents (basic services $1,444.07; P&I $182), effective 1/1/2026",
+      "publisher": "California Assisted Living Association (CALA)",
+      "url": "https://www.caassistedliving.org/CALA/Member_Resources/Laws___Regulations/SSI_SSP_Rates.aspx",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "22 CCR §87415 — Night Supervision (RCFE)",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87415",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "22 CCR §87705 — Care of Persons with Dementia (incl. awake night staff in <16-bed homes)",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87705",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "22 CCR §87411 — Personnel Requirements, General (RCFE)",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87411",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Health & Safety Code §1569.625 — Direct care staff training (40 hrs initial, 20 hrs annual)",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-625/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "Health & Safety Code §1569.626 — Dementia training for direct care staff",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-626/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Health & Safety Code §1569.69 — Medication assistance training",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-69/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Health & Safety Code §1569.616 — Administrator certification (80-hr program, exam, 40 hrs CE/2 yrs)",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-616/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "22 CCR §87405 — Administrator qualifications and duties",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87405",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Administrator Certification — Administrator Information (ICTP, $140 application fee, $100 exam)",
+      "publisher": "CA Dept. of Social Services (CDSS)",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/administrator-certification/administrator-information",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Health & Safety Code §1569.85 — RCFE serving 6 or fewer is a residential use; no CUP",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1569-85/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Health & Safety Code §1569.84 — No fire-inspection fees / local fees for RCFEs serving 6 or fewer",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1569-84/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "Health & Safety Code §1569.605 — Liability insurance $1M per occurrence / $3M aggregate",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-605/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "How to Become Licensed — ASCP Centralized Applications Bureau (90–120 day process, CAB contacts)",
+      "publisher": "CDSS",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/ascp-centralized-application-units",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "Online Orientations — Senior Care (RCFE) Component I ($50 + $4.85)",
+      "publisher": "CDSS",
+      "url": "https://cdss.ca.gov/inforesources/Community-Care/ASCP-Centralized-Application-Units/Online-Orientations",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "LIC 281 — Application Instructions for a Facility License (form list, Sections A and B)",
+      "publisher": "CDSS Community Care Licensing",
+      "url": "https://www.cdss.ca.gov/cdssweb/entres/forms/English/LIC281.PDF",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "22 CCR §87155 — Application for License (start-up funds ≥ 3 months operating costs)",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87155",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "22 CCR §87208 — Plan of Operation",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87208",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "22 CCR §87307 — Personal Accommodations and Services (2 per bedroom, 1 toilet/6, 1 bath/10)",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87307",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "22 CCR §87615 — Prohibited Health Conditions",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87615",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "22 CCR §87632 — Hospice Care Waiver",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87632",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "22 CCR §87706 — Advertising Dementia Special Care",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87706",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "22 CCR §87202 — Fire Clearance",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87202",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "22 CCR §87355 — Criminal Record Clearance",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87355",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "22 CCR §87465 — Incidental Medical and Dental Care Services (medications)",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87465",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "22 CCR §87507 — Admission Agreements",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87507",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "22 CCR §87470 — Infection Control Requirements",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87470",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "22 CCR §87468.1 — Personal Rights of Residents in All Facilities",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87468.1",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "22 CCR §87212 — Emergency Disaster Plan",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87212",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "22 CCR §87457 — Pre-Admission Appraisal",
+      "publisher": "Cornell LII (Cal. Code Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87457",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Welfare & Institutions Code §15630 — Elder/dependent adult abuse mandated reporting",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/welfare-and-institutions-code/wic-sect-15630/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "California minimum wage rises to $16.90 on January 1, 2026 (News Release 2025-118)",
+      "publisher": "CA Dept. of Industrial Relations (DIR)",
+      "url": "https://www.dir.ca.gov/DIRNews/2025/2025-118.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Occupational Employment and Wage Statistics, California, May 2025 (series OEUS06…; 31-1120, 31-1131, 11-9111, 11-9151, 29-2061, 35-2012, 37-2012)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/oes/current/oes_ca.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Cost of Care Survey 2025 — Median Cost Data Tables (California assisted living $7,000/mo; U.S. $6,200)",
+      "publisher": "CareScout Holdings",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "2026 Cost of Long-Term Care and Senior Living (California AL $5,739, memory care $6,850; 2025 move-ins)",
+      "publisher": "A Place for Mom",
+      "url": "https://www.aplaceformom.com/senior-living-data/articles/average-cost-long-term-care",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "Genworth and CareScout Release Cost of Care Survey Results for 2024 (U.S. AL $70,800/yr, +10%)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/982/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Community Care Licensing Facilities — RCFE facility list (file dated 05/25/2025)",
+      "publisher": "CA Health & Human Services Open Data Portal / CDSS",
+      "url": "https://data.chhs.ca.gov/dataset/ccl-facilities",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "RCFEs by the Numbers (DSS 2018 facility list: 7,400+ RCFEs, 185,000+ capacity)",
+      "publisher": "California Assisted Living Association",
+      "url": "https://online.caassistedliving.org/about-assisted-living/assisted-living-in-california/assisted-living-by-numbers/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "FY2026 Fair Market Rents, county-level (FY26_FMRs.xlsx)",
+      "publisher": "U.S. Dept. of Housing and Urban Development (HUD USER)",
+      "url": "https://www.huduser.gov/portal/datasets/fmr.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Senior Housing Occupancy Climbs in Second Quarter 2026 (assisted living 88.4%, 31 primary markets)",
+      "publisher": "NIC (National Investment Center for Seniors Housing & Care)",
+      "url": "https://www.nic.org/blog/senior-housing-occupancy-climbs-in-second-quarter-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "California's Aging Population (Jan 2025; DOF P-1A projections)",
+      "publisher": "Public Policy Institute of California",
+      "url": "https://www.ppic.org/publication/californias-aging-population/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "Provider Enrollment for RCFEs and ARFs (Assisted Living Waiver)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/services/long-term-care-alternatives-home-and-community-based-service-options/provider-enrollment-for-residential-care-facilities-for-the-elderly-and-adult-residential-facilities/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "RCFE or ARF Application Requirements (Medi-Cal enrollment packet; page still shows the CY2025 $730 fee — CY2026 fee is $750, see S65)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/services/long-term-care-alternatives-home-and-community-based-service-options/residential-care-facility-for-the-elderly-rcfe-or-adult-residential-facility-arf-application-requirements/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "ALW Reimbursement Rates 2023 (prior schedule, for trend)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/services/ltc/Documents/Reimbursement-Rates-2023.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "Rates and Withholding 2026 (UI $7,000 wage base, 3.4% new employer, ETT 0.1%, SDI 1.3%)",
+      "publisher": "CA Employment Development Department (EDD)",
+      "url": "https://edd.ca.gov/en/Payroll_Taxes/rates_and_withholding/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Social Security & Medicare tax rates (employer 7.65%)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/progdata/taxRates.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "Workers' Compensation Decision and Order (avg advisory benchmark $1.65 per $100 payroll, eff. 9/1/2026)",
+      "publisher": "California Department of Insurance",
+      "url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/upload/Workers-Comp-Decision-and-Order-7-10-26.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Classification 9070(1) Residential Care Facilities for the Elderly",
+      "publisher": "Workers' Compensation Insurance Rating Bureau of California (WCIRB)",
+      "url": "https://www.wcirb.com/node/56746",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "USDA Food Plans: Cost of Food at Home, May 2026",
+      "publisher": "USDA Food and Nutrition Service",
+      "url": "https://fns-prod.azureedge.us/sites/default/files/resource-files/cnpp-costfood-3levels-may2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "Limited liability company — annual tax ($800) and LLC fee",
+      "publisher": "CA Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "Limited Liability Companies — California (LLC-1 $70; LLC-12 $20)",
+      "publisher": "CA Secretary of State",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-california-domestic",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "Labor Code §246 — Paid sick leave (40 hours / 5 days)",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-lab/division-2/part-1/chapter-1/article-1-5/section-246",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "Long-Term Care Ombudsman Program (CRISISline 1-800-231-4024)",
+      "publisher": "CA Department of Aging",
+      "url": "https://www.aging.ca.gov/Programs/LTCOP/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "Resources for Residents and Families (elder abuse lines, ASCP phone)",
+      "publisher": "CDSS",
+      "url": "https://www.cdss.ca.gov/inforesources/senior-care-licensing/resources-for-residents-and-families",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S60",
+      "title": "Summary of Wage Order 5 amendments (meal/rest rules for 24-hour residential care for elderly)",
+      "publisher": "DIR / Industrial Welfare Commission",
+      "url": "https://www.dir.ca.gov/iwc/SummaryWageorder5.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S61",
+      "title": "California Raises Minimum Wages for Healthcare Workers (SB 525 covered facilities)",
+      "publisher": "McDermott Will & Emery",
+      "url": "https://www.mcdermottlaw.com/insights/california-raises-minimum-wages-for-healthcare-workers-effective-june-1-2024/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S62",
+      "title": "Senior Care Licensing — Public Information and Policies (ASCP contact)",
+      "publisher": "CDSS",
+      "url": "https://www.cdss.ca.gov/inforesources/senior-care-licensing/public-information-and-policies",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S63",
+      "title": "CalAIM Community Supports Early Adopters: Nursing Home Transitions and Diversion (Jul 2024)",
+      "publisher": "California Health Care Foundation",
+      "url": "https://www.chcf.org/resource/2024/07/16/calaim-community-supports-early-adopters-spotlight-on-nursing-home-transitions-and-diversion/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S64",
+      "title": "2026 Minimum Wage notice (MW-2026)",
+      "publisher": "DIR / Industrial Welfare Commission",
+      "url": "https://dir.ca.gov/IWC/MW-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S65",
+      "title": "Application Fees (Medi-Cal provider application fee: $750.00 for CY2026; $730.00 for CY2025)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/providers-partners/application-fees/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S66",
+      "title": "California Local Wage Increases Effective July 1, 2026 (City of Los Angeles $18.42; unincorporated LA County $18.47; San Francisco $19.61)",
+      "publisher": "Davis Wright Tremaine LLP",
+      "url": "https://www.dwt.com/blogs/employment-labor-and-benefits/2026/06/california-local-minimum-wage-increases-july-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S67",
+      "title": "California Local Minimum Wage Rates Increases Starting January 1, 2026 (San Diego $17.75; San Jose $18.45; Santa Clara $18.70)",
+      "publisher": "CalChamber HRCalifornia",
+      "url": "https://hrcalifornia.calchamber.com/articles/california-local-minimum-wage-rates-increases-starting-january-1-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S68",
+      "title": "Assisted Living Waiver Program Description and Eligibility (resident pays own room and board; SSI less P&I)",
+      "publisher": "DHCS",
+      "url": "https://www.dhcs.ca.gov/services/ltc/Documents/ALW-Program-Descriptand-Elig-2024.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S69",
+      "title": "22 CCR §87303 — Maintenance and Operation (heat 68°F minimum, hot water 105–120°F, cooling range)",
+      "publisher": "Cornell LII (Title 22 CCR)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87303",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S70",
+      "title": "22 CCR §87217 — Safeguards for Resident Cash, Personal Property, and Valuables",
+      "publisher": "Cornell LII (Title 22 CCR)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87217",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License type / regulator",
+      "value": "Residential Care Facility for the Elderly (RCFE), CDSS Community Care Licensing, 22 CCR §87100 et seq.",
+      "source_id": "S19",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Application fee, paid with the license application (4–6 beds / 7–15 beds)",
+      "value": "$990 / $1,486.80",
+      "source_id": "S1",
+      "as_of": "2025 Code"
+    },
+    {
+      "metric": "Annual license fee (4–6 beds / 7–15 beds)",
+      "value": "$495.60 / $742.80",
+      "source_id": "S1",
+      "as_of": "2025 Code"
+    },
+    {
+      "metric": "Licensed RCFEs (excl. CCRCs) / total licensed capacity",
+      "value": "7,830 / 172,751 (6,265 homes have 6 or fewer beds); status = LICENSED, excludes 23 facilities on probation and 132 CCRCs",
+      "source_id": "S42",
+      "as_of": "2025-05-25"
+    },
+    {
+      "metric": "California assisted living private-pay median",
+      "value": "$7,000/mo (CareScout 2025); $5,739/mo (A Place for Mom, 2025 move-ins)",
+      "source_id": "S39",
+      "as_of": "2025"
+    },
+    {
+      "metric": "Medi-Cal Assisted Living Waiver daily rates (T2031)",
+      "value": "Tier 1 $95.69 to Tier 5 $270.80 per day; waiver does NOT pay room and board",
+      "source_id": "S2",
+      "as_of": "2025 rate sheet (updated 12/2025)"
+    },
+    {
+      "metric": "ALW enrollment / waitlist",
+      "value": "14,831 enrolled / 15,910 waiting",
+      "source_id": "S4",
+      "as_of": "2026-03"
+    },
+    {
+      "metric": "SSI/SSP board-and-care basic services rate (room & board for ALW/SSI residents)",
+      "value": "$1,444.07/mo (of $1,626.07 grant; $182 kept for personal needs)",
+      "source_id": "S5",
+      "as_of": "2026-01-01",
+      "source_ids": [
+        "S5",
+        "S68",
+        "S6"
+      ]
+    },
+    {
+      "metric": "Night staffing rule (<16 residents)",
+      "value": "Qualified person on call on premises; awake night staff required if any dementia resident needs it",
+      "source_id": "S7",
+      "as_of": "current rule",
+      "source_ids": [
+        "S7",
+        "S8"
+      ]
+    },
+    {
+      "metric": "Direct care staff training",
+      "value": "40 hrs initial (20 before working alone) + 20 hrs annually; 12 hrs initial / 8 hrs annual dementia",
+      "source_id": "S10",
+      "as_of": "2025 Code"
+    },
+    {
+      "metric": "Administrator certification",
+      "value": "80-hr program + state exam; 40 hrs CE every 2 years; $140 application, $100 exam",
+      "source_id": "S15",
+      "as_of": "2026"
+    },
+    {
+      "metric": "CA minimum wage 2026 / BLS personal & home care aide mean",
+      "value": "$16.90/hr / $17.51/hr (May 2025)",
+      "source_id": "S37",
+      "as_of": "2026-01-01",
+      "source_ids": [
+        "S37",
+        "S38"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "A numeric staff-to-resident ratio for RCFEs. Title 22 requires staff 'sufficient in numbers' to meet resident needs (22 CCR §87411) and sets night-supervision rules (§87415, §87705), but no day-shift ratio. The prior report's '1:5 mandated ratio' is false.",
+    "Regional (metro-level) private-pay prices. CareScout's 2025 data defines 25 California regions, but the regional medians were not obtainable for this report; only state-level medians are used.",
+    "Market shares, named competitors, or occupancy of individual California RCFEs. No public source.",
+    "California-specific small-RCFE (6-bed) occupancy rates. The 88.4% NIC figure is for professionally managed assisted living in 31 primary U.S. markets and is used only as a planning anchor.",
+    "A class-specific workers' compensation rate for WCIRB class 9070. The classification is confirmed, but the rate could not be retrieved; the model uses an operator estimate of 5% of payroll. Get a broker quote.",
+    "Insurance premium amounts. Only the coverage minimums ($1M/$3M liability, HSC §1569.605) are sourced; premiums in the model are operator estimates.",
+    "Rent for a 7–15 bed property. HUD FMRs only go to 4 bedrooms; the 15-bed lease figure is an operator estimate.",
+    "CDSS processing time beyond the published '90 to 120 days' estimate. Real timelines vary by region and fire clearance.",
+    "An explicit effective date for the current ALW tier rates. DHCS labels the sheet '2025 Payment Rates' (updated 12/2025) without a stated effective date; confirm with DHCS before billing.",
+    "That every ALW tier payment flows to the RCFE in every arrangement. DHCS enrolls RCFEs as ALW providers and pays care coordination ($320/mo) to the Care Coordination Agency, not the RCFE. Confirm billing roles with DHCS during enrollment.",
+    "Break-even month or cash burn for a specific property. The P&L generator computes break-even from the inputs; it will vary by location.",
+    "A dedicated DHCS phone line or menu path for ALW provider enrollment. The cited DHCS enrollment page lists only email (ProFacWAIVER@dhcs.ca.gov, WaiveProEnroll@dhcs.ca.gov); no verified phone number is given.",
+    "The format of the state administrator exam (for example, whether it is open-book). Neither HSC §1569.616 nor the CDSS administrator page states it.",
+    "Operating-cost lines marked 'Operator estimate' (utilities, software, phone, vehicle, maintenance, marketing, accounting, supplies, activities, background-check budget, rent above HUD FMR, and start-up furnishing, modification, deposit and consulting costs) are planning placeholders, not sourced figures. Verify each locally."
+  ],
+  "regulators": [
+    {
+      "name": "CDSS Community Care Licensing Division — Adult and Senior Care Program (ASCP)",
+      "role": "Licenses and inspects RCFEs; enforces Title 22 and the RCFE Act",
+      "url": "https://www.cdss.ca.gov/inforesources/senior-care-licensing",
+      "phone": "(916) 657-2592",
+      "email": "CCLASCPBusinessServices@dss.ca.gov",
+      "source_id": "S62"
+    },
+    {
+      "name": "CDSS ASCP Centralized Applications Bureau (CAB)",
+      "role": "Receives and processes new RCFE license applications",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/ascp-centralized-application-units",
+      "phone": "(833) 827-6084",
+      "email": "CCLASCPCAB@dss.ca.gov",
+      "source_id": "S19"
+    },
+    {
+      "name": "CDSS Administrator Certification Bureau",
+      "role": "RCFE administrator certificates, exams, CE vendors",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/administrator-certification/administrator-information",
+      "phone": "916-653-9300",
+      "email": "AdminCertInfo@dss.ca.gov",
+      "source_id": "S15"
+    },
+    {
+      "name": "DHCS — Assisted Living Waiver (Integrated Systems of Care Division)",
+      "role": "Medi-Cal ALW provider enrollment, tier rates, waiver oversight",
+      "url": "https://www.dhcs.ca.gov/services/long-term-care-alternatives-home-and-community-based-service-options/assisted-living-waiver/",
+      "phone": "",
+      "email": "ProFacWAIVER@dhcs.ca.gov; WaiveProEnroll@dhcs.ca.gov",
+      "source_id": "S47"
+    },
+    {
+      "name": "Local fire authority / State Fire Marshal",
+      "role": "Fire clearance required before licensure and before accepting nonambulatory or bedridden residents",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87202",
+      "phone": "",
+      "email": "",
+      "source_id": "S28"
+    },
+    {
+      "name": "California Department of Aging — Long-Term Care Ombudsman",
+      "role": "Resident advocacy; receives mandated abuse reports from long-term care facilities",
+      "url": "https://www.aging.ca.gov/Programs/LTCOP/",
+      "phone": "1-800-231-4024 (CRISISline)",
+      "email": "",
+      "source_id": "S58"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Health & Safety Code §1569 et seq.",
+      "title": "California Residential Care Facilities for the Elderly Act",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/",
+      "source_id": "S1"
+    },
+    {
+      "cite": "22 CCR §87100 et seq. (Title 22, Div. 6, Ch. 8)",
+      "title": "RCFE regulations",
+      "url": "https://regulations.justia.com/states/california/title-22/division-6/chapter-8/",
+      "source_id": "S9"
+    },
+    {
+      "cite": "HSC §1569.185",
+      "title": "License fees",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-2/section-1569-185/",
+      "source_id": "S1"
+    },
+    {
+      "cite": "HSC §1569.616; 22 CCR §87405",
+      "title": "Administrator certification and qualifications",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87405",
+      "source_id": "S14"
+    },
+    {
+      "cite": "HSC §§1569.625, 1569.626, 1569.69",
+      "title": "Direct care, dementia and medication training",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-625/",
+      "source_id": "S10"
+    },
+    {
+      "cite": "22 CCR §87411",
+      "title": "Personnel requirements — general (sufficient staff; no numeric ratio)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87411",
+      "source_id": "S9"
+    },
+    {
+      "cite": "22 CCR §87415",
+      "title": "Night supervision (RCFE)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87415",
+      "source_id": "S7"
+    },
+    {
+      "cite": "22 CCR §87705; §87706",
+      "title": "Dementia care; advertising dementia special care",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87705",
+      "source_id": "S8"
+    },
+    {
+      "cite": "22 CCR §87155; §87208",
+      "title": "Application for license; plan of operation",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87155",
+      "source_id": "S22"
+    },
+    {
+      "cite": "22 CCR §87202",
+      "title": "Fire clearance",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87202",
+      "source_id": "S28"
+    },
+    {
+      "cite": "22 CCR §87307",
+      "title": "Personal accommodations (bedrooms, bathrooms)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87307",
+      "source_id": "S24"
+    },
+    {
+      "cite": "22 CCR §87355",
+      "title": "Criminal record clearance",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87355",
+      "source_id": "S29"
+    },
+    {
+      "cite": "22 CCR §87457; §87507",
+      "title": "Pre-admission appraisal; admission agreements",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87507",
+      "source_id": "S31"
+    },
+    {
+      "cite": "22 CCR §87465",
+      "title": "Medications (central storage, PRN)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87465",
+      "source_id": "S30"
+    },
+    {
+      "cite": "22 CCR §87470",
+      "title": "Infection control plan",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87470",
+      "source_id": "S32"
+    },
+    {
+      "cite": "22 CCR §87615",
+      "title": "Prohibited health conditions",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87615",
+      "source_id": "S25"
+    },
+    {
+      "cite": "22 CCR §87632",
+      "title": "Hospice care waiver",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-87632",
+      "source_id": "S26"
+    },
+    {
+      "cite": "HSC §1569.85; §1569.84",
+      "title": "6-or-fewer homes are a residential use (no CUP); no fire-inspection fees",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1569-85/",
+      "source_id": "S16"
+    },
+    {
+      "cite": "HSC §1569.605",
+      "title": "Liability insurance minimums",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3-2/article-6/section-1569-605/",
+      "source_id": "S18"
+    },
+    {
+      "cite": "W&I Code §15630",
+      "title": "Elder and dependent adult abuse mandated reporting",
+      "url": "https://codes.findlaw.com/ca/welfare-and-institutions-code/wic-sect-15630/",
+      "source_id": "S36"
+    },
+    {
+      "cite": "42 CFR §441.301(c)",
+      "title": "Federal HCBS Settings Rule (applies to ALW settings)",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "source_id": "S3"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2031 U1",
+      "service": "Assisted living services, Tier 1",
+      "rate": 95.69,
+      "unit": "per day",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Excludes room and board. Tier assigned by Care Coordination Agency RN assessment.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2031 U2",
+      "service": "Assisted living services, Tier 2",
+      "rate": 114.33,
+      "unit": "per day",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Excludes room and board.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2031 U3",
+      "service": "Assisted living services, Tier 3",
+      "rate": 132.97,
+      "unit": "per day",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Excludes room and board. Used as the illustrative tier in the mixed-payer model.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2031 U4",
+      "service": "Assisted living services, Tier 4",
+      "rate": 179.58,
+      "unit": "per day",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Excludes room and board.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2031 U5",
+      "service": "Assisted living services, Tier 5",
+      "rate": 270.8,
+      "unit": "per day",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Excludes room and board.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "G9002",
+      "service": "Care coordination",
+      "rate": 320.0,
+      "unit": "per participant per month",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Paid to the Care Coordination Agency, not to the RCFE. Not RCFE revenue.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "G9001",
+      "service": "Transitional care coordination from a nursing facility",
+      "rate": 1600.0,
+      "unit": "one-time per participant",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Paid to the care coordinator.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2017 U4",
+      "service": "Residential habilitation",
+      "rate": 6.75,
+      "unit": "per 15 minutes",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Requires prior DHCS approval (per 2023 schedule notes).",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Medi-Cal Assisted Living Waiver",
+      "code": "T2024",
+      "service": "Augmented plan of care development and follow-up",
+      "rate": 11.36,
+      "unit": "per 15 minutes",
+      "effective": "2025 (DHCS sheet updated 12/2025)",
+      "notes": "Requires DHCS approval.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "SSI/SSP (resident pays facility)",
+      "code": "NMOHC",
+      "service": "Board-and-care basic services rate (room & board $706.07 + care & supervision up to $738)",
+      "rate": 1444.07,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Of the $1,626.07 SSI/SSP grant, the resident keeps $182 for personal and incidental needs. Residents with other income may be charged $20 more if the admission agreement says so. $1,444.07 = $1,626.07 SSI/SSP grant (S5) − $182 personal and incidental allowance; DHCS states ALW residents pay their own room and board (S68). CALA (S6, secondary) confirms the 2026 split.",
+      "source_id": "S5"
+    },
+    {
+      "payer": "SSI/SSP",
+      "code": "NMOHC",
+      "service": "Total SSI/SSP grant, aged/disabled individual in licensed board and care",
+      "rate": 1626.07,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "SSI $994 + SSP $632.07.",
+      "source_id": "S5"
+    },
+    {
+      "payer": "Private pay (market benchmark)",
+      "code": "",
+      "service": "California assisted living (RCFE) median, private one-bedroom",
+      "rate": 7000,
+      "unit": "per month",
+      "effective": "2025 survey (Jul–Nov 2025)",
+      "notes": "CareScout Cost of Care Survey 2025. National median $6,200.",
+      "source_id": "S39"
+    },
+    {
+      "payer": "Private pay (market benchmark)",
+      "code": "",
+      "service": "California assisted living median, actual move-in cost",
+      "rate": 5739,
+      "unit": "per month",
+      "effective": "2025 move-ins",
+      "notes": "A Place for Mom 2026 report.",
+      "source_id": "S40"
+    },
+    {
+      "payer": "Private pay (market benchmark)",
+      "code": "",
+      "service": "California memory care median, actual move-in cost",
+      "rate": 6850,
+      "unit": "per month",
+      "effective": "2025 move-ins",
+      "notes": "A Place for Mom 2026 report.",
+      "source_id": "S40"
+    }
+  ],
+  "sections": {
+    "executive_summary": "California calls assisted living a **Residential Care Facility for the Elderly (RCFE)**. It is a non-medical license issued by the California Department of Social Services (CDSS), Community Care Licensing Division, under the RCFE Act (Health & Safety Code §1569 et seq.) and Title 22, Division 6, Chapter 8 of the California Code of Regulations [S19][S9]. There is no separate \"assisted living\" license: a 6-bed board-and-care home and a 150-unit assisted living community hold the same license type.\n\n**The market is dominated by small homes.** CDSS's facility list (file dated May 25, 2025) shows **7,830 licensed RCFEs** (excluding continuing care retirement communities) with **172,751 licensed beds**. **6,265 of those homes (80%) are licensed for 6 or fewer residents**, but together they hold only about 36,800 beds. The 1,245 facilities with 16 or more beds hold about 132,100 [S42]. (Counts use status = LICENSED; they exclude 23 facilities on probation and 132 CCRCs.) Most new operators therefore enter with a 6-bed home in a leased house, which state law treats as a residential use that needs no conditional use permit (HSC §1569.85) and pays no fire-inspection fees (HSC §1569.84) [S16][S17].\n\n**Revenue is mostly private pay.** The 2025 CareScout survey puts the California assisted living median at **$7,000/month** (U.S. $6,200) [S39]. A Place for Mom's data on 2025 move-ins shows **$5,739/month** for assisted living and **$6,850/month** for memory care [S40]. The Medi-Cal **Assisted Living Waiver (ALW)** pays $95.69–$270.80/day for services in 15 counties, but it does **not** pay room and board. That is paid by the resident, usually at the SSI/SSP board-and-care rate of **$1,444.07/month** in 2026 [S2][S3][S5][S68]. ALW demand is large: 14,831 enrolled and **15,910 on the waitlist** as of March 2026 [S4].\n\n**Bottom line from the P&L.** Staffing has to cover 24 hours a day with at least one person on the premises, and awake overnight staff once residents need it. At an 88% default occupancy, a 6-bed private-pay home is profitable but thin. A **15-bed home is clearly profitable**, because the same overnight coverage and administrator are spread over 2.5 times the residents. A 6-bed memory-care home is **not** profitable at the statewide memory-care median price; it needs about $7,500/month. In cities with higher local minimum wages (Los Angeles, San Diego, San Jose, San Francisco), the 6-bed private-pay home roughly breaks even or loses money at statewide prices, while the 15-bed home stays profitable [S66][S67]. See Section 8.",
+    "service_model": "### Who is served\nRCFEs serve people 60 and older (and younger residents with compatible needs, under the regulations) who need room, board, supervision and help with daily living but **not** 24-hour skilled nursing. Title 22 bars admitting or keeping residents who need care for certain conditions: stage 3–4 pressure injuries, gastrostomy or nasogastric tubes, tracheostomies, serious staph or other serious infections, and total dependence on others for all activities of daily living [S25]. Before admission, each resident must have a pre-admission appraisal covering functional, mental and social needs, and a written admission agreement signed within 7 days [S35][S31].\n\n### Settings and sizes\n- **Small homes (1–6 beds).** Usually a leased or owned single-family house. Treated as a residential use for zoning; the residents and operator count as a family; no CUP, variance or other zoning clearance can be required [S16]. Annual license fee for 4–6 beds is $495.60 [S1].\n- **7–15 beds.** Same license and the same night rule as small homes (on-call staff on premises) [S7]. They lose the HSC §1569.85 zoning protection, and CDSS notes that larger facilities may need a conditional use permit [S19]. Fees: $1,486.80 application (paid with the application), $742.80 annual [S1].\n- **16+ beds.** Must have an awake employee on duty overnight plus a second on call within 10 minutes. Administrator education and experience requirements apply (15 college units and 1 year of experience for 16–49 beds) [S7][S14].\n\n### Physical plant basics\nNo more than two residents per bedroom. At least one toilet and washbasin per 6 people and one tub or shower per 10, counting residents, family and live-in staff [S24]. A fire clearance from the local fire authority is required, and a separate clearance is needed before accepting nonambulatory or bedridden residents [S28].\n\n### Dementia, hospice and specialty positioning\nEvery RCFE that serves residents with dementia must meet 22 CCR §87705. In a home with fewer than 16 residents, that includes **an awake night staff member when any resident with dementia needs awake night supervision** [S8]. A home that *advertises* dementia special care must add a dementia program to its plan of operation and keep its advertising for 3 years (§87706) [S27]. Keeping residents on hospice requires a **facility hospice care waiver** from CDSS (§87632) [S26].\n\n### Regulatory framework\n- **CDSS / CCLD:** licensing, inspections, complaints, administrator certification [S19][S15].\n- **DHCS:** Medi-Cal ALW provider enrollment and rates [S47][S2]. ALW settings must also meet the federal HCBS Settings Rule (42 CFR §441.301(c)).\n- **Local fire authority:** fire clearance [S28].\n- **Mandated reporting:** Welfare & Institutions Code §15630, *not* the Lanterman Act. Staff must report abuse in a long-term care facility by phone to law enforcement within 2 hours and in writing within 24 hours to the ombudsman, law enforcement and the licensing agency [S36].",
+    "licensing_pathway": "### Step-by-step pathway (CDSS)\n1. **Pick the size and confirm zoning.** For 6 or fewer residents, local zoning must treat the home like any other family dwelling (HSC §1569.85) [S16]. For 7–15 beds, check with the city or county planning department early; a CUP may be required [S19].\n2. **Administrator certification.** Complete an 80-hour Initial Certification Training Program from a CDSS-approved vendor (at least 60 hours live instruction under HSC §1569.616), pass the state exam within 60 days, and apply. Fees: **$100 exam, $140 application** [S13][S15]. Administrators must be at least 21 with a high school diploma or equivalent; facilities with 16+ beds have added education and experience requirements [S14]. One administrator may cover more than one facility if they are on the premises \"a sufficient number of hours,\" with a designated substitute present when they are absent [S14].\n3. **Orientation, Component I (online).** $50 plus a $4.85 processing fee. Register on a computer, not a phone or tablet. Course access lasts 30 days [S20].\n4. **Assemble the application (LIC 281 instructions).** Forms include LIC 200 Application, LIC 215 Applicant Information, LIC 308 Designation of Facility Responsibility, LIC 309 Administrative Organization, LIC 400/402 (if handling resident cash), LIC 401/401a/403/403a/404 financial forms, LIC 500 Personnel Report, LIC 610E Emergency Disaster Plan, and LIC 999 Facility Sketch. Supporting documents cover control of property, job descriptions, personnel policies, staff training, program description, admission policies, a sample menu, insurance (RCFEs), theft-and-loss policy and the orientation certificate [S21]. CDSS also requires an **Infection Control Plan (LIC 9282)** [S19][S32].\n5. **Plan of operation (22 CCR §87208).** Purposes and goals, admission agreement, admission policies, staffing and training plan, dimensioned floor plan and grounds sketch, transportation, handling of resident money, visiting policy, approach to resident behavioral expression, and the infection control plan [S23].\n6. **Show start-up funds of at least three months' operating costs** (22 CCR §87155). CDSS may verify them [S22].\n7. **Mail the application with the non-refundable application fee** ($990 for 4–6 beds; $1,486.80 for 7–15) [S1] to the Centralized Applications Bureau, 744 P Street, MS 9-14-8201, Sacramento, CA 95814. Put the applicant name and facility address on the check [S19].\n8. **Background checks.** The applicant, administrator and any non-client adult living in the home need a criminal record clearance or exemption before the license issues. Staff must be fingerprinted (DOJ and FBI) before working or being present in the home [S29].\n9. **Fire clearance** from the local fire authority (no fee for 6 or fewer, HSC §1569.84) [S28][S17].\n10. **Component II interview** with the licensing analyst after the application is reviewed, a **pre-licensing inspection**, and **Component III** (operations and record-keeping orientation, in person) [S19][S20].\n11. **License issued.** No separate fee is charged at issuance. The annual fee ($495.60 for 4–6 beds; $742.80 for 7–15) is due each license anniversary, and a 50% late penalty applies after the due date [S1].\n\n### Timeline\nCDSS says the whole application process is expected to take **90 to 120 days** once submitted [S19]. Add time before that for administrator certification and for finding and preparing the property.\n\n### Licensing costs (verified)\n| Item | Amount | Source |\n|---|---|---|\n| Orientation (Component I) | $54.85 | [S20] |\n| Administrator exam / application | $100 / $140 | [S15] |\n| Application fee (paid with application), 4–6 beds | $990.00 | [S1] |\n| Application fee (paid with application), 7–15 beds | $1,486.80 | [S1] |\n| Annual fee, 4–6 / 7–15 beds | $495.60 / $742.80 | [S1] |\n| Change of licensed capacity | $25 | [S1] |\n| Fire inspection, 6 or fewer | $0 (fees prohibited) | [S17] |\n| LLC formation (LLC-1 + LLC-12) | $90 | [S56] |\n| Medi-Cal enrollment for ALW (optional) | $750 (CY2026) | [S65] |\n\n### Optional track: Medi-Cal Assisted Living Waiver\nOnly after licensure, and only in the 15 ALW counties. Email the RCFE/ARF provider initial application, ALW provider agreement and residential provider verification to ProFacWAIVER@dhcs.ca.gov. Mail the notarized Medi-Cal packet (DHCS 6204, 6207, 6208, NPI, $750 application fee for 2026 [S65], DSS license, insurance, surety bond or exemption) to the Provider Enrollment Unit, then complete DHCS's on- or offsite verification visit [S47][S48]. The facility must be in substantial compliance with licensing; a facility on probation or facing a pending accusation does not qualify. ALW providers also need licensed nursing staff, on call or employed [S47].",
+    "reimbursement": "### How money actually flows\n**1. Private pay (the core of the market).** Residents or families pay a monthly fee under the admission agreement (22 CCR §87507), which must spell out services, fees, refund terms and the conditions for raising fees [S31]. Benchmarks: **$7,000/month** California median (CareScout 2025, private one-bedroom) [S39]; **$5,739/month** median actually paid by 2025 move-ins (A Place for Mom), and **$6,850/month** for memory care [S40]. Nationally, the CareScout median rose 10% in 2024 to $70,800/year [S41] and another 5% to $6,200/month in 2025 [S39]. Small board-and-care homes often price below large communities with private apartments. The P&L therefore blends the two California medians, weighted toward the lower figure.\n\n**2. Medi-Cal Assisted Living Waiver (ALW).** A 1915(c) waiver running March 1, 2024 to February 28, 2029, offered in 15 counties: Alameda, Contra Costa, Fresno, Kern, Los Angeles, Orange, Riverside, Sacramento, San Bernardino, San Diego, San Francisco, San Joaquin, San Mateo, Santa Clara and Sonoma [S3]. Participants must be 21+, have full-scope Medi-Cal with no share of cost, and need a nursing-facility level of care [S3]. A Care Coordination Agency (CCA) RN assesses the participant, and the RCFE is paid a daily tier rate under HCPCS **T2031**:\n\n| Tier | Daily rate | ≈ Monthly (×30.42) |\n|---|---|---|\n| Tier 1 (U1) | $95.69 | $2,911 |\n| Tier 2 (U2) | $114.33 | $3,478 |\n| Tier 3 (U3) | $132.97 | $4,045 |\n| Tier 4 (U4) | $179.58 | $5,463 |\n| Tier 5 (U5) | $270.80 | $8,238 |\n\nSource: DHCS ALW rate sheet (\"2025 Payment Rates,\" updated 12/2025) [S2]. The 2023 schedule was $88.60–$250.00, so rates rose about 8% [S49]. **The waiver does not pay room and board** [S2]. ALW residents pay rent to the facility, usually from SSI/SSP. **The $320/month care coordination fee (G9002) goes to the CCA, not to the RCFE** [S2].\n\n**3. SSI/SSP board-and-care rate.** For an SSI recipient in a licensed RCFE, the 2026 grant is $1,626.07. The facility may charge **$1,444.07** for basic services ($706.07 room and board plus up to $738 care and supervision), and the resident keeps $182 for personal needs [S5][S68]; CALA confirms the split [S6]. On its own this rate cannot cover California staffing costs. Its practical use is as the room-and-board payment that accompanies an ALW tier payment.\n\n**4. Medi-Cal managed care (CalAIM Community Supports).** Some Medi-Cal managed care plans offer \"Nursing Facility Transition/Diversion to Assisted Living\" as a Community Support, paying a contracted community organization. Rates and room-and-board treatment are plan-specific and not published [S63]. Treat this as a contracting opportunity to explore plan by plan, not as a modeled revenue line.\n\n**5. Medicare** does not pay for RCFE room, board or personal care.\n\n### What a mixed payer resident is worth\nA Tier 3 ALW resident brings about $4,045 in services plus $1,444 in room and board, roughly **$5,489/month**. That is slightly below the $5,739 private move-in median and well below $7,000. ALW can fill empty beds in a waiver county, but it does not raise margins unless residents are assessed at Tier 4–5.",
+    "demand": "### Demographics\nCalifornia's 65+ population (about 5.7 million, 14% of residents in 2020) is projected to pass **9 million by 2040** (22% of the population). The 80+ population will grow by nearly 1.8 million in the same period (PPIC, using Department of Finance P-1A projections) [S46]. The 85+ population is projected to more than double in most large Bay Area and Southern California counties [S46].\n\n### Medi-Cal waiver demand\nThe ALW had **14,831 participants and 15,910 people on its waitlist** as of March 2026 [S4]. DHCS released new slots through a capacity-expansion amendment effective March 1, 2025, and hands open slots to CCAs on a rolling basis [S3]. For an RCFE in a waiver county, enrolling as an ALW provider puts the home in front of CCAs that are actively placing waitlisted members.\n\n### Where the supply is\nLicensed RCFEs by county (CDSS list, May 2025): Los Angeles 1,627; Orange 1,042; Sacramento 633; San Diego 569; Riverside 526; Contra Costa 433; San Bernardino 278; Fresno 260; Ventura 239; Santa Clara 237 [S42]. A high count signals both competition and an established referral culture. Pull the list for your target ZIP codes from the CHHS open data portal before choosing a site.\n\n### Referral sources (no volume figures claimed)\n- Hospital and skilled-nursing **discharge planners and case managers**: residents stepping down from a SNF or hospital stay.\n- **ALW Care Coordination Agencies** in the 15 waiver counties [S3].\n- **Hospice agencies.** A hospice care waiver lets residents stay through end of life [S26].\n- **Placement and referral agencies** (they typically charge a fee; negotiate it into your pricing).\n- **Physicians, geriatric care managers, elder-law attorneys, churches and senior centers.**\n- **Medi-Cal managed care plans** that offer the assisted living transition/diversion Community Support [S63].\n\n### Occupancy anchor\nProfessionally managed U.S. assisted living averaged **88.4% occupancy** in 2Q 2026 across 31 primary markets, and San Francisco senior housing was 92.7% [S45]. The P&L uses 88% as the default, 80% as conservative and 93% as optimistic. No public source reports occupancy for 6-bed California homes.",
+    "operations": "### Staffing rules that drive cost\n- **No numeric day ratio.** Staff must be \"sufficient in numbers, and competent\" to meet resident needs, and CDSS may require more staff when documentation shows a need (22 CCR §87411) [S9].\n- **Night supervision, 10 p.m. to 6 a.m. (22 CCR §87415).** Fewer than 16 residents: a qualified person **on call on the premises**. 16–100 residents: one employee **awake** on duty plus one on call within 10 minutes. Night staff must know the emergency plan and be trained in first aid [S7].\n- **Dementia (22 CCR §87705).** In homes under 16 beds, **at least one night staff person must be awake and on duty** when any resident with dementia needs awake night supervision, based on appraisal, reappraisal or observation [S8]. In practice, most homes accepting dementia or higher-acuity residents staff an awake overnight shift. The P&L assumes one awake caregiver on site 24/7 in every configuration (730 hours/month).\n- **Note on citations.** Night supervision for RCFEs is in 22 CCR §87415 and §87705. Section 87865 is the personnel rule for Residential Care Facilities for the *Chronically Ill* (Chapter 8.5), not RCFEs.\n- **Administrator.** A certified administrator must be on the premises enough hours to manage the facility, with a qualified substitute when absent [S14].\n- **Residents and volunteers cannot be counted as staff** [S9].\n\n### Training\n| Who | Requirement | Source |\n|---|---|---|\n| Direct care staff | 40 hrs initial: 20 before working alone (incl. 6 hrs dementia, 4 hrs postural supports/restricted conditions/hospice), 20 within the first 4 weeks (incl. 6 hrs dementia). 20 hrs annually (incl. 8 hrs dementia, 4 hrs postural supports/restricted conditions/hospice) | [S10][S11] |\n| Staff assisting with medications, homes of 15 or fewer | 10 hrs initial (6 hands-on before assisting, 4 within 2 weeks) + exam; 8 hrs annually | [S12] |\n| Staff assisting with medications, homes of 16+ | 24 hrs initial (16 hands-on, 8 within 4 weeks) + exam; 8 hrs annually | [S12] |\n| Care staff | First aid from a qualified provider | [S9] |\n| Administrator | 80-hr certification + exam; 40 hrs CE every 2 years (8 hrs dementia) | [S13] |\n\n### Required systems and policies\n- **Medications:** locked central storage where required, original containers, records kept at least 1 year, signed PRN orders with dosing limits, documented destruction [S30].\n- **Infection control plan** with a trained Infection Control Lead and annual review [S32].\n- **Emergency disaster plan** (LIC 610E) and posted exit plans [S34][S21].\n- **Resident rights** (22 CCR §87468.1), including LGBTQ+ and HIV-status protections that cannot be waived [S33].\n- **Admission agreements** that meet §87507 [S31].\n- **Resident cash:** if you hold residents' money, follow 22 CCR §87217 safeguards and file LIC 400/402 (affidavit and surety bond) [S21].\n- **Posting:** the Long-Term Care Ombudsman CRISISline (1-800-231-4024) and local ombudsman number must be posted [S58].\n- No EVV mandate applies to RCFE residential services in this report's sources; electronic health records and eMAR are optional but common.\n\n### Labor law points\n- California minimum wage is **$16.90/hour** from January 1, 2026; some cities set higher local rates, e.g. City of Los Angeles $18.42 and San Francisco $19.61 from July 1, 2026 [S66], San Diego $17.75 and San Jose $18.45 [S67]. Pay the higher rate [S37][S64].\n- Paid sick leave: at least 40 hours or 5 days per year [S57].\n- Wage Order 5 has special meal and rest rules for a sole caregiver in 24-hour residential care for the elderly [S60]. Live-in or 24-hour shift arrangements need employment counsel.\n- The SB 525 health-care minimum wage covers RCFEs **only** if they are affiliated with or controlled by an acute-care hospital or its parent [S61]. Independent RCFEs are generally outside it.",
+    "market_conditions": "### Supply\n- **7,830 licensed RCFEs and 172,751 beds** (May 2025). 6,265 homes have 6 or fewer beds (about 36,800 beds), 320 have 7–15 beds (about 3,800), and 1,245 have 16+ beds (about 132,100) [S42]. Counts use status = LICENSED and exclude 23 facilities on probation and 132 CCRCs.\n- Trend: CALA, using the 2018 DSS list, reported 7,400+ RCFEs and 185,000+ capacity, and noted small communities shrinking while 16+ communities grew [S43]. Comparing 2018 to 2025, the facility count is up but licensed capacity is down. That is consistent with continued churn among small homes. (Counting methods may differ between the two lists, so treat this as directional.)\n- **Gap in the middle:** only 320 homes are licensed for 7–15 beds. That size keeps the small-home night rule (on-call staff) while spreading fixed costs over more residents [S42][S7].\n\n### Pricing\n- California assisted living median **$7,000/month** (CareScout 2025), about 13% above the U.S. median of $6,200 [S39].\n- 2025 move-in median **$5,739** for assisted living and **$6,850** for memory care [S40].\n- Regional variation is real but not quantified here. Use the rent spread below as a proxy and survey 5–10 local homes before setting rates.\n\n### Housing cost proxy: HUD FY2026 Fair Market Rents [S44]\n| Area | 3-BR FMR | 4-BR FMR |\n|---|---|---|\n| Fresno | $2,314 | $2,660 |\n| Bakersfield (Kern) | $2,062 | $2,488 |\n| Sacramento | $3,002 | $3,460 |\n| Riverside–San Bernardino | $2,912 | $3,514 |\n| Los Angeles | $3,298 | $3,672 |\n| Oakland–Fremont (Alameda) | $3,724 | $4,413 |\n| San Francisco | $4,604 | $4,772 |\n| San Diego | $3,998 | $4,845 |\n| San Jose (Santa Clara) | $4,602 | $5,010 |\n| Orange County | $4,393 | $5,246 |\n\nA 6-bed RCFE needs at least 3 resident bedrooms (2 per room) [S24] plus staff space and enough bathrooms for 1 toilet per 6 people. Operators usually lease 4–5 bedroom homes and pay above FMR for licensed-use leases.\n\n### Wages: BLS OEWS May 2025, California [S38]\n| Role (SOC) | Mean hourly | Median hourly |\n|---|---|---|\n| Home health & personal care aides (31-1120) | $17.51 | $16.50* |\n| Nursing assistants (31-1131) | $24.13 | $22.90 |\n| Cooks, institution & cafeteria (35-2012) | $23.03 | $22.31 |\n| Maids & housekeeping cleaners (37-2012) | $22.08 | $20.51 |\n| Licensed practical/vocational nurses (29-2061) | $39.59 | $38.34 |\n| Medical & health services managers (11-9111) | $76.52 | $68.02 |\n| Social & community service managers (11-9151) | $46.11 | $40.01 |\n\n*The May 2025 aide median ($16.50) is below the 2026 minimum wage ($16.90) [S37]. The P&L uses the **$17.51 mean**. Expect to pay more in high-cost metros and cities with local minimum wages (2026: Los Angeles $18.42 and San Francisco $19.61 from July 1 [S66]; San Diego $17.75, San Jose $18.45 [S67]).\n\n### Trends to watch\n- ALW capacity expansion (March 2025) and a waitlist larger than enrollment [S3][S4].\n- Price growth: national assisted living medians up 10% (2024) and 5% (2025) [S41][S39].\n- Workers' compensation: the CDI set an average advisory benchmark of **$1.65 per $100 of payroll** effective September 1, 2026. Residential care (class 9070) is rated individually [S52][S53].",
+    "financial_narrative": "### How the pro forma is built\nRevenue per occupied bed comes from sourced prices. Private-pay lines blend CareScout's $7,000 median [S39] with A Place for Mom's $5,739 move-in median [S40], weighted toward the lower figure (1/3 at $7,000 and 2/3 at $5,739 in small homes, about $6,159 average). The ALW lines use the Tier 3 daily rate ($132.97 × 30.42) plus the SSI/SSP basic services rate ($1,444.07 = $1,626.07 grant − $182 P&I) [S2][S5][S68]. Memory care uses the $6,850 California median [S40].\n\n**Staffing is fixed coverage, not per-resident ratios**, because California sets no ratio but requires 24-hour presence (§87415) and awake nights for dementia residents who need them (§87705) [S7][S8]:\n- 6-bed: one awake caregiver 24/7 (730 hrs/mo) plus a 4-hour daily overlap shift (122 hrs), at the BLS aide mean of $17.51 [S38]. A part-time administrator (20 hrs/week) at $40.01 (BLS 11-9151 median) [S38].\n- 6-bed memory care: two caregivers for 16 hours a day plus one awake overnight (1,217 hrs/mo).\n- 15-bed: the same 1,217 caregiver hours, plus a cook 6 hrs/day ($23.03) and housekeeper 4 hrs/day ($22.08) [S38], and a full-time administrator.\n- Mixed ALW: adds 8 hrs/month of LVN time ($39.59) for the nursing coverage DHCS requires of ALW providers [S47][S38].\n\n**Payroll burden:** 9% employer taxes (7.65% FICA [S51] plus FUTA and California UI at 3.4% on the first $7,000 and ETT at 0.1% [S50]), 5% workers' compensation (operator estimate; class 9070 [S53]), and 4% paid sick leave and other benefits [S57].\n\n**Operating costs:** food at the USDA moderate-cost plan for adults 71+ (average of female $329.90 and male $363.90 = $347/month, May 2026) [S54]; annual license fee ÷ 12 [S1]; the $800 LLC tax plus the gross-receipts LLC fee ($900/yr for a 6-bed home, $2,500 for two homes, $6,000 for a 15-bed home above $1M of income) [S55]; and liability insurance meeting the required $1M/$3M minimum [S18]. Premium amounts, utilities, rent above HUD FMR [S44] and other items are labeled operator estimates.\n\n### Results at 88% default occupancy (generator recomputes)\n| Configuration | Revenue/mo | Approx. net/mo | Break-even occupancy |\n|---|---|---|---|\n| 6-bed private pay | ≈ $32,500 | ≈ +$700 (thin) | ≈ 86% |\n| 6-bed mixed private + ALW | ≈ $31,000 | ≈ −$1,200 | ≈ 92% |\n| 6-bed memory care | ≈ $36,200 | ≈ −$3,200 | ≈ 96% |\n| 15-bed private pay | ≈ $83,500 | ≈ +$19,400 | ≈ 66% |\n| Two 6-bed homes, shared administrator | ≈ $65,000 | ≈ +$1,900 | ≈ 85% |\n\n### Key drivers\n1. **Overnight coverage is the fixed cost that decides everything.** One awake person 24/7 costs about $15,000/month with burden whether the home has 4 residents or 15.\n2. **Price.** Every $250/month in average fee is worth about $1,300/month at 5.3 residents in a 6-bed home.\n3. **Rent.** The model uses $5,000/month for a 6-bed lease (operator estimate — verify locally). That is above the 4-BR FMR in most metros (San Diego $4,845; Orange $5,246 is higher), and coastal licensed-use leases often run higher [S44].\n4. **Memory care must be priced for its staffing.** Two awake day staff plus an awake night shift needs about **$7,500/month** at 88% occupancy to break even in a 6-bed home.\n\n### Sensitivity: local minimum wages\nThe model pays caregivers the statewide BLS aide mean of $17.51 [S38], which is above the $16.90 state minimum [S37] but below the 2026 local minimum wage in several large cities: City of Los Angeles **$18.42** (from July 1, 2026) and San Francisco **$19.61** (from July 1, 2026) [S66]; San Diego **$17.75** and San Jose **$18.45** (from January 1, 2026) [S67]. Recomputing at 88% occupancy with every caregiver hour at the Los Angeles rate of $18.42 (all other inputs unchanged): 6-bed private pay goes to ≈ −$200/month, two 6-bed homes ≈ $0, 6-bed mixed ALW ≈ −$2,100, 6-bed memory care ≈ −$4,500, and the 15-bed home ≈ +$18,100. At San Diego's $17.75 the 6-bed private home nets ≈ +$500; at San Jose's $18.45 ≈ −$200; at San Francisco's $19.61 ≈ −$1,400 (15-bed ≈ +$16,300). **In these cities the 6-bed private-pay model roughly breaks even or loses money at the model's statewide prices, while the 15-bed model remains profitable.** When you use the workbook, set each caregiver wage_hourly to the higher of $17.51 and your city's minimum wage (and expect market wages above the minimum in high-cost metros); a 6-bed home in these cities needs local prices above the statewide medians, or lower rent, to stay profitable.",
+    "risks": "### Regulatory and compliance\n- **Inspections and citations.** A facility on probation or facing a pending accusation is not in substantial compliance, which blocks ALW enrollment [S47]. Missing a plan-of-correction deadline costs $200 under HSC §1569.185 [S1].\n- **Retention limits.** Residents who develop prohibited conditions (stage 3–4 pressure injuries, feeding tubes, tracheostomy, total ADL dependence) must move unless an exception applies [S25]. That means unplanned vacancies.\n- **Dementia creep.** Once any resident with dementia needs awake night supervision, an awake night shift is mandatory [S8]. Budget for it from day one.\n- **Hospice.** Keeping residents on hospice without a §87632 waiver is a violation [S26].\n- **Mandated reporting deadlines:** 2 hours by phone, 24 hours in writing [S36].\n- **Late annual fee:** 50% penalty [S1].\n\n### Financial\n- **Thin margins in 6-bed homes.** At $6,159 average fee and $5,000 rent, break-even is about 86% occupancy, roughly 5.2 of 6 beds. One empty bed for a month can erase the month's profit.\n- **ALW pays less than private pay** unless residents assess at Tier 4–5, and the room-and-board portion is capped by the SSI/SSP rate in practice [S2][S5][S68].\n- **Wage pressure and local minimum wages.** The 2026 state minimum wage is $16.90 and the BLS aide median is already at or below it [S37][S38]. Several cities set higher 2026 minimums than the model's $17.51 caregiver wage: City of Los Angeles $18.42 and San Francisco $19.61 (from July 1, 2026) [S66]; San Diego $17.75 and San Jose $18.45 [S67]. At the Los Angeles rate the 6-bed private-pay home nets about −$200/month and the 6-bed mixed ALW home about −$2,100, so in these cities the 6-bed private model roughly breaks even or loses money, while the 15-bed home stays profitable (about +$18,100/month). Set caregiver wages to the higher of $17.51 and your local minimum before relying on the P&L.\n- **Insurance.** Coverage of $1M/$3M is mandatory [S18]; premiums and workers' compensation (class 9070) can change at renewal [S52][S53].\n- **Rate change uncertainty.** DHCS publishes ALW rates without a stated effective date on the sheet. Confirm before modeling a waiver-heavy census [S2].\n\n### Operational\n- **Staffing a 24/7 schedule** with 40 hours of pre-service and early training per new hire [S10], plus medication training and exam [S12].\n- **Background clearance before presence** slows hiring [S29].\n- **Landlord risk.** Leased houses can be sold or not renewed, and moving a license means a new application at 50% of the application fee (HSC §1569.185) [S1].\n\n### Market\n- **Competition from existing homes.** 6,265 small RCFEs are already licensed [S42]. Weak differentiation leads to price competition.\n- **Referral dependence.** Placement agencies charge fees, and hospital and SNF relationships take time to build.",
+    "recommendations": "1. **Choose the size first, then the house.** The economics favor a **7–15 bed home** (break-even ≈ 66% at the model's prices) over a 6-bed home (≈ 86%). The tradeoff is zoning: 7–15 beds lose the HSC §1569.85 by-right protection and may need a CUP [S16][S19]. If you start with 6 beds, plan the second home or a larger site from day one.\n2. **Price to the market, not to the SSI rate.** Survey 5–10 local homes and set base rates near the local median. Use level-of-care add-ons in the admission agreement (§87507) for residents who need more help [S31]. Don't let your average fee fall below about $6,000 in a 6-bed home without cutting rent.\n3. **Budget awake overnight staff from the start.** It's required once any dementia resident needs it (§87705) and protects you in inspections. One awake person 24/7 is the baseline in every model here [S8].\n4. **Memory care only at memory-care prices.** If you advertise dementia care, meet §87706. Price at roughly $7,500+/month for a 6-bed home, or run it in a 10–15 bed home where the third overnight-capable staffer is shared [S27].\n5. **Use ALW to fill beds, not to set rates.** In the 15 waiver counties, enroll after licensure ($750 application fee in 2026, DHCS visit) and target residents assessed at Tier 4–5, where the daily rate ($179.58–$270.80) plus $1,444.07 room and board meets or beats private pay [S2][S48][S65][S5]. Limit ALW to 1–2 beds in a 6-bed home.\n6. **Get the hospice waiver early** (§87632) so residents can stay through end of life. It cuts vacancy and builds hospice referral relationships [S26].\n7. **Front-load the paperwork.** Finish administrator certification and Component I orientation before signing a lease. Then submit a complete LIC 281 packet, with the infection control plan and three months of start-up funds documented, to keep within the 90–120 day window [S15][S20][S21][S22][S19].\n8. **Reach a second home or a larger license within 18–24 months.** A shared full-time administrator over two homes is allowed when coverage is sufficient [S14]. Two 6-bed homes only become comfortably profitable above about 85% occupancy, so the second home must be filled quickly."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a California LLC or corporation",
+      "instructions": "File Articles of Organization (LLC-1, $70) through bizfile Online. File the Statement of Information (LLC-12, $20) within 90 days. The entity name must match every CDSS form.",
+      "cite": "Cal. Corp. Code; CA SOS fee schedule",
+      "source_id": "S56"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at IRS.gov. Needed for payroll, bank account and Medi-Cal enrollment (proof of TIN).",
+      "cite": "IRC §6109",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Plan for the $800 annual LLC tax and LLC fee",
+      "instructions": "The FTB annual tax is $800 per year. A separate LLC fee is based on total California income: $900 at $250,000–$499,999; $2,500 at $500,000–$999,999; $6,000 at $1,000,000–$4,999,999. At this model's prices a 6-bed home (~$390k/yr) owes $900, two 6-bed homes (~$780k) owe $2,500, and a 15-bed home (~$1.0M at 88% occupancy) crosses $1M and owes $6,000.",
+      "cite": "Rev. & Tax. Code §§17941, 17942",
+      "source_id": "S55"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with EDD as an employer",
+      "instructions": "Register for payroll taxes before the first hire. New employers pay 3.4% UI on the first $7,000 per employee plus 0.1% ETT; withhold 1.3% SDI from employees (2026).",
+      "cite": "CA Unemployment Insurance Code",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a dedicated business bank account",
+      "instructions": "Keep facility funds separate. Resident cash, if held, must go in a separate account titled as residents' money and never be commingled.",
+      "cite": "22 CCR §87217",
+      "source_id": "S70"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Check local business license rules and local minimum wage",
+      "instructions": "Homes serving 6 or fewer: a city or county may not impose a business license, fee or tax for the privilege of operating the facility (HSC §1569.185(b)(2)). Homes of 7 or more: check your city or county business license rules. Either way, check whether your city has a local minimum wage above the $16.90 state rate (2026 examples: City of Los Angeles $18.42 from 7/1/2026; San Francisco $19.61 from 7/1/2026; San Diego $17.75; San Jose $18.45) and pay the higher of the two.",
+      "cite": "HSC §1569.185(b)(2); DIR MW-2026",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Obtain an NPI (if you may enroll in the ALW)",
+      "instructions": "Free Type 2 NPI at nppes.cms.hhs.gov. Required for the Medi-Cal enrollment packet.",
+      "cite": "DHCS RCFE/ARF application requirements",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Choose the certified administrator",
+      "instructions": "Must be 21+, with a high school diploma or GED and good character. For 16–49 beds: 15 college units and 1 year of elderly residential care experience. The licensee may serve as administrator.",
+      "cite": "22 CCR §87405",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Complete the 80-hour Initial Certification Training Program",
+      "instructions": "Use a CDSS-approved vendor. At least 60 of the 80 hours must be live, interactive instruction (no more than 20 self-paced).",
+      "cite": "HSC §1569.616",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Pass the state administrator exam",
+      "instructions": "Take it within 60 days of finishing the course. $100 exam fee by credit card.",
+      "cite": "HSC §1569.616",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Apply for the administrator certificate",
+      "instructions": "Submit the application with the $140 fee and Live Scan clearance. Questions: AdminCertInfo@dss.ca.gov, 916-653-9300.",
+      "cite": "HSC §1569.616; CDSS ACB",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Complete Orientation Component I online",
+      "instructions": "Senior Care (RCFE) orientation: $50 + $4.85 processing. Register on a computer with a unique email; access expires in 30 days, so download the certificate.",
+      "cite": "HSC §1569.185(b); CDSS Online Orientations",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION & ORIENTATION",
+      "priority": "MEDIUM",
+      "task": "Calendar administrator CE",
+      "instructions": "40 hours every 2 years, including 8 hours on dementia; no more than half self-paced. Late renewal costs a $300 delinquency fee.",
+      "cite": "HSC §1569.616",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "CRITICAL",
+      "task": "Decide licensed capacity (1–6, 7–15 or 16+)",
+      "instructions": "Capacity sets fees, the night-supervision rule and zoning treatment. 7–15 beds keeps on-call night coverage but loses by-right zoning.",
+      "cite": "HSC §1569.185; 22 CCR §87415",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "CRITICAL",
+      "task": "Confirm zoning in writing",
+      "instructions": "6 or fewer: residential use; no CUP, variance or zoning clearance may be required (HSC §1569.85). 7+: ask the planning department whether a CUP is needed.",
+      "cite": "HSC §1569.85",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "CRITICAL",
+      "task": "Secure control of property",
+      "instructions": "Get a signed lease or deed that allows RCFE use and needed modifications. Proof of control of property is a required application attachment (Section B11).",
+      "cite": "LIC 281 Section B11",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "HIGH",
+      "task": "Check bedroom and bathroom capacity",
+      "instructions": "No more than 2 residents per bedroom; at least 1 toilet and washbasin per 6 people and 1 tub or shower per 10, counting live-in staff and family.",
+      "cite": "22 CCR §87307",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "HIGH",
+      "task": "Check physical plant standards",
+      "instructions": "Resident rooms heated to 68°F minimum; hot water 105–120°F; grab bars at toilets, tubs and showers; non-slip surfaces; emergency lighting.",
+      "cite": "22 CCR §87303",
+      "source_id": "S69"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "CRITICAL",
+      "task": "Obtain fire clearance from the local fire authority",
+      "instructions": "Request fire clearance (LIC 9054 fire inspection request is part of the application). No fire-inspection fee may be charged for 6 or fewer.",
+      "cite": "22 CCR §87202; HSC §1569.84",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "HIGH",
+      "task": "Get a separate fire clearance for nonambulatory or bedridden residents",
+      "instructions": "Notify CDSS and get the appropriate fire clearance before accepting or keeping nonambulatory or bedridden residents.",
+      "cite": "22 CCR §87202",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "HIGH",
+      "task": "Prepare the dimensioned facility sketch",
+      "instructions": "LIC 999 plus a dimensioned floor plan and grounds sketch showing room uses, capacities and rooms for nonambulatory residents.",
+      "cite": "22 CCR §87208(a)(7); LIC 999",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY, ZONING & FIRE CLEARANCE",
+      "priority": "MEDIUM",
+      "task": "Test a private water supply (if any)",
+      "instructions": "Bacteriological testing: annually for capacity 7–15; for 6 or fewer only when evidence shows a need.",
+      "cite": "22 CCR §87303; LIC 281 B12",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — FINANCIAL, INSURANCE & START-UP FUNDS",
+      "priority": "CRITICAL",
+      "task": "Document start-up funds of at least 3 months of operating costs",
+      "instructions": "Show bank statements or a line of credit. For a 6-bed home in this model that's about $90,000–$100,000 (payroll plus operating costs).",
+      "cite": "22 CCR §87155",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 4 — FINANCIAL, INSURANCE & START-UP FUNDS",
+      "priority": "CRITICAL",
+      "task": "Complete the financial forms",
+      "instructions": "LIC 401 Monthly Operating Statement, LIC 401a, LIC 403/403a Balance Sheet, LIC 404 Financial Information Release.",
+      "cite": "LIC 281 Section A",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — FINANCIAL, INSURANCE & START-UP FUNDS",
+      "priority": "CRITICAL",
+      "task": "Bind liability insurance of $1M per occurrence / $3M aggregate",
+      "instructions": "Required coverage for injury to residents and guests caused by negligence. Include the insurance information with the application (B13).",
+      "cite": "HSC §1569.605",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 4 — FINANCIAL, INSURANCE & START-UP FUNDS",
+      "priority": "CRITICAL",
+      "task": "Bind workers' compensation",
+      "instructions": "Required once you have employees. RCFEs are WCIRB class 9070(1). Get broker quotes; the model assumes 5% of payroll.",
+      "cite": "Labor Code §3700; WCIRB 9070",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 4 — FINANCIAL, INSURANCE & START-UP FUNDS",
+      "priority": "HIGH",
+      "task": "Decide whether you will hold resident cash",
+      "instructions": "If yes: complete the LIC 400 affidavit and LIC 402 surety bond, and follow the receipts, accounting and separate-account rules.",
+      "cite": "22 CCR §87217; LIC 281 A5–A6",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — FINANCIAL, INSURANCE & START-UP FUNDS",
+      "priority": "MEDIUM",
+      "task": "Build the 36-month pro forma",
+      "instructions": "Use the P&L workbook. Test 80% / 88% / 93% occupancy and your actual local rent and price.",
+      "cite": "22 CCR §87155",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Write the plan of operation",
+      "instructions": "Goals, admission agreement, admission policies, administrative organization, staffing plan, training plan, sketches, transportation, resident money, visiting, behavioral expression, infection control plan.",
+      "cite": "22 CCR §87208",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Draft the admission agreement",
+      "instructions": "Plain language with titled sections. Cover services, fees, payment and refunds, how fees can change, eviction grounds and grievance rights. Signed within 7 days of admission. No liability waivers.",
+      "cite": "22 CCR §87507",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Write the Infection Control Plan (LIC 9282)",
+      "instructions": "Name an Infection Control Lead trained by a qualified professional, set out initial and ongoing staff training, and review annually.",
+      "cite": "22 CCR §87470",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the pre-admission appraisal procedure",
+      "instructions": "Interview, functional/mental/social evaluation, consent, and suitability against admission criteria before admission.",
+      "cite": "22 CCR §87457",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the admission and retention policy, including prohibited conditions",
+      "instructions": "Exclude stage 3–4 pressure injuries, G-tubes, NG tubes, tracheostomies, serious infections and total ADL dependence.",
+      "cite": "22 CCR §87615",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the medication management policy",
+      "instructions": "Central storage where required, original containers, PRN orders with symptoms, dose and frequency limits, records kept 1 year, destruction log kept 3 years.",
+      "cite": "22 CCR §87465",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the resident rights policy",
+      "instructions": "Include §87468.1 protections (sexual orientation, gender identity, HIV status) and post rights.",
+      "cite": "22 CCR §87468.1",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the abuse prevention and mandated reporting policy",
+      "instructions": "Use W&I §15630, not the Lanterman Act: phone report to law enforcement within 2 hours and written report within 24 hours to the ombudsman, law enforcement and licensing agency (SOC 341).",
+      "cite": "W&I Code §15630",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Complete the Emergency Disaster Plan (LIC 610E)",
+      "instructions": "Evacuation routes, assembly site, transport, relocation sites, staff assignments, hospice notification and posted numbers.",
+      "cite": "22 CCR §87212",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the staff training plan",
+      "instructions": "40-hour initial / 20-hour annual direct care training with dementia hours, medication training and exam, and first aid.",
+      "cite": "HSC §§1569.625, 1569.626, 1569.69",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Write the theft and loss policy",
+      "instructions": "Required application attachment (B14).",
+      "cite": "LIC 281 B14",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Write the neighborhood complaint policy (non-resident owner, 6 or fewer)",
+      "instructions": "Required attachment B15 when the owner does not live in a home serving 6 or fewer.",
+      "cite": "LIC 281 B15",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Write job descriptions and personnel policies",
+      "instructions": "Required attachments B4 and B5. Include an awake night shift duty statement.",
+      "cite": "LIC 281 B4–B5",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Prepare a sample menu",
+      "instructions": "Required attachment B10.",
+      "cite": "LIC 281 B10",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 5 — PLAN OF OPERATION & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Write a dementia program (only if you will advertise dementia care)",
+      "instructions": "Philosophy, admission, training, activities, environment, changes in condition and success indicators. Keep ads for 3 years.",
+      "cite": "22 CCR §87706",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "CRITICAL",
+      "task": "Complete LIC 200 Application",
+      "instructions": "Facility, applicant, capacity and category. Names must match the entity and administrator certificate.",
+      "cite": "LIC 281 A1; 22 CCR §87155",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "CRITICAL",
+      "task": "Complete LIC 215 Applicant Information for each principal",
+      "instructions": "One per applicant, partner, officer or director as instructed.",
+      "cite": "LIC 281 A2",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "HIGH",
+      "task": "Complete LIC 308 Designation of Facility Responsibility",
+      "instructions": "Name the administrator and the designated substitute who covers absences.",
+      "cite": "LIC 281 A3; 22 CCR §87405",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "HIGH",
+      "task": "Complete LIC 309 Administrative Organization (entities)",
+      "instructions": "Required for corporations, LLCs and partnerships.",
+      "cite": "LIC 281 A4",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "HIGH",
+      "task": "Complete LIC 500 Personnel Report",
+      "instructions": "List positions and coverage by shift. Show 24-hour coverage and the night arrangement.",
+      "cite": "LIC 281 A10; 22 CCR §87415",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "HIGH",
+      "task": "Complete LIC 501, 503 and 508 for known staff",
+      "instructions": "Personnel record, health screening (within 6 months before or 7 days after employment) and criminal record statement.",
+      "cite": "LIC 281 A11–A13; 22 CCR §87411(f)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "HIGH",
+      "task": "Attach entity documents and administrator verification",
+      "instructions": "Articles (B1), administrator certificate and qualifications (B2), first aid card (B16), orientation certificate (B17).",
+      "cite": "LIC 281 Section B",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — APPLICATION FORMS (LIC 281 PACKET)",
+      "priority": "CRITICAL",
+      "task": "Include the application fee check",
+      "instructions": "Include the non-refundable application fee ($990 for 4–6 beds; $1,486.80 for 7–15) payable to CDSS, with the applicant name and facility address on the check.",
+      "cite": "HSC §1569.185",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "CRITICAL",
+      "task": "Mail the complete packet to the Centralized Applications Bureau",
+      "instructions": "744 P Street, MS 9-14-8201, Sacramento, CA 95814. Keep a full copy. CAB: (833) 827-6084, CCLASCPCAB@dss.ca.gov.",
+      "cite": "CDSS How to Become Licensed",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "CRITICAL",
+      "task": "Fingerprint the applicant, administrator and adult household members",
+      "instructions": "DOJ and FBI Live Scan clearance or exemption is required before the license issues; staff need clearance before presence.",
+      "cite": "22 CCR §87355",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "HIGH",
+      "task": "Respond quickly to analyst deficiency requests",
+      "instructions": "Incomplete responses stall the 90–120 day process.",
+      "cite": "CDSS How to Become Licensed",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "HIGH",
+      "task": "Complete the Component II interview",
+      "instructions": "One-on-one session with the reviewing analyst by phone or video after application review.",
+      "cite": "CDSS Online Orientations",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "CRITICAL",
+      "task": "Pass the pre-licensing inspection",
+      "instructions": "Home fully furnished and equipped, policies on site, postings up, fire clearance in hand.",
+      "cite": "CDSS How to Become Licensed",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "HIGH",
+      "task": "Complete Component III (operations and record keeping)",
+      "instructions": "In-person orientation after the pre-licensing inspection.",
+      "cite": "CDSS Online Orientations",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 7 — SUBMISSION, BACKGROUND CHECKS & PRE-LICENSING",
+      "priority": "CRITICAL",
+      "task": "Receive and post the license; calendar the annual fee",
+      "instructions": "Post the license. No separate fee is charged at issuance (the application fee paid with the packet covers it). Calendar the annual fee ($495.60 for 4–6 beds; $742.80 for 7–15) for each license anniversary; a 50% late fee applies.",
+      "cite": "HSC §1569.185",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Design 24/7 coverage",
+      "instructions": "At least one qualified person on premises around the clock (fewer than 16 residents). Awake overnight once any dementia resident needs it. 16+ beds: one awake plus one on call within 10 minutes.",
+      "cite": "22 CCR §§87415, 87705",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Set pay at or above $16.90 (or the local minimum)",
+      "instructions": "2026 state minimum wage. BLS May 2025 aide mean is $17.51. Exempt managers need at least $70,304/year.",
+      "cite": "DIR News Release 2025-118",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Deliver 20 hours of training before any caregiver works alone",
+      "instructions": "Includes 6 hours dementia and 4 hours postural supports/restricted conditions/hospice. The second 20 hours (incl. 6 dementia) within 4 weeks.",
+      "cite": "HSC §1569.625; §1569.626",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Train and test medication assistants",
+      "instructions": "Homes of 15 or fewer: 10 hours (6 hands-on before assisting) plus an exam; 8 hours annually.",
+      "cite": "HSC §1569.69",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Ensure first aid training for care staff and night staff",
+      "instructions": "Night staff must know the emergency procedures and be first-aid trained.",
+      "cite": "22 CCR §§87411, 87415",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Complete health screening and TB test for each employee",
+      "instructions": "Physician screening with chest x-ray or intradermal test, no more than 6 months before or 7 days after employment.",
+      "cite": "22 CCR §87411(f)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Set up paid sick leave and meal/rest rules",
+      "instructions": "At least 40 hours / 5 days per year. Wage Order 5 rules for a sole caregiver in 24-hour care.",
+      "cite": "Labor Code §246; IWC Wage Order 5",
+      "source_id": "S57"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Schedule 20 hours of annual in-service per caregiver",
+      "instructions": "Includes 8 hours dementia. Keep sign-in sheets in personnel files.",
+      "cite": "HSC §1569.625",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 9 — MEDI-CAL ASSISTED LIVING WAIVER (OPTIONAL, 15 COUNTIES)",
+      "priority": "MEDIUM",
+      "task": "Confirm your county is an ALW county",
+      "instructions": "Alameda, Contra Costa, Fresno, Kern, Los Angeles, Orange, Riverside, Sacramento, San Bernardino, San Diego, San Francisco, San Joaquin, San Mateo, Santa Clara or Sonoma.",
+      "cite": "ALW waiver (3/1/2024–2/28/2029)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — MEDI-CAL ASSISTED LIVING WAIVER (OPTIONAL, 15 COUNTIES)",
+      "priority": "MEDIUM",
+      "task": "Email the ALW initial application",
+      "instructions": "RCFE/ARF Provider Initial Application, ALW Provider Agreement and Residential Provider Verification to ProFacWAIVER@dhcs.ca.gov.",
+      "cite": "DHCS ALW provider enrollment",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 9 — MEDI-CAL ASSISTED LIVING WAIVER (OPTIONAL, 15 COUNTIES)",
+      "priority": "MEDIUM",
+      "task": "Mail the notarized Medi-Cal enrollment packet",
+      "instructions": "DHCS 6204, 6207, 6208; NPI; TIN proof; SOS and articles; DSS license; insurance; surety bond or exemption; $750 application fee (CY2026) by cashier's check. Mail to Provider Enrollment Unit, MS 4502.",
+      "cite": "DHCS RCFE/ARF application requirements; DHCS Application Fees (CY2026)",
+      "source_id": "S65"
+    },
+    {
+      "phase": "PHASE 9 — MEDI-CAL ASSISTED LIVING WAIVER (OPTIONAL, 15 COUNTIES)",
+      "priority": "MEDIUM",
+      "task": "Arrange licensed nursing coverage",
+      "instructions": "ALW providers need licensed nursing staff on call or employed. Facilities housing more than 6 participants need an Individual Response System.",
+      "cite": "DHCS ALW provider enrollment",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 9 — MEDI-CAL ASSISTED LIVING WAIVER (OPTIONAL, 15 COUNTIES)",
+      "priority": "MEDIUM",
+      "task": "Complete the DHCS verification visit and HCBS settings compliance",
+      "instructions": "On- or offsite visit. Settings must meet the federal HCBS rule: lease or agreement, privacy, choice, access to food and visitors.",
+      "cite": "42 CFR §441.301(c)",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 9 — MEDI-CAL ASSISTED LIVING WAIVER (OPTIONAL, 15 COUNTIES)",
+      "priority": "MEDIUM",
+      "task": "Contact Care Coordination Agencies",
+      "instructions": "CCAs place waitlisted members (15,910 waiting, March 2026) and assess tiers. Room and board is paid by the resident, typically the $1,444.07 SSI/SSP basic services rate.",
+      "cite": "DHCS ALW",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Post required notices",
+      "instructions": "License, resident rights, the ombudsman CRISISline 1-800-231-4024 with the local ombudsman number, and emergency exit plans.",
+      "cite": "22 CCR §87212; CDA LTCOP",
+      "source_id": "S58"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Apply for the hospice care waiver",
+      "instructions": "Written request stating the maximum number of hospice residents. CDSS decides within 30 days of an acceptable request.",
+      "cite": "22 CCR §87632",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Run quarterly mock inspections",
+      "instructions": "Check medication records, personnel files (training, health screening, clearances), appraisals and admission agreements.",
+      "cite": "22 CCR §§87411, 87465, 87507",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review the infection control plan annually",
+      "instructions": "Also review after an outbreak declaration or at the licensing agency's request.",
+      "cite": "22 CCR §87470",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Pay the annual license fee on time",
+      "instructions": "$495.60 (4–6 beds) / $742.80 (7–15). Late payment adds 50%.",
+      "cite": "HSC §1569.185",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Renew the administrator certificate every 2 years",
+      "instructions": "40 CE hours (8 dementia) plus the $140 renewal fee before expiration.",
+      "cite": "HSC §1569.616",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 10 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Notify CDSS before changing capacity or location",
+      "instructions": "Change of capacity: $25. Relocation: 50% of the application fee.",
+      "cite": "HSC §1569.185",
+      "source_id": "S1"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "CDSS Centralized Applications Bureau (CAB)",
+      "role": "New RCFE applications",
+      "contact": "(833) 827-6084 / CCLASCPCAB@dss.ca.gov / 744 P Street, MS 9-14-8201, Sacramento, CA 95814"
+    },
+    {
+      "name": "CDSS Adult and Senior Care Program",
+      "role": "Licensing program office",
+      "contact": "(916) 657-2592 / CCLASCPBusinessServices@dss.ca.gov"
+    },
+    {
+      "name": "CDSS Administrator Certification Bureau",
+      "role": "Administrator certificate, exam, CE",
+      "contact": "916-653-9300 / AdminCertInfo@dss.ca.gov / ExamRegistration@dss.ca.gov"
+    },
+    {
+      "name": "CDSS Online Orientation Help Desk",
+      "role": "Component I technical support",
+      "contact": "CDSSCCLOnlineOrientationHelpDesk@dss.ca.gov"
+    },
+    {
+      "name": "DHCS Assisted Living Waiver — provider applications",
+      "role": "ALW initial applications, CHOW, location changes",
+      "contact": "ProFacWAIVER@dhcs.ca.gov"
+    },
+    {
+      "name": "DHCS Waiver Provider Enrollment",
+      "role": "Medi-Cal enrollment packets and revalidation",
+      "contact": "WaiveProEnroll@dhcs.ca.gov; ProFacWAIVER@dhcs.ca.gov"
+    },
+    {
+      "name": "DHCS ALW program questions",
+      "role": "General ALW questions",
+      "contact": "ALWP.IR@dhcs.ca.gov"
+    },
+    {
+      "name": "Long-Term Care Ombudsman CRISISline",
+      "role": "Mandatory posting; abuse reports",
+      "contact": "1-800-231-4024 (24/7)"
+    },
+    {
+      "name": "CDSS elder abuse / complaints line",
+      "role": "Report abuse or neglect in a licensed facility",
+      "contact": "1-844-538-8766"
+    },
+    {
+      "name": "EDD Employer Services",
+      "role": "Payroll tax registration",
+      "contact": "edd.ca.gov/en/Payroll_Taxes"
+    },
+    {
+      "name": "California Secretary of State — bizfile",
+      "role": "Entity formation",
+      "contact": "bizfileonline.sos.ca.gov"
+    },
+    {
+      "name": "Franchise Tax Board",
+      "role": "LLC tax and fee",
+      "contact": "ftb.ca.gov"
+    },
+    {
+      "name": "WCIRB",
+      "role": "Workers' comp classification 9070",
+      "contact": "wcirb.com"
+    },
+    {
+      "name": "NPPES",
+      "role": "Free NPI (needed for ALW)",
+      "contact": "nppes.cms.hhs.gov"
+    },
+    {
+      "name": "California Assisted Living Association (CALA)",
+      "role": "Trade association (secondary source)",
+      "contact": "caassistedliving.org"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.88,
+      "conservative": 0.8,
+      "optimistic": 0.93,
+      "rationale": "NIC reports 88.4% average assisted living occupancy in 31 primary U.S. markets for 2Q 2026 (San Francisco senior housing 92.7%). No public occupancy figure exists for 6-bed California homes, so 88% is a planning anchor; 80% stress-tests vacancy between residents.",
+      "source_id": "S45"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "rcfe6_private",
+        "label": "6-bed RCFE in a leased house, 100% private pay",
+        "capacity": 6,
+        "notes": "The most common entry model (80% of California RCFEs have 6 or fewer beds). By-right residential zoning, no fire-inspection fees. One awake caregiver on site 24/7 plus a 4-hour daily overlap shift.",
+        "revenue_lines": [
+          {
+            "name": "Private pay — upper market (CareScout CA median)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3333,
+            "source_id": "S39"
+          },
+          {
+            "name": "Private pay — move-in median (A Place for Mom CA)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5739,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.6667,
+            "source_id": "S40"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregiver, awake on site 24/7 (1 on shift)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22 CCR §87415; §87705",
+            "notes": "730 hrs = 24 × 30.42. Exceeds the on-call minimum for <16 beds; required once any dementia resident needs awake night supervision."
+          },
+          {
+            "role": "Caregiver, overlap shift (4 hrs/day, mornings/meals)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 122,
+            "cite": "22 CCR §87411",
+            "notes": "Peak-time second caregiver so care meets 'sufficient staff' (22 CCR §87411)."
+          },
+          {
+            "role": "Certified administrator (part-time, 20 hrs/week)",
+            "wage_hourly": 40.01,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "cite": "22 CCR §87405",
+            "notes": "BLS 11-9151 median. Owner-administrators should still budget this cost."
+          }
+        ]
+      },
+      {
+        "id": "rcfe6_mixed_alw",
+        "label": "6-bed RCFE, 4 private pay + 2 Medi-Cal ALW (Tier 3) residents",
+        "capacity": 6,
+        "notes": "Only in the 15 ALW counties and after DHCS enrollment. ALW residents pay room and board at the SSI/SSP basic services rate; the waiver pays the daily tier rate. Care coordination ($320/mo) goes to the CCA, not the home. Tier 3 is an illustrative mid tier.",
+        "revenue_lines": [
+          {
+            "name": "Private pay — upper market (CareScout CA median)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.1667,
+            "source_id": "S39"
+          },
+          {
+            "name": "Private pay — move-in median (A Place for Mom CA)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5739,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S40"
+          },
+          {
+            "name": "ALW resident room & board (SSI/SSP basic services rate)",
+            "payer": "Resident (SSI/SSP)",
+            "code": "NMOHC",
+            "rate": 1444.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3333,
+            "source_id": "S5",
+            "notes": "$1,444.07 = $1,626.07 SSI/SSP grant (S5) − $182 personal and incidental allowance; DHCS states ALW residents pay their own room and board (S68). CALA (S6, secondary) confirms the 2026 split."
+          },
+          {
+            "name": "ALW assisted living services, Tier 3",
+            "payer": "Medi-Cal ALW",
+            "code": "T2031 U3",
+            "rate": 132.97,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3333,
+            "source_id": "S2"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregiver, awake on site 24/7 (1 on shift)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22 CCR §87415; §87705",
+            "notes": "730 hrs = 24 × 30.42."
+          },
+          {
+            "role": "Caregiver, overlap shift (4 hrs/day)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 122,
+            "cite": "22 CCR §87411",
+            "notes": "Peak-time second caregiver."
+          },
+          {
+            "role": "Certified administrator (part-time, 20 hrs/week)",
+            "wage_hourly": 40.01,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "cite": "22 CCR §87405",
+            "notes": "BLS 11-9151 median. Owner-administrators should still budget this cost."
+          },
+          {
+            "role": "LVN oversight (contract, 8 hrs/month)",
+            "wage_hourly": 39.59,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "cite": "DHCS ALW provider requirements",
+            "notes": "ALW providers must have licensed nursing staff on call or employed (S47). BLS 29-2061 CA mean."
+          }
+        ]
+      },
+      {
+        "id": "rcfe6_memory",
+        "label": "6-bed memory-care / higher-acuity RCFE, 100% private pay",
+        "capacity": 6,
+        "notes": "Awake night staff is required once any resident with dementia is determined to need awake night supervision (22 CCR §87705(b)(2)); it is not automatic, but a memory-care home should plan for it. Two caregivers 16 hrs/day plus one awake overnight. If dementia care is advertised, §87706 applies. A hospice waiver (§87632) is recommended. Priced at the CA memory care median, which does NOT cover this staffing; about $7,500/mo is needed.",
+        "revenue_lines": [
+          {
+            "name": "Memory care monthly fee (A Place for Mom CA memory care median)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S40"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregiver, awake on site 24/7 (overnight awake required)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22 CCR §87705",
+            "notes": "22 CCR §87705: awake night staff when a dementia resident needs it."
+          },
+          {
+            "role": "Second caregiver, 16 hrs/day (6 a.m.–10 p.m.)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "22 CCR §87411",
+            "notes": "Two on shift during waking hours for redirection, ADLs and supervision."
+          },
+          {
+            "role": "Certified administrator (part-time, 20 hrs/week)",
+            "wage_hourly": 40.01,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "cite": "22 CCR §87405",
+            "notes": "BLS 11-9151 median. Owner-administrators should still budget this cost."
+          }
+        ]
+      },
+      {
+        "id": "rcfe15_private",
+        "label": "15-bed RCFE (7–15 license), 100% private pay",
+        "capacity": 15,
+        "notes": "Same night rule as small homes (on call on premises; awake if dementia residents need it) but fixed coverage is spread over 15 residents. May need a CUP; larger house or purpose-built property. Two caregivers 16 hrs/day plus one awake overnight, plus a cook and housekeeper.",
+        "revenue_lines": [
+          {
+            "name": "Private pay — upper market (CareScout CA median)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.4667,
+            "source_id": "S39"
+          },
+          {
+            "name": "Private pay — move-in median (A Place for Mom CA)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5739,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5333,
+            "source_id": "S40"
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — facility property",
+            "monthly": 11000,
+            "basis": "fixed",
+            "notes": "15-bed property lease — operator estimate, verify locally (no HUD FMR above 4 BR)."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "General/professional liability insurance ($1M/$3M minimum)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally; minimum per HSC §1569.605.",
+            "source_id": "S18"
+          },
+          {
+            "item": "CDSS annual license fee ÷ 12",
+            "monthly": 61.9,
+            "basis": "fixed",
+            "notes": "7–15 bed license: $742.80/yr.",
+            "source_id": "S1"
+          },
+          {
+            "item": "Software (eMAR/care records, scheduling, payroll)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Phone, internet",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Repairs & maintenance",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Training & CE (direct care 20 hrs/yr each; admin 40 hrs/2 yrs)",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally.",
+            "source_id": "S10"
+          },
+          {
+            "item": "Background checks / Live Scan for new hires",
+            "monthly": 120,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Accounting / legal",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "California LLC fee (gross-receipts based) ÷ 12",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "15-bed ~$1.0M/yr total California income at 88% occupancy → $6,000/yr bracket ($1,000,000–$4,999,999). At 80% occupancy (~$0.9M) the fee would be $2,500.",
+            "source_id": "S55"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregiver, awake on site 24/7",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22 CCR §87415; §87705",
+            "notes": "Overnight awake caregiver."
+          },
+          {
+            "role": "Second caregiver, 16 hrs/day",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "22 CCR §87411",
+            "notes": "Two caregivers during waking hours."
+          },
+          {
+            "role": "Cook (6 hrs/day)",
+            "wage_hourly": 23.03,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 182.5,
+            "cite": "22 CCR §87411",
+            "notes": "BLS 35-2012 CA mean."
+          },
+          {
+            "role": "Housekeeper / laundry (4 hrs/day)",
+            "wage_hourly": 22.08,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 121.7,
+            "cite": "22 CCR §87307 (laundry service)",
+            "notes": "BLS 37-2012 CA mean."
+          },
+          {
+            "role": "Certified administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 83221,
+            "wage_source_id": "S38",
+            "cite": "22 CCR §87405",
+            "notes": "BLS 11-9151 median × 2,080 hrs. Above the 2026 exempt threshold of $70,304."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption: larger homes/agencies admit more clients per month in absolute terms. Verify against your local referral pipeline."
+        }
+      },
+      {
+        "id": "rcfe6x2_private",
+        "label": "Two 6-bed homes, shared full-time administrator, 100% private pay",
+        "capacity": 12,
+        "notes": "Two separate licenses. One administrator over both homes is permitted if on premises sufficient hours, with a designated substitute in each home (22 CCR §87405). Each home has one awake caregiver 24/7 plus a 4-hour overlap.",
+        "revenue_lines": [
+          {
+            "name": "Private pay — upper market (CareScout CA median)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3333,
+            "source_id": "S39"
+          },
+          {
+            "name": "Private pay — move-in median (A Place for Mom CA)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5739,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.6667,
+            "source_id": "S40"
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — facility property",
+            "monthly": 10000,
+            "basis": "fixed",
+            "notes": "Two 6-bed leases at about $5,000 each — operator estimate, verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1400,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally, 2 homes."
+          },
+          {
+            "item": "General/professional liability insurance ($1M/$3M minimum)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally, 2 licenses; minimum per HSC §1569.605.",
+            "source_id": "S18"
+          },
+          {
+            "item": "CDSS annual license fee ÷ 12",
+            "monthly": 82.6,
+            "basis": "fixed",
+            "notes": "Two 4–6 bed licenses: 2 × $495.60/yr.",
+            "source_id": "S1"
+          },
+          {
+            "item": "Software (eMAR/care records, scheduling, payroll)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Phone, internet",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Repairs & maintenance",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Training & CE (direct care 20 hrs/yr each; admin 40 hrs/2 yrs)",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally.",
+            "source_id": "S10"
+          },
+          {
+            "item": "Background checks / Live Scan for new hires",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Accounting / legal",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "California LLC fee (gross-receipts based) ÷ 12",
+            "monthly": 208.33,
+            "basis": "fixed",
+            "notes": "Two homes ~$780k/yr total California income → $2,500/yr bracket ($500,000–$999,999).",
+            "source_id": "S55"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers, awake 24/7 in each home (2 homes)",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "22 CCR §87415; §87705",
+            "notes": "2 × 730 hrs."
+          },
+          {
+            "role": "Overlap shifts, 4 hrs/day in each home",
+            "wage_hourly": 17.51,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 244,
+            "cite": "22 CCR §87411",
+            "notes": "2 × 122 hrs."
+          },
+          {
+            "role": "Certified administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 83221,
+            "wage_source_id": "S38",
+            "cite": "22 CCR §87405",
+            "notes": "BLS 11-9151 median × 2,080 hrs. Above the 2026 exempt threshold of $70,304."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption: larger homes/agencies admit more clients per month in absolute terms. Verify against your local referral pipeline."
+        }
+      }
+    ],
+    "default_configuration": "rcfe6_private",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.09,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.04,
+      "notes": "Taxes: employer FICA 7.65% (SSA) + FUTA and CA UI 3.4% / ETT 0.1% on the first $7,000 per employee (EDD 2026), ≈ 9% of a caregiver's annual wages. Workers' comp: class 9070(1); 5% is an operator estimate (CDI average benchmark $1.65 per $100 eff. 9/1/2026; RCFE class rates differ). Benefits: paid sick leave of 40 hrs/yr (Labor Code §246) plus other benefits ≈ 4%.",
+      "source_id": "S50"
+    },
+    "opex": [
+      {
+        "item": "Lease — facility property",
+        "monthly": 5000,
+        "basis": "fixed",
+        "notes": "Base value is a 6-bed home (5-bedroom house). Operator estimate — verify locally. HUD FY2026 4-BR FMR: Fresno $2,660, Sacramento $3,460, Riverside $3,514, Los Angeles $3,672, San Diego $4,845, Orange $5,246. Licensed-use leases usually run above FMR. 15-bed config: use about $11,000 (operator estimate); two homes: $10,000.",
+        "source_id": "S44"
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. Rooms must be heated to 68°F and cooled to the §87303 range."
+      },
+      {
+        "item": "General/professional liability insurance ($1M/$3M minimum)",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "Coverage minimum from HSC §1569.605; premium is an operator estimate — verify locally — get broker quotes.",
+        "source_id": "S18"
+      },
+      {
+        "item": "CDSS annual license fee ÷ 12",
+        "monthly": 41.3,
+        "basis": "fixed",
+        "notes": "4–6 beds: $495.60/yr = $41.30/mo (base). 7–15 beds: $742.80/yr = $61.90/mo.",
+        "source_id": "S1"
+      },
+      {
+        "item": "Software (eMAR/care records, scheduling, payroll)",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. No EVV mandate identified for RCFE residential care."
+      },
+      {
+        "item": "Phone, internet",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. Transportation arrangements are required in the plan of operation (22 CCR §87208)."
+      },
+      {
+        "item": "Repairs & maintenance",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Marketing & referral development",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. Excludes placement agency fees."
+      },
+      {
+        "item": "Training & CE (direct care 20 hrs/yr each; admin 40 hrs/2 yrs)",
+        "monthly": 75,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally; hours required by HSC §1569.625 and §1569.616.",
+        "source_id": "S10"
+      },
+      {
+        "item": "Background checks / Live Scan for new hires",
+        "monthly": 50,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally; clearance required before presence (22 CCR §87355)."
+      },
+      {
+        "item": "California LLC annual tax ÷ 12",
+        "monthly": 66.67,
+        "basis": "fixed",
+        "notes": "$800/yr annual tax, owed regardless of income. The separate gross-receipts LLC fee ($900 / $2,500 / $6,000 depending on total California income) is its own line below.",
+        "source_id": "S55"
+      },
+      {
+        "item": "California LLC fee (gross-receipts based) ÷ 12",
+        "monthly": 75.0,
+        "basis": "fixed",
+        "notes": "FTB LLC fee on total California income: $250,000–$499,999 = $900/yr; $500,000–$999,999 = $2,500/yr; $1,000,000–$4,999,999 = $6,000/yr. Base = $900/yr ($75/mo) for a 6-bed home (~$370k–$435k/yr at the model's prices). Size-corrected by configuration overrides.",
+        "source_id": "S55"
+      },
+      {
+        "item": "Accounting / legal",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Food (3 meals + snacks)",
+        "monthly": 347,
+        "basis": "per_client",
+        "notes": "USDA moderate-cost food plan, age 71+, average of female $329.90 and male $363.90 (May 2026).",
+        "source_id": "S54"
+      },
+      {
+        "item": "Household, personal care & incontinence supplies",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Activities",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Operator estimate — verify locally."
+      }
+    ],
+    "opex_overrides_note": "Configurations rcfe15_private and rcfe6x2_private carry 'opex_overrides': replace the matching base opex item (by exact 'item' name) with the override's monthly value for that configuration. Without this, the 15-bed and two-home models would understate rent and fixed costs.",
+    "startup_costs": [
+      {
+        "item": "Administrator 80-hr certification course (vendor tuition)",
+        "low": 800,
+        "high": 2000,
+        "notes": "Operator estimate — verify locally; vendor prices vary."
+      },
+      {
+        "item": "Administrator exam + application fees",
+        "low": 240,
+        "high": 240,
+        "source_id": "S15"
+      },
+      {
+        "item": "Orientation Component I",
+        "low": 54.85,
+        "high": 54.85,
+        "source_id": "S20"
+      },
+      {
+        "item": "LLC formation (LLC-1 + LLC-12)",
+        "low": 90,
+        "high": 90,
+        "source_id": "S56"
+      },
+      {
+        "item": "CDSS application fee, paid with application (4–6 beds / 7–15 beds)",
+        "low": 990,
+        "high": 1486.8,
+        "source_id": "S1"
+      },
+      {
+        "item": "Fire clearance (6 or fewer)",
+        "low": 0,
+        "high": 0,
+        "source_id": "S17"
+      },
+      {
+        "item": "Live Scan / health screenings for principals and first staff",
+        "low": 500,
+        "high": 1500,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Lease security deposit + first month",
+        "low": 10000,
+        "high": 15000,
+        "notes": "Operator estimate — verify locally for a 6-bed lease at about $5,000/mo."
+      },
+      {
+        "item": "Safety and accessibility modifications (grab bars, ramps, smoke/CO alarms, egress)",
+        "low": 5000,
+        "high": 25000,
+        "notes": "Operator estimate — verify locally — depends on the house and fire authority."
+      },
+      {
+        "item": "Furniture, beds, linens, kitchen, medication cart",
+        "low": 12000,
+        "high": 25000,
+        "notes": "Operator estimate — verify locally; §87307 requires a bed, chair, nightstand, lamp and chest of drawers per resident."
+      },
+      {
+        "item": "Insurance down payments (liability, workers' comp)",
+        "low": 2000,
+        "high": 5000,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Policies, consulting and legal review",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Start-up funds: 3 months of operating costs (22 CCR §87155(a)(13))",
+        "low": 95000,
+        "high": 192000,
+        "notes": "Required by 22 CCR §87155(a)(13); computed as 3 × this model's monthly operating costs at 88% occupancy: 6-bed private ≈ $95,000; 6-bed mixed ALW ≈ $97,000; 6-bed memory care ≈ $118,000; 15-bed ≈ $192,000; two 6-bed homes ≈ $190,000 (each license must show its own three months, ≈ $95,000 per home).",
+        "source_id": "S22",
+        "category": "working_capital"
+      },
+      {
+        "item": "Medi-Cal ALW enrollment fee (optional)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S65",
+        "notes": "DHCS provider application fee, calendar year 2026."
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "Old report said RCFEs are 'generally authorized for up to 59 residents.' There is no 59-resident cap; HSC §1569.185 sets fees for capacities from 1–3 up to 701+, and 1,245 licensed RCFEs have 16+ beds (CDSS list, May 2025).",
+    "Old report listed a $2,946 initial application fee (and elsewhere a $500 fee and a '$200–$600' annual fee). Statute sets $990 initial / $495.60 annual for 4–6 beds and $1,486.80 / $742.80 for 7–15 beds (HSC §1569.185).",
+    "Old report said a staff-to-resident ratio of 1:5 is 'mandated' in California RCFEs (and elsewhere 1:8–1:12). Title 22 sets no numeric ratio; 22 CCR §87411 requires staff sufficient to meet needs, and §87415/§87705 set night rules.",
+    "Old checklist cited 'AB508 (2026)' direct care ratios on the LIC 500 task. No such ratio mandate was found; remove it.",
+    "Old ALW tier table listed $91.13–$257.25/day. Current DHCS rates are $95.69 (Tier 1) to $270.80 (Tier 5) per day; the waiver does not pay room and board.",
+    "Old report said ALW reimbursements 'average approximately $3,000–$4,000 per month' and modeled care coordination as provider income. The $320/month care coordination fee (G9002) is paid to the Care Coordination Agency, not the RCFE.",
+    "Old report cited ALW capacity of about 8,785 participants with 3,600+ waiting (2023). DHCS reports 14,831 enrolled and 15,910 on the waitlist as of March 2026.",
+    "Old checklist cited the 'Lanterman Act' for abuse reporting. Elder abuse mandated reporting for RCFEs is W&I Code §15630 (2-hour phone / 24-hour written report in long-term care facilities). Lanterman governs developmental disability services.",
+    "Old checklist cited HSC §1568.0831 for RCFE zoning. That section belongs to the Residential Care Facilities for the Chronically Ill chapter; the RCFE zoning provision is HSC §1569.85.",
+    "Old checklist said the administrator certificate fee is $100 (LIC 9214). CDSS currently lists a $140 application fee plus a $100 exam fee.",
+    "Old report said annual staff training is 'minimum 8 hours.' HSC §1569.625 requires 20 hours annually, including 8 hours of dementia care; initial training is 40 hours, not the fabricated topic-hour breakdown in the old report.",
+    "Old report said administrators must be present '20 hours per week per 15 residents.' 22 CCR §87405 requires presence for a 'sufficient number of hours' with no numeric standard.",
+    "Old report stated a minimum of 80 sq ft per bedroom and 100 sq ft for shared rooms. 22 CCR §87307 sets no square-foot minimum; it limits bedrooms to 2 residents and sets toilet (1 per 6) and bath (1 per 10) ratios.",
+    "Old report gave inconsistent facility counts (8,175 RCFEs; 7,000 RCFEs serving 86,000). The CDSS facility list (May 2025) shows 7,830 licensed RCFEs (excluding CCRCs) with 172,751 licensed capacity.",
+    "Old report listed Medi-Cal managed care plan market shares as RCFE payers. RCFE services under the ALW are paid by DHCS through the waiver, not by managed care plans; plan Community Supports are separate and plan-specific.",
+    "Old licensing timeline said '4–9 months average'. CDSS publishes 90–120 days for the application process once submitted.",
+    "Old P&L modeled a 30-bed facility with a memory care unit, caregiver-to-resident ratios of 1:7 and 1:5, and night staffing at 50% of day. None of those ratios exist in California rule, and a 30-bed RCFE (16+) must have an awake night employee plus an on-call backup (22 CCR §87415).",
+    "Old P&L used 'BLS May 2024' wages with housekeeping at $14.78/hr and cook at $15.65/hr, both below the 2026 California minimum wage of $16.90. BLS May 2025 California means: housekeeping $22.08, cook $23.03, aides $17.51.",
+    "Old P&L used a $6,750 California ALF rate and $9,775 memory care rate labeled 'Genworth/CareScout 2024', and an unsourced $9,230 rent. CareScout 2025 shows $7,000 for California assisted living; A Place for Mom shows $6,850 for memory care move-ins.",
+    "Old P&L reported a 42% break-even occupancy and 28.8% Year-1 margin while omitting insurance minimum sourcing, licensing, administrator certification and start-up reserve rules. Corrected small-home break-even is about 86% occupancy at verified prices and wages.",
+    "Old checklist cited '22 CCR §87155(b)' for orientation and '22 CCR §87705' for general staff training. Orientation and fees are HSC §1569.185(b) and the CDSS orientation page; training hours are HSC §§1569.625/1569.626.",
+    "Brief/prior audit note: 22 CCR §87865 is the personnel rule for Residential Care Facilities for the Chronically Ill (Chapter 8.5), not RCFEs. RCFE night supervision is 22 CCR §87415, with awake night staff for dementia residents under §87705.",
+    "Prior audit cited CALA's '7,400+ RCFEs, 185,000+ capacity'. Those are 2018 DSS figures; the current CDSS list (May 2025) shows 7,830 RCFEs and 172,751 beds."
+  ],
+  "verification_log": [
+    {
+      "issue": "Opex item names 'Annual license fee ÷ 12 (4–6 beds)' and 'Lease — 6-bed home (5-bedroom house)' mislabeled the 15-bed and two-home override values in customer output.",
+      "change": "Renamed the base items and every matching override to size-neutral names ('CDSS annual license fee ÷ 12', 'Lease — facility property'); per-size detail moved to notes. Values unchanged."
+    },
+    {
+      "issue": "Mandatory FTB LLC fee ($900/$2,500/$6,000) missing from every configuration; note said '$900–$2,500 for these sizes'.",
+      "change": "Added opex line 'California LLC fee (gross-receipts based) ÷ 12' (S55): $75/mo base (6-bed configs), override $208.33 for rcfe6x2_private, $500 for rcfe15_private. Rewrote the $800 tax note and checklist[2] with the $6,000 bracket."
+    },
+    {
+      "issue": "Start-up funds line was sized for the 6-bed home only; 15-bed and two-home configurations need far more.",
+      "change": "Re-labeled the working-capital line with 22 CCR §87155(a)(13), set low/high to $95,000/$192,000 (6-bed / 15-bed, recomputed with the LLC fee) and listed every configuration's 3-month amount in notes."
+    },
+    {
+      "issue": "Medi-Cal enrollment fee shown as $730; DHCS sets $750 for CY2026.",
+      "change": "Replaced $730 with $750 in checklist[68], licensing_pathway cost table and ALW track, recommendations item 5 and startup_costs; added S65 (DHCS Application Fees) and re-titled S48 as out of date."
+    },
+    {
+      "issue": "Initial license fee described as charged at issuance; HSC §1569.185 makes the $990/$1,486.80 the non-refundable application fee paid with the application.",
+      "change": "Rewrote checklist[50] and checklist[57] (removed 'pay the initial license fee'), moved the fee to licensing step 7, step 11 now 'License issued', relabeled cost-table rows, key_numbers[1], service_model and the startup cost line."
+    },
+    {
+      "issue": "checklist[5] told 6-bed operators to get a city business license and cited HSC §1569.84 (fire-inspection fees).",
+      "change": "Rewrote: homes of 6 or fewer are exempt from local business license/fee/tax per HSC §1569.185(b)(2); 7+ beds check locally; added 2026 city minimum-wage examples. Cite 'HSC §1569.185(b)(2); DIR MW-2026', source S1."
+    },
+    {
+      "issue": "DHCS ALW enrollment phone '(916) 552-9105 (option 5, then 2)' not supported by S47.",
+      "change": "Removed the phone from regulators[3] and contacts[5] (emails kept); added a not_claimed line."
+    },
+    {
+      "issue": "rcfe6_memory notes cited 22 CCR §87705(c) and implied awake nights are automatic.",
+      "change": "Changed to §87705(b)(2) and stated the requirement is triggered when a dementia resident needs awake night supervision."
+    },
+    {
+      "issue": "SSI/SSP basic services rate ($1,444.07) cited only to CALA (secondary).",
+      "change": "Added S68 (DHCS ALW Program Description); key_numbers[7], rates[9] and the ALW room-and-board revenue line now cite S5 with the derivation $1,626.07 − $182; CALA kept as secondary confirmation; narrative citations updated."
+    },
+    {
+      "issue": "RCFE count definition not stated.",
+      "change": "Added 'status = LICENSED; excludes 23 facilities on probation and 132 CCRCs' to key_numbers[3], executive_summary and market_conditions."
+    },
+    {
+      "issue": "key_numbers[11] ($17.51 from BLS) cited only S37; key_numbers[8] (awake night for dementia) cited only S7.",
+      "change": "Added source_ids ['S37','S38'] to key_numbers[11] and ['S7','S8'] to key_numbers[8] (source_id kept as primary)."
+    },
+    {
+      "issue": "S38 title omitted 11-9151 (administrator wage) and 31-1131.",
+      "change": "Added both SOC codes to the S38 title."
+    },
+    {
+      "issue": "checklist[17] cited §87303 with S9 (§87411); checklist[4] cited §87217 with S21 (LIC 281).",
+      "change": "Added S69 (22 CCR §87303) and S70 (22 CCR §87217) and repointed the source_ids."
+    },
+    {
+      "issue": "checklist[9] said the administrator exam is open-book; unverifiable.",
+      "change": "Removed the sentence and added a not_claimed line."
+    },
+    {
+      "issue": "Operator-estimate cost lines lacked a source and were not all listed in not_claimed; rcfe6x2 lease override cited HUD FMR (S44), which does not support $5,000/home.",
+      "change": "Added a not_claimed line covering all operator-estimate lines, normalized their notes to 'Operator estimate — verify locally', and removed S44 from the rcfe6x2_private lease override."
+    },
+    {
+      "issue": "Caregiver wage $17.51 is below 2026 local minimums in LA, San Diego, San Jose and SF; at those minimums the 6-bed default turns unprofitable.",
+      "change": "Kept statewide $17.51. Added sources S66 (DWT July 2026) and S67 (CalChamber Jan 2026). Added a local-minimum-wage sensitivity to financial_narrative, risks, executive_summary, operations and market_conditions; recomputed at $18.42 (not saved): rcfe6_private −$200, rcfe6x2 $0, rcfe6_mixed_alw −$2,100, rcfe6_memory −$4,500, rcfe15 +$18,100 — 15-bed stays profitable."
+    },
+    {
+      "issue": "Financial narrative results table, risks and recommendations break-even figures predated the LLC fee.",
+      "change": "Rebuilt the results table and the break-even figures in risks and recommendations from model.evaluate after the LLC fee was added."
+    },
+    {
+      "issue": "Key drivers #3 rent sentence was garbled.",
+      "change": "Reworded: '$5,000 is above the 4-BR FMR in most metros (San Diego $4,845; Orange $5,246 is higher), and coastal licensed-use leases often run higher', marked operator estimate."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "bundle_slug": "florida-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Independent check of all financial_model inputs, rates[], key_numbers, AHCA fees, staffing rule, training, emergency-power, zoning, OSS/ACS/SSI, payroll-tax and contact claims against primary sources (AHCA Form 3110-1008 and 2013 CPI fee letter, 59A-36 rules on Cornell LII, Florida Statutes 2025, 2026 ACS fee schedule, Rule 65A-2.036, BLS OEWS May 2025 via the BLS API, Fla. Const. Art. X s.24, CareScout/BusinessWire, NIC, HUD SAFMR, NCAL, Census, GAO-26-107884, FALA). Nearly every number checks out: all 11 BLS wages match May 2025 Florida exactly ($16.25, $18.03, $29.70, $40.48, $17.43, $16.28, $22.15, MHSM 10th $33.61/$69,910, 25th $44.49/$92,540), all exceed the $15.00 minimum effective 9/30/2026; AHCA fees ($387.73 + $64.96/private-pay bed, cap $14,253.64; ECC $546.07 + $10.15/bed; LNS $322.77 + $10.15/bed; $2/bed assessment cap $300) match the current form and CPI letter; ACS T1020 $15.58/day, OSS $991.40/$160/$1,045.40, CareScout $66,000 (2025) and $63,885 (2024) confirmed. Staffing in all five configurations satisfies the 59A-36.010(3)(a) hours table, the 17+ awake-overnight rule and the ECC awake-staff rule. Main problems: (1) lease (and utilities) modeled per occupied resident instead of as a fixed cost, which understates costs during ramp and at low census and makes break-even look early; (2) the $5,500 CareScout figure is a private one-bedroom community median applied to small residential homes without caveat; (3) missing mandatory AED cost for the 36-bed configurations and missing LNS/ECC specialty fees in opex; (4) S67 McKnight's URL is dead and its claim unverifiable; plus several citation/wording fixes.",
+  "verified_count": 96,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "financial_model.opex[0]",
+      "current": {"item": "Lease / occupancy (scaled per occupied resident)", "monthly": 643.0, "basis": "per_client"},
+      "correct": {"item": "Lease / occupancy (per licensed bed, fixed)", "monthly_per_licensed_bed": 578.83, "basis": "fixed, multiplied by configuration capacity (6 beds = $3,473; 14 beds = $8,104; 36 beds = $20,838)"},
+      "evidence": "Rent is a fixed contractual cost owed from day one regardless of census (the bundle's own risks section says 'Fixed costs (administrator, lease, insurance) run from day one'). Modeling it per_client means the 36-bed model at its ramp start of 4 residents charges only 4 x $643 = $2,572 rent instead of about $20,800, and the 6-bed at 2 residents charges $1,286 instead of $3,473. This materially overstates ramp-period and conservative-occupancy profit and pulls the generator's break-even month forward. The underlying HUD FY2027 SAFMR (ZIP 32825, 4BR $3,020) is verified; the per-occupied-resident basis is the error. Utilities ($150 per_client) have the same problem to a lesser degree (a building's base utility load does not fall with census).",
+      "source_url": "https://fairmarketrentmap.com/zip/32825",
+      "fix": "Change opex[0] to a fixed cost that scales with licensed capacity, not occupied residents: $3,473 / 6 = $578.83 per licensed bed per month (6-bed $3,473; 14-bed $8,104; 36-bed $20,838). If the generator only supports global fixed/per_client opex, add a per-configuration lease line (or a 'per_bed' basis) so each configuration carries its full rent at every census level. Consider splitting utilities into a fixed base (e.g., half) plus a per-resident portion, labeled operator estimate."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[0].revenue_lines[0].rate (also configurations[1..4] private-pay lines, rates[0])",
+      "current": 5500.0,
+      "correct": 5500.0,
+      "evidence": "CareScout's 2025 Florida release footnote 4: assisted living median $66,000 is 'Based on 12 months of care, private, one bedroom.' The figure is verified, but it measures a private one-bedroom in an assisted living community. The 6- and 14-bed configurations are residential homes where bedrooms are often shared; applying the private one-bedroom community median without a caveat can overstate small-home revenue. No public Florida small-home price source was found.",
+      "source_url": "https://www.businesswire.com/news/home/20260302523108/en/CareScout-Releases-2025-Cost-of-Care-Data-for-Florida",
+      "fix": "Keep $5,500 (sourced) but add to the 6- and 14-bed configuration notes and occupancy/financial_narrative: 'CareScout median is for a private one-bedroom unit in an assisted living community; shared-room rates in small residential homes are typically lower — price from local comparables.' Add a line to not_claimed: 'Florida small-home (6–14 bed) or shared-room private-pay rates — no public source.' Optionally show a sensitivity at a lower rate."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.startup_costs",
+      "current": null,
+      "correct": {"item": "Automated external defibrillator (required at 17+ licensed beds; 36-bed configurations only)", "low": 1200, "high": 2500, "source_id": "S24", "notes": "Price is an operator estimate; requirement is s. 429.255(3)(a), F.S."},
+      "evidence": "s. 429.255(3)(a), F.S.: 'An assisted living facility licensed under this part with 17 or more beds shall have on the premises at all times a functioning automated external defibrillator.' The checklist and operations section mention the AED, but no cost line exists for the 36-bed configurations. Spec rule 5 requires every mandatory cost the rules create.",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/429.255",
+      "fix": "Add an AED startup line (applies to 36-bed configurations), labeled operator estimate for price, cite s. 429.255(3)(a), source_id S24. Optionally add ~$10–20/month for pads/battery replacement."
+    },
+    {
+      "severity": "major",
+      "json_path": "sections.reimbursement (and sections.risks; sources S67)",
+      "current": "A UF Bureau of Economic and Business Research study reported by McKnight's found that about a quarter of Florida ALFs had reduced their Medicaid admissions, citing low payments and bureaucracy [S67].",
+      "correct": null,
+      "evidence": "S67 URL (mcknightsseniorliving.com/home/news/florida-assisted-living-communities-challenged-by-staffing-medicaid-study-confirms/) returns HTTP 404 on 2026-10-13. The underlying BEBR study page (bebr.ufl.edu) is dated March 2019 and its accessible text does not contain the 'about a quarter reduced Medicaid admissions' figure. Claim cannot be verified and, even if correct, is from 2019.",
+      "source_url": "https://bebr.ufl.edu/florida-assisted-living-facilities-cost-of-providing-care/",
+      "fix": "Unverifiable: remove the sentence from sections.reimbursement and the [S67] citation from sections.risks (keep [S56] there), delete S67 from sources or replace it with the BEBR URL only if the figure is confirmed in the full report (and label it 2019). Add to not_claimed: 'Share of Florida ALFs limiting Medicaid admissions — only source is a 2019 survey whose report link is dead.'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex (36-bed configurations alf36_lns_private, alf36_ecc_mixed)",
+      "current": "LNS/ECC specialty license fees noted as 'not included'",
+      "correct": {"LNS_monthly": 28.67, "ECC_monthly": 37.98},
+      "evidence": "AHCA Form 3110-1008 §2D: ECC '$10.15 per bed x total capacity + $546.07'; LNS '$10.15 per bed x total capacity + $322.77' (biennial). For 36 beds: LNS $688.17 / 24 = $28.67/month; ECC $911.47 / 24 = $37.98/month. These are mandatory for configurations that hold those licenses but are excluded from opex.",
+      "source_url": "https://ahca.myflorida.com/content/download/24119/file/Assisted_Living_Facility_Application_AHCA_Form_3110-1008_August2023.doc",
+      "fix": "Add configuration-specific opex: 'AHCA LNS biennial fee ÷ 24' = $28.67/month to alf36_lns_private and 'AHCA ECC biennial fee ÷ 24' = $37.98/month to alf36_ecc_mixed (source_id S2)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex[8].monthly",
+      "current": 3.1,
+      "correct": 2.79,
+      "evidence": "($64.96 per private-pay bed + $2.00 assessment) / 24 months = $2.79 per bed per month — the line's own note says 'about $2.79'. Form 3110-1008 confirms $64.96/bed and $2.00/bed. (Strictly, the fee is per licensed bed, not per occupied resident.)",
+      "source_url": "https://ahca.myflorida.com/content/download/24119/file/Assisted_Living_Facility_Application_AHCA_Form_3110-1008_August2023.doc",
+      "fix": "Set monthly to 2.79 and, ideally, apply it per licensed bed (capacity) rather than per occupied resident."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[3].staffing[0].notes (same text in configurations[4].staffing[0].notes)",
+      "current": "Rule minimum at 26–35 residents is 294 hrs/week, with at least one staff awake all night at 17+ residents.",
+      "correct": "Rule minimum is 294 hrs/week at 26–35 residents and 335 hrs/week at 36–45 residents (a full 36-bed census), with at least one staff awake all night at 17+ residents.",
+      "evidence": "Rule 59A-36.010(3)(a)1 table: '26-35 294; 36-45 335'. At full capacity (36) the minimum is 335, not 294. The modeled 392 aide hrs (+112 CNA hrs) still exceeds both, so compliance holds; the note is just incomplete.",
+      "source_url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-010",
+      "fix": "Replace the note text as shown in 'correct'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[2].staffing[1].cite",
+      "current": "Rule 59A-36.010(3)(a)9",
+      "correct": "Rule 59A-36.010(3)(a)7",
+      "evidence": "59A-36.010(3)(a)7: 'Staff whose duties are exclusively building or grounds maintenance, clerical, or food preparation do not count towards meeting the minimum staffing hours requirement.' Subparagraph 9 is 'Only on-the-job staff may be counted.'",
+      "source_url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-36-010",
+      "fix": "Change cite to 'Rule 59A-36.010(3)(a)7, F.A.C.'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.occupancy.default",
+      "current": 0.9,
+      "correct": 0.88,
+      "evidence": "The only cited figure is NIC MAP 2Q 2026 assisted living occupancy of 88.4% (31 primary markets). The default of 90% is above the sourced value; the rationale labels 90% an operator target, which is acceptable, but spec rule 1 prefers sourced inputs.",
+      "source_url": "https://www.nic.org/blog/senior-housing-occupancy-climbs-in-second-quarter-2026/",
+      "fix": "Either set default to 0.88 (rounded NIC figure) or keep 0.90 and state explicitly in rationale that it is 1.6 points above the sourced NIC figure (operator target)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.demand",
+      "current": "SMMC LTC plan case managers (for Medicaid enrollees; plans must honor reasonable facility choice) [S30]",
+      "correct": "SMMC LTC plan case managers (for Medicaid enrollees)",
+      "evidence": "Full text of s. 409.982, F.S. (2025) contains no provision about facility choice (no occurrence of 'choice'); it covers network standards and 'mutually acceptable rates, methods, and terms of payment.'",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/409.982",
+      "fix": "Unverifiable at S30: delete the parenthetical 'plans must honor reasonable facility choice' or cite the SMMC contract provision that actually says it."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.reimbursement",
+      "current": "GAO reports that state officials and national groups describe Medicaid assisted living rates as often about one-third of private-pay rates",
+      "correct": "GAO reports that officials from one state and representatives from one organization said Medicaid assisted living rates are often about one-third of private-pay rates",
+      "evidence": "GAO-26-107884: 'officials from one state and representatives from one organization said that Medicaid payment rates for assisted living services are often about one-third the amount paid by private payers.'",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107884/index.html",
+      "fix": "Reword to match GAO's attribution as shown."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.recommendations (item 3)",
+      "current": "Plan ECC for year 2, once the facility has 2 years of clean surveys [S1].",
+      "correct": "A new facility can apply for ECC before it has 2 years of history: it receives a provisional ECC license of up to 6 months, followed by an unannounced inspection [S1]. Many operators still wait until operations are stable.",
+      "evidence": "s. 429.07(3)(b)1–2, F.S.: eligibility looks at sanctions 'during the previous 2 years, or since initial licensure if the facility has been licensed for less than 2 years'; 'If an assisted living facility has been licensed for less than 2 years, the initial extended congregate care license must be provisional and may not exceed 6 months.' No 2-year waiting period exists.",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/429.07",
+      "fix": "Replace the sentence as shown so customers are not told ECC requires 2 years of clean surveys."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.financial_narrative",
+      "current": "Ramp-up starts at 2 residents and adds 1 per month. ... Owner as administrator. That removes about $5,800/month on a 6-bed home",
+      "correct": "Ramp-up starts at 2 residents and adds 1 per month (6-bed), 2 per month (14-bed) or starts at 4 and adds 3 per month (36-bed). ... removes about $6,830/month including payroll burden ($5,826 salary + 17.3% burden)",
+      "evidence": "configurations[2].ramp = {start 2, add 2}; configurations[3..4].ramp = {start 4, add 3}. Administrator $69,909/12 = $5,826 x 1.173 (8.3% tax + 4% WC + 5% benefits) = $6,834.",
+      "source_url": "https://www.bls.gov/oes/current/oes_fl.htm",
+      "fix": "Update both statements to match the model inputs."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[1].source_id",
+      "current": "S32",
+      "correct": "S35",
+      "evidence": "The choice counseling number 1-877-711-3662 appears on the 'Pick a Long-Term Care Plan' page (S35: 'Choice counselors are available by phone at 1-877-711-3662'), not on the LTC program page (S32).",
+      "source_url": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program/pick-a-long-term-care-plan.html",
+      "fix": "Change source_id to S35 (or add S35 alongside S32)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[2].url",
+      "current": "https://ahca.myflorida.com/medicaid/statewide-medicaid-managed-care/long-term-care-program.html",
+      "correct": "https://elderaffairs.org/",
+      "evidence": "The DOEA entry points to an AHCA page. The AHCA page does confirm DOEA 'is responsible for determining medical eligibility and level of care needed', but the regulator's own site is elderaffairs.org (HTTP 200).",
+      "source_url": "https://elderaffairs.org/",
+      "fix": "Set url to https://elderaffairs.org/ (keep S32 as the source for the role)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[11].as_of",
+      "current": "NCAL (secondary)",
+      "correct": "NCAL fact sheet; data from National Post-acute and Long-Term Care Study 2020 and state licensure website",
+      "evidence": "Figures 2,968 communities, 117,384 beds/units, 24% Medicaid, 70% women, 45% 85+, 47% dementia, 63% bathing all verified on the NCAL Florida sheet; its footnote lists 'National Post-acute and Long-Term Care Study (2020), State Licensure Website'. Spec rule 3 requires noting the effective date.",
+      "source_url": "https://www.ahcancal.org/Assisted-Living/Facts-and-Figures/Documents/State%20Facts/Florida-AL.pdf",
+      "fix": "Set as_of to reflect the 2020 data vintage as shown."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[4].rate (and revenue_lines OSS rate 991.4 in configurations[1], [4])",
+      "current": 991.4,
+      "correct": null,
+      "evidence": "Rule 65A-2.036(4)(a) text confirms $991.40 (and PNA $160, income standard $1,045.40), but 65A-2.036(7) says base provider rates 'shall be increased by the annual cost-of-living adjustment to the federal benefit rate' (2026 SSI FBR rose from $967 to $994). No DCF publication of a 2026 OSS rate was found, so the 2026 figure cannot be confirmed either way. Already disclosed in not_claimed.",
+      "source_url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-65A-2-036",
+      "fix": "Unverifiable for 2026: keep $991.40 as the last published rule value, keep the not_claimed entry, and set rates[4].effective note to 'rule value eff. 6/24/2025; 2026 COLA adjustment under 65A-2.036(7) not published'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[2].source_id",
+      "current": null,
+      "correct": "add source: IRS 'Get an employer identification number' https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "evidence": "Checklist item states EIN is free and issued online the same day with cite 'IRC §6109' but no source_id. Spec rule 1: every claim traces to sources[]. (Items 5, 53, 57 also have no source_id but contain no numbers.)",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "fix": "Add the IRS EIN page to sources[] and set checklist[2].source_id to it."
+    }
+  ]
+}

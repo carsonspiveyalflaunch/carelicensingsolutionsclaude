@@ -1,0 +1,246 @@
+{
+  "bundle_slug": "texas-home-health-agencies-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "All core payment inputs checked out against the primary CMS, BLS, TWC, IRS, TMHP, MedPAC, KFF and TAC sources: the CY 2026 national period ($2,038.22 / $1,998.41), 74.9% labor share, the Texas CBSA wage indexes (Houston 0.9729 etc., checked in the CMS file), LUPA per-visit amounts, the 7% LUPA share, $750 enrollment fee, $2,625 HCSSA fees, TMHP G0299/G0300 $98.92, every O*NET/OEWS 2025 wage, the 10/7-patient SOM rule, §489.28 50% non-borrowed, and the 26 TAC 558 / 42 CFR 484 requirements. The P&L arithmetic reproduces the narrative (hha100 about 7.5% margin, hha50_ffs break-even). Main problems: (1) the checklist and recommendations tell applicants to request only the LHHS category, but §558.13(d) requires requesting the licensed-and-certified category up front to get the interim license and automatic upgrade; (2) the default config's profit depends on an unsourced MA proxy ($173.37/visit; it breaks even at about $141); (3) the mandatory HHCAHPS vendor cost is missing; (4) hours per visit are unsourced and lean; (5) leadership salaries are statewide while revenue and field wages are Houston; plus minor citation and source_id fixes.",
+  "verified_count": 104,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "checklist[6].instructions",
+      "current": "For a Medicare-track skilled agency, request licensed home health services now and add licensed and certified home health services after CMS certification.",
+      "correct": "On the initial TULIP application request the 'licensed and certified home health services' category; HHSC issues an interim license showing 'licensed home health services' while CMS certification is pending and adds the certified category automatically when CMS certifies.",
+      "evidence": "26 TAC §558.13(d): 'An applicant who has requested the category of licensed and certified home health services on the initial license application must also apply to CMS... (1) While the applicant is waiting for CMS to certify it... HHSC issues an initial license reflecting the category of licensed home health services... (2) If CMS certifies an agency... HHSC sends a notice to the agency that the category of licensed and certified home health services has been added.' The automatic add only applies to applicants who requested the L&C category initially; the checklist tells customers to request LHHS only.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-13",
+      "fix": "Replace instructions with: 'For a Medicare-track agency, request the licensed and certified home health services category on the initial application. HHSC issues the license with the licensed home health services category while you wait for CMS, you must follow 42 CFR Part 484 as if certified, and HHSC adds the certified category when CMS certifies you (26 TAC §558.13(d)). Add PAS only if you will provide attendant care.'"
+    },
+    {
+      "severity": "major",
+      "json_path": "sections.recommendations",
+      "current": "1. **Apply for the licensed home health category with a plan to add the certified category** [S3].",
+      "correct": "1. **Request the licensed and certified home health services category on the initial application**; HHSC issues an interim licensed home health license until CMS certifies you [S3].",
+      "evidence": "Same as checklist[6]: 26 TAC §558.13(d) ties the interim LHHS license and automatic addition of the certified category to having requested the L&C category on the initial application.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-13",
+      "fix": "Reword recommendation 1 as shown in 'correct'; also align sections.executive_summary/service_model wording ('A skilled home health agency picks one of two categories')."
+    },
+    {
+      "severity": "critical",
+      "json_path": "financial_model.configurations[*].revenue_lines[2].rate (Medicare Advantage proxy, all 4 HHA configurations)",
+      "current": 173.37,
+      "correct": null,
+      "evidence": "No published source exists for Texas MA home health rates (the bundle itself lists MA rates in not_claimed). The $173.37 is the Houston-adjusted Medicare FFS LUPA skilled-nursing per-visit amount (CR 14304 Table 3: SN $176.96 national) applied to all 7.5 MA visits of every discipline, including aide visits that Medicare itself pays at $80.12. AJMC (S56) says only that MA payment is 'typically less' than traditional Medicare and gives no rate. MA is ~40% of revenue in the default configuration: recomputing hha100_mixed at 90% census gives revenue $131,374 vs cost $121,500 (net $9,875, 7.5%); net falls to zero if the MA rate is $140.85/visit or lower (9,875 / (90 x 0.45 x 7.5) = $32.51 below $173.37). Profitability of the lead configuration depends on this unsourced number.",
+      "source_url": "https://www.ajmc.com/view/medicare-advantage-reimbursement-structures-impact-home-health-delivery-and-outcomes",
+      "fix": "Unverifiable. Keep the rate only as an explicitly labeled assumption (not source S18, which supports the FFS per-visit amount, not MA payment), or move it to not_claimed. Add a downside configuration with MA at a lower assumed rate (e.g. 80% of $173.37 = $138.70) and state in financial_narrative that hha100_mixed breaks even at about $141 per MA visit."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.opex",
+      "current": "No HHCAHPS survey vendor line",
+      "correct": "Add opex line 'HHCAHPS approved survey vendor (mandatory for Medicare-certified HHAs with 60+ eligible patients/yr)', basis fixed, amount from vendor quote",
+      "evidence": "42 CFR §484.245(b)(1)(iii)(B): 'An HHA must contract with an approved, independent HHCAHPS survey vendor to administer the HHCAHPS on its behalf.' Only HHAs with fewer than 60 eligible unique HHCAHPS patients can claim an exemption. At 25-100 active patients the agency exceeds 60 unique patients a year. Failing to report HH QRP data costs a 2-point lower update (CY 2026 $1,998.41 vs $2,038.22, CR 14304). SCHEMA rule 5 requires every mandatory cost the rules create.",
+      "source_url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-E/section-484.245",
+      "fix": "Add the opex line with cite '42 CFR §484.245(b)' and a source_id for the regulation. The dollar amount is unverifiable (vendor pricing is not public), so label it an operator estimate pending quotes, and add a checklist item in the Medicare phase: 'Contract an approved HHCAHPS vendor before the first Medicare patient.'"
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[*].staffing[0..7].amount (field visit hours per patient-month)",
+      "current": "RN 3.2, LVN 3.0, PT 2.0, PTA 1.5, OT 1.0, SLP 0.25, aide 0.5, MSW 0.15 h (11.6 h total)",
+      "correct": null,
+      "evidence": "Visit counts trace to MedPAC Table 8-4 (8.4 visits: SN 4.1, therapy 3.8, aide/MSS 0.5; verified), but the 1.25-1.5 hours per visit 'including documentation and drive' has no source_id. The result is burdened field labor of about $576 per patient-month, about $69 per visit. That is lean next to MedPAC's implied all-in cost per visit (2024 payment $245/visit at a 21.2% margin, so about $193). The 1.5 h figure also covers OASIS start-of-care and recert visits, which run longer. Hours have no paid non-productive time (orientation, case conferences, PTO) beyond the 10% benefits estimate.",
+      "source_url": "https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_Ch8_MedPAC_Report_To_Congress_SEC.pdf",
+      "fix": "Unverifiable. Label hours-per-visit as an operator assumption in each staffing note, or source it. Consider a sensitivity case at 2.0 h per visit; at 90 patients that adds about $17k/month of burdened labor and makes hha100_mixed unprofitable."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[*].staffing[Administrator].amount",
+      "current": 114150,
+      "correct": 124400,
+      "evidence": "The model prices Houston revenue (CBSA 26420 wage index) and Houston field wages, but uses the Texas statewide median for the administrator. BLS OEWS 2025 Medical and Health Services Managers (11-9111): Texas median $114,150 but Houston-Pasadena-The Woodlands median $124,400 (O*NET local wages page). The supervising nurse similarly uses the statewide RN 75th percentile ($50.53) while field RNs use the Houston median.",
+      "source_url": "https://www.onetonline.org/link/localwages/11-9111.00?st=TX",
+      "fix": "Either use Houston wages consistently (administrator $124,400; check the Houston RN 75th percentile for the DON) or state that leadership salaries are statewide medians. At $124,400 the hha100_mixed net margin drops by about $1,030/month (10,250 x 1.205 / 12)."
+    },
+    {
+      "severity": "major",
+      "json_path": "key_numbers[1].value",
+      "current": "Up to 45 days",
+      "correct": "Up to 45 days to determine the application is complete, then up to 45 days to issue the license (26 TAC §558.31)",
+      "evidence": "26 TAC §558.31(b): first time frame (submission to completeness determination) 'is no longer than 45 days'; second time frame (complete to license issued) 'is no longer than 45 days'. The total from submission can be up to 90 days, plus the applicant's time to cure deficiencies.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-31",
+      "fix": "Change value as shown, add a source for §558.31, and update checklist[33] and sections.licensing_pathway/executive_summary ('issued within 45 days') to match."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[13].instructions",
+      "current": "12 clock hours in each 12-month period from the designation date, with at least 2 hours on listed topics.",
+      "correct": "12 clock hours in each 12-month period from the designation date, covering at least two of the listed topics.",
+      "evidence": "26 TAC §558.260(a): 'The 12 clock hours of continuing education must include at least two of the following topics.' The rule says two topics, not two hours.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-260",
+      "fix": "Reword as shown."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[34].cite",
+      "current": "39 TexReg (Sept. 18, 2026) proposed 26 TAC Ch. 558",
+      "correct": "51 TexReg (Sept. 18, 2026) proposed 26 TAC Ch. 558",
+      "evidence": "Texas Register volumes run by year: the §558.3 history notes cite 'Texas Register, Volume 46... April 9, 2021', so 2026 is Volume 51. Volume 39 was 2014.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-3",
+      "fix": "Change the cite to 51 TexReg."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.service_model (Pending change bullet)",
+      "current": "...set 24 hours of initial administrator training...",
+      "correct": "...apply the existing 24-hour initial administrator training to all newly designated administrators and define the completion timeframe...",
+      "evidence": "The proposal says the §558.259 amendment 'clarifies that the section applies to all newly designated administrators... outlines the timeframe to complete the 24 hours'. The 24 hours already exist in the current rule. The proposal would also raise the initial ADS change-of-ownership license fee from $1,000 to $1,500.",
+      "source_url": "https://www.sos.state.tx.us/texreg/archive/September182026/Proposed%20Rules/26.HEALTH%20AND%20HUMAN%20SERVICES.html",
+      "fix": "Reword; optionally add the ADS CHOW fee change to checklist[31] as a pending item."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S18].title",
+      "current": "CMS Change Request 13488 — Home Health PPS CY 2026 Rate Update (Tables 1–5)",
+      "correct": "CMS Transmittal 13488 (Change Request 14304) — Home Health PPS CY 2026 Rate Update",
+      "evidence": "The PDF is Transmittal 13488, CR 14304, issued Nov. 20, 2025 (re-communicated Dec. 10, 2025). Its values are verified: $2,038.22 / $1,998.41, labor share 74.9%, per-visit SN $176.96, PT $193.42, OT $194.74, SLP $210.25, HHA $80.12, MSS $283.64.",
+      "source_url": "https://www.cms.gov/files/document/R13488CP.pdf",
+      "fix": "Fix the title."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S16].title",
+      "current": "HCSSA Presurvey Computer-Based Training, Module 6 (Medicare certification surveys)",
+      "correct": "HCSSA Presurvey Computer-Based Training, Module 6: Hospice Services (Important Note on initial Medicare certification surveys)",
+      "evidence": "The page heading is 'HCSSA Pre-Survey CBT Module 6: Hospice Services'. The quoted note ('HHSC is currently not conducting initial Medicare certification surveys unless CMS agrees...'; AO may not survey until the MAC 'has made a recommendation for approval') is on that page, so the claim itself is verified.",
+      "source_url": "https://apps.hhs.texas.gov/providers/hcssa/cbt/module6/HCSSA_PresurveyCBT_Module_6_0603202170.html",
+      "fix": "Fix the title."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S38].title",
+      "current": "Home Health Aides (31-1121) — Texas wages, BLS OEWS 2025 (TX median $11.65; 75th pct $13.23)",
+      "correct": "Home Health and Personal Care Aides (31-1120) — Texas wages, BLS OEWS 2025 (TX median $11.65; 75th pct $13.23)",
+      "evidence": "The O*NET page says the wage data was 'collected from Home Health and Personal Care Aides' (combined OEWS code). The figures $11.65 and $13.23 are verified, but the combined code is mostly PCAs, so it may understate pay for Medicare-trained HHA aides.",
+      "source_url": "https://www.onetonline.org/link/localwages/31-1121.00?st=TX",
+      "fix": "Fix the label and mention the combined occupation in the aide staffing notes."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[10].source_id",
+      "current": "S36",
+      "correct": "S36; S37; S38",
+      "evidence": "The row gives RN $46.14 (S36), LVN $29.92 (S37) and aide $11.65 (S38). All are verified on O*NET 2025 wage pages, but only S36 is cited.",
+      "source_url": "https://www.onetonline.org/link/localwages/29-2061.00?st=TX",
+      "fix": "Cite all three sources, or split into three rows."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.occupancy.source_id",
+      "current": "S22",
+      "correct": null,
+      "evidence": "The rationale says 90% occupancy is 'a modeling convention, not a sourced statistic'. S22 (MedPAC) supports only the 7% LUPA share. Attaching S22 suggests MedPAC is the source for occupancy.",
+      "source_url": "https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_Ch8_MedPAC_Report_To_Congress_SEC.pdf",
+      "fix": "Keep S22 only for the LUPA statement, mark default/conservative/optimistic occupancy as an operator assumption, and list it in not_claimed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[26].source_id / checklist[27].source_id / checklist[29].source_id",
+      "current": "S3",
+      "correct": null,
+      "evidence": "S3 is 26 TAC §558.13 (initial license categories) only. It does not contain §558.256 (emergency preparedness), §§558.249-558.250 (abuse/neglect reporting) or §§558.254-558.255 (billing, solicitation).",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-13",
+      "fix": "Add sources for 26 TAC §558.256, §§558.249-.250 and §§558.254-.255 (Cornell LII URLs of the same pattern) and re-point source_id. Add 42 CFR §484.102 for item 26."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[1].source_id",
+      "current": "S51",
+      "correct": null,
+      "evidence": "S51 (IRS Topic 751, Social Security and Medicare withholding rates) says nothing about obtaining an EIN.",
+      "source_url": "https://www.irs.gov/taxtopics/tc751",
+      "fix": "Add an IRS EIN source (irs.gov 'Apply for an EIN online') or drop the source_id."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[48].source_id",
+      "current": "S3",
+      "correct": "S25",
+      "evidence": "The claim 'the effective date can't be earlier than the date all federal requirements are met' (42 CFR §489.13) is in SOM Ch. 2 §2008D (S25), not in 26 TAC §558.13 (S3).",
+      "source_url": "https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/som107c02.pdf",
+      "fix": "Use source_id S25 for the effective-date sentence and keep S3 for the HHSC category notice."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.reimbursement (THSteps PCS range)",
+      "current": "THSteps children's PCS (T1019) is $4.37–$4.57 per 15 minutes [S31].",
+      "correct": "THSteps children's PCS (T1019) is $4.26–$4.57 per 15 minutes [S31].",
+      "evidence": "The TMHP HHA fee schedule PDF lists T1019 U6 $4.46, U7 $4.26, U9 $4.57, UA $4.57, UB $4.37, UD $4.46, all effective 9/1/2025. The rates[9] value (U6 $4.46) is verified.",
+      "source_url": "https://public.tmhp.com/FeeSchedules/StaticFeeSchedule/FeeSchedules.aspx?fn=%5c%5ctmhp.net%5cFeeSchedule%5cPROD%5cStatic%5cTexas_Medicaid_Fee_Schedule_PRCR408C.pdf",
+      "fix": "Fix the range."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[10].notes / financial_model.configurations[4].staffing[0].notes",
+      "current": "Built on a $13.00 average attendant wage",
+      "correct": "Built on a $13.00 attendant base wage (GAA Rider 23) and 14% payroll taxes and benefits",
+      "evidence": "HHSC rate hearing summary: the Legislature funded Rider 23 'to increase the base wage for attendants from $10.60/hr to $13/hr, increase the payroll costs, taxes, and benefits percentage to... 14% for services provided in non-facility settings, and increase the associated administrative rate by $0.24 per hour.' $13 x 1.14 / 4 = $3.71 attendant component, which matches the stated rate build. Calling $13 an 'average' wage understates that it is the funded base wage that drives the attendant workforce floor.",
+      "source_url": "https://tahp.org/wp-content/uploads/2025/07/2025.7.16_Rate-Hearing_Attendant-Services-in-CLASS-CFC-DAHS-DBMD-Primary-Home-Care-Community-Attendant-Services-and-More-Effective-9_1_25.pdf",
+      "fix": "Say 'base wage' and add the TAHP/HHSC hearing summary as a source. Note in the PAS config that $13.00 is the floor the rate is built on, not merely well above $7.25."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[11].rate / rates[12].rate (STAR+PLUS S9123 U3 $43.39/h, S9124 U3 $29.69/h; UA $49.90/$34.14) and rates[10] $4.40",
+      "current": [
+        43.39,
+        29.69,
+        4.4
+      ],
+      "correct": null,
+      "evidence": "The HHSC PFD PDF (S32) returns HTTP 403 (Akamai bot block), so these could not be read directly. $4.40 matches the rate build ($13 x 1.14 / 4 = $3.71 + $0.69). S9123/S9124 could not be checked.",
+      "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-star-plus-rates.pdf",
+      "fix": "Unverifiable by this check. Re-confirm S9123/S9124 manually in a browser before publishing."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex (items without source_id) and payroll_burden.workers_comp_pct / benefits_pct",
+      "current": "EMR $1,200; liability insurance $1,000; accounting/legal $1,500; marketing $1,000; utilities $500; accreditation $400; training $250; supplies $250; background checks $150; medical supplies $35/patient; WC 2%; benefits 10%",
+      "correct": null,
+      "evidence": "SCHEMA rule 1 requires a source_id on every number. These are labeled operator estimates with no source. No public source was found for HHA EMR pricing, accreditation fees or Texas HHA workers' comp rates.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-3",
+      "fix": "Unverifiable. Keep them visibly labeled as operator estimates (as now) and add a not_claimed line saying overhead opex, WC and benefits percentages are operator estimates. The PAS-only config should not carry the $400/month accreditation line, since PAS licensure doesn't require accreditation."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.startup_costs (items without source_id)",
+      "current": "Administrator training $0–1,500; P&P manual $3,000–12,000; accreditation survey $8,000–20,000; furniture $8,000–15,000; EMR setup $2,000–6,000; insurance deposits $3,000–6,000; launch marketing $3,000–8,000; reserve $100,000–200,000 (S23 gives the method, not the amount)",
+      "correct": null,
+      "evidence": "42 CFR §489.28(b)-(c) sets the reserve as comparable HHAs' first-year cost per visit x projected 3-month visits, with a floor of 22.5% of the comparison HHAs' average annual visits. It gives no dollar figure, so the $100k-$200k range is an estimate (correctly flagged in not_claimed). The other items have no source.",
+      "source_url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-489/subpart-A/section-489.28",
+      "fix": "Unverifiable. Keep them labeled as estimates. In the reserve row's notes, add the §489.28(b) floor: 'the greater of projected 3-month visits or 22.5% of comparison HHAs' average annual visits'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.executive_summary",
+      "current": "Medicare Advantage plans and Medicaid managed care plans contract almost exclusively with certified agencies.",
+      "correct": null,
+      "evidence": "No source is cited. For Texas Medicaid MCOs, 1 TAC §354.1033(a)(1)-(2) does require Medicare certification and the L&C category for Medicaid home health. No source was found for MA plan contracting practice.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-354-1033",
+      "fix": "Cite S30 for the Medicaid half. Make the MA half 'MA plans generally require Medicare certification (verify plan credentialing criteria)' or move it to not_claimed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulations[1].url / regulations[8].url / sources[S30].url",
+      "current": "https://regulations.justia.com/states/texas/... (26 TAC Ch. 558; 1 TAC §354.1033)",
+      "correct": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-354-1033 (and Cornell / SOS TAC viewer for Ch. 558)",
+      "evidence": "The Justia URLs return HTTP 403 to automated fetches. The Cornell LII copy of 1 TAC §354.1033 loads and contains the claim: '(a)(1) be certified for participation as a home health agency in the Medicare program; (2) ... holding a valid state license ... with the category of service of licensed and certified home health services'.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-354-1033",
+      "fix": "Switch to the Cornell URLs to match the other TAC sources."
+    },
+    {
+      "severity": "minor",
+      "json_path": "contacts[2].contact / regulators[0].source_id",
+      "current": "hhs.texas.gov/node/594 (regional directory); phone 512-438-2630 cited to S15",
+      "correct": null,
+      "evidence": "hhs.texas.gov returns HTTP 403 to automated fetches, so node/594 and node/2702 could not be checked. A web search ties 512-438-2630 to hhs.texas.gov/node/2724 (S1), not node/2702 (S15).",
+      "source_url": "https://hhs.texas.gov/node/2724",
+      "fix": "Unverifiable by this check. Re-confirm the phone and regional-office link in a browser. Consider re-pointing regulators[0].source_id to S1."
+    }
+  ]
+}
