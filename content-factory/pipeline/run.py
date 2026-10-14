@@ -189,11 +189,11 @@ def _repair(t: str) -> str:
 def call_json(slug, stage, model, system, user, tools=None, max_tokens=16000):
     """call() + parse_json(), retrying once if the model returns malformed JSON."""
     try:
-        return call_json(slug, stage, model, system, user, tools=tools, max_tokens=max_tokens)
+        return parse_json(call(slug, stage, model, system, user, tools=tools, max_tokens=max_tokens))
     except (ValueError, json.JSONDecodeError) as e:
         log({"slug": slug, "stage": stage, "retry": f"bad JSON: {str(e)[:120]}"})
-        return call_json(slug, stage + ":retry", model, system, user + "\n\nReturn strictly valid JSON "
-                               "(escape quotes inside strings).", tools=tools, max_tokens=max_tokens)
+        return parse_json(call(slug, stage + ":retry", model, system, user + "\n\nReturn strictly valid JSON "
+                               "(escape quotes inside strings).", tools=tools, max_tokens=max_tokens))
 
 
 # ---------------------------------------------------------------- shared context
