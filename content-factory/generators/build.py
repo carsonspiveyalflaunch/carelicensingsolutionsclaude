@@ -23,6 +23,18 @@ def names(d: dict) -> dict:
     }
 
 
+def store_values(xlsx: Path) -> None:
+    """Open and re-save the workbook in LibreOffice so calculated values are stored in the file.
+    Viewers that don't calculate formulas (Drive preview, phones, email) then show real numbers."""
+    import shutil
+    import subprocess
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        subprocess.run(["soffice", "--headless", "--calc", "--convert-to", "xlsx", "--outdir", tmp, str(xlsx)],
+                       check=True, capture_output=True, timeout=180)
+        shutil.move(str(Path(tmp) / xlsx.name), str(xlsx))
+
+
 def build(path: str) -> Path:
     from pnl import build_pnl
     d = json.load(open(path))
@@ -34,6 +46,8 @@ def build(path: str) -> Path:
     from report import build_report
     build_checklist(d, str(out / n["checklist"]))
     build_report(d, str(out / n["report"]))
+    store_values(out / n["pnl"])
+    store_values(out / n["checklist"])
     return out
 
 

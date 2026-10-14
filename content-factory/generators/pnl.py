@@ -86,7 +86,8 @@ def config_sheet(wb, d, cfg, cr, idx, sources):
     ramp = ramp_for(fm, cfg)
     pb = fm.get("payroll_burden", {})
     inputs = [
-        ("Capacity (" + fm.get("capacity_unit", "client") + "s)", cfg["capacity"], NUM, ""),
+        ("Capacity (" + fm.get("capacity_unit", "client") + "s)", cfg["capacity"], NUM,
+         "Staffing below is sized for this capacity. To change the number of residents, use the 'Scale It' tab."),
         ("Effective occupancy / billable share", occ["default"], PCT, occ.get("rationale", "")),
         ("Starting census (month 1)", ramp.get("start_clients", 1), NUM, ramp.get("note", "Ramp-up start")),
         ("Added per month during ramp-up", ramp.get("add_per_month", 1), NUM, "Ramp-up speed"),
@@ -255,6 +256,7 @@ def config_sheet(wb, d, cfg, cr, idx, sources):
     put(ws, f"B{r + 3}", f'=IF(B{r + 1}<=0,"Not reachable",B{r + 2}/B{r + 1})', fmt=NUM, bold=True, fill=TOTAL)
     put(ws, f"A{r + 4}", "Break-even occupancy")
     put(ws, f"B{r + 4}", f'=IF(B{r + 1}<=0,"Not reachable",B{r + 3}/{CAP})', fmt=PCT, bold=True, fill=TOTAL)
+    be = r
     r = r + 6
 
     # ---- Startup costs and cash needed
@@ -339,7 +341,9 @@ def config_sheet(wb, d, cfg, cr, idx, sources):
         "cash_needed": f"'{title}'!B{sum_row + 5}", "payback": f"'{title}'!B{sum_row + 6}",
         "sheet": title, "stab_rev": f"'{title}'!O{row_rev}", "stab_exp": f"'{title}'!O{row_exp}",
         "stab_net": f"'{title}'!O{row_net}", "stab_mgn": f"'{title}'!O{row_mgn}",
-        "y1_net": f"'{title}'!N{row_net}", "be_occ": f"'{title}'!B{r + 4}", "be_census": f"'{title}'!B{r + 3}",
+        "y1_net": f"'{title}'!N{row_net}", "be_occ": f"'{title}'!B{be + 4}", "be_census": f"'{title}'!B{be + 3}",
+        "contrib": f"'{title}'!B{be + 1}", "fixedc": f"'{title}'!B{be + 2}", "occ": f"'{title}'!{OCC.replace('$', '')}",
+        "startup": f"'{title}'!{SU.replace('$', '')}",
         "cap": f"'{title}'!{CAP.replace('$', '')}", "revpc": f"'{title}'!{REVPC.replace('$', '')}",
     }
 
@@ -416,6 +420,79 @@ def build_pnl(d: dict, path: str) -> list:
     ws.merge_cells(f"A{msg_row}:M{msg_row}")
     ws.row_dimensions[msg_row].height = 32
 
+    # ---- Scale It: enter a resident count, pick a model, see the result
+    sc = wb.create_sheet("Scale It", 1)
+    sc.sheet_view.showGridLines = False
+    unit = fm.get("capacity_unit", "client")
+    sc.column_dimensions["A"].width = 44
+    for col in range(2, 12):
+        sc.column_dimensions[L(col)].width = 15
+    put(sc, "A1", f"Scale It — how many {unit}s do you want to serve?", bold=True, size=14, color=GREEN)
+    put(sc, "A2", (f"Type the number of {unit}s and pick an operating model. The model is treated as one licensed "
+                   "unit (home, facility or agency team). Above its capacity another unit is added with its own "
+                   "staffing and fixed costs, which is how operators grow under the state's rules."),
+        italic=True, wrap=True)
+    sc.merge_cells("A2:H2")
+    sc.row_dimensions[2].height = 44
+    put(sc, "A19", "MODELS AVAILABLE (pulled live from the P&L tabs — edit inputs there)", bold=True, fill=SECTION)
+    header_row(sc, 20, ["Operating model", "Capacity per unit", f"Revenue / {unit} / mo",
+                        f"Contribution / billable {unit}", "Fixed costs / unit / mo", "Occupancy",
+                        "Startup costs / unit"])
+    for i, (cr, ref) in enumerate(refs):
+        row = 21 + i
+        put(sc, f"A{row}", cr.label, wrap=True)
+        put(sc, f"B{row}", f"={ref['cap']}", fmt="#,##0")
+        put(sc, f"C{row}", f"={ref['revpc']}", fmt=USD)
+        put(sc, f"D{row}", f"={ref['contrib']}", fmt=USD)
+        put(sc, f"E{row}", f"={ref['fixedc']}", fmt=USD)
+        put(sc, f"F{row}", f"={ref['occ']}", fmt=PCT)
+        put(sc, f"G{row}", f"={ref['startup']}", fmt=USD)
+    t1, t2 = 21, 20 + len(refs)
+    put(sc, "A4", "INPUTS", bold=True, fill=SECTION)
+    put(sc, "A5", f"Number of {unit}s you want to serve")
+    put(sc, "B5", float(max(1, round(ordered[0].capacity))), fmt="#,##0", fill=INPUT, bold=True)
+    put(sc, "A6", "Operating model")
+    put(sc, "B6", ordered[0].label, fill=INPUT, bold=True)
+    sc.merge_cells("B6:H6")
+    dv = DataValidation(type="list", formula1=f"=$A${t1}:$A${t2}", allow_blank=False)
+    sc.add_data_validation(dv)
+    dv.add("B6")
+    m = f"MATCH($B$6,$A${t1}:$A${t2},0)"
+    put(sc, "A7", "Occupancy (model default; you can type over it)")
+    put(sc, "B7", f"=INDEX($F${t1}:$F${t2},{m})", fmt=PCT, fill=INPUT)
+    put(sc, "A9", "RESULTS (stabilized month)", bold=True, fill=SECTION)
+    rows = [
+        ("Units needed", f"=ROUNDUP($B$5/INDEX($B${t1}:$B${t2},{m}),0)", "#,##0"),
+        (f"Billable {unit}s", "=$B$5*$B$7", NUM),
+        ("Monthly revenue", f"=$B$11*INDEX($C${t1}:$C${t2},{m})", USD),
+        ("Monthly expenses", "=$B$12-$B$14", USD),
+        ("MONTHLY NET INCOME", f"=$B$11*INDEX($D${t1}:$D${t2},{m})-$B$10*INDEX($E${t1}:$E${t2},{m})", USD),
+        ("Net margin", "=IF($B$12=0,0,$B$14/$B$12)", PCT),
+        ("Annual net income", "=$B$14*12", USD),
+        ("One-time startup costs (all units)", f"=$B$10*INDEX($G${t1}:$G${t2},{m})", USD),
+    ]
+    for i, (lab, fml, fmt) in enumerate(rows):
+        put(sc, f"A{10 + i}", lab, bold=i == 4)
+        put(sc, f"B{10 + i}", fml, fmt=fmt, bold=True, fill=TOTAL)
+    st = t2 + 3
+    put(sc, f"A{st}", "NET INCOME AT DIFFERENT SIZES (selected model)", bold=True, fill=SECTION)
+    header_row(sc, st + 1, ["Units", f"{unit.title()}s", "Monthly revenue", "Monthly net", "Annual net",
+                            "Net margin"])
+    for k, units in enumerate((1, 2, 3, 4, 5, 10)):
+        row = st + 2 + k
+        put(sc, f"A{row}", units, fmt="0")
+        put(sc, f"B{row}", f"=A{row}*INDEX($B${t1}:$B${t2},{m})", fmt="#,##0")
+        put(sc, f"C{row}", f"=B{row}*$B$7*INDEX($C${t1}:$C${t2},{m})", fmt=USD)
+        put(sc, f"D{row}", f"=B{row}*$B$7*INDEX($D${t1}:$D${t2},{m})-A{row}*INDEX($E${t1}:$E${t2},{m})",
+            fmt=USD, bold=True)
+        put(sc, f"E{row}", f"=D{row}*12", fmt=USD)
+        put(sc, f"F{row}", f"=IF(C{row}=0,0,D{row}/C{row})", fmt=PCT)
+    put(sc, f"A{st + 9}", ("Each added unit carries its own staffing, rent and fixed costs, so this is conservative: "
+                           "operators often share an administrator or office across units, which raises margin."),
+        italic=True, wrap=True, color="595959")
+    sc.merge_cells(f"A{st + 9}:F{st + 9}")
+    sc.row_dimensions[st + 9].height = 30
+
     # ---- Rate matrix
     rm = wb.create_sheet("Rate Matrix")
     rm.sheet_view.showGridLines = False
@@ -444,6 +521,7 @@ def build_pnl(d: dict, path: str) -> list:
         ("", False, 10),
         ("HOW TO USE THIS WORKBOOK", True, 11),
         ("1. Start on 'Configurations'. It compares every operating model side by side, most profitable first.", False, 10),
+        ("   Use 'Scale It' to type in how many residents or clients you want and see the result instantly.", False, 10),
         ("2. Open a 'P&L' tab to see month-by-month Year 1 (with ramp-up) and the stabilized month.", False, 10),
         ("3. Change any yellow cell (rates, wages, hours, rent, occupancy, ramp). Every total recalculates.", False, 10),
         ("4. Watch 'Cumulative net income' — the month it turns positive is your payback point.", False, 10),
