@@ -1,0 +1,107 @@
+{
+  "bundle_slug": "new-jersey-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 32,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "revenue_lines.alr40_med30 / revenue_lines.alr40_med70 (and fees_and_timelines_in_checklist[i=1].instructions, rates[7].notes)",
+      "current": "Medicaid revenue is modeled at the $91.10 base per diem only. The checklist concludes the 30% and 70% Medicaid mixes lose money. The tier note says other tier thresholds were not verified.",
+      "correct": "P.L. 2023, c.80 adds a statutory tier per diem on top of the minimum for ALRs and CPCHs. At 15% to under 30% Medicaid the add-on is $10. At 30% to under 50% it is $15. At 50% to under 70% it is $30. At 70% or more it is $35. The census is the yearly average from paid claims, measured against total licensed beds. The DHS notice says the tier enhancements remain unchanged. The 10% mixes (below 15%) earn no add-on.",
+      "evidence": "Statute: \"those assisted living residences ... at least 30 percent but less than 50 percent ... $15 higher than the minimum per diem\"; \"at least 70 percent shall receive a per diem rate that is $35 higher\". DHS notice: \"The tiered rate enhancements based on Medicaid volume will remain unchanged.\"",
+      "source_url": "https://pub.njleg.state.nj.us/Bills/2022/PL23/80_.PDF",
+      "fix": "Add a tier add-on line to alr40_med30 and alr40_med70, or label the add-on explicitly as unmodeled upside. Because the census is measured against licensed beds, at under 100% occupancy a nominal 70% mix may land in the $30 tier. A nominal 30% mix may land in the $10 tier. Rework the 'lose money' statement in checklist item 1 for those two mixes. Confirm with DMAHS how the add-on stacks on the new $91.10 base."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role='Director of nursing / RN'] and the checklist item i=40 text 'RN and nursing minimums ... were not verified'",
+      "current": "RN modeled at 80 hrs/month (20 units), 173 hrs (40 units) and 260 hrs (60 units). Notes say nursing minimums were not verified, and no cost for continuous RN availability is modeled.",
+      "correct": "N.J.A.C. 8:36-8.2 requires at least one registered professional nurse available at all times. A 2004 ASPE summary says an RN must be on staff or on call 24 hours a day, and that each resident gets an RN assessment and care plan. The 80-hour RN line has no on-call, relief or contract RN cost covering the other hours.",
+      "evidence": "\"A facility shall have at least one registered professional nurse available at all times.\" (N.J.A.C. 8:36-8.2)",
+      "source_url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-8-2",
+      "fix": "Cite 8:36-8.2 and replace the 'not verified' note. Add a 24/7 RN availability cost (on-call stipend or contract RN) to the 20-unit model. Confirm with DOH what 'available' means for coverage and response time."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*.wage_hourly (all roles using S30)",
+      "current": "Statewide NJ home health aide wages are used: $21.43 (75th percentile), $17.83 (median) and $16.67 (25th percentile). The lease benchmark, though, is the Newark HMFA (Essex, Morris, Sussex, Union).",
+      "correct": "The statewide percentiles match O*NET (BLS 2025 data). The same source's New York-Newark-Jersey City metro figures are $18.60 (25th percentile), $19.08 (median) and $21.05 (75th percentile). A Newark-area site would therefore pay higher median and 25th-percentile wages than modeled. The 'additional employee' at $17.83 and housekeeping at $16.67 sit below the local 25th percentile of $18.60.",
+      "evidence": "O*NET NJ row: 15.49 / 16.67 / 17.83 / 21.43 / 23.16. NY-Newark-Jersey City row: 17.77 / 18.60 / 19.08 / 21.05 / 22.39.",
+      "source_url": "https://www.onetonline.org/link/localwagestable/31-1121.00/LocalWages_31-1121.00_NJ.csv?fmt=csv&st=NJ",
+      "fix": "Either use metro-level OEWS wages for the Newark site, or drop the Newark rent benchmark and use statewide figures consistently. Re-cost the 24/7 additional-employee line (1,460 hrs/month across both floor roles) and the housekeeping line at the local wages. All modeled wages still clear the $15.92 minimum."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role in Cook, Housekeeping, Activities coordinator, Director of nursing/RN, Administrator]",
+      "current": "Cook, housekeeping and activities wages use the home health aide (SOC 31-1121) proxy. RN at $50/hr and administrator salaries of $75k/$90k/$100k have no source.",
+      "correct": "None of these roles is backed by a May 2025 OEWS figure for its own occupation. The sourced data covers only home health and personal care aides. O*NET lists the source as BLS 2025 wage data, accessed through a secondary site.",
+      "evidence": "The O*NET page covers only 'Home Health and Personal Care Aides'. The RN and administrator rows have wage_source_id ''.",
+      "source_url": "https://www.onetonline.org/link/localwages/31-1121.00?st=NJ",
+      "fix": "Replace each proxy with the NJ or metro OEWS May 2025 percentile for the matching SOC: cooks, janitors/maids, recreation workers, registered nurses, and medical and health services managers. Cite bls.gov directly. Until then, mark these wage lines 'unverifiable'."
+    },
+    {
+      "severity": "major",
+      "json_path": "startup_costs[item='Certificate of Need preparation'] and fees_and_timelines_in_checklist[i=12,14] ('fee ... unverified')",
+      "current": "CON filing fee is described as unconfirmed. The line is $15,000 to $40,000 for consultant, legal and application costs.",
+      "correct": "DOH's long-term-care full-review CON instructions (N.J.A.C. 8:33 Appendix B) set a filing fee of $7,500 for total project cost up to $1,000,000. Above $1,000,000 it is $7,500 plus 0.25% of total project cost. The fee must accompany the application. The 40-unit and 60-unit builds exceed $1M, so the fee is roughly $12,000 to $16,000 or more. Whether expedited review for new assisted living uses the same fee was not confirmed.",
+      "evidence": "\"$1,000,000 or Less $7,500; Greater Than $1,000,000 $7,500 + 0.25% of TPC\"; \"Failure to submit the appropriate fee at the time of filing will result in the application not being accepted\".",
+      "source_url": "https://www.nj.gov/health/legal/documents/notice-of-rule-proposal/njac833_appendix_b.pdf",
+      "fix": "Add a separate mandatory CON filing fee line. Use $7,500 plus 0.25% of total project cost above $1M as a placeholder. Confirm the expedited-review fee with CN&L at 609-292-6552. State clearly whether the $15k–$40k consultant range includes it."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0..2].rate and key_numbers 'Medicaid base per diem' (as_of)",
+      "current": "$91.10, $81.10 and $79.10, effective 2025-07-01 (SFY2026), presented as the operative base.",
+      "correct": "unverifiable. The DHS notice (July 16, 2025) covers only SFY2026. Today is Oct 14, 2026, so SFY2027 began on 7/1/2026. No SFY2027 ALR rate notice or fee schedule was checked.",
+      "evidence": "The notice refers to \"2026 New Fiscal Year Appropriations Act\" and a rate of \"no less than $91.10, $81.10, and $79.10\".",
+      "source_url": "https://www.nj.gov/humanservices/notices/documents/public-notices/Assisted%20Living%20rate%20change%20notice_RD%202026.pdf",
+      "fix": "Check njmmis.com 'rate and code information' and DMAHS legal notices for an SFY2027 ALR rate change. Re-date the rates and update the model if a new base applies. Otherwise label $91.10 as 'SFY2026, may be superseded'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[item='NJ LLC certificate of formation'] and fees_and_timelines_in_checklist[i=4]",
+      "current": "Low and high are $125. The text says the Treasury schedule lists $125 and a CPA guide reports $100 effective 7/1/2026.",
+      "correct": "The Treasury DORES fee schedule now shows $100 for an LLC certificate of formation.",
+      "evidence": "LLC Filing table: \"Certificate of formation $100.00\".",
+      "source_url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "fix": "Set low and high to 100. Rewrite checklist item 4 to say the Treasury schedule lists $100 and the CPA guide is consistent. Remove the 'conflict' wording."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.notes and fees_and_timelines_in_checklist[i=42]",
+      "current": "The new-employer UI rate is 'disputed (2.8% vs 2.6825%)'.",
+      "correct": "There is no dispute. The NJDOL Table C new-employer rate of 2.8% is 2.6825% UI plus 0.1175% Workforce Development/Supplemental Workforce Fund. The employer TDI rate of 0.5% for new employers and the $44,800 wage base are consistent with the sources. The FY2026-27 table (7/1/2026 to 6/30/2027) also shows 2.8%. Modeled payroll tax is 7.65% + 2.8% + 0.5% = 10.95%, rounded to 11%.",
+      "evidence": "NJDOL table: \"NEW EMPLOYER RATE 2.8% / 0.1175% / 0.0000% / 2.6825%\".",
+      "source_url": "https://www.nj.gov/labor/ea/assets/PDFs/FY20262027%20TABLE%20C.pdf",
+      "fix": "Replace 'disputed' with 'new-employer 2.8% combined = 2.6825% UI + 0.1175% WFD/SWF (NJDOL Table C FY2026-27)'. Cite the NJDOL table instead of the Monaco CPA guide."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[1].phone / regulators[2].phone / regulators[0]",
+      "current": "The DOH Survey and Field Operations entry lists (800) 792-9770 as its phone. The Administrator Certification entry has no phone. The CN&L phone is (609) 292-6552 'verify current'.",
+      "correct": "The CN&L Health Facilities number 609-292-6552 is confirmed. 800-792-9770 is the complaint and incident hotline, not a general survey line. Certified Assisted Living Administrators is 609-633-9706. CN&L Intake/Renewals is 609-376-7800 (cnandlicensingrequests@doh.nj.gov). The LTC complaint and surveillance line is 609-633-8991.",
+      "evidence": "DOH contact page: \"Certified Assisted Living Administrators (CALA): 609-633-9706\"; \"Certificate of Need & Licensing Health Facilities: 609-292-6552\".",
+      "source_url": "https://www.nj.gov/health/healthfacilities/contact.shtml",
+      "fix": "Remove 'verify current' from the CN&L phone. Label 800-792-9770 as the complaint hotline. Add 609-633-9706 for the CALA entry. Add 609-376-7800 and cnandlicensingrequests@doh.nj.gov for intake and renewals."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers['NJ minimum wage'] / checklist i=41",
+      "current": "$15.92 effective 1/1/2026. All wages are compared with this floor only.",
+      "correct": "unverifiable. The $15.92 rate is confirmed. N.J.A.C. 12:56-3.1(c) requires NJDOL to publish the next CPI-adjusted rate by about Sept 30 each year, so a 2027 rate should already be published. A facility paying wages after 1/1/2027 needs that floor.",
+      "evidence": "Notice: \"on or about September 30, the Department shall revise the minimum hourly wage rate\"; 2026 rate \"must be changed from $15.49 to $15.92\".",
+      "source_url": "https://www.nj.gov/labor/assets/PDFs/Legal%20Notices/Other/Public%20Notice%20Minimum%20Wage%202026_FINAL.pdf",
+      "fix": "Look up the NJDOL 2027 minimum wage notice (filed about 9/30/2026). Add a '2027 rate' line and re-check that housekeeping at $16.67 or the metro equivalent stays above it."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden (missing mandatory costs)",
+      "current": "Payroll burden is FICA, NJ UI and TDI, plus a 5% workers' compensation estimate and 7% benefits. No federal unemployment tax (FUTA) is listed. No entity-level tax is modeled.",
+      "correct": "unverifiable in this check. Federal FUTA (typically 0.6% on the first $7,000 per employee after the state credit) is a statutory employer cost and should be listed. If the LLC elects S-corp or corporate treatment, NJ entity-level taxes would also apply.",
+      "evidence": "No FUTA line appears in payroll_burden.notes.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/federal-unemployment-futa-tax",
+      "fix": "Add FUTA to the payroll burden or note it as included in the 7% benefits line. Have a CPA confirm the entity tax treatment."
+    }
+  ]
+}

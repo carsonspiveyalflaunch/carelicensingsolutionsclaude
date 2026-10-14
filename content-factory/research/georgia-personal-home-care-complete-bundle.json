@@ -1,0 +1,1918 @@
+{
+  "bundle_slug": "georgia-personal-home-care-complete-bundle",
+  "state": "Georgia",
+  "state_code": "GA",
+  "program": "Personal Home Care",
+  "state_program_name": "Private Home Care Provider (PHCP) license — Georgia DCH Healthcare Facility Regulation Division, Rule 111-8-65 (nursing, personal care and companion/sitter services); Medicaid personal support through the Elderly and Disabled Waiver (CCSP/SOURCE), ICWP and NOW/COMP community living supports",
+  "as_of": "2026-10",
+  "report_title": "Georgia Private Home Care Provider (PHCP) — Personal Home Care Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Ga. Comp. R. & Regs. Subject 111-8-65, Rules for Private Home Care Providers",
+      "publisher": "Georgia Secretary of State, Rules and Regulations",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "Private Home Care Program",
+      "publisher": "Georgia DCH, Healthcare Facility Regulation Division",
+      "url": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/private-home-care-program",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "Rule 111-8-65-.06 Applications (Cornell LII mirror)",
+      "publisher": "Cornell LII (Ga. Comp. R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.06",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "Rule 111-8-65-.09 Administration and Organization (Cornell LII mirror)",
+      "publisher": "Cornell LII (Ga. Comp. R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.09",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "Rule 111-8-65-.10 Private Home Care Provider Services (Cornell LII mirror)",
+      "publisher": "Cornell LII (Ga. Comp. R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.10",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "Home Health Agency Application Checklist (application processing fee)",
+      "publisher": "Georgia DCH",
+      "url": "https://dch.georgia.gov/document/document/home-health-agency-application-packet-app-changes-providers-current-permits/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "PHCP Initial Licensure Packet (2016)",
+      "publisher": "Georgia DCH",
+      "url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/PHCP-InitialLicensurePacket-3-21-16-2-EDIT.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "208 In-Home Services, HCBS 5300 Manual",
+      "publisher": "Georgia DHS, Division of Aging Services (PAMMS)",
+      "url": "https://pamms.dhs.ga.gov/das/hcbs-5300-manual/208/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "Public Hearing for 111-8-65 Private Home Care Providers Rules (June 16, 2026)",
+      "publisher": "Georgia DCH",
+      "url": "https://dch.georgia.gov/events/2026-06-16/public-hearing-111-8-65-private-home-care-providers-rules",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "Public Notices (111-8-65 Final Adoption, 07/14/26)",
+      "publisher": "Georgia DCH",
+      "url": "https://dch.georgia.gov/meetings-notices/public-notices",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "Synopsis of Proposed Rule Changes — Revise 111-8-65-.03 (HB 183)",
+      "publisher": "Georgia DCH",
+      "url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/Attachments%20Public%20Notice%20PHCP%20Rule%201716%20Revised.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "GA Elderly and Disabled Waiver (0112.R08.00)",
+      "publisher": "CMS Medicaid.gov",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/81411",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "Georgia Electronic Visit Verification (EVV)",
+      "publisher": "Georgia Medicaid (DCH)",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Waiver Programs (CCSP/SOURCE)",
+      "publisher": "Georgia DCH, Medical Assistance Plans",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/waiver-programs",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "Apply for Elderly and Disabled Waiver Program",
+      "publisher": "Georgia.gov",
+      "url": "https://georgia.gov/apply-elderly-and-disabled-waiver-program",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "Programs and Services",
+      "publisher": "Georgia DHS, Division of Aging Services",
+      "url": "https://aging.georgia.gov/programs-and-services",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "Cost of Care Survey 2025 — Median Cost Data Tables",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "Long-Term Care Costs Increase in Georgia (2024 survey)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/992/long-term-care-costs-increase-in-georgia-remain-lower-than",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "Provider Enrollment Application Fee Amount for CY 2026",
+      "publisher": "Federal Register (CMS)",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Home Health and Personal Care Aides, Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Nursing Assistants and Orderlies, Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Wages of Direct Care Workers Continue to Be Lower in Most States",
+      "publisher": "HHS ASPE",
+      "url": "https://aspe.hhs.gov/sites/default/files/documents/9f37d617a1b21bf0c2dfad433b1c95af/dcw-entry-level-wages-continue-lower.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "Employers FAQs — Unemployment Insurance",
+      "publisher": "Georgia Department of Labor",
+      "url": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Georgia Hour and Wage Laws (Updated for 2026)",
+      "publisher": "Nolo",
+      "url": "https://www.nolo.com/legal-encyclopedia/georgia-wage-hour-laws-35483.html",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Georgia Minimum Wage: Rates and Rules for Employers",
+      "publisher": "FirstHR",
+      "url": "https://firsthr.app/compliance-hub/georgia/georgia-minimum-wage",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Georgia payroll tax and registration guide",
+      "publisher": "OnPay",
+      "url": "https://help.onpay.com/hc/en-us/articles/202809548-Georgia-payroll-tax-and-registration-guide",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "Proposed Georgia Workers Compensation Loss Cost and Assigned Risk Rate Filings",
+      "publisher": "NCCI",
+      "url": "https://www.ncci.com/Articles/Documents/II_StateAdvisoryForumState_GA_2025.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "FY 2026 Schedule of Fair Market Rents",
+      "publisher": "HUD",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "Register an LLC with Georgia Secretary of State",
+      "publisher": "Georgia.gov",
+      "url": "https://georgia.gov/register-llc",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "How Much Does an LLC Cost in Georgia",
+      "publisher": "Commenda",
+      "url": "https://www.commenda.io/usa/georgia/llc-cost",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "Make a difference by building a career in aging",
+      "publisher": "Georgia DHS, Division of Aging Services",
+      "url": "https://dhs.georgia.gov/spotlight/2026-03-13/make-difference-building-career-aging",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "NOW and COMP Waivers: participation and costs",
+      "publisher": "Georgia Open Data (DBHDD data)",
+      "url": "https://www.open.georgia.gov/openga/report/downloadFile?rid=33476",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Georgia Budget Allocates 100 New NOW/COMP Waivers",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/news-a-media/press-releases/georgia-budget-allocates-100-new-now-comp-waivers-as-thousands-with-i-dd-remain-on-waitlist",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "HB 974 FY 2027 Appropriations Bill with Vetoes",
+      "publisher": "Georgia General Assembly (hosted by Georgia Recorder)",
+      "url": "https://georgiarecorder.com/wp-content/uploads/2026/05/HB-974-FY-2027-Appropriations-Bill-with-Vetoes.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "Hospital Provider Fee information (FMAP 66.40%, FFY 2026)",
+      "publisher": "Georgia DCH (via Open Georgia)",
+      "url": "https://open.georgia.gov/openga/report/downloadFile?rid=33434",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Community Care Services Program (CCSP) Fact Sheet",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/images/Reports/Fact_Sheets/16CCSP.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Georgia Medicaid Community Care Services Program (CCSP)",
+      "publisher": "Medicaid Planning Assistance",
+      "url": "https://www.medicaidplanningassistance.org/georgia-medicaid-ccsp/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Georgia Medicaid Paid Family Caregiver Programs",
+      "publisher": "Freedom Care",
+      "url": "https://freedomcare.com/georgia-home/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "Medicare Help in Georgia: GeorgiaCares, SFC, and CCSP Waivers (2026)",
+      "publisher": "Understood Care",
+      "url": "https://understoodcare.com/state-guides/medicare-help-in-georgia-georgiacares-sfc-and-ccsp-waivers-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "Georgia Employment & Labor Law Overview",
+      "publisher": "Deputy",
+      "url": "https://www.deputy.com/compliance-hub/states/georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "Area Agencies on Aging in Georgia (2026)",
+      "publisher": "Grants for Seniors",
+      "url": "https://grantsforseniors.org/area-agencies-on-aging-in-georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Why NOW and COMP Waivers Matter for Georgia Families",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/news-a-media/making-a-difference-magazine/march-2026/why-now-and-comp-waivers-matter-for-georgia-families",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "How to Start a PHCP Agency in Georgia (2025): GAHLES Licensing Guide",
+      "publisher": "CarePolicy (consultant)",
+      "url": "https://carepolicy.us/blogs/blog/how-to-start-a-private-home-care-provider-phcp-agency-in-georgia-2025-gahles-licensing-guide",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Rules and Regulations for Private Home Care Providers in Georgia",
+      "publisher": "LegalClarity",
+      "url": "https://legalclarity.org/rules-and-regulations-for-private-home-care-providers-in-georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "T1019 — HCPCS Codes (Codify)",
+      "publisher": "AAPC",
+      "url": "https://www.aapc.com/codes/hcpcs-codes/T1019",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Georgia Medicaid Fee Schedule 2026: Rates & Payment Guide",
+      "publisher": "CheckMedicaid",
+      "url": "https://checkmedicaid.com/georgia-medicaid-fee-schedule/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Support — Georgia Electronic Visit Verification",
+      "publisher": "Georgia Medicaid (DCH)",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0/support",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "Georgia Payroll Taxes",
+      "publisher": "TaxBandits",
+      "url": "https://www.taxbandits.com/payroll/state/georgia-payroll-tax-requirements/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "Georgia Payroll Tools, Tax Rates and Resources",
+      "publisher": "PaycheckCity",
+      "url": "https://www.paycheckcity.com/payroll-resources/georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "How to Start a Home Care Agency in Georgia in 2026",
+      "publisher": "The Biz of Senior Care (consultant)",
+      "url": "https://thebizofseniorcare.com/resources/how-to-start-a-home-care-agency-in-georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "Start a Private Home Care Provider in Georgia",
+      "publisher": "Wise Caregiving (vendor)",
+      "url": "https://wisecaregiving.com/start-private-home-care-provider-georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "Home Care Agency Licensure in Georgia (2026)",
+      "publisher": "Vitable Health (compliance vendor)",
+      "url": "https://www.vitablehealth.com/home-care-compliance/georgia/licensure",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License required to operate a private home care provider (nursing, personal care, companion/sitter)",
+      "value": "No operation without a DCH license or provisional license; each office location is licensed separately; no Certificate of Need for a PHCP-only license",
+      "source_id": "S1",
+      "as_of": "Rule 111-8-65-.05(1)-(2), .07(2); fetched 2026-10-14"
+    },
+    {
+      "metric": "Application processing fee (new application)",
+      "value": "$300, due on submission and non-refundable. The Board of Community Health sets a separate license fee (amount not verified). Consultants cite $350 and $500, which conflict with DCH's $300.",
+      "source_id": "S6; S1",
+      "as_of": "Undated DCH checklist; rule fetched 2026-10-14"
+    },
+    {
+      "metric": "Fee timing",
+      "value": "All licensure fees must be paid in full before a license is issued",
+      "source_id": "S6",
+      "as_of": "Undated DCH checklist"
+    },
+    {
+      "metric": "Aide training (personal care)",
+      "value": "40-hour program: 20 hours before serving clients, 20 more within six months (or an equivalent credential)",
+      "source_id": "S4",
+      "as_of": "Rule 111-8-65-.09(5)(c)"
+    },
+    {
+      "metric": "Annual in-service training",
+      "value": "8 clock hours per year for each employee after the first year of employment",
+      "source_id": "S4",
+      "as_of": "Rule 111-8-65-.09(6)(b)"
+    },
+    {
+      "metric": "Supervisory home visit",
+      "value": "At least every 122 days to each client's residence",
+      "source_id": "S5",
+      "as_of": "Rule 111-8-65-.10(2)(b)1"
+    },
+    {
+      "metric": "Service agreement and record retention",
+      "value": "Signed agreement by the second visit (if on a different day from the first) or within 7 calendar days; the client may cancel at any time and pays only for services rendered; client records kept 5 years from last service",
+      "source_id": "S1; S4",
+      "as_of": "Rule 111-8-65-.09(2)(b), (4)(b)1"
+    },
+    {
+      "metric": "Plan of correction after inspection",
+      "value": "Due within 10 days of receiving the written inspection report",
+      "source_id": "S1",
+      "as_of": "Rule 111-8-65-.08(4)"
+    },
+    {
+      "metric": "Private-pay price, non-medical caregiver (Georgia median)",
+      "value": "$32 per hour; $6,101 per month based on 44 hours per week",
+      "source_id": "S17",
+      "as_of": "CareScout 2025 survey (rates collected July–Nov 2025; published 2026-03-02)"
+    },
+    {
+      "metric": "Medicaid EVV mandate for home health claims",
+      "value": "Claims with dates of service on or after September 14, 2026 must be submitted through EVV (Netsmart Mobile Caregiver+)",
+      "source_id": "S13",
+      "as_of": "2026-09-14"
+    },
+    {
+      "metric": "Waiver personal support billing codes",
+      "value": "CCSP/SOURCE (waiver IDs 590/930): T1019 (TF/UC modifiers). ICWP (660) and NOW/COMP (680/681): T2025",
+      "source_id": "S13",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Wage floor and benchmark",
+      "value": "Federal minimum $7.25/hour applies to most employers (state statute $5.15); national median for home health and personal care aides $35,800/year (May 2025); a Georgia median of about $14.07/hour ($29,270/year) is reported by a secondary aggregator citing BLS OEWS and is unconfirmed on bls.gov",
+      "source_id": "S24; S25; S20",
+      "as_of": "2026; May 2025"
+    }
+  ],
+  "not_claimed": [
+    "The Georgia Medicaid per-unit rate for personal support (T1019, T1019-TF, T1019-UC) under CCSP/SOURCE, T2025 under ICWP, NOW and COMP. No current official DCH fee schedule or GAMMIS rate file was retrieved. Out-of-state rates are excluded, and no rate is modeled for Georgia Medicaid.",
+    "Whether CCSP/SOURCE personal support for members enrolled in Georgia Families is paid fee-for-service or through the care management organizations (CMOs). The official source was not confirmed.",
+    "The amount of the Board-set PHCP license fee and annual renewal fee, and any per-service fee. DCH's checklist lists $300 for the application processing fee only. Secondary sources cite $250 per service per year, $350 and $500, and none is confirmed against a DCH fee schedule.",
+    "The PHCP renewal term. Rule 111-8-65-.06(2) says 'periodically' and one vendor says annually [S52]. The 2016 packet's $150 late charge [S7] is not confirmed as current.",
+    "A processing timeline for the PHCP license. No rule-stated number of days was found. Secondary guides' 60–90 day figures are unverified, and the provisional license term (a vendor says 1 year) is not stated in the rule.",
+    "The current licensing portal (GAHLES per consultants versus the GAMMIS web portal in a 2016 DCH notice), the current DCH phone number for PHCP licensing, and whether the PHCP-inquiries email address is current. The email appears only on a consultant site.",
+    "Final text and effective date of the 2026 amendments to Rule 111-8-65. A public hearing was held June 16, 2026 [S9] and a final adoption notice was posted 07/14/26 [S10], but the adopted text was not retrieved. The HB 183 independent-contractor limit [S11] is a proposal whose adoption status is unverified. Operators must read the current compilation before filing.",
+    "Staffing ratios, capacity limits, awake-overnight rules and zoning rules for PHCPs. None was found in the retrieved rule text.",
+    "Insurance minimums. The $1M/$3M general liability figure appears only in a secondary summary [S44] and was not found in Rule 111-8-65. The only insurance-related rules confirmed are the fidelity bond for employees with unlimited access to client funds and the vehicle-insurance waiver or reasonable-efforts requirement [S1].",
+    "Administrator training hours and experience requirements beyond orientation and training in the rules. Secondary-source figures for aide initial training (eight hours) conflict with the 40-hour rule text and are not used.",
+    "Georgia May 2025 BLS OEWS wages for home health and personal care aides need confirmation on bls.gov. A median of about $14.07/hour ($29,270/year) appears only on a secondary aggregator citing OEWS (careslink.com). Not retrieved: Georgia wages for nursing assistants, LPNs, RNs, managers and schedulers, and Atlanta metro wage data. National BLS figures [S20][S21] and a 2023 ASPE Georgia median of $12.99/hour for aides [S22] were retrieved.",
+    "The official Georgia DOL minimum wage page, the employer's assigned SUI experience rate, the workers' compensation rates in effect after March 1, 2026 (only a proposed NCCI filing was found) and the workers' compensation mandatory-coverage threshold. The 2.70% new-employer SUI rate is confirmed by the GDOL FAQ [S23].",
+    "Georgia's 2026 state income tax rate (sources vary) and the official Secretary of State fee schedule. LLC fee figures rest on a Georgia.gov page of unclear date and secondary sites.",
+    "The number of licensed PHCPs, home health agencies and personal care homes in Georgia, market shares, competitor names, referral-source breakdowns and agency utilization or caseload data.",
+    "Georgia private-pay market size and metro-level prices. CareScout's $32/hour is a statewide median for non-medical caregivers, and the survey's annual figure assumes 44 hours per week [S17]. It should be checked against local competitors before it is used for a specific county.",
+    "CCSP and SOURCE waitlist counts and people served. Secondary figures (about 41,000 served, about 53,779 approved capacity) were not verified against DCH or DAS data. The DCH waiver page itself notes that a waitlist is often present [S15].",
+    "The 2026 CCSP income limit ($2,982, 300% of the federal benefit rate) and SOURCE income limit (SSI level) come from secondary sources, and some sources cite $2,901 instead. The $994 SSI rate for 2026 was not confirmed on ssa.gov. Both should be checked with DHS/DCH.",
+    "Whether a CCSP provider must hold a PHCP license for a minimum period before applying to enroll, and any application windows. Only a secondary source mentions this, so it is not relied upon.",
+    "Whether the federal CY2026 $750 Medicaid enrollment application fee [S19] applies to a Georgia personal support agency, and the status of Georgia's group/billing enrollment requirement (secondary source only).",
+    "The final FY2027 count of new NOW/COMP slots. The appropriation bill text ties $11,592,520 to 900 slots [S34], while the Georgia Council on Developmental Disabilities (GCDD) and other advocacy summaries report 100 [S33]. The latest official planning-list figure found is about 7,900 in September 2025 [S32].",
+    "The Structured Family Caregiver stipend and agency retention, and Georgia Horizons case-management rollout dates. Both appear only in secondary sources.",
+    "Whether CMS's approved waiver capacity or federal match will change before the EDWP approval expires on 2027-11-08. FMAP of 66.40% for FFY 2026 is official [S35], but projections of a further decline in the federal share are secondary [S39].",
+    "The 2026 status of the federal companionship/overtime rule (29 CFR §552.109). A July 2025 DOL proposal to restore the exemption was reported, but its final status was not confirmed. The model has no overtime premium and assumes each aide is scheduled at or under 40 hours/week. Whether a 4% non-billable uplift covers compensable travel time is untested.",
+    "The cost of the local business license or occupational tax and of the identity / Secure and Verifiable Documents filings listed in the DCH PHCP initial packet. These are not in the startup costs.",
+    "The 40-hour aide training split, 8 in-service hours, 122-day supervisory visit, 5-year record retention, 10-day plan of correction and waiver billing codes (T1019/T2025) were not re-checked against the live rule text or the DCH waiver pages. That includes the 2026 amendment noted as 'Final Adoption 07/14/26'. The Georgia LLC Articles and annual registration fees were also not re-checked against the Secretary of State fee schedule."
+  ],
+  "regulators": [
+    {
+      "name": "Georgia Department of Community Health (DCH), Healthcare Facility Regulation Division (HFRD) — Private Home Care Program",
+      "role": "Licenses and inspects private home care providers; sets licensure fees through the Board of Community Health",
+      "url": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/private-home-care-program",
+      "phone": "",
+      "email": "",
+      "source_id": "S2"
+    },
+    {
+      "name": "Georgia DCH, Medical Assistance Plans (Georgia Medicaid)",
+      "role": "Provider reimbursement, enrollment and utilization review for CCSP/SOURCE; GAMMIS claims; EVV program (Netsmart Mobile Caregiver+)",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/waiver-programs",
+      "phone": "(833) 483-5587 (Georgia EVV Customer Support; the old EVV number was retired Jan 16, 2026)",
+      "email": "",
+      "source_id": "S14"
+    },
+    {
+      "name": "Georgia Department of Human Services, Division of Aging Services (DAS)",
+      "role": "Runs day-to-day CCSP operations and requires in-home service providers to hold a current DCH private home care license",
+      "url": "https://pamms.dhs.ga.gov/das/hcbs-5300-manual/208/",
+      "phone": "",
+      "email": "",
+      "source_id": "S8"
+    },
+    {
+      "name": "Area Agencies on Aging (AAAs)",
+      "role": "DAS administers its programs through the AAAs, which are the access route for in-home services and waiver intake",
+      "url": "https://aging.georgia.gov/programs-and-services",
+      "phone": "",
+      "email": "",
+      "source_id": "S16"
+    },
+    {
+      "name": "Georgia Department of Behavioral Health and Developmental Disabilities (DBHDD)",
+      "role": "Manages the NOW/COMP planning list and waiver slots (community living supports for people with I/DD)",
+      "url": "https://www.open.georgia.gov/openga/report/downloadFile?rid=33476",
+      "phone": "",
+      "email": "",
+      "source_id": "S32"
+    },
+    {
+      "name": "Georgia Secretary of State, Corporations Division",
+      "role": "LLC formation and annual registration",
+      "url": "https://georgia.gov/register-llc",
+      "phone": "",
+      "email": "",
+      "source_id": "S29"
+    },
+    {
+      "name": "Georgia Department of Labor",
+      "role": "State unemployment insurance (employer registration, $9,500 taxable wage base)",
+      "url": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance",
+      "phone": "",
+      "email": "",
+      "source_id": "S23"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Ga. Comp. R. & Regs. 111-8-65",
+      "title": "Rules and Regulations for Private Home Care Providers (adopted under O.C.G.A. § 31-7-300 et seq.)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Rule 111-8-65-.03",
+      "title": "Definitions (companion or sitter tasks, personal care tasks, bonding, private home care services)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Rule 111-8-65-.05",
+      "title": "Licensure (license or provisional license, location-based licenses, no transfer, 15 days' notice of location change, owner background check)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Rule 111-8-65-.06",
+      "title": "Applications (department forms, application and license fees, owner records check, renewal)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.06",
+      "source_id": "S3"
+    },
+    {
+      "cite": "Rule 111-8-65-.07",
+      "title": "Exemptions from licensure; no Certificate of Need for a PHCP-only license",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Rule 111-8-65-.08",
+      "title": "Inspections and plans of correction",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Rule 111-8-65-.09",
+      "title": "Administration and Organization (administrator, personnel files, aide training, TB screening, records, service agreements)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.09",
+      "source_id": "S4"
+    },
+    {
+      "cite": "Rule 111-8-65-.10",
+      "title": "Private Home Care Provider Services (RN supervision of nursing, supervisory home visits)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.10",
+      "source_id": "S5"
+    },
+    {
+      "cite": "Ga. Comp. R. & Regs. Chapter 111-8-12",
+      "title": "Rules and Regulations for Criminal Background Checks (owner must comply before a new license issues)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "source_id": "S1"
+    },
+    {
+      "cite": "DHS DAS HCBS 5300 Manual § 208",
+      "title": "In-Home Services (current DCH PHCP license required for waiver in-home providers)",
+      "url": "https://pamms.dhs.ga.gov/das/hcbs-5300-manual/208/",
+      "source_id": "S8"
+    },
+    {
+      "cite": "Proposed revision of Rule 111-8-65-.03 (HB 183)",
+      "title": "Synopsis of proposed changes (independent contractor limits); adoption status unverified",
+      "url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/Attachments%20Public%20Notice%20PHCP%20Rule%201716%20Revised.pdf",
+      "source_id": "S11"
+    },
+    {
+      "cite": "Social Security Act § 1915(c); CMS Waiver 0112.R08.00",
+      "title": "Georgia Elderly and Disabled Waiver (CCSP/SOURCE); approval period 2022-11-09 to 2027-11-08",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/81411",
+      "source_id": "S12"
+    },
+    {
+      "cite": "21st Century Cures Act (2016) — EVV; Georgia DCH EVV program",
+      "title": "EVV required for Medicaid-financed personal care services; Georgia HHCS claims with dates of service on or after 2026-09-14",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0",
+      "source_id": "S13"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Non-medical in-home caregiver, Georgia statewide median",
+      "rate": 32.0,
+      "unit": "per hour",
+      "effective": "2025 survey (rates collected July–Nov 2025; published 2026-03-02)",
+      "notes": "CareScout Cost of Care Survey 2025, non-medical caregiver category. This is a statewide median and should be checked against local competitors, especially in the Atlanta metro and rural counties.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Non-medical caregiver, monthly equivalent",
+      "rate": 6101.0,
+      "unit": "per month",
+      "effective": "2025 survey (rates collected July–Nov 2025)",
+      "notes": "CareScout bases the monthly and annual figures on 44 hours per week over 52 weeks ($73,216 per year). It is a benchmark for a full-time client and not a typical client's hours.",
+      "source_id": "S17"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Georgia DCH, Healthcare Facility Regulation Division — Private Home Care Program",
+      "role": "PHCP licensing, applications, inspections",
+      "contact": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/private-home-care-program (phone not verified; consultant-listed mailbox hfrd.phcp@dch.ga.gov, not confirmed on an official DCH page [S43])"
+    },
+    {
+      "name": "GaMap2Care — Find Facility (DCH HFRD)",
+      "role": "Official look-up of licensed facilities and providers",
+      "contact": "Link on the DCH Private Home Care Program page: https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/private-home-care-program"
+    },
+    {
+      "name": "Georgia Medicaid (DCH) — EVV Support",
+      "role": "EVV onboarding and claims questions for Medicaid personal support providers",
+      "contact": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0/support; EVV Customer Support (833) 483-5587"
+    },
+    {
+      "name": "Georgia Medicaid — Waiver Programs (CCSP/SOURCE)",
+      "role": "Waiver program information and provider enrollment pathway",
+      "contact": "https://medicaid.georgia.gov/programs/all-programs/waiver-programs"
+    },
+    {
+      "name": "Georgia DHS Division of Aging Services / Area Agencies on Aging",
+      "role": "CCSP/SOURCE referrals, in-home service provider requirements, client intake",
+      "contact": "https://aging.georgia.gov/programs-and-services; https://pamms.dhs.ga.gov/das/hcbs-5300-manual/208/"
+    },
+    {
+      "name": "Georgia Secretary of State — Corporations Division (eCorp)",
+      "role": "LLC formation and annual registration",
+      "contact": "https://georgia.gov/register-llc"
+    },
+    {
+      "name": "Georgia Department of Labor — Employer Unemployment Insurance",
+      "role": "Employer unemployment tax registration",
+      "contact": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "client",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.8,
+      "optimistic": 1.0,
+      "rationale": "Capacity is the active client census the office team is sized for. Occupancy is the share actually on service in a month (hospitalizations, discharges, caregiver gaps). The 90% default, 80% conservative and 100% optimistic values are operator assumptions — verify locally. They are not sourced statistics, and no Georgia utilization or caseload data was found (see not_claimed).",
+      "source_id": ""
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 3
+    },
+    "configurations": [
+      {
+        "id": "ga_private15_owner",
+        "label": "Owner-operated private-pay personal care/companion agency, 15 clients",
+        "capacity": 15,
+        "notes": "Smallest realistic start. The owner serves as the administrator the rules require (governing body must appoint an administrator [S4]) and handles scheduling and supervisory visits herself. All revenue is private pay at the CareScout 2025 Georgia statewide median for non-medical caregivers ($32/hour) [S17]. No Georgia Medicaid rate is modeled because no official DCH rate was retrieved (see not_claimed). Services are limited to personal care and companion/sitter tasks, so the RN supervisor required only for nursing services [S5] is not included.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 32.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S17"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S20",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "Rule 111-8-65-.09(5)(c) (40-hour aide training); 29 CFR §552.109(a)",
+            "notes": "Wage is the national BLS median for home health and personal care aides ($35,800 ÷ 2,080 = $17.21/hour, May 2025) [S20]. It is used deliberately as a conservative recruiting wage. A Georgia May 2025 OEWS median of about $14.07/hour ($29,270/year) appears on a secondary aggregator that cites BLS OEWS (careslink.com). It is not confirmed on bls.gov, so verify it on the BLS OEWS Georgia page (SOC 31-1120). The roughly $3.14/hour gap is about $260 per client-month before the 17.5% burden. The older ASPE 2023 Georgia median of $12.99/hour [S22] is stale and not used. The wage is well above the $7.25 federal minimum that applies to most Georgia employers [S24]. Hours = 80 billable hours per client-month plus 4% paid non-billable time. Both are operator estimates — verify locally. The model has no overtime premium. It assumes scheduling keeps each aide at or under 40 hours per week. Travel time between clients is compensable work time, and whether the 4% uplift covers it is untested. The 2026 status of 29 CFR §552.109 (companionship/overtime) was not confirmed. CareScout's 44 hours/week benchmark (about 190 hours/month) describes a full-time client, not the typical client [S17]."
+          },
+          {
+            "role": "Owner-administrator (also scheduler and supervisor at this size)",
+            "basis": "annual_salary",
+            "amount": 48000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.09(3)",
+            "notes": "Operator estimate — no Georgia BLS manager wage was retrieved (see not_claimed). Owner draw is treated as salary so the model carries a real administrator cost. Supervisory home visits at least every 122 days per client [S5] are handled by the owner."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (operator estimate — verify locally)",
+            "monthly": 500,
+            "notes": "Small shared or executive-suite office. Operator estimate — no Georgia commercial rent benchmark was retrieved and zoning rules for home-based offices were not found. HUD residential FMRs [S28] are not an office benchmark and are not used. Each office location must be separately licensed [S1]."
+          },
+          {
+            "item": "General/professional liability and hired & non-owned auto (base)",
+            "monthly": 600,
+            "notes": "Operator estimate — get quotes."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 400,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1200,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 250,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator orientation/CE and in-service materials",
+            "monthly": 100,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate — a single owner can onboard roughly one client per month while also running the office."
+        }
+      },
+      {
+        "id": "ga_private40",
+        "label": "Private-pay personal care/companion agency, 40 clients",
+        "capacity": 40,
+        "notes": "The configuration an experienced operator would target. It is private pay only, with a full-time administrator, one supervisor and one scheduler/billing coordinator. Priced at the CareScout 2025 Georgia statewide median for non-medical caregivers [S17]. It is a statewide median, not a local one, so check Atlanta-metro and rural prices against local competitors. Georgia Medicaid personal support is not modeled because no official per-unit rate was retrieved.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 32.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S17"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S20",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "Rule 111-8-65-.09(5)(c) (40-hour aide training); 29 CFR §552.109(a)",
+            "notes": "National BLS median wage for home health and personal care aides ($35,800 ÷ 2,080 = $17.21/hour, May 2025) [S20], used as a deliberately conservative recruiting wage. A Georgia May 2025 OEWS median of about $14.07/hour ($29,270/year) appears on a secondary aggregator citing BLS OEWS (careslink.com) and is not confirmed on bls.gov. At 83.2 hours per client-month the gap is about $260 per client-month before burden. That is roughly $113,000 a year on wages alone at 36 clients on service, and about $133,000 with the 17.5% burden. The model's cost is therefore conservative. The older ASPE 2023 Georgia median of $12.99/hour [S22] is stale. Hours = 80 billable hours per client-month plus 4% paid non-billable time (operator estimates — verify locally). The model has no overtime premium. It assumes scheduling keeps each aide at or under 40 hours/week. Travel time between clients is compensable, and the adequacy of the 4% uplift is untested. The 2026 status of 29 CFR §552.109 was not confirmed."
+          },
+          {
+            "role": "Administrator (full authority over operations; orientation and training required)",
+            "basis": "annual_salary",
+            "amount": 60000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.09(3)",
+            "notes": "Operator estimate — no Georgia BLS manager wage was retrieved. The rule requires an administrator appointed by the governing body with no credible finding of abuse or neglect, who completes the required orientation and training [S4]."
+          },
+          {
+            "role": "Client services supervisor (1 FTE) — client assessments, service agreements, aide orientation, supervisory home visits",
+            "basis": "annual_salary",
+            "amount": 42000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.10(2)(b)1; Rule 111-8-65-.09(2)(b)",
+            "notes": "Operator estimate — no Georgia wage was retrieved. Supervisory visit to each client's residence at least every 122 days [S5]. Signed service agreement by the second visit or 7 calendar days, whichever is earlier [S1]. The rule text retrieved sets no supervisor credential for non-nursing services. The supervisor caseload is an operator estimate."
+          },
+          {
+            "role": "Scheduler / billing coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate. Handles scheduling, caregiver call-outs, client invoicing and the 5-year client record retention [S4]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "ga_private75",
+        "label": "Private-pay personal care/companion agency, 75 clients",
+        "capacity": 75,
+        "notes": "Scale version of the private-pay model. Larger offices show how overhead is absorbed, but the model depends on a high census and strong referral development. Same $32/hour statewide median benchmark [S17].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 32.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S17"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S20",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "Rule 111-8-65-.09(5)(c) (40-hour aide training); 29 CFR §552.109(a)",
+            "notes": "National BLS median wage for home health and personal care aides ($17.21/hour, May 2025) [S20], used as a deliberately conservative recruiting wage. A Georgia May 2025 OEWS median of about $14.07/hour appears on a secondary aggregator citing BLS OEWS (careslink.com) and is not confirmed on bls.gov. Hours = 80 billable plus 4% paid non-billable (operator estimates). No overtime premium is modeled; the model assumes each aide is scheduled at or under 40 hours/week, and travel time adequacy is untested."
+          },
+          {
+            "role": "Administrator (full authority over operations)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.09(3)",
+            "notes": "Operator estimate — no Georgia manager wage was retrieved."
+          },
+          {
+            "role": "Client services supervisors (2 FTE) — assessments, aide orientation, supervisory visits, care coordination",
+            "basis": "annual_salary",
+            "amount": 84000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.10(2)(b)1",
+            "notes": "Operator estimate ($42,000 × 2). The 122-day supervisory visit rule [S5] needs only about 225 visits a year at 75 clients. The second FTE covers assessments, hiring and aide orientation, and caregiver absences, which is an operator judgment."
+          },
+          {
+            "role": "Scheduler / billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 76000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate ($38,000 × 2)."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (operator estimate — verify locally)",
+            "monthly": 2800,
+            "notes": "Operator estimate for about 1,500 sq ft; no Georgia commercial rent benchmark was retrieved."
+          },
+          {
+            "item": "General/professional liability and hired & non-owned auto (base)",
+            "monthly": 1000,
+            "notes": "Operator estimate — get quotes."
+          },
+          {
+            "item": "Scheduling, billing software (base)",
+            "monthly": 400,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 2000,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 600,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator orientation/CE and in-service materials",
+            "monthly": 250,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 5,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "ga_private40_lowhours",
+        "label": "Private-pay agency, 40 clients — sensitivity at 60 hours per client per month",
+        "capacity": 40,
+        "notes": "Same office and team as the 40-client default, but clients average 60 billable hours per month instead of 80 (shorter visits, more part-time clients). The hours-per-client figure is an operator estimate with no Georgia source. This shows how sensitive profit is to client hours when the office team is fixed.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 32.0,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 1.0,
+            "source_id": "S17"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S20",
+            "basis": "hours_per_client_month",
+            "amount": 62.4,
+            "cite": "Rule 111-8-65-.09(5)(c); 29 CFR §552.109(a)",
+            "notes": "National BLS median wage for home health and personal care aides ($17.21/hour, May 2025) [S20], used as a deliberately conservative recruiting wage. A Georgia May 2025 OEWS median of about $14.07/hour appears on a secondary aggregator citing BLS OEWS (careslink.com) and is not confirmed on bls.gov. Hours = 60 billable hours plus 4% paid non-billable time (operator estimates). No overtime premium is modeled; the model assumes each aide is scheduled at or under 40 hours/week."
+          },
+          {
+            "role": "Administrator (full authority over operations)",
+            "basis": "annual_salary",
+            "amount": 60000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.09(3)",
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "Client services supervisor (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 42000,
+            "wage_source_id": "",
+            "cite": "Rule 111-8-65-.10(2)(b)1",
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "Scheduler / billing coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 28.8,
+            "notes": "1.5% of $1,920 monthly billing per client (60 hours × $32); operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      }
+    ],
+    "default_configuration": "ga_private40",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.095,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.03,
+      "notes": "Payroll taxes: employer FICA is the 7.65% federal statutory rate. Georgia SUI applies to a $9,500 taxable wage base per employee, and the GDOL FAQ states that new or newly covered employers are assigned a total tax rate of 2.70% [S23]. The 2.64% figure from a secondary site [S49] is not used. FUTA is assumed on the first $7,000. For part-time aides earning roughly $18,000 a year, SUI and FUTA add roughly 2% of wages, so about 9.5% combined — an operator calculation. The experience-rated SUI range is 0.04%–8.10% [S48]. Workers' comp at 5% of payroll and benefits at 3% are operator estimates. NCCI proposed an 8.8% decrease in voluntary loss costs effective March 1, 2026, but the rates in effect and the mandatory-coverage threshold were not verified [S27]. No overtime premium is modeled (see the caregiver staffing notes). Total burden is 17.5% of wages.",
+      "source_id": "S23"
+    },
+    "opex": [
+      {
+        "item": "Office lease (operator estimate — verify locally)",
+        "monthly": 1500,
+        "basis": "fixed",
+        "notes": "Operator estimate for about 800–1,000 sq ft. No Georgia commercial rent benchmark was retrieved. Sized per configuration with overrides. Vacant capacity still costs rent. Each office location must be separately licensed [S1]; DCH must receive 15 days' notice of a location change [S1].",
+        "source_id": ""
+      },
+      {
+        "item": "PHCP license fee — annual/renewal (placeholder: $250 per service × 2 services)",
+        "monthly": 41.67,
+        "basis": "fixed",
+        "notes": "The Board of Community Health sets the license fee and renewal fee, and DCH's checklist lists the annual fee as 'Varies by program' [S6]. The renewal term is 'periodically' in the rule [S3]. A consultant guide cites $250 per service per year [S43], which is unconfirmed. Older DCH schedules treat 'Companion Sitter or Personal Care Only' as one fee category and may tier by FTE count, so the real fee could be one category ($250) or two. The placeholder assumes two services = $500/year ÷ 12. A $150 late charge appears in a 2016 DCH packet and is not modeled [S7]. Obtain the current DCH Schedule of Licensure Activity Fees; this is the only DCH-set fee still unverified.",
+        "source_id": "S43"
+      },
+      {
+        "item": "Georgia LLC annual registration ($60/year)",
+        "monthly": 5,
+        "basis": "fixed",
+        "notes": "$60/year ($50 base + $10 service charge) per a secondary source [S30]. The annual registration window opens January 1 [S29]. No franchise or minimum tax is modeled for a pass-through LLC; confirm with a CPA. The late-filing penalty is not modeled.",
+        "source_id": "S30"
+      },
+      {
+        "item": "Fidelity bond for employees with unlimited access to client funds",
+        "monthly": 30,
+        "basis": "fixed",
+        "notes": "Rule requires bonding through the provider for any employee authorized unlimited access to a client's personal funds for home management [S1]. Premium is an operator estimate — get quotes.",
+        "source_id": "S1"
+      },
+      {
+        "item": "General/professional liability and hired & non-owned auto (base)",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Operator estimate — get quotes. A secondary summary says DCH requires $1M per occurrence / $3M aggregate general liability [S44], but this was not found in Rule 111-8-65. The rule requires the provider to obtain a signed waiver or make reasonable efforts to confirm motor vehicle insurance when an employee drives a client's vehicle [S1].",
+        "source_id": "S44"
+      },
+      {
+        "item": "Liability insurance per-client exposure",
+        "monthly": 15,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Scheduling, billing software (base)",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes. Georgia's state EVV system is Netsmart Mobile Caregiver+. DCH says it makes this system available at no cost to providers [S13]. A third-party EVV system must integrate with it and costs extra. EVV has applied to Medicaid personal care since 2021/2022, and applies to home health claims with dates of service on or after 9/14/2026. It is not needed for private-pay-only models.",
+        "source_id": ""
+      },
+      {
+        "item": "Software per-client fees",
+        "monthly": 12,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Marketing and referral development",
+        "monthly": 1500,
+        "basis": "fixed",
+        "notes": "Operator estimate. Private-pay agencies depend on hospital discharge planners, senior living communities, elder-law attorneys and online leads; no Georgia referral-source breakdown was found.",
+        "source_id": ""
+      },
+      {
+        "item": "Utilities, phones, internet and IT",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally.",
+        "source_id": ""
+      },
+      {
+        "item": "Training, administrator orientation/CE and in-service materials",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate. Covers the administrator's required orientation and training [S4] and the 8 annual in-service clock hours per employee after the first year [S4].",
+        "source_id": "S4"
+      },
+      {
+        "item": "Criminal background, records checks and TB screening (new hires)",
+        "monthly": 12,
+        "basis": "per_client",
+        "notes": "Operator estimate. Rule requires a satisfactory TB screening at hire and annually [S4]. Whether the GCHEXS fingerprint process applies to staff was not verified.",
+        "source_id": "S4"
+      },
+      {
+        "item": "Recruiting, 40-hour aide training pay and onboarding",
+        "monthly": 45,
+        "basis": "per_client",
+        "notes": "Operator estimate. Aides need a 40-hour training program: 20 hours before serving clients and 20 more within six months, unless an equivalent credential is held [S4]. Assumes paid training time (40 hours × $17.21 ≈ $688 per hire), about 0.04 hires per client-month from turnover, plus job-ad costs. Turnover is an operator assumption.",
+        "source_id": "S4"
+      },
+      {
+        "item": "Gloves, PPE and client-care supplies",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Supervisor mileage",
+        "monthly": 7,
+        "basis": "per_client",
+        "notes": "Operator estimate (supervisory home visits at least every 122 days [S5], plus assessments).",
+        "source_id": "S5"
+      },
+      {
+        "item": "Payment processing on private-pay invoices (1.5% blended)",
+        "monthly": 38.4,
+        "basis": "per_client",
+        "notes": "1.5% of $2,560 monthly billing per client (80 hours × $32); operator estimate for card vs ACH mix.",
+        "source_id": ""
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Georgia LLC Articles of Organization (mailed filing)",
+        "low": 110,
+        "high": 110,
+        "notes": "Georgia.gov directs mailed Articles to include a $110 filing fee [S29]. Fee schedule may have changed — verify.",
+        "source_id": "S29"
+      },
+      {
+        "item": "PHCP application processing fee (due on submission; non-refundable)",
+        "low": 300,
+        "high": 300,
+        "notes": "DCH checklist lists a $300 application processing fee, due on submission for a new application, and states application fees are non-refundable [S6]. The cited packet could not be reopened in the latest check. The $300 is corroborated by a 2014 DCH fee notice and secondary guides, so confirm it on the current PHCP packet and the DCH Schedule of Licensure Activity Fees. Consultants cite $350 and $500 [S50]; those conflict with DCH's $300 and are not used.",
+        "source_id": "S6"
+      },
+      {
+        "item": "PHCP license fee (Board-set; paid before the license is issued) — placeholder",
+        "low": 500,
+        "high": 750,
+        "notes": "The amount is not verified. DCH says all licensure fees must be paid in full before a license is issued [S6]. Placeholder uses a consultant's $250 per service [S43] × 2–3 services. Older DCH schedules treat companion/sitter or personal care only as one category, so the fee may be lower or tiered by FTE count. Verify against the current DCH fee schedule before filing.",
+        "source_id": "S43"
+      },
+      {
+        "item": "Owner records check (criminal background) application",
+        "low": 50,
+        "high": 100,
+        "notes": "Owner must complete background check requirements (Chapter 111-8-12) before a new license issues [S1]. Fee is an operator estimate; the current fingerprint process was not verified."
+      },
+      {
+        "item": "Policies and procedures manual (Rule 111-8-65 compliance)",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate. Covers service agreements, personnel files, client records and complaint handling required by the rules [S1][S4]."
+      },
+      {
+        "item": "Aide training program setup (40-hour curriculum, instructor, materials)",
+        "low": 500,
+        "high": 2000,
+        "notes": "Operator estimate. The 40-hour program may be provided by the private home care provider [S4]."
+      },
+      {
+        "item": "Office deposit and first two to three months' rent",
+        "low": 1000,
+        "high": 8400,
+        "notes": "Operator estimate (about $500 × 2 for the smallest office to $2,800 × 3 for the largest). No Georgia commercial rent benchmark was retrieved."
+      },
+      {
+        "item": "Furniture, computers and phones",
+        "low": 2000,
+        "high": 12000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Scheduling/billing software setup and training",
+        "low": 500,
+        "high": 2500,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, fidelity bond)",
+        "low": 1000,
+        "high": 5000,
+        "notes": "Operator estimate — get quotes."
+      },
+      {
+        "item": "Launch marketing and website",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Working capital reserve (payroll and overhead during ramp-up)",
+        "low": 30000,
+        "high": 120000,
+        "notes": "Advisory reserve; replaced in totals by the modeled ramp-up deficit. No minimum capitalization requirement was found in the retrieved rule text.",
+        "source_id": "",
+        "category": "working_capital"
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Georgia does not have a separate 'companion care' license and 'personal care' license. A business that sends employees, contractors or referred caregivers into homes to provide **nursing, personal care or companion/sitter services** is a *private home care provider* (PHCP). It must hold a **license or provisional license from the Georgia Department of Community Health (DCH), Healthcare Facility Regulation Division (HFRD)** under Rule 111-8-65 before it operates [S1][S2]. Each office location is licensed separately [S1]. A PHCP-only license does not require a Certificate of Need, as long as the business does not operate as a licensed home health agency or personal care home [S1]. A person who personally delivers services without agents, employees, contractors or referral arrangements is outside the rule [S1].\n\nThe cost of entry is modest, but several figures could not be confirmed. DCH's checklist lists a **$300 application processing fee** due on submission and non-refundable [S6]. The rule also requires a separate license fee set by the Board of Community Health, and that amount was **not verified** [S1][S3]. Consultants quote $250 per service per year, $350 and $500 [S43][S50], and none of those matches a DCH fee schedule we could retrieve. The rule gives no processing deadline and says licenses are renewed 'periodically' [S3]. A 2026 revision of Rule 111-8-65 went through a public hearing on June 16, 2026 [S9]. DCH's notices page lists a final adoption notice dated 07/14/26 [S10], but the adopted text and effective date were not retrieved. Read the current compilation before you file.\n\nMoney comes from two streams that behave very differently.\n\n- **Private pay.** CareScout's 2025 survey puts the Georgia median for a non-medical caregiver at **$32 per hour**, or $6,101 per month on a 44-hour week [S17]. Every profitable model in this bundle is built on that stream.\n- **Medicaid personal support.** CCSP/SOURCE personal support is billed as T1019, while ICWP and NOW/COMP use T2025, all tracked through EVV [S13]. DAS requires waiver in-home providers to hold a current DCH PHCP license [S8]. **No official Georgia per-unit rate was retrieved**, so no Georgia Medicaid revenue is modeled.\n\nThe modeled results are straightforward. A **40-client private-pay agency** at 90% census (36 clients on service) nets about **$7,560 a month (8.2% margin)**. It breaks even at **64.5% occupancy**, reaches its first profitable month in **month 10**, and needs about **$112,167** of cash to get there. A 75-client agency nets **$18,813 a month (10.9%)** but needs **$187,598**. A 15-client owner-operated start nets only **$1,915 a month (5.5%)**, does not turn profitable until month 13, and breaks even at 72.7% occupancy. The margins are thin. If clients average 60 billable hours a month instead of 80, the 40-client agency earns **$8 a month**. The recommended path is to launch private pay only with a full-time team, hold hours per client up, verify the license fees with DCH, and add Medicaid only after a published rate is confirmed.",
+    "service_model": "**Who is served.** Private home care clients are elderly, disabled or convalescing people who need help at home. The rule defines private home care services as items and services provided at a patient's residence, covering nursing services, personal care tasks and companion or sitter tasks [S1][S2]. This bundle models a **non-nursing agency**: personal care plus companion/sitter services.\n\n**What each category means under Rule 111-8-65-.03 [S1]:**\n\n- **Personal care tasks** are hands-on help with bathing, toileting, grooming, shaving, dental care, dressing and eating.\n- **Companion or sitter tasks** for elderly, handicapped or convalescing people cover transport and escort, meal preparation and serving, and household tasks essential to cleanliness and safety.\n- **Nursing services** may be delivered only by RNs and LPNs. If the agency offers nursing, it must employ a fully licensed Georgia registered nurse to supervise those services [S5].\n\nCompanion/sitter services are still within the licensed scope, so an agency that offers only sitting and errands still needs a PHCP license [S2]. The practical choice is between operating as a license-only PHCP (the lowest-cost route) and expanding into nursing, which adds an RN supervisor cost that this bundle does not model.\n\n**Who is outside the rule.** The exemptions in Rule 111-8-65-.07 include services provided directly by an individual with no agents, employees, contractors or referral arrangements, and services provided by state-licensed home health agencies or personal care homes [S1]. The rule defines a covered provider broadly. It reaches any for-profit or nonprofit entity that delivers care through employees, contractors or referrals [S1]. When a corporation owns the provider, the corporation is the licensee [S1].\n\n**Regulatory framework.** The rules are adopted under O.C.G.A. § 31-7-300 et seq. [S1]. The key rules are .05 (licensure), .06 (applications), .07 (exemptions), .08 (inspections), .09 (administration and organization) and .10 (services) [S1][S3][S4][S5]. The owner must also complete the criminal background check requirements of Chapter 111-8-12 before a new license is issued [S1]. DCH's 2026 revision and the proposed HB 183 limit on independent contractors [S11] could change who the agency may use as a caregiver. Plan on W-2 employees, which is the model used in this bundle.",
+    "licensing_pathway": "**Step 1: Confirm you need the license.** If any employee, contractor or referred caregiver will provide personal care or companion/sitter services at a client's home, you must be licensed [S1][S2]. The individual-direct exemption does not help an agency that has staff [S1].\n\n**Step 2: Form the entity.** Georgia.gov directs mailed Articles of Organization to include a **$110** filing fee [S29]. A secondary source gives the online filing fee as $100, and the date of the Georgia.gov page is unclear, so verify the current fee. Georgia LLCs file an annual registration each year starting January 1 [S29]. A secondary source gives the annual fee as **$60**, including a $10 service charge [S30]. The licensee is the entity that owns the provider [S1].\n\n**Step 3: Owner background check.** Before any new license issues, the owner must comply with the criminal background check rules in Chapter 111-8-12 [S1]. Whether the GCHEXS fingerprint process applies was not verified from an official page.\n\n**Step 4: Prepare operations.** Have an administrator appointed by the governing body with full authority and responsibility for operations [S4]. Draft the written service agreement, personnel file, client record and complaint procedures the rule requires [S1][S4]. DCH allows a *provisional license* so a newly established provider has a reasonable but limited time to demonstrate that its operating procedures comply [S1].\n\n**Step 5: File the application.** An initial application is submitted on forms provided by the department [S3]. The package must include [S1][S3]:\n\n- the application fee;\n- the license fee established by the Board of Community Health;\n- a records check application for the owner; and\n- a description of the services to be offered and the geographic area served.\n\nDCH's checklist lists a **$300 application processing fee**, due on submission and non-refundable. It also states that all licensure fees must be paid in full before a permit or license is issued [S6]. The rule says fees must be reasonable and set so that the total approximates DCH's direct and indirect licensing costs, with refunds possible for good cause [S1]. The license fee amount is the part that is **not verified**. This bundle uses a placeholder of $500–$750, based on a consultant's $250 per service [S43]. Confirm the real amount with HFRD.\n\n**Portal.** A consultant says applications go through GAHLES [S43], while a 2016 DCH notice referred to the GAMMIS web portal. The current portal was not confirmed on an official DCH page. Check the HFRD PHCP page [S2] before you file.\n\n**Timeline.** No rule-stated processing period was found. Consultant estimates of 60–90 days are unverified, and a vendor's claim that a provisional license lasts one year [S51] is not stated in the rule text. Do not plan your launch date around either figure.\n\n**Step 6: Inspection.** DCH inspects providers periodically, with no fixed interval in the rule. It may exempt a provider from periodic inspection if the provider is certified or accredited by an approved body [S1]. After an inspection, a plan of correction is due within **ten days** of receiving the written report [S1].\n\n**Step 7: Keep the license in good standing.** The license is location-based and must be displayed. It cannot be assigned or transferred, and DCH must get 15 days' notice before a change of location [S1]. Renewal is 'periodic' on a renewal application with a Board-set fee [S3]. One vendor says renewal is annual [S52], and a 2016 DCH packet cites a $150 late charge for fees unpaid 60 days after expiration [S7]. Neither is confirmed as current.\n\n**Step 8 (optional): Medicaid enrollment.** DAS requires in-home service providers to hold a current, valid DCH private home care license [S8]. Georgia Medicaid enrollment, EVV and waiver rules are covered in Section 4. The $750 federal CY2026 provider enrollment application fee [S19] may or may not apply to a personal support agency, and that was not confirmed.",
+    "reimbursement": "**How money flows in Georgia.** A PHCP license lets an agency sell care directly to families, with no payer approval required. Georgia's Medicaid personal support is a separate channel that requires the license plus enrollment.\n\n**1. Private pay (modeled).** Families, and sometimes long-term care insurers, pay the agency by the hour. CareScout's 2025 median for Georgia non-medical caregivers is **$32 per hour** and **$6,101 per month** (annual $73,216). The monthly and annual figures assume 44 hours per week for 52 weeks [S17]. That is a full-time-care benchmark and is not a typical client's hours. It is also a statewide median, so check it against local competitors, especially in the Atlanta metro and rural counties. Genworth's 2024 survey put Georgia's home health aide annual median at $66,352, up 7% from the prior year [S18].\n\n**2. Medicaid waiver personal support (not modeled).**\n\n- **Programs.** The Elderly and Disabled Waiver (CCSP and SOURCE) is a 1915(c) waiver, approved by CMS from 2022-11-09 to 2027-11-08 [S12]. It serves frail elderly and disabled Georgians who meet a nursing facility level of care, and personal support (help with daily living activities) is a listed service [S14].\n- **Who does what.** DCH handles provider reimbursement, enrollment and utilization review, while DAS runs day-to-day CCSP operations [S36]. Access is through the Area Agencies on Aging [S16].\n- **Billing codes.** CCSP/SOURCE personal support is billed as T1019, with TF (extended) and UC (consumer-directed) modifiers. ICWP personal support is billed as T2025 with U5 plus TF or TG. NOW/COMP community living supports are billed as T2025 with U4 or U5 [S13]. T1019 is a per-15-minute code [S45].\n- **Claims system.** Claims run through GAMMIS, and EVV-tracked services are routed through it [S46][S47]. Whether CCSP/SOURCE personal support is paid fee-for-service or through the Georgia Families care management organizations for enrolled members was not confirmed.\n- **The rate.** **No official Georgia per-unit rate for T1019 or T2025 was retrieved.** CheckMedicaid notes that Georgia does not publish a single fee schedule document [S46]. Out-of-state rates are excluded. Request the current provider fee schedule from DCH and the waiver program through GAMMIS.\n\n**Eligibility context (secondary sources, verify with DHS/DCH).** The CCSP 2026 income limit is reported as $2,982 per month (300% of the federal benefit rate), although some sources still cite $2,901 [S37]. SOURCE targets lower-income people at the SSI level, reported as $994 per month for a single applicant in 2026 [S38]. The asset limit is reported as $2,000 [S39].\n\n**EVV.** The 21st Century Cures Act requires EVV for Medicaid-financed personal care. Georgia's system is Netsmart Mobile Caregiver+ (MCG+). Each visit must record at least service type, recipient, provider, service date, location and start/end times [S13]. For home health claims, dates of service on or after **September 14, 2026** must be submitted through EVV, following a soft go-live date of August 31, 2026 [S13]. EVV is not needed for a private-pay-only model.\n\n**Funding backdrop.** Georgia's FMAP is 66.40% for FFY 2026 [S35]. A secondary analysis says the federal share of EDWP costs fell from 73% in 2021 to 65% in 2026 and may keep falling [S39]. That is a state budget pressure and not a verified rate cut. DCH said about $23 million in provider fee schedule increases took effect January 1, 2026, per a secondary source, and the services covered were not specified [S46]. No official 2026 notice of a change to personal support rates was found.\n\n**What this means.** Until you have a verified published rate, treat Medicaid as an option and not a revenue assumption. In Section 8, the break-even arithmetic shows the hourly rate an all-Medicaid version of the default agency would need.",
+    "demand": "**Population.** Georgia has the ninth fastest growing 60-and-older population in the U.S., at over 2.3 million people as of 2025 Census figures [S31]. A secondary guide citing Census QuickFacts puts the 65-and-older share at 15.7% (July 1, 2025 estimate) [S41]. A growing older population drives demand for in-home help, but this report cannot size the Georgia private-pay market in dollars or clients because no official source was found (see the report's 'What This Report Does Not Claim' list).\n\n**Referral sources.** Georgia-specific referral breakdowns were not found. The sources an agency can use are:\n\n- **Area Agencies on Aging.** DAS administers its programs through the AAAs, the access route for in-home services [S16]. A secondary guide counts 12 AAAs [S41].\n- **Hospitals, rehab, senior living, elder-law attorneys and physicians.** These are standard private-pay referral channels, but no Georgia data was found, so marketing spend is modeled as an operator estimate.\n- **DCH's GaMap2Care look-up** lists licensed providers and shows how the market looks to a referrer [S2].\n\n**Waiver waitlists (signal of unmet need, and also of limited Medicaid volume).**\n\n- **CCSP/SOURCE.** The state portal says there is often a waitlist and availability varies with capacity and need [S15]. A secondary source says SOURCE is not an entitlement and slots are limited [S37]. About 41,000 people are reported served through CCSP and SOURCE (secondary, unverified) [S39]. A secondary guide says CCSP waits range from a few months in rural counties to years in high-demand metro counties, and that is also unverified.\n- **NOW/COMP.** The state open-data report puts the DBHDD planning list at about **7,900** people in September 2025. About 3,000 (38%) were under 22, and nearly all of the roughly 4,900 aged 22 and above were waiting for NOW services [S32]. Advocacy sources cite 4,505 NOW and 9,789 COMP enrollees [S42].\n- **FY2027 budget conflict.** The appropriation text ties $11,592,520 to 900 additional NOW/COMP slots [S34]. GCDD and a P2P summary report that the final signed budget funds 100 new slots [S33]. Sources conflict, and the official final count was not confirmed.\n\n**Reading the signal.** Long waitlists mean many eligible people go without paid services. Some of them, and some people above the waiver income limits, buy care privately. The waitlist numbers do not translate directly into private-pay demand, and the model does not assume they do.",
+    "operations": "**Rules that shape staffing and cost (Rule 111-8-65).**\n\n- **Administrator.** The governing body appoints an administrator with full authority and responsibility for operations. The administrator must have no credible finding of abuse or neglect and must complete the orientation and training the rules require [S4]. No clock-hour figure or experience requirement was found in the retrieved text.\n- **Aide training.** Personal care aides need a 40-hour training program provided by the provider (or an equivalent credential). **Twenty hours** must be completed before serving clients and the other **20 within six months** [S4]. Secondary-source claims of an eight-hour requirement conflict with the rule text and are not used.\n- **In-service.** Each employee needs at least **8 clock hours** of annual training after the first year of employment [S4].\n- **Health screening and background.** The employee file must show a satisfactory TB screening at hire and annually [S4]. The owner must satisfy Chapter 111-8-12 background checks [S1].\n- **Supervision.** The supervisor must make a home visit to each client's residence at least **every 122 days** [S5]. If you offer nursing, a Georgia-licensed RN must supervise it [S5].\n- **Service agreement.** A written service agreement is required for each client. For a new client it must be signed by the second visit (if that visit is on a different day from the first) or within **seven calendar days** of initial service [S1]. It must contain the elements listed in Rule .09(2)(a), including the DCH phone number and a client-rights acknowledgment. The client may cancel at any time and pays only for services rendered. A late cancellation may carry only a reasonable charge for travel and staff time, so do not use minimum-hour or non-cancellable terms. Confirm the details against the live rule text.\n- **Records.** Client records are kept for **five years** after the last service [S4].\n- **Bonding and vehicles.** Any employee authorized unlimited access to a client's personal funds for home management must be bonded through the provider [S1][S4]. If an employee drives a client's vehicle that is not client-owned, the provider must obtain a signed waiver or make reasonable efforts to confirm current motor vehicle insurance [S1].\n- **Inspections.** DCH inspects periodically, and a plan of correction is due within ten days of the written report [S1]. Accreditation can lead to a discretionary exemption from periodic inspection [S1].\n- **Overtime and travel.** The model has no overtime premium. Schedule each aide at or under 40 hours a week, or add an overtime cost. Travel time between clients is compensable work time.\n\n**What the rules did not give us.** No staffing ratios, capacity limits, awake-overnight rules, zoning rules or insurance minimums were found in the retrieved rule text. A secondary source says DCH requires $1M per occurrence / $3M aggregate general liability [S44]. That was not found in Rule 111-8-65, so the model carries an operator-estimate insurance premium and treats the $1M/$3M figure as unconfirmed. Ask DCH and your insurer what limits to carry. Many referral partners and clients will ask for proof of coverage anyway.\n\n**Team at the default size (40 clients).** An administrator, one client services supervisor, one scheduler/billing coordinator and a caregiver pool of roughly 20 or more part-time and full-time aides. The pool figure is derived from the model's 36 average clients × about 83 paid hours ÷ 130–170 hours per aide. It is not a rule requirement. Office headcount and salaries are operator estimates because no Georgia wage data for those roles was retrieved.\n\n**Systems.** Scheduling, caregiver check-in, billing and payroll software are needed. Georgia's EVV system (Netsmart MCG+) applies only to Medicaid-financed personal care [S13]. DCH makes it available to providers at no cost, but a third-party EVV system must integrate with it and costs extra. Keep the 5-year record retention in mind when choosing a system [S4].\n\n**Employees, not contractors.** DCH's proposed HB 183 revision would limit independent contractors to licensed Title 43 professionals [S11]. Adoption status was not verified. Plan on W-2 aides regardless.",
+    "market_conditions": "**Supply.** The number of licensed PHCPs, home health agencies and personal care homes in Georgia was not found, and DCH's GaMap2Care tool [S2] is the best starting point for a local competitor count. Do not assume the market is uncrowded. Under the rule, even a one-owner operation with a few caregivers needs a license, and unlicensed individual caregivers who work alone are exempt [S1], so families have lower-cost alternatives.\n\n**Pricing.** The CareScout 2025 Georgia median for non-medical caregivers is **$32 per hour** and **$201 per day**, with a monthly figure of $6,101 on a 44-hour week [S17]. The survey measures rates collected July–November 2025 [S17]. It does not break out the Atlanta metro, and small agencies in rural counties may price lower. The model uses $32 for every configuration, with no rate escalation.\n\n**Wages.**\n\n- **BLS national.** The national median for home health and personal care aides was **$35,800 a year** (about $17.21 an hour) in May 2025, and for nursing assistants **$42,260** [S20][S21].\n- **Georgia.** A secondary aggregator citing BLS OEWS May 2025 reports a Georgia median of about **$14.07 an hour** ($29,270 a year) for home health and personal care aides. Confirm it on the BLS OEWS Georgia page before relying on it. An older ASPE table gives a 2023 median of $12.99 an hour [S22]. Atlanta metro wages were not retrieved. The model uses the higher national median of $17.21, which is a deliberately conservative cost assumption. The gap is about $3.14 an hour, or roughly $260 per client-month before burden.\n- **Minimum wage.** The federal minimum of $7.25 applies to most Georgia employers [S24]. The state statute sets $5.15 [S25]. Georgia cities generally do not set higher local minimums, Atlanta included [S40]. The modeled $17.21 aide wage is well above that floor.\n- **Overtime.** FLSA overtime applies to third-party home care employers. A July 2025 DOL proposal to restore the companionship exemption was reported, but its status was not confirmed. The model has no overtime premium.\n\n**Employer costs.** Georgia's SUI taxable wage base is $9,500 per employee, and the GDOL FAQ states that new employers are assigned a total rate of 2.70% [S23]. The experience-rated range is 0.04%–8.10% [S48]. NCCI proposed an 8.8% decrease in Georgia voluntary workers' compensation loss costs effective March 1, 2026 [S27]. The rates actually in effect were not verified.\n\n**Trends.**\n\n- **Growth.** Georgia's 60+ population is among the fastest growing in the nation [S31].\n- **Medicaid.** The waiver approval period runs to 2027-11-08 [S12], and the federal share of waiver costs has been falling per a secondary source [S39]. The mandatory EVV go-live for home health claims, September 14, 2026 [S13], adds a compliance cost for any agency entering Medicaid.\n- **Regulation.** Rule 111-8-65 was revised in 2026 [S9][S10].",
+    "financial_narrative": "**How the model is built.** Revenue per client is **80 billable hours × $32 = $2,560 a month**, priced at the CareScout 2025 Georgia statewide median [S17]. The 80 hours per client is an operator estimate, **not a Georgia statistic**. CareScout's 44-hour week is about 190 hours a month, which describes a full-time client [S17]. Caregiver cost is the national BLS median aide wage of $17.21 an hour [S20] applied to 83.2 paid hours per client-month (80 billable plus 4% paid non-billable time, an operator estimate). The $17.21 is a deliberately conservative choice. A secondary aggregator citing BLS OEWS reports a Georgia median of about $14.07 an hour, which is unconfirmed on bls.gov. Employer burden is modeled at 17.5% of wages: 9.5% payroll taxes, 5% workers' compensation and 3% benefits. The workers' compensation and benefits figures are operator estimates, and SUI uses the 2.70% new-employer rate from the GDOL FAQ [S23]. No overtime premium is modeled. The model assumes aides are scheduled at or under 40 hours a week, and compensable travel time is assumed to be covered by the 4% non-billable uplift, which is untested. Office salaries (administrator, supervisor, scheduler), office rent, insurance, software, accounting, marketing and similar costs are operator estimates because no Georgia wage or commercial rent data was retrieved. The licensing fee lines use the $300 DCH application fee [S6] and a **placeholder** license fee [S43]. Rent and the annual license and LLC fees are fixed and do not fall when beds or clients are vacant. Occupancy is the share of capacity on service in a month, with a default of 90% and 80% and 100% as the conservative and optimistic cases. Those are operator assumptions and not sourced statistics.\n\n**Results at 90% occupancy (private pay only):**\n\n| Configuration | Clients (capacity) | Net per month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|---|\n| Owner-operated, 15 clients | 15 | $1,915 | 5.5% | 72.7% | 13 | $54,421 |\n| **Default: 40 clients** | 40 | **$7,560** | **8.2%** | **64.5%** | **10** | **$112,167** |\n| 75 clients | 75 | $18,813 | 10.9% | 56.1% | 10 | $187,598 |\n| 40 clients, 60 hours per client (sensitivity) | 40 | $8 | 0.0% | 90.0% | 14 | $148,335 |\n\n**What drives profit.**\n\n- **The caregiver spread.** After the $17.21 wage, 4% paid non-billable time and 17.5% burden, the loaded cost is about $21 per billable hour. That leaves roughly $11 an hour before per-client costs and fixed overhead. Per-client costs (insurance, software, screening and training, supplies, mileage and payment processing) take about $137 a month, leaving about $740 of contribution per client per month.\n- **Fixed overhead.** At the default size, the three office salaries (with burden) plus rent, insurance, software, marketing and other fixed lines come to about $19,100 a month. At 36 clients the contribution is about $26,600, which leaves the $7,560 net. Break-even is about 26 of 40 clients.\n- **Scale.** The 75-client model absorbs fixed costs better (10.9% margin, break-even at about 42 clients) but needs $187,598 in cash. The 15-client model has the lowest cash need ($54,421) but is thin. The owner takes only a $48,000 salary, break-even is about 11 clients, and a single client gap can erase the profit.\n\n**Sensitivities (arithmetic on the default model).**\n\n- **Hours per client.** At 60 billable hours instead of 80, revenue per client drops to $1,920 and the default agency earns **$8 a month**. It only breaks even at 90% occupancy, first profits in month 14 and needs $148,335. If real clients average fewer than about 60 hours, this model loses money unless the office team is trimmed.\n- **Bill rate.** Each $1 an hour on the bill rate moves the default net by about $2,800 a month at 36 clients (80 hours × 36 clients, less 1.5% processing).\n- **Aide wage.** Each $1 an hour on the aide wage moves the default net by about $3,500 a month (83.2 hours × 1.175 burden × 36 clients). If the reported Georgia median of about $14.07 held in your market, the $3.14 gap to the modeled wage would be worth roughly $11,000 a month at 36 clients. That is not assumed, because the figure is unconfirmed, recruiting wages may sit above the median, and overtime and travel time are not modeled. The 2023 ASPE Georgia median of $12.99 [S22] is stale. Verify a current local wage before lowering the cost.\n- **Local minimum wage.** Atlanta does not have a higher local minimum wage than the federal floor [S40], so no metro minimum wage adjustment is needed.\n- **License fee.** The model uses a placeholder annual fee of $500 and a $500–$750 initial license fee. A fee that is double or triple that would change the default net by less than $100 a month, so the unverified fee is not a profitability risk and is a verification task.\n\n**Medicaid break-even.** No Georgia Medicaid rate is modeled. At the default structure (36 clients, about 2,880 billable hours a month), the cost per billable hour is roughly **$29** (wage and burden, per-client costs and fixed overhead, excluding the 1.5% private-pay processing fee). An all-Medicaid version of this agency would therefore need to receive about $29 an hour to break even, before any profit. Whether a Georgia Medicaid rate reaches that level was not verified, so do not assume it. Medicaid also adds EVV compliance and payment delay.\n\n**Path to profit.** The default configuration is profitable on paper by month 10. It requires hitting the ramp (2 clients at the start, +3 a month, an operator estimate), keeping 80 hours per client, and holding at least about 26 clients. The model does not include owner profit distributions beyond the administrator salary or state income taxes (the rate varies by source [not verified]). Startup cash covers the $300 application fee [S6], the LLC filing [S29] and the placeholder license fee. The working capital line is replaced in totals by the modeled ramp-up deficit.",
+    "risks": "**Regulatory and licensing**\n\n- **Rule change.** DCH revised Rule 111-8-65 in 2026, with a public hearing on June 16, 2026 and a final adoption notice dated 07/14/26 [S9][S10]. The adopted text and effective date were not retrieved. The HB 183 independent-contractor limit [S11] has an unverified adoption status.\n- **Unconfirmed fees and timing.** The Board-set license fee and renewal fee, the renewal interval and any late charge are unverified [S3][S6][S7][S52]. Consultant figures conflict ($250, $350, $500) [S43][S50], and the fee may be one category or two. No processing deadline is stated in the rule, so opening dates are uncertain.\n- **Portal and contacts.** The current licensing portal and the DCH PHCP contact details were not confirmed from an official page [S43]. The Georgia EVV support line is (833) 483-5587.\n- **Inspection findings.** A plan of correction is due within ten days of the report [S1]. Recordkeeping gaps (TB screening, 40-hour training, signed service agreements, supervisory visits every 122 days) are easy to miss [S1][S4][S5].\n- **Scope creep.** Offering nursing requires an RN supervisor [S5], and operating as a home health agency or personal care home brings other licenses and potentially a Certificate of Need [S1].\n- **Service agreement terms.** Clients may cancel at any time, and only a reasonable travel and staff-time charge may be billed for late cancellations. Revenue cannot be protected with minimum-hour or non-cancellable terms [S1].\n\n**Financial**\n\n- **Thin margins.** The default model nets 8.2% and the 15-client model 5.5%. At 60 hours per client, the default model earns about $8 a month. Small slips in hours, wages or occupancy can wipe out profit.\n- **Long ramp and cash.** The default needs about $112,167 and does not profit until month 10. The 15-client model does not profit until month 13 [model].\n- **Unsourced costs.** Office salaries, rent, insurance, workers' compensation and software are operator estimates. The $17.21 aide wage is the national median and a deliberately conservative choice. A secondary source reports a Georgia median of about $14.07, unconfirmed on bls.gov, and Atlanta may differ.\n- **Pricing.** The $32 per hour price is a statewide median [S17]. Local competition may force lower prices, and each $1 an hour lower costs the default model about $2,800 a month.\n- **Payroll taxes.** SUI is modeled at the 2.70% new-employer rate [S23]. Workers' compensation rates in effect after March 1, 2026 were not verified [S27].\n- **Overtime and travel time.** No overtime premium is modeled. A full-time client of 44 hours a week cannot be covered by a single aide without overtime. Travel time between clients is compensable. The status of the federal companionship exemption was not confirmed.\n\n**Medicaid**\n\n- **No verified rate.** Any Medicaid plan is speculative until a published DCH rate is found [S46].\n- **Slots and waitlists.** SOURCE is slot-capped and waitlists are common [S15][S37]. Waiver volume is limited and referral access runs through the AAAs [S16].\n- **EVV and enrollment.** EVV is mandatory for Medicaid personal care [S13]. The state system is free to providers, but a third-party EVV system costs extra. Revalidation and group/billing enrollment requirements were reported only by secondary sources.\n- **Funding.** The waiver approval expires 2027-11-08 [S12], and the federal share may be shrinking [S39].\n\n**Labor**\n\n- **Aide turnover and shortages.** The model assumes about 0.04 hires per client-month with 40 hours of paid training per hire. That is an operator assumption. Caregiver availability and call-outs are not modeled in detail.\n- **Worker classification.** Using independent contractors may conflict with the proposed HB 183 limit [S11] and with the rule's definitions [S1].\n\n**Insurance and liability**\n\n- **Coverage.** The $1M/$3M general liability figure is unconfirmed [S44]. Bonding is required for employees with unlimited access to client funds [S1], and vehicle insurance must be confirmed when employees drive client vehicles [S1]. Confirm the workers' compensation coverage trigger with the State Board of Workers' Compensation.",
+    "recommendations": "1. **Verify fees and rules with DCH before you commit capital.** Call or email HFRD through the PHCP page [S2] and ask for the current Schedule of Licensure Activity Fees (application, initial license, renewal and any per-service amount), the renewal term, the processing time, the correct portal, and the effective date and text of the 2026 revision of Rule 111-8-65 [S9][S10]. Budget for the $300 application fee, which DCH's checklist lists [S6]. Also ask what identity and Secure and Verifiable Documents filings the packet requires, and check the local business license or occupational tax.\n\n2. **Launch as a private-pay, non-nursing PHCP.** Keep services to personal care and companion/sitter tasks. That avoids the RN supervisor [S5] and the need for a Certificate of Need or another license [S1].\n\n3. **Target the 40-client configuration.** It is the model an experienced operator would run: a full-time administrator, one supervisor and one scheduler/billing coordinator, with 36 clients on service at 90% occupancy netting about $7,560 a month (8.2%) and breaking even near 26 clients (64.5% occupancy). Plan for about $112,167 of cash and about 10 months to first profit.\n\n4. **Protect hours per client.** Profit hinges on 80 billable hours a client-month. At 60 hours the default agency earns almost nothing. Favor clients who need regular, multi-day coverage and track average hours per client monthly. Do not use minimum-hour or non-cancellable terms in the service agreement. The client may cancel at any time and pays only for services rendered, and a late cancellation can carry only a reasonable travel and staff-time charge [S1]. The agreement must include the elements required by Rule .09(2)(a).\n\n5. **Price against your local market.** Start from the $32 CareScout statewide median [S17] and check against local licensed competitors using GaMap2Care [S2]. If you must price below $32, revisit staffing. Each $1 an hour is worth about $2,800 a month at the default size.\n\n6. **Confirm your real costs.** Replace the operator estimates with quotes: liability and non-owned auto insurance (and any $1M/$3M expectation [S44]), bond, workers' compensation, office rent and software. Confirm the Georgia OEWS wage on bls.gov. A secondary source reports about $14.07 an hour against the model's national $17.21 [S20]. Do not lower the modeled wage without testing local recruiting pay, overtime and travel time. Each $1 an hour on the wage is worth roughly $3,500 a month at the default size.\n\n7. **Build compliance in from day one.** Have the 40-hour aide training program (20 hours before serving, 20 within six months), TB screening at hire and annually, 8 annual in-service hours, signed service agreements (by the second visit if on a different day, otherwise within seven days), supervisory visits at least every 122 days and five-year record retention in your policy manual and software [S1][S4][S5]. Schedule aides at or under 40 hours a week or budget for overtime, and count travel time as work time. Consider accreditation, which DCH may treat as grounds to exempt a provider from periodic inspections [S1].\n\n8. **Stage the cash.** The 15-client owner-operated start needs only about $54,421 but earns $1,915 a month at best and does not profit until month 13. Use it only if the owner can run the office and take a modest salary. The 75-client model earns $18,813 a month (10.9%) but needs about $187,598, so reach it by growing from the 40-client base and not by launching at that size.\n\n9. **Treat Medicaid as a later option.** Before adding CCSP/SOURCE, ICWP or NOW/COMP personal support, obtain the official per-unit rate from DCH (T1019 or T2025 [S13]), confirm whether the service is paid fee-for-service or through a care management organization, and confirm enrollment steps, EVV onboarding (Netsmart MCG+, free to providers) [S13] and whether the $750 federal application fee applies [S19]. At the default cost structure, an all-Medicaid agency would need roughly $29 an hour to break even, so do not enter until a verified rate supports that. Hold your DCH license first, because DAS requires it for in-home waiver providers [S8].\n\n10. **Keep documents current.** File the LLC annual registration each year, starting January 1 [S29][S30], and notify DCH 15 days before any location change [S1]. Re-check the 2026 rule text and the license fee schedule once a year. After your first Georgia payroll is paid, complete the DOL-1A with GDOL; the new-employer SUI rate is 2.70% [S23]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide which services you will offer: companion/sitter, personal care, and/or nursing",
+      "instructions": "Georgia's private home care rule covers nursing, personal care tasks and companion/sitter tasks. Personal care includes help with bathing, toileting, grooming, shaving, dental care, dressing and eating. Companion/sitter tasks are transport and escort, meal preparation and serving, and household tasks essential to cleanliness and safety. Write down the exact service list before you apply, because the application must describe the services and the geographic area. This bundle's financial model assumes personal care and companion/sitter only. Adding nursing means you must employ a Georgia-licensed RN supervisor (see Phase 4). No cost; allow 1–2 days.",
+      "cite": "Rule 111-8-65-.03(c), (n); .06(1); .10(2)(a)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm you are not exempt, and that the license is required for your model",
+      "instructions": "A person who personally delivers services without agents, employees, contractors or referral arrangements is outside the rule. Any business that sends employees or contractors into homes, or refers caregivers, needs the license. Services delivered by a state-licensed home health agency or a personal care home are also outside this rule. No private home care provider may operate without a license or provisional license issued by DCH. Do not accept clients before the license or provisional license is in hand.",
+      "cite": "Rule 111-8-65-.05(1); .07(1)(a), (d)-(e)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Confirm no Certificate of Need is required",
+      "instructions": "A Certificate of Need is not required for licensure as long as you do not operate as a licensed home health agency or personal care home. If you plan to add skilled home health or a residential personal care home later, treat those as separate licenses with separate approval requirements. No cost.",
+      "cite": "Rule 111-8-65-.07(2)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Read the current compilation of Rule 111-8-65, including the 2026 amendments",
+      "instructions": "DCH held a public hearing on revisions to the private home care rules on June 16, 2026. Its public notices page lists a 'Final Adoption' notice dated 07/14/26. The adopted text and effective date were not verified for this bundle. Download the current rule from the Secretary of State site and the DCH notice, and check every requirement in this checklist against it before filing. Also check whether the HB 183 limit on independent contractors was adopted. Allow 2–3 hours.",
+      "cite": "Rule 111-8-65 (2026 revision); DCH hearing 2026-06-16; DCH notice 07/14/26",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Review the 2026 hearing page and the HB 183 draft notice on independent contractors",
+      "instructions": "DCH proposed revising the definition of a private home care provider to implement HB 183. The proposal would limit the use of independent contractors to licensed professionals under Title 43. Plan to employ aides as W-2 employees. Do not build a 1099 caregiver model unless the final rule and HB 183 clearly allow it. Adoption status is unverified. Free; 1 hour.",
+      "cite": "Proposed revision of Rule 111-8-65-.03 (HB 183)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form your legal entity (LLC or corporation)",
+      "instructions": "File Articles of Organization with the Georgia Secretary of State, Corporations Division. Georgia.gov directs mailed filings to include a $110 filing fee. Confirm the current fee and filing method before you file. When a corporation owns the provider, the corporation is the licensee, so form the entity before you apply for the license. Typically 1–2 weeks by mail.",
+      "cite": "Georgia Secretary of State; Rule 111-8-65 (licensee)",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply online at irs.gov. It is free and is typically issued immediately. You need it for payroll, banking, the entity's tax account and later Medicaid enrollment. Operator step.",
+      "cite": "IRS EIN application",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a business bank account and set up bookkeeping",
+      "instructions": "Keep agency funds separate from personal funds. Choose accounting software that handles payroll and invoicing. Budget about $400–$800 a month for accounting, payroll service and legal in the model (operator estimate). Allow 1 week.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the Georgia LLC annual registration",
+      "instructions": "File the annual registration every year in the window that opens January 1. A secondary source puts the fee at $60 ($50 base plus a $10 service charge). Confirm the current fee and the closing date on the Secretary of State page. This bundle does not model a franchise tax for a pass-through LLC; confirm treatment with a CPA.",
+      "cite": "Georgia Secretary of State annual registration",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Consult an attorney and CPA on entity choice, state income tax and the wage-hour rules",
+      "instructions": "Georgia's 2026 state income tax rate varies across sources and was not verified. A CPA should confirm entity taxation. An attorney should review your service agreement and employee handbook. Budget a few hundred to a few thousand dollars (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Choose your office location and confirm local zoning and lease terms",
+      "instructions": "Each physical office location must be separately licensed, and the license must be displayed at the site. Georgia zoning rules for a home-based office were not found. Check city or county zoning and the lease before signing. The model uses an operator estimate of $500–$2,800 a month depending on size; get local quotes. A move after licensure requires 15 days' advance notice to DCH.",
+      "cite": "Rule 111-8-65-.05(2)(a)-(c)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Locate the current DCH application forms and portal",
+      "instructions": "Initial applications must be submitted on forms provided by the department. Consultants say applications go through the GAHLES portal, while a 2016 DCH notice referred to the GAMMIS web portal. No official current-portal page was confirmed. Start at the DCH Private Home Care Program page and confirm by contacting HFRD before paying any fee. Allow 1–3 days.",
+      "cite": "Rule 111-8-65-.06(1)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Identify the owner and governing body for the application",
+      "instructions": "If a corporation owns the agency, the corporation is the licensee, and its governing body authorizes the application. Prepare ownership documents, officer and owner names, and the entity's formation papers. Allow 1–2 days.",
+      "cite": "Rule 111-8-65 (licensee, .09(3))",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Appoint an administrator",
+      "instructions": "The governing body must appoint an administrator with full authority and responsibility for operating the agency. The administrator must have no credible finding of abuse or neglect and must complete the orientation and training the rules require. The rule text retrieved sets no clock-hour figure or experience level. In the owner-operated model, the owner fills this role. A full-time administrator is modeled at $48,000–$70,000 a year (operator estimates).",
+      "cite": "Rule 111-8-65-.09(3), (3)(a)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Write the service description and geographic service area",
+      "instructions": "The initial application must include a description of the private home care services you will offer and the geographic area served. List the counties you will serve. Make sure your hiring and referral plans match the territory. Allow 1–2 days.",
+      "cite": "Rule 111-8-65-.06(1)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Complete the owner records (criminal background) check",
+      "instructions": "Before any new license is issued, the owner of the business must comply with the Criminal Background Checks rules in Chapter 111-8-12. The application also includes a records check application for the owner. Whether the GCHEXS fingerprint process applies to PHCP owners and staff was not verified from an official source; ask HFRD. Fee is an operator estimate of $50–$100.",
+      "cite": "Rule 111-8-65-.05(1)(b); .06(1); Chapter 111-8-12",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "CRITICAL",
+      "task": "Draft your written policies and procedures",
+      "instructions": "Your operations must comply with Rule 111-8-65 on service agreements, personnel files, client records, supervision and complaints. Write the manual to the rule headings and keep it ready for inspection. Operator estimate: $1,500–$6,000 for a purchased or consultant-drafted manual. Allow 2–4 weeks.",
+      "cite": "Rule 111-8-65-.09; .10",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "HIGH",
+      "task": "Prepare the client service agreement template",
+      "instructions": "A written service agreement is required for each client. For a new client it must be signed by the second visit or within seven calendar days after services are first provided, whichever comes first. Have an attorney review it. Include rate, hours, cancellation terms and the service list.",
+      "cite": "Rule 111-8-65-.09(2)(b)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSE APPLICATION PREPARATION",
+      "priority": "HIGH",
+      "task": "Design the 40-hour aide training program",
+      "instructions": "Aides need successful completion or progress in a 40-hour training program provided by a private home care provider, or an equivalent credential such as a nurse aide credential. Twenty hours must be completed before serving clients and the other twenty within six months. Build or buy a curriculum, and keep a roster and certificates. Operator estimate: $500–$2,000 for setup.",
+      "cite": "Rule 111-8-65-.09(5)(c)1.(iv), (5)(c)2",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "CRITICAL",
+      "task": "Pay the $300 application processing fee",
+      "instructions": "DCH's checklist lists a $300 application processing fee, due when the application is submitted. Application fees are non-refundable. Consultants cite $350 and $500, but these conflict with DCH's own checklist. Confirm the amount on the current DCH form before paying.",
+      "cite": "DCH application checklist; Rule 111-8-65-.06(1)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "CRITICAL",
+      "task": "Pay the Board-set license fee before the license is issued",
+      "instructions": "The rule requires an application fee and a license fee established by the Board of Community Health. All licensure fees must be paid in full before a permit or license is issued. The license fee amount was not verified. A consultant cites $250 per service per year, and DCH lists the annual fee as 'Varies by program'. This bundle budgets $500–$750 as a placeholder. Ask HFRD for the current fee schedule.",
+      "cite": "Rule 111-8-65-.06(1); DCH checklist",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "CRITICAL",
+      "task": "Submit the complete application package",
+      "instructions": "Package contents: department application form, application fee, license fee, owner records check application, description of services and geographic area, and any entity documents DCH asks for. Keep a copy of everything and a record of the submission date. The rule text retrieved gives no processing deadline; secondary guides say 60–90 days, which is unverified. Plan on a 2–3 month wait before you can open.",
+      "cite": "Rule 111-8-65-.06(1)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "HIGH",
+      "task": "Ask whether a provisional license applies to your new agency",
+      "instructions": "DCH may issue a conditional provisional license to give a newly established provider a reasonable, but limited, time to show its operational procedures comply with the rules. The term is not stated in the rule text retrieved; one vendor says one year and non-renewable, which is unverified. Ask HFRD how long the provisional license lasts and what it will inspect before the full license.",
+      "cite": "Rule 111-8-65-.05(1)(c)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "HIGH",
+      "task": "Respond promptly to any DCH requests for information",
+      "instructions": "Check your email and the portal daily after submission. Keep a log of all calls and messages with DCH. Fees are cost-based and non-refundable, and refunds are possible only for good cause, so avoid repeat filings caused by incomplete submissions.",
+      "cite": "Rule 111-8-65-.06(3)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "MEDIUM",
+      "task": "Confirm DCH contact details for the Private Home Care Program",
+      "instructions": "A current DCH phone number was not found on the official pages. A consultant lists hfrd.phcp@dch.ga.gov for PHCP inquiries, which is not confirmed on an official DCH page. Use the DCH Private Home Care Program page to confirm before relying on it.",
+      "cite": "DCH HFRD Private Home Care Program page",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — SUBMIT THE APPLICATION & FEES",
+      "priority": "MEDIUM",
+      "task": "Do not transfer or assign the license",
+      "instructions": "A license cannot be assigned or transferred. A change of ownership or of location needs DCH action, and 15 days' advance notice for a location change. Plan any future sale or move accordingly.",
+      "cite": "Rule 111-8-65-.05(2)(c)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Set wages at or above the legal floor and test the local labor market",
+      "instructions": "The federal minimum wage of $7.25 applies to most Georgia employees; the state statute is $5.15 and rarely controls. Georgia cities generally do not set a higher local minimum wage. The model uses the May 2025 national median for home health and personal care aides ($35,800 a year, about $17.21 an hour); a Georgia-specific May 2025 BLS wage was not retrieved, and a 2023 ASPE Georgia median was $12.99 an hour. Check local job postings and set your wage before you recruit.",
+      "cite": "FLSA; O.C.G.A. 34-4-3",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Build the personnel file checklist",
+      "instructions": "Each employee's file must contain what Rule 111-8-65-.09(4) requires, including documentation of a satisfactory TB screening upon employment and annually thereafter. Documentation of bonding is required if the employee does home management with unlimited access to the client's funds. Create a file template and check it for every hire before the first client shift.",
+      "cite": "Rule 111-8-65-.09(4)(c)4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Require TB screening at hire and every year",
+      "instructions": "Arrange TB testing through an occupational health clinic or health department. Calendar each employee's annual renewal date. Model cost is an operator estimate within the per-hire screening line.",
+      "cite": "Rule 111-8-65-.09(4)(c)4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete 20 of the 40 aide training hours before any client assignment",
+      "instructions": "Twenty hours of the program must be completed before the employee serves clients, and the other twenty within six months. Employees with an equivalent credential (such as a nurse aide credential) satisfy the requirement. Track completion dates in the personnel file. Paid training time is modeled at roughly 40 hours × $17.21 per hire (operator calculation).",
+      "cite": "Rule 111-8-65-.09(5)(c)1.(iv), (5)(c)2",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "HIGH",
+      "task": "Schedule the second 20 training hours within six months of hire",
+      "instructions": "Put a six-month deadline in your HR calendar for each aide. Do not assign full caseloads before the second block of hours is done if your policy requires it.",
+      "cite": "Rule 111-8-65-.09(5)(c)2",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "HIGH",
+      "task": "Plan 8 hours of annual in-service training per employee",
+      "instructions": "After an employee's first year, a minimum of eight clock hours of training or instruction is required every year. Schedule group sessions and track attendance. Model budget: about $100–$250 a month for training materials (operator estimate).",
+      "cite": "Rule 111-8-65-.09(6)(b)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "HIGH",
+      "task": "Hire a client services supervisor and a scheduler as the census grows",
+      "instructions": "The default 40-client model includes one supervisor ($42,000), one scheduler/billing coordinator ($38,000) and an administrator ($60,000). All are operator estimates because Georgia BLS wages were not retrieved. The rule text retrieved sets no supervisor credential for non-nursing services. Re-check the current compilation.",
+      "cite": "Rule 111-8-65-.10(2)(b)1; .09(2)(b)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "CRITICAL",
+      "task": "If you will provide nursing services, employ a Georgia-licensed RN supervisor",
+      "instructions": "A provider that offers nursing services must employ a fully licensed Georgia registered professional nurse to supervise those services. Nursing services are limited to RNs and LPNs under the rule's definition. This bundle's model does not include nursing. If you add it, budget RN wages (not modeled) and update your service description.",
+      "cite": "Rule 111-8-65-.10(2)(a)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "HIGH",
+      "task": "Build a recruiting and background-check workflow",
+      "instructions": "Screen every applicant before hire and keep results in the personnel file. Verify any additional fingerprint or registry requirements in the current rule and with HFRD; the GCHEXS process for staff was not verified. Model estimate: $12 per client per month for checks and TB screening.",
+      "cite": "Chapter 111-8-12; Rule 111-8-65-.09(4)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, PERSONNEL FILES & TRAINING",
+      "priority": "HIGH",
+      "task": "Decide whether any caregiver will handle client money, and arrange bonding",
+      "instructions": "Any employee authorized unlimited access to a client's personal funds for home management must be bonded through the provider. Either restrict aides from handling cash, or buy a fidelity bond. Model estimate: $30 a month (operator estimate; get quotes).",
+      "cite": "Rule 111-8-65-.03(g); .09(4)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Register as an employer with the Georgia Department of Labor",
+      "instructions": "Register for state unemployment insurance before your first payroll. The taxable wage base is $9,500 per employee. New-employer rates are reported as 2.70% (OnPay) or 2.64% (PaycheckCity); the official 2026 rate was not confirmed, so use the rate DOL assigns you. Experience-rated rates range from 0.04% to 8.10% per TaxBandits.",
+      "cite": "Georgia DOL unemployment insurance",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Set up federal payroll withholding and employer tax deposits",
+      "instructions": "Register for payroll withholding and employer FICA. Consider a payroll service. The model's payroll-tax burden is 9.5% of wages (operator calculation); workers' comp and benefits are added separately. FUTA is assumed on the first $7,000 per employee.",
+      "cite": "",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Confirm the workers' compensation requirement and buy coverage",
+      "instructions": "The mandatory-coverage employee threshold was not verified (one secondary source says 3 or more employees). Ask a Georgia insurance broker. NCCI proposed an 8.8% decrease in voluntary loss costs effective March 1, 2026, but the rates in effect were not confirmed. The model uses 5% of payroll (operator estimate). Allow 1 week for quotes.",
+      "cite": "O.C.G.A. Title 34, Chapter 9",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Buy general and professional liability coverage",
+      "instructions": "A secondary summary says DCH requires $1 million per occurrence and $3 million aggregate general liability, but this was not found in Rule 111-8-65. Ask HFRD whether a minimum applies, and get quotes at or above those limits, since many clients and referral partners ask for proof. Model estimate: $700 a month base plus $15 per client (operator estimates).",
+      "cite": "Rule 111-8-65 (insurance not found); secondary summary",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "HIGH",
+      "task": "Set up the motor vehicle insurance process",
+      "instructions": "If an employee drives a client's vehicle and the vehicle is not client-owned, the provider must obtain a signed waiver or make reasonable efforts to confirm there is current motor vehicle insurance. Add hired and non-owned auto coverage to your policy and keep the waiver or proof in the client file.",
+      "cite": "Rule 111-8-65 (vehicle insurance)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "HIGH",
+      "task": "Set up wage-hour compliance for travel time and overtime",
+      "instructions": "Time spent traveling between clients during the workday is generally compensable under the FLSA. Plan scheduling so aides' hours are tracked and overtime is controlled. The model assumes 4% paid non-billable time (operator estimate). Review with an employment attorney or the U.S. DOL.",
+      "cite": "29 CFR §552.109(a)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Check for any higher local wage rules in your service area",
+      "instructions": "Georgia cities generally do not set a higher local minimum wage, including Atlanta. Confirm for your county before finalizing wages.",
+      "cite": "",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "HIGH",
+      "task": "Choose scheduling, billing and client-record software",
+      "instructions": "Select software that handles scheduling, caregiver call-outs, invoicing and clinical notes. Model estimate: $250 a month plus $12 per client (operator estimates; get vendor quotes). Medicaid personal support also requires Georgia's state EVV system (see Phase 8).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "CRITICAL",
+      "task": "Set up client record systems with five-year retention",
+      "instructions": "All client records must be retained for five years from the date of last service. Use a secure, backed-up system with access controls. Keep a destruction log after the retention period ends.",
+      "cite": "Rule 111-8-65-.09(4)(b)1",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "CRITICAL",
+      "task": "Schedule supervisory home visits at least every 122 days per client",
+      "instructions": "The appropriate supervisor must make a supervisory home visit to each client's residence at least every 122 days. Track the next-due date for every client in your software. At 75 clients that is roughly 225 visits a year. Model mileage is an operator estimate of $7 per client per month.",
+      "cite": "Rule 111-8-65-.10(2)(b)1",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "HIGH",
+      "task": "Create the client intake and assessment process",
+      "instructions": "Define how you take referrals, assess needs, write the care plan and sign the service agreement within the 7-day limit. Document the process in your manual. Allow 1–2 weeks.",
+      "cite": "Rule 111-8-65-.09(2)(b); .10",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "HIGH",
+      "task": "Set up a complaint, incident and emergency procedure",
+      "instructions": "Write procedures for incident reporting, client complaints, caregiver no-shows and emergencies, and train every employee on them. Keep logs ready for inspection.",
+      "cite": "Rule 111-8-65-.09",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up office equipment, phones and an after-hours line",
+      "instructions": "Budget $2,000–$12,000 for furniture, computers and phones, and $250–$600 a month for utilities, phones, internet and IT (operator estimates). Post the license at the licensed location once issued.",
+      "cite": "Rule 111-8-65-.05(2)(b)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "MEDIUM",
+      "task": "Set your private-pay rate card using the Georgia benchmark and local competitors",
+      "instructions": "CareScout's 2025 survey puts Georgia's non-medical caregiver median at $32 per hour ($201 per day; $6,101 per month, based on 44 hours a week over 52 weeks). That is a statewide median. Check Atlanta-metro and rural prices against local competitors before you set rates. Set minimum shift lengths and any overnight or holiday premiums.",
+      "cite": "CareScout Cost of Care Survey 2025",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS & SYSTEMS SETUP",
+      "priority": "MEDIUM",
+      "task": "Test your hours-per-client assumption",
+      "instructions": "The default model assumes 80 billable hours per client per month, an operator estimate with no Georgia source. The sensitivity model at 60 hours breaks even only at 90% census and nets about $8 a month for a 40-client agency. Track actual hours per client in your first 90 days and adjust staffing and pricing.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "CRITICAL",
+      "task": "Prepare for the DCH licensure inspection",
+      "instructions": "DCH inspects providers periodically; the rule sets no fixed interval. Before opening, assemble personnel files, training records, policies, sample service agreements and client-record forms. DCH may exempt a provider from periodic inspections if it is certified or accredited by an approved body; ask HFRD which bodies qualify.",
+      "cite": "Rule 111-8-65-.08(1)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "CRITICAL",
+      "task": "Submit a plan of correction within ten days of any inspection report",
+      "instructions": "If an inspection finds violations, submit an acceptable plan of correction within ten days of receiving the written report. Assign one person to receive DCH mail and email and to calendar the deadline the day the report arrives.",
+      "cite": "Rule 111-8-65-.08(4)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "CRITICAL",
+      "task": "Confirm all licensure fees are paid and receive the license",
+      "instructions": "All licensure fees must be paid in full before a permit or license is issued. Once issued, display the license at the licensed location. Do not begin client services before the license or provisional license is issued.",
+      "cite": "DCH checklist; Rule 111-8-65-.05(1), (2)(b)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "HIGH",
+      "task": "Verify the agency on GaMap2Care",
+      "instructions": "DCH's HFRD site links to GaMap2Care for finding licensed facilities. Once licensed, confirm your listing is accurate, since referral sources use it to verify providers. A count of licensed PHCPs was not retrieved.",
+      "cite": "DCH HFRD Private Home Care Program page",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "HIGH",
+      "task": "Start with a small private-pay census and a realistic ramp",
+      "instructions": "The default 40-client model starts with 2 clients and adds about 3 a month (operator estimate), reaching first profit in month 10 with about $112,167 of cash needed. The 15-client owner model reaches first profit in month 13 with about $54,421 needed. Fund the full ramp-up deficit before you launch.",
+      "cite": "Model results (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "MEDIUM",
+      "task": "Build referral relationships before the license date",
+      "instructions": "Meet hospital and rehab discharge planners, senior living communities, elder-law attorneys, geriatric care managers and physician offices in your service area. Budget about $1,200–$2,000 a month for marketing (operator estimate). No Georgia referral-source breakdown was found.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — INSPECTION, LICENSE ISSUANCE & LAUNCH",
+      "priority": "MEDIUM",
+      "task": "Launch your website and Google Business profile",
+      "instructions": "State that you are a DCH-licensed private home care provider, describe the services you offer, and list your service area. Do not advertise nursing services unless you employ the RN supervisor the rule requires. Budget $2,000–$8,000 for launch marketing (operator estimate).",
+      "cite": "Rule 111-8-65-.10(2)(a)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Understand how the waiver programs pay for personal support",
+      "instructions": "Georgia's Elderly and Disabled Waiver (CCSP/SOURCE) is a 1915(c) waiver approved from 11/09/2022 to 11/08/2027. DCH handles provider reimbursement, enrollment and utilization review, while DAS runs day-to-day CCSP operations. CCSP and SOURCE serve frail elderly and disabled Georgians who qualify at a nursing-facility level of care. Personal support (assistance with daily living activities) is a core service. NOW and COMP serve people with I/DD through DBHDD; ICWP is a separate waiver.",
+      "cite": "Social Security Act §1915(c); CMS waiver 0112.R08.00",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "CRITICAL",
+      "task": "Confirm that you hold the DCH PHCP license waiver in-home providers must have",
+      "instructions": "The DAS manual says providers of in-home services must provide a current, valid license to operate a private home care agency issued by DCH. One secondary source says a CCSP provider must hold the license for a period before applying, with application windows; this is unverified, so ask DAS before assuming a timeline.",
+      "cite": "DHS DAS HCBS 5300 Manual §208",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Request the current Georgia Medicaid rates for personal support before you model any waiver revenue",
+      "instructions": "No official per-unit Georgia rate was retrieved for T1019 (CCSP/SOURCE), or T2025 (ICWP, NOW, COMP). Georgia does not publish a single fee schedule document; check GAMMIS and DCH provider notices. This bundle does not model any Medicaid revenue. Do not add a rate to your own financial model until you have a written DCH source.",
+      "cite": "HCPCS T1019; GAMMIS fee schedules",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Know the billing codes by waiver",
+      "instructions": "Per DCH's EVV page, CCSP and SOURCE (waiver IDs 590/930) bill personal support under T1019, with modifiers TF or UC for extended or consumer-directed support. ICWP (ID 660) bills T2025 with U5 plus TF or TG. NOW and COMP (IDs 680/681) bill community living supports under T2025 with U4 or U5. T1019 is a per-15-minute unit and is not for services identified as home health aide or CNA.",
+      "cite": "Georgia DCH EVV page; HCPCS T1019",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Ask DCH whether waiver personal support is paid fee-for-service or through a CMO",
+      "instructions": "Most Georgia Medicaid members are enrolled in one of three care management organizations under Georgia Families, but whether CCSP/SOURCE personal support is carved in or paid fee-for-service was not confirmed. Get this in writing from DCH before signing any CMO contract.",
+      "cite": "DCH Medical Assistance Plans",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Complete Georgia Medicaid provider enrollment",
+      "instructions": "Enroll through DCH's Medicaid provider enrollment process and GAMMIS. The federal CY2026 provider enrollment application fee is $750, effective January 1, 2026. Whether it applies to a Georgia personal support agency was not confirmed. A secondary source says group/billing enrollment became required on January 1, 2026; verify with DCH.",
+      "cite": "Federal Register CY2026 application fee notice",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "CRITICAL",
+      "task": "Onboard to Georgia's EVV system (Netsmart Mobile Caregiver+)",
+      "instructions": "Federal law under the 21st Century Cures Act requires EVV for Medicaid-financed personal care services. Georgia's official EVV system is Netsmart's Mobile Caregiver+ (MCG+). Each visit must record at minimum the service type, recipient, provider, service date, location and start/end times. DCH's page lists the HHCS EVV soft go-live as August 31, 2026 and mandatory EVV for claims with dates of service on or after September 14, 2026. Confirm the exact timeline for your waiver service.",
+      "cite": "21st Century Cures Act; Georgia DCH EVV program",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Use DCH EVV support for onboarding and claims",
+      "instructions": "DCH's EVV support page notes that EVV claims are submitted through GAMMIS. Use it for training and claims questions. Budget staff time for visit corrections before billing.",
+      "cite": "Georgia DCH EVV support",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "HIGH",
+      "task": "Understand waiver access routes and waitlists before building a Medicaid pipeline",
+      "instructions": "DAS administers its programs through the Area Agencies on Aging, which are the access route for in-home services. The state portal warns that there is often a waitlist and that availability varies with capacity and need. NOW/COMP are managed from a DBHDD planning list of about 7,900 people (September 2025). The final FY2027 count of new NOW/COMP slots is disputed between 900 (bill text) and 100 (advocacy summaries).",
+      "cite": "DAS programs; DCH waiver page; NOW/COMP report",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "MEDIUM",
+      "task": "Check eligibility rules so you can explain them to families",
+      "instructions": "Secondary sources report a 2026 CCSP income limit of $2,982 a month (300% of the federal benefit rate), with some still citing $2,901, SOURCE at the SSI level ($994 a month for 2026), and a $2,000 asset limit. None was confirmed with DHS or DCH. Refer families to the Area Agency on Aging for eligibility screening.",
+      "cite": "CCSP/SOURCE eligibility",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID WAIVER PERSONAL SUPPORT (OPTIONAL SECOND PHASE)",
+      "priority": "MEDIUM",
+      "task": "Monitor waiver funding and renewal risk",
+      "instructions": "Georgia's FMAP is 66.40% for federal fiscal year 2026. A secondary analysis projects a further fall in the federal share of EDWP costs. The current waiver approval expires 11/08/2027. Check for renewal notices before committing to a Medicaid-heavy model.",
+      "cite": "CMS waiver 0112.R08.00; FMAP FFY 2026",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "CRITICAL",
+      "task": "Calendar the license renewal",
+      "instructions": "Licenses are renewed periodically from the date of initial issuance upon a renewal application and the Board-set renewal fee. The rule gives no interval, and one vendor says annual. Ask HFRD for your exact renewal date and fee. A 2016 DCH packet cites a $150 late charge for fees not paid within 60 days of expiration, which is not confirmed as current. The model budgets $41.67 a month (placeholder).",
+      "cite": "Rule 111-8-65-.06(2)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Notify DCH 15 days before moving locations",
+      "instructions": "DCH must receive 15 days' notice in advance of any change in location. Each location must be separately licensed, so a second office needs its own license.",
+      "cite": "Rule 111-8-65-.05(2)(a), (c)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Run an annual compliance audit against Rule 111-8-65",
+      "instructions": "Each year, sample personnel files (TB screen, training hours, bonding), client files (signed agreements, supervisory visits within 122 days) and record retention. Fix gaps before an inspection finds them.",
+      "cite": "Rule 111-8-65-.09; .10",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Review financials monthly against break-even",
+      "instructions": "At the default 40-client private-pay configuration the model shows net income of about $7,560 a month (8.2% margin) at 90% census and break-even near 64.5% occupancy. The 75-client model nets about $18,813 a month (10.9%, break-even 56.1%). The 15-client owner model nets about $1,915 a month (5.5%, break-even 72.7%). Track census, billable hours per client and caregiver hours weekly.",
+      "cite": "Model results (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Keep a reserve sized to the ramp-up deficit",
+      "instructions": "Modeled cash needed before reaching positive cash flow is about $54,421 (15 clients), $112,167 (40 clients) and $187,598 (75 clients). No minimum capitalization requirement was found in the rule text retrieved, but a payroll shortfall is the main risk for a new agency.",
+      "cite": "Model results (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Track aide turnover and wage competitiveness",
+      "instructions": "The model's wage assumption ($17.21 an hour, national median) is above the stale Georgia ASPE figure ($12.99 in 2023). Watch the local market, because turnover drives recruiting and 40-hour training costs. Model estimate: about $45 per client per month for recruiting and onboarding (operator estimate).",
+      "cite": "BLS May 2025; ASPE 2023",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Monitor the market and demand signals",
+      "instructions": "Georgia has the ninth fastest growing population aged 60 and older, at over 2.3 million (2025), per DAS citing Census data. Genworth's 2024 survey put Georgia's home health aide median at $66,352 a year, up 7%. Use these as context only; no Georgia private-pay market size or competitor count was found.",
+      "cite": "DHS DAS; Genworth",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Re-check rule and fee changes twice a year",
+      "instructions": "Review the DCH Private Home Care Program page, the public notices page and the Secretary of State rule compilation every six months for changes to Rule 111-8-65, fees and the licensing portal. Update your manual and training when the rule changes.",
+      "cite": "Rule 111-8-65; DCH public notices",
+      "source_id": "S10"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Georgia OEWS wage (~$14.07) found; notes said none retrieved",
+      "change": "Rewrote the four caregiver wage notes, market_conditions, financial_narrative, risks, recommendations, key_numbers[11] and not_claimed[10]. $17.21 is kept as a labeled conservative recruiting wage, and the $14.07 figure is flagged as secondary and unconfirmed on bls.gov. Dollar gap quantified; no wage or cost values lowered."
+    },
+    {
+      "issue": "SUI new-employer rate confirmed at 2.70% by GDOL",
+      "change": "Rewrote payroll_burden.notes, set payroll_burden.source_id to S23, dropped the 2.64% conflict from narrative, risks and market text, and updated not_claimed[11]."
+    },
+    {
+      "issue": "Checklist item 36 (DOL-1A timing) and the service-agreement checklist item 17 and the missing-items checklist entries",
+      "change": "Not patched because the checklist array was not provided. Service-agreement terms, cancellation limits and the DOL-1A timing were corrected in the narrative sections and key_numbers[6] instead. The checklist itself still needs editing."
+    },
+    {
+      "issue": "Overtime/travel time not modeled while citing 29 CFR 552.109",
+      "change": "No numbers changed. Added an explicit no-overtime assumption and the 40-hour scheduling cap to the staffing notes, payroll notes, operations, narrative, risks and recommendations. Added a not_claimed entry for the unconfirmed rule status."
+    },
+    {
+      "issue": "EVV provider cost unverified",
+      "change": "Updated opex[6].notes: the state EVV system is free to providers, third-party systems cost extra, and the 9/14/2026 home health date is noted. Updated operations and risks."
+    },
+    {
+      "issue": "Regulator contact fields empty",
+      "change": "Added the EVV support line (833) 483-5587 to regulators[1].phone and contacts[2]. Other contacts left blank because they are unverified."
+    },
+    {
+      "issue": "$300 application fee cited only to unfetchable S6",
+      "change": "Kept $300 and S6. Added notes that the fee is corroborated by the 2014 DCH fee notice and secondary guides and should be confirmed on the current packet."
+    },
+    {
+      "issue": "PHCP license fee may be one category, not two",
+      "change": "Kept the placeholder amounts. Notes in opex[1] and startup_costs[2] now say one or two categories and possible FTE tiers."
+    },
+    {
+      "issue": "Service agreement timing and cancellation terms; recommendation to set minimum hours conflicted with rule .09(2)(c)",
+      "change": "Corrected the operations bullet, key_numbers[6] and recommendation 4. Removed the minimum-hours advice and added a no-minimum-hour, no-non-cancellable-terms warning."
+    },
+    {
+      "issue": "Missing business license, identity documents and workers' comp trigger",
+      "change": "Added not_claimed[23] and a mention in recommendation 1 and the risks. Cost left unquantified because it is unverifiable. Existing workers' comp cost line kept."
+    },
+    {
+      "issue": "LLC fees and several rule figures unverifiable",
+      "change": "Added not_claimed[24] for rule figures and waiver codes. LLC fees were left as is, since the existing text already hedges them."
+    }
+  ]
+}

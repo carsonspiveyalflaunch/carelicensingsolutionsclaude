@@ -1,0 +1,98 @@
+{
+  "bundle_slug": "new-jersey-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 34,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "regulators[0].phone",
+      "current": "(973) 504-6367 (from an older DCA guide; verify)",
+      "correct": "(973) 504-6370",
+      "evidence": "The DCA Health Care Service Firms page (Regulated Business Section) lists Call: (973) 504-6370 and email regulatedbusiness@dca.njoag.gov.",
+      "source_url": "https://www.njconsumeraffairs.gov/hcservice",
+      "fix": "Set regulators[0].phone to \"(973) 504-6370\" and drop the \"older DCA guide; verify\" caveat. Update checklist task 0, which tells the reader to confirm scope with the DCA Regulated Business Section, so it names this number."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[0].email",
+      "current": "",
+      "correct": "regulatedbusiness@dca.njoag.gov",
+      "evidence": "The DCA HCSF page lists the Regulated Business Section email as regulatedbusiness@dca.njoag.gov.",
+      "source_url": "https://www.njconsumeraffairs.gov/hcservice",
+      "fix": "Set regulators[0].email to \"regulatedbusiness@dca.njoag.gov\"."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[0].notes",
+      "current": "Supersedes $23.00/hour effective 1/1/2022 [S19].",
+      "correct": "SPA 24-0013 supersedes TN 23-0012. An intermediate MCO state-mandated rate of $25.16/hour took effect 7/1/2023.",
+      "evidence": "The SPA page reads 'SUPERCEDES: TN: 23-0012 MA (NJ)'. Horizon's notice says the state-mandated rate was $6.29 per 15-minute unit ($25.16/hour) from July 1, 2023. $23.00/hour was the January 1, 2022 rate.",
+      "source_url": "https://www.medicaid.gov/medicaid/spa/downloads/NJ-24-0013.pdf",
+      "fix": "Replace the sentence with: 'Supersedes TN 23-0012 (the 2023 rate; the MCO-mandated minimum was $25.16/hour from 7/1/2023; $23.00/hour applied from 1/1/2022).'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[1]",
+      "current": "$6.29 per 15 minutes ($25.16/hour), effective 2023-07-01, shown as the MCO PCA rate",
+      "correct": null,
+      "evidence": "The Horizon notice confirms $6.29 per unit, or $25.16/hour, effective July 1, 2023, as the 'state-mandated rate'. SPA 24-0013 later set the FFS PCA rate at $26.68/hour effective July 1, 2024. I found no source showing the current MCO mandated minimum.",
+      "source_url": "https://www.horizonnjhealth.com/for-providers/news/updates-and-announcements/notice-to-personal-care-assistant-pca-providers",
+      "fix": "Unverifiable. Mark this row as superseded or historical. Ask DMAHS or an MCO for the post-7/1/2024 mandated minimum before using it. It must not be used as a current MCO floor."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex[item='Other NJ entity-level taxes and fees (business tax minimums, local licences)'].monthly",
+      "current": 0,
+      "correct": null,
+      "evidence": "The dataset itself says 'Not verified: no NJ business tax or local licence amounts were retrieved, so $0 is a placeholder.' NJ imposes minimum entity-level taxes or filing fees on corporations and multi-member LLCs. I could not retrieve the amounts.",
+      "source_url": "https://www.nj.gov/treasury/taxation/",
+      "fix": "Unverifiable. Replace the $0 placeholder with the NJ Division of Taxation minimums for the chosen entity type: the CBT minimum tax for a corporation, or the partnership filing fee per member for a multi-member LLC. Until then, flag the pro forma profit as overstated by this missing mandatory cost."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden.benefits_pct (nj_medicaid100, nj_medicaid200)",
+      "current": 0.04,
+      "correct": null,
+      "evidence": "Derived from the staffing table. nj_medicaid100 has 100 clients × 83.2 aide hours = 8,320 hours/month. That is about 69 FTEs on the ACA 120-hours-per-month basis, or 48 on a 173-hour basis. Add 1 administrator, 0.75 RN and 2 coordinators. nj_medicaid200 has 16,640 aide hours/month, or about 139 FTEs on the ACA basis. Both exceed the 50-FTE threshold of the federal employer shared-responsibility rule (IRC §4980H). nj_private60 and nj_mixed60 are about 46 FTEs and stay below it.",
+      "source_url": "https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer",
+      "fix": "For nj_medicaid100 and nj_medicaid200, add an ACA large-employer cost: either an offer of affordable coverage or the §4980H penalty. The flat 4% benefits load (which includes paid sick leave) will understate cost. Amounts not verified; get a broker or CPA quote."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.notes (UI/WF rate)",
+      "current": "NJ new-employer UI plus WF/SWF rate is 2.80% ... covers July 2025–June 2026; the July 2026–June 2027 rate was not verified.",
+      "correct": null,
+      "evidence": "The NJDOL rate-information page was revised 08/14/2026, so the July 2026–June 2027 rates should now be published. The fetched text was truncated before the rate tables, so I could not confirm 2.6825%, 0.1175% or 0.50%.",
+      "source_url": "https://www.nj.gov/labor/ea/employer-services/rate-info",
+      "fix": "Unverifiable. Today is Oct 14, 2026, so replace the 2025-26 rates with the July 2026–June 2027 new-employer UI, WF/SWF and TDI rates and the 2026 taxable wage base from the NJDOL page."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[role='Health care practitioner supervisor'].wage_hourly",
+      "current": 46.9,
+      "correct": null,
+      "evidence": "$46.90/hour ($97,550/year) is the verified BLS national RN median for May 2025. The dataset admits 'NJ wage is probably higher'. The model therefore uses a national figure for a required NJ-licensed supervisor.",
+      "source_url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "fix": "Unverifiable. Replace with the BLS OEWS NJ median for SOC 29-1141 and apply the payroll burden. The supervisor is a mandatory cost, so using the national median understates it."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=12].instructions",
+      "current": "Premiums are operator estimates ($400–$700/month in the model).",
+      "correct": "The model's opex is $500/month base plus $15 per client. That is about $800/month at 20 clients, $1,100 at 40 and $1,400 at 60.",
+      "evidence": "From opex: 'General professional liability ... monthly: 500' plus 'Liability insurance per-client exposure ... 15'. An outside source puts general liability at $700–$1,000 per year.",
+      "source_url": "https://www.suretybonds.com/guide/new-jersey/health-care-service-firm-registration",
+      "fix": "Change the text to match the modeled opex, for example '$500/month base plus $15 per client (about $800–$1,400/month across the configurations)'. Or re-base the estimate to broker quotes. The $1,000,000 minimum certificate itself is verified."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[item='HCSF annual registration fee ($500 per primary location ÷ 12)'] and startup_costs[item='HCSF initial application fee']",
+      "current": "Startup carries $500 (application fee) and opex carries $41.67/month ($500/yr) from month 1.",
+      "correct": null,
+      "evidence": "The DCA FAQ lists a '$500 application fee' for initial registration. Holland & Knight lists a '$500 for each primary location' annual registration fee. No source shows whether the initial $500 covers the first registration year, and P.L. 2026, c.45 moved expiry to Sept 30.",
+      "source_url": "https://www.njconsumeraffairs.gov/hcservice/Documents/HCSF-FAQ-07242025.pdf",
+      "fix": "Unverifiable. Confirm with DCA whether the first-year registration fee is the $500 application fee. If so, start the $41.67/month accrual after year 1, or avoid double-counting year 1."
+    }
+  ]
+}

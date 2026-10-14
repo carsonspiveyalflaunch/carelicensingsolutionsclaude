@@ -1,0 +1,2671 @@
+{
+  "bundle_slug": "georgia-residential-care-dd-complete-bundle",
+  "state": "Georgia",
+  "state_code": "GA",
+  "program": "Residential Care (DD)",
+  "state_program_name": "Community Living Arrangement (CLA) licensed by DBHDD, delivering Community Residential Alternative (CRA) services funded by DBHDD state funds and the NOW/COMP Medicaid waivers",
+  "as_of": "2026-10",
+  "report_title": "Georgia Community Living Arrangement (CLA) / Community Residential Alternative (CRA) for I/DD — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "DBHDD Licensure Information (HB 584 transfer of CLA licensing)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/be-connected/licensure-information",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "CLA Licensure Application Packet (v. 1/1/2026)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/community-living-arrangement-licensure-application-packetpdf/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "Public Notice of Proposed CLA Rules, GA Comp. R. & Regs. 82-13-1 (rev. 7/22/2026)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/revised-combined-public-notice-proposed-cla-rules-7-22-26pdf/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "DBHDD Licensure Fees table",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/licensure-fees-tablepdf/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "Ga. Comp. R. & Regs. 290-9-37, Rules for Community Living Arrangements",
+      "publisher": "Georgia Secretary of State, Rules and Regulations",
+      "url": "https://rules.sos.ga.gov/gac/290-9-37",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "Ga. Comp. R. & Regs. 290-9-37-.29 Licenses (legacy text)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-290-9-37-.29",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "O.C.G.A. § 31-2-4 (as reproduced)",
+      "publisher": "FindLaw",
+      "url": "https://codes.findlaw.com/ga/title-31-health/ga-code-sect-31-2-4/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "IDD New Provider Welcome Packet (rev. 06/04/2026)",
+      "publisher": "Georgia DBHDD, Office of Provider Relations",
+      "url": "https://dbhdd.georgia.gov/document/document/idd-new-provider-welcome-packet/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "FY27 2nd Quarter State Funded Provider Manual for Community DD Providers (eff. 10/1/2026)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "DBHDD DD Provider Manual",
+      "publisher": "Georgia DBHDD",
+      "url": "http://dbhdd.org/files/Provider-Manual-DD.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "State Funded Provider Manual for Community DD Providers, FY26 Q3",
+      "publisher": "Georgia DBHDD",
+      "url": "http://dbhdd.org/files/Provider-Manual-DD-State-Funded-Services.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "IDD Connects training material (4/21/2021)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/idd-connects-training-4212021pdf/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "DD Provider FAQs (planning list)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/be-connected/dd-provider-faqs",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Attachment J: Detailed Contract Deliverables (ASO RFP)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/rfp-asopdf/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "Appendix A: Strategic Plan Goals and Objectives",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/full-appendix/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "NOW and COMP Waivers: participation and costs (FY2025)",
+      "publisher": "State of Georgia (Open.Georgia report)",
+      "url": "https://www.open.georgia.gov/openga/report/downloadFile?rid=33476",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "Community Living Supports Prior Authorization Overview (COMP renewal)",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/document/comp-renewal-community-living-support-pa-billing-overview/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "GAMMIS Georgia Medicaid portal (revalidation and enrollment notices)",
+      "publisher": "Georgia DCH",
+      "url": "https://www.mmis.georgia.gov/portal/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "Provider Enrollment Application Fee Amount for CY 2026",
+      "publisher": "Federal Register / CMS",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Georgia Medicaid Group/Billing Enrollment Requirement",
+      "publisher": "SHP LLC (consultant)",
+      "url": "https://shpllc.com/medicaid-group-enrollment-guide/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Electronic Visit Verification (EVV)",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/electronic-visit-verification-evv",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Georgia Medicaid EVV 2026",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/medicaid/georgia/electronic-visit-verification",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "SSI Federal Benefit Rate 2026",
+      "publisher": "BenefitsUSA",
+      "url": "https://benefitsusa.org/en/blog/2026-ssi-federal-benefit-rate-monthly-maximum-cola-adjustment",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Cost of Care: Assisted Living and Senior Living Costs",
+      "publisher": "CareScout (formerly Genworth)",
+      "url": "https://www.carescout.com/cost-of-care",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "2024 Genworth Cost of Care Survey Summary",
+      "publisher": "CareScout / Genworth",
+      "url": "https://assets.carescout.com/cd5022ca64/131168.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Long-Term Care Costs Increase in Georgia (2024)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/992/long-term-care-costs-increase-in-georgia-remain-lower-than",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "Assisted Living in Georgia (2026): Cost and Medicaid",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/care-types/georgia/assisted-living",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "Georgia Assisted Living (2026) cost data",
+      "publisher": "SeniorCareCostGuide",
+      "url": "https://seniorcarecostguide.com/cost-of-assisted-living-in-georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "Georgia Budget Allocates 100 New NOW/COMP Waivers",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/news-a-media/press-releases/georgia-budget-allocates-100-new-now-comp-waivers-as-thousands-with-i-dd-remain-on-waitlist",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "Public Notice: COMP Waiver Renewal (10/10/2025)",
+      "publisher": "Georgia DCH (DFCS-hosted notice)",
+      "url": "https://dfcs.georgia.gov/document/document/comprehensive-supports-waiver-program-renewal-10-10-25pdf/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "Georgia Medicaid Provider Enrollment Guide 2026",
+      "publisher": "STARS PMB (consultant)",
+      "url": "https://starspmb.com/complete-georgia-medicaid-provider-enrollment-guide-for-medical-practices/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "Why NOW and COMP Waivers Matter for Georgia Families (Mar. 2026)",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/news-a-media/making-a-difference-magazine/march-2026/why-now-and-comp-waivers-matter-for-georgia-families",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Council warns thousands await disability waivers (2026 hearing)",
+      "publisher": "CitizenPortal (news summary)",
+      "url": "https://citizenportal.ai/articles/7651975/Georgia/2026-Legislature-Georgia/Council-warns-thousands-await-disability-waivers-as-House-adds-funds-but-gaps-remain",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Letter from Leadership: Urgently Needed! 1,217 New Waivers",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/news-a-media/making-a-difference-magazine/february-2026/letter-from-leadership-urgently-needed-1-217-new-waivers",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "What is a waiver? (GCDD one-pager, rev. 2/24/2025)",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/images/pdfs/2025/Waivers-One-Pager-rev-2-24-25.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Georgia Medicaid HCBS Waivers 2026: CCSP, SOURCE, NOW & COMP",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/medicaid/georgia/hcbs-waivers",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Georgia's NOW/COMP Waiver Waitlist: The Time is Now",
+      "publisher": "Georgia Council on Developmental Disabilities",
+      "url": "https://gcdd.org/images/2024/Legislative_History-Waivers-FINAL.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "'The application process is long and daunting' (2023)",
+      "publisher": "11Alive (WXIA)",
+      "url": "https://www.11alive.com/article/news/state/disability-waivers-georgia-waitlist/85-4913e105-a335-4c91-a49d-4c0d86e8a3f4",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "Georgia agency proposes changes to waiting list for services",
+      "publisher": "Georgia Public Broadcasting",
+      "url": "https://www.gpb.org/news/2026/01/02/georgia-agency-proposes-changes-waiting-list-for-services-for-people-disabilities",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "Impact of the FY27 Budget",
+      "publisher": "P2P Georgia",
+      "url": "https://www.p2pga.org/uncategorized/impact-of-the-fy27-budget/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "Committee advances bill shifting facility regulation to DBHDD (CLA scope)",
+      "publisher": "CitizenPortal (news summary)",
+      "url": "https://citizenportal.ai/articles/7994051/Georgia/Legislative/Committees/SENATE/Appropriations/Disability-advocates-tell-appropriations-panel-Georgia-needs-more-than-200-waivers-a-year-to-meet-urgent-demand",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Committee advances bill shifting facility regulation to DBHDD (PCH/ALC stay with DCH)",
+      "publisher": "CitizenPortal (news summary)",
+      "url": "https://citizenportal.ai/articles/6054642/Georgia/Legislative/Committees/SENATE/Health-and-Human-Services/Committee-advances-department-bill-shifting-mentalhealth-and-substanceuse-facility-regulation-from-DCH-to-DBHDD",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "Behavioral Health New Provider Welcome Packet",
+      "publisher": "Georgia DBHDD",
+      "url": "https://dbhdd.georgia.gov/document/publication/bh-new-provider-welcome-packet/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Personal Care Homes (CLA rules reference, GaMap2Care)",
+      "publisher": "Georgia DCH, Healthcare Facility Regulation",
+      "url": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/personal-care-homes",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "Community Living Arrangements (CLAs) summary (2/16/2016)",
+      "publisher": "Georgia DCH",
+      "url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/146682587communitylivingarrangements_2-16-16.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Personal Care Home Program (state review, data through Nov. 2024)",
+      "publisher": "State of Georgia (open.georgia.gov report)",
+      "url": "https://open.georgia.gov/openga/report/downloadFile?rid=32715",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Georgia Minimum Wage 2026: $7.25 Federal Rate Applies",
+      "publisher": "HiveDesk",
+      "url": "https://www.hivedesk.com/compliance/united-states/minimum-wage-georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "Georgia Employment Law 2026 (quoting GA DOL)",
+      "publisher": "RemoteLaws",
+      "url": "https://remotelaws.com/employment-law/us-states/georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "Georgia Min Wage 2026: $5.15 vs. $7.25",
+      "publisher": "FingerCheck",
+      "url": "https://fingercheck.com/payroll-software/georgia-minimum-wage/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "Georgia Minimum Wage 2026 (local minimums)",
+      "publisher": "MinimumWageLookup",
+      "url": "https://minimumwagelookup.com/minimum-wage/georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "Occupational Employment and Wages in Atlanta-Sandy Springs-Roswell, May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/southeast/news-release/occupationalemploymentandwages_atlanta.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "Home Health and Personal Care Aides (OOH, May 2025)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S53",
+      "title": "Nursing assistants in Georgia (citing BLS OEWS May 2025)",
+      "publisher": "Clema.ai",
+      "url": "https://clema.ai/georgia/nursing-assistants-occupation",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S54",
+      "title": "Home Health & Personal Care Aide Salary by State (citing BLS OEWS)",
+      "publisher": "CaresLink",
+      "url": "https://www.careslink.com/en/salary/home-health-aide",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S55",
+      "title": "Payroll Tax in Georgia: 2026 Employer Guide",
+      "publisher": "Rippling",
+      "url": "https://www.rippling.com/blog/payroll-tax-in-georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S56",
+      "title": "Georgia SUI Rates 2026",
+      "publisher": "Georgia Payroll Guide",
+      "url": "https://georgiapayrollguide.com/blog/georgia-sui-rates-2026",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S57",
+      "title": "Georgia LLC Cost (2026)",
+      "publisher": "BusinessAnywhere",
+      "url": "https://www.businessanywhere.io/georgia-llc-cost/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S58",
+      "title": "Georgia Annual Registration Fee: Filing Guide (Sep. 2026)",
+      "publisher": "BizReport",
+      "url": "https://www.bizreport.com/annual-registration-llc-georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S59",
+      "title": "Georgia LLC Annual Registration & Taxes (2026)",
+      "publisher": "LegalGlass",
+      "url": "https://legalglass.org/georgia-annual-report/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S60",
+      "title": "Change of Information Form (Sept. 2018), insurance requirements",
+      "publisher": "Georgia Collaborative ASO (DBHDD contractor)",
+      "url": "https://www.georgiacollaborative.com/wp-content/uploads/sites/15/Georgia-Collaborative-Change-of-Information-Form-September-2018.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S61",
+      "title": "Proposed Georgia Workers Comp Loss Cost Filings eff. 3/1/2026",
+      "publisher": "NCCI",
+      "url": "https://www.ncci.com/Articles/Documents/II_StateAdvisoryForumState_GA_2025.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S62",
+      "title": "Best Workers' Comp Insurance in Georgia (2026)",
+      "publisher": "MoneyGeek",
+      "url": "https://www.moneygeek.com/insurance/business/best-workers-compensation-insurance-georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S63",
+      "title": "Georgia Workers' Comp Calculator 2026",
+      "publisher": "WorkCompCalc",
+      "url": "https://workcompcalc.com/workers-comp-calculator/georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S64",
+      "title": "FY 2026 Schedule of Fair Market Rents",
+      "publisher": "HUD USER",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S65",
+      "title": "Section 8 in Atlanta, GA (FY2027 FMR, citing HUD)",
+      "publisher": "VoucherMatch",
+      "url": "https://vouchermatch.com/section-8/atlanta-ga",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "CLA licensing authority",
+      "value": "DBHDD licenses and oversees CLAs; transferred from DCH under HB 584 effective January 1, 2026. Some DCH portals are still used during the transition.",
+      "source_id": "S1",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "CLA application processing fee (new application, change of ownership, change in service level, name change, relocation)",
+      "value": "$300, paid upon application submission; non-refundable",
+      "source_id": "S4",
+      "as_of": "current DBHDD fee table"
+    },
+    {
+      "metric": "Initial CLA licensing fee / annual CLA fee",
+      "value": "$650 before the license is issued / $350 per year, paid through the payment portal by Dec. 31 (25% discount if currently accredited by an approved body; $150 late fee at 60 days past due)",
+      "source_id": "S4",
+      "as_of": "current DBHDD fee table"
+    },
+    {
+      "metric": "DBHDD initial review of a CLA application",
+      "value": "Within 30 business days of submission; applications reviewed in order received",
+      "source_id": "S2",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Licensed capacity of a CLA (proposed Chapter 82-13-1)",
+      "value": "No more than 4 residents; DBHDD board consideration was scheduled for Aug. 27, 2026. As of Oct. 14, 2026 no adoption notice or effective date was found; confirm with DBHDD Legal.",
+      "source_id": "S3",
+      "as_of": "2026-07-22"
+    },
+    {
+      "metric": "CRA daily rate, 4-person residence, Category 1",
+      "value": "$248.35 per day; annual cap $85,432.40 per individual (state-funded rate, FY27 Q2)",
+      "source_id": "S9",
+      "as_of": "2026-10-01"
+    },
+    {
+      "metric": "CRA daily rate, other residence types (Category 1 unless noted)",
+      "value": "3-person $294.16 (cap $101,191.04); 5-person, all categories $186.94 (cap $64,307.36); Host Home $163.33 (cap $56,185.52)",
+      "source_id": "S9",
+      "as_of": "2026-10-01"
+    },
+    {
+      "metric": "Average annual cost per waiver participant, FY2025",
+      "value": "COMP about $104,000 vs. NOW about $16,200",
+      "source_id": "S16",
+      "as_of": "FY2025"
+    },
+    {
+      "metric": "NOW/COMP enrollment",
+      "value": "4,505 enrolled in NOW; 9,789 enrolled in COMP (GCDD citing GBPI)",
+      "source_id": "S32",
+      "as_of": "2026-03"
+    },
+    {
+      "metric": "NOW/COMP planning list",
+      "value": "About 7,900 people listed (DBHDD testimony via news summary); 7,891 per GCDD; 1,217 in urgent need per DBHDD analysis cited by GCDD",
+      "source_ids": [
+        "S33",
+        "S32",
+        "S29"
+      ],
+      "as_of": "2026"
+    },
+    {
+      "metric": "New NOW/COMP slots in FY27 state budget",
+      "value": "100 new slots (budget signed May 12, 2026); DBHDD estimates about 400 people leave the waivers each year",
+      "source_ids": [
+        "S29",
+        "S40",
+        "S35"
+      ],
+      "as_of": "2026-05"
+    },
+    {
+      "metric": "2026 SSI federal benefit rate (individual), a key resident income figure",
+      "value": "$994/month (secondary source; SSA page not retrieved)",
+      "source_id": "S23",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Nature of state-funded CRA revenue",
+      "value": "State-funded services are intended to be temporary or transitional for people eligible for waivers, and people receiving NOW or COMP are not eligible for state-funded services. DBHDD disenrolls residents who move to a waiver after 30 days' written notice, so the modeled state-funded revenue is bridge revenue.",
+      "source_id": "S9",
+      "as_of": "FY27"
+    },
+    {
+      "metric": "Contract and timeline before first revenue",
+      "value": "A provider must have an executed, signed DBHDD contract before reimbursement, and individuals are referred by the Regional Field Office. Initial license review alone takes up to 30 business days, so the model's 3-month pre-revenue period is optimistic; stress-test 4 to 6 months.",
+      "source_id": "S9",
+      "as_of": "FY27"
+    }
+  ],
+  "not_claimed": [
+    "Correction to the brief: the hint \"DCH HFRD CLA license (Rule 111-8-1/111-8-24)\" is not supported by any source found. CLA licensing moved to DBHDD on 1/1/2026 (HB 584). The current rule text is Ga. Comp. R. & Regs. 290-9-37, which still defines 'Department' as the Department of Human Resources. DBHDD's proposed replacement is Chapter 82-13-1.",
+    "Whether the DBHDD Board adopted proposed Chapter 82-13-1 at its Aug. 27, 2026 meeting, and its final text and effective date. No adoption notice was found. Every 82-13-1 requirement in this report (4-resident cap, 16 hours of annual CE, awake staff, 3-minute evacuation standard, 21-year administrator minimum, six-month provisional license) is labeled 'proposed'.",
+    "Numeric staff-to-resident ratio. The proposed rule states only an evacuation-within-three-minutes standard, so staffing in the model is an operator estimate.",
+    "Initial administrator/manager training hours beyond the 16 annual CE hours, and a specific manager-training curriculum.",
+    "Current Medicaid NOW/COMP CRA and CLS rates by residence category and the T2025-series procedure-code mapping. The rates in this report are DBHDD state-funded rates from the FY27 Q2 manual, not the NOW/COMP waiver fee schedule, and state-funded services are the payer of last resort.",
+    "Whether NOW/COMP rates were updated for 2026, whether the 2024 rate-study models were adopted, and whether the $23 million 2026 Medicaid fee schedule increase applies to DD residential rates.",
+    "Whether CMS approved the COMP renewal after its scheduled 3/31/2026 expiry, and any resulting rate changes.",
+    "CRA rate categories other than those shown (Category 1 for 3-person, 4-person and Host Home). The Category 2 and higher rates were not captured.",
+    "Whether the 344-day billing limit for CRA (seen only in 2015/2017 materials) applies in the FY27 manual. Whether CRA per-diem services require EVV (EVV is confirmed only for personal care/CLS categories).",
+    "Whether the host-home 60% pass-through requirement (2017 COMP FAQ) is current.",
+    "Statewide count of licensed CLAs, count of CRA host homes and providers, occupancy or bed-utilization data, referral-source breakdown, market shares, named competitors, and the number of people with I/DD served in CLAs. No public source was found. The DCH PCH-program figures (2,910 facilities, about 55,000 residents; 2,800+ facilities, about 48,000 residents) combine PCHs, assisted living communities and CLAs and are not CLA-specific.",
+    "Official planning-list dashboard count, whether the proposed three-tier planning-list restructuring was finalized, and whether any waiver slots beyond the 100 funded were added. Waitlist figures come from advocacy or news summaries (GCDD, CitizenPortal).",
+    "Private-pay benchmark for I/DD group-home pricing. CareScout/Genworth measures assisted living communities and nursing homes only. Georgia's 2025 assisted living median conflicts across secondary sources ($4,258 vs. about $5,300 per month), so only the Genworth 2024 Georgia figure ($59,280 per year) and the national 2025 median are reported.",
+    "SSI room-and-board interaction: in-kind support and maintenance reductions, personal needs allowance, and how CRA per-diem payments interact with SSI. The $994 SSI figure relies on a secondary source because the SSA page was not retrieved.",
+    "Whether CLA/CRA providers are classed as 'institutional providers' subject to the $750 CY2026 Medicaid/CHIP application fee, and Georgia Medicaid/NOW/COMP provider-enrollment steps and DBHDD provider-network approval timelines. The new Group/Billing enrollment requirement (claims after 1/1/2026) comes only from a consultant source.",
+    "Whether accreditation is a licensure prerequisite. The fee table shows only a 25% annual-fee discount for accredited CLAs. Accreditation as a DBHDD provider-network requirement was not confirmed from a primary source.",
+    "Zoning and siting rules for CLAs and the local use-permit/certificate-of-occupancy authority. Only the application's requirement to submit a certificate of occupancy was verified.",
+    "HB 1097 (effective 7/1/2026): DBHDD's background policy page says it gives DBHDD background-check authority over owners, applicants and employees of ARMHPs and DATEPs, not CLAs. The CLA owner check comes from the application packet, Ga. Comp. R. & Regs. 290-9-37 and the 1/1/2026 attestation form. The fingerprint (records-check) fee is not quantified; the proposed rule says DBHDD rule will set it.",
+    "Amount of the records-check (fingerprint) fee set by DBHDD rule, and any CLA fee for change in capacity or relocation beyond the $300 processing fee.",
+    "Current liability-insurance minimums. The $1M per incident / $3M aggregate general liability figure comes from a 2018 Georgia Collaborative form (secondary) and a 2021 DBHDD manual snippet, and is not confirmed as current or as a licensure condition. DBHDD's current workers' compensation limits and Georgia auto-liability statutory minimums were not retrieved.",
+    "Georgia state-level BLS OEWS May 2025 wages for RNs, LPNs, cooks and residential administrators/managers. Only the Atlanta MSA group means (all occupations $34.57; personal care and service $18.17; food preparation and serving $15.37), a national aide median ($35,800), and third-party reproductions of Georgia CNA ($37,680) and home health aide ($14.07 per hour) figures were found.",
+    "Georgia minimum wage: the state rate is $5.15 per hour and the federal $7.25 rate applies to FLSA-covered employers. These facts come from secondary sources, not the Georgia DOL or U.S. DOL pages.",
+    "Official Georgia DOL confirmation of the 2026 new-employer SUI rate (2.7% in one source, 2.64% in another) and the $9,500 wage base, the official Secretary of State fee schedule (LLC formation $110 and annual registration $50 vs. $60 conflict across secondary sources), the O.C.G.A. workers' compensation mandatory-coverage statute (3+ employees comes from a secondary source), and the approved NCCI loss cost effective 3/1/2026 (only a proposal was seen).",
+    "Official HUD FY2027 Fair Market Rents for Atlanta (only a third-party reproduction was found) and any commercial or retail rent survey for group-home space. Georgia 65+ population projections were not retrieved.",
+    "NOW/COMP CRA rate and annual cap, the share of residents who will convert from state-funded to waiver funding, and the vacancy and re-referral lag after a disenrollment. The base case assumes 100% state-funded billing as bridge revenue, and no conversion scenario is modeled.",
+    "The model's roughly 3-month pre-revenue period. DBHDD contract execution, Carelon enrollment and Regional Field Office referral timing were not sourced. The 4 to 6 month stress test is a recommendation, not a sourced figure.",
+    "Price of contract nursing and HRST oversight. The $300 per home per month is an operator estimate; no RN or LPN contract quote or Georgia BLS RN wage was retrieved.",
+    "Atlanta MSA BLS means ($18.17 personal care and service group; $34.57 all occupations). The BLS page returned only navigation text, so these were not verified. Operator-estimated salaries (administrator, coordinator, QA lead) have no wage source. Any $18.17 figure in this report is a stress-test wage, not a verified benchmark.",
+    "DBHDD licensure phone number (404) 657-2252. The licensure page fetch was truncated, so the number is unverified. Use Licensure.Application@dbhdd.ga.gov.",
+    "Whether CLA license and application fees apply to the host-home configuration. The proposed rule exempts host homes funded by the Department, while the state-funded manual still refers to a CLA license or PCH permit. Also unverified: that each host payment fits the Regional Field Office-approved budget at the assumed 60% pass-through.",
+    "Cost of the quality management program and the mandatory external Quality Improvement Council. No price was found, so no line is modeled; it would reduce the stated margins."
+  ],
+  "regulators": [
+    {
+      "name": "Georgia Department of Behavioral Health and Developmental Disabilities (DBHDD), Healthcare Facility Regulation / Licensure",
+      "role": "Licenses and inspects Community Living Arrangements (since 1/1/2026); conducts announced and unannounced surveys (proposed rule); approves the CLA license required for CRA residential sites",
+      "url": "https://dbhdd.georgia.gov/be-connected/licensure-information",
+      "phone": "",
+      "email": "Licensure.Application@dbhdd.ga.gov",
+      "source_id": "S1"
+    },
+    {
+      "name": "DBHDD Office of Provider Relations / Developmental Disabilities Division",
+      "role": "I/DD provider enrollment, NOW/COMP and state-funded contracting, planning list and regional-office intake; issues the state-funded provider manual",
+      "url": "https://dbhdd.georgia.gov/document/document/idd-new-provider-welcome-packet/download",
+      "phone": "",
+      "email": "",
+      "source_id": "S8"
+    },
+    {
+      "name": "DBHDD Legal (rulemaking comments on proposed Chapter 82-13-1)",
+      "role": "Contact for comments on the proposed CLA rules (comment deadline Aug. 21, 2026, 5:00 P.M.)",
+      "url": "https://dbhdd.georgia.gov/document/document/revised-combined-public-notice-proposed-cla-rules-7-22-26pdf/download",
+      "phone": "404.657.2282",
+      "email": "legal@dbhdd.ga.gov",
+      "source_id": "S3"
+    },
+    {
+      "name": "Georgia Department of Community Health (DCH) / GAMMIS",
+      "role": "Medicaid single state agency: provider enrollment, revalidation and claims portal. DCH HFRD still regulates personal care homes, assisted living communities and skilled nursing facilities. During the licensing transition some CLA steps still redirect to DCH portals.",
+      "url": "https://www.mmis.georgia.gov/portal/",
+      "phone": "",
+      "email": "",
+      "source_id": "S18"
+    },
+    {
+      "name": "Georgia State Fire Marshal",
+      "role": "Fire safety inspection report required with the CLA application (must be within 12 months of submission)",
+      "url": "https://dbhdd.georgia.gov/document/document/community-living-arrangement-licensure-application-packetpdf/download",
+      "phone": "",
+      "email": "",
+      "source_id": "S2"
+    },
+    {
+      "name": "Carelon / Georgia Collaborative ASO (DBHDD provider enrollment, authorizations and billing)",
+      "role": "Handles provider enrollment, authorizations and billing for DBHDD state-funded services; Provider Relations contact information is on the DBHDD PIMS page",
+      "url": "https://dbhdd.georgia.gov/be-connected/pims",
+      "phone": "",
+      "email": "GACollaborativePR@carelon.com",
+      "source_id": "S9"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Georgia HB 584 (eff. Jan. 1, 2026)",
+      "title": "Transfer of CLA licensing and oversight from DCH to DBHDD",
+      "url": "https://dbhdd.georgia.gov/be-connected/licensure-information",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Ga. Comp. R. & Regs. 290-9-37",
+      "title": "Rules and Regulations for Community Living Arrangements (current codified rules; legal authority O.C.G.A. §§ 31-7-1 et seq. and 37-1-22; 'Department' still defined as the Department of Human Resources)",
+      "url": "https://rules.sos.ga.gov/gac/290-9-37",
+      "source_id": "S5"
+    },
+    {
+      "cite": "Ga. Comp. R. & Regs. 290-9-37-.29",
+      "title": "Licenses — governing body must hold a valid license or provisional license before beginning operation (legacy text; current status not verified)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-290-9-37-.29",
+      "source_id": "S6"
+    },
+    {
+      "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+      "title": "Community Living Arrangements: DBHDD proposed rules to replace 290-9-37 (public notice revised 7/22/2026; adoption not verified)",
+      "url": "https://dbhdd.georgia.gov/document/document/revised-combined-public-notice-proposed-cla-rules-7-22-26pdf/download",
+      "source_id": "S3"
+    },
+    {
+      "cite": "O.C.G.A. § 31-2-4",
+      "title": "No operation of a community living arrangement without a license or provisional license (as reproduced by FindLaw)",
+      "url": "https://codes.findlaw.com/ga/title-31-health/ga-code-sect-31-2-4/",
+      "source_id": "S7"
+    },
+    {
+      "cite": "DBHDD CLA Licensure Application Packet (v. 1/1/2026)",
+      "title": "Required application documents, online GAHLES submission, 30-business-day initial review, owner attestation",
+      "url": "https://dbhdd.georgia.gov/document/document/community-living-arrangement-licensure-application-packetpdf/download",
+      "source_id": "S2"
+    },
+    {
+      "cite": "DBHDD Licensure Fees table",
+      "title": "CLA application, initial, annual, late and follow-up fees; 25% accreditation discount",
+      "url": "https://dbhdd.georgia.gov/document/document/licensure-fees-tablepdf/download",
+      "source_id": "S4"
+    },
+    {
+      "cite": "DBHDD FY27 Q2 State Funded Provider Manual for Community DD Providers (eff. 10/1/2026)",
+      "title": "CRA, CLS, Community Access and Behavior Supports rates; CLA license/PCH permit requirement for CRA sites; subcontracting limited to host homes; billing via Carelon Provider Connects; MIER and quarterly QM reporting",
+      "url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "source_id": "S9"
+    },
+    {
+      "cite": "DBHDD DD Provider Manual",
+      "title": "CLA license per CRA site; site-specific nursing enrollment under a CLA license; general liability insurance naming DBHDD as certificate holder",
+      "url": "http://dbhdd.org/files/Provider-Manual-DD.pdf",
+      "source_id": "S10"
+    },
+    {
+      "cite": "DBHDD IDD New Provider Welcome Packet (rev. 6/4/2026)",
+      "title": "Funding via state dollars plus NOW and COMP waivers; COMP primarily residential",
+      "url": "https://dbhdd.georgia.gov/document/document/idd-new-provider-welcome-packet/download",
+      "source_id": "S8"
+    },
+    {
+      "cite": "Federal Register 2025-21877 (CY2026 provider enrollment application fee)",
+      "title": "$750 application fee for institutional providers; applicability to CLA/CRA not verified",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "source_id": "S19"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "DBHDD state-funded (CRA)",
+      "code": "",
+      "service": "Community Residential Alternative, 4-Person Residence, Category 1",
+      "rate": 248.35,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "One day per individual served; annual cap $85,432.40 per individual. FY27 Q2 state-funded rate, not the NOW/COMP waiver fee schedule. Paid against each person's approved ISP via Carelon Provider Connects. State funds are payer of last resort.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (CRA)",
+      "code": "",
+      "service": "Community Residential Alternative, 3-Person Residence, Category 1",
+      "rate": 294.16,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "Annual cap $101,191.04 per individual. FY27 Q2 state-funded rate.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (CRA)",
+      "code": "",
+      "service": "Community Residential Alternative, 5-Person Residence, All Categories",
+      "rate": 186.94,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "Annual cap $64,307.36 per individual. A 2021 DBHDD document says new group homes with more than five beds have not been permitted for several years [S12], and the proposed rule caps CLAs at four residents [S3].",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (CRA)",
+      "code": "",
+      "service": "Community Residential Alternative, Host Home, Category 1",
+      "rate": 163.33,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "Annual cap $56,185.52 per individual. CRA providers must give 60 days' written notice before changing day-to-day charges to the individual or host home [S9]. The proposed CLA rule separately requires admission agreements to promise at least 60 days' written notice of changes in charges or services (.12(7)(b)). The proposed rule also exempts host homes funded by the Department from the CLA rules (.03(13)), while the state-funded manual still says CRA sites must hold a CLA license or Personal Care Home permit [S9]. Confirm with DBHDD whether CLA license and application fees apply to host homes [S3].",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (CLS)",
+      "code": "",
+      "service": "Community Living Support, 1 Person (Basic)",
+      "rate": 9.98,
+      "unit": "per 15 minutes",
+      "effective": "2026-10-01",
+      "notes": "Annual cap $83,520 per person. Basic = visits of 11 or fewer 15-minute units (2.75 hours); Extended applies to visits over 12 units. Medicaid CLS prior authorizations were submitted under T2025-U5 [S17], but the code-to-rate mapping is not verified.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (Community Access)",
+      "code": "",
+      "service": "Community Access Group",
+      "rate": 14.6,
+      "unit": "per hour",
+      "effective": "2026-10-01",
+      "notes": "Also $3.65 per 15-minute unit; $21,900 annual cap per individual without prior authorization.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (Community Access)",
+      "code": "",
+      "service": "Community Access Individual",
+      "rate": 42.2,
+      "unit": "per hour",
+      "effective": "2026-10-01",
+      "notes": "Up to $15,192 per annual ISP.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (Behavior Supports)",
+      "code": "",
+      "service": "Behavior Supports, Level 2",
+      "rate": 36.68,
+      "unit": "per 15 minutes per individual",
+      "effective": "2026-10-01",
+      "notes": "FY27 Q2 state-funded rate.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DBHDD state-funded (Behavior Supports)",
+      "code": "",
+      "service": "Behavior Supports, Level 1",
+      "rate": 24.36,
+      "unit": "per 15 minutes per individual",
+      "effective": "2026-10-01",
+      "notes": "FY27 Q2 state-funded rate.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Resident income (SSA)",
+      "code": "",
+      "service": "SSI federal benefit rate, individual (resident income reference; no room-and-board rule verified)",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "From a secondary source citing a 2.8% COLA; SSA page not retrieved. How the CRA per diem interacts with SSI was not researched.",
+      "source_id": "S23"
+    },
+    {
+      "payer": "Private pay (benchmark only)",
+      "code": "",
+      "service": "Assisted living community, Georgia median (2024 Genworth); NOT an I/DD group-home rate",
+      "rate": 4940,
+      "unit": "per month",
+      "effective": "2024",
+      "notes": "$59,280 per year ÷ 12. Measures median rates charged by assisted living communities. Georgia 2025 figures conflict across secondary sources ($4,258 vs. about $5,300 per month).",
+      "source_id": "S26"
+    },
+    {
+      "payer": "Private pay (benchmark only)",
+      "code": "",
+      "service": "Assisted living community, national median (CareScout 2025); NOT an I/DD group-home rate",
+      "rate": 6200,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "National median up 5%; $74,400 per year. Survey ran Jul–Nov 2025.",
+      "source_id": "S24"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "DBHDD Licensure (CLA)",
+      "role": "General licensing line and application questions",
+      "contact": "Licensure.Application@dbhdd.ga.gov; 200 Piedmont Avenue, S.E., West Tower, 14th Floor, Atlanta, GA 30334"
+    },
+    {
+      "name": "DBHDD Legal",
+      "role": "Comments and questions on proposed CLA Chapter 82-13-1",
+      "contact": "legal@dbhdd.ga.gov; 404.657.2282"
+    },
+    {
+      "name": "GAHLES application portal",
+      "role": "Online CLA licensure application submission (applications must be completed online)",
+      "contact": "https://gahles.dch.georgia.gov/"
+    },
+    {
+      "name": "GAMMIS (Georgia Medicaid portal)",
+      "role": "Medicaid provider enrollment, revalidation (non-revalidated providers suspended 7/1/2026; no retroactive enrollment) and claims",
+      "contact": "https://www.mmis.georgia.gov/portal/"
+    },
+    {
+      "name": "Carelon Provider Connects",
+      "role": "Statewide billing system for DBHDD state-funded claims",
+      "contact": "Access and training via the DBHDD State Funded Provider Manual: https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download; questions on enrollment, authorizations and billing: GACollaborativePR@carelon.com"
+    },
+    {
+      "name": "DBHDD DD Provider FAQs / Office of Provider Relations",
+      "role": "Planning list, regional-office intake and new I/DD provider onboarding",
+      "contact": "https://dbhdd.georgia.gov/be-connected/dd-provider-faqs; Provider Relations: https://dbhdd.georgia.gov/be-connected/pims"
+    },
+    {
+      "name": "GaMap2Care (DCH)",
+      "role": "Public lookup to verify facility licensure and inspection reports",
+      "contact": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/personal-care-homes"
+    },
+    {
+      "name": "Georgia Council on Developmental Disabilities (GCDD)",
+      "role": "Advocacy; NOW/COMP waitlist and budget data",
+      "contact": "https://gcdd.org/news-a-media/press-releases/georgia-budget-allocates-100-new-now-comp-waivers-as-thousands-with-i-dd-remain-on-waitlist"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.92,
+      "conservative": 0.88,
+      "optimistic": 0.96,
+      "rationale": "Share of licensed beds billed each day. DBHDD reports about 7,900 people on the NOW/COMP planning list [S33][S32], so demand exceeds supply. But placements run through DBHDD regional offices and each person's ISP, and the planning list is ordered by a needs tool rather than by application date [S13][S14]. A vacated bed can therefore sit empty while a new person is matched and an ISP is authorized. State-funded services are temporary or transitional for people eligible for waivers, so a resident who moves to NOW/COMP is disenrolled from state-funded services on 30 days' written notice, which creates a further vacancy and re-referral lag [S9]. The 92% default (88% conservative, 96% optimistic) is an operator estimate; verify locally. It is not a sourced statistic. No Georgia CLA occupancy data was found.",
+      "source_id": "S32"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "cla4_single",
+        "label": "One 4-resident CLA home, owner-operated (CRA 4-person residence, Category 1)",
+        "capacity": 4,
+        "notes": "Smallest realistic entry model, with the owner working about half-time as administrator. It roughly breaks even at the default occupancy and has no cushion. Revenue uses the FY27 Q2 DBHDD state-funded CRA 4-person Category 1 rate [S9]. Category 2 and higher rates were not captured, so higher-need residents may pay more. NOW/COMP waiver rates for the same service were not verified. Room-and-board collections from residents are not modeled; how SSI and room and board interact with the CRA per diem was not verified.",
+        "revenue_lines": [
+          {
+            "name": "CRA, 4-Person Residence, Category 1 (state-funded bridge revenue; daily rate, capped at 344 billable days per person per year)",
+            "payer": "DBHDD (state-funded; Medicaid NOW/COMP rates not verified)",
+            "code": "",
+            "rate": 248.35,
+            "unit": "per day",
+            "units_per_client_month": 28.6667,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "The annual cap of $85,432.40 per individual ÷ $248.35 = 344 days, so the model bills 344 ÷ 12 = 28.67 days per resident-month instead of 30.42. That avoids overstating revenue above the cap. The 344-day billing limit was seen in 2015/2017 materials and is implied by the FY27 cap arithmetic; confirm against the manual. Billed through Carelon Provider Connects against each approved ISP; state funds are payer of last resort. Bridge-payer caveat: state-funded services are intended to be temporary or transitional for people eligible for waivers, and people receiving NOW or COMP are not eligible for state-funded services [S9]. The model's 100% state-funded share is therefore a base case for bridge revenue, not a permanent one. The NOW/COMP CRA rate and cap were not verified, and no conversion or disenrollment-vacancy scenario is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (awake 24/7 plus a second awake staff about 6 h/day)",
+            "wage_hourly": 15.0,
+            "wage_source_id": "S54",
+            "basis": "hours_per_month",
+            "amount": 910,
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed): awake staff during shifts; evacuation within 3 minutes",
+            "notes": "The proposed rule requires awake staff during scheduled shifts and a staffing ratio able to evacuate all residents within three minutes [S3]. It sets no numeric ratio. 910 h/month = 730 h of one awake staff 24/7 plus about 180 h of a second staff at peak times. This is an operator estimate; verify against each resident's ISP and mobility needs. Wage $15.00 is an operator estimate: above the Georgia median for home health and personal care aides of $14.07 (CaresLink citing BLS OEWS May 2025) [S54] and below the Atlanta personal care and service group mean of $18.17 [S51]. The federal $7.25 minimum wage governs most Georgia employers [S47]; no Georgia local minimum is higher [S50]. At an $18.17 wage, the 16-resident default configuration would lose about $9,600 per month."
+          },
+          {
+            "role": "Administrator (owner-operator, about 0.5 FTE modeled)",
+            "basis": "annual_salary",
+            "amount": 27500,
+            "wage_source_id": "",
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed): administrator at least 21, qualified by training and experience",
+            "notes": "0.5 FTE × $55,000. Operator estimate: no Georgia BLS wage for residential managers was retrieved. The proposed rule sets a minimum age of 21 and qualification by training and experience [S3]. This role also owns the QM plan, the quarterly QM reports and the mandatory external Quality Improvement Council [S9]; the cost of that program is not modeled."
+          }
+        ],
+        "opex_overrides": [],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one new resident per month from regional-office referrals. DBHDD's strategic plan targets a NOW/COMP service-entry timeline under 80 business days [S15], so a slower ramp is plausible. Each month of delay adds a full month of fixed cost."
+        }
+      },
+      {
+        "id": "cla4_x2",
+        "label": "Two 4-resident CLA homes (8 residents, CRA 4-person, Category 1)",
+        "capacity": 8,
+        "notes": "A full-time administrator who also handles billing and records, spread over two homes. At default occupancy it earns a small positive margin. A single vacancy or a wage at the Atlanta group mean erases it.",
+        "revenue_lines": [
+          {
+            "name": "CRA, 4-Person Residence, Category 1 (state-funded bridge revenue; daily rate, capped at 344 billable days per person per year)",
+            "payer": "DBHDD (state-funded; Medicaid NOW/COMP rates not verified)",
+            "code": "",
+            "rate": 248.35,
+            "unit": "per day",
+            "units_per_client_month": 28.6667,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "344 days ÷ 12 = 28.67 days per resident-month. The $85,432.40 annual cap ÷ $248.35 = 344 days. Bridge-payer caveat: state-funded services are temporary or transitional for people eligible for waivers, and residents who move to NOW/COMP are disenrolled on 30 days' written notice [S9]. The 100% state-funded share is a bridge-revenue base case. The NOW/COMP CRA rate and cap were not verified, and no conversion or vacancy-lag scenario is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (2 homes × 910 h)",
+            "wage_hourly": 15.0,
+            "wage_source_id": "S54",
+            "basis": "hours_per_month",
+            "amount": 1820,
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Per home: 730 h of one awake staff 24/7 plus about 180 h of a second staff at peak times. Operator estimate; the proposed rule sets only the 3-minute evacuation standard [S3]. Wage $15.00 is an operator estimate between the Georgia home health aide median of $14.07 [S54] and the Atlanta personal care and service group mean of $18.17 [S51]."
+          },
+          {
+            "role": "Administrator (full-time; also handles billing, ISP documentation and records)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Operator estimate: no Georgia BLS manager wage was retrieved. This role also owns the QM plan, the quarterly QM reports and the mandatory external Quality Improvement Council [S9]; the cost of that program is not modeled."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — 4-bedroom house per home",
+            "monthly": 5210,
+            "basis": "fixed",
+            "notes": "2 homes × $2,605. HUD FY2026 Fair Market Rent for a 4-bedroom in the Atlanta-Sandy Springs-Roswell HMFA [S64]. FMR is a benchmark, not a group-home market rent. Rent is fixed whether beds are full or not.",
+            "source_id": "S64"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$450 per home × 2. Operator estimate; verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "$250 per home × 2. Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 per home × 2. Operator estimate."
+          },
+          {
+            "item": "Vehicle (payment, auto insurance, fuel)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "One vehicle per home × $800. Operator estimate. DBHDD's certificate of insurance calls for business auto liability on owned, non-owned and hired vehicles [S60]."
+          },
+          {
+            "item": "General liability insurance",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$450 per home × 2. Operator estimate for premium. Providers must carry general liability naming DBHDD as certificate holder [S10]. A 2018 DBHDD-contractor form lists $1M per incident / $3M aggregate [S60]; its current applicability was not verified."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 per home × 2. Operator estimate. The proposed rule requires first aid/BCLS, TB screening, registry and criminal background checks, and 16 hours of annual continuing education [S3]."
+          },
+          {
+            "item": "DBHDD annual CLA licensure fee",
+            "monthly": 58.33,
+            "basis": "fixed",
+            "notes": "$350 per year per CLA ÷ 12 × 2 homes. Paid through the portal by Dec. 31; 25% discount if accredited (not assumed) [S4].",
+            "source_id": "S4"
+          },
+          {
+            "item": "Contract nursing / health oversight consult",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$300 per home × 2. Operator estimate. Nursing services under a CLA license require site-specific nursing enrollment [S10]. No Georgia RN wage was retrieved."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach (regional offices, support coordinators)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate. State-funded claims run through Carelon Provider Connects. The MIER is due by the 10th of the month only for individuals who have no prior authorization in IDDC. Quarterly QM reports are due Oct 16, Jan 17, Apr 17 and Jul 17 (FY27) [S9]. EVV for CRA per diem was not verified."
+          },
+          {
+            "item": "Records, billing and compliance software (Carelon Provider Connects access, MIER and QM reporting)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate. State-funded claims run through Carelon Provider Connects; the MIER is due by the 10th of each month and quarterly QM reports are required [S9]. EVV for CRA per diem was not verified."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate. Staffing for both homes is modeled from month 1; opening one home at a time needs less cash than the modeled ramp-up deficit. Under the proposed rule, a governing body with a provisional license cannot apply for a new CLA until all its CLAs hold a full license [S3], so plan the second home in phases."
+        }
+      },
+      {
+        "id": "cla4_x4",
+        "label": "Four 4-resident CLA homes (16 residents, CRA 4-person, Category 1)",
+        "capacity": 16,
+        "notes": "The configuration an experienced Georgia I/DD operator would target at Category 1 rates: four licensed homes, a full-time administrator and a full-time billing/ISP coordinator. It earns a thin margin at 92% occupancy and falls to about break-even near 88%. Sensitivities: at 88% occupancy the margin is about −0.4%. At an $18.17 direct-care wage the model loses about $9,600 per month. If residents are Category 2 or higher, revenue would be higher; those rates were not captured.",
+        "revenue_lines": [
+          {
+            "name": "CRA, 4-Person Residence, Category 1 (state-funded bridge revenue; daily rate, capped at 344 billable days per person per year)",
+            "payer": "DBHDD (state-funded; Medicaid NOW/COMP rates not verified)",
+            "code": "",
+            "rate": 248.35,
+            "unit": "per day",
+            "units_per_client_month": 28.6667,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "344 days ÷ 12 = 28.67 days per resident-month, matching the $85,432.40 annual cap [S9]. These are state-funded rates effective 10/1/2026, not verified NOW/COMP waiver rates. Bridge-payer caveat: state-funded services are temporary or transitional for people eligible for waivers, and residents who move to NOW/COMP are disenrolled on 30 days' written notice [S9]. The 100% state-funded share is a bridge-revenue base case. The NOW/COMP CRA rate and cap were not verified, and no conversion or vacancy-lag scenario is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (4 homes × 910 h)",
+            "wage_hourly": 15.0,
+            "wage_source_id": "S54",
+            "basis": "hours_per_month",
+            "amount": 3640,
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Per home: 730 h of one awake staff 24/7 plus about 180 h of a second staff at peak times. Operator estimate; the proposed rule sets only the 3-minute evacuation standard and awake-staff requirement [S3]. Wage $15.00 is an operator estimate: above the Georgia home health aide median of $14.07 [S54], below the Atlanta personal care and service group mean of $18.17 [S51], and well above the $7.25 federal minimum [S47]."
+          },
+          {
+            "role": "Administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed): at least 21 years of age",
+            "notes": "Operator estimate. No Georgia BLS manager wage was retrieved. This role also owns the QM plan, the quarterly QM reports and the mandatory external Quality Improvement Council [S9]; the cost of that program is not modeled."
+          },
+          {
+            "role": "Billing / ISP and records coordinator",
+            "basis": "annual_salary",
+            "amount": 42000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate. Handles Carelon claims, MIER monthly reports, quarterly QM reports and personnel files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — 4-bedroom house per home",
+            "monthly": 10420,
+            "basis": "fixed",
+            "notes": "4 homes × $2,605. HUD FY2026 Fair Market Rent, 4-bedroom, Atlanta HMFA [S64]. Benchmark only; actual rents vary by county.",
+            "source_id": "S64"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4. Operator estimate; verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "$250 per home × 4. Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4. Operator estimate."
+          },
+          {
+            "item": "Vehicle (payment, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × $800. Operator estimate. Business auto liability is called for in DBHDD's certificate of insurance [S60]."
+          },
+          {
+            "item": "General liability insurance",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4. Operator estimate for premium. General liability naming DBHDD as certificate holder is required [S10]; $1M/$3M limits come from a 2018 contractor form [S60] and are not confirmed as current."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4. Operator estimate; checks and 16 annual CE hours per the proposed rule [S3]."
+          },
+          {
+            "item": "DBHDD annual CLA licensure fee",
+            "monthly": 116.67,
+            "basis": "fixed",
+            "notes": "$350 per year per CLA ÷ 12 × 4 homes [S4]. A 25% accreditation discount is not assumed.",
+            "source_id": "S4"
+          },
+          {
+            "item": "Contract nursing / health oversight consult",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$300 per home × 4. Operator estimate. Site-specific nursing enrollment applies to nursing services under a CLA license [S10]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach (regional offices, support coordinators)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records, billing and compliance software (Carelon Provider Connects access, MIER and QM reporting)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate. State-funded billing uses Carelon Provider Connects [S9]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The workbook staffs all four homes from month 1; opening homes one at a time (hiring as each fills) needs less cash than the modeled ramp-up deficit. Under the proposed rule, a governing body with a provisional license cannot apply for a new CLA until all its CLAs hold a full license, and a never-licensed residence that fails the structural rules cannot get a provisional license [S3]. Simultaneous applications for four sites may not be possible, and rent is incurred before revenue at each site."
+        }
+      },
+      {
+        "id": "cla4_x6",
+        "label": "Six 4-resident CLA homes (24 residents, CRA 4-person, Category 1)",
+        "capacity": 24,
+        "notes": "Growth stage with an administrator, a billing/ISP coordinator and a half-time QA and training lead. It has the best margin of the group-home models, still thin at Category 1 rates. Requires six licensed sites and a steady referral pipeline.",
+        "revenue_lines": [
+          {
+            "name": "CRA, 4-Person Residence, Category 1 (state-funded bridge revenue; daily rate, capped at 344 billable days per person per year)",
+            "payer": "DBHDD (state-funded; Medicaid NOW/COMP rates not verified)",
+            "code": "",
+            "rate": 248.35,
+            "unit": "per day",
+            "units_per_client_month": 28.6667,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "344 days ÷ 12 = 28.67 days per resident-month, matching the $85,432.40 annual cap [S9]. Bridge-payer caveat: state-funded services are temporary or transitional for people eligible for waivers, and residents who move to NOW/COMP are disenrolled on 30 days' written notice [S9]. The 100% state-funded share is a bridge-revenue base case. The NOW/COMP CRA rate and cap were not verified, and no conversion or vacancy-lag scenario is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (6 homes × 910 h)",
+            "wage_hourly": 15.0,
+            "wage_source_id": "S54",
+            "basis": "hours_per_month",
+            "amount": 5460,
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Per home: 730 h of one awake staff 24/7 plus about 180 h of a second staff at peak times. Operator estimate [S3]. Wage $15.00 is an operator estimate between $14.07 (Georgia HHA median) [S54] and the Atlanta personal care and service group mean of $18.17 [S51]."
+          },
+          {
+            "role": "Administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Operator estimate; no Georgia BLS manager wage retrieved."
+          },
+          {
+            "role": "Billing / ISP and records coordinator",
+            "basis": "annual_salary",
+            "amount": 42000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "QA and training lead (0.5 FTE: CE hours, drills, survey readiness)",
+            "basis": "annual_salary",
+            "amount": 25000,
+            "wage_source_id": "",
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed): 16 hours of continuing education annually; monthly fire drills",
+            "notes": "0.5 FTE × $50,000, operator estimate. Covers the proposed 16 annual CE hours, monthly fire drills and 15-day corrective-action plans [S3]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — 4-bedroom house per home",
+            "monthly": 15630,
+            "basis": "fixed",
+            "notes": "6 homes × $2,605. HUD FY2026 4-bedroom FMR, Atlanta HMFA [S64]. Benchmark only.",
+            "source_id": "S64"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 2700,
+            "basis": "fixed",
+            "notes": "$450 per home × 6. Operator estimate; verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "$250 per home × 6. Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$150 per home × 6. Operator estimate."
+          },
+          {
+            "item": "Vehicle (payment, auto insurance, fuel)",
+            "monthly": 4800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × $800. Operator estimate [S60]."
+          },
+          {
+            "item": "General liability insurance",
+            "monthly": 2700,
+            "basis": "fixed",
+            "notes": "$450 per home × 6. Operator estimate for premium [S10][S60]."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$150 per home × 6. Operator estimate [S3]."
+          },
+          {
+            "item": "DBHDD annual CLA licensure fee",
+            "monthly": 175,
+            "basis": "fixed",
+            "notes": "$350 per year per CLA ÷ 12 × 6 homes [S4].",
+            "source_id": "S4"
+          },
+          {
+            "item": "Contract nursing / health oversight consult",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$300 per home × 6. Operator estimate [S10]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach (regional offices, support coordinators)",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records, billing and compliance software (Carelon Provider Connects access, MIER and QM reporting)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate [S9]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 6,
+          "add_per_month": 2,
+          "note": "Operator estimate; assumes growth from an operating agency that already serves several residents. Opening homes in stages needs less cash than the modeled deficit. Under the proposed rule, a governing body with a provisional license cannot apply for a new CLA until all its CLAs hold a full license [S3], so staged openings are also a licensing necessity."
+        }
+      },
+      {
+        "id": "cla3_x4",
+        "label": "Four 3-resident CLA homes (12 residents, CRA 3-person, Category 1)",
+        "capacity": 12,
+        "notes": "3-person residences earn a higher per-resident rate ($294.16 per day) but spread each home's staffing and rent over fewer residents. Per-home revenue is close to a 4-person home, and the fixed costs per resident are higher. The model sits slightly below break-even at default occupancy. Whether a new provider can get 3-person Category 1 placements was not verified.",
+        "revenue_lines": [
+          {
+            "name": "CRA, 3-Person Residence, Category 1 (state-funded bridge revenue; daily rate, capped at 344 billable days per person per year)",
+            "payer": "DBHDD (state-funded; Medicaid NOW/COMP rates not verified)",
+            "code": "",
+            "rate": 294.16,
+            "unit": "per day",
+            "units_per_client_month": 28.6667,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "The annual cap of $101,191.04 ÷ $294.16 = 344 days, so the model bills 28.67 days per resident-month [S9]. Bridge-payer caveat: state-funded services are temporary or transitional for people eligible for waivers, and residents who move to NOW/COMP are disenrolled on 30 days' written notice [S9]. The 100% state-funded share is a bridge-revenue base case. The NOW/COMP CRA rate and cap were not verified, and no conversion or vacancy-lag scenario is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (4 homes × 850 h)",
+            "wage_hourly": 15.0,
+            "wage_source_id": "S54",
+            "basis": "hours_per_month",
+            "amount": 3400,
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Per home: 730 h of one awake staff 24/7 plus about 120 h of a second staff at peak times. Operator estimate; with three residents the 3-minute evacuation standard [S3] may need less overlap, but depends on resident mobility. Wage $15.00 is an operator estimate [S54][S51]."
+          },
+          {
+            "role": "Administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "Ga. Comp. R. & Regs. 82-13-1 (proposed)",
+            "notes": "Operator estimate; no Georgia BLS manager wage retrieved. This role also owns the QM plan, the quarterly QM reports and the mandatory external Quality Improvement Council [S9]; the cost of that program is not modeled."
+          },
+          {
+            "role": "Billing / ISP and records coordinator",
+            "basis": "annual_salary",
+            "amount": 42000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — 4-bedroom house per home",
+            "monthly": 8728,
+            "basis": "fixed",
+            "notes": "4 homes × $2,182. HUD FY2026 Fair Market Rent for a 3-bedroom, Atlanta HMFA [S64]. Benchmark only.",
+            "source_id": "S64"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4. Operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "$250 per home × 4. Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4. Operator estimate."
+          },
+          {
+            "item": "Vehicle (payment, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × $800. Operator estimate [S60]."
+          },
+          {
+            "item": "General liability insurance",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4. Operator estimate for premium [S10][S60]."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4. Operator estimate [S3]."
+          },
+          {
+            "item": "DBHDD annual CLA licensure fee",
+            "monthly": 116.67,
+            "basis": "fixed",
+            "notes": "$350 per year per CLA ÷ 12 × 4 homes [S4].",
+            "source_id": "S4"
+          },
+          {
+            "item": "Contract nursing / health oversight consult",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$300 per home × 4. Operator estimate [S10]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach (regional offices, support coordinators)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records, billing and compliance software (Carelon Provider Connects access, MIER and QM reporting)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate [S9]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator estimate. All four homes are staffed from month 1. Under the proposed rule, a governing body with a provisional license cannot apply for a new CLA until all its CLAs hold a full license [S3], so simultaneous applications for four sites may not be possible."
+        }
+      },
+      {
+        "id": "host_home_12",
+        "label": "CRA Host Home agency (12 individuals in host homes, Category 1)",
+        "capacity": 12,
+        "notes": "A lighter-capital model: the agency holds the CRA contract and subcontracts day-to-day residential care to host home providers. DBHDD limits CRA subcontracting to host home providers only [S9]. The agency pays host home providers an assumed 60% of the daily rate. That share is an operator assumption informed by a 2017 COMP-renewal policy (host home agencies pass through at least 60%); its current status was not verified. Whether host-home sites need a CLA license or PCH permit was not verified; the model carries a per-site licensure fee as a conservative placeholder. Margin is thin at default occupancy.",
+        "revenue_lines": [
+          {
+            "name": "CRA, Host Home, Category 1 (state-funded bridge revenue; daily rate, capped at 344 billable days per person per year)",
+            "payer": "DBHDD (state-funded; Medicaid NOW/COMP rates not verified)",
+            "code": "",
+            "rate": 163.33,
+            "unit": "per day",
+            "units_per_client_month": 28.6667,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "The annual cap of $56,185.52 ÷ $163.33 = 344 days, so the model bills 28.67 days per individual-month [S9]. CRA providers must give 60 days' written notice before changing day-to-day charges to the individual or host home [S9]. Bridge-payer caveat: state-funded services are temporary or transitional for people eligible for waivers, and individuals who move to NOW/COMP are disenrolled on 30 days' written notice [S9]. The 100% state-funded share is a bridge-revenue base case. The NOW/COMP CRA rate and cap were not verified, and no conversion or vacancy-lag scenario is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Relief / respite direct support staff (20 h per individual per month)",
+            "wage_hourly": 15.0,
+            "wage_source_id": "S54",
+            "basis": "hours_per_client_month",
+            "amount": 20,
+            "cite": "",
+            "notes": "Operator estimate of backup coverage when host providers are away; verify locally. Wage $15.00 is an operator estimate [S54][S51]."
+          },
+          {
+            "role": "Administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate; no Georgia BLS manager wage retrieved. This role also owns the QM plan, the quarterly QM reports and the mandatory external Quality Improvement Council [S9]; the cost of that program is not modeled."
+          },
+          {
+            "role": "Host home coordinator (recruits, trains and monitors host providers; ISP and monthly reporting)",
+            "basis": "annual_salary",
+            "amount": 48000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — 4-bedroom house per home",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "Small office lease only; host homes are provided by the host providers. Operator estimate; verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Office utilities. Operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 50,
+            "basis": "fixed",
+            "notes": "Office upkeep. Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle for the coordinator's site visits. Operator estimate [S60]."
+          },
+          {
+            "item": "General liability insurance",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate for premium [S10][S60]."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Host provider screening and training. Operator estimate [S3]."
+          },
+          {
+            "item": "DBHDD annual CLA licensure fee",
+            "monthly": 291.67,
+            "basis": "fixed",
+            "notes": "Placeholder: about 10 sites × $350 per year ÷ 12 [S4]. Whether host-home sites require a CLA license or PCH permit was not verified.",
+            "source_id": "S4"
+          },
+          {
+            "item": "Contract nursing / health oversight consult",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate [S10]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach (regional offices, support coordinators)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records, billing and compliance software (Carelon Provider Connects access, MIER and QM reporting)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate [S9]."
+          },
+          {
+            "item": "Food and household supplies per resident",
+            "monthly": 50,
+            "basis": "per_client",
+            "notes": "Host provider covers household costs from its payment; agency supplies and activities only. Operator estimate."
+          },
+          {
+            "item": "Host home provider payments (host-home configuration only)",
+            "monthly": 2809,
+            "basis": "per_client",
+            "notes": "Assumed 60% of $163.33 × 28.67 days = $2,809 per individual per month. The 60% share is an operator assumption informed by a 2017 COMP-renewal policy; current status unverified. The actual host agreement governs. DBHDD requires the budget and agreed payment details to the Host Home provider for each individual to be approved by the Regional Field Office before placement, so the payment must fit within the $163.33 daily rate and cover room, board and CRA services [S9]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 1,
+          "note": "Operator estimate: one new individual per month, limited by host provider recruitment and ISP placements."
+        }
+      }
+    ],
+    "default_configuration": "cla4_x4",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.087,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.04,
+      "notes": "Payroll tax: employer FICA 7.65% plus Georgia SUI at the 2026 new-employer rate of 2.7% on a $9,500 wage base (secondary sources; one lists 2.64%) [S55][S56], plus FUTA, which comes to about 8.6% for a full-time aide at $15.00. Workers' compensation: Georgia requires coverage for employers with 3+ employees [S63]; the $99 per employee per month average from MoneyGeek [S62] is about 3.8% of an aide's wages, rounded to 4%. The NCCI proposed an -8.8% loss-cost change effective 3/1/2026 [S61]; approval was not confirmed. Benefits 4% is an operator estimate. Actual rates depend on class code and experience rating.",
+      "source_id": "S55"
+    },
+    "opex": [
+      {
+        "item": "Lease — 4-bedroom house per home",
+        "monthly": 2605,
+        "basis": "fixed",
+        "notes": "Base case: one 4-bedroom house at the HUD FY2026 Fair Market Rent for the Atlanta-Sandy Springs-Roswell HMFA ($2,605) [S64]. The FY2026 schedule expired Sept. 30, 2026, and FY2027 values took effect Oct. 1, 2026. A third-party source lists the FY2027 4-bedroom at $2,493 [S65]; this is unconfirmed, and the model keeps $2,605 until the official figure or local listings confirm a different rent. Each configuration overrides this by its number of homes. FMR is a benchmark, not a group-home market rent. Rent is fixed whether beds are full or not.",
+        "source_id": "S64"
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "$450 per home. Operator estimate; verify locally."
+      },
+      {
+        "item": "Home maintenance, pest control, lawn, repairs",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "$250 per home. Operator estimate."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "$150 per home. Operator estimate."
+      },
+      {
+        "item": "Vehicle (payment, auto insurance, fuel)",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "One vehicle per home at $800. Operator estimate. DBHDD's certificate of insurance calls for business auto liability covering owned, non-owned and hired vehicles [S60]."
+      },
+      {
+        "item": "General liability insurance",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "$450 per home; operator estimate for premium. General liability naming DBHDD as certificate holder is required for DD providers [S10]. $1M per incident / $3M aggregate limits come from a 2018 contractor form [S60] and are not confirmed as current."
+      },
+      {
+        "item": "Training, CPR/first aid, background and registry checks",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "$150 per home. Operator estimate. The proposed rule requires first aid/BCLS, TB screening on hire, registry and criminal background checks, and 16 hours of annual continuing education [S3]. The fingerprint-check fee was not found."
+      },
+      {
+        "item": "DBHDD annual CLA licensure fee",
+        "monthly": 29.17,
+        "basis": "fixed",
+        "notes": "$350 per year per CLA ÷ 12. Paid through the portal by Dec. 31; 25% discount if currently accredited (not assumed); $150 late fee at 60 days past due [S4].",
+        "source_id": "S4"
+      },
+      {
+        "item": "Contract nursing / health oversight consult",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "$300 per home. Operator estimate with no sourced price. Nursing services under a CLA license require site-specific nursing enrollment [S10]. The provider must complete an HRST at least 90 days before the annual ISP, and the provider's nurse must review and sign it [S9]. No Georgia RN or LPN wage or contract quote was retrieved."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office, postage and supplies",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and referral outreach (regional offices, support coordinators)",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Records, billing and compliance software (Carelon Provider Connects access, MIER and QM reporting)",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate; get vendor quotes. State-funded claims are submitted through Carelon Provider Connects. The MIER is due by the 10th of the month only for individuals without a prior authorization in IDDC. Quarterly QM reports are due Oct 16, Jan 17, Apr 17 and Jul 17 (FY27). Notify the RSA-DD within 2 hours of any death or high-visibility incident [S9]. Whether CRA per diem requires EVV was not verified (EVV is confirmed only for personal care/CLS) [S21][S22]."
+      },
+      {
+        "item": "Georgia LLC annual registration",
+        "monthly": 5,
+        "basis": "fixed",
+        "notes": "$60 per year ($50 fee + $10 service fee) ÷ 12 [S58]. Secondary sources conflict between $50 and $60; Georgia imposes no LLC franchise tax [S59].",
+        "source_id": "S58"
+      },
+      {
+        "item": "Food and household supplies per resident",
+        "monthly": 350,
+        "basis": "per_client",
+        "notes": "$275 food + $75 household and personal supplies per resident. Operator estimate. Room-and-board collections from residents are not modeled, so this is a conservative full cost to the agency; how SSI and room and board interact with the CRA per diem was not verified."
+      },
+      {
+        "item": "Host home provider payments (host-home configuration only)",
+        "monthly": 0,
+        "basis": "per_client",
+        "notes": "$0 in group-home configurations; used only in the host-home configuration."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Georgia LLC Articles of Organization ($100 filing + $10 service charge)",
+        "low": 110,
+        "high": 110,
+        "source_id": "S57",
+        "notes": "Secondary source; confirm with the Secretary of State."
+      },
+      {
+        "item": "DBHDD CLA application processing fee ($300 per application, due on submission, non-refundable)",
+        "low": 300,
+        "high": 1800,
+        "source_id": "S4",
+        "notes": "$300 × one application per licensed site (1 home to 6 homes). The $300 applies to a new application, change of ownership, change in service level, name change and relocation. Applications are filed online through GAHLES [S2]."
+      },
+      {
+        "item": "DBHDD initial CLA licensing fee ($650 per license, due before the license is issued)",
+        "low": 650,
+        "high": 3900,
+        "source_id": "S4",
+        "notes": "$650 × one license per site (1 to 6 sites)."
+      },
+      {
+        "item": "Follow-up visit fee for a periodic inspection ($250; the fee table's due column says license renewal date)",
+        "low": 0,
+        "high": 1500,
+        "source_id": "S4",
+        "notes": "The $250 is a follow-up visit to a periodic inspection and is listed as due at the license renewal date [S4]. Only if a follow-up visit is required; up to $250 × 6 sites. Confirm the timing with DBHDD."
+      },
+      {
+        "item": "Georgia Medicaid provider enrollment application fee (CY2026)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S19",
+        "notes": "The $750 CY2026 federal fee applies to institutional providers; whether CLA/CRA providers are classed as institutional was not verified. Budget $0–$750."
+      },
+      {
+        "item": "State fire marshal inspection, electrical compliance form, certificate of occupancy and water/sewer documents",
+        "low": 300,
+        "high": 1800,
+        "source_id": "S2",
+        "notes": "The packet requires each of these [S2]. Fire report must be within 12 months of submission; electrical form within 6 months. Local fees are an operator estimate of $300 per site; verify locally."
+      },
+      {
+        "item": "Owner and employee background and records checks",
+        "low": 100,
+        "high": 600,
+        "source_id": "S3",
+        "notes": "Owners with 10% or more interest need a fingerprint check unless they meet all four attestation exemption conditions; an owner-operator who works on site does not qualify [S2]. The records-check fee will be set by DBHDD rule and was not found [S3]; operator estimate."
+      },
+      {
+        "item": "Policies and procedures manual, resident rights, incident reporting and training curriculum",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate. Written corrective-action plans are due within 15 days of a survey report (proposed rule) [S3]."
+      },
+      {
+        "item": "Accreditation survey (optional; 25% annual licensure fee discount; DBHDD provider-network requirement not confirmed)",
+        "low": 0,
+        "high": 10000,
+        "source_id": "S4",
+        "notes": "Cost is an operator estimate. Accreditation as a licensure prerequisite was not verified; the fee table confirms only the 25% discount."
+      },
+      {
+        "item": "Lease deposits and first month's rent (2 × monthly rent per home)",
+        "low": 5210,
+        "high": 31260,
+        "source_id": "S64",
+        "notes": "1 home to 6 homes at $2,605 per month (HUD FY2026 4-bedroom FMR). Benchmark only."
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 6000,
+        "high": 36000,
+        "notes": "$6,000 per home. Operator estimate. Bedrooms need at least 80 sq ft per person and no more than two residents per room (proposed rule) [S3]."
+      },
+      {
+        "item": "Safety items: interconnected AC-powered smoke detectors, extinguishers, bathroom and bedroom setup",
+        "low": 1500,
+        "high": 9000,
+        "source_id": "S3",
+        "notes": "$1,500 per home. Operator estimate. The proposed rule requires interconnected smoke detectors audible in sleeping rooms and at least one toilet, lavatory and shower per four persons [S3]."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 18000,
+        "notes": "$3,000 per home. Operator estimate."
+      },
+      {
+        "item": "Insurance down payments (general liability, business auto, workers' comp)",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate. Workers' comp is required with 3 or more employees [S63]."
+      },
+      {
+        "item": "Computers, phones, records/billing software setup",
+        "low": 1500,
+        "high": 5000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Pre-opening hiring and training of direct support staff (CPR/BCLS, first aid, orientation)",
+        "low": 3000,
+        "high": 18000,
+        "source_id": "S3",
+        "notes": "No employee may work alone with residents until all required training is complete (proposed rule) [S3]. Operator estimate."
+      },
+      {
+        "item": "Pre-revenue overhead: administrator and office costs from licensure to first resident placement (modeled at about 3 months; stress-test 4 to 6 months)",
+        "low": 15000,
+        "high": 60000,
+        "category": "working_capital",
+        "notes": "Operator estimate; the 3-month period is optimistic and unverified. Initial application review alone takes up to 30 business days [S2]. A provider must then have an executed, signed DBHDD contract before reimbursement [S9], enroll with Carelon, and wait for an ISP and a Regional Field Office referral. Revenue starts only when a regional office places an individual. Stress-test 4 to 6 months of pre-revenue overhead. The generator replaces this advisory line with the modeled ramp-up deficit."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Georgia does not license a facility called a 'DD group home.' The small residential model for adults with intellectual and developmental disabilities (I/DD) is the **Community Living Arrangement (CLA)**, a residence for two or more unrelated adults whose residential services are funded in whole or in part through DBHDD-designated funds [S44][S45]. The services delivered there are billed as **Community Residential Alternative (CRA)**. DBHDD requires a provider to hold a DBHDD-issued CLA license (or a Personal Care Home permit) for every residential site used for CRA [S9][S10].\n\n**The regulator changed on January 1, 2026.** Under House Bill 584, CLA licensing and oversight moved from the Department of Community Health (DCH) to the Department of Behavioral Health and Developmental Disabilities (DBHDD) [S1][S43]. The brief's reference to a 'DCH HFRD CLA license under Rule 111-8-1/111-8-24' is not supported by any source we found. The codified rule is still Ga. Comp. R. & Regs. 290-9-37, which defines 'Department' as the Department of Human Resources [S5]. DBHDD's proposed replacement, Chapter 82-13-1, was scheduled for board consideration on August 27, 2026. **We could not verify that it was adopted**, so every 82-13-1 requirement in this report is labeled proposed [S3].\n\n**Licensing fees are modest.** The charges are a $300 application processing fee, a $650 initial licensing fee before issuance, and $350 a year thereafter [S4]. DBHDD says it will complete its initial review within 30 business days of submission [S2]. The proposed rule caps a CLA at four residents [S3].\n\n**Money flows through DBHDD.** Georgia funds I/DD services with state dollars plus two Medicaid waivers, NOW and COMP, and COMP is the waiver that primarily provides residential care [S8]. The only CRA rates we could verify are DBHDD's FY27 Q2 **state-funded** rates, effective October 1, 2026. A 4-person residence, Category 1, pays **$248.35 per day** with an annual cap of $85,432.40 per individual [S9]. We did not verify the NOW/COMP waiver rate for the same service, and state-funded services are the payer of last resort [S9]. Higher-category rates were not captured.\n\n**Demand far exceeds supply, but it is not a referral pipeline for a new provider.** About 7,900 people are on the NOW/COMP planning list [S33], against 4,505 enrolled in NOW and 9,789 in COMP [S32]. The FY27 budget added only 100 slots [S29]. Placements run through DBHDD regional offices and each person's ISP, not through an open market [S13][S14].\n\n**The economics are thin.** At the Category 1 rate, a Georgia operator who pays for the staffing the proposed rule implies earns single-digit margins at best. Four 4-resident homes (16 residents) are our default model. At 92% occupancy that model nets about **$3,902 a month (3.7%)** and breaks even near 88.4% occupancy. Six homes net about **$8,516 a month (5.4%)**. A single home roughly breaks even, and four 3-resident homes lose about $618 a month. The wage assumption ($15.00 an hour) is an operator estimate, and at the Atlanta personal-care group mean of $18.17 the default model loses about $9,600 a month. Section 8 shows every result and the sensitivities.",
+    "service_model": "**Who is served.** CLA residents are adults with I/DD who are not related to the owner or administrator, living in a residence whose services are funded in whole or in part by DBHDD [S44][S45]. DBHDD describes the COMP waiver as serving people with more intensive needs, 'primarily providing residential care for individuals with I/DD.' NOW serves people with less intensive needs, mostly at home or independently [S8]. The FY2025 average cost per participant was about $104,000 for COMP and $16,200 for NOW [S16]. These are whole-waiver averages, not a residential rate, and we did not find them broken out by service. State-funded services are intended to be temporary or transitional for people who are eligible for waivers, and people receiving NOW or COMP are not eligible for state-funded services [S9]. The state-funded rate used in this model is therefore bridge revenue.\n\n**Service model.** A provider holds a DBHDD-enrolled CRA contract. It operates one or more licensed CLA residences (group homes) or subcontracts to host home providers. DBHDD limits CRA subcontracting to **Host Home Providers only** [S9]. Each resident has an Individual Support Plan (ISP), and billing runs against the approved ISP [S9]. Nursing services delivered under a CLA license require site-specific nursing enrollment [S10]. The provider must complete a health risk screening (HRST) at least 90 days before each annual ISP, and the provider's nurse must review and sign it [S9].\n\n**Home size.** The proposed Chapter 82-13-1 caps licensed capacity at four residents [S3]. A 2021 DBHDD training document says new group homes with more than five beds 'have not been permitted for several years' [S12]. The FY27 manual still lists rates for 3-person, 4-person and 5-person residences, so existing five-resident homes are paid [S9]. The model uses 3- and 4-person homes. Each resident bedroom needs at least 80 sq ft of usable floor space per person, with no more than two residents per bedroom, and a home needs at least one toilet, lavatory and shower per four persons (proposed) [S3].\n\n**Regulatory framework (and its uncertainty).**\n- *Statute:* CLA licensing authority is O.C.G.A. § 37-13-1 et seq. (authority § 37-13-2), the statute cited by the proposed rule. Proposed rule .06(1) says no CLA may operate or provide services to residents without a valid license issued by the Department [S3]. The older O.C.G.A. § 31-2-4 is the DCH-era citation and is no longer the authority after the HB 584 transfer.\n- *Current rule:* Ga. Comp. R. & Regs. 290-9-37, whose cited legal authority (O.C.G.A. §§ 31-7-1 et seq. and 37-1-22) predates the DBHDD transfer [S5]. The legacy licensing text requires a valid license or provisional license before beginning operation [S6].\n- *Proposed replacement:* Chapter 82-13-1. DBHDD's notice says it amends the rules 'previously located in 290-9-37' [S3]. Public comment closed August 21, 2026 at 5:00 P.M., and board consideration was scheduled for August 27, 2026 [S3]. As of October 14, 2026 no adoption notice or effective date was found, and DBHDD's rules page still lists the CLA rules as proposed. Build to the stricter of 290-9-37 and 82-13-1.\n- *Not the same program:* personal care homes, assisted living communities and skilled nursing facilities remain regulated by DCH [S42]. A CLA for I/DD is not an assisted living community. Do not apply for a PCH or assisted living license for a DBHDD-funded I/DD group home.\n\nBefore you rely on any requirement in this report, confirm with DBHDD (Licensure.Application@dbhdd.ga.gov) which rule text is in force on your application date [S1][S2].",
+    "licensing_pathway": "The sequence below is built from DBHDD's January 1, 2026 application packet, its fee table and the proposed Chapter 82-13-1. Steps for DBHDD provider-network approval and Medicaid enrollment were not verified in detail and are marked.\n\n**1. Form the entity and plan the site.** File Georgia LLC Articles of Organization. A secondary source lists $110 ($100 filing fee plus a $10 service charge) [S57]. Annual registration is $50 or $60 depending on the source, and a late filing adds $25 [S58][S59]. Georgia imposes no LLC franchise tax [S59]. Confirm fees with the Secretary of State. Zoning and local use-permit rules for CLAs were not verified, so check them with the county before signing a lease.\n\n**2. Assemble the application packet.** Applications are completed **online through the GAHLES portal** [S2]. During the transition you may still be redirected to DCH websites, and payments and forms are forwarded to DBHDD [S1]. The packet requires:\n- a **state fire marshal** inspection report dated within 12 months of submission;\n- the Electrical Inspection Compliance Form completed within the past 6 months;\n- a floor plan showing room square footage;\n- a certificate of occupancy;\n- for public water and sewer, a current water bill, or a county environmentalist form for well and septic;\n- a criminal history background check (fingerprint) for every owner with 10% or more interest, unless the owner meets all four conditions of the attestation exemption. An owner-operator who works on site does not qualify for the exemption. From January 1, 2026, an owner seeking an exemption must file the attestation with the application [S2]. The fingerprint fee is not quantified; the proposed rule says DBHDD rule will set the records-check fee [S3].\n\n**3. Pay the fees at the right time [S4].**\n- $300 application processing fee, due on submission. It applies to a new application, change of ownership, change in service level, name change and relocation, and it is non-refundable [S2][S4].\n- $650 initial CLA licensing fee, due before the license is issued.\n- $350 annual fee, paid through the payment portal by December 31, with a 25% discount if currently accredited by an approved body.\n- $150 late fee when 60 days past due.\n- $250 for a follow-up visit to a periodic inspection; the fee table lists its due date as the license renewal date.\nA missing document or unpaid fee results in denial [S2].\n\n**4. Review timeline and contract.** Applications are reviewed in the order received, and the initial review is completed within 30 business days (about six weeks) of the submission date [S2]. DBHDD does not state a final decision deadline in the materials we found. After licensure, a provider must have an executed, signed contract with DBHDD before it can be reimbursed [S9]. Individuals are referred by the Regional Field Office, and the provider confirms the start date [S9]. The sequence runs license review, then contract and Carelon enrollment, then an ISP and referral. The model's pre-revenue period of about three months is an optimistic operator estimate; stress-test 4 to 6 months of pre-revenue overhead.\n\n**5. Provisional license and multi-home phasing.** The proposed rule allows a provisional license of up to six months for a former personal care home converting to a CLA [S3]. A provisional license is not available to a never-licensed residence that fails the structural rules (.06(8)(b)). A governing body holding a provisional license cannot apply for a new CLA until all of its CLAs hold a full license (.06(8)(e)) [S3]. Plan multi-home openings in phases rather than as simultaneous applications, and expect rent and licensing fees at each site before revenue.\n\n**6. Surveys, admission agreements and corrective action (proposed).** DBHDD may survey or investigate on an announced or unannounced basis. After a survey report, you must submit a written corrective action plan within 15 days, or within 10 days if you dispute findings and also submit an acceptable plan [S3]. Admission agreements must promise at least 60 days' written notice of changes in charges or services (.12(7)(b)) [S3]. Notify DBHDD within 15 calendar days of a change of ownership interest [S3]. The proposed rule exempts host homes funded by the Department (.03(13)), but the state-funded manual still refers to a CLA license or PCH permit for CRA sites [S3][S9]. Confirm with DBHDD which applies to host homes.\n\n**7. DBHDD I/DD provider enrollment.** The IDD New Provider Welcome Packet from the Office of Provider Relations governs enrollment for NOW/COMP and state-funded contracts [S8]. Enrollment, authorizations and billing questions go to the Georgia Collaborative ASO (Carelon) at GACollaborativePR@carelon.com [S9]. Network approval timelines and any accreditation requirement were not verified from a primary source. Accreditation is confirmed only as a 25% annual licensure fee discount [S4].\n\n**8. Medicaid and billing.** State-funded claims are billed through Carelon Provider Connects [S9]. For Medicaid, GAMMIS notices say retroactive enrollment is not permitted [S18]. Providers who did not revalidate were suspended effective July 1, 2026 [S18]. A consultant source says a new Group/Billing enrollment is needed for claims accepted after January 1, 2026 [S20]; that is not confirmed from a state source. The CY2026 federal application fee is $750 for institutional providers [S19]. Whether a CLA/CRA provider is 'institutional' was not verified, so the startup budget shows $0 to $750.",
+    "reimbursement": "**How money flows.** Georgia pays for I/DD residential services through DBHDD, with state dollars plus the NOW and COMP Medicaid waivers [S8]. COMP primarily provides residential care [S8]. State-funded claims are billed through **Carelon Provider Connects** against each person's approved ISP [S9]. State-funded services are for people with no other means of payment, including State Medicaid Plan services for those who receive Medicaid [S9]. In other words, where a resident is eligible for a waiver, the state-funded rate is a fallback and the waiver rate would apply. **We did not verify the NOW/COMP waiver rate for CRA**, the T2025-series code mapping, or whether the 2024 rate-study models were adopted [S17]. COMP was scheduled to expire March 31, 2026, with a five-year renewal proposed, and we did not verify CMS approval [S30]. A $23 million Medicaid fee schedule increase took effect January 1, 2026 per a consultant source, but it is not confirmed as applying to DD residential rates [S31].\n\n**Verified CRA rates (DBHDD state-funded, FY27 Q2, effective October 1, 2026) [S9]:**\n\n| Residence type | Daily rate | Annual cap per individual |\n|---|---|---|\n| 3-person, Category 1 | $294.16 | $101,191.04 |\n| 4-person, Category 1 | $248.35 | $85,432.40 |\n| 5-person, all categories | $186.94 | $64,307.36 |\n| Host Home, Category 1 | $163.33 | $56,185.52 |\n\nThe provider is reimbursed the daily rate for each individual served [S9]. Dividing each annual cap by its daily rate gives 344 days (for example $85,432.40 ÷ $248.35). The model therefore bills 28.67 days per resident-month rather than 30.42, which avoids overstating revenue above the cap. A 344-day billing limit appeared in 2015/2017 materials and was not confirmed in the FY27 manual, so confirm how the cap is applied.\n\n**Other verified rates (state-funded) [S9]:** Community Living Support, 1 person (Basic), $9.98 per 15 minutes with an $83,520 annual cap per person. Community Access Group is $14.60 per hour ($21,900 annual cap without prior authorization). Community Access Individual is $42.20 per hour (up to $15,192 per annual ISP). Behavior Supports Level 2 is $36.68 and Level 1 is $24.36 per 15 minutes per individual. These are add-on lines a residential provider may also deliver, but the model does not include them.\n\n**Higher categories.** The manual's Category 2 and above rates for 3- and 4-person homes were not captured. A resident with higher assessed needs may bring a higher daily rate, which could change every result in this report. Get the complete rate table from DBHDD before committing capital.\n\n**Resident income and room and board.** The 2026 SSI federal benefit rate for an individual is $994 a month (secondary source; SSA page not retrieved) [S23]. How SSI, room and board, and the CRA per diem interact was not researched, so the model books no separate room-and-board collections and treats food and household costs as a full cost to the agency.\n\n**Host homes.** A CRA provider must give the individual and the host home provider 60 days' written notice before changing charges [S9]. A 2017 COMP renewal FAQ said host home agencies had to pass through at least 60% of the payment to the home provider [S35 context: GCDD 2017 FAQ, current status not verified]. The host-home model assumes 60% as an operator assumption.\n\n**Private pay.** There is no private-pay benchmark for I/DD group homes. CareScout's 2025 national assisted living median is $6,200 a month [S24], and Genworth's 2024 Georgia median is $59,280 a year, about $4,940 a month [S26]. Both measure assisted living communities, not CLAs. Georgia 2025 figures conflict across secondary sources ($4,258 vs. about $5,300 a month) [S27][S28]. Do not treat any of these as a CLA price.",
+    "demand": "**Waiver demand is large and documented, but mostly through advocacy and news sources.** The planning list is the best measure of unmet need.\n- DBHDD told legislators it lists roughly 7,900 people on the NOW/COMP waiver, with about 1,000 new enrollments expected in the year [S33].\n- GCDD, citing the Georgia Budget and Policy Institute, reports 7,891 people still on the waiting list, against 4,505 enrolled in NOW and 9,789 in COMP [S32].\n- A DBHDD analysis cited by GCDD identifies 1,217 Georgians in urgent need of NOW/COMP waivers [S29][S34]. Council testimony cited over 4,600 people older than 22 waiting and 1,678 in the most urgent category [S33].\n- In Sept. 2025 data, about 2,100 of 4,900 waitlisted people aged 22+ (43%) had waited at least six years [S36]. The list has never dropped below 6,000 over the past decade [S37].\n- GCDD flags people whose caregivers are over age 60 among the urgent cases [S34].\n\n**Supply of new slots is small.** The FY27 budget, signed May 12, 2026, allocated 100 new NOW/COMP waivers [S29][S40]. DBHDD estimates about 400 people roll off the waivers each year, freeing slots [S35]. Whether more than 100 slots were added beyond that was not verified.\n\n**How people reach a provider.** Individuals access the waiver programs through DBHDD regional offices, whose Intake and Evaluation teams handle eligibility [S14]. DBHDD keeps a Planning List of people with I/DD who applied and were found pre-eligible. The list is **not based on when you apply**. A validated needs tool orders it, and the regional office updates each person's needs assessment annually [S13]. DBHDD places priority on serving individuals on the planning list for state-funded community I/DD services [S14]. DBHDD proposed restructuring the waiting list into three tiers, and we did not verify whether that was finalized [S39]. DBHDD's strategic plan targets a NOW/COMP service-entry timeline under 80 business days [S15].\n\n**What this means for a new provider.** There is plenty of unmet need, but demand does not fill beds by itself. A bed fills when the regional office matches a person with an approved ISP and a funding source to your home. The marketing that matters is a relationship with regional offices, support coordinators and families, and a reputation for passing surveys. We found no public data on CLA occupancy, referral-source mix, the number of licensed CLAs, the number of CRA providers, or the number of people with I/DD served in CLAs. We make no claim about market shares or competitors. The DCH figures of 2,910 facilities and about 55,000 residents combine personal care homes, assisted living communities and CLAs, so they do not measure CLA supply [S44].",
+    "operations": "**Staffing (proposed Chapter 82-13-1; adoption not verified) [S3].**\n- Staff must be awake in the home at all times during their scheduled shift.\n- The CLA must maintain a staffing ratio sufficient to evacuate all residents within three minutes. **No numeric ratio is stated**, so staffing is an operator judgment tied to residents' mobility and ISPs.\n- The administrator must be at least 21 and qualified by training and experience. All employees must be at least 18.\n- No employee may work alone with residents until all minimum required training is complete.\n- Personnel files must show first aid and BCLS training and recertification, TB screening on hire, a motor vehicle record check and 16 hours of continuing education annually.\n- A potential employee, including a potential administrator, must complete a registry check, a records check application and a criminal background check before employment.\nInitial administrator training hours beyond the 16 annual hours were not found.\n\n**Model staffing.** The default staffing is 910 direct-support hours per home per month, which is 730 hours for one awake staff 24/7 plus about 180 hours of a second staff at peak times. That figure is an operator estimate. Verify it against each resident's ISP and mobility. At the modeled $15.00 an hour, each home's direct care costs roughly $13,650 a month before payroll burden. The default configuration also carries a full-time administrator and a billing/ISP coordinator. In every configuration, name an owner for the quality program: the QM plan, the quarterly QM reports and the mandatory external Quality Improvement Council [S9]. The cost of that program is not modeled.\n\n**Home and safety standards (proposed) [S3].** Interconnected, AC-powered smoke detectors audible in sleeping rooms. Fire drills every month at alternating times and shifts, with at least two a year during sleeping hours. Electrical, water, sewage and fire-safety compliance must accompany the application. Report a missing resident to law enforcement within 30 minutes of staff learning of it.\n\n**Nursing.** Nursing services under a CLA license require site-specific nursing enrollment [S10]. The provider must complete an HRST at least 90 days before each annual ISP, and the provider's nurse must review and approve it by signature [S9]. The model budgets $300 per home per month for contract nursing and health oversight. That is an operator estimate with no sourced quote; no Georgia RN wage was retrieved. Get an RN or LPN contract quote before relying on it.\n\n**Reporting and billing [S9].** Submit the monthly MIER to DBHDD's contract person by the 10th of each month, but only for individuals who do not have a prior authorization in IDDC. Submit quarterly quality management reports, due Oct 16, Jan 17, Apr 17 and Jul 17 (FY27). Notify the RSA-DD within 2 hours of any death or high-visibility incident. Bill through Carelon Provider Connects. Whether CRA per diem requires electronic visit verification was not verified. EVV is confirmed only for personal care and community living supports under NOW/COMP, with Netsmart Mobile Caregiver+ as the state aggregator per a secondary source [S21][S22].\n\n**Insurance.** DD providers must carry current general liability insurance listing DBHDD as certificate holder [S10]. A 2018 DBHDD-contractor form lists $1,000,000 per incident and a $3,000,000 aggregate, and calls for business auto liability on owned, non-owned and hired vehicles [S60]. Current applicability was not verified, and premiums in the model are operator estimates. Georgia requires workers' compensation for employers with three or more employees (secondary source) [S63].\n\n**Compliance cadence.** Annual licensure fee by December 31 [S4], monthly drills, monthly MIER where applicable, quarterly QM reports, annual 16-hour CE per employee, and background and registry checks before hire.",
+    "market_conditions": "**Supply.** No official count of licensed CLAs or CRA providers was found, and GaMap2Care (DCH) is the public lookup for licensure and inspection reports [S44]. State audit data cover the broader Personal Care Home program: more than 2,800 facilities serving nearly 48,000 residents, and 43% (1,100) of 2,540 active facilities had no routine inspection between January 2019 and November 2024 [S46]. That figure is not CLA-specific. It does indicate that enforcement capacity has been limited, and DBHDD's takeover of CLA licensing in 2026 may change how often and how hard CLAs are inspected.\n\n**Wages.** Georgia's wage floor is not the constraint.\n- The federal $7.25 minimum wage governs most Georgia employers in 2026 because the state's $5.15 rate is overridden [S47][S48]. FLSA coverage includes care facilities [S49]. No Georgia city or county sets a higher minimum [S50]. A local minimum wage therefore does not change the model for Atlanta.\n- Georgia's median for home health and personal care aides is $14.07 an hour ($29,270 a year), per BLS OEWS May 2025 as reproduced by CaresLink [S54]. The national median annual wage for these aides was $35,800 [S52]. Georgia's median for nursing assistants is $37,680 a year [S53].\n- Atlanta MSA wage means from BLS were not verified, because the BLS page returned only navigation text. Where this report shows an $18.17 wage, treat it as a stress-test wage, not a verified benchmark.\nThe model uses **$15.00 an hour**, an operator estimate only about $0.93 above the Georgia aide median. Residential I/DD staff are often more experienced than the median aide, so $15.00 is not conservative for competitive hiring. Run a sensitivity at $16 to $18 for retention (Section 8). No Georgia state-level wage for RNs, LPNs or residential administrators was retrieved. Administrator and coordinator salaries ($55,000 and $42,000) are operator estimates with no wage source.\n\n**Payroll taxes.** The 2026 new-employer unemployment rate is 2.7% on a $9,500 wage base per secondary sources (one lists 2.64%) [S55][S56]. The model's 16.7% burden is 8.7% payroll taxes, 4% workers' comp and 4% benefits (see the payroll_burden note).\n\n**Housing costs.** HUD FY2026 Fair Market Rents for the Atlanta-Sandy Springs-Roswell HMFA, efficiency through 4-bedroom, were $1,585, $1,660, $1,820, $2,182 and $2,605 [S64]. Those values expired September 30, 2026, and FY2027 values took effect October 1, 2026. The model's lease line still uses the FY2026 4-bedroom FMR ($2,605) for 4-person homes and the 3-bedroom FMR ($2,182) for 3-person homes. A third-party page reports FY2027 Atlanta values of $1,762 (2BR), $2,099 (3BR) and $2,493 (4BR, down $112), effective October 1, 2026 [S65]. We did not retrieve the official FY2027 HUD schedule; confirm it on huduser.gov. FMR is a benchmark for what voucher-supported rents can reach. It is not a group-home rent survey, so replace it with local listings. Actual leases vary by county and landlord's willingness to lease to a CLA.\n\n**Pricing context.** The state-funded CRA rate is the price, and it is set by DBHDD. Unlike private-pay senior housing, a CLA operator cannot raise prices to cover costs. The Genworth 2024 Georgia assisted living median of about $4,940 a month and the CareScout 2025 national median of $6,200 are not comparable benchmarks for I/DD homes [S24][S26]. The 4-person Category 1 CRA rate works out to $7,119 a month at the annual cap ($85,432.40 ÷ 12). State-funded services are a temporary or transitional payer for people eligible for waivers [S9], so this price may not persist for a given resident.\n\n**Trends.** The waiver list has stayed above 6,000 for a decade [S37]. The FY27 budget funded only 100 new slots [S29]. DBHDD has proposed restructuring the list [S39]. The DBHDD licensing transfer and the proposed 82-13-1 rules mean the compliance environment is changing in 2026 [S1][S3]. HB 1097 (effective July 1, 2026) gives DBHDD background-check authority over ARMHPs and DATEPs, not CLAs; the CLA owner check comes from the application packet and rule 290-9-37 [S2].",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident is the DBHDD state-funded CRA daily rate times 28.67 billable days a month, which equals the annual cap divided by 12: $7,119 a month for a Category 1 resident in a 4-person home [S9]. Costs are direct-support hours at $15.00 an hour (an operator estimate), salaried administrative staff, 16.7% payroll burden, fixed costs per home (rent at the HUD 4-bedroom FMR, utilities, vehicle, insurance, nursing consult, training) and food and supplies of $350 per resident. Rent, utilities and staffing are fixed regardless of occupancy. A vacant bed earns nothing and costs almost the same. The default occupancy is 92% (88% conservative, 96% optimistic), an operator estimate with no Georgia CLA occupancy data behind it.\n\n**Results at the default 92% occupancy:**\n\n| Configuration | Net per month | Margin | Break-even occupancy | First profit month | Modeled cash needed |\n|---|---|---|---|---|---|\n| Six 4-resident homes (24 residents) | $8,516 | 5.4% | 86.8% | 10 | $635,580 |\n| **Four 4-resident homes (16 residents), default** | **$3,902** | **3.7%** | **88.4%** | **7** | **$339,256** |\n| Two 4-resident homes (8 residents) | $891 | 1.7% | 90.4% | 4 | $122,540 |\n| CRA host home agency (12 individuals) | $849 | 1.6% | 87.2% | 11 | $141,837 |\n| One 4-resident home, owner-operated | $18 | 0.1% | 91.9% | 4 | $62,482 |\n| Four 3-resident homes (12 residents) | -$618 | -0.7% | 92.6% | none | $283,940 |\n\n**What drives the result.**\n- *Direct care is the largest cost.* The default model pays 3,640 hours a month at $15.00, about $54,600 a month before burden, roughly half of revenue (about $105,000 a month). Each $1 an hour in wage moves net income by about $4,250 a month in the default model, after burden. The break-even wage is therefore about $15.90, only 90 cents above the modeled wage.\n- *Occupancy.* Each percentage point of occupancy in the default model is worth about $1,080 a month. Dropping to 88% takes the margin to about -0.4%.\n- *Rate.* A 1% change in the daily rate moves net income by about $1,050 a month. DBHDD sets the rate. The model uses Category 1 only.\n- *Scale.* A full-time administrator and a billing coordinator cost the same whether the agency runs two homes or six. That is why the six-home model earns the best margin and the two-home model barely clears zero. Even so, the margin at six homes is only 5.4%.\n- *Home size.* Four 3-resident homes earn a higher daily rate ($294.16) but only three residents per home. Per-home revenue is close to a 4-person home, while rent and staffing stay similar, and the model is slightly under break-even.\n- *Host homes.* The agency keeps the difference between the $163.33 rate and the host provider payment. At an assumed 60% pass-through the model earns $849 a month, a small margin with lower capital needs. The 60% share is an operator assumption informed by a 2017 policy of unverified current status.\n\n**Sensitivities (all derived from the same model).**\n- *Wage at the Atlanta group mean.* At $18.17 an hour, the 16-resident default loses about $9,600 a month. The Atlanta group mean includes many non-residential roles, so it overstates what a CLA must pay, but it shows how small the cushion is.\n- *Wage at the Georgia aide median.* At $14.07, the default would gain roughly $4,000 a month in net income [S54]. Hiring staff to meet the proposed rule's training and awake-shift requirements at the median may not be realistic.\n- *Staffing hours.* The 910 hours per home are an operator estimate. If the three-minute evacuation standard requires a second awake staff around the clock (1,460 hours per home), the default model would lose far more than it earns.\n- *Missing categories.* If residents are placed at Category 2 or above, revenue per resident rises, and so would required staffing. We did not capture those rates, so we cannot say whether the net effect is positive.\n- *Waiver rates.* If a COMP-funded resident's rate differs from the state-funded rate we used, every result moves. That is the largest unverified assumption in this model.\n\n**Cash.** The 'cash needed' figures combine startup costs with the modeled ramp-up deficit, assuming staffing and leases from month 1 and a ramp of 2 new residents a month in the multi-home cases. That is an operator estimate, and DBHDD's service-entry target of under 80 business days suggests placement can be slower [S15]. A slower ramp costs about a month of fixed cost for every month of delay. Opening one home at a time and hiring as each fills reduces peak cash, but the figures above assume the full footprint is staffed from the start.\n\n**Bottom line.** At Category 1 rates, Georgia CLAs are a scale-and-discipline business. Profitability starts at four homes and improves at six, but only if direct-care wages stay near $15.00 an hour, occupancy stays above about 89%, and residents' rates support the model. These are thin margins with little room for error. Nothing in this model raises a rate or drops a required cost to make it profit.",
+    "risks": "**Regulatory transition risk.** CLA licensing moved to DBHDD on January 1, 2026 and some steps still route through DCH portals [S1]. The codified rule (290-9-37) still names the Department of Human Resources [S5]. DBHDD's replacement rule (82-13-1) was scheduled for board consideration on August 27, 2026. As of October 14, 2026 we found no adoption notice or effective date [S3]. Staffing, training, capacity and inspection requirements could differ from the proposed text. Confirm with DBHDD before you lease.\n\n**Rate and funding risk.** The only verified rates are DBHDD state-funded rates for FY27 Q2, effective October 1, 2026 [S9]. State funds are the payer of last resort and are intended to be temporary or transitional for people eligible for waivers. People receiving NOW or COMP are not eligible for state-funded services, and DBHDD disenrolls residents who move to a waiver after 30 days' written notice [S9]. The model's 100% state-funded revenue is therefore bridge revenue, not a permanent stream. The NOW/COMP CRA rate and cap are unverified, and the model has no conversion scenario. NOW/COMP waiver rates, COMP renewal status after March 31, 2026, and the effect of the 2026 Medicaid fee schedule increase were not verified [S30][S31]. Rates may change with a new quarterly manual. Revenue per resident is capped by the annual maximum, and the model bills 344 days.\n\n**Placement and vacancy risk.** Beds fill through regional offices and the planning list, which is ordered by a needs tool, not application date [S13][S14]. The FY27 budget added only 100 slots against about 7,900 on the list [S29][S33]. A new provider has no guaranteed pipeline. A resident who converts to a waiver leaves a vacancy, and the model does not price the re-referral lag. At the default model, each point of occupancy below 88.4% produces a loss. A vacancy of one resident in sixteen (6.25 points) takes the model well below break-even.\n\n**Start-up timing risk.** Revenue cannot start until the license is issued, DBHDD executes your contract and a regional office refers a resident with an ISP [S9]. Initial license review alone takes up to 30 business days [S2]. The model's three-month pre-revenue period is optimistic; stress-test 4 to 6 months of overhead. Under the proposed rule you cannot apply for a new CLA while holding a provisional license until all your CLAs are fully licensed, so multi-home openings must be phased [S3].\n\n**Wage and labor risk.** The $15.00 wage is an operator estimate, only about $0.93 above the Georgia aide median of $14.07 [S54]. A $1 increase costs about $4,250 a month in the default model, and at a stress-test wage of $18.17 the default loses about $9,600 a month. Run a sensitivity at $16 to $18. The proposed rule's training and awake-staff requirements, plus turnover, make staffing the key risk [S3].\n\n**Staffing-rule risk.** No numeric ratio exists, only a three-minute evacuation standard [S3]. A surveyor could judge a given staffing pattern insufficient for residents with mobility needs. The cost of adding a second awake staff overnight would erase the margin.\n\n**Enforcement and compliance risk.** Surveys can be unannounced. Corrective action plans are due in 15 days, and a $250 follow-up fee applies for a follow-up visit to a periodic inspection [S3][S4]. Missing a document or fee at application leads to denial [S2]. Late annual fees cost $150 [S4]. Medicaid enrollment is not retroactive, and providers who did not revalidate were suspended on July 1, 2026 [S18]. The mandatory external Quality Improvement Council and quarterly QM reports add a cost the model does not include [S9].\n\n**Insurance and liability.** Providers must carry general liability naming DBHDD as certificate holder [S10]. The $1M/$3M limits we found are from a 2018 form and unconfirmed [S60]. Premiums in the model are operator estimates and could be higher for I/DD residential risk.\n\n**Host-home risk.** DBHDD limits CRA subcontracting to host home providers [S9]. The pass-through share, host-home licensing needs and the 60-day notice duty for charge changes affect the model [S9]. Each host payment must fit the Regional Field Office-approved budget [S9]. The host-home result relies on an unverified 60% pass-through.\n\n**Data gaps.** No CLA counts, occupancy, referral-source data, competitor information, SSI/room-and-board treatment, zoning rules, fingerprint fee, nursing contract price or administrator training hours were found. Several sources are secondary (minimum wage, payroll tax, LLC fees, SSI rate, waitlist figures from advocacy and news summaries).\n\n**Housing risk.** Rents use the HUD FY2026 4-bedroom FMR as a benchmark, and those values expired September 30, 2026. An official FY2027 schedule was not retrieved. A third-party page shows lower FY2027 values (4BR $2,493, 2BR $1,762) [S65]. Landlord and zoning acceptance of a CLA use is not guaranteed.",
+    "recommendations": "**1. Verify before you commit capital.** Email Licensure.Application@dbhdd.ga.gov to confirm which rule text applies to your application (290-9-37 or the final 82-13-1) and the current fee table [S1][S2]. Then ask the DBHDD Office of Provider Relations and the Georgia Collaborative ASO (GACollaborativePR@carelon.com) for the full FY27 CRA rate table, including Category 2 and higher, the NOW/COMP waiver rate and cap for CRA, how the annual cap is applied, how residents convert from state-funded to waiver funding, and the required steps and timeline for provider enrollment and your DBHDD contract [S8][S9]. The whole financial model depends on these answers.\n\n**2. Do not open a single home as a standalone business.** The one-home model nets about $18 a month at 92% occupancy and needs 91.9% occupancy to break even. It works only if the owner works as administrator without drawing a full salary and has another income source. If you start with one home, treat it as the first step toward four, and plan the second and third homes from day one.\n\n**3. Target a four-home, 16-resident footprint, then grow to six.** That is the configuration that earns a margin in our model ($3,902 a month, 3.7%, rising to $8,516, 5.4%, at six homes). Stage it. Open one or two homes, fill them, and add homes as referrals prove out. The proposed rule also bars a new CLA application while any of your CLAs holds only a provisional license [S3], so phasing is required. That keeps cash needs below the modeled $339,256 for four homes at once.\n\n**4. Secure referral relationships before you lease.** Meet the regional office intake and evaluation staff and support coordinators in your target region. Ask which residents are ready for placement and what level of need they have. Do not sign a multi-year lease on the strength of the 7,900-person planning list alone [S13][S14][S33].\n\n**5. Protect the wage and staffing assumptions.** Hold direct-care wages near the modeled $15.00 an hour, test your hiring market first, and run a sensitivity at $16 to $18. Each $1 an hour costs about $4,250 a month in the default model. Write the staffing plan around each resident's ISP and mobility, and be ready to show a surveyor how you meet the three-minute evacuation standard [S3].\n\n**6. Pursue higher-need placements only after verifying the rate.** If Category 2 or higher residents carry a higher daily rate, they may widen the margin. Confirm the rate and the staffing required before accepting placements.\n\n**7. Control the fixed costs you can.** Negotiate leases against local listings and the confirmed FY2027 HUD FMR, keep one vehicle per home only if resident transport requires it, get at least three insurance quotes, and plan accreditation only if the 25% licensure discount ($87.50 a year per CLA) or a DBHDD network requirement justifies the survey cost [S4].\n\n**8. Build the compliance calendar on day one.** Annual fee by December 31, monthly MIER by the 10th where applicable, quarterly QM reports (Oct 16, Jan 17, Apr 17, Jul 17), monthly fire drills with two a year during sleeping hours, 16 hours of annual CE for each employee, a 2-hour notice to the RSA-DD for any death or high-visibility incident, and a 15-day corrective-action clock [S3][S4][S9]. Assign a named owner to the QM plan and the external Quality Improvement Council.\n\n**9. Consider the host home model only as a complement.** It needs less capital ($141,837 modeled) but earns a thin $849 a month at an assumed 60% pass-through. Verify the host-home pass-through, whether CLA licensing applies to host homes, the Regional Field Office-approved host budget and the 60-day notice rule before building on it [S9].\n\n**10. Hold capital for a slow ramp.** The model assumes two new residents a month, and DBHDD's own service-entry target is under 80 business days [S15]. You also need a license, an executed DBHDD contract and a referral before revenue starts, so stress-test 4 to 6 months of pre-revenue overhead. Keep reserves above the modeled cash need, and plan for residents who convert from state-funded to waiver funding and leave a vacancy."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm the correct licensing pathway: a DBHDD-issued Community Living Arrangement (CLA) license, not a DCH license",
+      "instructions": "HB 584 moved CLA licensing and oversight from DCH to DBHDD effective Jan. 1, 2026. Some DCH portals are still used during the transition. Do not rely on the 'DCH HFRD Rule 111-8-1/111-8-24' reference. No source supports it, and the codified CLA rules are 290-9-37. Start at the DBHDD licensure page and call (404) 657-2252 to confirm the current process. Time: 1 day.",
+      "cite": "Georgia HB 584 (eff. Jan. 1, 2026)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Read both the current CLA rules and the proposed replacement rules",
+      "instructions": "Current codified rules are Ga. Comp. R. & Regs. 290-9-37. They still define 'Department' as the Department of Human Resources. DBHDD's proposed Chapter 82-13-1 is designed to replace them. The comment deadline was Aug. 21, 2026, and Board consideration was scheduled for Aug. 27, 2026. Adoption was not verified. Ask DBHDD Legal (legal@dbhdd.ga.gov, 404.657.2282) whether 82-13-1 is adopted and when it takes effect, and build to the stricter of the two texts. Time: 1–2 days reading.",
+      "cite": "Ga. Comp. R. & Regs. 290-9-37; proposed 82-13-1",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Understand the licensure prerequisite: no CLA may operate or serve residents without a valid license",
+      "instructions": "The proposed rule bars operation or service delivery without a valid DBHDD-issued license. Georgia statute and the legacy rule text also require a license or provisional license before operating. Do not accept a resident or begin services before the license is issued. Plan the opening date around DBHDD's review timeline.",
+      "cite": "O.C.G.A. § 31-2-4; Ga. Comp. R. & Regs. 290-9-37-.29; proposed 82-13-1",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Understand how the license ties to revenue: CRA residential sites need a DBHDD CLA license or PCH permit",
+      "instructions": "DBHDD's provider manual says the provider must hold the CLA License or Personal Care Home Permit for every residential site housing individuals with I/DD used for Community Residential Alternative (CRA) services. The license is therefore the gate to DBHDD-funded revenue for each site. Budget one license per site.",
+      "cite": "DBHDD FY27 Q2 State Funded Provider Manual (CRA)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a Georgia LLC (or other entity)",
+      "instructions": "File Articles of Organization with the Georgia Secretary of State. A secondary source puts the cost at $110 ($100 filing fee + $10 service charge). Confirm the fee on the Secretary of State site. Online filing usually takes a few business days. Use an operating agreement that lists every owner and their percentage, because DBHDD asks about owners with 10% or more.",
+      "cite": "Georgia Secretary of State — Articles of Organization",
+      "source_id": "S57"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov; the number is issued immediately online. You need it for payroll, bank accounts, the GAMMIS/DBHDD provider applications and insurance.",
+      "cite": "IRS EIN application",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "File the LLC annual registration each year",
+      "instructions": "Sources conflict: $50 base versus $50 + $10 service fee = $60. A late filing after April 1 adds a $25 late fee and can lead to administrative dissolution. Georgia imposes no LLC franchise tax (secondary source). Confirm the fee and due date with the Secretary of State.",
+      "cite": "Georgia Secretary of State annual registration",
+      "source_id": "S58"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a business bank account and set up bookkeeping that separates each home's income and costs",
+      "instructions": "Open the account with the EIN and Articles. Track revenue and costs by home. DBHDD billing is per individual per approved ISP, and the model has no per-client cost beyond food and supplies, so home-level reporting shows where each site stands. Time: 1–2 days.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register as a Georgia employer for state unemployment insurance (SUI)",
+      "instructions": "Register with the Georgia Department of Labor before your first payroll. Secondary sources list the 2026 new-employer rate at 2.7% (one lists 2.64%) on a $9,500 wage base. Confirm both with GDOL. SUI is employer-funded only. Also register for state income-tax withholding with the Georgia Department of Revenue.",
+      "cite": "Georgia SUI 2026",
+      "source_id": "S56"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Plan wages against the minimum wage and the local labor market",
+      "instructions": "The federal $7.25 rate governs most Georgia employers in 2026, and the state figure of $5.15 does not apply to FLSA-covered employers. No Georgia city or county sets a higher minimum. The model uses $15.00 per hour for direct support staff. That is an operator estimate, above the Georgia home health aide median of $14.07 and below the Atlanta personal care and service group mean of $18.17. At $18.17 the 16-resident default model loses money, so price staffing carefully.",
+      "cite": "FLSA; Georgia minimum wage 2026",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Buy workers' compensation insurance before you hire",
+      "instructions": "Georgia requires coverage for employers with 3 or more employees (secondary source). Get quotes by class code. NCCI proposed an -8.8% voluntary loss-cost change effective 3/1/2026, but approval was not confirmed. The model assumes 4% of wages, an operator figure based on a $99 per employee per month average. Time: 1–2 weeks for quotes.",
+      "cite": "Georgia workers' compensation — 3+ employees",
+      "source_id": "S63"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Buy general liability insurance naming DBHDD as certificate holder",
+      "instructions": "DBHDD requires all DD providers to carry current general liability insurance with DBHDD as the certificate holder. A 2018 DBHDD-contractor form lists $1,000,000 per incident and $3,000,000 aggregate limits. That form is secondary and its current applicability is unverified, so ask DBHDD for the current limits before you bind coverage. Premiums in the model ($450 per home per month) are operator estimates.",
+      "cite": "DBHDD DD Provider Manual — insurance",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Buy business auto liability if you will transport residents",
+      "instructions": "DBHDD's certificate of insurance calls for business auto liability covering owned, non-owned and hired vehicles used in services. Georgia statutory auto minimums were not retrieved, so confirm with your agent. Model cost is $800 per home per month, an operator estimate.",
+      "cite": "DBHDD certificate of insurance requirements (Georgia Collaborative form)",
+      "source_id": "S60"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Choose a home designed for no more than four residents",
+      "instructions": "The proposed rule caps licensed capacity at four residents. A 2021 DBHDD document says new group homes with more than five beds have not been permitted for several years. Do not buy or lease a house assuming five or more beds. Confirm the cap in the final adopted rule.",
+      "cite": "Proposed 82-13-1 — licensed capacity",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Verify bedrooms meet the 80 sq ft per person rule and the two-per-room limit",
+      "instructions": "The proposed rule requires at least 80 sq ft of usable floor space per person, not counting a built-in closet, and no more than two residents per bedroom. Measure every bedroom before you sign a lease. The application needs a floor plan showing room square footage.",
+      "cite": "Proposed 82-13-1 — bedrooms",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Verify bathroom ratio: at least one toilet, lavatory and shower per four persons",
+      "instructions": "The proposed rule requires one functional toilet, lavatory and bathing or showering facility for every four persons. A four-resident home needs at least one of each. Count the household members in the ratio and plan for accessibility based on resident needs.",
+      "cite": "Proposed 82-13-1 — bathrooms",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Check local zoning and use-permit rules before signing a lease",
+      "instructions": "No CLA-specific zoning rule was verified. Call the city or county planning office and ask whether a group home for people with I/DD is allowed in the zone and what permits apply. Get the answer in writing. Time: 1–3 weeks. Cost: varies.",
+      "cite": "Local zoning; certificate of occupancy required with the application",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "HIGH",
+      "task": "Benchmark rent against HUD Fair Market Rents",
+      "instructions": "HUD FY2026 FMR for the Atlanta-Sandy Springs-Roswell HMFA is $2,605 for a 4-bedroom and $2,182 for a 3-bedroom. A third-party source puts FY2027 Atlanta rents lower, and the official FY2027 HUD schedule was not retrieved. FMR is a benchmark, not a group-home market rent, so get local listings. Rent is fixed whether beds are full or not.",
+      "cite": "HUD FY2026 FMR Schedule",
+      "source_id": "S64"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "HIGH",
+      "task": "Negotiate a lease that permits operation as a licensed CLA",
+      "instructions": "Have the landlord agree in writing to use as a group home for people with I/DD, to inspections by DBHDD and the fire marshal, and to a term long enough to recover startup costs. Ask for a lease contingency tied to licensure. Have an attorney review it. Time: 1–2 weeks.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "HIGH",
+      "task": "Confirm the water and sewage source and gather the matching documents",
+      "instructions": "If the home is on public water and sewer, submit a copy of a current water bill. If it is on a well or septic, the packet requires a county environmentalist form. Water and sewage systems must meet applicable federal, state and local standards (proposed rule).",
+      "cite": "CLA Application Packet; proposed 82-13-1",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "HIGH",
+      "task": "Install interconnected AC-powered smoke detectors audible in sleeping rooms",
+      "instructions": "The proposed rule requires smoke detectors to be interconnected and AC-powered, and audible in sleeping rooms. Install them before the fire marshal visit. Model cost is about $1,500 per home for safety items (operator estimate).",
+      "cite": "Proposed 82-13-1 — fire safety equipment",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION & PROPERTY",
+      "priority": "MEDIUM",
+      "task": "Plan an evacuation layout that supports the 3-minute standard",
+      "instructions": "The proposed rule requires enough staff to evacuate all residents within three minutes. Map exits, bedrooms and resident mobility needs. Staffing levels in this model (910 hours per home per month) are an operator estimate, not a state ratio. Run a timed drill before inspection.",
+      "cite": "Proposed 82-13-1 — staffing ratio",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Create your GAHLES online account for the CLA application",
+      "instructions": "Applications must be completed online through the GAHLES portal (gahles.dch.georgia.gov). During the transition you may be redirected to DCH websites for some steps, with payments and forms forwarded to DBHDD. Email Licensure.Application@dbhdd.ga.gov with questions. Time: 1 day.",
+      "cite": "CLA Licensure Application Packet (v. 1/1/2026)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Schedule the State Fire Marshal inspection and obtain the report",
+      "instructions": "The fire safety inspection report must be performed by the state fire marshal and completed within 12 months before the application submission date. Request the inspection after your smoke detectors and extinguishers are in place. Local fees were not verified; the model uses an operator estimate of about $300 per site. Time: allow several weeks.",
+      "cite": "CLA Application Packet — fire safety",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Complete the Electrical Inspection Compliance Form",
+      "instructions": "The form must be completed within the 6 months before submission. Use a licensed electrician if the form requires one, and check the packet for who may sign. Do not let it age past 6 months while you wait on other items.",
+      "cite": "CLA Application Packet — electrical form",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Obtain the certificate of occupancy",
+      "instructions": "A certificate of occupancy is a required initial document. The issuing authority and the local use-permit process were not verified, so contact your local building or planning department. Time: 1–4 weeks, depending on the jurisdiction.",
+      "cite": "CLA Application Packet — certificate of occupancy",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Prepare a floor plan with the square footage of every room",
+      "instructions": "Draw or obtain a floor plan that shows each room and its square footage, with bedrooms labeled. It must reconcile with the 80 sq ft per person rule and the capacity you request.",
+      "cite": "CLA Application Packet — floor plan",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Run background checks or file attestations for every owner with 10% or more interest",
+      "instructions": "The packet requires a criminal history background check or attestation, if applicable, for all owners with 10% or more ownership interest. Since Jan. 1, 2026 the owner attestation form must accompany the application for any owner seeking an exemption. A report of HB 1097 (eff. 7/1/2026) giving DBHDD background-check authority over CLA owners was not verified. Ask DBHDD. The fingerprint fee was not found.",
+      "cite": "CLA Application Packet; CLA Owner Attestation (v. 1/1/2026)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "CRITICAL",
+      "task": "Name a qualified administrator who is at least 21 years old",
+      "instructions": "The proposed rule requires the administrator to be at least 21 and qualified by training and experience. A prospective administrator must complete a registry check, records check application and criminal background check before hire. Initial administrator training hours beyond 16 annual CE hours were not found. Ask DBHDD what is required.",
+      "cite": "Proposed 82-13-1 — administrator",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Assemble the policies and procedures manual",
+      "instructions": "Include resident rights, admissions and ISP follow-through, medication handling, incident and elopement reporting, fire drills, personnel and training records, and a corrective-action process. Match the headings in the proposed rule and the current 290-9-37. Budget $2,000–$8,000 if you hire a consultant (operator estimate). Time: 2–6 weeks.",
+      "cite": "Proposed 82-13-1; Ga. Comp. R. & Regs. 290-9-37",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "HIGH",
+      "task": "Collect entity documents for the application",
+      "instructions": "Have ready your Articles of Organization, operating agreement, EIN confirmation, lease or deed, proof of insurance and a list of owners and officers. Check the current packet's checklist so nothing is missing. Missing documents lead to denial.",
+      "cite": "CLA Application Packet (v. 1/1/2026)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSING APPLICATION DOCUMENTS",
+      "priority": "MEDIUM",
+      "task": "Decide whether to pursue accreditation",
+      "instructions": "CLA programs currently accredited by an approved body get a 25% discount on the annual licensure fee ($350 × 75% = $262.50). Accreditation as a licensure prerequisite or a DBHDD provider-network requirement was not confirmed from a primary source. Ask DBHDD Provider Relations before paying for a survey. The model budgets $0–$10,000, an operator estimate.",
+      "cite": "DBHDD Licensure Fees table",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "CRITICAL",
+      "task": "Submit the CLA application and pay the $300 processing fee",
+      "instructions": "Pay $300 upon application submission. The fee also applies to change of ownership, name change and relocation, and it is non-refundable. File one application per licensed site. Failure to submit requested information or pay required fees results in denial.",
+      "cite": "DBHDD Licensure Fees table; CLA Application Packet",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "CRITICAL",
+      "task": "Track the 30-business-day initial review",
+      "instructions": "DBHDD completes its initial review within 30 business days of submission, and applications are reviewed in the order received. Respond to every request promptly, since an unanswered request leads to denial. Calendar your submission date and follow up through Licensure.Application@dbhdd.ga.gov or (404) 657-2252.",
+      "cite": "CLA Application Packet — processing",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "CRITICAL",
+      "task": "Pay the $650 initial licensing fee before the license is issued",
+      "instructions": "The initial CLA licensing fee is $650 and is due prior to issuance of the license. Pay it through the DBHDD payment portal as directed. Budget $650 per site.",
+      "cite": "DBHDD Licensure Fees table",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "HIGH",
+      "task": "Ask whether you qualify for a provisional license",
+      "instructions": "The proposed rule allows a provisional license of up to six months for a former personal care home converting to a CLA. Ask DBHDD whether any provisional license option applies to your situation under current rules. Do not operate before issuance.",
+      "cite": "Proposed 82-13-1 — provisional license",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "HIGH",
+      "task": "Prepare for announced and unannounced surveys",
+      "instructions": "DBHDD may conduct investigations and surveys on an announced or unannounced basis at its discretion (proposed rule). Keep personnel files, resident records, drill logs and incident reports ready at the home at all times.",
+      "cite": "Proposed 82-13-1 — surveys",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "HIGH",
+      "task": "Know the deadlines for corrective-action plans",
+      "instructions": "A written corrective action plan is due within 15 days of a survey report. Under the proposal you may dispute findings within 10 days of the report, but only if an acceptable corrective action plan is also submitted. Assign one person to own these deadlines.",
+      "cite": "Proposed 82-13-1 — corrective action",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "MEDIUM",
+      "task": "Budget for follow-up inspection fees",
+      "instructions": "A follow-up visit to a periodic inspection costs $250 per instance. Fix deficiencies fully the first time to avoid repeat visits.",
+      "cite": "DBHDD Licensure Fees table",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DBHDD LICENSURE APPLICATION & FEES",
+      "priority": "MEDIUM",
+      "task": "Verify your listing in GaMap2Care after licensure",
+      "instructions": "Operators and the public use GaMap2Care to verify facility licensure and inspection reports. Check that your license and address appear correctly, and report errors to DBHDD. Time: 15 minutes.",
+      "cite": "DCH GaMap2Care",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "CRITICAL",
+      "task": "Understand how the money flows before you open",
+      "instructions": "DBHDD I/DD services are funded through state dollars and two Medicaid waivers, NOW and COMP. COMP serves people with more intensive needs and is primarily residential. The rates in this bundle ($248.35 per day for a Category 1 4-person CRA residence) are DBHDD state-funded rates from the FY27 Q2 manual. State funds are the payer of last resort. NOW/COMP waiver rates for the same service were not verified, so ask DBHDD which payer will fund each resident.",
+      "cite": "IDD New Provider Welcome Packet; State Funded Provider Manual",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "CRITICAL",
+      "task": "Start the DBHDD IDD provider application through Provider Relations",
+      "instructions": "The IDD New Provider Welcome Packet (rev. 6/4/2026) describes onboarding. Provider-network approval timelines were not verified. Start this in parallel with licensure, since services cannot be billed without enrollment. Contact the Office of Provider Relations through the DBHDD DD provider FAQs page.",
+      "cite": "IDD New Provider Welcome Packet (rev. 06/04/2026)",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "CRITICAL",
+      "task": "Enroll in Georgia Medicaid through GAMMIS",
+      "instructions": "Enroll through the GAMMIS portal. Providers that have not revalidated were suspended from Georgia Medicaid effective July 1, 2026, and retroactive enrollment is not permitted, since the effective date equals the application submission date. Apply early. NOW/COMP enrollment steps and timelines were not verified.",
+      "cite": "GAMMIS provider portal",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "HIGH",
+      "task": "Complete Group/Billing enrollment if you bill under a group NPI",
+      "instructions": "A consultant source says organizations billing under a group or billing NPI must complete a new Group/Billing enrollment for claims to be accepted after Jan. 1, 2026. Confirm with GAMMIS whether it applies to you.",
+      "cite": "Georgia Medicaid Group/Billing Enrollment (consultant)",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "HIGH",
+      "task": "Get a Type 2 (organizational) NPI before enrolling",
+      "instructions": "Apply at NPPES (free). The NPI must match your legal entity name on GAMMIS and DBHDD applications. Time: usually a few days to 2 weeks.",
+      "cite": "NPPES",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "MEDIUM",
+      "task": "Find out whether the CY2026 $750 application fee applies to you",
+      "instructions": "The CMS CY2026 provider enrollment application fee is $750 and applies to institutional providers. Whether CLA/CRA providers are classed as institutional was not verified. Ask GAMMIS at enrollment. The startup budget carries $0–$750.",
+      "cite": "Federal Register 2025-21877",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "CRITICAL",
+      "task": "Set up Carelon Provider Connects for state-funded billing",
+      "instructions": "State-funded claims go through Carelon Provider Connects, the statewide billing system, and are billed against each person's approved ISP. Get access and training through the DBHDD State Funded Provider Manual. Test a claim before you rely on cash flow.",
+      "cite": "FY27 Q2 State Funded Provider Manual — billing",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "CRITICAL",
+      "task": "Learn the CRA reimbursement mechanics and annual caps",
+      "instructions": "CRA is paid a daily rate per individual per residence type. For a 4-person Category 1 residence it is $248.35 per day with an $85,432.40 annual cap per individual. The 3-person Category 1 rate is $294.16 (cap $101,191.04), Host Home Category 1 is $163.33 (cap $56,185.52), and the 5-person rate is $186.94 (cap $64,307.36). The model bills about 344 days per person per year, because the cap divided by the rate is 344. Confirm the billing limit in the current manual. Category 2 and higher rates were not captured.",
+      "cite": "FY27 Q2 State Funded Provider Manual — CRA rates",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "HIGH",
+      "task": "Understand nursing enrollment under a CLA license",
+      "instructions": "All nursing services provided under a CLA license require site-specific nursing enrollment. If residents need nursing, plan the enrollment per site and contract with a nurse. The model carries about $300 per home per month for contract nursing or health oversight (operator estimate).",
+      "cite": "DBHDD DD Provider Manual — nursing",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "HIGH",
+      "task": "Check whether EVV applies to the services you will bill",
+      "instructions": "EVV is confirmed for personal care and community living supports under NOW and COMP, and DCH uses Netsmart Mobile Caregiver+ as the state aggregator. Whether CRA per-diem services require EVV was not verified, so ask DBHDD before go-live. If you add CLS, the PA overview shows code T2025-U5, though the rate mapping is unverified.",
+      "cite": "GCDD EVV; CLS PA overview",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "HIGH",
+      "task": "Calendar the monthly MIER and quarterly quality-management reports",
+      "instructions": "The monthly MIER is due to DBHDD's contract person by the 10th of each month for individuals without a prior authorization in IDDC. Quarterly QM reports are also required; the FY27 Q2 report (Oct. 1–Dec. 31) is due Jan. 17. Assign an owner and set recurring reminders.",
+      "cite": "FY27 Q2 State Funded Provider Manual — reporting",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "MEDIUM",
+      "task": "Review subcontracting limits before you structure host homes or partners",
+      "instructions": "CRA services may be subcontracted only to Host Home Providers. You cannot subcontract a group-home site to another agency. If you offer host homes, whether those sites need a CLA license or PCH permit was not verified. The 60% host-home pass-through from a 2017 COMP FAQ is of unverified current status.",
+      "cite": "State Funded Provider Manual — CRA subcontracting",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — DBHDD / MEDICAID PROVIDER ENROLLMENT & BILLING",
+      "priority": "MEDIUM",
+      "task": "Watch for COMP renewal and rate changes",
+      "instructions": "DCH proposed a five-year COMP renewal, since COMP was scheduled to expire March 31, 2026. CMS approval and any resulting rate changes were not verified. Whether the $23 million 2026 Medicaid fee-schedule increase applies to DD residential rates is also unverified. Check DBHDD notices each quarter, because a new state-funded manual is issued each quarter.",
+      "cite": "COMP Waiver Renewal Public Notice (10/10/2025)",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Plan staffing: awake staff on every shift and a 3-minute evacuation standard",
+      "instructions": "The proposed rule requires staff to be awake in the home at all times during their scheduled shift, and enough staff to evacuate residents within three minutes. No numeric ratio was found. The model uses 910 hours per home per month (one awake staff 24/7 plus about 180 hours of a second staff). That is an operator estimate, so adjust it to each resident's ISP and mobility needs.",
+      "cite": "Proposed 82-13-1 — awake staff; staffing ratio",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Require registry, records and criminal background checks before every hire",
+      "instructions": "The proposed rule requires potential employees, including a potential administrator, to complete a registry check, a records check application and a criminal background check before employment. The records-check fee set by DBHDD rule was not found. The model carries $150 per home per month for training and checks (operator estimate).",
+      "cite": "Proposed 82-13-1 — employee background checks",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Hire only staff who are at least 18 and keep new hires from working alone until training is done",
+      "instructions": "Employees must be at least 18 (proposed rule), and no employee may work alone with residents until all minimum required training is complete. Schedule new staff with a trained partner and document completion before any solo shift.",
+      "cite": "Proposed 82-13-1 — staff qualifications and training",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Document first aid and BCLS certification and recertification for every staff member",
+      "instructions": "Personnel files must show evidence of first aid and BCLS training and recertification (proposed rule). Contract an approved trainer. Track expiry dates.",
+      "cite": "Proposed 82-13-1 — personnel files",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Complete TB screening and a motor vehicle record check as required",
+      "instructions": "Personnel files must show TB screening on hire (proposed rule). A motor vehicle record check applies to staff who drive. Keep the records in each personnel file.",
+      "cite": "Proposed 82-13-1 — staff health and screening",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Set up a 16-hour annual continuing education program",
+      "instructions": "Personnel files must show evidence of required training and competency evaluations, including 16 hours of continuing education annually (proposed rule). Build a calendar that covers resident rights, incident reporting, medication and behavior support topics. Track hours per employee.",
+      "cite": "Proposed 82-13-1 — continuing education",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Build a payroll budget that includes employer taxes and workers' comp",
+      "instructions": "The model loads wages by 8.7% payroll taxes, 4% workers' comp and 4% benefits (benefits and workers' comp are operator estimates). Employer FICA is 7.65%. SUI is on a $9,500 wage base. Confirm rates with GDOL and your carrier.",
+      "cite": "Georgia payroll taxes 2026",
+      "source_id": "S55"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "MEDIUM",
+      "task": "Create staff schedules, job descriptions and an on-call plan",
+      "instructions": "Write job descriptions for direct support staff, the administrator and the billing/ISP coordinator. Build a backup roster so a call-out never leaves a shift uncovered, because awake staff are required every shift. Time: 1–2 weeks.",
+      "cite": "Proposed 82-13-1 — awake staff",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "CRITICAL",
+      "task": "Schedule monthly fire drills, with at least two per year during sleeping hours",
+      "instructions": "Drills must be conducted every month at alternating times and shifts, and at least two per year during sleeping hours (proposed rule). Log the date, time, shift, evacuation time and any problems. Keep the logs available for surveyors.",
+      "cite": "Proposed 82-13-1 — fire safety operations",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "CRITICAL",
+      "task": "Write an elopement and missing-person procedure with a 30-minute police report rule",
+      "instructions": "A missing resident must be reported to law enforcement within 30 minutes of staff receiving actual knowledge (proposed rule). Put the procedure in staff training, post the local non-emergency number, and run a tabletop drill.",
+      "cite": "Proposed 82-13-1 — incident reporting",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "HIGH",
+      "task": "Set up an incident reporting and record-keeping system",
+      "instructions": "Establish forms and a log for incidents, injuries, medication errors and resident complaints. Required DBHDD reporting categories and timelines for DBHDD-funded providers are in the provider manual, so read them before opening. Assign one person to review incidents weekly.",
+      "cite": "DBHDD DD Provider Manual",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "HIGH",
+      "task": "Furnish and equip each home for the residents you expect",
+      "instructions": "Provide beds, dressers, common-area furniture, appliances and housewares. The model budgets about $6,000 per home (operator estimate). Choose bedroom layouts that keep to the 80 sq ft per person and two-per-room rules.",
+      "cite": "Proposed 82-13-1 — bedrooms",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "HIGH",
+      "task": "Establish a resident funds and room-and-board policy",
+      "instructions": "The 2026 SSI federal benefit rate for an individual is $994 per month (secondary source). How the CRA per diem interacts with SSI, including in-kind support reductions, was not researched, and the model does not count room-and-board collections as revenue. Get written guidance from DBHDD and SSA before charging residents anything. Keep resident money separate from agency funds.",
+      "cite": "SSI federal benefit rate 2026",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "HIGH",
+      "task": "Give 60 days' written notice before changing day-to-day charges (host homes)",
+      "instructions": "A CRA provider must notify the individual and the Host Home Provider in writing 60 days before changes in charges. Put this into your host agreements and your change-of-charge policy.",
+      "cite": "State Funded Provider Manual — CRA host home notice",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "MEDIUM",
+      "task": "Set up food, household supplies and transportation",
+      "instructions": "The model carries $350 per resident per month for food and household supplies, plus one vehicle per home at $800 per month (all operator estimates). Only staff with a valid driver's license and insurance should drive residents, and the business auto policy must cover the vehicle.",
+      "cite": "DBHDD certificate of insurance requirements",
+      "source_id": "S60"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "MEDIUM",
+      "task": "Check the behavior support options available to residents",
+      "instructions": "Behavior Supports Level 1 pays $24.36 per 15 minutes and Level 2 pays $36.68 per 15 minutes per individual (FY27 Q2 state-funded rates). If a resident needs behavior supports, confirm who may deliver them and how they are authorized through the ISP.",
+      "cite": "State Funded Provider Manual — Behavior Supports",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 7 — SAFETY, POLICIES & OPERATIONS READINESS",
+      "priority": "MEDIUM",
+      "task": "Review other DBHDD-funded services you may add",
+      "instructions": "FY27 Q2 rates: CLS 1-person Basic $9.98 per 15 minutes (cap $83,520), Community Access Group $14.60 per hour (cap $21,900 without prior authorization), Community Access Individual $42.20 per hour (up to $15,192 per ISP). Each requires its own enrollment and authorization. Add them only after the residential operation is stable.",
+      "cite": "State Funded Provider Manual — rates",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — REFERRALS, ADMISSIONS & RAMP-UP",
+      "priority": "CRITICAL",
+      "task": "Understand how individuals reach a new provider",
+      "instructions": "Individuals access the waiver programs through DBHDD regional offices (ROs), and regional Intake and Evaluation teams handle eligibility. The planning list is ordered by a validated needs tool, not by application date, and DBHDD gives priority for state-funded services to people on the NOW/COMP planning list. Call your regional office to introduce your homes.",
+      "cite": "DD Provider FAQs; ASO RFP Attachment J",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — REFERRALS, ADMISSIONS & RAMP-UP",
+      "priority": "HIGH",
+      "task": "Size demand with the published waiver figures",
+      "instructions": "About 7,900 people are on the NOW/COMP planning list, with 1,217 in urgent need per DBHDD analysis cited by GCDD. The FY27 budget funds 100 new slots, and DBHDD estimates about 400 people leave the waivers each year. Enrollment is 4,505 NOW and 9,789 COMP. These come from advocacy and news sources, and demand does not guarantee a referral for your specific home.",
+      "cite": "GCDD; FY27 budget",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 8 — REFERRALS, ADMISSIONS & RAMP-UP",
+      "priority": "HIGH",
+      "task": "Build referral relationships with regional offices and support coordinators",
+      "instructions": "Present your license, home photos, staffing plan and resident-fit criteria to the DBHDD regional office and local support coordination agencies. DBHDD's strategic plan targets a service-entry timeline under 80 business days for NOW/COMP, so plan for placements to arrive slowly. The model budgets $200–$400 per month for outreach (operator estimate).",
+      "cite": "DBHDD Strategic Plan, Appendix A",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — REFERRALS, ADMISSIONS & RAMP-UP",
+      "priority": "HIGH",
+      "task": "Prepare admissions criteria and an ISP-based onboarding process",
+      "instructions": "Review each prospective resident's ISP, needs, mobility, behavior supports and funding before accepting. Confirm what category rate applies. Do not admit anyone you cannot staff for, because the 3-minute evacuation standard depends on who lives in the home.",
+      "cite": "State Funded Provider Manual — ISP billing",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — REFERRALS, ADMISSIONS & RAMP-UP",
+      "priority": "HIGH",
+      "task": "Fund the ramp-up and slow-fill period",
+      "instructions": "The model's cash need depends on size: about $62,500 for one home, $122,500 for two homes, $339,300 for four homes and $635,600 for six homes (host-home model about $141,800). The default four-home model first turns a profit in month 7 at 92% occupancy and breaks even near 88%. Do not open more homes than you can fund through a slow fill. Open one at a time if possible.",
+      "cite": "Bundle financial model",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 8 — REFERRALS, ADMISSIONS & RAMP-UP",
+      "priority": "MEDIUM",
+      "task": "Stress-test your budget at lower occupancy and higher wages",
+      "instructions": "Break-even occupancy is about 86.8% for six homes, 88.4% for four homes and 90.4% for two homes. One home is about 91.9%. Four 3-resident homes lose money at the default. Recalculate before you commit to a lease. Margins are thin, so a single vacancy or higher wages can erase the profit.",
+      "cite": "Bundle financial model",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Pay the $350 annual CLA licensure fee by December 31",
+      "instructions": "The annual fee is $350 per CLA, paid through the payment portal by Dec. 31. A $150 late fee applies at 60 days past due, per instance. Calendar this each year. Accredited CLAs get a 25% discount.",
+      "cite": "DBHDD Licensure Fees table",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Notify DBHDD within 15 calendar days of any change in ownership interest",
+      "instructions": "The proposed rule requires the governing body to notify DBHDD within 15 calendar days of a change of ownership interest. A change of ownership application carries the $300 processing fee. Get the owners' background checks or attestations ready for any new 10%+ owner.",
+      "cite": "Proposed 82-13-1; DBHDD Licensure Fees table",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Keep every license, insurance and personnel record current",
+      "instructions": "Review the calendar monthly: fire marshal and electrical documents on renewal, insurance certificates naming DBHDD, staff first aid/BCLS recertification, TB screening and 16 annual CE hours. Surveys can be unannounced.",
+      "cite": "Proposed 82-13-1; DBHDD DD Provider Manual",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Revalidate Georgia Medicaid enrollment on schedule",
+      "instructions": "Providers who had not revalidated were suspended from Georgia Medicaid effective July 1, 2026, and claims on or after that date were not paid. Retroactive enrollment is not permitted. Watch GAMMIS for your revalidation date.",
+      "cite": "GAMMIS provider portal",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Read each new quarterly DBHDD State Funded Provider Manual",
+      "instructions": "The FY27 Q2 manual takes effect Oct. 1, 2026, and manuals are revised by quarter. Check rate tables, caps, reporting dates and billing rules each quarter. Compare against your model.",
+      "cite": "State Funded Provider Manual (FY27 Q2)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Monitor adoption of Chapter 82-13-1 and update your policies",
+      "instructions": "Adoption at the Aug. 27, 2026 Board meeting is not verified. Once the final rule is published, compare it with your manual, staffing, training and forms, and fix gaps within the rule's deadlines. Ask DBHDD Legal at 404.657.2282 or legal@dbhdd.ga.gov.",
+      "cite": "Proposed 82-13-1",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Submit monthly MIER and quarterly QM reports on time",
+      "instructions": "MIER is due by the 10th of each month; quarterly QM reports follow the DBHDD calendar (FY27 Q2 is due Jan. 17). Late or missing reports can affect your standing. Keep proof of submission.",
+      "cite": "State Funded Provider Manual — reporting",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "File the LLC annual registration by April 1",
+      "instructions": "File each year by April 1 to avoid a late fee and possible administrative dissolution. Confirm the fee with the Secretary of State.",
+      "cite": "Georgia Secretary of State annual registration",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Track billing against each individual's annual cap",
+      "instructions": "Each individual has an annual maximum (for example, $85,432.40 for a 4-person Category 1 residence). Monitor cumulative billing per person so you are not surprised by a cap mid-year. Reconcile claims monthly through Carelon Provider Connects.",
+      "cite": "State Funded Provider Manual — CRA caps",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review waitlist and budget news each year",
+      "instructions": "Check the planning-list restructuring proposal (three tiers), the number of funded NOW/COMP slots and any new rate actions. The FY27 budget funded 100 new slots. These shape how quickly vacancies refill.",
+      "cite": "GCDD; GPB",
+      "source_id": "S39"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "fees_and_timelines_in_checklist": {},
+  "verification_log": [
+    {
+      "issue": "State-funded CRA revenue modeled as permanent 100% share with no conversion or vacancy risk",
+      "change": "Renamed all six revenue lines as state-funded bridge revenue and added the caveat to each line's notes. Added a bridge-payer risk to the risks, service_model, occupancy rationale and recommendations text, plus a key_numbers entry. Logged the missing NOW/COMP rate and cap and the conversion scenario in not_claimed. Rates and revenue were not changed."
+    },
+    {
+      "issue": "Host-home provider payment shows $0 in base opex",
+      "change": "host_home_12 already overrides the line at $2,809 per individual, so no numbers changed. Added the Regional Field Office-approved-budget requirement to that line's notes and logged it in not_claimed."
+    },
+    {
+      "issue": "Wrong statute cited for CLA licensing (DCH § 31-2-4)",
+      "change": "Patched checklist[2].cite to O.C.G.A. § 37-13-1 et seq. (§ 37-13-2) with proposed .06(1), and replaced the statute bullet in service_model."
+    },
+    {
+      "issue": "3-month pre-revenue period and missing DBHDD contract step",
+      "change": "Kept the dollar amounts (not lowered) but relabeled the startup line as optimistic with a 4 to 6 month stress test. Added the executed-contract, Carelon and referral steps to licensing_pathway and key_numbers. Moved the unsourced timeline to not_claimed. checklist[11] was not patched because its content was not provided."
+    },
+    {
+      "issue": "Contract nursing $300 unsourced; HRST nurse review mandatory",
+      "change": "Added the HRST requirement to the base opex notes and operations text. The unsourced price is logged in not_claimed; the amount is unchanged."
+    },
+    {
+      "issue": "$300 application fee event list incomplete",
+      "change": "Added 'change in service level' to startup_costs notes, the key_numbers metric and licensing_pathway. checklist[32] was not patched because its content was not provided."
+    },
+    {
+      "issue": "Follow-up visit fee mischaracterized as per instance",
+      "change": "Reworded the startup item and notes to a follow-up visit to a periodic inspection, due at the license renewal date. checklist[38] was not patched because its content was not provided."
+    },
+    {
+      "issue": "MIER and QM reporting stated without conditions or dates",
+      "change": "Added the MIER IDDC conditional, the four quarterly QM due dates and the 2-hour RSA-DD notice to the base opex notes, the x2 override notes, operations and recommendations."
+    },
+    {
+      "issue": "No QA role in most configs",
+      "change": "Assigned the QM plan, quarterly reports and external Quality Improvement Council to the administrator role in the single, x2, x4, 3-resident and host-home configs (x6 has a QA lead). No cost line was added because no price was sourced; the unmodeled cost is logged in not_claimed and flagged in risks."
+    },
+    {
+      "issue": "HB 1097 mischaracterized as covering CLA owners",
+      "change": "Replaced not_claimed[17] and the market_conditions trends sentence with the correct ARMHP/DATEP scope. Rewrote the owner background-check step and startup note. checklist[27] was not patched because its content was not provided."
+    },
+    {
+      "issue": "HUD FY2026 FMR expired",
+      "change": "Kept the $2,605 and $2,182 rents (no cost reduction on third-party data). Noted the expiry and the unconfirmed FY2027 4BR $2,493 in the base lease notes, market_conditions and risks."
+    },
+    {
+      "issue": "Wage sources overstated (S51 on operator salaries; Atlanta means unverified)",
+      "change": "Cleared S51 as the wage_source_id on operator-estimated salaries. Rewrote the market_conditions and risks wage text to drop Atlanta mean attribution, noting $15 is $0.93 over the Georgia median and recommending a $16 to $18 sensitivity. Logged the unverified Atlanta means in not_claimed. Remaining $18.17 mentions in executive_summary, financial_narrative and some config notes were not rewritten and should be read as a stress-test wage."
+    },
+    {
+      "issue": "Board adoption status stale",
+      "change": "Reworded key_numbers[4], service_model and risks to say no adoption or effective date was found as of Oct 14, 2026. checklist[1] was not patched because its content was not provided."
+    },
+    {
+      "issue": "Multi-site applications modeled as simultaneous",
+      "change": "Added the provisional-license gate (.06(8)(e), (b)) to the x2, x4, x6 and 3-resident ramp notes, licensing_pathway and recommendations. No numbers changed."
+    },
+    {
+      "issue": "60-day notice and host-home exemption conflict",
+      "change": "Updated rates[3].notes and licensing_pathway with the CLA admission-agreement 60-day notice, the host-home exemption conflict and the open question on host-home fees. Logged in not_claimed."
+    },
+    {
+      "issue": "Regulator contact details",
+      "change": "Removed the unverified licensure phone from regulators[0], contacts[0], service_model and recommendations, and logged it in not_claimed. Added the Carelon email and PIMS Provider Relations link to regulators and contacts."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "bundle_slug": "georgia-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 17,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "staffing.ga_private15_owner[0].wage_hourly (also ga_private40[0], ga_private75[0], ga_private40_lowhours[0]); notes",
+      "current": "17.21 (national BLS median) with the note 'No Georgia May 2025 OEWS wage was retrieved'",
+      "correct": "A Georgia-specific May 2025 OEWS median is available: about $14.07/hour ($29,270/yr). I found it only on a secondary aggregator that cites BLS OEWS, so confirm it on bls.gov.",
+      "evidence": "Careslink's state table, labelled 'Source: U.S. Bureau of Labor Statistics, OEWS May 2025', ranks Georgia #43 at $29,270 and $14.07/hr. The national $35,800 / $17.21 matches BLS OOH.",
+      "source_url": "https://www.careslink.com/en/salary/home-health-aide",
+      "fix": "Add a Georgia OEWS wage (about $14.07 median) to the notes and rewrite them, because 'not retrieved' is no longer true. Keep $17.21 only if you label it a deliberately conservative recruiting wage above the Georgia median. At 83.2 hours per client-month, the roughly $3.14/hour gap is about $260 per client-month before the 17.5% burden. That is roughly $120–150k/yr at 40 clients (about $120k on wages alone), so model both. Replace the stale ASPE 2023 $12.99 reference with the May 2025 figure. Confirm the Georgia value on the BLS OEWS Georgia page (SOC 31-1120) before relying on it."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden.notes; fees_and_timelines_in_checklist[i=36]",
+      "current": "New-employer SUI rate described as conflicting (2.70% vs 2.64%) and 'official 2026 rate was not confirmed'. Checklist says register 'before your first payroll'.",
+      "correct": "The official GDOL FAQ states the new-employer rate is 2.70%. It also says to file the DOL-1A 'immediately following the payment of the first Georgia payroll'.",
+      "evidence": "GDOL FAQ: 'New or newly covered employers are assigned a total tax rate of 2.70 percent'. Taxable wage base $9,500 confirmed.",
+      "source_url": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance",
+      "fix": "Use 2.70% and drop the PaycheckCity 2.64% conflict (S49). Change item 36 to: 'Complete the DOL-1A with GDOL right after your first Georgia payroll is paid. Liability starts at $1,500 quarterly payroll or one worker in 20 weeks.' Add GDOL as the official source for the SUI rate, not just the $9,500 base."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[Caregivers].cite and notes; payroll_burden",
+      "current": "Cites 29 CFR §552.109(a), but the model has no overtime premium. Paid non-billable time is 4%.",
+      "correct": null,
+      "evidence": "The CareScout benchmark client is 44 hours/week. A single aide covering that client crosses 40 hours. FLSA overtime applies to third-party home care employers. A July 2025 DOL proposal to restore the exemption was reported, but I could not confirm its 2026 status.",
+      "source_url": "https://www.aveecare.com/resources/caregiver-pay-rates-by-state",
+      "fix": "Add an overtime and travel-time cost line, or state that scheduling caps each aide at 40 hours/week. Check the final status of the DOL companionship rule before dropping overtime. Travel time between clients is compensable work time, so test whether a 4% non-billable uplift is enough. Unverifiable here: I could not confirm the current 29 CFR 552.109 status."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[item='Scheduling, billing software (base)'].notes",
+      "current": "'The provider cost of EVV for Medicaid was not verified.'",
+      "correct": "DCH says the state-selected Netsmart system is made available at no cost to providers.",
+      "evidence": "DCH EVV third-party page: DCH 'is making this system available at no cost to you.'",
+      "source_url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0/evv-third-party-information",
+      "fix": "Change to: 'State EVV (Netsmart Mobile Caregiver+) is free to providers. A third-party EVV system must integrate with it and costs extra.' Also note that EVV applies to Medicaid personal care since 2021/2022, and to home health claims with dates of service on or after 9/14/2026."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[*].phone / regulators[*].email",
+      "current": "All phone and email fields are empty, including DCH HFRD, GA Medicaid, DAS, DOL and SOS.",
+      "correct": "Georgia EVV customer support is (833) 483-5587. The old EVV number was retired on Jan 16, 2026.",
+      "evidence": "DCH EVV page: 'The new EVV Customer Support number is (833) 483-5587.'",
+      "source_url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0/evv-third-party-information",
+      "fix": "Add the EVV support line to the Medicaid/EVV regulator entry. Fill the other contacts from the official agency pages. Do not reuse the 404-651-8155 number from the 2014 fee notice, which is stale. HFRD's current phone is unverifiable from the fetched pages; the checklist already says to confirm with HFRD."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[Application processing fee].source_id / startup_costs[PHCP application processing fee].source_id",
+      "current": "$300 cited to S6, a 'Home Health Agency Application Checklist' packet. The source URL could not be fetched.",
+      "correct": "The $300 amount is corroborated, but I could not open the cited document. The 2014 DCH fee notice and secondary guides also give $300.",
+      "evidence": "DCH fee notice: 'application fee of $300'. credentialing.org says DCH charges $300 to process a new permit application.",
+      "source_url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/Fee_Notice_Rev_1_%202014.pdf",
+      "fix": "Keep $300. Add the DCH Schedule of Licensure Activity Fees as the source, because S6 is a home health agency packet and did not load. Say 'confirm on the current PHCP packet'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[PHCP license fee].monthly (41.67) and startup_costs[PHCP license fee] (500–750)",
+      "current": "$250 per service × 2 (personal care and companion/sitter) = $500/yr; 2–3 services at startup.",
+      "correct": "Older DCH schedules treat 'Companion Sitter or Personal Care Only' as ONE fee category. Consultants and a recent guide say $250 per category per year.",
+      "evidence": "2012 DCH PHCP summary: 'Companion Sitter or Personal Care Only: $200 <50 FTEs'. A 2026 guide says $250 per service category per year.",
+      "source_url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/146711309Private_Home_Care_Provider_July_2012.pdf",
+      "fix": "Keep the placeholder, but note the fee may be one category ($250) or two, and may be tiered by FTE count. Obtain the current DCH Schedule of Licensure Activity Fees. This is the only DCH-set fee still unverified. A late charge of $150 appears in the 2016 packet; budget for it if payment is missed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=17]",
+      "current": "Agreement 'signed by the second visit or within seven calendar days... whichever comes first'. 'Include rate, hours, cancellation terms'.",
+      "correct": "Rule .09(2)(b): second visit counts only if it is on a different day from the first, otherwise 7 calendar days. Rule .09(2)(c): the client may cancel at any time and pays only for services rendered. The provider may charge only a 'reasonable charge for travel and staff time' for late cancellations. Rule .09(2)(a) lists mandatory contents.",
+      "evidence": "Rule text: 'A client has the right to cancel any service agreement at any time'. Also required: the DCH phone number, a client-rights acknowledgment (.12), and authorization for access to client funds or the client's vehicle.",
+      "source_url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-65-.09",
+      "fix": "Add: 'Do not use minimum-hour or non-cancellable terms. Cancellation fees are limited to a reasonable travel/staff-time charge. The agreement must include the 10 required elements of .09(2)(a). If the second visit is on a different day, sign by then; otherwise sign within 7 calendar days.'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist (missing item); startup_costs (missing)",
+      "current": "No checklist item or cost for the Secure and Verifiable Documents / identity-document filings, local business license or occupational tax, or the workers' compensation employer duty.",
+      "correct": null,
+      "evidence": "The DCH PHCP initial packet lists 'Secure and Verifiable Documents' and 'Documents That Establish Identity'. A guide lists a business license with the application. The model carries 5% workers' comp but says the mandatory-coverage threshold was not verified.",
+      "source_url": "https://dch.georgia.gov/sites/dch.georgia.gov/files/PHCP-InitialLicensurePacket-3-21-16-2-EDIT.pdf",
+      "fix": "Add checklist items for the identity and affidavit documents and for the local business license/occupational tax (cost unverifiable here). Verify the Georgia workers' comp trigger with the State Board of Workers' Compensation (to my knowledge more than 2 regular employees) and keep the coverage cost line."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[Georgia LLC annual registration]; startup_costs[Georgia LLC Articles]",
+      "current": "$60/yr from a secondary source (Commenda). $110 mailed Articles from georgia.gov.",
+      "correct": null,
+      "evidence": "I could not fetch georgia.gov/register-llc or the Secretary of State fee schedule in this session.",
+      "source_url": "https://georgia.gov/register-llc",
+      "fix": "unverifiable — confirm the annual registration fee and the Articles fee on the Secretary of State site. Replace the Commenda citation with the official fee page."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[Aide training, In-service, Supervisory visit, Record retention, Plan of correction, Waiver billing codes]",
+      "current": "40-hour training (20 before serving clients, 20 within six months); 8 in-service hours; supervisory visit every 122 days; 5-year record retention; plan of correction within 10 days; T1019/T2025 waiver codes",
+      "correct": null,
+      "evidence": "rules.sos.ga.gov blocked my access, and the Cornell .09 page was truncated before sections (4)(b), (5) and (6). The Cornell .10 and .08 pages and the DCH waiver page were not retrieved.",
+      "source_url": "https://rules.sos.ga.gov/gac/111-8-65",
+      "fix": "unverifiable — re-check these against the live rule, including the 2026 amendment noted as 'Final Adoption 07/14/26'. Confirm the HB 183 independent-contractor change. Confirm the waiver codes on the Medicaid waiver pages."
+    }
+  ]
+}

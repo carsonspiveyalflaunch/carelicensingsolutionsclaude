@@ -1,0 +1,116 @@
+{
+  "bundle_slug": "new-jersey-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 36,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "revenue_lines.*[0] (rate 12500 / 16666.67 / 5535.33, code \"\") and checklist[i=7].instructions",
+      "current": "Revenue is an ASSUMED $12,500/mo per resident with a blank procedure code. The checklist says \"No 2026 residential Individual Supports rate, procedure code or billing unit was found in any retrieved source.\"",
+      "correct": "DDD has published the FY26 fee-for-service rates, effective 1/1/2026. They list FY25 and FY26 rates by tier with procedure codes, including Individual Supports (H2016HI-series daily tier rates). I could not read the FY26 Individual Supports rows because the search snippet was truncated.",
+      "evidence": "DDD \"Quick Guide – FY26 DSP & Supervisor Rate Increases, Effective January 1, 2026\" has columns Procedure Code / FY25 Rate / FY26 Rate. The Jan 2023 guide shows Individual Supports tier codes such as H2016HIUQ.",
+      "source_url": "https://www.nj.gov/humanservices/providers/grants/public/publicnoticefiles/quickguidefy26dspwageincreaserates.pdf",
+      "fix": "Replace the assumed $12,500/$16,666.67/$5,535.33 monthly amounts with the FY26 Individual Supports tier rate (H2016HI-series, daily unit) times billable days. Fill in the code and unit. Remove the 'not published' language in checklist[7], not_claimed and the rates[0] notes. Rerun the profit model. Several configurations are already shown as loss-making on the assumed numbers."
+    },
+    {
+      "severity": "critical",
+      "json_path": "staffing.*[DSP and supervisor rows], payroll_burden.notes, checklist (missing item)",
+      "current": "No mention that the 1/1/2026 rate increase must be passed through to DSP and supervisor wages. DSP wage is modeled as $20.71 with no compliance constraint.",
+      "correct": "DDD requires agencies to pass the increased rate funding through to DSPs and DSP Supervisors as a base-wage increase (about $0.46/hr), no later than 3/1/2026, including retroactive pay. Industry guidance adds that the increase cannot be paid as a bonus or used for operating expenses.",
+      "evidence": "DDD bulletin: providers \"are required to pass the increased service rate funding through to DSPs and DSP Supervisors as an increase to their base wage no later than March 1, 2026\".",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/fy26-dsp-wage-increase-bulletin.pdf",
+      "fix": "Add a mandatory-compliance line: the FY26 DSP/Supervisor pass-through of about $0.46/hr is a base-wage increase, effective 1/1/2026, with a 3/1/2026 deadline. Make sure the DSP ($20.71) and supervisor ($52,000) wages reflect it. Do not treat the increase as margin."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[1].notes (and key_numbers[6].metric)",
+      "current": "\"increase of about $0.46/hr funded through rates to support new DSP training requirements\"; metric label \"DSP wage increase for new training requirements\"",
+      "correct": "The 1/1/2026 increase is a DSP and DSP Supervisor wage increase of about $0.46/hr. It was funded by a $9.1M state allocation to keep wages ahead of the minimum wage. It is not a training-requirement increase. The training-requirement rate change was effective 10/1/2024. The $20.71 figure is a projection: $20.25 (NCI 2024 average) plus $0.46. The same DDD slide deck also says about $21/hr is projected for 2026.",
+      "evidence": "DDD Jan 22, 2026 update: DSP wages \"increased by about $0.46 on January 1, 2026\"; NJ Legislature allocated \"$9.1M (State)\" to avoid eroding wage gains vs. minimum wage.",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-01-22.pdf",
+      "fix": "Change the note to: 'DDD projection ($20.25 NCI 2024 + ~$0.46 FY26 DSP/Supervisor wage pass-through funded by $9.1M state appropriation; DDD also cites ~$21/hr).' Relabel key_numbers[6] as 'FY26 DSP & DSP Supervisor wage increase'."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0].notes, key_numbers[6].source_ids, checklist[i=7].cite",
+      "current": "\"Nine agency-provided services had rates increased 1/1/2026 [S23]\"",
+      "correct": "The S23 iRecord page lists the nine-service increase tied to DSP training requirements as effective 10/1/2024. Its newest entry is 10/1/2024, and I found no 1/1/2026 entry. The 1/1/2026 increase (also nine services) is documented in DDD's 12/30/2025 Information Bulletin and Quick Guide.",
+      "evidence": "S23: \"iRecord Rate and Budget Modifications Effective Tuesday, 10/1/2024 … new training requirements for Direct Support Professionals.\"",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/fy26-dsp-wage-increase-bulletin.pdf",
+      "fix": "Re-cite the 1/1/2026 increase to the FY26 DDD Information Bulletin and Quick Guide. Do not cite S23 for 1/1/2026. If you keep the iRecord reference, describe it as the 10/1/2024 training-related change."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0].effective / rates[0].rate (239.81)",
+      "current": "Effective: \"Undated schedule; current-year status not confirmed\"; rate $239.81 Support Coordination PMPM.",
+      "correct": "The S22 document is dated May 2015 (a cost-study schedule). $239.81 is a 2015 rate. DDD raised Support Coordination rates in the 7/2023 and 7/2024 FY rate changes. The figure is stale.",
+      "evidence": "S22 footer: \"NJ DHS-DDD / May 2015\". S23: eighteen services including Support Coordination increased effective 7/1/2023 and 7/17/2024.",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/ffs_rate_schedule_detailed_report.pdf",
+      "fix": "Set effective to 'May 2015 cost-study schedule; superseded by later increases'. Drop the $239.81 figure or replace it with the current Support Coordination rate from DDD's current FFS rate schedule. The 2015 schedule also carries old Individual Supports daily tier rates, so do not use them."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[Executive director rows].notes",
+      "current": "\"whether these are alternatives or cumulative was not confirmed\"; an owner-operator \"can fill this role\".",
+      "correct": "N.J.A.C. 10:44A-2.5(a) is cumulative. The licensee or executive director must have all three: (1) a Bachelor's degree; (2) five years of progressive management experience working with people with DD, at least two supervisory at a senior or administrative level; and (3) knowledge of program design, staff development and fiscal standards. The application must demonstrate compliance (10:44A-1.4(c)(1)(iv)).",
+      "evidence": "10:44A-2.5(a): \"The licensee or the executive director shall have: 1. A Bachelor's degree; 2. Five years of progressive management experience … at least two … supervisory\".",
+      "source_url": "https://www.nj.gov/humanservices/providers/rulefees/regs/rulesfiles/NJAC%2010_44A%20STANDARDS%20FOR%20COMMUNITY%20RESIDENCES%20FOR%20INDIVIDUALS%20WITH%20DEVELOPMENTAL%20DISABILITIES.PDF",
+      "fix": "Replace the note with: 'Requirements are cumulative (bachelor's degree AND 5 yrs progressive DD management, 2 at a senior/supervisory level, AND program/fiscal knowledge). An owner-operator who lacks any one must hire a qualifying executive director, which changes the $47,500/$95,000 salary line.' Check whether a waiver or variance is available under subchapter 1."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex[Staff training … background checks].monthly (250) and startup_costs[Criminal history background checks]",
+      "current": "Only DDD basic training, first aid and background checks are costed (about $250/mo). Fingerprinting, registry checks and drug testing are 'not verified'.",
+      "correct": "DDD-approved providers must run staff criminal history checks before hire. DDD's Aug 2026 update lists the other provider obligations: DDD-required training, Central Registry of Offenders and Child Abuse Registry checks, pre-employment and random controlled-substance testing, incident reporting, and driver abstract checks for staff who transport. None of these are itemized as costs. DHS also says 10:44A-2.4(b) codifies pre-hire staff criminal history checks.",
+      "evidence": "DDD Aug 20, 2026 update lists what Goods & Services vendors are NOT required to do: \"pre-employment and random drug testing\", registry checks, \"drivers abstracts\".",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-08-20.pdf",
+      "fix": "Add recurring and startup lines for pre-employment and random drug testing, Central Registry and Child Abuse Registry checks, MVR/driver abstracts for any staff who drive, and criminal-history fingerprinting per hire. Include staff turnover. Also check the physical exam and TB test records for direct service staff, which the 2005 text required; this is not confirmed in the current text."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex (missing), fees_and_timelines_in_checklist[i=19]",
+      "current": "Only the annual financial statement audit is mentioned. The annual Fiscal Sustainability Report is not listed.",
+      "correct": "Agencies with more than $350,000 in annual combined DDD billing must also file an annual Fiscal Sustainability Report. It is due 120 calendar days after fiscal-year end (about Oct 30 for a state-FY agency), on DDD's template, emailed to DDD.WaiverFinancialReports@dhs.nj.gov. The audit applies at $350,000 or more in combined CCP and Supports Program reimbursement, and it must follow GAAS. The audited statements include a balance sheet, income statement and cash flow statement.",
+      "evidence": "S8: reports \"are due 120 calendar days after the close of each State Fiscal Year – on or about October 30.\"",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-08-20.pdf",
+      "fix": "Add a compliance task and calendar date for the Fiscal Sustainability Report (template, due date, email). State that the audit must be performed under GAAS. Add this contact to regulators."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[Staff training].notes and fees_and_timelines_in_checklist[i=47]",
+      "current": "Training is described as DDD basic training (abuse/neglect prevention and first aid) within 90 days. Hour totals were not verified.",
+      "correct": "10:44A-2.7(a) requires, within 90 days of hire: DDD Shifting Expectations, preventing abuse and neglect, ECC first aid and CPR, each with a valid certificate on file. Medication training and demonstrated competency are required before staff give any medication, and the competency check is annual. Specialized training (feeding, mobility, seizures, mental health, behavior support plans) is required within 90 days. 10:44A-2.8(b) requires each specialized training to be completed by at least one person on every shift.",
+      "evidence": "10:44A-2.7(b): \"Staff shall complete medication training and demonstrate competency prior to administering any medication\".",
+      "source_url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-10-44A-2-7",
+      "fix": "Add CPR, Shifting Expectations, medication training with annual competency, and per-shift specialized training to the training cost basis. Include paid training hours in pre-opening DSP costs. Add the 'at least one trained person per shift' rule to the staffing/schedule task."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden (payroll_tax_pct 0.105)",
+      "current": "Payroll tax = FICA 7.65% + NJ UI 2.8%. The employer TDI share is 'not verified and not modeled'.",
+      "correct": "Other mandatory employer costs are not modeled: federal FUTA (0.6% net on the first $7,000 per employee, which I did not verify against a fetched source) and NJ employer TDI contribution (the rate is experience-based and was not verified). UI at 2.8% is applied to all wages although the 2026 UI base is $44,800. The supervisor ($52,000) and executive director ($95,000) wages exceed that base, so the UI portion is overstated for them.",
+      "evidence": "NJDOL: UI taxable wage base \"increases to $44,800 in 2026 from $43,300\"; TDI/FLI base $171,100.",
+      "source_url": "https://www.nj.gov/labor/lwdhome/press/2025/20251229_newbenefitrates2026.shtml",
+      "fix": "Add FUTA and employer TDI as separate lines. Apply UI only to wages up to $44,800 per employee. Confirm the new-employer UI/TDI rates on the NJDOL/Treasury rate notice. The 2.8% rate is secondary-sourced only."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[Supervisor, ED, billing, RN rows].wage_source_id (S38)",
+      "current": "Supervisor $52,000, ED $95,000, billing $50,000 and RN $50/hr are tied to S38. S38 only gives an all-occupation metro mean of $41.50/hr.",
+      "correct": "None of these are BLS May 2025 NJ occupation wages. The RN rate is supported indirectly: DDD's Jan 2026 update cites an NJ RN mean of $51.44/hr (May 2024 OEWS) and an R&C cap of $51.50. The DSP wage ($20.71) comes from DDD/NCI, not BLS OEWS. The NJ BLS median for home health and personal care aides is $37,090 (about $17.83/hr, per O*NET). All modeled wages are at or above the $15.92 minimum.",
+      "evidence": "S24 p.13: \"Registered Nurses - $51.44 per hour\" (May 2024 OEWS, NJ).",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-01-22.pdf",
+      "fix": "Re-cite the RN line to the DDD update (about $51/hr) or the BLS NJ RN median. For supervisor, ED and billing, either source the matching NJ OEWS May 2025 occupations or label them 'operator estimate, no BLS wage verified'. Remove S38 as the wage source for those rows. Verification of those values is unverifiable from the sources retrieved."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[*].phone / email",
+      "current": "All phone fields are blank. The DDD.ProviderHelpdesk@dhs.nj.gov and DDDEVV@dhs.nj.gov emails were not confirmed.",
+      "correct": "DDD publishes 800-832-9173 for issues (county Community Services Office). Abuse, neglect and exploitation reports go to 800-832-9173, then press 1. The DDD Ombudsman is 609-984-7764. DDD.FeeForService@dhs.nj.gov is confirmed for routine fee-for-service questions.",
+      "evidence": "DDD update: \"For issues, call the DDD Community Services Office for your county or 800-832-9173.\"",
+      "source_url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-08-20.pdf",
+      "fix": "Add phone 800-832-9173 to the DDD entries and the abuse/neglect reporting line. Mark the ProviderHelpdesk and DDDEVV emails 'unverifiable' unless confirmed on the DDD apply and EVV pages."
+    }
+  ]
+}

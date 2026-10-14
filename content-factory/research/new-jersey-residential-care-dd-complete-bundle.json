@@ -1,0 +1,2526 @@
+{
+  "bundle_slug": "new-jersey-residential-care-dd-complete-bundle",
+  "state": "New Jersey",
+  "state_code": "NJ",
+  "program": "Residential Care (DD)",
+  "state_program_name": "Community Residence for Individuals with Developmental Disabilities (group home, supervised apartment, supportive living) licensed by the NJ DHS Office of Licensing under N.J.A.C. 10:44A; services approved and paid through DDD as Individual Supports under the Community Care Program / Supports Program (NJ FamilyCare Comprehensive Demonstration, Section 1115), fee-for-service",
+  "as_of": "2026-10",
+  "report_title": "New Jersey Community Residences for Individuals with Developmental Disabilities (N.J.A.C. 10:44A) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Office of Licensing (OPIA provider page)",
+      "publisher": "NJ DHS Office of Program Integrity & Accountability",
+      "url": "https://www.nj.gov/humanservices/opia/providers/licensing/index.shtml",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "N.J.A.C. 10:44A text — Standards for Community Residences (snapshot Feb 2024)",
+      "publisher": "NJ Department of Human Services",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/rulesfiles/NJAC%2010_44A%20STANDARDS%20FOR%20COMMUNITY%20RESIDENCES%20FOR%20INDIVIDUALS%20WITH%20DEVELOPMENTAL%20DISABILITIES.PDF",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "N.J.A.C. 10:44A, Title 10 Chapter 44A (rule compilation)",
+      "publisher": "NJ Department of Human Services",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/NJAC%2010_44A.PDF",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "N.J.A.C. 10:44A-1.4 Application for licensure",
+      "publisher": "Cornell LII (mirror of NJ Administrative Code)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-10-44A-1-4",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "N.J.A.C. 10:44A-2.7 Staff training",
+      "publisher": "Cornell LII (mirror of NJ Administrative Code)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-10-44A-2-7",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "Notice of Readoption, N.J.A.C. 10:44A (58 N.J.R. 1193(b))",
+      "publisher": "NJ DHS / NJ Register",
+      "url": "https://www.nj.gov/humanservices/notices/documents/rule-adoptions/10_44ANoR(58%20N.J.R.1193(b)).pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "Apply to Become a Provider",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://nj.gov/humanservices/ddd/providers/apply/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "Division Update, August 20, 2026",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-08-20.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "Supports Program and Community Care",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/individuals/community/support/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "DDD Programs and Services",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/programs-and-services/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "HCBS Statewide Transition Plan Addendum #3",
+      "publisher": "NJ DHS / CMS",
+      "url": "https://www.medicaid.gov/medicaid/home-community-based-services/downloads/nj-transition-plan-hcbs.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "Fee-for-Service System",
+      "publisher": "SCARC (provider advocacy)",
+      "url": "https://www.scarc.org/fee-for-service-system/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "FFS FAQs: Becoming a Medicaid Provider",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://nj.gov/humanservices/ddd/documents/ffs_faqs_becoming_a_medicaid_provider.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Welcome New Jersey Providers",
+      "publisher": "ProviderExpress (NJ Medicaid provider portal)",
+      "url": "https://public.providerexpress.com/content/ope-provexpr/us/en/our-network/welcomeNtwk/welcomeNJ.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "NJ Medicaid Provider Enrollment 2026 guide",
+      "publisher": "MedSole (consultant citing CMS notice)",
+      "url": "https://medsolercm.com/blog/nj-medicaid-provider-enrollment",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "Office of Licensing (individuals & families page)",
+      "publisher": "NJ DHS Office of Program Integrity & Accountability",
+      "url": "https://www.nj.gov/humanservices/opia/individuals-families/licensing/index.shtml",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "SSI Amounts for 2026",
+      "publisher": "SSLG (law firm summary of SSA figures)",
+      "url": "https://sslg.com/ssi-amounts/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "Electronic Visit Verification (DDD)",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/providers/visit-verification/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "EVV Guidance for Support Coordination Agencies",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://nj.gov/humanservices/ddd/assets/documents/support/evv-guidance-for-sca.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Electronic Visit Verification (EVV) — vendor and helpdesk",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/providers/federalrequirements/verification",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Electronic Visit Verification (EVV)",
+      "publisher": "NJ DHS Division of Medical Assistance and Health Services",
+      "url": "https://www.nj.gov/humanservices/dmahs/providers-stakeholders/overview/evv.shtml",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "DDD Fee-for-Service Rate Schedule (detailed report)",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/ffs_rate_schedule_detailed_report.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "iRecord Rate Change (1/1/2026)",
+      "publisher": "NJ DHS / DDD iRecord",
+      "url": "https://irecord.dhs.state.nj.us/UserGuide/Rate_Change.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Division Update, January 22, 2026",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-01-22.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Division Update, July 24, 2025",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/assets/documents/news/update-webinar-2025-07-24.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Governor Sherrill's First Budget Supports Adults With DD",
+      "publisher": "Autism NJ (advocacy)",
+      "url": "https://autismnj.org/news/governor-sherrills-first-budget-supports-adults-with-developmental-disabilities/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "NJ DDD Supports Program: Eligibility, Budget Tiers",
+      "publisher": "Special Needs USA (cites DDD FY26 Quick Guide)",
+      "url": "https://specialneedsusa.com/guides/nj-ddd-supports-program-guide",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "FY23 Individual Supports Rate Increase",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/2022-7-15%20Ind%20Supp%20Increase.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "CareScout 2025 Cost of Care Data for New Jersey",
+      "publisher": "Business Wire (CareScout press release)",
+      "url": "https://www.businesswire.com/news/home/20260302045453/en/CareScout-Releases-2025-Cost-of-Care-Data-for-New-Jersey",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "NJDOL Announces New Benefit Rates for 2026",
+      "publisher": "NJ Dept. of Labor and Workforce Development",
+      "url": "https://www.nj.gov/labor/lwdhome/press/2025/20251229_newbenefitrates2026.shtml",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "New Jersey Minimum Wage 2026 ($16.48 in 2027)",
+      "publisher": "Recording Law (summary of NJDOL notices)",
+      "url": "https://www.recordinglaw.com/us-laws/minimum-wage/new-jersey-minimum-wage/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "New Jersey Minimum Wage Increase Reminder",
+      "publisher": "Lindabury, McCormick, Estabrook & Cooper",
+      "url": "https://www.lindabury.com/firm/insights/new-jersey-minimum-wage-increase-reminder.html",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "New Jersey Minimum Wage 2026",
+      "publisher": "HiveDesk (compliance summary)",
+      "url": "https://www.hivedesk.com/compliance/united-states/minimum-wage-new-jersey",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "NJ Payroll Tax Guide 2026",
+      "publisher": "Monaco CPA",
+      "url": "https://www.monacocpa.cpa/nj-payroll-tax-guide",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "NJCRIB Circular 2510: Revised Rates eff. Jan 1, 2026",
+      "publisher": "NJ Compensation Rating & Inspection Bureau",
+      "url": "https://www.njcrib.com/Search/ViewPDF?id=1364",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Home Health and Personal Care Aides (OOH)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "New Jersey Wages: 31-1121.00 Home Health Aides",
+      "publisher": "O*NET OnLine (BLS OEWS data)",
+      "url": "https://www.onetonline.org/link/localwages/31-1121.00?st=NJ",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Occupational Employment and Wages, New York-Newark-Jersey City, May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/northeast/news-release/2026/occupationalemploymentandwages_newyork_20260605.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "FY2026 Fair Market Rent Summary — New Jersey",
+      "publisher": "HUD User (hosted by NJ Treasury)",
+      "url": "https://www.nj.gov/treasury/njombudsman/documents/pdf/FY2026FairMarketRentDocumentationSystem.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "NJ LLC Formation: Educational Guide",
+      "publisher": "Monaco CPA",
+      "url": "https://www.monacocpa.cpa/nj-llc-formation",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "How much does an LLC cost in New Jersey?",
+      "publisher": "LLC University",
+      "url": "https://www.llcuniversity.com/new-jersey-llc/costs/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "State of NJ LLC Filing Fee and Tax Requirements",
+      "publisher": "UpCounsel",
+      "url": "https://www.upcounsel.com/nj-llc-tax-filing-requirements",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "Division Update, June 25, 2026",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-06-25.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Self-Directed Services & Waiting List (DDD presentation, Mar 2024)",
+      "publisher": "NJ Division of Developmental Disabilities (hosted by Bergen County)",
+      "url": "https://www.bergen.org/cms/lib/NJ02213295/Centricity/Domain/121/240326_Presentation.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "Waiting List for Community Care Program",
+      "publisher": "NJ Division of Developmental Disabilities",
+      "url": "https://nj.gov/humanservices/ddd/individuals/access-services/waiting-list/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Analysis of the NJ Budget FY 2025-2026 (DHS)",
+      "publisher": "NJ Office of Legislative Services",
+      "url": "https://pub.njleg.state.nj.us/publications/budget/governors-budget/2026/dhs_analysis_2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Analysis of the NJ Budget FY 2026-2027 (DHS)",
+      "publisher": "NJ Office of Legislative Services",
+      "url": "https://pub.njleg.state.nj.us/publications/budget/governors-budget/2027/dhs_analysis_2027.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "State of New Jersey FY 2027 Budget in Brief",
+      "publisher": "NJ Office of Management and Budget",
+      "url": "https://www.nj.gov/treasury/omb/publications/27bib/BIB.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "Agencies Licensed to Provide Licensed Residential Services (10/28/2025)",
+      "publisher": "NJ DHS Office of Licensing",
+      "url": "https://www.nj.gov/humanservices/opia/documents/Agencies-Licensed-by-New-Jersey-Department-of-Human-Services-Office-of-Licensing-to-provide-Licensed-Residential-Services-10-28-2025.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Maximum community residence size under N.J.A.C. 10:44A",
+      "value": "Up to 16 individuals per residence (supervised apartments: up to 4 per apartment [S3])",
+      "source_id": "S2",
+      "as_of": "Code snapshot Feb 2024; chapter readopted eff. 2026-02-17 [S6]"
+    },
+    {
+      "metric": "Prior experience required before a licensing application",
+      "value": "At least 24 months of direct care service history, with survey/audit results and plans of correction",
+      "source_id": "S7",
+      "as_of": "2026-07-06"
+    },
+    {
+      "metric": "Licensing application timeline",
+      "value": "Missing elements due within 45 days of initial submission or the application may be denied (six-month bar on reapplying); written decision within 60 calendar days of a completed application",
+      "source_id": "S4",
+      "as_of": "Amended eff. 2023-02-06"
+    },
+    {
+      "metric": "Full license term",
+      "value": "Up to one year; annual on-site inspection; two consecutive provisional licenses may result in non-renewal [S1]",
+      "source_id": "S2",
+      "as_of": "Code snapshot Feb 2024"
+    },
+    {
+      "metric": "Licensed homes and combined capacity (DD and related licensed residential)",
+      "value": "2,300 licensed homes; capacity to serve over 9,600 individuals; nearly 80% of licensed agencies are non-profits",
+      "source_id": "S16",
+      "as_of": "Undated page, accessed 2026"
+    },
+    {
+      "metric": "CCP Priority Waiting List, FY26",
+      "value": "3,665 people (+511 vs FY25); total individuals served by DDD 28,783 (+1,586)",
+      "source_id": "S43",
+      "as_of": "FY26 (to 2026-06-30)"
+    },
+    {
+      "metric": "FY26 DSP & DSP Supervisor wage increase (nine agency-provided services, rates raised 1/1/2026)",
+      "value": "About +$0.46/hr base-wage pass-through required, effective 1/1/2026 (deadline 3/1/2026, incl. retroactive pay); projected NJ DSP average wage about $20.71/hr (DDD also cites about $21/hr). Source for the increase: DDD 12/30/2025 Information Bulletin and Quick Guide.",
+      "source_id": "S44",
+      "as_of": "2024-03-26",
+      "source_ids": [
+        "S24"
+      ]
+    },
+    {
+      "metric": "DSP wage increase for new training requirements (nine agency-provided services, rates raised)",
+      "value": "About +$0.46/hr effective 1/1/2026; projected NJ DSP average wage about $20.71/hr",
+      "source_ids": [
+        "S23",
+        "S24"
+      ],
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "NJ statewide minimum wage",
+      "value": "$15.92/hr (most employers), effective 2026-01-01",
+      "source_id": "S30",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "SSI federal benefit rate (individual)",
+      "value": "$994/month in 2026 (up from $967 in 2025)",
+      "source_id": "S17",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Annual financial statement audit threshold",
+      "value": "Required for provider agencies claiming $350,000 or more combined CCP and Supports Program reimbursement",
+      "source_id": "S8",
+      "as_of": "2026-08-20"
+    },
+    {
+      "metric": "NJ median private-pay assisted living (benchmark only, not a DD residential price)",
+      "value": "$101,550/yr (about $8,462/month), -1% vs 2024",
+      "source_id": "S29",
+      "as_of": "2025 survey, released 2026-03-02"
+    }
+  ],
+  "not_claimed": [
+    "Exact FY26 DDD residential Individual Supports rates: DDD published an FY26 Quick Guide (effective 1/1/2026) with procedure codes and FY25/FY26 rates, and Individual Supports uses H2016HI-series daily tier codes, but the Individual Supports rows could not be read. The procedure code, billing unit and tier amounts used for the model are therefore not verified, and every residential revenue figure in the financial model is an assumption. The Community Based Supports figure of $28.03 and the old daily tier rates on the May 2015 schedule are not used.",
+    "Office of Licensing application, license, renewal or inspection fees, and when they are paid — no fee provision was found in the 10:44A-1.4 text reviewed. Startup fee lines for licensing are not claimed.",
+    "Current Office of Licensing phone number, mailing address or email — the only phone and PO Box found were on a 2005 version of the rule and are not confirmed current.",
+    "Awake overnight staffing ratio and per-shift staffing ratios for 10:44A residences — not found in the 10:44A text reviewed. The awake/asleep ratio found is in 10:44C (head injury) and does not apply. Staffing in the model is an operator estimate tied to residents' needs.",
+    "Required initial or annual training hours for administrators and direct support professionals — only timing (within 90 days of hire) and topics were verified.",
+    "Whether a waiver or variance from the cumulative 10:44A-2.5(a) executive director qualifications (bachelor's degree, five years progressive DD management experience with two at a senior/supervisory level, and program/fiscal knowledge) is available under subchapter 1 was not checked.",
+    "Minimum liability, professional, abuse/molestation, auto or property insurance amounts for DD community residences or DDD provider approval — no numeric requirement found. Insurance premiums are operator estimates.",
+    "Workers' compensation class code and NJ manual rate for residential care operations — not found. Only the overall NJCRIB rate change (-4.3% eff. 2026-01-01) is verified.",
+    "Room and board rules for DDD residential settings, including how SSI ($994) applies to a resident's room-and-board contribution — not found in any retrieved DDD or SSA source. The SSI figure is from a secondary source (SSA primary page not fetched).",
+    "Whether DDD residential services are excluded from NJ Medicaid managed care — DDD sources describe fee-for-service, but no carve-out text was retrieved.",
+    "Whether the CY2026 $750 federal Medicaid enrollment application fee applies to DDD residential providers — the secondary source limits it to institutional providers, and no NJ state-level enrollment fee was verified.",
+    "Whether the combined Medicaid/DDD license application amendment (PRN 2022-083) was formally adopted — the 10:44A-1.4 text on Cornell LII references the combined application, but adoption was not verified. The text of the 2026 readoption itself (only the notice) was not reviewed, and no pending amendments to 10:44A were found.",
+    "Content, penalties and effective dates of P.L.2025, c.280 (enhanced DHS enforcement authority over DD providers) — cited in the DDD June 2026 update but the statute was not retrieved.",
+    "Enactment of the FY27 DDD budget (+$154M, DSP/supervisor rate increases, 318-person CCP waiting-list removal) — only proposals and the Governor's recommendation were confirmed.",
+    "Supports Program and CCP budget tier amounts are from a secondary guide (Special Needs USA) citing DDD's FY26 Quick Guide; the DDD primary document was not retrieved and the amounts are not used in the financial model.",
+    "Provider market shares, competitor names, current count of DDD-approved residential providers, number of licensed beds by program type, occupancy or vacancy rates for licensed residences — not found. The 2,300 homes / 9,600 capacity figure is aggregate, undated and not split by program type.",
+    "Current total on the CCP General Waiting List (only a 2024 figure of 1,814 was found), any residential-specific waiting list count, referral-source breakdown, developmental center census, and the share of DDD participants aged 65+.",
+    "The DDD served-population count differs by source: 28,783 in the FY26 DDD budget table [S43] vs 'more than 30,000 adults' in a March 2026 advocacy report of a DHS briefing [S26]. The report uses the DDD figure.",
+    "BLS OEWS May 2025 New Jersey state wages for nursing assistants, LPNs, RNs, medical/health services managers and cooks — the BLS NJ state page could not be fetched. The only NJ aide wage is a secondary O*NET display of BLS data; other roles are operator estimates labeled as such.",
+    "Whether the $18.92/hr 'direct care staff at long-term care facilities' minimum wage in a secondary source applies to DD community residences — unconfirmed. The $16.48 (2027) and $15.23 (small employer, under 6 employees) minimum wage figures are from secondary sources only.",
+    "NJ employer unemployment insurance rate for July 2026–June 2027 and the new-employer rate — the 2.8% new-employer figure is from a secondary source only; the official rate table was not found.",
+    "Official NJ Division of Revenue fees for LLC formation ($100 vs $125 in conflicting secondary sources) and the annual report ($75 per a secondary source) — not verified on the official site.",
+    "Municipal zoning and land-use treatment of group homes, Uniform Construction Code use-group and fire-safety specifics under 10:44A subchapter 6, and FY2027 HUD Fair Market Rents — not researched or verified. HUD FY2026 FMRs are residential proxies only, not commercial or group-home lease rates.",
+    "Initial license issuance timeline beyond the 60-day decision window, renewal timelines, background check mechanics (fingerprinting, CARI, Central Registry) and current EVV compliance deadlines for 2026–2027 — not verified.",
+    "Whether the 2,300-home / 9,600-capacity figure on the OPIA page includes TBI residences — the licensed agency list (10/28/2025) covers DD or TBI programs, and the agency count was not extracted.",
+    "Federal FUTA and the NJ employer TDI contribution rate: not modeled and not verified against a fetched source.",
+    "Costs of fingerprinting, Central Registry and Child Abuse Registry checks, pre-employment and random drug testing, driver abstracts, CPR/Shifting Expectations/medication training and paid training hours: required by DDD or 10:44A but not itemized or priced in the model. Whether physical exam and TB records for direct service staff are required under the current text was not confirmed.",
+    "Supervisor ($52,000), executive director ($95,000) and billing ($50,000) wages: operator estimates; no matching NJ BLS OEWS May 2025 wage was verified."
+  ],
+  "regulators": [
+    {
+      "name": "NJ DHS Office of Licensing (Office of Program Integrity & Accountability)",
+      "role": "Licenses community residences under N.J.A.C. 10:44A; annual and unannounced inspections; provisional license and non-renewal decisions",
+      "url": "https://www.nj.gov/humanservices/opia/providers/licensing/index.shtml",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "NJ DHS Division of Developmental Disabilities (DDD)",
+      "role": "Medicaid/DDD provider approval (Combined Application, Individual Supports), fee-for-service rates and billing, job description review, CCP/Supports Program administration. Phone 800-832-9173 is DDD's published number for issues (county Community Services Office); the ProviderHelpdesk email was not independently confirmed.",
+      "url": "https://nj.gov/humanservices/ddd/providers/apply/",
+      "phone": "800-832-9173",
+      "email": "DDD.ProviderHelpdesk@dhs.nj.gov",
+      "source_id": "S7"
+    },
+    {
+      "name": "DDD Fee-for-Service Unit",
+      "role": "Routine fee-for-service billing questions",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-06-25.pdf",
+      "phone": "",
+      "email": "DDD.FeeForService@dhs.nj.gov",
+      "source_id": "S43"
+    },
+    {
+      "name": "DDD Electronic Visit Verification (EVV) team",
+      "role": "EVV policy and helpdesk for DDD Individual Supports, In-Home Respite and Community Based Supports (vendor: HHAeXchange). The DDDEVV email is unverifiable unless confirmed on the DDD EVV page.",
+      "url": "https://www.nj.gov/humanservices/ddd/providers/federalrequirements/verification",
+      "phone": "",
+      "email": "DDDEVV@dhs.nj.gov",
+      "source_id": "S20"
+    },
+    {
+      "name": "NJ DHS Division of Medical Assistance and Health Services (DMAHS)",
+      "role": "NJ Medicaid agency; operates the EVV program; Medicaid provider registration and claims",
+      "url": "https://www.nj.gov/humanservices/dmahs/providers-stakeholders/overview/evv.shtml",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    },
+    {
+      "name": "NJ Department of Labor and Workforce Development",
+      "role": "Minimum wage, unemployment insurance and TDI/FLI payroll taxes, workers' compensation benefit rates",
+      "url": "https://www.nj.gov/labor/lwdhome/press/2025/20251229_newbenefitrates2026.shtml",
+      "phone": "",
+      "email": "",
+      "source_id": "S30"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "N.J.A.C. 10:44A",
+      "title": "Standards for Community Residences for Individuals with Developmental Disabilities (readopted eff. Feb 17, 2026; new expiration Feb 17, 2033)",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/NJAC%2010_44A.PDF",
+      "source_id": "S3"
+    },
+    {
+      "cite": "58 N.J.R. 1193(b)",
+      "title": "Notice of Readoption, N.J.A.C. 10:44A (effective February 17, 2026; further rulemaking may be necessary)",
+      "url": "https://www.nj.gov/humanservices/notices/documents/rule-adoptions/10_44ANoR(58%20N.J.R.1193(b)).pdf",
+      "source_id": "S6"
+    },
+    {
+      "cite": "N.J.A.C. 10:44A-1.3",
+      "title": "Definitions (community residence up to 16 individuals; siting not on grounds of or adjacent to public institutions; full license up to one year; supervised apartments up to four per apartment)",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/rulesfiles/NJAC%2010_44A%20STANDARDS%20FOR%20COMMUNITY%20RESIDENCES%20FOR%20INDIVIDUALS%20WITH%20DEVELOPMENTAL%20DISABILITIES.PDF",
+      "source_id": "S2"
+    },
+    {
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "title": "Application for licensure (combined application, application contents, 45-day completeness, 60-day decision, background checks, annual inspection)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-10-44A-1-4",
+      "source_id": "S4"
+    },
+    {
+      "cite": "N.J.A.C. 10:44A-2.4, 2.5",
+      "title": "Personnel and minimum staff qualifications (DSP age 18+, high school diploma or equivalent; residence supervisor; executive director)",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/NJAC%2010_44A.PDF",
+      "source_id": "S3"
+    },
+    {
+      "cite": "N.J.A.C. 10:44A-2.7",
+      "title": "Staff training (basic DDD training within 90 days of hire; first aid per ECC guidelines)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-10-44A-2-7",
+      "source_id": "S5"
+    },
+    {
+      "cite": "N.J.A.C. 10:44A-2.8",
+      "title": "Staff coverage (two-week written schedule; in-charge employee designated per shift)",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/rulesfiles/NJAC%2010_44A%20STANDARDS%20FOR%20COMMUNITY%20RESIDENCES%20FOR%20INDIVIDUALS%20WITH%20DEVELOPMENTAL%20DISABILITIES.PDF",
+      "source_id": "S2"
+    },
+    {
+      "cite": "N.J.A.C. 10:44B",
+      "title": "Community care residences (Family Care / Skill Development in private homes) — separate licensing chapter, not 10:44A",
+      "url": "https://www.nj.gov/humanservices/providers/rulefees/regs/NJAC%2010_44A.PDF",
+      "source_id": "S3"
+    },
+    {
+      "cite": "P.L.2025, c.280",
+      "title": "Enhanced Human Services enforcement authority over developmental disability service providers (enacted January 2026)",
+      "url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-06-25.pdf",
+      "source_id": "S43"
+    },
+    {
+      "cite": "21st Century Cures Act §12006(a)",
+      "title": "Electronic Visit Verification mandate for Medicaid personal care and home health services (applied to DDD Individual Supports codes; live-in worker attestation exemption)",
+      "url": "https://www.nj.gov/humanservices/ddd/providers/visit-verification/",
+      "source_id": "S18"
+    },
+    {
+      "cite": "NJ FamilyCare Comprehensive Demonstration (Section 1115)",
+      "title": "Authority for the DDD Supports Program and Community Care Program (no longer operated under 1915(c) since Nov 2017)",
+      "url": "https://www.medicaid.gov/medicaid/home-community-based-services/downloads/nj-transition-plan-hcbs.pdf",
+      "source_id": "S11"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "NJ Medicaid / DDD fee-for-service",
+      "code": "",
+      "service": "Support Coordination (1:25 ratio), May 2015 schedule, stale; context only, not a residential rate",
+      "rate": 239.81,
+      "unit": "per member per month",
+      "effective": "May 2015 cost-study schedule; superseded by later increases (7/2023, 7/2024)",
+      "notes": "From a DDD detailed FFS rate schedule dated May 2015; the $239.81 figure is stale because DDD raised Support Coordination rates in the 7/2023 and 7/2024 rate changes. DDD has published FY26 fee-for-service rates effective 1/1/2026 (Quick Guide with procedure code, FY25 and FY26 columns, including Individual Supports H2016HI-series tier codes), but the Individual Supports rows could not be read in the retrieved material, so residential revenue in the model remains an assumption. The 2015 schedule's old Individual Supports daily tier rates are not used. The 1/1/2026 increase to nine services is documented in DDD's 12/30/2025 Information Bulletin and Quick Guide, not in S23.",
+      "source_id": "S22"
+    },
+    {
+      "payer": "Wage benchmark (DDD)",
+      "code": "",
+      "service": "Projected NJ average DSP wage after 1/1/2026 rate increase",
+      "rate": 20.71,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "DDD projection ($20.25 NCI 2024 average + ~$0.46 FY26 DSP/DSP Supervisor wage pass-through funded by a $9.1M state appropriation; DDD also cites ~$21/hr for 2026). The increase must be passed through as a base-wage increase (not a bonus or operating expense), effective 1/1/2026, no later than 3/1/2026 including retroactive pay. It is not margin.",
+      "source_id": "S24"
+    },
+    {
+      "payer": "Wage benchmark (BLS OEWS via O*NET)",
+      "code": "31-1121",
+      "service": "NJ home health and personal care aides, median annual wage (10th pct $32,220; 90th pct $48,180)",
+      "rate": 37090,
+      "unit": "per year",
+      "effective": "2025-05",
+      "notes": "Secondary display of BLS May 2025 data; the BLS NJ state page was not fetched. National median for the occupation is $35,800 [S36]. Roughly $17.83/hr at 2,080 hours.",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Wage floor (NJDOL)",
+      "code": "",
+      "service": "NJ statewide minimum wage, most employers",
+      "rate": 15.92,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "Scheduled $16.48 on 2027-01-01 (secondary source [S31]). Whether a higher long-term care direct care rate applies to DD residences is unconfirmed. No NJ city sets its own rate (secondary [S33]).",
+      "source_id": "S30"
+    },
+    {
+      "payer": "SSI (SSA)",
+      "code": "",
+      "service": "SSI federal benefit rate, eligible individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Benchmark for resident income. How SSI applies to room and board in DDD residences was not verified. SSA primary page not fetched.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "NJ median assisted living community cost (CareScout 2025 survey)",
+      "rate": 101550,
+      "unit": "per year",
+      "effective": "2025 survey, released 2026-03-02",
+      "notes": "About $8,462/month. Measures private pay in assisted living communities, not DD residential services; DD residences are funded through DDD, not by this benchmark.",
+      "source_id": "S29"
+    },
+    {
+      "payer": "NJ payroll tax (NJDOL)",
+      "code": "",
+      "service": "Unemployment insurance taxable wage base (employers and workers)",
+      "rate": 44800,
+      "unit": "per year",
+      "effective": "2026-01-01",
+      "notes": "TDI/FLI (workers only) wage base is $171,100. New-employer UI rate of 2.8% is secondary only [S34].",
+      "source_id": "S30"
+    },
+    {
+      "payer": "Rent benchmark (HUD FY2026 FMR)",
+      "code": "",
+      "service": "Newark HMFA (Essex/Union/Morris/Sussex), 3-bedroom",
+      "rate": 2761,
+      "unit": "per month",
+      "effective": "FY2026",
+      "notes": "Residential proxy only (40th percentile); 4BR is $3,137. Not a group-home lease rate.",
+      "source_id": "S39"
+    },
+    {
+      "payer": "Rent benchmark (HUD FY2026 FMR)",
+      "code": "",
+      "service": "Newark HMFA (Essex/Union/Morris/Sussex), 4-bedroom",
+      "rate": 3137,
+      "unit": "per month",
+      "effective": "FY2026",
+      "notes": "Residential proxy only.",
+      "source_id": "S39"
+    },
+    {
+      "payer": "Rent benchmark (HUD FY2026 FMR)",
+      "code": "",
+      "service": "Jersey City HMFA (Hudson), 3-bedroom",
+      "rate": 3367,
+      "unit": "per month",
+      "effective": "FY2026",
+      "notes": "Residential proxy only.",
+      "source_id": "S39"
+    },
+    {
+      "payer": "Rent benchmark (HUD FY2026 FMR)",
+      "code": "",
+      "service": "Jersey City HMFA (Hudson), 4-bedroom",
+      "rate": 3955,
+      "unit": "per month",
+      "effective": "FY2026",
+      "notes": "Residential proxy only.",
+      "source_id": "S39"
+    },
+    {
+      "payer": "Rent benchmark (HUD FY2026 FMR)",
+      "code": "",
+      "service": "Bergen-Passaic HMFA, 3-bedroom",
+      "rate": 2835,
+      "unit": "per month",
+      "effective": "FY2026",
+      "notes": "Residential proxy only.",
+      "source_id": "S39"
+    },
+    {
+      "payer": "Rent benchmark (HUD FY2026 FMR)",
+      "code": "",
+      "service": "Bergen-Passaic HMFA, 4-bedroom",
+      "rate": 3618,
+      "unit": "per month",
+      "effective": "FY2026",
+      "notes": "Residential proxy only.",
+      "source_id": "S39"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "DDD Provider Helpdesk",
+      "role": "Questions on the Combined Application and licensed residential setting approval (email not independently confirmed)",
+      "contact": "DDD.ProviderHelpdesk@dhs.nj.gov"
+    },
+    {
+      "name": "DDD Fee-for-Service",
+      "role": "Routine fee-for-service billing questions",
+      "contact": "DDD.FeeForService@dhs.nj.gov"
+    },
+    {
+      "name": "DDD EVV Helpdesk",
+      "role": "EVV for DDD Individual Supports, In-Home Respite and Community Based Supports (email unverifiable unless confirmed on the DDD EVV page)",
+      "contact": "DDDEVV@dhs.nj.gov"
+    },
+    {
+      "name": "NJ DHS Office of Licensing (OPIA)",
+      "role": "Licensing, inspections, procedure manual submission",
+      "contact": "https://www.nj.gov/humanservices/opia/providers/licensing/index.shtml (no verified phone or email; use the OPIA Contact Us form)"
+    },
+    {
+      "name": "DDD Office of Housing and Resource Development",
+      "role": "Consult before acquiring housing for a licensed residence",
+      "contact": "Via DDD; see https://www.nj.gov/humanservices/opia/providers/licensing/index.shtml (no direct contact verified)"
+    },
+    {
+      "name": "HHAeXchange",
+      "role": "NJ's contracted EVV vendor for DDD",
+      "contact": "https://www.nj.gov/humanservices/ddd/providers/federalrequirements/verification"
+    },
+    {
+      "name": "NJ Compensation Rating and Inspection Bureau (NJCRIB)",
+      "role": "Workers' compensation rating and manual rates",
+      "contact": "https://www.njcrib.com/Search/ViewPDF?id=1364"
+    },
+    {
+      "name": "NJ Department of Labor and Workforce Development",
+      "role": "Minimum wage, UI/TDI/FLI wage bases and benefit rates",
+      "contact": "https://www.nj.gov/labor/lwdhome/press/2025/20251229_newbenefitrates2026.shtml"
+    },
+    {
+      "name": "State Ombudsman for Individuals with I/DD and Families",
+      "role": "Lisa Montalbano appointed May 29, 2026",
+      "contact": "DDD Ombudsman: 609-984-7764. See also DDD Update, June 25, 2026: https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-06-25.pdf"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.92,
+      "conservative": 0.88,
+      "optimistic": 0.96,
+      "rationale": "Share of licensed beds that are occupied and billed. No occupancy or vacancy data for NJ licensed community residences was found (see not_claimed), so 92% default (88% conservative, 96% optimistic) is an operator estimate, not a sourced statistic. Demand context: 3,665 people on the CCP Priority Waiting List in FY26, with DDD reaching roughly 200-400 a year from it [S43][S44]. A listed person is not guaranteed enrollment [S45], and a new provider does not receive a guaranteed referral pipeline.",
+      "source_id": "S43"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "nj_gh4_single",
+        "label": "One 4-bed group home (assumed $150,000 per resident per year authorized)",
+        "capacity": 4,
+        "notes": "Smallest realistic licensed-home start. Revenue is an ASSUMPTION: DDD's 2026 residential Individual Supports rates were not found (see not_claimed). The only sourced residential-level figures are the CCP Individual Supports annual allotments, from $66,424 (Tier A) to $527,838 (Tier Ea), per a secondary guide [S27]. $150,000/resident/year ($12,500/month) is an operator assumption inside that range, not a published rate. Replace it with the actual authorized amounts. The state requires 24 months of prior direct care service history before a licensing application [S7], so this model assumes the applicant already has that history. Resident room-and-board contributions are not modeled because the rules were not verified, which understates revenue.",
+        "revenue_lines": [
+          {
+            "name": "DDD Individual Supports (residential), ASSUMED authorized monthly amount per resident",
+            "payer": "NJ Medicaid / DDD (CCP Individual Supports, fee-for-service)",
+            "code": "",
+            "rate": 12500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S27",
+            "notes": "ASSUMPTION, not a published rate. $150,000 per year is an operator assumption within the sourced $66,424-$527,838 CCP Individual Supports allotment range [S27]. Allotments are budget caps, not payment guarantees. FFS billing happens after service delivery [S12]. Verify the procedure code, unit and 2026 rate with DDD (DDD.FeeForService@dhs.nj.gov [S43])."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (coverage hours)",
+            "wage_hourly": 20.71,
+            "wage_source_id": "S24",
+            "basis": "hours_per_month",
+            "amount": 1000,
+            "cite": "N.J.A.C. 10:44A-2.8",
+            "notes": "Operator estimate: 1 awake staff for all 730 hours/month plus about 270 hours of a second staff for mornings and evenings. N.J.A.C. 10:44A-2.8 requires a two-week schedule with an in-charge employee per shift [S2], but no awake-overnight or per-shift ratio was found in 10:44A (see not_claimed); the awake/asleep ratio found is in 10:44C and does not apply. Wage = DDD's projected NJ average DSP wage after the 1/1/2026 rate increase, $20.71/hr [S24]. NJ minimum wage is $15.92 [S30]. A $18.92/hr long-term-care direct care rate appears in a secondary source [S33]; applicability to DD residences is unconfirmed, and $20.71 is above it. O*NET/BLS NJ home health aide median is $37,090/year, about $17.83/hr [S37]."
+          },
+          {
+            "role": "Residence supervisor (responsible for operating the residence)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "1.0 FTE x $52,000 operator estimate. No NJ BLS wage for this role was verified [S38 gives only an all-occupation metro mean of $41.50/hr, context only]. Minimum qualification: high school diploma or equivalent plus one year of experience working with people with DD [S3]."
+          },
+          {
+            "role": "Executive director / agency head (licensee or hired)",
+            "basis": "annual_salary",
+            "amount": 47500,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5; 10:44A-1.4",
+            "notes": "0.5 FTE x $95,000 operator estimate, no BLS wage verified. N.J.A.C. 10:44A-2.5(a) requirements are cumulative: bachelor's degree AND five years of progressive management experience with people with DD (at least two supervisory at a senior/administrative level) AND knowledge of program design, staff development and fiscal standards [S2]. An owner-operator lacking any one must hire a qualifying executive director, which changes this salary line. Whether a waiver or variance is available was not checked. A criminal history check must clear before the agency head is paid or contracted [S4]."
+          },
+          {
+            "role": "Billing, records and scheduling coordinator",
+            "basis": "annual_salary",
+            "amount": 12500,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "0.25 FTE x $50,000 operator estimate. Handles Medicaid/DDD claims, EVV exceptions, two-week schedules and licensing files."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, health care coordination)",
+            "wage_hourly": 50,
+            "wage_source_id": "S24",
+            "basis": "hours_per_client_month",
+            "amount": 2,
+            "cite": "",
+            "notes": "Operator estimate: $50/hr and 2 hours per resident per month. A nurse requirement was not verified in the 10:44A text reviewed; this is a prudent cost line for residents with health needs. DDD's January 2026 update cites an NJ RN mean of $51.44/hr (May 2024 OEWS) [S24], which supports the rate indirectly."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence(s)",
+            "monthly": 3137,
+            "basis": "fixed",
+            "notes": "One 4-bedroom house at the HUD FY2026 4BR fair market rent for the Newark HMFA, $3,137/month [S39]. FMR is the 40th-percentile residential rent and a proxy only. Jersey City HMFA 4BR is $3,955 and Bergen-Passaic is $3,618 [S39]. Rent is fixed whether beds are full or not.",
+            "source_id": "S39"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$600 for one home — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn and snow",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "One wheelchair-capable or passenger van, operator estimate."
+          },
+          {
+            "item": "Liability, professional, abuse/molestation and property insurance",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes. No minimum insurance amounts were found for DD community residences; OPIA reviews insurance documents at administrative inspections [S1]."
+          },
+          {
+            "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate. Basic DDD training must be completed within 90 days of hire; first aid must meet ECC guidelines [S5]."
+          },
+          {
+            "item": "Annual financial statement audit / CPA examination (monthly share)",
+            "monthly": 1250,
+            "basis": "fixed",
+            "notes": "$15,000/year operator estimate. An annual audit is required for agencies claiming $350,000 or more in combined CCP/Supports Program reimbursement [S8]; this home's modeled revenue exceeds that.",
+            "source_id": "S8"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one admission per month. DDD, support coordinators and families make the placements; the pace is not under the provider's control."
+        }
+      },
+      {
+        "id": "nj_gh6_single",
+        "label": "One 6-bed group home (assumed $150,000 per resident per year authorized)",
+        "capacity": 6,
+        "notes": "Larger single home spreads the supervisor and director over more residents. Same ASSUMED revenue of $150,000 per resident per year as the 4-bed model, not a published rate [S27]. The 10:44A cap is 16 individuals per residence [S2]. Siting may not be on the grounds of, or immediately adjacent to, public institutions serving a similar population [S2]. Local zoning was not researched.",
+        "revenue_lines": [
+          {
+            "name": "DDD Individual Supports (residential), ASSUMED authorized monthly amount per resident",
+            "payer": "NJ Medicaid / DDD (CCP Individual Supports, fee-for-service)",
+            "code": "",
+            "rate": 12500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S27",
+            "notes": "ASSUMPTION, not a published rate. $150,000/year is an operator assumption within the sourced CCP Individual Supports allotment range of $66,424-$527,838 [S27]. Verify with DDD."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (coverage hours)",
+            "wage_hourly": 20.71,
+            "wage_source_id": "S24",
+            "basis": "hours_per_month",
+            "amount": 1350,
+            "cite": "N.J.A.C. 10:44A-2.8",
+            "notes": "Operator estimate: 1 staff for all 730 hours plus a second staff about 620 hours/month (about 20 hours/day). No state ratio was found for 10:44A homes (see not_claimed). Wage $20.71/hr [S24]; NJ minimum $15.92 [S30]."
+          },
+          {
+            "role": "Residence supervisor (responsible for operating the residence)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "1.0 FTE x $52,000 operator estimate [S3 for qualifications]."
+          },
+          {
+            "role": "Executive director / agency head (licensee or hired)",
+            "basis": "annual_salary",
+            "amount": 47500,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "0.5 FTE x $95,000 operator estimate, no BLS wage verified. 10:44A-2.5(a) requirements are cumulative (bachelor's degree AND 5 years progressive DD management, 2 at a senior/supervisory level, AND program/fiscal knowledge) [S2]. An owner-operator lacking any one must hire a qualifying executive director, which changes this salary line."
+          },
+          {
+            "role": "Billing, records and scheduling coordinator",
+            "basis": "annual_salary",
+            "amount": 12500,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "0.25 FTE x $50,000 operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, health care coordination)",
+            "wage_hourly": 50,
+            "wage_source_id": "S24",
+            "basis": "hours_per_client_month",
+            "amount": 2,
+            "cite": "",
+            "notes": "Operator estimate: $50/hr, 2 hours per resident per month."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence(s)",
+            "monthly": 4235,
+            "basis": "fixed",
+            "notes": "One 6-bedroom house. HUD publishes no 6BR FMR; $4,235 = Newark HMFA 4BR FMR $3,137 [S39] x 1.35, an operator extrapolation — verify with local listings. Fixed whether beds are full or not.",
+            "source_id": "S39"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate for a larger home."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn and snow",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+            "monthly": 1100,
+            "basis": "fixed",
+            "notes": "One larger van, operator estimate."
+          },
+          {
+            "item": "Liability, professional, abuse/molestation and property insurance",
+            "monthly": 950,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes. No minimum amounts found."
+          },
+          {
+            "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+            "monthly": 330,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "Annual financial statement audit / CPA examination (monthly share)",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "$18,000/year operator estimate; audit required at $350,000+ combined reimbursement [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 650,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 1,
+          "note": "Operator estimate: two residents transition at opening, then one per month."
+        }
+      },
+      {
+        "id": "nj_gh4_x3",
+        "label": "Three 4-bed group homes (12 residents, assumed $150,000 per resident per year authorized)",
+        "capacity": 12,
+        "notes": "A growth-stage agency that already has 24+ months of service history [S7]. The agency director, billing and audit costs are spread across three homes. Revenue is the same ASSUMED $150,000 per resident per year, not a published DDD rate [S27]. With 12 residents, modeled reimbursement is far above the $350,000 audit threshold [S8].",
+        "revenue_lines": [
+          {
+            "name": "DDD Individual Supports (residential), ASSUMED authorized monthly amount per resident",
+            "payer": "NJ Medicaid / DDD (CCP Individual Supports, fee-for-service)",
+            "code": "",
+            "rate": 12500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S27",
+            "notes": "ASSUMPTION, not a published rate. Within the sourced $66,424-$527,838 allotment range [S27]. Verify with DDD."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (coverage hours)",
+            "wage_hourly": 20.71,
+            "wage_source_id": "S24",
+            "basis": "hours_per_month",
+            "amount": 3000,
+            "cite": "N.J.A.C. 10:44A-2.8",
+            "notes": "3 homes x 1,000 hours/month, the same operator estimate as the single 4-bed home. No state ratio was found (see not_claimed). Wage $20.71/hr [S24]; NJ minimum $15.92 [S30]."
+          },
+          {
+            "role": "Residence supervisors (one per home)",
+            "basis": "annual_salary",
+            "amount": 156000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "3.0 FTE x $52,000 operator estimate [S3]."
+          },
+          {
+            "role": "Executive director / agency head",
+            "basis": "annual_salary",
+            "amount": 95000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "1.0 FTE x $95,000 operator estimate, no BLS wage verified. 10:44A-2.5(a) requirements are cumulative (bachelor's degree AND 5 years progressive DD management, 2 at a senior/supervisory level, AND program/fiscal knowledge) [S2]. An owner-operator lacking any one must hire a qualifying executive director."
+          },
+          {
+            "role": "Billing, records and scheduling coordinator",
+            "basis": "annual_salary",
+            "amount": 50000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "1.0 FTE x $50,000 operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, health care coordination)",
+            "wage_hourly": 50,
+            "wage_source_id": "S24",
+            "basis": "hours_per_client_month",
+            "amount": 2,
+            "cite": "",
+            "notes": "Operator estimate: $50/hr, 2 hours per resident per month."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence(s)",
+            "monthly": 9411,
+            "basis": "fixed",
+            "notes": "Three 4-bedroom houses at the Newark HMFA 4BR FMR of $3,137 each [S39]. Residential proxy only; actual group-home leases may run higher.",
+            "source_id": "S39"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$600 x 3 homes — operator estimate."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn and snow",
+            "monthly": 1050,
+            "basis": "fixed",
+            "notes": "$350 x 3 homes — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$200 x 3 homes — operator estimate."
+          },
+          {
+            "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "Operator estimate for 3 vans at $800 each."
+          },
+          {
+            "item": "Liability, professional, abuse/molestation and property insurance",
+            "monthly": 1900,
+            "basis": "fixed",
+            "notes": "Operator estimate for 3 homes — get quotes. No minimum amounts found."
+          },
+          {
+            "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+            "monthly": 750,
+            "basis": "fixed",
+            "notes": "Operator estimate for a larger workforce [S5]."
+          },
+          {
+            "item": "Annual financial statement audit / CPA examination (monthly share)",
+            "monthly": 2000,
+            "basis": "fixed",
+            "notes": "$24,000/year operator estimate; audit required at $350,000+ combined reimbursement [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The workbook staffs all three homes from month 1; opening homes one at a time and hiring as each fills needs less cash than the modeled deficit."
+        }
+      },
+      {
+        "id": "nj_gh4_x6",
+        "label": "Six 4-bed group homes (24 residents, assumed $150,000 per resident per year authorized)",
+        "capacity": 24,
+        "notes": "Scale configuration for an established agency. Adds a QA/program director. The same ASSUMED $150,000 per resident per year; margin depends entirely on actual DDD authorizations [S27]. FY26 DDD community-program gross funding is $3.81 billion and the FY27 recommendation is $4.12 billion [S46][S47], but enactment of FY27 rate changes was not verified.",
+        "revenue_lines": [
+          {
+            "name": "DDD Individual Supports (residential), ASSUMED authorized monthly amount per resident",
+            "payer": "NJ Medicaid / DDD (CCP Individual Supports, fee-for-service)",
+            "code": "",
+            "rate": 12500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S27",
+            "notes": "ASSUMPTION, not a published rate. Within the sourced $66,424-$527,838 allotment range [S27]. Verify with DDD."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (coverage hours)",
+            "wage_hourly": 20.71,
+            "wage_source_id": "S24",
+            "basis": "hours_per_month",
+            "amount": 6000,
+            "cite": "N.J.A.C. 10:44A-2.8",
+            "notes": "6 homes x 1,000 hours/month, operator estimate. Wage $20.71/hr [S24]; NJ minimum $15.92 [S30]."
+          },
+          {
+            "role": "Residence supervisors (one per home)",
+            "basis": "annual_salary",
+            "amount": 312000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "6.0 FTE x $52,000 operator estimate [S3]."
+          },
+          {
+            "role": "Executive director / agency head",
+            "basis": "annual_salary",
+            "amount": 95000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "1.0 FTE x $95,000 operator estimate, no BLS wage verified. 10:44A-2.5(a) requirements are cumulative (bachelor's degree AND 5 years progressive DD management, 2 at a senior/supervisory level, AND program/fiscal knowledge) [S2]. An owner-operator lacking any one must hire a qualifying executive director."
+          },
+          {
+            "role": "QA / program director (licensing compliance, incident management, training)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "1.0 FTE x $70,000 operator estimate. OPIA is increasing unannounced inspections beginning in 2026 [S1], and P.L.2025, c.280 strengthens DHS enforcement authority [S43]."
+          },
+          {
+            "role": "Billing, records and scheduling coordinators",
+            "basis": "annual_salary",
+            "amount": 75000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "1.5 FTE x $50,000 operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, health care coordination)",
+            "wage_hourly": 50,
+            "wage_source_id": "S24",
+            "basis": "hours_per_client_month",
+            "amount": 2,
+            "cite": "",
+            "notes": "Operator estimate: $50/hr, 2 hours per resident per month."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence(s)",
+            "monthly": 18822,
+            "basis": "fixed",
+            "notes": "Six 4-bedroom houses at the Newark HMFA 4BR FMR of $3,137 each [S39]. Residential proxy only.",
+            "source_id": "S39"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 3600,
+            "basis": "fixed",
+            "notes": "$600 x 6 homes — operator estimate."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn and snow",
+            "monthly": 2100,
+            "basis": "fixed",
+            "notes": "$350 x 6 homes — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$200 x 6 homes — operator estimate."
+          },
+          {
+            "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+            "monthly": 4800,
+            "basis": "fixed",
+            "notes": "Operator estimate for 6 vans at $800 each."
+          },
+          {
+            "item": "Liability, professional, abuse/molestation and property insurance",
+            "monthly": 3500,
+            "basis": "fixed",
+            "notes": "Operator estimate for 6 homes — get quotes."
+          },
+          {
+            "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "Annual financial statement audit / CPA examination (monthly share)",
+            "monthly": 2500,
+            "basis": "fixed",
+            "notes": "$30,000/year operator estimate; audit required at $350,000+ combined reimbursement [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 8,
+          "add_per_month": 2,
+          "note": "Operator estimate; assumes growth from an operating agency that already serves several residents."
+        }
+      },
+      {
+        "id": "nj_apt_tierA",
+        "label": "Two supervised apartments (8 residents, lower-need, revenue at the Tier A CCP allotment of $66,424/yr)",
+        "capacity": 8,
+        "notes": "Supervised apartments hold up to four individuals per apartment [S3]. Lower-support model with staff about 12 hours/day per apartment (operator estimate; no ratio found). Revenue is set at the lowest published CCP Individual Supports annual allotment, $66,424 (Tier A) [S27], treated as fully billed, which is an upper bound for that tier. This shows how a lowest-tier assumption compares with the cost structure. At this revenue the model does not cover required costs. Do not assume DDD would authorize more than the tier allows.",
+        "revenue_lines": [
+          {
+            "name": "DDD Individual Supports (residential), Tier A allotment treated as fully billed ($66,424/yr)",
+            "payer": "NJ Medicaid / DDD (CCP Individual Supports, fee-for-service)",
+            "code": "",
+            "rate": 5535.33,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S27",
+            "notes": "$66,424 per year / 12 = $5,535.33/month. Annual allotment is from a secondary guide citing DDD's FY26 Quick Guide effective 1/1/2026 [S27]; the allotment is a budget cap, not a published rate, and the DDD primary document was not retrieved. Actual billing may be lower."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (coverage hours)",
+            "wage_hourly": 20.71,
+            "wage_source_id": "S24",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 10:44A-2.8",
+            "notes": "Operator estimate: 2 apartments x about 365 hours/month (12 hours/day). Staff need not be on site when no individuals are present, but trained staff familiar with the residents must be available for emergencies [S2]. Wage $20.71/hr [S24]."
+          },
+          {
+            "role": "Residence supervisor (oversees both apartments)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "1.0 FTE x $52,000 operator estimate [S3]."
+          },
+          {
+            "role": "Executive director / agency head",
+            "basis": "annual_salary",
+            "amount": 71250,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "0.75 FTE x $95,000 operator estimate, no BLS wage verified. 10:44A-2.5(a) requirements are cumulative (bachelor's degree AND 5 years progressive DD management, 2 at a senior/supervisory level, AND program/fiscal knowledge) [S2]. An owner-operator lacking any one must hire a qualifying executive director."
+          },
+          {
+            "role": "Billing, records and scheduling coordinator",
+            "basis": "annual_salary",
+            "amount": 25000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "0.5 FTE x $50,000 operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant",
+            "wage_hourly": 50,
+            "wage_source_id": "S24",
+            "basis": "hours_per_client_month",
+            "amount": 1,
+            "cite": "",
+            "notes": "Operator estimate: $50/hr, 1 hour per resident per month."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence(s)",
+            "monthly": 5522,
+            "basis": "fixed",
+            "notes": "Two 3-bedroom apartments at the Newark HMFA 3BR FMR of $2,761 each [S39]; four residents per apartment implies shared bedrooms (operator assumption). Residential proxy only.",
+            "source_id": "S39"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn and snow",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "One shared vehicle, operator estimate."
+          },
+          {
+            "item": "Liability, professional, abuse/molestation and property insurance",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes."
+          },
+          {
+            "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "Annual financial statement audit / CPA examination (monthly share)",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "$18,000/year operator estimate. Modeled reimbursement at 8 residents x $66,424 exceeds the $350,000 audit threshold [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate: one apartment fills first."
+        }
+      },
+      {
+        "id": "nj_gh4_highneed",
+        "label": "One 4-bed group home, higher-need residents (2 staff awake 24/7, assumed $200,000 per resident per year authorized)",
+        "capacity": 4,
+        "notes": "Residents with greater support needs require more staff and are authorized higher budgets. The $200,000/resident/year revenue is an ASSUMPTION inside the sourced $66,424-$527,838 CCP allotment range [S27], not a published rate. Staffing of two staff at all hours is an operator estimate; the actual requirement depends on each resident's ISP and DDD authorization. No state ratio was found (see not_claimed).",
+        "revenue_lines": [
+          {
+            "name": "DDD Individual Supports (residential), ASSUMED authorized monthly amount per resident (higher need)",
+            "payer": "NJ Medicaid / DDD (CCP Individual Supports, fee-for-service)",
+            "code": "",
+            "rate": 16666.67,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S27",
+            "notes": "ASSUMPTION, not a published rate. $200,000/year / 12 = $16,666.67/month, an operator assumption within the sourced allotment range [S27]. Verify with DDD."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (coverage hours)",
+            "wage_hourly": 20.71,
+            "wage_source_id": "S24",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "N.J.A.C. 10:44A-2.8",
+            "notes": "Operator estimate: 2 staff x 730 hours/month (two awake 24/7). Wage $20.71/hr [S24]; NJ minimum $15.92 [S30]."
+          },
+          {
+            "role": "Residence supervisor (responsible for operating the residence)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "1.0 FTE x $52,000 operator estimate [S3]."
+          },
+          {
+            "role": "Executive director / agency head (licensee or hired)",
+            "basis": "annual_salary",
+            "amount": 47500,
+            "wage_source_id": "",
+            "cite": "N.J.A.C. 10:44A-2.5",
+            "notes": "0.5 FTE x $95,000 operator estimate, no BLS wage verified. 10:44A-2.5(a) requirements are cumulative (bachelor's degree AND 5 years progressive DD management, 2 at a senior/supervisory level, AND program/fiscal knowledge) [S2]. An owner-operator lacking any one must hire a qualifying executive director, which changes this salary line."
+          },
+          {
+            "role": "Billing, records and scheduling coordinator",
+            "basis": "annual_salary",
+            "amount": 12500,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "0.25 FTE x $50,000 operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, health care coordination)",
+            "wage_hourly": 50,
+            "wage_source_id": "S24",
+            "basis": "hours_per_client_month",
+            "amount": 4,
+            "cite": "",
+            "notes": "Operator estimate: $50/hr, 4 hours per resident per month for higher medical complexity."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence(s)",
+            "monthly": 3137,
+            "basis": "fixed",
+            "notes": "One 4-bedroom house at the Newark HMFA 4BR FMR of $3,137 [S39]. Residential proxy only.",
+            "source_id": "S39"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 650,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn and snow",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Liability, professional, abuse/molestation and property insurance",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate — higher-need residents raise insurance cost; get quotes."
+          },
+          {
+            "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "Annual financial statement audit / CPA examination (monthly share)",
+            "monthly": 1250,
+            "basis": "fixed",
+            "notes": "$15,000/year operator estimate; audit required at $350,000+ combined reimbursement [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one admission per month; higher-need placements often need longer transition planning."
+        }
+      }
+    ],
+    "default_configuration": "nj_gh4_x3",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.105,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.08,
+      "notes": "Payroll tax 10.5% = employer FICA 7.65% plus NJ UI at the 2.8% combined new-employer rate for the first three calendar years (secondary source [S34]; the official rate table was not found). The 2026 UI taxable wage base is $44,800 [S30]; the model applies 2.8% to all wages, which slightly overstates UI for the supervisor ($52,000) and executive director ($95,000), whose wages exceed the base. Not separately modeled and not verified: federal FUTA and the employer share of NJ TDI (experience-based rate). Workers' compensation 5% is an operator estimate; the NJ class code and manual rate were not found. Only the overall NJCRIB rate change (-4.3% effective 1/1/2026) is verified [S35]. Benefits 8% is an operator estimate. Compliance: DDD requires the FY26 rate increase (about $0.46/hr) to be passed through to DSP and DSP Supervisor base wages effective 1/1/2026, by 3/1/2026, including retroactive pay; it is not available as margin.",
+      "source_id": "S34"
+    },
+    "opex": [
+      {
+        "item": "Lease — residence(s)",
+        "monthly": 3137,
+        "basis": "fixed",
+        "notes": "Base case: one 4-bedroom house at the HUD FY2026 Newark HMFA 4BR FMR, $3,137 [S39]. Each configuration overrides this line for its own number and size of homes. Rent is fixed whether beds are full or not.",
+        "source_id": "S39"
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "Base: one home, operator estimate, verify locally."
+      },
+      {
+        "item": "Home maintenance, repairs, pest control, lawn and snow",
+        "monthly": 350,
+        "basis": "fixed",
+        "notes": "Base: one home, operator estimate."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Base: one home, operator estimate."
+      },
+      {
+        "item": "Agency vehicle(s) (payment or lease, auto insurance, fuel)",
+        "monthly": 900,
+        "basis": "fixed",
+        "notes": "Base: one vehicle, operator estimate."
+      },
+      {
+        "item": "Liability, professional, abuse/molestation and property insurance",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Operator estimate — get quotes. No minimum insurance amounts for DD community residences or DDD provider approval were found; OPIA reviews insurance documents at administrative inspections [S1]."
+      },
+      {
+        "item": "Staff training (DDD basic training, ECC first aid) and background checks",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate. Within 90 days of hire, 10:44A-2.7 requires DDD Shifting Expectations, preventing abuse and neglect, and ECC first aid and CPR, each with a valid certificate on file [S5]. Medication training and demonstrated competency (annual) are required before staff give any medication, and specialized training (feeding, mobility, seizures, mental health, behavior support plans) is required within 90 days, with at least one trained person on every shift (10:44A-2.8(b)). Not separately itemized in the model: fingerprinting/criminal-history checks per hire, Central Registry and Child Abuse Registry checks, pre-employment and random drug testing, driver abstracts for staff who drive, paid training hours, and turnover. Hour totals were not verified. Rerun the model after pricing these."
+      },
+      {
+        "item": "Annual financial statement audit / CPA examination (monthly share)",
+        "monthly": 1250,
+        "basis": "fixed",
+        "notes": "$15,000/year operator estimate. An annual financial statement audit (performed under GAAS, with balance sheet, income statement and cash flow statement) applies to agencies claiming $350,000 or more in combined CCP/Supports Program reimbursement [S8]. Agencies above $350,000 in annual DDD billing must also file an annual Fiscal Sustainability Report on DDD's template, due 120 calendar days after state fiscal-year end (about Oct 30), emailed to DDD.WaiverFinancialReports@dhs.nj.gov [S8]; preparation cost is not separately modeled.",
+        "source_id": "S8"
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office, postage and supplies (home or small office)",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and referral outreach (support coordination agencies, families)",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "NJ LLC annual report",
+        "monthly": 6.25,
+        "basis": "fixed",
+        "notes": "$75/year per a secondary source [S40]; the official Division of Revenue fee was not verified. NJ imposes no LLC franchise tax per a secondary source [S42].",
+        "source_id": "S40"
+      },
+      {
+        "item": "Food (board)",
+        "monthly": 350,
+        "basis": "per_client",
+        "notes": "Operator estimate per resident per month."
+      },
+      {
+        "item": "Household and personal-care supplies",
+        "monthly": 100,
+        "basis": "per_client",
+        "notes": "Operator estimate per resident per month."
+      },
+      {
+        "item": "Billing, records and EVV compliance software",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Operator estimate; get vendor quotes. NJ's contracted EVV vendor is HHAeXchange [S20], and DDD Individual Supports codes are on the EVV list [S18]. Live-in workers can be exempted by attestation [S19]. The vendor cost to providers was not verified."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "NJ LLC Certificate of Formation (one-time)",
+        "low": 100,
+        "high": 125,
+        "source_id": "S41",
+        "notes": "Secondary sources conflict: $100 [S40][S41] vs $125 in older sources. Official Division of Revenue fee not verified."
+      },
+      {
+        "item": "Medicaid provider enrollment application fee (federal, CY2026)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S15",
+        "notes": "A secondary source says the CY2026 federal fee of $750 applies to institutional providers, per service location, and is not annual [S15]. Whether it applies to DDD residential providers was not verified."
+      },
+      {
+        "item": "Independent CPA examination of finances for the two most recent fiscal years (required in the licensing application)",
+        "low": 8000,
+        "high": 20000,
+        "source_id": "S4",
+        "notes": "The application requirement is in N.J.A.C. 10:44A-1.4 [S4]; cost is an operator estimate, verify with a CPA."
+      },
+      {
+        "item": "Criminal history background checks (agency head, owners, staff)",
+        "low": 100,
+        "high": 600,
+        "source_id": "S4",
+        "notes": "The agency head and, where different, the owner or licensee need a cleared check before pay or contract [S4]. Fees are an operator estimate; fingerprinting mechanics were not verified. Not itemized: Central Registry and Child Abuse Registry checks, pre-employment drug testing, and driver abstracts for staff who transport. Physical exam and TB test records for direct service staff were required in the 2005 text; not confirmed in the current text."
+      },
+      {
+        "item": "Procedure manual, policies and job descriptions (Office of Licensing / DDD review)",
+        "low": 3000,
+        "high": 10000,
+        "source_id": "S4",
+        "notes": "Procedure manual to the Office of Licensing, then job descriptions to DDD for each table-of-organization position [S4]. Cost is an operator estimate."
+      },
+      {
+        "item": "Lease deposit and first month's rent — residence(s)",
+        "low": 6274,
+        "high": 37644,
+        "source_id": "S39",
+        "notes": "Two months' rent: one 4BR at $3,137 (smallest configuration) to six 4BR homes at $3,137 (largest). HUD FY2026 FMR basis [S39]; actual group-home leases may be higher."
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 6000,
+        "high": 36000,
+        "notes": "$6,000 per home — operator estimate."
+      },
+      {
+        "item": "Safety items and fire-code compliance (alarms, extinguishers, egress, inspections)",
+        "low": 1500,
+        "high": 9000,
+        "notes": "$1,500 per home — operator estimate. The Uniform Construction Code and fire-safety specifics under 10:44A were not verified (see not_claimed); consult DDD's Office of Housing and Resource Development before acquiring housing [S1]."
+      },
+      {
+        "item": "Home accessibility and minor modifications",
+        "low": 5000,
+        "high": 30000,
+        "notes": "$5,000 per home — operator estimate; depends on residents' needs."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 18000,
+        "notes": "$3,000 per home — operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, workers' compensation)",
+        "low": 2000,
+        "high": 10000,
+        "notes": "Operator estimate; no minimum limits were found."
+      },
+      {
+        "item": "Computers, phones, records and EVV setup",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate. NJ's EVV vendor is HHAeXchange [S20]; cost to providers not verified."
+      },
+      {
+        "item": "Pre-opening hiring and DDD basic training of direct support staff",
+        "low": 4000,
+        "high": 20000,
+        "source_id": "S5",
+        "notes": "Basic DDD training is due within 90 days of hire [S5]. Operator estimate of paid pre-opening hours."
+      },
+      {
+        "item": "Working capital for billing lag and ramp-up",
+        "low": 60000,
+        "high": 300000,
+        "category": "working_capital",
+        "notes": "Advisory reserve; replaced in totals by the modeled ramp-up deficit. Under FFS, providers bill Medicaid after services are delivered [S12], so cash is needed before the first payment. Operator estimate."
+      }
+    ],
+    "rates": {},
+    "regulators": {
+      "6": {
+        "name": "DDD Waiver Financial Reports",
+        "role": "Receives the annual Fiscal Sustainability Report (agencies over $350,000 annual DDD billing); due 120 calendar days after state fiscal-year end, about Oct 30",
+        "url": "https://www.nj.gov/humanservices/ddd/documents/news/update-webinar-2026-08-20.pdf",
+        "phone": "",
+        "email": "DDD.WaiverFinancialReports@dhs.nj.gov",
+        "source_id": "S8"
+      }
+    },
+    "contacts": {
+      "9": {
+        "name": "DDD abuse, neglect and exploitation reporting / county Community Services Office",
+        "role": "Report abuse, neglect or exploitation; general DDD issues",
+        "contact": "800-832-9173 (press 1 for abuse, neglect and exploitation reports)"
+      }
+    }
+  },
+  "sections": {
+    "executive_summary": "New Jersey licenses small residential settings for adults with developmental disabilities (DD) under **N.J.A.C. 10:44A**, administered by the NJ DHS **Office of Licensing**. The covered models are group homes, supervised apartments and supportive living [S6]. A license is needed when the setting is provider-managed [S1]. A community residence may house up to 16 individuals, and a supervised apartment up to four per apartment [S2][S3]. Operating without Office of Licensing authorization is prohibited [S4]. A different chapter, N.J.A.C. 10:44B, covers private-home models such as Family Care and Skill Development [S2]. The chapter was readopted effective February 17, 2026 and now expires February 17, 2033. DHS said further rulemaking may be needed, and no pending amendment was found [S6].\n\n**The entry barrier is experience, not a license fee.** Before applying, an agency must document at least 24 months of prior direct care service history, including survey or audit results and plans of correction [S7]. The application starts with DDD's Combined Application to Become a Medicaid/DDD Approved Provider, selecting *Individual Supports* [S4][S7]. It must include an independent CPA examination of the organization's finances for the two most recent fiscal years, professional references and corporate documents [S4]. After a completed application, DHS has 60 calendar days to approve or not approve it [S4]. A first-time operator with no service history cannot apply directly. Confirm with the DDD Provider Helpdesk how the 24 months can be shown.\n\n**Money flows fee-for-service from Medicaid through DDD.** The adult waivers are the Supports Program and the Community Care Program (CCP), authorized under the NJ FamilyCare Section 1115 demonstration. CCP is the waiver with a waiting list [S9][S10][S11][S45]. Providers bill after delivering services [S12]. **The 2026 DDD residential Individual Supports rates, procedure codes and billing units could not be found in any retrieved source.** Every revenue figure in the financial model is therefore an assumption, not a published rate. It is set within the CCP Individual Supports annual allotment range of $66,424 to $527,838 reported by a secondary guide [S27]. Replace it with your authorized amounts before relying on any result.\n\n**Demand is large but slot-limited.** DDD reported 3,665 people on the CCP Priority Waiting List in FY26 (+511 from FY25), and 28,783 individuals served in total [S43]. DDD typically reaches 200 to 400 people a year from that list [S44]. A new provider has no guaranteed referral pipeline.\n\n**Profitability is thin and depends on scale and on the unverified rate.** At the default 92% occupancy and the assumed $150,000 per resident per year, three 4-bed homes (the default) earn about **$1,765 a month (1.3% margin)**, with break-even occupancy of 90.8%. Six 4-bed homes earn about $11,432 a month (4.1%). A single 6-bed home earns about $8,694 a month (12.6%), but it leans on the same unverified rate and staffing assumptions. A single 4-bed home loses about $1,933 a month, and two lower-tier supervised apartments lose about $9,385 a month.",
+    "service_model": "**Who is served.** DDD adult services are for people age 21 and older [S10]. The CCP waiting list accepts people 18 and older who are eligible for or enrolled in Medicaid and meet DDD functional criteria [S45]. Waiver enrollment requires age 21+ and Medicaid eligibility [S10].\n\n**What a licensed community residence is.** Chapter 10:44A applies to provider-managed program models, including group homes and supervised apartments [S2]. The readoption notice also lists supportive living [S6]. OPIA says licensure is required when the setting is provider-managed, when a CCP-enrolled individual lives there, or when the individual service plan (ISP) documents a need for personal guidance [S1]. In this research, a \"community residence\" under the chapter means a home housing up to 16 individuals with developmental disabilities [S2]. Supervised apartments hold up to four individuals per apartment [S3]. A residence may not be located on the grounds of, or immediately adjacent to, public institutions serving a similar population [S2].\n\n**Models outside this bundle.** Community care residences (a private home or apartment under Family Care or Skill Development) are licensed under N.J.A.C. 10:44B, not 10:44A [S2][S3]. This report covers only the provider-managed 10:44A models.\n\n**Program structure.** DDD runs two Medicaid waiver programs, the Supports Program and the Community Care Program [S9]. Both sit under New Jersey's Section 1115 demonstration [S10]. The former Community Care Waiver stopped operating under 1915(c) authority, and the CCW moved to the 1115 Comprehensive Medicaid Waiver in November 2017 [S11]. In the model, the residential service is called *Individual Supports* because that is the service an agency must select on the combined application to run a licensed residential setting [S7].\n\n**Regulatory framework to expect.** The Office of Licensing inspects annually, may inspect without notice, and says it is increasing unannounced inspections beginning in 2026 [S1][S4]. DHS also has expanded enforcement authority over DD providers under P.L.2025, c.280, enacted January 2026 [S43]. The content of that law was not retrieved.",
+    "licensing_pathway": "**Step 0: Confirm you qualify to apply.** DDD requires at least 24 months of documented prior direct care service history, including survey or audit results and plans of correction, before the licensing application [S7]. No license is issued to a person previously denied a license by any State agency for substantial noncompliance [S4].\n\n**Step 1: Form the entity and get housing guidance.** OPIA advises: do not acquire housing before consulting DDD's Office of Housing and Resource Development [S1]. Siting limits apply [S2]. Municipal zoning and Uniform Construction Code fire-safety specifics were not researched or verified.\n\n**Step 2: Submit the Combined Application.** Licensure is initiated by completing and mailing the Combined Application to Become a Medicaid/DDD Approved Provider, with the Attestation for Individual Supports Provider [S4]. On DDD's page, agencies that want to run a licensed residence must select Individual Supports [S7]. The application includes:\n\n- an independent CPA examination of the organization's financial status for the two most recent fiscal years, with Management Letters [S4];\n- at least three professional references each for the applicant and the executive director [S4];\n- proof of authorization to do business in New Jersey and organizational and governance documents [S4].\n\nThe agency head cannot be paid or contracted until a criminal history record check clears. If the agency head is not the owner or licensee, the owner or licensee must also complete a check [S4]. The executive director qualifications in N.J.A.C. 10:44A-2.5(a) are cumulative. The licensee or executive director must have (1) a bachelor's degree, (2) five years of progressive management experience working with people with DD, at least two of them supervisory at a senior or administrative level, and (3) knowledge of program design, staff development and fiscal standards. The application must demonstrate compliance (10:44A-1.4(c)(1)(iv)) [S2]. An owner lacking any one must hire a qualifying executive director. Whether a waiver or variance is available was not checked.\n\n**Step 3: Meet the application clock.** If all required elements are not received within **45 days** of the initial submission, the application may be denied, and the applicant is barred from reapplying for six months [S4]. DHS must give written approval or non-approval within **60 calendar days** of receiving the completed application. It can extend that period only in exceptional circumstances [S4].\n\n**Step 4: Pre-opening submissions.** The applicant submits a procedure manual to the Office of Licensing for approval. It then submits job descriptions for each table-of-organization position to DDD for review and approval [S4].\n\n**Step 5: Medicaid and DDD enrollment.** An agency must be a Medicaid-approved provider before it can submit claims for DDD services [S13]. The same Combined Application is used to become both a Medicaid and a DDD approved provider [S13]. Since January 1, 2023, NJ Medicaid claims deny for providers not registered with Medicaid or without a Medicaid ID [S14]. The CY2026 federal enrollment application fee is $750 per a consultant source that limits it to institutional providers. It is per service location and not annual, and whether it applies to DDD residential providers was not verified [S15].\n\n**Step 6: License term and inspections.** A full license is effective for up to one year [S2]. Every residence is subject to an annual on-site inspection and to DHS inspection without limitation or notice [S4]. Inspections review staff files, schedules, credentials and background checks [S1]. Partial compliance can produce a provisional license, and two consecutive provisional licenses may result in non-renewal [S1]. Administrative reviews also look at insurance documents [S1].\n\n**What could not be verified.** No Office of Licensing application, license, renewal or inspection fee was found in the 10:44A-1.4 text reviewed, so none is claimed. The timeline from a complete application to first admission beyond the 60-day decision window, renewal timelines, and the current Office of Licensing phone and mailing address were not verified. Whether the 2022 proposal for a combined license application (PRN 2022-083) was adopted was not verified, although the rule text on Cornell LII refers to the combined application [S4]. The text reviewed is the 2023 chapter version. The 2026 readoption notice was reviewed, but the readopted text itself was not [S6].",
+    "reimbursement": "**How money flows.** DDD has substantially shifted its service delivery system to fee-for-service [S11]. Providers bill Medicaid for specific services delivered to each individual after the service is provided, rather than receiving monthly contract allotments [S12]. An agency must be Medicaid-approved before it can submit claims [S13]. Plan for a billing lag and keep cash reserves for it.\n\n**Two waivers, one real pipeline.** The Supports Program has no waiting list, but CCP does [S45]. The CCP Individual Supports allotment is much larger because it is for residential-level care. A secondary guide citing DDD's FY26 Quick Guide reports annual budgets of $28,635 (Tier A) to $113,205 (Tier Ea) for the Supports Program, and CCP Individual Supports allotments of **$66,424 (Tier A) to $527,838 (Tier Ea)**, effective January 1, 2026 [S27]. The DDD primary document was not retrieved. These allotments are budget caps, not rates and not payment guarantees.\n\n**The rate gap.** DDD has published FY26 fee-for-service rates effective January 1, 2026, in a Quick Guide with procedure codes and FY25 and FY26 rate columns. Individual Supports uses H2016HI-series daily tier codes. The Individual Supports rows could not be read in the retrieved material, so the rate amounts, tier codes and billing units used for residential revenue are not verified, and every revenue figure in the model is an assumption. The only DDD schedule retrieved in full is a May 2015 cost-study schedule. It lists Support Coordination at $239.81 per member per month. That figure is stale, superseded by the 7/2023 and 7/2024 rate changes, and not used [S22]. Its Community Based Supports line ($28.03, no confirmed unit) and old Individual Supports daily tier rates are also not used.\n\n**Recent rate and budget movement (context, not a price).**\n\n- Effective January 1, 2026, DDD raised rates for nine agency-provided services, as set out in its 12/30/2025 Information Bulletin and Quick Guide. The increase funds a DSP and DSP Supervisor wage increase of about $0.46 per hour, supported by a $9.1M state allocation. Agencies must pass it through as a base-wage increase (not a bonus or operating expense) no later than March 1, 2026, including retroactive pay. It is not margin.\n- A separate nine-service rate increase tied to new DSP training requirements took effect October 1, 2024 [S23].\n- DDD projects the average NJ DSP wage at about $20.71 per hour ($20.25 NCI 2024 average plus about $0.46); DDD also cites about $21 per hour for 2026 [S24].\n- A July 2022 FY23 appropriation raised Individual Supports (Residential) rates by about 1% overall ($7.5M state funds) [S28]. This is historical only.\n- The FY26 State Budget added about $164 million to DDD's budget [S25]. DDD community programs' gross funding was $3.81 billion in FY26, per the Governor's recommendation [S46]. The FY27 recommendation is $4.12 billion, including an additional $154.0 million in State funds for CCP and the Supports Program [S47][S48]. Whether the FY27 budget, DSP and supervisor rate increases, and the proposed removal of 318 people from the CCP waiting list were enacted was not verified [S26][S43].\n\n**Room and board and resident income.** How room and board or a client contribution works in DDD residences was not found in any retrieved DDD or SSA source. The 2026 SSI federal benefit rate for an individual is $994 per month (secondary source; the SSA primary page was not fetched) [S17]. The financial model therefore includes no room-and-board revenue, which understates revenue.\n\n**Other billing requirements.**\n\n- **EVV:** DDD Individual Supports and In-Home Respite codes are on NJ's EVV list (for example H2016HI, H2016HI22 and H2016HIU88 for Individual Supports). Community Based Supports at 15 minutes (H2021HI22) are also covered [S18][S19]. NJ's contracted vendor is HHAeXchange [S20]. EVV went live January 1, 2021 [S21]. CMS allows exclusion when the caregiver lives with the person receiving care, with a Live-In Worker Attestation [S19]. Whether and how EVV applies to a given group home billing pattern should be confirmed with DDD.\n- **Audit and fiscal reporting:** Agencies claiming $350,000 or more in combined CCP and Supports Program reimbursement must meet an annual financial statement audit requirement, performed under GAAS [S8]. Agencies with more than $350,000 in annual DDD billing must also file an annual Fiscal Sustainability Report on DDD's template, due 120 calendar days after the state fiscal year ends (about October 30), emailed to DDD.WaiverFinancialReports@dhs.nj.gov [S8].\n- **Managed care:** DDD sources describe fee-for-service, but no managed-care carve-out text was retrieved.\n\n**Private pay is not the model.** DD residences are funded through DDD. For benchmarking only, CareScout's 2025 survey puts the NJ median assisted living community at $101,550 per year (about $8,462 per month) [S29]. That measures private-pay assisted living, not DD residential services.",
+    "demand": "**Waiting list and served population.** DDD's June 2026 update reports the CCP Priority Waiting List at **3,665 people in FY26, up 511 from FY25**. FY18 was 2,592. Total individuals served by DDD were 28,783 in FY26, up 1,586 [S43]. DDD attributes the rise to an influx of individuals entering DDD services and more applications. It says many people were added retroactively, so ranks moved little [S43]. The 2026 ranking letters were mailed on June 24, 2026 [S43]. A March 2026 advocacy report of a DHS briefing said more than 30,000 adults are served [S26]. This differs from the DDD budget table figure, and this report uses the DDD figure.\n\n**Throughput is limited by budget.** DDD says it typically reaches between 200 and 400 people a year from the Priority Waiting List (FY22: 200; FY23: 400) [S44]. The same 2024 presentation counted 4,394 people on the full CCP waiting list (2,580 priority and 1,814 general) [S44]. A current general-list figure was not found. The FY27 budget as proposed funds removal of 318 people from the priority list, but enactment was not verified [S43]. The administration said it is working toward addressing the CCP waitlist in the coming year [S26].\n\n**What the list does and does not mean.** DDD works through the list chronologically and checks eligibility when a person is reached. Being listed does not guarantee eligibility or enrollment [S45]. For a provider, the list shows unmet need. It does not guarantee admissions, and a provider has no guaranteed referral pipeline. The referral-source breakdown (support coordination agencies, families, hospitals, schools) and any residential-specific waitlist count were not found.\n\n**Supply context.** The Office of Licensing reports 2,300 licensed homes with a combined capacity to serve over 9,600 individuals [S16]. The page is undated, and whether the figure includes traumatic brain injury (TBI) residences was not verified. The licensed agency list is dated October 28, 2025 [S49]. Occupancy and vacancy rates for licensed residences were not found. The model's 92% occupancy is an operator estimate.",
+    "operations": "**Staffing rules that were verified.**\n\n- Direct support professionals must be at least 18 years old with a high school diploma or equivalent [S3].\n- The residence supervisor needs a high school diploma or equivalent and one year of experience working with people with DD [S3].\n- The licensee or executive director must meet cumulative requirements under N.J.A.C. 10:44A-2.5(a): a bachelor's degree, five years of progressive management experience working with people with DD (at least two supervisory at a senior or administrative level), and knowledge of program design, staff development and fiscal standards [S2]. An owner lacking any one must hire a qualifying executive director.\n- Each residence must keep a written staff schedule covering at least two weeks, with the in-charge employee designated for each shift [S2].\n- Staff need not be on site when no individuals are present, but trained staff familiar with residents must be available for emergencies [S2].\n- Each specialized training must be completed by at least one person on every shift (10:44A-2.8(b)). Build this into the schedule.\n\n**What was not found.** No awake-overnight or per-shift staffing ratio for 10:44A residences was found. The awake/asleep ratio located is in 10:44C (head injury) and does not apply. No initial or annual training hour totals were found. Staffing in the model is therefore an operator estimate sized to resident need, not a rule-derived number. Verify against the current rule text and each resident's ISP.\n\n**Wage pass-through (mandatory).** DDD requires agencies to pass the FY26 rate increase through to DSPs and DSP Supervisors as a base-wage increase of about $0.46 per hour, effective January 1, 2026, no later than March 1, 2026, including retroactive pay. It cannot be paid as a bonus or used for operating expenses. Make sure DSP and supervisor wages reflect it, and do not count it as margin.\n\n**Training.** Within 90 days of employment each DSP must complete DDD Shifting Expectations, preventing abuse and neglect, and ECC first aid and CPR, each with a valid certificate on file [S5]. Medication training and demonstrated competency are required before staff give any medication, and the competency check is annual. Specialized training (feeding, mobility, seizures, mental health, behavior support plans) is required within 90 days (10:44A-2.7, 2.8).\n\n**Background checks and screening.** The agency head, and the owner or licensee when different, must clear a criminal history check [S4]. DDD-approved providers must also run staff criminal history checks before hire, Central Registry of Offenders and Child Abuse Registry checks, pre-employment and random controlled-substance testing, and driver abstract checks for staff who transport. Inspectors review staff files, schedules, credentials and background checks [S1]. These screening costs are not itemized in the model. Fingerprinting mechanics and timelines were not verified.\n\n**Required systems and costs the model includes.**\n\n- **Billing, records and EVV.** Providers must hold a Medicaid ID to be paid [S14]. The model carries a per-resident software line as an operator estimate. NJ's EVV vendor is HHAeXchange, and DDD's EVV helpdesk is DDDEVV@dhs.nj.gov (email unverified) [S20].\n- **Annual audit and Fiscal Sustainability Report.** The model includes a CPA audit line because modeled reimbursement exceeds $350,000 [S8]. The audit must follow GAAS. The Fiscal Sustainability Report is also due 120 days after the state fiscal year ends (about October 30) [S8].\n- **Nurse consultant.** A nurse requirement was not verified in the 10:44A text reviewed. The model includes a registered nurse consultant as a prudent cost for residents with health needs.\n- **Insurance.** No minimum liability, professional, abuse/molestation, auto or property insurance amounts were found. OPIA reviews insurance documents at administrative inspections [S1]. Premiums are operator estimates.\n- **Housing and vehicle.** Housing must be cleared with DDD's housing office before acquisition [S1]. Vehicle costs are operator estimates.\n\n**Compliance posture.** OPIA is increasing the frequency of unannounced inspections beginning in 2026 [S1]. Two consecutive provisional licenses may lead to non-renewal [S1]. Keep staff files, schedules and training certificates current at every residence at all times.",
+    "market_conditions": "**Supply and competition.** About 2,300 licensed homes with capacity for over 9,600 individuals are reported, and nearly 80% of licensed provider agencies are non-profits [S16]. For-profit operators are a minority of agencies. Market shares, named competitors and the current count of DDD-approved residential providers were not found. A licensed agency list dated October 28, 2025 is published, and it does not represent that all of an agency's residential programs are licensed [S49].\n\n**Wages.**\n\n- DDD projects the NJ average DSP wage at about **$20.71 per hour** ($20.25 NCI 2024 average plus the about $0.46 per hour DSP and DSP Supervisor wage increase effective January 1, 2026); DDD also cites about $21 per hour for 2026 [S24]. The increase is funded by a $9.1M state allocation and must be passed through as a base-wage increase. The model uses $20.71 for DSPs.\n- The statewide minimum wage is **$15.92 per hour** effective January 1, 2026 [S30]. A secondary source gives $16.48 on January 1, 2027 [S31]. A lower $15.23 rate for employers with fewer than six employees is secondary only [S32].\n- A secondary source lists $18.92 per hour for direct care staff at long-term care facilities. Whether it applies to DD community residences is unconfirmed [S33]. The modeled $20.71 is above it.\n- A secondary O*NET display of BLS May 2025 data puts the NJ home health and personal care aide median at $37,090 a year (about $17.83 per hour), with a 10th to 90th percentile of $32,220 to $48,180 [S37]. The national median for the occupation is $35,800 [S36].\n- DDD's January 2026 update cites an NJ registered nurse mean of $51.44 per hour (May 2024 OEWS) [S24]. No NJ city sets its own minimum wage, per a secondary source [S33]. For metro context, the all-occupation mean hourly wage in the New York-Newark-Jersey City area was $41.50 in May 2025 [S38]. NJ BLS wages for supervisors, managers and billing staff were not verified, so those lines are operator estimates.\n\n**Payroll costs.** The 2026 UI taxable wage base is $44,800, and the TDI/FLI wage base (workers only) is $171,100 [S30]. A secondary source puts the new-employer UI rate at 2.8% combined for the first three calendar years [S34]. FUTA and the employer TDI share are not modeled. The overall NJCRIB workers' compensation rate change effective January 1, 2026 is a 4.3% decrease [S35]. The class code and manual rate for residential care were not found.\n\n**Housing.** HUD FY2026 fair market rents (40th percentile, residential proxies only) show how much the region matters for a four-bedroom home:\n\n| Area | 3BR | 4BR |\n|---|---|---|\n| Newark HMFA (Essex/Union/Morris/Sussex) | $2,761 | $3,137 |\n| Bergen-Passaic HMFA | $2,835 | $3,618 |\n| Jersey City HMFA (Hudson) | $3,367 | $3,955 |\n\nThese come from the HUD table hosted by NJ Treasury [S39]. Actual group-home leases may run higher, and FY2027 FMRs were not verified.\n\n**Funding trend.** DDD community program funding is growing (FY26 $3.81 billion, FY27 recommended $4.12 billion) [S46][S47]. The FY26 State Budget added about $164 million to DDD [S25]. Recent rate increases have been tied to DSP wages (1/1/2026) and training requirements (10/1/2024) [S23][S24].\n\n**Entity costs.** Secondary sources give a $100 LLC Certificate of Formation fee (older sources say $125) and a $75 annual report fee. NJ does not impose an LLC franchise tax, per a secondary source. None of these was verified on the official Division of Revenue site [S40][S41][S42].",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident is *rate x units x share of residents*. Costs are DSP coverage hours at $20.71 per hour [S24], salaried supervisors, executive director, billing coordinator, an RN consultant, and a payroll burden of 23.5%. That burden is 10.5% payroll tax (employer FICA plus the 2.8% new-employer UI rate [S34]), 5% workers' compensation (operator estimate) and 8% benefits (operator estimate). Rent, utilities, vehicles, insurance, the annual audit, training and software are fixed or per-resident lines. Rent is fixed whether beds are full or not.\n\n**The critical caveat.** The revenue per resident is an assumption. **No published 2026 DDD residential Individual Supports rate was found.** The model uses $12,500 per month ($150,000 a year) in most homes, $16,667 a month ($200,000 a year) for the higher-need home, and the Tier A allotment of $66,424 a year for the apartments. All are placed within or at the bottom of the secondary-source CCP allotment range of $66,424 to $527,838 [S27]. Allotments are caps, not payment guarantees. Resident room-and-board contributions are excluded because the rules were not verified.\n\n**Results at the default occupancy (92%, an operator estimate).**\n\n| Configuration | Net per month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| Six 4-bed homes (24 residents, $150k) | $11,432 | 4.1% | 88.0% | 9 | $893,708 |\n| One 6-bed home ($150k) | $8,694 | 12.6% | 79.8% | 5 | $131,148 |\n| **Three 4-bed homes (12 residents, $150k) — default** | **$1,765** | **1.3%** | **90.8%** | **5** | **$315,640** |\n| One 4-bed higher-need home (2 staff 24/7, $200k) | $880 | 1.4% | 90.6% | 4 | $126,072 |\n| One 4-bed home ($150k) | -$1,933 | -4.2% | 96.1% | none | $175,991 |\n| Two supervised apartments (8 residents, Tier A $66,424) | -$9,385 | -23.0% | 115.7% | none | $437,986 |\n\nFour configurations are profitable at 92%, but two of them barely so. The single 4-bed home needs about 96% occupancy just to break even, which is at the optimistic bound. The apartment model cannot cover required costs at the lowest tier because break-even occupancy exceeds 100%. Do not assume DDD would authorize more than the tier allows.\n\n**Why scale and bed count matter.** At the default 3-home configuration, modeled revenue at 92% occupancy is about $138,000 a month. Payroll (with burden) is about $109,000, roughly 79% of revenue by my arithmetic. The executive director, billing, audit, accounting and insurance costs are largely fixed. The 6-bed home does best because the same supervisor, director and audit are spread over six residents instead of four. That result depends on the assumption that a 6-bed home earns the same per-resident revenue and needs only about 1,350 DSP hours a month. No state staffing ratio was found, so verify against residents' ISPs and DDD authorizations. The 16-individual cap per residence leaves room to grow [S2], but siting and zoning were not researched.\n\n**Sensitivities (arithmetic from the model).**\n\n- **Rate:** At the default, a 1% change in revenue per resident is about $1,380 a month. The default breaks even at roughly $12,340 a month per resident (about $148,100 a year), only about 1.3% below the assumption. The 6-bed home breaks even near $10,900 a month (about $131,000 a year). A 5% rate shortfall on six homes costs about $13,800 a month and turns $11,432 into about -$2,370.\n- **Occupancy:** In the default, each occupancy point is worth about $1,500 of revenue a month, so the conservative 88% case loses roughly $5,000 to $6,000 a month (linear approximation).\n- **DSP wage:** Each $1.00 per hour increase on 3,000 DSP hours costs about $3,700 a month with burden. That is enough to turn the default from +$1,765 to about -$1,940. The same $1.00 costs about $7,400 on six homes (they remain positive at about $4,000) and about $1,670 on the 6-bed home. The statewide minimum rises to $16.48 in 2027 per a secondary source [S31]. The modeled $20.71 is already above the unconfirmed $18.92 long-term care rate [S33]. If a different DSP wage is needed to hire, recompute.\n- **Rent:** Rent uses the Newark HMFA 4BR FMR of $3,137 per home [S39]. In the Jersey City area ($3,955) the cost rises by $818 per home. That is about $2,450 a month for three homes, which turns the default to about -$690. The same move on six homes still leaves them near $6,500. Bergen-Passaic ($3,618) adds about $480 per home.\n- **Staffing intensity:** The higher-need home needs 2 staff 24/7 and a higher authorization. It earns only $880 a month at an assumed $200,000 a year per resident. Higher-need residents do not automatically mean higher profit.\n\n**Timing and cash.** First-profit months are 4 to 9 depending on the configuration, and under FFS payment follows delivery [S12]. The cash needed figures include startup and the modeled ramp-up deficit. Larger agencies need far more cash. The six-home configuration needs about $894,000, and the workbook staffs all homes from month 1. Opening homes one at a time reduces the peak. Startup also includes an independent CPA examination (operator estimate $8,000 to $20,000) [S4].\n\n**Path to profit, honestly.** Profit requires (1) confirming the real DDD authorized rate per resident, (2) admitting residents faster than DDD's limited waiting-list throughput may allow, (3) avoiding the single 4-bed model, and (4) keeping DSP and rent costs from rising. Do not raise assumed revenue or drop required costs to make a plan profit.",
+    "risks": "**Rate risk (largest).** The 2026 DDD residential rate could not be read in the retrieved material, so revenue is assumed. A small percentage shortfall erases the default margin (about 1.3% at the default configuration). Allotments are caps, and actual authorizations may be lower [S27]. Rate changes can also add wage or training mandates without extra margin, as with the 1/1/2026 DSP and Supervisor wage pass-through that must be paid as base wages [S24] and the 10/1/2024 training-related rate change [S23].\n\n**Eligibility and entry risk.** A 24-month service history is required before applying [S7]. The executive director qualifications are cumulative, and an owner who lacks any one must hire a qualifying director. The application can be denied if elements are missing after 45 days, with a six-month bar on reapplying [S4]. A prior denial elsewhere for substantial noncompliance bars issuance [S4].\n\n**Referral and occupancy risk.** DDD reaches about 200 to 400 people a year from the Priority Waiting List [S44]. A person on the list is not guaranteed enrollment [S45]. Occupancy data is not available. If admissions run slower than one a month, each month adds fixed cost.\n\n**Regulatory and enforcement risk.** Annual and unannounced inspections are increasing [S1]. Two consecutive provisional licenses may result in non-renewal [S1]. P.L.2025, c.280 strengthens DHS enforcement, and its content was not reviewed [S43]. N.J.A.C. 10:44A was readopted in 2026, and DHS says further rulemaking may be necessary [S6]. The 2023 rule text may not match current standards.\n\n**Unverified requirements and unmodeled costs.** No staffing ratio, training hour totals, insurance minimums or licensing fees were found. Drug testing, registry checks, driver abstracts, fingerprinting, CPR and medication training, FUTA, employer TDI and the Fiscal Sustainability Report are not itemized in the model. Municipal zoning and Uniform Construction Code fire-safety specifics were not researched. Any of these could add cost or delay opening.\n\n**Workforce risk.** DSP wages are the largest cost. A $1.00 per hour increase on three homes costs about $3,700 a month. The minimum wage rises to $16.48 in 2027 per a secondary source [S31]. The metro wage environment is high [S38].\n\n**Cash and billing risk.** Providers bill after service delivery [S12]. Claims deny without a Medicaid ID [S14]. EVV compliance applies to Individual Supports codes [S18], and EVV exceptions delay payment. An audit is required above $350,000 in reimbursement [S8].\n\n**Funding and budget risk.** FY27 increases (+$154M, rate increases, 318-person list removal) are proposals only [S26][S43][S47]. State policy could change.\n\n**Housing risk.** Rent estimates use HUD FMR proxies [S39]. Real group-home leases may be higher. Rent is fixed even when beds are empty. Siting restrictions apply [S2].",
+    "recommendations": "1. **Verify the rate first.** DDD has published FY26 rates (Quick Guide, effective 1/1/2026). Read the Individual Supports (H2016HI-series) tier rows, and email the DDD Provider Helpdesk (DDD.ProviderHelpdesk@dhs.nj.gov, email unverified [S7]) and DDD Fee-for-Service (DDD.FeeForService@dhs.nj.gov [S43]) to confirm procedure codes, billing units and your authorized tier. DDD's phone line is 800-832-9173. Replace the assumed $12,500 per resident per month in the workbook before committing capital.\n\n2. **Confirm you meet the 24-month rule.** Document 24 months of direct care service history, with survey or audit results and plans of correction [S7]. If you do not have it, ask DDD how it can be demonstrated before you spend on housing.\n\n3. **Avoid the single 4-bed and low-tier apartment models.** At the assumed rates they lose $1,933 and $9,385 a month. If you start small, a 6-bed home (up to the 16-person cap [S2]) fits the model better, subject to staffing, siting and zoning confirmation. A single 6-bed home earns about $8,694 a month at the assumed rate, with the lowest cash need of the profitable cases ($131,148). These figures predate pricing of the unmodeled compliance costs and should be rerun.\n\n4. **Grow in steps.** The default three 4-bed homes show only a 1.3% margin and 90.8% break-even occupancy, so treat them as a transition stage. Six 4-bed homes reach about 4.1% margin but need about $894,000 of cash. Open homes one at a time and hire staff as each fills.\n\n5. **Negotiate lease cost carefully.** Compare Newark, Bergen-Passaic and Jersey City rent levels [S39] before choosing a location, because a $818 per home increase wipes out the default margin. Consult DDD's Office of Housing and Resource Development before acquiring any property [S1].\n\n6. **Protect staffing cost.** Test your staffing plan against each resident's ISP and DDD authorization, since no state ratio was found. Recompute at the actual DSP wage you need to hire, and pass the FY26 $0.46/hr increase through as a base-wage increase by 3/1/2026. The owner can fill the executive director role only if the owner meets all the cumulative 10:44A-2.5(a) requirements (bachelor's degree, five years of progressive DD management experience with two at a senior or supervisory level, and program and fiscal knowledge) [S2]. Otherwise budget for a qualifying hire.\n\n7. **Prepare the application package early.** Engage a CPA for the two-year examination [S4]. Complete background checks for the agency head and owners [S4]. Draft the procedure manual and job descriptions [S4]. Respond to any missing items within 45 days [S4].\n\n8. **Set up Medicaid and EVV before the first claim.** Complete the Combined Application and obtain the Medicaid ID [S13][S14]. Set up EVV with HHAeXchange and confirm with DDD how the live-in attestation applies [S19][S20].\n\n9. **Price in compliance.** Budget for the annual audit (GAAS) and the Fiscal Sustainability Report due about October 30 [S8]. Also budget for insurance quotes, drug testing, registry and driver abstract checks, CPR and medication training, and inspection readiness for annual and unannounced visits [S1]. Keep staff files, schedules and training certificates current.\n\n10. **Track the open items.** Watch whether the FY27 budget, rate increases and CCP waiting-list removals were enacted [S43][S47], any amendments to 10:44A [S6], and the content of P.L.2025, c.280 [S43]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "CRITICAL",
+      "task": "Confirm your model needs an Office of Licensing license under N.J.A.C. 10:44A",
+      "instructions": "The Office of Licensing says licensure is required when the setting is provider-managed. Group homes and supervised apartments that are provider-managed are covered. Read the OPIA licensing page and 10:44A-1.1 and decide which of your planned residences are provider-managed. No cost. Allow 1-2 days.",
+      "cite": "N.J.A.C. 10:44A-1.1",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "CRITICAL",
+      "task": "Rule out the owner-occupied alternative (N.J.A.C. 10:44B)",
+      "instructions": "Community care residences, meaning Family Care or Skill Development in a private home or apartment, are licensed under 10:44B, not 10:44A. If you plan a shared home where the individual lives with the caregiver, you are on a different pathway. This bundle covers 10:44A provider-managed homes only.",
+      "cite": "N.J.A.C. 10:44A-1.1; 10:44B",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "CRITICAL",
+      "task": "Verify you have 24 months of prior direct care service history",
+      "instructions": "Before the licensing application, DDD requires documented direct care service history of at least 24 months, including survey or audit results and plans of correction. If you do not have this history, you cannot start the pathway. Options are to build the history first, or to partner with or hire an established agency. Gather survey reports and plans of correction now. Time depends on your history.",
+      "cite": "DDD Apply to Become a Provider",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "CRITICAL",
+      "task": "Check the prior-denial bar for every owner and applicant",
+      "instructions": "No license is issued to a person previously denied a license by any State agency for substantial noncompliance or federal law violations. Review the history of all owners, officers and the executive director before spending money on the application.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "HIGH",
+      "task": "Obtain the current text of N.J.A.C. 10:44A after the 2026 readoption",
+      "instructions": "10:44A was readopted effective February 17, 2026, with a new expiration of February 17, 2033. DHS stated further rulemaking may be necessary. The rule text available to this report is a Feb 2024 snapshot, so confirm with the Office of Licensing that nothing in the readopted text differs. Also check the NJ Register for any proposed amendments. No cost. Allow 1 day.",
+      "cite": "58 N.J.R. 1193(b)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "HIGH",
+      "task": "Understand the enforcement environment before you commit",
+      "instructions": "The Office of Licensing is increasing unannounced inspections beginning in 2026. P.L.2025, c.280 (January 2026) enhances DHS enforcement authority over DD providers. The statute was not reviewed for this report, so read it with counsel, particularly the penalty provisions.",
+      "cite": "P.L.2025, c.280",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "HIGH",
+      "task": "Understand how DD residential funding works before modeling",
+      "instructions": "DDD runs two Medicaid waiver programs, the Supports Program and the Community Care Program (CCP), under NJ's Section 1115 demonstration. Residential-level Individual Supports are funded mainly through CCP. Providers bill Medicaid fee-for-service after delivering each service. Individuals must be 21+ and Medicaid-eligible. Your revenue depends on individuals who have CCP enrollment and choose your home.",
+      "cite": "DDD Supports Program and Community Care; Transition Plan Addendum #3",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "HIGH",
+      "task": "Confirm the current 2026 Individual Supports residential rate and unit directly with DDD",
+      "instructions": "No 2026 residential Individual Supports rate, procedure code or billing unit was found in any retrieved source. Rates for nine agency-provided services rose 1/1/2026. Email DDD.FeeForService@dhs.nj.gov for the current rate schedule and use only confirmed numbers in your pro forma. The Pro Forma uses an assumed authorized amount per resident, not a published rate.",
+      "cite": "DDD FFS Rate Schedule; iRecord Rate Change 1/1/2026",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "MEDIUM",
+      "task": "Review demand context and referral realities",
+      "instructions": "3,665 people were on the CCP Priority Waiting List in FY26 (+511 vs FY25). DDD typically reaches 200-400 people a year from it. Being listed is not a guarantee of eligibility or enrollment, and DDD works through the list chronologically. A new provider has no guaranteed referral pipeline, so plan outreach to support coordination agencies and families.",
+      "cite": "DDD Division Update 6/25/2026; DDD Waiting List page",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & ELIGIBILITY",
+      "priority": "MEDIUM",
+      "task": "Email the DDD Provider Helpdesk with your pathway questions",
+      "instructions": "Contact DDD.ProviderHelpdesk@dhs.nj.gov with questions on licensed residential setting approval, the Combined Application, and Individual Supports. DDD designates this address for those questions. Keep every reply in your compliance file.",
+      "cite": "DDD Apply to Become a Provider",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form your legal entity (typically a New Jersey LLC or nonprofit corporation)",
+      "instructions": "File a Certificate of Formation with the NJ Division of Revenue and Enterprise Services. Secondary sources conflict on the fee ($100 vs $125), so confirm the current fee on the official site before filing. NJ imposes no LLC franchise tax per a secondary source. Nearly 80% of NJ licensed provider agencies are non-profits; weigh nonprofit status with counsel. Allow 1-2 weeks.",
+      "cite": "N.J.S.A. Title 42 (LLC filing); fee not verified",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain proof of authorization to do business in New Jersey",
+      "instructions": "The licensing application requires proof of New Jersey authorization to do business. Get your formation certificate and any state registration documents certified or copied as the application requires. Confirm the exact documents with the Office of Licensing.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov. It is issued immediately online. You need it for payroll, banking and the Medicaid application.",
+      "cite": "IRC §6109",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the NJ LLC annual report",
+      "instructions": "A secondary source states the annual report fee is $75, due the last day of the formation anniversary month. The official fee was not verified. Add the date to your compliance calendar.",
+      "cite": "NJ Division of Revenue annual report (fee not verified)",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Decide the tax classification and note partnership filing fees if multi-owner",
+      "instructions": "An LLC taxed as a partnership with more than two owners and NJ income may owe a $150 per-owner filing fee per one secondary source, which is unverified. Confirm with a CPA before choosing the structure.",
+      "cite": "NJ partnership filing fee (secondary, unverified)",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Set up governance documents and name the executive director",
+      "instructions": "The application requires organizational and governance detail for the applicant. Prepare an operating agreement or bylaws, ownership and officer list, and identify the executive director/agency head. The Office of Licensing lists this information in 10:44A-1.4, so match your documents to the current list.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Open a dedicated business bank account",
+      "instructions": "Keep Medicaid receipts, payroll and any resident funds separate from personal funds. Bring the formation documents and EIN letter. Allow 1-3 days.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Retain a healthcare attorney with DDD licensing experience",
+      "instructions": "Use the attorney for entity choice, lease review, the procedure manual and P.L.2025, c.280 exposure. The pro forma carries accounting, payroll and legal as an operator estimate of $600/month for one home.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL READINESS & AUDIT",
+      "priority": "CRITICAL",
+      "task": "Engage a CPA for the independent examination of finances required in the application",
+      "instructions": "The application must include an independent examination of the organization's financial status, obtained from a CPA, for the two most recent fiscal years, with Management Letters. Engage the CPA early because this is a long-lead item. The pro forma carries $8,000-$20,000 as an operator estimate. Get a quote.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL READINESS & AUDIT",
+      "priority": "HIGH",
+      "task": "Plan for the annual financial statement audit",
+      "instructions": "Provider agencies that claim $350,000 or more in combined CCP and Supports Program reimbursement must meet an annual financial statement audit requirement. Even a 4-bed home at modeled revenue exceeds this. The pro forma carries $15,000-$30,000 a year as an operator estimate depending on size. Confirm the current requirement with DDD.",
+      "cite": "DDD Division Update 8/20/2026",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL READINESS & AUDIT",
+      "priority": "HIGH",
+      "task": "Build the working capital reserve before opening",
+      "instructions": "Under fee-for-service you bill after service delivery, so payroll and rent come first. The modeled cash needed ranges from about $126,000 (one higher-need 4-bed home) to about $894,000 (six homes). Treat these figures as a planning guide because revenue is assumed.",
+      "cite": "Pro forma ramp-up deficit",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL READINESS & AUDIT",
+      "priority": "HIGH",
+      "task": "Stress-test the pro forma against your actual DDD authorizations",
+      "instructions": "The default configuration uses an assumed $150,000 per resident per year, not a published rate. The single 4-bed home loses money at that level and the Tier A apartment model loses money. Replace assumptions with the amounts DDD authorizes before committing to leases.",
+      "cite": "CCP allotment range $66,424-$527,838 (secondary)",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL READINESS & AUDIT",
+      "priority": "MEDIUM",
+      "task": "Track the FY27 DDD budget and rate changes",
+      "instructions": "The FY27 recommendation shows $4.12 billion in gross community funding and an additional $154.0 million in state funds for CCP and the Supports Program. Enactment of rate increases was not verified. Check the DDD webinar updates for final numbers.",
+      "cite": "OLS Analysis FY2027 DHS",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Complete the Combined Application to Become a Medicaid/DDD Approved Provider",
+      "instructions": "Licensure is initiated by completing and mailing the Combined Application, plus the Attestation for Individual Supports Provider. Applications go through the DDD Provider Portal per DDD's FAQ. Confirm the current submission method with the DDD helpdesk. No application fee was found in the sources reviewed.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Select Individual Supports as the service on the Combined Application",
+      "instructions": "Agencies that want to operate a licensed residential setting must submit the Combined Application and select Individual Supports. Selecting the wrong service will delay you. Verify the selection with the DDD Provider Helpdesk.",
+      "cite": "DDD Apply to Become a Provider",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Understand that Medicaid approval is required before any claim",
+      "instructions": "An agency must be a Medicaid-approved provider to submit claims for DDD services. NJ Medicaid denies claims from providers without Medicaid registration or a Medicaid ID. Do not admit residents expecting billing until your Medicaid ID is active.",
+      "cite": "DDD FFS FAQ; ProviderExpress NJ",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Ask whether the federal Medicaid enrollment application fee applies to you",
+      "instructions": "The CY2026 federal fee is $750 per a secondary source, which limits it to institutional providers, per service location, and not annual. Whether it applies to DDD residential providers was not verified. Ask DMAHS or the DDD helpdesk before budgeting. Plan $0-$750.",
+      "cite": "CMS CY2026 fee (via MedSole)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Collect the three professional references for the applicant and for the executive director",
+      "instructions": "The application requires at least three professional references each, for the applicant and for the executive director. Request them early and confirm the reference format required.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Assemble the complete application package and track the 45-day completeness deadline",
+      "instructions": "If all required elements are not received within 45 days of the initial submission, the application may be denied. A denied applicant cannot reapply for six months. Use a checklist of every element and submit all items together where possible.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Calendar the 60-day decision window",
+      "instructions": "DHS must give written approval or non-approval within 60 calendar days of receipt of the completed application, extendable only in exceptional circumstances. Do not sign leases or hire staff in a way that cannot be unwound before approval. Timelines for steps after approval were not verified.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DDD / MEDICAID PROVIDER APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Confirm whether the combined license application amendment (PRN 2022-083) was adopted",
+      "instructions": "The 10:44A-1.4 text points to the combined application. A 2022 proposal (PRN 2022-083) would add that language, and adoption was not independently verified. Ask the Office of Licensing which form and process is current.",
+      "cite": "PRN 2022-083 (54 N.J.R. 1117(a))",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — BACKGROUND CHECKS & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Clear the criminal history check for the agency head before pay or contract",
+      "instructions": "No agency head may be paid or contracted until the Department has determined that no criminal history record information exists on file. The check covers FBI and NJ State Police records. Fingerprinting mechanics were not verified, so ask the Office of Licensing for the current process. The pro forma carries $100-$600 as an operator estimate for checks.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — BACKGROUND CHECKS & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Run the criminal history check for owners or the licensee if different from the agency head",
+      "instructions": "If the agency head is not the owner or licensee, the owner(s) or licensee must also comply with a criminal history background check. Start these in parallel.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — BACKGROUND CHECKS & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Confirm the executive director meets the 10:44A-2.5 qualifications",
+      "instructions": "The rule lists a bachelor's degree and five years of progressive management experience working with people with developmental disabilities. The captured text did not show whether these are alternatives or cumulative. Ask the Office of Licensing and document the answer before naming your director.",
+      "cite": "N.J.A.C. 10:44A-2.5",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 5 — BACKGROUND CHECKS & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Identify a qualified residence supervisor for each home",
+      "instructions": "The supervisor responsible for operating a residence needs a high school diploma or equivalent and one year of experience working with people with developmental disabilities. The pro forma carries one supervisor per home at an operator estimate of $52,000 a year.",
+      "cite": "N.J.A.C. 10:44A-2.5",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — BACKGROUND CHECKS & QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Set direct support professional hiring standards",
+      "instructions": "DSPs must be at least 18 years old with a high school diploma or equivalent. Build these into job postings, applications and personnel files, because inspectors review staff files, credentials and background checks.",
+      "cite": "N.J.A.C. 10:44A-2.4, 2.5",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — BACKGROUND CHECKS & QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Check staff background check mechanics with the Office of Licensing",
+      "instructions": "Fingerprinting, Central Registry and similar checks for staff were not verified in the sources reviewed. Ask the Office of Licensing which checks apply to each staff type and their timelines, and write the process into your procedure manual.",
+      "cite": "OPIA Office of Licensing",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Consult DDD's Office of Housing and Resource Development before acquiring housing",
+      "instructions": "OPIA advises: do not acquire housing before consulting with the Division's Office of Housing and Resource Development. No direct contact was verified, so go through the DDD helpdesk. Do this before signing any lease or purchase.",
+      "cite": "OPIA Office of Licensing page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Check siting against the institutional proximity restriction",
+      "instructions": "A residence may not be on the grounds of, or immediately adjacent to, public institutions serving a similar population. Verify the address against nearby facilities before you commit.",
+      "cite": "N.J.A.C. 10:44A-1.3",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "CRITICAL",
+      "task": "Size the residence within the capacity limits",
+      "instructions": "A community residence under 10:44A may house up to 16 individuals. Supervised apartments may hold up to four individuals per apartment. The modeled homes are 4 and 6 beds, well under the cap.",
+      "cite": "N.J.A.C. 10:44A-1.3",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "HIGH",
+      "task": "Check municipal zoning and land-use rules for group homes",
+      "instructions": "Local zoning treatment and any state-law protections for group homes were not researched. Ask a land-use attorney or the municipal zoning office before signing a lease. Allow 1-3 weeks.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "HIGH",
+      "task": "Budget rent using local listings, not only HUD proxies",
+      "instructions": "HUD FY2026 FMRs are residential proxies only. Newark HMFA 4BR is $3,137 and 3BR $2,761. Jersey City HMFA 4BR is $3,955. Bergen-Passaic 4BR is $3,618. Actual group-home leases may be higher. Rent is a fixed cost whether beds are filled or not.",
+      "cite": "HUD FY2026 FMR",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "HIGH",
+      "task": "Confirm building code and fire-safety requirements for the property",
+      "instructions": "The Uniform Construction Code use-group and fire-safety specifics under 10:44A subchapter 6 could not be verified from a current text. Obtain the current subchapter, schedule a pre-inspection with the local code and fire officials, and budget for alarms, extinguishers and egress. The pro forma carries about $1,500 per home as an operator estimate.",
+      "cite": "N.J.A.C. 10:44A subchapter 6",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "MEDIUM",
+      "task": "Plan accessibility modifications for the residents you expect to serve",
+      "instructions": "Match the home to the residents' needs, such as ramps, bathrooms and bedroom access. The pro forma carries about $5,000 per home as an operator estimate. Actual cost depends on the individuals.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — HOUSING & PROPERTY",
+      "priority": "MEDIUM",
+      "task": "Furnish and equip each home",
+      "instructions": "Beds, appliances, housewares and common-area furniture. The pro forma carries about $6,000 per home as an operator estimate. Room and board rules for DDD residences, including how SSI of $994 per month applies, were not verified, so confirm what you may charge residents before planning to recover costs.",
+      "cite": "SSI 2026 benchmark",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 7 — PROCEDURE MANUAL & PRE-OPENING SUBMISSIONS",
+      "priority": "CRITICAL",
+      "task": "Write and submit the procedure manual to the Office of Licensing",
+      "instructions": "Before opening, the applicant must submit a procedure manual to the Office of Licensing for approval. Draft it against the full text of 10:44A and have counsel review it. The pro forma carries $3,000-$10,000 as an operator estimate for the manual, policies and job descriptions.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 7 — PROCEDURE MANUAL & PRE-OPENING SUBMISSIONS",
+      "priority": "CRITICAL",
+      "task": "Submit job descriptions to DDD after the procedure manual is approved",
+      "instructions": "The applicant submits job descriptions to the Division of Developmental Disabilities for each table-of-organization position for review and approval. Build a table of organization first, covering executive director, supervisor, DSPs, nurse and billing roles.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 7 — PROCEDURE MANUAL & PRE-OPENING SUBMISSIONS",
+      "priority": "HIGH",
+      "task": "Create the two-week staff schedule template and in-charge designation",
+      "instructions": "Keep a written schedule covering at least two weeks at each residence, with full staff names. The employee in charge must be designated for each shift. Inspectors review schedules.",
+      "cite": "N.J.A.C. 10:44A-2.8",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — PROCEDURE MANUAL & PRE-OPENING SUBMISSIONS",
+      "priority": "HIGH",
+      "task": "Write the emergency-availability procedure for times residents are away",
+      "instructions": "Staff are not required on-site when no individuals are present, but trained staff familiar with the residents must be available for emergencies. Document who is on call and how they are reached.",
+      "cite": "N.J.A.C. 10:44A-2.8",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — PROCEDURE MANUAL & PRE-OPENING SUBMISSIONS",
+      "priority": "HIGH",
+      "task": "Obtain the current awake-overnight and ratio rules from the Office of Licensing",
+      "instructions": "No awake-overnight or per-shift ratio was found in the 10:44A text reviewed. The awake/asleep ratio found is in 10:44C (head injury) and does not apply. Ask the Office of Licensing what staffing is required and build your schedule to the answer and each resident's ISP.",
+      "cite": "N.J.A.C. 10:44A-2.8",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — PROCEDURE MANUAL & PRE-OPENING SUBMISSIONS",
+      "priority": "MEDIUM",
+      "task": "Document incident management, abuse and neglect prevention procedures",
+      "instructions": "Training on abuse and neglect prevention is part of basic DSP training, and enforcement authority was enhanced by P.L.2025, c.280. Align your incident reporting procedures with current DDD requirements. Confirm the current requirements with DDD.",
+      "cite": "N.J.A.C. 10:44A-2.7; P.L.2025, c.280",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Hire direct support staff at or above the wage floor",
+      "instructions": "NJ minimum wage is $15.92 per hour from 1/1/2026. A secondary source lists $16.48 from 1/1/2027. A secondary source lists $18.92 for direct care staff at long-term care facilities, and whether this applies to DD residences is unconfirmed, so ask NJDOL. DDD projects the average NJ DSP wage at about $20.71 per hour after the 1/1/2026 increase, which the pro forma uses. The NJ median for home health aides is $37,090 a year.",
+      "cite": "NJDOL 2026 rates; DDD Update 1/22/2026",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete basic DDD-required training for every DSP within 90 days of hire",
+      "instructions": "Each DSP must complete basic staff training required by the Division within 90 days of employment. Topics include DDD Shifting Expectations, abuse and neglect prevention, and first aid. Required hour totals were not verified. Track completion dates in each file.",
+      "cite": "N.J.A.C. 10:44A-2.7",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Obtain first aid certification from an ECC-compliant provider",
+      "instructions": "First aid training must come from a training entity that meets current Emergency Cardiovascular Care (ECC) guidelines, with a valid certificate on file. A per-shift first aid and CPR rule was seen only in a 2005 version and is unconfirmed, so ask the Office of Licensing about shift coverage.",
+      "cite": "N.J.A.C. 10:44A-2.7",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Hire a registered nurse consultant",
+      "instructions": "A nurse requirement was not verified in the 10:44A text reviewed, but residents with health needs and medications make nursing oversight prudent. The pro forma carries $50 per hour and 2 hours per resident per month as an operator estimate. NJ RN wages were not verified.",
+      "cite": "",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Plan for NJ wage-floor increases and local labor competition",
+      "instructions": "A secondary source reports no NJ city sets its own minimum wage. The BLS all-occupation mean wage in the NY-Newark-Jersey City area is $41.50 per hour, which signals a tight labor market. Budget annual wage increases and test the pro forma with higher DSP wages.",
+      "cite": "BLS NY-Newark-Jersey City May 2025",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Set up personnel files that match the inspection checklist",
+      "instructions": "Office of Licensing inspections review staff files, schedules, credentials and background checks. Keep for each employee the application, ID and education proof, background check clearance, training certificates and first aid certificate.",
+      "cite": "OPIA Office of Licensing page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, EVV & SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Set up Electronic Visit Verification with HHAeXchange",
+      "instructions": "NJ's contracted EVV vendor is HHAeXchange. DDD Individual Supports codes (for example H2016HI, H2016HI22, H2016HIU88) are on NJ's EVV list. Use the DDD EVV helpdesk at DDDEVV@dhs.nj.gov for onboarding. The vendor cost to providers was not verified.",
+      "cite": "21st Century Cures Act §12006(a)",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, EVV & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Learn the live-in worker EVV exemption and attestation",
+      "instructions": "CMS allows EVV exclusion when the person providing care lives with the person receiving care. A Live-In Worker Attestation is required. Apply only where it truly fits your staffing model.",
+      "cite": "DDD EVV Guidance",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, EVV & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Check current EVV compliance deadlines",
+      "instructions": "NJ went live with EVV for DDD Individual Supports, In-Home Respite and Community-Based Supports on 1/1/2021. Current 2026-2027 compliance deadlines were not verified. Ask DDDEVV@dhs.nj.gov.",
+      "cite": "DMAHS EVV page",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, EVV & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Set up a billing process for fee-for-service claims",
+      "instructions": "Providers bill Medicaid for specific services after delivering them rather than receiving monthly contract allotments. Confirm procedure codes, units and authorization requirements with DDD.FeeForService@dhs.nj.gov. Reconcile claims to authorizations monthly.",
+      "cite": "SCARC Fee-for-Service System",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, EVV & SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Choose records, scheduling and billing software",
+      "instructions": "The pro forma carries about $75 per resident per month as an operator estimate. Get vendor quotes and confirm the software works with HHAeXchange and DDD portal requirements.",
+      "cite": "",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 10 — INSURANCE & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Obtain liability, professional, abuse/molestation, auto and property insurance",
+      "instructions": "No numeric minimum insurance amounts were found for DD community residences or DDD provider approval. Inspectors review insurance documents at central office administrative reviews. Get quotes from carriers experienced in DD residential programs. The pro forma carries $700 per month for one home as an operator estimate.",
+      "cite": "OPIA Office of Licensing page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 10 — INSURANCE & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Place workers' compensation coverage",
+      "instructions": "Get quotes through an NJ broker. The NJCRIB approved a 4.3% overall rate decrease effective 1/1/2026. The class code and manual rate for residential care were not found. The pro forma uses 5% of payroll as an operator estimate.",
+      "cite": "NJCRIB Circular 2510",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 10 — INSURANCE & PAYROLL",
+      "priority": "HIGH",
+      "task": "Register for NJ employer payroll taxes",
+      "instructions": "The 2026 UI taxable wage base is $44,800 and the TDI/FLI wage base is $171,100. A secondary source says new employers pay a flat 2.8% combined UI rate for the first three years, and the official rate table was not found. Confirm your rate with NJDOL. A full-time DSP at $20.71 per hour earns about $43,077, which is under the UI base.",
+      "cite": "NJDOL 2026 benefit rates",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 10 — INSURANCE & PAYROLL",
+      "priority": "MEDIUM",
+      "task": "Use a payroll provider and set a compliant pay schedule",
+      "instructions": "Configure NJ UI, TDI/FLI and withholding. Budget the payroll service within the accounting, payroll and legal line.",
+      "cite": "",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 11 — LICENSE ISSUANCE, INSPECTION & OPENING",
+      "priority": "CRITICAL",
+      "task": "Do not own or operate a residence without Office of Licensing authorization",
+      "instructions": "No person may own or operate a community residence for individuals with developmental disabilities without authorization from the Office of Licensing. Do not admit residents until you hold written authorization. Confirm issuance steps with the Office of Licensing because the timeline beyond the 60-day decision window was not verified.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 11 — LICENSE ISSUANCE, INSPECTION & OPENING",
+      "priority": "CRITICAL",
+      "task": "Prepare for the on-site inspection",
+      "instructions": "Each residence is subject to an annual on-site inspection by the Office of Licensing, and DHS may inspect without limitation or notice. Run an internal mock inspection covering staff files, schedules, credentials and background checks, the physical plant, and insurance documents.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 11 — LICENSE ISSUANCE, INSPECTION & OPENING",
+      "priority": "HIGH",
+      "task": "Understand license types and the term",
+      "instructions": "A full license is effective for up to one year. Partial compliance can lead to a provisional license, and two consecutive provisional licenses may result in non-renewal. Plan to reach substantial compliance on the first inspection.",
+      "cite": "N.J.A.C. 10:44A-1.3; OPIA Office of Licensing page",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 11 — LICENSE ISSUANCE, INSPECTION & OPENING",
+      "priority": "HIGH",
+      "task": "Ask the Office of Licensing for current fees and renewal timelines",
+      "instructions": "No license, application, renewal or inspection fee provision was found in the 10:44A-1.4 text reviewed, and renewal timelines were not verified. Ask in writing and add any fees to your budget. The pro forma carries no licensing fee.",
+      "cite": "N.J.A.C. 10:44A-1.4",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 11 — LICENSE ISSUANCE, INSPECTION & OPENING",
+      "priority": "HIGH",
+      "task": "Plan admissions through support coordinators and DDD",
+      "instructions": "Individuals must be 21+ and Medicaid-eligible, and individuals choose a provider. Introduce your agency to support coordination agencies and families. The pro forma assumes about one admission a month, which is an operator estimate. Pace is not under your control.",
+      "cite": "DDD Programs and Services",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 11 — LICENSE ISSUANCE, INSPECTION & OPENING",
+      "priority": "MEDIUM",
+      "task": "Verify the Office of Licensing contact details",
+      "instructions": "The only phone and PO Box found were on a 2005 rule version and are unconfirmed. Use the OPIA Contact Us form on the licensing page and keep a record. Do not rely on outdated contact details.",
+      "cite": "OPIA Office of Licensing page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Keep the two-week written schedule current at every residence",
+      "instructions": "The schedule must show full staff names and the in-charge employee for each shift. Post or file it per the procedure manual. Check it weekly.",
+      "cite": "N.J.A.C. 10:44A-2.8",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Run a training tracker for 90-day DDD training, first aid and refreshers",
+      "instructions": "Track each DSP's hire date, 90-day deadline and certificates. Late training is an easy inspection finding. Review monthly.",
+      "cite": "N.J.A.C. 10:44A-2.7",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Prepare for unannounced inspections",
+      "instructions": "The Office of Licensing is increasing unannounced inspections beginning in 2026. Keep files, schedules and records inspection-ready at all times. Assign one person per home to host inspectors.",
+      "cite": "OPIA Office of Licensing page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Respond promptly to citations with plans of correction",
+      "instructions": "Survey and audit results and plans of correction become part of your service history. Respond in writing by the deadline in each notice. Avoid back-to-back provisional licenses.",
+      "cite": "OPIA Office of Licensing page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Monitor DDD updates and rate changes",
+      "instructions": "DDD publishes division update webinars and rate notices, such as the 1/1/2026 increase for nine services to fund DSP training requirements. Review each update and adjust your budget. Self-directed billable rates were not increased.",
+      "cite": "iRecord Rate Change",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Monitor 10:44A amendments",
+      "instructions": "DHS said further rulemaking may be necessary after the 2026 readoption. Watch the NJ Register and DHS notices.",
+      "cite": "58 N.J.R. 1193(b)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 12 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "File the annual LLC report and renew insurance on schedule",
+      "instructions": "Add the LLC report date, insurance renewals and workers' compensation audit dates to a compliance calendar.",
+      "cite": "",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 13 — FINANCIAL MANAGEMENT & GROWTH",
+      "priority": "HIGH",
+      "task": "Review the profitability of each home monthly",
+      "instructions": "In the modeled results, one 6-bed home and six 4-bed homes were profitable at the default occupancy, while a single 4-bed home and the Tier A supervised apartments were not. Margins depend on assumed revenue. Reconcile against actual claims and adjust staffing to residents' authorizations.",
+      "cite": "Pro forma model results",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 13 — FINANCIAL MANAGEMENT & GROWTH",
+      "priority": "HIGH",
+      "task": "Watch the audit threshold as you grow",
+      "instructions": "Agencies claiming $350,000 or more in combined CCP and Supports Program reimbursement need an annual financial statement audit. Plan the engagement before year-end and keep records audit-ready.",
+      "cite": "DDD Division Update 8/20/2026",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 13 — FINANCIAL MANAGEMENT & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Add homes only after the first home is stable",
+      "instructions": "Add a home when occupancy, billing and inspections are steady. The pro forma staffs every home from month 1, so open one at a time. This reduces the cash needed.",
+      "cite": "",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 13 — FINANCIAL MANAGEMENT & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Track the CCP waiting list and the state budget for demand signals",
+      "instructions": "The CCP Priority Waiting List grew to 3,665 in FY26. The FY27 proposal funds removal of 318 people, and enactment was not verified. More removals mean more residential placements.",
+      "cite": "DDD Division Update 6/25/2026",
+      "source_id": "S43"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Rate not found / FY26 rates published",
+      "change": "Cannot read the FY26 Individual Supports rows, so the $12,500/$16,666.67/$5,535.33 amounts were left as assumptions. Updated rates[0] notes, not_claimed[0] and the reimbursement narrative to say DDD has published FY26 H2016HI-series rates that must be read and substituted. checklist[7] was not supplied, so it was not patched."
+    },
+    {
+      "issue": "DSP wage pass-through mandate missing",
+      "change": "Added the 1/1/2026 base-wage pass-through (about $0.46/hr, deadline 3/1/2026, retroactive, not a bonus or margin) to payroll_burden.notes, rates[1], operations, market_conditions and reimbursement."
+    },
+    {
+      "issue": "Mislabeled $0.46 increase and wrong S23 citation",
+      "change": "Rewrote rates[1].notes and key_numbers[6] as a wage increase funded by $9.1M state allocation. Re-cited the 1/1/2026 increase to the DDD Information Bulletin/Quick Guide and S24. Described S23 as the 10/1/2024 training change in reimbursement, risks and market_conditions."
+    },
+    {
+      "issue": "Stale $239.81 Support Coordination rate",
+      "change": "Relabeled rates[0] as a May 2015 schedule, superseded and not used. The figure is kept only as a labeled stale context row."
+    },
+    {
+      "issue": "Executive director requirements are cumulative",
+      "change": "Patched ED staffing notes in all six configurations, licensing_pathway, operations and recommendations. Replaced not_claimed[5] with the open question on waiver/variance."
+    },
+    {
+      "issue": "Missing screening/training costs",
+      "change": "Expanded training and background-check notes (CPR, medication competency, per-shift specialized training, drug testing, registries, driver abstracts). No new cost lines were added because unverified dollar amounts would be invented. These are listed in not_claimed, and the profit model needs a rerun once they are priced."
+    },
+    {
+      "issue": "Fiscal Sustainability Report and GAAS",
+      "change": "Added to the audit opex note, reimbursement and operations narratives, and added DDD Waiver Financial Reports as a regulator."
+    },
+    {
+      "issue": "Payroll taxes",
+      "change": "Noted that UI applies only up to $44,800 (the model's flat 2.8% slightly overstates for higher-paid roles) and that FUTA and employer TDI are unmodeled. Rates were not changed, and FUTA/TDI were added to not_claimed."
+    },
+    {
+      "issue": "Wage source mismatch (S38)",
+      "change": "Blanked wage_source_id for supervisor, ED, billing and QA rows (operator estimates). Re-cited RN rows to S24 (NJ RN mean $51.44/hr). Added not_claimed entry."
+    },
+    {
+      "issue": "Missing phones/emails",
+      "change": "Added 800-832-9173 to the DDD regulator, an abuse/neglect reporting contact and the Ombudsman phone 609-984-7764. Marked ProviderHelpdesk and DDDEVV emails as unconfirmed."
+    }
+  ]
+}

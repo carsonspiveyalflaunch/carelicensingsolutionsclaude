@@ -1,0 +1,2581 @@
+{
+  "bundle_slug": "new-jersey-assisted-living-facilities-complete-bundle",
+  "state": "New Jersey",
+  "state_code": "NJ",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Assisted Living Residence (ALR), Comprehensive Personal Care Home (CPCH) and Assisted Living Program (ALP), licensed by the NJ Department of Health under N.J.A.C. 8:36 after a Certificate of Need; Medicaid care services paid through NJ FamilyCare MLTSS managed care",
+  "as_of": "2026-10",
+  "report_title": "New Jersey Assisted Living Residences — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "N.J.A.C. 8:36 readoption notice (DOH)",
+      "publisher": "NJ Department of Health",
+      "url": "https://web.doh.nj.gov/apps2/documents/bc/notice_of_readoption_standards_for_licensure_of_assisted_living_residneces_etc_836.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "N.J.A.C. 8:36-2.2 Application for licensure",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-2-2",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Long-Term Care License Application Fees",
+      "publisher": "NJ Department of Health",
+      "url": "https://nj.gov/health/healthfacilities/ltc_epay.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "N.J.A.C. 8:36-3.2 Qualifications of the administrator",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-3-2",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Certified Assisted Living Administrators",
+      "publisher": "NJ Department of Health",
+      "url": "https://www.nj.gov/health/healthfacilities/certification-licensing/assisted-living-admin/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "N.J.A.C. 8:36-9.3 Minimum PCA staffing",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-9-3",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Proposed amendments N.J.A.C. 8:36-1.3 and 2.4 (PRN 2026-003)",
+      "publisher": "NJ Department of Health",
+      "url": "https://nj.gov/health/legal/documents/notice-of-rule-proposal/8_36-1.3_2.4%20NOP.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "NJDOH proposes deemed status for CPCHs (news release)",
+      "publisher": "NJ Department of Health",
+      "url": "https://www.nj.gov/health/news/2026/approved/20260105b.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "N.J.A.C. 8:36-1.3 Definitions",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-1-3",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "N.J.A.C. 8:36-5.1 Services provided to residents",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-5-1",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "N.J.A.C. 8:36-23.2 ALP service provider requirements",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-23-2",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "N.J.A.C. 8:36-2.10 Advertisement of assisted living",
+      "publisher": "NJ Admin. Code (Cornell LII mirror)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-2-10",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Certificate of Need and Facility Licensing",
+      "publisher": "NJ Department of Health",
+      "url": "https://www.nj.gov/health/healthfacilities/certificate-need/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Facility Types",
+      "publisher": "NJ Department of Health",
+      "url": "https://www.nj.gov/health/healthfacilities/about-us/facility-types/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Residential Care/Assisted Living Compendium: NJ (2015)",
+      "publisher": "HHS ASPE",
+      "url": "https://aspe.hhs.gov/sites/default/files/private/pdf/110551/15alcom-NJ.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Legal Notice: Assisted Living Facility Rates (July 2025)",
+      "publisher": "NJ DHS, DMAHS",
+      "url": "https://www.nj.gov/humanservices/notices/documents/public-notices/Assisted%20Living%20rate%20change%20notice_RD%202026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "P.L. 2023, c.80 (S405) — ALR/CPCH/ALP Medicaid per diem",
+      "publisher": "NJ Legislature",
+      "url": "https://pub.njleg.gov/Bills/2022/PL23/80_.HTM",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "P.L. 2023, c.80 enacted text (PDF)",
+      "publisher": "NJ Legislature",
+      "url": "https://pub.njleg.state.nj.us/Bills/2022/PL23/80_.PDF",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "SFY 2026 Assisted Living Provider Rates",
+      "publisher": "Health Care Association of NJ (posting state rate list)",
+      "url": "https://www.hcanj.org/wp-content/uploads/sites/21/2026/02/5-SFY_2026_Assisted_Living_Rates.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "2026 Income and Resource Standards for Medicaid Only",
+      "publisher": "NJ DHS, DMAHS",
+      "url": "https://nj.gov/humanservices/dmahs/documents/providers-stakeholders/resources/medicaid/2026/26-01_Medicaid_Only_Income_and_Resources_Standards.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "MLTSS Application Guidance (April 2026)",
+      "publisher": "NJ DHS, DMAHS / NJ FamilyCare",
+      "url": "https://www.nj.gov/humanservices/dmahs/documents/about/NJFC-ABD-MLTSS-BRO-E-2026_Web.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "NJ FamilyCare Enrollment Summary — March 2026",
+      "publisher": "NJ DHS, DMAHS",
+      "url": "https://www.nj.gov/humanservices/dmahs/news/reports/enrollment_2026_03.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "DHS FY2025-2026 Discussion Points",
+      "publisher": "NJ Legislature / Governor's Budget",
+      "url": "https://pub.njleg.state.nj.us/publications/budget/governors-budget/2026/dhs_response_2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Provider Enrollment Application Fee Amount, CY2026",
+      "publisher": "Federal Register (CMS)",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Cost of Care Survey 2024",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/55da049c1f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Cost of Care Survey 2024 — ranked state tables",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/a41bb6478c/298701.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Cost of Care Survey 2025",
+      "publisher": "CareScout",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Public Notice: Minimum Wage 2026",
+      "publisher": "NJ Dept. of Labor & Workforce Development",
+      "url": "https://www.nj.gov/labor/assets/PDFs/Legal%20Notices/Other/Public%20Notice%20Minimum%20Wage%202026_FINAL.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "NJ Minimum Wage Increase Reminder",
+      "publisher": "Lindabury, McCormick, Estabrook & Cooper",
+      "url": "https://www.lindabury.com/firm/insights/new-jersey-minimum-wage-increase-reminder.html",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "NJ wages: Home Health Aides (31-1121)",
+      "publisher": "O*NET OnLine (BLS 2025 data)",
+      "url": "https://www.onetonline.org/link/localwages/31-1121.00?st=NJ",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Occupational Employment and Wages, NY-Newark-Jersey City, May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/northeast/news-release/2026/occupationalemploymentandwages_newyork_20260605.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "NJDOL sets higher 2026 benefit rates, wage bases",
+      "publisher": "NJBIZ",
+      "url": "https://njbiz.com/njdol-sets-higher-2026-benefit-rates-wage-bases/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "NJ Payroll Tax Guide 2026",
+      "publisher": "Monaco CPA",
+      "url": "https://www.monacocpa.cpa/nj-payroll-tax-guide",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "NJ UI, TDI and FLI rates for 2026",
+      "publisher": "Vensure",
+      "url": "https://vensure.com/employment-law-updates/new-jersey/reminder-new-jersey-ui-tdi-and-fli-rates-for-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "Payroll Tax in New Jersey [2026]",
+      "publisher": "Rippling",
+      "url": "https://www.rippling.com/blog/payroll-tax-in-new-jersey",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Division of Revenue and Enterprise Services fee schedule",
+      "publisher": "NJ Department of the Treasury",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "NJ LLC Formation: Educational Guide",
+      "publisher": "Monaco CPA",
+      "url": "https://www.monacocpa.cpa/nj-llc-formation",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "New Jersey LLC Filing Fees and Requirements",
+      "publisher": "Bizee",
+      "url": "https://bizee.com/llc/new-jersey/filing-fees-requirements",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "NJ LLC Filing Fee and Tax Requirements",
+      "publisher": "UpCounsel",
+      "url": "https://www.upcounsel.com/nj-llc-tax-filing-requirements",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "How to Form an LLC in New Jersey (2026)",
+      "publisher": "DocDraft",
+      "url": "https://www.docdraft.ai/legal-guides/forming-an-llc/new-jersey",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "Electronic Visit Verification (EVV)",
+      "publisher": "NJ DHS, DMAHS",
+      "url": "https://www.nj.gov/humanservices/dmahs/providers-stakeholders/overview/evv.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "EVV Compliance Communication",
+      "publisher": "NJ DHS, Division of Developmental Disabilities",
+      "url": "https://nj.gov/humanservices/dmahs/info/EVV_Compliance_Communication.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "FY2026 Fair Market Rent Schedule",
+      "publisher": "HUD",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "FY2026 Fair Market Rent Documentation — NJ Summary",
+      "publisher": "NJ Department of the Treasury",
+      "url": "https://www.nj.gov/treasury/njombudsman/documents/pdf/FY2026FairMarketRentDocumentationSystem.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Population Age Distribution indicator report",
+      "publisher": "NJDOH NJSHAD",
+      "url": "https://www-doh.nj.gov/doh-shad/indicator/summary/Dem_Age.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "How New Jersey Is Aging, County by County",
+      "publisher": "ARHomeCare",
+      "url": "https://arhomecare.com/nj-aging-by-county",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "How to Pay for Assisted Living in New Jersey (2026)",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/care-types/new-jersey/how-to-pay-for-assisted-living",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "NJ Medicaid Personal Needs Allowance (2026)",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/medicaid/new-jersey/personal-needs-allowance",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Managed Long-Term Services and Supports (MLTSS)",
+      "publisher": "Caregiver.org",
+      "url": "https://www.caregiver.org/state-resource/managed-long-term-services-and-supports-mltss/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "Medicaid Assisted Living in New Jersey: MLTSS Eligibility",
+      "publisher": "ElderCare Start Guide",
+      "url": "https://eldercarestartguide.com/blog/medicaid-assisted-living-new-jersey",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Residential Assisted Living in New Jersey",
+      "publisher": "RAL Roadmap",
+      "url": "https://ralroadmap.com/blog/residential-assisted-living-new-jersey/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "Medicaid's Waiting List for Assisted Living",
+      "publisher": "ElderCareLawyer",
+      "url": "https://www.eldercarelawyer.com/blog/medicaids-waiting-list-for-assisted-living-care/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "NJ FamilyCare MLTSS (entitlement description)",
+      "publisher": "Medicaid Planning Assistance",
+      "url": "https://www.medicaidplanningassistance.org/new-jersey-familycare-mltss/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "2026 Medicaid Asset Limits in PA and NJ",
+      "publisher": "Rothkoff Law Group",
+      "url": "https://rothkofflaw.com/2026/02/19/2026-medicaid-asset-limits-in-pennsylvania-and-new-jersey-whats-changing-and-what-it-means-for-you/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License types under N.J.A.C. 8:36",
+      "value": "Assisted Living Residence (apartment-style housing, dining and assisted living services), Comprehensive Personal Care Home (room and board; units house no more than 2 residents), Assisted Living Program (services to residents of publicly subsidized housing)",
+      "source_id": "S14",
+      "as_of": "NJDOH facility types page; unit rules per 2022 readoption notice [S1]"
+    },
+    {
+      "metric": "Certificate of Need",
+      "value": "A license application may be filed only after a Certificate of Need is received; NJDOH's CoN table lists new assisted living facilities as eligible for expedited review",
+      "source_id": "S2",
+      "as_of": "N.J.A.C. 8:36-2.2, amended eff. 1/3/2022; CoN page reviewed 3/26/2026 [S13]"
+    },
+    {
+      "metric": "ALR/CPCH initial license fee",
+      "value": "$1,500 + $15 per bed, nonrefundable, filed with the application and proof of payment (e.g., 40 beds = $2,100)",
+      "source_id": "S3",
+      "as_of": "NJDOH page last reviewed 2/11/2026"
+    },
+    {
+      "metric": "ALR/CPCH annual renewal and biennial inspection fees",
+      "value": "Renewal $1,500 + $15 per bed; biennial inspection fee $1,500, charged in the inspection year together with that year's annual fee",
+      "source_id": "S3",
+      "as_of": "2/11/2026; timing per N.J.A.C. 8:36-2.2 [S2]"
+    },
+    {
+      "metric": "Medicaid base per diem (ALR / CPCH / ALP)",
+      "value": "$91.10 / $81.10 / $79.10 per NJ FamilyCare beneficiary per day (base); the state-published SFY2026 list sets unlisted ALRs at $91.10, effective 7/1/2025",
+      "source_id": "S16",
+      "as_of": "DHS notice 7/16/2025 (SFY2026); SFY2026 list [S19]; CMS approval not confirmed; SFY2027 rate not checked and may supersede"
+    },
+    {
+      "metric": "Medicaid-volume tier add-ons (ALRs and CPCHs)",
+      "value": "Per diem above the minimum by yearly average Medicaid census (paid claims, measured against total licensed beds): $10 at 15% to under 30%; $15 at 30% to under 50%; $30 at 50% to under 70%; $35 at 70% or more; none below 15%. Not included in modeled revenue.",
+      "source_id": "S17",
+      "as_of": "P.L. 2023, c.80; DHS notice 7/16/2025 says tier enhancements remain unchanged [S16]"
+    },
+    {
+      "metric": "Resident room standard and personal needs (ALR, MLTSS)",
+      "value": "$996.40/month room; $147.65/month maintenance (personal needs); Medicaid does not pay room and board",
+      "source_id": "S20",
+      "as_of": "Effective 1/1/2026"
+    },
+    {
+      "metric": "Private-pay median, assisted living community",
+      "value": "$104,520/year (about $8,710/month) — CareScout 2025; 2024 survey was $102,570/year (about $8,548/month)",
+      "source_id": "S27",
+      "as_of": "CareScout 2025 (released 2026); 2024 per [S25]"
+    },
+    {
+      "metric": "Minimum staffing on premises",
+      "value": "At least one awake personal care assistant plus one additional employee on premises at all times; one PCA per free-standing resident building; levels are minimums only and must scale to resident acuity",
+      "source_id": "S6",
+      "as_of": "N.J.A.C. 8:36-9.3"
+    },
+    {
+      "metric": "Administrator qualifications",
+      "value": "Age 21+, high school diploma or equivalent, and either an NJ nursing home administrator license or an NJ assisted living administrator certification (3-year certificate; 30 CE hours and background check to renew); a qualified owner may serve as administrator",
+      "source_id": "S4",
+      "as_of": "N.J.A.C. 8:36-3.2; certificate terms per NJDOH page [S5]"
+    },
+    {
+      "metric": "Nursing-home-level and Medicaid occupancy commitments",
+      "value": "Applicants commit that at least 20% of residents will have nursing-home-level care needs within 36 months of licensure; newly licensed ALRs/CPCHs must reach at least 10% Medicaid-eligible occupancy within three years (waivable by the Commissioner)",
+      "source_id": "S2",
+      "as_of": "N.J.A.C. 8:36-2.2; 8:36-5.1 [S10]"
+    },
+    {
+      "metric": "NJ minimum wage (floor for all modeled wages)",
+      "value": "$15.92/hour effective 1/1/2026 (up from $15.49)",
+      "source_id": "S28",
+      "as_of": "Effective 1/1/2026"
+    }
+  ],
+  "not_claimed": [
+    "Certificate of Need review timeline for new ALRs, and whether expedited review for new assisted living uses the same filing fee as the full-review schedule ($7,500 plus 0.25% of total project cost above $1,000,000, N.J.A.C. 8:33 Appendix B). Confirm with CN&L at 609-292-6552.",
+    "DOH processing timelines for initial licensure or renewal — no rule-quoted timeframe was located.",
+    "Whether CMS approved and implemented the FY2026 $91.10 / $81.10 / $79.10 base per diems, and their post-approval effective date. The July 2025 DHS notice says DHS would seek CMS approval [S16], and a state rate list posted by HCANJ shows $91.10 effective 7/1/2025 [S19]. No official post-approval source was located. No SFY2027 (from 7/1/2026) ALR rate notice or fee schedule was checked, so the SFY2026 rates may be superseded.",
+    "ALR Medicaid billing codes (HCPCS/CPT), billing units and modifiers — not found on njmmis.com or in the DMAHS fee schedules.",
+    "MLTSS managed-care organization contract rates and terms paid to individual ALRs, and an official list of current MLTSS plans — not researched; the per diems above are the state-published base rates only.",
+    "Whether an ALR must participate in MLTSS — secondary sources conflict [S50][S47]; confirm with DMAHS.",
+    "Whether the ALR personal needs allowance is $147.65 (DMAHS 2026 standards [S20]) or about $140.15 (secondary [S48]). The model should use the official DMAHS figure; verify with DMAHS or the county welfare agency.",
+    "Status of pending bill A2691/S1576 to raise the personal needs allowance — reported only by a secondary source.",
+    "Medicaid AL/AFC slot cap (reported as 1,500) and any waiting list — reported only by an undated secondary source that conflicts with MLTSS entitlement descriptions; the current 2026 cap and waitlist are unverified [S52][S53].",
+    "Current official count of licensed ALRs, CPCHs and ALPs by type, and the number of CPCHs (a secondary guide estimates about 30 and says CPCH licensing is closed to new entrants) — not verified against a DOH roster or primary rule text. Directory counts are not official.",
+    "NJ occupancy, census or vacancy data for ALRs — no official dataset located; no occupancy figure is asserted.",
+    "Competitor names, market shares and referral-source volumes (hospital, nursing home, AAA/DOA).",
+    "Numeric staff-to-resident ratios beyond the N.J.A.C. 8:36-9.3 minimum, overnight nursing rules, what 'available at all times' means for the RN required by N.J.A.C. 8:36-8.2 (on-call versus on-site, response time), and whether a full-time on-site administrator is required by bed count.",
+    "Required hours and content of the assisted living administrator training course — not verified in current N.J.A.C. 8:36-3.3.",
+    "Background-check requirements for owners and direct-care staff beyond the administrator.",
+    "Liability insurance, bond, or other insurance minimums required for licensure — no primary source found; all premiums in the model must be labeled operator estimates.",
+    "Workers' compensation premium rates and classification codes for residential care — only a benefit maximum was found, which is not a premium rate.",
+    "NJ or metro BLS OEWS May 2025 wages for cooks, janitors/maids, recreation workers, registered nurses and medical and health services managers; cook, housekeeping and activities wages use the home health aide proxy, and RN and administrator pay has no source. Only the O*NET/BLS home health aide wages were found [S30] (statewide median $17.83; New York-Newark-Jersey City metro median $19.08).",
+    "Reported $18.92/hour long-term care direct-care minimum wage — appears only in a secondary source and is not confirmed in NJDOL or rule text.",
+    "Local minimum wages in Newark, Jersey City, Paterson or Trenton — no local ordinance found; the $15.92 statewide rate is the only floor cited. A small-employer rate (reported as $15.23 for employers with fewer than 6 employees) comes only from a law-firm summary [S29].",
+    "Federal unemployment tax (FUTA) and any entity-level tax: FUTA is not itemized in payroll burden, and NJ entity taxes would apply only if the LLC elects S-corp or corporate treatment; have a CPA confirm. Taxable wage bases ($44,800 UI; $171,100 TDI/FLI) are from a secondary news report [S32].",
+    "The $75 LLC annual report fee is from a secondary guide only [S38] and is not confirmed on an official Treasury page.",
+    "Whether ALRs are classed as institutional providers for the $750 federal CY2026 enrollment application fee [S24], and any NJ-specific Medicaid enrollment fee for ALRs.",
+    "Whether EVV applies to ALR-based MLTSS services — the NJ EVV go-live list covers personal care and MLTSS home-based supportive care and does not name ALR residential care [S41]; congregate settings are exempt only per a DDD letter [S42].",
+    "Commercial rent for Newark, Jersey City or Trenton assisted-living or medical-office space — not retrieved. HUD FY2026 Newark HMFA Fair Market Rents are a residential benchmark only [S43][S44]; whether Newark was among HUD's mid-year 2026 revisions is unconfirmed.",
+    "Whether the CPCH deemed-status proposal (PRN 2026-003) has been adopted after the March 6, 2026 comment deadline [S7][S8], and whether the broader rewrite of N.J.A.C. 8:36 mentioned in the readoption notice has been filed or adopted.",
+    "Local zoning and siting standards (distance, density, use classification) — only the requirement to obtain local zoning, fire, health and building approvals and a certificate of occupancy was verified [S1].",
+    "FY2027 NJ budget provisions affecting assisted living rates, MLTSS or personal needs allowance; and the effect of any federal Medicaid matching-rate reduction (flagged as a risk in state budget materials [S23], no enacted change verified).",
+    "SSI 2026 federal benefit rate of $994 was not verified against an SSA source in this research; the DMAHS standards state only that the 2026 NJ standards reflect the 2.8% federal SSI COLA [S20].",
+    "Whether the $996.40 room figure is the amount a facility may collect from a resident (versus a DMAHS eligibility standard), and the county cost-share calculation — described only by a secondary source [S48].",
+    "Conflicting private-pay benchmarks: a secondary source reports about $8,234/month [S47], which does not match CareScout. CareScout's median measures a private one-bedroom unit in an assisted living community and may not represent small residential homes or shared rooms.",
+    "NJ 2027 minimum wage: NJDOL is required to publish the CPI-adjusted rate about September 30 each year; the 2027 rate was not checked, and wages paid after 1/1/2027 must meet it.",
+    "Cost of 24/7 registered nurse availability (on-call stipend or contract RN) required by N.J.A.C. 8:36-8.2; no such cost is in the model, and no price was sourced."
+  ],
+  "regulators": [
+    {
+      "name": "NJ Department of Health — Certificate of Need and Licensing Program",
+      "role": "Certificate of Need, license applications, renewals, change of ownership",
+      "url": "https://www.nj.gov/health/healthfacilities/certificate-need/",
+      "phone": "(609) 292-6552 (CN&L Health Facilities; PO Box 358, Trenton NJ 08625-0358); intake/renewals 609-376-7800",
+      "email": "CNLapps@doh.nj.gov (license applications and proof of payment); cnandlicensingrequests@doh.nj.gov (intake and renewals)",
+      "source_id": "S1"
+    },
+    {
+      "name": "NJ Department of Health — Division of Health Facility Survey and Field Operations",
+      "role": "Pre-opening and periodic surveys, complaint investigation",
+      "url": "https://web.doh.nj.gov/apps2/documents/bc/notice_of_readoption_standards_for_licensure_of_assisted_living_residneces_etc_836.pdf",
+      "phone": "(800) 792-9770 (complaint and incident hotline, not a general survey line); LTC complaint and surveillance line 609-633-8991; PO Box 367, Trenton NJ 08625-0358",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "NJ Department of Health — Assisted Living Administrator Certification",
+      "role": "Certifies assisted living administrators (3-year certificate)",
+      "url": "https://www.nj.gov/health/healthfacilities/certification-licensing/assisted-living-admin/",
+      "phone": "609-633-9706 (Certified Assisted Living Administrators)",
+      "email": "",
+      "source_id": "S5"
+    },
+    {
+      "name": "NJ Department of Community Affairs — Health Care Plan Review Unit",
+      "role": "Construction plan review and approval before building a new or expanded facility",
+      "url": "https://web.doh.nj.gov/apps2/documents/bc/notice_of_readoption_standards_for_licensure_of_assisted_living_residneces_etc_836.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "Local zoning, fire, health and building authorities",
+      "role": "Local approvals and certificate of occupancy required before licensure",
+      "url": "https://web.doh.nj.gov/apps2/documents/bc/notice_of_readoption_standards_for_licensure_of_assisted_living_residneces_etc_836.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "NJ Department of Human Services — Division of Medical Assistance and Health Services (DMAHS)",
+      "role": "NJ FamilyCare / MLTSS, Medicaid per diem rates, income and resource standards, EVV",
+      "url": "https://www.nj.gov/humanservices/notices/documents/public-notices/Assisted%20Living%20rate%20change%20notice_RD%202026.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S16"
+    },
+    {
+      "name": "NJ Department of Labor and Workforce Development",
+      "role": "Minimum wage, unemployment and disability/family leave insurance",
+      "url": "https://www.nj.gov/labor/assets/PDFs/Legal%20Notices/Other/Public%20Notice%20Minimum%20Wage%202026_FINAL.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S28"
+    },
+    {
+      "name": "NJ Department of the Treasury — Division of Revenue and Enterprise Services",
+      "role": "LLC formation and business filings",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "phone": "",
+      "email": "",
+      "source_id": "S36"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "N.J.A.C. 8:36",
+      "title": "Standards for Licensure of Assisted Living Residences, Comprehensive Personal Care Homes, and Assisted Living Programs (readopted with technical changes; expires 2028)",
+      "url": "https://web.doh.nj.gov/apps2/documents/bc/notice_of_readoption_standards_for_licensure_of_assisted_living_residneces_etc_836.pdf",
+      "source_id": "S1"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-1.3",
+      "title": "Definitions (ALR, ALP and related terms)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-1-3",
+      "source_id": "S9"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-2.2",
+      "title": "Application for licensure (CoN prerequisite, fees, maximum beds, 20% nursing-home-level commitment)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-2-2",
+      "source_id": "S2"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-2.10",
+      "title": "Advertisement of assisted living (limited to licensed ALRs and CPCHs)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-2-10",
+      "source_id": "S12"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-3.2",
+      "title": "Qualifications of the administrator",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-3-2",
+      "source_id": "S4"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-5.1",
+      "title": "Types of services provided to residents (Medicaid-eligible occupancy requirement)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-5-1",
+      "source_id": "S10"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-9.3",
+      "title": "Minimum personal care assistant staffing",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-9-3",
+      "source_id": "S6"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-23.2",
+      "title": "Assisted living program service provider requirements",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-23-2",
+      "source_id": "S11"
+    },
+    {
+      "cite": "N.J.A.C. 8:36-1.3 and 2.4 (proposed, PRN 2026-003; 58 N.J.R. 1(1))",
+      "title": "Proposed deemed-status option for CPCHs (adoption status not verified)",
+      "url": "https://nj.gov/health/legal/documents/notice-of-rule-proposal/8_36-1.3_2.4%20NOP.pdf",
+      "source_id": "S7"
+    },
+    {
+      "cite": "P.L. 2023, c.80",
+      "title": "Medicaid per diem for assisted living (statutory minimums and 70% Medicaid tier)",
+      "url": "https://pub.njleg.gov/Bills/2022/PL23/80_.HTM",
+      "source_id": "S17"
+    },
+    {
+      "cite": "N.J.S.A. 26:2H-12",
+      "title": "Statutory basis capping the ALR/CPCH license fee (as referenced in N.J.A.C. 8:36-2.2)",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-2-2",
+      "source_id": "S2"
+    },
+    {
+      "cite": "N.J.A.C. 12:56-3.1",
+      "title": "State minimum hourly wage (public notice for 2026)",
+      "url": "https://www.nj.gov/labor/assets/PDFs/Legal%20Notices/Other/Public%20Notice%20Minimum%20Wage%202026_FINAL.pdf",
+      "source_id": "S28"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "Assisted Living Residence (ALR) base per diem, care services only",
+      "rate": 91.1,
+      "unit": "per day",
+      "effective": "2025-07-01",
+      "notes": "SFY2026 base: DHS notice (7/16/2025) states ALRs receive no less than $91.10 per NJ FamilyCare beneficiary per day and that DHS would seek CMS approval. The state rate list posted by HCANJ sets unlisted ALRs at $91.10 effective 7/1/2025 [S19]. This is the SFY2026 rate; SFY2027 began 7/1/2026 and no SFY2027 rate notice or fee schedule was checked, so it may be superseded. Medicaid does not pay room and board; the resident pays it. Procedure codes were not located. Medicaid-volume tier add-ons ($10/$15/$30/$35 per day by Medicaid census) were unchanged by this increase and are listed below.",
+      "source_id": "S16"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "Comprehensive Personal Care Home (CPCH) base per diem",
+      "rate": 81.1,
+      "unit": "per day",
+      "effective": "2025-07-01",
+      "notes": "SFY2026 base per the same DHS notice; SFY2027 rate not checked and may be superseded. CPCH is reported as closed to new entrants by a secondary source [S51]; this is unverified against rule text.",
+      "source_id": "S16"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "Assisted Living Program (ALP) base per diem",
+      "rate": 79.1,
+      "unit": "per day",
+      "effective": "2025-07-01",
+      "notes": "SFY2026 base per the same DHS notice; SFY2027 rate not checked and may be superseded. ALP services are delivered only inside licensed ALRs, CPCHs or publicly subsidized housing [S11].",
+      "source_id": "S16"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "ALR statutory minimum per diem (P.L. 2023, c.80 enacted text)",
+      "rate": 89.5,
+      "unit": "per day",
+      "effective": "2023 enactment",
+      "notes": "Enacted floor for ALRs; CPCH $79.50 and ALP $89.50 in the same text. The bill synopsis listed a different ALP figure, so verify. Superseded as the operative base by the higher FY2026 notice rates.",
+      "source_id": "S18"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "CPCH statutory minimum per diem (P.L. 2023, c.80 enacted text)",
+      "rate": 79.5,
+      "unit": "per day",
+      "effective": "2023 enactment",
+      "notes": "Enacted floor for CPCHs; superseded as the operative base by the FY2026 notice rate.",
+      "source_id": "S18"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "ALP statutory minimum per diem (P.L. 2023, c.80 enacted text)",
+      "rate": 89.5,
+      "unit": "per day",
+      "effective": "2023 enactment",
+      "notes": "Enacted text figure; the bill synopsis listed a different ALP figure, so verify. The FY2026 notice states an ALP base of $79.10.",
+      "source_id": "S18"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "High-Medicaid tier add-on for ALRs and CPCHs with 70% or more Medicaid residents",
+      "rate": 35,
+      "unit": "per day add-on",
+      "effective": "2023 enactment; tier add-ons unchanged for FY2026",
+      "notes": "Statute: per diem $35 higher than the minimum per diem when the average Medicaid census is 70% or more of total licensed beds, measured yearly from paid claims. The other tiers are $10 (15% to under 30%), $15 (30% to under 50%) and $30 (50% to under 70%); no add-on below 15% [S17]. The DHS notice states tier enhancements remain unchanged [S16]. Tier add-ons are not included in modeled revenue. Do not assume a base-plus-tier total without confirming with DMAHS how the add-on stacks on the $91.10 base.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Resident (MLTSS)",
+      "code": "R&B",
+      "service": "ALR room standard (monthly HCBS room amount)",
+      "rate": 996.4,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "DMAHS 2026 HCBS monthly standard for an ALR resident's room. Medicaid does not pay room and board; the resident pays it [S47]. The county welfare agency computes the cost share and the facility bills and collects it, per a secondary source [S48].",
+      "source_id": "S20"
+    },
+    {
+      "payer": "Resident (MLTSS)",
+      "code": "PNA",
+      "service": "ALR maintenance (personal needs allowance retained by resident)",
+      "rate": 147.65,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "DMAHS figure. A secondary source gives about $140.15 [S48]; official figure used. The standards reflect the 2.8% SSI COLA.",
+      "source_id": "S20"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living community, New Jersey statewide median (CareScout 2025)",
+      "rate": 8710,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "$104,520/yr. CareScout measures a private one-bedroom unit in an assisted living community, not a shared room in a small residential home, so it may overstate revenue for small homes. A secondary source reports about $8,234/month, which does not match CareScout and is unreconciled [S47].",
+      "source_id": "S27"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living community, New Jersey statewide median (CareScout 2024)",
+      "rate": 8548,
+      "unit": "per month",
+      "effective": "2024",
+      "notes": "$102,570/yr; survey fielded July–December 2024. Prior-year benchmark; use the 2025 figure for modeling.",
+      "source_id": "S25"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "Medicaid-volume tier add-on for ALRs and CPCHs, 15% to under 30% Medicaid census",
+      "rate": 10,
+      "unit": "per day add-on",
+      "effective": "2023 enactment; tier add-ons unchanged for FY2026",
+      "notes": "P.L. 2023, c.80. Census is the yearly average from paid claims against total licensed beds. Not in modeled revenue; stacking on the $91.10 base unconfirmed.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "Medicaid-volume tier add-on for ALRs and CPCHs, 30% to under 50% Medicaid census",
+      "rate": 15,
+      "unit": "per day add-on",
+      "effective": "2023 enactment; tier add-ons unchanged for FY2026",
+      "notes": "P.L. 2023, c.80. Census measured as for the other tiers. Not in modeled revenue; stacking on the $91.10 base unconfirmed.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NJ FamilyCare MLTSS (Medicaid)",
+      "code": "",
+      "service": "Medicaid-volume tier add-on for ALRs and CPCHs, 50% to under 70% Medicaid census",
+      "rate": 30,
+      "unit": "per day add-on",
+      "effective": "2023 enactment; tier add-ons unchanged for FY2026",
+      "notes": "P.L. 2023, c.80. Census measured as for the other tiers. Not in modeled revenue; stacking on the $91.10 base unconfirmed.",
+      "source_id": "S17"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "NJDOH Certificate of Need and Licensing Program",
+      "role": "CoN, license applications, renewals, change of ownership",
+      "contact": "(609) 292-6552; intake/renewals 609-376-7800; PO Box 358, Trenton NJ 08625-0358; email CNLapps@doh.nj.gov for applications with proof of payment, cnandlicensingrequests@doh.nj.gov for intake and renewals"
+    },
+    {
+      "name": "NJDOH Division of Health Facility Survey and Field Operations",
+      "role": "Surveys and complaints",
+      "contact": "(800) 792-9770 (complaint and incident hotline); LTC complaint and surveillance 609-633-8991; PO Box 367, Trenton NJ 08625-0358"
+    },
+    {
+      "name": "NJDOH reportable events line",
+      "role": "Immediate telephone report of reportable events; written confirmation within 72 hours",
+      "contact": "(609) 633-9034; after hours (609) 392-2020"
+    },
+    {
+      "name": "NJDOH forms page",
+      "role": "License application forms",
+      "contact": "https://www.nj.gov/health/forms"
+    },
+    {
+      "name": "NJDOH Long-Term Care License Application Fees page",
+      "role": "Fee amounts and payment/proof-of-payment instructions",
+      "contact": "https://nj.gov/health/healthfacilities/ltc_epay.shtml"
+    },
+    {
+      "name": "NJDOH Assisted Living Administrator Certification",
+      "role": "Administrator certification, renewal, CE requirements",
+      "contact": "https://www.nj.gov/health/healthfacilities/certification-licensing/assisted-living-admin/ ; phone 609-633-9706 (Certified Assisted Living Administrators)"
+    },
+    {
+      "name": "NJ DMAHS fiscal agent (njmmis.com)",
+      "role": "Fee schedules, per the DHS notice, which says schedules will be posted under 'rate and code information' once available",
+      "contact": "https://www.njmmis.com"
+    },
+    {
+      "name": "NJ DMAHS EVV program (HHAeXchange, state-selected free vendor)",
+      "role": "Electronic visit verification for covered NJ FamilyCare services",
+      "contact": "https://www.nj.gov/humanservices/dmahs/providers-stakeholders/overview/evv.shtml"
+    },
+    {
+      "name": "NJ Division of Revenue and Enterprise Services",
+      "role": "LLC certificate of formation and annual filings",
+      "contact": "https://www.nj.gov/treasury/revenue/fees.shtml"
+    },
+    {
+      "name": "NJ Department of Labor and Workforce Development",
+      "role": "Minimum wage, unemployment insurance, TDI/FLI",
+      "contact": "https://www.nj.gov/labor/"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.85,
+      "optimistic": 0.95,
+      "rationale": "No official NJ ALR occupancy or vacancy dataset was located (see not_claimed), so these three values are operator planning assumptions, not sourced facts. New buildings ramp up from a small initial census, and the generator charges the ramp-up deficit. Rent and most staffing are fixed regardless of census, so results are sensitive to occupancy; the 85% case matters.",
+      "source_id": ""
+    },
+    "ramp": {
+      "start_clients": 3,
+      "add_per_month": 2
+    },
+    "payroll_burden": {
+      "payroll_tax_pct": 0.11,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.07,
+      "notes": "Payroll taxes 11% = employer FICA 7.65% (federal statutory rate, operator-applied) + NJ unemployment insurance for a new employer at 2.8% + employer temporary disability insurance 0.50% for new employers [S35]. The 2.8% new-employer rate is a combined figure: 2.6825% UI plus 0.1175% Workforce Development/Supplemental Workforce Fund (NJDOL Table C, FY2026-27, 7/1/2026 to 6/30/2027); the two figures seen in secondary sources are not in conflict [S33]. The 2026 UI taxable wage base is reported as $44,800 [S32], so nearly all aide wages are taxable. Federal unemployment tax (FUTA, typically 0.6% on the first $7,000 per employee after the state credit, about $42 per employee per year) is not itemized separately; treat it as absorbed in the 7% benefits estimate. No entity-level tax is modeled; have a CPA confirm the tax treatment. Workers' compensation 5% is an operator estimate (premium rates and class codes for residential care were not found; the $1,199 figure in [S32] is a benefit cap, not a premium). Benefits 7% is an operator estimate. All modeled wages are at or above the NJ minimum wage of $15.92/hour effective 1/1/2026 [S28]; the 2027 CPI-adjusted rate was not checked. No local minimum wage ordinance (Newark, Jersey City, etc.) was found.",
+      "source_id": "S33"
+    },
+    "opex": [
+      {
+        "item": "Building lease (apartment units, fixed, sized to licensed units)",
+        "monthly": 72880,
+        "basis": "fixed",
+        "source_id": "S43",
+        "notes": "Operator estimate built on a sourced benchmark: HUD FY2026 Fair Market Rent for the Newark HMFA (Essex, Morris, Sussex, Union), 1-bedroom = $1,822 [S43][S44], applied per licensed apartment unit (40 units × $1,822 = $72,880). ALR units must have at least one room, private bath, kitchenette and lockable door [S1], so 1BR is a reasonable unit proxy. This is a residential benchmark only: it excludes dining, kitchen, activity and office space, and real commercial or purpose-built terms may differ materially. Newark-area rents are among the highest in NJ; units elsewhere in the state may rent for less. Whether Newark was in HUD's May 2026 mid-year revisions is unconfirmed. Vacant units still cost rent, so this is fixed. Operator estimate - verify locally."
+      },
+      {
+        "item": "Common areas / NNN, property tax and CAM pass-through allowance (fixed)",
+        "monthly": 12000,
+        "basis": "fixed",
+        "notes": "$300 per licensed unit per month (40 units = $12,000). Operator estimate - verify locally. Covers common-area charges and property-tax pass-throughs not captured by the unit-rent benchmark."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed units)",
+        "monthly": 3600,
+        "basis": "fixed",
+        "notes": "$90 per licensed unit per month (40 units = $3,600). Operator estimate - verify locally."
+      },
+      {
+        "item": "Food (3 meals + snacks; congregate dining)",
+        "monthly": 450,
+        "basis": "per_client",
+        "notes": "About $14.80 per resident-day. Operator estimate - verify with your food vendor."
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 90,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "General and professional liability insurance",
+        "monthly": 130,
+        "basis": "per_client",
+        "notes": "No liability insurance minimum for ALR licensure was found in the research (see not_claimed); landlords, lenders and MLTSS plans typically require coverage. Premium is an operator estimate - get quotes."
+      },
+      {
+        "item": "Repairs and maintenance (fixed, sized to licensed units)",
+        "monthly": 3000,
+        "basis": "fixed",
+        "notes": "$75 per licensed unit per month. Operator estimate."
+      },
+      {
+        "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "Operator estimate - get vendor quotes. Local fire authority approval is required before licensure [S1]."
+      },
+      {
+        "item": "Activities and recreation",
+        "monthly": 35,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Referral / placement agency fees (amortized)",
+        "monthly": 150,
+        "basis": "per_client",
+        "notes": "Operator estimate. Placement agencies typically charge a one-time fee per private-pay move-in; amortized over an average stay. Verify each agency's contract."
+      },
+      {
+        "item": "DOH annual license renewal ÷ 12 ($1,500 + $15 per bed)",
+        "monthly": 175,
+        "basis": "fixed",
+        "source_id": "S3",
+        "notes": "Renewal fee is $1,500 + $15 per bed, nonrefundable [S3][S2]. 40 beds = $2,100/yr ÷ 12 = $175."
+      },
+      {
+        "item": "DOH biennial inspection fee ÷ 24 ($1,500)",
+        "monthly": 62.5,
+        "basis": "fixed",
+        "source_id": "S3",
+        "notes": "$1,500 biennial inspection fee, assessed in the inspection year together with that year's annual license fee [S3][S2]. Spread over 24 months."
+      },
+      {
+        "item": "eMAR / care documentation software",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "$15 per licensed unit per month. Operator estimate - get vendor quotes. NJ EVV (HHAeXchange, state-selected free vendor) is required for certain NJ FamilyCare services; its go-live list names personal care and MLTSS home-based supportive care and does not name ALR residential care [S41][S42]. Whether EVV applies to ALR-based MLTSS services is unconfirmed, so no EVV cost is modeled; confirm with your MLTSS plan."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 2500,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and website",
+        "monthly": 3500,
+        "basis": "fixed",
+        "notes": "Operator estimate. Only licensed ALRs and CPCHs may advertise themselves as providing assisted living [S12]."
+      },
+      {
+        "item": "Training, administrator CE, CPR/first aid, background and registry checks",
+        "monthly": 500,
+        "basis": "fixed",
+        "source_id": "S5",
+        "notes": "Administrator certification renewal needs 30 hours of continuing education every 3 years plus a background check [S5]. Dementia training is required for all direct-care staff if you advertise a dementia program [S1]. Costs are an operator estimate."
+      },
+      {
+        "item": "Phone, internet and IT",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate. Transportation is optional."
+      },
+      {
+        "item": "NJ LLC annual report ÷ 12 ($75/yr)",
+        "monthly": 6.25,
+        "basis": "fixed",
+        "source_id": "S38",
+        "notes": "$75 annual report fee per a secondary guide [S38]; not confirmed on the official Treasury page. NJ does not impose a franchise tax on LLCs, though corporation business tax may apply by election [S39]; no entity tax is modeled."
+      }
+    ],
+    "configurations": [
+      {
+        "id": "alr20_mix",
+        "label": "20-unit ALR, 90% private pay / 10% Medicaid (MLTSS)",
+        "capacity": 20,
+        "notes": "Smallest realistic apartment-style ALR in the model. CPCH is reported closed to new entrants [S51] (unverified), so a small residential-home model is not offered. The 10% Medicaid share reflects the rule that a newly licensed ALR must reach at least 10% Medicaid-eligible occupancy within three years, waivable by the Commissioner [S10]. At 90% occupancy (18 residents) this configuration loses about $2,900/month: fixed costs (rent, the 24/7 two-person staffing floor [S6], administrator) are spread over too few residents. It needs a rate above the CareScout median, a lower rent or owner-administrator labor to work. The CareScout $8,710 figure measures a private one-bedroom in an AL community [S27]. Medicaid revenue uses the SFY2026 base per diem [S16] (CMS approval unconfirmed), plus the resident room standard of $996.40 [S20]; whether a facility may collect that full amount from the resident is unverified.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 NJ median, AL community)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 8710,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.9,
+            "source_id": "S27"
+          },
+          {
+            "name": "Resident room payment, Medicaid resident (2026 HCBS ALR room standard)",
+            "payer": "Resident (MLTSS)",
+            "code": "R&B",
+            "rate": 996.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.1,
+            "source_id": "S20"
+          },
+          {
+            "name": "ALR Medicaid base per diem, care services only (SFY2026)",
+            "payer": "NJ FamilyCare MLTSS (Medicaid)",
+            "code": "",
+            "rate": 91.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.1,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Awake personal care assistant on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "At least one awake PCA on the premises at all times [S6]. PCAs must have an approved nurse aide course plus the NJ nurse aide exam, or the approved PCA course and certification [S1]. Wage is the NJ 75th-percentile home health aide wage ($21.43; median $17.83) per O*NET/BLS 2025 [S30], used because PCAs hold certifications."
+          },
+          {
+            "role": "Additional employee on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "The rule also requires one additional employee on premises at all times [S6]. Modeled at the NJ median aide wage as a proxy ($17.83) [S30]."
+          },
+          {
+            "role": "Additional PCA hours scaled to resident acuity",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_client_month",
+            "amount": 55,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "The listed levels are minimums only; staffing must scale to acuity [S6], and 20% of residents must have nursing-home-level needs within 36 months of licensure [S2]. 55 hours per resident-month is an operator estimate - verify locally; a sensitivity at 70 hours is in the financial narrative."
+          },
+          {
+            "role": "Director of nursing / RN (80 hrs/month)",
+            "wage_hourly": 50,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 80,
+            "cite": "N.J.A.C. 8:36-8.2",
+            "notes": "Operator estimate - verify locally. N.J.A.C. 8:36-8.2 requires at least one registered professional nurse available at all times, and each resident needs an RN assessment and care plan. This 80-hour line does not cover the remaining hours: no on-call stipend, relief or contract RN cost is modeled, so net figures exclude that cost. Confirm with DOH what 'available' means for coverage and response time. No sourced NJ RN wage was retrieved. The 20% nursing-home-level commitment [S2] makes clinical oversight a practical necessity."
+          },
+          {
+            "role": "Administrator (certified; owner may serve if qualified)",
+            "wage_source_id": "",
+            "basis": "annual_salary",
+            "amount": 75000,
+            "cite": "N.J.A.C. 8:36-3.2",
+            "notes": "Required: age 21+, high school diploma, and an NJ nursing home administrator license or NJ assisted living administrator certification [S4][S5]. Salary is an operator estimate; no sourced NJ OEWS figure was retrieved. If the owner serves as administrator, this line is the owner's pay."
+          },
+          {
+            "role": "Cook / dietary (300 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 300,
+            "notes": "Operator staffing choice; NJ median aide wage used as proxy [S30] because no NJ cook wage was retrieved."
+          },
+          {
+            "role": "Housekeeping / laundry (173 hrs/month)",
+            "wage_hourly": 16.67,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "NJ 25th-percentile aide wage ($16.67) used as proxy [S30]; above the $15.92 NJ minimum [S28]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator planning assumption - verify against your referral pipeline. No admissions are allowed before DOH written approval or license [S1]."
+        },
+        "opex_overrides": [
+          {
+            "item": "Building lease (apartment units, fixed, sized to licensed units)",
+            "monthly": 36440,
+            "basis": "fixed",
+            "source_id": "S43",
+            "notes": "20 units × $1,822 (Newark HMFA FY2026 1BR FMR) [S43][S44] = $36,440. Operator estimate - verify locally."
+          },
+          {
+            "item": "Common areas / NNN, property tax and CAM pass-through allowance (fixed)",
+            "monthly": 6000,
+            "basis": "fixed",
+            "notes": "20 units × $300. Operator estimate."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed units)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "20 units × $90. Operator estimate."
+          },
+          {
+            "item": "Repairs and maintenance (fixed, sized to licensed units)",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "20 units × $75. Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "DOH annual license renewal ÷ 12 ($1,500 + $15 per bed)",
+            "monthly": 150,
+            "basis": "fixed",
+            "source_id": "S3",
+            "notes": "20 beds: $1,500 + $300 = $1,800/yr ÷ 12 [S3]."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "20 units × $15. Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and website",
+            "monthly": 2000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator CE, CPR/first aid, background and registry checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet and IT",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "alr40_mix",
+        "label": "40-unit ALR, 90% private pay / 10% Medicaid (MLTSS)",
+        "capacity": 40,
+        "notes": "The configuration an expert operator would pick: large enough to spread the 24/7 staffing floor [S6] and administrator, with the 10% Medicaid share needed to satisfy the rule that new ALRs reach at least 10% Medicaid-eligible occupancy within three years (waivable) [S10]. At 90% occupancy (36 residents) it nets about $33,000/month on a revenue of about $295,800 before debt service and owner distributions, and needs roughly 76% occupancy to break even. Private pay uses the CareScout 2025 NJ median of $8,710 [S27], which measures a private one-bedroom in an AL community and fits apartment-style ALRs best. Medicaid revenue uses the SFY2026 base per diem [S16] (CMS approval unconfirmed) plus the resident room standard [S20]; whether the facility may collect the full $996.40 is unverified.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 NJ median, AL community)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 8710,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.9,
+            "source_id": "S27"
+          },
+          {
+            "name": "Resident room payment, Medicaid resident (2026 HCBS ALR room standard)",
+            "payer": "Resident (MLTSS)",
+            "code": "R&B",
+            "rate": 996.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.1,
+            "source_id": "S20"
+          },
+          {
+            "name": "ALR Medicaid base per diem, care services only (SFY2026)",
+            "payer": "NJ FamilyCare MLTSS (Medicaid)",
+            "code": "",
+            "rate": 91.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.1,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Awake personal care assistant on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "At least one awake PCA on the premises at all times [S6]; each free-standing resident building needs its own PCA. Wage is the NJ 75th-percentile aide wage [S30]."
+          },
+          {
+            "role": "Additional employee on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "One additional employee on premises at all times [S6]. NJ median aide wage as proxy [S30]."
+          },
+          {
+            "role": "Additional PCA hours scaled to resident acuity",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_client_month",
+            "amount": 55,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Levels are minimums only [S6]; 20% of residents must be at nursing-home level within 36 months [S2]. 55 hours per resident-month is an operator estimate - verify locally. At 36 residents this gives about 3.1 total care hours per resident-day including the floor."
+          },
+          {
+            "role": "Director of nursing / RN (173 hrs/month, 40 hrs/week)",
+            "wage_hourly": 50,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "N.J.A.C. 8:36-8.2",
+            "notes": "Operator estimate - verify locally. N.J.A.C. 8:36-8.2 requires at least one registered professional nurse available at all times; a 40-hour week does not cover 24/7 availability, and no on-call or contract RN cost for the remaining hours is modeled. Confirm with DOH what 'available' means for coverage and response time. No sourced NJ RN wage retrieved."
+          },
+          {
+            "role": "Administrator (certified)",
+            "wage_source_id": "",
+            "basis": "annual_salary",
+            "amount": 90000,
+            "cite": "N.J.A.C. 8:36-3.2",
+            "notes": "Age 21+, high school diploma, NJ nursing home administrator license or assisted living administrator certification [S4][S5]. Salary is an operator estimate; no sourced NJ wage retrieved."
+          },
+          {
+            "role": "Cook / dietary (600 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 600,
+            "notes": "Operator staffing choice; NJ median aide wage used as proxy [S30]."
+          },
+          {
+            "role": "Housekeeping / laundry (347 hrs/month)",
+            "wage_hourly": 16.67,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 346.7,
+            "notes": "NJ 25th-percentile aide wage proxy [S30]; above $15.92 minimum [S28]."
+          },
+          {
+            "role": "Activities coordinator (173 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator staffing choice; NJ median aide wage proxy [S30]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption - verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Building lease (apartment units, fixed, sized to licensed units)",
+            "monthly": 72880,
+            "basis": "fixed",
+            "source_id": "S43",
+            "notes": "40 units × $1,822 (Newark HMFA FY2026 1BR FMR) [S43][S44] = $72,880. Excludes common areas. Operator estimate - verify locally."
+          },
+          {
+            "item": "Common areas / NNN, property tax and CAM pass-through allowance (fixed)",
+            "monthly": 12000,
+            "basis": "fixed",
+            "notes": "40 units × $300. Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "alr60_mix",
+        "label": "60-unit ALR, 90% private pay / 10% Medicaid (MLTSS)",
+        "capacity": 60,
+        "notes": "Larger building with better fixed-cost leverage, but heavier capital need and a slower fill (54 residents at 90%). At 90% occupancy it nets about $72,000/month on revenue of about $443,700. Rent is the largest cost (60 × $1,822 plus common-area allowance), so a slower ramp or lower occupancy hurts more in absolute dollars. Full-time on-site administrator thresholds by bed count were not verified in current rule text (see not_claimed). Private-pay figure is the CareScout 2025 NJ median [S27]; Medicaid assumptions as in the other configurations [S16][S20].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 NJ median, AL community)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 8710,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.9,
+            "source_id": "S27"
+          },
+          {
+            "name": "Resident room payment, Medicaid resident (2026 HCBS ALR room standard)",
+            "payer": "Resident (MLTSS)",
+            "code": "R&B",
+            "rate": 996.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.1,
+            "source_id": "S20"
+          },
+          {
+            "name": "ALR Medicaid base per diem, care services only (SFY2026)",
+            "payer": "NJ FamilyCare MLTSS (Medicaid)",
+            "code": "",
+            "rate": 91.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.1,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Awake personal care assistant on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Rule floor [S6]; with 54 residents the acuity hours below add overnight and day coverage beyond the minimum. Wage is the NJ 75th-percentile aide wage [S30]."
+          },
+          {
+            "role": "Additional employee on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "One additional employee on premises at all times [S6]. NJ median aide wage proxy [S30]."
+          },
+          {
+            "role": "Additional PCA hours scaled to resident acuity",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_client_month",
+            "amount": 55,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Operator estimate - verify locally; levels are minimums only [S6]. About 3.0 total care hours per resident-day at 54 residents."
+          },
+          {
+            "role": "Director of nursing / RN (260 hrs/month)",
+            "wage_hourly": 50,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "cite": "N.J.A.C. 8:36-8.2",
+            "notes": "Operator estimate - verify locally; about 1.5 FTE of nursing oversight. N.J.A.C. 8:36-8.2 requires at least one registered professional nurse available at all times; no on-call or contract RN cost for hours beyond this line is modeled. Confirm with DOH what 'available' means."
+          },
+          {
+            "role": "Administrator (certified)",
+            "wage_source_id": "",
+            "basis": "annual_salary",
+            "amount": 100000,
+            "cite": "N.J.A.C. 8:36-3.2",
+            "notes": "Certification required [S4][S5]. Salary is an operator estimate."
+          },
+          {
+            "role": "Cook / dietary (900 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 900,
+            "notes": "Operator staffing choice; NJ median aide wage proxy [S30]."
+          },
+          {
+            "role": "Housekeeping / laundry (520 hrs/month)",
+            "wage_hourly": 16.67,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 520,
+            "notes": "NJ 25th-percentile aide wage proxy [S30]; above $15.92 minimum [S28]."
+          },
+          {
+            "role": "Activities coordinator (260 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Operator staffing choice; NJ median aide wage proxy [S30]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 6,
+          "add_per_month": 4,
+          "note": "Operator planning assumption - verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Building lease (apartment units, fixed, sized to licensed units)",
+            "monthly": 109320,
+            "basis": "fixed",
+            "source_id": "S43",
+            "notes": "60 units × $1,822 (Newark HMFA FY2026 1BR FMR) [S43][S44] = $109,320. Excludes common areas. Operator estimate - verify locally."
+          },
+          {
+            "item": "Common areas / NNN, property tax and CAM pass-through allowance (fixed)",
+            "monthly": 18000,
+            "basis": "fixed",
+            "notes": "60 units × $300. Operator estimate."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed units)",
+            "monthly": 5400,
+            "basis": "fixed",
+            "notes": "60 units × $90. Operator estimate."
+          },
+          {
+            "item": "Repairs and maintenance (fixed, sized to licensed units)",
+            "monthly": 4500,
+            "basis": "fixed",
+            "notes": "60 units × $75. Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "DOH annual license renewal ÷ 12 ($1,500 + $15 per bed)",
+            "monthly": 200,
+            "basis": "fixed",
+            "source_id": "S3",
+            "notes": "60 beds: $1,500 + $900 = $2,400/yr ÷ 12 [S3]."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "60 units × $15. Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 3500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and website",
+            "monthly": 4500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator CE, CPR/first aid, background and registry checks",
+            "monthly": 700,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet and IT",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "alr40_med30",
+        "label": "40-unit ALR, 70% private pay / 30% Medicaid (MLTSS)",
+        "capacity": 40,
+        "notes": "Shows the effect of a heavier Medicaid mix with the same building and staff as the 40-unit base case. Each Medicaid resident brings about $3,768/month (room $996.40 [S20] + $91.10 × 30.42 days [S16]) versus $8,710 private [S27]. At 90% occupancy it loses about $2,700/month at the base per diem only. P.L. 2023, c.80 adds a tier per diem on top of the minimum: $10 at 15% to under 30% Medicaid census and $15 at 30% to under 50%. The census is the yearly average from paid claims, measured against total licensed beds [S17]. At 90% occupancy a nominal 30% mix is about 10.8 Medicaid residents, or about 27% of 40 licensed beds, so the $10 tier would apply. That add-on is NOT in the modeled revenue. It would be worth about $304 per Medicaid resident-month ($10 × 30.42) or roughly $3,300/month, which would bring this configuration to roughly break-even, if it stacks on the $91.10 base (unconfirmed with DMAHS). The $15 tier needs 12 Medicaid residents (30% of licensed beds). Actual MLTSS plan contract rates are unknown (see not_claimed).",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 NJ median, AL community)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 8710,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.7,
+            "source_id": "S27"
+          },
+          {
+            "name": "Resident room payment, Medicaid resident (2026 HCBS ALR room standard)",
+            "payer": "Resident (MLTSS)",
+            "code": "R&B",
+            "rate": 996.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3,
+            "source_id": "S20"
+          },
+          {
+            "name": "ALR Medicaid base per diem, care services only (SFY2026)",
+            "payer": "NJ FamilyCare MLTSS (Medicaid)",
+            "code": "",
+            "rate": 91.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Awake personal care assistant on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Rule floor [S6]. NJ 75th-percentile aide wage [S30]."
+          },
+          {
+            "role": "Additional employee on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Rule floor [S6]. NJ median aide wage proxy [S30]."
+          },
+          {
+            "role": "Additional PCA hours scaled to resident acuity",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_client_month",
+            "amount": 55,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Operator estimate - verify locally. Medicaid MLTSS residents must need nursing-home level of care (3+ ADLs of hands-on help) [S21], so acuity is likely higher than in the private-pay mix; this model does not raise it."
+          },
+          {
+            "role": "Director of nursing / RN (173 hrs/month)",
+            "wage_hourly": 50,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "N.J.A.C. 8:36-8.2",
+            "notes": "Operator estimate - verify locally. N.J.A.C. 8:36-8.2 requires an RN available at all times; no on-call or contract RN cost for hours beyond this line is modeled."
+          },
+          {
+            "role": "Administrator (certified)",
+            "wage_source_id": "",
+            "basis": "annual_salary",
+            "amount": 90000,
+            "cite": "N.J.A.C. 8:36-3.2",
+            "notes": "Certification required [S4][S5]. Salary is an operator estimate."
+          },
+          {
+            "role": "Cook / dietary (600 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 600,
+            "notes": "Operator staffing choice; NJ median aide wage proxy [S30]."
+          },
+          {
+            "role": "Housekeeping / laundry (347 hrs/month)",
+            "wage_hourly": 16.67,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 346.7,
+            "notes": "NJ 25th-percentile aide wage proxy [S30]."
+          },
+          {
+            "role": "Activities coordinator (173 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator staffing choice [S30]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption. Many ALFs reportedly require a long private-pay period before accepting Medicaid (secondary source [S54]), which can slow Medicaid fill."
+        },
+        "opex_overrides": [
+          {
+            "item": "Building lease (apartment units, fixed, sized to licensed units)",
+            "monthly": 72880,
+            "basis": "fixed",
+            "source_id": "S43",
+            "notes": "40 units × $1,822 [S43][S44]. Operator estimate - verify locally."
+          },
+          {
+            "item": "Common areas / NNN, property tax and CAM pass-through allowance (fixed)",
+            "monthly": 12000,
+            "basis": "fixed",
+            "notes": "40 units × $300. Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "alr40_med70",
+        "label": "40-unit ALR, 30% private pay / 70% Medicaid (MLTSS)",
+        "capacity": 40,
+        "notes": "Medicaid-heavy model. P.L. 2023 c.80 gives ALRs and CPCHs tier per diems above the minimum: $30 at 50% to under 70% Medicaid census and $35 at 70% or more, measured as the yearly average from paid claims against total licensed beds [S17]. The model uses only the $91.10 base per diem [S16] and does not add any tier, because how DMAHS stacks the add-on on the base is unconfirmed. At 90% occupancy a nominal 70% mix is about 25.2 Medicaid residents, or about 63% of 40 licensed beds, so the $30 tier would apply rather than the $35 tier. The $30 add-on would be worth about $913 per Medicaid resident-month (30 × 30.42), or about $23,000/month, and would shrink the modeled loss to about $50,900/month; the configuration would still lose money. The $35 tier needs 28 Medicaid residents (70% of 40 beds), i.e. a full building at a 70% mix. At 90% occupancy it loses about $74,000/month at base rates. Medicaid residents need nursing-home level of care [S21], which would raise staffing above the modeled hours.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 NJ median, AL community)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 8710,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3,
+            "source_id": "S27"
+          },
+          {
+            "name": "Resident room payment, Medicaid resident (2026 HCBS ALR room standard)",
+            "payer": "Resident (MLTSS)",
+            "code": "R&B",
+            "rate": 996.4,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.7,
+            "source_id": "S20"
+          },
+          {
+            "name": "ALR Medicaid base per diem, care services only (SFY2026)",
+            "payer": "NJ FamilyCare MLTSS (Medicaid)",
+            "code": "",
+            "rate": 91.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.7,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Awake personal care assistant on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Rule floor [S6]. NJ 75th-percentile aide wage [S30]."
+          },
+          {
+            "role": "Additional employee on premises 24/7 (rule floor, 730 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Rule floor [S6]. NJ median aide wage proxy [S30]."
+          },
+          {
+            "role": "Additional PCA hours scaled to resident acuity",
+            "wage_hourly": 21.43,
+            "wage_source_id": "S30",
+            "basis": "hours_per_client_month",
+            "amount": 55,
+            "cite": "N.J.A.C. 8:36-9.3",
+            "notes": "Operator estimate - verify locally; likely understated for an all-nursing-home-level-of-care Medicaid census [S21]."
+          },
+          {
+            "role": "Director of nursing / RN (173 hrs/month)",
+            "wage_hourly": 50,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "N.J.A.C. 8:36-8.2",
+            "notes": "Operator estimate - verify locally. N.J.A.C. 8:36-8.2 requires an RN available at all times; no on-call or contract RN cost for hours beyond this line is modeled."
+          },
+          {
+            "role": "Administrator (certified)",
+            "wage_source_id": "",
+            "basis": "annual_salary",
+            "amount": 90000,
+            "cite": "N.J.A.C. 8:36-3.2",
+            "notes": "Certification required [S4][S5]. Salary is an operator estimate."
+          },
+          {
+            "role": "Cook / dietary (600 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 600,
+            "notes": "Operator staffing choice; NJ median aide wage proxy [S30]."
+          },
+          {
+            "role": "Housekeeping / laundry (347 hrs/month)",
+            "wage_hourly": 16.67,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 346.7,
+            "notes": "NJ 25th-percentile aide wage proxy [S30]."
+          },
+          {
+            "role": "Activities coordinator (173 hrs/month)",
+            "wage_hourly": 17.83,
+            "wage_source_id": "S30",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator staffing choice [S30]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption. The Medicaid AL/AFC slot cap and waitlist (reported only by an undated secondary source [S52]) are unverified."
+        },
+        "opex_overrides": [
+          {
+            "item": "Building lease (apartment units, fixed, sized to licensed units)",
+            "monthly": 72880,
+            "basis": "fixed",
+            "source_id": "S43",
+            "notes": "40 units × $1,822 [S43][S44]. Operator estimate - verify locally."
+          },
+          {
+            "item": "Common areas / NNN, property tax and CAM pass-through allowance (fixed)",
+            "monthly": 12000,
+            "basis": "fixed",
+            "notes": "40 units × $300. Operator estimate."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "alr40_mix",
+    "startup_costs": [
+      {
+        "item": "NJ LLC certificate of formation",
+        "low": 100,
+        "high": 100,
+        "source_id": "S36",
+        "notes": "The Treasury DORES fee schedule lists $100 for an LLC certificate of formation [S36]; a CPA guide is consistent [S37]."
+      },
+      {
+        "item": "DOH initial ALR license fee ($1,500 + $15 per bed; 20 beds $1,800 to 60 beds $2,400), paid with the application",
+        "low": 1800,
+        "high": 2400,
+        "source_id": "S3",
+        "notes": "Nonrefundable; DOH will not process applications without proof of payment [S3][S2]."
+      },
+      {
+        "item": "DOH biennial inspection fee ($1,500), assessed in the inspection year with the annual fee",
+        "low": 1500,
+        "high": 1500,
+        "source_id": "S3",
+        "notes": "Included as a precaution; confirm with DOH whether it is charged in the initial licensure year [S3][S2]."
+      },
+      {
+        "item": "Certificate of Need preparation (consultant, legal, application)",
+        "low": 15000,
+        "high": 40000,
+        "source_id": "S13",
+        "notes": "A CoN is required before the license application [S2][S13]. This $15,000 to $40,000 range is an operator estimate for consultant, legal and application preparation and does NOT include the DOH CoN filing fee, which is a separate line below. The expedited-review fee and review timeline were not confirmed (see not_claimed) - verify locally."
+      },
+      {
+        "item": "Architect, engineering and DCA Health Care Plan Review (new or expanded construction)",
+        "low": 25000,
+        "high": 150000,
+        "source_id": "S1",
+        "notes": "Construction plans for new or expanded facilities go to DCA's Health Care Plan Review Unit before construction starts [S1]. Operator estimate."
+      },
+      {
+        "item": "Local zoning, fire, health and building approvals and certificate of occupancy",
+        "low": 5000,
+        "high": 25000,
+        "source_id": "S1",
+        "notes": "Required before licensure [S1]. Operator estimate; local siting standards were not verified."
+      },
+      {
+        "item": "Unit build-out / tenant improvements (private bath, kitchenette, lockable door per unit; life-safety systems)",
+        "low": 300000,
+        "high": 1200000,
+        "source_id": "S1",
+        "notes": "Unit features required [S1]. About $15,000-$20,000 per unit is an operator estimate - get contractor quotes; landlords sometimes fund part of the build-out."
+      },
+      {
+        "item": "Commercial kitchen, dining room and common-area equipment",
+        "low": 40000,
+        "high": 120000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Furnishings and resident-care equipment (about $3,000 per unit)",
+        "low": 60000,
+        "high": 180000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Lease deposit + first month (two months of modeled rent and common-area charges)",
+        "low": 84880,
+        "high": 254640,
+        "source_id": "S43",
+        "notes": "Two months of the modeled lease plus common-area allowance: 20 units $42,440/month to 60 units $127,320/month. Operator estimate."
+      },
+      {
+        "item": "Administrator certification training, exam and background check",
+        "low": 1000,
+        "high": 3000,
+        "source_id": "S5",
+        "notes": "Certification requires the assisted living training course, the competency exam within 2 years of the course, and a criminal background check [S4][S5]. Course hours and price were not verified; operator estimate."
+      },
+      {
+        "item": "Medicaid provider enrollment application fee (CY2026 federal, if applicable)",
+        "low": 750,
+        "high": 750,
+        "source_id": "S24",
+        "notes": "$750 for applications submitted in calendar 2026 [S24]. Whether ALRs are classed as institutional providers for this fee, and any NJ-specific enrollment fee, were not confirmed."
+      },
+      {
+        "item": "Insurance down payments, policies and procedures manual, eMAR setup",
+        "low": 10000,
+        "high": 40000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Launch marketing and pre-opening open house",
+        "low": 10000,
+        "high": 50000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Pre-opening hiring, training and survey readiness (staff paid before first admission)",
+        "low": 30000,
+        "high": 120000,
+        "source_id": "S1",
+        "notes": "DOH conducts an on-site survey when the application is approved and the building is ready for occupancy, and no resident may be admitted before written approval or license [S1]. Operator estimate."
+      },
+      {
+        "item": "Working capital reserve through ramp-up",
+        "low": 400000,
+        "high": 1500000,
+        "category": "working_capital",
+        "notes": "Operator estimate. No state-mandated minimum reserve was found for ALR licensure. The generator replaces this with the modeled ramp-up deficit."
+      },
+      {
+        "item": "Certificate of Need filing fee (placeholder from full-review schedule)",
+        "low": 7500,
+        "high": 16000,
+        "source_id": "",
+        "notes": "DOH's long-term-care full-review CoN instructions (N.J.A.C. 8:33 Appendix B) set $7,500 for total project cost up to $1,000,000, and $7,500 plus 0.25% of total project cost above $1,000,000. The fee must accompany the application or it will not be accepted. The 40- and 60-unit builds exceed $1M, so about $12,000 to $16,000 or more. Whether expedited review for new assisted living uses the same fee was not confirmed; confirm with CN&L at 609-292-6552."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "New Jersey licenses three assisted living categories through the NJ Department of Health (DOH) under N.J.A.C. 8:36 [S1][S14]. The **Assisted Living Residence (ALR)** offers apartment-style housing, dining and assisted living services. Each unit has at least one unfurnished room, a private bath, a kitchenette and a lockable entrance door [S1][S9]. The **Comprehensive Personal Care Home (CPCH)** is a room-and-board license with units of no more than two residents [S1][S14]. The **Assisted Living Program (ALP)** is a services-only license for residents of publicly subsidized housing [S9][S14]. A secondary guide reports that new CPCH licenses are not available, but this was not verified in rule text [S51]. This report therefore models the apartment-style ALR, the route a new entrant would realistically take.\n\nA **Certificate of Need (CoN)** must come first. A license application can be filed only after a CoN is received [S2], and DOH's CoN table lists new assisted living facilities as eligible for expedited review [S13]. DOH's full-review long-term-care CoN instructions set a filing fee of $7,500 for a total project cost up to $1,000,000, and $7,500 plus 0.25% of total project cost above that (N.J.A.C. 8:33 Appendix B). The 40- and 60-unit builds exceed $1 million, so the fee is roughly $12,000 to $16,000 or more. Whether expedited review for new assisted living uses the same fee, and the review timeline, are not confirmed (see \"What this report does not claim\").\n\nMost revenue is private pay. CareScout's 2025 survey puts the New Jersey median for an assisted living community at $104,520 a year, about $8,710 a month [S27]. The 2024 survey figure was $102,570, about $8,548 a month [S25]. Medicaid pays for care services only. Long-term care for assisted living runs through NJ FamilyCare managed care (MLTSS) [S49][S21]. DHS's FY2026 notice sets a base per diem of no less than $91.10 for ALRs, $81.10 for CPCHs and $79.10 for ALPs [S16]. These are SFY2026 rates; SFY2027 began July 1, 2026 and no SFY2027 rate notice was checked, so they may have been superseded. The resident pays room and board; the 2026 DMAHS ALR room standard is $996.40 a month [S20][S47]. The state notice said DHS would seek CMS approval of these rates, and no official post-approval source was found [S16]. On top of the base, P.L. 2023, c.80 adds tier per diems for ALRs and CPCHs with a higher Medicaid census: $10 at 15% to under 30%, $15 at 30% to under 50%, $30 at 50% to under 70% and $35 at 70% or more, measured as the yearly average from paid claims against total licensed beds [S17]. The model does not include these add-ons.\n\nLicensing fees are small next to the rest of the budget: $1,500 plus $15 per bed, a $2,100 initial fee for 40 beds [S3]. The costs that decide the outcome are the CoN and construction work, rent, and the staffing floor of at least one awake personal care assistant plus one additional employee on premises at all times [S6]. Those staffing levels are minimums, and staffing must scale to resident acuity [S6]. N.J.A.C. 8:36-8.2 also requires at least one registered professional nurse available at all times.\n\n**Bottom line from the model (90% occupancy, default ramp, base per diem only):**\n- **60-unit ALR, 90% private / 10% Medicaid:** nets about $71,900/month (16.2% margin). It breaks even at about 69.7% occupancy, first profit month is 12, and the model's total cash need is about $3.39 million.\n- **40-unit ALR, same mix (the default):** nets about $32,900/month (11.1% margin). It breaks even at about 76.1% occupancy, first profit month is 11, and the cash need is about $2.25 million.\n- **20-unit ALR:** loses about $2,900/month (-1.9% margin) and needs about 92.4% occupancy to break even.\n- **40-unit, 30% Medicaid:** loses about $2,700/month (-1.0%) and needs about 91.4% occupancy at the base per diem. At 90% occupancy the census is about 27% of licensed beds, so the $10 tier add-on (unmodeled, about $3,300/month) would bring it to roughly break-even if it stacks on the base.\n- **40-unit, 70% Medicaid:** loses about $73,900/month (-39.1%) at the base per diem. The $30 tier that a 63% census would earn (unmodeled, about $23,000/month) still leaves a loss of about $50,900. Even 100% occupancy does not break even at the base per diem.\n\nThese net and cash-need figures exclude the Medicaid tier add-ons, any cost for 24/7 RN availability, and the CoN filing fee line added after the runs (about $7,500 to $16,000), so they shift modestly.\n\nIn short, New Jersey assisted living works in this model at 40 units or more with a mostly private-pay census. A small building or a Medicaid-heavy census does not work at the published base per diem.\n\n### What this report does not claim\n- The CoN review timeline, whether expedited review uses the full-review filing fee, and DOH processing times for initial licensure or renewal.\n- Whether CMS approved the FY2026 per diems, the post-approval effective date, and any SFY2027 rate change. MLTSS plan contract rates paid to individual ALRs are also not claimed, nor how the tier add-ons stack on the base.\n- ALR Medicaid billing codes and units, and whether an ALR must join MLTSS. Secondary sources conflict [S50][S47].\n- Statewide occupancy, competitor names, market shares, licensed-facility counts by type, and referral-source volumes. No official dataset was found.\n- NJ-specific OEWS wages for RNs, administrators, cooks, housekeepers and recreation workers. Only the O*NET/BLS home health aide wage was retrieved [S30].\n- The cost and exact meaning of 24/7 RN availability, the 2027 NJ minimum wage, insurance minimums, workers' compensation premiums, and local zoning standards. Premiums in the model are operator estimates.",
+    "service_model": "**Who is served.** An ALR is licensed by DOH to provide apartment-style housing and congregate dining, with assisted living services when needed [S9][S14]. Residents are mostly private-pay older adults. Residents who qualify for MLTSS need a nursing-home level of care, shown by hands-on help with three or more activities of daily living such as bathing, dressing and mobility [S21].\n\n**Licensing categories.**\n- **ALR:** each apartment unit has at least one unfurnished room, a private bathroom, a kitchenette and a lockable entrance door [S1]. The applicant must apply for a license covering the maximum number of beds available in its residential units [S2].\n- **CPCH:** a room-and-board license where residential units house no more than two residents [S1][S14]. A secondary guide estimates about 30 CPCHs statewide and says the category is closed to new entrants [S51]. Neither claim is confirmed against a DOH roster or rule text.\n- **ALP:** an organization licensed to provide all services required of an assisted living program [S1]. ALPs serve tenants of publicly subsidized housing [S9]. They must deliver services exclusively in a licensed ALR, a CPCH or publicly subsidized housing [S11].\n\n**Advertising.** Only licensed ALRs and CPCHs may describe and offer themselves to the public as providing assisted living [S12]. Do not market before you are licensed.\n\n**Built-in commitments.** The license application must commit that at least 20% of residents will have nursing-home-level care needs within 36 months of licensure [S2]. A newly licensed ALR or CPCH must reach at least 10% Medicaid-eligible occupancy of its total bed complement within three years, subject to waiver by the Commissioner [S10]. Facilities adding beds after September 1, 2001 must also fill at least 10% of the added beds with Medicaid-eligible residents (same waiver) [S10]. These commitments shape the payer mix and the clinical staffing needed, which is why the model uses a 10% Medicaid share as its base case.\n\n**Rule status.** N.J.A.C. 8:36 was readopted with technical changes and carries a new expiration in 2028 [S1]. DOH has said it is developing a broader revision and reorganization of the chapter [S1]. Its status is unknown. DOH also proposed (PRN 2026-003, 58 N.J.R. 1(1)) to let CPCHs use accreditation-based deemed status in place of a DOH inspection. The change would be optional, and comments were due March 6, 2026 [S7][S8]. Adoption has not been confirmed, and the change would not affect ALRs.",
+    "licensing_pathway": "**Sequence.** The sequence below follows the rule text and DOH pages. The rules reviewed give no processing times, so no timeline is claimed.\n\n1. **Form the entity and secure the site.** An LLC certificate of formation costs $100 on the Treasury schedule [S36], consistent with a CPA guide [S37]. Register for state taxes (a secondary guide says Form NJ-REG within about 60 days [S40]).\n2. **Certificate of Need.** A license application may be filed only after a CoN is received [S2]. New assisted living facilities are listed as expedited-review eligible on DOH's CoN page [S13], and an HHS compendium also states that assisted living services require a CoN before licensure [S15]. DOH's full-review long-term-care instructions set a filing fee of $7,500 up to $1,000,000 of total project cost, or $7,500 plus 0.25% of total project cost above that; the fee must accompany the application or it will not be accepted (N.J.A.C. 8:33 Appendix B). Whether expedited review uses the same fee, and the review time, are not confirmed; call CN&L at 609-292-6552.\n3. **Construction plan review.** For a new or expanded facility, plans go to DCA's Health Care Plan Review Unit for approval before construction starts [S1].\n4. **Local approvals.** Before a license issues, you must file approvals from the local zoning, fire, health and building authorities, plus a certificate of occupancy [S1]. Local siting standards (distance, density, use class) were not found.\n5. **License application.** File on DOH forms (https://www.nj.gov/health/forms) with proof of payment, by email to CNLapps@doh.nj.gov. Applications without proof of payment are not processed [S3][S1].\n6. **Pre-opening survey.** DOH surveys on site once the written application is approved and the building is ready for occupancy [S1].\n7. **Admissions.** No resident may be admitted until the facility has DOH's written approval or license [S1].\n\n**Fees (nonrefundable) [S3][S2].**\n\n| Item | Amount | When |\n|---|---|---|\n| CoN filing fee (full-review schedule) | $7,500, plus 0.25% of total project cost above $1,000,000 | With the CoN application |\n| ALR/CPCH initial license | $1,500 + $15 per bed (40 beds = $2,100) | With the application |\n| ALR/CPCH annual renewal | $1,500 + $15 per bed | Annually |\n| ALR/CPCH biennial inspection | $1,500 | In the inspection year, together with that year's annual fee |\n| ALP initial license / biennial inspection | $1,125 / $750 | Per DOH fee page |\n| Transfer of ownership | $1,500 | Filed by the new owner before transfer |\n| Relocation | $375 | Per N.J.A.C. 8:36-2.2 |\n\nThe application fee is capped by N.J.S.A. 26:2H-12 [S2]. License fee amounts were verified on DOH's fee page (last reviewed 2/11/2026) [S3] and on a Cornell mirror of the rule [S2]. The mirror is not the official code page.\n\n**Administrator.** The administrator must be at least 21, hold a high school diploma or equivalent, and hold either a current NJ nursing home administrator license or a current NJ assisted living administrator certification [S4]. Certification candidates must sit the Assisted Living Competency Examination within two years of completing the training course [S4]. They must also complete a criminal background check, and the certificate runs three years [S5]. Renewal needs at least 30 hours of continuing education and a background check [S5]. A qualified owner may serve as administrator [S4]. Course hours and price were not verified. DOH's Certified Assisted Living Administrators office is at 609-633-9706.\n\n**Medicaid enrollment.** The federal CY2026 provider enrollment application fee is $750 for applications filed in 2026 [S24]. Whether an ALR counts as an institutional provider for this fee was not confirmed, and no NJ-specific enrollment fee was found.\n\n**Ownership changes.** A prospective new owner must file an application before the transfer takes place [S1]. A secondary guide says the license belongs to the operator, not the building, and is not transferable [S51].",
+    "reimbursement": "**How the money flows.** New Jersey Medicaid long-term care for assisted living is delivered through NJ FamilyCare managed care (MLTSS), not a standalone fee-for-service benefit [S49]. The state's MLTSS guidance says MLTSS covers care in settings that include assisted living facilities [S21]. MLTSS pays for care services after the beneficiary enrolls in a managed care plan, and the resident pays room and board [S47]. A secondary source says the county welfare agency computes the resident's cost share and the facility bills and collects it [S48].\n\n**Medicaid rates.**\n- **Base per diem (SFY2026):** DHS/DMAHS gave notice that ALRs, CPCHs and ALPs would receive no less than $91.10, $81.10 and $79.10 per NJ FamilyCare beneficiary per day [S16]. The state-published SFY2026 rate list (posted by HCANJ) sets unlisted ALRs at $91.10, effective July 1, 2025 [S19].\n- **Status caveat:** the notice says DHS would seek CMS approval, and no official post-approval source was found [S16]. SFY2027 began July 1, 2026; no SFY2027 rate notice was checked, so check njmmis.com ('rate and code information') and DMAHS legal notices. Treat $91.10 as an SFY2026 figure that may be superseded.\n- **Statutory floor:** P.L. 2023, c.80 sets minimums of $89.50 (ALR), $79.50 (CPCH) and $89.50 (ALP) in the enacted text [S18]. The bill synopsis listed a different ALP figure, so verify [S18].\n- **Medicaid-volume tiers:** ALRs and CPCHs receive a per diem above the minimum based on their yearly average Medicaid census, taken from paid claims and measured against total licensed beds: $10 at 15% to under 30%, $15 at 30% to under 50%, $30 at 50% to under 70%, and $35 at 70% or more. Below 15% there is no add-on [S17]. The FY2026 notice says the tier enhancements based on Medicaid volume are unchanged [S16]. How DMAHS stacks the add-on on the new $91.10 base is unconfirmed, so the model does not add any tier; confirm with DMAHS. At under 100% occupancy a nominal mix can land in a lower tier than its percentage suggests.\n- **Codes and schedules:** procedure codes and billing units were not found. The state says fee schedules will be posted on its fiscal agent's website, njmmis.com [S16].\n- **Budget neutrality:** the rate change is stated to stay within the 1115 waiver's budget-neutrality limits [S16].\n\n**Resident contribution.** DMAHS's 2026 HCBS monthly standards for an ALR are $996.40 for room and $147.65 for maintenance (personal needs), effective January 1, 2026 [S20]. A secondary source puts the personal needs allowance near $140.15 [S48]. The official DMAHS figure is used. Whether a facility may collect the full $996.40 from the resident is unverified. The model counts it as revenue, so treat it as a risk to the Medicaid revenue line.\n\n**Eligibility (2026).** The state's guidance sets a $2,000 resource limit and a $2,982 monthly income level, above which a Qualified Income Trust is needed [S21]. Clinical eligibility is a nursing-home level of care, with hands-on help for three or more ADLs [S21].\n\n**Conflicts to resolve with DMAHS.**\n- **ALR participation in MLTSS:** one secondary source says ALRs are not legally required to accept MLTSS residents [S50]. Another says the residence must participate [S47].\n- **AL/AFC slot cap:** an undated secondary source reports a 1,500-slot cap and a full waiting list [S52]. Another describes MLTSS as an entitlement with no enrollment cap [S53]. The 2026 position is unverified.\n- **Aged HCBS waiver:** a secondary source says New Jersey no longer offers an aged HCBS waiver and routes services through managed care [S53].\n\n**Financing context.** NJ FamilyCare spending is $22.8 billion, 65% of it federal. State budget materials flag possible reductions in federal matching rates for high-income states like New Jersey. No enacted change was verified [S23].\n\n**Private pay is the main payer.** CareScout's 2025 median is $104,520 a year (about $8,710 a month) [S27]. CareScout measures a private one-bedroom unit in an assisted living community, which fits an apartment-style ALR. It may not fit shared rooms or smaller homes. A secondary source reports about $8,234 a month, which does not match CareScout and is unreconciled [S47].",
+    "demand": "**Demographics.** NJDOH reports that 18.0% of New Jersey residents were 65 or older in 2024, the same as the U.S. share. That proportion rose 33% between 2010 and 2024 [S45]. A secondary analysis citing Census data says the number of New Jerseyans 65 and over grew 43% over the same period [S46]. That is not a state-published count.\n\n**Medicaid long-term care population.** The March 2026 NJ FamilyCare enrollment summary shows 305,056 aged, blind and disabled eligibles, 107,058 of them in the aged group, and 63,998 people in home and community-based waiver programs [S22]. Total NJ FamilyCare enrollment was 1,815,571 [S22]. The ABD figures describe the Medicaid long-term care pool. They do not count ALR residents.\n\n**Supply context.** NJDOH licenses more than 2,000 regulated facilities of all types [S13]. No official roster by type or any ALR occupancy data was located. A commercial directory lists 887 New Jersey assisted living listings [Where Assisted Living, unofficial] and an editorial site analyzed 319 communities. Neither is an official count, so no supply or market-share figure is asserted.\n\n**Payer-mix friction.** A Medicaid-planning law firm reports that most assisted living facilities require a private-pay period of two years or more before accepting Medicaid [S54]. This secondary source suggests many operators limit Medicaid admissions. For a new ALR, the 10% Medicaid-occupancy commitment is the countervailing rule [S10].\n\n**Referral sources.** Hospital, nursing home and area agency referral volumes were not researched, and no waitlist figures were found. Build the referral plan from local hospital discharge planners, MLTSS plan care managers and county agencies, and test it before committing to a unit count.",
+    "operations": "**Staffing rules (N.J.A.C. 8:36-9.3).** The facility must keep at least one awake personal care assistant (PCA) on the premises at all times, plus one additional employee [S6]. A facility with more than one free-standing building with residents needs a PCA in each building [S6]. These levels are minimums only, and staffing must scale to resident acuity [S6]. In the model, the two-person floor is 1,460 hours a month, and acuity-scaled PCA hours are added at an operator estimate of 55 hours per resident-month. Numeric staff-to-resident ratios and overnight nursing rules beyond this section were not verified.\n\n**Nursing coverage (N.J.A.C. 8:36-8.2).** A facility must have at least one registered professional nurse available at all times, and each resident receives an RN assessment and care plan. The model's RN line covers only 80, 173 or 260 hours a month; no on-call stipend, relief or contract RN cost for the remaining hours is modeled. Confirm with DOH what 'available' means for coverage and response time.\n\n**PCA qualifications.** A PCA must have completed an approved nurse aide course and passed the NJ Nurse Aide Certification Examination, or completed the approved PCA course and certification [S1]. Dementia training is required for all licensed and unlicensed direct-care staff if you advertise a dementia program [S1].\n\n**Administrator.** The administrator needs an NJ nursing home administrator license or an NJ assisted living administrator certification [S4]. Renewal of the three-year certificate needs 30 hours of continuing education and a background check [S5]. Whether a full-time on-site administrator is required by bed count was not verified.\n\n**Clinical oversight.** The 20% nursing-home-level commitment within 36 months [S2] and MLTSS eligibility (three or more ADLs) [S21] mean you need clinical leadership in practice. The model includes a director of nursing/RN at an operator-estimated wage and hours. No NJ RN wage was retrieved, so verify locally.\n\n**Reporting and compliance.**\n- Reportable events go to DOH immediately by telephone at (609) 633-9034, or (609) 392-2020 after hours. Written confirmation follows within 72 hours [S1].\n- Report resident days for the prior calendar year by April 15 each year [S1].\n- Apply before any transfer of ownership [S1].\n- Keep local fire, health and building approvals current [S1].\n\n**Systems.** The model includes eMAR and care documentation software. NJ EVV (HHAeXchange, the state-selected free vendor) is required by federal law for certain NJ FamilyCare services. Its go-live list names personal care and MLTSS home-based supportive care, and does not name ALR residential care [S41][S42]. Whether EVV applies to ALR-based MLTSS services is unconfirmed, so no EVV cost is modeled. Ask your MLTSS plans.\n\n**Payroll obligations.** The NJ minimum wage is $15.92 an hour from January 1, 2026 [S28]. Every modeled wage is at or above it. NJDOL must publish a CPI-adjusted 2027 rate about September 30, 2026; that rate was not checked, and wages paid after January 1, 2027 must meet it. The 2026 unemployment taxable wage base is reported as $44,800 [S32]. The model's new-employer unemployment rate of 2.8% is the combined NJDOL Table C figure for FY2026-27: 2.6825% UI plus 0.1175% Workforce Development/Supplemental Workforce Fund [S33]. Employer TDI is reported at 0.50% for new employers [S35]. Federal unemployment tax (FUTA) is not itemized separately and is treated as absorbed in the benefits estimate.",
+    "market_conditions": "**Private-pay pricing.** CareScout's NJ median for an assisted living community rose from $102,570 a year in 2024 ($8,548 a month) [S25] to $104,520 in 2025 ($8,710 a month) [S27], about 1.9%. The model uses the 2025 figure. Another source reports about $8,234 a month [S47]; it is unreconciled and below both CareScout figures. The model's sensitivity analysis shows what that price would do.\n\n**Wages.** O*NET's New Jersey table, drawing on BLS 2025 wage data, shows home health and personal care aide hourly wages of $15.49 (10th percentile), $16.67 (25th), $17.83 (median), $21.43 (75th) and $23.16 (90th) [S30]. The 10th-percentile figure sits below the $15.92 minimum that took effect in 2026, because the data predates the increase [S28]. The same source's New York-Newark-Jersey City metro figures are $18.60 (25th), $19.08 (median) and $21.05 (75th) [S30]. The model uses the statewide figures: the awake PCA at the 75th percentile ($21.43), the additional employee at the median ($17.83), and housekeeping at the 25th percentile ($16.67), even though rent is benchmarked to the Newark area. A Newark-area site would pay more than modeled at the median and 25th percentile, and the additional-employee and housekeeping lines sit below the local 25th percentile; on the metro figures the 40-unit labor cost would be roughly $1,900 a month higher (approximate). Cook, housekeeping and activities wages are home health aide proxies, not their own occupations' wages. The BLS all-occupation mean wage in the New York-Newark-Jersey City area was $41.50 an hour in May 2025, which gives a sense of regional labor-market tightness [S31]. It is not an assisted living wage. No local minimum wage ordinance was found for Newark, Jersey City, Paterson or Trenton, so nothing here claims a higher local floor.\n\n**Occupancy.** No NJ ALR occupancy figure is cited. The model's 85% / 90% / 95% scenarios are operator planning assumptions.\n\n**Real estate.** The HUD FY2026 Fair Market Rent for the Newark HMFA (Essex, Morris, Sussex, Union) is $1,612 (studio), $1,822 (1BR), $2,205 (2BR), $2,761 (3BR) and $3,137 (4BR) [S43][S44]. The model uses the 1BR value per licensed unit, plus a $300 per unit monthly allowance for common-area and pass-through charges. That is a residential benchmark and excludes dining, kitchen, activity and office space. Whether Newark was part of HUD's May 2026 mid-year revisions is unconfirmed.\n\n**Regulatory environment.** N.J.A.C. 8:36 carries a 2028 expiration, and a broader rewrite is described as pending [S1]. The CPCH deemed-status proposal is pending adoption and is optional [S7][S8]. The July 2025 per diem notice and the March 2026 enrollment figures show active state financing of MLTSS [S16][S22]. State budget materials also flag a risk from federal matching-rate reductions [S23].\n\n**Entity costs.** New Jersey does not impose a franchise tax on LLCs, according to a secondary source, though corporation business tax may apply by election [S39]. The LLC annual report is reported at $75 a year [S38]. Neither is confirmed on an official page, and the model's entity-tax line is negligible.",
+    "financial_narrative": "**How the model is built.** Revenue per resident-month is the sum over each line of rate × units × payer share. For the default 40-unit configuration:\n- 90% private pay at $8,710 [S27].\n- 10% Medicaid at $996.40 in resident room payments [S20] plus $91.10 × 30.42 days in per diem [S16], about $3,768 per Medicaid resident-month. At 90% occupancy this census is about 9% of licensed beds, below the 15% tier threshold, so no tier add-on applies.\n- That blends to about $8,216 per resident-month. At 36 residents (90% of 40 units) revenue is about $295,800 a month.\n\nCosts are built from the staffing rules and from operator estimates for items without a source. Rent is sized to licensed units: 40 units × $1,822 [S43][S44] plus $300 per unit in common-area allowance is $84,880 a month, fixed. Payroll burden is 23% (11% taxes, 5% workers' compensation, 7% benefits). The 11% is 7.65% employer FICA + 2.8% new-employer unemployment (2.6825% UI + 0.1175% WFD/SWF) [S33] + 0.5% TDI [S35]; workers' compensation and benefits are operator estimates, and FUTA is not itemized separately.\n\n**Where the 40-unit default lands (90%, 36 residents).** The model's net is about $32,900 a month (11.1% margin). Using the modeled lines, the main cost blocks are:\n- Payroll including burden: about $131,000 a month, 44% of revenue.\n- Fixed operating costs, led by rent and the common-area allowance: about $100,700.\n- Per-resident costs (food, supplies, insurance, activities, referral fees): about $30,800.\n\nThe staffing floor of 1,460 awake hours is paid whether 10 or 40 residents live there, so fixed costs absorb small census swings.\n\n**Results by configuration (90% occupancy, base per diem, no tier add-ons).**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash need |\n|---|---|---|---|---|---|\n| 60-unit, 90/10 private/Medicaid | $71,913 | 16.2% | 69.7% | 12 | $3,386,022 |\n| 40-unit, 90/10 | $32,871 | 11.1% | 76.1% | 11 | $2,254,510 |\n| 40-unit, 70/30 | -$2,714 | -1.0% | 91.4% | none | $2,520,632 |\n| 20-unit, 90/10 | -$2,852 | -1.9% | 92.4% | none | $1,118,639 |\n| 40-unit, 30/70 | -$73,884 | -39.1% | 152.7% | none | $4,666,398 |\n\n**Sensitivities (approximate, derived from the modeled lines).**\n- **Occupancy:** each additional resident adds about $5,900 a month of contribution in the 40-unit default (revenue less per-resident costs and acuity hours). That puts the net at about $21,000 at 85% occupancy and about $9,200 at 80%. Break-even is 76.1%, so the 40-unit model works only if census holds.\n- **Acuity hours:** the 55 hours per resident-month is an operator estimate. At 70 hours, the 40-unit net falls by about $14,200 to about $18,600. For the 20-unit it falls by about $7,100, deepening its loss to about $10,000 a month.\n- **Private-pay rate:** every $100 on the private rate is about $3,240 a month at 32.4 private residents. At the unreconciled $8,234 [S47], the 40-unit net would be about $17,400. A rate near $7,700 would erase the profit.\n- **Wages:** a 10% rise in all modeled wages costs about $13,100 a month, leaving the 40-unit net at about $19,700. The modeled wages are statewide benchmarks; the Newark-area metro aide wages ($18.60 / $19.08 / $21.05 at the 25th percentile, median and 75th) would raise the 40-unit labor cost by roughly $1,900 a month [S30]. No local minimum wage above the state's was found.\n- **RN coverage:** a 24/7 RN availability cost (on-call stipend or contract RN) is required by N.J.A.C. 8:36-8.2 but is not modeled; any such cost comes straight off the net, hitting the 20-unit model hardest.\n- **Rent:** a 10% change in the $84,880 rent and common-area line is about $8,500 a month. Real commercial or purpose-built terms may differ materially from the HUD benchmark.\n\n**Medicaid mix.** Each Medicaid resident brings about $4,940 less per month than a private-pay resident at base rates. Moving from 10% to 30% Medicaid takes the 40-unit net from +$32,900 to about -$2,700 at the base per diem only. The statutory tier add-ons are not in these figures. The census is the yearly average from paid claims measured against total licensed beds [S17]. At 90% occupancy a nominal 30% mix is about 10.8 Medicaid residents, or 27% of 40 licensed beds, which falls in the $10 tier. That would add about $3,300 a month ($10 × 30.42 days × 10.8) and bring the 30% model to roughly break-even, assuming the add-on stacks on the $91.10 base (unconfirmed with DMAHS). Without any tier, the per diem would need to be about $8 a day higher (about $99) to break even at 30% Medicaid. A nominal 70% mix at 90% occupancy is about 25.2 residents, or 63% of licensed beds, so the $30 tier would apply, not the $35 tier; the $35 tier needs 28 Medicaid residents (70% of 40 beds), i.e. a full building at a 70% mix. The $30 add-on would add about $23,000 a month and shrink the modeled loss of about $73,900 to about $50,900, so the tier does not rescue the 70% model. The 70% model also assumes private-pay-level staffing, although MLTSS residents need a nursing-home level of care [S21]. Actual MLTSS plan contract rates are unknown.\n\n**Path to profit.** The configuration that works is 40 or more units, a mostly private-pay census held near the 10% Medicaid commitment [S10], full occupancy ramped within a year, and rent below or near the HUD benchmark. The 60-unit model shows better fixed-cost leverage (break-even about 69.7%) but needs about $3.39 million in cash, and a slower fill hurts more in absolute dollars.\n\n**Honesty notes.** Most operating costs, the RN and administrator salaries, the acuity hours, workers' compensation and rent are operator estimates, not sourced facts. Occupancy, ramp and Medicaid room-payment collection are also assumptions. The net figures are before debt service and owner distributions, and exclude the Medicaid tier add-ons and any 24/7 RN availability cost. The cash-need figures include startup costs and the modeled ramp-up deficit, and the startup ranges are wide; they were computed before the CoN filing fee line (about $7,500 to $16,000) was added.",
+    "risks": "**Rate and payer risk.**\n- **Unconfirmed rates:** the $91.10 / $81.10 / $79.10 base per diems are SFY2026 figures that depend on CMS approval, which no official post-approval source confirms [S16]. SFY2027 began July 1, 2026 and no SFY2027 rate notice was checked, so the base may have changed. The state notice describes the increase as within the 1115 waiver's budget-neutrality limits [S16].\n- **Tier add-ons:** the statutory Medicaid-volume tiers ($10 to $35 per day by census against licensed beds) are not modeled, and how they stack on the new base is unconfirmed [S17]. They are upside for Medicaid-heavy mixes, and a census below 100% of licensed beds can land in a lower tier than the nominal mix suggests.\n- **Plan contracts:** MLTSS plan contract rates, terms and ALR participation rules are not researched [S50][S47]. Billing codes are unknown.\n- **Room payment:** whether you may collect the $996.40 room standard from the resident is unverified [S20][S48]. The personal needs allowance (official $147.65 vs about $140.15 reported elsewhere) is unresolved [S48].\n- **Federal funding:** state budget materials flag possible reductions in federal Medicaid matching for high-income states [S23]. No enacted change was verified.\n- **Slot cap:** a reported AL/AFC slot cap and waitlist conflict with entitlement descriptions [S52][S53].\n\n**Licensing and timing risk.**\n- **CoN:** the CoN is a hard prerequisite [S2]. The full-review filing fee is $7,500 plus 0.25% of total project cost above $1 million, but the expedited-review fee and review time are unconfirmed, so a slow CoN adds carrying cost for any lease you have already signed.\n- **Licensing steps:** DOH timing is not in the rule text reviewed. No admissions are allowed before written approval or license, and plan review, local approvals and the pre-opening survey all sit in the critical path [S1].\n- **Rule changes:** N.J.A.C. 8:36 expires in 2028 and a broader rewrite is described as pending [S1]. The CPCH deemed-status proposal has an uncertain status [S7][S8].\n- **Commitments:** the 20% nursing-home-level and 10% Medicaid-occupancy commitments affect staffing cost and payer mix [S2][S10].\n- **Non-transferable license:** a change in ownership requires a new application before transfer and, per a secondary guide, voids the old license until approved [S1][S51]. This affects exit planning.\n\n**Operating and financial risk.**\n- **Fixed-cost leverage:** the two-person 24/7 staffing floor [S6], rent and the administrator are fixed. The 20-unit model loses money and the 40-unit default needs about 76% occupancy to break even.\n- **Staffing:** minimums are floors only, and acuity may demand more than the modeled 55 hours per resident-month [S6]. See the financial narrative for the 70-hour result.\n- **RN coverage:** N.J.A.C. 8:36-8.2 requires a registered professional nurse available at all times. The modeled RN hours do not cover 24/7, and no on-call or contract RN cost is included, so true costs are higher than modeled.\n- **Wages:** statewide benchmarks understate costs for a Newark-area site, where metro aide wages are higher at the median and 25th percentile [S30]. No local ordinance above the $15.92 statewide minimum was found [S28], and the 2027 state minimum was not checked.\n- **Unverified costs:** insurance minimums, workers' compensation premiums, 24/7 RN coverage and the CoN consultant and construction costs are operator estimates or unmodeled.\n- **Capital:** the model's cash need is $1.1 million to $4.7 million depending on configuration. A slow ramp raises it.\n- **Private-pay price:** the CareScout median measures a private one-bedroom in an assisted living community [S27]. A lower local market price, or the $8,234 secondary figure [S47], reduces profit quickly.\n\n**Market risk.** No occupancy, competitor or referral data were found. Many operators reportedly delay Medicaid admissions [S54], so assume you will compete for the same private-pay residents.",
+    "recommendations": "1. **Choose the apartment-style ALR and plan at 40 or more units.** In the model, the 40-unit ALR is the smallest profitable configuration: about $32,900 a month at 90% occupancy, with break-even at 76.1%. A 60-unit building improves margin to about 16.2% and break-even to 69.7%, but needs about $3.39 million in total cash. Do not enter with 20 units unless owner labor (for example the owner serving as administrator, which removes a modeled $75,000 salary) and lower rent make the economics work. Even then, the 20-unit model is only slightly profitable at best, and it does not yet carry a 24/7 RN availability cost.\n\n2. **Keep Medicaid near the required 10% and avoid heavy Medicaid.** The 10% commitment within three years [S10] is built into the default. At the base per diem the 30% Medicaid model loses about $2,700 a month; the $10 tier add-on it would likely earn (about $3,300 a month, unmodeled) would bring it to roughly break-even if confirmed [S17]. The 70% model loses about $73,900 at base and still about $50,900 with the $30 tier its census would likely earn. Revisit a larger Medicaid share only if MLTSS plan contracts pay materially more than the $91.10 base, and verify the plan rates and how DMAHS stacks the tier add-on first.\n\n3. **Treat the CoN as the first gate.** Confirm the CoN filing fee (full-review schedule: $7,500 plus 0.25% of project cost above $1 million), whether expedited review [S13] uses it, and the timeline directly with DOH (CN&L, 609-292-6552) before committing to a lease or purchase. Do not sign a lease whose rent starts before you have a realistic path to licensure.\n\n4. **Negotiate rent against the benchmark.** Rent plus common-area charges are about 29% of revenue in the default. The Newark 1BR FMR of $1,822 [S43][S44] is a residential benchmark. Obtain real commercial or purpose-built quotes, and test a 10% increase (about $8,500 a month).\n\n5. **Hire a certified administrator early.** The administrator needs an NJ nursing home administrator license or assisted living administrator certification [S4][S5]. If you are the owner, you can serve if you qualify. Budget time for the training course, exam and background check.\n\n6. **Staff above the floor, price the acuity.** The two-person floor [S6] is only a minimum, and N.J.A.C. 8:36-8.2 also requires an RN available at all times. Model acuity hours and RN coverage realistically, and set your private-pay price to cover them. Do not set rates by copying the CareScout median alone.\n\n7. **Protect the ramp.** Build the referral pipeline (hospital discharge planners, MLTSS care managers, county agencies) before opening, and plan cash for the model's ramp deficit. First profit is month 11 for the 40-unit default and month 12 for the 60-unit under the assumed fill pace.\n\n8. **Resolve the open questions with DMAHS and DOH before you commit capital.** These are: MLTSS participation requirements, plan rates, any SFY2027 per diem change, how the tier add-ons stack on the base, whether you may collect $996.40 from residents, billing codes, the personal needs allowance, whether EVV applies, what RN 'available at all times' requires, insurance requirements, and rule changes under PRN 2026-003 and the rewrite.\n\n9. **Stress-test before you invest.** Run your own numbers at 80% and 85% occupancy, 70 acuity hours, a lower private rate, Newark-area wages and wages 10% higher, and an added RN coverage cost. The default is profitable but sensitive to each."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Choose your license type: Assisted Living Residence (ALR), Comprehensive Personal Care Home (CPCH) or Assisted Living Program (ALP)",
+      "instructions": "ALR = apartment-style housing, dining and assisted living services. CPCH = room and board; units house no more than 2 residents. ALP = meals and assisted living services to residents of publicly subsidized housing, delivered only inside a licensed ALR, CPCH or subsidized housing. A secondary source says CPCH licensing is closed to new entrants (unverified), so this bundle models the ALR. Confirm availability with the DOH Certificate of Need and Licensing Program before committing to any other type.",
+      "cite": "N.J.A.C. 8:36-1.3; 8:36-23.2",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Select your size and payer mix using the Pro Forma P&L",
+      "instructions": "In the model the 40-unit and 60-unit ALRs at 90% private pay / 10% Medicaid are profitable at default occupancy (about $32,900 and $71,900 net per month; break-even occupancy about 76% and 70%). The 20-unit ALR and the 30%/70% Medicaid mixes lose money at the SFY2026 base per diem. Do not raise rates or drop required costs to force a profit. Adjust rent, wages and census in the xlsx for your own site.",
+      "cite": "N.J.A.C. 8:36-5.1",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Read N.J.A.C. 8:36 in full and note its status",
+      "instructions": "The chapter was readopted with technical changes and carries a new expiration date in 2028. DOH has said it is developing a major revision and reorganization of the chapter; no current status was found. Download the official text from DOH, since the Cornell LII mirror used in this research may lag. Re-check for changes before filing.",
+      "cite": "N.J.A.C. 8:36",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Check the pending 2026 amendment on CPCH deemed status (PRN 2026-003)",
+      "instructions": "DOH proposed (58 N.J.R. 1(1), Jan. 5, 2026) to let CPCHs use accreditation-based deemed status in place of a DOH staff inspection, as an option only. Comments were due March 6, 2026. Adoption status was not confirmed. Look up the New Jersey Register for the current status.",
+      "cite": "N.J.A.C. 8:36-1.3 and 2.4 (proposed)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form your New Jersey LLC (or other entity)",
+      "instructions": "File a certificate of formation with the Division of Revenue and Enterprise Services. The Treasury fee schedule lists $125; a CPA guide reports $100 effective 7/1/2026. Check the DORES portal for the fee in effect on your filing date. The licensee on the DOH application should match this entity exactly. Allow about a week.",
+      "cite": "Treasury fee schedule",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Structure ownership around the fact that the license belongs to the operator, not the building",
+      "instructions": "A secondary guide says an ALR license is issued to the operator, is not transferable, and a change of ownership voids it until DOH approves. Put the licensed operating entity on the application and lease. Keep the real-estate holding entity (if separate) in a written lease with the operator. Have a NJ health-care attorney review the structure.",
+      "cite": "N.J.A.C. 8:36 (change of ownership)",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN",
+      "instructions": "Apply free at irs.gov. It is issued the same day online. You need it for payroll, banking, state tax registration and Medicaid enrollment.",
+      "cite": "IRS",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register the business for NJ tax purposes (Form NJ-REG)",
+      "instructions": "A secondary guide says registration is generally due within about 60 days of forming the LLC, using Form NJ-REG. Register for withholding, unemployment (UI) and TDI/FLI as an employer before your first payroll. Confirm the deadline with NJ Division of Taxation.",
+      "cite": "Form NJ-REG",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Calendar the LLC annual report and understand entity-level tax",
+      "instructions": "A secondary guide gives a $75 annual report fee due the last day of the month in which the LLC was formed. The official page fetched did not show this fee, so verify it. Secondary sources say NJ does not impose a franchise tax on LLCs, though corporation business tax may apply if you elect it. Ask your CPA. The model carries $75 per year and no entity tax.",
+      "cite": "Treasury / DORES",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a business bank account and secure start-up capital",
+      "instructions": "Capitalize for the whole pre-opening period and ramp-up. The model's cash need through ramp-up is about $1.1M (20 units), $2.25M (40 units) and $3.39M (60 units). It includes build-out, CON preparation, pre-opening payroll and operating deficits. These are operator-estimate-based model outputs. No state-mandated minimum reserve was found.",
+      "cite": "Operator guidance",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Engage a NJ health-care attorney and CON/licensing consultant",
+      "instructions": "CON, DCA plan review, local approvals and MLTSS participation all interact. Budget is an operator estimate; the model uses $15,000–$40,000 for CON preparation. Interview at least two firms that have filed NJ long-term-care CONs.",
+      "cite": "Operator guidance",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain insurance quotes (general/professional liability, property, auto, workers' compensation)",
+      "instructions": "No liability or bond minimum for ALR licensure was found, but landlords, lenders and MLTSS plans typically require coverage. Workers' compensation premium rates and class codes for residential care were not found (the $1,199 figure is a benefit cap, not a premium). The model's premiums are operator estimates. Get written quotes before signing a lease.",
+      "cite": "Operator guidance",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "CRITICAL",
+      "task": "Confirm the Certificate of Need (CON) pathway for a new ALR",
+      "instructions": "A license application may be filed only after a certificate of need has been received. DOH's CoN table lists new assisted living facilities as eligible for expedited review. Call the CoN and Licensing Program at (609) 292-6552 (verify current) and ask for the current application form, fee and review timeline. This research could not confirm the fee or timeline from official sources.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "CRITICAL",
+      "task": "Do not sign a binding lease, start construction or advertise before the CON is in hand",
+      "instructions": "The licensing sequence is CON first, then license application to the Commissioner, then survey, then admissions. Negotiate lease contingencies tied to CON approval, zoning and licensure so you are not paying rent on a building you cannot license.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "HIGH",
+      "task": "Prepare and file the CON application",
+      "instructions": "Use the forms DOH prescribes (check https://www.nj.gov/health/forms and the CoN page). Typical contents are a need/market analysis, financial feasibility, site and building description and ownership disclosure. Confirm the exact list with DOH. Fee and timeline unverified; do not assume the figures quoted in secondary sources.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "HIGH",
+      "task": "Build the demand case with sourced data",
+      "instructions": "NJDOH reports 18.0% of NJ residents are 65+ (2024, same as the U.S.), up 33% as a share between 2010 and 2024. A secondary source reports the count grew 43%. No official occupancy, waitlist or ALR supply count was found. Do not cite competitor shares or occupancy without a source. Use CareScout's 2025 NJ median of $8,710/month (private one-bedroom in an AL community) as a pricing benchmark and caveat it.",
+      "cite": "NJSHAD; CareScout 2025",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "CRITICAL",
+      "task": "Plan for the 20% nursing-home-level-of-care commitment",
+      "instructions": "The application must commit that within 36 months after licensure at least 20 percent of residents will have nursing-home-level care needs. This drives staffing, RN oversight and admission criteria. Budget acuity-based hours above the staffing floor (the model uses 55 PCA hours per resident-month, an operator estimate).",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "CRITICAL",
+      "task": "Plan for the Medicaid-eligible occupancy requirement",
+      "instructions": "A newly licensed ALR/CPCH must attain Medicaid-eligible occupancy of at least 10 percent of its bed complement within three years (waivable by the Commissioner). ALRs/CPCHs adding beds after Sept. 1, 2001 must occupy at least 10 percent of the additional beds with Medicaid-eligible persons. Ask DOH whether a waiver applies to your project.",
+      "cite": "N.J.A.C. 8:36-5.1",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "HIGH",
+      "task": "Apply for the maximum number of beds the building can hold",
+      "instructions": "The rule requires the facility to apply for a license for the maximum number of beds available in its residential units. Size your unit count and the fee ($1,500 + $15 per bed) from that number. Fixed costs in the model are sized to licensed units, so choose carefully.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — CERTIFICATE OF NEED & FEASIBILITY",
+      "priority": "HIGH",
+      "task": "Design units to meet the minimum unit standard",
+      "instructions": "ALR apartment units must offer, at a minimum, one unfurnished room, a private bathroom, a kitchenette and a lockable door on the unit entrance. CPCH units house no more than two residents and have a lockable entrance door. Have your architect confirm every unit type against the current rule text.",
+      "cite": "N.J.A.C. 8:36 (unit standards)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "HIGH",
+      "task": "Shortlist sites and benchmark rent",
+      "instructions": "HUD FY2026 Fair Market Rent for the Newark HMFA (Essex, Morris, Sussex, Union) is $1,612 (0BR), $1,822 (1BR), $2,205 (2BR). The model uses $1,822 per licensed unit plus a $300/unit common-area/CAM allowance. This is a residential benchmark only and excludes dining, kitchen, activity and office space. Get real broker quotes; other NJ regions may be cheaper.",
+      "cite": "HUD FY2026 FMR",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "CRITICAL",
+      "task": "Obtain local zoning approval",
+      "instructions": "The license application must include approvals from the local zoning authority. Local siting standards (distance, density, use class) were not found. Meet the municipal zoning officer early and ask whether the use is permitted, conditional or needs a variance. Allow time for board hearings (timing varies by town).",
+      "cite": "N.J.A.C. 8:36 (local approvals)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "CRITICAL",
+      "task": "Submit construction plans to DCA Health Care Plan Review before building",
+      "instructions": "Plans for a new or expanded facility must go to the NJ Department of Community Affairs Health Care Plan Review Unit for review and approval before construction starts. Budget architect/engineering of $25,000–$150,000 (operator estimate) and plan-review time before the build-out schedule.",
+      "cite": "N.J.A.C. 8:36 (construction review)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "CRITICAL",
+      "task": "Obtain local fire, health and building approvals",
+      "instructions": "Approvals from the local fire, health and building authorities are required before licensure. Ask the fire official what alarm, sprinkler and egress systems apply to your building. Model allowances for fire alarm monitoring and inspections are operator estimates.",
+      "cite": "N.J.A.C. 8:36 (local approvals)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "CRITICAL",
+      "task": "Obtain the certificate of occupancy",
+      "instructions": "File the certificate of occupancy with the license application. Schedule final building inspections so the CO is issued before you ask DOH to survey.",
+      "cite": "N.J.A.C. 8:36 (local approvals)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "HIGH",
+      "task": "Negotiate the lease with licensing contingencies",
+      "instructions": "Vacant units still cost rent, so the model treats rent as fixed. Negotiate free-rent months during build-out, a tenant-improvement allowance, a contingency on CON/DCA/DOH approvals, landlord consent to the use and a lease term that covers the ramp-up. Have counsel review it.",
+      "cite": "Operator guidance",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "HIGH",
+      "task": "Budget the build-out and equipment",
+      "instructions": "Model ranges (operator estimates, get contractor quotes): unit build-out $300,000–$1,200,000; commercial kitchen/dining/common areas $40,000–$120,000; furnishings and resident-care equipment $60,000–$180,000; zoning/fire/health/building approvals and CO $5,000–$25,000.",
+      "cite": "Operator guidance",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, ZONING & CONSTRUCTION",
+      "priority": "MEDIUM",
+      "task": "If you have more than one free-standing resident building, plan staffing per building",
+      "instructions": "Any facility with more than one free-standing building with residents must provide at least one personal care assistant on the premises at all times in each building. This multiplies the 24/7 staffing floor, so treat it as a site-selection factor.",
+      "cite": "N.J.A.C. 8:36-9.3",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Download current DOH license forms",
+      "instructions": "Forms are on the DOH forms page (https://www.nj.gov/health/forms) and through the Certificate of Need and Licensing Program. Use the current ALR initial-license application.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "File the license application after receiving the CON",
+      "instructions": "The operator applies to the Commissioner for a license on forms prescribed by the Department. Applications are filed after the CON is received. Include the CON, local zoning, fire, health and building approvals and certificate of occupancy, and the 20% nursing-home-level commitment.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the initial ALR/CPCH license fee and send proof of payment",
+      "instructions": "The fee is $1,500 + $15 per bed, nonrefundable (20 beds $1,800; 40 beds $2,100; 60 beds $2,400). It is paid with the application. DOH will not process an application without proof of payment. Pay through the DOH long-term care fee page and email the documents and proof of payment to CNLapps@doh.nj.gov.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Confirm when the $1,500 biennial inspection fee is due",
+      "instructions": "The fee schedule lists a $1,500 biennial inspection fee. The rule says it is assessed in the year the facility will be inspected, along with that year's annual licensure fee. Ask DOH whether it is charged in your initial licensure year. The start-up budget includes it as a precaution.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Prepare your policies and procedures, resident agreement and admission/retention criteria before the survey",
+      "instructions": "DOH will survey for compliance with N.J.A.C. 8:36. Write policies for each subchapter. Align admission and retention criteria with your CON commitments (20% nursing-home-level residents; Medicaid-eligible occupancy). Have counsel review the resident agreement. Content must be checked against the current rule text.",
+      "cite": "N.J.A.C. 8:36",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Budget time for DOH review",
+      "instructions": "No rule-quoted processing timeline for initial licensure was located. Ask the program for current turnaround, and do not sign hires or marketing commitments that assume a fixed date. Application fees are nonrefundable, so file only when the package is complete.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DOH LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "If you plan an Assisted Living Program (ALP) license, note the separate fees and service location rule",
+      "instructions": "ALP initial licensure fee is $1,125 and biennial inspection fee is $750. ALP services must be provided exclusively in a licensed ALR, CPCH or units of publicly subsidized housing. ALP staffing and eligibility details under 8:36-23 were not fully verified.",
+      "cite": "N.J.A.C. 8:36-23.2",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Secure a qualified administrator",
+      "instructions": "The administrator must be at least 21, hold a high school diploma or equivalent, and hold either a current NJ nursing home administrator license or a current NJ assisted living administrator certification. A qualified owner may serve as administrator. Whether a full-time on-site administrator is required by bed count was not verified; ask DOH.",
+      "cite": "N.J.A.C. 8:36-3.2",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "If certifying a new administrator, complete the training course, exam and background check",
+      "instructions": "Candidates must sit for the Assisted Living Competency Examination within two years of completing the assisted living training course, and must complete a criminal background check. Course hours and price were not verified (the model budgets $1,000–$3,000 as an operator estimate). Contact the DOH certification unit for current providers.",
+      "cite": "N.J.A.C. 8:36-3.2",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Build the 24/7 staffing floor",
+      "instructions": "At least one awake personal care assistant plus one additional employee must be on the premises at all times. The model costs 730 hours per month for each. The levels are minimums only; you must staff to resident acuity. Numeric ratios and overnight nursing rules beyond 8:36-9.3 were not verified, so confirm with DOH.",
+      "cite": "N.J.A.C. 8:36-9.3",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Add acuity-based hours above the floor",
+      "instructions": "The model adds 55 PCA hours per resident-month (operator estimate; verify locally). Medicaid MLTSS residents must need nursing-home level of care (hands-on help with 3+ ADLs), so a higher Medicaid share likely means more hours than modeled. Test a worse value (for example 70 hours) in the xlsx.",
+      "cite": "N.J.A.C. 8:36-9.3",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Verify PCA qualifications for every aide",
+      "instructions": "A PCA must have completed an approved nurse aide course and passed the NJ Nurse Aide Certification Examination, or completed the approved PCA course and certification. Collect proof of certification at hire and keep it in the personnel file.",
+      "cite": "N.J.A.C. 8:36 (PCA qualifications)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Hire clinical oversight (RN / director of nursing)",
+      "instructions": "RN and nursing minimums in the current rule were not verified, but the 20% nursing-home-level commitment makes clinical oversight a practical necessity. The model uses an operator-estimate $50/hour (80 hrs/month for 20 units, 173 hrs for 40, 260 for 60). Ask DOH what nursing coverage your license requires.",
+      "cite": "N.J.A.C. 8:36",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Set wages at or above the NJ minimum wage",
+      "instructions": "The NJ minimum wage is $15.92/hour effective 1/1/2026 (from $15.49). O*NET/BLS 2025 NJ home health aide wages: 10th percentile $15.49, 25th $16.67, median $17.83, 75th $21.43, 90th $23.16. No local minimum wage ordinance was found, but check your municipality. A secondary source reports $15.23 for employers with fewer than six employees; do not rely on it for a facility this size.",
+      "cite": "N.J.A.C. 12:56-3.1",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Set up payroll taxes and workers' compensation",
+      "instructions": "The model uses 11% payroll taxes: FICA 7.65%, NJ UI for new employers 2.8% combined (disputed; another source says 2.6825%), and employer TDI 0.50% for new employers. The 2026 UI taxable wage base is reported as $44,800. Confirm all rates on your NJDOL registration and rate notice. Workers' compensation (5% modeled, operator estimate) needs a carrier quote.",
+      "cite": "NJDOL rate notices",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "MEDIUM",
+      "task": "Run background and registry screening on all staff",
+      "instructions": "Background-check requirements for owners and direct-care staff beyond the administrator were not verified in this research. Ask DOH and your counsel what is required, and run screening on every hire before first shift.",
+      "cite": "N.J.A.C. 8:36",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "MEDIUM",
+      "task": "Train all direct-care staff in dementia care if you advertise a dementia program",
+      "instructions": "Facilities advertising a dementia program must train all licensed and unlicensed staff who provide direct care to residents with dementia. Document the curriculum, dates and attendance. If you do not advertise a dementia program, still plan dementia-aware training because of acuity.",
+      "cite": "N.J.A.C. 8:36 (dementia training)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "HIGH",
+      "task": "Set private-pay pricing from sourced benchmarks",
+      "instructions": "CareScout's 2025 NJ median for an assisted living community is $104,520/yr (about $8,710/month); the 2024 survey median was $102,570/yr (about $8,548/month). CareScout measures a private one-bedroom in an AL community. A secondary source reports about $8,234/month and does not reconcile. Verify pricing against competing communities within your catchment area.",
+      "cite": "CareScout 2025",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "HIGH",
+      "task": "Implement an eMAR / care documentation system",
+      "instructions": "The model carries $15 per licensed unit per month (operator estimate). Choose software that supports service plans, medication administration records and incident reports. Get vendor quotes.",
+      "cite": "Operator guidance",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "HIGH",
+      "task": "Set up a reportable-events procedure",
+      "instructions": "Reportable events must be phoned to DOH immediately at (609) 633-9034 (or (609) 392-2020 after hours), with written confirmation within 72 hours. Post the numbers at the nurses' station and train every shift lead.",
+      "cite": "N.J.A.C. 8:36 (reportable events)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "HIGH",
+      "task": "Set up resident-day tracking for the annual DOH report",
+      "instructions": "Facilities report resident days for the prior calendar year to the licensing program by April 15 each year. Build the count into your census software from day one.",
+      "cite": "N.J.A.C. 8:36 (annual reporting)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "MEDIUM",
+      "task": "Set up dietary service and food vendor",
+      "instructions": "ALRs provide congregate dining. The model uses about $450 per resident per month for food (about $14.80 per resident-day; operator estimate). Get vendor quotes and confirm kitchen requirements with the local health authority.",
+      "cite": "N.J.A.C. 8:36-1.3",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "MEDIUM",
+      "task": "Contract for fire-alarm monitoring, sprinkler/alarm inspections and extinguisher service",
+      "instructions": "Model allowance: $400–$900 per month by size (operator estimate). Get vendor quotes and align with what the local fire official requires.",
+      "cite": "Operator guidance",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & PRICING",
+      "priority": "MEDIUM",
+      "task": "Contract accounting, payroll service and legal support",
+      "instructions": "Model allowance: $1,500–$3,500 per month by size (operator estimate). Set up monthly census-based financials so you can track the break-even occupancy in the P&L.",
+      "cite": "Operator guidance",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "CRITICAL",
+      "task": "Decide whether and how you will participate in MLTSS, and confirm with DMAHS",
+      "instructions": "NJ Medicaid assisted living care services are delivered through NJ FamilyCare managed long-term services and supports (MLTSS). Secondary sources conflict on whether an ALR must participate (one says not legally required; another says it must). Ask DMAHS in writing. Remember the 10% Medicaid-eligible occupancy requirement under 8:36-5.1.",
+      "cite": "N.J.A.C. 8:36-5.1",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "HIGH",
+      "task": "Understand how MLTSS money flows",
+      "instructions": "MLTSS plans pay for care services in a participating residence after the beneficiary enrolls in an NJ FamilyCare managed care plan. Medicaid does not pay room and board; the resident does. MLTSS settings include assisted living facilities. Plan-specific contract rates and terms were not researched; get them from each plan.",
+      "cite": "NJ FamilyCare MLTSS",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "HIGH",
+      "task": "Use the state's published per diems as a floor in your projections",
+      "instructions": "DHS notice (7/16/2025): base per diem of no less than $91.10 (ALR), $81.10 (CPCH), $79.10 (ALP) per beneficiary per day, with tier add-ons unchanged. A state rate list posted by HCANJ shows $91.10 for unlisted ALRs effective 7/1/2025. CMS approval and any FY2027 changes were not confirmed. Fee schedules are to be published on njmmis.com.",
+      "cite": "DHS/DMAHS notice 7/16/2025",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Understand the high-Medicaid tier",
+      "instructions": "Under P.L. 2023, c.80, ALRs and CPCHs with a 70% or more Medicaid census receive a per diem $35 higher than the minimum per diem, measured yearly from paid claims. How DMAHS applies the add-on to the $91.10 base is unconfirmed. Do not budget the add-on until you have it in writing.",
+      "cite": "P.L. 2023, c.80",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "HIGH",
+      "task": "Learn MLTSS eligibility rules for prospective residents",
+      "instructions": "Applicants need nursing-home level of care (hands-on assistance with three or more ADLs), $2,000 or less in total resources, and income at or below $2,982/month in 2026, or a Qualified Income Trust if higher. Train admissions staff to screen early and to refer families to the county welfare agency or a benefits specialist.",
+      "cite": "NJ FamilyCare MLTSS",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "HIGH",
+      "task": "Set up room-and-board billing for Medicaid residents",
+      "instructions": "DMAHS 2026 HCBS standards for an ALR resident: room $996.40/month and maintenance (personal needs) $147.65/month, effective 1/1/2026. A secondary source gives about $140.15 for the personal needs figure, so use the DMAHS number and verify. A secondary source says the county computes the cost share and the facility bills and collects it. Confirm how much you may collect before relying on $996.40 in pricing.",
+      "cite": "DMAHS 2026 standards",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Check the Medicaid provider enrollment application fee",
+      "instructions": "CMS set a $750 application fee for institutional providers, required with enrollment applications submitted on or after 1/1/2026 (calendar 2026). Whether an ALR is classed as an institutional provider, and any NJ-specific enrollment fee, were not confirmed. Ask DMAHS and the plans.",
+      "cite": "CMS CY2026 fee notice",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Ask your MLTSS plans whether EVV applies to your services",
+      "instructions": "NJ's EVV (HHAeXchange, state-selected free vendor) is required for certain NJ FamilyCare services. The go-live list names personal care and MLTSS home-based supportive care and does not name ALR residential care. Congregate settings are exempt per a DDD letter. Whether EVV applies to ALR-based MLTSS services is unconfirmed, so get the answer in writing.",
+      "cite": "DMAHS EVV",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID / MLTSS PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Plan the Medicaid ramp conservatively",
+      "instructions": "A secondary source says most ALFs require a long private-pay period before accepting Medicaid, and a separate undated source reports a capped AL/AFC slot program. Neither is verified for 2026. Model shows heavy-Medicaid mixes (30% and 70%) lose money at the base per diem, so do not rely on Medicaid to fill a new building.",
+      "cite": "Operator guidance",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 8 — PRE-OPENING SURVEY & ADMISSIONS",
+      "priority": "CRITICAL",
+      "task": "Request the DOH pre-opening survey",
+      "instructions": "DOH conducts an on-site survey when the written application for licensure is approved and the building is ready for occupancy. Have staff hired and oriented, policies in place, systems working and the building complete before the survey. Correct any deficiencies promptly.",
+      "cite": "N.J.A.C. 8:36 (pre-opening survey)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — PRE-OPENING SURVEY & ADMISSIONS",
+      "priority": "CRITICAL",
+      "task": "Do not admit any resident before you hold written DOH approval or a license",
+      "instructions": "No facility may admit residents until it has the written approval or license from DOH. Keep a pre-admission waitlist only; no move-ins until you have the document in hand.",
+      "cite": "N.J.A.C. 8:36 (no admissions before licensure)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — PRE-OPENING SURVEY & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Follow the advertising restriction",
+      "instructions": "Only facilities licensed as assisted living residences or comprehensive personal care homes may describe and offer themselves to the public as providing assisted living services. Do not use the term in marketing materials until you are licensed. Review the website and brochures with counsel.",
+      "cite": "N.J.A.C. 8:36-2.10",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 8 — PRE-OPENING SURVEY & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Build referral relationships",
+      "instructions": "Cultivate hospital discharge planners, skilled nursing facilities, elder-law attorneys, geriatric care managers and area agencies on aging. Referral-source volumes were not found in official data, so build your pipeline from direct outreach. The model amortizes $150 per private-pay resident per month for placement fees (operator estimate).",
+      "cite": "Operator guidance",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRE-OPENING SURVEY & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Plan a phased fill and monitor cash",
+      "instructions": "The model starts with 3–6 residents and adds 2–4 per month depending on size; the 40-unit default first turns a monthly profit in about month 11 and 60 units in month 12. Track census weekly against the break-even occupancy in the P&L (about 76% for 40 units, about 70% for 60 units).",
+      "cite": "Model results",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRE-OPENING SURVEY & ADMISSIONS",
+      "priority": "MEDIUM",
+      "task": "Run a pre-opening open house and launch marketing after licensure",
+      "instructions": "Model range for launch marketing: $10,000–$50,000 (operator estimate). Use only licensed-status language, and include your license number in materials if DOH issues one.",
+      "cite": "N.J.A.C. 8:36-2.10",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Pay the annual license renewal",
+      "instructions": "Renewal is $1,500 + $15 per bed each year, nonrefundable (40 beds = $2,100). Pay it on the DOH long-term care fee page and send proof of payment by email. The model carries it as a monthly accrual.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Budget the biennial inspection fee",
+      "instructions": "The $1,500 biennial inspection fee is assessed in the year the facility will be inspected, along with that year's annual licensure fee. Keep the building survey-ready at all times.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "File the annual resident-days report by April 15",
+      "instructions": "Report resident days for the prior calendar year to the licensing program by April 15 each year. Pull the data from your census system in March.",
+      "cite": "N.J.A.C. 8:36 (annual reporting)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Renew the administrator certificate every three years",
+      "instructions": "Certificates run three years. Renewal requires at least 30 hours of continuing education on assisted living concepts and related topics, and a background check. Track the expiration date and book CE well in advance.",
+      "cite": "N.J.A.C. 8:36-3.2",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Keep staffing at or above the floor and the acuity level",
+      "instructions": "At least one awake PCA plus one additional employee on premises at all times; levels are minimums only. Review staffing against resident acuity monthly and after any incident.",
+      "cite": "N.J.A.C. 8:36-9.3",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Track progress toward the 20% and 10% commitments",
+      "instructions": "Within 36 months of licensure, at least 20% of residents must have nursing-home-level needs, and the facility must reach at least 10% Medicaid-eligible occupancy (waivable). Document admissions and acuity so you can show compliance at survey.",
+      "cite": "N.J.A.C. 8:36-2.2; 8:36-5.1",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "File a change-of-ownership application before any transfer",
+      "instructions": "Before transferring ownership, the prospective new owner must submit an application to the licensing program. The rule fee is $1,500 for a transfer of ownership and $375 for relocation (nonrefundable). Do not close on a sale or transfer entity interests without DOH sign-off.",
+      "cite": "N.J.A.C. 8:36-2.2",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Monitor rule and rate changes",
+      "instructions": "Watch for adoption of the 8:36 rewrite and the CPCH deemed-status amendment, the 2028 expiration of the chapter, FY2027 per diem changes, CMS approval status of the $91.10 base, and the pending personal-needs-allowance bill (A2691/S1576, status reported only by a secondary source). The state budget materials also flag possible federal match reductions for high-income states.",
+      "cite": "N.J.A.C. 8:36",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "File the LLC annual report and keep state tax registrations current",
+      "instructions": "The LLC annual report ($75 per a secondary guide; verify) is due by the last day of the month in which the LLC was formed. Keep NJDOL UI/TDI filings current and update rates when each year's notice is issued.",
+      "cite": "DORES; NJDOL",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review the P&L each quarter against the model",
+      "instructions": "Compare actual census, payer mix, wages and rent to the pro forma. Rent and most staffing are fixed regardless of census, so a few vacant units move results quickly. Re-run the break-even occupancy before adding Medicaid beds or changing staffing levels.",
+      "cite": "Model results",
+      "source_id": ""
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Medicaid tier add-ons omitted; 30% and 70% mixes described as simply losing money",
+      "change": "Rewrote configuration notes for alr40_med30 and alr40_med70, rates[6], and added rate rows for the $10/$15/$30 tiers. Updated key_numbers, executive summary, reimbursement, financial narrative, recommendations and risks. Add-ons are labeled as unmodeled upside (stacking on the $91.10 base is unconfirmed). At 90% occupancy the nominal 30% mix falls in the $10 tier (about break-even) and the 70% mix in the $30 tier (loss about $50,900). The 10% mixes earn no add-on."
+    },
+    {
+      "issue": "RN 24/7 availability (N.J.A.C. 8:36-8.2) cited as 'not verified'; no coverage cost",
+      "change": "Replaced the 'not verified' language in all five RN staffing notes and cites, operations, narrative, risks and not_claimed. No on-call RN cost line was added because no cost source exists, so the cost is flagged as unmodeled instead and its exclusion from net figures is disclosed."
+    },
+    {
+      "issue": "Statewide wages used with a Newark rent benchmark; proxy wages unsourced",
+      "change": "Disclosed the metro OEWS figures ($18.60/$19.08/$21.05) in market_conditions, the narrative and risks, with an approximate +$1,900/month effect for the 40-unit. Model wages were left unchanged, so re-running the generator is needed to re-cost them. Broadened not_claimed[17] to list cook, housekeeping, recreation, RN and manager wages as unverifiable."
+    },
+    {
+      "issue": "CoN filing fee called unconfirmed",
+      "change": "Added a CoN filing fee startup line ($7,500 to $16,000, full-review schedule placeholder), clarified that the $15k-$40k consultant line excludes it, and updated the executive summary, licensing pathway (including a fee table row), risks, recommendations, key_numbers and not_claimed. The expedited-review fee remains unconfirmed. Cash-need figures in text predate this line."
+    },
+    {
+      "issue": "SFY2026 base rates presented as operative; SFY2027 not checked",
+      "change": "Labeled $91.10/$81.10/$79.10 as SFY2026 and possibly superseded in rates[0..2], key_numbers, executive summary, reimbursement, risks and not_claimed."
+    },
+    {
+      "issue": "LLC certificate of formation fee conflict",
+      "change": "Set startup cost low/high to $100 per the Treasury schedule, removed the conflict wording in the startup note and licensing pathway, and narrowed the not_claimed item to the $75 annual report fee."
+    },
+    {
+      "issue": "New-employer UI rate described as disputed",
+      "change": "Replaced 'disputed' with 2.8% combined = 2.6825% UI + 0.1175% WFD/SWF (NJDOL Table C FY2026-27) in payroll_burden.notes, operations and financial narrative. Replaced the not_claimed item. Modeled 11% payroll tax is unchanged."
+    },
+    {
+      "issue": "Regulator phone numbers mislabeled or missing",
+      "change": "Labeled (800) 792-9770 as the complaint and incident hotline and added 609-633-8991. Removed 'verify current' from the CN&L number and added 609-376-7800 and the intake email. Added 609-633-9706 for CALA."
+    },
+    {
+      "issue": "2027 minimum wage not checked",
+      "change": "Added a note to key_numbers, payroll_burden, operations and not_claimed that the 2027 CPI-adjusted rate was not checked."
+    },
+    {
+      "issue": "FUTA and entity tax not listed",
+      "change": "Noted FUTA (about 0.6% on the first $7,000, about $42 per employee) as not itemized and treated as absorbed in the 7% benefits estimate, and flagged entity-tax treatment for CPA confirmation, in payroll_burden.notes and not_claimed. No model rates were changed."
+    },
+    {
+      "issue": "Checklist items (fees_and_timelines_in_checklist i=1, 4, 12, 14, 40, 41, 42) were referenced but their text was not provided",
+      "change": "No patches applied to those items because the current strings were not available. They should be updated to match the changes above: tier add-ons for item 1, $100 LLC fee for item 4, CoN fee for items 12 and 14, RN 8:36-8.2 for item 40, 2027 minimum wage for item 41, and the 2.8% UI breakdown for item 42."
+    }
+  ]
+}

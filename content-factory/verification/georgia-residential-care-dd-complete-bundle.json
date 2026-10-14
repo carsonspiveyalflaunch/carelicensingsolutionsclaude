@@ -1,0 +1,152 @@
+{
+  "bundle_slug": "georgia-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 46,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "revenue_lines.*[0].share_of_clients (all configs: cla4_single, cla4_x2, cla4_x4, cla4_x6, cla3_x4, host_home_12)",
+      "current": "100% of residents billed at the state-funded CRA daily rate ($248.35 / $294.16 / $163.33) with no conversion or vacancy risk",
+      "correct": null,
+      "evidence": "S9 p.6: \"State-funded services are intended to be temporary and/or transitional and not a permanent source of funding\" for people eligible for waivers. S9 p.11: \"Individuals receiving NOW or COMP services are not eligible for state-funded services.\" S9 p.13 says the provider must give 30 days' written notice of disenrollment, and the Regional Field Office disenrolls residents who move to a waiver.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "The state-funded rate is a bridge payer, not a permanent one. Add a scenario where residents convert to NOW/COMP. Get the actual NOW/COMP CRA rate and cap from DBHDD or GAMMIS, which are unverified. Model vacancy and re-referral lag when a resident disenrolls. Label the base case 'state-funded bridge revenue'."
+    },
+    {
+      "severity": "critical",
+      "json_path": "opex[item='Host home provider payments (host-home configuration only)'].monthly",
+      "current": 0,
+      "correct": null,
+      "evidence": "S9 p.52: \"The budget and agreed payment details to the Host Home provider for each individual... must support the amount of payment to the Host Home Provider.\" The budget must be approved by the Regional Field Office before placement.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "Unverifiable from the JSON. If host_home_12 does not override this $0 line, profit is badly overstated: about $4,682 per resident-month of revenue ($163.33 × 28.67 days) with no host-provider cost. Confirm the host-home config carries a per-individual host payment that fits within the $163.33/day rate, covers room, board and CRA services, and matches the approved budget."
+    },
+    {
+      "severity": "major",
+      "json_path": "fees_and_timelines_in_checklist[i=2].cite",
+      "current": "O.C.G.A. § 31-2-4; Ga. Comp. R. & Regs. 290-9-37-.29; proposed 82-13-1",
+      "correct": "O.C.G.A. § 37-13-1 et seq. (authority § 37-13-2); proposed Ga. Comp. R. & Regs. 82-13-1-.06(1)",
+      "evidence": "S3 proposed rule: \"The Legal authority for this Chapter is O.C.G.A. §§ 37-13-1 et seq.\" Rule .06(1): \"No Community Living Arrangement shall operate or provide services to residents without a valid license issued by the Department.\" The CLA licensing authority moved from DCH to DBHDD under HB 584.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/revised-combined-public-notice-proposed-cla-rules-7-22-26pdf/download",
+      "fix": "Replace the § 31-2-4 citation (the DCH statute) with O.C.G.A. § 37-13-1 et seq. Keep 290-9-37 as the current rule and 82-13-1 as proposed."
+    },
+    {
+      "severity": "major",
+      "json_path": "fees_and_timelines_in_checklist[i=11] and key_numbers['New provider revenue start']",
+      "current": "Pre-revenue period of about 3 months (low $15,000 / high $60,000); no step for an executed DBHDD contract",
+      "correct": null,
+      "evidence": "S9 p.47: \"The provider... must have an executed, signed contract for those services with DBHDD prior to reimbursement.\" S9 pp.12-13 say individuals are referred by the Regional Field Office, and the provider confirms the start date. S2: initial application review alone takes \"30 business days\".",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "Unverifiable timeline. Add a checklist step for the executed DBHDD state-funded contract, Carelon enrollment and Regional Field Office referral. The sequence runs about 6 weeks for the license review, then contract, then an IISP and referral, so 3 months is optimistic. Stress-test 4–6 months of pre-revenue overhead."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex[item='Contract nursing / health oversight consult'].monthly",
+      "current": 300,
+      "correct": null,
+      "evidence": "S9 p.30: the provider \"completes an HRST at least 90 days prior to the annual ISP... and assures that the provider's nurse reviews and approves by signature the HRST.\" The JSON notes that no Georgia RN wage was retrieved.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "Unverifiable. Nurse HRST review is mandatory and has no sourced price. Get an RN or LPN contract quote and an RN wage from BLS OEWS before relying on $300 per home per month."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=32] and startup_costs[item='DBHDD CLA application processing fee']",
+      "current": "$300 applies to \"new, change of ownership, name change, relocation\"",
+      "correct": "$300 applies to New Application, Change of Ownership, Change in Service Level, Name Change and Relocation",
+      "evidence": "S4 fee table lists \"Change in Service Level\" among the $300 application processing fees, due \"Upon application submission\".",
+      "source_url": "https://dbhdd.georgia.gov/document/document/licensure-fees-tablepdf/download",
+      "fix": "Add 'change in service level' to the list of $300 events."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[item='Follow-up visit fee']; fees_and_timelines_in_checklist[i=38]",
+      "current": "$250 per instance",
+      "correct": "$250 for a follow-up visit to a periodic inspection; the table's Due column says \"License Renewal Date\"",
+      "evidence": "S4: \"Follow-up visit to periodic inspection $250 License Renewal Date\".",
+      "source_url": "https://dbhdd.georgia.gov/document/document/licensure-fees-tablepdf/download",
+      "fix": "State that the $250 is tied to a periodic-inspection follow-up and is listed as due at the license renewal date. Remove 'per instance', or confirm it with DBHDD."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[item='Records, billing and compliance software'].notes; fees_and_timelines_in_checklist (reporting)",
+      "current": "\"the MIER is due by the 10th of each month and quarterly QM reports are required\"",
+      "correct": "The MIER is due by the 10th only for individuals without a prior authorization in IDDC. Quarterly QM reports are due Oct 16, Jan 17, Apr 17 and Jul 17 (FY27).",
+      "evidence": "S9 p.55: the provider \"submits the original MIER... by the 10th of the month... for individuals who do not have a Prior Authorization in the case management system, IDDC.\" S9 p.56 lists the quarterly due dates Oct 16, Jan 17, Apr 17 and Jul 17.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "Add the conditional on the MIER and the four QM due dates. Also add the 2-hour notice to the RSA-DD for any death or high-visibility incident (S9 p.56)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.cla4_single / cla4_x2 / cla4_x4 (no QA role)",
+      "current": "Only the x6 config has a QA/training lead. The other configs have no staff owner for the quality program.",
+      "correct": null,
+      "evidence": "S9 p.33: \"A Quality Improvement Council is a mandatory, external advisory group.\" S9 p.55 requires quarterly QM reports, QM plans and QIPs on file for DBHDD.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "Assign the QM plan, the mandatory external Quality Improvement Council and the quarterly reports to a named role in every config. Add a small recurring cost."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=27].instructions",
+      "current": "A report of HB 1097 (eff. 7/1/2026) giving DBHDD background-check authority over CLA owners was \"not verified\"",
+      "correct": "DBHDD's page says HB 1097 gives it background-check authority over ARMHPs and DATEPs, not CLAs. The CLA owner check comes from 04-104 and 290-9-37 and the 1/1/2026 attestation form.",
+      "evidence": "DBHDD Background Policy & GAPS page: \"Effective 7/1/2026, House Bill 1097 gives DBHDD the authority to background check owners, applicants, and employees of ARMHPs and DATEPs.\" The S2 attestation form says exempt owners must meet four conditions, and otherwise a fingerprint check is required.",
+      "source_url": "https://dbhdd.georgia.gov/be-connected/background-policy-gaps-information",
+      "fix": "Replace the unverified HB 1097 remark. State that owners with 10% or more interest need a fingerprint check unless they meet all four exemption conditions. An owner-operator who works on site does not qualify for the exemption. The fingerprint fee is still unquantified (S3 .04(42) says a records-check fee will be set by DBHDD rule)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[item='Lease'].monthly (2605); startup_costs[item='Lease deposits'].low/high",
+      "current": "HUD FY2026 4-BR FMR $2,605 (the 3-BR figure of $2,182 is correct)",
+      "correct": "FY2026 values are right ($2,182 / $2,605), but they expired Sept 30, 2026. FY2027 took effect Oct 1, 2026; a third-party source lists the 4-BR at $2,493.",
+      "evidence": "HUD FY2026 schedule: \"Atlanta-Sandy Springs-Roswell, GA HMFA... 1585 1660 1820 2182 2605\". VoucherMatch (secondary) says FY2027 4-BR is $2,493, down $112.",
+      "source_url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "fix": "Confirm the FY2027 Atlanta FMR on huduser.gov and update the benchmark. It is only a benchmark, so replace it with local listings."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*.wage_hourly / wage_source_id (S54, S51)",
+      "current": "$15.00 per hour, sourced to CaresLink (S54) and to BLS Atlanta figures ($18.17 mean; $34.57 all-occupations)",
+      "correct": "Verified: CaresLink lists Georgia's median for home health and personal care aides at $14.07 per hour, labeled May 2025 BLS. $15.00 is above the federal $7.25 minimum, which governs in Georgia. Not verified: the Atlanta $18.17 and $34.57 means, because the BLS page returned only navigation text.",
+      "evidence": "CaresLink: Georgia \"$29,270 ... $14.07\" (rank 43 of the states). The $55,000 administrator salary and other operator salaries cite S51 even though the notes say no BLS wage for managers was retrieved.",
+      "source_url": "https://www.careslink.com/en/salary/home-health-aide",
+      "fix": "Cite BLS OEWS May 2025 directly (Georgia and the Atlanta MSA, SOC 31-1120/31-1131 and a residential-manager code). Remove S51 as the source for operator-estimated salaries. Note that $15 is only about $0.93 above the state median and below the Atlanta mean cited, so run a sensitivity at $16–$18 for retention."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=1] and key_numbers['Licensed capacity...']",
+      "current": "Board consideration \"scheduled for Aug. 27, 2026\"; adoption not verified",
+      "correct": "The Aug 27, 2026 board date and Aug 21 comment deadline have passed. DBHDD's rules page still lists the CLA rules under \"Proposed New Rules\", and no adoption notice was found.",
+      "evidence": "S3 notice: comments due \"Friday, August 21, 2026, at 5:00 P.M.\"; board at \"1:00 P.M. on Thursday, August 27, 2026\". DBHDD Privacy, Rules & Regulations page (retrieved this week) still lists the CLA rules under \"Proposed New Rules\".",
+      "source_url": "https://dbhdd.georgia.gov/organization/be-informed/privacy-rules-regulations",
+      "fix": "Reword to: 'Board consideration was scheduled for Aug 27, 2026; as of Oct 14, 2026 no adoption or effective date was found. Confirm with DBHDD Legal.' Keep building to the stricter of 290-9-37 and 82-13-1."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.cla4_x2 / cla4_x4 / cla4_x6 and fees_and_timelines (multi-site launch)",
+      "current": "Applications and licenses for 2–6 sites are modeled as simultaneous",
+      "correct": "Under the proposed rule, a governing body holding a provisional license cannot apply for a new CLA until all its CLAs have a full license. A provisional license is not available to a never-licensed residence that fails structural rules.",
+      "evidence": "S3 .06(8)(e): \"shall not apply for a new Community Living Arrangement until such time as all of its Community Living Arrangements are issued a full, valid license.\" S3 .06(8)(b) bars a provisional license for a never-licensed residence that is not structurally compliant.",
+      "source_url": "https://dbhdd.georgia.gov/document/document/revised-combined-public-notice-proposed-cla-rules-7-22-26pdf/download",
+      "fix": "Phase multi-home openings and note the provisional-license gate in the timeline. License fees and rent are incurred before revenue at each site."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[Host Home].notes; fees_and_timelines (admission agreement)",
+      "current": "The 60-day written notice before charge changes is attributed only to host homes (S9)",
+      "correct": "The proposed CLA rule also requires admission agreements to promise at least 60 days' written notice of changes in charges or services. Separately, host homes are exempt from the CLA rules.",
+      "evidence": "S3 .12(7)(b): the resident and representative \"shall be informed, in writing, at least 60 days prior to changes in charges or services.\" S3 .03(13) exempts \"Host homes funded by the Department\". S9 p.26 still says CRA sites must hold a \"Community Living Arrangement License or Personal Care Home Permit\".",
+      "source_url": "https://dbhdd.georgia.gov/document/document/revised-combined-public-notice-proposed-cla-rules-7-22-26pdf/download",
+      "fix": "Add the 60-day notice to the CLA admission-agreement checklist. Confirm with DBHDD whether CLA license and application fees apply to the host-home configuration, since the sources conflict."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[*].phone / email",
+      "current": "DBHDD licensure phone (404) 657-2252; no Carelon contact; Provider Relations has no phone or email",
+      "correct": "Verified: Licensure.Application@dbhdd.ga.gov (S2), legal@dbhdd.ga.gov and 404.657.2282 (S3 letterhead). Not verifiable: (404) 657-2252, because the licensure page fetch was truncated. S9 lists GACollaborativePR@carelon.com for provider enrollment, authorizations and billing, plus Provider Relations at dbhdd.georgia.gov/be-connected/pims.",
+      "evidence": "S9 p.4: \"Questions related to the Georgia Collaborative ASO functions... can be directed to GACollaborativePR@carelon.com\".",
+      "source_url": "https://dbhdd.georgia.gov/document/document/provider-manual-dd-state-funded-services/download",
+      "fix": "Confirm (404) 657-2252 on the DBHDD licensure page. Add the Carelon email and the PIMS Provider Relations link to the regulators list."
+    }
+  ]
+}

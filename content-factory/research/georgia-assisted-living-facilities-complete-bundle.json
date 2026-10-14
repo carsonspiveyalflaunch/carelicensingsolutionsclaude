@@ -1,0 +1,2377 @@
+{
+  "bundle_slug": "georgia-assisted-living-facilities-complete-bundle",
+  "state": "Georgia",
+  "state_code": "GA",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Personal Care Home (PCH, 2–24 beds, Ga. Comp. R. & Regs. ch. 111-8-62) and Assisted Living Community (ALC, 25+ beds, ch. 111-8-63), permitted by DCH Healthcare Facility Regulation Division; Medicaid via the Elderly and Disabled Waiver Program (CCSP / SOURCE Alternative Living Services)",
+  "as_of": "2026-10",
+  "report_title": "Georgia Personal Care Home & Assisted Living Community — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Ga. Comp. R. & Regs. 111-8-63 Assisted Living Communities",
+      "publisher": "Georgia Secretary of State, Rules and Regulations",
+      "url": "https://rules.sos.ga.gov/gac/111-8-63",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "Rule 111-8-63-.06 Permits",
+      "publisher": "Cornell LII (Ga. Comp. R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-63-.06",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "Schedule of Licensure Activity Fees (Oct 2024)",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://dch.georgia.gov/document/document/schedule-licensure-activity-fees-oct2024/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "Assisted Living Community Application Checklist (updated 07/13/26)",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "Rule 111-8-63-.09 Workforce Qualifications, Training and Staffing",
+      "publisher": "Cornell LII (Ga. Comp. R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-63-.09",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "Application for Initial Licensure as ALC or PCH Administrator (11.2022)",
+      "publisher": "Georgia State Board of Long-Term Care Facility Administrators",
+      "url": "https://sos.ga.gov/sites/default/files/forms/18%20Application%20-%20ALCA%20and%20PCHA%20Initial%20Licensure.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "Georgia administrator licensure notice (effective July 1, 2021)",
+      "publisher": "JD Supra (law firm content)",
+      "url": "https://www.jdsupra.com/authors/laura-dona/long-term-care/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "Licensure Forms & Applications",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://dch.georgia.gov/licensure-forms-applications",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "Apply for Elderly and Disabled Waiver Program",
+      "publisher": "Georgia (gmcc.georgia.gov)",
+      "url": "https://gmcc.georgia.gov/apply-elderly-and-disabled-waiver-program",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "Waiver Programs",
+      "publisher": "Georgia Medicaid (DCH)",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/waiver-programs",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "Community Care Services Program fact sheet (Aug 2019)",
+      "publisher": "Georgia DCH",
+      "url": "https://medicaid.georgia.gov/media/3761/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "2131 Elderly Disabled Waiver Program (PAMMS)",
+      "publisher": "Georgia DHS, Division of Family and Children Services",
+      "url": "https://pamms.dhs.ga.gov/dfcs/medicaid/2131/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "Medicaid Waivers (SOURCE/CCSP, $768 room and board)",
+      "publisher": "Georgia Health Services Network",
+      "url": "https://www.georgiahealth.us/medicaid-waivers/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Medicare Help in Georgia: GeorgiaCares, SFC, and CCSP Waivers (2026)",
+      "publisher": "UnderstoodCare",
+      "url": "https://understoodcare.com/state-guides/medicare-help-in-georgia-georgiacares-sfc-and-ccsp-waivers-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "Assisted Living in Georgia",
+      "publisher": "Mirador Living",
+      "url": "https://www.miradorliving.com/assisted-living/georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "Georgia Medicaid Community Care Services Program (CCSP)",
+      "publisher": "Medicaid Planning Assistance",
+      "url": "https://www.medicaidplanningassistance.org/georgia-medicaid-ccsp/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "Home and Community Services: A Guide to Medicaid Waiver Programs in Georgia",
+      "publisher": "Georgia DCH / GAMMIS",
+      "url": "https://www.mmis.georgia.gov/portal/ResourceProxy.aspx?iCProxyTo=MC1FZHVjYXRpb24uYXNweD9hZj1sb2NhbCZmPVRyYWluaW5nXEhvbWUrYW5kK0NvbW11bml0eStTZXJ2aWNlcytCb29rbGV0LnBkZg%3D%3D",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "Ga. Comp. R. & Regs. 111-8-62 Personal Care Homes",
+      "publisher": "Georgia Secretary of State, Rules and Regulations",
+      "url": "https://rules.sos.ga.gov/gac/111-8-62",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "Cost of Care Survey 2025 median cost data tables",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Georgia Electronic Visit Verification (EVV)",
+      "publisher": "Georgia Medicaid (DCH)",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "GAMMIS portal notices (revalidation, retroactive enrollment, program types)",
+      "publisher": "Georgia DCH Medical Assistance Plans",
+      "url": "https://www.mmis.georgia.gov/portal/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Provider Enrollment Application Fee Amount for CY 2026",
+      "publisher": "Federal Register (CMS)",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "Medicare Provider Enrollment (MLN9658742)",
+      "publisher": "CMS Medicare Learning Network",
+      "url": "https://www.cms.gov/Outreach-and-Education/Medicare-Learning-Network-MLN/MLNProducts/EnrollmentResources/provider-resources/provider-enrolment/Med-Prov-Enroll-MLN9658742.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "State Minimum Wage Laws (updated July 1, 2026)",
+      "publisher": "U.S. Department of Labor, Wage and Hour Division",
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Employers FAQs - Unemployment Insurance",
+      "publisher": "Georgia Department of Labor",
+      "url": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Occupational Employment and Wages, Atlanta-Sandy Springs-Roswell, May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/southeast/news-release/occupationalemploymentandwages_atlanta.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "FY 2026 Schedule of Fair Market Rents",
+      "publisher": "U.S. HUD (HUD USER)",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "Personal Care Homes (DCH HFRD program page)",
+      "publisher": "Georgia DCH, Healthcare Facility Regulation Division",
+      "url": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/personal-care-homes",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "QuickFacts: Georgia",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/GA",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "HFRD Laws & Regulations",
+      "publisher": "Georgia DCH, Healthcare Facility Regulation Division",
+      "url": "https://dch.georgia.gov/divisionsoffices/hfrd/hfrd-laws-regulations",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "DCH Rule 111-8-62 final rule text (rev. 09.10.21)",
+      "publisher": "Georgia DCH (hosted by GASLA)",
+      "url": "https://www.gasla.org/uploads/8/2/3/8/82389872/dch_rule_111-8-62_final_rule_09.10.21.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "Rule 111-8-62 combined rules update",
+      "publisher": "Georgia DCH (hosted by City of Hampton, GA)",
+      "url": "https://hamptonga.gov/DocumentCenter/View/3825/Georgia-Department-of-Community-Health-Personal-Care-Homes_111-8-62-CombinedRulesUpdate",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Personal Care Homes Rules 111-8-62 and Synopsis of Initial Adoption",
+      "publisher": "Georgia DCH, Healthcare Facility Regulation",
+      "url": "https://dch.georgia.gov/document/document/personal-care-homes-rules-111-8-62-rules-and-synopsis-initial-adoption-and-public/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Rule 111-8-62-.09 Workforce Qualifications and Training",
+      "publisher": "Cornell LII (Ga. Comp. R. & Regs.)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-62-.09",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "GA Elderly and Disabled Waiver (0112.R08.00)",
+      "publisher": "CMS Medicaid.gov",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/81411",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Georgia Personal Care Home License: Step-by-Step Guide",
+      "publisher": "RA Licensing Roadmap",
+      "url": "https://ralroadmap.com/blog/georgia-personal-care-home-license-requirements/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Georgia CCSP Waiver 2026",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/medicaid/georgia/ccsp-waiver",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Apply for Elderly and Disabled Waiver Program",
+      "publisher": "Georgia.gov",
+      "url": "https://georgia.gov/apply-elderly-and-disabled-waiver-program",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "Apply for SOURCE",
+      "publisher": "Georgia.gov",
+      "url": "https://georgia.gov/apply-service-options-using-resources-community-environment-source",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "DCH Board Authorizes Final Adoption of New Staffing Rules for ALCs and PCHs",
+      "publisher": "Arnall Golden Gregory LLP",
+      "url": "https://www.agg.com/news-insights/publications/georgia-department-of-community-health-board-authorizes-final-adoption-of-new-staffing-rules-for-assisted-living-communities-and-personal-care-homes/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "Georgia Finalizes Rules Implementing New Standards for ALCs and PCHs",
+      "publisher": "JD Supra (law firm article)",
+      "url": "https://www.jdsupra.com/legalnews/georgia-finalizes-rules-implementing-9079635/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Georgia LLC Cost (2026)",
+      "publisher": "BusinessAnywhere",
+      "url": "https://businessanywhere.io/georgia-llc-cost/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "Georgia Minimum Wage 2026",
+      "publisher": "Hivedesk",
+      "url": "https://www.hivedesk.com/compliance/united-states/minimum-wage-georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Costs of long-term care and senior living in Georgia",
+      "publisher": "Action News Jax / A Place for Mom",
+      "url": "https://www.actionnewsjax.com/news/costs-long-term-care/JU44OMEFLA727N5M7JNT7GQE5Y/?outputType=amp",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "Nursing Assistants and Orderlies (OOH)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Registered Nurses (OOH)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Home Health and Personal Care Aides (OOH)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "Georgia Medicaid Programs for Long Term Care & the Elderly",
+      "publisher": "Medicaid Long Term Care",
+      "url": "https://www.medicaidlongtermcare.org/eligibility/georgia/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "Section 8 in Atlanta, GA (FY2027 FMR)",
+      "publisher": "VoucherMatch",
+      "url": "https://vouchermatch.com/section-8/atlanta-ga",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "Georgia LLC Annual Registration & Taxes (2026)",
+      "publisher": "LegalGlass",
+      "url": "https://legalglass.org/georgia-annual-report/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "Georgia SUI Rates 2026",
+      "publisher": "Georgia Payroll Guide",
+      "url": "https://georgiapayrollguide.com/blog/georgia-sui-rates-2026",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "How Much Does an LLC Cost in Georgia",
+      "publisher": "Commenda",
+      "url": "https://www.commenda.io/usa/georgia/llc-cost",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S53",
+      "title": "Georgia CCSP: Community Care Services Program Explained",
+      "publisher": "Elder Care Index",
+      "url": "https://eldercareindex.com/guides/georgia-ccsp-community-care-services-program/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S54",
+      "title": "Residential Care/Assisted Living Compendium: Georgia (c. 2015)",
+      "publisher": "HHS ASPE",
+      "url": "https://aspe.hhs.gov/sites/default/files/private/pdf/110446/15alcom-GA.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S55",
+      "title": "Facilities Regulated by the Department of Community Health",
+      "publisher": "Georgia DCH, HFRD",
+      "url": "https://forms.dch.georgia.gov/HFRD/List_Of_Regulated_Facilities.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S56",
+      "title": "Assisted Living In Georgia",
+      "publisher": "A Place for Mom",
+      "url": "https://www.aplaceformom.com/assisted-living/georgia",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Assisted Living Community (ALC) definition",
+      "value": "A personal care home serving 25 or more residents that is licensed by DCH to provide assisted living care (Ch. 111-8-63). Homes under 25 beds are personal care homes (Ch. 111-8-62) and may not provide assisted living care without an ALC license.",
+      "source_id": "S1",
+      "as_of": "Current rule text, accessed 2026-10-14"
+    },
+    {
+      "metric": "Personal care home size band",
+      "value": "2 to 24 beds (secondary source; ALC threshold of 25 confirmed in rule text)",
+      "source_id": "S36",
+      "as_of": "2026 (secondary)"
+    },
+    {
+      "metric": "New application processing fee",
+      "value": "$300, paid upon submission (non-refundable)",
+      "source_id": "S3",
+      "as_of": "Oct 2024 fee schedule"
+    },
+    {
+      "metric": "Annual license fee",
+      "value": "ALC 25–50 beds $750/yr; 51+ beds $1,500/yr; personal care home 2–24 beds $350/yr. The initial license fee is paid before the license is issued.",
+      "source_id": "S3",
+      "as_of": "Oct 2024 fee schedule"
+    },
+    {
+      "metric": "Memory care certificate fee",
+      "value": "$200 annually. The ALC packet requires a current ALC permit before applying; PCHs follow the PCH memory care process (the fee schedule covers both PCHs and ALCs).",
+      "source_id": "S3",
+      "as_of": "Oct 2024 fee schedule; prerequisite per packet updated 07/13/26"
+    },
+    {
+      "metric": "DCH initial review timeframe",
+      "value": "30 business days from submission (DCH checklist figure, not a rule deadline)",
+      "source_id": "S4",
+      "as_of": "Packet updated 07/13/26"
+    },
+    {
+      "metric": "Minimum direct-care staffing (ALC)",
+      "value": "At least 2 on-site direct care staff 24 hours a day whenever residents are present, with at least one on each occupied floor. The average staff-to-resident ratios were not confirmed against the current rule text and are treated as planning assumptions.",
+      "source_id": "S5",
+      "as_of": "Rule 111-8-63-.09; two-staff and per-floor text confirmed, ratio paragraph not confirmed"
+    },
+    {
+      "metric": "Required nurse hours (ALC)",
+      "value": "RN or LPN hours per week are required in ALCs, but the hour thresholds were not confirmed from the retrieved rule text. The model assumes about 8 hrs/week for 1–30 residents and about 16 hrs/week for 31–60 residents as planning inputs.",
+      "source_id": "S5",
+      "as_of": "Rule 111-8-63-.09; nurse-hour paragraph not confirmed"
+    },
+    {
+      "metric": "Staff training hours",
+      "value": "Training within 60 days of hire; hands-on staff need 24 hours of continuing education in year one and 16 hours a year after",
+      "source_id": "S5",
+      "as_of": "Rule 111-8-63-.09 (training and TB/physical text confirmed)"
+    },
+    {
+      "metric": "Administrator license application fee",
+      "value": "$100 application fee plus a processing fee of $10 (paper) or $5 (online), so $110 paper or $105 online (Board of Long-Term Care Facility Administrators; form dated 11.2022). Board license is required for administrators of 25+ bed homes. The license is biennial (expires Dec 31 of odd-numbered years); renewal fee not modeled.",
+      "source_id": "S6",
+      "as_of": "Form dated 11.2022; current fee not reconfirmed"
+    },
+    {
+      "metric": "Waiver resident room-and-board payment",
+      "value": "$768/month paid by the resident to the personal care home under SOURCE/CCSP; leaves $226 of the $994 SSI benefit for personal needs. Waivers do not pay room and board.",
+      "source_id": "S13",
+      "as_of": "Effective 2026-01-01 (secondary sources)"
+    },
+    {
+      "metric": "Georgia private-pay assisted living median",
+      "value": "$5,300/month ($63,600/yr; $166/day) for a private one-bedroom unit in an assisted living community. National median is $6,200/month.",
+      "source_id": "S19",
+      "as_of": "CareScout survey July–Nov 2025"
+    }
+  ],
+  "not_claimed": [
+    "A 2026 Medicaid per-diem or unit rate for Alternative Living Services (CCSP/SOURCE) paid to personal care homes or ALCs, with HCPCS code, modifiers and unit definition — no official DCH rate schedule was retrieved. No Medicaid ALS revenue line should be treated as sourced.",
+    "Official statewide counts of licensed ALCs and PCHs by size or county. Only DCH's combined figure of 2,910 facilities and roughly 55,000 residents was found, on an undated page; PCH and ALC counts were not separated.",
+    "Georgia occupancy or bed-utilization rates, competitor names, market shares and referral-source breakdowns — no public source found.",
+    "Current official CCSP/SOURCE enrollment counts and waiting-list totals. Secondary slot counts conflict (about 49,398 vs 53,779 per year), and the number of waiver participants living in PCHs or ALCs is unknown. DCH's guide says only that waiver waitlists are nearly always populated.",
+    "CCSP 2026 income limit — secondary sources conflict ($2,982 = 300% of the SSI federal benefit rate vs $2,901); the official DFCS 2026 table was not retrieved. The $2,000 asset limit comes from secondary sources only.",
+    "The official SSA source for the 2026 SSI rate of $994 — only secondary sources were retrieved. The $768 room-and-board amount is attributed by two secondary sources to the DHS Division of Aging; no primary DHS notice was retrieved.",
+    "Whether SOURCE is statewide — the official Georgia.gov page says it is available only in certain areas; a secondary source says otherwise.",
+    "Whether Medicaid waiver ALS claims are routed through fee-for-service or a managed care organization, and whether Georgia has a state-plan personal care benefit — sources conflict.",
+    "Whether PCH/ALS waiver providers are 'institutional' for the $750 CY2026 provider enrollment fee, and whether the 2026 Group/Billing enrollment requirement applies to them.",
+    "Whether Georgia's EVV applies to the ALS placement service itself — only T1019 (CCSP/SOURCE personal support services) and T2025 (ICWP) codes were verified; the EVV model (open vs required aggregator) conflicts across secondary sources.",
+    "A rule-based licensing processing deadline — the 30-business-day figure is from the DCH checklist. The 90–120 day timeline in one secondary blog was not used.",
+    "The Letter of Determination / certificate of need thresholds for ALC and PCH — OHP letter requirement confirmed in the ALC checklist, but CON rules were not verified.",
+    "A current fee schedule for the Board of Long-Term Care Facility Administrators — the only source is an application form dated 11.2022.",
+    "Fire marshal, electrical, water-test, zoning and local business license fees — not verified. Local occupational tax certificates are reported at $10 to $1,000+ by a secondary source only.",
+    "Insurance or bond minimums for PCH/ALC licensure — no rule text found. The $1M/$3M figure seen in one secondary source applies to a different chapter (111-8-65).",
+    "Statewide BLS OEWS May 2025 wages for Georgia (aides, nursing assistants, LPNs, RNs, cooks, administrators) were not confirmed on bls.gov. A secondary compilation lists a Georgia aide median of about $14.07/hr, which is not used. National medians are used as proxies. The Atlanta MSA group means ($15.37 food preparation and serving; $18.17 personal care and service) could not be re-confirmed and are broad group proxies, not occupation-level wages. The $39,490 CCRC/assisted living nursing assistant median was also not confirmed.",
+    "Final adoption status and effective date of the 2025 proposed amendments to Chapter 111-8-62 (presented to the DCH Board for initial adoption 2/13/2025), and any post-2025 changes to Chapter 111-8-63.",
+    "Explicit PCH (2–24 bed) staffing and administrator rules beyond what was retrieved: fewer than 25 beds — associate's degree, or GED/high school diploma plus 2 years of licensed PCH or healthcare experience, and administrator age 21 or older. Staffing for PCHs of fewer than 25 beds was not fully verified from current official text, and a stale (c. 2015) ASPE compendium is the only other bed-count reference.",
+    "Workers' compensation rates for Georgia residential care, and commercial rent benchmarks for Georgia care facilities. HUD FY2027 FMR figures are not verified from the official schedule (secondary report only: Atlanta 2BR $1,762).",
+    "Georgia SUI experience-rate schedule — the new-employer rate of 2.70% on a $9,500 wage base is official, but the 0.04%–8.1% range is secondary.",
+    "Georgia LLC fees from the Secretary of State directly — the $110 formation and $60 annual registration figures are secondary and conflict on whether the $10 service charge is included ($50 base).",
+    "Local minimum wages in Georgia metros — only a secondary claim that none are allowed; the status of proposed SB273 ($22.00 minimum wage) was not confirmed. The effective minimum wage used is the federal $7.25.",
+    "Georgia-specific demand statistics beyond Census QuickFacts (16.7% of Georgia's 11,302,748 residents aged 65+); the 1.76 million aged 65+ count in 2024 from a secondary source uses a different base.",
+    "Average staff-to-resident ratios (1:15 waking; 1:20 ALC or 1:25 PCH non-waking), RN/LPN weekly hours (8 and 16), and the May 21, 2025 ALC rule amendment date were not confirmed against current official rule text; only the two-staff, one-per-floor, training and TB/physical requirements were confirmed.",
+    "The $4,395/month small-home private-pay rate (S44) was not confirmed on its source page. Other sources give $4,752 and about $4,940, so it is used only as a revenue sensitivity band.",
+    "Any two-year going-concern wording in the DCH CPA financial stability affidavit. The form says the applicant has demonstrated the financial resources to operate, and applies to ALCs and PCHs of 25+ beds.",
+    "A direct HFRD telephone number ((404) 656-4507 could not be verified), the Board administrator license renewal fee, and CE costs."
+  ],
+  "regulators": [
+    {
+      "name": "Georgia Department of Community Health (DCH), Healthcare Facility Regulation Division (HFRD)",
+      "role": "Permits and licenses personal care homes and assisted living communities; conducts unannounced periodic inspections; issues memory care certificates",
+      "url": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/personal-care-homes",
+      "phone": "",
+      "email": "pchprogram.hfrd@dch.ga.gov",
+      "source_id": "S4"
+    },
+    {
+      "name": "DCH Office of Health Planning (OHP)",
+      "role": "Issues the Letter of Determination required with the initial ALC application",
+      "url": "https://dch.georgia.gov/con-applications-and-forms",
+      "phone": "",
+      "email": "",
+      "source_id": "S4"
+    },
+    {
+      "name": "Georgia State Board of Long-Term Care Facility Administrators (Secretary of State)",
+      "role": "Licenses ALC administrators and administrators of 25+ bed personal care homes",
+      "url": "https://sos.ga.gov/sites/default/files/forms/18%20Application%20-%20ALCA%20and%20PCHA%20Initial%20Licensure.pdf",
+      "phone": "404-424-9966",
+      "email": "",
+      "source_id": "S6"
+    },
+    {
+      "name": "DCH Division of Medicaid (Medical Assistance Plans)",
+      "role": "Administers the Elderly and Disabled Waiver Program (CCSP and SOURCE) and contracts with the 12 Area Agencies on Aging",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/waiver-programs",
+      "phone": "",
+      "email": "",
+      "source_id": "S11"
+    },
+    {
+      "name": "Area Agencies on Aging (statewide toll-free line)",
+      "role": "First point of contact for waiver assessment and screening; screening determines eligibility, urgency and waitlist placement",
+      "url": "https://georgia.gov/apply-elderly-and-disabled-waiver-program",
+      "phone": "866-552-4464 (866-55-AGING)",
+      "email": "",
+      "source_id": "S38"
+    },
+    {
+      "name": "Georgia DHS Division of Family and Children Services (DFCS)",
+      "role": "Determines Medicaid financial eligibility for the Elderly and Disabled Waiver Program and keeps the EDWP waiting list",
+      "url": "https://pamms.dhs.ga.gov/dfcs/medicaid/2131/",
+      "phone": "",
+      "email": "",
+      "source_id": "S12"
+    },
+    {
+      "name": "Georgia DHS Division of Aging Services",
+      "role": "Sets the monthly personal care home room-and-board rate for SOURCE residents ($768 effective 1/1/2026, per secondary sources)",
+      "url": "https://www.georgiahealth.us/medicaid-waivers/",
+      "phone": "",
+      "email": "",
+      "source_id": "S13"
+    },
+    {
+      "name": "State Fire Marshal",
+      "role": "Fire safety inspection report (no violations, capacity load) dated within 12 months of application submission",
+      "url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+      "phone": "",
+      "email": "",
+      "source_id": "S4"
+    },
+    {
+      "name": "Georgia Medicaid GAMMIS provider enrollment",
+      "role": "Medicaid provider enrollment and revalidation; retroactive enrollment is not permitted",
+      "url": "https://www.mmis.georgia.gov/portal/",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    },
+    {
+      "name": "Georgia Department of Labor",
+      "role": "State unemployment insurance registration and tax rates",
+      "url": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance",
+      "phone": "",
+      "email": "",
+      "source_id": "S25"
+    },
+    {
+      "name": "Local zoning and planning officials",
+      "role": "Applicant must address local zoning and location requirements with the responsible local officials",
+      "url": "https://rules.sos.ga.gov/gac/111-8-63",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Ga. Comp. R. & Regs. 111-8-63",
+      "title": "Rules and Regulations for Assisted Living Communities (25+ residents)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-63",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Ga. Comp. R. & Regs. 111-8-62",
+      "title": "Personal Care Homes (2+ unrelated adults; under 25 beds)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-62",
+      "source_id": "S18"
+    },
+    {
+      "cite": "O.C.G.A. § 31-2-7 and Title 31, Chapter 7",
+      "title": "Legal authority for Chapter 111-8-63 (Rule 111-8-63-.01)",
+      "url": "https://rules.sos.ga.gov/gac/111-8-63",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Rule 111-8-63-.06",
+      "title": "Permits (non-transferable; invalid on ownership change)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-63-.06",
+      "source_id": "S2"
+    },
+    {
+      "cite": "Rule 111-8-63-.09",
+      "title": "ALC workforce qualifications, training and staffing (amended eff. May 21, 2025)",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-63-.09",
+      "source_id": "S5"
+    },
+    {
+      "cite": "Rule 111-8-62-.08",
+      "title": "PCH administrator qualifications (board license for 25+ beds, within 60 days of hire)",
+      "url": "https://www.gasla.org/uploads/8/2/3/8/82389872/dch_rule_111-8-62_final_rule_09.10.21.pdf",
+      "source_id": "S31"
+    },
+    {
+      "cite": "Rule 111-8-62-.09",
+      "title": "PCH workforce qualifications and training",
+      "url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-62-.09",
+      "source_id": "S34"
+    },
+    {
+      "cite": "Rule 111-8-62 (staffing and change of ownership provisions)",
+      "title": "PCH staffing ratios and 30-day change-of-ownership notice",
+      "url": "https://dch.georgia.gov/document/document/personal-care-homes-rules-111-8-62-rules-and-synopsis-initial-adoption-and-public/download",
+      "source_id": "S33"
+    },
+    {
+      "cite": "DCH Schedule of Licensure Activity Fees",
+      "title": "Application, license, memory care, late and replacement fees",
+      "url": "https://dch.georgia.gov/document/document/schedule-licensure-activity-fees-oct2024/download",
+      "source_id": "S3"
+    },
+    {
+      "cite": "DCH ALC Application Checklist",
+      "title": "Application documents, inspections, GCHEXS background checks, GAHLES portal",
+      "url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+      "source_id": "S4"
+    },
+    {
+      "cite": "21st Century Cures Act (EVV)",
+      "title": "Electronic visit verification for Medicaid personal care services, implemented by DCH",
+      "url": "https://medicaid.georgia.gov/programs/all-programs/georgia-electronic-visit-verification-evv-0",
+      "source_id": "S20"
+    },
+    {
+      "cite": "CMS waiver 0112.R08.00",
+      "title": "Georgia Elderly and Disabled Waiver (expires 11/08/2027)",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/81411",
+      "source_id": "S35"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living community, Georgia statewide median (private one-bedroom), 2025",
+      "rate": 5300,
+      "unit": "per month",
+      "effective": "2025 (survey July–Nov 2025)",
+      "notes": "$63,600/yr; about $166/day. CareScout measures an as-reported monthly rate for a private one-bedroom unit in an assisted living community. It may overstate revenue for small shared-room personal care homes. National median is $6,200/month, so Georgia is below national.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "Private pay (secondary benchmark)",
+      "code": "",
+      "service": "Georgia median assisted living, A Place for Mom-based report",
+      "rate": 4395,
+      "unit": "per month",
+      "effective": "2026-04",
+      "notes": "Reported by Action News Jax from A Place for Mom data; the source page was not directly confirmed. A Place for Mom's own Georgia page gives a conflicting $4,752 average, and another 2026 source gives about $4,940/month. Treat the $4,395–$4,940 spread as a revenue sensitivity band, not a verified rate, and replace it with quotes from 5–10 local competitors. It is not confirmed to be an all-inclusive base rate.",
+      "source_id": "S44"
+    },
+    {
+      "payer": "Resident (SOURCE/CCSP, from SSI)",
+      "code": "R&B",
+      "service": "Personal care home room-and-board payment by waiver resident",
+      "rate": 768,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Rate attributed to the Georgia DHS Division of Aging by two secondary sources. The resident keeps $226 of the $994 SSI benefit. Waivers do not pay room and board.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Resident (SSI federal benefit rate)",
+      "code": "",
+      "service": "2026 SSI individual benefit used for waiver room-and-board arithmetic",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "Cited by a secondary source (not SSA directly). $994 − $768 = $226 retained for personal needs.",
+      "source_id": "S15"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "DCH Healthcare Facility Regulation Division (HFRD)",
+      "role": "Licensure questions",
+      "contact": "2 Martin Luther King Jr. Drive SE, East Tower, Atlanta, GA 30334 (Mon–Fri, 8 a.m.–5 p.m. ET); DCH main line 404-657-5700. A direct HFRD phone number was not verified."
+    },
+    {
+      "name": "Personal Care Home Team (DCH HFRD)",
+      "role": "Regulations, surveys, permits and administrator contact updates",
+      "contact": "pchprogram.hfrd@dch.ga.gov"
+    },
+    {
+      "name": "GAHLES online application portal",
+      "role": "Filing ALC applications and checking status",
+      "contact": "https://gahles.dch.georgia.gov/"
+    },
+    {
+      "name": "Area Agencies on Aging (statewide)",
+      "role": "Waiver assessment and referral entry point (CCSP/SOURCE)",
+      "contact": "866-552-4464 (866-55-AGING)"
+    },
+    {
+      "name": "Georgia Medicaid waiver programs page",
+      "role": "CCSP / SOURCE program information",
+      "contact": "https://medicaid.georgia.gov/programs/all-programs/waiver-programs"
+    },
+    {
+      "name": "GAMMIS provider portal",
+      "role": "Medicaid provider enrollment and revalidation",
+      "contact": "https://www.mmis.georgia.gov/portal/"
+    },
+    {
+      "name": "Georgia State Board of Long-Term Care Facility Administrators",
+      "role": "ALC/PCH administrator licensing ($100 application fee plus a $10 paper or $5 online processing fee, per the Board fee schedule)",
+      "contact": "237 Coliseum Drive, Macon, GA 31217-3858; phone 404-424-9966; https://sos.ga.gov/sites/default/files/forms/18%20Application%20-%20ALCA%20and%20PCHA%20Initial%20Licensure.pdf"
+    },
+    {
+      "name": "Georgia Department of Labor",
+      "role": "Unemployment insurance employer registration",
+      "contact": "https://dol.georgia.gov/faqs-employers/employers-faqs-unemployment-insurance"
+    },
+    {
+      "name": "DCH HFRD applications, payments and background checks",
+      "role": "Application/waiver questions, fee payments, GCHEXS background checks",
+      "contact": "hfrd.applicationswaivers@dch.ga.gov; hfrd.payments@dch.ga.gov; GCHEXS 404-463-7154 / gchexs.user@dch.ga.gov"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.88,
+      "conservative": 0.8,
+      "optimistic": 0.95,
+      "rationale": "No Georgia occupancy or bed-utilization figure was found from an official source (listed in not_claimed). The 88% default is an operator planning assumption, not a sourced statistic. The 80% conservative case matters most for small homes, where one vacant bed is 4–17% of census. New homes ramp up from a handful of residents, and the generator computes the ramp-up cash deficit. Verify against local referral volume before relying on any occupancy level.",
+      "source_id": ""
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "payroll_burden": {
+      "payroll_tax_pct": 0.085,
+      "workers_comp_pct": 0.06,
+      "benefits_pct": 0.05,
+      "notes": "Payroll taxes of 8.5% = employer FICA at the statutory 7.65% (not separately sourced here; confirm with IRS) plus about 0.85% for Georgia unemployment tax and FUTA. Georgia new employers were reported at a 2.70% SUI rate on a $9,500 wage base [S25]; this was not re-verified and should be confirmed on the Georgia DOL page. FUTA (0.6% on the first $7,000, net of the state credit) is not modeled separately. Experience-rated SUI ranges 0.04%–8.1% (secondary source [S51]). Workers' comp at 6% and benefits at 5% are operator estimates; get a carrier quote. The effective minimum wage is $7.25 (federal; Georgia's $5.15 state rate yields to it) [S24]. Every modeled wage is above $7.25. No Georgia local minimum wage was found; a secondary source says none are allowed [S43], and a higher local wage would raise labor cost.",
+      "source_id": "S25"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 2996,
+        "basis": "fixed",
+        "source_id": "S27",
+        "notes": "Fixed from day one regardless of census. FY2026 HUD Fair Market Rent for the Atlanta-Sandy Springs-Roswell HMFA, 4-bedroom, is $2,605/month [S27]. Multiplied by 1.15 as a 5-bedroom proxy this gives about $2,996 for a 6-bed home, or about $499 per licensed bed. Larger PCH configurations apply the same per-bed figure; ALC configurations use the studio FMR of $1,585 per bed [S27]. All are operator estimates — verify locally. Rent outside metro Atlanta may be lower; commercial rent data was not found."
+      },
+      {
+        "item": "Food (3 meals + snacks per resident)",
+        "monthly": 330,
+        "basis": "per_client",
+        "notes": "Operator estimate (about $10.85 per resident-day) — verify with your food vendor."
+      },
+      {
+        "item": "Utilities — per-resident portion",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed beds)",
+        "monthly": 405,
+        "basis": "fixed",
+        "notes": "$67.50 per licensed bed per month. Operator estimate — verify locally."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 100,
+        "basis": "per_client",
+        "notes": "No insurance or bond minimum for PCH/ALC licensure was found in the rule text reviewed (listed in not_claimed). A $1M/$3M figure seen in one secondary source applies to a different chapter (111-8-65). Landlords, lenders and Medicaid contracts usually require coverage. Premium is an operator estimate — get quotes."
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance (per resident)",
+        "monthly": 50,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Maintenance contract / handyman (fixed, larger buildings)",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "Not needed in a small home; sized in larger configurations through overrides. Operator estimate."
+      },
+      {
+        "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+        "monthly": 125,
+        "basis": "fixed",
+        "source_id": "S4",
+        "notes": "DCH requires a State Fire Marshal inspection report with no violations and a stated capacity load, dated within 12 months of application [S4]. Recurring monitoring and inspection cost is an operator estimate — get vendor quotes."
+      },
+      {
+        "item": "Activities & recreation",
+        "monthly": 30,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Referral / placement agency fees (amortized)",
+        "monthly": 100,
+        "basis": "per_client",
+        "notes": "Operator estimate — placement agencies typically charge a one-time fee per private-pay move-in; amortized over an average stay. Verify each agency's contract. Applied to all residents, which slightly overstates cost in Medicaid-mix configurations."
+      },
+      {
+        "item": "DCH annual license fee ÷ 12",
+        "monthly": 29.17,
+        "basis": "fixed",
+        "source_id": "S3",
+        "notes": "Personal care home, 2–24 beds: $350 annually ($29.17/month); ALC 25–50 beds: $750 annually ($62.50/month); ALC 51+ beds: $1,500 annually ($125/month) [S3]. Oct 2024 fee schedule. The alc30_private and alc50_private configurations override this line to $62.50. The initial license fee is paid before license issuance [S3]. A $250 follow-up-visit fee and a $150 late fee are possible contingencies and are not modeled."
+      },
+      {
+        "item": "Georgia LLC annual registration ÷ 12",
+        "monthly": 5,
+        "basis": "fixed",
+        "source_id": "S42",
+        "notes": "$60/year all-in per BusinessAnywhere [S42]; another secondary source lists a $50 base fee, so the sources conflict on whether the $10 service charge is included. Late fee $25 if filed after April 1 [S50]. Secondary source says Georgia imposes no franchise tax on LLCs [S50]; verify with the Secretary of State and a CPA."
+      },
+      {
+        "item": "Local occupational tax certificate / business license ÷ 12",
+        "monthly": 40,
+        "basis": "fixed",
+        "source_id": "S52",
+        "notes": "Secondary source reports local occupational tax certificates at $10 to $1,000+ depending on locality [S52]. Amount modeled ($480/year for small homes) is an operator estimate — check your city or county schedule."
+      },
+      {
+        "item": "eMAR / care documentation software",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes. Georgia EVV applies to Medicaid personal support services (T1019 for CCSP/SOURCE) [S20]; whether it applies to the ALS placement service itself is unverified (see not_claimed). Private-pay operators have no EVV mandate. A Medicaid personal-support provider would need to use Georgia's selected EVV system (Netsmart Mobile Caregiver+) [S20]."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing & website",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Training, CPR/first aid, CE, background checks and TB screening",
+        "monthly": 150,
+        "basis": "fixed",
+        "source_id": "S5",
+        "notes": "Staff must be trained within 60 days of hire; hands-on staff need 24 hours of continuing education in year one and 16 hours a year afterward; staff need a TB screening and physical within 12 months before providing care [S5]. Administrators need a satisfactory fingerprint records check before serving [S5]. Cost is an operator estimate."
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate. Transportation is optional."
+      }
+    ],
+    "configurations": [
+      {
+        "id": "pch6_private",
+        "label": "6-bed personal care home, 100% private pay",
+        "capacity": 6,
+        "notes": "The smallest common PCH model (Ch. 111-8-62, 2–24 beds). It is priced at the lower $4,395 secondary benchmark (A Place for Mom-based, April 2026 [S44]) rather than the $5,300 CareScout median [S19], because CareScout measures a private one-bedroom unit in an AL community and would overstate revenue for shared rooms in a residential home. A Place for Mom's own Georgia page gives a conflicting $4,752 average. This model assumes the owner is the paid administrator, with one awake caregiver on site 24/7 (1:15 waking, 1:25 non-waking per the PCH rule text retrieved [S32]; a conservative second-staff rule for PCHs was not verified). Per the rules, a PCH may not provide assisted living care without an ALC license [S18]. Results are computed by the generator; expect thin or negative margins at this size because fixed 24/7 labor is spread over six beds.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate, small-home benchmark)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 4395,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S44"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide, 1 awake on site 24/7 (730 hrs/month)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "Rule 111-8-62 staffing (1:15 waking / 1:25 non-waking)",
+            "notes": "National all-industry median wage for home health and personal care aides, $35,800/yr ÷ 2,080 = $17.21/hr (BLS May 2025) [S47], used as a deliberate national proxy. A secondary compilation of BLS data lists a lower Georgia median (about $14.07/hr), which could not be confirmed on bls.gov. The BLS national median for the assisted living industry is $37,060 (about $17.82/hr). Verify the Georgia and Atlanta OEWS value for SOC 31-1120 before finalizing. All are above the $7.25 minimum wage [S24]. Hours cover the post only. Overtime, PTO and sick-relief coverage are not modeled (one 24/7 post is about 4.2 FTE of staffed hours), and the owner-administrator cannot lawfully be counted as the awake overnight staff while off duty. The PCH staffing ratios come from DCH rule text hosted by third parties [S32][S33]; verify against current 111-8-62."
+          },
+          {
+            "role": "Administrator / owner-operator salary (on duty, hands-on)",
+            "basis": "annual_salary",
+            "amount": 54000,
+            "wage_source_id": "S47",
+            "cite": "Rule 111-8-62-.08(1)(a)",
+            "notes": "Operator estimate — verify locally; about 1.5× the national aide median [S47] as an anchor, because no Georgia administrator wage was retrieved. Administrators of homes under 25 beds need an associate's degree, or a GED/high school diploma plus 2 years of licensed PCH or healthcare experience, and must be at least 21 [S18][S31]. If the owner is the administrator, this line is the owner's pay."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 2996,
+            "basis": "fixed",
+            "source_id": "S27",
+            "notes": "6 licensed beds ≈ one 5-bedroom house: $2,605 (FY2026 Atlanta 4BR FMR) × 1.15 ≈ $2,996/month fixed [S27]. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 405,
+            "basis": "fixed",
+            "notes": "6 licensed beds × $67.50. Operator estimate — verify locally."
+          }
+        ]
+      },
+      {
+        "id": "pch12_private",
+        "label": "12-bed personal care home, 100% private pay",
+        "capacity": 12,
+        "notes": "Mid-size PCH. Needs local zoning approval, which the applicant must address with local officials [S1], and the fire marshal inspection and electrical sign-off for the building [S4]. Priced at the $4,395 secondary benchmark [S44], not the $5,300 CareScout AL-community median [S19]. Staffing is deliberately above the 1:15 / 1:25 PCH minimum [S32]: 2 aides on days and evenings plus 1 overnight, which is operator judgment for resident safety. No separate cook is modeled; aides assist with meals and food cost is in per-resident opex.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate, small-home benchmark)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 4395,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S44"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (2 awake days/evenings + 1 overnight = 40 hrs/day)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 1216.8,
+            "cite": "Rule 111-8-62 staffing",
+            "notes": "National all-industry median aide wage $17.21/hr [S47], used as a deliberate national proxy. A secondary compilation lists a lower Georgia median (about $14.07/hr) that was not confirmed on bls.gov, and the national assisted-living-industry median is about $17.82/hr. Verify the Georgia and Atlanta OEWS value for SOC 31-1120. Staffing above the ratio floor is an operator choice. Overtime, PTO and sick-relief coverage are not modeled."
+          },
+          {
+            "role": "Administrator / owner-operator salary",
+            "basis": "annual_salary",
+            "amount": 54000,
+            "wage_source_id": "S47",
+            "cite": "Rule 111-8-62-.08(1)(a)",
+            "notes": "Operator estimate — verify locally. Under 25 beds no Board license is required; associate's degree or GED/high school plus 2 years' experience, age 21+ [S31]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption — verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 5992,
+            "basis": "fixed",
+            "source_id": "S27",
+            "notes": "12 licensed beds × about $499/bed = $5,992/month fixed, from the Atlanta 4BR FMR × 1.15 per 6 beds [S27]. Operator estimate for a larger building — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 810,
+            "basis": "fixed",
+            "notes": "12 licensed beds × $67.50. Operator estimate — verify locally."
+          }
+        ]
+      },
+      {
+        "id": "pch24_private",
+        "label": "24-bed personal care home (maximum PCH size), 100% private pay",
+        "capacity": 24,
+        "notes": "The largest size that stays a personal care home (2–24 beds). At 25 beds a home becomes an Assisted Living Community under Ch. 111-8-63, which adds the OHP Letter of Determination, the CPA financial stability affidavit and mandatory nurse hours [S1][S4][S5]. Certificate of need thresholds were not verified (see not_claimed); a secondary source says no CON applies below 25 beds [S36]. Priced at the $4,395 secondary benchmark [S44]. Staffing is modeled to the ALC floor of 2 awake staff 24/7 [S5] even though that rule text is for ALCs; the PCH equivalent was not fully verified, so this is conservative. It also covers 1:15 waking for up to 30 residents. This is the configuration most likely to be profitable without Medicaid.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate, small-home benchmark)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 4395,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S44"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (2 awake on site 24/7 = 48 hrs/day)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 1460.2,
+            "cite": "Rule 111-8-62 staffing; Rule 111-8-63-.09 as conservative benchmark",
+            "notes": "National all-industry median aide wage $17.21/hr [S47], used as a deliberate national proxy. A secondary compilation lists a lower Georgia median (about $14.07/hr) that was not confirmed on bls.gov, and the national assisted-living-industry median is about $17.82/hr. Verify the Georgia and Atlanta OEWS value for SOC 31-1120. Overtime, PTO and sick-relief coverage are not modeled."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Atlanta MSA food preparation and serving group mean of $15.37 [S26] is used as an unconfirmed proxy; the BLS page could not be re-verified. Replace with the Atlanta or Georgia OEWS wage for cooks (SOC 35-2014). Above the $7.25 minimum [S24]."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Unconfirmed proxy wage of $15.37 from the Atlanta food preparation and serving group mean [S26]. Housekeeping is a building and grounds occupation; replace with the OEWS wage for janitors and maids (SOC 37-2011/37-2012). Operator staffing choice."
+          },
+          {
+            "role": "Administrator / owner-operator salary",
+            "basis": "annual_salary",
+            "amount": 54000,
+            "wage_source_id": "S47",
+            "cite": "Rule 111-8-62-.08(1)(a)",
+            "notes": "Operator estimate — verify locally. A Board administrator license is required only at 25+ beds [S31]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 3,
+          "note": "Operator planning assumption — verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 11983,
+            "basis": "fixed",
+            "source_id": "S27",
+            "notes": "24 licensed beds × about $499/bed = $11,983/month fixed, scaled from the Atlanta 4BR FMR [S27]. Operator estimate for a larger building — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1620,
+            "basis": "fixed",
+            "notes": "24 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 150,
+            "basis": "fixed",
+            "source_id": "S4",
+            "notes": "Operator estimate for a larger building — get vendor quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (fixed, larger buildings)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "pch24_waiver",
+        "label": "24-bed personal care home, 75% private pay + 25% waiver residents (room and board only modeled)",
+        "capacity": 24,
+        "notes": "Shows the floor effect of waiver residents. Under SOURCE/CCSP, Medicaid does not pay room and board; the resident pays the home $768/month, set by DHS Division of Aging effective 1/1/2026 (secondary sources [S13][S14]). The resident keeps $226 of the $994 SSI benefit [S13][S15]. The Alternative Living Services payment from Medicaid is NOT modeled, because no 2026 per-diem rate was found in any official source (see not_claimed); actual revenue would be higher by that amount, so this configuration understates waiver revenue. Waiver admission is funding-limited, and waitlists are nearly always populated [S11][S17], so filling waiver beds depends on AAA referrals and waiver slot availability. Enrollment typically takes 2–4 months per a secondary source [S13]. Provider enrollment does not allow retroactive dates of service [S21].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive base rate, small-home benchmark)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 4395,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.75,
+            "source_id": "S44"
+          },
+          {
+            "name": "Room & board paid by SOURCE/CCSP resident (from SSI); Medicaid ALS payment and income-based CCSP cost share not modeled",
+            "payer": "Resident (SOURCE/CCSP, from SSI)",
+            "code": "R&B",
+            "rate": 768,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S13"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (2 awake on site 24/7 = 48 hrs/day)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 1460.2,
+            "cite": "Rule 111-8-62 staffing; Rule 111-8-63-.09 as conservative benchmark",
+            "notes": "National all-industry median aide wage $17.21/hr [S47], used as a deliberate national proxy. The Georgia statewide wage was not confirmed on bls.gov (a secondary compilation lists about $14.07/hr), and the national assisted-living-industry median is about $17.82/hr. Overtime, PTO and sick-relief coverage are not modeled."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Atlanta MSA food preparation and serving group mean [S26], an unconfirmed proxy. Replace with the OEWS wage for cooks (SOC 35-2014)."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Unconfirmed proxy wage [S26]. Replace with the OEWS wage for janitors and maids (SOC 37-2011/37-2012). Operator staffing choice."
+          },
+          {
+            "role": "Administrator / owner-operator salary",
+            "basis": "annual_salary",
+            "amount": 54000,
+            "wage_source_id": "S47",
+            "cite": "Rule 111-8-62-.08(1)(a)",
+            "notes": "Operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 3,
+          "note": "Operator planning assumption — verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 11983,
+            "basis": "fixed",
+            "source_id": "S27",
+            "notes": "24 licensed beds × about $499/bed = $11,983/month fixed [S27]. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1620,
+            "basis": "fixed",
+            "notes": "24 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 150,
+            "basis": "fixed",
+            "source_id": "S4",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (fixed, larger buildings)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "alc30_private",
+        "label": "30-bed Assisted Living Community, 100% private pay",
+        "capacity": 30,
+        "notes": "Entry-size ALC under Ch. 111-8-63 (25+ residents). Requires the OHP Letter of Determination, the CPA financial stability affidavit, the fire marshal and electrical inspections, and GCHEXS background checks for administrators and 10%+ owners [S1][S4]. It also requires an administrator holding a Board of Long-Term Care Facility Administrators license [S6][S7]. The confirmed staffing floor is at least 2 on-site direct care staff 24 hours a day whenever residents are present, one per occupied floor [S5]. The average ratios (about 1:15 waking, 1:20 non-waking) and the RN/LPN hours (about 8 hrs/week for 1–30 residents) are planning assumptions that were not confirmed against the current rule text. Higher-acuity residents need more staff. Priced at the $5,300 CareScout Georgia median for a private one-bedroom unit in an AL community (survey July–Nov 2025) [S19], which fits a unit-style ALC better than a small shared-room home. Rent is priced at the studio FMR per bed, a floor that excludes common areas. The model shows a thin margin at 88% occupancy and a loss at 80%.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (Georgia ALC median, private one-bedroom)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5300,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S19"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (2 awake on site 24/7 = 48 hrs/day)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 1460.2,
+            "cite": "Rule 111-8-63-.09",
+            "notes": "Rule minimum of 2 on-site direct care staff at all times when residents are present, one per occupied floor [S5]. National all-industry median aide wage $17.21/hr [S47], used as a deliberate national proxy. A secondary compilation lists a lower Georgia median (about $14.07/hr) that was not confirmed on bls.gov, and the national assisted-living-industry median is about $17.82/hr. Overtime, PTO and sick-relief coverage are not modeled."
+          },
+          {
+            "role": "Additional daytime aide (8 hrs/day) for 1:15 waking coverage and resident needs",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 243.4,
+            "cite": "Rule 111-8-63-.09",
+            "notes": "Average 1 awake staff per 15 residents during waking hours [S5]. Hours are an operator estimate — verify locally."
+          },
+          {
+            "role": "Medication tech / senior aide (days + evenings, 16 hrs/day)",
+            "wage_hourly": 18.98,
+            "wage_source_id": "S45",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "notes": "Wage of $18.98/hr ($39,490/yr ÷ 2,080) was attributed to the BLS national median for nursing assistants in continuing care retirement communities and assisted living [S45]. This industry figure could not be confirmed on the BLS page. Visible BLS figures are $42,260 for nursing assistants nationally and $41,870 for nursing assistants and orderlies. Confirm the industry median or use the Georgia OEWS value. Operator staffing choice."
+          },
+          {
+            "role": "RN or LPN on site (8 hrs/week minimum for 1–30 residents)",
+            "wage_hourly": 46.9,
+            "wage_source_id": "S46",
+            "basis": "hours_per_month",
+            "amount": 34.7,
+            "cite": "Rule 111-8-63-.09",
+            "notes": "RN or LPN hours of about 8 hrs/week for 1–30 residents are a planning assumption; the rule's nurse-hour paragraph was not confirmed [S5]. National RN median $97,550/yr ÷ 2,080 = $46.90/hr [S46]. This is conservative: the BLS RN median in nursing and residential care facilities is $84,300 (about $40.53/hr), and an LPN would cost less."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Atlanta MSA food preparation and serving group mean [S26], an unconfirmed proxy. Replace with the OEWS wage for cooks (SOC 35-2014)."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Unconfirmed proxy wage [S26]. Replace with the OEWS wage for janitors and maids (SOC 37-2011/37-2012)."
+          },
+          {
+            "role": "Activities coordinator (0.5 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "notes": "Unconfirmed proxy wage [S26]. Replace with the OEWS wage for recreation workers (SOC 39-9032). Operator staffing choice."
+          },
+          {
+            "role": "Licensed ALC administrator (full time)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "S47",
+            "cite": "Rule 111-8-62-.08(1)(b); Board of LTC Facility Administrators",
+            "notes": "Operator estimate — verify locally; about 2× the national aide median [S47] as an anchor, because no Georgia administrator wage was retrieved. Administrators of 25+ bed homes must hold a Board license [S6][S7][S31]; applicants need at least 1,560 hours of full-time experience in the prior 12 months plus a board-approved program [S6]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption — verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 47550,
+            "basis": "fixed",
+            "source_id": "S27",
+            "notes": "30 beds × $1,585 (FY2026 Atlanta HMFA studio FMR) = $47,550/month fixed [S27]. This is a floor: it excludes dining room, commercial kitchen, activity space and offices. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 2025,
+            "basis": "fixed",
+            "notes": "30 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 250,
+            "basis": "fixed",
+            "source_id": "S4",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (fixed, larger buildings)",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "DCH annual license fee ÷ 12",
+            "monthly": 62.5,
+            "basis": "fixed",
+            "source_id": "S3",
+            "notes": "ALC 25–50 beds: $750 annually ÷ 12 [S3]."
+          },
+          {
+            "item": "Local occupational tax certificate / business license ÷ 12",
+            "monthly": 60,
+            "basis": "fixed",
+            "source_id": "S52",
+            "notes": "Operator estimate within the $10–$1,000+ range reported by a secondary source [S52] — check your locality."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, CE, background checks and TB screening",
+            "monthly": 200,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Rule-required training and screening [S5]; cost is an operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate. Transportation is optional."
+          }
+        ]
+      },
+      {
+        "id": "alc50_private",
+        "label": "50-bed Assisted Living Community, 100% private pay",
+        "capacity": 50,
+        "notes": "Larger ALC at the top of the $750 license band (25–50 beds; 51+ beds is $1,500/yr [S3]). Staffing is built on the confirmed floor of 2 staff on site 24/7, one per occupied floor [S5], plus operator-assumed ratios (about 1:15 waking, 1:20 non-waking) and RN/LPN hours (about 16 hrs/week for 31–60 residents). Those ratios and nurse hours were not confirmed against the current rule text. The build is 3 awake aides 24/7, plus a fourth daytime aide for waking-hour coverage at higher occupancy. Priced at the $5,300 CareScout Georgia median [S19]; the generator's occupancy sensitivity shows this model is more sensitive to census than the PCH models because of building cost. Rent is the studio FMR floor, excluding common areas [S27]. Memory care ($200/year certificate; the ALC packet requires a current ALC permit first [S3][S4]) is not modeled.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (Georgia ALC median, private one-bedroom)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5300,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S19"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (3 awake on site 24/7 = 72 hrs/day)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 2190.2,
+            "cite": "Rule 111-8-63-.09",
+            "notes": "Minimum 2 on site 24/7 [S5]; the average ratios assumed here (about 1:15 waking, 1:20 non-waking) were not confirmed against the current rule text. Aide wage is the national all-industry median $17.21/hr [S47], a deliberate national proxy. A secondary compilation lists a lower Georgia median (about $14.07/hr) that was not confirmed on bls.gov, and the national assisted-living-industry median is about $17.82/hr. Overtime, PTO and sick-relief coverage are not modeled."
+          },
+          {
+            "role": "Additional daytime aide (8 hrs/day) for peak waking-hour coverage",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S47",
+            "basis": "hours_per_month",
+            "amount": 243.4,
+            "cite": "Rule 111-8-63-.09",
+            "notes": "Keeps average 1:15 waking coverage at higher census [S5]. Hours are an operator estimate."
+          },
+          {
+            "role": "Medication tech / senior aide (2 on days + evenings, 32 hrs/day)",
+            "wage_hourly": 18.98,
+            "wage_source_id": "S45",
+            "basis": "hours_per_month",
+            "amount": 973.4,
+            "notes": "Wage of $18.98/hr was attributed to the BLS national median for nursing assistants in assisted living [S45]; this industry figure could not be confirmed. Visible BLS figures are $42,260 (about $20.32/hr) for nursing assistants nationally. Confirm or use the Georgia OEWS value. Operator staffing choice."
+          },
+          {
+            "role": "RN or LPN on site (16 hrs/week minimum for 31–60 residents)",
+            "wage_hourly": 46.9,
+            "wage_source_id": "S46",
+            "basis": "hours_per_month",
+            "amount": 69.3,
+            "cite": "Rule 111-8-63-.09",
+            "notes": "RN or LPN hours of about 16 hrs/week for 31–60 residents are a planning assumption; the rule's nurse-hour paragraph was not confirmed [S5]. RN median $46.90/hr nationally [S46]. This is conservative: the BLS RN median in nursing and residential care facilities is $84,300 (about $40.53/hr), and an LPN would cost less."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Atlanta MSA food preparation and serving group mean [S26], an unconfirmed proxy. Replace with the OEWS wage for cooks (SOC 35-2014)."
+          },
+          {
+            "role": "Housekeeping / laundry (2 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 346.7,
+            "notes": "Unconfirmed proxy wage [S26]. Replace with the OEWS wage for janitors and maids (SOC 37-2011/37-2012)."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "wage_hourly": 15.37,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Unconfirmed proxy wage [S26]. Replace with the OEWS wage for recreation workers (SOC 39-9032). Operator staffing choice."
+          },
+          {
+            "role": "Licensed ALC administrator (full time)",
+            "basis": "annual_salary",
+            "amount": 80000,
+            "wage_source_id": "S47",
+            "cite": "Rule 111-8-62-.08(1)(b); Board of LTC Facility Administrators",
+            "notes": "Operator estimate — verify locally; no Georgia administrator wage retrieved. Board license required [S6][S7]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 5,
+          "add_per_month": 4,
+          "note": "Operator planning assumption — verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 79250,
+            "basis": "fixed",
+            "source_id": "S27",
+            "notes": "50 beds × $1,585 (FY2026 Atlanta HMFA studio FMR) = $79,250/month fixed [S27]. A floor that excludes common areas. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 3375,
+            "basis": "fixed",
+            "notes": "50 licensed beds × $67.50. Operator estimate — verify locally."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 400,
+            "basis": "fixed",
+            "source_id": "S4",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (fixed, larger buildings)",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "DCH annual license fee ÷ 12",
+            "monthly": 62.5,
+            "basis": "fixed",
+            "source_id": "S3",
+            "notes": "ALC 25–50 beds: $750 annually ÷ 12 [S3]. Going to 51+ beds raises the fee to $1,500 annually."
+          },
+          {
+            "item": "Local occupational tax certificate / business license ÷ 12",
+            "monthly": 100,
+            "basis": "fixed",
+            "source_id": "S52",
+            "notes": "Operator estimate within the $10–$1,000+ range reported by a secondary source [S52]."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, CE, background checks and TB screening",
+            "monthly": 300,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Rule-required training and screening [S5]; cost is an operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate. Transportation is optional."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "pch24_private",
+    "startup_costs": [
+      {
+        "item": "Georgia LLC Articles of Organization ($100 filing + $10 service charge)",
+        "low": 110,
+        "high": 110,
+        "source_id": "S42",
+        "notes": "Secondary source; verify with the Georgia Secretary of State."
+      },
+      {
+        "item": "DCH new application processing fee (non-refundable, paid on submission)",
+        "low": 300,
+        "high": 300,
+        "source_id": "S3",
+        "notes": "Paid with the application in GAHLES [S3][S4]."
+      },
+      {
+        "item": "DCH initial license fee (PCH 2–24 beds $350; ALC 25–50 beds $750), paid before the permit is issued",
+        "low": 350,
+        "high": 750,
+        "source_id": "S3",
+        "notes": "All licensure fees must be paid in full before the permit or license is issued [S4]."
+      },
+      {
+        "item": "Administrator license application ($100 + $10 paper / $5 online processing fee, Board of LTC Facility Administrators)",
+        "low": 105,
+        "high": 110,
+        "min_capacity": 25,
+        "source_id": "S6",
+        "notes": "Required for administrators of 25+ bed homes [S7]. $110 on paper or $105 online per the Board fee schedule; the form is dated 11.2022. The license runs on a biennial cycle (expires Dec 31 of odd-numbered years); renewal fee and CE are not modeled and should be confirmed with the Board."
+      },
+      {
+        "item": "Board-approved administrator training program (tuition)",
+        "low": 500,
+        "high": 1500,
+        "min_capacity": 25,
+        "source_id": "S6",
+        "notes": "The application requires a board-approved administration program [S6]. Tuition is an operator estimate — verify with the Board."
+      },
+      {
+        "item": "CPA financial stability affidavit (required for ALC and PCH of 25+ beds)",
+        "low": 1500,
+        "high": 3500,
+        "min_capacity": 25,
+        "source_id": "S1",
+        "notes": "Required with initial and CHOW applications for ALC and PCH of 25 or more beds [S1]. The affidavit states the applicant has demonstrated the financial resources to operate; two-year going-concern wording was not verified. CPA fee is an operator estimate."
+      },
+      {
+        "item": "Fire marshal, electrical, water-test inspections and local zoning/occupancy approvals",
+        "low": 500,
+        "high": 2500,
+        "source_id": "S4",
+        "notes": "Fire marshal report dated within 12 months and electrical form within 6 months of submission; private water test within 6 months if not city/county water [S4]. Inspection and zoning fees were not verified — operator estimate."
+      },
+      {
+        "item": "GCHEXS fingerprint background checks (administrator, 10%+ owners, staff)",
+        "low": 300,
+        "high": 2000,
+        "source_id": "S4",
+        "notes": "Required for administrators and owners with 10%+ interest [S4]. Fees not verified — operator estimate."
+      },
+      {
+        "item": "Staff TB screening/physicals, CPR/first aid and initial training",
+        "low": 500,
+        "high": 4000,
+        "source_id": "S5",
+        "notes": "Required within 12 months before providing care and within 60 days of hire [S5]. Operator estimate."
+      },
+      {
+        "item": "Medicaid provider enrollment application fee (only if enrolling to serve waiver residents)",
+        "low": 750,
+        "high": 750,
+        "source_id": "S22",
+        "notes": "CY2026 federal fee is $750 [S22][S23]. Whether PCH/ALS waiver providers are classed as institutional is not confirmed (see not_claimed). Skip for private-pay-only operation. Retroactive enrollment is not permitted [S21]."
+      },
+      {
+        "item": "Fire alarm, sprinkler and life-safety upgrades to pass fire marshal inspection",
+        "low": 3000,
+        "high": 120000,
+        "source_id": "S4",
+        "notes": "Operator estimate — depends on building and fire marshal findings; get contractor quotes."
+      },
+      {
+        "item": "Accessibility and physical plant upgrades (ramps, grab bars, doors, bathrooms)",
+        "low": 5000,
+        "high": 80000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Furnishings for resident rooms and common areas",
+        "low": 12000,
+        "high": 100000,
+        "notes": "Operator estimate of about $2,000 per bed."
+      },
+      {
+        "item": "Lease deposit + first month",
+        "low": 5992,
+        "high": 158500,
+        "source_id": "S27",
+        "notes": "Two months of the modeled lease: $2,996 × 2 for 6 beds up to $79,250 × 2 for 50 beds [S27]. Operator estimate."
+      },
+      {
+        "item": "Insurance down payments, policies & procedures manual, eMAR setup",
+        "low": 3000,
+        "high": 15000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Launch marketing",
+        "low": 2000,
+        "high": 10000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Working capital reserve through ramp-up (about 3–6 months of expenses)",
+        "low": 40000,
+        "high": 450000,
+        "category": "working_capital",
+        "notes": "Operator estimate; replaced in totals by the modeled ramp-up deficit. Georgia rules reviewed here do not set a dollar reserve. ALC applicants (and PCHs of 25+ beds) must submit a CPA financial stability affidavit [S1]."
+      },
+      {
+        "item": "OHP Letter of Determination (required ALC attachment; fee and timeline unverified)",
+        "low": 0,
+        "high": 0,
+        "min_capacity": 25,
+        "source_id": "S4",
+        "notes": "Item 13 of the ALC initial checklist [S4]. No fee or timeline was verified, so $0 is a placeholder, not a confirmed fee. Obtain it before DCH submission, because the 30-business-day review clock starts only when a complete application is submitted. The checklist also needs the electrical inspection form (within 6 months) and the water/septic form."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Georgia splits licensed residential senior care into two permit types, both regulated by the Department of Community Health (DCH) Healthcare Facility Regulation Division (HFRD). A **personal care home (PCH)** serves two or more unrelated adults and, in practice, runs from 2 to 24 beds under Chapter 111-8-62 [S18][S28][S36]. An **assisted living community (ALC)** is a personal care home serving 25 or more residents that is licensed by DCH to provide assisted living care under Chapter 111-8-63 [S1][S30]. A home licensed only as a PCH may not provide assisted living care [S18]. In both cases a valid DCH permit must be in hand before any resident is admitted [S1][S18].\n\nMost revenue is private pay. CareScout's 2025 Georgia median for an assisted living community is **$5,300/month** ($63,600/yr, about $166/day), measured for a private one-bedroom unit; the national median is $6,200 [S19]. A Place for Mom-based data reported in April 2026 puts Georgia's median at $4,395/month, though that site's own Georgia page shows a conflicting $4,752 average and another 2026 source gives about $4,940, so treat $4,395–$4,940 as a sensitivity band [S44][S56]. Medicaid reaches personal care homes through the Elderly and Disabled Waiver Program (CCSP and SOURCE), whose Alternative Living Services cover 24-hour personal care supervision in licensed PCHs [S10][S11][S12]. Medicaid does not pay room and board. Waiver residents pay the home **$768/month** from their SSI check (effective 1/1/2026 per secondary sources), keeping $226 of the $994 benefit [S13][S15][S48]. CCSP residents also pay an income-based cost share. **No 2026 Medicaid per-diem rate for Alternative Living Services was found in any official source**, so this report does not model Medicaid service revenue or the cost share.\n\nLicensing fees are low but the ALC pathway is heavy. DCH charges a $300 non-refundable application fee, then an annual license fee of $350 (PCH, 2–24 beds), $750 (ALC, 25–50 beds) or $1,500 (ALC, 51+ beds) [S3]. ALC applicants also need an Office of Health Planning Letter of Determination, a CPA financial stability affidavit, fire marshal and electrical inspections, GCHEXS fingerprint checks, and an administrator holding a Board of Long-Term Care Facility Administrators license [S1][S4][S6][S7]. DCH quotes a 30-business-day initial review from submission [S4]. That figure comes from the DCH checklist, not from the rule.\n\n**Bottom line from the model (88% default occupancy, operator assumption).** The **24-bed private-pay PCH** is the only configuration with a healthy margin: about **$17,944/month net (19.3% margin)**, break-even at 67.5% occupancy, first profit in month 7, and about $374,533 of cash needed. The 50-bed ALC nets about $14,773/month (6.3%) but breaks even at 81.5% and needs about $1.44 million. The 30-bed ALC nets only about $2,958/month (2.1%) and breaks even at 85.8%. The 12-bed PCH loses about $509/month, the 24-bed PCH with 25% waiver residents (room and board only) loses about $1,206/month, and the 6-bed PCH loses about $6,369/month and cannot break even even at full occupancy (117% of capacity). Small homes in Georgia only work if the building cost, the owner's pay or the price point differs from the assumptions here. Aide wages use the national median as a proxy; Georgia's wage may be lower, and overtime and relief coverage are not modeled.\n\n### What this report does not claim\n- A 2026 Medicaid per-diem, HCPCS code or unit definition for Alternative Living Services.\n- Georgia occupancy rates, competitor names, market shares, referral-source breakdowns, or separate counts of licensed PCHs and ALCs.\n- Current official CCSP/SOURCE enrollment or waitlist totals, or how many participants live in PCHs/ALCs.\n- Insurance or bond minimums, fire marshal/electrical/zoning fees, workers' compensation rates, or commercial rent benchmarks.\n- Georgia statewide BLS wages (not confirmed; national medians are used as proxies and the Atlanta group means are unconfirmed).\n- Confirmed average staff-to-resident ratios or RN/LPN weekly hours; these are planning assumptions to verify in the current rule.",
+    "service_model": "**Who is served.** Georgia personal care homes provide housing, food service and personal services to two or more adults who are not related to the owner or administrator by blood or marriage [S28]. Assisted living communities are PCHs of 25 or more residents that DCH has licensed to provide assisted living care [S1][S55]. A PCH under 25 beds may not provide assisted living care unless it also holds an ALC license [S18].\n\n**Two chapters, one regulator.** DCH's HFRD lists Chapter 111-8-62 for personal care homes and Chapter 111-8-63 for assisted living communities (25 or more residents) [S30]. The legal authority for Chapter 111-8-63 is O.C.G.A. § 31-2-7 and Title 31, Chapter 7 [S1]. HFRD oversees a combined group of licensed settings, listed on an undated DCH page as 2,910 facilities serving roughly 55,000 residents. That figure covers PCHs, ALCs and other categories together [S28].\n\n**How the two models differ in practice.**\n- *Size and building:* a PCH is typically a converted house or small building with a 2–24 bed licensed capacity. An ALC is 25+ beds, so it is usually a purpose-built or converted multi-unit building. The licensed capacity appears on the face of the permit, and the community may not serve more residents than that [S1].\n- *Administrator:* under 25 beds, the administrator needs an associate's degree, or a GED/high school diploma plus 2 years of licensed PCH or healthcare experience, and must be at least 21 [S18][S31]. At 25+ beds the administrator must hold a Board of Long-Term Care Facility Administrators license, which for PCHs applies within 60 days of hire [S7][S31].\n- *Staffing:* ALCs must have at least two staff present at all times when residents are present, with one on each occupied floor [S5]. Average staff-to-resident ratios and RN/LPN hours also apply, but they were not confirmed against the current official rule text, so check Rules 111-8-62 and 111-8-63 before scheduling. The model uses them only as planning assumptions.\n- *Memory care:* PCHs and ALCs operating memory care centers must hold a DCH certification [S41]. The certificate costs $200 annually. The ALC packet requires a current ALC permit first; PCHs follow the PCH memory care process [S3][S4].\n\n**Regulatory change.** DCH amended the ALC staffing rule in 2025, implementing a July 2024 statutory change; the exact effective date was not confirmed [S5][S40]. DCH also presented proposed amendments to Chapter 111-8-62 to its Board for initial adoption on 2/13/2025. Whether they were finally adopted, and their effective date, was not verified [S33].",
+    "licensing_pathway": "**Who licenses you.** DCH HFRD issues the permit. Its office is at 2 Martin Luther King Jr. Drive SE, East Tower, Atlanta, GA 30334 (Monday–Friday, 8 a.m.–5 p.m. ET) [S8]; the DCH main line is 404-657-5700. A direct HFRD phone number was not verified. Questions on regulations, surveys, permits and administrator contact updates go to pchprogram.hfrd@dch.ga.gov [S4]. Application and waiver questions go to hfrd.applicationswaivers@dch.ga.gov, and payments to hfrd.payments@dch.ga.gov. GCHEXS background check support is at 404-463-7154 or gchexs.user@dch.ga.gov [S4]. ALC applications are filed through DCH's online GAHLES portal at https://gahles.dch.georgia.gov/ [S4]. The DCH checklist documented here is the **ALC** packet (updated 07/13/26). A PCH-specific application packet was not retrieved, so confirm the PCH document list with HFRD before you file.\n\n**Step-by-step pathway**\n1. **Form the entity.** When a home is owned by an LLC, the governing body of the LLC authorizes the license application and the LLC is the licensee [S18]. A Georgia LLC costs about $110 to form, and annual registration is about $60 all-in, though a second secondary source lists a $50 base fee [S42]. Neither figure comes from the Secretary of State, so verify both. The same secondary sources say Georgia imposes no franchise tax on LLCs [S50].\n2. **Clear local zoning and siting.** The rule requires the applicant to address local zoning and location requirements with the responsible local officials [S1]. Zoning and local occupancy fees were not verified. A local occupational tax certificate is commonly required, reported at $10 to $1,000+ depending on the locality [S52].\n3. **For an ALC, obtain the OHP Letter of Determination.** The ALC checklist lists a Letter of Determination approved by the DCH Office of Health Planning as a required attachment [S4]. Its fee and timeline were not verified. Get it before you submit, because the 30-business-day review clock starts only with a complete application. Certificate of need thresholds were not verified. One secondary source says no CON applies below 25 beds [S36]. Forms are at https://dch.georgia.gov/con-applications-and-forms.\n4. **Assemble the application.** The application packet requires:\n   - an accurate floor plan showing windows, doors, common areas and resident room measurements, plus digital .jpg photos of the exterior, common areas and a typical resident room [S1];\n   - disclosure of every owner holding 10% or more, and the registered agent [S1];\n   - a CPA financial stability affidavit, required for ALC and PCH applications of 25 or more beds, stating that the applicant has demonstrated the financial resources to operate (pro forma statements may be used) [S1];\n   - a State Fire Marshal inspection report showing no violations and the capacity load, dated within 12 months of submission [S4];\n   - an electrical compliance form signed by a Georgia-licensed electrician, dated within 6 months of submission [S4];\n   - a water/septic form, and a private water test dated within 6 months if water is not supplied by a city or county system [S4];\n   - fingerprint-based GCHEXS background checks for all administrators and individual owners with 10% or more interest, with a determination letter dated within 12 months [S4].\n5. **Administrator licensing (25+ beds).** The Board of Long-Term Care Facility Administrators charges $100 plus a processing fee of $10 (paper) or $5 (online), so $110 or $105 (form dated 11.2022) [S6]. Licenses are biennial and expire December 31 of odd-numbered years; renewal fee and CE were not confirmed. The Board is at 237 Coliseum Drive, Macon, GA 31217-3858, phone 404-424-9966. The applicant needs at least one year of full-time practical or managerial experience (at least 1,560 hours in the 12 months before applying) plus a board-approved administration program [S6]. Under 25 beds, no Board license is required, but the administrator needs a satisfactory fingerprint records check before serving [S5][S18][S31].\n6. **Pay fees.** The $300 application processing fee is due on submission and is non-refundable. The initial license fee is submitted before the license is issued, and all licensure fees must be paid in full before a permit or license is received [S3][S4]. The annual fee is $350 for a 2–24 bed PCH, $750 for an ALC of 25–50 beds, and $1,500 for 51+ beds. A late fee of $150 applies 60 days past due, a follow-up visit fee is $250, and a permit replacement costs $50 [S3].\n7. **DCH review.** DCH states an initial review timeframe of 30 business days from submission, with applications reviewed in the order received. It will not act on an application until it is complete with all attachments and fees [S1][S4]. That 30-business-day figure is from the DCH checklist, not the rule. A 90–120 day estimate in one blog was not confirmed and is not used.\n8. **Receive the permit before admitting anyone.** The governing body must hold a valid permit before admitting residents [S1]. Permits are not transferable between communities or locations and cease to be valid when ownership changes [S2]. For PCHs, a change of ownership requires at least 30 days' written notice to DCH and all residents (60 days for impending bankruptcy or eviction) [S18].\n9. **After licensure.** Expect unannounced periodic inspections, and keep policies and procedures available for review [S4]. For memory care, the $200 annual certificate is separate. The ALC packet requires a current ALC permit first; PCHs follow the PCH memory care process [S3][S4].\n\n**Medicaid enrollment is separate** (see Section 4). Retroactive enrollment is not permitted, so do not serve a waiver resident expecting payment before enrollment [S21].",
+    "reimbursement": "**How money actually flows.** Georgia assisted living is predominantly private pay. Medicaid is a limited, funding-capped channel for personal care homes.\n\n**1. Private pay.** Residents or families pay the home a monthly fee. The CareScout 2025 Georgia median is $5,300/month for a private one-bedroom unit in an assisted living community (survey July–November 2025), versus $6,200 nationally [S19]. A Place for Mom-based data reported 2026 medians of $4,395/month [S44], and the same site's own Georgia page shows $4,752 [S56]. The gap across sources is large enough that your price must come from local comparables.\n\n**2. Medicaid waiver (Elderly and Disabled Waiver Program).** CCSP and SOURCE sit inside the Elderly and Disabled Waiver Program and serve frail elderly and disabled Georgians who meet a nursing facility level of care [S9][S10]. Under CCSP, Alternative Living Services means state-licensed personal care homes providing 24-hour personal care supervision [S11]. DFCS policy describes it as personal care home placement [S12]. SOURCE also includes personal care home placement [S17]. DCH contracts with Georgia's 12 Area Agencies on Aging (AAAs) to administer CCSP statewide [S11]. The federal waiver is listed with a current expiration of 11/08/2027 [S35].\n\n**3. What Medicaid does not pay.** Medicaid waiver funding does not cover room and board in a personal care home [S13][S48]. The resident pays the home a room-and-board amount. Two secondary sources put that at **$768/month, set by the DHS Division of Aging effective 1/1/2026**, leaving the resident $226 of the $994 SSI benefit [S13][S14][S15]. No primary DHS notice was retrieved.\n\n**4. Eligibility and cost share.** CCSP applicants must meet an income limit equal to 300% of the SSI federal benefit rate, updated each January. A secondary source gives $2,982/month for 2026, and another gives $2,901, so the official DFCS table was not confirmed [S13][S16]. A secondary source gives a $2,000 countable asset limit [S53]. SOURCE eligibility ties to SSI Medicaid criteria, age 65+ or disability, and nursing-home level of care. The official page says SOURCE is available only in certain areas of the state [S39]. CCSP participants may pay an income-based cost share that offsets the state's unpaid share of ALS services [S11][S13].\n\n**5. The Medicaid service payment is unknown.** No official 2026 per-diem or unit rate, code or modifier for Alternative Living Services was retrieved. Whether waiver ALS claims go through fee-for-service or managed care is also unconfirmed. GAMMIS says Georgia Medicaid includes fee-for-service, Georgia Families and Georgia Families 360 [S21], and secondary sources disagree on whether a state-plan personal care benefit exists. **This report therefore models no Medicaid service revenue.** The waiver configuration counts only the $768 room-and-board payment and understates actual revenue by whatever DCH pays for ALS.\n\n**6. Provider requirements if you serve Medicaid.**\n- *Enrollment:* GAMMIS states that providers who have not revalidated by July 1, 2026 are suspended, and that retroactive enrollment is not permitted [S21]. The CY2026 federal application fee is $750, charged to institutional providers on initial enrollment, revalidation or new location [S22][S23]. Whether PCH/ALS providers are classed as institutional was not confirmed.\n- *EVV:* Georgia's EVV soft go-live was moved to August 31, 2026, and applicable HHCS claims with dates of service on or after September 14, 2026 must be submitted through EVV. The state selected Netsmart's Mobile Caregiver+. For CCSP/SOURCE, personal support services are listed under HCPCS T1019 [S20]. Whether EVV applies to the ALS placement service itself is unverified.\n\n**7. Waitlists and timing.** Admission to CCSP depends on funding appropriated by the legislature [S11]. DCH's guide says there are nearly always people on the waiting lists for the home and community-based waivers [S17]. Eligible applicants are placed on the EDWP waiting list, and AAA screening determines eligibility and urgency of need, which affects placement [S12][S38]. A secondary source says enrollment takes about 2–4 months and that residents can move into the home during the process [S13].",
+    "demand": "**Population.** Census QuickFacts shows 16.7% of Georgia residents aged 65 and over (V2025) on a July 1, 2025 population estimate of 11,302,748 [S29]. That is roughly 1.9 million people (simple arithmetic from those two Census figures). A secondary data site reports about 1.76 million aged 65+ in 2024 (15.8%) on a different base [S29]. Both point to a very large older-adult base. Georgia-specific forecasts of assisted living demand were not found.\n\n**Existing supply.** DCH's personal care home program page lists 2,910 licensed facilities serving roughly 55,000 residents in a combined group that includes personal care homes and assisted living communities. It does not separate PCH from ALC counts, and the page is undated [S28]. Georgia occupancy rates, competitor names and market shares were not found and are not claimed.\n\n**Price signal.** Georgia's CareScout monthly median for assisted living ($5,300) sits below the national median ($6,200) [S19]. Nursing home monthly medians in Georgia are $8,821 (semi-private) and $9,429 (private) [S19], which gives private-pay families a cost comparison when weighing assisted living against a nursing home.\n\n**Referral channels.** A breakdown of PCH/ALC admissions by referral source (hospital discharge, physician, AAA, family) was not found. Two channels are documented:\n- **Area Agencies on Aging:** the AAA toll-free line (866-552-4464) is the entry point for CCSP/SOURCE assessment and screening [S11][S38].\n- **Private families and placement services:** private-pay residents arrive through families, hospital and physician referrals, and placement agencies. This is an operator observation, not a sourced figure.\n\n**Medicaid demand is real but capped.** Georgia's guide says the waiver waiting lists are nearly always populated, so there are more eligible applicants than funded slots [S17]. A 2026 secondary guide says CCSP waitlists run from a few months in rural counties to multiple years in high-demand metro counties [S37]. Official CCSP/SOURCE enrollment and waitlist counts were not retrieved, and secondary slot counts conflict, so none is used. The practical meaning for an operator: waiver demand exists, but filling beds depends on slot release and AAA referral timing, not on marketing.",
+    "operations": "**Staffing rules (ALC, 25+ beds), Rule 111-8-63-.09 [S5]**\n- At least two on-site direct care staff must be on the premises 24 hours a day whenever residents are present, with at least one on each occupied floor.\n- Every staff member needs training within the first 60 days of employment.\n- Staff providing hands-on care, including the administrator, need 24 hours of continuing education in the first year and 16 hours annually after that.\n- The administrator and each employee need a TB screening and physical exam within 12 months before providing care.\n- The rule also sets average staff-to-resident ratios and weekly RN/LPN on-site hours. Those figures were not confirmed against the current official rule text (see not_claimed). Read paragraphs (11) onward of 111-8-63-.09 on the Secretary of State site before you build a schedule. The model includes about 8 RN/LPN hours a week at 30 beds and about 16 at 50 beds as planning assumptions.\n\n**Staffing rules (PCH, 2–24 beds)**\n- Staff-to-resident ratios for PCHs under 25 beds come from third-party-hosted rule text [S32] and were not confirmed against the current official Rule 111-8-62. Check them before you finalize a schedule.\n- On-site managers and responsible staff persons must be at least 21 [S34]. A person under 18 may work only under direct line-of-sight supervision, and a 17-year-old may work only in a Georgia high school vocational nursing-assistant track. Treat 18 as the safe floor for hands-on care in both ALCs and PCHs. New staff must receive work-related training, including emergency first aid and CPR certification, within the first 60 days [S34].\n- Because the PCH two-awake-staff rule was not verified, the 24-bed models are staffed to the ALC floor of two awake aides 24/7 as a conservative choice.\n\n**How the model staffs each size**\n- *6-bed PCH:* one awake aide 24/7 (730 hours/month) plus an owner-administrator salary of $54,000. No overtime or relief coverage is modeled. One 24/7 post is about 4.2 FTE of staffed hours, and the owner cannot count as the awake overnight staff while off duty.\n- *12-bed PCH:* two aides on days and evenings and one overnight (about 1,217 hours/month) plus the administrator. This is an operator choice for safety.\n- *24-bed PCH:* two awake aides 24/7 (about 1,460 hours/month), 1.5 FTE cook, 1 FTE housekeeping, and the administrator.\n- *30-bed ALC:* two aides 24/7, an extra 8-hour daytime aide, a medication tech/senior aide for days and evenings, RN/LPN time, cook, housekeeping, a half-time activities coordinator, and a licensed administrator at $70,000 (operator estimate).\n- *50-bed ALC:* three aides 24/7, an extra daytime aide, two medication techs on days and evenings, RN/LPN time, cook, 2 FTE housekeeping, activities, and a licensed administrator at $80,000 (operator estimate).\n\n**Required systems and compliance**\n- *Background checks:* GCHEXS fingerprint checks for administrators and individual owners with 10%+ interest [S4].\n- *Administrator licensing:* Board license for 25+ beds [S6][S7].\n- *Fire safety and electrical:* fire marshal and electrical documentation tied to the application [S4]. Recurring monitoring and inspection costs are operator estimates.\n- *Care documentation:* an eMAR or care documentation system is modeled as an operator estimate. No Georgia rule mandating a specific system was found.\n- *EVV:* only if you serve Medicaid personal support services (T1019). EVV vendor is Netsmart Mobile Caregiver+, mandatory for applicable claims with dates of service on or after September 14, 2026 [S20]. Applicability to the ALS placement service itself is unverified.\n- *Inspections:* DCH inspects without notice, and policies and procedures must be available for review [S4].\n\n**Wages.** The effective minimum wage is the federal $7.25; Georgia's state rate is $5.15 and applies to employers of six or more employees, but state law excludes FLSA-covered employment when the federal rate is higher [S24]. A secondary source says no local minimum wages are allowed [S43]. Every modeled wage is well above $7.25. Overtime under the federal FLSA and PTO or sick-relief coverage are not modeled.",
+    "market_conditions": "**Price benchmarks**\n- CareScout 2025 (survey July–November 2025): Georgia assisted living community median $5,300/month, $63,600/year, about $166/day, for a private one-bedroom unit in an AL community [S19]. National median $6,200/month [S19].\n- A Place for Mom-based report (April 2026): Georgia median $4,395/month [S44]; this figure was not confirmed on its source page. A Place for Mom's own Georgia page gives a $4,752 average, and another 2026 source gives about $4,940, so treat the $4,395–$4,940 range as a revenue sensitivity band [S56].\n- The two benchmarks fit different products. CareScout fits a unit-style ALC. The lower figure is used for shared-room personal care homes, so the PCH models use $4,395 and the ALC models use $5,300. Both are statewide numbers, not Atlanta-specific.\n\n**Labor market (benchmarks)**\n- Home health and personal care aides: national all-industry median $35,800/year, or about $17.21/hour (BLS May 2025) [S47]. The BLS national median for the assisted living industry is $37,060, or about $17.82/hour. A secondary compilation of BLS data lists a lower Georgia median of about $14.07/hour, which was not confirmed on bls.gov. The model uses the $17.21 national figure as a deliberate proxy.\n- Registered nurses: national median $97,550/year, about $46.90/hour [S46]. The BLS RN median in nursing and residential care facilities is $84,300 (about $40.53/hour), so the model's RN line is conservative.\n- Nursing assistants in assisted living: the model uses $18.98/hour [S45], but that industry figure could not be confirmed. BLS lists nursing assistants at $42,260 nationally.\n- Atlanta metro group means used as proxies for cooks, housekeeping and activities staff ($15.37 food preparation and serving; $18.17 personal care and service) could not be re-confirmed. They are broad group figures, not occupation-level wages.\n- Georgia statewide OEWS wages and a Georgia LPN wage were not confirmed. Replace the proxies with occupation-level Georgia or Atlanta values before finalizing.\n\n**Employer costs.** Georgia new employers were reported at a 2.70% unemployment tax rate on a $9,500 wage base, or about $256 per worker per year [S25]; this was not re-verified. Experienced employers range from 0.04% to 8.1% per a secondary source [S51]. Workers' compensation loss-cost data for residential care in Georgia was not found.\n\n**Occupancy costs.** FY2026 HUD Fair Market Rents for the Atlanta-Sandy Springs-Roswell HMFA are $1,585 (studio), $1,660 (1BR), $1,820 (2BR), $2,182 (3BR) and $2,605 (4BR) [S27]. A secondary report shows the FY2027 2BR FMR falling to $1,762 [S49]; the official FY2027 schedule was not verified. The model uses FMR as a proxy for building cost: 4BR × 1.15 (about $2,996) for a 6-bed home, or about $499 per bed for PCHs, and the $1,585 studio FMR per bed for ALCs. Commercial rent benchmarks for care facilities were not found. Rents outside metro Atlanta may be lower, and an owner-occupied building changes the economics.\n\n**Trends and watch items**\n- DCH amended the ALC staffing rule in 2025; the exact effective date was not confirmed [S5][S40].\n- Waiver funding pressure: a secondary report says the federal share of Georgia's Elderly and Disabled Waiver cost fell to about 65% last fiscal year (it was 73% in 2021), which adds state budget pressure on CCSP and SOURCE [S14].\n- The status of a proposed state minimum wage increase (SB273) was not confirmed. The federal $7.25 rate is the verified effective rate.",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident-month comes from the sourced private-pay rate (and, for the waiver configuration, the $768 resident room-and-board payment). Direct labor is built from the staffing rules and sized per configuration, with payroll taxes at 8.5% (FICA 7.65% plus about 0.85% unemployment taxes), workers' compensation at 6% and benefits at 5% (the last two are operator estimates; get a carrier quote) [S25]. Fixed costs include rent, utilities base load, insurance, license fees, software, accounting and marketing. Rent and utilities are fixed and sized to licensed beds, so vacant beds still cost money. Default occupancy is 88%, with 80% conservative and 95% optimistic. **The 88% is an operator planning assumption, not a sourced statistic**, because no Georgia occupancy data was found.\n\n**Results at 88% occupancy**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 24-bed PCH, 100% private pay | $17,944 | 19.3% | 67.5% | Month 7 | $374,533 |\n| 50-bed ALC, 100% private pay | $14,773 | 6.3% | 81.5% | Month 12 | $1,438,822 |\n| 30-bed ALC, 100% private pay | $2,958 | 2.1% | 85.8% | Month 10 | $766,953 |\n| 12-bed PCH, 100% private pay | −$509 | −1.1% | 89.2% | Not reached | $211,239 |\n| 24-bed PCH, 75% private + 25% waiver (R&B only) | −$1,206 | −1.6% | 89.8% | Not reached | $468,229 |\n| 6-bed PCH, 100% private pay | −$6,369 | −27.4% | 117.1% | Not reached | $311,259 |\n\nCash needed is the generator's total of startup costs plus the modeled ramp-up deficit.\n\n**What drives each result**\n- **Fixed 24/7 labor spread over few beds.** A 6-bed home carries the same overnight coverage as a bigger one on six residents' revenue, which is why it cannot break even even if full (117.1%). The 12-bed home just misses break-even at 89.2% while paying the administrator a $54,000 salary, so an owner-operator who works the role earns about that salary and roughly nothing more.\n- **The 24-bed PCH wins on rent and size.** Contribution per filled bed is about $3,650/month ($4,395 less about $745 of per-resident food, utilities, insurance, supplies, repairs, activities and referral costs, derived from the model inputs). Break-even is about 16 of 24 beds (67.5%); at 88% you carry about 21 residents.\n- **The ALCs are held back by building cost and compliance staffing.** The ALC models use $1,585 per bed in rent (the studio FMR floor, excluding common areas) versus about $499 per bed for the PCH proxy. That difference, plus a licensed administrator, RN/LPN hours and a higher aide count, outweighs the higher $5,300 rate. The 30-bed ALC needs about 26 of 30 beds filled to break even (85.8%) and would lose money at the 80% conservative occupancy. The 50-bed ALC breaks even at 81.5% (about 41 of 50 beds), so at 80% it would also lose money. It earns more dollars but a thin 6.3% margin, and it needs about $1.44 million of cash.\n- **Waiver mix lowers revenue unless the Medicaid service payment is meaningful.** Each waiver resident brings $768 of room and board against $4,395 private. At 25% waiver mix and 88% occupancy that is about 5.3 residents, which cuts net by about $19,150/month versus all-private (the difference between $17,944 and −$1,206). Because no ALS rate was found, **the model is incomplete, not necessarily negative**. For this configuration to break even at 88% the Medicaid ALS payment would need to be about $228 per waiver resident per month (about $7.50/day, derived arithmetic, not a rate); to match all-private, about $3,627 per resident per month. Obtain the actual rate from DCH or the Area Agency on Aging before building a waiver strategy.\n\n**Sensitivities (derived arithmetic on the 24-bed PCH, 88% occupancy)**\n- **Price:** each $100 change in the monthly fee moves net by about $2,100/month. The home stays profitable until the fee falls roughly $850 to about $3,545/month, but only if all other assumptions hold.\n- **Wage:** paying aides the Atlanta personal care and service mean of $18.17 instead of $17.21 adds about $1,700/month in cost, including payroll burden (derived).\n- **Occupancy:** because contribution is about $3,650 per resident, each lost resident costs about the same per month; an 80% census (about 19 residents) still clears break-even at 67.5%.\n- **Rent and ownership:** the lease line is a HUD-based proxy at about $499 per bed. Rent well above that erodes the margin quickly, and owning the building removes it. Both are operator-verification items.\n- **Revenue benchmark mismatch:** the $4,395 figure is a statewide secondary benchmark. If your market will only pay a materially lower rate for shared rooms, use the price sensitivity above.\n\n**Honest limits.** Rates are statewide while rent and wages lean on Atlanta-area and national data. Georgia has no local minimum wage per a secondary source, but a local labor market with higher pay would raise costs. Many opex lines are operator estimates. No insurance minimum is required by the rules reviewed, but lenders and landlords will require coverage.",
+    "risks": "**Regulatory risk**\n- Staffing rules changed in May 2025 and DCH proposed further amendments to Chapter 111-8-62 in February 2025. Final adoption and any post-2025 changes to Chapter 111-8-63 were not verified [S5][S33][S40].\n- The staffing ratios apply to residents with minimal care needs. Higher-acuity residents require more staff, which raises labor above the model [S5].\n- Permits are non-transferable and lapse on ownership change. PCH ownership changes require 30 days' advance written notice (60 days in specified cases) [S2][S18].\n- A PCH may not provide assisted living care without an ALC license, so a growing resident acuity can force a license upgrade or discharge decisions [S18].\n- Several rule pages were not retrievable or were only mirrored by secondary sources (Cornell LII, third-party hosting). Confirm every rule cite against the current official text.\n\n**Licensing and capital risk**\n- ALC applicants need an OHP Letter of Determination and a CPA going-concern affidavit [S1][S4]. CON thresholds were not verified.\n- Fire marshal, electrical, water-test, zoning and local business license costs were not verified. Building upgrades to pass inspection are an operator estimate that can run high.\n- The ALC path needs about $767,000 (30 beds) to $1.44 million (50 beds) of cash in the model, versus about $375,000 for the 24-bed PCH.\n\n**Financial risk**\n- Occupancy of 88% is an operator assumption, not a Georgia statistic. Small homes swing sharply because one vacancy is a large share of census.\n- Break-even for the 12-bed home is 89.2%, and the 6-bed home cannot break even even at full census.\n- Private-pay benchmarks conflict: $5,300 (CareScout, private one-bedroom in an AL community), $4,395 and $4,752 (A Place for Mom-based) [S19][S44][S56]. Pricing too high slows lease-up; too low breaks the model.\n- Rent is a HUD proxy, not a commercial lease.\n- Workers' compensation (modeled at 6%) is unsourced, and wages use national medians and Atlanta group means.\n\n**Medicaid and waiver risk**\n- No 2026 ALS payment rate was found, so waiver economics are unverified. Waiver admission is funding-limited, waitlists are nearly always populated, and enrollment can take months [S11][S13][S17].\n- The federal Elderly and Disabled Waiver is listed with an 11/08/2027 expiration [S35], and a secondary report says the federal share has dropped to about 65%, which increases state budget pressure [S14].\n- GAMMIS suspends non-revalidated providers (from July 1, 2026) and does not permit retroactive enrollment [S21]. EVV is mandatory for applicable claims with dates of service on or after September 14, 2026 [S20]. Whether it applies to ALS and whether a $750 institutional fee applies are unconfirmed.\n- The $768 room-and-board amount and the $2,982 vs $2,901 income-limit conflict come from secondary sources [S13][S16]. Resident income below the room-and-board amount is a collection risk.\n- SOURCE is available only in certain areas per the official page [S39].\n\n**Labor and market risk**\n- Aide, nurse and administrator wage data used are national or Atlanta-area proxies. A tight local labor market could force higher pay.\n- A higher state or local minimum wage would increase cost; none was verified.",
+    "recommendations": "**1. Lead with a 20–24 bed, private-pay personal care home, if you can control the building cost.** In the model, the 24-bed PCH is the only configuration with a double-digit margin: $17,944/month net at 88%, break-even at 67.5% (about 16 residents), first profit in month 7, and about $374,533 of cash needed. It stays below the 25-bed ALC line, avoiding the Board administrator license, the OHP Letter of Determination and the CPA affidavit [S1][S4][S6][S31]. Do not model the 12-bed or 6-bed homes as stand-alone businesses unless the owner is the administrator and accepts that salary as the return, or the building is owned or leased well below about $499 per bed.\n\n**2. Verify the price before you sign a lease.** Collect at least five local comparables for shared and private rooms. The model's $4,395 is a statewide secondary benchmark (other sources show $4,752 and about $4,940), and the model stays profitable until the monthly fee falls by about $850. Do not use the $5,300 CareScout median for shared-room homes; it measures a private one-bedroom unit in an AL community [S19].\n\n**3. Treat the ALC as a capital project, not a starter business.** The 30-bed ALC (2.1% margin, 85.8% break-even) is fragile, and the 50-bed ALC (6.3%, 81.5%, month 12) needs about $1.44 million. Go this route only with owned or well-below-FMR real estate, a pre-built referral pipeline, a licensed administrator in place, and a CPA affidavit you can honestly sign. If you add memory care, the certificate is $200 a year, and the ALC packet requires a current ALC permit first [S3][S4].\n\n**4. Build a waiver strategy only after you learn the ALS rate.** Call DCH Medicaid and your local Area Agency on Aging (866-552-4464) to obtain the current ALS rate, billing code, unit definition, FFS vs managed care routing, the CCSP cost share and EVV applicability [S11][S38]. The model shows that waiver residents, at room and board only, reduce net by about $3,627/month each, so cap waiver beds at a minority share until the ALS payment is confirmed. Enroll through GAMMIS before serving a waiver resident, since retroactive enrollment is not permitted [S21].\n\n**5. Lock down compliance early.**\n- Form the LLC and authorize the application through the governing body [S18].\n- Clear zoning first [S1].\n- For an ALC, obtain the OHP Letter of Determination before submitting [S4].\n- Order the fire marshal report (within 12 months), electrical form (within 6 months), water/septic form and any water test (within 6 months) so they fall within the application window [S4].\n- Start GCHEXS background checks for the administrator and each 10%+ owner [S4].\n- Confirm the PCH-specific application packet and fee payment timing with HFRD at pchprogram.hfrd@dch.ga.gov or hfrd.applicationswaivers@dch.ga.gov, or through the DCH main line at 404-657-5700 [S4][S8].\n\n**6. Staff to the rule, then to acuity.** Confirm the current staff-to-resident ratios and nurse hours in Rules 111-8-62 and 111-8-63 before you build a schedule, and always keep at least two awake staff where you are using the ALC floor, one per occupied floor. Budget extra aide hours for higher-acuity residents, plus overtime and relief coverage. Train within 60 days and track the 24-hour first-year and 16-hour annual continuing education requirements [S5][S34].\n\n**7. Use realistic ramp-up and reserves.** Plan for roughly 7 months to first profit in the 24-bed PCH, and fund the cash shown, not just the licensing fees. Keep at least the modeled cash on hand before opening, because lease-up is the main driver of loss in the first year.\n\n**8. Get quotes for every unsourced cost.** Insurance (no rule minimum found, but landlords and lenders will require coverage), workers' compensation, fire monitoring, eMAR software, local occupational tax and building rent are operator estimates. Replace each with a written quote, and replace the wage proxies with Georgia OEWS occupation-level values, before finalizing the plan."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Choose your license pathway: Personal Care Home (2–24 beds) or Assisted Living Community (25+ beds)",
+      "instructions": "Georgia licenses homes serving 2 to 24 residents as personal care homes under Ch. 111-8-62. A personal care home serving 25 or more residents that is licensed to provide assisted living care is an Assisted Living Community (ALC) under Ch. 111-8-63. The pathway sets your administrator rules, staffing floor, application documents and annual fee. The generator's results show the 24-bed private-pay PCH as the most profitable configuration, and 6- and 12-bed homes as thin or negative.",
+      "cite": "Ga. Comp. R. & Regs. 111-8-62; 111-8-63",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Confirm you will not provide 'assisted living care' under a PCH-only permit",
+      "instructions": "A home licensed only as a personal care home must not provide assisted living care unless it holds an assisted living community license. Define your admission criteria and service scope before you apply so your marketing and contracts match the permit you hold.",
+      "cite": "Ga. Comp. R. & Regs. 111-8-62",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Read the full current rule text for your chapter before spending money",
+      "instructions": "Read Ch. 111-8-63 (ALC) or Ch. 111-8-62 (PCH) on the Georgia Secretary of State rules site. Rule 111-8-63-.09 (staffing and training) was amended effective May 21, 2025. DCH proposed further amendments to 111-8-62 in February 2025, and final adoption was not verified. Check DCH's HFRD laws page for the latest versions. Free; allow a few hours.",
+      "cite": "Rules 111-8-62 and 111-8-63; HFRD Laws & Regulations",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Decide whether you will add memory care later",
+      "instructions": "A memory care certificate can only be applied for after you hold a current ALC permit. The fee is $200 annually. PCHs and ALCs running memory care centers must hold a DCH-issued certification. Memory care is not in the financial model, so price it separately.",
+      "cite": "DCH ALC Application Checklist; Schedule of Licensure Activity Fees",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Decide your payer mix (private pay vs. Medicaid waiver) before choosing size and location",
+      "instructions": "Georgia Medicaid waivers (CCSP/SOURCE Alternative Living Services) do not pay room and board, and no 2026 per-diem ALS rate was verified. The generator models the waiver mix with room and board only, and it shows a loss at 24 beds. Treat waiver residents as an add-on after you are stable on private pay.",
+      "cite": "DCH CCSP fact sheet; Georgia Health Services Network",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Form your legal entity (LLC)",
+      "instructions": "File Articles of Organization with the Georgia Secretary of State. A secondary source lists $110 ($100 filing + $10 service charge); confirm on the Secretary of State site. The PCH rule says that for an LLC, the governing body authorizes the license application and the LLC serves as licensee. The name on the DCH application must match your filing exactly.",
+      "cite": "Rule 111-8-62 (LLC applicant)",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Get an EIN from the IRS",
+      "instructions": "Free online at irs.gov, issued the same day. You need it for payroll, banking, GAHLES/Medicaid enrollment and the insurance applications.",
+      "cite": "IRS EIN",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "MEDIUM",
+      "task": "Calendar the Georgia LLC annual registration",
+      "instructions": "The annual registration is due April 1. A secondary source says $60 all-in ($50 base + $10 service charge), while other secondary sources list $50, so confirm on the Secretary of State site. A $25 late fee is reported if you miss April 1. The same source says Georgia has no LLC franchise tax; confirm with a CPA.",
+      "cite": "Georgia Secretary of State annual registration",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Disclose all owners holding 10% or more and identify your registered agent",
+      "instructions": "Owners with 10% or more of the stock or ownership must be disclosed in the permit application, along with the registered agent. Prepare a cap table and owner identification before you open the GAHLES application. Individual 10%+ owners also need a GCHEXS background check (see Phase 4).",
+      "cite": "Rule 111-8-63 (application)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "MEDIUM",
+      "task": "Open a business bank account and set up bookkeeping",
+      "instructions": "Use your EIN and Articles. Keep resident funds and personal-needs money separate from operating funds. Model accounting, payroll service and legal at about $400 per month, an operator estimate; verify locally.",
+      "cite": "Operator best practice",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "HIGH",
+      "task": "Validate private-pay pricing with local comparables",
+      "instructions": "CareScout's 2025 Georgia median is $5,300/month ($63,600/yr) for a private one-bedroom unit in an assisted living community (national median $6,200). A Place for Mom-based reporting gives $4,395/month (April 2026), and its own page gives a conflicting $4,752. The model prices small shared-room homes at $4,395. Tour 5–10 competitors in your target county and price against them.",
+      "cite": "CareScout Cost of Care Survey 2025",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "MEDIUM",
+      "task": "Review demand data for your county",
+      "instructions": "Census QuickFacts shows 16.7% of Georgia's 11,302,748 residents (V2025) are age 65+. Pull county-level figures from the same site. No official Georgia occupancy or referral-source data was found, so build your own referral pipeline from hospitals, discharge planners, physicians and Area Agencies on Aging.",
+      "cite": "U.S. Census Bureau QuickFacts: Georgia",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "CRITICAL",
+      "task": "Address zoning and location with local officials before leasing or buying",
+      "instructions": "The applicant must address local zoning and location requirements with the responsible local officials. Get written zoning confirmation (use permit or occupancy certificate) from the city or county planning office. Fees vary by locality and were not verified.",
+      "cite": "Rule 111-8-63 (zoning and siting)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "HIGH",
+      "task": "Check the certificate of need / Letter of Determination requirement for your size",
+      "instructions": "The ALC application requires a Letter of Determination approved by the DCH Office of Health Planning (OHP). A secondary source says no CON applies below 25 beds. CON thresholds were not verified against DCH rules, so contact OHP before committing to a site or size.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "HIGH",
+      "task": "Budget the building cost realistically",
+      "instructions": "The model sizes rent as a fixed cost per licensed bed. It uses the FY2026 HUD Fair Market Rent for Atlanta-Sandy Springs-Roswell: 4BR $2,605 × 1.15 for a 5-bedroom proxy at PCH sizes, and the $1,585 studio FMR per bed for ALCs. These are operator estimates; get actual broker quotes. Vacant beds still cost rent.",
+      "cite": "HUD FY2026 Fair Market Rents",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "HIGH",
+      "task": "Set your licensed capacity from the floor plan",
+      "instructions": "A community may not serve more residents than the approved licensed capacity on the face of its permit. Measure resident rooms and common areas accurately, because the application needs a floor plan with window, door, common area and room measurements.",
+      "cite": "Rule 111-8-63 (licensed capacity)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "HIGH",
+      "task": "If not on city or county water, schedule a private water test",
+      "instructions": "The application requires a private water test when water is not supplied by a city or county system. The test must be dated within 6 months of the application submission date.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "HIGH",
+      "task": "Plan life-safety, accessibility and physical plant upgrades",
+      "instructions": "Your State Fire Marshal inspection must show no violations and state a capacity load. Budget for alarms, sprinklers or extinguishers, accessibility work and furnishings as in the startup cost lines. All of these are operator estimates; get contractor quotes before signing a lease.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE & ZONING",
+      "priority": "MEDIUM",
+      "task": "Check whether your locality requires a local occupational tax certificate",
+      "instructions": "A secondary source reports local occupational tax certificates at $10 to $1,000+ depending on the locality and calls them nearly universal. Check your city or county schedule. The model uses $40/month for small homes, an operator estimate.",
+      "cite": "Local occupational tax certificate",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Confirm your administrator meets the rule for your home size",
+      "instructions": "For fewer than 25 beds, the administrator needs an associate's degree, or a GED/high school diploma plus 2 years of licensed PCH or healthcare experience, and must be at least 21. For 25+ beds, the administrator must hold a valid Board of Long-Term Care Facility Administrators license, effective within 60 days of hire.",
+      "cite": "Rule 111-8-62-.08(1)(a)-(b)",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "ALC: apply for the administrator license from the State Board of Long-Term Care Facility Administrators",
+      "instructions": "The initial application form (dated 11.2022) requires a $100 application fee plus a $10 processing fee payable to the Board. Applicants need at least one year of full-time experience (at least 1,560 hours in the 12 months before applying) plus a board-approved administration program. The fee schedule was not reconfirmed, so verify before paying.",
+      "cite": "Board application form; Rule 111-8-62-.08(1)(b)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Book a board-approved administrator training program",
+      "instructions": "Required by the Board application. Tuition was not verified; the startup cost range of $500–$1,500 is an operator estimate, so confirm with the Board and the course provider.",
+      "cite": "Board application form",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Complete the administrator's fingerprint-based background check (GCHEXS)",
+      "instructions": "The administrator must obtain a satisfactory fingerprint records check determination before serving. Administrators and individual owners with 10%+ ownership complete a fingerprint-based check through GCHEXS, and the determination letter must be dated within 12 months of submission. Fees were not verified.",
+      "cite": "Rule 111-8-63-.09; DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Get the administrator's TB screening and physical exam",
+      "instructions": "The administrator and each employee must have a TB screening and physical exam within 12 months before providing care to residents. Schedule these before the first resident is admitted.",
+      "cite": "Rule 111-8-63-.09",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "MEDIUM",
+      "task": "Confirm age requirements for managers and direct care staff",
+      "instructions": "On-site managers and direct-care supervisory staff must be at least 21. Non-supervisory staff providing hands-on care must be at least 18 (PCH rule).",
+      "cite": "Rule 111-8-62-.09",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 3 — ADMINISTRATOR & KEY PERSONNEL QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Check your own and each owner's eligibility history",
+      "instructions": "A pending-license application is reviewed by DCH. Before you apply, review any prior sanctions or license history in your ownership group. The specific disqualifiers for Georgia were not verified in this research, so ask DCH (pchprogram.hfrd@dch.ga.gov) if you have a concern.",
+      "cite": "DCH HFRD",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "Create your GAHLES account and review the application packet",
+      "instructions": "ALC applications are filed through DCH's online GAHLES portal at https://gahles.dch.georgia.gov/. Download the current ALC Application Checklist (updated 07/13/26) and use it as your document list. The PCH application documents were not separately retrieved, so confirm them with the PCH Program team.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "ALC: obtain the OHP Letter of Determination",
+      "instructions": "The initial application requires a Letter of Determination approved by the DCH Office of Health Planning. Request it early and confirm the process with OHP, since the CON rules were not verified.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "ALC: obtain the CPA financial stability affidavit",
+      "instructions": "The initial application must include an affidavit from a CPA affirming your ability to operate as a going concern for the next two years. Prepare a two-year budget and funding proof first. The $1,500–$3,500 CPA fee in the startup costs is an operator estimate.",
+      "cite": "Rule 111-8-63 (financial stability)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "Get the State Fire Marshal inspection report",
+      "instructions": "The report must show no violations and state the capacity load, and it must be dated within 12 months of the application submission date. Schedule it after any life-safety upgrades. Inspection fees were not verified.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "Get the electrical compliance form signed by a Georgia-licensed electrician",
+      "instructions": "The form must be dated within 6 months of the application submission date. Time the inspection so it does not expire while you wait on other documents.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "HIGH",
+      "task": "Prepare the floor plan and digital photos",
+      "instructions": "The permit application needs an accurate floor plan showing windows, doors, common areas and resident room measurements. It also needs digital .jpg photos of the exterior, common areas and a typical resident room.",
+      "cite": "Rule 111-8-63 (application)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "HIGH",
+      "task": "Assemble the policies and procedures and the Affidavit of Compliance",
+      "instructions": "After licensure, communities are subject to unannounced periodic inspections at which the policies and procedures must be available for review. Prepare them before applying. Allow 2–4 weeks, or use a consultant at your own cost.",
+      "cite": "DCH Affidavit of Compliance (ALC packet)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "Submit a complete application with the $300 processing fee",
+      "instructions": "DCH will not act on an application until it is complete with all attachments and fees. The new application processing fee is $300, paid upon submission, and it is non-refundable. Submit through GAHLES and keep the contact email current, because status correspondence goes there.",
+      "cite": "DCH Schedule of Licensure Activity Fees; DCH ALC Application Checklist",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "Pay the initial license fee before the permit or license is issued",
+      "instructions": "The fee is $350 per year for a PCH of 2–24 beds, $750 per year for an ALC of 25–50 beds, and $1,500 per year for 51+ beds. The initial fee is submitted before license issuance. All licensure fees must be paid in full prior to receiving a permit or license.",
+      "cite": "DCH Schedule of Licensure Activity Fees",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "HIGH",
+      "task": "Plan for DCH's review timeline",
+      "instructions": "DCH's checklist states an initial review timeframe of 30 business days from the application submission date, with applications reviewed in order received. This is a DCH checklist figure, not a rule deadline, so it is not a guarantee of issuance. Do not sign a lease that starts rent on a fixed date without a buffer for corrections.",
+      "cite": "DCH ALC Application Checklist",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "CRITICAL",
+      "task": "Do not admit any resident until the permit is in hand",
+      "instructions": "The governing body must hold a valid DCH permit before admitting any residents (ALC) or operating (PCH). Operating without one risks enforcement and loses referral trust.",
+      "cite": "Rule 111-8-63; Rule 111-8-62",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "MEDIUM",
+      "task": "Know the permit limits: not transferable, and invalid on ownership change",
+      "instructions": "Permits are not transferable from one community or location to another and cease to be valid when ownership changes. If you buy an existing home, plan a new permit application rather than assuming the permit carries over.",
+      "cite": "Rule 111-8-63-.06",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — DCH APPLICATION & PERMIT",
+      "priority": "MEDIUM",
+      "task": "Post-permit: keep the permit visible and know the replacement fee",
+      "instructions": "A permit replacement costs $50 per request. Keep the original in a controlled place and display the permit as required by DCH.",
+      "cite": "DCH Schedule of Licensure Activity Fees",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "CRITICAL",
+      "task": "ALC: build a schedule that meets the 2025 staffing rule",
+      "instructions": "Average at least 1 awake direct care staff person per 15 residents in waking hours and 1 per 20 in non-waking hours for residents with minimal needs. At least 2 on-site direct care staff must be on the premises 24 hours a day whenever residents are present, with one on each occupied floor. The rule was amended effective May 21, 2025. Higher-acuity residents need more staff.",
+      "cite": "Rule 111-8-63-.09",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "CRITICAL",
+      "task": "PCH (under 25 beds): build a schedule to the PCH ratio and verify it against current rule text",
+      "instructions": "PCH rule text retrieved from DCH-hosted sources states 1 awake direct care staff per 15 residents in waking hours and 1 per 25 in non-waking hours. The generator conservatively models 1 awake staff 24/7 at 6 and 12 beds and 2 at 24 beds. Verify the current ratio with DCH before you finalize the schedule.",
+      "cite": "Rule 111-8-62 (staffing)",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "CRITICAL",
+      "task": "ALC: contract or hire an RN or LPN for the required on-site hours",
+      "instructions": "An RN or LPN must be on site at least 8 hours per week for communities of 1–30 residents and 16 hours per week for 31–60 residents. The model uses the national RN median of $46.90/hr as a conservative proxy; no Georgia LPN wage was retrieved.",
+      "cite": "Rule 111-8-63-.09",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "HIGH",
+      "task": "Set wages and confirm they exceed the minimum wage",
+      "instructions": "The effective minimum wage is the federal $7.25, because Georgia's $5.15 state rate yields to it. The model uses $17.21/hr for aides (national median; Atlanta personal care and service group mean is $18.17) and $15.37 for food service and housekeeping proxies. Local wages in Atlanta may be higher, so benchmark against local job postings.",
+      "cite": "U.S. DOL State Minimum Wage Laws; BLS Atlanta May 2025",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "HIGH",
+      "task": "Run background checks on staff before hire",
+      "instructions": "Use the DCH GCHEXS process for fingerprint-based checks. The administrator needs a satisfactory determination before serving. Check the packet and PCH rule for who else needs a check. Fees were not verified; model $300–$2,000 up front as an operator estimate.",
+      "cite": "DCH ALC Application Checklist; Rule 111-8-63-.09",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "CRITICAL",
+      "task": "Deliver initial staff training within 60 days of hire",
+      "instructions": "Every staff member must receive training within the first 60 days of employment, including emergency first aid and CPR certification at PCHs. Build a training calendar and a per-employee file that documents completion.",
+      "cite": "Rule 111-8-63-.09; Rule 111-8-62-.09",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "HIGH",
+      "task": "Track continuing education hours",
+      "instructions": "Staff providing hands-on care, including the administrator, must complete at least 24 hours of continuing education within the first year of employment. Starting in the second year, they need at least 16 hours of job-related continuing education annually. Keep certificates in each personnel file.",
+      "cite": "Rule 111-8-63-.09",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "HIGH",
+      "task": "Make sure two fully trained staff are present whenever residents are present (ALC)",
+      "instructions": "At least two fully trained staff must be present in the ALC at all times any residents are present, with one on each occupied floor. Schedule new hires so a newly hired person within the 60-day training window is not counted as one of the two.",
+      "cite": "Rule 111-8-63-.09",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "HIGH",
+      "task": "Register for Georgia unemployment insurance and set up payroll",
+      "instructions": "Georgia new employers are assigned a total tax rate of 2.70% on a $9,500 taxable wage base. Experienced-employer rates range from 0.04% to 8.1% per a secondary source. Employer FICA is separate. Register with the Georgia Department of Labor once you hire.",
+      "cite": "Georgia DOL Employers FAQs",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "HIGH",
+      "task": "Buy workers' compensation and liability insurance",
+      "instructions": "No Georgia insurance or bond minimum for PCH/ALC licensure was found. Landlords, lenders and Medicaid contracts normally require coverage. The model uses a 6% workers' comp load and $100 per resident per month for liability, both operator estimates, so get written quotes from a carrier experienced in senior living.",
+      "cite": "Operator estimate; no rule minimum located",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up an eMAR / care documentation system",
+      "instructions": "Required for medication tracking and inspection readiness. The model carries $250/month for small homes and $300–$400/month for ALCs; these are operator estimates, so get vendor quotes. EVV is only a mandate if you bill Medicaid personal support services.",
+      "cite": "Operator estimate",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "MEDIUM",
+      "task": "Write resident admission agreements and a rate sheet",
+      "instructions": "State your all-inclusive monthly rate, what is included, and any level-of-care pricing. Include discharge terms consistent with your policies and procedures. Have a Georgia attorney review the agreement. Legal cost is an operator estimate.",
+      "cite": "Operator best practice; Rule 111-8-62/63",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, TRAINING & OPERATIONS SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up food service, supplies and transport",
+      "instructions": "The model carries $330 per resident per month for food, $60 for supplies, and $300–$500 per month for optional transportation. All are operator estimates; verify with vendors.",
+      "cite": "Operator estimate",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — LAUNCH, ADMISSIONS & INSPECTION READINESS",
+      "priority": "HIGH",
+      "task": "Build your referral pipeline before the permit arrives",
+      "instructions": "Meet hospital discharge planners, physicians, home health agencies and Area Agencies on Aging. The statewide AAA line is 866-552-4464. The model ramps 1–5 new residents a month depending on size, an operator assumption, so verify against your pipeline.",
+      "cite": "Operator assumption; AAA referral line",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 6 — LAUNCH, ADMISSIONS & INSPECTION READINESS",
+      "priority": "HIGH",
+      "task": "Plan cash to carry you through ramp-up",
+      "instructions": "The generator's cash-needed estimates at default occupancy: 6-bed PCH about $311,259; 12-bed PCH about $211,239; 24-bed PCH about $374,533; 30-bed ALC about $766,953; 50-bed ALC about $1,438,822. The 24-bed private-pay PCH reaches first profit in month 7 and the 50-bed ALC in month 12. The 6-bed and 12-bed PCHs and the waiver mix never reach profit in the model.",
+      "cite": "Generator model results",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — LAUNCH, ADMISSIONS & INSPECTION READINESS",
+      "priority": "HIGH",
+      "task": "Prepare for unannounced periodic inspections",
+      "instructions": "Communities are subject to unannounced periodic inspections at which policies and procedures must be available for review. Run internal mock inspections monthly: staffing sheets, training files, TB/physicals, resident files and fire drill logs.",
+      "cite": "DCH Affidavit of Compliance (ALC packet)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — LAUNCH, ADMISSIONS & INSPECTION READINESS",
+      "priority": "HIGH",
+      "task": "Never exceed licensed capacity",
+      "instructions": "Admissions must stay at or under the approved licensed capacity printed on the permit. Track census daily and block admissions when you reach capacity.",
+      "cite": "Rule 111-8-63 (licensed capacity)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — LAUNCH, ADMISSIONS & INSPECTION READINESS",
+      "priority": "MEDIUM",
+      "task": "Keep DCH contact information current",
+      "instructions": "Questions about regulations, surveys, permits and administrator contact updates go to the Personal Care Home Team at pchprogram.hfrd@dch.ga.gov. DCH's phone is (404) 656-4507, and the office is at 2 Martin Luther King Jr. Drive SE, East Tower, Atlanta, GA 30334, Monday–Friday, 8 a.m.–5 p.m. ET.",
+      "cite": "DCH Licensure Forms & Applications",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — LAUNCH, ADMISSIONS & INSPECTION READINESS",
+      "priority": "MEDIUM",
+      "task": "Market to your target segment with accurate claims",
+      "instructions": "Price against local comparables and describe only services your permit allows. A PCH-only permit does not allow assisted living care. Do not advertise memory care until DCH issues the certification.",
+      "cite": "Rule 111-8-62; memory care certification",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Understand how waiver money flows before accepting waiver residents",
+      "instructions": "CCSP and SOURCE sit inside the Elderly and Disabled Waiver Program. Alternative Living Services covers 24-hour personal care supervision in state-licensed personal care homes. Medicaid does not pay room and board; the resident pays $768/month (secondary sources, effective 1/1/2026) and keeps $226 of the $994 SSI benefit. No 2026 ALS per-diem rate was verified, so get the rate and billing rules from the waiver program before you commit beds.",
+      "cite": "DCH CCSP fact sheet; Georgia Health Services Network",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Learn how residents enter the waiver",
+      "instructions": "Entry starts with an assessment requested through the local Area Agency on Aging (866-552-4464). The screening determines eligibility and urgency, which affects the waiting-list position. DFCS determines financial eligibility and keeps the EDWP waiting list. Admission depends on legislative funding, and DCH's guide says waiver waitlists are nearly always populated.",
+      "cite": "Georgia.gov EDWP; PAMMS 2131; DCH waiver guide",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Verify current eligibility limits for prospective waiver residents",
+      "instructions": "Secondary sources put the 2026 CCSP income limit at 300% of the federal benefit rate ($2,982) or $2,901, and these conflict. The individual asset limit is reported at $2,000 from secondary sources. Confirm with DFCS before telling a family a resident qualifies. SOURCE eligibility ties to SSI Medicaid criteria and nursing facility level of care; Georgia.gov says SOURCE is only available in certain areas.",
+      "cite": "DFCS PAMMS 2131; Georgia.gov SOURCE",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Enroll as a Georgia Medicaid provider through GAMMIS before billing",
+      "instructions": "Retroactive enrollment is not permitted, so services before enrollment are not payable. GAMMIS also states that providers who had not revalidated by July 1, 2026 are suspended. Start enrollment well before the first waiver admission. Allow several weeks, but no processing time was verified.",
+      "cite": "GAMMIS portal notices",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Budget the CY2026 Medicaid provider enrollment application fee, if it applies",
+      "instructions": "The CY2026 federal application fee is $750 for institutional providers, charged at initial enrollment, revalidation or a new location. Whether PCH/ALS waiver providers are classed as institutional was not confirmed, so ask GAMMIS before paying. Skip this if you stay private-pay only.",
+      "cite": "CMS CY2026 application fee notice; MLN9658742",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Prepare for EVV if you bill personal support services",
+      "instructions": "DCH selected Netsmart Mobile Caregiver+ as the state EVV system. For CCSP and SOURCE, personal support services are listed under HCPCS T1019. The EVV soft go-live is August 31, 2026, and applicable HHCS claims with dates of service on or after September 14, 2026 must be submitted through EVV. Whether EVV applies to the ALS placement service itself is unverified, so confirm with DCH.",
+      "cite": "Georgia Medicaid EVV page",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 7 — OPTIONAL: MEDICAID WAIVER (CCSP / SOURCE) PARTICIPATION",
+      "priority": "MEDIUM",
+      "task": "Track funding and waiver renewal risk",
+      "instructions": "CMS lists the Georgia Elderly and Disabled Waiver as expiring 11/08/2027. A secondary report says the federal share of EDWP costs has fallen to about 65%, which raises state budget pressure. Do not rely on Medicaid revenue in your base-case budget.",
+      "cite": "CMS waiver 0112.R08.00",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "CRITICAL",
+      "task": "Pay the DCH annual license fee on time",
+      "instructions": "PCH 2–24 beds: $350 annually; ALC 25–50 beds: $750; ALC 51+ beds: $1,500. A late fee of $150 per instance applies 60 days past due. The model carries the fee as a monthly fixed line.",
+      "cite": "DCH Schedule of Licensure Activity Fees",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "CRITICAL",
+      "task": "Give required notice before any change of ownership",
+      "instructions": "PCH rule: at least 30 days written notice to DCH and all residents of an impending change of ownership (60 days for impending bankruptcy or eviction). Because the permit is invalid on ownership change, the new owner must obtain a permit.",
+      "cite": "Rule 111-8-62 (change of ownership); Rule 111-8-63-.06",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "HIGH",
+      "task": "Apply for the memory care certificate only after you hold a current ALC permit",
+      "instructions": "Fee: $200 annually. DCH issues the certification, and staffing and training requirements for memory care were not verified, so get them from DCH before you enroll memory care residents. Treat revenue and cost as outside this model.",
+      "cite": "DCH ALC Application Checklist; Fee Schedule",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "HIGH",
+      "task": "Update financial model quarterly against actuals",
+      "instructions": "Compare actual census, labor hours and rent against the model. The break-even occupancy per the generator is 67.5% for the 24-bed PCH, 81.5% for the 50-bed ALC, 85.8% for the 30-bed ALC, 89.2% for the 12-bed PCH and 89.8% for the 24-bed waiver mix. If your census is below break-even for 3 months, adjust rates or costs.",
+      "cite": "Generator model results",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "HIGH",
+      "task": "Watch for rule changes",
+      "instructions": "DCH presented proposed amendments to Ch. 111-8-62 to its Board on 2/13/2025, and final adoption was not verified. Check the HFRD laws page and the Secretary of State rules site each quarter, and subscribe to DCH notices.",
+      "cite": "HFRD Laws & Regulations; DCH rule synopsis",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "MEDIUM",
+      "task": "Stress-test wages and rent in your metro",
+      "instructions": "The modeled aide wage is the national median ($17.21/hr), not a Georgia statewide wage, which could not be retrieved. If your local market pays more, rerun the model. The secondary source says no local minimum wage is allowed in Georgia, but that was not verified against a statute.",
+      "cite": "BLS OOH; Hivedesk (secondary)",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & FINANCIAL CONTROL",
+      "priority": "MEDIUM",
+      "task": "Renew business licenses, insurance and annual registration on a calendar",
+      "instructions": "Track the LLC annual registration (April 1), the local occupational tax certificate, insurance renewals, the DCH license renewal date, administrator license renewal and staff CE deadlines. Assign one person to own the calendar.",
+      "cite": "Operator best practice",
+      "source_id": ""
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Aide wage uses the national all-industry median; the Georgia figure was not confirmed",
+      "change": "Kept $17.21 rather than lowering it on an unconfirmed secondary figure. Relabeled all aide lines as a deliberate national proxy, noted the secondary Georgia ($14.07) and assisted-living-industry ($17.82) values, and added a note that overtime, PTO and relief are not modeled."
+    },
+    {
+      "issue": "Atlanta group-mean wages ($15.37, $18.17) could not be verified and are the wrong occupation level",
+      "change": "Relabeled cook, housekeeping and activities notes as unconfirmed proxies with the correct SOC codes. Rewrote not_claimed[15] and market_conditions accordingly."
+    },
+    {
+      "issue": "$18.98 CCRC/assisted living nursing assistant wage unconfirmed; RN wage conservative",
+      "change": "Noted both in the med tech and RN staffing notes, and in market_conditions and not_claimed."
+    },
+    {
+      "issue": "ALC ratios (1:15, 1:20), nurse hours and the 2025-05-21 amendment date unverified",
+      "change": "Rewrote key_numbers[6] and [7], the operations and service_model text, and the ALC configuration notes to keep only the confirmed floor of two staff, one per floor. Ratios and nurse hours are now labeled planning assumptions, and a not_claimed entry was added."
+    },
+    {
+      "issue": "Minimum age for hands-on staff misstated",
+      "change": "Operations text now gives the ALC exceptions (under 18 only with line-of-sight supervision; 17 in the vocational track), age 21 for on-site managers and responsible staff, and 18 as the safe floor. The checklist item (i=24) itself was not shown in the provided data and could not be patched."
+    },
+    {
+      "issue": "Memory care permit prerequisite stated universally",
+      "change": "key_numbers[4], service_model, licensing_pathway, recommendations and the 50-bed notes now say the ALC packet requires a current ALC permit first, and PCHs follow the PCH process."
+    },
+    {
+      "issue": "Administrator fee misstated",
+      "change": "The fee is now $100 plus a $10 paper or $5 online processing fee ($110/$105). startup_costs[3] low is now 105. Biennial renewal and CE are flagged as unmodeled and added to not_claimed."
+    },
+    {
+      "issue": "DCH annual license fee line is the PCH fee",
+      "change": "Confirmed that alc30 and alc50 override it to $62.50. Updated the opex notes with the ALC fees and added the $250 follow-up-visit fee and $150 late fee as unmodeled contingencies."
+    },
+    {
+      "issue": "$4,395 small-home rate unverified and conflicting",
+      "change": "Kept the rate (not raised or lowered). Added a note to rates[1], the executive summary, the market conditions text and the recommendations calling $4,395–$4,940 a sensitivity band. Added a not_claimed entry."
+    },
+    {
+      "issue": "CPA affidavit 'two-year going-concern' wording unverified; applies to ALC and PCH 25+",
+      "change": "Removed the two-year wording from startup_costs, the 30-bed notes, the working-capital note, the executive summary and the licensing pathway. Added a not_claimed entry. The checklist i=28 item was not available to patch."
+    },
+    {
+      "issue": "OHP Letter of Determination missing from startup costs and timeline",
+      "change": "Added a startup_costs line (placeholder $0, fee unverified), sequenced it before submission in the licensing pathway and recommendations, and added the water/septic form. The checklist itself was not shown and could not be patched."
+    },
+    {
+      "issue": "HFRD phone unverified; Board phone and address, and email contacts, missing",
+      "change": "Cleared regulators[0].phone and removed the number from the contacts and text. Added the DCH main line, the Board phone and address, the applications and payments emails and GCHEXS contact, and updated the OHP URL."
+    },
+    {
+      "issue": "Waiver revenue excludes the CCSP cost share; SUI and FUTA not verified",
+      "change": "Relabeled the waiver revenue line as excluding the ALS payment and cost share. Rewrote payroll notes to say SUI is not re-verified and FUTA is not modeled separately."
+    },
+    {
+      "issue": "6-bed and 12-bed aide hours have no relief, overtime or PTO allowance",
+      "change": "Added notes that these are not modeled (one 24/7 post is about 4.2 FTE) and that the owner cannot count as the awake overnight staff while off duty. Hours were not changed."
+    }
+  ]
+}
