@@ -2,88 +2,97 @@
   "bundle_slug": "illinois-assisted-living-facilities-complete-bundle",
   "checked_at": "2026-10-14",
   "pre_fix_code_checks": [],
-  "verified_count": 21,
+  "verified_count": 18,
   "issues": [
     {
       "severity": "major",
-      "json_path": "key_numbers[2].value / fees_and_timelines_in_checklist[i=14].instructions / fees_and_timelines_in_checklist[i=28].instructions / startup_costs[1].notes",
-      "current": "IDPH will issue a regular license within 120 days after receipt of an application that qualifies; first-time licensees receive a probationary license",
-      "correct": "A first-time licensee gets a probationary license first. 77 IAC 295.800 says IDPH may issue it within 90 days after a completed application, and it is valid for 120 days. IDPH then reviews the establishment within the 30 days before it expires and issues the regular license if the establishment qualifies. A second probationary license of up to 120 days is possible. Applicant-to-regular-license time can therefore run well past 120 days.",
-      "evidence": "77 IAC 295.800: \"The Department may issue a probationary license within 90 days after receipt of a completed application\"; 210 ILCS 9/40: \"valid for 120 days\", renewable once for up to 120 days.",
-      "source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.800",
-      "fix": "Replace the '120 days to regular license' claim with the probationary-license sequence (probationary license within about 90 days of a complete application, valid 120 days, regular-license review in the last 30 days, one possible 120-day extension). Size lease contingencies and the ramp-up deficit to roughly 7–11 months. I could not open 295.600 (the ilga.gov page was blocked), so any '120 days' wording there is unverified."
+      "json_path": "fees_and_timelines_in_checklist[26].instructions",
+      "current": "Operating unlicensed carries a civil penalty of up to $3,000 and enforcement action.",
+      "correct": "Unlicensed operation is subject to the penalties of the Nursing Home Care Act (210 ILCS 9/25). The general Act penalty is up to $5,000 per violation, and each day counts as a separate violation (Sec. 135(a)). The $3,000 cap applies only to keeping a resident who exceeds the care needs defined in the Act (Sec. 135(b)).",
+      "evidence": "Sec. 25: \"An entity that operates as an assisted living or shared housing establishment ... without a license shall be subject to the provisions, including penalties, of the Nursing Home Care Act.\" P.A. 104-0589 text of Sec. 135: \"civil penalty not to exceed $5,000 ... Each day a violation continues shall be deemed a separate violation.\"",
+      "source_url": "https://ilga.gov/Legislation/ILCS/Articles?ActID=1217&ChapterID=21",
+      "fix": "Replace the sentence with: 'Operating unlicensed makes the entity subject to the Nursing Home Care Act penalties (210 ILCS 9/25). Separately, the Act allows civil penalties up to $5,000 per violation per day (210 ILCS 9/135).' Remove the $3,000 figure."
     },
     {
       "severity": "major",
-      "json_path": "fees_and_timelines_in_checklist[i=39].instructions",
-      "current": "A 2012 proposed text mentions 20 hours every two years for directors. This is not verified against the current code.",
-      "correct": "The 20-hour requirement is current statute. It is a condition of licensure under 210 ILCS 9/35. Section 35 also ties director qualifications to completing an approved program within 6 months after hiring.",
-      "evidence": "210 ILCS 9/35: \"the director of an establishment must participate in at least 20 hours of training every 2 years\"",
-      "source_url": "https://ilga.gov/Documents/legislation/ilcs/documents/021000090K35.htm",
-      "fix": "State that 210 ILCS 9/35 requires director training of at least 20 hours every 2 years as a licensure condition. Add a training-hours line to the calendar and budget. Note that the statute and the rule call the position 'director', not 'manager'."
+      "json_path": "fees_and_timelines_in_checklist[28] and staffing.*[manager lines]",
+      "current": "Confirm current manager training-hour requirements with IDPH. A 2012 proposed-amendment text mentions 20 hours every two years, but it is outdated and not verified against the current code.",
+      "correct": "The statute itself requires the director to complete at least 20 hours of training every 2 years as a condition of licensure (210 ILCS 9/35). It is a current legal requirement, not an outdated proposal.",
+      "evidence": "Sec. 35 (as reprinted in P.A. 104-0589): \"as a condition of licensure under this Act, the director of an establishment must participate in at least 20 hours of training every 2 years\".",
+      "source_url": "https://ilga.gov/Legislation/PublicActs/View/104-0589",
+      "fix": "State the requirement as: 'Director must complete at least 20 hours of training every 2 years (210 ILCS 9/35, a condition of licensure).' Budget the courses explicitly. Also update opex 'Training...' notes, which say the manager training-hour requirement was not verified."
     },
     {
       "severity": "major",
-      "json_path": "fees_and_timelines_in_checklist[i=2].instructions",
-      "current": "Operating unlicensed exposes you to a civil penalty of up to $3,000.",
-      "correct": null,
-      "evidence": "The Act's penalty section (cited as 210 ILCS 9/25 and 77 IAC 295.400) was not retrieved. The Justia fetch was truncated before it.",
-      "source_url": "https://law.justia.com/codes/illinois/chapter-210/act-210-ilcs-9/",
-      "fix": "Unverifiable. Confirm the penalty amount against the current text of 210 ILCS 9 (penalty and unlicensed-operation sections) and the P.A. 104-0589 amendments before publishing. Remove the figure if it can't be confirmed."
-    },
-    {
-      "severity": "major",
-      "json_path": "rates[0], rates[1], revenue_lines.*[0] (all five configurations at $6,219 x 100% of clients)",
-      "current": "$6,219/month assisted living median and $7,800 memory care median (CareScout 2025), used as the only revenue line for every configuration",
-      "correct": null,
-      "evidence": "The U.S. News page (S20) could not be fetched. The primary CareScout PDF was not fetched either. The model itself notes conflicting 2024 figures ($5,836 and $5,225).",
-      "source_url": "https://health.usnews.com/best-senior-living/assisted-living/illinois",
-      "fix": "Unverifiable. Confirm the figure against the CareScout 2025 Cost of Care PDF. Do not apply a one-bedroom-community median to the 8-bed and 16-bed shared-room homes at 100% of beds without a lower-rate sensitivity. The model's net-income figures depend on this one input."
-    },
-    {
-      "severity": "major",
-      "json_path": "payroll_burden / opex (missing mandatory cost)",
-      "current": "Benefits modeled as a flat 5% operator estimate. No line for statutory paid leave.",
-      "correct": "Employers outside Chicago and Cook County generally owe paid leave under the Illinois Paid Leave for All Workers Act (820 ILCS 192; 40 hours per year). Chicago and Cook County each have their own paid-leave ordinances, which are more generous than the state's (Chicago's is the Paid Leave and Paid Sick and Safe Leave Ordinance). Chicago's Fair Workweek Ordinance covers healthcare employers that meet its employee-count threshold.",
-      "evidence": "Search results confirm Chicago and Cook County separate wage ordinances and the Fair Workweek compensation threshold ($33.85/hr). I did not fetch the paid-leave statutes, so the leave details come from general knowledge and are unverified here.",
-      "source_url": "https://www.hrsource.org/HRS/HRS/Articles/2026/06/09/1-July-1--2026--Chicago-Wage-and-Fair-Workweek-Changes-.aspx",
-      "fix": "Add an explicit paid-leave accrual cost (about 2–4% of direct-care payroll, more for 24/7 coverage that needs replacement staff). Cite the applicable state, Chicago or Cook County ordinance. Verify each rule on the Illinois Department of Labor and municipal sites."
+      "json_path": "key_numbers[12].value; fees_and_timelines_in_checklist[9].instructions; staffing.*.RN/LPN lines",
+      "current": "Pre-admission comprehensive assessment 'may be completed by' a physician, PA or APRN. The RN/LPN lines are labelled 'assessments' (for example, al20_private: 'RN/LPN ... assessments, service plans').",
+      "correct": "The text says the comprehensive assessment 'shall be completed by' a physician, a physician assistant or an APRN. It is mandatory and restrictive, not permissive. An RN/LPN cannot be the one who completes the pre-admission, annual or change-of-condition comprehensive assessment. For dementia programs, annual and change-of-condition assessments must be signed by a physician. The model has no cost line for these physician/PA/APRN assessments, which is a missing mandatory cost.",
+      "evidence": "Sec. 15: \"a comprehensive assessment ... shall be completed by a physician, a physician assistant, or an advanced practice registered nurse.\" Sec. 150(c): annual or change-of-condition assessments \"must be signed by a physician.\"",
+      "source_url": "https://ilga.gov/Legislation/PublicActs/View/104-0589",
+      "fix": "Reword 'may be completed by' to 'must be completed by'. Remove 'assessments' from the RN/LPN role descriptions, or state that the RN supports but does not complete the assessment. Add a per-admission and annual line for physician/PA/APRN comprehensive assessments (cost unverified, so get quotes). Confirm the 2026-07-24 effective date: the fetched text did not show it, and Sec. 15 cites an earlier P.A. 104-191 effective 1-1-26."
     },
     {
       "severity": "minor",
-      "json_path": "rates[11].notes, rates[12].notes, fees_and_timelines_in_checklist[i=38].instructions",
-      "current": "Chicago $17.05: \"Another source gives $16.20, so verify\"; Cook County $15.40: \"Another source gives $14.50; verify\"",
-      "correct": "Both figures are confirmed by official sources. Chicago is $17.05 and suburban Cook County is $15.40, both effective 2026-07-01. The lower figures come from stale pages.",
-      "evidence": "Chicago BACP: \"As of July 1, 2026, the minimum wage in Chicago is $17.05 per hour for employers with 4 or more employees.\" Cook County: minimum wage \"will increase to $15.40\" effective July 1, 2026.",
-      "source_url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/minimumwageinformation.html",
-      "fix": "Delete the conflicting-source hedges. Set the source to Chicago BACP and the Cook County notice (https://www.cookcountyil.gov/news/cook-county-issues-notice-minimum-wage-ordinance-5). Add that many suburbs opted out of the county ordinance and use the $15.00 state rate."
-    },
-    {
-      "severity": "minor",
-      "json_path": "rates[13] (nursing assistants $22.10/hr) / staffing wage_hourly 22.1",
-      "current": "$22.10 per hour, with 'another source lists $21.75'",
-      "correct": "$22.10 matches the May 2025 OEWS Illinois median ($45,960 per year) as reported by SalaryWiki. That site is secondary and not a BLS page, and I did not check it against bls.gov. Chicago metro median is $46,940, about $22.57 per hour.",
-      "evidence": "SalaryWiki: \"The median annual wage is $45,960, or $22.10 per hour, as of May 2025.\"",
-      "source_url": "https://salarywiki.com/salary/nursing-assistants/illinois",
-      "fix": "Confirm against bls.gov/oes (SOC 31-1131, Illinois, May 2025). Drop the $21.75 caveat if it comes from an older vintage. Consider using the Chicago metro median for Chicago-area homes."
-    },
-    {
-      "severity": "minor",
-      "json_path": "fees_and_timelines_in_checklist[i=19].instructions vs opex[fire alarm]",
-      "current": "Checklist: \"$100–$450/month by size\". Opex: a flat $150 fixed.",
-      "correct": null,
-      "evidence": "The two internal figures differ.",
-      "source_url": "",
-      "fix": "Make the opex line scale by configuration, or change the checklist text to match the amount actually modeled. The amounts remain operator estimates; get vendor quotes."
-    },
-    {
-      "severity": "minor",
-      "json_path": "opex[IDPH annual licensure fee / 12]",
-      "current": "$83.33/month placeholder, based on the initial application fee formula divided by 12",
-      "correct": null,
-      "evidence": "77 IAC 295.500(e) sets only the application fee (\"$2,000 for an assisted living establishment and $20 per licensed unit; or $1,000 for a shared housing establishment\"). No renewal fee amount was found.",
+      "json_path": "opex[9].monthly (IDPH annual license fee / 12 placeholder 83.33)",
+      "current": 83.33,
+      "correct": "unverifiable. Rule 295.500(e) sets only the application fee: $2,000 + $20/unit for AL, $1,000 for SHE. The placeholder is the SHE figure ($1,000/12) applied to every configuration.",
+      "evidence": "295.500(e): \"applications shall be accompanied by a nonrefundable fee of: $2,000 for an assisted living establishment and $20 per licensed unit; or $1,000 for a shared housing establishment.\"",
       "source_url": "https://www.ilga.gov/commission/jcar/admincode/077/077002950A05000R.html",
-      "fix": "Unverifiable. Confirm the renewal fee with IDPH. For assisted living the placeholder should scale with units (24 units = $2,480 / 12 = $206.67 per month, not $83.33)."
+      "fix": "Use the config-specific placeholder: 20-unit AL $2,400/12 = $200/month; 40-unit AL $2,800/12 = $233.33/month; SHE $83.33. Replace with the actual renewal invoice, since the renewal fee is unverified."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[6].value",
+      "current": "a 2-year renewal is possible only with no Type 1/2 violation in the preceding 24 months",
+      "correct": "A 2-year renewal also requires (iii) no inspection with a finding of 10 or more Type 3 violations in the preceding 24 months, and (iv) no admission or retention of a resident in violation of Section 75 in the preceding 24 months. It is discretionary: 'may renew ... at the request of the licensee'.",
+      "evidence": "\"(iii) has not had an inspection, review, or evaluation that resulted in a finding of 10 or more Type 3 violations in the preceding 24 months, and (iv) has not admitted or retained a resident in violation of Section 75\"",
+      "source_url": "https://law.onecle.com/illinois/210ilcs9/45.html",
+      "fix": "Add the two conditions (10+ Type 3 violations; Section 75 admission or retention violation) and say the Department 'may' grant the 2-year renewal."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[*].phone / regulators[*].email; fees_and_timelines_in_checklist[10]",
+      "current": "All phone and email fields are empty. Only a '2021-dated listing contact' was found for IDPH.",
+      "correct": "HFS Bureau of Long-Term Care (Supportive Living): HFS.SLF@illinois.gov, 1-844-528-8444. The IDPH Division of Assisted Living contact could not be verified here.",
+      "evidence": "HFS notice: \"contact the Bureau of Long-Term Care via email at HFS.SLF@illinois.gov or toll-free at 1-844-528-8444\"",
+      "source_url": "https://hfs.illinois.gov/medicalproviders/notices/notice.prn251126a.html",
+      "fix": "Set the HFS row phone to 1-844-528-8444 and the email to HFS.SLF@illinois.gov. For IDPH, copy the current phone and email from the IDPH assisted-living page, which is unverifiable from this check."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[6].url",
+      "current": "https://startbusinessbystate.com/illinois/llc/ (listed as the Illinois Secretary of State)",
+      "correct": "A third-party site is listed as an official regulator. The Secretary of State's own business-services URL should be used.",
+      "evidence": "The source is a private site (S54, type secondary) and is not an ilsos.gov page.",
+      "source_url": "https://startbusinessbystate.com/illinois/llc/",
+      "fix": "Replace with the official Illinois Secretary of State business services page on ilsos.gov. The $150 and $75 fees were not confirmed on an official page and should stay flagged until they are."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.benefits_pct and opex (missing mandatory labor costs)",
+      "current": "Benefits are a flat 6% operator estimate. No line exists for mandatory paid leave or a state retirement program.",
+      "correct": "Illinois requires paid leave under the Paid Leave for All Workers Act (about 1 hour per 40 worked, up to 40 hours a year). Chicago employers also have the Chicago Paid Leave and Paid Sick and Safe Leave Ordinance. Employers with 5 or more employees and no retirement plan may owe Illinois Secure Choice enrollment. This comes from general knowledge and was not fetched.",
+      "evidence": "unverifiable in this pass (not fetched)",
+      "source_url": "https://labor.illinois.gov",
+      "fix": "Confirm the figures on labor.illinois.gov and the Chicago Office of Labor Standards. Show mandatory paid leave and any Secure Choice obligation as explicit items. Check whether 6% covers paid leave on about 4+ FTE aides plus premium-pay coverage for absences."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[0].rate / key_numbers[10] / revenue_lines.*[0].rate (6219 private-pay)",
+      "current": 6219,
+      "correct": "unverifiable. The U.S. News page could not be fetched.",
+      "evidence": "Fetch of health.usnews.com failed.",
+      "source_url": "https://health.usnews.com/best-senior-living/assisted-living/illinois",
+      "fix": "Unverifiable. Confirm $6,219 against the CareScout 2025 PDF before using it. Shared rooms in a 6-16 bed home will likely price below a private one-bedroom median, so the shared-housing profitability results may be overstated."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[25] / S6 timeline",
+      "current": "A first-time applicant is issued a probationary license.",
+      "correct": "unverifiable. Rule 295.600(b) confirms the regular license 'within 120 days after receipt of an application that meets the requirements'. The 120 days apply only to a complete, compliant application. Regular licenses are valid for one year.",
+      "evidence": "295.600(b): \"The Department will issue a regular license within 120 days after receipt of an application that meets the requirements of the Act and this Section.\"",
+      "source_url": "https://regulations.justia.com/states/illinois/title-77/part-295/subpart-a/section-295-600/",
+      "fix": "Add 'for a complete application that meets the Act and Part 295'. Check the probationary-license sentence against 295.800."
     }
   ]
 }

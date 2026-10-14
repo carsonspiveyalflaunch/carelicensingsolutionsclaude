@@ -1,0 +1,2587 @@
+{
+  "bundle_slug": "illinois-assisted-living-facilities-complete-bundle",
+  "state": "Illinois",
+  "state_code": "IL",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Assisted Living Establishment / Shared Housing Establishment (licensed by IDPH under the Assisted Living and Shared Housing Act, 210 ILCS 9, and 77 Ill. Adm. Code 295); Medicaid pays only through the HFS Supportive Living Program (89 Ill. Adm. Code 146)",
+  "as_of": "2026-10",
+  "report_title": "Illinois Assisted Living & Shared Housing (and Supportive Living Program) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Assisted Living (IDPH Division of Assisted Living)",
+      "publisher": "Illinois Department of Public Health",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/assisted-living.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "210 ILCS 9 Assisted Living and Shared Housing Act (2025 ILCS)",
+      "publisher": "Justia (republishing Illinois Compiled Statutes)",
+      "url": "https://law.justia.com/codes/illinois/chapter-210/act-210-ilcs-9/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "210 ILCS 9 Act index (incl. Sec. 25 license requirement)",
+      "publisher": "Onecle (republishing Illinois Compiled Statutes)",
+      "url": "https://law.onecle.com/illinois/210ilcs9/index.html",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "210 ILCS 9/45 Renewal of licenses",
+      "publisher": "Onecle (republishing Illinois Compiled Statutes)",
+      "url": "https://law.onecle.com/illinois/210ilcs9/45.html",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "77 Ill. Adm. Code 295.500 Application for License",
+      "publisher": "Illinois General Assembly, JCAR",
+      "url": "https://www.ilga.gov/commission/jcar/admincode/077/077002950A05000R.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "77 Ill. Adm. Code 295.600 Initial license issuance",
+      "publisher": "Illinois General Assembly, JCAR",
+      "url": "https://ilga.gov/commission/jcar/admincode/077/077002950A06000R.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "77 Ill. Adm. Code 295 (entire Part)",
+      "publisher": "Illinois General Assembly, JCAR",
+      "url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=07700295",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "77 Ill. Adm. Code 295.2030 and license requirement (Part 295)",
+      "publisher": "Illinois General Assembly, JCAR",
+      "url": "https://www.ilga.gov/commission/jcar/admincode/077/077002950B20300R.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "77 Ill. Adm. Code 295.3000 Personnel Requirements",
+      "publisher": "Cornell LII (mirror of Ill. Adm. Code)",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.3000",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "77 Ill. Adm. Code 295.2000 Residency Requirements",
+      "publisher": "Cornell LII (mirror of Ill. Adm. Code)",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.2000",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "77 Ill. Adm. Code 295.500 Application for License (text)",
+      "publisher": "Cornell LII (mirror of Ill. Adm. Code)",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.500",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "Health Care Worker Background Check Act (225 ILCS 46)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1303",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "Supportive Living Program Resident Fact Sheet",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalprograms/slf/residentfactsheet.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Long Term Services and Support",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalproviders/ltss.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "89 Ill. Adm. Code Part 146 (Supportive Living)",
+      "publisher": "Illinois General Assembly, JCAR",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=089&Part=0146",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "Supportive Living reimbursement (2026 rate schedules)",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/supportivelivinging.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "Provider Notice: SLP Room and Board Amounts for 2026",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalproviders/notices/notice.prn251126a.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "Supportive Living Program (client page)",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalclients/hcbs/slf.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "SLP Quality Metrics Process",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalprograms/slf/slfqualitymetricsprocess.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "SLP HFS Web Portal Manual v1.0",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/ilslpproviderusermanual.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Illinois EVV Updates and FAQs",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalproviders/electronicvisitverification/ievvfrequentlyaskedquestions.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Provider Notice 02/10/2026 (EVV, HHCS agencies only)",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/medicalproviders/notices/notice.prn260210a.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "IMPACT provider enrollment system",
+      "publisher": "Illinois HFS",
+      "url": "https://hfs.illinois.gov/impact",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Understanding SSI — SSI Benefits (2026 federal benefit rate)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/ssi/text-benefits-ussi.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "IL Supportive Living Program Waiver (0326.R05.00)",
+      "publisher": "CMS Medicaid.gov",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/81526",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Illinois Waiver Factsheet",
+      "publisher": "CMS Medicaid.gov",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/Waiver-Descript-Factsheet/IL",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "Illinois Register, Vol. 50, Issue 35 (Aug. 28, 2026)",
+      "publisher": "Illinois Secretary of State",
+      "url": "https://www.ilsos.gov/content/dam/departments/index/register/volume50/register_volume50_35.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "Assisted living and shared housing (Medicaid does not pay)",
+      "publisher": "Illinois Legal Aid Online",
+      "url": "https://alexander.illinoislegalaid.org/legal-information/assisted-living-and-shared-housing",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "Assisted living and shared housing (80% aged 55+)",
+      "publisher": "Illinois Legal Aid Online",
+      "url": "https://www.illinoislegalaid.org/legal-information/assisted-living-and-shared-housing",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "Assisted Living in Illinois (CareScout 2025 median)",
+      "publisher": "U.S. News & World Report",
+      "url": "https://health.usnews.com/best-senior-living/assisted-living/illinois",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "Assisted Living in Chicago, Illinois (CareScout basis)",
+      "publisher": "Clear Assisted Living",
+      "url": "https://clearassistedliving.com/assisted-living/illinois/chicago/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "Long-Term Care Costs by State (CareScout 2025 table)",
+      "publisher": "LTCareNav",
+      "url": "https://ltcarenav.com/resources/care-costs-by-state",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Long-Term Care Costs Increase in Illinois (2024 survey scope)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1018/long-term-care-costs-increase-in-illinois-on-par-with",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Illinois Minimum Wage 2026 (quotes 820 ILCS 105/4)",
+      "publisher": "Recording Law",
+      "url": "https://www.recordinglaw.com/us-laws/minimum-wage/illinois-minimum-wage/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "Illinois Minimum Wage 2026: $15.00 statewide, $17.05 Chicago",
+      "publisher": "HiveDesk",
+      "url": "https://www.hivedesk.com/compliance/united-states/minimum-wage-illinois",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Nursing Assistants Salary in Illinois (BLS OEWS May 2025)",
+      "publisher": "SalaryWiki",
+      "url": "https://salarywiki.com/salary/nursing-assistants/illinois",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Illinois Releases 2026 Unemployment Insurance Tax Rates",
+      "publisher": "Bloomberg Tax",
+      "url": "https://news.bloombergtax.com/payroll/illinois-releases-2026-unemployment-insurance-tax-rates",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Proposed Illinois Workers Comp Advisory Rate Filing (1/1/2026)",
+      "publisher": "NCCI",
+      "url": "https://www.ncci.com/Articles/Documents/II_StateAdvisoryForumState_IL_2025.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "IL Workers' Comp Rates 2026 (carrier-set rates)",
+      "publisher": "USA Workers Comp",
+      "url": "https://usaworkerscomp.com/workers-comp-insurance-illinois/rates/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "HUD FY2027 Fair Market Rent, Chicago metro 4BR",
+      "publisher": "HUD User",
+      "url": "https://www.huduser.gov/datasets/fmr/fmr2027/bedroom-rent?year=2027&cbsasub=METRO16980M16980&br_size=4&zip=60647",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "Average Rent in Chicago (HUD FY2027 FMR 1–3BR, Cook County)",
+      "publisher": "VoucherMatch",
+      "url": "https://vouchermatch.com/rentalcalcs/rent-estimates/illinois/chicago",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "HUD Fair Market Rents (FMR) definition",
+      "publisher": "HUD User",
+      "url": "https://www.huduser.gov/portal/datasets/fmr.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "QuickFacts: United States; Illinois",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/fact/table/US,IL/POP010220",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Nursing Homes (Illinois LTC facility base)",
+      "publisher": "Illinois Department of Public Health",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/nursing-homes.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "IDPH ALF/SHE Licensed Establishments Listing (open data)",
+      "publisher": "Illinois Open Data",
+      "url": "https://data.illinois.gov/d/8z4a-ix8q/visualization",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Assisted Living & Shared Housing Licensed Establishment Listing (cached)",
+      "publisher": "Illinois Department of Public Health",
+      "url": "https://idph.illinois.gov/AssistedLiving/AssistedLivingEstablishmentListing/AssistedLivingEstablishmentListing.aspx",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Bill Status of HB3392",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?GAID=18&DocNum=3392&DocTypeID=HB&LegId=161955&SessionID=114&Print=1",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "Public Act 104-0589",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Legislation/PublicActs/View/104-0589",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "Illinois Assisted Living Update: Assessment, Dementia Care, Enforcement",
+      "publisher": "Hall Render",
+      "url": "https://hallrender.com/2026/10/07/illinois-assisted-living-update-new-assessment-dementia-care-and-enforcement-requirements/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "PUNS snapshot as of 7/1/26",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=141313",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "Average Senior Living Occupancy Nears 90% (NIC MAP)",
+      "publisher": "Senior Housing News",
+      "url": "https://seniorhousingnews.com/2026/04/23/average-senior-living-occupancy-surpasses-90-as-low-development-levels-signal-scarcity-ahead/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "Assisted Living Facts & Figures",
+      "publisher": "AHCA/NCAL",
+      "url": "https://www.ahcancal.org/Assisted-Living/Facts-and-Figures/Pages/default.aspx",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S53",
+      "title": "Illinois LLC Annual Report: Fee, Due Date & Filing (2026)",
+      "publisher": "LegalGlass",
+      "url": "https://legalglass.org/illinois-annual-report/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S54",
+      "title": "Illinois LLC Cost: $150 Articles + $75 Annual Report",
+      "publisher": "StartBusinessByState",
+      "url": "https://startbusinessbystate.com/illinois/llc/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S55",
+      "title": "Illinois Medicaid Supportive Living Program: Benefits & Eligibility",
+      "publisher": "Medicaid Planning Assistance",
+      "url": "https://www.medicaidplanningassistance.org/illinois-supportive-living-program/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S56",
+      "title": "Assisted Living and Shared Housing (license service page)",
+      "publisher": "Illinois.gov / IDPH",
+      "url": "https://www.illinois.gov/services/service.assisted-living-license.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S57",
+      "title": "Assisted Living and Shared Housing Establishment Code (2012 rules PDF)",
+      "publisher": "Illinois Department of Public Health",
+      "url": "http://www.idph.state.il.us/rulesregs/2012_Rules/77_IAC_295_2-3.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S58",
+      "title": "Illinois Payroll Taxes (2026)",
+      "publisher": "National Tax Tools",
+      "url": "https://nationaltaxtools.com/payroll/illinois/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S59",
+      "title": "Unemployment Tax (new-employer period)",
+      "publisher": "North Central Illinois EDC",
+      "url": "http://www.northcentralillinois.org/datacenter/unemployment-tax/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S60",
+      "title": "Illinois LLC Annual Report Guide (replacement tax, no franchise tax)",
+      "publisher": "How To Start A Business Illinois",
+      "url": "https://howtostartabusinessillinois.com/illinois-llc-annual-report-guide/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S61",
+      "title": "Illinois Annual Report 2026 (registered agent)",
+      "publisher": "FileForms",
+      "url": "https://fileforms.com/illinois-annual-report-filing/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S62",
+      "title": "Supportive Living vs Assisted Living in Illinois",
+      "publisher": "Shepherd Premier Senior Living",
+      "url": "https://shepherdpremierseniorliving.com/illinois-supportive-living-vs-private-assisted-living-whats-the-difference/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S63",
+      "title": "Illinois Medicaid Long-Term Care Figures (2026)",
+      "publisher": "Considerate Capital",
+      "url": "https://consideratecapital.com/tools/illinois-medicaid-long-term-care-figures",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Initial license application fee, assisted living establishment (nonrefundable, paid with the application)",
+      "value": "$2,000 + $20 per licensed unit",
+      "source_id": "S5",
+      "as_of": "Current 77 Ill. Adm. Code 295.500"
+    },
+    {
+      "metric": "Initial license application fee, shared housing establishment",
+      "value": "$1,000",
+      "source_id": "S5",
+      "as_of": "Current 77 Ill. Adm. Code 295.500"
+    },
+    {
+      "metric": "Initial license issuance timeline",
+      "value": "IDPH will issue a regular license within 120 days after receipt of an application",
+      "source_id": "S6",
+      "as_of": "Current 77 Ill. Adm. Code 295.600"
+    },
+    {
+      "metric": "Construction plan review (new or major construction)",
+      "value": "Approve/disapprove within 45 calendar days of receipt; completeness notice within 10 working days; review does not start until the required fee, if any, is paid",
+      "source_id": "S2",
+      "as_of": "2025 ILCS (210 ILCS 9)"
+    },
+    {
+      "metric": "Size and resident-age definitions",
+      "value": "Assisted living: at least 3 unrelated adults, at least 80% aged 55+. Shared housing: free-standing residence for 16 or fewer persons, at least 80% aged 55+",
+      "source_id": "S2",
+      "as_of": "2025 ILCS (210 ILCS 9)"
+    },
+    {
+      "metric": "Mandatory staffing",
+      "value": "AL: at least 1 staff member awake, on duty and on site 24 hours/day; at least 1 CPR-certified direct care staff on duty at all times; full-time manager (age 21+, HS diploma/equivalent plus experience). Shared housing: at least 1 staff member on site at all times",
+      "source_id": "S7",
+      "as_of": "Current 77 Ill. Adm. Code 295"
+    },
+    {
+      "metric": "License renewal",
+      "value": "Annual renewal application with fee; file 120–150 days before expiration. IDPH 'may' grant a 2-year renewal at the licensee's request, and only if in the preceding 24 months there was no Type 1 or Type 2 violation, no inspection with a finding of 10 or more Type 3 violations, and no admission or retention of a resident in violation of Section 75",
+      "source_id": "S4",
+      "as_of": "210 ILCS 9/45"
+    },
+    {
+      "metric": "Medicaid in AL/SHE",
+      "value": "Medicaid does not pay for services in assisted living or shared housing establishments; contracts must say so",
+      "source_id": "S8",
+      "as_of": "77 Ill. Adm. Code 295.2030"
+    },
+    {
+      "metric": "Supportive Living Program (SLP) payment method",
+      "value": "Per diem = 54.75% of the average total nursing facility services per diem in the provider's region (7 regions); dementia-care setting = 150% of the regular SLP per diem",
+      "source_id": "S16",
+      "as_of": "2026 (latest schedule effective 2026-10-01)"
+    },
+    {
+      "metric": "SLP resident room and board, 2026",
+      "value": "$874.00/month single occupancy; $625.50/month double occupancy",
+      "source_id": "S17",
+      "as_of": "Effective 2026-01-01"
+    },
+    {
+      "metric": "Median private-pay assisted living cost, Illinois",
+      "value": "$6,219/month (CareScout 2025; private one-bedroom unit basis)",
+      "source_id": "S30",
+      "as_of": "CareScout 2025 (released March 2026)"
+    },
+    {
+      "metric": "Illinois statewide minimum wage / Chicago minimum wage",
+      "value": "$15.00/hour statewide; $17.05/hour in Chicago from 2026-07-01",
+      "source_id": "S35",
+      "as_of": "2026"
+    },
+    {
+      "metric": "2026 law change affecting admissions",
+      "value": "Public Act 104-0589 (HB 3392), reported effective July 24, 2026 (confirm effective date against the Public Act text): pre-admission comprehensive assessment must be completed by a physician, physician assistant or APRN (an RN/LPN cannot complete it)",
+      "source_id": "S48",
+      "as_of": "Effective 2026-07-24"
+    }
+  ],
+  "not_claimed": [
+    "Annual license renewal fee amount for assisted living/shared housing — the IDPH page says renewal requires 'the applicable licensure fee' but no current amount was verified. Third-party figures ($2,500 initial, $1,000 renewal) conflict with the rule text and are excluded.",
+    "SLP per diem dollar amounts by region (2026 HFS rate spreadsheets were listed but not opened). The model must not assume a dollar SLP rate; only the 54.75% formula, the 150% dementia multiplier and the room-and-board amounts are sourced.",
+    "Whether SLP is paid fee-for-service or through HealthChoice Illinois managed care, SLP procedure codes and billing units, and whether SLP is in scope for EVV (HFS EVV notices name only personal care, home health and HHCS agencies).",
+    "SLP personal needs allowance — HFS's page says applicants must contribute 'all but $90 each month'; one secondary source reports $120. The $874 room-and-board figure is taken from the HFS notice, not derived from SSI.",
+    "SLP application/certification fees, staffing ratios and dementia-unit requirements (89 Ill. Adm. Code 146) — not fully verified.",
+    "Dollar liability insurance minimum for licensure — 77 Ill. Adm. Code 295.500 requires 'documentation of adequate liability insurance' with no amount; premiums are operator estimates. The surety-bond alternative (at least 3 months' operating expenses) is listed only as one financial-standing option.",
+    "Maximum licensed capacity of an assisted living establishment — no cap found in the statute excerpts reviewed (16 is the shared housing cap).",
+    "Current count of licensed assisted living and shared housing establishments — the open-data snapshot shows 495 entries but is undated, and the IDPH listing page copy is dated 10/7/2021.",
+    "Number of SLP-certified sites, current SLP enrollment and waitlist counts. A secondary source's ~15,705 annual SLP capacity figure is not confirmed in HFS/CMS text.",
+    "Illinois-specific assisted living occupancy — only national NIC figures were found (87.9% AL in Q1 2026), so occupancy assumptions must be labeled national benchmarks.",
+    "Market shares, competitor names and referral-source breakdowns for Illinois assisted living — no public source.",
+    "Small-residential-home (shared room) private-pay rates — the $6,219 CareScout median is for a private one-bedroom unit in an AL community and may overstate small-home revenue. 2024 benchmarks conflict ($5,836 vs $5,225).",
+    "Current IDPH Division of Assisted Living phone and email — only a 2021-dated listing page was found.",
+    "Status and content of the 2026 Part 295 rulemaking listed in the Aug. 28, 2026 Illinois Register (proposal vs. adopted not confirmed); status of SB3950 (tracker conflicts); enactment of HB 3328 (cognitive assessment, reported effective 1/1/2026 by a radio news source only); HB 1597.",
+    "Dollar impact of the proposed Jan. 1, 2027 SLP waiver amendment; current SLP 1915(c) waiver (0326.R05.00) expires 09/30/2027 and renewal terms are not known.",
+    "BLS OEWS May 2025 Illinois wages for LPN, RN, healthcare managers and cooks were not retrieved. The CNA median ($22.10/hour) comes from a secondary site citing BLS and conflicts with another reported figure ($21.75).",
+    "Illinois new-employer UI rate and taxable wage base — sources conflict (3.175%–3.95%; $13,271–$14,250); the official IDES notice was not retrieved. The Chicago July 2026 minimum wage also conflicts across sources ($16.20 vs $17.05), as does Cook County ($14.50 vs $15.40).",
+    "Workers' compensation class-code rates for assisted living in Illinois — only NCCI advisory context and the fact that carriers set their own rates were found.",
+    "Commercial rent per square foot in Illinois metros — HUD FMRs are 40th-percentile gross rents that include utilities and are only residential proxies.",
+    "Illinois franchise tax status for entities, LLC late-report penalty amounts, and CY2026 Medicaid provider enrollment fee — not verified against primary sources.",
+    "Number of Illinois ALF/SHE residents served by age or I/DD status; Ombudsman complaint counts; Ligas consent decree status.",
+    "Cost of the physician/PA/APRN comprehensive assessments (per admission and annual) required by 210 ILCS 9 and P.A. 104-0589. No cost was verified and the financial model has no line for it, so modeled margins are overstated by this amount. Also not confirmed: the effective date of P.A. 104-0589 (the fetched text did not show it).",
+    "Illinois mandatory paid leave, Chicago paid leave ordinance and Illinois Secure Choice obligations — not verified and not itemized in the 6% benefits estimate.",
+    "Official Illinois Secretary of State fee amounts ($150 Articles, $75 annual report) — taken from secondary sources and not confirmed on an ilsos.gov page."
+  ],
+  "regulators": [
+    {
+      "name": "Illinois Department of Public Health (IDPH), Division of Assisted Living",
+      "role": "State licensure and surveys for assisted living and shared housing establishments (Springfield)",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/assisted-living.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "IDPH Design and Construction Section",
+      "role": "Life Safety Code / physical plant surveys before licensure and review of construction drawings for new or major-alteration projects",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/assisted-living.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "Illinois Department of Healthcare and Family Services (HFS)",
+      "role": "Operates the Supportive Living Program (Medicaid 1915(c) waiver): provider approval, certification and per diem rates",
+      "url": "https://hfs.illinois.gov/medicalclients/hcbs/slf.html",
+      "phone": "1-844-528-8444",
+      "email": "HFS.SLF@illinois.gov",
+      "source_id": "S18"
+    },
+    {
+      "name": "HFS IMPACT (Illinois Medicaid provider enrollment system)",
+      "role": "Medicaid provider enrollment and eligibility management",
+      "url": "https://hfs.illinois.gov/impact",
+      "phone": "",
+      "email": "",
+      "source_id": "S23"
+    },
+    {
+      "name": "Illinois State Police",
+      "role": "Receives electronically collected fingerprints for Health Care Worker Background Check Act checks (within 10 working days)",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1303",
+      "phone": "",
+      "email": "",
+      "source_id": "S12"
+    },
+    {
+      "name": "Illinois Department of Human Services (IDHS)",
+      "role": "Maintains the PUNS I/DD waiting list snapshot used for demand context",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=141313",
+      "phone": "",
+      "email": "",
+      "source_id": "S50"
+    },
+    {
+      "name": "Illinois Secretary of State",
+      "role": "LLC formation (Articles of Organization, Form LLC-5.5) and annual reports (Form LLC-50.1)",
+      "url": "https://www.ilsos.gov/departments/business_services/home.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S54"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "210 ILCS 9",
+      "title": "Assisted Living and Shared Housing Act",
+      "url": "https://law.justia.com/codes/illinois/chapter-210/act-210-ilcs-9/",
+      "source_id": "S2"
+    },
+    {
+      "cite": "210 ILCS 9/25",
+      "title": "License requirement (no unlicensed establishment may operate)",
+      "url": "https://law.onecle.com/illinois/210ilcs9/index.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "210 ILCS 9/45",
+      "title": "Renewal of licenses (120–150 day filing window; 2-year renewal conditions)",
+      "url": "https://law.onecle.com/illinois/210ilcs9/45.html",
+      "source_id": "S4"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 295",
+      "title": "Assisted Living and Shared Housing Establishment Code",
+      "url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=07700295",
+      "source_id": "S7"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 295.500",
+      "title": "Application for License (fees, financial showing, standard vs. floating license)",
+      "url": "https://www.ilga.gov/commission/jcar/admincode/077/077002950A05000R.html",
+      "source_id": "S5"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 295.600",
+      "title": "Initial license issuance (120 days)",
+      "url": "https://ilga.gov/commission/jcar/admincode/077/077002950A06000R.html",
+      "source_id": "S6"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 295.2000",
+      "title": "Residency Requirements (adequate staff in numbers and skill)",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.2000",
+      "source_id": "S10"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 295.2030",
+      "title": "Assisted living contract content (Medicaid not available)",
+      "url": "https://www.ilga.gov/commission/jcar/admincode/077/077002950B20300R.html",
+      "source_id": "S8"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 295.3000",
+      "title": "Personnel Requirements, Qualifications and Training",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.3000",
+      "source_id": "S9"
+    },
+    {
+      "cite": "225 ILCS 46",
+      "title": "Health Care Worker Background Check Act",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1303",
+      "source_id": "S12"
+    },
+    {
+      "cite": "Public Act 104-0589 (HB 3392)",
+      "title": "2026 amendments to the Assisted Living and Shared Housing Act, effective July 24, 2026",
+      "url": "https://ilga.gov/Legislation/PublicActs/View/104-0589",
+      "source_id": "S48"
+    },
+    {
+      "cite": "305 ILCS 5/5-5.01a",
+      "title": "Public Aid Code supportive living facilities provision",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=089&Part=0146",
+      "source_id": "S15"
+    },
+    {
+      "cite": "89 Ill. Adm. Code 146",
+      "title": "Supportive Living Program rules (Specialized Health Care Delivery Systems)",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=089&Part=0146",
+      "source_id": "S15"
+    },
+    {
+      "cite": "820 ILCS 105/4",
+      "title": "Illinois Minimum Wage Law (statewide $15.00/hour)",
+      "url": "https://www.recordinglaw.com/us-laws/minimum-wage/illinois-minimum-wage/",
+      "source_id": "S34"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, Illinois statewide median (private one-bedroom unit), CareScout 2025",
+      "rate": 6219,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "About $74,628/yr. CareScout measures a private one-bedroom unit in an assisted living community, not a shared room in a small residential home, so it may overstate small-home revenue. Secondary reproduction (U.S. News); the CareScout PDF was not fetched. 2024 figures conflict ($5,836 vs $5,225).",
+      "source_id": "S30"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Memory care, Illinois statewide median, CareScout 2025",
+      "rate": 7800,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "Secondary reproduction of the CareScout 2025 table (LTCareNav). Reference only; not an IDPH-licensed category.",
+      "source_id": "S32"
+    },
+    {
+      "payer": "Resident (SLP room and board)",
+      "code": "R&B",
+      "service": "Supportive Living Program resident room and board, single occupancy",
+      "rate": 874.0,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Up from $847.00. Paid by the resident; Medicaid pays the service per diem separately (54.75% of the regional nursing facility per diem; 150% for approved dementia-care settings; dollar amounts not retrieved). HFS ties the change to the 2026 SSI increase.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Resident (SLP room and board)",
+      "code": "R&B",
+      "service": "Supportive Living Program resident room and board, double occupancy",
+      "rate": 625.5,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Up from $605.00. Per resident. Paid by the resident; derivation from the SSI couple rate was not verified.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "SSI (federal)",
+      "code": "",
+      "service": "2026 federal SSI benefit rate, individual",
+      "rate": 994.0,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Couple rate $1,491. Reference for resident income; HFS does not state a formula linking SSI to the SLP room-and-board amounts. Personal needs allowance figures conflict ($90 per HFS client page; $120 per a secondary source).",
+      "source_id": "S24"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "IDPH Division of Assisted Living",
+      "role": "Licensing, surveys, renewals and complaints for assisted living and shared housing establishments",
+      "contact": "https://dph.illinois.gov/topics-services/health-care-regulation/assisted-living.html (confirm current phone/email on this page; only a 2021-dated listing contact was found)"
+    },
+    {
+      "name": "IDPH Design and Construction Section",
+      "role": "Construction plan review and pre-licensure Life Safety Code / physical plant survey",
+      "contact": "https://dph.illinois.gov/topics-services/health-care-regulation/assisted-living.html"
+    },
+    {
+      "name": "HFS Supportive Living Program",
+      "role": "SLP application, certification, per diem rates, room and board notices and quality metrics",
+      "contact": "https://hfs.illinois.gov/medicalclients/hcbs/slf.html; HFS Bureau of Long-Term Care: HFS.SLF@illinois.gov, 1-844-528-8444"
+    },
+    {
+      "name": "HFS Supportive Living rate schedules",
+      "role": "Regional SLP rate spreadsheets (updated quarterly in 2026)",
+      "contact": "https://hfs.illinois.gov/medicalproviders/medicaidreimbursement/supportivelivinging.html"
+    },
+    {
+      "name": "HFS IMPACT",
+      "role": "Illinois Medicaid provider enrollment",
+      "contact": "https://hfs.illinois.gov/impact"
+    },
+    {
+      "name": "Illinois Secretary of State Business Services",
+      "role": "LLC filings (Form LLC-5.5 Articles of Organization; Form LLC-50.1 annual report)",
+      "contact": "https://www.ilsos.gov (see LLC filing pages)"
+    },
+    {
+      "name": "Illinois Department of Human Services (PUNS)",
+      "role": "I/DD planning and waiting-list information",
+      "contact": "https://www.dhs.state.il.us/page.aspx?item=141313"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.88,
+      "conservative": 0.8,
+      "optimistic": 0.93,
+      "rationale": "No Illinois-specific assisted living occupancy figure was found. NIC MAP reports national assisted living occupancy of 87.9% for Q1 2026 [S51]. The 88% default sits at that national benchmark. Small homes swing more than large buildings because one vacancy is 6-17% of census in a 6-bed to 16-bed home, so the 80% conservative case matters. New homes ramp up from the first admissions rather than opening full.",
+      "source_id": "S51"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "payroll_burden": {
+      "payroll_tax_pct": 0.088,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.06,
+      "notes": "Payroll taxes of about 8.8% are built from three parts. (1) Employer FICA of 7.65% is the federal statutory rate; the 2026 Social Security wage base is $184,500 [S58]. (2) Illinois unemployment insurance for a new employer is generally 3.35% on a $14,250 taxable base in 2026 [S37], about 1.0% of a $22.10/hour aide's annual pay. (3) FUTA is roughly 0.1% of payroll after the state credit, an operator estimate. Sources conflict on the 2026 new-employer SUI rate (3.175%-3.95%) and on the taxable base ($13,271-$14,250), and the official IDES notice was not retrieved. New-employer rates apply for the first 3 years [S59]. Illinois workers' compensation is carrier-set rather than a single state rate [S39]. NCCI's filing proposed a -0.1% advisory rate level change for 1/1/2026 [S38]. The 5% workers' comp load for residential care direct-care payroll is an operator estimate; get carrier quotes. Benefits at 6% are an operator estimate. Not verified: Illinois mandatory paid leave (Paid Leave for All Workers Act), the Chicago paid leave ordinance for Chicago employers, and Illinois Secure Choice enrollment for employers with 5 or more employees and no retirement plan. Confirm these on labor.illinois.gov and with the Chicago Office of Labor Standards, and check whether 6% covers paid leave plus premium-pay coverage for absences on 24/7 aide shifts.",
+      "source_id": "S37"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 9059.0,
+        "basis": "fixed",
+        "source_id": "S40",
+        "notes": "Fixed rent owed from day one regardless of census. Basis: HUD FY2027 final 4-bedroom Fair Market Rent for the Chicago metro is $2,954/month [S40], scaled x1.15 for a 5-bedroom home = $3,397/month, or about $566 per licensed bed. The 16-bed amount is 16 x $566.18 = $9,059. HUD FMRs are 40th-percentile gross rents that include utilities [S42][S41], so this understates asking rent for a purpose-fit building but partly overlaps the separate utilities line. Per-bed scaling for 12-16 bed homes is an operator estimate; verify with local listings. Apartment AL buildings use per-unit rent in the overrides."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed beds)",
+        "monthly": 1280.0,
+        "basis": "fixed",
+        "notes": "$80 per licensed bed per month (6 beds $480; 12 beds $960; 16 beds $1,280; 20 units $1,600; 40 units $3,200). Operator estimate - verify locally. Illinois winter heating loads are high."
+      },
+      {
+        "item": "Food (3 meals + snacks per resident)",
+        "monthly": 330,
+        "basis": "per_client",
+        "notes": "Operator estimate (about $10.85 per resident-day) - verify with your food vendor."
+      },
+      {
+        "item": "Utilities - per-resident portion (water, laundry, extra heat/cooling)",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 100,
+        "basis": "per_client",
+        "source_id": "S11",
+        "notes": "77 Ill. Adm. Code 295.500 requires 'documentation of adequate liability insurance' with no dollar minimum stated [S11]. Premium is an operator estimate - get quotes; landlords and lenders often set their own minimums."
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance (per resident)",
+        "monthly": 50,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Activities & recreation",
+        "monthly": 30,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Referral / placement agency fees (amortized)",
+        "monthly": 100,
+        "basis": "per_client",
+        "notes": "Operator estimate - placement agencies typically charge a one-time fee per private-pay move-in; amortized over an average stay. Verify each agency's contract."
+      },
+      {
+        "item": "IDPH annual license fee / 12 (placeholder)",
+        "monthly": 83.33,
+        "basis": "fixed",
+        "source_id": "S5",
+        "notes": "Licensees must renew annually with 'the applicable licensure fee' [S1][S56], but the current renewal amount was not verified (see not_claimed). Placeholder = the nonrefundable initial application fee [S5] / 12: $1,000 for a shared housing establishment ($83.33/month, the base value here), or $2,000 + $20 per licensed unit for assisted living (the 20-unit and 40-unit configurations override this to $200 and $233.33/month). A 2-year renewal is discretionary and requires no Type 1/2 violation, no inspection with 10 or more Type 3 violations, and no Section 75 admission/retention violation in the preceding 24 months [S4]. Replace with the actual renewal invoice."
+      },
+      {
+        "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "IDPH conducts a Life Safety Code / physical plant survey before licensure [S1]. Recurring monitoring and inspection costs are an operator estimate - get vendor quotes; no Illinois sprinkler rule was verified in this research."
+      },
+      {
+        "item": "eMAR / care documentation / resident billing software",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate - get vendor quotes. No state-mandated software or EVV applies to private-pay AL/shared housing in the sources reviewed; HFS EVV notices name personal care, home health and HHCS agencies only [S21][S22]."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing & website",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Training, CPR, manager CE, fingerprint background checks and Nurse Aide Registry checks",
+        "monthly": 250,
+        "basis": "fixed",
+        "source_id": "S12",
+        "notes": "Establishments must check each applicant on the Nurse Aide Registry before hiring [S9], and fingerprints for covered employees go electronically to the Illinois State Police within 10 working days [S12]. At least one CPR-certified direct care staff person must be on duty at all times [S7]. The director must complete at least 20 hours of training every 2 years as a condition of licensure (210 ILCS 9/35) [S2]; budget these courses explicitly. Cost is an operator estimate - get quotes."
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate. Shared housing rules contemplate staff transporting residents and running errands [S7]; transportation is otherwise optional."
+      },
+      {
+        "item": "Grounds, snow removal & maintenance contract",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Illinois LLC annual report ($75) + registered agent",
+        "monthly": 16.0,
+        "basis": "fixed",
+        "source_id": "S53",
+        "notes": "Annual report fee is $75, filed on Form LLC-50.1 before the anniversary month [S53]. Illinois requires a registered agent with a physical Illinois street address [S61]; agent fee of about $120/year is an operator estimate. Illinois does not impose a franchise tax on LLCs [S60]."
+      },
+      {
+        "item": "Illinois income / replacement tax (not modeled - depends on profit)",
+        "monthly": 0,
+        "basis": "fixed",
+        "source_id": "S60",
+        "notes": "$0 here because these taxes depend on net income and the P&L is pre-tax. An LLC taxed as a partnership pays a 1.5% personal property replacement tax on net income; an LLC electing corporate treatment pays 7% income tax plus 2.5% replacement tax [S60]. Franchise-tax and LLC late-penalty details conflict across sources and were not verified against Department of Revenue pages."
+      }
+    ],
+    "configurations": [
+      {
+        "id": "sh6_private",
+        "label": "6-bed shared housing establishment, 100% private pay",
+        "capacity": 6,
+        "notes": "Smallest realistic home. Shared housing is a free-standing residence for 16 or fewer persons with at least 80% of residents 55+ [S2]. The $6,219/month CareScout median is for a private one-bedroom unit in an AL community, not a shared room in a small home [S31], so it may overstate small-home revenue. Illinois Medicaid does not pay for services in AL/shared housing [S8][S28], so this is a private-pay model. At statewide BLS aide wages, 24/7 staffing consumes much of the revenue and the home is thin or loss-making unless the owner works as manager/caregiver. The model shows this honestly.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 Illinois median, private one-bedroom basis)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6219,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "Shared housing requires at least one staff member on site at all times [S7]; assisted living requires one awake, on duty and on site 24 hours/day [S7]. The model staffs awake overnight; the shared-housing awake rule was not verified. At least one CPR-certified direct care staff person must be on duty at all times [S7]. Wage is the Illinois median for nursing assistants, $22.10/hour (BLS OEWS May 2025, secondary reproduction; another source reports $21.75) [S36]. This is above the $15.00 state minimum [S34] and the $17.05 Chicago minimum from 2026-07-01 [S35]."
+          },
+          {
+            "role": "Second aide, day shift (8 hrs/day) - bathing, meals, activities",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 243,
+            "cite": "77 Ill. Adm. Code 295.2000",
+            "notes": "An establishment may not accept or retain a resident without staff appropriate in numbers and skill to provide required services [S10]. The 8-hour extra shift is an operator estimate - verify locally."
+          },
+          {
+            "role": "RN/LPN oversight, service-plan and medication-management support (4 hrs/week)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 17.3,
+            "cite": "210 ILCS 9; P.A. 104-0589",
+            "notes": "The pre-admission comprehensive assessment must be completed by a physician, physician assistant or APRN under P.A. 104-0589, reported effective 2026-07-24 (confirm) [S48][S47]; an RN/LPN does not complete it, and the cost of those physician/PA/APRN assessments is not in this model. The Act also covers medication administration [S49]. Hours and the $45/hour nurse rate are operator estimates (BLS Illinois LPN/RN wages were not retrieved); S36 is cited only as the pay-scale anchor."
+          },
+          {
+            "role": "Cook / housekeeper (20 hrs/week)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "notes": "Operator estimate, set above the $17.05 Chicago minimum wage [S35]. BLS Illinois cook/housekeeper wages were not retrieved."
+          },
+          {
+            "role": "Manager (full time)",
+            "wage_source_id": "S36",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "AL requires a full-time manager age 21+ with a high school diploma/equivalent plus experience [S7]. A shared housing manager may oversee up to 3 establishments within 30 minutes driving time and immediately reachable [S7]. Salary is an operator estimate (BLS Illinois manager wage not retrieved). If the owner is the manager, this line is the owner's pay."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "One admission per month is a planning assumption. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 3397.0,
+            "basis": "fixed",
+            "source_id": "S40",
+            "notes": "HUD FY2027 Chicago metro 4BR FMR $2,954 x 1.15 = $3,397 for a 6-bed, 5-bedroom home [S40]. Operator estimate - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 480.0,
+            "basis": "fixed",
+            "notes": "6 licensed beds x $80. Operator estimate."
+          },
+          {
+            "item": "IDPH annual license fee / 12 (placeholder)",
+            "monthly": 83.33,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Shared housing initial application fee $1,000 [S5] / 12 as a placeholder; renewal amount not verified."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "eMAR / care documentation / resident billing software",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR, manager CE, fingerprint background checks and Nurse Aide Registry checks",
+            "monthly": 150,
+            "basis": "fixed",
+            "source_id": "S12",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Grounds, snow removal & maintenance contract",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "sh12_private",
+        "label": "12-bed shared housing establishment, 100% private pay",
+        "capacity": 12,
+        "notes": "Mid-size free-standing shared housing residence (cap is 16 or fewer persons [S2]). Same private-pay basis and caveats as the other homes: the CareScout median is a private one-bedroom AL price [S31]. Medicaid does not pay in shared housing [S8]. Margin is thin at 88% occupancy and sensitive to rent and wage assumptions.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 Illinois median, private one-bedroom basis)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6219,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "At least one staff member on site at all times in shared housing; one awake, on duty and on site 24 hours/day in AL [S7]. CPR-certified direct care staff on duty at all times [S7]. Wage is the Illinois nursing assistant median $22.10 [S36], above the state $15.00 [S34] and Chicago $17.05 [S35] minimums."
+          },
+          {
+            "role": "Second aide, days and evenings (16 hrs/day)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "77 Ill. Adm. Code 295.2000",
+            "notes": "Staff must be appropriate in numbers and skill to serve admitted residents [S10]. Hours are an operator estimate - verify locally."
+          },
+          {
+            "role": "RN/LPN oversight, service-plan and medication-management support (6 hrs/week)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 26,
+            "cite": "210 ILCS 9; P.A. 104-0589",
+            "notes": "Operator estimate of hours and wage; S36 is the pay-scale anchor only. The pre-admission assessment must be done by a physician, PA or APRN [S48]; the RN/LPN does not complete it, and those assessment costs are not in this model."
+          },
+          {
+            "role": "Cook (30 hrs/week)",
+            "wage_hourly": 19.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 130,
+            "notes": "Operator estimate, above the Chicago minimum wage [S35]."
+          },
+          {
+            "role": "Housekeeping / laundry (20 hrs/week)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 87,
+            "notes": "Operator estimate, above the Chicago minimum wage [S35]."
+          },
+          {
+            "role": "Manager (full time)",
+            "wage_source_id": "S36",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "Full-time manager age 21+ with HS diploma/equivalent plus experience [S7]. Salary is an operator estimate; BLS Illinois manager wage not retrieved."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Larger homes admit more per month. Operator planning assumption - verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 6794.0,
+            "basis": "fixed",
+            "source_id": "S40",
+            "notes": "12 licensed beds x $566.18 = $6,794/month fixed, derived from HUD FY2027 Chicago metro 4BR FMR $2,954 x 1.15 / 6 beds [S40]. Operator estimate - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 960.0,
+            "basis": "fixed",
+            "notes": "12 licensed beds x $80. Operator estimate."
+          },
+          {
+            "item": "IDPH annual license fee / 12 (placeholder)",
+            "monthly": 83.33,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Shared housing initial application fee $1,000 [S5] / 12 as a placeholder; renewal amount not verified."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 125,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "eMAR / care documentation / resident billing software",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR, manager CE, fingerprint background checks and Nurse Aide Registry checks",
+            "monthly": 200,
+            "basis": "fixed",
+            "source_id": "S12",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Grounds, snow removal & maintenance contract",
+            "monthly": 175,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "sh16_private",
+        "label": "16-bed shared housing establishment, 100% private pay",
+        "capacity": 16,
+        "notes": "The configuration an expert operator would most likely choose in Illinois: the largest size still licensed as shared housing (free-standing residence for 16 or fewer persons [S2]), with a $1,000 application fee versus $2,000 + $20/unit for an AL establishment [S5]. It spreads the mandatory 24/7 awake staff, the full-time manager and the fixed building costs over more residents. Medicaid does not pay for shared housing services [S8][S28], so success depends on filling beds with private-pay residents. The $6,219 CareScout median is for a private one-bedroom unit in an AL community [S31]. If shared-room homes price lower, revenue falls by about $7,000/month at 88% occupancy for each $500 reduction in the monthly rate. Model rent is an operator estimate; if actual rent is 50% higher (about +$4,500/month), margin falls by the same amount.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 Illinois median, private one-bedroom basis)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6219,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "At least one staff member on site at all times in shared housing; one awake, on duty and on site 24 hours/day in AL [S7]. At least one CPR-certified direct care staff on duty at all times [S7]. Wage is the Illinois nursing assistant median $22.10 [S36] (another source reports $21.75), above the $15.00 state minimum [S34]. Chicago's $17.05 minimum from 2026-07-01 [S35] and suburban Cook County's $15.40 [S35] are both below the modeled wage, so no recomputation is needed."
+          },
+          {
+            "role": "Second aide, days and evenings (16 hrs/day)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "77 Ill. Adm. Code 295.2000",
+            "notes": "Staff must be appropriate in numbers and skill to the residents admitted [S10]. Hours are an operator estimate - verify locally."
+          },
+          {
+            "role": "Third aide, morning peak (8 hrs/day)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 243,
+            "cite": "77 Ill. Adm. Code 295.2000",
+            "notes": "Operator estimate for morning care and meal service at 16 residents. Sensitivity: dropping this shift saves about $6,400/month with burden; adding another similar shift costs the same."
+          },
+          {
+            "role": "RN/LPN oversight, service-plan and medication-management support (8 hrs/week)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 34.7,
+            "cite": "210 ILCS 9; P.A. 104-0589",
+            "notes": "The pre-admission assessment must be completed by a physician, PA or APRN under P.A. 104-0589 (reported effective 2026-07-24; confirm) [S48][S47]; the RN/LPN does not complete it, and those assessment costs are not in this model. Hours and wage are operator estimates; S36 is the pay-scale anchor only."
+          },
+          {
+            "role": "Cook (40 hrs/week)",
+            "wage_hourly": 19.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator estimate, above the Chicago minimum wage [S35]."
+          },
+          {
+            "role": "Housekeeping / laundry (30 hrs/week)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 130,
+            "notes": "Operator estimate, above the Chicago minimum wage [S35]."
+          },
+          {
+            "role": "Manager (full time)",
+            "wage_source_id": "S36",
+            "basis": "annual_salary",
+            "amount": 75000,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "Full-time manager age 21+ with HS diploma/equivalent plus 2 years management or progressive-responsibility experience (or alternative) [S7]. Report manager changes to IDPH within 10 working days [S7]. Salary is an operator estimate; BLS Illinois manager wage not retrieved. If the owner is the manager, this line is the owner's pay."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption: larger homes admit more per month. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 9059.0,
+            "basis": "fixed",
+            "source_id": "S40",
+            "notes": "16 licensed beds x $566.18 = $9,059/month fixed, derived from HUD FY2027 Chicago metro 4BR FMR $2,954 x 1.15 / 6 beds [S40]. Operator estimate for a larger building - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1280.0,
+            "basis": "fixed",
+            "notes": "16 licensed beds x $80. Operator estimate."
+          },
+          {
+            "item": "IDPH annual license fee / 12 (placeholder)",
+            "monthly": 83.33,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "Shared housing initial application fee $1,000 [S5] / 12 as a placeholder; renewal amount not verified."
+          }
+        ]
+      },
+      {
+        "id": "al20_private",
+        "label": "20-unit assisted living establishment (apartments), 100% private pay",
+        "capacity": 20,
+        "notes": "A licensed assisted living establishment (at least 3 unrelated adults, at least 80% aged 55+ [S2]) in a leased building with private units. Application fee is $2,000 + $20 per licensed unit [S5]. No maximum AL capacity was found in the statute excerpts reviewed. Medicaid does not pay for services in assisted living establishments [S8][S28]. Rent is sized per unit from HUD FY2027 Cook County 1BR FMR $1,780 [S41] x 1.25 common-area allowance (operator estimate). The CareScout $6,219 median is a private one-bedroom AL price [S31], which fits this model better than the small homes. At 20 units, fixed building and staffing costs are not covered at default occupancy when renting; an owned building changes this.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 Illinois median, private one-bedroom basis)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6219,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "77 Ill. Adm. Code 295.3000",
+            "notes": "AL: at least one staff member awake, on duty and on site 24 hours/day [S9][S7]; one CPR-certified direct care staff on duty at all times [S7]. Wage is the Illinois nursing assistant median $22.10 [S36]."
+          },
+          {
+            "role": "Second aide, days and evenings (16 hrs/day)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "77 Ill. Adm. Code 295.2000",
+            "notes": "Staff must be appropriate in numbers and skill [S10]. Operator estimate - verify locally."
+          },
+          {
+            "role": "Third aide, day shift (8 hrs/day)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 243,
+            "cite": "77 Ill. Adm. Code 295.2000",
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "RN/LPN (20 hrs/week) - service plans, medication oversight, support for physician/PA/APRN assessments",
+            "wage_hourly": 45.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "cite": "210 ILCS 9; P.A. 104-0589",
+            "notes": "Operator estimate of hours and wage; S36 is the pay-scale anchor only. Comprehensive assessments must be completed by a physician, PA or APRN [S48]; the RN supports but does not complete them, and those assessment costs are not in this model."
+          },
+          {
+            "role": "Cook (40 hrs/week)",
+            "wage_hourly": 19.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator estimate, above the Chicago minimum wage [S35]."
+          },
+          {
+            "role": "Housekeeping / laundry (30 hrs/week)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 130,
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "Activities coordinator (20 hrs/week)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "Manager (full time)",
+            "wage_source_id": "S36",
+            "basis": "annual_salary",
+            "amount": 80000,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "Each AL establishment must have a full-time manager [S7]. Salary is an operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator planning assumption. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 44500.0,
+            "basis": "fixed",
+            "source_id": "S41",
+            "notes": "20 units x $1,780 (HUD FY2027 Cook County 1BR FMR) x 1.25 common-area allowance = $44,500/month fixed [S41]. The 1.25 factor for dining, kitchen, activity and office space is an operator estimate. FMRs are 40th-percentile gross rents including utilities [S42]. Verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1600.0,
+            "basis": "fixed",
+            "notes": "20 licensed units x $80. Operator estimate."
+          },
+          {
+            "item": "IDPH annual license fee / 12 (placeholder)",
+            "monthly": 200.0,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "($2,000 + $20 x 20 units = $2,400) / 12 [S5]; initial application fee used as a placeholder for the unverified renewal amount."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "eMAR / care documentation / resident billing software",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR, manager CE, fingerprint background checks and Nurse Aide Registry checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "source_id": "S12",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Grounds, snow removal & maintenance contract",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ]
+      },
+      {
+        "id": "al40_private",
+        "label": "40-unit assisted living establishment (apartments), 100% private pay",
+        "capacity": 40,
+        "notes": "Purpose-built or converted apartment building. Application fee is $2,000 + $20 x 40 = $2,800 [S5]. Rent is sized as 40 x $1,780 (HUD FY2027 Cook County 1BR FMR [S41]) x 1.25 common-area allowance (operator estimate) = $89,000/month. That is rent-equivalent; an owner-operator with a mortgage will have a different structure. The CareScout $6,219 median measures a private one-bedroom unit in an AL community [S31], which matches this setting best. No Medicaid revenue is modeled: Medicaid does not pay in AL establishments [S8], and SLP per diem dollar rates were not retrieved. Margin is thin at 88% occupancy and negative at the 80% conservative case.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (CareScout 2025 Illinois median, private one-bedroom basis)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6219,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (4 days + 3 evenings + 2 overnight = 72 hrs/day)",
+            "wage_hourly": 22.1,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 2190,
+            "cite": "77 Ill. Adm. Code 295.3000",
+            "notes": "Exceeds the rule minimum of one awake staff member on site 24 hours/day and one CPR-certified direct care staff person at all times [S9][S7]; the extra staffing meets the requirement for staff appropriate in numbers and skill [S10]. Hours are an operator estimate - verify locally."
+          },
+          {
+            "role": "RN/LPN (40 hrs/week, on call after hours)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "210 ILCS 9; P.A. 104-0589",
+            "notes": "Operator estimate of hours and wage; S36 is the pay-scale anchor only."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 19.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Operator estimate, above the Chicago minimum wage [S35]."
+          },
+          {
+            "role": "Housekeeping / laundry (1.5 FTE)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S35",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator estimate."
+          },
+          {
+            "role": "Manager / executive director (full time)",
+            "wage_source_id": "S36",
+            "basis": "annual_salary",
+            "amount": 90000,
+            "cite": "77 Ill. Adm. Code 295",
+            "notes": "Each AL establishment must have a full-time manager age 21+ with a HS diploma/equivalent plus experience [S7]. Salary is an operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 89000.0,
+            "basis": "fixed",
+            "source_id": "S41",
+            "notes": "40 units x $1,780 (HUD FY2027 Cook County 1BR FMR) x 1.25 common-area allowance = $89,000/month fixed [S41]. FMRs sit near the 40th percentile and include utilities [S42]; the 1.25 factor is an operator estimate. Verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 3200.0,
+            "basis": "fixed",
+            "notes": "40 licensed units x $80. Operator estimate."
+          },
+          {
+            "item": "IDPH annual license fee / 12 (placeholder)",
+            "monthly": 233.33,
+            "basis": "fixed",
+            "source_id": "S5",
+            "notes": "($2,000 + $20 x 40 units = $2,800) / 12 [S5]; initial application fee used as a placeholder for the unverified renewal amount."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "eMAR / care documentation / resident billing software",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR, manager CE, fingerprint background checks and Nurse Aide Registry checks",
+            "monthly": 500,
+            "basis": "fixed",
+            "source_id": "S12",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Grounds, snow removal & maintenance contract",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate for a 40-unit building."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "sh16_private",
+    "startup_costs": [
+      {
+        "item": "Illinois LLC Articles of Organization (Form LLC-5.5)",
+        "low": 150,
+        "high": 150,
+        "source_id": "S54",
+        "notes": "One-time Secretary of State filing fee reported by a secondary source; not confirmed on ilsos.gov."
+      },
+      {
+        "item": "IDPH initial license application fee (nonrefundable, paid with the application): $1,000 shared housing; $2,000 + $20 per licensed unit for assisted living ($2,400 for 20 units, $2,800 for 40 units)",
+        "low": 1000,
+        "high": 2800,
+        "source_id": "S5",
+        "notes": "Low end = shared housing establishment; high end = a 40-unit assisted living establishment. Fee is submitted with the application [S5]."
+      },
+      {
+        "item": "Architect drawings and IDPH construction plan review (new construction or major alteration; plan review fee, if any, not verified)",
+        "low": 5000,
+        "high": 60000,
+        "source_id": "S2",
+        "notes": "IDPH must approve drawings and specifications before new construction or major alterations begin, with a completeness notice in 10 working days and a decision within 45 calendar days [S2]. Professional fees are an operator estimate."
+      },
+      {
+        "item": "Life safety, fire alarm/sprinkler and accessibility upgrades to pass IDPH Life Safety Code / physical plant survey",
+        "low": 10000,
+        "high": 150000,
+        "source_id": "S1",
+        "notes": "IDPH's Design and Construction Section performs the pre-licensure survey [S1]. Scope and cost depend on the building; operator estimate - get contractor quotes."
+      },
+      {
+        "item": "Furnishings for resident rooms and common areas (about $2,000 per bed)",
+        "low": 12000,
+        "high": 80000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Lease deposit + first month (two months of the modeled lease)",
+        "low": 6794,
+        "high": 178000,
+        "source_id": "S40",
+        "notes": "Two months of modeled rent: $3,397 x 2 for the 6-bed home to $89,000 x 2 for the 40-unit building. Operator estimate based on HUD FMR."
+      },
+      {
+        "item": "Financial standing evidence for the license application (e.g., surety bond premium for at least 3 months' operating expenses, or other acceptable evidence)",
+        "low": 1000,
+        "high": 15000,
+        "source_id": "S11",
+        "notes": "77 Ill. Adm. Code 295.500 lists alternatives: a recent bond rating, 2 years of licensed operation, a surety bond of at least three months' operating expenses, or other acceptable evidence [S5][S11]. Premium cost is an operator estimate - ask a surety broker."
+      },
+      {
+        "item": "Fingerprint background checks, Nurse Aide Registry checks, CPR training and TB screening (owners, manager, first staff)",
+        "low": 500,
+        "high": 3000,
+        "source_id": "S12",
+        "notes": "Required before hire for covered employees [S9][S12]. Vendor fees vary; operator estimate."
+      },
+      {
+        "item": "Liability insurance down payment, policies & procedures manual, resident contract and software setup",
+        "low": 3000,
+        "high": 20000,
+        "source_id": "S8",
+        "notes": "Resident contracts must state that Illinois medical assistance is not available for services in the establishment [S8]. Costs are operator estimates."
+      },
+      {
+        "item": "Launch marketing and referral-network outreach",
+        "low": 2000,
+        "high": 15000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Working capital reserve through ramp-up (about 3-6 months of expenses)",
+        "low": 60000,
+        "high": 600000,
+        "category": "working_capital",
+        "notes": "Operator estimate. The Illinois rules reviewed do not set a minimum cash reserve, but the application must show financial capacity [S5]."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Illinois licenses two private-pay residential models under the Assisted Living and Shared Housing Act (210 ILCS 9) and 77 Ill. Adm. Code 295: the **assisted living establishment** and the **shared housing establishment**. The Illinois Department of Public Health (IDPH) Division of Assisted Living handles licensure and surveys for both [S1][S2][S7]. An assisted living establishment houses at least 3 unrelated adults, at least 80% aged 55 or older. A shared housing establishment is a free-standing residence for 16 or fewer persons, also at least 80% aged 55+ [S2][S29]. Medicaid does not pay for services in either model, and resident contracts must say so [S8][S28]. Medicaid-funded assisted living runs separately through the HFS **Supportive Living Program (SLP)**, which has its own application, certification and payment rules [S13][S15][S16].\n\nThe market is private pay. CareScout's 2025 Illinois median for assisted living is **$6,219/month**, measured as a private one-bedroom unit in an assisted living community [S30][S31]. It is not a shared room in a small residential home, so it may overstate revenue for small homes. Nationally, assisted living occupancy was 87.9% in Q1 2026 [S51]. No Illinois-specific occupancy figure was found, so the model uses 88% as a labeled national benchmark.\n\n**What the model shows (88% occupancy, pre-tax, with a paid full-time manager and 24/7 awake staffing at statewide BLS aide wages).**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 16-bed shared housing (default) | $9,375 | 10.7% | 77.3% | 8 | $387,493 |\n| 12-bed shared housing | $3,005 | 4.6% | 83.4% | 6 | $256,080 |\n| 40-unit assisted living | $2,414 | 1.1% | 86.9% | 13 | $1,622,187 |\n| 6-bed shared housing | -$10,978 | -33.4% | 121.4% (cannot break even) | none | $508,896 |\n| 20-unit assisted living | -$13,657 | -12.5% | 100.5% (cannot break even) | none | $1,121,944 |\n\nOnly the 16-bed shared housing home earns a meaningful margin, and it depends on three unverified assumptions: a $6,219 rate in a shared-room setting, rent near $9,059/month, and an 88% occupancy average. The 12-bed home and 40-unit building are marginal and turn negative at the 80% conservative occupancy case. The 6-bed home and 20-unit building lose money at any occupancy because 24/7 awake staffing, a full-time manager and fixed building costs are spread over too few residents.\n\nLicensing is inexpensive but slow. The nonrefundable application fee is $1,000 for shared housing and $2,000 + $20 per unit for assisted living, and IDPH states a 120-day issuance timeline [S5][S6]. The real cost is the building (life safety survey, any construction plan review) and the working capital needed to carry a new home through ramp-up.\n\n### What this report does not claim\n- The annual license **renewal fee** amount (IDPH says only 'the applicable licensure fee' [S1][S56]). The model uses the initial application fee ÷ 12 as a placeholder.\n- **SLP per diem dollar amounts** by region. HFS posted 2026 rate spreadsheets that were not opened [S16]. Only the 54.75% formula, the 150% dementia multiplier and the room-and-board amounts are sourced.\n- Illinois-specific occupancy, competitor names, market shares, referral-source breakdowns and a current provider count (the open-data listing shows 495 entries but is undated, and the IDPH listing copy is dated 10/7/2021 [S45][S46]).\n- Shared-room private-pay rates in small homes, a dollar liability-insurance minimum, and a maximum licensed capacity for assisted living establishments (none found).\n- The content or status of the 2026 Part 295 rulemaking listed in the Aug. 28, 2026 Illinois Register [S27].",
+    "service_model": "**Who is served.** Both license types serve adults, at least 80% of whom must be 55 or older [S2][S29]. An assisted living establishment provides sleeping accommodations for at least 3 unrelated adults [S2]. A shared housing establishment is a publicly or privately operated free-standing residence for 16 or fewer persons [S2]. The 16-person ceiling is the hard line between the two models in the statute excerpts reviewed. No maximum capacity for an assisted living establishment was found (see not_claimed).\n\n**Service model.** The establishment provides housing, meals and services under a resident contract. Before admission, a comprehensive assessment is required. The statute previously required a physician; under Public Act 104-0589 (HB 3392), reported effective July 24, 2026 (confirm the effective date against the Public Act text), it **must be completed by** a physician, a physician assistant or an advanced practice registered nurse [S2][S47][S48]. An RN/LPN cannot be the one who completes the pre-admission, annual or change-of-condition comprehensive assessment. For dementia programs, annual and change-of-condition assessments must be signed by a physician. A law-firm analysis says the 2026 act also touches director qualifications, medication administration, dementia care and enforcement [S49]. Read the Public Act text before writing policies.\n\nAn establishment may not accept or retain a resident if it lacks staff appropriate in numbers and skill to provide the required services [S10]. This 'adequate staff' standard has no numeric ratio, so the staffing you can defend to an IDPH surveyor depends on resident acuity.\n\n**Regulatory framework.**\n- Statute: 210 ILCS 9 [S2]. No person may establish, operate, maintain or offer an establishment without a license [S3][S7].\n- Administrative code: 77 Ill. Adm. Code 295 [S7].\n- Background checks: Health Care Worker Background Check Act, 225 ILCS 46 [S12].\n- Penalty for unlicensed operation: an entity operating without a license is subject to the penalties of the Nursing Home Care Act (210 ILCS 9/25). Separately, that Act allows civil penalties up to $5,000 per violation, with each day a separate violation (210 ILCS 9/135). The $3,000 cap applies only to keeping a resident who exceeds the care needs defined in the Act.\n\n**Medicaid pathway (separate).** The Supportive Living Program is a Medicaid-funded alternative to nursing home care run by HFS under 89 Ill. Adm. Code 146 [S13][S15]. It serves adults 65+ or adults 22-64 with a physical disability, and each provider designates which population it serves [S18]. Standard assisted living and shared housing residents cannot use Medicaid for services in those establishments [S8][S28]. A building cannot be both a plain private-pay establishment and an SLP community without going through the HFS process. This report's financial model covers only the private-pay license types.",
+    "licensing_pathway": "**Step 1 - Form the entity.** File Articles of Organization (Form LLC-5.5) with the Secretary of State. The fee is reported at $150 by a secondary source and was not confirmed on ilsos.gov [S54]. Illinois requires a registered agent with a physical Illinois street address [S61]. The LLC annual report (Form LLC-50.1) is $75 and due before the first day of the anniversary month [S53]. Illinois does not impose a franchise tax on LLCs [S60].\n\n**Step 2 - Secure the building and check zoning.** The sources reviewed contain no state zoning rule for assisted living or shared housing. Confirm local zoning and occupancy before signing a lease. Zoning approval is an explicit SLP requirement [S13].\n\n**Step 3 - Construction plan review (new construction or major alteration only).** Drawings and specifications must be submitted to and approved by IDPH before work begins [S2]. IDPH must tell the applicant in writing within 10 working days whether the submission is complete, and approve or disapprove within 45 calendar days of receipt. It will not start review until any required plan review fee has been paid [S2]. The fee amount, if any, was not verified.\n\n**Step 4 - Application.** Submit the application to IDPH with the nonrefundable fee: **$2,000 + $20 per licensed unit** for an assisted living establishment, **$1,000** for shared housing [S5]. The fee is paid with the application [S5]. Fee examples: 20 units = $2,400; 40 units = $2,800. The application must:\n- state whether you request **standard or floating** licensure [S5];\n- include documentation of adequate liability insurance (no dollar minimum in the rule) [S11];\n- show financial capacity. Acceptable evidence includes a recent bond rating (less than 2 years old), 2 years of operating a licensed facility, a surety bond of at least three months' operating expenses, or other acceptable evidence [S5][S11].\n\n**Step 5 - Pre-licensure life safety/physical plant survey.** The IDPH Design and Construction Section performs the Life Safety Code/physical plant survey before licensure [S1].\n\n**Step 6 - License issuance.** IDPH states it will issue a regular license within **120 days** after receipt of an application that meets the requirements of the Act and Part 295 [S6]. The 120 days do not run for an incomplete or noncompliant application. Approval requires that all required fees are paid, that employees covered by the Health Care Worker Background Check Act meet its requirements, and substantial compliance [S6]. The code also defines a **probationary license** for an applicant that has not previously held a license under the Act [S7]. Whether and how a first-time applicant receives a probationary license before a regular one was not verified (check 77 Ill. Adm. Code 295.800). Ask IDPH and plan for the possibility that the first license is probationary. Regular licenses are valid for one year.\n\n**Step 7 - Renew.** IDPH says all establishments submit an annual renewal application with the applicable licensure fee [S1][S56]. The statute requires filing 120 to 150 days before expiration. At the licensee's request IDPH **may** renew for 2 years, but only if in the preceding 24 months the licensee has had no Type 1 or Type 2 violation, has had no inspection with a finding of 10 or more Type 3 violations, and has not admitted or retained a resident in violation of Section 75 [S4]. Put the renewal window on the calendar from day one. The renewal fee amount was not verified (see not_claimed).\n\n**Staff pre-hire steps.** Check each applicant on the Nurse Aide Registry before hiring and do not hire anyone with a disqualifying finding [S9]. Collect fingerprints electronically and transmit them to the Illinois State Police within 10 working days [S12].\n\n**Realistic timeline.** Allow roughly 120 days for IDPH issuance of a complete application, plus plan review (about 55 days if complete on first submission) and any construction time, before the first resident can be admitted. Start the lease-free phase early. Every month of rent before opening is cash burn.",
+    "reimbursement": "**How money actually flows.** Illinois assisted living and shared housing establishments are paid by residents and families. Medicaid does not pay for services in these establishments [S28], and the resident contract must state that medical assistance under the Public Aid Code is not available for services provided in the establishment [S8]. The model therefore uses only private pay.\n\n**Private-pay benchmarks.**\n- CareScout 2025 Illinois median for assisted living: **$6,219/month** (about $74,628/year) [S30]. The basis is a private one-bedroom unit in an AL community [S31].\n- Same table: memory care $7,800/month; nursing home semi-private $8,304; private $9,216 [S32]. Assisted living at $6,219 sits about $2,085/month below a semi-private nursing home bed, which is the price anchor families compare against.\n- The CareScout/Genworth survey collects data from assisted living communities, adult day health and home care providers [S33].\n- Caveat: small shared-room homes often price below a private one-bedroom unit in a community. Set your rate from local comparables. The model's sensitivity table (Section 8) shows what a lower rate does.\n\n**Supportive Living Program (Medicaid) - not modeled.** HFS pays SLP providers a daily per diem set at **54.75% of the average total nursing facility services per diem rate** in the provider's rate-setting region. There are 7 regions [S16]. Providers approved as dementia care settings receive **150%** of the regular per diem. Rate add-ons currently cover quality and nutrition assistance [S16], and Public Act 102-0699 requires a quality add-on rate component [S19]. Providers submit quality metric data quarterly through the SLP web portal [S19][S20]. HFS posted successive 2026 rate schedules effective 1/1, 4/1, 7/1 and 10/1/2026 [S16]. The dollar rates were not retrieved.\n\nThe SLP resident pays room and board: **$874.00/month single, $625.50/month double**, effective January 1, 2026 (up from $847.00 and $605.00) [S17]. HFS ties the change to the 2026 SSI increase [S17]. The 2026 federal SSI rate is $994/month for an individual [S24]. HFS does not state a formula linking SSI to the room-and-board amounts. The personal needs allowance figures conflict: HFS's client page says residents with income at or above SSI keep $90/month [S18], while a secondary source reports $120 [S63].\n\nWhether SLP is paid fee-for-service or through HealthChoice Illinois managed care, the procedure codes and billing units, and whether EVV applies were not verified. HFS EVV notices name personal care, home health and (in February 2026) Home Health Care Services agencies only [S21][S22]. Medicaid provider enrollment runs through HFS IMPACT [S23]. The current SLP 1915(c) waiver (0326.R05.00) expires 09/30/2027 [S25], and HFS lists a proposed waiver amendment effective January 1, 2027 [S18]. Anyone planning an SLP community should expect rule and rate changes.",
+    "demand": "**Demographics.** Illinois had 12,719,141 residents on July 1, 2025. Census QuickFacts puts 18.7% at age 65 or older, versus 18.9% nationally [S43]. That is a large absolute population but not a faster-aging one than the nation, so demand rests on the sheer number of seniors and on regional concentration (not analyzed here), not on unusual state aging.\n\n**Adjacent care supply.** IDPH reports about 1,200 long-term care facilities serving more than 100,000 residents [S44]. These facilities are the main alternative for people who need more care than an establishment can lawfully retain, and the usual next stop for residents who run out of private funds.\n\n**Assisted living supply.** The open-data portal listing of IDPH-licensed assisted living and shared housing establishments shows 495 entries, but the snapshot is undated and the IDPH listing page copy shows data last updated 10/7/2021 [S45][S46]. Treat 495 as an order-of-magnitude indicator, not a current count. Nationally, AHCA reports about 41,465 assisted living communities and about 1.4 million licensed beds [S52].\n\n**Occupancy.** National assisted living occupancy was 87.9% in Q1 2026 [S51]. No Illinois-only occupancy figure is publicly available in the sources reviewed.\n\n**Medicaid-linked demand.** SLP is not an entitlement. Enrollment slots are limited and waitlists form when full [S55]. A secondary source gives about 15,705 beneficiaries per year, which is not confirmed in HFS or CMS text [S55]. Medicaid managed care members can route SLP referrals through their care coordinator [S18], and applicants are screened for nursing-facility level of care by HFS or a designated screening agency [S18].\n\n**I/DD waitlist context.** IDHS's PUNS snapshot as of July 1, 2026 counts 17,954 individuals in the database, 6,367 eligible for adult waiver selection, and 8,985 adults 18+ in the seeking-services category versus 1,885 in planning [S50]. The largest wait band among adults seeking services is 36 to 47.99 months (956 adults, 15%) [S50]. This shows unmet demand for residential supports, but it is **not** a pool of assisted living or shared housing residents. Licensed establishments must keep at least 80% of residents at age 55+ [S2][S29], and PUNS counts do not translate into private-pay admissions.\n\n**Referral sources.** No official breakdown of how residents reach Illinois assisted living (hospital discharge planners, Area Agencies on Aging, placement agencies, physicians) was found, so the model assumes admissions of 1 to 4 residents per month by configuration, labeled as an operator assumption. Verify your referral pipeline locally before signing a lease.",
+    "operations": "**Mandatory staffing.**\n- Assisted living: at least one staff member awake, on duty and on site 24 hours a day [S9][S7].\n- Shared housing: at least one staff member on site at all times, with brief exceptions for resident transport and errands [S7]. The awake-overnight rule for shared housing was not verified, so the model staffs one awake aide around the clock in every configuration.\n- At least one direct care staff person certified in adult CPR must be on duty at all times [S7].\n- Staff must be appropriate in numbers and skill for the residents admitted and retained [S10].\n\n**Manager.** Each assisted living establishment must have a full-time manager [S7]. The manager must be at least 21 with a high school diploma or equivalent plus specified experience (2 years of management or progressive-responsibility experience, or an alternative) [S7]. A shared housing manager may oversee up to three establishments only if they are within 30 minutes driving time of each other and the manager is immediately reachable [S7]. Report any manager change to IDPH within 10 working days [S7]. The statute requires the director to complete at least 20 hours of training every 2 years as a condition of licensure (210 ILCS 9/35) [S2]. Budget these courses explicitly.\n\n**Hiring.** Check the Nurse Aide Registry before hiring [S9]. The Health Care Worker Background Check Act covers employees of licensed long-term care facilities who have or may have resident contact [S12]. Fingerprints go electronically to the Illinois State Police within 10 working days [S12]. Approval of the license depends on covered employees meeting the Act [S6].\n\n**Clinical oversight.** The pre-admission comprehensive assessment must be completed by a physician, PA or APRN under P.A. 104-0589 (reported effective July 24, 2026; confirm against the Public Act text) [S48][S47]. An RN/LPN cannot complete it. For dementia programs, annual and change-of-condition assessments must be signed by a physician. The Act also addresses medication administration and dementia care [S49]. The model carries a part-time RN/LPN line for oversight, service plans and medication-management support. The nurse hours and the $45/hour nurse rate are operator estimates, because BLS Illinois LPN/RN wages were not retrieved. The model has no cost line for the physician/PA/APRN assessments (per admission and annual). Get quotes: adding this cost lowers every margin shown.\n\n**Systems.** No state-mandated software or EVV applies to private-pay assisted living or shared housing in the sources reviewed [S21][S22]. The model includes an eMAR/care documentation/billing software line as an operator estimate. A Life Safety Code survey is required before licensure [S1], so the model includes recurring fire alarm, sprinkler and extinguisher service as an operator estimate (no Illinois sprinkler rule was verified).\n\n**Annual cycle.** IDPH conducts surveys, and renewal filing opens 150 days before expiration [S4]. Keep staff files, background check records, assessments and contracts survey-ready at all times.",
+    "market_conditions": "**Pricing.** CareScout's 2025 median of $6,219/month for Illinois assisted living (private one-bedroom unit basis) is the only sourced Illinois price benchmark [S30][S31][S32]. Secondary 2024 Illinois figures conflict with each other and are not relied on. The price also implies a price ladder: memory care $7,800, nursing home semi-private $8,304 and private $9,216 [S32].\n\n**Wages.** BLS May 2025 data, as reproduced by a secondary site, put the Illinois median for nursing assistants at **$22.10/hour ($45,960/year)**, versus a US median of $42,260 [S36]. Another source reports $21.75, which is unresolved. The modeled wage is above the statewide minimum of $15.00 [S34]. Chicago's local minimum rose to $17.05 on July 1, 2026 (a conflicting source says $16.20), and suburban Cook County's is $15.40 (another source says $14.50) [S35]. All of these are below the modeled aide wage, so no recomputation at a local minimum is needed. The minimum wage law reaches employers with four or more employees [S35]. Cook, cook-helper and housekeeping wages ($18-$19/hour) and manager salaries are operator estimates anchored above the Chicago minimum, because BLS Illinois figures for those roles were not retrieved.\n\n**Payroll costs.** Employer FICA is 7.65%; the 2026 Social Security wage base is $184,500 [S58]. New Illinois employers are generally assigned a 3.35% unemployment rate on a $14,250 wage base for 2026 [S37], applied for the first three years [S59]. Sources conflict on both figures (rates 3.175%-3.95%, wage base $13,271-$14,250), and the official IDES notice was not retrieved. Workers' compensation is set by each carrier [S39]. NCCI's filing proposed a -0.1% advisory rate level change for 1/1/2026 [S38]. The model carries workers' comp at 5% and benefits at 6% of wages as operator estimates.\n\n**Real estate.** HUD's FY2027 4-bedroom Fair Market Rent for the Chicago metro is $2,954/month [S40]. Cook County 1BR is $1,780 [S41]. FMRs are 40th-percentile gross rents that include utilities [S42][S41], so they understate asking rent for a building fit for licensed care. Typical Cook County asking rent was $2,272 in August 2026, up 5.5% year over year [S41]. These are residential proxies. No commercial rent per square foot was retrieved, and a 12- to 16-bed building is far larger than a 5-bedroom house.\n\n**Occupancy and supply.** National AL occupancy was 87.9% in Q1 2026 [S51]. Illinois's own occupancy and current licensed supply are not verified [S45][S46].\n\n**Regulatory flux.** P.A. 104-0589 took effect July 24, 2026 [S47][S48][S49], and the Aug. 28, 2026 Illinois Register lists an entry for 77 Ill. Adm. Code 295 (status not confirmed) [S27]. Expect compliance details to change.",
+    "financial_narrative": "**How the P&L is built.** Revenue is residents × the CareScout Illinois median of $6,219/month [S30]. The 16-bed home at 88% occupancy has 14.08 residents and about $87,570 in monthly revenue. Costs are:\n- Staffing at the Illinois nursing-assistant median of $22.10/hour [S36], plus a manager salary and operator-estimate hours for nurse, cook and housekeeping.\n- Payroll burden of about 19.8% (8.8% payroll taxes, 5% workers' comp, 6% benefits) [S37][S58].\n- Fixed building costs. Rent is sized to licensed beds: $566.18 per bed, from the HUD Chicago metro 4BR FMR of $2,954 × 1.15 for a 5-bedroom home ÷ 6 beds [S40]. Utilities base load is $80 per bed. Rent and utilities are fixed, because vacant beds still cost money.\n- Per-resident variable costs of about $745/month (food $330, utilities $75, insurance $100, supplies $60, repairs $50, activities $30, referral fees $100), all operator estimates.\n- A license-fee placeholder (initial application fee ÷ 12) because the renewal fee was not verified [S5].\n- LLC fees, but not income or replacement tax: the P&L is pre-tax [S60].\n\n**Results at the 88% default.**\n- **16-bed shared housing: $9,375/month net, 10.7% margin, break-even 77.3% occupancy, first profit in month 8, $387,493 of cash needed.** This is the only configuration with a meaningful cushion.\n- **12-bed shared housing: $3,005/month, 4.6% margin, break-even 83.4%, first profit month 6, $256,080 cash.** Profitable, but with only about 4.6 points of occupancy cushion.\n- **40-unit assisted living: $2,414/month, 1.1% margin, break-even 86.9%, first profit month 13, $1,622,187 cash.** Break-even occupancy is only 1.1 points below the default.\n- **6-bed shared housing: -$10,978/month, -33.4% margin, break-even 121.4%.** It cannot break even even if full. The manager salary and 24/7 aide coverage spread over about 5 residents. Even removing the manager salary line (about $5,500/month loaded) leaves a loss, so a 6-bed home works only if the owner supplies unpaid labor and works the shifts.\n- **20-unit assisted living: -$13,657/month, -12.5% margin, break-even 100.5%.** A leased 20-unit building does not cover rent and staffing even when full.\n\n**Key sensitivities (16-bed default).** These are approximations from the model's variable-cost structure (contribution of about $5,474 per resident per month after $745 of variable cost).\n- **Occupancy.** Each point of occupancy is worth about $876/month. At the 80% conservative case, net falls to roughly $2,400/month. At 93% (optimistic), roughly $13,800. The 12-bed home goes to roughly -$2,250 at 80%, and the 40-unit building to roughly -$15,100.\n- **Rate.** Each $500 reduction in the monthly rate costs about $7,040/month. The 16-bed home breaks even at 88% occupancy at roughly **$5,553/month**, about $666 below the median. If shared-room homes price meaningfully below a private one-bedroom unit [S31], the default case loses most of its margin.\n- **Rent.** The rent is the weakest estimate. A 16-bed building is much larger than a 5-bedroom house, and FMRs include utilities and sit near the 40th percentile [S42]. If rent is 50% higher (about +$4,530/month), net falls to about $4,850. If rent doubles, net falls to about $300.\n- **Wages.** Each $1/hour on all three aide shifts (1,460 hours/month) costs about $1,750/month with burden. Using the conflicting $21.75 median instead of $22.10 saves about $600/month. A 3.35% versus 3.95% unemployment rate is minor next to these.\n- **License fee.** The placeholder is $83.33/month. Even a renewal several times higher is small relative to rent and staffing.\n\n**Ramp and cash.** Homes start with 1 to 4 residents and add 1 to 3 per month (operator assumptions). The 16-bed home starts with 2 and adds 2 per month, which produces the month-8 first-profit estimate. The 'cash needed' figures combine startup costs and the modeled ramp-up deficit. The startup costs include IDPH fees, life safety and plan review work, furnishings, deposits, a financial-standing instrument and a working capital reserve, mostly operator estimates.\n\n**Honest limits.** The model is pre-tax and has no debt service or owner return beyond the manager salary. It assumes 100% private pay at a price that was measured for a different product, and it uses national occupancy. Treat the 16-bed result as a case that works only if rent, price and fill-up come in near these assumptions.",
+    "risks": "**1. Price risk.** The $6,219 median is for a private one-bedroom unit in an AL community [S30][S31]. Shared-room homes may command less. The 16-bed default breaks even at about $5,553/month and the 12-bed home is thinner still.\n\n**2. Occupancy risk.** Only national occupancy (87.9% in Q1 2026) is available [S51]. A single vacancy is 6% to 17% of census in small homes. The 16-bed home loses its margin around 77% occupancy, and the 12-bed and 40-unit models turn negative at the 80% conservative case.\n\n**3. Rent and building risk.** Rent is a proxy from HUD FMRs, which are 40th-percentile gross rents [S42][S40][S41]. Purpose-fit buildings, ownership with a mortgage, or build-out and sprinkler costs can change the result substantially. Plan review (10 working days for completeness, 45 calendar days for a decision) and the life safety survey add time and cost before revenue starts [S1][S2].\n\n**4. Staffing and wage risk.** 24/7 awake staffing, a CPR-certified direct care staff member at all times and a full-time manager are mandatory fixed labor [S7][S9]. Wages could rise; the aide wage is a BLS-based median reproduced by a secondary site, and another source reports $21.75 [S36]. The Chicago minimum of $17.05 (a conflicting source says $16.20) is below the modeled wage [S35], but local wage ordinances elsewhere were not verified. Mandatory paid leave and any Illinois Secure Choice obligation are not itemized in the 6% benefits estimate.\n\n**5. Regulatory change.** P.A. 104-0589 (reported effective July 24, 2026) touches assessments, director qualifications, medication administration, dementia care and enforcement [S48][S49]. The Illinois Register of Aug. 28, 2026 lists a Part 295 entry with unconfirmed status [S27]. Other 2026 bills (HB 3328 cognitive assessment, SB3950, HB 1597) have unresolved status. Compliance cost may rise, especially for dementia care. Physician/PA/APRN assessment costs are not in the model.\n\n**6. Licensing risk.** A first-time applicant may receive a probationary license [S7]. An unlicensed operation is subject to the penalties of the Nursing Home Care Act (210 ILCS 9/25), including civil penalties up to $5,000 per violation with each day counted as a separate violation (210 ILCS 9/135). The renewal fee amount is unverified [S1][S56], and background check noncompliance can block approval [S6].\n\n**7. Resident spend-down.** Medicaid will not pay for services in assisted living or shared housing [S28][S8]. A resident who exhausts private funds must leave, possibly to an SLP community (subject to limited slots and waitlists [S55]) or a nursing home. Residents you cannot retain create turnover and vacancy.\n\n**8. SLP risk if you pursue Medicaid.** SLP approval depends on accuracy, completeness, geographic distribution and waiver limits [S14]. Applicants need site control, zoning approval, a market study, a Phase I environmental study and architectural drawings, with certification within 24 months of approval [S13]. The waiver expires 09/30/2027 and an amendment is proposed for January 1, 2027 [S25][S18]. Per diem dollars were not verified.\n\n**9. Employment tax and insurance uncertainty.** New-employer unemployment rates conflict across sources (3.175%-3.95%) [S37]. Workers' compensation is carrier-set [S39]. Liability insurance has no stated dollar minimum, but you must document 'adequate' coverage [S11]; premiums are estimates.\n\n**10. Tax.** The model is pre-tax. An LLC taxed as a partnership pays 1.5% replacement tax on net income, and an LLC electing corporate treatment pays 7% income tax plus 2.5% replacement tax [S60]. Franchise-tax and late-penalty details conflict across sources.",
+    "recommendations": "**1. Pick the right size.** Of the five modeled configurations, only the 16-bed shared housing establishment clears a meaningful margin ($9,375/month, 10.7%, break-even 77.3% occupancy). The 12-bed home works only with a tight rent and stable fill. Skip the 6-bed home and the leased 20-unit building as stand-alone business plans: both lose money at any occupancy. A 40-unit building is a capital-heavy bet ($1.62 million of cash needed, 1.1% margin) that suits an experienced operator or an owned building, not a first project.\n\n**2. Validate price before the lease.** Collect shared-room and private-room prices from at least 8 to 10 Illinois comparables in your target market. If the achievable rate is below about $5,553/month for the 16-bed home at 88% occupancy, the model loses money. Do not rely on the $6,219 statewide median alone.\n\n**3. Cap the rent.** The model assumes about $9,059/month for 16 beds. Negotiate a building where all-in occupancy cost is at or below that, or confirm that an owned property's debt service fits. Doubling rent erases profit.\n\n**4. Protect the fill-up.** Line up referral relationships (hospital discharge planners, physicians, placement agencies, Area Agencies on Aging) before opening, and plan to admit 2 residents per month in the first months. The default needs about 12.4 residents on average (77.3% of 16) to break even. Hold the conservative 80% case as your planning floor.\n\n**5. Staff to the rule, then to acuity.** Cover the 24/7 awake aide, a CPR-certified direct care staff member and the full-time manager [S7][S9]. Add staff only as acuity requires [S10]. If you are the manager, treat the salary line as your pay and document it. Each extra aide shift costs about $6,400/month with burden.\n\n**6. Get the licensing path right.**\n- Choose shared housing (16 or fewer, $1,000 fee) versus assisted living ($2,000 + $20/unit) deliberately [S5].\n- File plan review early if you are renovating (complete submission, fee paid first) [S2].\n- Request standard or floating licensure explicitly [S5].\n- Prepare the financial-standing evidence (bond rating, 2 years of licensed operation, surety bond of 3 months' operating expenses, or other acceptable evidence) [S5][S11].\n- Ask IDPH directly about the probationary-to-regular license sequence, the renewal fee and the renewal term.\n\n**7. Build a dedicated reserve.** The default configuration needs about $387,000 of cash through ramp-up, with first profit around month 8. Add margin for a slower fill-up. Get quotes for the life safety work, the surety bond or other financial evidence, insurance and software, all of which are operator estimates in the model.\n\n**8. Track the rules.** Read Public Act 104-0589, watch the Part 295 rulemaking in the Illinois Register [S27][S48], and update policies for assessment, medication and dementia requirements [S49].\n\n**9. Treat SLP as a separate, later project.** If you want Medicaid revenue, evaluate an HFS Supportive Living application as its own development effort (site control, zoning, market study, Phase I, drawings; certification within 24 months [S13]). Open the HFS rate spreadsheets for your region to compute actual per diems (54.75% of the regional nursing facility per diem; 150% for dementia) [S16], and watch the waiver renewal and the January 1, 2027 proposed amendment [S18][S25]. Do not assume Medicaid revenue in a licensed shared housing or assisted living establishment.\n\n**10. Keep the P&L honest.** Replace every operator estimate with a vendor quote, rerun break-even occupancy, and do not open unless the model still clears at 80% occupancy with your real rent and price."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Choose your IDPH license category: Shared Housing Establishment (SHE) or Assisted Living Establishment (ALE)",
+      "instructions": "An ALE provides sleeping accommodations for at least 3 unrelated adults, at least 80% aged 55+. An SHE is a free-standing residence for 16 or fewer persons, also at least 80% aged 55+. The initial application fee is $1,000 for an SHE and $2,000 + $20 per licensed unit for an ALE. The Pro Forma shows the 16-bed SHE as the strongest private-pay model. Decide before you sign a lease or purchase.",
+      "cite": "210 ILCS 9 (definitions); 77 Ill. Adm. Code 295.500",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm your target resident population meets the 80% age-55+ rule",
+      "instructions": "At least 80% of residents must be 55 or older for either license type. Build admission criteria and marketing around this rule. Do not plan a younger-adult mix without checking Part 295 and asking IDPH.",
+      "cite": "210 ILCS 9 (definitions)",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide your payer strategy: private pay only, or private pay plus the Supportive Living Program (SLP)",
+      "instructions": "Medicaid does not pay for services in IDPH-licensed assisted living or shared housing, and resident contracts must say so. Medicaid pays only through HFS's separately approved Supportive Living Program (Phase 8). The default model in this bundle is 100% private pay.",
+      "cite": "77 Ill. Adm. Code 295.2030; 89 Ill. Adm. Code 146",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Review the bundle Pro Forma and pick your configuration before committing capital",
+      "instructions": "Model results at 88% occupancy: 16-bed SHE nets about $9,375/month (10.7% margin, break-even about 77% occupancy). 12-bed nets about $3,005. 40-unit ALE nets about $2,414. 6-bed SHE and 20-unit ALE lose money when rent is paid at the modeled rates. Test your own rent, wage and rate inputs before signing a lease.",
+      "cite": "Pro Forma P&L (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form an Illinois LLC (or other entity) with the Secretary of State",
+      "instructions": "File Articles of Organization (Form LLC-5.5). A secondary source reports a $150 fee; confirm on ilsos.gov. Online filing is typically fastest. The licensee name on the IDPH application should match this entity exactly.",
+      "cite": "Form LLC-5.5",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Appoint a registered agent with a physical Illinois street address",
+      "instructions": "Illinois requires every entity to keep a registered agent with a physical Illinois street address. A commercial agent costs roughly $120/year (operator estimate — get quotes).",
+      "cite": "805 ILCS 180 (registered agent)",
+      "source_id": "S61"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Sign an operating agreement and choose the tax treatment with a CPA",
+      "instructions": "An LLC taxed as a partnership pays a 1.5% personal property replacement tax on net income; one electing corporate treatment pays 7% income tax plus 2.5% replacement tax. Illinois does not impose a franchise tax on LLCs. Sources conflict on some tax details, so confirm with the Illinois Department of Revenue. The Pro Forma is pre-tax.",
+      "cite": "Illinois Dept. of Revenue",
+      "source_id": "S60"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain a federal EIN and open a business bank account",
+      "instructions": "Apply free at irs.gov; issued the same day online. Needed for payroll, banking, insurance and any Medicaid enrollment. Keep operating funds separate from personal funds.",
+      "cite": "IRS EIN",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the LLC annual report ($75, Form LLC-50.1)",
+      "instructions": "Due before the first day of the LLC's anniversary month each year. A $75 filing fee is reported by secondary sources. Late-penalty amounts conflict across sources ($100 vs $300 + $100/month), so file on time.",
+      "cite": "Form LLC-50.1",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register for Illinois withholding and unemployment insurance (IDOR MyTax Illinois / IDES)",
+      "instructions": "Register before your first payroll. A new employer is generally assigned 3.35% UI on a $14,250 taxable wage base for 2026, for the first 3 years. Sources conflict (3.175%–3.95%; $13,271–$14,250), so use the rate on your IDES notice.",
+      "cite": "IDES 2026 UI rates",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Engage a health-care attorney and CPA experienced with IDPH licensure",
+      "instructions": "Use them to review the lease, resident contract, entity structure and licensing application. The model budgets $500/month for accounting, payroll service and legal (operator estimate).",
+      "cite": "n/a",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "CRITICAL",
+      "task": "Read the full Assisted Living and Shared Housing Establishment Code (77 Ill. Adm. Code 295)",
+      "instructions": "Read the entire Part, especially Subparts on licensing, residency, contracts, services and personnel. Print the current version from ILGA/JCAR. Allow 1–2 days, and note every item that requires a written policy.",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "CRITICAL",
+      "task": "Read the Assisted Living and Shared Housing Act (210 ILCS 9)",
+      "instructions": "The Act sets the definitions, license requirement, plan review, renewal and admission assessment rules. No person may establish, operate, maintain or offer an ALE or SHE without a license (Sec. 25).",
+      "cite": "210 ILCS 9",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "CRITICAL",
+      "task": "Review Public Act 104-0589 (HB 3392), effective July 24, 2026",
+      "instructions": "The law took effect immediately. It amends the Act on pre-admission assessments (physician, PA or APRN may complete them), director qualifications, medication administration, dementia care and enforcement. Read the Public Act text and a law-firm summary, then update your policies.",
+      "cite": "P.A. 104-0589",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "HIGH",
+      "task": "Confirm the official effective date and status of HB 3392 on ILGA",
+      "instructions": "The ILGA bill record lists the effective date as July 24, 2026. A law-firm analysis (Hall Render, Oct. 7, 2026) summarizes the changes. Rely on the Public Act text, not summaries.",
+      "cite": "HB 3392 bill status",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "HIGH",
+      "task": "Verify whether the HB 3328 cognitive-assessment requirement applies to you",
+      "instructions": "A radio news source reports HB 3328 requires a cognitive assessment before admission, effective January 1, 2026. Enactment and the Public Act number were not confirmed on ILGA. Verify with IDPH or counsel before relying on it.",
+      "cite": "HB 3328 (unverified)",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "HIGH",
+      "task": "Monitor the pending Part 295 rulemaking in the Illinois Register",
+      "instructions": "The Aug. 28, 2026 Illinois Register (Vol. 50, Issue 35, p. 12660) lists an entry for 77 Ill. Adm. Code 295. Whether it is a proposal or adopted rule was not confirmed. Read the entry and subscribe to Register notices.",
+      "cite": "Illinois Register Vol. 50, Issue 35",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "HIGH",
+      "task": "Contact the IDPH Division of Assisted Living before you apply",
+      "instructions": "The Division handles all licensure and surveys for ALEs and SHEs (Springfield). Get the current phone and email from the IDPH assisted living page. Only a 2021-dated listing contact was found. Ask about capacity limits (no ALE cap was found), current forms, renewal fees and 2026 rule changes.",
+      "cite": "IDPH Division of Assisted Living",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "HIGH",
+      "task": "Decide standard vs. floating licensure",
+      "instructions": "The application must state whether you request standard licensure or floating licensure. Read the definitions in Part 295 and ask IDPH which fits your unit configuration.",
+      "cite": "77 Ill. Adm. Code 295.500",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "MEDIUM",
+      "task": "Understand probationary vs. regular license",
+      "instructions": "A probationary license is issued to an applicant that has not previously held a license under the Act. Plan your first year around IDPH review as a new licensee.",
+      "cite": "77 Ill. Adm. Code 295 (definitions)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "MEDIUM",
+      "task": "Decide whether you will serve residents with dementia",
+      "instructions": "The 2026 amendments include dementia care provisions. Read P.A. 104-0589 and Part 295 before advertising memory care. CareScout shows a separate memory-care price tier ($7,800/month), but memory care is not a separate IDPH license category in the sources reviewed.",
+      "cite": "P.A. 104-0589",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 2 — LICENSING PLANNING & REGULATORY RESEARCH",
+      "priority": "MEDIUM",
+      "task": "Size the local market using Census and IDPH data",
+      "instructions": "Illinois had 12,719,141 residents (July 2025) and 18.7% were 65+. IDPH's open-data listing showed 495 licensed ALE/SHE entries in an undated snapshot (the IDPH listing page copy dates to 2021), so it is not a current count. Use these for context, and do local competitor research yourself.",
+      "cite": "Census QuickFacts; IDPH open data",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, LEASE & ZONING",
+      "priority": "CRITICAL",
+      "task": "Select a site that fits the license category",
+      "instructions": "A shared housing establishment must be a free-standing residence for 16 or fewer persons. An ALE needs at least 3 unrelated adults and can be a larger apartment-style building. Match bedrooms and bathrooms to your licensed bed count.",
+      "cite": "210 ILCS 9 (definitions)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, LEASE & ZONING",
+      "priority": "CRITICAL",
+      "task": "Verify local zoning and occupancy rules with the municipality or county",
+      "instructions": "No state siting rule was found beyond IDPH's plan review. Zoning is local. Get written confirmation of permitted use, occupancy limits and any special-use or business license needed. If you plan SLP, HFS requires zoning approval as part of the application.",
+      "cite": "Local zoning ordinance",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, LEASE & ZONING",
+      "priority": "CRITICAL",
+      "task": "Negotiate the lease or purchase with licensing contingencies",
+      "instructions": "Make the lease contingent on zoning, IDPH plan approval and passing the Life Safety Code survey. Vacant beds still cost rent, so model rent as fixed. The Pro Forma uses HUD FY2027 Chicago metro 4BR FMR $2,954 × 1.15 per 6 beds (about $566/bed) for homes, and Cook County 1BR FMR $1,780 × 1.25 per unit for apartment buildings. These are residential proxies (operator estimates); use real local listings.",
+      "cite": "HUD FY2027 FMR",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, LEASE & ZONING",
+      "priority": "HIGH",
+      "task": "Understand what HUD Fair Market Rents do and do not represent",
+      "instructions": "HUD FMRs are 40th-percentile gross rents that include utilities. They understate asking rent for a purpose-fit building but overlap the utilities line. Get at least three local comparables before finalizing your rent assumption.",
+      "cite": "HUD FMR definition",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, LEASE & ZONING",
+      "priority": "MEDIUM",
+      "task": "Compare Chicago, suburban Cook and downstate locations for wages vs. private-pay rates",
+      "instructions": "Chicago's minimum wage is $17.05 from 2026-07-01 and suburban Cook County's $15.40 per one source (other sources conflict: $16.20 and $14.50); the state minimum is $15.00. The modeled aide wage of $22.10 exceeds all of them. Keep wages, rents and rates from the same geography.",
+      "cite": "820 ILCS 105/4; local ordinances",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Determine whether IDPH plan approval is required for your project",
+      "instructions": "Before commencing construction of a new ALE/SHE, or major alterations, drawings and specifications must be submitted to and approved by IDPH. Ask the Design and Construction Section whether a conversion of an existing house or building counts as major construction.",
+      "cite": "210 ILCS 9 (construction plan review)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Hire an architect and prepare drawings and specifications",
+      "instructions": "Professional fees are an operator estimate of $5,000–$60,000 depending on scope. Choose an architect familiar with IDPH Design and Construction submissions.",
+      "cite": "210 ILCS 9",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Submit plans with any required plan review fee",
+      "instructions": "IDPH will not begin review until the required fee, if any, is paid. It must tell you in writing within 10 working days whether the submission is complete, and approve or disapprove within 45 calendar days of receipt. The fee amount, if any, was not verified, so ask IDPH.",
+      "cite": "210 ILCS 9 (plan review)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Complete construction or renovation exactly as approved",
+      "instructions": "Keep the approved drawings on site. Document any changes and get IDPH approval before deviating. Use licensed contractors and pull all local building permits.",
+      "cite": "210 ILCS 9",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Install and test fire alarm, sprinkler and extinguisher systems as required for your building",
+      "instructions": "IDPH's Design and Construction Section conducts the Life Safety Code / physical plant survey before licensure. No specific Illinois sprinkler rule was verified in this research, so get the requirement for your building type from IDPH and the local fire authority. Budget (operator estimate): $10,000–$150,000 for life safety and accessibility upgrades.",
+      "cite": "IDPH Life Safety Code survey",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Complete accessibility and resident-safety upgrades",
+      "instructions": "Typical items: ramps, grab bars, door widths, bathroom modifications, lighting, secure outdoor areas. Confirm requirements with IDPH Design and Construction and your architect.",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Schedule the pre-licensure Life Safety Code / physical plant survey",
+      "instructions": "The survey is performed by IDPH's Design and Construction Section before a license is issued. Have all systems tested and documented before you request it. Ask IDPH how to request it.",
+      "cite": "IDPH Assisted Living page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "MEDIUM",
+      "task": "Furnish resident rooms and common areas",
+      "instructions": "Operator estimate of about $2,000 per bed ($12,000–$80,000 across sizes). Buy to home-like standards that are easy to clean.",
+      "cite": "n/a",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, PLAN REVIEW & LIFE SAFETY",
+      "priority": "MEDIUM",
+      "task": "Contract fire-alarm monitoring, inspection and extinguisher service",
+      "instructions": "The model budgets $100–$450/month by size (operator estimate). Get vendor quotes and keep inspection tags current.",
+      "cite": "n/a",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Prepare financial-standing evidence for the application",
+      "instructions": "The application lists acceptable evidence: the entity's most recent bond rating (less than 2 years old), two years of operating a licensed facility, a surety bond of at least three months' operating expenses, or other acceptable evidence. A new operator will usually need the surety bond or other evidence. Premiums are an operator estimate of $1,000–$15,000 (ask a surety broker).",
+      "cite": "77 Ill. Adm. Code 295.500",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Obtain liability insurance and document it for the application",
+      "instructions": "The rule requires 'documentation of adequate liability insurance' with no dollar minimum stated. Get quotes (model: about $100 per resident per month, operator estimate). Lenders and landlords may set higher minimums.",
+      "cite": "77 Ill. Adm. Code 295.500",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Assemble the complete license application package",
+      "instructions": "Follow 295.500 item by item: applicant and ownership information, financial evidence, insurance documentation, standard or floating request and other listed items. Get the current IDPH forms from the assisted living page. Have counsel review before filing.",
+      "cite": "77 Ill. Adm. Code 295.500",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the nonrefundable application fee with the application",
+      "instructions": "Shared housing: $1,000. Assisted living: $2,000 + $20 per licensed unit (20 units = $2,400; 40 units = $2,800). The fee must accompany the application and is nonrefundable. Third-party figures of $2,500 initial and $1,000 renewal conflict with the rule and should not be used.",
+      "cite": "77 Ill. Adm. Code 295.500",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Plan for the 120-day issuance timeline",
+      "instructions": "IDPH will issue a regular license within 120 days after receipt of an application. A first-time applicant is issued a probationary license. Do not set a hard opening date or advertise move-in dates until you have the license in hand.",
+      "cite": "77 Ill. Adm. Code 295.600",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Meet the approval conditions before IDPH acts",
+      "instructions": "Conditions include paying all fees, substantial compliance, and all employees subject to the Health Care Worker Background Check Act meeting that Act's requirements. Complete staff screening (Phase 6) before the survey.",
+      "cite": "77 Ill. Adm. Code 295.600",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Do not admit residents or advertise services until licensed",
+      "instructions": "No person may establish, operate, maintain or offer an ALE or SHE without a valid license. Operating unlicensed carries a civil penalty of up to $3,000 and enforcement action.",
+      "cite": "210 ILCS 9/25; 77 Ill. Adm. Code 295",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — IDPH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Respond to IDPH deficiency or information requests quickly",
+      "instructions": "Keep a log of all IDPH correspondence and deadlines. Designate one person (manager or owner) as the IDPH contact and keep copies of everything submitted.",
+      "cite": "77 Ill. Adm. Code 295.600",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Hire a full-time manager who meets the qualification rule",
+      "instructions": "Each ALE must have a full-time manager. The director/manager must be at least 21 with a high school diploma or equivalent plus specified experience (e.g., 2 years management or progressive-responsibility experience, or an alternative). The 2026 amendments also touch director qualifications, so check P.A. 104-0589. Modeled salary $55,000–$90,000 by size (operator estimate); if the owner is the manager this line is the owner's pay.",
+      "cite": "77 Ill. Adm. Code 295.3000; P.A. 104-0589",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Confirm current manager training-hour requirements with IDPH",
+      "instructions": "A 2012 proposed-amendment text mentions 20 hours every two years, but it is outdated and not verified against the current code. Get the current figure from IDPH and budget the courses.",
+      "cite": "77 Ill. Adm. Code 295.3000",
+      "source_id": "S57"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "If using a shared housing manager across homes, stay within the span limit",
+      "instructions": "A shared housing manager may oversee up to three establishments only if they are within 30 minutes driving time of each other and the manager can be reached immediately.",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Build a 24/7 staffing schedule that meets the rule",
+      "instructions": "ALEs must have at least one staff member awake, on duty and on site 24 hours/day. SHEs must have at least one staff member on site at all times (brief exceptions for resident transport and errands). The awake-overnight rule for shared housing was not verified, so the model staffs awake overnight (730 hrs/month) for all configurations.",
+      "cite": "77 Ill. Adm. Code 295.3000",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Make sure a CPR-certified direct care employee is on duty at every hour",
+      "instructions": "At least one direct care staff person with adult CPR certification must be on duty at all times. Certify every aide, track expirations and schedule so each shift has a certified person.",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Size staffing to resident needs, not just the minimum",
+      "instructions": "An establishment may not accept or retain a resident if it lacks staff appropriate in numbers and with appropriate skill to provide required services. The model adds a second aide on days/evenings for 12–16 beds, and a third for the 16-bed home (operator estimates — verify locally).",
+      "cite": "77 Ill. Adm. Code 295.2000",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Check every applicant on the Nurse Aide Registry before hiring",
+      "instructions": "Check the status of all applicants with the Nurse Aide Registry before hiring. Do not hire anyone with a finding of abuse or neglect. Keep a dated printout in each personnel file.",
+      "cite": "77 Ill. Adm. Code 295.3000",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Run fingerprint-based background checks under the Health Care Worker Background Check Act",
+      "instructions": "The Act covers employees who have or may have contact with residents. Fingerprints must be collected electronically and sent to the Illinois State Police within 10 working days. Budget for live-scan vendor fees (operator estimate: $500–$3,000 startup across first hires).",
+      "cite": "225 ILCS 46",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Set aide wages above the legal minimum and recompute for your location",
+      "instructions": "The model uses $22.10/hour (BLS OEWS May 2025 Illinois nursing assistant median per a secondary source; another reports $21.75). State minimum is $15.00; Chicago $17.05 and suburban Cook $15.40 from 2026-07-01 per one source (others conflict). Check your city or county ordinance.",
+      "cite": "820 ILCS 105/4; BLS OEWS",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Arrange RN/LPN oversight for assessments and medication management",
+      "instructions": "Medication administration rules were amended by P.A. 104-0589. Read the new text before deciding who may give medications. The model budgets nurse hours at $45/hour (operator estimate; Illinois BLS nurse wages were not retrieved) from 4 hrs/week (6 beds) to 40 hrs/week (40 units).",
+      "cite": "P.A. 104-0589",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Build the orientation and in-service training program",
+      "instructions": "Read the training requirements in 295.3000 and the 2026 amendments, and write a training plan covering every position. Keep sign-in sheets, curricula and certificates in personnel files. Model training/CPR/checks cost: $150–$500/month by size (operator estimate).",
+      "cite": "77 Ill. Adm. Code 295.3000",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Set up payroll with the correct employer taxes",
+      "instructions": "Employer FICA is 7.65% (2026 Social Security wage base $184,500). Illinois UI for new employers is generally 3.35% on a $14,250 base (sources conflict). Use a payroll provider. The model uses 8.8% payroll tax, 5% workers' comp and 6% benefits (partly operator estimates).",
+      "cite": "IRS; IDES",
+      "source_id": "S58"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Hire cook, housekeeping and activities staff according to your model",
+      "instructions": "The model uses $18–$19/hour for cook/housekeeping (operator estimates, above Chicago's minimum). Larger buildings add an activities coordinator. Apply the same background checks to every employee with resident contact.",
+      "cite": "n/a",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "CRITICAL",
+      "task": "Bind workers' compensation coverage",
+      "instructions": "Illinois carriers set their own rates (no single state rate). NCCI's filing proposed a -0.1% advisory rate level change effective 1/1/2026. The model uses 5% of direct-care payroll (operator estimate), so get quotes from several carriers using the correct residential-care class code.",
+      "cite": "NCCI IL advisory filing",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "HIGH",
+      "task": "Place property, general liability, professional liability and umbrella coverage",
+      "instructions": "Use a broker experienced with assisted living. Tie limits to your lease, lender and surety requirements. Keep certificates for the IDPH application file.",
+      "cite": "77 Ill. Adm. Code 295.500",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "CRITICAL",
+      "task": "Capitalize the full ramp-up deficit, not just startup costs",
+      "instructions": "Model cash needed to reach profit: 16-bed SHE about $387,000 (first profit month 8); 12-bed about $256,000 (month 6); 40-unit ALE about $1.62 million (month 13). The 6-bed and 20-unit configurations do not reach profit under the modeled assumptions. Add a contingency for the 120-day licensing wait with no revenue.",
+      "cite": "Pro Forma P&L (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "HIGH",
+      "task": "Use realistic occupancy and ramp assumptions",
+      "instructions": "No Illinois-only occupancy was found. NIC MAP reports national assisted living occupancy of 87.9% for Q1 2026. Run the Pro Forma at 80% as well, because in small homes one vacancy is 6–17% of census.",
+      "cite": "NIC MAP via Senior Housing News",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "HIGH",
+      "task": "Set your private-pay rate from local comparables, not just the statewide median",
+      "instructions": "CareScout's 2025 Illinois median is $6,219/month for a private one-bedroom unit in an AL community (memory care $7,800). Shared rooms in small homes often price lower; each $500 rate cut costs about $7,000/month in the 16-bed model at 88% occupancy. Survey 5–10 local competitors. 2024 benchmarks conflict ($5,836 vs $5,225).",
+      "cite": "CareScout 2025 (U.S. News)",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "HIGH",
+      "task": "Budget the annual IDPH renewal fee",
+      "instructions": "Establishments must submit an annual renewal application with the applicable licensure fee. The current renewal amount was not verified. The model uses the initial application fee ÷ 12 as a placeholder. Ask IDPH for the actual fee and update the Pro Forma.",
+      "cite": "IDPH Assisted Living page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "MEDIUM",
+      "task": "Set up accounting, billing and a monthly budget-to-actual review",
+      "instructions": "Track rent, payroll, food and supplies against the Pro Forma each month. Rent, utilities and building costs are fixed and are owed even with vacant beds.",
+      "cite": "n/a",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — INSURANCE, FINANCE & CAPITALIZATION",
+      "priority": "MEDIUM",
+      "task": "Plan a 50% rent-increase and wage-increase stress test",
+      "instructions": "In the 16-bed model, if actual rent is 50% higher (about +$4,500/month), margin falls by the same amount. Test your lender covenants and cash reserves against that.",
+      "cite": "Pro Forma P&L (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Set up the pre-admission comprehensive assessment process",
+      "instructions": "A comprehensive assessment is required before admission and annually after. Under P.A. 104-0589 (effective 2026-07-24) it may be completed by a physician, physician assistant or APRN. Build your assessment forms and a referral relationship with a clinician.",
+      "cite": "210 ILCS 9; P.A. 104-0589",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Write admission and retention criteria",
+      "instructions": "The establishment may not accept or retain a resident if it lacks staff appropriate in numbers and skill to provide required services. Read 295.2000 for the full list of conditions and write policies that match the needs you can staff.",
+      "cite": "77 Ill. Adm. Code 295.2000",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Draft the resident contract to meet Section 295.2030",
+      "instructions": "The assisted living contract must state that medical assistance under Articles V or VI of the Illinois Public Aid Code is not available for services in the establishment. Read 295.2030 for the other mandatory contents and have counsel review.",
+      "cite": "77 Ill. Adm. Code 295.2030",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the policies and procedures manual",
+      "instructions": "Cover admission, service plans, medication management, abuse and neglect reporting, incident reporting, resident rights, emergencies, infection control, dietary and staff screening. Align each policy to the Part 295 section it satisfies. Budget part of the $3,000–$20,000 setup line (operator estimate).",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "HIGH",
+      "task": "Select eMAR / care documentation / billing software",
+      "instructions": "The model budgets $200–$900/month by size (operator estimate; get quotes). No state-mandated software or EVV was identified for private-pay AL/SHE. HFS EVV notices name personal care, home health and HHCS agencies only.",
+      "cite": "HFS EVV FAQ; Provider Notice 02/10/2026",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "HIGH",
+      "task": "Build referral relationships",
+      "instructions": "Meet hospital discharge planners, physicians, Area Agencies on Aging and senior placement agencies. No referral-source breakdown was found for Illinois ALFs. The model budgets $100/resident/month for placement-agency fees (operator estimate).",
+      "cite": "n/a",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Plan a gradual admission ramp",
+      "instructions": "The model assumes 1 admission/month for the 6-bed, 2/month for 12–16 beds and 2–3/month for apartments. Verify against your referral pipeline and the IDPH survey calendar.",
+      "cite": "Pro Forma P&L (this bundle)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — RESIDENT ADMISSION, CONTRACTS & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Launch marketing and a website",
+      "instructions": "Budget $400–$1,500/month by size, plus launch outreach of $2,000–$15,000 (operator estimates). Do not market licensed services before the license is issued.",
+      "cite": "n/a",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "HIGH",
+      "task": "Evaluate whether SLP fits your business",
+      "instructions": "SLP is run by HFS for persons aged 65+ or persons aged 22–64 with a physical disability. Each provider designates which population it serves. It is a separate approval from IDPH licensure and is not guaranteed. Medicaid pays only through SLP, not in standard AL/SHE.",
+      "cite": "89 Ill. Adm. Code 146",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "HIGH",
+      "task": "Prepare the SLP application package",
+      "instructions": "Applicants must show site control, zoning approval, a market study, a Phase I environmental study and architectural drawings. Approval depends on accuracy, completeness, geographic distribution and waiver limits.",
+      "cite": "HFS SLP Resident Fact Sheet; HFS LTSS",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "HIGH",
+      "task": "Plan for the 24-month certification window",
+      "instructions": "An approved SLP site can be certified once it meets 89 Ill. Adm. Code Part 146 within 24 months of approval. Read Part 146 for staffing, building and dementia-care requirements, which were not fully verified here.",
+      "cite": "89 Ill. Adm. Code 146",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "HIGH",
+      "task": "Download the current regional SLP rate schedule and model it yourself",
+      "instructions": "The SLP per diem is 54.75% of the average total nursing facility services per diem in your region (7 regions). Approved dementia-care settings receive 150% of the regular SLP per diem. Quality and nutrition add-ons are available. HFS posts spreadsheets (latest effective 10/01/2026). The dollar rates were not retrieved, so the Pro Forma has no SLP revenue.",
+      "cite": "HFS Supportive Living reimbursement",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "HIGH",
+      "task": "Model the resident-paid room and board correctly",
+      "instructions": "Effective 2026-01-01: $874.00/month single occupancy and $625.50/month per resident double occupancy. The resident pays room and board; Medicaid pays the service per diem. HFS applicants at or above SSI income contribute all but $90/month (a secondary source reports $120).",
+      "cite": "HFS Provider Notice (R&B 2026)",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "MEDIUM",
+      "task": "Understand the SLP referral and screening pathway",
+      "instructions": "Applicants are screened by HFS or a designated screening agency for nursing-facility level of care. Managed-care members can go through their care coordinator. SLP is not an entitlement, so waitlists can form when slots are full.",
+      "cite": "HFS SLP client page",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "MEDIUM",
+      "task": "Enroll as an Illinois Medicaid provider in IMPACT",
+      "instructions": "Illinois Medicaid provider enrollment and eligibility are managed through IMPACT. No CY2026 enrollment fee was confirmed, so check IMPACT before budgeting.",
+      "cite": "HFS IMPACT",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "MEDIUM",
+      "task": "Set up quarterly SLP quality-metric reporting",
+      "instructions": "Illinois law (P.A. 102-0699) requires a quality add-on component, and SLP providers submit quality metric data quarterly through the HFS SLP web portal. Assign a staff member to the portal.",
+      "cite": "HFS SLP Quality Metrics Process; Portal Manual",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "MEDIUM",
+      "task": "Check whether EVV applies to your SLP services",
+      "instructions": "HFS states EVV is required for Medicaid personal care and home health services. A Feb. 2026 HFS notice applies only to HHCS agencies. SLP is not named in either source. Confirm in writing with HFS.",
+      "cite": "HFS EVV FAQ; Notice 02/10/2026",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 9 — OPTIONAL: SUPPORTIVE LIVING PROGRAM (MEDICAID)",
+      "priority": "MEDIUM",
+      "task": "Track SLP waiver renewal risk",
+      "instructions": "The SLP 1915(c) waiver (0326.R05.00) expires 09/30/2027, and HFS has posted a proposed waiver amendment effective January 1, 2027. Read the amendment before committing capital to an SLP build.",
+      "cite": "CMS waiver listing; HFS SLP page",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Renew the IDPH license on time every year",
+      "instructions": "All establishments must submit an annual renewal application with the licensure fee. The statute's window is 120 to 150 days before license expiration. Calendar the window the day the license is issued, and confirm the current renewal procedure with IDPH.",
+      "cite": "210 ILCS 9/45",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Know the two-year renewal conditions",
+      "instructions": "IDPH may renew for an additional 2 years only if there has been no Type 1 or Type 2 violation in the preceding 24 months, along with other disqualifiers listed in the statute. Run mock inspections so you stay eligible.",
+      "cite": "210 ILCS 9/45",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Prepare for the annual onsite review",
+      "instructions": "A 2024 amendment reportedly shortened IDPH's deadline to deliver written findings to 10 business days (from 20), per a secondary summary. Verify the current procedure in Part 295. Keep personnel files, assessments, contracts and training records survey-ready at all times.",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Report manager changes to IDPH within 10 working days",
+      "instructions": "Changes in manager must be reported within 10 working days after the change. Keep a qualified backup so the full-time manager requirement is never unmet.",
+      "cite": "77 Ill. Adm. Code 295",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Reassess every resident at least annually",
+      "instructions": "The comprehensive assessment is repeated annually and when condition changes. Document who completed it (physician, PA or APRN) and update the service plan.",
+      "cite": "210 ILCS 9; P.A. 104-0589",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Keep screening every new hire",
+      "instructions": "Run the Nurse Aide Registry check before hiring, send fingerprints to Illinois State Police within 10 working days, and keep CPR coverage on every shift. These are survey and license-approval items.",
+      "cite": "225 ILCS 46; 77 Ill. Adm. Code 295.3000",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review wages against minimum-wage changes each July 1 and January 1",
+      "instructions": "Chicago's local minimum rises on July 1 each year ($17.05 from 2026-07-01 per HiveDesk; one other source says $16.20). Illinois has no scheduled statewide increase beyond $15.00 and no indexing. Recompute payroll when local rates change.",
+      "cite": "820 ILCS 105/4; local ordinances",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Monitor Part 295 rulemaking and legislation",
+      "instructions": "Watch the Illinois Register, the status of SB3950 (tracker conflicts) and any HB 3328 or HB 1597 developments. Update policies and the resident contract each time a rule changes.",
+      "cite": "Illinois Register",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Track Illinois UI experience rating after the first 3 years",
+      "instructions": "New-employer rates apply for the first 3 years of operation, then an experience-adjusted rate applies (0.75%–7.05% range for experienced employers in 2026). Keep claims low by documenting terminations.",
+      "cite": "IDES; 2026 UI rates",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review the Pro Forma quarterly against actual results",
+      "instructions": "Update occupancy, private-pay rate, wage and rent with real numbers. If you are below the break-even occupancy (about 77% for the 16-bed model), act on pricing, staffing hours or marketing right away.",
+      "cite": "Pro Forma P&L (this bundle)",
+      "source_id": ""
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Unlicensed-operation penalty wrongly stated as a $3,000 cap",
+      "change": "Rewrote service_model and risks text: unlicensed operation is subject to Nursing Home Care Act penalties (Sec. 25), up to $5,000 per violation per day (Sec. 135); removed the $3,000 figure. The checklist item fees_and_timelines_in_checklist[26] was not in the data provided and still needs the same fix."
+    },
+    {
+      "issue": "Manager training described as unverified/outdated",
+      "change": "Operations text and opex[14] notes now state the 20 hours every 2 years requirement (210 ILCS 9/35). The checklist item [28] was not provided and still needs this fix."
+    },
+    {
+      "issue": "Comprehensive assessment is mandatory ('must') and restricted to physician/PA/APRN; RN/LPN lines labeled 'assessments'",
+      "change": "Changed 'may' to 'must' in service_model, operations and key_numbers[12]. Relabeled RN/LPN roles and notes in four configurations. Flagged the effective date as needing confirmation. Added not_claimed noting there is no cost line for physician/PA/APRN assessments, because no cost was verified. Margins in the text were not recomputed. Checklist item [9] was not provided."
+    },
+    {
+      "issue": "IDPH license fee placeholder applied to every configuration",
+      "change": "No numeric change: the 20-unit ($200) and 40-unit ($233.33) overrides already exist. Updated the opex[9] notes to say so."
+    },
+    {
+      "issue": "2-year renewal conditions incomplete",
+      "change": "Added the 10+ Type 3 violation and Section 75 conditions and the discretionary 'may' wording in key_numbers[6], licensing_pathway and opex[9] notes."
+    },
+    {
+      "issue": "Regulator phone/email empty",
+      "change": "Set HFS phone 1-844-528-8444 and email HFS.SLF@illinois.gov in regulators[2] and contacts[2]. The IDPH contact remains unverified and stays in not_claimed."
+    },
+    {
+      "issue": "Secretary of State regulator pointed to a third-party site",
+      "change": "Replaced the URL with the ilsos.gov business services page and added not_claimed that the fees are unconfirmed on an official page."
+    },
+    {
+      "issue": "Mandatory paid leave and Secure Choice not itemized in benefits",
+      "change": "Appended an unverified-items note to payroll_burden.notes and added not_claimed. The 6% rate was not changed."
+    },
+    {
+      "issue": "$6,219 rate unverifiable (U.S. News fetch failed)",
+      "change": "No change: rates[0] notes and not_claimed already flag it as a secondary reproduction not confirmed against the CareScout PDF and as possibly overstated for shared rooms."
+    },
+    {
+      "issue": "120-day issuance applies only to a complete application; probationary license unverified",
+      "change": "Added the 'meets the Act and Part 295' qualifier, the one-year regular license term and a pointer to 295.800 in licensing_pathway Step 6. The probationary sentence is now hedged. The checklist item [25] was not provided."
+    }
+  ]
+}
