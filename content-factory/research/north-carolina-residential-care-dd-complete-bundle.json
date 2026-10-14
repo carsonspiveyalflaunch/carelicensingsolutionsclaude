@@ -1,0 +1,2781 @@
+{
+  "bundle_slug": "north-carolina-residential-care-dd-complete-bundle",
+  "state": "North Carolina",
+  "state_code": "NC",
+  "program": "Residential Care (DD)",
+  "state_program_name": "Supervised Living, 'C' designation (adults whose primary diagnosis is a developmental disability), licensed under G.S. 122C and 10A NCAC 27G .5600. Medicaid residential services are paid as NC Innovations Waiver Residential Supports through LME/MCO Tailored Plans.",
+  "as_of": "2026-10",
+  "report_title": "North Carolina Supervised Living Group Homes for Adults with I/DD (10A NCAC 27G .5600) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "NC State Plan Att. 3.1-A.1 p.19 (Supervised Living Homes, archived)",
+      "publisher": "CMS (archived NC State Plan attachment)",
+      "url": "https://downloads.cms.gov/cmsgov/archived-downloads/MedicaidGenInfo/downloads/NC-10-031-Att2.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "10A NCAC 27G .5601 Scope (Supervised Living)",
+      "publisher": "NC Office of Administrative Hearings (NC Administrative Code)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2027%20-%20mental%20health,%20community%20facilities%20and%20services/subchapter%20g/10a%20ncac%2027g%20.5601.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Establish a Mental Health, I/DD or Substance Abuse Service",
+      "publisher": "NC DHHS Division of Health Service Regulation (MHL Licensure & Certification)",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/establish.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "MHLCS Frequently Asked Questions (fees, zoning, penalties, QP)",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/faq.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "The Basics of Mental Health Licensing Process (slide deck, Feb. 2026)",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/newprovider.pdf?ver=1.1",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Initial Mental Health Licensure Application Packet",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/mhiapp.pdf?ver=1",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Report on Group Home Funding Sustainability (S.L. 2017-57)",
+      "publisher": "NC DHHS",
+      "url": "https://www.ncdhhs.gov/documents/files/group-home-funding-report-final-8-31/download",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "Information for Providers: NC Innovations Waiver",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/beneficiaries/nc-innovations-waiver/information-providers-nc-innovations-waiver",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Innovations Waiver Providers: updated service and national accreditation requirements (2026-04-16)",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/blog/2026/04/16/innovations-waiver-providers-updated-service-and-national-accreditation-requirements",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "2026-2027 Innovation Waiver Services Benefit Plan",
+      "publisher": "Trillium Health Resources (LME/MCO)",
+      "url": "https://www.trilliumhealthresources.org/sites/default/files/docs/Benefit-Plans-Services-Definitions/Trillium-Medicaid-Innovations-Waiver-Benefit-Plan.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "NC Innovations Waiver Direct Care Worker Wage Increase (2026-09-25)",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/blog/2026/09/25/north-carolina-innovations-waiver-direct-care-worker-wage-increase",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "NC Innovations Waiver (0423.R04.00)",
+      "publisher": "CMS Medicaid.gov",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/82756",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "NC Innovations Waiver (renewal period)",
+      "publisher": "Partners Health Management (LME/MCO)",
+      "url": "https://www.partnersbhm.org/north-carolina-innovations-waiver/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Public Notice SPA #25-0026: State Budget Rate Reductions",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/spa-25-0026-1-day-public-notice-nc-medicaid-state-budget-rate-reductions/open",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Special Bulletin: Innovations Residential Supports and AFL (archived)",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/documents/providers/bulletins/archives/0113-innovations-special-bulletin/download",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "NC Innovations Waiver Changes FAQ (service definitions)",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/documents/medicaid/innovations/nc-innovations-waiver-changes-faq-service-definitions/download",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Standard Rate Schedule FY27 (updated Oct 2026)",
+      "publisher": "Alliance Health (LME/MCO)",
+      "url": "https://www.alliancehealthplan.org/document-library/97251",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "S.L. 2026-41 Innovations DCW Wage Increases by Procedure Code",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/sl-2026-41-north-carolina-innovations-waiver-direct-care-worker-wage-increases-procedure-code/download?attachment",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Electronic Visit Verification (Provider Central)",
+      "publisher": "Vaya Health (LME/MCO)",
+      "url": "https://providers.vayahealth.com/monitoring-and-post-payment-review/electronic-visit-verification/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "Electronic Visit Verification (EVV)",
+      "publisher": "Alliance Health (LME/MCO)",
+      "url": "https://www.alliancehealthplan.org/providers/network/evv/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Provider Re-credentialing / Re-verification",
+      "publisher": "NCTracks (NC Medicaid fiscal agent)",
+      "url": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "How to Enroll in NC Medicaid as an Individual",
+      "publisher": "NCTracks (NC Medicaid fiscal agent)",
+      "url": "https://per.nctracks.com/content/dam/jcr:efbac4a4-cfa2-4835-a1c4-fdde48441529/FINAL%20clean%20-%20How%20Do%20I%20Enroll%20in%20North%20Carolina%20Medicaid%20as%20an%20Individual.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Federal Provider Enrollment Application Fee Increase for Year 2026",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/blog/2025/12/08/federal-provider-enrollment-application-fee-increase-year-2026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "What's New in 2026? (SSI federal benefit rate)",
+      "publisher": "Social Security Administration (Red Book)",
+      "url": "https://www.ssa.gov/redbook/newfor2026.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "State and County Special Assistance for Adult Care Home Residents",
+      "publisher": "NC DHHS Division of Social Services",
+      "url": "https://www.ncdhhs.gov/divisions/social-services/special-assistance/state-and-county-special-assistance-adult-care-home-residents",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "2025-2026 NC Medicaid and Special Assistance Rates",
+      "publisher": "Mason Law PC",
+      "url": "https://masonlawpc.com/hot-topics-and-info/nc-medicaid-rates/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "CareScout Releases 2025 Cost of Care Data for North Carolina",
+      "publisher": "CareScout (via Morningstar / Business Wire)",
+      "url": "https://www.morningstar.com/news/business-wire/20260302919942/carescout-releases-2025-cost-of-care-data-for-north-carolina",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Ranked Median Costs by State, Cost of Care Survey 2025",
+      "publisher": "CareScout",
+      "url": "https://assets.carescout.com/x/5c90319b6a/298701.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Long-Term Care Costs Increase in North Carolina (2024 survey)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1015/long-term-care-costs-increase-in-north-carolina-on-par",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "LMI Tuesday: NC Employment & Wage Profile (May 2025)",
+      "publisher": "NC Department of Commerce",
+      "url": "https://www.commerce.nc.gov/lmi-tuesday-july-7-2026/download?attachment=",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Occupational Employment and Wages in Raleigh-Cary, NC — May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/southeast/news-release/occupationalemploymentandwages_raleigh.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Nursing Assistant (CNA) Salary by State (BLS OEWS May 2025)",
+      "publisher": "CareLink (citing BLS)",
+      "url": "https://www.careslink.com/en/salary/nursing-assistant",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "LPN Salary in North Carolina (BLS OEWS May 2025)",
+      "publisher": "RenewRN (citing BLS)",
+      "url": "https://www.renewrn.net/lpn-salary/north-carolina",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Registered Nurse Salary by State (BLS OEWS May 2025)",
+      "publisher": "CareLink (citing BLS)",
+      "url": "https://www.careslink.com/en/salary/registered-nurse",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "North Carolina Payroll: Employer Tax Guide (minimum wage, E-Verify)",
+      "publisher": "FirstHR",
+      "url": "https://firsthr.app/compare/payroll/north-carolina-payroll",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Tax Rate Information (2026 UI wage base and new-employer rate)",
+      "publisher": "NC Division of Employment Security",
+      "url": "https://www.des.nc.gov/employers/tax-rate-information",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Employer Tax FAQs (2026 UI max rate and base rate)",
+      "publisher": "NC Division of Employment Security",
+      "url": "https://www.des.nc.gov/need-help/faqs/employer-tax-faqs",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "How to Form an LLC in North Carolina (2026)",
+      "publisher": "NC Registered Agent",
+      "url": "https://www.ncregisteredagent.org/llc/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "North Carolina LLC Cost and Filing Requirements",
+      "publisher": "UpCounsel",
+      "url": "https://www.upcounsel.com/nc-llc-filing-requirements",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "N.C.G.S. Chapter 105, Article 3 (Franchise Tax)",
+      "publisher": "NC General Assembly",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_105/Article_3.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "LLC Annual Report and Tax Filing Requirements in North Carolina",
+      "publisher": "Nolo",
+      "url": "https://www.nolo.com/legal-encyclopedia/annual-report-tax-filing-requirements-north-carolina-llcs.html",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "NC Industrial Commission Maximum Weekly Compensation Rates",
+      "publisher": "NC Industrial Commission",
+      "url": "https://www.ic.nc.gov/ncic/pages/maxrates.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Workers' Compensation Rate Filings",
+      "publisher": "North Carolina Rate Bureau",
+      "url": "https://www.ncrb.org/ncrb/Workers-Compensation/Rate-Filings",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "2026 Section 8 Rent Amounts in North Carolina",
+      "publisher": "BnBCalc",
+      "url": "https://www.bnbcalc.com/section8/nc",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Fair Market Rent by County and State (FY 2026)",
+      "publisher": "PropMetrics",
+      "url": "https://www.propmetrics.co/fair-market-rent",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Fair Market Rents for FY 2026 (Federal Register notice)",
+      "publisher": "HUD / Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/08/22/2025-16060/fair-market-rents-for-the-housing-choice-voucher-program-moderate-rehabilitation-single-room",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "Small Area Fair Market Rents (SAFMR) Data",
+      "publisher": "HUD USER",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "Inclusion Connects Quarterly Report (data Jul 1–Sep 30, 2025)",
+      "publisher": "NC DHHS",
+      "url": "https://www.ncdhhs.gov/inclusion-connects-report-january-15-2026/open",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Innovations Waitlist Dashboard",
+      "publisher": "NC DHHS",
+      "url": "https://www.ncdhhs.gov/about/department-initiatives/inclusion-connects/innovations-waitlist-dashboard",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "DHSR Statement of Deficiencies form (10A NCAC 27G .5603 Operations)",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/sods/2025/20251003-956262.pdf?ver=1",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "10A NCAC 27G Subchapter G Rules (LME need determination)",
+      "publisher": "NC Office of Administrative Hearings (NC Administrative Code)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2027%20-%20mental%20health,%20community%20facilities%20and%20services/subchapter%20g/subchapter%20g%20rules.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "Report on Group Home Funding Sustainability (S.L. 2017-57), legislative copy",
+      "publisher": "NC General Assembly / NC DHHS",
+      "url": "https://www.ncleg.gov/Files/Library/agency/dhhs14493.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Medicaid DD Waiver Waitlists by State (2026), aggregator",
+      "publisher": "Special Needs Trust by State",
+      "url": "https://specialneedstrustbystate.com/medicaid-waiver-waitlists/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "Cost of Senior Care in North Carolina (2026)",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/care-types/north-carolina/cost-of-senior-care",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "NC Medicaid Provider Enrollment: 2026 NCTracks Guide & Fees",
+      "publisher": "MedSole (vendor blog)",
+      "url": "https://medsolercm.com/blog/nc-medicaid-provider-enrollment",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "Innovations Waiver (Residential Supports description)",
+      "publisher": "PSOC, Inc. (provider website)",
+      "url": "https://www.psocinc.com/innovations-waiver-1",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Initial license fee, non-ICF/IID residential facility with 6 or fewer beds (base fee; $0 per bed). Paid with the application, and the license is not issued until it is paid.",
+      "value": "$350",
+      "source_id": "S4",
+      "as_of": "page current 2026-10"
+    },
+    {
+      "metric": "Maximum census for a supervised living home serving clients with mental illness or developmental disabilities",
+      "value": "6 clients (so the 7+ bed fee tier of $525 + $19/bed does not apply to adult I/DD homes)",
+      "source_ids": [
+        "S50",
+        "S4"
+      ],
+      "as_of": "2025 DHSR survey form; fee page current 2026-10"
+    },
+    {
+      "id": "licensure_trigger",
+      "metric": "Licensure trigger for supervised living",
+      "value": "License required when serving 2 or more adult clients (or 1 or more minors). Operating without a license is a Class H felony with a $1,000/day fine.",
+      "source_ids": [
+        "S2",
+        "S4"
+      ],
+      "as_of": "rule eff. July 20, 2019; FAQ current 2026-10"
+    },
+    {
+      "metric": "NC Innovations Residential Supports Level 1 per diem (H2016), Alliance Health schedule",
+      "value": "$158.47 per day (Levels 2/3/4: $208.72 / $218.10 / $228.62). LME/MCO-published; subject to change with LME/MCO funding.",
+      "source_id": "S17",
+      "as_of": "2026-10-01"
+    },
+    {
+      "metric": "SFY 2027 Innovations direct care worker (DCW) add-on, Residential Supports (H2016, T2014, T2020, H2016 HI)",
+      "value": "$7.68 per diem (assumes 64 units and group size 2.5); provider attestation to the LME/MCO required",
+      "source_ids": [
+        "S18",
+        "S11"
+      ],
+      "as_of": "provider rate add-on effective 2026-10-01; LME/MCO capitation retroactive to 2026-07-01"
+    },
+    {
+      "metric": "Innovations Waiver waitlist (people remaining)",
+      "value": "20,150 (up from 18,457 a year earlier); 106 removed in the quarter; 14,736 approved active slots; no new slots approved for FY2025-26",
+      "source_id": "S48",
+      "as_of": "2025-09-30"
+    },
+    {
+      "metric": "Required accreditation before enrolling as an Innovations Residential Supports provider",
+      "value": "National accreditation is required for enrollments after April 20, 2026; providers already enrolled must re-enroll and report accreditation by April 20, 2027. The accreditor list (COA, CQL, JCAHO, CARF) and whether Residential Supports is among the 'select' services are unverified; check the NCTracks Provider Permission Matrix for the Residential Supports service type.",
+      "source_id": "S9",
+      "as_of": "2026-04-16 (applies to enrollments after April 20, 2026)"
+    },
+    {
+      "metric": "SSI federal benefit rate, individual (income that typically funds room and board; Medicaid does not pay room and board)",
+      "value": "$994 per month",
+      "source_ids": [
+        "S24",
+        "S16"
+      ],
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Medicaid provider application fees",
+      "value": "$100 NC application fee at enrollment and every 5 years; an older NCTracks guide says it is collected per site location, so confirm whether it applies per home or per tax ID. Federal fee $750 for CY2026, which applies only 'when applicable'; applicability to this provider type is not confirmed.",
+      "source_ids": [
+        "S21",
+        "S22",
+        "S23"
+      ],
+      "as_of": "2026"
+    },
+    {
+      "metric": "Timing of DHSR construction review",
+      "value": "About 8–10 weeks per the Feb. 2026 DHSR deck and the DHSR FAQ (the FAQ text reads 'approximately 18-10 weeks', likely a typo for 8–10); a code interpretation can delay it. Plan for the longer end. DHSR gives applicants 6 months to complete the program review, after which the application can be rescinded or denied.",
+      "source_ids": [
+        "S5",
+        "S4",
+        "S3"
+      ],
+      "as_of": "2026"
+    },
+    {
+      "metric": "2026 NC unemployment insurance (new employer rate; taxable wage base)",
+      "value": "1.000%; $34,200",
+      "source_id": "S36",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Annual license renewal",
+      "value": "Annual. The initial license is valid for up to 15 months (G.S. 122C-23(e)); renewals are annual after that and licenses expire at the end of the calendar year (Dec 31), so the first renewal falls on the next Dec 31 after issuance. The renewal fee amount is not verified.",
+      "source_id": "S6",
+      "as_of": "current packet"
+    }
+  ],
+  "not_claimed": [
+    "Residential staffing ratios, awake-overnight requirements and RN oversight rules for 10A NCAC 27G .5600. The rule subsection text was not retrieved. A 2018 legislative report cites a ratio of 1 staff per 6 individuals [S52], but it is not confirmed as the current rule, so the model uses operator estimates labeled 'verify locally'.",
+    "Administrator/manager/director qualifications and required annual training hours for supervised living homes. Only the general qualified-professional definition and the DHSR statement that it provides no personnel training were verified.",
+    "Insurance, liability coverage or bond minimums for supervised living homes, and NC motor vehicle financial-responsibility minimums. Premiums in the model are operator estimates.",
+    "Change-of-ownership fee amounts. The Construction project review fee appears on slide 35 of the DHSR new-provider deck at about $225 for a 4–6 bed non-ICF/IID home, but the slide image is low-resolution, so the exact amount should be confirmed with the Construction Section Help Desk.",
+    "The official NC Medicaid state-published fee schedule for Residential Supports. Innovations services are managed by Tailored Plans and are outside the published state fee schedule [S14]. Only LME/MCO-published copies (Alliance, Oct. 2026) were retrieved. Rates at Partners, Trillium and Vaya may differ.",
+    "Whether Alliance's FY27 per diems already include the $7.68 DCW add-on, so the add-on is not stacked on top of the Alliance rates. Level definitions (Levels 1–4) and the criteria for assigning a resident to a level were not verified.",
+    "Whether the SFY 2025-26 3% Innovations rate reduction (effective 10/1/2025, SPA #25-0026) remains in effect in 2026, and whether other SFY 2027 rate changes are pending beyond the DCW add-ons.",
+    "Whether Residential Supports (as opposed to CLS and Supported Living Periodic) is subject to EVV. The sources reviewed name only CLS and Supported Living. Tailored Plans use HHAeXchange as their EVV vendor [S20].",
+    "Whether the federal CY2026 Medicaid application fee ($750) applies to this provider type; confirm with NCTracks at enrollment. The NCTracks taxonomy and enrollment steps specific to group-home Residential Supports were not found.",
+    "Statewide count of licensed 10A NCAC 27G .5600 homes, license counts by designation (A–F), counts of enrolled Residential Supports providers, census/occupancy data, market shares and named competitors. No official source was retrieved.",
+    "The current Innovations waiver cost cap. The NC Medicaid page states $184,000 per waiver year (Appendix K), but other passages still cite $135,000 [S8]. Treat the cap as unconfirmed.",
+    "The current waitlist count and average wait. The official NCDHHS figure is 20,150 as of Sept. 30, 2025 [S48]. An aggregator reports 21,449 as of 3/31/2026 and an average wait of 12.26 years [S53], and the official dashboard shows a different average time on the list. Neither aggregator figure is used.",
+    "Referral-source breakdowns (hospital, ICF/IID, family, LME/MCO) beyond the NCDHHS transition and in-reach data, and waitlist or enrollment figures for aging caregivers of adults with I/DD.",
+    "Whether a given supervised living home is approved to accept Special Assistance, and any individual resident's eligibility (age 65+ or disability, income and assets). The $1,397 base rate and $70 personal needs allowance are confirmed by DHHS materials, but Special Assistance revenue is not modeled.",
+    "A single authoritative NC assisted living private-pay median. CareScout's press-release table shows $74,400/yr [S27], a secondary guide shows $77,955/yr [S54], and Genworth 2024 showed $76,245/yr [S29]. These measure assisted living communities, not I/DD group homes, and are not used as revenue assumptions.",
+    "Official BLS OEWS May 2025 North Carolina wages for direct support workers, nursing assistants, LPNs, RNs, cooks and administrators/managers. Nurse and CNA wages are from secondary summaries citing BLS [S32, S33, S34]. Only Raleigh-Cary group-level BLS figures (personal care and service $19.29 mean; food preparation and serving $16.61 mean) were retrieved [S31], and direct-support-worker, cook and manager wages are not directly sourced.",
+    "NC minimum wage ($7.25) and preemption of local minimum wage ordinances are taken from a secondary payroll guide [S35]; the NC Department of Labor page was not opened.",
+    "NC workers' compensation class rate for residential care/group homes. The NCRB 4/1/2026 loss-cost summary was not opened [S43].",
+    "LLC filing fees ($125 Articles of Organization; $200 annual report due April 15) are from secondary guides [S38, S39]; the NC Secretary of State fee schedule was not opened. Franchise tax (G.S. 105 Art. 3: $1.50 per $1,000 of base, $200 minimum) generally does not apply to partnership-taxed LLCs, per a secondary source [S41]. The NC corporate income tax rate for 2026 was not confirmed.",
+    "Official HUD FY2026 Fair Market Rents for Charlotte-Concord-Gastonia and a commercial rent survey for residential or healthcare space. Rent benchmarks retrieved are from secondary sources of unclear scope [S44, S45], so lease costs are operator estimates.",
+    "Specific zoning classification rules for .5600 homes beyond the requirement for local zoning approval, and inspection frequency beyond 'annual reviews'.",
+    "Whether a pending amendment to 10A NCAC 27G .5600 or 2025 H933 provisions affecting group homes exists. No proposed rulemaking notice was found.",
+    "Whether new Innovations waiver slots were funded for FY2026-27 beyond the DCW appropriation, and the status of Appendix K flexibility sunset implementation.",
+    "Any claim that a new provider will receive referrals from the LME/MCO or the state. New homes fill through the choice-list process and enrollments; no referral guarantee is documented.",
+    "The December 1, 2027 date by which LME/MCOs report DCW add-on usage to NC Medicaid. It could not be confirmed from the fetched text.",
+    "The list of accepted national accreditors (COA, CQL, JCAHO, CARF) and whether Residential Supports is among the 'select' services that require accreditation. The fetched NC Medicaid page was truncated; check the NCTracks Provider Permission Matrix.",
+    "The '10–12 weeks' construction review timing attributed to the DHSR establish page. It could not be found there; the DHSR FAQ and the February 2026 deck support 8–10 weeks.",
+    "The renewal fee amount for a DHSR supervised living license (assumed equal to the $350 initial fee), the paragraph (c)/(d) ratio and overnight staffing requirements of 10A NCAC 27G .5602, the '1 staff per 6 individuals' ratio from the 2018 DHHS report, and whether the NCTracks $100 fee is charged per site or per tax ID. The NC Raleigh-Cary $19.29 and all-occupation $47,970 wage figures were also not independently verified."
+  ],
+  "regulators": [
+    {
+      "name": "NC DHHS Division of Health Service Regulation (DHSR), Mental Health Licensure & Certification Section",
+      "role": "Licenses supervised living (.5600) facilities, reviews applications, and conducts annual reviews, complaint inspections and enforcement (suspension or revocation).",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/establish.html",
+      "phone": "",
+      "email": "stacy.silvia@dhhs.nc.gov (Licensure & Training team leader, as listed by DHSR)",
+      "address": "2718 Mail Service Center, Raleigh, NC 27699-2718",
+      "source_id": "S5"
+    },
+    {
+      "name": "DHSR Construction Section",
+      "role": "Reviews physical plant and construction plans and conducts site inspections. The construction fee is paid before review and inspection.",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/newprovider.pdf?ver=1.1",
+      "phone": "(919) 855-3893 (Construction Section Help Desk)",
+      "email": "",
+      "source_id": "S5"
+    },
+    {
+      "name": "LME/MCO (Tailored Plan) for the home's county: Alliance Health, Partners Health Management, Trillium Health Resources or Vaya Health",
+      "role": "Issues the letter of support required for a residential license application under G.S. 122C-23.1, determines local need for supervised living beds, administers Innovations waiver services, and contracts with and pays providers. There are four LME/MCOs, one per county.",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/establish.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S3"
+    },
+    {
+      "name": "NC Medicaid (NCDHHS Division of Health Benefits)",
+      "role": "Administers the NC Innovations 1915(c) waiver and sets provider accreditation and enrollment requirements, DCW rate increases and policy bulletins.",
+      "url": "https://medicaid.ncdhhs.gov/beneficiaries/nc-innovations-waiver/information-providers-nc-innovations-waiver",
+      "phone": "",
+      "email": "",
+      "source_id": "S8"
+    },
+    {
+      "name": "NCTracks (NC Medicaid fiscal agent)",
+      "role": "Provider enrollment, re-credentialing and revalidation. $100 NC application fee; the federal fee applies when applicable.",
+      "url": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    },
+    {
+      "name": "NC DHHS Division of Social Services (Special Assistance)",
+      "role": "Administers State/County Special Assistance, a room-and-board cash supplement for eligible residents of approved residential facilities, including group homes.",
+      "url": "https://www.ncdhhs.gov/divisions/social-services/special-assistance/state-and-county-special-assistance-adult-care-home-residents",
+      "phone": "",
+      "email": "",
+      "source_id": "S25"
+    },
+    {
+      "name": "NC Division of Employment Security",
+      "role": "Unemployment insurance tax registration and rates for employers.",
+      "url": "https://www.des.nc.gov/employers/tax-rate-information",
+      "phone": "",
+      "email": "",
+      "source_id": "S36"
+    },
+    {
+      "name": "Local zoning / planning authority (city or county)",
+      "role": "Residential providers must obtain local zoning approval, which is submitted with the DHSR application.",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/faq.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S4"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "N.C.G.S. Chapter 122C (Mental Health, Developmental Disabilities and Substance Abuse Act)",
+      "title": "Statutory basis for licensing supervised living homes",
+      "url": "https://downloads.cms.gov/cmsgov/archived-downloads/MedicaidGenInfo/downloads/NC-10-031-Att2.pdf",
+      "source_id": "S1"
+    },
+    {
+      "cite": "10A NCAC 27G .5601",
+      "title": "Supervised Living — Scope (24-hour facility in a home environment; licensed if serving 2+ adults or 1+ minors; 'C' designation for adults with a primary developmental disability; minors and adults may not reside together)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2027%20-%20mental%20health,%20community%20facilities%20and%20services/subchapter%20g/10a%20ncac%2027g%20.5601.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "10A NCAC 27G .5603",
+      "title": "Supervised Living — Operations (a facility serves no more than six clients when clients have mental illness or developmental disabilities)",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/sods/2025/20251003-956262.pdf?ver=1",
+      "source_id": "S50"
+    },
+    {
+      "cite": "10A NCAC 27G .0304(d)",
+      "title": "Physical plant: single bedrooms at least 100 sq ft, double bedrooms at least 160 sq ft, no more than two clients per bedroom; at least one full bathroom per five or fewer persons including staff and family",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/newprovider.pdf?ver=1.1",
+      "source_id": "S5"
+    },
+    {
+      "cite": "10A NCAC 27G .0104",
+      "title": "Definition of qualified professional",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/faq.html",
+      "source_id": "S4"
+    },
+    {
+      "cite": "10A NCAC 27G Subchapter G rules",
+      "title": "LME determination of need for additional supervised living beds",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2027%20-%20mental%20health,%20community%20facilities%20and%20services/subchapter%20g/subchapter%20g%20rules.html",
+      "source_id": "S51"
+    },
+    {
+      "cite": "N.C.G.S. 122C-23",
+      "title": "License fees and annual renewal. The license cannot be issued until the fee is paid; licenses expire at the end of the calendar year.",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/mhiapp.pdf?ver=1",
+      "source_id": "S6"
+    },
+    {
+      "cite": "N.C.G.S. 122C-23.1",
+      "title": "Letter of support from the LME/MCO required with a residential license application (except ICF/IID)",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/establish.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "N.C.G.S. 122C-28",
+      "title": "Operating a licensable facility without a license is a Class H felony; $1,000 per day fine",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/faq.html",
+      "source_id": "S4"
+    },
+    {
+      "cite": "N.C.G.S. Chapter 122C, Article 1 (H.B. 1294, Sec. 3)",
+      "title": "Smoking prohibited inside licensed facilities",
+      "url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/newprovider.pdf?ver=1.1",
+      "source_id": "S5"
+    },
+    {
+      "cite": "NC Innovations Waiver, CMS 1915(c) No. 0423.R04.00",
+      "title": "Approved 1915(c) waiver including residential supports for people with I/DD (renewal period reported as July 1, 2024–June 30, 2029)",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/82756",
+      "source_id": "S12"
+    },
+    {
+      "cite": "NC Medicaid — Innovations Waiver provider accreditation requirement (post of 2026-04-16)",
+      "title": "Residential Supports providers must hold COA, CQL, JCAHO or CARF accreditation before enrolling",
+      "url": "https://medicaid.ncdhhs.gov/blog/2026/04/16/innovations-waiver-providers-updated-service-and-national-accreditation-requirements",
+      "source_id": "S9"
+    },
+    {
+      "cite": "S.L. 2026-41",
+      "title": "Appropriation for Innovations direct care worker rate increases (SFY 2027); procedure-code add-on table; provider attestation",
+      "url": "https://medicaid.ncdhhs.gov/sl-2026-41-north-carolina-innovations-waiver-direct-care-worker-wage-increases-procedure-code/download?attachment",
+      "source_id": "S18"
+    },
+    {
+      "cite": "N.C.G.S. Chapter 105, Article 3",
+      "title": "Franchise tax: $1.50 per $1,000 of tax base, $200 minimum (tax years beginning on/after 1/1/2025)",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_105/Article_3.html",
+      "source_id": "S40"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan (Alliance Health schedule)",
+      "code": "H2016",
+      "service": "Residential Supports, Level 1",
+      "rate": 158.47,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "LME/MCO-published. Alliance states the rates are subject to change based on LME/MCO funding. Other LME/MCOs may differ. Excludes room and board. Not verified whether the DCW add-on is already included.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan (Alliance Health schedule)",
+      "code": "H2016 U2",
+      "service": "Residential Supports, Level 1 — Alternative Family Living (AFL)",
+      "rate": 161.12,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "AFL setting, not a licensed group home. Shown for context only.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan (Alliance Health schedule)",
+      "code": "T2014",
+      "service": "Residential Supports, Level 2",
+      "rate": 208.72,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "LME/MCO-published; subject to LME/MCO funding. Level assignment criteria not verified.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan (Alliance Health schedule)",
+      "code": "T2020",
+      "service": "Residential Supports, Level 3",
+      "rate": 218.1,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "LME/MCO-published; subject to LME/MCO funding.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan (Alliance Health schedule)",
+      "code": "H2016 HI",
+      "service": "Residential Supports, Level 4",
+      "rate": 228.62,
+      "unit": "per day",
+      "effective": "2026-10-01",
+      "notes": "LME/MCO-published; subject to LME/MCO funding.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NC Medicaid — Innovations Waiver DCW add-on (S.L. 2026-41)",
+      "code": "H2016 / T2014 / T2020 / H2016 HI",
+      "service": "Residential Supports direct care worker rate add-on, per diem",
+      "rate": 7.68,
+      "unit": "per day",
+      "effective": "Provider rate add-on effective 2026-10-01; LME/MCO capitation retroactive to 2026-07-01",
+      "notes": "Code table assumes 64 units and a group size of 2.5. Providers must file an attestation with their LME/MCO to receive it. LME/MCOs may retroactively process provider rates only back to 2026-10-01, and only after validating that the funds are used as the legislature intended; no add-on revenue should be modeled for Jul–Sep 2026. LME/MCOs report usage to NC Medicaid. The base add-on is $0.30 per 15-minute unit before group and home-size adjustment [S11]. Do not stack on the Alliance schedule unless the LME/MCO confirms it is not already included.",
+      "source_id": "S18"
+    },
+    {
+      "payer": "Resident income — SSI (room and board source)",
+      "code": "",
+      "service": "SSI federal benefit rate, individual (ceiling for what an SSI-only resident can contribute toward room and board)",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Medicaid Residential Supports does not pay room and board [S15][S16]. Actual room-and-board charges and the resident's personal-needs allowance must be verified against each resident's income and the LME/MCO's rules.",
+      "source_id": "S24"
+    },
+    {
+      "payer": "NC State/County Special Assistance (room and board supplement)",
+      "code": "",
+      "service": "Maximum Special Assistance rate, base (DHHS Special Assistance manual, rev. June 2026: SA Basic rate $1,397 plus $70 personal needs allowance)",
+      "rate": 1397,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "The $1,397 monthly rate is confirmed for 2026 by DHHS materials (SA In-Home Program Manual, rev. June 2026: https://policies.ncdhhs.gov/wp-content/uploads/Special-Assistance-In-Home-Program-Manual-Rev-June-2026.pdf, and the 2026 DHHS Special Assistance brochure). The brochure says benefits go to eligible people in DHSR-licensed residential facilities, with examples that include group homes/supervised living and mental health group homes. The personal needs allowance is $70. Eligibility for a given resident (age 65+ or disabled, income and assets) must be checked with the county DSS. Not modeled; it could raise room-and-board revenue above the $750 modeled for eligible residents.",
+      "source_id": "S26"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "DHSR Mental Health Licensure & Certification Section",
+      "role": "Licensure application, initial and annual reviews",
+      "contact": "2718 Mail Service Center, Raleigh, NC 27699-2718; stacy.silvia@dhhs.nc.gov (Licensure & Training team leader); https://info.ncdhhs.gov/dhsr/mhlcs/establish.html"
+    },
+    {
+      "name": "DHSR Construction Section Help Desk",
+      "role": "Physical plant and building questions; construction fee and review",
+      "contact": "(919) 855-3893"
+    },
+    {
+      "name": "Alliance Health (LME/MCO Tailored Plan)",
+      "role": "Letter of support, waiver administration, provider contracting, rate schedule and EVV (HHAeXchange)",
+      "contact": "https://www.alliancehealthplan.org/"
+    },
+    {
+      "name": "Partners Health Management (LME/MCO Tailored Plan)",
+      "role": "Letter of support, waiver administration and provider contracting",
+      "contact": "https://www.partnersbhm.org/"
+    },
+    {
+      "name": "Trillium Health Resources (LME/MCO Tailored Plan)",
+      "role": "Letter of support, waiver administration and provider contracting; publishes the 2026-2027 Innovations benefit plan",
+      "contact": "https://www.trilliumhealthresources.org/"
+    },
+    {
+      "name": "Vaya Health (LME/MCO Tailored Plan)",
+      "role": "Letter of support, waiver administration, provider contracting and EVV guidance",
+      "contact": "https://providers.vayahealth.com/"
+    },
+    {
+      "name": "NC Medicaid — Innovations Waiver provider information",
+      "role": "Waiver policy, accreditation requirements and DCW rate attestations",
+      "contact": "https://medicaid.ncdhhs.gov/beneficiaries/nc-innovations-waiver/information-providers-nc-innovations-waiver"
+    },
+    {
+      "name": "NCTracks",
+      "role": "Medicaid provider enrollment, re-credentialing and fees",
+      "contact": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html"
+    },
+    {
+      "name": "NC DHHS Division of Social Services — Special Assistance",
+      "role": "Room-and-board supplement for eligible residents",
+      "contact": "https://www.ncdhhs.gov/divisions/social-services/special-assistance/state-and-county-special-assistance-adult-care-home-residents"
+    },
+    {
+      "name": "NC Division of Employment Security",
+      "role": "Employer unemployment insurance registration and rates",
+      "contact": "https://www.des.nc.gov/employers/tax-rate-information"
+    },
+    {
+      "name": "National accreditation bodies (COA, CQL, JCAHO, CARF)",
+      "role": "One accreditation is required before enrolling as an Innovations Residential Supports provider",
+      "contact": "Contact the accrediting body of your choice; requirement posted at https://medicaid.ncdhhs.gov/blog/2026/04/16/innovations-waiver-providers-updated-service-and-national-accreditation-requirements"
+    },
+    {
+      "name": "Local city/county zoning office",
+      "role": "Zoning approval for the residential site, required with the DHSR application",
+      "contact": "Contact the planning/zoning department of the city or county where the home is located"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.85,
+      "optimistic": 0.95,
+      "rationale": "Share of licensed beds filled and billed on an average day. NCDHHS reports 20,150 people on the Innovations Waiver waitlist and only 106 removed in the Jul–Sep 2025 quarter, with no new slots approved for FY2025-26 [S48]. That shows demand for waiver-funded placements, but it does not guarantee referrals to a new home. New homes fill through the LME/MCO choice-list process and enrollments, and beds sit empty between residents. The 90% default (85% conservative, 95% optimistic) is an operator assumption — verify locally; it is not a sourced statistic.",
+      "source_id": "S48"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "sl4_l2",
+        "label": "One 4-resident supervised living home, all Level 2",
+        "capacity": 4,
+        "notes": "Smallest entry model. The program manager, billing, accreditation and insurance costs sit on only four residents, so it loses money at real Alliance Level 2 rates. Level 2 is an assumption; level definitions and assignment criteria were not verified.",
+        "revenue_lines": [
+          {
+            "name": "NC Innovations Residential Supports Level 2 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2014",
+            "rate": 208.72,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026, subject to LME/MCO funding. Other LME/MCOs may pay differently. Excludes room and board. The $7.68 DCW add-on is NOT stacked because it is unconfirmed whether the schedule already includes it [S18]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S24",
+            "notes": "Medicaid Residential Supports does not pay room and board [S15][S16]. $750 is an operator estimate of what an SSI-only resident can contribute (2026 SSI federal benefit rate $994/month [S24]), leaving about $244 for personal needs. Verify each resident's income and LME/MCO rules. Special Assistance is not modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours",
+            "wage_hourly": 17.0,
+            "wage_source_id": "S32",
+            "basis": "hours_per_month",
+            "amount": 973,
+            "cite": "10A NCAC 27G .5602 (Staff): at least one staff present at all times when any adult client is on the premises, unless the plan documents otherwise; ratio and overnight paragraphs not retrieved",
+            "notes": "973 h/month = one awake staff 24/7 (730 h) plus a second staff about 8 h/day (243 h). Operator estimate — verify locally. A 2018 DHHS report describes a minimum of 1 staff per 6 individuals [S52], which this exceeds. The $17.00 wage is an operator estimate; sourced proxies are higher (NC CNA median about $18.49 [S32]; Raleigh-Cary personal care and service group mean $19.29 [S31]). NC minimum wage is $7.25 [S35]. At $18.49 this configuration loses about $7,400/month at 90% occupancy."
+          },
+          {
+            "role": "Program manager / qualified professional (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 27500,
+            "wage_source_id": "S30",
+            "cite": "10A NCAC 27G .0104 (QP definition)",
+            "notes": "0.5 FTE × $55,000. Operator estimate; no NC manager wage was found. Benchmark: NC all-occupation median $47,970 [S30]. Qualifications for supervised living managers were not verified."
+          },
+          {
+            "role": "Billing, authorizations and records coordinator (0.25 FTE)",
+            "basis": "annual_salary",
+            "amount": 10000,
+            "wage_source_id": "S30",
+            "cite": "",
+            "notes": "0.25 FTE × $40,000, operator estimate (benchmark: NC all-occupation median $47,970 [S30]). Handles LME/MCO claims, authorizations, EVV/records and the DCW attestation."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, delegation, training)",
+            "wage_hourly": 40.56,
+            "wage_source_id": "S34",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "",
+            "notes": "NC median RN about $84,350/yr ($40.56/h) per a secondary summary of BLS OEWS May 2025 [S34]. 1.5 h per resident per month is an operator estimate. Current RN oversight rules were not verified; a legacy report mentions RN on-call [S52]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "One 4-bedroom home, operator estimate — verify locally. Landlord must accept group-home use and local zoning approval is required with the DHSR application [S4]. Secondary FMR figures [S44][S45] are for small units or unclear scope and were not used."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate, $150 × 1 home."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 vehicle per home. NC motor-vehicle insurance minimums were not verified."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate; no required minimum was verified. Get quotes."
+          },
+          {
+            "item": "Training (in-person CPR/first aid, medication administration), background checks",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate. Staff need criminal record and HCPR checks; online-only CPR is not accepted; medication training must be in person [S5]. DHSR provides no training [S5]."
+          },
+          {
+            "item": "DHSR license renewal (annual fee ÷ 12)",
+            "monthly": 29.17,
+            "basis": "fixed",
+            "notes": "$350/yr × 1 home ÷ 12. The renewal fee is assumed equal to the $350 initial fee for 6 or fewer beds [S4] — renewal amount not verified. Licenses are renewed annually and expire Dec. 31 [S6].",
+            "source_id": "S4"
+          },
+          {
+            "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Required before enrolling as a Residential Supports provider [S9]. Fee amounts were not found; operator estimate — get accreditor quotes."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and LME/MCO / family outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: about one new resident per month through the choice-list process and transfers. Slower filling adds roughly a month of fixed cost per month of delay. All staffing is needed before the license is issued [S4]."
+        }
+      },
+      {
+        "id": "sl6_l1",
+        "label": "One 6-resident supervised living home, all Level 1",
+        "capacity": 6,
+        "notes": "Shows that a full home of Level 1 residents ($158.47/day) does not cover required coverage and overhead. Level assignment criteria were not verified.",
+        "revenue_lines": [
+          {
+            "name": "NC Innovations Residential Supports Level 1 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "H2016",
+            "rate": 158.47,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026, subject to LME/MCO funding. Excludes room and board. The $7.68 DCW add-on is not stacked (unconfirmed whether already included) [S18]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S24",
+            "notes": "Medicaid does not pay room and board [S15][S16]. $750 is an operator estimate against the 2026 SSI federal benefit rate of $994 [S24]. Verify each resident's income."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours",
+            "wage_hourly": 17.0,
+            "wage_source_id": "S32",
+            "basis": "hours_per_month",
+            "amount": 973,
+            "cite": "10A NCAC 27G .5602 (Staff): at least one staff present at all times when any adult client is on the premises, unless the plan documents otherwise; ratio and overnight paragraphs not retrieved",
+            "notes": "973 h/month = one awake staff 24/7 (730 h) plus a second staff about 8 h/day (243 h). Operator estimate — verify locally; a 2018 DHHS report cites a 1 staff per 6 individuals minimum [S52]. Wage $17.00 is an operator estimate; proxies are higher (CNA median about $18.49 [S32]; Raleigh-Cary personal care group mean $19.29 [S31]). At $18.49 the loss widens to about $4,500/month at 90% occupancy."
+          },
+          {
+            "role": "Program manager / qualified professional (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 27500,
+            "wage_source_id": "S30",
+            "cite": "10A NCAC 27G .0104 (QP definition)",
+            "notes": "0.5 FTE × $55,000, operator estimate (benchmark: NC all-occupation median $47,970 [S30])."
+          },
+          {
+            "role": "Billing, authorizations and records coordinator (0.25 FTE)",
+            "basis": "annual_salary",
+            "amount": 10000,
+            "wage_source_id": "S30",
+            "cite": "",
+            "notes": "0.25 FTE × $40,000, operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, delegation, training)",
+            "wage_hourly": 40.56,
+            "wage_source_id": "S34",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "",
+            "notes": "NC median RN about $40.56/h per a secondary summary of BLS OEWS May 2025 [S34]. 1.5 h per resident per month is an operator estimate; current RN oversight rules were not verified."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence",
+            "monthly": 2800,
+            "basis": "fixed",
+            "notes": "One 4–5 bedroom home with at least two full baths (one full bath per 5 or fewer persons including staff and family; no more than two clients per bedroom [S5]). Operator estimate — verify locally. Rent is fixed whether beds are full or not."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 550,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate, $150 × 1 home."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 vehicle per home."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate; no required minimum verified."
+          },
+          {
+            "item": "Training (in-person CPR/first aid, medication administration), background checks",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "DHSR license renewal (annual fee ÷ 12)",
+            "monthly": 29.17,
+            "basis": "fixed",
+            "notes": "$350/yr × 1 home ÷ 12; 6 beds or fewer, $0 per bed [S4]. Renewal amount assumed equal to the initial fee — not verified.",
+            "source_id": "S4"
+          },
+          {
+            "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Required before enrolling [S9]; amount is an operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and LME/MCO / family outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: about one new resident per month."
+        }
+      },
+      {
+        "id": "sl6_l23",
+        "label": "One 6-resident supervised living home, Level 2/3 mix (50/50)",
+        "capacity": 6,
+        "notes": "Thin profit for a single home. The result depends on the LME/MCO assigning Level 2–3 to most residents, which was not verified, and on wage levels.",
+        "revenue_lines": [
+          {
+            "name": "NC Innovations Residential Supports Level 2 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2014",
+            "rate": 208.72,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026, subject to LME/MCO funding. Other LME/MCOs may differ. DCW add-on not stacked [S18]."
+          },
+          {
+            "name": "NC Innovations Residential Supports Level 3 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2020",
+            "rate": 218.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026. Level definitions were not verified."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S24",
+            "notes": "Medicaid does not pay room and board [S15][S16]. $750 is an operator estimate against the 2026 SSI federal benefit rate of $994 [S24]. Verify each resident's income."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours",
+            "wage_hourly": 17.0,
+            "wage_source_id": "S32",
+            "basis": "hours_per_month",
+            "amount": 1217,
+            "cite": "10A NCAC 27G .5602 (Staff): at least one staff present at all times when any adult client is on the premises, unless the plan documents otherwise; ratio and overnight paragraphs not retrieved",
+            "notes": "1,217 h/month = one awake staff 24/7 (730 h) plus a second staff about 16 h/day (487 h) for residents with higher support needs. Operator estimate — verify locally; a 2018 DHHS report cites a 1 staff per 6 individuals minimum [S52]. Wage $17.00 is an operator estimate; proxies are higher (CNA median about $18.49 [S32]; Raleigh-Cary personal care group mean $19.29 [S31]). At $18.49 the profit turns into a loss of about $800/month at 90% occupancy."
+          },
+          {
+            "role": "Program manager / qualified professional (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 27500,
+            "wage_source_id": "S30",
+            "cite": "10A NCAC 27G .0104 (QP definition)",
+            "notes": "0.5 FTE × $55,000, operator estimate (benchmark: NC all-occupation median $47,970 [S30])."
+          },
+          {
+            "role": "Billing, authorizations and records coordinator (0.25 FTE)",
+            "basis": "annual_salary",
+            "amount": 10000,
+            "wage_source_id": "S30",
+            "cite": "",
+            "notes": "0.25 FTE × $40,000, operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, delegation, training)",
+            "wage_hourly": 40.56,
+            "wage_source_id": "S34",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "",
+            "notes": "NC median RN about $40.56/h per a secondary summary of BLS OEWS May 2025 [S34]. 1.5 h per resident per month is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence",
+            "monthly": 2800,
+            "basis": "fixed",
+            "notes": "One 4–5 bedroom home, operator estimate — verify locally. Rent is fixed whether beds are full or not."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 550,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate, $150 × 1 home."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 vehicle per home."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate; no required minimum verified."
+          },
+          {
+            "item": "Training (in-person CPR/first aid, medication administration), background checks",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "DHSR license renewal (annual fee ÷ 12)",
+            "monthly": 29.17,
+            "basis": "fixed",
+            "notes": "$350/yr × 1 home ÷ 12 [S4]. Renewal amount assumed equal to the initial fee — not verified.",
+            "source_id": "S4"
+          },
+          {
+            "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Required before enrolling [S9]; amount is an operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and LME/MCO / family outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: about one new resident per month."
+        }
+      },
+      {
+        "id": "sl6_l34",
+        "label": "One 6-resident supervised living home, Level 3/4 mix (50/50), high-need residents",
+        "capacity": 6,
+        "notes": "Higher per diems ($218.10 / $228.62) but heavier staffing (two staff around the clock is an assumption). Roughly break-even to slightly negative. Level assignment criteria were not verified.",
+        "revenue_lines": [
+          {
+            "name": "NC Innovations Residential Supports Level 3 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2020",
+            "rate": 218.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026, subject to LME/MCO funding. DCW add-on not stacked [S18]."
+          },
+          {
+            "name": "NC Innovations Residential Supports Level 4 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "H2016 HI",
+            "rate": 228.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026. Other LME/MCOs may differ."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S24",
+            "notes": "Medicaid does not pay room and board [S15][S16]. $750 is an operator estimate against the 2026 SSI federal benefit rate of $994 [S24]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours",
+            "wage_hourly": 17.0,
+            "wage_source_id": "S32",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "10A NCAC 27G .5602 (Staff): at least one staff present at all times when any adult client is on the premises, unless the plan documents otherwise; ratio and overnight paragraphs not retrieved",
+            "notes": "1,460 h/month = two awake staff 24/7 (2 × 730 h) for residents with extensive behavioral or medical support needs. Operator estimate — verify locally. Wage $17.00 is an operator estimate; proxies are higher (CNA median about $18.49 [S32]; Raleigh-Cary personal care group mean $19.29 [S31]). At $18.49 the loss widens to about $4,700/month at 90% occupancy."
+          },
+          {
+            "role": "Program manager / qualified professional (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 27500,
+            "wage_source_id": "S30",
+            "cite": "10A NCAC 27G .0104 (QP definition)",
+            "notes": "0.5 FTE × $55,000, operator estimate (benchmark: NC all-occupation median $47,970 [S30])."
+          },
+          {
+            "role": "Billing, authorizations and records coordinator (0.25 FTE)",
+            "basis": "annual_salary",
+            "amount": 10000,
+            "wage_source_id": "S30",
+            "cite": "",
+            "notes": "0.25 FTE × $40,000, operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, delegation, training)",
+            "wage_hourly": 40.56,
+            "wage_source_id": "S34",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "",
+            "notes": "NC median RN about $40.56/h per a secondary summary of BLS OEWS May 2025 [S34]. 2.5 h per resident per month is an operator estimate for higher medical complexity."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence",
+            "monthly": 2800,
+            "basis": "fixed",
+            "notes": "One 4–5 bedroom home, operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 550,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 home."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate, $150 × 1 home."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate, 1 vehicle per home."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate; no required minimum verified."
+          },
+          {
+            "item": "Training (in-person CPR/first aid, medication administration), background checks",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate [S5]."
+          },
+          {
+            "item": "DHSR license renewal (annual fee ÷ 12)",
+            "monthly": 29.17,
+            "basis": "fixed",
+            "notes": "$350/yr × 1 home ÷ 12 [S4]. Renewal amount assumed equal to the initial fee — not verified.",
+            "source_id": "S4"
+          },
+          {
+            "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Required before enrolling [S9]; amount is an operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and LME/MCO / family outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: about one new resident per month."
+        }
+      },
+      {
+        "id": "sl6x2_l23",
+        "label": "Two 6-resident supervised living homes (12 residents), Level 2/3 mix",
+        "capacity": 12,
+        "notes": "Program manager and billing overhead is spread over two homes. Modest profit at default occupancy.",
+        "revenue_lines": [
+          {
+            "name": "NC Innovations Residential Supports Level 2 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2014",
+            "rate": 208.72,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026, subject to LME/MCO funding. DCW add-on not stacked [S18]."
+          },
+          {
+            "name": "NC Innovations Residential Supports Level 3 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2020",
+            "rate": 218.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026. Level definitions were not verified."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S24",
+            "notes": "Medicaid does not pay room and board [S15][S16]. $750 is an operator estimate against the 2026 SSI federal benefit rate of $994 [S24]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours",
+            "wage_hourly": 17.0,
+            "wage_source_id": "S32",
+            "basis": "hours_per_month",
+            "amount": 2434,
+            "cite": "10A NCAC 27G .5602 (Staff): at least one staff present at all times when any adult client is on the premises, unless the plan documents otherwise; ratio and overnight paragraphs not retrieved",
+            "notes": "2 homes × 1,217 h (one awake staff 24/7 plus a second staff about 16 h/day). Operator estimate — verify locally; a 2018 DHHS report cites a 1 staff per 6 individuals minimum [S52]. Wage $17.00 is an operator estimate; proxies are higher (CNA median about $18.49 [S32]; Raleigh-Cary personal care group mean $19.29 [S31]). At $18.49 profit turns into a loss of about $300/month at 90% occupancy."
+          },
+          {
+            "role": "Program manager / qualified professional (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "S30",
+            "cite": "10A NCAC 27G .0104 (QP definition)",
+            "notes": "1 FTE × $55,000, operator estimate (benchmark: NC all-occupation median $47,970 [S30])."
+          },
+          {
+            "role": "Billing, authorizations and records coordinator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 20000,
+            "wage_source_id": "S30",
+            "cite": "",
+            "notes": "0.5 FTE × $40,000, operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, delegation, training)",
+            "wage_hourly": 40.56,
+            "wage_source_id": "S34",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "",
+            "notes": "NC median RN about $40.56/h per a secondary summary of BLS OEWS May 2025 [S34]. 1.5 h per resident per month is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence",
+            "monthly": 5600,
+            "basis": "fixed",
+            "notes": "Two 4–5 bedroom homes at $2,800 each, operator estimate — verify locally. Rent is fixed whether beds are full or not."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1100,
+            "basis": "fixed",
+            "notes": "$550 × 2 homes, operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "$250 × 2 homes, operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 × 2 homes, operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "$800 × 2 homes, operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$450 × 2 homes, operator estimate; no required minimum verified."
+          },
+          {
+            "item": "Training (in-person CPR/first aid, medication administration), background checks",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "$250 × 2 homes, operator estimate [S5]."
+          },
+          {
+            "item": "DHSR license renewal (annual fee ÷ 12)",
+            "monthly": 58.33,
+            "basis": "fixed",
+            "notes": "$350/yr × 2 homes ÷ 12 [S4]. Renewal amount assumed equal to the initial fee — not verified.",
+            "source_id": "S4"
+          },
+          {
+            "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Required before enrolling [S9]; amount is an operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 750,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and LME/MCO / family outreach",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator estimate. The model staffs both homes from month 1; opening homes one at a time needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "sl6x3_l23",
+        "label": "Three 6-resident supervised living homes (18 residents), Level 2/3 mix",
+        "capacity": 18,
+        "notes": "The configuration an experienced NC operator would target: three licensed 6-bed homes, residents at Level 2–3, one program manager (1.5 FTE) and a 0.75 FTE billing coordinator. Profit is thin (about 85% occupancy to break even) and depends on LME/MCO level assignment and wage levels.",
+        "revenue_lines": [
+          {
+            "name": "NC Innovations Residential Supports Level 2 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2014",
+            "rate": 208.72,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026, subject to LME/MCO funding. Other LME/MCOs may differ. The $7.68/day DCW add-on [S18] is not stacked: if it is not already in the schedule it would add about $234 per resident per month. Providers must file an attestation to receive it."
+          },
+          {
+            "name": "NC Innovations Residential Supports Level 3 per diem",
+            "payer": "NC Medicaid — Innovations Waiver via LME/MCO Tailored Plan",
+            "code": "T2020",
+            "rate": 218.1,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S17",
+            "notes": "Alliance Health FY27 schedule effective 10/1/2026. Level definitions and assignment criteria were not verified."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S24",
+            "notes": "Medicaid does not pay room and board [S15][S16]. $750 is an operator estimate against the 2026 SSI federal benefit rate of $994 [S24]. Verify each resident's income."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours",
+            "wage_hourly": 17.0,
+            "wage_source_id": "S32",
+            "basis": "hours_per_month",
+            "amount": 3651,
+            "cite": "10A NCAC 27G .5602 (Staff): at least one staff present at all times when any adult client is on the premises, unless the plan documents otherwise; ratio and overnight paragraphs not retrieved",
+            "notes": "3 homes × 1,217 h (one awake staff 24/7 plus a second staff about 16 h/day). Operator estimate — verify locally; a 2018 DHHS report cites a 1 staff per 6 individuals minimum [S52]. Wage $17.00 is an operator estimate; proxies are higher (CNA median about $18.49 [S32]; Raleigh-Cary personal care group mean $19.29 [S31]). At $18.49 profit falls to about $200/month at 90% occupancy."
+          },
+          {
+            "role": "Program manager / qualified professional (1.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 82500,
+            "wage_source_id": "S30",
+            "cite": "10A NCAC 27G .0104 (QP definition)",
+            "notes": "1.5 FTE × $55,000, operator estimate (benchmark: NC all-occupation median $47,970 [S30])."
+          },
+          {
+            "role": "Billing, authorizations and records coordinator (0.75 FTE)",
+            "basis": "annual_salary",
+            "amount": 30000,
+            "wage_source_id": "S30",
+            "cite": "",
+            "notes": "0.75 FTE × $40,000, operator estimate."
+          },
+          {
+            "role": "Registered nurse consultant (medication oversight, delegation, training)",
+            "wage_hourly": 40.56,
+            "wage_source_id": "S34",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "",
+            "notes": "NC median RN about $40.56/h per a secondary summary of BLS OEWS May 2025 [S34]. 1.5 h per resident per month is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residence",
+            "monthly": 8400,
+            "basis": "fixed",
+            "notes": "Three 4–5 bedroom homes at $2,800 each, operator estimate — verify locally. Rent is fixed whether beds are full or not."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1650,
+            "basis": "fixed",
+            "notes": "$550 × 3 homes, operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 750,
+            "basis": "fixed",
+            "notes": "$250 × 3 homes, operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$150 × 3 homes, operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "$800 × 3 homes, operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 1350,
+            "basis": "fixed",
+            "notes": "$450 × 3 homes, operator estimate; no required minimum verified."
+          },
+          {
+            "item": "Training (in-person CPR/first aid, medication administration), background checks",
+            "monthly": 750,
+            "basis": "fixed",
+            "notes": "$250 × 3 homes, operator estimate [S5]."
+          },
+          {
+            "item": "DHSR license renewal (annual fee ÷ 12)",
+            "monthly": 87.5,
+            "basis": "fixed",
+            "notes": "$350/yr × 3 homes ÷ 12 [S4]. Renewal amount assumed equal to the initial fee — not verified.",
+            "source_id": "S4"
+          },
+          {
+            "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Required before enrolling [S9]; amount is an operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and LME/MCO / family outreach",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The model staffs all three homes from month 1; an operator who licenses and opens homes one at a time needs less cash than the modeled ramp-up deficit."
+        }
+      }
+    ],
+    "default_configuration": "sl6x3_l23",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.088,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.05,
+      "notes": "Payroll taxes 8.8% = employer FICA 7.65% + NC unemployment insurance at the 2026 standard new-employer rate of 1.000% on the first $34,200 of wages [S36] (about $342 for a full-time direct support worker at $17/hour, whose roughly $35,360 annual pay is above the wage base, so the full base is taxed) + FUTA (0.6% on the first $7,000, about $42, operator calculation). The experienced-employer maximum UI rate is 5.76% [S37]. Workers' compensation 4.0% is an operator estimate; the NC residential care class rate was not retrieved from the NCRB 4/1/2026 filing [S43]. Benefits 5.0% (paid time off, minimal benefits) is an operator estimate. Total burden 17.8%. No overtime or relief-coverage premium is modeled. Round-the-clock coverage staffed by full- and part-time workers usually creates FLSA overtime (1.5× over 40 hours per week) or paid-time-off relief hours, so budget for it separately (for example 5–10% of direct support hours at 1.5×).",
+      "source_id": "S36"
+    },
+    "opex": [
+      {
+        "item": "Lease — residence",
+        "monthly": 2800,
+        "basis": "fixed",
+        "notes": "Base case: one 4–5 bedroom home. Each configuration overrides this for its number of homes. Operator estimate — verify locally; secondary rent benchmarks [S44][S45] are for small units or unclear scope and were not used. Rent is fixed whether beds are full or not."
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 550,
+        "basis": "fixed",
+        "notes": "Operator estimate, 1 home."
+      },
+      {
+        "item": "Home maintenance, pest control, lawn, repairs",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate, 1 home."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate, 1 home."
+      },
+      {
+        "item": "Agency vehicle (payment, auto insurance, fuel)",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate, 1 vehicle per home for community transport."
+      },
+      {
+        "item": "General and professional liability insurance",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "Operator estimate; no required minimum for supervised living homes was verified. Get quotes."
+      },
+      {
+        "item": "Training (in-person CPR/first aid, medication administration), background checks",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate. DHSR does not provide training; online-only CPR is not accepted; medication training must be in person; criminal record and HCPR checks are required [S5]."
+      },
+      {
+        "item": "DHSR license renewal (annual fee ÷ 12)",
+        "monthly": 29.17,
+        "basis": "fixed",
+        "notes": "$350/yr per home ÷ 12 (6 beds or fewer, $0 per bed [S4]). Renewal fee assumed equal to the initial fee — renewal amount not verified. Annual renewal; licenses expire Dec. 31 [S6].",
+        "source_id": "S4"
+      },
+      {
+        "item": "National accreditation (COA/CQL/JCAHO/CARF) annual fees amortized",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "One accreditation is required before enrolling as a Residential Supports provider [S9]. Fee amounts were not found; operator estimate — get accreditor quotes."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office, postage and supplies",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and LME/MCO / family outreach",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "NC LLC annual report (due April 15)",
+        "monthly": 16.67,
+        "basis": "fixed",
+        "notes": "$200/yr ÷ 12, per a secondary guide [S39]; the NC Secretary of State fee schedule was not opened. Local business-license requirements were not verified.",
+        "source_id": "S39"
+      },
+      {
+        "item": "NC franchise tax",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "$0 modeled: a secondary source says LLCs taxed as partnerships owe no NC franchise tax [S41]. An LLC electing corporate tax treatment owes at least $200/yr under G.S. 105 Art. 3 ($1.50 per $1,000 of tax base) [S40].",
+        "source_id": "S40"
+      },
+      {
+        "item": "Food and household supplies",
+        "monthly": 410,
+        "basis": "per_client",
+        "notes": "$350 food + $60 household supplies per resident — operator estimate; partly recovered through the room-and-board charge."
+      },
+      {
+        "item": "Records / billing software",
+        "monthly": 35,
+        "basis": "per_client",
+        "notes": "Operator estimate — get vendor quotes. Tailored Plans use HHAeXchange for EVV [S20], but whether Residential Supports is subject to EVV was not confirmed, so no separate EVV fee is modeled."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "NC LLC Articles of Organization filing",
+        "low": 125,
+        "high": 125,
+        "source_id": "S38",
+        "notes": "$125 per a secondary guide ($128 online with card fee); NC Secretary of State fee schedule not opened."
+      },
+      {
+        "item": "DHSR initial license fee (non-ICF/IID, 6 or fewer beds: $350 base, $0 per bed; one license per home)",
+        "low": 350,
+        "high": 1050,
+        "source_id": "S4",
+        "notes": "Paid with the application; the license cannot be issued until it is paid [S6]. Adult I/DD homes are capped at 6 clients [S50], so the 7+ bed tier ($525 + $19/bed) does not apply."
+      },
+      {
+        "item": "NC Medicaid (NCTracks) provider application fee",
+        "low": 100,
+        "high": 300,
+        "source_id": "S21",
+        "notes": "$100 NC fee at initial enrollment and again every five years [S21][S22]. An older (2021) NCTracks organization guide says the NC fee is collected per site location, so the high case assumes $100 for each of 3 homes. Confirm with NCTracks whether the fee is charged per site or per tax ID."
+      },
+      {
+        "item": "Federal Medicaid enrollment application fee (CY2026)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S23",
+        "notes": "The federal fee is $750 for CY2026 'when applicable'. Whether it applies to this provider type was not confirmed; confirm with NCTracks at enrollment."
+      },
+      {
+        "item": "National accreditation (COA/CQL/JCAHO/CARF) application and initial survey",
+        "low": 6000,
+        "high": 15000,
+        "source_id": "S9",
+        "notes": "Accreditation is required before enrolling as a Residential Supports provider (post of 2026-04-16). Cost range is an operator estimate — get quotes."
+      },
+      {
+        "item": "DHSR Construction Section project review fee",
+        "low": 225,
+        "high": 675,
+        "source_id": "S5",
+        "notes": "Must be paid before Construction reviews the project or visits the site [S5]. The fee schedule is the Construction Fees table on slide 35 ('Initial Fees') of the DHSR new-provider deck [S5]. For a non-ICF/IID 4–6 bed home it appears to be about $225 per home, so about $225 for one home and $675 for three. The slide image is low-resolution, so this is approximate. Confirm the exact amount with the Construction Section Help Desk at (919) 855-3893 before budgeting."
+      },
+      {
+        "item": "Policies and procedures, client rights, medication and emergency forms",
+        "low": 2000,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Zoning approval and minor physical-plant modifications (bedroom size, second exit, bathrooms, egress)",
+        "low": 2000,
+        "high": 9000,
+        "source_id": "S5",
+        "notes": "Single bedrooms at least 100 sq ft, double at least 160 sq ft, no more than two clients per room; one full bath per five or fewer persons including staff and family; two remote exits per occupied story for homes with 4–6 clients or two stories [S5]. Local zoning approval is submitted with the application [S4]. Cost range is an operator estimate."
+      },
+      {
+        "item": "Lease deposit and first month's rent — residences",
+        "low": 4800,
+        "high": 16800,
+        "notes": "Operator estimate: deposit + first month, 1 home at $2,400 (low) to 3 homes at $2,800 (high). Verify locally."
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 7000,
+        "high": 21000,
+        "notes": "$7,000 per home — operator estimate. The facility must be completely furnished and ready to open before the initial license is issued [S4]."
+      },
+      {
+        "item": "Safety items: smoke alarms, extinguishers, bedroom hardware, first aid supplies",
+        "low": 1500,
+        "high": 4500,
+        "source_id": "S5",
+        "notes": "$1,500 per home — operator estimate."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 9000,
+        "notes": "$3,000 per home — operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, workers' comp)",
+        "low": 1500,
+        "high": 4000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Computers, phones, records and billing software setup",
+        "low": 1500,
+        "high": 4500,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Pre-licensing staff hiring, background and registry checks, in-person CPR and medication training",
+        "low": 8000,
+        "high": 24000,
+        "source_id": "S4",
+        "notes": "All staff must be in place before an initial license is issued [S4]; each needs a criminal record check and HCPR check [S5]. Operator estimate of 2–3 weeks of paid pre-opening labor."
+      },
+      {
+        "item": "Pre-revenue overhead: manager, billing and fixed costs from application through licensure, accreditation and first enrollment",
+        "low": 25000,
+        "high": 70000,
+        "category": "working_capital",
+        "source_id": "S3",
+        "notes": "DHSR gives applicants six months to complete the program review [S3]; the Medicaid pays only after the license, accreditation, NCTracks enrollment and LME/MCO contract are in place and a resident is authorized. Operator estimate; the generator replaces this advisory line with the modeled ramp-up deficit."
+      }
+    ],
+    "rates": {}
+  },
+  "sections": {
+    "executive_summary": "North Carolina licenses small group homes for adults with intellectual and developmental disabilities (I/DD) as **supervised living** facilities under G.S. 122C and 10A NCAC 27G .5600 [S1][S2]. Adult I/DD homes carry the 'C' designation (adults whose primary diagnosis is a developmental disability) [S2]. A home must be licensed if it serves two or more adults or one or more minors, and minors and adults may not live in the same facility [S2]. Operating a licensable facility without a license is a Class H felony with a $1,000-per-day fine [S4]. The licensing regulator is the DHSR Mental Health Licensure & Certification Section [S3][S5]. Homes serving clients with developmental disabilities are capped at six clients [S50], so the initial license fee is the **$350** base fee with no per-bed charge [S4].\n\nMedicaid pays for the service, not the building. Residential Supports under the NC Innovations 1915(c) waiver is administered by the four LME/MCOs, which operate as Tailored Plans and contract with and pay providers [S8][S12][S14]. There is no public state fee schedule for it [S14]. The only rates retrieved are from Alliance Health's FY27 schedule, effective October 1, 2026: **$158.47** (Level 1), **$208.72** (Level 2), **$218.10** (Level 3) and **$228.62** (Level 4) per day, subject to LME/MCO funding [S17]. Room and board is not paid by Medicaid [S15][S16]. It is typically funded from the resident's income, and the 2026 SSI federal benefit rate is $994 per month [S24]. Since April 2026, a new Residential Supports provider must also hold one national accreditation (COA, CQL, JCAHO or CARF) before enrolling [S9].\n\nDemand is large but slot-limited. NCDHHS counted **20,150** people on the Innovations waitlist on September 30, 2025, up from 18,457 a year earlier. Only 106 were removed in that quarter, and no new slots were approved for FY2025-26 [S48]. NCDHHS also reports that group homes are among the settings people prefer when transitioning out of institutions [S48]. None of this guarantees referrals to a new home, because homes fill through the LME/MCO choice-list process.\n\n**The economics are thin and depend heavily on the level mix.** At Alliance's October 2026 rates, with sourced wage proxies and every cost the rules create, three 6-bed homes serving Level 2/3 residents (18 residents) earn about **$6,636 per month (5.7% margin)** at 90% occupancy. That is the profit-leading configuration. It breaks even at about **84.5%** occupancy, first turns profitable in month 8, and needs about **$408,323** of cash through the ramp-up. Two homes earn about $4,002 per month (5.1%) and one Level 2/3 home about $1,368 (3.5%). A single 4-bed home loses about $5,715 per month, and an all-Level-1 home loses about $2,771. A $1.49-per-hour higher direct-care wage erases most of the default profit (see the financial narrative). This business works only with scale, residents assigned to Level 2 or above, disciplined occupancy and an operator who keeps overhead lean.",
+    "service_model": "**Who is served.** Adults with a primary developmental-disability diagnosis, who may also have other diagnoses, live in a supervised living home with the 'C' designation [S2]. Rule .5601 defines supervised living as a 24-hour facility providing residential services in a home environment [S2]. The CMS-archived State Plan language describes these homes as group homes of under seven beds [S1], and the operations rule caps homes serving people with mental illness or developmental disabilities at six clients [S50].\n\n**Related settings that are not the model here.** An Alternative Family Living ('F') home in a private residence serves no more than three adults [S2]. NC Medicaid says an unlicensed supervised living home may serve only one adult [S15]. Manufactured or mobile homes may be used only for three or fewer residents [S5]. Residential Supports is described as supporting a person to live in a group home or an Alternative Family Living setting [S56]. This report models only licensed group homes with up to six residents.\n\n**How the service is funded.** The Medicaid service is Residential Supports under NC Innovations (CMS waiver 0423.R04.00) [S12]. A secondary source reports the waiver was renewed for July 1, 2024 through June 30, 2029 [S13]. Per the Trillium 2026-2027 benefit plan, a member who receives Residential Supports may not receive several other waiver and State Plan services, including Home Modifications, Community Living and Supports, Supported Living and State Plan personal care [S10]. This reflects one provider delivering a whole-day residential service. The same plan limits adults in residential settings to 40 hours per week combined of community networking, day supports and supported employment [S10]. The residential provider is therefore usually not the day-program provider.\n\n**What a customer should understand.** The license (DHSR) and the payment (LME/MCO) are separate gates. A home can be licensed and still earn nothing until an LME/MCO enrolls the provider, accreditation is complete and a resident is authorized.",
+    "licensing_pathway": "The steps below follow DHSR's published process. Where sources conflict or are silent, that is stated.\n\n1. **Form the business.** Set up an entity, and get an EIN and NCTracks-ready records. The LLC filing fee ($125) and annual report ($200, due April 15) come from secondary guides [S38][S39], and the Secretary of State fee schedule was not opened.\n2. **Contact the LME/MCO in your region for a letter of support.** All residential providers except ICF/IID must obtain one to accompany the application (G.S. 122C-23.1) [S3]. LME/MCOs also determine the local need for additional supervised living beds [S51]. There are four LME/MCOs, one per county [S48].\n3. **Secure the site and local zoning approval.** Residential providers need zoning approval, submitted with the application [S4]. Physical-plant rules checked in DHSR's materials:\n   - single bedrooms of at least 100 sq ft and double bedrooms of at least 160 sq ft, with no more than two clients per bedroom;\n   - at least one full bathroom for every five or fewer persons, counting staff and their family;\n   - two remotely located exits per occupied story for facilities with 4–6 clients or two stories [S5].\n4. **Submit the application packet and pay the license fee.** The initial fee is paid with the application [S6]. For a non-ICF/IID facility with 6 or fewer beds it is $350 base and $0 per bed [S4]. The license cannot be issued until the fee is paid [S6]. DHSR sends the application to its Construction Section after the packet is submitted and the fee paid [S3]. The Construction fee must be paid before review or an initial inspection [S5]. The fee table is on slide 35 ('Initial Fees') of DHSR's new-provider deck and appears to show about $225 for a 4–6 bed non-ICF/IID home. The slide image is low-resolution, so confirm the exact amount with the Construction Section Help Desk.\n5. **Construction review.** DHSR's February 2026 new-provider deck says 8–10 weeks [S5], and the DHSR FAQ gives a similar figure [S4]. A code interpretation can add delay. Plan for the longer end. Construction Section help desk: (919) 855-3893 [S5].\n6. **Program review.** DHSR gives the applicant six months to complete the program review. After that the application can be rescinded or denied [S3].\n7. **Staff and facility ready before licensure.** All staff must be in place and the facility completely furnished and ready to open before an initial license is issued [S4]. Every staff member needs a criminal record check within 180 days of the application review [S5] and a Health Care Personnel Registry check within 90 days of the licensure review [S5]. DHSR provides no personnel training. Online-only CPR is not accepted, and medication administration training must be in person where staff store or administer medication [S5].\n8. **Medicaid enrollment.** NCTracks charges a $100 NC application fee at initial enrollment and again every five years [S21][S22]. An older NCTracks guide says the fee is collected per site location, so confirm with NCTracks whether you owe it per home. NC Medicaid says a federal fee ($750 in calendar 2026) applies 'when applicable' [S21][S23]. Whether it applies to this provider type was not confirmed. A vendor blog reports clean applications cleared in about 11.76 days in June 2026 [S55]. That is a secondary figure, not a guarantee.\n9. **Accreditation and LME/MCO contract.** A new Residential Supports provider must hold national accreditation before enrolling [S9]. Which accreditors are accepted for Residential Supports should be confirmed against the NCTracks Provider Permission Matrix. Providers also need an LME/MCO network contract [S8]. How the license, accreditation and contracting steps are sequenced was not documented, so confirm the order with your LME/MCO before spending on the lease.\n\n**After licensure.** The initial license can run up to 15 months. After that, licenses are renewed annually and expire at the end of the calendar year, so the first renewal falls on the next December 31 after issuance (G.S. 122C-23(e)) [S6]. The renewal fee amount was not verified, and the model assumes it equals the $350 initial fee. A change of ownership requires 30 days' written notice from the current licensee, and the new owner may not operate until licensed [S5]. Smoking is prohibited inside licensed facilities [S5].",
+    "reimbursement": "**How the money actually flows.** NC Innovations is a managed-care waiver, not fee-for-service. LME/MCOs administer the waiver services and oversee the provider network [S8]. NC Medicaid's budget notice identifies Innovations services as managed by Tailored Plans and outside the published state fee schedule [S14]. A provider therefore bills its LME/MCO under that plan's contract, using that plan's rate schedule.\n\n**Rates retrieved (Alliance Health, FY27, effective October 1, 2026).** Residential Supports pays a per diem by level [S17]:\n- Level 1 (H2016): $158.47\n- Level 2 (T2014): $208.72\n- Level 3 (T2020): $218.10\n- Level 4 (H2016 HI): $228.62\n\nThe Alternative Family Living Level 1 rate is $161.12 [S17]. Alliance states the rates are subject to change based on LME/MCO funding [S17]. Partners, Trillium and Vaya may pay differently, and their schedules were not retrieved. The criteria for assigning residents to Levels 1–4 were not verified. Whether the $7.68 add-on below is already in the Alliance figures is unknown. An earlier 2023-era FAQ figure ($99.03/day for Level 1) was seen but is not verified as current, and is not used.\n\n**Direct care worker (DCW) add-on.** NC Medicaid implemented incremental Innovations DCW rate increases, funded by $21.3 million in recurring state funds starting in SFY 2027 [S11]. Provider rate increases are effective October 1, 2026. The July 1, 2026 retroactivity applies to LME/MCO capitation, not to provider rates. LME/MCOs may retroactively process provider rates only back to October 1, 2026, and only after validating that the funds are used as the legislature intended [S11][S18]. No add-on revenue is modeled for July–September 2026. The uniform add-on is $0.30 per 15-minute unit [S11]. The S.L. 2026-41 code table gives Residential Supports (H2016, T2014, T2020, H2016 HI) a **$7.68 per-diem** add-on, assuming 64 units and a group size of 2.5 [S18]. Providers must file an attestation with their LME/MCO to receive it. LME/MCOs report usage to NC Medicaid [S11][S18]. The financial model does **not** add the $7.68 on top of the Alliance rates, because it is unconfirmed whether the schedule already includes it. If it is not included, it would add about $234 per resident per month (7.68 × 30.42). For 16.2 occupied beds that is about $3,800 per month, an upside to confirm in writing.\n\n**Rate risk.** A SFY 2025-26 notice slated a 3% reduction for Tailored Plan-managed Innovations services effective October 1, 2025 [S14]. Whether it is still in effect in 2026 was not verified.\n\n**What Medicaid does not pay.** Residential Supports payments exclude room and board [S15][S16]. Residents typically contribute from SSI (federal benefit rate $994 per month in 2026 [S24]) or earnings. The model assumes $750 per resident per month, an operator estimate that leaves about $244 for personal needs. State/County Special Assistance is a cash supplement for room and board in approved residential facilities, including group homes, for people who are 65+ or disabled [S25]. DHHS materials confirm a $1,397 monthly base rate plus a $70 personal needs allowance for 2026. The DHHS brochure says benefits go to eligible people in DHSR-licensed residential facilities, with examples that include group homes/supervised living and mental health group homes. Eligibility for each resident (age or disability, income and assets) must still be checked with the county DSS. It is not modeled, but it could raise room-and-board revenue above $750 for eligible residents.\n\n**Waiver cost limit.** The NC Medicaid page states the Innovations annual cost cap was raised from $135,000 to $184,000 per waiver year [S8], but other passages on the same page still cite $135,000, so the cap is treated as unconfirmed. For scale, the Alliance Level 2 per diem is about $76,200 per year.",
+    "demand": "**Waitlist.** NCDHHS reports 20,150 people remaining on the Innovations Waiver waitlist at September 30, 2025, up from 18,457 a year earlier. It states the list has grown [S48]. Only 106 people were removed in the July–September 2025 quarter, compared with 409 in the same period a year earlier [S48]. NCDHHS reported 14,736 approved active waiver slots, with 14,185 active slots in use and 123 reserve slots remaining. No additional slots were approved for FY2025-26 [S48]. A third-party aggregator reports 21,449 people at March 31, 2026 and a 12.26-year average wait. These are unverified against the official dashboard and are not used [S53]. NCDHHS's dashboard says it is not intended to show when individuals will receive the waiver [S49].\n\n**Why this matters to a provider.** The waitlist shows unmet need, but a person on the list is not yet funded for Residential Supports. Funded demand comes from people already enrolled in the waiver who need a residential setting. NCDHHS's quarterly report also shows:\n- Group homes and ICFs are the top settings desired by people in transition planning.\n- The primary funding source for transitions is the Innovations Waiver [S48].\n- 82 people with I/DD moved from institutional settings in FY25 (129 including other program data), and 24 in July–September 2025. The consent-order benchmark for the fiscal year ending June 30, 2026 is 83 [S48].\n- 16 people were diverted from institutions in the quarter [S48].\n- 12,386 people with I/DD received 1915(i) services in the quarter, an alternative pathway [S48].\n\n**Supply signals.** NCDHHS states North Carolina faces a critical shortage of direct support professionals [S48]. Providers could not use 626,791 authorized CLS units in July–September 2025 because of lack of provider or staff availability (summed across the four LME/MCOs, computed from the report's values) [S48]. That is a different service from Residential Supports, but it shows staffing is the binding constraint on capacity.\n\n**Barriers.** Guardian objections are the leading reason people do not begin transition planning, and exceptional behavioral health needs are the leading reported barrier to transition [S48]. Homes that can serve higher-need residents are therefore in demand, but those residents also carry heavier staffing costs (see the financial narrative).\n\n**What was not found.** There was no statewide count of licensed .5600 homes, census or occupancy data, or referral-source breakdown. No source shows that a new provider receives referrals from the LME/MCO or the state. New homes fill through the choice-list process and enrollments.",
+    "operations": "**Staffing rules: what was and was not verified.** The staffing rule for supervised living is 10A NCAC 27G .5602 (Staff). Paragraph (b), as quoted in a DHSR statement of deficiencies, requires at least one staff member present at all times when any adult client is on the premises, unless the client's treatment or habilitation plan documents otherwise. The modeled coverage (one awake staff around the clock plus a second staff for part of the day) meets that floor. The ratio and overnight paragraphs ((c) and (d)) were not retrieved. A 2018 DHHS report to the legislature describes at least one staff per six individuals [S52], but it is not confirmed as the current rule. The model's hours are operator estimates; read .5602 in full and check your LME/MCO's service definition before committing. Required in the sourced materials:\n- Criminal record checks (within 180 days of application review) and Health Care Personnel Registry checks (within 90 days of licensure review) for every staff member [S5].\n- In-person medication administration training from a qualified trainer for all staff where the facility stores or administers medication, and in-person CPR (online-only is not accepted) [S5].\n- DHSR provides no personnel training, so the provider must train staff [S5].\n- A qualified professional, defined by 10A NCAC 27G .0104 as a person holding a license, certificate, registration or permit from the governing board of a human service profession [S4]. Specific manager qualifications and annual training hours for supervised living homes were not verified.\n- Staff in place and the home fully furnished before an initial license is issued [S4], which means paying payroll before any revenue.\n\n**Oversight.** DHSR performs complaint resolution, annual reviews and inspections of each group home, which can lead to suspension or revocation [S7]. Inspection frequency beyond 'annual reviews' was not verified.\n\n**Systems and compliance.**\n- **EVV.** NC Medicaid requires electronic visit verification for certain HCBS including some Innovations services, and Tailored Plans (and most Standard Plans) use HHAeXchange [S19][S20]. The sources name Community Living and Supports and Supported Living, not Residential Supports. Whether Residential Supports is subject to EVV was not confirmed, so ask your LME/MCO. The model includes a per-resident records/billing software line but no separate EVV fee.\n- **DCW attestation.** Providers must file an attestation with the LME/MCO to receive the DCW add-on [S11][S18] and should track how the funds are used, because LME/MCOs report usage to NC Medicaid [S11].\n- **Accreditation.** Maintain national accreditation as a condition of enrollment [S9]. Providers already enrolled must re-enroll and report accreditation by April 20, 2027.\n- **Billing.** Each LME/MCO has its own claims and authorization process; budget for a billing and authorizations coordinator.\n\n**Physical plant.** Keep bedroom sizes, bathroom ratios and exits compliant [S5]. Count staff and their family toward the bathroom ratio.",
+    "market_conditions": "**Pricing context.** The Medicaid per diems (Alliance, Level 1–4: $158.47 to $228.62 per day [S17]) are the realistic revenue base. Private-pay I/DD group home prices were not found. CareScout and Genworth survey assisted living communities, not I/DD group homes, and the NC medians conflict: CareScout's 2025 press-release table shows $74,400 per year [S27], a secondary guide citing CareScout shows $77,955 [S54], and Genworth's 2024 survey showed $76,245 [S29]. Those figures are context only and are not used as revenue assumptions.\n\n**Wages.** Wage evidence is thin and mostly secondary:\n- The statewide all-occupation median wage is $47,970 (May 2025) [S30].\n- The Raleigh-Cary mean hourly wage is $34.01 across all occupations, with $19.29 for the personal care and service group and $16.61 for food preparation and serving [S31]. These are group-level proxies, not direct support worker figures.\n- Secondary summaries citing BLS give an NC median of $38,460 for nursing assistants (about $18.49 per hour) [S32], $63,270 for LPNs [S33] and $84,350 for RNs ($40.56 per hour) [S34].\n- Direct support worker, cook and manager wages for NC were not directly sourced.\n- The NC minimum wage is $7.25 and local ordinances are preempted, per a secondary payroll guide [S35]. The model's $17.00 per hour is above that, but below the CNA median, so it is an optimistic assumption.\n\n**Employer taxes.** The 2026 NC unemployment insurance taxable wage base is $34,200 and the standard new-employer rate is 1.000%. The experienced-employer maximum is 5.76% [S36][S37]. Workers' compensation class rates for residential care were not retrieved [S43].\n\n**Real estate.** Rent for a 4–5 bedroom home is an operator estimate. Secondary rent benchmarks [S44][S45] are for small units or unclear scope and were not used. HUD's FY2026 Fair Market Rents took effect October 1, 2025 [S46], but Charlotte-area bedroom figures could not be tied to a verified table.\n\n**Policy trend.** The 2026 appropriation adds $21.3 million in recurring state funds for Innovations DCW rate increases starting SFY 2027 [S11]. That is positive for margins, but a 3% reduction was slated in the prior budget cycle [S14], so rate direction is uncertain. The count of enrolled Residential Supports providers and licensed homes was not found, so competitive intensity cannot be quantified.",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident-month is the Alliance Medicaid per diem for the assumed level mix multiplied by 30.42 days, plus $750 of room and board collected from the resident [S17][S24]. For the Level 2/3 mix that is about $6,492 plus $750, or roughly **$7,242 per resident per month**, and about $117,000 per month at 90% occupancy for 18 residents. Costs are:\n- direct support hours;\n- a program manager/qualified professional and a billing coordinator;\n- RN consultant hours;\n- payroll burden of 17.8% [S36];\n- rent, utilities, vehicle, insurance, accreditation and DHSR renewal, all fixed per home (vacant beds still cost rent);\n- food and software, which scale with census.\n\nMost non-wage costs are operator estimates, labeled as such in each line. No overtime or relief-coverage premium is modeled for 24/7 staffing, so actual labor cost is likely higher than shown.\n\n**Results at 90% default occupancy (85% conservative, 95% optimistic).**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 3 homes, 18 residents, Level 2/3 | $6,636 | 5.7% | 84.5% | 8 | $408,323 |\n| 2 homes, 12 residents, Level 2/3 | $4,002 | 5.1% | 85.0% | 6 | $213,726 |\n| 1 home, 6 residents, Level 2/3 | $1,368 | 3.5% | 86.6% | 6 | $132,963 |\n| 1 home, 6 residents, Level 3/4 | -$2,122 | -5.2% | 95.1% | none | $219,641 |\n| 1 home, 6 residents, all Level 1 | -$2,771 | -9.2% | 99.1% | none | $216,990 |\n| 1 home, 4 residents, all Level 2 | -$5,715 | -22.4% | 111.7% (not reachable) | none | $279,163 |\n\nThe three-home Level 2/3 configuration leads because overhead (1.5 FTE manager, 0.75 FTE billing, accreditation and accounting) is spread over 18 residents. The 4-bed home cannot break even even at full occupancy. Level 3/4 pays more per day but loses money because it assumes two awake staff around the clock. Level 1 does not cover required coverage and overhead at $158.47.\n\n**Key sensitivities.**\n1. **Wage.** The default uses $17.00 per hour, an operator estimate. The sourced proxies are higher: about $18.49 for NC nursing assistants [S32] and $19.29 for the Raleigh-Cary personal care group [S31]. At $18.49 the default three-home profit falls to about **$200 per month**, two homes lose about $300, the one-home Level 2/3 loses about $800, and the all-Level-1 home loses about $4,500 (about $7,400 for the 4-bed). A wage at or above the CNA median should be treated as the realistic planning case, and $17.00 only as a low case. The $17.00 wage clears the $7.25 minimum [S35], and no local minimum wage applies per a secondary source.\n2. **Occupancy.** The default break-even is 84.5%, and the conservative case (85%) sits almost exactly at break-even, so a slow fill or empty beds between residents erases profit. Each month of slower filling adds about a month of fixed cost.\n3. **Level assignment.** The model assumes Level 2/3 residents. Level definitions and assignment criteria were not verified, and the LME/MCO controls them.\n4. **Rate source.** Rates are Alliance's, subject to LME/MCO funding [S17]. Another LME/MCO may pay less or more, and the status of the 3% reduction is unknown [S14].\n5. **DCW add-on (upside).** If the $7.68 per day is not already in the schedule, it adds about $3,800 per month at the default configuration (about $234 per resident-month × 16.2 occupied beds) [S18]. That is more than the modeled profit. Confirm in writing whether it is already included, and file the attestation [S11][S18].\n6. **Staffing hours and overtime.** The DSP hours are estimates, and the ratio and overnight paragraphs of the staffing rule were not retrieved. A higher requirement would raise costs materially, because direct support wages are the largest expense. Overtime (1.5× over 40 hours per week) or relief hours for sick and vacation coverage are not costed.\n\n**Startup and cash.** Startup costs are lowest for one home and scale with the number of homes. They include license fees ($350 per home), accreditation ($6,000–$15,000 estimate), the $100 NC enrollment fee (possibly charged per site), a federal fee of $0–$750 that may not apply, furnishings, vehicles, deposits and pre-licensing payroll, because staff must be in place before the license is issued [S4]. The Construction review fee is modeled at about $225 per home, read from a low-resolution slide in DHSR's new-provider deck [S5]; confirm the exact amount with the Help Desk. The cash-needed figures above include the modeled ramp-up deficit. They were computed before the Construction fee and any per-site NCTracks fee were added to the startup costs, so they are slightly understated. Read them as the floor for planning, not a forecast.",
+    "risks": "- **Rate and funding risk.** Rates are published by each LME/MCO and are subject to change with funding [S17]. A 3% reduction was slated in SFY 2025-26 and its current status is unverified [S14]. Rates at Partners, Trillium and Vaya were not retrieved. The DCW add-on requires attestation and use reporting [S11][S18]. Because residents are paid by level, any reclassification to a lower level cuts revenue directly.\n- **Wage and workforce risk.** NCDHHS describes a critical DSP shortage [S48]. The default wage ($17.00) is below the sourced proxies ($18.49 CNA median; $19.29 Raleigh-Cary personal care group) [S31][S32]. At $18.49 the default profit falls to about $200 per month, and a metro with a higher market wage would be worse. Round-the-clock coverage also creates overtime or relief hours that the model does not cost. Turnover raises UI experience rates, which can reach 5.76% [S37].\n- **Occupancy and fill risk.** Break-even occupancy is 84.5% for the default, and homes of one to two units run from 85% to over 100%. The waitlist [S48] does not mean a new home gets referrals; new homes fill through the choice-list process, and a waitlisted person is not yet funded. Guardian objections slow transitions [S48].\n- **Regulatory gating risk.** The path requires an LME/MCO letter of support, local zoning, construction review of about 8–10 weeks (longer if a code interpretation is needed), a six-month program review window, accreditation and enrollment, and you must have staff and a furnished home in place before licensure [S3][S4][S5][S9]. Payroll and rent therefore run before any revenue. Working capital, not the license fee, is the real barrier.\n- **Enforcement risk.** Unlicensed operation is a Class H felony with a $1,000-per-day fine [S4]. DHSR annual reviews and complaint inspections can lead to suspension or revocation [S7].\n- **Unverified rule risk.** The staffing ratio and overnight paragraphs of .5602, RN oversight, manager qualifications, training hours and insurance minimums were not verified [S52]. The exact Construction fee is also unconfirmed (about $225 per home from a low-resolution slide). A requirement stricter than the model's would lower margins. Check the current rule text before signing a lease.\n- **Cost-cap and policy uncertainty.** The waiver cost cap is stated as both $184,000 and $135,000 on the same NC Medicaid page [S8]. The effect of Appendix K flexibility sunsets was not verified.\n- **Resident-income risk.** Room and board depends on each resident's SSI or earnings [S24]. Medicaid does not pay it [S15][S16], and Special Assistance eligibility must be checked for each resident with the county DSS [S25]. A $750 charge leaves about $244 of personal money for an SSI-only resident.\n- **Concentration risk.** One LME/MCO region means one payer. A single home with six residents loses about 17% of revenue with each vacancy.\n- **Cost-estimate risk.** Most non-wage costs (rent, insurance, accreditation, workers' compensation at 4.0%, benefits) are operator estimates. The NCRB workers' compensation class rate was not retrieved [S43].",
+    "recommendations": "1. **Do not open a single 4-bed home or an all-Level-1 home.** Both lose money at real rates (-$5,715 and -$2,771 per month). The Level 3/4 home also loses (-$2,122) with two awake staff. The practical single-home option is one 6-bed home serving Level 2/3 residents, which earns about $1,368 per month, not enough to pay an operator who is also working in the home.\n2. **Target three licensed 6-bed homes with Level 2/3 residents as the destination.** This is the profit-leading configuration: about $6,636 per month (5.7%), break-even at 84.5% occupancy, first profit in month 8, and about $408,323 of cash. Get there in stages. Open one home, reach 90% occupancy, then add the second (about $4,002 per month at 12 residents), and only then the third. Opening homes sequentially needs less cash than the modeled ramp-up deficit, which staffs all homes from month 1.\n3. **Before leasing anything, get written answers from your LME/MCO.** Ask for its Residential Supports rate schedule by level, the assignment criteria for Levels 1–4, whether the $7.68 DCW add-on is already included in the rates, and whether Residential Supports is subject to EVV [S17][S18]. Also ask for the letter of support and for evidence of local need for supervised living beds [S3][S51]. Choose the LME/MCO region with the best documented rates.\n4. **Start accreditation early.** Get quotes now from the accreditors your LME/MCO and the NCTracks Provider Permission Matrix accept for Residential Supports, since accreditation is required before you can enroll [S9]. Confirm with the LME/MCO how accreditation, license and contracting are sequenced.\n5. **Budget wages at the sourced level, not $17.00.** Use about $18.49 per hour as the planning case [S32], and add an overtime/relief allowance for 24/7 coverage. At that wage the three-home model is roughly break-even (about $200 per month), so margin must come from higher occupancy, Level 3 residents or the DCW add-on, not from cutting required costs. File the DCW attestation immediately [S11][S18].\n6. **Protect occupancy.** Break-even is 84.5% and the conservative case is 85%. Build relationships with LME/MCO care coordinators, waiver families and institutional transition teams [S48] so beds are not empty between residents. Pre-qualify residents and their guardians before you hire staff.\n7. **Lock down unverified rule requirements.** Read the full 10A NCAC 27G .5602 staffing rule (ratio and overnight paragraphs), the RN rules, manager qualifications and training hours, and confirm the Construction fee with DHSR [S5]. Add the actual costs to your model. Get liability and workers' compensation quotes (workers' compensation is modeled at 4.0%, an estimate).\n8. **Hold cash for the delay.** Plan on at least 8–10 weeks of construction review, more if a code interpretation is needed [S4][S5], up to six months for program review [S3] and payroll before licensure [S4]. Reserve at least the single-home figure of $132,963 per first home, and more for multiple homes, plus a contingency for slow fill.\n9. **Stay compliant from day one.** Keep staff checks (criminal record and HCPR) and in-person CPR and medication training current [S5], renew the license annually before December 31 [S6], and track room-and-board charges against each resident's income [S24]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm the pathway: licensed Supervised Living, 'C' designation, then Innovations Residential Supports",
+      "instructions": "Adult I/DD group homes are licensed by DHSR Mental Health Licensure under G.S. 122C and 10A NCAC 27G .5600 (the 'C' designation covers adults whose primary diagnosis is a developmental disability). Medicaid pays for services separately, as NC Innovations Waiver Residential Supports through an LME/MCO Tailored Plan. You need both the license and the Medicaid enrollment and contract. Read the .5601 scope rule before committing to a business plan.",
+      "cite": "10A NCAC 27G .5601",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Understand when a license is mandatory and the penalty for operating without one",
+      "instructions": "A supervised living facility must be licensed if it serves two or more adults (or one or more minors). Operating a licensable facility without a license is a Class H felony with a $1,000 per day fine. NC Medicaid's bulletin says an unlicensed supervised living home may serve only one adult. Do not place two or more residents before the license is issued.",
+      "cite": "10A NCAC 27G .5601(b); G.S. 122C-28",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide home size within the 6-client cap",
+      "instructions": "A supervised living facility serving clients with developmental disabilities may serve no more than six clients. The 7-or-more-bed fee tier therefore does not apply to adult I/DD homes. CMS describes these homes as group homes of under seven beds. Note that NCDHHS counts group homes of fewer than four residents as community-based settings in its transition reporting, which matters if you target transitions from institutions.",
+      "cite": "10A NCAC 27G .5603",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Choose the population and keep minors and adults separate",
+      "instructions": "Adults and minors may not live in the same facility. This bundle covers adult I/DD homes ('C' designation). If you later want to serve minors, that is a separate licensed facility.",
+      "cite": "10A NCAC 27G .5601",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form the legal entity (LLC)",
+      "instructions": "File Articles of Organization with the NC Secretary of State. A secondary guide lists the filing fee at $125 ($128 online with the card fee). Confirm the current fee on the Secretary of State site. Use the same exact legal name on every later application (DHSR, NCTracks, LME/MCO, accreditation, bank).",
+      "cite": "G.S. 57D (fee per secondary guide)",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the LLC annual report",
+      "instructions": "A secondary guide states NC LLCs file an annual report each year by April 15 with a $200 fee. The model carries $16.67 per month. Verify the fee and due date with the Secretary of State.",
+      "cite": "G.S. 57D-2-24 (per secondary guide)",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Decide tax treatment and check franchise tax exposure",
+      "instructions": "A secondary source says LLCs taxed as partnerships do not owe NC franchise tax. An LLC that elects corporate treatment owes at least $200 per year ($1.50 per $1,000 of tax base). Ask your CPA before electing S-corp or C-corp status.",
+      "cite": "N.C.G.S. Chapter 105, Article 3",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN and open a business bank account",
+      "instructions": "Apply free at irs.gov; the EIN is issued online immediately. Keep the confirmation letter. You will need it for NCTracks, accreditation and payroll. Open a separate operating account for the business.",
+      "cite": "IRC §6109",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register as an employer with the NC Division of Employment Security",
+      "instructions": "Register for unemployment insurance. The 2026 standard beginning (new employer) rate is 1.000% on a taxable wage base of $34,200; the maximum rate for experienced employers is 5.76%. Also register for NC withholding with the Department of Revenue and obtain a federal payroll account.",
+      "cite": "DES 2026 tax rate information",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Arrange workers' compensation coverage",
+      "instructions": "Get quotes from an NC broker for a residential care/group home class. The class rate was not retrieved from the NCRB 4/1/2026 loss-cost filing, so the model's 4.0% is an operator estimate. Check the NC Rate Bureau filings and your broker's quote before finalizing the budget.",
+      "cite": "NC Rate Bureau workers' compensation filings",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain liability, property and auto insurance",
+      "instructions": "No required minimum for supervised living homes was verified. Get quotes for general and professional liability, property, abuse/molestation if offered, and hired/non-owned auto. The model assumes about $400-$450 per home per month, which is an operator estimate. Accreditors and LME/MCOs may set their own minimums.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Check employer hiring compliance (E-Verify)",
+      "instructions": "A secondary payroll guide says E-Verify is mandatory at 25 or more employees. A multi-home agency can cross that line. Confirm with the NC Department of Labor and set up Form I-9 procedures from the first hire.",
+      "cite": "G.S. 64-26 (per secondary guide)",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Confirm wage floor and budget wages above it",
+      "instructions": "The NC minimum wage is $7.25 per hour (secondary guide; local ordinances preempted). The model uses $17.00 per hour for direct support, an operator estimate. Sourced proxies run higher: NC CNA median about $18.49 and Raleigh-Cary personal care and service group mean $19.29. At $18.49 the default three-home model drops to about break-even, so budget for the higher wage.",
+      "cite": "BLS OEWS May 2025",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "CRITICAL",
+      "task": "Identify the LME/MCO Tailored Plan for the county where the home will be",
+      "instructions": "There are four LME/MCOs (Alliance Health, Partners Health Management, Trillium Health Resources, Vaya Health), with one per county. The LME/MCO for your county issues the letter of support, administers Innovations services and pays you. Rates and contracting differ by plan, so choose the county with this in mind.",
+      "cite": "G.S. 122C-23.1",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "CRITICAL",
+      "task": "Contact the LME/MCO and request a letter of support",
+      "instructions": "All residential providers other than ICF/IID must obtain an LME/MCO letter of support to accompany the DHSR application. Contact the LME/MCO network team early, describe the population, location and bed count, and ask for the process and timeline. The timeline is not published; plan for weeks to months.",
+      "cite": "G.S. 122C-23.1",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "HIGH",
+      "task": "Ask the LME/MCO about local need for supervised living beds",
+      "instructions": "The LME determines the need for additional supervised living beds in its area under Subchapter G, and the rules escalate to DMH/DD/SAS if none exists. Ask whether your county is accepting new group home providers and in which levels of support.",
+      "cite": "10A NCAC 27G Subchapter G",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "HIGH",
+      "task": "Review waitlist and slot data for the demand case",
+      "instructions": "NCDHHS reports 20,150 people remaining on the Innovations waitlist (Jul-Sep 2025), up from 18,457, with only 106 removed in the quarter and 14,736 approved active slots. No new slots were approved for FY2025-26. This shows demand but not referrals to your home. The dashboard does not forecast when people receive services. Check the official dashboard for the latest quarter.",
+      "cite": "Inclusion Connects Report, 1/15/2026",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Understand the referral channels",
+      "instructions": "NCDHHS reports the Innovations Waiver (most often through Money Follows the Person) is the primary funding source for institutional transitions, and that people planning transitions most often want ICFs and group homes. Guardian objections are the leading reason people do not begin planning. Build relationships with LME/MCO care coordinators and transition teams. No referral is guaranteed to a new home.",
+      "cite": "Inclusion Connects Report, 1/15/2026",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "HIGH",
+      "task": "Get the current Residential Supports rate sheet from your LME/MCO",
+      "instructions": "Innovations services are managed by Tailored Plans and are outside the published state fee schedule. The only 2026 schedule retrieved is Alliance Health's (effective 10/1/2026): Level 1 $158.47, Level 2 $208.72, Level 3 $218.10, Level 4 $228.62 per day, subject to LME/MCO funding. Ask your plan for its rates, level definitions and how a resident is assigned a level. Re-run the P&L with those rates.",
+      "cite": "Alliance Health FY27 Standard Rate Schedule",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "HIGH",
+      "task": "Ask whether the DCW add-on is already in your plan's per diem",
+      "instructions": "The S.L. 2026-41 code table lists a $7.68 per diem direct care worker add-on for Residential Supports (effective 10/1/2026, retroactive to 7/1/2026). Providers must submit an attestation to receive it. Whether it is already inside the Alliance schedule is not verified. The model does not stack it. Confirm with your LME/MCO before counting it.",
+      "cite": "S.L. 2026-41",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Check the status of the 3% rate reduction",
+      "instructions": "A 2025 SPA notice said Innovations services managed by Tailored Plans were to receive a 3% reduction effective 10/1/2025. Whether it remains in effect in 2026 is not verified. Ask the LME/MCO whether its current schedule reflects it.",
+      "cite": "SPA #25-0026",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Review the Innovations benefit plan for service interactions and limits",
+      "instructions": "Trillium's 2026-2027 benefit plan says a member receiving Residential Supports may not also receive several other services (Home Modifications, Community Living and Supports, Respite and others). It also caps combined community networking, day supports and supported employment at 40 hours per week for adults in residential settings. Confirm each limit with your own LME/MCO.",
+      "cite": "Trillium 2026-2027 Innovations Benefit Plan",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 2 — MARKET RESEARCH & LME/MCO ENGAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Verify the waiver is active and note its cost cap",
+      "instructions": "The NC Innovations Waiver is a 1915(c) waiver (No. 0423.R04.00), reported as renewed July 1, 2024 through June 30, 2029. NC Medicaid's page states a $184,000 per waiver year cap under Appendix K, though other passages still cite $135,000. Treat the cap as unconfirmed and ask the LME/MCO how it affects residents with high support needs.",
+      "cite": "CMS waiver 0423.R04.00",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Select a home that can meet the physical plant rules",
+      "instructions": "Single bedrooms must be at least 100 sq ft; double bedrooms at least 160 sq ft; no more than two clients may share a bedroom. At least one full bathroom is required per five or fewer persons, counting staff and their family, so a 6-resident home needs at least two full baths. Walk every candidate home with these dimensions before signing a lease.",
+      "cite": "10A NCAC 27G .0304(d)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Check egress requirements",
+      "instructions": "Facilities with 4 to 6 clients, or two-story homes, must meet the NC Building Code rule that each normally occupied story has two remotely located exits. Budget for added exits or window/door modifications. Confirm details with the DHSR Construction Section.",
+      "cite": "NC Building Code (per DHSR deck)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Avoid manufactured homes for more than three residents",
+      "instructions": "Manufactured or mobile homes may serve only three or fewer residents, and only under supervised living or community respite. A 6-bed model needs a site-built home.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Obtain local zoning approval",
+      "instructions": "Providers of day, outpatient and residential services need zoning approval, which is submitted with the DHSR application. Contact the city or county planning office, describe the use, and get written approval. Do not sign a lease before you know the use is allowed.",
+      "cite": "DHSR FAQ",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Get landlord consent for group home use",
+      "instructions": "If leasing, put the group home use, the zoning approval contingency and the right to make required modifications in writing. Rent is a fixed cost whether beds are full or not; the model uses $2,800 per 4-5 bedroom home as an operator estimate. No sourced local rent benchmark was found, so get local quotes.",
+      "cite": "",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Call the Construction Section Help Desk",
+      "instructions": "Ask about project review fee, required plans, fire/life safety items and local building/fire inspections for your exact address. Phone (919) 855-3893. The construction fee amount was not retrieved, so budget is a placeholder.",
+      "cite": "DHSR Construction Section",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Make required modifications and furnish the home",
+      "instructions": "Complete bedroom, bathroom and egress work. The facility must be completely furnished and ready to open before an initial license is issued, with staff in place. Budget about $7,000 per home for furniture and housewares (operator estimate). Smoking is prohibited inside licensed facilities by any person living or employed there; post signage.",
+      "cite": "DHSR FAQ; G.S. 122C Art. 1",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "Install safety equipment",
+      "instructions": "Equip each home with smoke alarms, fire extinguishers, first aid supplies and bedroom hardware appropriate to residents. Specific equipment counts come from the DHSR Construction review and local fire inspection; confirm before purchase. Budget is about $1,500 per home (operator estimate).",
+      "cite": "10A NCAC 27G .0300 series",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Download the Initial Mental Health Licensure Application Packet",
+      "instructions": "Get the packet from the DHSR Mental Health Licensure & Certification website. Read the establish-a-service page first. Mail address: 2718 Mail Service Center, Raleigh, NC 27699-2718. Applications are not complete until all items are included.",
+      "cite": "DHSR application packet",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Include the LME/MCO letter of support with the application",
+      "instructions": "The letter is required for residential applicants other than ICF/IID (G.S. 122C-23.1). Attach it to the packet. Without it the application is incomplete.",
+      "cite": "G.S. 122C-23.1",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Include zoning approval and all required packet items",
+      "instructions": "Submit the local zoning approval and the other attachments the packet lists. The packet states to include the initial licensure fee upon submitting all items. Make a copy of the full submission for your records.",
+      "cite": "Application packet; DHSR FAQ",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the initial license fee with the application",
+      "instructions": "Non-ICF/IID facilities with 6 or fewer beds pay $350 base and $0 per bed. The 7+ bed tier ($525 + $19 per bed) does not apply to adult I/DD homes capped at 6. One license is needed per home. The license will not be issued until the fee is paid.",
+      "cite": "G.S. 122C-23; DHSR FAQ fee table",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the Construction project review fee before review",
+      "instructions": "The construction fee must be returned and paid before a review or initial inspection can be done. The amount by bed count was not retrieved; confirm with the Construction Section Help Desk and pay promptly because it holds up the review.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Track the review timeline",
+      "instructions": "After the packet is submitted and the fee paid, DHSR sends it to the Construction Section. The establish page says to expect construction review in about 10-12 weeks; a February 2026 DHSR deck says 8-10 weeks. Plan for the longer figure. Applicants have six months to complete the program review, after which the application can be rescinded or denied.",
+      "cite": "DHSR establish page; DHSR deck",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Respond to DHSR comments immediately",
+      "instructions": "Incomplete or deficient items slow the process and the six-month program review window keeps running. Designate one person to respond, and keep a log of every submission and date.",
+      "cite": "DHSR establish page",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Name a qualified professional (QP) and confirm credentials",
+      "instructions": "A qualified professional holds a license, provisional license, certificate, registration or permit from the governing board of a human service profession (10A NCAC 27G .0104). Manager and QP requirements for supervised living were not fully verified, so confirm what the rule requires for your home with DHSR before hiring.",
+      "cite": "10A NCAC 27G .0104",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — DHSR LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Plan for annual license renewal",
+      "instructions": "Licenses must be renewed annually and expire at the end of the calendar year (December 31). The renewal fee amount was not verified; the model assumes it equals the $350 initial fee. Calendar the renewal for each home.",
+      "cite": "G.S. 122C-23",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Confirm the current staffing rules before building schedules",
+      "instructions": "The .5600 staffing ratio and awake-overnight requirements were not retrieved. A 2018 DHHS report describes at least one staff per six individuals, but that is not confirmed as current. Read the current rule text for your designation and ask DHSR or your LME/MCO. The model uses 973 to 1,460 coverage hours per home per month as operator estimates.",
+      "cite": "10A NCAC 27G .5600; S.L. 2017-57 report",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Run a criminal record check on every staff member",
+      "instructions": "All staff members must undergo a Criminal Record Check within 180 days of the application review. Start the checks while the application is under review so they remain current.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete the Health Care Personnel Registry (HCPR) check for every staff member",
+      "instructions": "The HCPR check must be completed within 90 days of the licensure review. Keep results in each personnel file.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Hire all staff before the initial license is issued",
+      "instructions": "Staff must be in place and the facility completely furnished and ready to open before an initial license is issued. Budget two to three weeks of paid pre-opening labor (operator estimate $8,000-$24,000 including training and checks).",
+      "cite": "DHSR FAQ",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Arrange your own staff training because DHSR provides none",
+      "instructions": "DHSR does not provide any personnel training. You must source trainers and records for every required course. Verify the required topics and hours in the rule text and with your LME/MCO and accreditor; annual hours were not verified.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Use in-person CPR courses",
+      "instructions": "Online-only CPR courses are not accepted. Book an in-person or blended course with a hands-on skills component for all staff.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete in-person medication administration training for all staff",
+      "instructions": "If the facility stores or administers medication, all staff must receive training. It must be in person and delivered by a qualified trainer (RN, pharmacist or other legally qualified trainer). Schedule before the licensure review.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Retain a registered nurse consultant",
+      "instructions": "The model carries 1.5-2.5 RN hours per resident per month at about $40.56 per hour (secondary summary of BLS May 2025 NC median RN wage). Current RN oversight requirements were not verified, so confirm with DHSR and your LME/MCO. The same RN can serve as your qualified medication trainer if licensed appropriately.",
+      "cite": "BLS OEWS May 2025",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Plan recruitment around the direct support professional shortage",
+      "instructions": "NCDHHS states NC faces a critical shortage of DSPs. In Jul-Sep 2025 626,791 authorized CLS units went unused because of lack of provider or staff availability. Budget for turnover and overtime, offer wages at or above the sourced proxies, and keep a bench of trained relief staff.",
+      "cite": "Inclusion Connects Report, 1/15/2026",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Set up payroll and employee file systems",
+      "instructions": "Use a payroll service, collect I-9 and W-4 forms, and keep background check, HCPR, training and competency records in each file for the DHSR and accreditation reviews. Model assumes $600-$900 per month for accounting, payroll and legal (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Obtain national accreditation before enrolling as a Residential Supports provider",
+      "instructions": "NC Medicaid requires one of COA, CQL, JCAHO or CARF for Residential Supports providers enrolling under the Innovations taxonomy after April 20, 2026. Contact the accreditors for quotes and timelines. Fees were not found; the model assumes $6,000-$15,000 initial and $500-$700 per month amortized, both operator estimates.",
+      "cite": "NC Medicaid post 2026-04-16",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Enroll in NC Medicaid through NCTracks",
+      "instructions": "Complete the provider enrollment application. Group-home-specific taxonomy and enrollment steps for Residential Supports were not found, so confirm with NCTracks and your LME/MCO. A vendor blog reported clean applications processed in about 11.76 days in June 2026; treat that as a secondary, non-guaranteed figure.",
+      "cite": "NCTracks enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Pay the NC Medicaid application fee",
+      "instructions": "NC assesses a $100 provider application fee on enrollment, re-enrollment and revalidation. It is charged at initial enrollment and every five years at re-credentialing.",
+      "cite": "NCTracks",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Find out whether the federal enrollment fee applies",
+      "instructions": "The federal Medicaid enrollment fee is $750 for CY2026, payable when applicable depending on provider type. Whether it applies to a Residential Supports group home provider was not confirmed. Ask NCTracks before paying so you do not overpay or delay enrollment.",
+      "cite": "NC Medicaid CY2026 notice",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Apply to join the LME/MCO provider network and sign the contract",
+      "instructions": "The LME/MCO administers waiver services and oversees the provider network. Ask about credentialing steps, contract terms, claims submission, authorization process, audit rules and payment timing. Contract with every LME/MCO whose members you want to serve.",
+      "cite": "NC Medicaid waiver provider information",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "HIGH",
+      "task": "File the DCW rate increase attestation with the LME/MCO",
+      "instructions": "To receive the SFY 2027 Innovations DCW rate increase, providers must submit an attestation to their LME/MCO before payment. LME/MCOs report usage to NC Medicaid by the revised date of December 1, 2027. Set up payroll tracking so you can show the funds went to direct care worker wages.",
+      "cite": "S.L. 2026-41",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Confirm whether EVV applies to your residential service",
+      "instructions": "NC Medicaid requires EVV for certain HCBS including some Innovations services, and Tailored Plans use HHAeXchange as their designated EVV vendor. The sources reviewed name Community Living and Supports and Supported Living but not Residential Supports. Ask your LME/MCO in writing and complete HHAeXchange onboarding if required.",
+      "cite": "NC Medicaid EVV",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 6 — ACCREDITATION & MEDICAID ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Review the Innovations waiver service definition and room-and-board exclusion",
+      "instructions": "Payments for Residential Supports do not include room and board, and Medicaid does not pay room and board. Only a staff differential may be covered during a roommate search. Read the service definition so your billing, service plans and documentation match it.",
+      "cite": "NC Medicaid special bulletin; Innovations FAQ",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "CRITICAL",
+      "task": "Write the policies and procedures manual",
+      "instructions": "Cover client rights, medication management, emergency and fire procedures, incident reporting, abuse and neglect, and staff training. Budget $2,000-$6,000 if you use a consultant (operator estimate). Align with accreditor standards so one manual serves both.",
+      "cite": "10A NCAC 27G .5600",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "HIGH",
+      "task": "Build the medication system",
+      "instructions": "Set up medication storage, MARs, staff authorization and pharmacy relationships. Everyone who stores or administers medication must have the in-person training before the review.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "HIGH",
+      "task": "Create the resident intake and admission packet",
+      "instructions": "Include a residency agreement, room-and-board agreement, rights notice, emergency contacts, guardian information and consent forms. Residents are placed through the LME/MCO choice-list process and authorizations, so ask the plan how referrals and authorizations are handled.",
+      "cite": "",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "HIGH",
+      "task": "Set a compliant room-and-board charge",
+      "instructions": "The 2026 SSI federal benefit rate is $994 per month for an individual. The model assumes $750 per month room and board, an operator estimate that leaves about $244 for personal needs. Verify each resident's income and the LME/MCO's rules. Do not charge more than the resident can pay.",
+      "cite": "SSA Red Book 2026",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "MEDIUM",
+      "task": "Evaluate State/County Special Assistance as a room-and-board source",
+      "instructions": "Special Assistance is a cash supplement for residents of approved residential facilities, including group homes, and the facility must accept the state rate. Eligibility is age 65+ or disability. A secondary guide lists a $1,397 base maximum; the official rate was not verified and whether your home qualifies was not verified. Ask the county DSS.",
+      "cite": "NC DSS Special Assistance",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "MEDIUM",
+      "task": "Set up resident funds and personal-needs accounting",
+      "instructions": "Keep a separate ledger for each resident's money (SSI, SSDI, earnings), with receipts and a documented policy. Auditors and LME/MCO monitors will ask for it.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "MEDIUM",
+      "task": "Arrange transportation for community participation",
+      "instructions": "Budget a vehicle per home (model $800 per month, operator estimate). Verify driver licensing, auto insurance and NC financial responsibility requirements, which were not verified here.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, RESIDENT SERVICES & RESIDENT INTAKE",
+      "priority": "MEDIUM",
+      "task": "Set up billing, authorization and records software",
+      "instructions": "Track LME/MCO authorizations, daily attendance and claims. Model assumes $35 per resident per month (operator estimate). Choose software that can export to the LME/MCO claims portal and supports EVV if required.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "CRITICAL",
+      "task": "Pass the Construction Section review and site inspection",
+      "instructions": "After the construction fee is paid, DHSR Construction reviews the project and may visit the site. Correct any items quickly. Have local building and fire clearances ready if requested.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "CRITICAL",
+      "task": "Complete the program review within six months",
+      "instructions": "DHSR gives the applicant six months to complete the program review. After that the application can be rescinded or denied. Have policies, staff files, training certificates and the furnished home ready before the visit.",
+      "cite": "DHSR establish page",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "CRITICAL",
+      "task": "Confirm all staff files are complete before the licensure review",
+      "instructions": "Check that each file has the criminal record check (within 180 days), HCPR check (within 90 days), CPR, medication training and QP credentials where applicable. Missing items delay licensure.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "CRITICAL",
+      "task": "Do not admit two or more adults until the license is issued",
+      "instructions": "Opening early exposes you to the Class H felony penalty and a $1,000 per day fine. Wait for the written license.",
+      "cite": "G.S. 122C-28",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "HIGH",
+      "task": "Sequence licensure, accreditation and Medicaid enrollment so billing can start",
+      "instructions": "Medicaid pays only after the license, accreditation, NCTracks enrollment and LME/MCO contract are in place and a resident is authorized. Start accreditation and enrollment while DHSR review is underway. Model the cash gap; the three-home model needs about $408,000 in cash through ramp-up.",
+      "cite": "",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "HIGH",
+      "task": "Open homes one at a time if cash is limited",
+      "instructions": "The model staffs every home from month one, so opening and filling homes sequentially needs less cash. The default three-home model first turns profitable around month 8 and needs about 84.5% occupancy to break even.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — INITIAL LICENSURE REVIEW & OPENING",
+      "priority": "MEDIUM",
+      "task": "Notify the LME/MCO that you are open and ready for referrals",
+      "instructions": "Send the license copy and bed availability to the care coordination and network teams. Ask to be listed on the choice list.",
+      "cite": "",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, FINANCE & REVENUE MANAGEMENT",
+      "priority": "CRITICAL",
+      "task": "Bill the correct per diem codes and levels",
+      "instructions": "Alliance's schedule lists H2016 (Level 1), T2014 (Level 2), T2020 (Level 3) and H2016 HI (Level 4). Confirm codes and modifiers with your own LME/MCO. Bill only for days of service authorized.",
+      "cite": "Alliance Health FY27 schedule",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, FINANCE & REVENUE MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Track occupancy and break-even weekly",
+      "instructions": "The default three-home Level 2/3 model earns about $6,636 per month (5.7% margin) at 90% occupancy and breaks even near 84.5%. A single home with Level 1 residents needs about 99% occupancy, so do not rely on it. Monitor vacancies and speed up admissions.",
+      "cite": "Model results",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, FINANCE & REVENUE MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Stress-test wages",
+      "instructions": "At $18.49 per hour (NC CNA median proxy) instead of $17.00, the default three-home model falls to about $200 per month profit at 90% occupancy. Rerun your own P&L at the wages you actually pay and the rates your LME/MCO actually publishes.",
+      "cite": "BLS OEWS May 2025",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, FINANCE & REVENUE MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Build a reserve for rate changes and delayed payments",
+      "instructions": "Alliance states its Innovations rates are subject to change based on LME/MCO funding. Keep several months of operating reserve and watch NC Medicaid and LME/MCO notices.",
+      "cite": "Alliance Health FY27 schedule",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, FINANCE & REVENUE MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Keep documentation to support claims and audits",
+      "instructions": "Retain service notes, attendance, authorizations and staff time records so claims can withstand LME/MCO post-payment review. EVV data, if applicable, must match claims.",
+      "cite": "",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 9 — BILLING, FINANCE & REVENUE MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "File required tax reports on time",
+      "instructions": "File quarterly payroll and unemployment reports, the LLC annual report (April 15 per secondary guide) and annual tax returns. Missed filings can affect good standing needed for contracts.",
+      "cite": "DES 2026 tax information",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Prepare for annual reviews and complaint inspections",
+      "instructions": "DHSR performs complaint resolution, annual reviews and inspections of each group home. Findings can result in license suspension or revocation. Run internal audits quarterly against the 27G .5600 rules and past DHSR statements of deficiencies, which are posted publicly.",
+      "cite": "S.L. 2017-57 report",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Renew each license annually before December 31",
+      "instructions": "Licenses expire at the end of the calendar year. Calendar the renewal and fee for each home. Renewal amount was not verified.",
+      "cite": "G.S. 122C-23",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Maintain accreditation and re-credential in NCTracks",
+      "instructions": "Keep the accreditation current and complete NCTracks revalidation. The $100 NC fee recurs every five years and the federal fee applies when applicable.",
+      "cite": "NC Medicaid; NCTracks",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Keep staff background checks and training current",
+      "instructions": "Run criminal record and HCPR checks on every new hire and keep CPR and medication training current. DHSR does not train, so build your own annual schedule.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Give DHSR 30 days' written notice before any change of ownership",
+      "instructions": "The current licensee must notify DHSR in writing at least 30 days before a planned change of ownership. The new owner may not operate until licensed. Change-of-ownership fees were not verified.",
+      "cite": "DHSR licensing slide deck",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Monitor rule and rate changes",
+      "instructions": "Watch NC Medicaid bulletins, LME/MCO rate schedules, the DCW attestation and reporting dates, accreditation requirements and any pending changes to 10A NCAC 27G .5600. No proposed amendment was found at the time of research.",
+      "cite": "NC Medicaid Innovations provider page",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Stay current on waitlist and slot data",
+      "instructions": "The NCDHHS Innovations Waitlist Dashboard is refreshed quarterly and does not forecast when people will receive services. Use it to time expansion into additional homes.",
+      "cite": "NCDHHS Innovations Waitlist Dashboard",
+      "source_id": "S49"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Construction Section project review fee was a $0 placeholder",
+      "change": "Set startup_costs[5] to $225 (1 home) to $675 (3 homes) based on slide 35 of the DHSR deck, noted as approximate (low-resolution image), and updated the licensing pathway, financial narrative, risks, recommendations and not_claimed text. Checklist items 28 and 35 (fees_and_timelines_in_checklist) were not provided, so they are not patched and still need the same update. The cash-needed figures in the narrative are flagged as slightly understated."
+    },
+    {
+      "issue": "UI amount $333 wrong",
+      "change": "Changed to $342 (1.000% × $34,200) and added that the full wage base applies at $35,360 annual pay."
+    },
+    {
+      "issue": "DCW add-on effective date and retroactivity misattributed",
+      "change": "Reworded rates[5].effective, key_numbers[4].as_of and the reimbursement text: provider add-on effective 2026-10-01; July 1, 2026 retroactivity applies to LME/MCO capitation. Moved the unconfirmed Dec. 1, 2027 reporting date to not_claimed and out of customer text."
+    },
+    {
+      "issue": "Special Assistance $1,397 labeled secondary/unverified",
+      "change": "Marked the rate as confirmed by DHHS materials ($70 PNA), updated rates[7], reimbursement text and not_claimed[13]. Still not modeled. The source list was not provided, so source_id S26 was left in place and the official DHHS URL was cited in the notes; add the official sources to the source list."
+    },
+    {
+      "issue": "Construction review timing '10–12 weeks' attributed to the establish page not found",
+      "change": "Changed to 8–10 weeks (S5 deck and DHSR FAQ, with the 'approximately 18-10 weeks' typo and code-interpretation delay noted) in key_numbers[9], the licensing pathway, risks and recommendations; moved the '10–12 weeks' attribution to not_claimed."
+    },
+    {
+      "issue": "License term lacked the 15-month initial period",
+      "change": "Updated key_numbers[11] and the licensing pathway to say the initial license can run up to 15 months and the first renewal falls on the next Dec 31 after issuance (G.S. 122C-23(e)). The renewal fee remains flagged as unverified in not_claimed."
+    },
+    {
+      "issue": "Staffing rule cite was .5600 and the 1:6 ratio was unverified",
+      "change": "Changed the DSP staffing cite in all six configurations to 10A NCAC 27G .5602 with the one-staff-present minimum, and updated the operations text. The 1:6 ratio and paragraphs (c)/(d) were added to not_claimed. The modeled hours already exceed the floor."
+    },
+    {
+      "issue": "Flat $17.00 wage with no overtime/relief; BLS wages higher",
+      "change": "Did not change the $17.00 input, since every hardcoded narrative figure depends on it and the narrative already states the $18.49 results. Added an overtime/relief caveat to payroll_burden.notes and the narrative, risks and recommendations, and reworded the narrative to treat $17.00 as a low case and $18.49 as the planning case. The $19.29 and $47,970 wage figures were added to not_claimed as unverified. Consider re-running the model at $18.49 plus an overtime factor."
+    },
+    {
+      "issue": "NCTracks $100 fee may be per site",
+      "change": "Raised the startup_costs[2] high case to $300 (3 homes) with a note to confirm per site or per tax ID, and updated key_numbers[8] and the licensing pathway."
+    },
+    {
+      "issue": "Accreditor list and service applicability unverified",
+      "change": "Rewrote key_numbers[6] to state only the confirmed requirement and the April 20, 2027 re-enrollment deadline for existing providers, and added the accreditor list and service applicability to not_claimed. Other text lists the accreditors in passing; the licensing pathway, operations and recommendations text was reworded where it asserts them as required."
+    }
+  ]
+}

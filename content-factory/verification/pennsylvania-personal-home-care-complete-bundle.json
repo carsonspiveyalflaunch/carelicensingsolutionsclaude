@@ -1,0 +1,116 @@
+{
+  "bundle_slug": "pennsylvania-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 18,
+  "issues": [
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[5].value / rates[1].notes / rates[0..2].effective",
+      "current": "Region 4 (Southeast) value not retrieved; effective date of rates not verified",
+      "correct": "Region 4 (Southeast/Philadelphia) = $21.52/hr. The rates were last adjusted in 2022 and had not changed as of the 2025 study.",
+      "evidence": "S13 Table 2: 'Region 4: Southeast – Philadelphia metropolitan region $21.52'. Text: 'Rates for agency-provided PAS have not been adjusted since 2022.'",
+      "source_url": "https://pahomecare.org/wp-content/uploads/2025/10/CareRing-PA-Personal-Assistance-Services-Rate-Study.pdf",
+      "fix": "Add Region 4 $21.52/hr. Change effective to '2022 rates, unchanged as of 2025 (HMA study, Oct 2025)'. Re-check for any FY2025-26 or FY2026-27 increase before relying on these rates, because the study is Oct 2025 and it is now Oct 2026 (unverifiable here)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[3] / key_numbers[6] / revenue_lines.pa_mixed60[1] / revenue_lines.pa_chc100[0]",
+      "current": "$20.63 statewide average, 'Undated; before the FY2025-26 budget'",
+      "correct": "$20.63 is confirmed in the PHA letter, which is dated Jan 30, 2025. The HMA study, S13, gives $20.62 as the average (Tables 2 and 5). $20.63 is the simple mean of the four regional rates.",
+      "evidence": "S14: 'Pennsylvania's average reimbursement rate for in-home caregivers is only $20.63'. S13: 'Average reimbursement across all regions at present is $20.62 per hour.'",
+      "source_url": "https://pahomecare.org/pennsylvania-homecare-association-delivers-letter-to-governor-shapiro-and-legislators/",
+      "fix": "Set the date to 'Jan 30, 2025'. Note the $20.62 vs $20.63 discrepancy. For a region-specific model use $19.32 (SW), $21.48 (Region 2), $20.20 (Lehigh/Capital) or $21.52 (SE) instead of a flat average."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[0].wage_hourly (17.21) and notes",
+      "current": "Aide wage = BLS national median $17.21/hr, with no Pennsylvania OEWS aide wage",
+      "correct": null,
+      "evidence": "The $17.21 national median ($35,800/yr, May 2025) is confirmed by the BLS OOH, but it is not a Pennsylvania wage. The brief asked for BLS OEWS May 2025. The Philadelphia figures ($17.73, $19.52, $34.49) could not be confirmed because the BLS page text did not load.",
+      "source_url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "fix": "Replace $17.21 with the PA state OEWS May 2025 median or mean for SOC 31-1120 (and the metro figure for the target market). Treat the $17.73, $19.52 and $34.49 figures as unverifiable until re-pulled from BLS OEWS tables. Wage is above the $7.25 minimum in every case, so there is no minimum-wage violation."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.pa_private20[2], pa_private40[2], pa_private75[2..3], pa_mixed60[2], pa_chc100[2..3] and administrator rows (71739)",
+      "current": "Scheduler and supervisor wage = $19.52 'personal care and service occupations' mean. Administrator = $34.49 all-occupation mean.",
+      "correct": null,
+      "evidence": "The model's own notes say 'Office-occupation wages were not retrieved' and 'Manager-specific Pennsylvania wages were not retrieved'. Those are the wrong OEWS occupation groups for these roles.",
+      "source_url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_philadelphia.htm",
+      "fix": "Use OEWS May 2025 PA or metro wages for SOC 43-6014 / 43-9061 (scheduler and intake), 11-9111 (medical and health services managers) or 11-1021 (general and operations managers) for the administrator, and 31-1120 or 29-1141 for the field supervisor. Current proxies are unverifiable for these roles."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden / staffing.*[0].amount (83.2 hrs = 4% non-billable)",
+      "current": "Burden 17.5% (10.5% payroll tax + 5% workers' comp + 2% benefits); non-billable time 4%",
+      "correct": "The state's own rate-setting benchmarks assume a much higher cost load: 88% billable (about 12% non-billable) and 23% employee-related expense. The OLTL low case assumes 85% billable and 15% ERE.",
+      "evidence": "S13: 'assumed ERE percentage … set at 23 percent'. Table 8 shows PA 2012 at 23–25%. 'productivity adjustment … set at 88 percent.' Attachment B shows OLTL at 85% billable.",
+      "source_url": "https://pahomecare.org/wp-content/uploads/2025/10/CareRing-PA-Personal-Assistance-Services-Rate-Study.pdf",
+      "fix": "Rerun the P&L with at least 12–15% non-billable and paid-leave time and a 23%+ ERE load as a sensitivity case. The 40-client private-pay result ($16,848/mo, 17.2% margin) is likely overstated. CHC-only is already shown as a loss, and these assumptions make it worse."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex / payroll_burden / startup_costs (missing mandatory costs)",
+      "current": "Local taxes are a $50/mo placeholder. No local paid-sick-leave cost. No Medicaid exclusion-screening or MCO credentialing cost. No employer-paid State Police or FBI check fees (only $6 per client per month).",
+      "correct": null,
+      "evidence": "The notes say 'Municipal business license and tax rules were not retrieved' and 'State Police and FBI fees and who pays them were not retrieved'. I could not verify any of these amounts.",
+      "source_url": "https://pacodeandbulletin.gov/Display/pacode?d=&file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.52.html",
+      "fix": "Add or verify the following. (1) Philadelphia and Pittsburgh business-privilege taxes (for example Philadelphia BIRT and the Commercial Activity License) and the local employer wage-tax administration. (2) Philadelphia and Pittsburgh paid sick leave ordinances for employees. (3) Per-hire State Police criminal record check and ChildLine fees, and FBI fees where required. (4) For Medicaid configurations, monthly OIG/Medicheck exclusion screening and MCO credentialing. All are unverifiable here and need confirmation from the municipality and DOH."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[0].email / fees_and_timelines_in_checklist[12].instructions",
+      "current": "Questions go to ra-dhhlicenquestions@pa.gov",
+      "correct": "The DOH home-care page sends questions about the new online application process to RA-dhhomehealth@pa.gov. The FAQ footer lists ra-dhhlicenquestions@pa.gov, and ra-dhhomecarereview@pa.gov was the old email-submission address.",
+      "evidence": "DOH page: 'Questions regarding this process can be sent to RA-dhhomehealth@pa.gov.' Mailed or emailed submissions are no longer accepted from March 31, 2026.",
+      "source_url": "https://www.pa.gov/agencies/health/facilities/out-patient-healthcare-facilities/home-care",
+      "fix": "List RA-dhhomehealth@pa.gov for online-application questions and keep ra-dhhlicenquestions@pa.gov as the general contact. State that the 2009/2010 phone (717) 783-1379 is from a Pa. Bulletin notice and should be reconfirmed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators (missing contact) / startup_costs[Medicaid enrollment]",
+      "current": "No OLTL provider-enrollment contact. $750 fee sourced from an Indiana Medicaid bulletin (S20).",
+      "correct": "The DOH FAQ gives the OLTL enrollment and certification unit contact and says Medicaid enrollment does not guarantee MCO network entry.",
+      "evidence": "FAQ: 'enrollment and certification unit at 1-800-932-0939, option 1 or … RA-HCBSEnProv@pa.gov'. 'Enrollment in state Medicaid does not guarantee enrollment in individual MCO networks.'",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/facilities-and-licensing/HCA%20FAQ.pdf",
+      "fix": "Add the OLTL enrollment contact to regulators. Replace the Indiana source with a PA DHS or CMS source for the application fee, or mark it 'unverifiable for PA'. Add that new providers may find MCO networks closed, which is a revenue-timing risk for the CHC configurations."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[4] (T1019 $6.84/unit, $27.36/hr) and key_numbers CHC enrollment 396,880; PA min-wage bill passed House 3/24/2026; S23/S24 figures; private-pay $33/$34 (S22)",
+      "current": "Stated as sourced",
+      "correct": null,
+      "evidence": "The Pa. Bulletin, DHS and CareYaya pages could not be fetched (permission denied or not retrieved). The $27.36 arithmetic ($6.84 × 4) is correct.",
+      "source_url": "https://pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol52%2F52-16%2F575.html",
+      "fix": "unverifiable: re-confirm the T1019 rate, the CHC enrollment figure, the minimum-wage bill status and the PA-specific private-pay figures ($33 and $34 per hour) against primary sources. Genworth publishes national medians, so check whether $33/$34 are PA figures or the national medians."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.source_id / fees_and_timelines_in_checklist[35]",
+      "current": "S25 (L&I Yearly Tax Highlights) cited for 2026 rates",
+      "correct": "The 3.822% new-employer rate, $10,000 wage base and 1.419%–10.3734% range for 2026 are confirmed by multiple payroll sources. The L&I page now headlines CY2027 solvency measures.",
+      "evidence": "L&I page metadata: 'UC Trust Fund Solvency Measures in Effect for Calendar Year 2027'. Payroll sources: 'new employer … 3.822% on the first $10,000'.",
+      "source_url": "https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights",
+      "fix": "Label the figures as CY2026 and check the CY2027 rates and surcharge before projecting 2027. Add the 0.07% employee UC withholding as a payroll-compliance item (employee-paid, not an employer cost)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[Medicaid EVV].source_id (S18) / key text 'EVV required since 1/1/2020 [S18]'",
+      "current": "S18 is an ODP (developmental programs) EVV guide",
+      "correct": null,
+      "evidence": "S18 is an Office of Developmental Programs document. CHC personal assistance services falls under OLTL, not ODP.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/evv/2026-05-13-odp-evv-guidance-3.0.pdf",
+      "fix": "Cite an OLTL/CHC EVV source for the PAS requirement. Mark the 1/1/2020 date unverifiable until confirmed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[4] (licensing processing time) / fees_and_timelines_in_checklist",
+      "current": "About 2–3 months from a complete application",
+      "correct": "The secondary guides conflict: one says 2–3 months or longer (as of 2024), another says 10–20 weeks. An official DOH timeline was not verified.",
+      "evidence": "ShiftCare: 'initial home care agency/registry applications are taking 2–3 months or longer.' HomeCareAtlas: 'approximately 10-20 weeks.'",
+      "source_url": "https://shiftcare.com/us/blog/understanding-non-medical-home-care-licenses-in-pennsylvania",
+      "fix": "Give a range of 2–5 months (10–20 weeks) and budget extra ramp-up payroll and rent for the longer end. The license term (annual per secondary sources) is unverified."
+    }
+  ]
+}

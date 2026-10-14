@@ -1,0 +1,170 @@
+{
+  "bundle_slug": "pennsylvania-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 36,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "startup_costs[2] and fees_and_timelines_in_checklist[18]",
+      "current": "DHS directory lists a 15-hour assisted living administrator training course (directory dated 3/22/2019; current hours not confirmed); cost $300-$1,000",
+      "correct": "Before initial employment, an administrator must complete (1) a Department-approved and administered orientation, (2) a 100-hour standardized Department-approved administrator training course, and (3) a Department-approved competency test with a passing score. Annual training is then at least 24 hours.",
+      "evidence": "§2800.64(a)(2): \"A 100-hour standardized Department-approved administrator training course.\" §2800.64(c): \"at least 24 hours of annual training relating to the job duties.\" The DHS copy of Ch. 2800 shows §2800.64 as amended June 2016.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Replace the '15-hour course' language with: orientation + 100-hour course + competency test before hire, and 24 hours of annual training. Re-price the startup line for a 100-hour course (price unverifiable). Add 24 hours of annual administrator training to the training budget. Add 4 hours of dementia training within 30 days of hire and 2 hours annually (§2800.69)."
+    },
+    {
+      "severity": "critical",
+      "json_path": "opex[20].notes",
+      "current": "Vehicle / resident transportation $300/mo: \"Transportation is optional.\"",
+      "correct": "Transportation is a mandatory assisted living service. The residence must provide or arrange transportation on a regular weekly basis for medical and social appointments. If the residence supplies its own vehicle, at least one vehicle must be wheelchair-accessible. It must keep registration, inspection and vehicle insurance records, and the driver must be 18+ and licensed.",
+      "evidence": "§2800.171(a): \"shall be required to provide or arrange for transportation on a regular weekly basis.\" §2800.220(b)(7) lists transportation among the minimum services. §2800.171(c) requires vehicle insurance documentation. §2800.171(d) requires an accessible vehicle if the residence supplies its own.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Change the note to 'Mandatory (§2800.171, §2800.220(b)(7))'. Budget for an accessible vehicle or a contract transport provider, vehicle insurance, and driver and assistant labor. Cost is an operator estimate."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex[9].notes",
+      "current": "The current ALR nurse requirement was not confirmed (a 2015 compendium says RN in the building or on call; later summaries say licensed nurse)",
+      "correct": "The requirement is confirmed. The residence must have a licensed nurse available in the building or on call at all times, as an employee or under contract. An LPN under RN supervision, or an RN, must complete or approve the initial assessment, preliminary support plan and final support plan, and review the plan quarterly.",
+      "evidence": "§2800.60(d): \"the residence shall have a licensed nurse available in the building or on call at all times.\" §2800.227(b): \"An LPN, under the supervision of an RN, shall review and approve the final support plan.\"",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "State the nurse requirement as confirmed under §2800.60(d). Re-test whether $800/month fixed covers 24/7 on-call coverage plus assessments and quarterly plan reviews, especially for 16 and 40 residents (estimate, unverifiable)."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex (missing line)",
+      "current": "No dietitian cost.",
+      "correct": "The residence must have a dietitian on staff or under contract for any special dietary needs in a support plan.",
+      "evidence": "§2800.60(e): \"The residence shall have a dietician on staff or under contract to provide for any special dietary needs of a resident as indicated in his support plan.\"",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Add a fixed opex line 'Contracted dietitian' (amount unverifiable; get quotes) to all ALR configurations."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex[13] and startup_costs[1] and key_numbers['ALR per-bed fee']",
+      "current": "$75 per bed base; current adjusted amount not verified",
+      "correct": "The per-bed fee was adjusted by Department notice in the Pennsylvania Bulletin, so $75 is likely stale. The current amount is unverified.",
+      "evidence": "§2800.11(c)(2) says the Department will publish a Pa. Bulletin notice when the per-bed fee is increased. The Pa. Bulletin cumulative index (Vol. 54 No. 31, Aug. 3, 2024) lists \"2800 · Assisted Living Residence Per Bed Fee Adjustment · 06/19/18 · 48 Pa. B. 3493\".",
+      "source_url": "https://www.pacodeandbulletin.gov/secure/pabulletin/data/vol54/54-31/54_31_p4.pdf",
+      "fix": "Retrieve 48 Pa.B. 3493 and any later notice, then replace $75 in all fee calculations (6, 16 and 40 beds). Until then label the figures '$75 base per regulation, superseded by the 2018 adjustment notice; exact amount unverifiable'."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden.notes / workers_comp_pct",
+      "current": "...whether coverage is mandatory for this operator type were not verified. Workers' comp 4% operator estimate",
+      "correct": "Pennsylvania's Workers' Compensation Act requires employers with employees to carry workers' compensation insurance (77 P.S. §501, Section 305). Treat it as a mandatory cost. The 4% rate is unverifiable.",
+      "evidence": "I did not fetch a primary source for this. It is based on the PA Workers' Compensation Act, which L&I administers.",
+      "source_url": "https://www.pa.gov/agencies/dli",
+      "fix": "Change the note to 'Mandatory for any employer with employees.' Get a quote under the nursing and residential care class code, because 4% of payroll is unverifiable and may be low for direct-care labor."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.alr6_private (missing role) and staffing.alr16_private[2]",
+      "current": "alr6: no cook, housekeeping or laundry hours. alr16: 260 hrs/month described as 'about 15 hrs/week housekeeping plus 40 hrs/week cook'.",
+      "correct": "Food service (3 meals plus snacks daily), housekeeping, laundry (weekly linen change) and a daily activities program are mandatory services, and staffing must cover them. 55 hrs/week is about 238 hrs/month, not 260.",
+      "evidence": "§2800.60(c): \"Additional staff hours, or contractual hours, shall be provided as necessary to meet the transportation, laundry, food service, housekeeping and maintenance needs.\" §2800.220(b) lists meals, laundry, housekeeping and activities. §2800.105(d) requires weekly linen changes.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Add a cook/housekeeping/laundry labor line to alr6_private, or state explicitly that the 730 direct-care hours absorb it (which then conflicts with the added service-time line). In alr16 either correct 260 to about 238 or correct the note to about 60 hrs/week, and add explicit laundry hours."
+    },
+    {
+      "severity": "major",
+      "json_path": "startup_costs[6]",
+      "current": "Accessibility and physical plant upgrades $5,000-$100,000 (operator estimate; only the 225 sq ft rule mentioned)",
+      "correct": "Unit-level mandatory features are not itemized. Each resident gets their own living unit (sharing only by written voluntary agreement, max 2). Each unit needs its own bathroom (toilet, sink, tub/shower, grab bars), an emergency notification system in the unit and the bathroom, a lockable door, a telephone jack, an individually controlled thermostat, and a window. Central air conditioning is required for new construction. Two wheelchair-accessible common rooms are required, plus an AED in each building and a public restroom.",
+      "evidence": "§2800.101(a),(b)(3),(h),(r); §2800.102(a)-(d),(n),(m); §2800.98(a); §2800.83(c); §2800.96(a): \"The residence shall have an automatic external defibrillation device located in each building.\"",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Itemize per-unit private bathrooms, call systems, thermostats, central A/C, AED(s) and ADA-compliant public restroom in startup costs. Re-test the 6-bed converted-house case, since it needs six units each with a bathroom. The cost amounts are unverifiable."
+    },
+    {
+      "severity": "major",
+      "json_path": "fees_and_timelines_in_checklist[22]",
+      "current": "Only dated sources were found: a 2015 compendium (18 hours) and a 2019 summary (16 hours annual). Check the current Ch. 2800 training section.",
+      "correct": "Direct care staff may not provide unsupervised assisted living services until they complete 18 hours of training and pass the competency test. They need first aid and CPR certification before providing care, an orientation within 40 scheduled working hours, and 16 hours of annual training. Dementia training is 4 hours within 30 days and 2 hours annually, in addition to those hours.",
+      "evidence": "§2800.65(g): \"may not provide unsupervised assisted living services until completion of 18 hours of training\". §2800.65(h): \"at least 16 hours of annual training\". §2800.65(c): certified in first aid and CPR before providing direct care. §2800.69: 4 hours dementia training within 30 days of hire, 2 hours annually.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Replace 'not verified' with the figures above. Add paid pre-service training hours per hire (18 hrs x wage x turnover) and CPR/first-aid certification cost to payroll/opex."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[19] (item 32 staff presence)",
+      "current": "A direct care staff person age 21 or older must be present in the residence... Pro Forma models 730 hours/month",
+      "correct": "Direct care staff on duty must also be awake at all times, so there are no sleep shifts. The 21+ person may be the administrator only if the administrator provides direct care. Awake-staff coverage must be maintained across all buildings on the premises.",
+      "evidence": "§2800.58: \"Direct care staff persons on duty in the residence shall be awake at all times.\" §2800.57(a); §2800.59.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Add 'Staff must be awake at all times (§2800.58)' to the task instructions and to the staffing notes. No sleep-shift discount is allowed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[13] (item 25)",
+      "current": "cite: 55 Pa. Code §2800.11; source S6 (for the $500 penalty plus $20/resident/day)",
+      "correct": "The $500 unlicensed-operation penalty and the additional $20 per resident per day after 14 days are in §2800.262(g), not §2800.11. The amounts and the 14-day period are correct.",
+      "evidence": "§2800.262(g): \"a penalty of $500 will be assessed. After 14 days... an additional $20 for each resident for each day\".",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Change the cite to '55 Pa. Code §2800.11(b) (inspection before opening); §2800.262(g) (penalty)'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[5].notes and fees_and_timelines_in_checklist[24] (item 44)",
+      "current": "The $85 allowance under 55 Pa. Code §2600.25a comes from a secondary source only... allowance and mechanics were not verified from DHS",
+      "correct": "The $85 PNA is verified in the official Pa. Code (§2600.25a, statement of policy). The charge cap is also verified: for ALRs, charges may not exceed the SSI resident's actual monthly income reduced by the current personal needs allowance (§2800.27(a)). DHS guidance also states the $639.30 PCH supplement and the $85 PNA. Note §2600.25a is written for personal care homes, so ALR use of $85 follows via §2800.25(c)(1) and §2800.27(a) 'current personal needs allowance'.",
+      "evidence": "§2600.25a: \"The personal needs allowance for residents of personal care homes who receive Supplemental Security Income is $85.\" DHS guide: \"PCH Supplement... (currently $639.30 monthly)... PNA of $85 monthly\".",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/licensing/bhsl-licensing/documents/ssi-and-pch-supplement-guide.pdf",
+      "fix": "Update the notes to cite §2600.25a, §2800.27(a) and the DHS SSI/PCH Supplement guide as the primary sources. Add that SSI residents must receive hygiene items, laundry and ADL/IADL assistance at no charge beyond that amount (§2800.27(d)); this cost is not modeled."
+    },
+    {
+      "severity": "minor",
+      "json_path": "revenue_lines.alr16_mixed[1] and alr40_mixed[1]",
+      "current": "SSI + state supplement at the personal care boarding home rate ($1,633.30) applied to ALR residents",
+      "correct": "SSA's 2026 table lists $1,633.30 for the 'personal care boarding home' category. The DHS guide verifies the $639.30 supplement only for residents of licensed personal care homes. I could not find a primary source confirming the same supplement for ALR residents.",
+      "evidence": "SSA: \"paid to residents of domiciliary care homes and personal care boarding homes\". DHS guide: individuals \"residing in licensed PCHs are also eligible\".",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/licensing/bhsl-licensing/documents/ssi-and-pch-supplement-guide.pdf",
+      "fix": "Mark ALR eligibility for the supplement as unverifiable and confirm with BHSL/SSA before modeling SSI-level residents in an ALR. Dual-licensed PCH/ALR operations are the clearer path (§2800.11(g))."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[10] (fire safety)",
+      "current": "Fire alarm monitoring, extinguisher and system inspections $100/mo fixed",
+      "correct": "Recurring mandatory items are not itemized. Fire safety approval must be renewed at least every 3 years. A fire safety expert must inspect and conduct a fire drill annually. Extinguishers need an annual inspection, furnaces an annual inspection, and smoke detectors monthly testing. Fire alarms must be connected to the fire department or a 24-hour monitoring service where five or more residents have mobility needs. Quarterly coliform water tests are required if not on public water.",
+      "evidence": "§2800.14(e); §2800.132(b); §2800.131(f); §2800.126(a); §2800.130(h); §2800.89(c).",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Add a note and budget for the 3-year fire safety approval renewal, annual fire-safety-expert inspection, furnace inspection and, if applicable, quarterly water testing. Cost amounts are unverifiable."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[2] (BHSL Operator Support Hotline)",
+      "current": "Phone (866) 503-3926; no hours; no complaint hotline listed",
+      "correct": "The phone number is verified. The Operator Support Hotline runs 9 a.m.-4 p.m. each Commonwealth business day. The complaint/illegal-operation line is 1-877-401-8835. The BHSL HQ phone 717-783-3670 and email ra-pwarlheadquarters@pa.gov are verified. Address: 555 Walnut Street, Forum Place 6th Floor, Harrisburg, PA 17101.",
+      "evidence": "BHSL 2025 annual report: \"If you are a PCH or ALR provider... please call: 1-866-503-3926\"; \"report illegal operations, please call: 1-877-401-8835\".",
+      "source_url": "https://www.pa.gov/agencies/dhs/resources/licensing/pch-alr-licensing/pch-alr-contact",
+      "fix": "Add the hours (9-4 business days) and the complaint line 1-877-401-8835. The ALR complaint hotline number must be posted in large print in the residence (§2800.44(g))."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[15] (item 27, waivers)",
+      "current": "If a rule cannot be met, check the waiver-of-regulation process",
+      "correct": "Many categories cannot be waived: staff training, fire safety, assessment/support plan/service delivery, contract requirements and resident rights. A waiver request must also be given to the affected resident 30 days before submission.",
+      "evidence": "§2800.19(c): scope, ... staff training requirements, ... fire safety requirements... \"may not be waived.\" §2800.19(d): provide a copy to the affected resident at least 30 days before submission.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Add the non-waivable categories and the 30-day resident-notice step to the instructions."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.alr40_private[0].notes",
+      "current": "...which at 40 residents is read as two.",
+      "correct": "The reading is consistent with the text, but §2800.63(a) only requires at least one first-aid/CPR-trained person present per 35 residents. Two direct care staff on duty 24/7 is a model choice, not a §2800.57 requirement. §2800.57 sets presence (one 21+ staff) plus hours-based minimums: 1 hr/day per mobile resident and 2 hrs/day per resident with mobility needs.",
+      "evidence": "§2800.63(a): \"For every 35 residents, there shall be at least one staff person trained in first aid and certified in obstructed airway techniques and CPR present in the residence at all times.\" §2800.57(a)-(d).",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/clearances-and-licensing/documents/app-hsl/Assisted-Living-Residences-2800-Regulations.pdf",
+      "fix": "Relabel the 1,460 hours as an operator staffing choice (two on duty), not a rule-driven minimum. The residence must also staff above that if the Department requires more (§2800.60(b))."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[1], rates[2], staffing admin notes ($61.57/hr)",
+      "current": "CareScout 2025 PA $6,480/mo (via LTCareNav); A Place for Mom $5,655/mo; Pittsburgh management mean $61.57/hr",
+      "correct": null,
+      "evidence": "The cited pages were not retrievable or their content was truncated. The BLS Pittsburgh page loaded only navigation. $77,760/12 = $6,480 and $61.57 x 2,080 = $128,066 are arithmetically consistent.",
+      "source_url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_pittsburgh.htm",
+      "fix": "unverifiable: confirm each against the primary table or PDF before relying on it."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "bundle_slug": "virginia-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 34,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "fees_and_timelines_in_checklist[7] (i=9); opex[4].notes; key_numbers[3]",
+      "current": "Tier II and III amounts were not captured. Final adoption of the permanent tiers is unconfirmed. The budget models only mention the Tier I $250,000 minimum.",
+      "correct": "All four tiers are in the Standards effective 9/23/2026. Tier I is $250,000 for 25 residents or fewer. Tier II is $400,000 for 26–75. Tier III is $500,000 for 76–150. Tier IV is $1,000,000 for 151 or more. A 40-bed building is Tier II.",
+      "evidence": "\"Tier II: A minimum of $400,000 for facilities licensed for more than 25 but no more than 75 residents\"; \"Tier III: A minimum of $500,000\" (22VAC40-73-45 A).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Remove the 'not captured' and 'unconfirmed' wording. List all four tiers as in effect since 9/23/2026. State that the 40-bed model must carry at least $400,000 per occurrence. Say the limit is per occurrence."
+    },
+    {
+      "severity": "major",
+      "json_path": "opex[4].monthly (1515); startup_costs[11]; key_numbers[3].value",
+      "current": "$18,180 per year ($1,515 per month) liability premium used for every facility size.",
+      "correct": "null (unverifiable by tier). The $18,180 figure is a statewide average and was not broken out by tier.",
+      "evidence": "\"The reported costs were not separated by tiers.\" About 402 of 569 ALFs are Tier II–IV (169, 195 and 38), so the average is weighted toward larger facilities. The '17 respondents' count is in a footnote that was not retrieved.",
+      "source_url": "https://register.dls.virginia.gov/details.aspx?id=12071",
+      "fix": "Mark $1,515 per month as a placeholder, not tier-specific. Use broker quotes for the 6- and 12-bed Tier I homes ($250k) and for the 40-bed Tier II ($400k). Rerun the pro forma with those quotes."
+    },
+    {
+      "severity": "major",
+      "json_path": "fees_and_timelines_in_checklist[22] (i=29)",
+      "current": "Each building must have either a staff member certified in first aid and CPR on duty, or an on-duty licensed or certified responder (RN, LPN or EMT).",
+      "correct": "The RN/LPN/EMT alternative applies to first aid only. CPR needs at least one certified staff person in each building at all times, with no alternative. Each direct care staff member must also hold first-aid certification, or get it within 60 days of hire. RN, LPN, EMT, first responder and paramedic staff are exempt from that first-aid requirement.",
+      "evidence": "\"There shall be at least one staff person in each building at all times who has current certification in CPR\" (22VAC40-73-260 B.1). First aid is covered separately in 260 A.1–A.4.",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Rewrite as: (a) a CPR-certified staff person in every building at all times; (b) first aid is satisfied by a certified staff person or an on-duty RN, LPN, EMT, first responder or paramedic; (c) every direct care aide needs first-aid certification within 60 days of hire. Add that certifications must be posted and kept current (260 C)."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role contains 'Direct care' | 'Dietary' | 'Cook' | 'Activities'].wage_hourly (18.47, 18.03)",
+      "current": "Wages are the Richmond BLS May 2025 major-group means. Personal care and service is $18.47. Food preparation and serving is $18.03. The first is used for aides and the second for cooks and housekeepers.",
+      "correct": "The figures match the BLS release, but they are broad major-group means. Aides are SOC 31-1131 Nursing Assistants or 31-1122 Personal Care Aides. Cooks are 35-20xx. Housekeepers are 37-2012. Aide pay in ALFs is often higher than the group mean. The corrected Richmond and Virginia values were not retrievable.",
+      "evidence": "BLS May 2025 Richmond: \"food preparation and serving related ($18.03)... personal care and service ($18.47)\". BLS TED shows nursing assistants in CCRC and ALF industries at a $19.07 mean nationally (May 2024).",
+      "source_url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_richmond.htm",
+      "fix": "Unverifiable. Replace with May 2025 OEWS means for Richmond and Northern Virginia for 31-1131, 31-1122, 35-2012/35-2014 and 37-2012. Re-test the 12-bed private-pay margin ($3,138 per month) and the 6-bed loss, because aide hours are the largest cost. All current wages exceed $12.77."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role contains 'RN/LPN' | 'Administrator' | 'Business office'].wage_hourly / amount",
+      "current": "RN/LPN $42 per hour. Administrator $55k, $65k, $80k and $95k a year. Business office $20 per hour. All are flagged as operator estimates with no wage_source_id.",
+      "correct": "null (unverifiable). The brief requires BLS OEWS May 2025 for every wage.",
+      "evidence": "wage_source_id is empty for these lines. The notes say 'no BLS RN/LPN wage was retrieved' and 'no official administrator wage retrieved'. The 40-bed full-time RN line alone is 173.3 hours a month at $42.",
+      "source_url": "https://www.bls.gov/oes/tables.htm",
+      "fix": "Source from OEWS May 2025: SOC 29-1141 RN, 29-2061 LPN, 11-9111 Medical and Health Services Managers (administrator proxy) and an office-clerk SOC for the admissions line. Add a wage_source_id. Confirm each is at or above $12.77, and also above $13.75 and $15.00 for 2027 and 2028."
+    },
+    {
+      "severity": "major",
+      "json_path": "startup_costs / opex (missing line); fees_and_timelines_in_checklist (missing task)",
+      "current": "There is no cost for medication-aide registration or for the administrator's medication-aide supervisor training.",
+      "correct": "Staff who give medications must be licensed or registered as medication aides. Medication aides must be supervised by a full-time licensed nurse employed at the facility, or by the administrator. An unlicensed administrator needs a Board of Nursing–approved training program of at least 68 hours. The 6-, 12- and 20-bed models use only a part-time RN, so this applies to them.",
+      "evidence": "\"must include a minimum of 68 hours of student instruction and training\" (22VAC40-73-160 D; 670 3.b).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Add startup lines for the 68-hour training and for aide registration, with course and fee amounts marked 'verify with Board of Nursing'. Add 4 hours a year of medication training for the administrator (160 E). Alternatively model a full-time licensed nurse."
+    },
+    {
+      "severity": "major",
+      "json_path": "startup_costs (missing line); fees_and_timelines_in_checklist (missing task)",
+      "current": "There is no resident call or signaling system cost.",
+      "correct": "Every ALF needs a signaling device reachable from each bedroom or its bathroom. Buildings licensed for 20 or more residents need a continuously staffed central location, or an audible and visible signal that shows where the call came from. Buildings with 19 or fewer need hourly overnight rounds with a written log kept for 2 years.",
+      "evidence": "\"In buildings licensed to care for 20 or more residents under one roof, there shall be a signaling device that terminates at a central location that is continuously staffed\" (22VAC40-73-930 B).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Add a startup line for the call system (installation cost unverifiable, get vendor quotes). Note in the 20- and 40-bed staffing models that the central station must be continuously staffed or the call must be audible and visible. For the 6- and 12-bed homes, add the hourly-rounds log to the checklist."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0].notes and rates[2].notes; key_numbers[5]/[6]",
+      "current": "A proposed AG increase to $2,500 and a proposed PNA increase to $115 are described as 'not verified as enacted'. The rates are $2,130, $2,450 and $87.",
+      "correct": "null (unverifiable). The $2,130, $2,450 and $87 figures are correct for the 1/1/2026 rate letter. By 10/14/2026 the 2026 Appropriation Act outcome is known, and any change effective 7/1/2026 is not reflected.",
+      "evidence": "The rate letter is dated Nov 10, 2025: \"The personal needs allowance will remain at $87.\" The sources cited for the increases are introduced member-request amendments (HB30 Item 332).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/ARC2026_ag_rate_letter.pdf",
+      "fix": "Check the enacted Appropriation Act (Item 332) and any DARS rate letter effective 7/1/2026 or later. Replace the 'not verified' wording with the enacted amount or 'no change enacted'. Update the AG revenue lines if the rate changed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[10] (i=12).instructions; sources S44",
+      "current": "Secondary sources report $13.75 on Jan. 1, 2027 and $15.00 on Jan. 1, 2028; verify against the LIS bill record.",
+      "correct": "Enacted. HB1/SB1 were signed April 9, 2026. The rates are $13.75 on 1/1/2027 and $15.00 on 1/1/2028.",
+      "evidence": "Governor's release: SB1 and HB1 \"codify the adjusted state hourly minimum wage of $12.77\" then raise it to $13.75 on January 1, 2027 and $15.00 on January 1, 2028.",
+      "source_url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/april-releases/name-1116004-en.html",
+      "fix": "State these as enacted law and cite the governor's release in place of the HiveDesk source. Add that every modeled wage ($18.03 and up) already exceeds both steps, but the 2028 level and later indexing should be built into projections."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[2] (i=3).instructions; key_numbers[4].value",
+      "current": "A mixed population including serious cognitive impairment requires at least two awake direct care staff in each building.",
+      "correct": "That is correct, except for ALFs licensed for 10 or fewer residents with no more than 3 residents who have serious cognitive impairment. Those facilities follow the 1-awake rule in 280 D. Safe-secure memory care units have separate night ratios: 2 staff for 22 or fewer residents, 3 for 23–32, and 4 for 33–40.",
+      "evidence": "\"do not apply to assisted living facilities that are licensed for 10 or fewer residents if not more than three of the residents have serious cognitive impairments\" (1020 B). Unit ratios are in 1130 C.",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Add the 10-bed/3-resident exception. Add that a dedicated memory-care unit follows the 1130 staffing ratios, and cross-reference them in the memory-care add-on."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[14] (i=18).instructions",
+      "current": "A combined-license facility may run on an acting administrator for no more than 150 days.",
+      "correct": "The limit is 150 days only if the acting administrator has applied for licensure. Otherwise it is 90 days. There is one extension of up to 30 days. A facility may not use an acting administrator more than twice in 2 years without DSS authorization. The Board of Long-Term Care Administrators and DSS must be notified immediately.",
+      "evidence": "\"no more than 150 days, or not more than 90 days if the acting administrator has not applied for licensure\" (22VAC40-73-150 B.6; B.7; B.9; B.2).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Add the 90-day condition, the 30-day extension conditions, the twice-per-two-years cap and the immediate Board notice. Add that the acting administrator must file an AIT application within 10 days if intending to stay permanently."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[17] (i=22).instructions",
+      "current": "Sleeping quarters must provide at least 450 cubic feet of air space per resident. A new licensee may not place more than two residents in one bedroom.",
+      "correct": "That is correct but incomplete. Single bedrooms in buildings approved or changed in use after 1996 need at least 100 sq ft, otherwise 80. Shared rooms need 80 sq ft per person in post-1996 buildings, otherwise 60. Ceilings must be at least 7.5 ft. Glazed window area must be at least 8 sq ft for one person and 6 sq ft per person for two or more.",
+      "evidence": "\"not less than 100 square feet of floor area in bedrooms accommodating one resident\" (22VAC40-73-900 2.a). Also \"ceilings at least 7-1/2 feet\" (900 3).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Add the floor-area, ceiling-height and window minimums to the room-design task. Bed spacing of 3 ft and 80/100 sq ft limits affect the licensed bed count and therefore revenue."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex (missing lines); startup_costs (missing lines)",
+      "current": "There are no costs for emergency-power vendor agreements, generator or connection testing, a 96-hour emergency food and water supply, emergency lighting or direct-care entry training.",
+      "correct": "Facilities without an on-site generator need agreements with two separate generator vendors. A temporary power connection must be tested at installation and every 2 years by a contracted vendor. A 96-hour supply of emergency food and water is required, with 48 hours on site. Flashlights or lanterns are required for each employee on duty from 5 p.m. to 7 a.m. and for each bedroom. Direct care staff must complete a nurse-aide, DMAS PCA or 40-hour RN/LPN-taught course within 2 months of hire. State-approved private-pay UAI training and ISP training are also required.",
+      "evidence": "\"Enter into at least one agreement with a separate vendor capable of providing an emergency generator\" (22VAC40-73-950 C). \"tested at the time of installation and every two years thereafter by a contracted vendor\" (980 E.2). \"96-hour supply of emergency food and drinking water\" (980 H).",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "fix": "Add small recurring and one-time lines for these items with 'get quotes' notes. Add a dietitian or nutritionist line for six-monthly special-diet oversight if any resident has a special diet (620)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[3].notes; fees_and_timelines_in_checklist (new task)",
+      "current": "A VDH sanitation inspection is required with the initial application. SB 409 and SB 677 are not mentioned.",
+      "correct": "SB 677, effective 7/1/2026, exempts ALFs caring for 12 or fewer individuals in a home from restaurant regulatory requirements. This may remove the VDH food inspection cost for the 6- and 12-bed models. SB 409 requires residents to be allowed in-room electronic monitoring. ALFs must adopt policies, with fees and consent rules, effective when DSS regulations take effect.",
+      "evidence": "\"exempts adult day centers, assisted living facilities... from restaurant regulatory requirements when they provide care for 12 or fewer individuals in a home\". SB 409: each ALF must \"adopt policies and procedures for electronic monitoring\".",
+      "source_url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/memos/2026-alf/20260421-2026-Legislative-Implementation.pdf",
+      "fix": "Confirm eligibility for the SB 677 food-regulation exemption with the local health department. Note it may reduce 6- and 12-bed compliance costs. Add a checklist item for the SB 409 electronic-monitoring policy and track when the DSS regulation takes effect."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[4]; rates[5]; key_numbers[8]; fees_and_timelines_in_checklist[9] (i=11)",
+      "current": "$6,512 is described as a median of provider rates for assisted living. The VDSS $6,000 figure is described as an 'Undated flyer'.",
+      "correct": "The $6,512 ($78,150, $214, rank 16) figure is correct for the July–Dec 2024 survey. It is the median monthly rate for a private, one-bedroom unit in an assisted living community. The VDSS flyer is 2024-vintage: it cites AG rates 'As of January 2024' and an $82 PNA. A newer 2025 Virginia CareScout figure may exist.",
+      "evidence": "CareScout table note: \"Based on 12 months of care private, one bedroom\". Flyer: \"As of January 2024, AG reimbursement rates are $2,079-2,391 per month\".",
+      "source_url": "https://assets.carescout.com/a41bb6478c/298701.pdf",
+      "fix": "Label $6,512 as a private one-bedroom community base rate and date the VDSS $6,000 as circa 2024. Check for the 2025 CareScout Virginia value. Do not apply either figure to shared rooms in 6- and 12-bed homes without a local rate check."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.notes",
+      "current": "Payroll costs cover FICA, UI, FUTA, workers' compensation and benefits. No Virginia Paid Family and Medical Leave cost is included.",
+      "correct": "null (unverifiable). The VEC site lists Paid Family and Medical Leave legislation (SB2/HB1207, 2026). If enacted, it may add an employer payroll contribution once effective.",
+      "evidence": "The VEC navigation lists \"Paid Family and Medical Leave\" with \"Senate Bill SB2\" and \"House Bill HB1207\". The new-employer UI base rate of 2.5% plus add-ons is verified.",
+      "source_url": "https://www.vec.virginia.gov/FAQs/employers/how-are-tax-rates-assigned",
+      "fix": "Check the enacted status, rate and start date of Virginia PFML. Add an employer contribution line if it falls within the model horizon. Otherwise note 'none currently required'."
+    }
+  ]
+}

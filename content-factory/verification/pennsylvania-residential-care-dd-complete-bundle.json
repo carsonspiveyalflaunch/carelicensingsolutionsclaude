@@ -1,0 +1,80 @@
+{
+  "bundle_slug": "pennsylvania-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 14,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "rates[0] / revenue_lines.pa_cons_ng1_1home[0] / key_numbers[4] (and rates[2], rates[3], revenue_lines.pa_aaw_4p_*)",
+      "current": "W9000 NG1 $433.05 (eff. 2024-07-01); AAW W7228 $168.87 / W7232 $709.30 (eff. 2024-07-01), used as current rates on 2026-10-14",
+      "correct": null,
+      "evidence": "The 54 Pa.B. 1217 table does list W9000 NG1 1-person at $433.05 / $512.88, effective July 1, 2024. The submission's own notes say new SFY 2026-27 rates were scheduled for 8/1/2026 and were not retrieved. AAW figures could not be checked: the Pa. Bulletin 54 Pa.B. 7290 page would not load, so W7228 and W7232 are unverifiable.",
+      "source_url": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol54/54-35/1217.html",
+      "fix": "Unverifiable. Before finalizing, re-pull the ODP fee schedule for the rates effective 8/1/2026 (SFY 2026-27) for W9000 and W7228-W7232. If they changed, replace every revenue rate. Until then, label the 7/1/2024 rates as possibly superseded in every output, not only in notes."
+    },
+    {
+      "severity": "critical",
+      "json_path": "rates[1]; revenue_lines.pa_cons_ng5_1home[0]; revenue_lines.pa_cons_ng5_3homes[0]; fees_and_timelines_in_checklist[3]",
+      "current": "NG5 1-person W9000/U9 = $1,265.90 (eff. 2024-01-01), explicitly 'not raised for the 6% inflation adjustment'; the checklist reports a 3-home margin of about 4% ($4,366/mo) on this figure",
+      "correct": null,
+      "evidence": "The 7/1/2024 residential table (54 Pa.B. 1217) includes Needs Group 5 rows. Its rate-setting notice says a factor of 'Fee Schedule Rates… 6% to the rates for residential services' was applied. The $1,265.90 figure comes from the 1/1/2024 notice (53 Pa.B. 1558).",
+      "source_url": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol54/54-35/1217.html",
+      "fix": "Replace $1,265.90 with the NG5 1-person W9000/U9 rate from the 7/1/2024 table, or the 8/1/2026 table if it exists. A 6% uplift would be about $1,341.95/day. That is about +$2,300/client/month (about +$6,900/month for 3 homes), so the 4% margin, break-even occupancy (88.3%) and $160k cash need must be recomputed. Remove the note 'Not raised for the 6% inflation adjustment'."
+    },
+    {
+      "severity": "major",
+      "json_path": "fees_and_timelines_in_checklist[10] (task 'Respond to any missing-document notice within 30 days'; cite '55 Pa. Code §51.11', source S22)",
+      "current": "Treats the Chapter 51 enrollment rule (§51.11, 30-day missing-document deadline) as the operative requirement",
+      "correct": null,
+      "evidence": "ODP Bulletin 00-25-01 states that Chapter 6100 'rescinded Chapter 51'. S22 is a 2012 rulemaking notice (42 Pa.B. 3230), not current code.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/00-25-01-odp-bulletin-room-and-board-for-individuals-enrolled-odp.pdf",
+      "fix": "Remove the §51.11 citation as current law. Replace it with the current ODP provider qualification/enrollment requirements (55 Pa. Code Ch. 6100 and the current ODP qualification instructions). Mark the 30-day deadline unverifiable until confirmed against the current ODP enrollment notice."
+    },
+    {
+      "severity": "major",
+      "json_path": "key_numbers[1] (Minimum direct-care staffing); staffing.*[0].role and notes; fees_and_timelines_in_checklist[38]",
+      "current": "'1 staff per 16 individuals physically present while individuals sleep' / '1 present overnight'",
+      "correct": "§6400.45(b) requires one staff per 16 individuals physically present when sleeping. A separate section, §6400.232 'Awake staff persons', says a staff person counted in the §6400.45(b) ratio shall be awake.",
+      "evidence": "Chapter 6400 text: 'A staff person counted in the ratio as specified in § 6400.45(b) (relating to staffing) shall be awake.'",
+      "source_url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F055%2Fchapter6400%2Fchap6400toc.html",
+      "fix": "Add: 'overnight staff counted in the ratio must be awake (§6400.232; confirm applicability to each home type); sleep-shift pay differentials cannot be assumed.' Also add §6400.45(d): the staffing ratio and qualifications in each individual plan must be implemented as written, even above the §6400.45(a)-(c) minimums. The 730 h/home hours figure itself is consistent with the rule."
+    },
+    {
+      "severity": "major",
+      "json_path": "key_numbers[11]; staffing.*[0].wage_hourly (19.52); payroll wage anchors (17.73, 72.94)",
+      "current": "Philadelphia-metro May 2025 BLS mean: personal care & service $19.52, healthcare support $17.73, management $72.94; $19.52 used as the DSP wage",
+      "correct": null,
+      "evidence": "The May 2025 release page returned only navigation text, so the three figures could not be confirmed. The release's earlier edition (May 2024) shows management $71.47, healthcare support $17.51 and personal care and service $18.61. In May 2023 the Philadelphia metro mean for home health and personal care aides was $15.05.",
+      "source_url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_philadelphia.htm",
+      "fix": "Unverifiable. Re-pull Table A of the May 2025 release. The SOC 39 'personal care and service' major group is a poor proxy for a DSP. Use the detailed May 2025 OEWS wage for home health and personal care aides (31-1120) or nursing assistants for the Philadelphia MSA, or the PA L&I regional tables. Using $19.52 likely overstates direct-care cost, though every proxy is far above the $7.25 minimum."
+    },
+    {
+      "severity": "minor",
+      "json_path": "revenue_lines.*[room and board] (rate 715.68, share_of_clients 1.0); key_numbers[7]",
+      "current": "100% of residents charged $715.68/month for room and board; only the 72% cap and the board-only 32% cap are mentioned",
+      "correct": "The cap is 72% of (SSI max + PA SSP). It is 72% of total monthly income if income is below the SSI maximum, and $0 if income is below the personal needs allowance. A room-only charge is capped at 40%. Board stops on the 8th consecutive day of leave or hospitalization. Room stops after more than 30 consecutive days hospitalized. Room and board cannot be charged during respite. Form DP 1077 is mandatory.",
+      "evidence": "Bulletin 00-25-01: 'Form DP 1077 must be used for all Room and Board Agreements.' Increases that reduce personal funds need 30 days' written notice.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/00-25-01-odp-bulletin-room-and-board-for-individuals-enrolled-odp.pdf",
+      "fix": "Add the 40% room-only cap, the income-below-SSI rule, the leave/hospitalization/respite exclusions, the Form DP 1077 requirement (before admission, annually, 15 days after an emergency placement) and the 30-day increase notice. Apply a vacancy/leave haircut to room-and-board revenue. The $715.68 figure itself (72% x $994) is arithmetically correct and at or below the cap."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex (missing mandatory cost lines)",
+      "current": "Opex has no line for incontinence supplies, basic cable, or laundry/lawn/housekeeping labor",
+      "correct": "Provider-borne room-and-board items include: incontinence products not covered by insurance; a basic cable/streaming package; one landline that works in a power outage (staff cell phones do not count); basic internet; cleaning products; toiletries, towels and bedding; furniture; and all labor for laundry, lawn care, food preparation, maintenance and housekeeping.",
+      "evidence": "Bulletin 00-25-01 lists these items as part of the provider's room-and-board costs and says provider must 'equip each Home with at least one telephone that will function in the event of a power outage'.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/00-25-01-odp-bulletin-room-and-board-for-individuals-enrolled-odp.pdf",
+      "fix": "Add per-home lines for a power-outage-capable landline and basic cable, and per-resident lines for incontinence supplies. Budget housekeeping/maintenance labor in staffing. Separately budget paid training time (24 h/yr per direct-care worker plus orientation), because the $350/month training line appears to cover only CPR/first aid and background checks."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[1] (BHSL phone 717-783-3670; email ra-pwarlheadquarters@pa.gov); fees_and_timelines_in_checklist[33]",
+      "current": "Phone and email are given for the BHSL PCH/ALR contact page",
+      "correct": null,
+      "evidence": "The page loads and is titled 'Personal Care Home (PCH) & Assisted Living Residences (ALR) Licensing Contact Information'. The fetched text was cut off before any phone or email, so neither could be confirmed.",
+      "source_url": "https://www.pa.gov/agencies/dhs/resources/licensing/pch-alr-licensing/pch-alr-contact",
+      "fix": "Unverifiable. Re-check that the phone and email appear on the page. Keep the existing caveat that this is the PCH/ALR office, and add a confirmed ODP community-home licensing contact (ra-odplicensing@pa.gov is cited only for waiver requests)."
+    }
+  ]
+}

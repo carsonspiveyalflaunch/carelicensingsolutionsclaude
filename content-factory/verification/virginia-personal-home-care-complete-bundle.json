@@ -1,0 +1,71 @@
+{
+  "bundle_slug": "virginia-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 22,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "staffing.va_mixed60[1].wage_hourly; staffing.va_medicaid100[0].wage_hourly; rates[*] notes on minimum wage; staffing.va_mixed60[1].notes",
+      "current": "Medicaid aide wage $14.57/hr. Notes say the $13.75 (2027) and $15.00 (2028) minimum wage steps come \"from a secondary summary only (enacted text not verified)\".",
+      "correct": "The steps are enacted. SB1/HB1 were signed on April 9, 2026. The minimum wage is $13.75 on 1/1/2027 and $15.00 on 1/1/2028, then indexed annually. A $14.57 aide wage is lawful in 2026 and 2027, but it is below the legal minimum from 1/1/2028.",
+      "evidence": "Governor's release: the legislation \"will then increase the minimum wage to $13.75 per hour on January 1, 2027\" and then to $15.00 on January 1, 2028.",
+      "source_url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/april-releases/name-1116004-en.html",
+      "fix": "Change the notes to say the schedule is enacted, citing the Governor's release or DOLI. Model Medicaid aide wage as max($14.57, statutory minimum): $13.75 in 2027 and at least $15.00 from 1/1/2028. Remodel the mixed60 and medicaid100 margins at $15.00, which is about 3% above $14.57 before the 17.5% burden. Treat any Medicaid aide pay below $15.00 from 1/1/2028 as a legal violation. Also update checklist items 9 and 32 to show the 2027 and 2028 steps."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0..2].notes; rates[1].notes; key_numbers (T1019 row, \"superseded 7/1/2026\"); revenue_lines.va_mixed60[1]; revenue_lines.va_medicaid100[0]",
+      "current": "SFY2026 T1019 rates are described as \"superseded for dates of service on or after 7/1/2026 by SFY2027 rates not retrieved\". The 20% increase is described as an unverified introduced amendment.",
+      "correct": "DMAS's SFY2027 (effective 7/1/2026) rate file for the DD waivers still lists T1019/T1005/S5135 at NOVA $23.81 and ROS $20.23, per hour. That is unchanged from SFY2026, so the 20% personal-care increase is not evidenced in the SFY2027 rate file. The CCC Plus SFY2027 file was not directly retrieved. The 8/13/2026 bulletin covers only \"select services\".",
+      "evidence": "SFY27 DD rate file (effective 07/01/2026): \"Personal Assistance T1019 ... NOVA · $23.81 ROS · $20.23 ... Hour\".",
+      "source_url": "https://www.dmas.virginia.gov/media/rijnbk43/sfy27-my-life-my-community-rate-file-updated-6-26-26.pdf",
+      "fix": "Remove \"superseded\" from the notes. Say the $23.81/$20.23 rates appear to remain in effect for 7/1/2026 and later per the SFY2027 DD file, and that the 20% increase is not evidenced as enacted. Set \"effective\" to \"2025-07-01 (appears unchanged for SFY2027; confirm in the CCC Plus SFY2027 rate file)\". Keep the model at $20.23. Verify against https://www.dmas.virginia.gov/for-providers/rates-and-rate-setting/ before launch."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[0].unit; rates[1].unit; rates[2].unit; revenue_lines.va_mixed60[1].unit; revenue_lines.va_medicaid100[0].unit; key_numbers T1019 row",
+      "current": "billing unit not verified",
+      "correct": "Per hour",
+      "evidence": "DMAS CCC Plus SFY2026 rate file: T1019 NOVA $23.81 Hour; T1019 ROS $20.23 Hour.",
+      "source_url": "https://www.dmas.virginia.gov/media/2xpfsq5o/cccplus_waiverweb-file-sfy2026.pdf",
+      "fix": "Set unit to \"per hour\" for T1019 and T1005. Remove the \"unit not verified\" caveats. The 80 hours/month × $20.23 revenue math is unit-consistent."
+    },
+    {
+      "severity": "minor",
+      "json_path": "revenue_lines.va_private20/40/60/mixed60[0].rate (33.0); rates[5]",
+      "current": "$33.00/hr private pay, sourced to S26",
+      "correct": "S26 publishes only an annual Virginia home health aide median of $75,504 (2024 survey). $33.00 is a derived figure: $75,504 ÷ (44 hrs × 52 wks) = $33.00. The newer 2025 national median is $35/hr. The Virginia hourly rate was not published.",
+      "evidence": "Genworth (3/4/2025): Virginia Home Health Aide 2024 annual cost $75,504; national $77,792.",
+      "source_url": "https://investor.genworth.com/news-events/press-releases/detail/1002/long-term-care-costs-in-virginia-on-par-with-national-costs",
+      "fix": "Label the $33 rate as \"derived: $75,504 ÷ 2,288 hrs (44 hrs/wk × 52); 2024 survey; operator assumption\". Test sensitivity at the 2025 national $35 and at local competitor rates."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[item=Home care scheduling, billing and EVV-interface software].notes; fees_and_timelines_in_checklist[i=42]",
+      "current": "EVV is required for agency-directed Medicaid aides from 10/1/2026 [S21].",
+      "correct": "The 10/1/2026 change eliminates the live-in caregiver exemption. After that date, all agency-directed aides and consumer-directed attendants for personal care, respite and companion services must use EVV. EVV for non-live-in aides was already required.",
+      "evidence": "Bulletin: \"Effective October 1, 2026, all agency-directed aides and consumer-directed attendants ... will be required to use an EVV-compliant method\".",
+      "source_url": "https://vamedicaid.dmas.virginia.gov/bulletin/electronic-visit-verification-live-requirement-effective-1012026",
+      "fix": "Reword to: \"EVV is already required for non-live-in Medicaid aides; from 10/1/2026 the live-in exemption ends and all agency-directed aides must use EVV.\" Budget EVV software from day one for any Medicaid configuration."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=35]; fees_and_timelines_in_checklist[i=34]; key_numbers (Aide training)",
+      "current": "12 hours of annual training is presented as a DMAS Medicaid requirement. Adopting 12 hours for all aides is described as a \"defensible standard\".",
+      "correct": "The VDH HCO personal-care regulation text (12VAC5-381, as published in the 2011 Register) also requires in-service training for home attendants of at least 12 hours annually. This applies to private-pay aides too. I could not retrieve the current section text, so confirm it.",
+      "evidence": "Register text: \"in-service education or training for home attendants shall consist of at least 12 hours annually\".",
+      "source_url": "http://varules.elaws.us/register/8/29/2011/12vac5-381",
+      "fix": "Say 12 hours/year in-service training is a likely VDH licensure requirement for all home attendants (confirm in the current Part IV/V text on LIS). Do not call it optional for private-pay aides. Also note that 12VAC5-381-360 requires RN supervision on a schedule set by the RN and policy, \"not to exceed 90 days\" (2017 text). The RN hours should cover at least this cadence and the RN-written service plan for every client. Current text unverified."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.benefits_pct; fees_and_timelines_in_checklist (no paid-sick-leave or overtime item)",
+      "current": "Benefits 3% \"cover paid time and training\". No mention of Virginia paid sick leave or FLSA overtime/travel-time rules.",
+      "correct": "Va. Code §§40.1-33.3–.6 already requires 1 hr of paid sick leave per 30 hrs worked (cap 40 hrs/yr) for covered home health workers. By its definition this applies to consumer-directed Medicaid workers. SB199/HB5 (signed 5/20/2026) extends paid sick leave to most employees. Secondary sources say it phases in from 7/1/2027 for employers with 50 or more employees.",
+      "evidence": "Groom Law: \"On May 20, 2026, Governor Spanberger signed SB 199/HB 5, a new statewide Paid Sick Leave\" program.",
+      "source_url": "https://www.groom.com/resources/virginia-expands-paid-sick-leave-program-to-cover-most-employees-102n1at/",
+      "fix": "Add a checklist item and cost line for paid sick leave: about 3.3% of hours worked is the statutory accrual rate (1/30), if it applies to the agency's workforce. Confirm applicability and timing with DOLI or counsel. Add a checklist note that federal FLSA overtime and compensable inter-client travel time apply to agency-employed aides (unverifiable here; confirm with the U.S. DOL). Do not rely on the 3% benefits line to cover both paid sick leave and training."
+    }
+  ]
+}

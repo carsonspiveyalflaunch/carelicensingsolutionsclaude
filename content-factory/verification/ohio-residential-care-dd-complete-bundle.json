@@ -1,0 +1,125 @@
+{
+  "bundle_slug": "ohio-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 21,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "staffing.*[role starts 'Administrator'].notes; fees_and_timelines_in_checklist[23].instructions",
+      "current": "Administrator must be 21+ with a bachelor's degree, or a HS/GED plus four years' qualifying experience; orientation within 30 days; Rapback.",
+      "correct": "Those are only the education/experience-tier items under (E)(2)(g). The rule also requires (e) one year of paid work experience in specialized services (or four years caring for a family member with DD), and (f) one year of paid experience in each of supervising employees, developing/overseeing programs or services, and financial management. Also required: a birth certificate, SSN card and photo ID, and written English proficiency.",
+      "evidence": "OAC 5123-3-01(E)(2)(e)-(f): \"One year of full-time (or equivalent part-time) paid work experience in the provision of specialized services\" and \"in: (i) Supervision of employees; (ii) Development, oversight, and/or supervision of programs or services; and (iii) Financial management of an organization.\"",
+      "source_url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5123/0/3/5123-3-01_20240929.pdf",
+      "fix": "Replace the administrator qualification text with the full OAC 5123-3-01(E)(2)(a)-(h) list. Add a note that an owner-operator must meet (e) and (f) as well as (g). Also add (E)(3): the operator must designate in writing a staff member to act in the administrator's absence."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*.wage_source_id / notes (S25); sources S25; fees_and_timelines_in_checklist[27]",
+      "current": "Wage benchmark is the Columbus May 2024 personal care and service major-group mean of $17.53 (and a management mean of $61.31). Also not a direct-support occupation.",
+      "correct": "BLS has published 'Occupational Employment and Wages in Columbus, OH — May 2025' (published Jul 2026). The brief asked for May 2025 OEWS, so the May 2024 figures are a superseded vintage. The 2025 value for the relevant occupation (personal care aides / nursing assistants) is not stated in the retrieved excerpts.",
+      "evidence": "BLS Columbus page lists: \"Occupational Employment and Wages in Columbus, OH — May 2025 | Employment, Pay | News Release | Jul 2026\"",
+      "source_url": "https://www.bls.gov/regions/midwest/oh_columbus_msa.htm",
+      "fix": "Replace S25 with the May 2025 Columbus (and Ohio statewide) OEWS release. Cite occupation-level means for SOC 31-1120 (home health and personal care aides) or 31-1131 (nursing assistants). Re-test the $15.50 DSP wage against that figure; it stays above the $11.00 floor either way. May 2025 value: unverifiable from the retrieved excerpts."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0] (APV, rate 9.44 / unit not stated / second column 5.67)",
+      "current": "APV overtime, independent provider, CODB category 1: $9.44 (second column $5.67), unit not stated.",
+      "correct": "The cited DODD page does not show 9.44 or 5.67 in the retrieved text. Its worked example gives CODB category 1 HPC overtime as $27.39/hour, or $6.84 per 15-minute unit. The page also says overtime is calculated on the wage component of the rate.",
+      "evidence": "\"HPC overtime reimbursement rate = $27.39/hour ($6.84 for each 15-minute unit)\"",
+      "source_url": "https://dodd.ohio.gov/providers/billing/overtime%20independent%20providers",
+      "fix": "Verify $9.44/$5.67 against the 5123-9-30 appendix B (eff. 7/1/2024) table, or the current table, and state the unit (15-minute unit vs hour) and what each column means. Until then label the row 'unverifiable'. Do not use it in any model line."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.* (all configurations) / opex",
+      "current": "No support-staff cost (housekeeping, laundry, maintenance, clerical). The only non-DSP roles are the administrator, a house manager and a billing coordinator.",
+      "correct": "The operator must provide enough support staff that DSPs are not pulled from their primary duties by support tasks. It must also be current on payroll taxes, workers' comp and unemployment premiums.",
+      "evidence": "OAC 5123-3-01(D)(5): \"Provide sufficient support staff so that direct support professionals are not required to perform support services\" that interfere with primary duties.",
+      "source_url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5123/0/3/5123-3-01_20240929.pdf",
+      "fix": "Add a support-staff line (housekeeping/laundry/maintenance hours per home), or document in the notes that DSP hours already include these tasks and that this meets (D)(5). Cite (D)(5) next to the staffing rule."
+    },
+    {
+      "severity": "major",
+      "json_path": "startup_costs / opex (no line for DODD HCBS provider approval or certification fees)",
+      "current": "The only DODD fees modeled are the residential license fees ($100 initial, $300 three-year).",
+      "correct": "The DODD fee table also lists application fees for supported living / HCBS certification, and for adding HCBS. Small agency: $800 initial and every 3 years, or $75 to add HCBS. Large agency: $1,600 initial and every 3 years, or $150 to add HCBS. Independent provider: $125. OAC 5123-3-01(C)(3) requires a licensed facility delivering HCBS to apply to DODD for approval. Whether these fees apply to a licensed facility's HCBS approval is not stated in the retrieved sources.",
+      "evidence": "DODD fee table: \"Application fee for initial certification to provide supported living as a small agency provider … $800.00 … One time\"; large agency \"$1,600.00\".",
+      "source_url": "https://lsc.ohio.gov/assets/organizations/legislative-service-commission/files/2025-state-agency-fees-ddd.pdf",
+      "fix": "Ask DODD whether an HCBS approval fee applies. If it does, add $800 or $1,600 (plus $75/$150 per added HCBS) as a start-up cost and a triennial renewal cost. If not, add a note saying why it was excluded."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.payroll_tax_pct / notes; fees_and_timelines_in_checklist[11]",
+      "current": "Payroll taxes 8.5% = FICA 7.65% + SUTA 2.85% × $9,000 + FUTA. No mention of the Ohio unemployment technology fee.",
+      "correct": "For 2026 and 2027 all contributory employers also pay a 0.15% Technology and Customer Service Fee on the first $9,000 of each employee's wages. The 2.85% new-employer rate and $9,000 base are confirmed.",
+      "evidence": "NFIB UC Handbook: \"pay a Technology and Customer Service Fee of 0.15% on each employee's taxable wages, up to the first $9,000.\"",
+      "source_url": "https://www.nfib.com/wp-content/uploads/2026/02/NFIB-UC-Handbook-2026.pdf",
+      "fix": "Add the 0.15% fee (about $13.50 per employee per year). Recompute payroll tax at about 8.6% for a full-time DSP at $15.50/hour. Part-time DSPs push the effective rate higher because the $9,000 base applies per employee. The $9,500 wage-base 'conflict' can be dropped: the NFIB handbook says $9,000 for 2026."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[0].as_of; sources S6.title",
+      "current": "DODD fee table 'as_of 2025-08-20' / 'DODD Agency Fees (08/20/2025)'.",
+      "correct": "The fetched file is headed 'Department of Developmental Disabilities Agency Fees - 01/31/2025'. The dollar amounts match ($100 / $300 for ≤15 beds; $500 / $1,500 for 16+; interim $0).",
+      "evidence": "File header: \"Department of Developmental Disabilities Agency Fees - 01/31/2025\"",
+      "source_url": "https://lsc.ohio.gov/assets/organizations/legislative-service-commission/files/2025-state-agency-fees-ddd.pdf",
+      "fix": "Change the as_of date and title to 01/31/2025, or point to an 08/20/2025 file that actually carries that date. Keep the fee amounts."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[1].instructions",
+      "current": "ORC 5123.19 excludes 'a dwelling whose only residents with developmental disabilities are in independent living arrangements.'",
+      "correct": "The statute also excludes dwellings where the only residents with DD 'are being provided supported living'. That exclusion is central to the choice between a licensed facility and a certified supported-living model.",
+      "evidence": "ORC 5123.19(A)(5)(b)(iv): \"A dwelling in which the only residents with developmental disabilities are in independent living arrangements or are being provided supported living\"",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-5123.19",
+      "fix": "Add 'or are being provided supported living' to the exclusion text. Add the independent-living definition: no governmental financial support paid to a residential-services provider."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[3] and regulators[1] (ODM moratorium); sources S28 URL",
+      "current": "Moratorium covers 'waiver organizations, personal care aides, home care attendants, hospice and home health agencies'. Source URL given is IndOptions-Summary.pdf.",
+      "correct": "The dates (5/14/2026–11/14/2026) are confirmed. The notice also covers waiver individuals and private duty nurses, and it is issued under CMS-6101-N / 42 CFR 455.470 as a home health and hospice moratorium. The cited URL returned the ODM home page banner, not an Individual Options notice.",
+      "evidence": "\"ODM will not accept new Medicaid enrollment applications for Hospice or Home Health Agencies, Waiver Individuals and Organizations, Private Duty Nurses, Personal Care Aides and Home Care Attendants.\"",
+      "source_url": "https://medicaid.ohio.gov/Portals/0/Resources/PublicNotices/IndividualOptions/IndOptions-Summary.pdf",
+      "fix": "List 'Waiver Individuals and Organizations' and 'Private Duty Nurses' in the covered categories. Cite https://medicaid.ohio.gov/home/odm-moratorium as the primary source. Note that the moratorium ends 11/14/2026, one month from today, and can be extended."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[9].notes; key_numbers[8]; fees_and_timelines_in_checklist[28]",
+      "current": "'Overtime at 1.5x after 40 hours per week.'",
+      "correct": "The poster excludes employers grossing less than $150,000 per year from the state overtime rule. The $11.00 rate, the $405,000 threshold and the 1.5x rate are confirmed. Ohio Division of Industrial Compliance contact: 614-644-2239.",
+      "evidence": "\"…for hours in excess of 40 hours in one work week, except for employers grossing less than $150,000 per year.\"",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/com.ohio.gov/DICO/WageAndHour/2026_Minumum_Wage_Poster.pdf",
+      "fix": "Add the '<$150,000 gross' overtime exception. Fill the blank phone field in regulators[4] with 614-644-2239. Add a note that federal FLSA minimum wage and overtime may still apply to the facility regardless of the Ohio revenue thresholds; confirm with counsel."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[1].effective; rates[2].effective; rates[3]; key_numbers[6]",
+      "current": "The 107% / 130% HPC multi-individual adjustments and the 85% shared-living group-of-two rate are given with effective dates of 2024-07-01 (HPC) and 2024-01-01 (shared living).",
+      "correct": "The 5123-9-30 rule page shows 'Effective: January 1, 2024', not 7/1/2024; only appendix B rates changed on 7/1/2024. The 107%, 130% and 85% percentages, and the shared-living four-person cap, were in text not captured by the fetch of the rule pages.",
+      "evidence": "Rule 5123-9-30 page header: \"Effective: January 1, 2024\"",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-9-30",
+      "fix": "Set the rule effective date to 2024-01-01 and keep 7/1/2024 only for the rate table. The 107%, 130% and 85% values are unverifiable from the retrieved text. Confirm them in 5123-9-30(F) and 5123-9-33(F), and state the three-individual percentage."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[item='Staff training…'].notes; fees_and_timelines_in_checklist[30]",
+      "current": "'Annual training of 2 hours from DODD plus 4 hours arranged by the operator' (S7).",
+      "correct": "This was not visible in the retrieved S7 text. The page does list pre-service training that must be completed before a DSP provides services (DODD-curriculum modules plus operator-provided orientation, ISP-specific training, and fire safety for licensed homes). It also lists 30-day training. These are paid onboarding hours not reflected in the $150/home/month training line. The 60-day CPR/first-aid rule is confirmed.",
+      "evidence": "\"Before providing direct services, each direct support professional (DSP) must successfully complete: Training provided or arranged by the agency provider/licensed residential facility operator…\"",
+      "source_url": "https://dodd.ohio.gov/providers/initial-renewal-certification/working-for-a-provider-agency",
+      "fix": "Mark the 2+4 annual-hours claim 'unverifiable' unless confirmed in OAC 5123-3-01 Appendix B. Add paid pre-service and 30-day training hours per new DSP to the hiring/training budget. Confirm the DODD phone 1-800-617-6733 (not shown in the retrieved text; unverifiable)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.oh4_single_mid[1] (Administrator 0.5 FTE, $26,000)",
+      "current": "Administrator modeled at 0.5 FTE for a single home.",
+      "correct": "The administrator must be 'directly and actively involved in the day-to-day operation' and oversee service provision. The rule sets no FTE minimum, but a half-time administrator who also meets the experience requirements may draw scrutiny. If the administrator serves more than one licensee, DODD must be notified.",
+      "evidence": "OAC 5123-3-01(B)(3): administrator is \"directly and actively involved in the day-to-day operation of the residential facility\"; (E)(5)(a): must notify DODD if serving more than one licensee.",
+      "source_url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5123/0/3/5123-3-01_20240929.pdf",
+      "fix": "Note the 'directly and actively involved' standard next to the 0.5 FTE assumption. Add the (E)(5)(a) notice if one administrator covers several licensees (oh4x2 / oh4x4 / oh4x6 if each home is a separate licensee). Confirm with DODD that 0.5 FTE is acceptable."
+    }
+  ]
+}

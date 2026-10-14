@@ -1,0 +1,2233 @@
+{
+  "bundle_slug": "ohio-assisted-living-facilities-complete-bundle",
+  "state": "Ohio",
+  "state_code": "OH",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Residential Care Facility (RCF), licensed by the Ohio Department of Health under ORC Chapter 3721 and OAC Chapter 3701-16; Medicaid via the Assisted Living Waiver (1915(c) HCBS waiver administered by the Ohio Department of Aging)",
+  "as_of": "2026-10",
+  "report_title": "Ohio Residential Care Facility (Assisted Living) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "ODH: Residential Care Facilities - Assisted Living",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/residential-care-facilities-assisted-living",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "ODH: RCF Applications, Forms, and Instructions",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/residential-care-facilities-assisted-living/resources/rcfapplicationsandforms",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "OAC 3701-16-01 Definitions",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-01",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "OAC 3701-16-02 General provisions and prohibitions",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/3701/0/16/3701-16-02_20240712.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "OAC 3701-16-03 License applications, fees, issuance",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-03",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "ORC 3721.02 Inspecting and licensing homes; fees",
+      "publisher": "Ohio Revised Code",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3721.02",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "OAC 3701-16-05 Personnel requirements",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-05",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "OAC 3701-16-06 Qualifications and health of personnel",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-06",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "OAC Chapter 3701 index (3701-16 RCF; 3701-17 nursing homes)",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/3701",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "ODH RCF Initial License Application Packet (04/30/2026)",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/wps/wcm/connect/gov/afb6ba60-2b5f-4736-8a08-b9684f2d19e2/BRO_RCF_Initial+Lic+Packet_04302026_Fillable.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "OAC 5160-1-06.5 Assisted living HCBS waiver",
+      "publisher": "Ohio Administrative Code (ODM/ODA)",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/1/5160-1-06-5_20240701.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "OAC Chapter 5160-33 Assisted living waiver program",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5160-33",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Medicaid.gov: OH Assisted Living Waiver (0446.R04.00)",
+      "publisher": "CMS / Medicaid.gov",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/82846",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "ODA: PASSPORT",
+      "publisher": "Ohio Department of Aging",
+      "url": "https://aging.ohio.gov/care-and-living/get-help/home-and-community-care/passport-1",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "ODA: Assisted Living Provider Rates Update",
+      "publisher": "Ohio Department of Aging",
+      "url": "https://aging.ohio.gov/agencies-and-service-providers/provider-rates-updates",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "ODA: Assisted Living (Residential Care) Facilities",
+      "publisher": "Ohio Department of Aging",
+      "url": "https://aging.ohio.gov/care-and-living/care-options/assisted-living",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "ODA: Medicaid Waiver Program Data",
+      "publisher": "Ohio Department of Aging",
+      "url": "https://aging.ohio.gov/about-us/reports-and-data/medicaid-waiver-program-data-2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "Performance Audit June 2025: Ohio Department of Aging",
+      "publisher": "Ohio Auditor of State",
+      "url": "https://ohioauditor.gov/auditsearch/Reports/2025/Ohio_Department_of_Aging_25_Performance_Franklin_FINAL.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "OAC 5160-31-03 PASSPORT eligibility (cost limit)",
+      "publisher": "Cornell LII (Ohio Administrative Code)",
+      "url": "https://law.cornell.edu/regulations/ohio/Ohio-Admin-Code-5160-31-03",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "OAC 173-42-03 PASSPORT enrollment and reassessment",
+      "publisher": "Ohio Administrative Code (ODA)",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/173/0/42/173-42-03_20240101.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "ODM Provider Revalidation FAQ 2026 ($750 fee)",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/Enrollment%20and%20Support/Provider_Revalidation_-_FAQ_2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "CY2026 Provider Enrollment Application Fee Amount",
+      "publisher": "Federal Register (CMS)",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "ODM Provider Enrollment (organizational fee, electronic only)",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://medicaid.ohio.gov/resources-for-providers/enrollment-and-support/provider-enrollment/support/support",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "ODM: Strengthening Medicaid Program Integrity (moratorium, revalidation)",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://medicaid.ohio.gov/home/odm-moratorium",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "ODM: Electronic Visit Verification",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://medicaid.ohio.gov/resources-for-providers/special-programs-and-initiatives/electronic-visit-verification/electronic-visit-verification",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "ODM EVV Newsletter, January 2026",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://content.govdelivery.com/accounts/OHMEDICAID/bulletins/402d3ca",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "ODM EVV Newsletter, December 2025 (Next Generation MyCare)",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://content.govdelivery.com/accounts/OHMEDICAID/bulletins/3fdee91",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "CareScout Cost of Care Survey 2024 (median data tables)",
+      "publisher": "CareScout (formerly Genworth)",
+      "url": "https://assets.carescout.com/55da049c1f/282102.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Cost of Senior Care in Ohio (2026), citing CareScout 2025",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/care-types/ohio/cost-of-senior-care",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Administration Announces Assisted Living Waiver Rates; Effective January 1",
+      "publisher": "LeadingAge Ohio",
+      "url": "https://www.leadingageohio.org/aws/LAO/pt/sd/news_article/534776/_PARENT/layout_details/false",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Ohio Assisted Living Waiver 2026: Eligibility & Costs",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/medicaid/ohio/assisted-living-waiver",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Assisted Living in Ohio 2026: RCFs, the AL Waiver, and Costs",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/care-types/ohio/assisted-living",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Ohio Medicaid Assisted Living Waiver: Benefits & Eligibility",
+      "publisher": "Medicaid Planning Assistance",
+      "url": "https://www.medicaidplanningassistance.org/ohio-assisted-living-waiver/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Assisted Living Waiver Rates (undated tier list)",
+      "publisher": "Ohio Health Care Association",
+      "url": "https://www.ohca.org/assisted_living_waiver_rates",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "2024 Nursing Home and RCF License Renewal Reminder",
+      "publisher": "LeadingAge Ohio",
+      "url": "https://www.leadingageohio.org/aws/LAO/pt/sd/news_article/550522/_PARENT/layout_details/false",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Ohio Minimum Wage Set to Increase in 2026",
+      "publisher": "Ohio Department of Commerce",
+      "url": "https://com.ohio.gov/about-us/media-center/news/ohio%20minimum%20wage%20set%20to%20increase%20in%202026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Ohio Wages: Nursing Assistants (31-1131), BLS OEWS May 2025",
+      "publisher": "O*NET OnLine (BLS OEWS)",
+      "url": "https://www.onetonline.org/link/localwages/31-1131.00?st=OH",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Occupational Employment and Wages, Columbus OH, May 2024",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_columbusoh.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Census QuickFacts: Ohio",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/fact/table/OH/AGE775224",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "Ohio Population Research (65+ projections)",
+      "publisher": "Scripps Gerontology Center, Miami University",
+      "url": "https://miamioh.edu/cas/centers-institutes/scripps-gerontology-center/research/ohio-population-research.html",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "OAC Chapter 3701-17 Nursing Homes",
+      "publisher": "Ohio Administrative Code",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-3701-17",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "NFIB Unemployment Compensation Handbook 2026",
+      "publisher": "NFIB",
+      "url": "https://www.nfib.com/wp-content/uploads/2026/02/NFIB-UC-Handbook-2026.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Ohio Medicaid Long Term Care Programs and Eligibility",
+      "publisher": "MedicaidLongTermCare.org",
+      "url": "https://www.medicaidlongtermcare.org/eligibility/ohio/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "McKnight's: Medicaid rate increase fuels interest from AL providers",
+      "publisher": "McKnight's Senior Living",
+      "url": "https://www.mcknightsseniorliving.com/news/were-very-excited-about-this-medicaid-rate-increase-fuels-interest-from-assisted-living-providers-developers/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Licensing authority and governing law",
+      "value": "Ohio Department of Health (Bureau of Regulatory Operations); ORC Chapter 3721 and OAC Chapter 3701-16 (not 3701-17, which covers nursing homes)",
+      "source_id": "S1",
+      "as_of": "2026 (page as indexed)"
+    },
+    {
+      "metric": "RCF definition",
+      "value": "Two-prong definition in OAC 3701-16-01 (see also ORC 3721.01): (1) 17 or more unrelated individuals with personal care for at least 3 of them; or (2) 3 or more unrelated individuals with personal care for at least 3 and skilled nursing care for at least 1. Skilled nursing may not be admitted or retained beyond statutory limits. Homes of 3–16 adults without skilled nursing fall under a different licensing track (ORC 3721.02(A)), not researched here.",
+      "source_id": "S3",
+      "as_of": "Eff. 2024-07-12"
+    },
+    {
+      "metric": "License fee (application and annual renewal)",
+      "value": "$320 per 50 beds (or part thereof) of licensed capacity; paid with the initial application, non-refundable",
+      "source_id": "S6",
+      "as_of": "ORC 3721.02, current text; 2026 ODH packet form dated 04/30/2026 [S10]"
+    },
+    {
+      "metric": "Initial application timing",
+      "value": "File at least 60 days before the proposed opening; CPA-signed solvency statement showing reserves for at least 3 months of operation",
+      "source_id": "S5",
+      "as_of": "Eff. 2024-07-12"
+    },
+    {
+      "metric": "Administrator rules",
+      "value": "On site at least 20 hours per week between 8 a.m. and 6 p.m.; age 21+; 9 hours of continuing education a year",
+      "source_id": "S8",
+      "as_of": "Eff. 2024-07-12"
+    },
+    {
+      "metric": "Staffing on duty",
+      "value": "At least one qualified staff member on duty at all times (may be on call overnight if resident call system requirements are met); when only one staff person is on duty, another qualified staff member must be designated on call; staff needed to carry out the evacuation plan must be present at all times; first-aid-trained personal care staff present at all times",
+      "source_id": "S7",
+      "as_of": "Eff. 2024-07-12"
+    },
+    {
+      "metric": "Inspection cycle",
+      "value": "ODH inspects at least once every 15 months; the director may extend this to once every 30 months for an RCF meeting listed clean-record conditions. The fire marshal or approved fire department inspects at least every 15 months.",
+      "source_id": "S1",
+      "as_of": "2026 (page as indexed); ORC 3721.02 [S6]"
+    },
+    {
+      "metric": "Medicaid assisted living pathway",
+      "value": "Assisted Living Waiver (1915(c)), administered by ODA under an interagency agreement with ODM; pays for services, not room and board; approved through 06/30/2029",
+      "source_id": "S13",
+      "as_of": "Effective 2024-07-01"
+    },
+    {
+      "metric": "AL waiver caseload and contracted providers",
+      "value": "2,611 enrolled (Aug 2026), down from 3,025 (Jul 2026) and a 3,966 peak (Jun 2025); 480 contracted AL providers (Aug 2026)",
+      "source_id": "S17",
+      "as_of": "Data through Aug 2026"
+    },
+    {
+      "metric": "Private-pay benchmark",
+      "value": "Ohio assisted living community median $66,000/yr (about $5,500/month, derived by dividing by 12) in the CareScout 2024 survey. A newer CareScout 2025 survey is reported at about $6,102/month ($73,230/yr) by a secondary site, unverified.",
+      "source_id": "S28",
+      "as_of": "2024 survey (published 2025)"
+    },
+    {
+      "metric": "Medicaid provider enrollment application fee",
+      "value": "$750 per application for organizational providers (waived if paid to Medicare or another state's Medicaid within the past 2 years, with proof)",
+      "source_id": "S21",
+      "as_of": "CY2026"
+    },
+    {
+      "metric": "Ohio minimum wage",
+      "value": "$11.00/hr non-tipped from 2026-01-01; employers with annual gross receipts of $405,000 or less fall back to the $7.25 federal rate",
+      "source_id": "S36",
+      "as_of": "2026-01-01"
+    }
+  ],
+  "not_claimed": [
+    "Current 2026 Assisted Living Waiver per-diem tier amounts. Appendix A to OAC 5160-1-06.5 was not retrieved. The only dollar figures found ($130/day base, $155/day memory care) come from a 2023 trade-association report of rates effective 2024-01-01 [S30]. They are used as the latest located values, not as confirmed 2026 rates.",
+    "Undated ODA/OHCA tier figures ($49.98, $60.00 and $69.98 per day on ohca.org) conflict with the $130/$155 figures and were not used.",
+    "Whether a 2026 AL waiver rate increase was enacted. A trade-association notice said ODM intended to raise AL and PASSPORT rates but gave no levels, and its date and outcome were not verified.",
+    "The critical access add-on amount for facilities where at least half of residents are Medicaid beneficiaries. Only a trade-press report of 127 qualifying providers was found, with no dollar amount or effective date.",
+    "Procedure codes, billing units and unit definitions for AL waiver services; whether AL waiver services are paid fee-for-service or through managed care for each enrollee type (including how Next Generation MyCare, launched 2026-01-01, affects dual-eligible residents); and PASSPORT per-diem or unit rates for 2026.",
+    "ODA Assisted Living Waiver provider certification steps, fees and timelines, and an ODA contact phone or email for the AL waiver.",
+    "The 2026 ODH license fee beyond the statutory $320 per 50 beds. The fee is confirmed in ORC 3721.02 and consistent with the 2018 and 2026-dated ODH packets, but the 2026 packet table was not read directly. Any expedited-inspection fee amount was not found.",
+    "A late renewal fee for the current cycle. The $100 per week figure comes from a 2024-cycle trade-association summary of an ODH notice [S35].",
+    "An RCF liability insurance or bond minimum. The $1M/$3M requirement found is in the nursing-home rule (OAC 3701-17-03) and is not confirmed for RCFs [S41].",
+    "A fixed staff-to-resident ratio. The only source, a dated 2015 federal compendium, reports none, and OAC 3701-16-05 sets 24-hour coverage rather than a ratio. The skilled-nursing hour limits under ORC 3721.011, bed-size limits and room-size limits were not verified from current primary sources.",
+    "The exact text of ORC 3721.121 background-check procedures and disqualifying offenses (only the rule cross-reference was read).",
+    "Fire marshal and Ohio Building Code construction standards for RCF buildings beyond the application documents (certificate of occupancy, fire inspection report, heating inspection report). Local zoning and siting rules were not researched.",
+    "Whether the ODM Medicaid enrollment moratorium (2026-05-14 to 2026-11-14) covers residential care or assisted living providers. The notice names home health, hospice and related provider types [S24].",
+    "Whether AL waiver claims are subject to EVV claim matching. The January 2026 ODM notice names only the Ohio Home Care Waiver and PASSPORT [S26]. The Sandata EVV system is available to providers at no cost [S25], and a GPS rule is pending.",
+    "The exact number of licensed RCFs. ODH says approximately 720 [S1] and ODA says nearly 800 [S16]; these conflict. No official facility-level list, market shares, competitor names or occupancy figures were found.",
+    "Official AL waitlist counts or per-facility waitlist data. The roughly 6,000 AL waiver slot figure comes only from a secondary site [S43] and sits well above the 2,611 enrolled in Aug 2026. The Aug 2026 caseload drop is not explained by any official source found.",
+    "Official referral-source data (hospitals, discharge planners, area agencies on aging) beyond a secondary summary.",
+    "The CareScout 2025 Ohio assisted living figure (about $6,102/month). It comes from a secondary summary [S29] and was not checked against the CareScout 2025 PDF. CareScout figures measure a private one-bedroom in an AL community and may overstate small residential-home revenue.",
+    "The SSI 2026 federal benefit rate of $994, the $944/month room and board cap, the $2,982 income limit, the $2,000 asset limit and the $2,705 spousal allowance. These were confirmed only through secondary sources and should be verified against SSA and ODM before use [S31][S33].",
+    "Ohio BWC/OEWS May 2025 wages for LPN, RN, cooks, maids and housekeepers, maintenance workers, activity staff, home health and personal care aides, and medical and health services managers. Only the Ohio nursing assistant wage (SOC 31-1131), Columbus May 2024 major-group means, and national LPN/RN medians (BLS OOH, May 2025) were verified. The lead-nurse line uses the national LPN median of $30.96/hr as a stand-in for the unverified Ohio LPN wage. Dietary, housekeeping and activities lines use a Columbus May 2024 food-service group mean that is not specific to those occupations. The Columbus management-group mean of $61.31/hr is not an administrator-specific wage.",
+    "Local minimum wages in Cleveland, Cincinnati, Columbus or Toledo. A secondary source says Ohio has none, but this was not confirmed against an official source.",
+    "The 2026 Ohio unemployment tax new-employer rate (2.85% per NFIB vs 2.7% per another guide) and wage base ($9,000 per NFIB vs $9,500 per another guide). No official ODJFS page was found.",
+    "Ohio BWC class-specific assisted living workers' compensation rates. Only a 1% private-employer rate cut effective 2026-07-01 and a $0.74 per $100 all-employer average from secondary sources were found.",
+    "Official Secretary of State fees for LLC formation ($99) and name reservation ($39) and franchise tax or annual report status. Only secondary sources were found. The current Ohio Commercial Activity Tax threshold and rate were also not verified from official sources.",
+    "Commercial rent surveys for RCF buildings. HUD FY2026 Fair Market Rents for the Columbus metro were found only on a secondary reproduction site, not HUD's own table.",
+    "IDD and DODD waiver residential populations, which were not researched.",
+    "Any 2026 pending rule changes to OAC 3701-16. None were located, and the rules show a scheduled five-year review of 2029 [S5].",
+    "Who is authorized to administer medication under OAC 3701-16-05(F)(3)-(5) beyond an RN and an LPN with an approved medication course (the page was cut off), and whether evening and bedtime medication passes in the model are covered by authorized staff. The 17-bed leads cover 8 hrs/day and the 30-bed leads 16 hrs/day.",
+    "Whether the written evacuation plan can be carried out with the overnight headcount in each configuration. The 17-bed plans have 1 overnight and a $3/hr on-call designee stipend (operator estimate), the 30-bed plans have 2, and the 50-bed overnight headcount is not stated. The $400/month compliance allowance (orientation overlap, annual training, dietitian consult) is also an operator estimate.",
+    "The full text of the RCF definition paragraph in OAC 3701-16-01 (the fetch was cut off). The 17-bed and two-prong description comes from the checklist and ORC 3721.02 cross-references. The earlier '9–15 month' ODH inspection-cycle claim was removed because the statute states a 15-month cycle, extendable to 30 months, with no 9-month floor."
+  ],
+  "regulators": [
+    {
+      "name": "Ohio Department of Health, Bureau of Regulatory Operations (Licensure Unit)",
+      "role": "Licenses and inspects residential care facilities under ORC Chapter 3721 and OAC Chapter 3701-16; issues initial and renewal licenses",
+      "url": "https://odh.ohio.gov/know-our-programs/residential-care-facilities-assisted-living",
+      "phone": "(614) 466-7713",
+      "email": "liccert@odh.ohio.gov",
+      "source_id": "S2"
+    },
+    {
+      "name": "Ohio Department of Aging (ODA)",
+      "role": "Administers the Assisted Living Waiver day to day and certifies waiver providers; also administers PASSPORT",
+      "url": "https://aging.ohio.gov/care-and-living/care-options/assisted-living",
+      "phone": "",
+      "email": "",
+      "source_id": "S11"
+    },
+    {
+      "name": "Ohio Department of Medicaid (ODM)",
+      "role": "Single state Medicaid agency; provider enrollment and revalidation, EVV program, interagency agreement with ODA for the waiver",
+      "url": "https://medicaid.ohio.gov/resources-for-providers/enrollment-and-support/provider-enrollment/support/support",
+      "phone": "",
+      "email": "",
+      "source_id": "S23"
+    },
+    {
+      "name": "State Fire Marshal or approved local fire department",
+      "role": "Pre-license and at least every-15-month fire inspections",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3721.02",
+      "phone": "",
+      "email": "",
+      "source_id": "S6"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "ORC 3721.02",
+      "title": "Procedures for inspecting and licensing homes; fees ($320 per 50 beds), pre-license and recurring inspections",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-3721.02",
+      "source_id": "S6"
+    },
+    {
+      "cite": "OAC 3701-16-01",
+      "title": "Residential care facility definitions",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-01",
+      "source_id": "S3"
+    },
+    {
+      "cite": "OAC 3701-16-02",
+      "title": "General provisions and prohibitions (no admission or retention of residents requiring skilled nursing)",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/3701/0/16/3701-16-02_20240712.pdf",
+      "source_id": "S4"
+    },
+    {
+      "cite": "OAC 3701-16-03",
+      "title": "Initial, renewal and change of operator license applications; fees; issuance; revocation; notice",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "cite": "OAC 3701-16-05",
+      "title": "Personnel requirements (administrator hours, staff on duty, medication administration)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "cite": "OAC 3701-16-06",
+      "title": "Qualifications and health of personnel (administrator qualifications, training, health exam, background checks under ORC 3721.121)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "cite": "OAC 5160-1-06.5",
+      "title": "HCBS waivers: assisted living (administration, reimbursement, Appendix A maximum rates)",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/1/5160-1-06-5_20240701.pdf",
+      "source_id": "S11"
+    },
+    {
+      "cite": "OAC Chapter 5160-33",
+      "title": "Assisted living HCBS waiver program (three-tier unit rate model; ODH-licensed RCF requirement)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5160-33",
+      "source_id": "S12"
+    },
+    {
+      "cite": "OAC 5160-31-03",
+      "title": "Eligibility for enrollment in the PASSPORT HCBS waiver ($14,700 monthly cost limit)",
+      "url": "https://law.cornell.edu/regulations/ohio/Ohio-Admin-Code-5160-31-03",
+      "source_id": "S19"
+    },
+    {
+      "cite": "OAC 173-42-03",
+      "title": "PASSPORT program enrollment and reassessment (unified waiting list)",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/173/0/42/173-42-03_20240101.pdf",
+      "source_id": "S20"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living community, Ohio statewide median (private one-bedroom), CareScout 2024",
+      "rate": 5500,
+      "unit": "per month",
+      "effective": "2024",
+      "notes": "$66,000/yr ÷ 12. CareScout measures a private one-bedroom in an AL community and may overstate revenue for a shared-room small residential home. These are industry-survey medians, not government rates or maximums.",
+      "source_id": "S28"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living in Ohio, CareScout 2025 median as summarized by a secondary site",
+      "rate": 6102,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "$73,230/yr reported by Brevy citing the CareScout 2025 survey (released March 2026); not verified against the CareScout PDF. The model keeps the 2024 CareScout figure ($5,500, a conservative choice for shared rooms) but the 2024 survey is no longer the latest benchmark. Verify both $66,000 (2024) and $73,230 (2025) against the CareScout PDFs.",
+      "source_id": "S29"
+    },
+    {
+      "payer": "Ohio Medicaid Assisted Living Waiver (ODA/ODM)",
+      "code": "",
+      "service": "Assisted living waiver bundled services, base tier",
+      "rate": 130,
+      "unit": "per day",
+      "effective": "2024-01-01",
+      "notes": "Reported by LeadingAge Ohio at the 2024 rollout. ODA confirms an updated rate structure with a memory care tier effective 2024-01-01 [S15] but the dollar amounts come from the trade source. The 2026 Appendix A value was not retrieved; confirm in the appendix to OAC 5160-1-06.5. Excludes room and board.",
+      "source_id": "S30"
+    },
+    {
+      "payer": "Ohio Medicaid Assisted Living Waiver (ODA/ODM)",
+      "code": "",
+      "service": "Assisted living waiver bundled services, memory care tier (facility certified for memory care)",
+      "rate": 155,
+      "unit": "per day",
+      "effective": "2024-01-01",
+      "notes": "Same caveats as the base tier. The state memory care certification fee and process were not found. Rules describe a three-tier unit rate model capped by Appendix A [S12]; the two-tier $130/$155 announcement is used here as the latest published figures located.",
+      "source_id": "S30"
+    },
+    {
+      "payer": "Resident (waiver room and board)",
+      "code": "R&B",
+      "service": "Maximum room and board a RCF may charge an Assisted Living Waiver resident",
+      "rate": 944,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "SSI federal benefit rate $994 less $50, per a secondary source citing Ohio rules. The waiver does not pay for room and board [S33]. Verify against SSA and ODM.",
+      "source_id": "S31"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "ODH Bureau of Regulatory Operations, Licensure Unit",
+      "role": "RCF license applications, renewals, change of operator, forms",
+      "contact": "liccert@odh.ohio.gov; (614) 466-7713; https://odh.ohio.gov/know-our-programs/residential-care-facilities-assisted-living/resources/rcfapplicationsandforms"
+    },
+    {
+      "name": "Ohio Department of Aging",
+      "role": "Assisted Living Waiver administration, provider certification and rate updates; PASSPORT",
+      "contact": "https://aging.ohio.gov/agencies-and-service-providers/provider-rates-updates"
+    },
+    {
+      "name": "Ohio Department of Medicaid, Provider Enrollment",
+      "role": "Medicaid provider enrollment (electronic applications only; $750 organizational fee in 2026) and revalidation",
+      "contact": "https://medicaid.ohio.gov/resources-for-providers/enrollment-and-support/provider-enrollment/support/support"
+    },
+    {
+      "name": "Ohio Department of Medicaid, EVV Program",
+      "role": "Electronic visit verification (Sandata at no cost; alternate vendor applications paused in 2026)",
+      "contact": "https://medicaid.ohio.gov/resources-for-providers/special-programs-and-initiatives/electronic-visit-verification/electronic-visit-verification"
+    },
+    {
+      "name": "State Fire Marshal or approved local fire department",
+      "role": "Pre-license fire inspection report and recurring inspections at least every 15 months",
+      "contact": "Contact the local fire department; the inspection report is a required application attachment (OAC 3701-16-03)"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.88,
+      "conservative": 0.8,
+      "optimistic": 0.95,
+      "rationale": "No official Ohio RCF occupancy or average-daily-census figure was found (see not_claimed), so 88% is an operator planning assumption, not a sourced statistic. The 80% conservative case matters because one vacancy is about 6% of a 17-bed census. New facilities ramp up from a few residents (2 for 17 beds, 4 for 30, 6 for 50), so the first months run at a deficit that the generator computes. Waiver demand is uncertain: ODA data show 2,611 enrolled Assisted Living waiver residents in Aug 2026, down from 3,025 in Jul 2026 and a 3,966 peak in Jun 2025 [S17]. Each facility keeps its own waiver waitlist [S43].",
+      "source_id": ""
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 2
+    },
+    "configurations": [
+      {
+        "id": "oh17_private",
+        "label": "17-bed RCF, 100% private pay",
+        "capacity": 17,
+        "notes": "17 unrelated residents is the smallest size under the first prong of the RCF definition in OAC 3701-16-01 [S3]. Homes under 17 beds qualify as RCFs only through the second prong, which requires skilled care for at least one resident [S3]. RCFs may not admit or retain residents who require skilled nursing [S4]. This bundle therefore models 17+ beds. Licensing pathways for smaller homes were not researched. The private-pay rate is the CareScout 2024 Ohio median for a private one-bedroom unit in an assisted living community [S28]. It is a survey median, not a government rate, and may overstate revenue for a converted building with shared rooms. Price from local comparables. Fee add-ons for higher care levels are not modeled.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (base rate; care-level add-ons not modeled)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S28"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Care staff, 1 awake on every shift 24/7 (730 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "OAC 3701-16-05",
+            "notes": "The rule requires at least one qualified staff member on duty at all times. When only one staff person is on duty, the facility must designate another staff member with the same qualifications to be on call [OAC 3701-16-05(C)(1)]. Staff needed to carry out the evacuation plan must be present at all times [(C)(2)(c)]. Overnight, the person on site may be on call only if resident call system requirements are met [S7]. At least one first-aid-trained personal care staff member must be present at all times [S7]. The model assumes one awake person overnight as an operator safety choice, plus a paid on-call designee (see the on-call line). Confirm that your written evacuation plan can be carried out with one overnight staff member. Wage is the Ohio median nursing assistant wage, $39,010/yr ÷ 2,080 hrs = $18.75/hr (BLS OEWS May 2025) [S37]. It is above the $11.00 state minimum wage in effect 2026-01-01 [S36]. No local minimum wages were verified."
+          },
+          {
+            "role": "Additional aides, days and evenings (second aide 16 hrs/day = 486.7 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "OAC 3701-16-05",
+            "notes": "Ohio sets no fixed staff-to-resident ratio; a 2015 federal compendium reports none and the current rule sets 24-hour coverage [S7]. This is an operator staffing choice: operator estimate, verify locally. At the 88% default (about 15 residents) it gives 2 care staff on days and evenings and 1 overnight."
+          },
+          {
+            "role": "Medication-qualified lead / shift supervisor (days, 8 hrs/day = 243.4 hrs/month)",
+            "wage_hourly": 30.96,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 243.4,
+            "cite": "OAC 3701-16-05",
+            "notes": "A facility that elects to administer medication must have an RN, an LPN with an approved medication course, or another person listed in OAC 3701-16-05(F) on duty to administer it, and on duty long enough to observe acceptance and reaction [S7]. Wage corrected to $30.96/hr, the national LPN median ($64,400/yr ÷ 2,080; BLS Occupational Outlook Handbook, May 2025). The earlier $22.39 was an Ohio nursing-assistant 90th-percentile wage, not a nurse wage. The Ohio OEWS LPN wage was not retrieved, and an RN costs more (national median $46.90/hr). This line covers 8 hrs/day only. Evening and bedtime medication passes also need an authorized administrator. Paragraph (F)(3)-(5) was not read, so whether care staff at the aide wage may administer medication is unverified. Extend lead hours, or have residents self-administer and the facility not administer, before relying on this plan. The contracted nurse line in opex covers delegation and oversight."
+          },
+          {
+            "role": "Cook / housekeeping / activities (about 1.5 FTE = 260 hrs/month)",
+            "wage_hourly": 16.57,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Proxy: Columbus metro mean hourly wage for food preparation and serving occupations, $16.57 (BLS, May 2024) [S38]. No Ohio statewide OEWS wage for cooks or housekeepers was verified. Above the $11.00 state minimum wage [S36]. Operator staffing choice."
+          },
+          {
+            "role": "Administrator (owner-operator or employee)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "S38",
+            "cite": "OAC 3701-16-05; OAC 3701-16-06",
+            "notes": "The administrator must be on site at least 20 hours per week between 8 a.m. and 6 p.m. [S7]. Must be age 21+ and complete 9 hours of continuing education a year [S8]. Qualification options include a nursing home administrator license, 3,000 hours of direct operational responsibility for a senior housing facility, 100 credit hours in gerontology or health care, a baccalaureate degree, or a licensed health professional credential [S8]. The salary is an operator estimate — verify locally. The only wage found, the Columbus management-group mean of $61.31/hr [S38], is not administrator-specific and is not used. If the owner is the administrator, this line is the owner's pay."
+          },
+          {
+            "role": "Overnight on-call backup designee (stipend, about 243.4 overnight hrs/month)",
+            "wage_hourly": 3.0,
+            "basis": "hours_per_month",
+            "amount": 243.4,
+            "cite": "OAC 3701-16-05(C)(1)",
+            "notes": "When only one staff person is on duty, the facility must designate another qualified staff member to be on call [OAC 3701-16-05(C)(1)]. The $3/hr stipend is an operator estimate. Get your own quote, or staff a second overnight person instead."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 11900,
+            "basis": "fixed",
+            "notes": "17 licensed beds × $700 = $11,900/month. Operator estimate for a converted or small purpose-built building. No Ohio commercial rent survey for RCF buildings was found. Verify locally. If you own the building, substitute debt service and taxes."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 935,
+            "basis": "fixed",
+            "notes": "17 beds × $55 per bed per month. Operator estimate — verify locally."
+          },
+          {
+            "item": "Contract RN/LPN oversight (medication administration delegation, resident assessments)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes from a nurse consultant. No Ohio nurse wage was verified."
+          }
+        ]
+      },
+      {
+        "id": "oh17_mixed",
+        "label": "17-bed RCF, 12 private pay + 5 Assisted Living Waiver",
+        "capacity": 17,
+        "notes": "Same building and staff as the private-pay 17-bed model. About 29% of residents are on the Assisted Living Waiver, which needs both an ODH RCF license and ODA waiver certification [S12][S11]. Each waiver resident brings the waiver daily rate plus room and board of up to $944/month. That is about $4,899/month at the $130/day base tier, against $5,500 private. The $130/day figure is a 2024 trade-association report of rates effective 2024-01-01, not a verified 2026 rate [S30]; the 2026 Appendix A rate was not retrieved. Each $10/day change in the waiver rate moves revenue by about $304/month per waiver resident. The waiver caseload is falling [S17] and slots and waitlists are facility-level [S43]. Secondary sources describe waiver payment as a bundled daily rate [S31]. The effect of resident post-eligibility liability on net payments was not verified.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (base rate; care-level add-ons not modeled)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.7059,
+            "source_id": "S28"
+          },
+          {
+            "name": "Room and board paid by waiver resident (SSI $994 less $50 cap, 2026)",
+            "payer": "Resident (waiver room and board)",
+            "code": "R&B",
+            "rate": 944,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.2941,
+            "source_id": "S31"
+          },
+          {
+            "name": "Assisted Living Waiver bundled services, base tier ($130/day, 2024 announcement)",
+            "payer": "Ohio Medicaid Assisted Living Waiver (ODA/ODM)",
+            "code": "",
+            "rate": 130,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.2941,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Care staff, 1 awake on every shift 24/7 (730 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "OAC 3701-16-05",
+            "notes": "At least one qualified staff member on duty at all times. When only one staff person is on duty, another qualified staff member must be designated on call [OAC 3701-16-05(C)(1)]. Staff to carry out the evacuation plan must be present at all times [(C)(2)(c)]. First-aid-trained personal care staff must be present at all times [S7]. Wage is the Ohio median nursing assistant wage ($39,010/yr ÷ 2,080) [S37], above the $11.00 state minimum wage [S36]."
+          },
+          {
+            "role": "Additional aides, days and evenings (second aide 16 hrs/day = 486.7 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "OAC 3701-16-05",
+            "notes": "No fixed ratio in Ohio rules [S7]. Operator staffing choice: operator estimate, verify locally."
+          },
+          {
+            "role": "Medication-qualified lead / shift supervisor (days, 8 hrs/day = 243.4 hrs/month)",
+            "wage_hourly": 30.96,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 243.4,
+            "cite": "OAC 3701-16-05",
+            "notes": "Medication administration requires an RN, an LPN with an approved medication course, or another listed person on duty [S7]. Wage corrected to $30.96/hr, the national LPN median (BLS OOH, May 2025). The earlier $22.39 was a nursing-assistant percentile, not a nurse wage. The Ohio LPN wage was not retrieved. This line covers 8 hrs/day only. Evening and bedtime passes also need an authorized administrator, and OAC 3701-16-05(F)(3)-(5) was not read. Extend lead hours or have residents self-administer before relying on this plan."
+          },
+          {
+            "role": "Cook / housekeeping / activities (about 1.5 FTE = 260 hrs/month)",
+            "wage_hourly": 16.57,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "notes": "Proxy: Columbus mean wage for food preparation and serving occupations, May 2024 [S38]. Operator staffing choice."
+          },
+          {
+            "role": "Administrator (owner-operator or employee)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "S38",
+            "cite": "OAC 3701-16-05; OAC 3701-16-06",
+            "notes": "At least 20 hrs/week on site between 8 a.m. and 6 p.m. [S7]; age 21+ and 9 hrs of annual continuing education [S8]. Salary is an operator estimate — verify locally; the Columbus management-group mean [S38] is not administrator-specific."
+          },
+          {
+            "role": "Overnight on-call backup designee (stipend, about 243.4 overnight hrs/month)",
+            "wage_hourly": 3.0,
+            "basis": "hours_per_month",
+            "amount": 243.4,
+            "cite": "OAC 3701-16-05(C)(1)",
+            "notes": "Required designation when only one staff person is on duty [OAC 3701-16-05(C)(1)]. The $3/hr stipend is an operator estimate. Get quotes, or staff a second overnight person."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 11900,
+            "basis": "fixed",
+            "notes": "17 licensed beds × $700 = $11,900/month. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 935,
+            "basis": "fixed",
+            "notes": "17 beds × $55. Operator estimate — verify locally."
+          },
+          {
+            "item": "Contract RN/LPN oversight (medication administration delegation, resident assessments)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes."
+          }
+        ]
+      },
+      {
+        "id": "oh30_private",
+        "label": "30-bed RCF, 100% private pay",
+        "capacity": 30,
+        "notes": "A mid-size facility that keeps the single-fee-block license cost ($320 covers up to 50 beds) [S6]. Staffing is built for roughly 26 residents at the default occupancy, with 4 care staff on days, 3 on evenings and 2 overnight. That is an operator staffing plan, not a rule requirement. The private-pay rate is the CareScout 2024 Ohio median for a private one-bedroom unit in an AL community [S28]. Rent is sized for a purpose-built or converted building at $1,000 per licensed bed, an operator estimate.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (base rate; care-level add-ons not modeled)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S28"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Care staff, 1 awake on every shift 24/7 (730 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "OAC 3701-16-05",
+            "notes": "Minimum rule coverage is 1 qualified staff on duty at all times, with first-aid-trained personal care staff present [S7]. Ohio median nursing assistant wage [S37]; above the $11.00 minimum wage [S36]."
+          },
+          {
+            "role": "Additional aides (973.4 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 973.4,
+            "cite": "OAC 3701-16-05",
+            "notes": "Operator staffing plan: operator estimate, verify locally. With the medication-qualified leads it gives about 72 care-staff hours per day, or about 2.7 hours per resident-day at the default census. No fixed ratio exists in Ohio rules [S7]."
+          },
+          {
+            "role": "Medication-qualified leads / shift supervisors (days + evenings, 16 hrs/day = 486.7 hrs/month)",
+            "wage_hourly": 30.96,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "OAC 3701-16-05",
+            "notes": "Medication administration requires an RN, an LPN with an approved medication course, or another listed person on duty [S7]. Wage corrected to $30.96/hr, the national LPN median (BLS OOH, May 2025). The earlier $22.39 was a nursing-assistant percentile, not a nurse wage. The Ohio LPN wage was not retrieved. This line covers 16 hrs/day only. Bedtime and overnight medication passes also need an authorized administrator, and OAC 3701-16-05(F)(3)-(5) was not read. Extend lead hours or have residents self-administer before relying on this plan."
+          },
+          {
+            "role": "Cook / housekeeping / activities (about 3 FTE = 520 hrs/month)",
+            "wage_hourly": 16.57,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 520,
+            "notes": "Proxy: Columbus mean wage for food preparation and serving occupations, May 2024 [S38]. Operator staffing choice."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 80000,
+            "wage_source_id": "S38",
+            "cite": "OAC 3701-16-05; OAC 3701-16-06",
+            "notes": "At least 20 hrs/week on site [S7]; age 21+, 9 hrs/yr continuing education [S8]. Salary is an operator estimate — verify locally; the Columbus management-group mean [S38] is not administrator-specific."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption: larger facilities admit more residents per month. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 30000,
+            "basis": "fixed",
+            "notes": "30 licensed beds × $1,000 = $30,000/month. Operator estimate for a purpose-built or converted facility. No Ohio commercial rent survey was found. Verify locally. For an owned building, substitute debt service and taxes."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1650,
+            "basis": "fixed",
+            "notes": "30 beds × $55. Operator estimate — verify locally."
+          },
+          {
+            "item": "Contract RN/LPN oversight (medication administration delegation, resident assessments)",
+            "monthly": 3800,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler and alarm inspections, extinguisher service",
+            "monthly": 175,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          }
+        ]
+      },
+      {
+        "id": "oh30_mixed",
+        "label": "30-bed RCF, 70% private pay / 30% Assisted Living Waiver",
+        "capacity": 30,
+        "notes": "The expert-pick structure: a mid-size RCF where about 7 in 10 residents pay privately at the CareScout Ohio median [S28] and about 3 in 10 use the Assisted Living Waiver. A waiver resident brings $130/day (2024 base tier, not a verified 2026 rate [S30]) plus up to $944/month in room and board [S31], about $4,899/month in total. Each $10/day change in the waiver rate moves revenue by about $304/month per waiver resident, or about $2,400/month at 8 waiver residents. Waiver participation needs ODH licensure plus ODA certification [S12][S11], Medicaid provider enrollment ($750 CY2026 application fee) [S21], and available waiver slots [S43]. The critical access add-on for facilities where at least half of residents are Medicaid beneficiaries is not modeled because no dollar amount was found. Memory care tier revenue ($155/day) is also not modeled.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (base rate; care-level add-ons not modeled)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.7,
+            "source_id": "S28"
+          },
+          {
+            "name": "Room and board paid by waiver resident (SSI $994 less $50 cap, 2026)",
+            "payer": "Resident (waiver room and board)",
+            "code": "R&B",
+            "rate": 944,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3,
+            "source_id": "S31"
+          },
+          {
+            "name": "Assisted Living Waiver bundled services, base tier ($130/day, 2024 announcement)",
+            "payer": "Ohio Medicaid Assisted Living Waiver (ODA/ODM)",
+            "code": "",
+            "rate": 130,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Care staff, 1 awake on every shift 24/7 (730 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "OAC 3701-16-05",
+            "notes": "Minimum rule coverage: 1 qualified staff on duty at all times, first-aid-trained personal care staff present [S7]. Ohio median nursing assistant wage [S37]; above the $11.00 minimum wage [S36]."
+          },
+          {
+            "role": "Additional aides (973.4 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 973.4,
+            "cite": "OAC 3701-16-05",
+            "notes": "Operator staffing plan: operator estimate, verify locally. No fixed ratio in Ohio rules [S7]."
+          },
+          {
+            "role": "Medication-qualified leads / shift supervisors (days + evenings, 16 hrs/day = 486.7 hrs/month)",
+            "wage_hourly": 30.96,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "OAC 3701-16-05",
+            "notes": "Medication administration requires an RN, an LPN with an approved medication course, or another listed person on duty [S7]. Wage corrected to $30.96/hr, the national LPN median (BLS OOH, May 2025). The earlier $22.39 was a nursing-assistant percentile, not a nurse wage. The Ohio LPN wage was not retrieved. This line covers 16 hrs/day only. Bedtime and overnight passes also need an authorized administrator, and OAC 3701-16-05(F)(3)-(5) was not read."
+          },
+          {
+            "role": "Cook / housekeeping / activities (about 3 FTE = 520 hrs/month)",
+            "wage_hourly": 16.57,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 520,
+            "notes": "Proxy: Columbus mean wage for food preparation and serving occupations, May 2024 [S38]."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 80000,
+            "wage_source_id": "S38",
+            "cite": "OAC 3701-16-05; OAC 3701-16-06",
+            "notes": "At least 20 hrs/week on site [S7]; age 21+, 9 hrs/yr continuing education [S8]. Operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 30000,
+            "basis": "fixed",
+            "notes": "30 licensed beds × $1,000 = $30,000/month. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1650,
+            "basis": "fixed",
+            "notes": "30 beds × $55. Operator estimate — verify locally."
+          },
+          {
+            "item": "Contract RN/LPN oversight (medication administration delegation, resident assessments)",
+            "monthly": 3800,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler and alarm inspections, extinguisher service",
+            "monthly": 175,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          }
+        ]
+      },
+      {
+        "id": "oh50_mixed",
+        "label": "50-bed RCF, 60% private pay / 40% Assisted Living Waiver",
+        "capacity": 50,
+        "notes": "The largest size covered by a single $320 license fee block [S6]. Staffing assumes roughly 44 residents at the default occupancy, with 24/7 medication-qualified coverage, a larger contracted nurse role, and about 5 FTE of dietary, housekeeping, activities and maintenance support. A 40% waiver share leans on waiver slots, which are facility-level and whose caseload is falling [S17][S43], and on a waiver rate that is unverified for 2026 [S30]. Each $10/day change in the waiver rate moves revenue by about $304/month per waiver resident, or about $5,400/month at 18 waiver residents. The critical access add-on for facilities with at least half Medicaid residents is not modeled. The facility would need a purpose-built or large converted building, so rent is sized at $1,100 per licensed bed (operator estimate).",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (base rate; care-level add-ons not modeled)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 5500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.6,
+            "source_id": "S28"
+          },
+          {
+            "name": "Room and board paid by waiver resident (SSI $994 less $50 cap, 2026)",
+            "payer": "Resident (waiver room and board)",
+            "code": "R&B",
+            "rate": 944,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.4,
+            "source_id": "S31"
+          },
+          {
+            "name": "Assisted Living Waiver bundled services, base tier ($130/day, 2024 announcement)",
+            "payer": "Ohio Medicaid Assisted Living Waiver (ODA/ODM)",
+            "code": "",
+            "rate": 130,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.4,
+            "source_id": "S30"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Care staff, 1 awake on every shift 24/7 (730 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "OAC 3701-16-05",
+            "notes": "Minimum rule coverage: 1 qualified staff on duty at all times, first-aid-trained personal care staff present [S7]. Ohio median nursing assistant wage [S37]; above the $11.00 minimum wage [S36]."
+          },
+          {
+            "role": "Additional aides (1,460 hrs/month)",
+            "wage_hourly": 18.75,
+            "wage_source_id": "S37",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "OAC 3701-16-05",
+            "notes": "Operator staffing plan: operator estimate, verify locally. Total care coverage is about 96 staff-hours per day. No fixed ratio exists in Ohio rules [S7]."
+          },
+          {
+            "role": "Medication-qualified leads, 24/7 (730 hrs/month)",
+            "wage_hourly": 30.96,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "OAC 3701-16-05",
+            "notes": "Medication administration requires a qualified person on duty [S7]. Wage corrected to $30.96/hr, the national LPN median (BLS OOH, May 2025). The earlier $22.39 was a nursing-assistant percentile, not a nurse wage. The Ohio LPN wage was not retrieved, and an RN costs more (national median $46.90/hr). Confirm that the people on this line are authorized under OAC 3701-16-05(F)."
+          },
+          {
+            "role": "Dietary / housekeeping / activities / maintenance (about 5 FTE = 866.7 hrs/month)",
+            "wage_hourly": 16.57,
+            "wage_source_id": "S38",
+            "basis": "hours_per_month",
+            "amount": 866.7,
+            "notes": "Proxy: Columbus mean wage for food preparation and serving occupations, May 2024 [S38]. Operator staffing choice."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 95000,
+            "wage_source_id": "S38",
+            "cite": "OAC 3701-16-05; OAC 3701-16-06",
+            "notes": "At least 20 hrs/week on site [S7]; age 21+, 9 hrs/yr continuing education [S8]. Operator estimate — verify locally; the Columbus management-group mean [S38] is not administrator-specific."
+          }
+        ],
+        "ramp": {
+          "start_clients": 6,
+          "add_per_month": 4,
+          "note": "Operator planning assumption. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 55000,
+            "basis": "fixed",
+            "notes": "50 licensed beds × $1,100 = $55,000/month. Operator estimate for a purpose-built or large converted facility. No Ohio commercial rent survey was found. Verify locally. For an owned building, substitute debt service and taxes."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 2750,
+            "basis": "fixed",
+            "notes": "50 beds × $55. Operator estimate — verify locally."
+          },
+          {
+            "item": "Contract RN/LPN oversight (medication administration delegation, resident assessments)",
+            "monthly": 7000,
+            "basis": "fixed",
+            "notes": "Operator estimate — get quotes."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler and alarm inspections, extinguisher service",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate — get vendor quotes."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "oh30_mixed",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.084,
+      "workers_comp_pct": 0.03,
+      "benefits_pct": 0.05,
+      "notes": "Payroll tax of about 8.4% = employer FICA 7.65% (federal statutory rate; not in this report's source list) + Ohio new-employer unemployment contribution of 2.85% on the first $9,000 per worker, about 0.66% of a $39,000 aide wage, per the NFIB 2026 handbook [S42] + federal FUTA of 0.6% net on the first $7,000, about 0.1%. Another 2026 payroll guide lists a different new-employer rate and wage base, and no official ODJFS page was found, so confirm both with ODJFS. Ohio is a monopolistic workers' compensation state; coverage is bought from the BWC state fund, not private carriers. The BWC class-specific rate for residential care was not found. The 3% is an operator estimate for a caregiving payroll — get a BWC quote. A 1% private-employer rate cut took effect 2026-07-01 per a trade report. Benefits at 5% are an operator estimate.",
+      "source_id": "S42"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 11900,
+        "basis": "fixed",
+        "notes": "Default shown for the 17-bed building ($700 per licensed bed). Each configuration overrides it. Vacant beds still cost rent. Operator estimate — verify locally."
+      },
+      {
+        "item": "Food (3 meals + snacks per resident)",
+        "monthly": 320,
+        "basis": "per_client",
+        "notes": "Operator estimate (about $10.50 per resident-day) — verify with your food vendor."
+      },
+      {
+        "item": "Utilities, per-resident portion",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed beds)",
+        "monthly": 935,
+        "basis": "fixed",
+        "notes": "$55 per licensed bed per month. Default shown for 17 beds; overridden per configuration. Operator estimate — verify locally."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 80,
+        "basis": "per_client",
+        "notes": "No RCF liability insurance minimum was found. The $1M per occurrence / $3M aggregate requirement located is in the nursing-home rule (OAC 3701-17-03) and is not confirmed for RCFs [S41]. Landlords, lenders and the waiver contract may require coverage. Premium is an operator estimate — get quotes.",
+        "source_id": "S41"
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance",
+        "monthly": 40,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Activities & recreation",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Referral / placement agency fees (amortized)",
+        "monthly": 80,
+        "basis": "per_client",
+        "notes": "Operator estimate — placement agencies typically charge a one-time fee per private-pay move-in; amortized over an average stay. Verify each agency's contract. Waiver residents are referred through other channels, so this is conservative for mixed configurations."
+      },
+      {
+        "item": "Contract RN/LPN oversight (medication administration delegation, resident assessments)",
+        "monthly": 2400,
+        "basis": "fixed",
+        "notes": "A facility that elects to administer medication must have a qualified person on duty [S7]. This covers delegation, assessments and on-call advice. Operator estimate — verify locally; each configuration overrides the amount.",
+        "source_id": "S7"
+      },
+      {
+        "item": "ODH RCF license fee ÷ 12",
+        "monthly": 26.67,
+        "basis": "fixed",
+        "notes": "$320 per 50 beds or part thereof of licensed capacity, paid with the initial application and again at annual renewal [S6][S5]. All modeled sizes (17–50 beds) fall in one fee block. A late-renewal fee of $100 per week was reported for the 2024 cycle [S35] and is not modeled.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Fire alarm monitoring, sprinkler and alarm inspections, extinguisher service",
+        "monthly": 125,
+        "basis": "fixed",
+        "notes": "The state fire marshal or an approved local fire department must inspect at least every 15 months [S6]. Monitoring and testing vendor costs are operator estimates — get quotes; each configuration overrides the amount.",
+        "source_id": "S6"
+      },
+      {
+        "item": "eMAR / care documentation software",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing & website",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Training, administrator CE, first aid/CPR, pre-employment health exams, background checks",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Covers 9 hrs/yr administrator CE, 8 hrs/yr staff CE, first-aid training within 60 days of hire, a health exam before work, and fingerprint background checks under ORC 3721.121 [S8]. Cost is an operator estimate; turnover raises it.",
+        "source_id": "S8"
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate. Transportation is optional."
+      },
+      {
+        "item": "EVV (Sandata, state-provided)",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "$0: ODM offers the Sandata EVV solution at no cost [S25]. The January 2026 ODM claim-matching notice names only the Ohio Home Care Waiver and PASSPORT, not the Assisted Living Waiver [S26]. Whether AL waiver claims require EVV was not verified. A GPS rule is pending.",
+        "source_id": "S25"
+      },
+      {
+        "item": "Ohio Commercial Activity Tax (CAT) and state LLC taxes — not modeled",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "$0 placeholder. The current CAT exclusion threshold and rate were not verified from an official source, so no CAT is modeled; check with your CPA, since larger configurations may owe it. Secondary sources report no annual report fee or franchise tax for Ohio LLCs; verify with the Secretary of State and Department of Taxation."
+      },
+      {
+        "item": "Compliance allowances: paid new-hire orientation overlap, annual resident-rights and fire/evacuation training time, dietitian consult for therapeutic diets",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate. A new hire may not stay alone with residents until orientation and fire/evacuation training are complete [OAC 3701-16-06(I)], so the first days are paid overlap hours. Annual staff training on resident rights is required [(K)]. Staff need dietitian training before they provide therapeutic diets [(F)]. Raise this line if turnover is high.",
+        "source_id": "S8"
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Ohio LLC Articles of Organization + optional name reservation",
+        "low": 99,
+        "high": 138,
+        "notes": "$99 filing fee and $39 name reservation (180 days) reported by secondary formation guides, not an official page. Verify with the Ohio Secretary of State."
+      },
+      {
+        "item": "ODH initial RCF license fee ($320 per 50 beds, paid with the application)",
+        "low": 320,
+        "high": 320,
+        "notes": "Non-refundable, payable to 'treasurer, state of Ohio' by check or money order with the application [S5][S6]. The application is due at least 60 days before the proposed opening. An expedited inspection is available, but no fee amount was found.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Medicaid provider enrollment application fee, CY2026 (waiver configurations only)",
+        "low": 750,
+        "high": 750,
+        "notes": "$750 per application for organizational providers in 2026 [S21][S22]. It is waived if the fee was paid to Medicare or another state's Medicaid within the past 2 years, with proof [S21]. Private-pay-only operators may omit it. ODA waiver certification fees were not found. Whether the 2026-05-14 to 2026-11-14 enrollment moratorium covers RCFs was not confirmed [S24].",
+        "source_id": "S21"
+      },
+      {
+        "item": "CPA-signed financial solvency statement",
+        "low": 500,
+        "high": 2000,
+        "notes": "Required with the initial application to show reserves covering at least 3 months of operation [S5]. The CPA fee is an operator estimate.",
+        "source_id": "S5"
+      },
+      {
+        "item": "Reserve to show on the solvency statement (about 3 months of modeled operating expenses)",
+        "low": 215000,
+        "high": 570000,
+        "notes": "Derived from the model: about 3 × total monthly expenses at 88% occupancy for the 17-bed (about $72,000/month) and 50-bed (about $190,000/month) configurations. The rule requires sufficient capital or financial reserve to cover not less than three months of operation [S5]. How much of it may be financing versus cash was not verified. It is cash you must show, and is separate from the ramp-up deficit.",
+        "source_id": "S5",
+        "category": "required_reserve"
+      },
+      {
+        "item": "Legal / consulting for application, zoning statement and ownership disclosures",
+        "low": 3000,
+        "high": 15000,
+        "notes": "The application requires a zoning status statement, a floor plan showing beds, 5%+ owner disclosures, and a statutory agent [S5]. Local zoning and siting rules were not researched. Cost is an operator estimate.",
+        "source_id": "S5"
+      },
+      {
+        "item": "Building code compliance and life-safety upgrades (sprinklers, alarms, egress, heating)",
+        "low": 25000,
+        "high": 400000,
+        "notes": "The application needs a certificate of occupancy (use group R-4, I-1 or I-2), a fire marshal or approved fire department inspection report, and a heating inspection report [S5]. ODH and the fire marshal inspect before licensing [S6]. Ohio Building Code construction standards for RCFs were not verified. Range is an operator estimate — get contractor and local code-official quotes.",
+        "source_id": "S5"
+      },
+      {
+        "item": "Resident call system",
+        "low": 6000,
+        "high": 40000,
+        "notes": "Overnight on-call coverage is allowed only if the resident call system requirements are met [S7]. Even if staffed awake, a call system supports compliance. Operator estimate — get quotes.",
+        "source_id": "S7"
+      },
+      {
+        "item": "Furnishings for resident rooms and common areas",
+        "low": 34000,
+        "high": 100000,
+        "notes": "Operator estimate of about $2,000 per bed."
+      },
+      {
+        "item": "Lease deposit + first month (two months of modeled lease)",
+        "low": 23800,
+        "high": 110000,
+        "notes": "Two months of the modeled lease: $11,900 for 17 beds up to $55,000 for 50 beds. Operator estimate."
+      },
+      {
+        "item": "Pre-licensing staff health exams, background checks and first-aid/CPR for initial team",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Each worker needs a health exam within 30 days before starting work or on the first day, first-aid training within 60 days of hire, and fingerprint background checks under ORC 3721.121 [S8]. Vendor fees are an operator estimate.",
+        "source_id": "S8"
+      },
+      {
+        "item": "Pre-opening payroll (administrator and leads hired during the 60+ day licensing wait)",
+        "low": 12000,
+        "high": 30000,
+        "notes": "The application is filed at least 60 days before the proposed opening [S5], and ODH and the fire marshal must inspect before the license issues [S6]. Operator estimate.",
+        "source_id": "S5"
+      },
+      {
+        "item": "Insurance down payments, policies & procedures manual, eMAR setup",
+        "low": 5000,
+        "high": 20000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Launch marketing",
+        "low": 3000,
+        "high": 15000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Working capital reserve through ramp-up (about 3–6 months of expenses)",
+        "low": 100000,
+        "high": 450000,
+        "notes": "Operator estimate; the modeled ramp-up deficit replaces this advisory figure in the totals. It is separate from the required solvency reserve above.",
+        "category": "working_capital"
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Ohio licenses assisted living as a **residential care facility (RCF)**. The Ohio Department of Health (ODH), Bureau of Regulatory Operations, licenses and inspects RCFs under ORC Chapter 3721 and OAC Chapter 3701-16 [S1][S9]. Some references, including the brief this research started from, cite OAC 3701-17-50. Chapter 3701-17 covers nursing homes, and the RCF rules sit in 3701-16 [S9][S41]. ODH reports about 720 licensed RCFs [S1]. The Ohio Department of Aging (ODA) says nearly 800 [S16]. These counts conflict and neither is reconciled here.\n\nMedicaid pays for assisted living through the **Assisted Living Waiver**, a 1915(c) HCBS waiver. ODA runs it day to day under an interagency agreement with the Ohio Department of Medicaid (ODM). CMS shows the current waiver period as 07/01/2024 through 06/30/2029 [S11][S13]. The waiver pays for services, not room and board [S33]. A secondary source puts the 2026 room-and-board cap for a waiver resident at $944 a month ($994 SSI less $50) [S31]. Facilities need both an ODH RCF license and ODA waiver certification [S12]. Ohio assisted living is mostly private pay. CareScout's 2024 Ohio median for an assisted living community is $66,000 a year, about $5,500 a month, for a private one-bedroom unit [S28]. A newer CareScout 2025 survey is reported at about $6,102 a month by a secondary site [S29], not verified.\n\nLicensing is inexpensive but front-loaded with proof of capital. The fee is $320 per 50 beds (or part thereof), paid with the application [S5][S6]. The application is due at least 60 days before opening and must include a CPA-signed statement that you hold reserves for at least three months of operation [S5]. Building approvals (certificate of occupancy, fire marshal or approved fire department report, heating report) are required attachments [S5]. ODH and the fire marshal inspect before a license issues [S6].\n\n**Bottom line from the model.** This bundle models 17+ beds, because the RCF definition's first prong starts at 17 residents [S3]. Licensing pathways for smaller homes were not researched. At the default 88% occupancy, an operator assumption, all five configurations were profitable once ramp-up is complete in the model's first run:\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Model cash needed |\n|---|---|---|---|---|---|\n| 50-bed, 60% private / 40% waiver | $41,325 | 17.9% | 70.0% | 10 | $1,386,144 |\n| 30-bed, 100% private | $22,142 | 15.2% | 72.7% | 8 | $715,730 |\n| 30-bed, 70% private / 30% waiver (default) | $17,379 | 12.4% | 75.6% | 9 | $729,760 |\n| 17-bed, 100% private | $10,542 | 12.8% | 75.2% | 8 | $329,969 |\n| 17-bed, 12 private / 5 waiver | $7,896 | 9.9% | 78.0% | 8 | $329,969 |\n\n**Correction note.** After fact-checking, the medication-qualified lead wage was raised from $22.39 (a nursing-assistant percentile, not a nurse wage) to $30.96/hr (the national LPN median; the Ohio LPN wage was not retrieved). The model also gained an overnight on-call backup stipend for the 17-bed plans and a $400/month compliance allowance for orientation overlap, annual training and a dietitian consult. The table above was generated before these changes and overstates profit. Our rough arithmetic, payroll burden included, puts net per month at about $33,600 (50-bed), $16,900 (30-bed private), $12,100 (30-bed default), $6,900 (17-bed private) and $4,200 (17-bed waiver mix). Margins, break-even occupancy, first-profit months and cash needed also worsen and need a full model re-run. At 80% occupancy the 17-bed waiver mix likely loses money.\n\nThe 50-bed model earns the most and needs the most cash. Waiver-heavy mixes earn less per resident than private pay, and the waiver rate used ($130/day) is a 2024 trade-association figure, not a verified 2026 rate [S30]. Margins on the small and waiver-heavy models are thin.\n\n### What this report does not claim\n- Current 2026 Assisted Living Waiver per-diem tier amounts. Appendix A to OAC 5160-1-06.5 was not retrieved. $130/day base and $155/day memory care are 2024 announced rates [S30].\n- The critical access add-on amount, ODA waiver certification steps, fees or timelines, and billing codes.\n- An official Ohio RCF occupancy figure, an official waitlist count, competitor names, market shares, or a reconciled count of licensed RCFs.\n- An RCF liability insurance minimum, a fixed staff-to-resident ratio, or licensing paths for homes under 17 beds.\n- Who may administer medication under OAC 3701-16-05(F)(3)-(5), or whether the modeled lead hours cover every medication pass.\n- Verified Ohio wages for LPNs, RNs, administrators, cooks or housekeepers, the official unemployment tax rate, the BWC class rate, or commercial rent. These are operator estimates, national figures or proxies where used.",
+    "service_model": "**Who is served.** An RCF provides room, board, supervision and personal care to residents who do not need skilled nursing. ODH licenses RCFs under ORC Chapter 3721 [S1]. The definition in OAC 3701-16-01 has two prongs. The first covers facilities with 17 or more unrelated residents, with personal care for at least three of them. The second covers facilities with three or more unrelated residents, with personal care for at least three and skilled care for at least one [S3]. An RCF may not admit or retain residents who require skilled nursing, beyond the limits in ORC 3721.011 [S4]. Those statutory skilled-nursing hour limits were not verified from a current primary source. This bundle models only the 17+ resident prong. Smaller homes were not researched.\n\n**Service model.** The model assumes a typical Ohio RCF with private or semi-private rooms, meals, housekeeping, activities, personal care and medication administration. A facility that elects to administer medications must have a qualified person on duty. That person may be an RN, an LPN with an approved medication course, a physician, or another authorized person [S7]. The model prices a base monthly fee and does not model care-level add-ons. Those are an upside you should price yourself.\n\n**Regulatory framework.**\n- **Licensing:** ORC 3721.02 and OAC 3701-16-01, -02, -03, -05 and -06 [S3][S4][S5][S6][S7][S8].\n- **Medicaid waiver:** OAC 5160-1-06.5 (administration and Appendix A maximum rates) and OAC Chapter 5160-33 (the assisted living waiver program, with a three-tier unit-rate model) [S11][S12]. Waiver participants must live in an ODH-licensed RCF [S12].\n- **Rule review:** The licensing rule shows a five-year review date of 7/2/2029. No 2026 pending change to OAC 3701-16 was located [S5].\n\n**One license per building.** A multi-building operator needs a separate license for each building, unless the buildings are on the same lot [S5].\n\n**Memory care.** ODA's rate update describes an elevated tier for facilities certified to provide memory care [S15]. The state memory care certification fee and process were not found. The staff rules add training for staff serving residents with late-stage cognitive impairment or serious mental illness: 2 hours of initial training within 14 days and 4 hours a year of continuing education [S8].",
+    "licensing_pathway": "**Step 1 — Form the entity and plan the building.** Secondary guides report a $99 Articles of Organization fee and a $39 name reservation for 180 days. These are not from the Secretary of State. Confirm the fees there. Secure a building with local zoning clearance. The application requires a statement of the facility's status under applicable zoning ordinances or rules, or a statement that no zoning authority exists [S5]. Local zoning and siting rules were not researched.\n\n**Step 2 — Assemble the application.** Per OAC 3701-16-03, the initial application must include [S5]:\n- a floor plan of the area to be licensed, including beds;\n- disclosure of owners with 5% or more interest, any management firm, and a statutory agent;\n- a certificate of occupancy (use group R-4, I-1 or I-2);\n- an inspection report from the state fire marshal or an approved fire department;\n- a heating inspection report;\n- a CPA-signed financial solvency statement showing capital or reserve to cover not less than three months of operation.\n\nODH publishes the current initial application packet (dated 04/30/2026) and other forms [S2][S10]. Questions go to the Licensure Unit at liccert@odh.ohio.gov or (614) 466-7713 [S2].\n\n**Step 3 — File and pay.** File the application at least 60 days before the proposed opening [S5]. The non-refundable fee is $320 for each 50 beds or part thereof of licensed capacity [S6][S10]. It is paid with the completed application, by check or money order payable to 'treasurer, state of Ohio' [S5]. Every size modeled here (17–50 beds) falls in one fee block. The 2026 packet table was not read directly. The amount comes from ORC 3721.02, consistent with the 2018 and 2026-dated packets.\n\n**Step 4 — Inspections.** Before a license issues, ODH and the state fire marshal (or an approved fire department) must inspect, except for ownership transfers [S6]. You may request an expedited inspection. ODH must begin it within 10 business days of a complete request. An extra fee may apply, and no amount was found [S6]. ODH's review timeline after the inspection was not found. Do not assume a short approval period. Plan on the 60-day minimum plus the inspection scheduling.\n\n**Step 5 — Renewal and ongoing inspection.** Renewal needs a completed renewal application and the same non-refundable fee [S5]. A 2024-cycle ODH notice carried a late fee of $100 per week or part thereof [S35]. That figure is not confirmed for the current cycle. Under ORC 3721.02, ODH inspects at least once every 15 months. The director may extend this to once every 30 months for an RCF that meets listed clean-record conditions. Fire inspections are required at least every 15 months [S6].\n\n**Step 6 — Change of operator.** An application is due at least 60 days before the proposed assignment or transfer of the license, with a non-refundable fee [S5].\n\n**Step 7 — Medicaid waiver (optional).** Beyond the ODH license, a facility needs ODA certification as an Assisted Living Waiver provider [S12]. The steps, fees and timelines for ODA certification were not found. Ask ODA before you commit capital. ODM provider enrollment is electronic only [S23]. The 2026 organizational application fee is $750 [S21][S22]. It is waived if you already paid the fee to Medicare or another state's Medicaid program within the past two years, with proof [S21]. ODM has paused new enrollment for home health, hospice and related provider types from May 14 to November 14, 2026. The notice does not say whether RCFs are covered [S24]. Confirm before you apply.",
+    "reimbursement": "**How money flows.** Ohio assisted living is paid from two streams.\n\n1. **Private pay.** Residents or families pay a monthly fee. The CareScout 2024 Ohio median for an assisted living community is $66,000 a year (about $5,500 a month, our division by 12) [S28]. A secondary summary of CareScout's 2025 survey reports about $6,102 a month ($73,230 a year) [S29]. We did not check that figure against CareScout's PDF. The model uses the 2024 primary-source figure.\n2. **Assisted Living Waiver.** This 1915(c) HCBS waiver serves adults age 21 and older who need an intermediate or skilled level of care [S11][S13]. ODA administers it under an interagency agreement with ODM [S11]. Secondary sources describe a bundled daily rate per waiver resident [S31]. The waiver does not pay for room and board [S33]. Residents pay room and board from their own income, capped at $944 a month in 2026 per a secondary source ($994 SSI less $50) [S31][S32]. That source also says the resident keeps a $994 maintenance allowance, and the effect of post-eligibility liability on net payments was not verified.\n\n**Waiver rates.** The rules set a three-tier unit-rate model, capped by the amounts in Appendix A to OAC 5160-1-06.5 [S11][S12]. ODA confirms an updated rate structure effective 2024-01-01 with an elevated tier for facilities certified for memory care [S15]. LeadingAge Ohio reported the dollar amounts at that rollout: **$130/day base and $155/day memory care** [S30]. This is the latest figure located. It is not a verified 2026 rate, and the appendix was not retrieved [S11]. An undated OHCA list shows $49.98, $60.00 and $69.98 per day for three tiers [S34]. It conflicts with the 2024 figures and could not be dated or reconciled, so it is not used. A trade-press report describes a critical access add-on for facilities where at least half of residents are Medicaid beneficiaries, with 127 of about 800 providers qualifying [S44]. No dollar amount or effective date was found, so it is not modeled. No 2026 rate increase could be confirmed either.\n\n**What a waiver resident is worth in the model.** $130 × 30.42 days = about $3,955 a month in services, plus $944 in room and board, is about $4,899 a month. A private-pay resident brings $5,500. A waiver resident therefore brings about $601 a month less than a private resident. Each $10/day change in the waiver rate is about $304 a month per waiver resident. Any care-level add-ons you charge private-pay residents are not modeled, which widens the real gap.\n\n**Eligibility context (secondary sources).** Monthly income limit $2,982 [S33]. Asset limit $2,000 for a single applicant [S43]. Verify these with ODM.\n\n**Managed care and EVV.** The Next Generation MyCare program for dual-eligible members launched on January 1, 2026 [S27]. Whether AL waiver services are paid fee-for-service or through managed care for each enrollee type was not verified. Billing codes and units were not found. EVV: Ohio provides the Sandata EVV solution at no cost [S25]. The January 2026 claim-matching notice names only the Ohio Home Care Waiver and PASSPORT, not the Assisted Living Waiver [S26]. ODM plans a GPS rule for all EVV users [S24]. Confirm with ODA whether EVV applies to your waiver claims.\n\n**PASSPORT.** ODA also runs PASSPORT, a Medicaid waiver for older Ohioans who want to stay out of nursing homes [S14]. It is not an RCF payer in the model.",
+    "demand": "**Population.** Census QuickFacts puts Ohio at 11,900,510 residents as of July 1, 2025, with about 20.2% aged 65 or older [S39]. Scripps Gerontology Center projects the high-need 65+ population at 266,226 in 2020, 283,797 in 2030 and 281,698 in 2050 [S40]. This points to a large and stable pool of older residents. The projection does not show a steep need-driven surge.\n\n**Waiver demand and its direction.** ODA data show Assisted Living Waiver ending caseload of 3,116 (June 2023), 3,489 (June 2024) and 3,966 (June 2025). The June 2025 figure is the highest point in the displayed series. The caseload fell to 3,025 in July 2026 and 2,611 in August 2026 [S17]. No official source explains the drop. Contracted AL providers in the waiver data rose to 480 in August 2026 from 443 in June 2025 [S17]. Dividing 2,611 enrollees by 480 providers gives an average of roughly 5 waiver residents per contracted provider. This is our arithmetic, and the actual distribution is unknown. The 30-bed mix (about 8 waiver residents at 88% occupancy) and the 50-bed mix (about 18) sit above that average. A secondary source puts waiver enrollment spots at roughly 6,000 and says each facility keeps its own waitlist [S43]. That is well above current enrollment, and no official waitlist counts were found.\n\n**Context from the state audit.** The Auditor of State reported about 3,065 people enrolled in Assisted Living and about 18,802 in PASSPORT. The audit estimated that the two ODA-run waivers serve 4–19% of Ohioans over 60 [S18]. PASSPORT's ending caseload fell to 13,196 in August 2026 from 19,821 in January 2026 [S17]. If those waiver residents are moving to other settings, that could raise or lower RCF demand. Nothing in the sources explains the change.\n\n**Private-pay demand.** Private-pay demand tracks local older-adult households with income to pay about $5,500 a month, plus the family's alternatives (in-home care, other communities). No official occupancy rate or average daily census for Ohio RCFs was found.\n\n**Supply.** ODH counts about 720 licensed RCFs [S1]. ODA says nearly 800 [S16]. Competitor names and market shares are not claimed.\n\n**Referral channels.** Official referral-source data were not found. Hospital and rehabilitation discharge planners, area agencies on aging, elder-law attorneys and placement agencies are the channels operators typically use. Build and test these locally before you open.",
+    "operations": "**Administrator.** Each RCF must arrange an administrator who provides at least 20 hours of service in the facility each calendar week between 8 a.m. and 6 p.m. [S7]. At hire, the administrator must be at least 21 and meet one of these: a nursing home administrator license; 3,000 hours of direct operational responsibility for a senior housing facility; 100 credit hours in gerontology or health care; a baccalaureate degree; or a licensed health professional credential [S8]. The administrator needs 9 hours of continuing education each year in listed fields [S8]. The model uses $70,000 (17 beds), $80,000 (30 beds) and $95,000 (50 beds). These are operator estimates. If the owner serves as administrator, that line is the owner's pay.\n\n**Coverage.** At least one qualified staff member must be on duty at all times. When only one staff person is on duty, the facility must designate another staff member with the same qualifications to be on call [OAC 3701-16-05(C)(1)]. Staff needed to carry out the evacuation plan must be present at all times [(C)(2)(c)]. Overnight, the person physically present may be on call only if the resident call system requirements are met [S7]. At least one personal care staff member with first-aid training must be present at all times [S7]. Ohio sets no fixed staff-to-resident ratio in the rules reviewed. A dated 2015 federal compendium also reports none [S7]. The model assumes one awake staff member overnight in the 17-bed plans and adds a paid on-call backup designee (an operator-estimated stipend). Confirm that your evacuation plan can be carried out with that overnight headcount. The 30-bed plan assumes 2 overnight. The 50-bed overnight headcount is not stated, so check it too. The 30-bed plan comes to about 72 care-staff hours per day (730 + 973.4 + 486.7 hours a month). That is an operator staffing plan, not a rule requirement. Your inspectors judge staffing against resident needs, so staff to the acuity of your residents.\n\n**Staff requirements [S8].**\n- Orientation within 3 working days. A new hire may not stay alone with residents until orientation and fire/evacuation training are done, so budget paid overlap hours.\n- First-aid training within 60 days of hire.\n- 8 hours of continuing education a year, including annual training on resident rights.\n- Dietitian training before staff provide therapeutic diets.\n- A health examination by a health professional within 30 days before starting work or on the first day.\n- No direct-care employee who fails to complete background-check forms or provide fingerprints under ORC 3721.121. The details of that statute were not read.\nThe model carries a $400/month operator-estimated allowance for orientation overlap, annual training time and a dietitian consult.\n\n**Medication.** If you choose to administer medications, an RN, an LPN with an approved medication course, or another person listed in OAC 3701-16-05(F) must be on duty to administer them, and stay on duty long enough to observe acceptance and reaction [S7]. Who else is authorized was not verified. The model prices medication-qualified leads at the national LPN median ($30.96/hr) plus a contracted RN/LPN for delegation and assessments. The 17-bed leads cover 8 hrs/day and the 30-bed leads 16 hrs/day. Evening and bedtime passes need an authorized administrator too. Either extend lead hours or have residents self-administer and the facility not administer. The contracted nurse amounts ($2,400, $3,800 and $7,000 a month by size) are operator estimates.\n\n**Systems and vendors.** Plan for an eMAR/care documentation system, a resident call system, and fire alarm and sprinkler inspection and monitoring, all priced as operator estimates. The fire marshal or an approved fire department inspects at least every 15 months [S6]. For the waiver, ODM enrollment is electronic [S23]. Sandata EVV is free [S25]. Whether EVV applies to your claims is unconfirmed (see Reimbursement).\n\n**Insurance.** No RCF liability insurance minimum was found. The $1M per occurrence / $3M aggregate requirement located is in the nursing-home rule [S41] and is not confirmed for RCFs. Expect landlords, lenders and payer contracts to require coverage. Get quotes. Ohio operates a workers' compensation state fund through the BWC. The class rate for residential care was not found.",
+    "market_conditions": "**Pricing.** The CareScout 2024 Ohio assisted living community median is $66,000 a year, about $5,500 a month [S28]. A secondary summary of the CareScout 2025 survey (released March 2026) reports about $6,102 a month [S29]. CareScout figures are survey medians, not government rates or maximums, and measure a private one-bedroom in an AL community. They may overstate what a converted building with shared rooms can charge. Price from local comparables. If the 2025 figure is correct, the model's $5,500 private fee is about $602 a month lower than the more recent median. That is a possible cushion, but it is unverified. The 2024 figure is no longer the latest benchmark.\n\n**Supply and Medicaid dynamics.** ODH reports about 720 licensed RCFs [S1]. ODA says nearly 800 [S16]. The ODA waiver data show 480 contracted AL providers in August 2026, up from 443 in June 2025 [S17]. Waiver enrollment is falling at the same time [S17], so more contracted providers are sharing a smaller caseload.\n\n**Wages.** BLS OEWS (May 2025) puts the Ohio median nursing assistant wage at $39,010 a year, with the 10th percentile at $35,060 and the 90th at $46,570 [S37]. The model's $18.75 an hour for care staff is the median ($39,010 ÷ 2,080). Medication-qualified leads are priced at $30.96 an hour, the national LPN median ($64,400 a year, BLS Occupational Outlook Handbook, May 2025). The Ohio LPN wage was not retrieved. An RN costs more (national median $46.90/hr). An earlier draft used $22.39, a nursing-assistant 90th-percentile wage that is not a nurse wage. In the Columbus metro, BLS (May 2024) reports mean hourly wages of $18.49 for healthcare support and $16.57 for food preparation and serving occupations [S38]. The $16.57 figure is used for dietary, housekeeping, activities and maintenance staff. It is a stale, broad group mean, not the wage for those occupations. BLS has published May 2025 metro releases, but the May 2025 Columbus values were not retrieved. No Ohio LPN, RN, cook, housekeeper or administrator wage was verified. The Columbus management group mean ($61.31/hr) is not administrator-specific and is not used [S38].\n\n**Minimum wage.** Ohio's non-tipped minimum wage is $11.00 from January 1, 2026. Employers with annual gross receipts of $405,000 or less fall back to the $7.25 federal rate [S36]. Every modeled wage is above $11.00. A secondary source says Ohio cities have no local minimum wages. This was not confirmed against an official municipal source, so no higher local floor is modeled.\n\n**Payroll taxes.** NFIB lists a 2026 new-employer unemployment rate of 2.85% on the first $9,000 per worker [S42]. Another guide lists different figures (2.7% and $9,500), and no official ODJFS page was found. Confirm with ODJFS.\n\n**Real estate.** No Ohio commercial rent survey for RCF buildings was found. The model uses operator estimates of $700 (17 beds), $1,000 (30 beds) and $1,100 (50 beds) per licensed bed per month. HUD FY2026 Fair Market Rent figures for the Columbus metro appeared only on a secondary site and were not used.",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident = private fee (CareScout 2024 median $5,500) or waiver revenue (the $130/day base tier × 30.42 days plus up to $944 in room and board), weighted by payer mix [S28][S30][S31]. Costs follow the Ohio rules. They include 24/7 staffing, medication-qualified leads (priced at the $30.96/hr national LPN median), an overnight on-call designee in the 17-bed plans, a contracted nurse, an administrator, the ODH fee ($320 ÷ 12, one block for all sizes [S6]), payroll burden of 8.4% payroll taxes, 3% workers' compensation and 5% benefits, a $400/month compliance allowance, and rent, utilities and fire-safety costs sized to licensed beds. Rent and base utilities are fixed, so vacant beds still cost money. Most non-wage cost lines are operator estimates. No rate was raised and no required cost was dropped to make a configuration profitable.\n\n**Results at the 88% default (operator assumption).**\n\n| Configuration | Net/month | Margin | Break-even occ. | First profit month | Model cash needed | Net at 80% occ. (approx.) |\n|---|---|---|---|---|---|---|\n| 50-bed, 60/40 waiver | $41,325 | 17.9% | 70.0% | 10 | $1,386,144 | ~$22,900 |\n| 30-bed private | $22,142 | 15.2% | 72.7% | 8 | $715,730 | ~$10,500 |\n| 30-bed, 70/30 waiver (default) | $17,379 | 12.4% | 75.6% | 9 | $729,760 | ~$6,200 |\n| 17-bed private | $10,542 | 12.8% | 75.2% | 8 | $329,969 | ~$4,000 |\n| 17-bed, 12 private / 5 waiver | $7,896 | 9.9% | 78.0% | 8 | $329,969 | ~$1,600 |\n\n**Correction note.** The table above was generated before the lead wage was raised from $22.39 to $30.96/hr, before the 17-bed on-call stipend was added, and before the $400/month compliance allowance was added. It overstates profit. Our rough arithmetic lowers monthly net by about $7,700 (50-bed), $5,300 (30-bed) and $3,700 (17-bed). At 88% that is about $33,600, $16,900, $12,100, $6,900 and $4,200 in table order. At 80% occupancy the 17-bed waiver mix likely loses money and the 30-bed default falls to roughly $900 a month. Break-even occupancy, first-profit month and cash needed also worsen. Re-run the model before relying on any figure here.\n\nThe 80% column is our approximation. It takes each model's net at 88% and subtracts the lost resident contribution (revenue per resident minus about $665 a month of per-resident costs). The generator's own occupancy sensitivity may differ slightly.\n\n**What drives results.**\n1. **Occupancy and fixed costs.** Staffing, rent and the administrator do not shrink when beds go empty. A single resident is worth about $4,600–$4,800 a month of contribution. At 17 beds, one vacancy is about 6% of capacity, so the small models swing the most. Break-even in the first run sat at 70–78% occupancy, and the corrections push it higher. The 17-bed waiver mix has little room.\n2. **Payer mix.** A waiver resident brings about $601 a month less than a private resident at the $130/day rate. The 30-bed private model out-earns the 30-bed waiver mix by $4,763 a month ($22,142 vs $17,379). That is consistent with about 8 waiver residents × $601. Dividing annual net by model cash needed gave about 38% for the 17-bed private model and 37% for the 30-bed private model in the first run. The waiver mixes at 17 and 30 beds came to about 29%. The 50-bed mix was about 36%. This is a rough comparison, not a return forecast, and it predates the corrections.\n3. **Scale.** The 50-bed model has the highest margin (17.9% in the first run) and the lowest break-even (70.0%). It also needs about $1.39 million in cash, a 40% waiver census of about 18 residents, and rent of $55,000 a month. That is a heavy bet on a waiver rate that is unverified for 2026 [S30], on a caseload that is falling [S17], and on occupancy that has no official benchmark.\n4. **Rent.** Rent is the largest fixed line: $11,900 (17 beds), $30,000 (30 beds) and $55,000 (50 beds). Each $100 per bed per month moves net by about $3,000 a month at 30 beds. These are operator estimates. Replace them with real lease or debt-service numbers.\n\n**Sensitivities.**\n- **Waiver rate.** Each $10/day is about $2,400 a month at 30 beds (8 waiver residents) and about $5,400 at 50 beds (18 residents). In the first run the default 30-bed mix broke even at roughly $58/day (our approximation, at 88% occupancy). After the corrections the break-even rate is higher. If the true current base tier were far below $130, the default would shrink sharply. The undated OHCA figures ($49.98–$69.98 per day) could not be reconciled with the 2024 announcement and are not used [S34], but they show the downside if the $130/day figure is no longer accurate. Verify Appendix A before building a waiver-heavy plan.\n- **Wages.** A 10% rise in all modeled wages adds about $7,300 a month at 30 beds (our estimate, burden included, at the corrected lead wage). That would cut the corrected default of roughly $12,100 to about $4,800 a month. Ohio wage inputs are partly proxies: nursing assistant medians for care staff, the national LPN median for leads, and a Columbus May 2024 group mean for dietary, housekeeping and activities staff [S37][S38]. No local minimum wage higher than the $11.00 state floor was verified. If you operate in a higher-wage metro, rerun at local wages.\n- **Upside not modeled.** Care-level add-ons, a memory care tier ($155/day if certified, state certification process not found), and the critical access add-on for facilities with at least half Medicaid residents [S44].\n\n**Ramp and cash.** The model admits 2 residents a month at 17 beds (start 2), 3 a month at 30 beds (start 4) and 4 a month at 50 beds (start 6). First profitable months were months 8–10 in the first run. The model's cash needed ($329,969 to $1,386,144) includes the ramp-up deficit and startup costs, and the corrections raise it. The initial application also requires a CPA-signed statement of reserves covering at least three months of operation [S5]. The startup list shows this as a separate required reserve of about $215,000–$570,000, derived from about three months of modeled expenses. How much of it may be financed was not verified.\n\n**Path to profit.** Fill beds at the private-pay median first, keep fixed costs sized to a real lease, and add waiver beds only after confirming the current rate and your ODA certification. Anything this report could not verify is listed in 'What this report does not claim' in the executive summary.",
+    "risks": "**Waiver rate risk.** The $130/day and $155/day tiers are 2024 trade-association figures [S30]. The 2026 Appendix A values were not retrieved, no 2026 increase could be confirmed, and an undated OHCA list shows much lower tier amounts [S34]. Treat the waiver revenue in the model as unverified.\n\n**Waiver demand risk.** The Assisted Living Waiver caseload dropped from 3,966 (June 2025) to 2,611 (August 2026) with no official explanation [S17]. Contracted providers rose over the same period [S17]. Waiver slots and waitlists are tracked by each facility [S43]. A 30–40% waiver census may be hard to reach and hold.\n\n**Regulatory and enrollment risk.**\n- ODM's May 14–November 14, 2026 enrollment pause names home health, hospice and related types. Whether it reaches RCFs is not confirmed [S24].\n- ODM is running a 24-month statewide revalidation cycle with at least 90 days' notice. A governor's executive order (EO 2026-01D) allows emergency rules for more frequent revalidation of higher-risk providers [S24].\n- A GPS rule for EVV is pending, and Senate Bill 315 is requiring EVV program changes [S24][S25]. Whether EVV applies to waiver claims is unconfirmed [S26].\n- Next Generation MyCare began January 1, 2026 and may change how some dual-eligible residents' services are paid [S27]. The payment path for each enrollee type was not verified.\n\n**Licensing risk.** The application requires solvency proof for three months of operation [S5]. ODH and the fire marshal must inspect before licensing [S6]. A late renewal fee of $100 per week was reported for the 2024 cycle [S35]. The skilled-nursing limits are strict. An RCF may not admit or retain a resident who requires skilled nursing, and residents whose needs grow may have to move [S4].\n\n**Operating risk.** Occupancy has no official benchmark. The 17-bed waiver mix breaks even at 78.0% occupancy and has little margin for error. Staffing is a judgment call, since Ohio sets no fixed ratio. Understaffing relative to resident need is a survey risk, and overstaffing erodes margin. The model's wage proxies and nurse costs are estimates. The liability insurance minimum is unconfirmed, and the BWC class rate is unknown.\n\n**Cost and capital risk.** Rent and building costs are operator estimates. The code-compliance range ($25,000–$400,000) is wide. Ohio Building Code standards for RCFs were not verified. The Ohio Commercial Activity Tax is not modeled. Check with your CPA, since the larger models may owe it.\n\n**Data conflicts.** The counts of licensed RCFs (about 720 vs nearly 800) and the unemployment tax figures conflict and are unresolved. Several 2026 waiver figures (SSI $994, room and board cap $944, income and asset limits) come from secondary sources and should be checked against SSA and ODM.",
+    "recommendations": "1. **Verify the waiver rate before committing to a waiver-heavy plan.** Read Appendix A to OAC 5160-1-06.5 and call ODA for the current tier amounts, the critical access add-on, memory care certification, and certification steps, fees and timelines [S11][S15]. Re-run the model at the verified rate. At roughly $58/day the default 30-bed mix breaks even, and the plan should not rest on the $130/day figure alone.\n\n2. **Lead with private pay.** Price from local comparables, using the CareScout 2024 median of about $5,500 a month as a reference and recognizing that a converted building may not support it [S28]. Build add-on pricing for care levels, which is upside the model excludes. Phase waiver beds in only after you have steady private-pay census.\n\n3. **Choose your size by capital.** Based on the model:\n- With about $330,000, the 17-bed private-pay model nets $10,542 a month at 88% occupancy, breaks even at 75.2%, and is profitable by month 8. It is thin, and about $4,000 a month at 80%.\n- The 30-bed private-pay model ($22,142 a month, 15.2% margin, 72.7% break-even, about $715,730 cash) is the best balance of margin, break-even and capital in this model.\n- The 30-bed 70/30 waiver mix (the bundle's default) nets $17,379 a month (12.4%) and needs 75.6% occupancy. Use it only if you confirm the waiver rate and slots.\n- The 50-bed model leads on net ($41,325 a month, 17.9%) and break-even (70.0%) but needs about $1.39 million and 18 waiver residents. Pursue it only with strong capital, a confirmed rate and a proven building.\n\n4. **Start the licensing clock early.** File at least 60 days before opening [S5]. Line up the CPA solvency statement, certificate of occupancy, fire inspection and heating report first. Request an expedited inspection if timing matters [S6], and call the Licensure Unit at (614) 466-7713 or liccert@odh.ohio.gov to confirm current forms and any expedite fee [S2].\n\n5. **Hire the administrator early.** Meet the qualification options and the 20-hours-a-week presence rule [S7][S8]. If you qualify, serving as administrator yourself removes a $70,000–$95,000 salary line.\n\n6. **Replace estimates with quotes.** Get quotes for rent or debt service, insurance, a BWC workers' compensation rate, a contracted RN/LPN, the resident call system, fire alarm and sprinkler monitoring, and eMAR software. Confirm UI rates with ODJFS [S42].\n\n7. **If you will bill Medicaid,** confirm whether the 2026 enrollment pause covers RCFs [S24], budget the $750 ODM application fee unless a waiver applies [S21], and ask ODA whether EVV and managed care payment affect your claims [S26][S27].\n\n8. **Fund the ramp.** Plan for the model's cash need, including the required solvency reserve, and test the plan at 80% occupancy and at a lower waiver rate before you sign a lease."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm that your concept fits Ohio's residential care facility (RCF) definition",
+      "instructions": "OAC 3701-16-01 defines an RCF as accommodations for 3 or more unrelated individuals with supervision and personal care for at least 3 of them. It has a two-prong structure: 17+ unrelated residents, or 3+ residents with skilled care for at least one. Read the rule before choosing a building or size. Free; allow about 1 hour.",
+      "cite": "OAC 3701-16-01",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Design admission criteria around the skilled-nursing prohibition",
+      "instructions": "An RCF may not admit or retain residents who require skilled nursing, beyond the limits in ORC 3721.011. Write this into your admission and discharge criteria. The ORC 3721.011 hour limits were not verified from a current primary source, so read the statute directly or ask a healthcare attorney. Free to read; legal review cost varies.",
+      "cite": "OAC 3701-16-02",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Choose a facility size and payer mix (private pay vs Assisted Living Waiver)",
+      "instructions": "The model covers 17, 30 and 50 beds. Modeled results at 88% occupancy: 50-bed (60% private/40% waiver) about $41,325/month net; 30-bed private about $22,142; 30-bed (70/30) about $17,379; 17-bed private about $10,542; 17-bed (12 private + 5 waiver) about $7,896. These depend on the unverified $130/day waiver rate. Smaller homes under 17 beds need a different licensing pathway that was not researched. Decide before leasing.",
+      "cite": "OAC 3701-16-01; model results",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form your legal entity (LLC or corporation) with the Ohio Secretary of State",
+      "instructions": "Secondary guides report a $99 filing fee for Articles of Organization and a $39 name reservation (180 days). These figures are unverified; check the Ohio Secretary of State's site. The licensee named on the ODH application must match the entity. Online filing usually takes days. Operator guidance; no official source was retrieved.",
+      "cite": "ORC Ch. 1706 (not retrieved)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Draft an operating agreement and list every owner with 5% or more interest",
+      "instructions": "The ODH application requires disclosure of owners with at least 5% interest and any management firm. Document ownership percentages now so the disclosures are consistent. Attorney drafting costs vary; allow 1–2 weeks.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN",
+      "instructions": "Apply free at irs.gov; issued the same day online. Needed for payroll, banking, Medicaid enrollment and the ODH application. Operator guidance.",
+      "cite": "IRS Form SS-4",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register for Ohio unemployment insurance (ODJFS) before your first hire",
+      "instructions": "The NFIB 2026 handbook lists a 2.85% new-employer rate (non-construction) on the first $9,000 per worker. Another guide lists 2.7% and a $9,500 wage base. No official ODJFS page was found, so confirm both figures with ODJFS. The model uses 2.85%.",
+      "cite": "ORC Ch. 4141; NFIB 2026 handbook",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain workers' compensation coverage from the Ohio BWC",
+      "instructions": "Ohio is a monopolistic state; coverage comes from the BWC state fund, not private carriers. The class-specific rate for residential care was not found. The model uses a 3% operator estimate of payroll. Request a BWC quote for your payroll. A 1% private-employer rate cut reportedly took effect 2026-07-01. Coverage must be in place before employees start.",
+      "cite": "ORC Ch. 4123",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up state and municipal income tax withholding",
+      "instructions": "Register for Ohio employer withholding and check whether your city levies an income tax on wages. Secondary sources cite Columbus at 2.50%; this is unverified. Ask your payroll provider or CPA to confirm local requirements. Allow 1–2 weeks.",
+      "cite": "ORC Ch. 5747; local ordinances",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Ask your CPA about the Ohio Commercial Activity Tax (CAT) and other entity taxes",
+      "instructions": "The 2026 CAT exclusion threshold and rate were not verified from official sources, so the model carries $0 for it. Larger configurations may owe CAT. Secondary sources report no LLC annual report or franchise tax; confirm with the Secretary of State and Department of Taxation.",
+      "cite": "ORC Ch. 5751",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain liability insurance quotes (general and professional) and ask your landlord and lender what they require",
+      "instructions": "No RCF insurance minimum was found. The $1M per occurrence / $3M aggregate requirement is in the nursing-home rule (OAC 3701-17-03) and is not confirmed for RCFs. Many landlords, lenders and the waiver contract may still require coverage. The model uses $80 per resident per month, an operator estimate. Get at least 3 quotes.",
+      "cite": "OAC 3701-17-03 (nursing homes; not confirmed for RCFs)",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Arrange the capital you must show on the financial solvency statement",
+      "instructions": "The initial application needs a CPA-signed statement showing capital or reserves for at least 3 months of operation. The model estimates about $215,000 (17 beds) to $570,000 (50 beds) of operating expense over 3 months. This is separate from the ramp-up deficit. Whether financing counts versus cash was not verified; ask ODH Licensure Unit.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Plan one license per building if you intend to operate multiple sites",
+      "instructions": "An operator with multiple buildings needs a separate license for each building, except buildings on the same lot as one facility. Account for a separate fee, inspection and application for each building.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Validate demand in your target county or metro",
+      "instructions": "Census QuickFacts puts Ohio's 65+ share at about 20.2%. Scripps projects the high-need 65+ population at 266,226 (2020), 283,797 (2030) and 281,698 (2050), so growth flattens after 2030. Use county-level data and call hospital discharge planners before committing to a site.",
+      "cite": "Census QuickFacts; Scripps Gerontology Center",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Review the long-term trend in the ODA waiver data",
+      "instructions": "ODA data show 2,611 AL waiver enrollees in Aug 2026, down from 3,025 in Jul 2026 and a 3,966 peak in Jun 2025. 480 AL providers were contracted in Aug 2026. The drop is unexplained by any official source found. Treat waiver demand as uncertain.",
+      "cite": "ODA Medicaid Waiver Program Data",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "MEDIUM",
+      "task": "Check the competitive landscape using ODH and ODA lists",
+      "instructions": "ODH says it licenses about 720 RCFs; ODA says nearly 800. The two conflict. Request the current ODH licensed-facility list and map competitors within 10–15 miles. No official occupancy data exists, so call competitors for waitlists and pricing.",
+      "cite": "ODH RCF page; ODA AL page",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Set a private-pay price from local comparables, using CareScout as a starting benchmark",
+      "instructions": "CareScout 2024 puts the Ohio AL community median at $66,000/yr (about $5,500/month). A secondary summary of CareScout 2025 shows about $6,102/month. These are medians for a private one-bedroom unit in an AL community and may overstate revenue for shared rooms in a converted building. Price from local comparables.",
+      "cite": "CareScout Cost of Care Survey 2024",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Check wage levels in your local labor market",
+      "instructions": "The Ohio state minimum wage is $11.00 from 2026-01-01 (employers with $405,000 or less in annual gross receipts use the $7.25 federal rate). The Ohio median nursing assistant wage is $39,010/yr (about $18.75/hr; BLS OEWS May 2025). Columbus healthcare support averaged $18.49/hr (May 2024). Local minimum wages were not confirmed. Re-run staffing costs at your actual local wages.",
+      "cite": "Ohio Dept. of Commerce; BLS OEWS",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "CRITICAL",
+      "task": "Research local zoning for the proposed site",
+      "instructions": "The initial application requires a statement of the facility's status under any applicable zoning ordinances or rules, or a statement that no zoning authority exists. Call the local zoning office and get written confirmation that an RCF use is permitted. Local ordinances were not researched here. Allow 2–6 weeks.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "CRITICAL",
+      "task": "Confirm the building can obtain a certificate of occupancy in use group R-4, I-1 or I-2",
+      "instructions": "The application requires a certificate of occupancy. Meet the local building department and the fire authority before signing a lease. Ohio Building Code construction standards for RCFs were not verified, so get written code guidance for your building. Budget for upgrades; the model range is $25,000–$400,000 (operator estimate).",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Negotiate lease terms that depend on licensing",
+      "instructions": "ODH and the fire marshal must inspect before a license issues, so add lease contingencies for licensure, certificate of occupancy and zoning. The model assumes $700 (17 beds), $1,000 (30 beds) and $1,100 (50 beds) per licensed bed per month. These are operator estimates; no Ohio commercial rent survey was found. Vacant beds still cost rent.",
+      "cite": "ORC 3721.02",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Prepare a floor plan showing every bed",
+      "instructions": "The application must include a floor plan of the building or area to be licensed, including beds. Have your architect or contractor draw it to scale. Bed size limits and room-size limits were not verified from current primary sources, so ask ODH before you finalize the plan.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Schedule a heating system inspection",
+      "instructions": "The application must attach a heating inspection report. Hire a qualified inspector and fix any defects before applying. Cost varies; get a quote.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Install and test a resident call system",
+      "instructions": "Overnight on-call coverage is permitted only if the resident call system requirements are met. Even with awake overnight staff, a call system supports compliance. Operator estimate: $6,000–$40,000 depending on size. Get vendor quotes and confirm the requirements in OAC 3701-16-05.",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 2 — MARKET VALIDATION, SITE SELECTION & BUILDING",
+      "priority": "HIGH",
+      "task": "Request a fire inspection from the State Fire Marshal or an approved local fire department",
+      "instructions": "The application needs an inspection report from the state fire marshal or an approved township, municipal or other fire department. Ask the local fire chief whether they are approved by the state fire marshal and how to schedule. Correct any findings before the ODH inspection.",
+      "cite": "OAC 3701-16-03; ORC 3721.02",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Download the current ODH RCF initial license application packet",
+      "instructions": "Use the packet dated 04/30/2026 from the ODH RCF Applications, Forms, and Instructions page. Questions go to the Licensure Unit at liccert@odh.ohio.gov or (614) 466-7713. The 2026 fee table was not read directly, so confirm the amount against the packet.",
+      "cite": "OAC 3701-16-03; ODH packet 04/30/2026",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Calendar the filing deadline: at least 60 days before the proposed opening",
+      "instructions": "The initial application and fee must be filed not less than 60 days before the proposed opening. Build in extra time for inspection scheduling, because ODH and the fire marshal must inspect before a license issues. Do not sign admission agreements with residents for a date before the license is certain.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Obtain the CPA-signed financial solvency statement",
+      "instructions": "Engage a CPA to certify sufficient capital or financial reserve to cover not less than three months of operation. Give the CPA your pro forma and proof of funds. CPA fee is an operator estimate of $500–$2,000. Allow 1–3 weeks.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Complete ownership and management disclosures and name a statutory agent",
+      "instructions": "Disclose owners with 5% or more interest, any management firm and the statutory agent as the packet instructs. Make names match your Secretary of State filing exactly.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Write the zoning status statement",
+      "instructions": "State the status of the proposed RCF under any applicable zoning ordinances, or state that no zoning authority exists. Attach the written confirmation from the local zoning office, if you have it.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Attach the certificate of occupancy, fire inspection report and heating inspection report",
+      "instructions": "All three are required attachments. The certificate of occupancy must be use group R-4, I-1 or I-2. Make copies and keep the originals in your licensing file.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the non-refundable license fee by check or money order",
+      "instructions": "The statutory fee is $320 per 50 beds or part thereof of licensed capacity (17–50 beds fall in a single block, so $320). Make the check or money order payable to 'treasurer, state of Ohio' and submit it with the completed application. The fee is non-refundable.",
+      "cite": "ORC 3721.02(E); OAC 3701-16-03",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Decide whether to request an expedited initial inspection",
+      "instructions": "ORC 3721.02 lets an applicant request an expedited inspection. ODH must start the inspection within 10 business days of receiving the complete request, and an extra fee may apply. No fee amount was found, so ask the Licensure Unit before requesting it.",
+      "cite": "ORC 3721.02",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Prepare for the pre-license inspection by ODH and the fire marshal",
+      "instructions": "Before a license issues, each home must be inspected by the ODH director (staff) and the state fire marshal or an approved fire department. Do a mock walk-through against OAC Chapter 3701-16 first. Have personnel files, policies and the call system ready.",
+      "cite": "ORC 3721.02",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Respond to any inspection findings and confirm the license in writing before admitting residents",
+      "instructions": "Correct each finding and document it. Admit residents only after the license is issued. The rule's exact timeline for issuance was not summarized here; read OAC 3701-16-03 for the issuance steps.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Check ODH for pending rule changes before you apply",
+      "instructions": "No 2026 pending RCF rule changes were located. OAC 3701-16-03 shows a five-year review date of 7/2/2029. Rules in Chapter 3701-16 were last effective 2024-07-12. Check ODH's rule pages and the Legislative Service Commission for updates.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — ODH LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Do not cite OAC 3701-17 for RCF rules",
+      "instructions": "Chapter 3701-17 covers nursing homes. RCF rules sit in Chapter 3701-16. Make sure your attorney, consultant and policies cite the right chapter.",
+      "cite": "OAC Chapter 3701 index",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Hire an administrator who meets OAC 3701-16-06 qualifications",
+      "instructions": "Options at hire: a nursing home administrator license; 3,000 hours of direct operational responsibility for a senior housing facility; 100 credit hours in gerontology or health care; a baccalaureate degree; or a licensed health professional credential. The administrator must be at least 21. Model salary is an operator estimate ($70,000 for 17 beds, $80,000 for 30, $95,000 for 50). If the owner serves, this line is the owner's pay.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Schedule the administrator for at least 20 hours per week on site between 8 a.m. and 6 p.m.",
+      "instructions": "The rule requires not less than twenty hours of service in the facility during each calendar week during the hours of 8 a.m. to 6 p.m. Track and document hours.",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Enroll the administrator in 9 hours of annual continuing education",
+      "instructions": "The rule requires at least 9 hours a year in gerontology, health care, business administration or RCF operation. Keep certificates in the personnel file.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Build a 24/7 staffing schedule with at least one qualified staff member on duty at all times",
+      "instructions": "Ohio sets no fixed staff-to-resident ratio (a dated 2015 federal compendium reports none); the rule sets 24-hour coverage. Overnight, the person on site may be on call only if resident call system requirements are met. The model assumes awake overnight staff as a safety choice and adds second aides on days and evenings (operator estimate; verify locally).",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Ensure a first-aid-trained personal care staff member is on site at all times",
+      "instructions": "At least one staff member capable of giving personal care who has completed the first-aid training must be present at all times. Plan scheduling so every shift has one.",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Complete first-aid training within 60 days of hire for personal care staff",
+      "instructions": "Personal care staff must have first-aid training within 60 days of hire, evidenced by one of the options in the rule. Book a certified course for the opening team.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Run orientation within three working days of hire",
+      "instructions": "Each worker needs orientation within three working days. Build a written orientation checklist covering your policies, emergency plan and resident rights.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Get a pre-employment health exam for every worker",
+      "instructions": "Each worker must be examined by a health professional within 30 days before starting work or on the first day. Budget for the exams; cost is an operator estimate.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Run background checks on direct-care applicants",
+      "instructions": "You may not employ a direct-care worker who fails to complete the required forms or provide fingerprints under ORC 3721.121(B)(2). The exact procedures and disqualifying offenses were not read here; review the statute and the BCI process. Do not let the worker provide care before the check requirement is met.",
+      "cite": "ORC 3721.121; OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Decide whether the facility will administer medications",
+      "instructions": "A facility that elects to administer medication must have an RN, an LPN with an approved medication course, a physician or another authorized person on duty. Decide this early; it drives staffing and liability. The model assumes the facility administers medication and uses a medication-qualified lead.",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Contract a nurse consultant for delegation, assessments and oversight",
+      "instructions": "The model carries $2,400/month (17 beds), $3,800 (30) and $7,000 (50), operator estimates. No Ohio RN/LPN wage was verified. Get at least 2 quotes and a written scope of work.",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Plan extra training for staff serving late-stage cognitive impairment or serious mental illness residents",
+      "instructions": "Staff serving these residents need 2 hours of initial training within 14 days of the first day of work and 4 hours of continuing education a year. Include these hours in the training budget if you accept such residents.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Schedule 8 hours of annual continuing education for staff",
+      "instructions": "Track each worker's hours and anniversary dates in your HR system or spreadsheet. Staff serving special populations have added hours.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Set wages at or above the Ohio minimum and benchmark to the local market",
+      "instructions": "The state minimum is $11.00 from 2026-01-01. The model uses $18.75/hr (Ohio median nursing assistant), $22.39/hr (90th percentile, as a proxy for medication-qualified leads) and $16.57/hr (Columbus food-service mean, as a proxy for dietary and housekeeping). Test your staffing plan at your actual local wages.",
+      "cite": "Ohio Dept. of Commerce; BLS OEWS",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Set up a payroll system and budget the employer burden",
+      "instructions": "The model uses 8.4% payroll taxes (FICA 7.65%, Ohio UI at the NFIB rate on the first $9,000 and FUTA), 3% for workers' compensation and 5% for benefits. Workers' comp and benefits are operator estimates. Use a payroll service and confirm the UI rate with ODJFS.",
+      "cite": "NFIB 2026 handbook",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 4 — STAFFING, TRAINING & PERSONNEL COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Create personnel files that prove compliance",
+      "instructions": "Each file should hold the health exam, first-aid certificate, orientation sign-off, background check result, CE records and credential proof. Surveyors will check these during unannounced surveys.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Decide whether to participate in the Assisted Living Waiver",
+      "instructions": "Waiver residents must live in an ODH-licensed RCF, and the facility also needs ODA waiver provider certification. Waiver participation adds revenue but pays only for services, not room and board. Waiver caseload is falling (2,611 in Aug 2026), so a private-pay-only model (oh30_private or oh17_private) is the lower-risk option.",
+      "cite": "OAC Ch. 5160-33; OAC 5160-1-06.5",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "CRITICAL",
+      "task": "Understand who runs the waiver",
+      "instructions": "The Ohio Department of Aging handles daily administration of the Assisted Living waiver under an interagency agreement with the Ohio Department of Medicaid. It is a 1915(c) HCBS waiver effective 07/01/2024, expiring 06/30/2029. One secondary source credits ODM instead, so rely on the rule text.",
+      "cite": "OAC 5160-1-06.5",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "CRITICAL",
+      "task": "Contact ODA about the waiver provider certification process",
+      "instructions": "Dual requirement: an ODH RCF license plus ODA certification as a waiver provider. The certification steps, fees, timelines and an ODA contact phone/email were not found. Start at the ODA Assisted Living page and ask in writing about steps, fees and timing before you budget.",
+      "cite": "OAC 5160-1-06.5; OAC Ch. 5160-33",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm the current waiver rate in Appendix A to OAC 5160-1-06.5",
+      "instructions": "Maximum rates are in Appendix A. The appendix was not retrieved, and the 2026 values are unverified. The model uses $130/day base and $155/day memory care, reported by LeadingAge Ohio as effective 2024-01-01. Undated tier figures on ohca.org ($49.98/$60.00/$69.98) conflict and were not used. Each $10/day change moves revenue about $304/month per waiver resident. Re-run your pro forma at the confirmed rate.",
+      "cite": "OAC 5160-1-06.5, Appendix A",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Learn the three-tier unit rate model",
+      "instructions": "Rules describe a unit rate based on a three-tiered model capped by the appendix amounts. ODA reports updated rates effective 2024-01-01 with an elevated tier for facilities certified for memory care. The memory care certification process and fee were not found; ask ODA.",
+      "cite": "OAC Ch. 5160-33; ODA provider rates update",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Ask ODA about the critical access rate add-on",
+      "instructions": "A critical access add-on applies to facilities where at least half of residents are Medicaid beneficiaries; trade press reported 127 of about 800 providers qualifying. No dollar amount or effective date was found, so it is not modeled. Ask ODA for the current criteria and amount.",
+      "cite": "McKnight's Senior Living report",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "CRITICAL",
+      "task": "Submit Ohio Medicaid provider enrollment electronically (waiver participants)",
+      "instructions": "Enrollment is required for payment on Medicaid claims. Ohio accepts only electronic applications. The 2026 organizational application fee is $750 per application; the fee is waived if you paid it to Medicare or another state's Medicaid program within the past two years, with proof. The fee applies to organizational providers only.",
+      "cite": "ODM Provider Revalidation FAQ 2026",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Check whether the 2026 ODM enrollment moratorium affects your application",
+      "instructions": "ODM paused new Medicaid enrollment for home health, hospice and related provider types from 2026-05-14 to 2026-11-14. The notice does not name RCFs, so confirm with ODM before filing. Also note Executive Order 2026-01D on more frequent revalidation of higher-risk providers.",
+      "cite": "ODM Strengthening Medicaid Program Integrity",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Plan for revalidation",
+      "instructions": "ODM will run a statewide revalidation cycle over 24 months, with notices sent at least 90 days before each deadline. Keep your provider contact details current in the enrollment system so you receive the notice.",
+      "cite": "ODM Strengthening Medicaid Program Integrity",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Ask ODA/ODM whether EVV applies to Assisted Living Waiver claims",
+      "instructions": "Since 2026-01-01, claims for the Ohio Home Care Waiver and PASSPORT must match EVV records. The January 2026 notice does not name the Assisted Living Waiver. The state Sandata EVV solution is available at no cost. Alternate vendor applications are paused, and a GPS rule is pending. Confirm in writing.",
+      "cite": "ODM EVV pages; January 2026 EVV newsletter",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "HIGH",
+      "task": "Verify the waiver room-and-board cap and resident eligibility rules",
+      "instructions": "Secondary sources put the 2026 room-and-board cap at $944/month (SSI $994 less $50), the income limit at $2,982/month, the asset limit at $2,000 and the age minimum at 21 (the age is in the rule). Verify the SSI rate with SSA and the other figures with ODM or ODA before using them in your admission agreement.",
+      "cite": "OAC 5160-1-06.5; OAC Ch. 5160-33",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Ask how Next Generation MyCare affects dual-eligible residents",
+      "instructions": "ODM launched Next Generation MyCare on 2026-01-01 for dual-eligible members. Whether Assisted Living Waiver services are paid fee-for-service or through managed care for each enrollee type was not verified. Ask ODA and ODM, and ask the plans about contracting.",
+      "cite": "ODM EVV Newsletter, Dec 2025",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up a waiver waitlist policy and understand slot limits",
+      "instructions": "Secondary sources say each facility keeps its own waiver waitlist and cite roughly 6,000 waiver slots against 2,611 enrolled in Aug 2026. Verify slot availability with ODA, and write a first-come waitlist policy.",
+      "cite": "MedicaidLongTermCare.org (secondary)",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Ask ODA/ODM for billing codes, unit definitions and claim procedures",
+      "instructions": "Procedure codes, billing units and unit definitions for AL waiver services were not found on an official source. Get the billing manual and test claim process before your first waiver admission. Plan for the post-eligibility patient liability effect on net payments, which was also not verified.",
+      "cite": "OAC 5160-1-06.5",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 5 — MEDICAID ASSISTED LIVING WAIVER & PAYER SETUP",
+      "priority": "MEDIUM",
+      "task": "Do not mix up PASSPORT with the Assisted Living Waiver",
+      "instructions": "PASSPORT is a separate ODA-administered waiver for home and community care (monthly cost limit $14,700); the Assisted Living Waiver is for residents of RCFs. PASSPORT 2026 rates were not retrieved and are not modeled.",
+      "cite": "OAC 5160-31-03",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Write policies, procedures and the resident admission agreement",
+      "instructions": "Include admission and discharge criteria that exclude residents needing skilled nursing, a statement of services and fees, medication policy, emergency and evacuation plans, and a grievance process. Have a healthcare attorney review. Operator estimate: $5,000–$20,000 for the manual, insurance down payments and eMAR setup combined.",
+      "cite": "OAC Ch. 3701-16",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Set your fee schedule, including care-level add-ons",
+      "instructions": "The model uses a flat $5,500 private-pay fee and does not model care-level add-ons. Decide whether your base rate includes medication administration and how you charge for higher care. Document all charges in the agreement.",
+      "cite": "CareScout Cost of Care Survey 2024",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "MEDIUM",
+      "task": "Select eMAR / care documentation software",
+      "instructions": "The model carries $250–$500/month, an operator estimate. Choose a system that supports medication records and service plans. Request demos and written pricing.",
+      "cite": "OAC 3701-16-05",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "MEDIUM",
+      "task": "Contract fire alarm monitoring, sprinkler and extinguisher service",
+      "instructions": "The fire marshal or an approved fire department inspects at least every 15 months. Monitoring and testing costs are operator estimates ($125–$250/month in the model). Get vendor quotes and keep service records on site.",
+      "cite": "ORC 3721.02",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "MEDIUM",
+      "task": "Furnish rooms and common areas, and set up food service",
+      "instructions": "The model uses about $2,000 per bed for furnishings (operator estimate) and $320 per resident per month for food. Verify with your vendors.",
+      "cite": "Model assumption (operator estimate)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Build referral relationships before opening",
+      "instructions": "Meet hospital discharge planners, area agencies on aging, physicians and local senior-service organizations. Use ODA's AL consumer page as a reference. No official referral-source data was found. Start 2–3 months before opening.",
+      "cite": "ODA Assisted Living page",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "HIGH",
+      "task": "Fund the ramp-up deficit and plan admissions pace",
+      "instructions": "The model assumes starting census of 2 (17 beds), 4 (30), 6 (50), with 2, 3 and 4 admissions per month. First profit months: 17-bed month 8; 30-bed private month 8; 30-bed mixed month 9; 50-bed month 10. Modeled cash needed: about $330,000 (17-bed), $716,000–$730,000 (30-bed) and $1.39 million (50-bed). These come from your pro forma and are not sourced figures.",
+      "cite": "Model results",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — PRE-OPENING OPERATIONS & ADMISSIONS",
+      "priority": "MEDIUM",
+      "task": "Budget pre-opening payroll during the licensing wait",
+      "instructions": "Application is filed at least 60 days before opening, and inspection precedes the license. Hire your administrator and leads in time for training and inspection. The model uses $12,000–$30,000, an operator estimate.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Renew the ODH license every year",
+      "instructions": "Renewal needs a completed renewal application and the same non-refundable fee ($320 per 50 beds or part thereof). A late fee of $100 per week or part thereof was reported for the 2024 cycle by LeadingAge Ohio summarizing an ODH notice; confirm the current cycle's deadline with ODH. Put the renewal date on your calendar months ahead.",
+      "cite": "OAC 3701-16-03; ORC 3721.02",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Be survey-ready at all times",
+      "instructions": "Each RCF gets at least one unannounced ODH survey within a 9-to-15-month cycle. ORC 3721.02 also lets ODH inspect at least every 30 months at its discretion if the facility meets listed clean-record conditions. Run quarterly internal audits against OAC 3701-16.",
+      "cite": "ORC 3721.02",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Schedule the fire inspection at least every 15 months",
+      "instructions": "ORC 3721.02 requires inspection by the state fire marshal or an approved local fire department at least once every fifteen months. Keep each report for your licensing file.",
+      "cite": "ORC 3721.02",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Track staff and administrator continuing education and first-aid currency",
+      "instructions": "Administrator: 9 hours a year. Staff: 8 hours a year, plus 4 hours for special-population staff. Review monthly and correct gaps before survey.",
+      "cite": "OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Maintain 24/7 coverage, medication staffing and background checks as staff turn over",
+      "instructions": "Every new hire needs the health exam, background check, orientation within 3 working days and first-aid training within 60 days. Turnover raises the training budget ($200/month in the model, an operator estimate).",
+      "cite": "OAC 3701-16-05; OAC 3701-16-06",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "HIGH",
+      "task": "File a change-of-operator application at least 60 days before any sale or transfer",
+      "instructions": "A change of operator requires an application at least sixty days before the proposed assignment or transfer of the license, with a non-refundable fee. Plan any sale or ownership restructuring around this timeline.",
+      "cite": "OAC 3701-16-03",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Respond to Medicaid revalidation notices",
+      "instructions": "ODM sends notices at least 90 days before the deadline in the 24-month statewide cycle. Missing a deadline can interrupt waiver payment.",
+      "cite": "ODM Strengthening Medicaid Program Integrity",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Monitor waiver rate and policy changes",
+      "instructions": "Review the ODA provider rates update page and Appendix A each budget cycle. A LeadingAge notice said ODM intended to raise AL rates, but the outcome and levels were not verified. Re-run your pro forma when a new rate is published.",
+      "cite": "ODA provider rates update",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Watch EVV and waiver program developments",
+      "instructions": "A GPS rule and Senate Bill 315 program changes are pending; alternate EVV vendor applications are paused. Check the ODM EVV page monthly and ask ODA whether AL waiver claims become subject to EVV matching.",
+      "cite": "ODM EVV pages",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Review financial performance monthly against break-even",
+      "instructions": "Modeled break-even occupancy: 50-bed mixed 70%; 30-bed private 72.7%; 17-bed private 75.2%; 30-bed mixed 75.6%; 17-bed mixed 78%. These depend on unverified assumptions (waiver rate, rent, wages), so update the model with actuals every month and watch census closely.",
+      "cite": "Model results",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — ONGOING COMPLIANCE & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Keep the licensing contacts handy",
+      "instructions": "ODH Licensure Unit: liccert@odh.ohio.gov, (614) 466-7713. ODH reports about 720 RCFs and ODA reports nearly 800. Keep your license, inspection reports and renewal confirmations in one place.",
+      "cite": "ODH RCF Applications, Forms, and Instructions",
+      "source_id": "S2"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Lead medication-qualified wage ($22.39) was a nursing-assistant 90th-percentile figure, not a nurse wage",
+      "change": "Set wage_hourly to $30.96 (national LPN median, BLS OOH May 2025) in all five configurations, cleared the mismatched S37 source id, and rewrote the notes. Ohio OEWS LPN wage logged in not_claimed as unverified. Net, margin and cash figures in the text now carry a correction note with rough updated arithmetic, and a full model re-run is still needed."
+    },
+    {
+      "issue": "Medication coverage only 8 or 16 hrs/day while OAC 3701-16-05(F) requires an authorized administrator at every pass",
+      "change": "Added coverage-gap language to the staffing notes and the operations text (extend hours or residents self-administer). Left hours unchanged because that is an operator choice. (F)(3)-(5) is unverified and logged in not_claimed."
+    },
+    {
+      "issue": "Single overnight staff in 17-bed plans with no designated on-call backup (OAC 3701-16-05(C)(1)); evacuation staffing",
+      "change": "Added an on-call backup stipend staffing line ($3/hr × 243.4 hrs, operator estimate) to both 17-bed configurations, updated the coverage notes and key_numbers, and logged the evacuation-plan and 30/50-bed overnight headcount as unverified in not_claimed."
+    },
+    {
+      "issue": "Cook/housekeeping/activities wage is a stale May 2024 Columbus food-service group mean",
+      "change": "May 2025 values were not retrievable, so wage inputs are unchanged. The market_conditions text and not_claimed now say the figure is stale and not occupation-specific. The checklist fee/timeline item 17 was not provided and was not edited."
+    },
+    {
+      "issue": "Inspection cycle '9–15 months' not supported by ORC 3721.02",
+      "change": "Rewrote key_numbers[6] and licensing Step 5 to say at least every 15 months, extendable to 30 months for clean-record RCFs, with fire marshal at least every 15 months."
+    },
+    {
+      "issue": "RCF definition key number said 3+ residents, contradicting the two-prong definition",
+      "change": "Rewrote key_numbers[1] to the 17+ prong and the 3+ with skilled-care prong, noted the separate 3–16 adult track, and logged the unread full OAC text in not_claimed."
+    },
+    {
+      "issue": "Waiver rate $130/$155 unverifiable for 2026",
+      "change": "No numeric change. The report already flags the rate as 2024 and unverified, and not_claimed retains the entry."
+    },
+    {
+      "issue": "2024 CareScout figure called the primary-source benchmark although a 2025 survey exists",
+      "change": "Rewrote rates[1].notes, key_numbers[9] and the executive_summary/market_conditions text to say a newer 2025 survey exists (secondary, unverified). Kept $5,500 as the conservative model input."
+    },
+    {
+      "issue": "No allowance for orientation overlap, annual rights training, fire/evacuation training or dietitian consult",
+      "change": "Appended a $400/month fixed compliance-allowance opex line (operator estimate) and described the requirements in the operations text. On-call backup is handled in the staffing lines."
+    }
+  ]
+}

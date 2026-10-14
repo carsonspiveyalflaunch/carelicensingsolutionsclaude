@@ -1,0 +1,2717 @@
+{
+  "bundle_slug": "virginia-assisted-living-facilities-complete-bundle",
+  "state": "Virginia",
+  "state_code": "VA",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Assisted Living Facility (ALF) — residential living care and assisted living care levels; licensed by the VDSS Division of Licensing Programs under 22VAC40-73 and Va. Code Title 63.2; public help via the Auxiliary Grant program",
+  "as_of": "2026-10",
+  "report_title": "Virginia Assisted Living Facility (ALF) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Assisted Living Facilities (ALF) — VDSS licensing page",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/licensed-care/assisted-living-facilities-alf/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "Standards for Licensed Assisted Living Facilities (22VAC40-73), revised eff. 9/23/2026",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Register Vol. 43 Iss. 1 (Final) 22VAC40-73, eff. 9/23/2026",
+      "publisher": "Virginia Register of Regulations",
+      "url": "https://register.dls.virginia.gov/details.aspx?id=12390",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "Contact the Division of Licensing Programs (DOLP)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/licensed-care/contact-the-division-of-licensing-programs-dolp/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Va. Code § 63.2-1803 Staffing of assisted living facilities",
+      "publisher": "Virginia General Assembly (LIS)",
+      "url": "https://law.lis.virginia.gov/vacode/title63.2/chapter18/section63.2-1803/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Apply for Licensure (VELA portal)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/licensed-care/apply-for-licensure/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "ALF Initial Application (032-08-0100-03-eng, 07/26)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/forms-and-documents/Initial-Application.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "Revisions to Initial and Renewal Applications (DOLP memo, 8/27/2026)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/memos/2026-alf/Revisions-to-Initial-and-Renewal-Applications-Memo.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Commonwealth Coordinated Care Plus (CCC Plus)",
+      "publisher": "Virginia DMAS",
+      "url": "https://dmas.virginia.gov/for-providers/cardinal-care-providers/cccplus-and-medallion-4-reference-information/commonwealth-coordinated-care-plus-ccc-plus/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Auxiliary Grants (AG)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/text/family/as/auxgrant.cgi",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "VDSS Auxiliary Grant rate letter, 2026 (Nov 10, 2025)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/ARC2026_ag_rate_letter.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Code of Virginia Title 51.5, Ch. 14, Art. 9 — Auxiliary Grants",
+      "publisher": "Virginia General Assembly (LIS)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title51.5/chapter14/article9/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "2026 COLA Fact Sheet (SSI $994)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/news/en/cola/factsheets/2026.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "HB30 Item 332 #1h — raise AG personal needs allowance (member request)",
+      "publisher": "Virginia General Assembly Budget Information System",
+      "url": "https://budget.lis.virginia.gov/amendment/2026/1/HB30/Introduced/MR/332/1h/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "HB30 Item 332 #3h — raise AG rate to $2,500 (member request)",
+      "publisher": "Virginia General Assembly Budget Information System",
+      "url": "https://budget.lis.virginia.gov/amendment/2026/1/HB30/Introduced/MR/332/3h/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Personal Care Rate Updates Effective July 1, 2025 (DMAS bulletin)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/vamed/download-pdf-bulletin/21841",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "HB30 Item 291 #17h — 20%/5% personal care, respite, companion rate increase (member request)",
+      "publisher": "Virginia General Assembly Budget Information System",
+      "url": "https://budget.lis.virginia.gov/amendment/2026/1/HB30/Introduced/MR/291/17h/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "12VAC30-60-65 Electronic visit verification",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency30/chapter60/section65/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "EVV — Live-In Requirement Effective 10/1/2026 (DMAS bulletin)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/electronic-visit-verification-live-requirement-effective-1012026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "MCO Provider Network Resources (PRSS enrollment)",
+      "publisher": "Virginia DMAS (MES Portal)",
+      "url": "https://vamedicaid.dmas.virginia.gov/provider/mco",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Register Vol. 43 Iss. 4 (Final) 22VAC40-73, eff. 11/4/2026",
+      "publisher": "Virginia Register of Regulations",
+      "url": "https://register.dls.virginia.gov/details.aspx?id=12493",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "Register Vol. 42 Iss. 9 (Proposed) 22VAC40-73, liability insurance & economic analysis",
+      "publisher": "Virginia Register of Regulations",
+      "url": "https://register.dls.virginia.gov/details.aspx?id=12071",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Cost of Care Survey 2024 — Ranked State Data Tables",
+      "publisher": "Genworth / CareScout",
+      "url": "https://assets.carescout.com/a41bb6478c/298701.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Cost of Care Survey 2024 Methodology",
+      "publisher": "Genworth / CareScout",
+      "url": "https://assets.carescout.com/cd5022ca64/131168.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "DOLP Assisted Living Facilities overview flyer",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/adult-day-centers/additional-resources/DOLP-Overview-Flyer.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Virginia minimum wage rate increasing effective January 1, 2026",
+      "publisher": "Virginia Department of Labor and Industry",
+      "url": "https://doli.virginia.gov/2025/07/29/virginia-minimum-wage-rate-increasing-effective-january-1-2026/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "2026 Virginia Minimum Wage Poster",
+      "publisher": "Virginia Department of Labor and Industry",
+      "url": "https://doli.virginia.gov/wp-content/uploads/2025/12/2026-Virginia-Minimum-Wage-Poster.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Auxiliary Grant (DARS)",
+      "publisher": "Virginia Department for Aging and Rehabilitative Services",
+      "url": "https://dars.virginia.gov/benefits/auxiliary-grant/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "22VAC40-73-20 Requirements of law and applicability",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter73/section20/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "22VAC40-73-40 Licensee",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter73/section40/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "VDSS memo to ALFs: 2026 Legislative Information (4/21/2026)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/memos/2026-alf/20260421-2026-Legislative-Implementation.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "New Virginia Population Projections for 2030-2050",
+      "publisher": "Weldon Cooper Center, University of Virginia",
+      "url": "https://www.coopercenter.org/research/new-virginia-population-projections-2030-2050",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Genworth and CareScout Cost of Care Survey Tool (2025 national table)",
+      "publisher": "Virginia Navigator",
+      "url": "https://virginianavigator.org/article/97426/genworth-and-carescout-cost-care-survey-tool",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Occupational Employment and Wages in Richmond — May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/mid-atlantic/news-release/2026/occupationalemploymentandwages_richmond_20260710.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "How are tax rates assigned? (unemployment insurance)",
+      "publisher": "Virginia Employment Commission",
+      "url": "https://www.vec.virginia.gov/FAQs/employers/how-are-tax-rates-assigned",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Employer FAQs (workers' compensation)",
+      "publisher": "Virginia Workers' Compensation Commission",
+      "url": "https://workcomp.virginia.gov/employer-faqs",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Affordability of ALFs — Policy Options and Public Comments",
+      "publisher": "Virginia Joint Commission on Health Care",
+      "url": "https://jchc.virginia.gov/5.%20[UPDATED]%20ALF%20Study%20Policy%20Options%20and%20Public%20Comments.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Public Comment Notice: Periodic Review of Fee Requirements (22VAC40-160)",
+      "publisher": "Virginia Department of Social Services",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/memos/2026-lcpa/03092026-Public-Comment-Notice-Periodic-Review-Fee-Requirements-Memo.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Periodic Review of 22VAC40-73 (Review 2667)",
+      "publisher": "Virginia Regulatory Town Hall",
+      "url": "https://townhall.virginia.gov/L/ViewPReview.cfm?PRid=2667",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "Provider Enrollment User Guide, MES Portal (May 2026)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2026-05/Provider_Enrollment_User_Guide_R30.21_May26.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "For Providers (Provider Enrollment Helpdesk)",
+      "publisher": "Virginia DMAS",
+      "url": "https://www.dmas.virginia.gov/for-providers/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Virginia Medicaid & Senior Care Help (2026)",
+      "publisher": "FindSeniorLivingNow",
+      "url": "https://www.findseniorlivingnow.com/family-resources/states/virginia",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Licensing for Assisted Living and Adult Day Services",
+      "publisher": "Virginia DSS (My Life My Community portal)",
+      "url": "https://mylifemycommunityvirginia.org/program/14148/licensing-assisted-living-and-adult-day-services",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "Virginia Minimum Wage 2026: $12.77 Now, $13.75 in 2027, $15.00 in 2028",
+      "publisher": "HiveDesk",
+      "url": "https://www.hivedesk.com/compliance/united-states/minimum-wage-virginia",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Virginia LLC Cost: $100 Articles + $50 Annual Fee (2026)",
+      "publisher": "StartBusinessByState",
+      "url": "https://startbusinessbystate.com/virginia/llc/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Commonwealth Coordinated Care Plus — Medicaid waivers page",
+      "publisher": "Virginia DMAS",
+      "url": "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "ALF definition (who must be licensed)",
+      "value": "Congregate residential setting caring for 4 or more adults; two levels of care: residential living care (minimal ADL help) and assisted living care (at least moderate ADL help)",
+      "source_id": "S1",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Initial application fee (by licensed capacity)",
+      "value": "1–12 beds $14; 13–25 $35; 26–50 $70; 51–75 $105; 76–200 $140; 200+ $200. Check or money order to Treasurer of Virginia, submitted with the application; nonrefundable",
+      "source_id": "S7",
+      "as_of": "Form rev. 07/2026"
+    },
+    {
+      "metric": "Application lead time",
+      "value": "Submit at least 60 days before the planned opening date; DSS gives written notice of an incomplete application within 15 days; you have 30 days to cure",
+      "source_id": "S7",
+      "as_of": "Form rev. 07/2026"
+    },
+    {
+      "metric": "Minimum liability insurance (by tier, per occurrence)",
+      "value": "Effective 9/23/2026: Tier I $250,000 (25 residents or fewer); Tier II $400,000 (26–75); Tier III $500,000 (76–150); Tier IV $1,000,000 (151 or more). A 40-bed building is Tier II. The DSS statewide average annual cost of $18,180 was not broken out by tier and is used only as a placeholder",
+      "source_id": "S2",
+      "as_of": "22VAC40-73-45 A, eff. 2026-09-23"
+    },
+    {
+      "metric": "Awake overnight staffing minimum",
+      "value": "At least 1 direct care staff awake and on duty in each building when a resident is present; at least 2 for mixed populations that include serious cognitive impairment, except ALFs licensed for 10 or fewer residents with no more than 3 residents with serious cognitive impairment (1 awake). Safe-secure memory care units have separate night ratios (2 staff for 22 or fewer residents, 3 for 23–32, 4 for 33–40)",
+      "source_id": "S2",
+      "as_of": "22VAC40-73-280 D and -1020 A, eff. 2026-09-23"
+    },
+    {
+      "metric": "Auxiliary Grant maximum monthly rate",
+      "value": "$2,130 statewide (up from $2,103); $2,450 in Planning District 8 (Northern Virginia)",
+      "source_id": "S11",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "AG personal needs allowance",
+      "value": "$87 per month for 2026",
+      "source_id": "S11",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "SSI federal benefit rate (individual)",
+      "value": "$994 per month",
+      "source_id": "S13",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Private-pay benchmark",
+      "value": "CareScout 2024 Virginia assisted living median $6,512/month ($78,150/yr; $214/day) for a private, one-bedroom unit in an assisted living community; VDSS cites a $6,000 monthly median (flyer circa 2024)",
+      "source_id": "S23",
+      "as_of": "2024 survey"
+    },
+    {
+      "metric": "Licensed ALFs in Virginia",
+      "value": "569 (Tier I 167; Tier II 169; Tier III 195; Tier IV 38); DOLP flyer says about 570. About 210 providers accept the Auxiliary Grant",
+      "source_id": "S22",
+      "as_of": "2025-12-15"
+    },
+    {
+      "metric": "State minimum wage",
+      "value": "$12.77 per hour; no size-based exemption. HB1/SB1, signed April 9, 2026, raise it to $13.75 on 1/1/2027 and $15.00 on 1/1/2028",
+      "source_id": "S27",
+      "as_of": "2026-01-01 to 2027-01-01"
+    },
+    {
+      "metric": "New AED requirement",
+      "value": "ALFs must keep an automated external defibrillator and trained staff before a license is issued or renewed (HB 1522)",
+      "source_id": "S31",
+      "as_of": "Effective 2026-07-01"
+    }
+  ],
+  "not_claimed": [
+    "Virginia Medicaid (CCC Plus / Cardinal Care) payment rate for ALF residents. DMAS publishes no ALF rate schedule. A secondary guide says the Medicaid manual does not treat ALFs as Medicaid long-term care facilities and that the CCC Plus waiver is not for assisted living [S42]. The Auxiliary Grant is the main public payer. The primary Medicaid manual text was not verified.",
+    "Enactment of the HB30 proposals to raise the Auxiliary Grant rate to $2,500 and the personal needs allowance to $115, or of the 85%-occupancy rate-basis language. Only introduced or member-request text was found [S14][S15]. The 2026 Appropriation Act (Item 332) outcome and any DARS rate letter effective 7/1/2026 or later were not checked. The rates in this report are the $2,130 / $87 from the 1/1/2026 rate letter dated Nov 10, 2025 [S11].",
+    "Liability premiums by tier. The Tier I–IV per-occurrence minimums ($250,000; $400,000; $500,000; $1,000,000) are verified in 22VAC40-73-45 effective 9/23/2026 [S2]. The DSS $18,180 average annual cost is statewide and was not broken out by tier [S22], and its respondent count was not verified. The modeled $1,515 and $2,500 monthly premiums are placeholders pending broker quotes.",
+    "ALF license renewal fees and any DSS fee beyond the initial application fee. The fee regulation (22VAC40-160) was under periodic review in 2026 and the outcome was not reviewed [S38].",
+    "Fees, phone and email for the Virginia Board of Long-Term Care Administrators, and the administrator-in-training hour requirements. The Board's rule text (18VAC95-30) was not fetched.",
+    "Full text of the background check regulation 22VAC40-90 (fingerprint type, fees, review timelines). Only its citation was confirmed.",
+    "Days to a licensing decision after a complete application, and the statutory inspection frequency. Neither was found in the rule or form reviewed.",
+    "Resident-to-staff ratios beyond the awake-staff minimums. No numeric ratio was retrieved from the Administrative Code text.",
+    "BLS OEWS May 2025 Virginia statewide wages for aides/CNAs, LPNs, RNs, cooks and administrators. The BLS Virginia state page was not fetched. Secondary CNA figures conflict ($20.27 vs $20.77 per hour). Only the Richmond metro group means for personal care and service ($18.47) and food preparation ($18.03) are official [S34].",
+    "Official VEC confirmation of the 2026 UI wage base ($8,000) and new-employer add-on charges. Only the 2.5% base rate and the 0.1%–6.2% range are official [S35]; the add-ons and wage base come from conflicting secondary sources.",
+    "Workers' compensation premium rates for ALF class codes. The Commission confirms only that coverage is required for employers with more than two employees [S36].",
+    "SCC LLC filing fees ($100 articles; $50 annual registration) were confirmed from secondary sources only [S45]. Corporate franchise tax and local BPOL/business license taxes were not researched.",
+    "Enacted SFY2027 rate tables for the proposed 20% personal care/respite/companion increase effective 7/1/2026 [S17]. Those rates are home-based services and are not ALF rates.",
+    "Minimum-wage indexing after 1/1/2028, if any. A secondary source says localities cannot set their own minimums [S44]. The $13.75 (1/1/2027) and $15.00 (1/1/2028) steps are enacted under HB1/SB1, signed April 9, 2026.",
+    "Statewide ALF occupancy, competitor names, market shares, referral-source data, AG caseload, AG waiting list counts and current AG-accepting facility count (the ~210 figure is from an undated 2024-era flyer [S25]).",
+    "A Virginia-specific 2025 CareScout assisted living median. Only the 2024 state figure [S23] and the 2025 national figure [S33] were verified.",
+    "Small-home (4–12 bed) or shared-room private-pay rates. The CareScout and VDSS medians are not specific to small residential homes.",
+    "Local zoning and siting rules, commercial rent benchmarks and HUD Fair Market Rents by metro. Rent and similar building costs must be marked 'operator estimate — verify locally'.",
+    "Whether the $750 CY2026 federal provider enrollment application fee applies to ALF provider types. Whether EVV applies to any ALF service is also unconfirmed; the EVV rule covers personal care, respite and companion services [S18].",
+    "Contents of the 2026 ALF exempt action (legislative changes), the outcome of the 22VAC40-73 periodic review, and the effective date of SB 409 (electronic monitoring; the memo wording is ambiguous).",
+    "BLS OEWS May 2025 wages by occupation (SOC 31-1131, 31-1122, 35-2012/35-2014, 37-2012, 29-1141, 29-2061, 11-9111 and an office-clerk code) for Richmond and Northern Virginia. The Richmond group means used for aides and cooks are broad, aide pay in ALFs is often higher, and the RN/LPN, administrator and office wages have no source. Margins, especially the 12-bed result and the 6-bed loss, should be re-tested with sourced wages.",
+    "Costs of medication-aide registration and the 68-hour Board of Nursing-approved administrator training, the resident call system, emergency-power vendor agreements and connection testing, the 96-hour emergency food and water supply, emergency lighting, direct care entry training, UAI/ISP training, and dietitian oversight of special diets. They are carried as $0 placeholders in the startup costs; obtain quotes.",
+    "Virginia Paid Family and Medical Leave (SB2/HB1207, 2026): enactment status, employer contribution rate and start date were not verified, and no cost is modeled.",
+    "Whether a 6- or 12-bed home qualifies for the SB 677 exemption from restaurant regulatory requirements (effective 7/1/2026) and so avoids the VDH food inspection cost. Confirm with the local health department."
+  ],
+  "regulators": [
+    {
+      "name": "Virginia Department of Social Services — Division of Licensing Programs (DOLP)",
+      "role": "Licenses and inspects assisted living facilities; makes announced and unannounced visits; plan review for construction and remodeling; receives incident reports within 24 hours",
+      "url": "https://www.dss.virginia.gov/licensed-care/assisted-living-facilities-alf/",
+      "phone": "276-206-0492 or 804-389-1951; DOLP hotline 1-800-543-7545; fax 804-726-7132",
+      "email": "dss.dolp@dss.virginia.gov",
+      "source_id": "S4"
+    },
+    {
+      "name": "State Board of Social Services",
+      "role": "Promulgates the ALF licensing regulations (22VAC40-73)",
+      "url": "https://mylifemycommunityvirginia.org/program/14148/licensing-assisted-living-and-adult-day-services",
+      "phone": "",
+      "email": "",
+      "source_id": "S43"
+    },
+    {
+      "name": "Virginia Board of Long-Term Care Administrators",
+      "role": "Licenses ALF administrators (separate from DSS); contact details and fees not verified",
+      "url": "https://law.lis.virginia.gov/vacode/title63.2/chapter18/section63.2-1803/",
+      "phone": "",
+      "email": "",
+      "source_id": "S5"
+    },
+    {
+      "name": "Department for Aging and Rehabilitative Services (DARS) and local departments of social services",
+      "role": "DARS administers the Auxiliary Grant; local DSS offices process AG applications (45 days)",
+      "url": "https://dars.virginia.gov/benefits/auxiliary-grant/",
+      "phone": "",
+      "email": "",
+      "source_id": "S28"
+    },
+    {
+      "name": "Virginia DMAS — Provider Enrollment (PRSS)",
+      "role": "Medicaid provider enrollment and revalidation; MCOs may not contract with providers not enrolled in PRSS",
+      "url": "https://vamedicaid.dmas.virginia.gov/provider/mco",
+      "phone": "804-270-5105 or 888-829-5373",
+      "email": "",
+      "source_id": "S20"
+    },
+    {
+      "name": "Local building official, fire official and Virginia Department of Health",
+      "role": "Building evaluation form, fire inspection and environmental sanitation inspection required with the initial application; annual fire official inspection",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/forms-and-documents/Initial-Application.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S7"
+    },
+    {
+      "name": "Virginia Department of Labor and Industry",
+      "role": "State minimum wage enforcement",
+      "url": "https://doli.virginia.gov/2025/07/29/virginia-minimum-wage-rate-increasing-effective-january-1-2026/",
+      "phone": "",
+      "email": "",
+      "source_id": "S26"
+    },
+    {
+      "name": "Virginia Employment Commission",
+      "role": "Unemployment insurance tax rates for new employers",
+      "url": "https://www.vec.virginia.gov/FAQs/employers/how-are-tax-rates-assigned",
+      "phone": "",
+      "email": "",
+      "source_id": "S35"
+    },
+    {
+      "name": "Virginia Workers' Compensation Commission",
+      "role": "Workers' compensation coverage requirement",
+      "url": "https://workcomp.virginia.gov/employer-faqs",
+      "phone": "",
+      "email": "",
+      "source_id": "S36"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "22VAC40-73",
+      "title": "Standards for Licensed Assisted Living Facilities (current text eff. 9/23/2026; further amendments eff. 11/4/2026)",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-73-20",
+      "title": "Requirements of law and applicability (applies to ALFs as defined in Va. Code § 63.2-100)",
+      "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter73/section20/",
+      "source_id": "S29"
+    },
+    {
+      "cite": "22VAC40-73-40",
+      "title": "Licensee (financial responsibility and solvency, owner/administrator training before initial license, 60-day sale/closure notice)",
+      "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter73/section40/",
+      "source_id": "S30"
+    },
+    {
+      "cite": "22VAC40-73-45",
+      "title": "Liability insurance minimums, Tiers I–IV",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-73-140 to -150",
+      "title": "Administrator qualifications (age 21; Board license or temporary practice for combined facilities), change notice within 14 days, acting administrator up to 150 days, full-time on site",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-73-200, -210, -280",
+      "title": "Direct care staff qualifications, training (18 hours/year in combined facilities) and awake-staff coverage",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-73-860, -900, -940, -980",
+      "title": "Physical plant: USBC classification, DSS plan review, 450 cu ft air space per resident, max 2 residents per bedroom for new licensees, annual fire inspection, emergency power connection at 6+ residents",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-73-490, -690",
+      "title": "Health care oversight (every 3 months) and medication review (every 6 months) for assisted living care residents",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-73-70",
+      "title": "Incident reporting to the regional licensing office within 24 hours",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "Va. Code § 63.2-1803",
+      "title": "Staffing of assisted living facilities (administrator must be licensed by the Board of Long-Term Care Administrators)",
+      "url": "https://law.lis.virginia.gov/vacode/title63.2/chapter18/section63.2-1803/",
+      "source_id": "S5"
+    },
+    {
+      "cite": "Va. Code Title 63.2, Chapters 17 and 18",
+      "title": "Licensure requirements implemented by the ALF standards",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-90",
+      "title": "Regulation for Background Checks for Assisted Living Facilities and Adult Day Centers",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "22VAC40-160",
+      "title": "Fee requirements for processing applications (periodic review opened March 2026; outcome not reviewed)",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/memos/2026-lcpa/03092026-Public-Comment-Notice-Periodic-Review-Fee-Requirements-Memo.pdf",
+      "source_id": "S38"
+    },
+    {
+      "cite": "13VAC5-63 and 13VAC5-51",
+      "title": "Virginia Uniform Statewide Building Code (use and occupancy classification) and Statewide Fire Prevention Code",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/assisted-living-facilities/additional-resources/Standards-for-Licensed-Assisted-Living-Facilities.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "Va. Code Title 51.5, Ch. 14, Art. 9",
+      "title": "Auxiliary Grants (personal needs allowance set in the appropriation act)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title51.5/chapter14/article9/",
+      "source_id": "S12"
+    },
+    {
+      "cite": "2026 Acts — HB 1522; SB 409",
+      "title": "AED requirement (eff. 7/1/2026) and resident electronic monitoring",
+      "url": "https://www.dss.virginia.gov/media/vdss/licensing/documents/memos/2026-alf/20260421-2026-Legislative-Implementation.pdf",
+      "source_id": "S31"
+    },
+    {
+      "cite": "12VAC30-60-65",
+      "title": "Electronic visit verification (personal care, respite, companion services only)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency30/chapter60/section65/",
+      "source_id": "S18"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Auxiliary Grant (state 80% / local 20%)",
+      "code": "",
+      "service": "Auxiliary Grant maximum monthly facility rate, statewide (licensed ALF)",
+      "rate": 2130,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Up from $2,103. The grant is paid to the individual monthly and combined with a designated portion of the resident's income to pay the ALF. It applies only to VDSS-licensed ALFs, and facilities choose whether to accept it. About 210 providers accept it and AG beds are limited [S25]. The Joint Commission on Health Care found the rate insufficient to cover the cost of care [S37]. This rate is from the 1/1/2026 rate letter dated Nov 10, 2025. The 2026 Appropriation Act (Item 332) outcome and any rate letter effective 7/1/2026 or later were not checked.",
+      "source_id": "S11"
+    },
+    {
+      "payer": "Auxiliary Grant (state 80% / local 20%)",
+      "code": "",
+      "service": "Auxiliary Grant maximum monthly facility rate, Planning District 8 (Northern Virginia)",
+      "rate": 2450,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Up from $2,418; includes the 15 percent Northern Virginia differential.",
+      "source_id": "S11"
+    },
+    {
+      "payer": "Auxiliary Grant resident",
+      "code": "",
+      "service": "Personal needs allowance retained by AG recipient",
+      "rate": 87,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Remains $87 for 2026 per the Nov 10, 2025 rate letter. Amount is set in the appropriation act [S12]. The 2026 Appropriation Act outcome and any change effective 7/1/2026 or later were not checked.",
+      "source_id": "S11"
+    },
+    {
+      "payer": "Resident (SSI)",
+      "code": "",
+      "service": "SSI federal benefit rate, individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Up from $967 after a 2.8% COLA. Context for the income of low-income residents; not paid to the facility.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, Virginia statewide median, CareScout 2024 survey",
+      "rate": 6512,
+      "unit": "per month",
+      "effective": "2024 survey (July–Dec 2024)",
+      "notes": "$78,150/yr; $214/day; national rank 16. Median monthly rate for a private, one-bedroom unit in an assisted living community, based on 12 months of care (July–Dec 2024 survey). It is a median of provider rates, not a government rate and not specific to small residential or shared-room homes. A 2025 Virginia CareScout figure may exist but was not retrieved. Memory care adds more than $1,000 per month per VDSS [S25].",
+      "source_id": "S23"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, monthly median cited by VDSS",
+      "rate": 6000,
+      "unit": "per month",
+      "effective": "Circa 2024 (VDSS flyer cites AG rates 'As of January 2024')",
+      "notes": "VDSS states ALF services are mostly private pay. The flyer is 2024-vintage: it cites AG rates as of January 2024 and an $82 personal needs allowance. Methodology for the $6,000 figure is not stated.",
+      "source_id": "S25"
+    },
+    {
+      "payer": "Private pay (national benchmark)",
+      "code": "",
+      "service": "Assisted living community, U.S. median, Genworth/CareScout 2025",
+      "rate": 6200,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "Up from $5,900 in 2024 (5%). Secondary reproduction of the Genworth table; national, not Virginia.",
+      "source_id": "S33"
+    },
+    {
+      "payer": "Virginia Medicaid fee-for-service (home-based, not ALF)",
+      "code": "S5126",
+      "service": "Personal care, Northern Virginia (NOVA) — context only, not an ALF rate",
+      "rate": 17.97,
+      "unit": "per unit as posted (unit not stated in source)",
+      "effective": "2025-07-01",
+      "notes": "SFY2026 DMAS rate for home-based personal care. Not paid to ALFs and not used for ALF revenue. A proposed 20% increase effective 7/1/2026 is not verified as enacted [S17].",
+      "source_id": "S16"
+    },
+    {
+      "payer": "Virginia Medicaid fee-for-service (home-based, not ALF)",
+      "code": "S5126",
+      "service": "Personal care, rest of Virginia (ROS) — context only, not an ALF rate",
+      "rate": 13.88,
+      "unit": "per unit as posted (unit not stated in source)",
+      "effective": "2025-07-01",
+      "notes": "Same bulletin as the NOVA rate. Not an ALF rate.",
+      "source_id": "S16"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "VDSS Division of Licensing Programs (DOLP)",
+      "role": "ALF licensing questions and the regional licensing office",
+      "contact": "276-206-0492 or 804-389-1951; hotline 1-800-543-7545; dss.dolp@dss.virginia.gov"
+    },
+    {
+      "name": "DOLP mailing address and fax",
+      "role": "Application and correspondence",
+      "contact": "5600 Cox Road, Glen Allen, VA 23060; fax 804-726-7132"
+    },
+    {
+      "name": "VELA online portal tech support",
+      "role": "Initial ALF applications (not used for renewals)",
+      "contact": "vela@dss.virginia.gov; https://www.dss.virginia.gov/licensed-care/apply-for-licensure/"
+    },
+    {
+      "name": "Virginia Board of Long-Term Care Administrators",
+      "role": "Administrator license (contact details not verified)",
+      "contact": "See Va. Code § 63.2-1803: https://law.lis.virginia.gov/vacode/title63.2/chapter18/section63.2-1803/"
+    },
+    {
+      "name": "DARS Auxiliary Grant program / local department of social services",
+      "role": "AG eligibility and applications (45-day processing; assets under $2,000 individual / $3,000 couple; 90-day Virginia residency)",
+      "contact": "https://dars.virginia.gov/benefits/auxiliary-grant/"
+    },
+    {
+      "name": "Virginia Medicaid Provider Enrollment Helpdesk (DMAS)",
+      "role": "PRSS enrollment and revalidation",
+      "contact": "804-270-5105 or 888-829-5373"
+    },
+    {
+      "name": "Virginia Department of Labor and Industry",
+      "role": "Minimum wage questions",
+      "contact": "https://doli.virginia.gov/"
+    },
+    {
+      "name": "Virginia Employment Commission",
+      "role": "Employer unemployment tax registration and rate",
+      "contact": "https://www.vec.virginia.gov/FAQs/employers/how-are-tax-rates-assigned"
+    },
+    {
+      "name": "Virginia Workers' Compensation Commission",
+      "role": "Workers' compensation requirement questions",
+      "contact": "https://workcomp.virginia.gov/employer-faqs"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.85,
+      "conservative": 0.8,
+      "optimistic": 0.92,
+      "rationale": "No official Virginia ALF occupancy figure was found, so this is an operator planning assumption. The 85% default matches the occupancy basis in the introduced HB30 Item 332 language for Auxiliary Grant facility rates (85% of licensed capacity). That language is not verified as enacted and is used only as a reference point [S15]. Small homes swing more than large ones because one vacant bed is 8-17% of census in a 6- or 12-bed home. The 80% conservative case matters most there. New facilities start with a few residents and fill over several months.",
+      "source_id": "S15"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "payroll_burden": {
+      "payroll_tax_pct": 0.085,
+      "workers_comp_pct": 0.06,
+      "benefits_pct": 0.05,
+      "notes": "Payroll tax of about 8.5% = employer FICA 7.65% (federal statutory rate, not separately sourced in this research) + Virginia new-employer unemployment tax and FUTA. The VEC states new employers pay a 2.5% base rate plus add-ons until they qualify for a calculated rate [S35]. The $8,000 UI wage base and the add-on charges (about 0.23% plus a reported 0.05% administrative fee) come from conflicting secondary sources, and FUTA net 0.6% on $7,000 also comes from a secondary source. Together these add about 0.7% of a typical caregiver's annual pay. Workers' compensation is required for employers with more than two employees [S36]. The 6% rate is an operator estimate for residential care; no ALF class-code rate was found, so get a carrier quote. Benefits at 5% are an operator estimate. Virginia Paid Family and Medical Leave (SB2/HB1207, 2026) is listed on the VEC site; its enactment status, rate and start date were not verified, and no cost is modeled.",
+      "source_id": "S35"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 16000.0,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally. Modeled at $800 per licensed bed for 20+ bed purpose-built or commercial buildings (20 beds = $16,000) and $650 per licensed bed for 6- and 12-bed residential houses. No Virginia commercial rent survey or HUD Fair Market Rent was retrieved. Vacant beds still cost rent, so this is fixed from day one. Northern Virginia will cost more."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed beds)",
+        "monthly": 1800.0,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally. $90 per licensed bed per month (6 beds $540; 12 beds $1,080; 20 beds $1,800; 40 beds $3,600)."
+      },
+      {
+        "item": "Utilities - per-resident portion (water, laundry, extra HVAC load)",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Food (3 meals + snacks per resident)",
+        "monthly": 380,
+        "basis": "per_client",
+        "notes": "Operator estimate (about $12.50 per resident-day) - verify with your food vendor."
+      },
+      {
+        "item": "Required liability insurance (22VAC40-73-45)",
+        "monthly": 1515.0,
+        "basis": "fixed",
+        "source_id": "S22",
+        "notes": "Every ALF must carry minimum liability insurance, per occurrence, under 22VAC40-73-45 (standards effective 9/23/2026): Tier I $250,000 for 25 residents or fewer; Tier II $400,000 for 26–75; Tier III $500,000 for 76–150; Tier IV $1,000,000 for 151 or more [S2]. The 6-, 12- and 20-bed models are Tier I. The 40-bed model is Tier II and must carry at least $400,000 per occurrence. The $1,515/month ($18,180/year) is a statewide average from the DSS economic analysis [S22]. It was not broken out by tier, and the analysis says the reported costs were not separated by tier. It is weighted toward larger facilities, so it is only a placeholder. Replace it with broker quotes for each tier."
+      },
+      {
+        "item": "Property, umbrella, cyber and other insurance",
+        "monthly": 500.0,
+        "basis": "fixed",
+        "notes": "Operator estimate - get quotes. Not a state-mandated minimum; landlords, lenders and good practice usually require it."
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 70,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance (per resident)",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Maintenance contract / handyman (larger buildings)",
+        "monthly": 400.0,
+        "basis": "fixed",
+        "notes": "Operator estimate. Applies to 20- and 40-bed buildings (20 beds $400; 40 beds $1,000); $0 in 6- and 12-bed homes."
+      },
+      {
+        "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+        "monthly": 150.0,
+        "basis": "fixed",
+        "source_id": "S2",
+        "notes": "ALFs must pass at least an annual fire official inspection (13VAC5-51) and, under HB 1522, keep an AED [S2][S31]. Recurring service costs are an operator estimate - get vendor quotes."
+      },
+      {
+        "item": "Resident activities & recreation",
+        "monthly": 35,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Referral / placement agency fees (amortized)",
+        "monthly": 100,
+        "basis": "per_client",
+        "notes": "Operator estimate - placement agencies typically charge a one-time fee per private-pay move-in, amortized over the average stay. Verify each agency's contract."
+      },
+      {
+        "item": "eMAR / resident care documentation software",
+        "monthly": 300.0,
+        "basis": "fixed",
+        "notes": "Operator estimate - get vendor quotes. The Virginia EVV rule covers personal care, respite and companion services only [S18]. No EVV requirement for ALF services was confirmed, so no EVV cost is modeled."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 800.0,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing & website",
+        "monthly": 800.0,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+        "monthly": 350.0,
+        "basis": "fixed",
+        "source_id": "S2",
+        "notes": "Direct care staff in a combined residential and assisted living facility must complete at least 18 hours of training annually, with first-year training starting within 60 days of hire; no employee may have direct resident contact until a background check is received [S2]. Cost is an operator estimate; staff time is partly in wages."
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 250.0,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 600.0,
+        "basis": "fixed",
+        "notes": "Operator estimate. Transportation is optional."
+      },
+      {
+        "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+        "monthly": 2.92,
+        "basis": "fixed",
+        "source_id": "S7",
+        "notes": "Initial application fee by licensed capacity: 1-12 beds $14; 13-25 $35; 26-50 $70 [S7]. The renewal fee was not found, and fee regulation 22VAC40-160 was under periodic review in 2026 [S38]. The initial fee ÷ 12 is used only as a placeholder."
+      },
+      {
+        "item": "Virginia LLC annual registration fee ÷ 12",
+        "monthly": 4.17,
+        "basis": "fixed",
+        "source_id": "S45",
+        "notes": "$50 per year per a secondary source [S45]; the official SCC page was not fetched. No size-based exemption is assumed."
+      },
+      {
+        "item": "Local business license / BPOL tax (placeholder)",
+        "monthly": 100.0,
+        "basis": "fixed",
+        "notes": "Operator estimate placeholder - local BPOL and business license taxes were not researched. Verify with your city or county (6 beds $50; 12 beds $75; 20 beds $100; 40 beds $200)."
+      }
+    ],
+    "configurations": [
+      {
+        "id": "va6_private",
+        "label": "6-bed small ALF home, 100% private pay",
+        "capacity": 6,
+        "notes": "A small residential home with the minimum compliant staffing: 1 awake direct care staff in the building at all times when residents are present, plus one extra aide 8 hours a day [S2]. The model assumes no residents with serious cognitive impairment. A mixed population with serious cognitive impairment needs 2 awake staff per building at all times, except that ALFs licensed for 10 or fewer residents with no more than 3 residents with serious cognitive impairment follow the 1-awake rule [S2]. The $6,000 rate is the VDSS monthly median (circa 2024) [S25]. The CareScout state median is $6,512 for a private one-bedroom unit in an assisted living community [S23]. Neither is specific to small shared-room homes, so set your rate from local comparables. This model usually loses money because a mandatory awake-staff team, a licensed administrator and the required liability insurance are spread over only about 5 residents. It works mainly when the owner is the administrator and gives up most of the salary line.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S25"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22VAC40-73-280 D",
+            "notes": "At least one direct care staff member must be awake and on duty in each building when a resident is present [S2]. Wage = BLS May 2025 mean for personal care and service occupations, Richmond metro [S34], used as a proxy because no statewide aide wage was retrieved. It is above the $12.77 state minimum [S26][S27]. Northern Virginia pays more."
+          },
+          {
+            "role": "Second direct care staff, daytime (8 hrs/day = 243 hrs/month)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 243,
+            "cite": "22VAC40-73-280 D",
+            "notes": "Operator staffing choice above the awake-staff minimum so a single aide is not alone for meals, bathing and medication passes. Same Richmond wage proxy [S34]."
+          },
+          {
+            "role": "Administrator (full time on site; licensed by the Board of Long-Term Care Administrators)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "22VAC40-73-140; 22VAC40-73-150 F; Va. Code § 63.2-1803",
+            "notes": "Operator estimate - verify locally; no official Virginia administrator wage was retrieved. The administrator must be at least 21, licensed by the Board (or hold temporary practice authority) for a combined residential and assisted living facility, and serve full time on site [S2][S5]. If the owner is the administrator, this line is the owner's pay. Board license fees and AIT hours are not verified."
+          },
+          {
+            "role": "RN/LPN health care oversight and medication review",
+            "wage_hourly": 42,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "cite": "22VAC40-73-490 A.2.a; -690 B",
+            "notes": "Operator estimate of both hours and wage - verify locally; no BLS RN/LPN wage was retrieved. Residents meeting assisted living care criteria need a licensed health professional's oversight at least every 3 months and a medication review every 6 months [S2]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 3900.0,
+            "basis": "fixed",
+            "notes": "6 licensed beds × $650 = $3,900/month for a residential house. Operator estimate - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 540.0,
+            "basis": "fixed",
+            "notes": "6 licensed beds × $90. Operator estimate - verify locally."
+          },
+          {
+            "item": "Required liability insurance (22VAC40-73-45)",
+            "monthly": 1515.0,
+            "basis": "fixed",
+            "source_id": "S22",
+            "notes": "Tier I ($250,000 per occurrence minimum) applies at 25 residents or fewer [S2]. $1,515/month is a placeholder: the DSS statewide average annual cost of $18,180 ÷ 12 [S22], not broken out by tier. Replace it with a broker quote for a 6-bed Tier I home; a very small home may pay less."
+          },
+          {
+            "item": "Property, umbrella, cyber and other insurance",
+            "monthly": 200.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (larger buildings)",
+            "monthly": 0.0,
+            "basis": "fixed",
+            "notes": "Not used in a 6-bed home; repairs are covered by the per-resident line."
+          },
+          {
+            "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+            "monthly": 100.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "eMAR / resident care documentation software",
+            "monthly": 150.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+            "monthly": 150.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate; see 22VAC40-73-210 and -280 E for the training and background-check rules [S2]."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 150.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+            "monthly": 1.17,
+            "basis": "fixed",
+            "source_id": "S7",
+            "notes": "$14 initial fee for 1-12 beds ÷ 12 [S7]. Renewal fee not verified."
+          },
+          {
+            "item": "Local business license / BPOL tax (placeholder)",
+            "monthly": 50.0,
+            "basis": "fixed",
+            "notes": "Operator estimate placeholder - not researched; verify locally."
+          }
+        ]
+      },
+      {
+        "id": "va12_private",
+        "label": "12-bed ALF home, 100% private pay",
+        "capacity": 12,
+        "notes": "The largest size in the lowest VDSS application-fee tier (1-12 beds, $14) [S7]. Staffing is 1 awake direct care staff overnight and 2 on days and evenings, plus a cook/housekeeper [S2]. The $6,000 rate is the VDSS monthly median [S25]. It is not specific to shared-room homes, and at most 2 residents may share a bedroom for a new licensee [S2]. This is thinly profitable at the default occupancy and sensitive to the rate and to vacancy.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S25"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22VAC40-73-280 D",
+            "notes": "At least one direct care staff member must be awake and on duty in each building when a resident is present [S2]. Richmond metro personal care and service mean wage used as a proxy [S34]; above the $12.77 state minimum [S26]."
+          },
+          {
+            "role": "Additional direct care staff, days and evenings (16 hrs/day = 487 hrs/month)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "22VAC40-73-280 D",
+            "notes": "Operator staffing choice: 2 aides on days and evenings. Same wage proxy [S34]."
+          },
+          {
+            "role": "Cook / housekeeper (40 hrs/week)",
+            "wage_hourly": 18.03,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Wage = BLS May 2025 mean for food preparation and serving related occupations, Richmond metro [S34]. This is a broad group mean used as a proxy; verify local cook and housekeeper pay."
+          },
+          {
+            "role": "Administrator (full time on site; licensed by the Board of Long-Term Care Administrators)",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "wage_source_id": "",
+            "cite": "22VAC40-73-140; 22VAC40-73-150 F; Va. Code § 63.2-1803",
+            "notes": "Operator estimate - verify locally. Must be at least 21, Board-licensed (or hold temporary practice authority) and full time on site [S2][S5]. If the owner is the administrator, this is the owner's pay."
+          },
+          {
+            "role": "RN/LPN health care oversight and medication review",
+            "wage_hourly": 42,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 16,
+            "cite": "22VAC40-73-490 A.2.a; -690 B",
+            "notes": "Operator estimate of hours and wage - verify locally. Quarterly oversight and 6-month medication reviews are required for assisted living care residents [S2]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 1,
+          "note": "Operator planning assumption - verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 7800.0,
+            "basis": "fixed",
+            "notes": "12 licensed beds × $650 = $7,800/month for a large residential house. Operator estimate - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1080.0,
+            "basis": "fixed",
+            "notes": "12 licensed beds × $90. Operator estimate - verify locally."
+          },
+          {
+            "item": "Required liability insurance (22VAC40-73-45)",
+            "monthly": 1515.0,
+            "basis": "fixed",
+            "source_id": "S22",
+            "notes": "Tier I ($250,000 per occurrence minimum) at 25 residents or fewer [S2]. $1,515/month is a placeholder: the statewide average annual cost of $18,180 ÷ 12 [S22], not broken out by tier. Get a broker quote for a 12-bed Tier I home."
+          },
+          {
+            "item": "Property, umbrella, cyber and other insurance",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (larger buildings)",
+            "monthly": 0.0,
+            "basis": "fixed",
+            "notes": "Not used in a 12-bed home."
+          },
+          {
+            "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+            "monthly": 125.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "eMAR / resident care documentation software",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate; training and background-check rules in 22VAC40-73-210 and -280 E [S2]."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 200.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+            "monthly": 1.17,
+            "basis": "fixed",
+            "source_id": "S7",
+            "notes": "$14 initial fee for 1-12 beds ÷ 12 [S7]. Renewal fee not verified."
+          },
+          {
+            "item": "Local business license / BPOL tax (placeholder)",
+            "monthly": 75.0,
+            "basis": "fixed",
+            "notes": "Operator estimate placeholder - not researched; verify locally."
+          }
+        ]
+      },
+      {
+        "id": "va12_ag25",
+        "label": "12-bed ALF home, 75% private pay + 25% Auxiliary Grant",
+        "capacity": 12,
+        "notes": "Same building and staffing as the 12-bed private-pay model, with 3 of 12 beds held for Auxiliary Grant residents. The AG pays the facility at most $2,130 a month combined with a designated part of the resident's income (the resident keeps $87) [S10][S11]. The Joint Commission on Health Care found the AG rate insufficient to cover the cost of assisted living care [S37]. Medicaid does not pay the ALF bill, per a secondary guide [S42]. This model shows how AG beds erode margin; it loses money at the default occupancy. The proposed $2,500 AG rate is not verified as enacted [S15].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6000,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.75,
+            "source_id": "S25"
+          },
+          {
+            "name": "Auxiliary Grant maximum monthly facility rate (AG + designated resident income), statewide",
+            "payer": "Auxiliary Grant (state 80% / local 20%)",
+            "code": "",
+            "rate": 2130,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S11"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff awake on duty 24/7 (1 on every shift = 730 hrs/month)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "22VAC40-73-280 D",
+            "notes": "One awake direct care staff per building at all times when residents are present [S2]. Richmond personal care and service mean wage proxy [S34]."
+          },
+          {
+            "role": "Additional direct care staff, days and evenings (16 hrs/day = 487 hrs/month)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "cite": "22VAC40-73-280 D",
+            "notes": "Operator staffing choice. Same wage proxy [S34]."
+          },
+          {
+            "role": "Cook / housekeeper (40 hrs/week)",
+            "wage_hourly": 18.03,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Richmond food preparation and serving group mean used as a proxy [S34]."
+          },
+          {
+            "role": "Administrator (full time on site; licensed by the Board of Long-Term Care Administrators)",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "wage_source_id": "",
+            "cite": "22VAC40-73-140; 22VAC40-73-150 F; Va. Code § 63.2-1803",
+            "notes": "Operator estimate - verify locally [S2][S5]."
+          },
+          {
+            "role": "RN/LPN health care oversight and medication review",
+            "wage_hourly": 42,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 16,
+            "cite": "22VAC40-73-490 A.2.a; -690 B",
+            "notes": "Operator estimate of hours and wage - verify locally [S2]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 1,
+          "note": "Operator planning assumption. AG beds are limited and applications take up to 45 days to process [S28]."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 7800.0,
+            "basis": "fixed",
+            "notes": "12 licensed beds × $650 = $7,800/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1080.0,
+            "basis": "fixed",
+            "notes": "12 licensed beds × $90. Operator estimate - verify locally."
+          },
+          {
+            "item": "Required liability insurance (22VAC40-73-45)",
+            "monthly": 1515.0,
+            "basis": "fixed",
+            "source_id": "S22",
+            "notes": "Tier I ($250,000 per occurrence minimum) [S2]. $1,515/month is a placeholder: the statewide average annual cost of $18,180 ÷ 12 [S22], not broken out by tier. Get a broker quote."
+          },
+          {
+            "item": "Property, umbrella, cyber and other insurance",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (larger buildings)",
+            "monthly": 0.0,
+            "basis": "fixed",
+            "notes": "Not used in a 12-bed home."
+          },
+          {
+            "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+            "monthly": 125.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "eMAR / resident care documentation software",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate [S2]."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 200.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+            "monthly": 1.17,
+            "basis": "fixed",
+            "source_id": "S7",
+            "notes": "$14 initial fee for 1-12 beds ÷ 12 [S7]. Renewal fee not verified."
+          },
+          {
+            "item": "Local business license / BPOL tax (placeholder)",
+            "monthly": 75.0,
+            "basis": "fixed",
+            "notes": "Operator estimate placeholder - not researched; verify locally."
+          }
+        ]
+      },
+      {
+        "id": "va20_private",
+        "label": "20-bed assisted living community, 100% private pay",
+        "capacity": 20,
+        "notes": "The configuration an expert operator would most likely choose. At 20 beds the fixed costs (awake staff, administrator, liability insurance) are spread over enough residents, and it stays in Liability Tier I (25 residents or fewer, $250,000 minimum) [S2]. The $6,512 rate is the CareScout 2024 Virginia median for assisted living, a median of community rates, not a government rate [S23][S24]. VDSS cites a $6,000 monthly median [S25]; this is an alternative benchmark. The 2024 survey figure is two years old and may understate current prices; the 2025 U.S. median rose 5% [S33]. Profit depends on reaching that price point in your market. It excludes memory care, which VDSS says adds more than $1,000/month and requires 2 awake staff for mixed populations with serious cognitive impairment [S2][S25].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (Virginia assisted living median, CareScout 2024)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6512,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S23"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff (day 3, evening 2, overnight 1 awake = 48 hrs/day)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "22VAC40-73-280 D",
+            "notes": "The rule minimum is 1 awake direct care staff in the building whenever residents are present [S2]; day and evening coverage is an operator staffing choice for assisted living care needs. Wage = BLS May 2025 mean for personal care and service occupations, Richmond metro [S34]; above the $12.77 minimum [S26]."
+          },
+          {
+            "role": "Dietary / housekeeping (2 FTE)",
+            "wage_hourly": 18.03,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 346.7,
+            "notes": "Richmond food preparation and serving group mean used as a proxy [S34]. Operator staffing choice."
+          },
+          {
+            "role": "Activities / resident services aide (0.5 FTE)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "notes": "Operator staffing choice. Richmond personal care and service group mean [S34]."
+          },
+          {
+            "role": "Administrator (full time on site; licensed by the Board of Long-Term Care Administrators)",
+            "basis": "annual_salary",
+            "amount": 80000,
+            "wage_source_id": "",
+            "cite": "22VAC40-73-140; 22VAC40-73-150 F; Va. Code § 63.2-1803",
+            "notes": "Operator estimate - verify locally; no official administrator wage was retrieved. The administrator must be at least 21, Board-licensed and full time on site [S2][S5]. Administrators of facilities caring for residents with serious cognitive impairment need 12 hours of specialized training within 3 months [S2]."
+          },
+          {
+            "role": "RN/LPN health care oversight, medication review and staff supervision (about 8 hrs/week)",
+            "wage_hourly": 42,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 32,
+            "cite": "22VAC40-73-490 A.2.a; -690 B",
+            "notes": "Operator estimate of hours and wage - verify locally. Quarterly oversight and 6-month medication reviews are required for assisted living care residents [S2]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator planning assumption - larger buildings admit more residents per month. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 16000.0,
+            "basis": "fixed",
+            "notes": "20 licensed beds × $800 = $16,000/month. Operator estimate for a small commercial or converted building - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1800.0,
+            "basis": "fixed",
+            "notes": "20 licensed beds × $90. Operator estimate - verify locally."
+          },
+          {
+            "item": "Required liability insurance (22VAC40-73-45)",
+            "monthly": 1515.0,
+            "basis": "fixed",
+            "source_id": "S22",
+            "notes": "Tier I ($250,000 per occurrence minimum) covers 25 residents or fewer [S2]. $1,515/month is a placeholder: the statewide average annual cost of $18,180 ÷ 12 [S22], not broken out by tier and weighted toward larger facilities. Get a broker quote for a 20-bed Tier I building."
+          },
+          {
+            "item": "Property, umbrella, cyber and other insurance",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (larger buildings)",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+            "monthly": 150.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "eMAR / resident care documentation software",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+            "monthly": 350.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate [S2]."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 600.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+            "monthly": 2.92,
+            "basis": "fixed",
+            "source_id": "S7",
+            "notes": "$35 initial fee for 13-25 beds ÷ 12 [S7]. Renewal fee not verified."
+          },
+          {
+            "item": "Local business license / BPOL tax (placeholder)",
+            "monthly": 100.0,
+            "basis": "fixed",
+            "notes": "Operator estimate placeholder - not researched; verify locally."
+          }
+        ]
+      },
+      {
+        "id": "va20_ag15",
+        "label": "20-bed assisted living community, 85% private pay + 15% Auxiliary Grant",
+        "capacity": 20,
+        "notes": "Same building and staffing as the 20-bed private-pay model, with 3 of 20 beds accepting the Auxiliary Grant (maximum $2,130/month, paid with a designated part of the resident's income) [S10][S11]. About 210 ALF providers accept AG and AG beds are limited, per an undated 2024-era VDSS flyer [S25]. Accepting some AG residents widens the referral base and supports a community-minded mission at a margin cost. Private-pay price is the CareScout 2024 Virginia median [S23]. Pending proposals to raise the AG rate to $2,500 and the personal needs allowance to $115 are not verified as enacted [S14][S15].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (Virginia assisted living median, CareScout 2024)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6512,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.85,
+            "source_id": "S23"
+          },
+          {
+            "name": "Auxiliary Grant maximum monthly facility rate (AG + designated resident income), statewide",
+            "payer": "Auxiliary Grant (state 80% / local 20%)",
+            "code": "",
+            "rate": 2130,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.15,
+            "source_id": "S11"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff (day 3, evening 2, overnight 1 awake = 48 hrs/day)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "22VAC40-73-280 D",
+            "notes": "Rule minimum is 1 awake direct care staff in the building whenever residents are present [S2]; extra coverage is an operator choice. Richmond personal care and service mean wage proxy [S34]."
+          },
+          {
+            "role": "Dietary / housekeeping (2 FTE)",
+            "wage_hourly": 18.03,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 346.7,
+            "notes": "Richmond food preparation and serving group mean used as a proxy [S34]."
+          },
+          {
+            "role": "Activities / resident services aide (0.5 FTE)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "notes": "Operator staffing choice [S34]."
+          },
+          {
+            "role": "Administrator (full time on site; licensed by the Board of Long-Term Care Administrators)",
+            "basis": "annual_salary",
+            "amount": 80000,
+            "wage_source_id": "",
+            "cite": "22VAC40-73-140; 22VAC40-73-150 F; Va. Code § 63.2-1803",
+            "notes": "Operator estimate - verify locally [S2][S5]."
+          },
+          {
+            "role": "RN/LPN health care oversight, medication review and staff supervision (about 8 hrs/week)",
+            "wage_hourly": 42,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 32,
+            "cite": "22VAC40-73-490 A.2.a; -690 B",
+            "notes": "Operator estimate of hours and wage - verify locally [S2]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator planning assumption. AG applications take local departments up to 45 days to process [S28]."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 16000.0,
+            "basis": "fixed",
+            "notes": "20 licensed beds × $800 = $16,000/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1800.0,
+            "basis": "fixed",
+            "notes": "20 licensed beds × $90. Operator estimate - verify locally."
+          },
+          {
+            "item": "Required liability insurance (22VAC40-73-45)",
+            "monthly": 1515.0,
+            "basis": "fixed",
+            "source_id": "S22",
+            "notes": "Tier I ($250,000 per occurrence minimum) [S2]. $1,515/month is a placeholder: the statewide average annual cost of $18,180 ÷ 12 [S22], not broken out by tier. Get a broker quote."
+          },
+          {
+            "item": "Property, umbrella, cyber and other insurance",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (larger buildings)",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+            "monthly": 150.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "eMAR / resident care documentation software",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+            "monthly": 350.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate [S2]."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 600.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+            "monthly": 2.92,
+            "basis": "fixed",
+            "source_id": "S7",
+            "notes": "$35 initial fee for 13-25 beds ÷ 12 [S7]. Renewal fee not verified."
+          },
+          {
+            "item": "Local business license / BPOL tax (placeholder)",
+            "monthly": 100.0,
+            "basis": "fixed",
+            "notes": "Operator estimate placeholder - not researched; verify locally."
+          }
+        ]
+      },
+      {
+        "id": "va40_ag20",
+        "label": "40-bed assisted living community, 80% private pay + 20% Auxiliary Grant",
+        "capacity": 40,
+        "notes": "A larger purpose-built community with a higher staffing load: 2 awake direct care staff overnight, a full-time nurse, a business office role and kitchen/housekeeping teams. Private-pay price is the CareScout 2024 Virginia median for a private one-bedroom unit [S23]; 8 of 40 beds accept the Auxiliary Grant at up to $2,130/month [S11]. A 40-bed building is Liability Tier II and must carry at least $400,000 per occurrence [S2]. The modeled premium is a placeholder, so get broker quotes. A building licensed for 20 or more residents also needs a continuously staffed central call location or an audible and visible signal that shows where the call came from [S2]. Capital needs, ramp-up time and building rent are much higher than in smaller models, and profit depends on fast lease-up.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (Virginia assisted living median, CareScout 2024)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6512,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.8,
+            "source_id": "S23"
+          },
+          {
+            "name": "Auxiliary Grant maximum monthly facility rate (AG + designated resident income), statewide",
+            "payer": "Auxiliary Grant (state 80% / local 20%)",
+            "code": "",
+            "rate": 2130,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.2,
+            "source_id": "S11"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff (day 5, evening 4, overnight 2 awake = 88 hrs/day)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 2677,
+            "cite": "22VAC40-73-280 D",
+            "notes": "The rule minimum is 1 awake direct care staff per building when residents are present [S2]; this model uses 2 overnight for a 40-bed building as an operator staffing choice. Richmond personal care and service mean wage proxy [S34]."
+          },
+          {
+            "role": "Dietary / housekeeping (4 FTE)",
+            "wage_hourly": 18.03,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 693.3,
+            "notes": "Richmond food preparation and serving group mean used as a proxy [S34]."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "wage_hourly": 18.47,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator staffing choice [S34]."
+          },
+          {
+            "role": "Business office / admissions coordinator (1 FTE)",
+            "wage_hourly": 20,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "role": "Administrator (full time on site; licensed by the Board of Long-Term Care Administrators)",
+            "basis": "annual_salary",
+            "amount": 95000,
+            "wage_source_id": "",
+            "cite": "22VAC40-73-140; 22VAC40-73-150 F; Va. Code § 63.2-1803",
+            "notes": "Operator estimate - verify locally; no official administrator wage retrieved [S2][S5]."
+          },
+          {
+            "role": "RN/LPN (full time, health care oversight, medication review, staff supervision)",
+            "wage_hourly": 42,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "22VAC40-73-490 A.2.a; -690 B",
+            "notes": "Operator estimate of hours and wage - verify locally. Quarterly oversight and 6-month medication reviews are required for assisted living care residents [S2]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 6,
+          "add_per_month": 3,
+          "note": "Operator planning assumption - lease-up of a 40-bed building takes many months. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 32000.0,
+            "basis": "fixed",
+            "notes": "40 licensed beds × $800 = $32,000/month. Operator estimate - verify locally; excludes tenant improvements."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 3600.0,
+            "basis": "fixed",
+            "notes": "40 licensed beds × $90. Operator estimate - verify locally."
+          },
+          {
+            "item": "Required liability insurance (22VAC40-73-45)",
+            "monthly": 2500.0,
+            "basis": "fixed",
+            "source_id": "S22",
+            "notes": "Tier II applies to 26–75 residents and requires at least $400,000 per occurrence [S2]. The statewide average of $18,180/year ($1,515/month) was not broken out by tier [S22]. $2,500/month is an operator placeholder, so get broker quotes for a Tier II, 40-bed building."
+          },
+          {
+            "item": "Property, umbrella, cyber and other insurance",
+            "monthly": 900.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get quotes."
+          },
+          {
+            "item": "Maintenance contract / handyman (larger buildings)",
+            "monthly": 1000.0,
+            "basis": "fixed",
+            "notes": "Operator estimate for a 40-bed building."
+          },
+          {
+            "item": "Fire alarm monitoring, extinguisher service, AED supplies and fire-system inspections",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "eMAR / resident care documentation software",
+            "monthly": 600.0,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 1500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & website",
+            "monthly": 1500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CPR/first aid, background checks, TB screening, manager CE",
+            "monthly": 700.0,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "Operator estimate [S2]."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 1000.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "VDSS application / license fee reserve (initial fee by tier ÷ 12)",
+            "monthly": 5.83,
+            "basis": "fixed",
+            "source_id": "S7",
+            "notes": "$70 initial fee for 26-50 beds ÷ 12 [S7]. Renewal fee not verified."
+          },
+          {
+            "item": "Local business license / BPOL tax (placeholder)",
+            "monthly": 200.0,
+            "basis": "fixed",
+            "notes": "Operator estimate placeholder - not researched; verify locally."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "va20_private",
+    "startup_costs": [
+      {
+        "item": "Virginia LLC articles of organization (SCC)",
+        "low": 100,
+        "high": 100,
+        "source_id": "S45",
+        "notes": "$100 per a secondary source; confirm on the SCC site."
+      },
+      {
+        "item": "VDSS initial application fee by licensed capacity (1-12 beds $14; 13-25 $35; 26-50 $70)",
+        "low": 14,
+        "high": 70,
+        "source_id": "S7",
+        "notes": "Check or money order payable to Treasurer of Virginia, submitted with the application as the final attachment; nonrefundable."
+      },
+      {
+        "item": "Board of Long-Term Care Administrators license, exam and administrator-in-training costs",
+        "low": 300,
+        "high": 1500,
+        "notes": "Operator estimate - Board fees and AIT hours were not verified."
+      },
+      {
+        "item": "Building and fire inspections, measured floor plan, architect or plan-review drawings (DSS plan review for construction or remodel)",
+        "low": 1500,
+        "high": 20000,
+        "source_id": "S2",
+        "notes": "A building official's signed evaluation, fire inspection, VDH sanitation inspection and measured floor plan are required with the initial application [S7]. Costs are an operator estimate. SB 677 (effective 7/1/2026) exempts ALFs caring for 12 or fewer individuals in a home from restaurant regulatory requirements. That may remove the VDH food inspection cost for the 6- and 12-bed models. Confirm eligibility with the local health department."
+      },
+      {
+        "item": "Fire and life-safety upgrades required by the building and fire officials (alarm, extinguishers, emergency lighting, sprinklers if required)",
+        "low": 5000,
+        "high": 150000,
+        "source_id": "S2",
+        "notes": "Operator estimate - depends on building use-group classification under the USBC and local fire official requirements."
+      },
+      {
+        "item": "Permanent connection for temporary emergency power (required at 6+ residents)",
+        "low": 2500,
+        "high": 12000,
+        "source_id": "S2",
+        "min_capacity": 6,
+        "notes": "Required under 22VAC40-73-980 D [S2]. Cost is an operator estimate - get electrician quotes."
+      },
+      {
+        "item": "Automated external defibrillator (AED) and staff training (HB 1522, effective 7/1/2026)",
+        "low": 1500,
+        "high": 4000,
+        "source_id": "S31",
+        "notes": "An AED and trained staff are required before a license is issued or renewed [S31]. Price is an operator estimate."
+      },
+      {
+        "item": "Accessibility and physical plant upgrades (bedrooms with at least 450 cu ft air space per resident, bathrooms, ramps, grab bars)",
+        "low": 5000,
+        "high": 60000,
+        "source_id": "S2",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Resident room and common-area furnishings",
+        "low": 12000,
+        "high": 80000,
+        "notes": "Operator estimate of about $2,000 per bed."
+      },
+      {
+        "item": "Lease deposit + first month",
+        "low": 7800,
+        "high": 64000,
+        "notes": "Two months of the modeled lease (6 beds $3,900/month to 40 beds $32,000/month). Operator estimate."
+      },
+      {
+        "item": "Background checks, TB screening and CPR/first aid for owner, administrator and first staff",
+        "low": 500,
+        "high": 5000,
+        "source_id": "S2",
+        "notes": "No employee may have direct resident contact until a background check is received [S2]. Costs are an operator estimate; 22VAC40-90 fees were not verified."
+      },
+      {
+        "item": "Liability insurance down payment (about 25% of annual premium)",
+        "low": 4545,
+        "high": 9000,
+        "source_id": "S22",
+        "notes": "Placeholder. The $18,180 average annual premium is a statewide figure that was not broken out by tier [S22]. The 25% deposit is an operator estimate. Get broker quotes for the Tier I ($250,000 per occurrence) homes and the Tier II ($400,000 per occurrence) 40-bed building."
+      },
+      {
+        "item": "Policies and procedures manual, admission forms, resident agreement and eMAR setup",
+        "low": 2000,
+        "high": 10000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Launch marketing and referral-network outreach",
+        "low": 2000,
+        "high": 15000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Medication-aide registration and administrator medication-aide supervisor training (68-hour Board of Nursing-approved program if the administrator is not a licensed nurse)",
+        "low": 0,
+        "high": 0,
+        "source_id": "S2",
+        "notes": "Required under 22VAC40-73-160 where staff give medications and no full-time licensed nurse supervises them. The 6-, 12- and 20-bed models use only a part-time RN. Cost not verified; $0 is a placeholder, not an estimate. Verify course and registration fees with the Board of Nursing, or model a full-time licensed nurse. The administrator also needs 4 hours a year of medication training."
+      },
+      {
+        "item": "Resident call/signaling system (22VAC40-73-930)",
+        "low": 0,
+        "high": 0,
+        "source_id": "S2",
+        "notes": "Required in every ALF. Buildings licensed for 20 or more residents need a continuously staffed central location, or an audible and visible signal showing where the call came from. Buildings with 19 or fewer need hourly overnight rounds with a written log kept for 2 years. Installation cost not verified; $0 is a placeholder. Get vendor quotes."
+      },
+      {
+        "item": "Emergency preparedness: two generator-vendor agreements (if no on-site generator), temporary-power connection testing every 2 years, 96-hour emergency food and water (48 hours on site), flashlights or lanterns",
+        "low": 0,
+        "high": 0,
+        "source_id": "S2",
+        "notes": "Required under 22VAC40-73-950 and -980. Costs not verified; $0 is a placeholder. Get quotes. Direct care entry training (nurse-aide, DMAS PCA or 40-hour RN/LPN-taught course within 2 months of hire), private-pay UAI and ISP training, and a dietitian review every 6 months if any resident has a special diet also carry costs not modeled."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Virginia licenses assisted living facilities (ALFs) through the Virginia Department of Social Services (VDSS) Division of Licensing Programs (DOLP) under 22VAC40-73 and Title 63.2 of the Code of Virginia [S1][S2][S29]. An ALF is a congregate, primarily residential setting that maintains or cares for four or more adults [S1]. One license covers two levels of care. **Residential living care** is for residents who need only minimal help with activities of daily living (ADLs). **Assisted living care** is for residents who need at least moderate ADL help [S2]. The standards were revised effective 9/23/2026, with further amendments effective 11/4/2026 [S3][S21].\n\nMoney comes mainly from private pay. VDSS says ALF services are mostly private pay and cites a $6,000 monthly median [S25]. The Genworth/CareScout 2024 survey puts Virginia's assisted living median at $6,512 a month ($78,150 a year) for a private one-bedroom unit, ranked 16th nationally [S23]. The main public program is the **Auxiliary Grant (AG)**. It is a state (80%) and local (20%) supplement for SSI recipients and certain other aged, blind or disabled people living in a VDSS-licensed ALF [S10][S28]. The AG maximum facility rate is **$2,130 a month** statewide and **$2,450** in Planning District 8 (Northern Virginia) from 1/1/2026, and the resident keeps an $87 personal needs allowance [S11]. A secondary guide reports that Virginia's Medicaid manual does not treat ALFs as Medicaid long-term care facilities [S42]. This report therefore does not model any Medicaid ALF rate. Participation in the AG is optional for facilities, and about 210 providers accept it (2024-era VDSS flyer) [S10][S25].\n\nLicensing is inexpensive but front-loaded with compliance work. The initial application fee is only $14 for 1–12 beds, $35 for 13–25 and $70 for 26–50 [S7]. The real costs are the building (building official, fire, health department and DSS plan-review sign-offs), a Board-licensed full-time administrator, awake overnight staffing, the minimum liability insurance ($250,000 per occurrence for Tier I up to $1,000,000 for Tier IV) and an AED [S2][S7][S31].\n\n**Bottom line from the model (default 85% occupancy).**\n- The **20-bed private-pay community** is the lead configuration. It nets about **$23,966/month** (21.6% margin), breaks even at about **64.4% occupancy** and first turns profitable in month 8. Cash needed through ramp-up is about **$415,970**.\n- The **40-bed community with 20% AG** nets about **$21,182/month** (11.1% margin) and breaks even at about 74.3%. It first turns profitable in month 11 and needs about **$1.08 million** of cash.\n- The **20-bed community with 15% AG** nets about **$12,792/month** (12.9%) and breaks even at about 72.7%.\n- The **12-bed private-pay home** nets only about **$3,138/month** (5.1%) with a break-even of about 80.1%. It is a thin, vacancy-sensitive business.\n- The **12-bed home with 25% AG** loses about **$6,731/month** and the **6-bed private-pay home** loses about **$8,210/month**. Neither reaches break-even at any realistic occupancy.\n\nThese results use placeholder liability premiums and Richmond-metro wage proxies. They should be re-run with broker quotes and local OEWS wages. Small homes lose money because the staffing, administrator and insurance costs the rules require are spread over too few residents. Scale and private-pay price are what make Virginia ALFs work.\n\n### What this report does not claim\n- A Virginia Medicaid (CCC Plus / Cardinal Care) payment rate for ALF residents. DMAS publishes no ALF rate schedule, and the primary Medicaid manual text was not verified [S42].\n- That the proposed HB30 increases to the AG rate ($2,500) or the personal needs allowance ($115) are enacted. Only introduced or member-request text was found, and the outcome of the 2026 Appropriation Act was not checked [S14][S15].\n- Liability premiums by tier. The Tier I–IV minimums are verified, but the $18,180 DSS average is statewide and was not broken out by tier, so the modeled premiums are placeholders to replace with broker quotes [S2][S22].\n- ALF license renewal fees, Board of Long-Term Care Administrators fees, the days to a licensing decision, statewide occupancy, competitor names, market shares, referral-source data, the AG caseload and the current AG-accepting facility count.\n- Small-home or shared-room private-pay prices. Rent, insurance beyond the state minimum, administrator and nurse wages and most operating lines are operator estimates to verify locally.",
+    "service_model": "**Who is served.** Adults (18 or older) who need a residential setting with help in daily life [S1][S2]. Residents must have a physical examination within the 30 days before admission [S2]. The two levels of care under one license are:\n- **Residential living care.** Residents need only minimal ADL assistance, or help with medication administration [S2][S25].\n- **Assisted living care.** Residents need at least moderate ADL assistance [S2].\n\n**Who regulates.** The State Board of Social Services writes the ALF regulations [S43]. DOLP licenses and inspects, and it may make announced and unannounced visits with full access to buildings, books and records [S7]. The governing chapters are 22VAC40-73 and Va. Code Title 63.2, Chapters 17 and 18 [S2][S29]. Background checks fall under 22VAC40-90 [S2]. Administrators are licensed by a separate state body, the Virginia Board of Long-Term Care Administrators [S5].\n\n**Care obligations in the rules.** Residents who meet assisted living care criteria need a licensed health professional's on-site health care oversight at least every three months and a medication review every six months [S2]. Major incidents must be reported to the regional licensing office within 24 hours [S2]. A facility that serves a mixed population including residents with serious cognitive impairment must have at least two direct care staff awake per building, except an ALF licensed for 10 or fewer residents with no more than three residents who have serious cognitive impairment, which follows the one-awake rule [S2]. A dedicated safe-secure memory care unit has its own night ratios: 2 staff for 22 or fewer residents, 3 for 23–32 and 4 for 33–40 [S2]. The administrator of a facility serving residents with serious cognitive impairment needs 12 hours of specialized training within three months of hire [S2]. Memory care is a premium service. VDSS says it adds more than $1,000 a month to costs [S25]. None of the modeled configurations includes memory care.\n\n**Configurations modeled.** The model covers six real-world formats:\n- A 6-bed residential home.\n- A 12-bed home, in a private-pay version and a version with 25% Auxiliary Grant residents.\n- A 20-bed community, in a private-pay version and a version with 15% AG.\n- A 40-bed community with 20% AG.\n\nOf Virginia's 569 licensed ALFs, 167 are licensed for 25 residents or fewer (Tier I), 169 for 26–75 (Tier II), 195 for 76–150 (Tier III) and 38 for 151 or more (Tier IV) [S22]. The per-occurrence liability minimums in 22VAC40-73-45, effective 9/23/2026, are Tier I $250,000, Tier II $400,000, Tier III $500,000 and Tier IV $1,000,000 [S2]. Small and mid-size facilities therefore make up much of the market.",
+    "licensing_pathway": "**Step 1 — Eligibility and entity.** Form the legal entity first. A Virginia LLC costs $100 to form and a $50 annual registration fee per secondary sources; confirm on the State Corporation Commission site [S45]. The licensee must give evidence of financial responsibility and solvency, and the rule text reviewed sets no separate bond or reserve amount [S2]. Character investigation includes background checks under 22VAC40-90 [S2].\n\n**Step 2 — Owner and administrator preparation.** Owners and administrators who have not previously run a licensed ALF must complete the commissioner-required training **before an initial license is granted** [S2][S30]. The administrator must be at least 21 and licensed by the Board of Long-Term Care Administrators, or hold temporary practice authority, for a facility licensed for both residential and assisted living care. The administrator serves full time on site as the licensee's agent [S2][S5]. Board fees, exam steps and administrator-in-training hours were not verified. Staff who give medications must be licensed or registered as medication aides. They must be supervised by a full-time licensed nurse employed at the facility or by the administrator. An unlicensed administrator needs a Board of Nursing-approved training program of at least 68 hours (22VAC40-73-160) [S2]. A part-time RN does not meet the supervisor requirement.\n\n**Step 3 — Secure and prepare the building.** The building must be classified under, and meet, the Virginia Uniform Statewide Building Code (13VAC5-63) use and occupancy rules for its resident population [S2]. Plans for new construction, remodeling or alterations must go to DSS for review **before work begins or contracts are awarded** [S2]. Other physical-plant requirements:\n- At least 450 cubic feet of air space per resident in sleeping areas.\n- Single bedrooms need at least 100 sq ft of floor area in buildings approved or changed in use after 1996, otherwise 80. Shared rooms need 80 sq ft per person in post-1996 buildings, otherwise 60. Ceilings must be at least 7.5 ft. Glazed window area must be at least 8 sq ft for one person and 6 sq ft per person for two or more. These minimums and bed spacing of 3 ft limit the licensed bed count and therefore revenue.\n- No more than two residents per bedroom for a new licensee.\n- Compliance with the Statewide Fire Prevention Code (13VAC5-51), verified by at least an annual fire official inspection.\n- A permanent connection for temporary emergency power at six or more residents, tested at installation and every 2 years by a contracted vendor. Facilities without an on-site generator need agreements with two separate generator vendors [S2].\n- A 96-hour supply of emergency food and drinking water (48 hours on site), and flashlights or lanterns for each employee on duty from 5 p.m. to 7 a.m. and for each bedroom [S2].\n- A resident signaling device reachable from each bedroom or its bathroom. Buildings licensed for 20 or more residents need a continuously staffed central location, or an audible and visible signal showing where the call came from. Buildings with 19 or fewer need hourly overnight rounds with a written log kept for 2 years [S2].\n\nUnder HB 1522, effective 7/1/2026, the facility must keep an AED and trained staff before a license is issued or renewed [S31]. SB 677, effective 7/1/2026, exempts ALFs caring for 12 or fewer individuals in a home from restaurant regulatory requirements. Confirm with the local health department whether this removes the VDH food inspection for a 6- or 12-bed home. Local zoning was not researched. Check zoning before signing a lease.\n\n**Step 4 — Prepare the application packet.** The initial application (form 032-08-0100-03-eng, 07/26) requires, among other items [S7]:\n- A copy of the building evaluation form signed by the building official, and a fire inspection.\n- The environmental sanitation inspection from the Department of Health.\n- A measured floor plan showing bedroom dimensions and bathroom fixture counts.\n- Character reference letters dated within 12 months.\n- The application fee as the final attachment.\n\nA Criminal History Record Report from state police obtained within the last 90 days must be kept on site [S7]. Under the August 2026 DOLP memo, criminal background checks and sworn statements are reviewed on site rather than mailed with the application. **From 10/1/2026 only the new application forms are accepted**, for initial and renewal applications [S8].\n\n**Step 5 — Submit through VELA and pay the fee.** Initial applications go through the VELA online portal (renewals do not). Technical help is vela@dss.virginia.gov [S6]. Submit at least **60 days before the planned opening date** [S7]. The fee is by licensed capacity: 1–12 beds $14, 13–25 $35, 26–50 $70, 51–75 $105, 76–200 $140, over 200 $200. It is a check or money order payable to the Treasurer of Virginia, is nonrefundable, and carries a $50 charge for a returned check [S7]. The fee regulation (22VAC40-160) was under periodic review in March 2026 and the outcome was not reviewed [S38].\n\n**Step 6 — DSS review and inspection.** DSS notifies you in writing **within 15 days** if the application is incomplete. You then have **30 days** from notification to cure it, or all materials except the fee are returned [S7]. The rule and form reviewed give no total days-to-decision, so plan on the 60-day lead time above and ask DOLP for current timing. No employee may have direct resident contact until a background check is received, unless supervised by a cleared employee [S2]. Regional office and DOLP contacts are in the Contacts tab [S4].\n\n**Step 7 — Ongoing duties.**\n- Report a change of administrator in writing within 14 days, and notify the Board of Long-Term Care Administrators and DSS immediately. A combined-license facility may use an acting administrator for no more than 150 days if the acting administrator has applied for licensure, or no more than 90 days if not. One extension of up to 30 days is possible. A facility may not use an acting administrator more than twice in 2 years without DSS authorization. An acting administrator who intends to stay permanently must file an administrator-in-training application within 10 days [S2].\n- Give the regional office at least 60 days' notice of a planned sale or voluntary closure [S2].\n- Keep liability insurance at the required tier and give notice of it on request [S3].\n- Adopt a policy on resident in-room electronic monitoring (SB 409), with fee and consent rules, once the DSS regulation takes effect.\n- Outstanding sanction fines must be paid before renewal [S7].\n\nFurther changes took effect on 11/4/2026, including a new section 22VAC40-73-755. A 2026 legislative exempt action and the 22VAC40-73 periodic review are also pending. Review these before filing [S21][S39].",
+    "reimbursement": "**Private pay is the business.** VDSS says ALF services are mostly private pay, with a $6,000 monthly median [S25]. CareScout's 2024 Virginia median is $6,512 a month ($214 a day) [S23]. The CareScout survey compiles median rates charged by long-term care providers. It is a survey of provider rates, mostly assisted living communities, not a government rate and not specific to small shared-room homes [S24]. The 2025 U.S. median rose 5%, from $5,900 to $6,200, which suggests the 2024 Virginia figure may now understate prices [S33]. The model uses $6,000 for 6- and 12-bed homes and $6,512 for 20- and 40-bed communities. Set your own price from local comparables.\n\n**Auxiliary Grant (AG).**\n- The AG is an income supplement for SSI recipients and certain other aged, blind or disabled people living in a VDSS-licensed ALF [S10]. It is paid monthly to the individual and combined with a designated part of the person's income to pay the ALF up to a maximum rate [S10].\n- The maximum monthly facility rate from 1/1/2026 is **$2,130** (up $27 from $2,103) and **$2,450** in Planning District 8 (up from $2,418) [S11].\n- The personal needs allowance stays at $87 for 2026, and the appropriation act sets the amount [S11][S12].\n- The federal SSI individual benefit rate is $994 in 2026, up from $967 after a 2.8% COLA [S13].\n- Eligibility includes countable assets under $2,000 for one person ($3,000 for a couple) and at least 90 days of voluntary Virginia residency. Local departments of social services have 45 days to process applications [S28].\n- The program is 80% state and 20% locally funded and administered by DARS [S10][S28].\n- Facilities choose whether to accept AG residents. About 210 providers do, and AG beds are limited [S10][S25].\n\n**The AG rate does not cover costs.** A Joint Commission on Health Care (JCHC) study found the AG rate insufficient to cover the cost of assisted living care, which leads to low provider participation and limited housing access for low-income older Virginians [S37]. Against a $6,512 private-pay benchmark, each AG bed gives up about $4,382 a month of revenue ($6,512 minus $2,130), before any variable cost. The model shows the effect. The 20-bed community loses about $11,174 a month of net income, falling from $23,966 to $12,792, when 15% of residents are on the AG. The 12-bed home swings from a $3,138 profit to a $6,731 loss with 25% AG residents.\n\n**Pending, not enacted as far as verified.** Introduced HB30 Item 332 language would let DSS base ALF rates on 85% occupancy of licensed capacity, capped at $2,130. Separate member requests would raise the AG rate to $2,500 and the personal needs allowance to $115 [S14][S15]. This report uses only the $2,130 and $87 in effect. Any increase would improve AG-heavy models, but enactment must be checked against the final Appropriations Act.\n\n**Medicaid.** Virginia's CCC Plus program is a Medicaid managed long-term services and supports program delivered through contracted managed care organizations [S9]. It is part of the mandatory Cardinal Care managed care program for people enrolled in Medicaid [S9]. A secondary source says Virginia's Medicaid manual classes ALFs as not Medicaid long-term care facilities and that the CCC Plus waiver is not a payment source for assisted living. The primary text was not verified [S42]. DMAS does not publish an ALF rate. **The model therefore assumes no Medicaid ALF revenue.** The DMAS personal care rates in the Rates tab (for example S5126 at $17.97 in Northern Virginia and $13.88 elsewhere, effective 7/1/2025) are home-based services, not ALF rates. They are shown for context only [S16]. A proposed 20% increase for those services is also not an ALF rate [S17].\n\n**Provider enrollment if you do bill Medicaid for any service.** Providers must enroll and revalidate directly with DMAS through the PRSS portal, and Virginia Medicaid MCOs may not contract with providers who are not enrolled in PRSS [S20]. The helpdesk number is in the Contacts tab [S41]. The application fee is not required if already paid to Medicare or another state's Medicaid [S40]. Whether the $750 CY2026 federal fee applies to ALF provider types was not verified. The EVV rule covers personal care, respite and companion services only. No ALF EVV requirement was confirmed, so no EVV cost is modeled [S18]. DMAS eliminates the live-in caregiver exemption from EVV on 10/1/2026 for the services EVV covers [S19].",
+    "demand": "**Population.** UVA's Weldon Cooper Center projects that by 2030 one in five Virginians will be over 65 [S32]. That drives long-run demand for senior housing with care. A current count of Virginians aged 65 and older was not retrieved.\n\n**Existing supply.** DOLP reports about 570 licensed ALFs [S25]. The Register's economic analysis counts 569 ALFs, split Tier I 167 (25 residents or fewer), Tier II 169, Tier III 195 and Tier IV 38 [S22]. The licensing agency also says 561 of the 569 had obtained the newly required liability insurance and none had gone out of business as a result [S22]. Statewide occupancy, competitor names, market shares and local supply by city were not found and are not claimed.\n\n**Private-pay demand.** The CareScout state median ($6,512 a month) and VDSS median ($6,000) indicate what households pay [S23][S25]. Demand in your own market depends on local referral sources (hospital discharge planners, physicians, placement agencies and families). Referral-source data for Virginia ALFs was not found. No sourced waiting-list count for private-pay ALF beds exists, and the model assumes a ramp of a few residents a month per configuration, which is an operator planning assumption.\n\n**Auxiliary Grant demand.** Demand for AG-funded beds exceeds supply, but only qualitatively. DARS says AG space is limited and tells applicants to begin looking for facilities while their application is processed [S28]. The JCHC links the low rate to low provider participation [S37]. VDSS reports about 210 AG-accepting providers (undated, 2024-era) [S25]. No AG caseload or waiting-list number was found.\n\n**Medicaid long-term care pathway.** The CCC Plus waiver serves all ages and has no waiting list [S46], but a secondary source says it is not for assisted living [S42]. Low-income residents who need ALF-level housing therefore rely mainly on the AG, which supports the case for a deliberate, limited AG allocation rather than a Medicaid-heavy plan.",
+    "operations": "**Mandatory staffing rules (22VAC40-73).**\n- At least one direct care staff member must be awake and on duty in each building at all times when at least one resident is present. At least two are required for facilities with a mixed population that includes serious cognitive impairment, except ALFs licensed for 10 or fewer residents with no more than three residents who have serious cognitive impairment, which follow the one-awake rule. A dedicated safe-secure memory care unit follows its own night ratios (2 staff for 22 or fewer residents, 3 for 23–32, 4 for 33–40) [S2].\n- **CPR:** at least one staff person in each building at all times must hold current CPR certification, with no alternative. **First aid:** coverage can come from a certified staff person or an on-duty RN, LPN, EMT, first responder or paramedic. Every direct care staff member needs first-aid certification, or must obtain it within 60 days of hire; licensed nurses, EMTs, first responders and paramedics are exempt. Certifications must be posted and kept current [S2].\n- Direct care staff must be 18 or older unless they hold Virginia nurse aide certification. Direct care staff include supervisors, assistants, aides and others who help residents with personal care [S2][S21]. They must complete a nurse-aide, DMAS PCA or 40-hour RN/LPN-taught course within 2 months of hire, plus state-approved private-pay UAI and ISP training [S2].\n- In a combined residential and assisted living facility, direct care staff need at least 18 hours of training a year, with first-year training starting within 60 days of employment [S2].\n- No employee may have direct resident contact until a background check has been received, unless supervised by a cleared employee [S2].\n- The administrator is at least 21, Board-licensed (or on temporary practice authority), full time on site and subject to the 14-day change notice [S2][S5].\n- RN/LPN or other licensed health professional oversight is needed at least every three months, with a six-month medication review, for assisted living care residents [S2].\n- Staff who give medications must be licensed or registered medication aides, supervised by a full-time licensed nurse employed at the facility or by the administrator. An unlicensed administrator needs a Board of Nursing-approved training program of at least 68 hours and 4 hours of medication training a year. The 6-, 12- and 20-bed models use only a part-time RN, so this applies to them [S2].\n- Every bedroom or bathroom needs a resident signaling device. Buildings licensed for 20 or more residents need a continuously staffed central location, or an audible and visible signal showing where the call came from. Buildings with 19 or fewer need hourly overnight rounds with a written log kept for 2 years [S2].\n\nThe rules reviewed set no numeric resident-to-staff ratio beyond the awake-staff minimums and the memory care unit night ratios. How many aides you roster above the minimum is a business and safety decision.\n\n**How the model staffs each size.**\n- **6-bed:** 730 hours a month for one awake aide around the clock, plus 243 hours of extra daytime coverage, a full-time administrator and 8 nurse hours a month.\n- **12-bed:** one awake aide 24/7 plus two aides on days and evenings (487 hours), a cook/housekeeper at 40 hours a week, a full-time administrator and 16 nurse hours a month.\n- **20-bed:** 1,460 direct care hours a month, two dietary/housekeeping FTEs, a half-time activities aide, the administrator and 32 nurse hours a month.\n- **40-bed:** 2,677 direct care hours a month, four dietary/housekeeping FTEs, an activities coordinator, a business office role, the administrator and a full-time RN/LPN.\n\nAide wages are the BLS May 2025 Richmond-metro mean for personal care and service occupations ($18.47 an hour), and kitchen/housekeeping staff use the food preparation and serving mean ($18.03) [S34]. Both are broad major-group means used as proxies. They are not the means for nursing assistants (SOC 31-1131), personal care aides (31-1122), cooks or housekeepers, and aide pay in ALFs is often higher than the group mean. Administrator, nurse and office wages are operator estimates (verify locally). Re-run the model with occupation-level OEWS wages, because aide hours are the largest cost.\n\n**Required systems and compliance duties.**\n- An annual fire official inspection, fire alarm monitoring and extinguisher service, and an AED [S2][S31].\n- A permanent emergency-power connection at six or more residents, tested every 2 years, and vendor agreements, emergency food and water and lighting [S2].\n- Incident reporting within 24 hours [S2].\n- A resident electronic monitoring policy (SB 409). The effective date and rules are ambiguous in the memo and should be confirmed [S31].\n- An eMAR or resident record system. This is an operator choice; no EVV applies to ALF services as far as verified [S18].\n\nThe Virginia Minimum Wage Act has no size-based exemption [S27]. Payroll taxes, unemployment insurance (new-employer base rate 2.5% plus add-ons) and workers' compensation (required for employers with more than two employees) all apply [S35][S36].",
+    "market_conditions": "**Pricing.** Virginia's CareScout 2024 assisted living median is $6,512 a month for a private one-bedroom unit in an assisted living community, 16th in the national ranking [S23]. VDSS cites about $6,000 in a flyer from around 2024 [S25]. The 2025 national median rose 5% to $6,200 [S33], so current Virginia prices may be higher than the 2024 figure. A Virginia-specific 2025 median was not verified. Memory care adds more than $1,000 a month [S25]. Neither the CareScout nor the VDSS figure measures small shared-room homes. A 6- or 12-bed home may have to price below the community median.\n\n**Supply and structure.** About 569 licensed ALFs operate in Virginia, and about 29% (167) are Tier I, licensed for 25 residents or fewer [S22]. The new liability insurance mandate had not caused closures as of the Register analysis [S22].\n\n**Labor.**\n- The state minimum wage is **$12.77 an hour** from 1/1/2026 to 1/1/2027 [S26][S27]. HB1/SB1, signed April 9, 2026, raise it to **$13.75 on 1/1/2027** and **$15.00 on 1/1/2028** (Governor's April 2026 release). Build the 2028 level and later indexing into projections.\n- A secondary source says cities and counties cannot set their own minimum wage [S44].\n- Every modeled wage ($18.03 and up) already exceeds both steps. The administrator, nurse and office wages are unsourced operator estimates.\n- Richmond-metro means for personal care and service ($18.47) and food preparation and serving ($18.03) are broad major-group means from BLS May 2025 [S34]. Aide pay in ALFs is often higher. Northern Virginia wages and rents will be higher, but the AG rate there is $2,450 [S11].\n- Statewide and occupation-level BLS wages for aides, nurses, cooks and administrators were not retrieved, and secondary CNA figures conflict ($20.27 vs $20.77 an hour), so the model does not use them.\n\n**Cost trends.** The required liability insurance is a new fixed cost. DSS data put the statewide average reported annual cost at $18,180, which was not broken out by tier and is weighted toward larger facilities [S22]. SSI rose 2.8% in 2026 [S13] and the AG rate rose only 1.3%, from $2,103 to $2,130 [S11]. The AG is therefore not keeping pace with costs, which echoes the JCHC finding [S37].\n\n**Real estate.** No Virginia commercial rent survey or HUD Fair Market Rent figure was retrieved. Building costs in the model are operator estimates of $650 per licensed bed per month for 6- and 12-bed houses and $800 per bed for 20- and 40-bed buildings. Verify these with local brokers and landlords.",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident is the private-pay rate ($6,000 or $6,512) or the $2,130 AG maximum, weighted by payer mix [S11][S23][S25]. Occupancy defaults to 85%, with 80% conservative and 92% optimistic. No official Virginia occupancy figure exists, so 85% is an operator assumption that matches the 85% occupancy basis in the introduced HB30 AG language, which is not verified as enacted [S15]. Costs have three groups:\n- **Staffing built from the awake-staff rule** and operator staffing choices above it [S2].\n- **Fixed building costs.** Rent, utilities, the mandatory liability insurance and other insurance, fire/AED service, software, accounting, marketing and licensing are fixed from day one. The liability line is a placeholder of $1,515 a month, taken from the $18,180 statewide average that was not broken out by tier [S22]. Vacant beds still cost money.\n- **Per-resident costs.** Food ($380), supplies ($70), repairs ($60), per-resident utilities ($60), activities ($35) and referral fees ($100) come to about $705 a resident a month.\n\nPayroll burden is 8.5% payroll tax, 6% workers' compensation and 5% benefits (6% and 5% are operator estimates; UI add-ons and the wage base come from conflicting secondary sources) [S35][S36].\n\n**Results at 85% occupancy.**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 20-bed, 100% private pay | $23,966 | 21.6% | 64.4% | 8 | $415,970 |\n| 40-bed, 80% private / 20% AG | $21,182 | 11.1% | 74.3% | 11 | $1,078,011 |\n| 20-bed, 85% private / 15% AG | $12,792 | 12.9% | 72.6% | 9 | $451,508 |\n| 12-bed, 100% private pay | $3,138 | 5.1% | 80.1% | 11 | $329,026 |\n| 12-bed, 75% private / 25% AG | −$6,731 | −13.1% | 98.0% | none | $557,484 |\n| 6-bed, 100% private pay | −$8,210 | −26.8% | 110.8% | none | $407,836 |\n\nA break-even above 100% means the model cannot reach break-even at any occupancy. These results depend on placeholder insurance premiums and proxy wages and should be re-run with broker quotes and occupation-level wages.\n\n**Why size and mix decide the outcome.** The mandatory team is the same regardless of census: an awake aide around the clock, a full-time Board-licensed administrator and the liability insurance. At 6 beds (about 5 residents) that team is paid by roughly $30,600 of monthly revenue. Even with the administrator line removed entirely, the 6-bed home would still lose roughly $2,700 to $3,600 a month in this model, so the home only works if the owner provides most of the labor and takes little pay. At 20 beds, the same fixed team is spread over 17 residents and revenue reaches about $110,700 a month.\n\n**Sensitivities (arithmetic from the model, approximate).**\n- **Occupancy.** Each occupied 20-bed private-pay bed adds about $5,800 a month ($6,512 less about $705 of per-resident costs). At 80% occupancy (16 residents, one fewer than the default) net falls to roughly $18,200 a month. At the 64.4% break-even there are about 13 residents.\n- **Rate.** If the 20-bed community can only get $6,000 instead of $6,512, revenue falls about $8,700 a month at 17 residents and net drops to roughly $15,300. A $100 change in the monthly rate moves net by about $1,700.\n- **Insurance.** The $1,515 monthly liability line is a statewide average, not a tier-specific quote. A premium that is $500 a month higher cuts net by $500. The 40-bed model is Tier II ($400,000 per occurrence minimum) and carries $2,500 a month as an operator placeholder pending broker quotes.\n- **AG share.** Each 15% of beds on the AG costs the 20-bed community about $11,200 a month. Under the proposed $2,500 AG rate (not verified as enacted) each AG bed would gain $370 a month, which would not change these conclusions.\n- **12-bed home.** Break-even is 80.1%, so the conservative 80% case is roughly break-even to slightly negative. One vacancy in a 12-bed home is 8% of census.\n- **Wages.** Wages are Richmond-metro proxies from broad group means, and aide pay in ALFs is often higher. Northern Virginia wages and rents will be higher, though the Planning District 8 AG rate is only $2,450 [S11]. Re-run the model at your local aide wage and rent. Aide hours are the largest cost, so re-test the 12-bed margin and the 6-bed loss.\n\n**Ramp-up and cash.** Profit does not start on day one. The 20-bed model first turns profitable in month 8 and needs about $415,970 of total cash, which includes build-out, deposits and the modeled ramp-up deficit. The 40-bed model needs about $1.08 million and 11 months. Startup cost ranges (fire upgrades up to $150,000, plant upgrades up to $60,000 and so on) are operator estimates and swing widely by building. Medication-aide training, call-system and emergency-preparedness costs are listed at $0 placeholders until quotes are obtained.\n\n**Path to profit.** Target 20 or more licensed beds, price at or above the local assisted living median with private-pay residents as the base, and treat AG beds as a limited, deliberate share of the mix. Do not assume any Medicaid ALF revenue.",
+    "risks": "**Regulatory change.** The ALF standards were revised effective 9/23/2026, with further amendments effective 11/4/2026 including a new 22VAC40-73-755. A periodic review of the chapter (with Attorney General review in progress), a 2026 legislative exempt action and a review of the fee regulation 22VAC40-160 are also pending [S3][S21][S38][S39]. Confirm the current text with DOLP before you sign a lease or file.\n\n**Liability insurance.** Minimums are per occurrence and in effect since 9/23/2026: Tier I $250,000 for 25 residents or fewer, Tier II $400,000 for 26–75, Tier III $500,000 for 76–150 and Tier IV $1,000,000 for 151 or more [S2]. A 40-bed building must carry at least $400,000. The $18,180 average annual cost is a statewide figure that was not broken out by tier [S22]. The modeled premiums are placeholders, so get broker quotes. Premiums for a new operator, or for a building with a poor claims history, may be higher.\n\n**Thin-margin small homes.** The 6-bed home loses about $8,210 a month and the 12-bed home earns about $3,138 a month at 85% occupancy. A single vacancy or a staff vacancy needing agency coverage can erase the margin. The model includes no owner-draw above the administrator line.\n\n**Auxiliary Grant dependence.** The $2,130 maximum rate is far below private-pay prices, and the JCHC found it insufficient to cover care costs [S11][S37]. AG residents arrive only after a 45-day local application process, and the grant depends on the appropriation act [S12][S28]. Proposed increases are not verified as enacted, and the 2026 Appropriation Act outcome was not checked [S14][S15]. A facility with a high AG share can see its margin disappear, as the 12-bed model with 25% AG shows.\n\n**No Medicaid ALF payer.** A secondary source says ALFs are not Medicaid long-term care facilities and that the CCC Plus waiver is not for assisted living [S42]. The primary manual was not verified. Do not build a plan on Medicaid ALF revenue.\n\n**Staffing and wage pressure.** The model's wages are proxies. The state minimum rises to $13.75 on 1/1/2027 and $15.00 on 1/1/2028 under HB1/SB1, signed April 2026. Direct care staff need 18 hours of annual training, first-aid and CPR coverage and a background check before resident contact, which slows hiring [S2]. The administrator must be Board-licensed and full time on site. Losing the administrator starts a 14-day notice clock. An acting administrator is limited to 150 days if the person has applied for licensure and 90 days if not, with one 30-day extension [S2]. Medication-aide registration and supervision rules may require a full-time licensed nurse or a 68-hour administrator course [S2].\n\n**Building and inspection risk.** Building officials, fire officials, VDH and DSS plan review all control timing and cost. Fire and life-safety upgrades are the largest single startup variable. Room-size minimums limit the licensed bed count. Local zoning was not researched. A new AED requirement (HB 1522) and the electronic monitoring law (SB 409) add compliance duties [S31].\n\n**Market and data risk.** The CareScout figure is two years old and measures private one-bedroom units in communities, not small homes [S23][S24]. No statewide occupancy figure exists. The cash needed shown for each configuration is a model result built mostly on operator estimates. Local business taxes (BPOL), workers' compensation class-code rates and Virginia LLC fees were not confirmed from official sources.\n\n**Penalties.** Sanction fines unpaid at renewal block renewal [S7]. DSS may make unannounced inspections [S7].",
+    "recommendations": "1. **Plan for 20 or more licensed beds with a private-pay base.** The 20-bed private-pay community is the strongest configuration in the model: $23,966 a month, a 64.4% break-even and cash needed of about $415,970. Stay at 25 residents or fewer to remain in Liability Tier I ($250,000 minimum) [S2].\n2. **Validate the price before you commit.** Pull rates from at least five competing communities within a 20-mile radius. If you cannot support about $6,000 to $6,500 a month, the model works only with a smaller staffing plan or lower rent. Do not use the CareScout median as a promise.\n3. **Use AG beds sparingly and on purpose.** A 15% AG share still leaves a 20-bed community at $12,792 a month, but 25% in a 12-bed home loses money. Decide your AG cap up front, accept AG residents only after private-pay census is stable, and use the 45-day local processing time in your admission planning [S28]. Re-check the AG rate in the final Appropriations Act [S14][S15].\n4. **Avoid the 6-bed model unless you are the administrator and the labor.** The model includes a full administrator salary. Without that salary it still loses money. If you do choose a small home, hold costs down, keep it private pay, and expect it to be a job rather than an investment.\n5. **Secure the people first.** Identify a Board-licensed administrator (or begin the licensing path) and complete the DSS owner and administrator training before the initial license, since it is a condition of licensure [S2][S5][S30]. Contact the Board directly for fees and requirements, which were not verified.\n6. **Run building due diligence before you lease.**\n   - Ask the building official, fire official and Health Department what they will require.\n   - Submit plans to DSS before construction starts or contracts are awarded [S2].\n   - Check bedroom size (450 cubic feet per resident, two residents per bedroom at most) and the emergency-power connection if you will have six or more residents.\n   - Check local zoning.\n7. **File on time.** Submit through VELA at least 60 days before the planned opening, use the new forms that apply from 10/1/2026, and keep the state police record, references and background check documents ready for the on-site review [S6][S7][S8].\n8. **Get insurance quotes early.** Obtain written quotes at the tier for your licensed capacity and confirm the current tier amounts with DOLP [S2][S22]. Add property, umbrella and workers' compensation quotes [S36]. Install and train staff on the AED [S31].\n9. **Capitalize through ramp-up.** Hold working capital for at least the modeled ramp-up deficit, not just the startup build-out. The 20-bed model first profits in month 8, so plan at least 8 months of runway beyond opening and add a buffer for slow admissions.\n10. **Verify the unverified items with the agency before you rely on them.** The open items are Board fees, license renewal fees, background check costs, local BPOL taxes and the tier amounts. Replace the operator estimates in the model with real quotes and re-run the P&L before committing capital."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Confirm your planned operation is an 'assisted living facility' that needs a VDSS license",
+      "instructions": "An ALF is a congregate, primarily residential setting that maintains or cares for four or more adults. If you will serve four or more adults, you need a license from the VDSS Division of Licensing Programs (DOLP). 22VAC40-73 applies to ALFs as defined in Va. Code § 63.2-100. Read the full Standards PDF before you sign a lease or buy a building.",
+      "cite": "22VAC40-73-20; Va. Code § 63.2-100",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Choose your level(s) of care: residential living care, assisted living care, or both",
+      "instructions": "Residential living care serves adults who need only minimal help with ADLs. Assisted living care serves adults who need at least moderate help with ADLs. The level you license for drives administrator licensure (the Board-license rule is quoted for facilities licensed for both levels), health care oversight and staffing. Most operators plan for a combined license so they can keep residents as needs rise. Confirm the exact administrator rule for your chosen level with DOLP.",
+      "cite": "22VAC40-73 (levels of care definitions); 22VAC40-73-140 E",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Pick a size and payer mix using the pro forma before you commit to a building",
+      "instructions": "Model results at 85% occupancy: 20-bed 100% private pay nets about $23,966/month (21.6% margin, breakeven occupancy 64.4%, first profit in month 8, about $415,970 cash needed). A 12-bed private-pay home nets about $3,138/month and needs 80.1% occupancy to break even. A 6-bed home loses about $8,210/month. A 12-bed home with 25% Auxiliary Grant loses about $6,731/month. Rates behind these results are the CareScout Virginia median and the VDSS median; verify them against your local market.",
+      "cite": "Pro forma model; CareScout 2024 Virginia median",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Decide now whether you will serve residents with serious cognitive impairment (memory care)",
+      "instructions": "A facility with a mixed population that includes residents with serious cognitive impairment must have at least two direct care staff awake and on duty in each building at all times. The administrator must also complete 12 hours of cognitive-impairment training within three months of hire. VDSS says memory care adds more than $1,000 a month to resident cost. The base models do not include memory care, so add staff cost if you choose it.",
+      "cite": "22VAC40-73-1020 A; 22VAC40-73-1030 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Confirm every owner and key person can pass the licensee character and financial standards",
+      "instructions": "The licensee must give evidence of financial responsibility and solvency. The character investigation includes background checks under 22VAC40-90 (Regulation for Background Checks for ALFs and Adult Day Centers). Screen every owner and officer early. The text of 22VAC40-90 (fingerprint type, fees, review timelines) was not verified, so get the current requirements from DOLP.",
+      "cite": "22VAC40-73-40 B; 22VAC40-90",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "CRITICAL",
+      "task": "Form your legal entity with the State Corporation Commission and get an EIN",
+      "instructions": "A secondary source lists the Virginia LLC Articles of Organization (form LLC1011) fee at $100 under Va. Code § 13.1-1005, plus a $50 annual registration fee under § 13.1-1062. Confirm both on the SCC site. The licensee name on the DSS application must match your entity. After formation, get an EIN from the IRS (irs.gov) for payroll, banking and Medicaid enrollment. Also check your city or county for a business license and BPOL tax, which was not researched here.",
+      "cite": "Va. Code § 13.1-1005; § 13.1-1062",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Check local zoning and use approval before you lease or buy",
+      "instructions": "No state zoning rule was found. DSS requires a signed building evaluation from the local building official, so call the zoning office and building official first to confirm an ALF with your resident count is allowed at the address. Get zoning approval in writing, and make your lease or purchase contingent on licensure. Northern Virginia and other metro areas will cost more than the rent assumptions in the models.",
+      "cite": "Initial Application, Part 3 (building evaluation)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LICENSE PLANNING",
+      "priority": "HIGH",
+      "task": "Read the current regulatory calendar and confirm with DOLP which text applies to you",
+      "instructions": "22VAC40-73 was revised effective Sept. 23, 2026, and further final amendments (including new section 22VAC40-73-755) take effect Nov. 4, 2026. A periodic review of the chapter is pending, a 2026 legislative exempt action was published Sept. 16, 2026, and the fee regulation 22VAC40-160 was under periodic review. Call DOLP and ask which text, forms and fees apply to an application filed now.",
+      "cite": "22VAC40-73; 22VAC40-160",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 2 — FINANCIAL PLANNING & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Build a funding plan that covers startup, ramp-up losses and a working-capital reserve",
+      "instructions": "Use the Pro Forma P&L startup tab. Model cash needed through ramp-up ranges from about $329,026 (12-bed private pay) to $1,078,011 (40-bed with 20% AG). No bond amount was found in 22VAC40-73, but the licensee must show financial responsibility and solvency, so keep proof of funds ready for DSS.",
+      "cite": "22VAC40-73-40 B.1",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — FINANCIAL PLANNING & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Buy the state-required minimum liability insurance",
+      "instructions": "Under 22VAC40-73-45 every ALF must carry minimum liability insurance: Tier I is at least $250,000 for 25 residents or fewer, and Tier IV is at least $1,000,000 for 151 or more. Tier II and III amounts were not captured, so get them from the Standards PDF. DSS survey data put the average annual cost at $18,180 (17 respondents). Final adoption of the permanent tiers is unconfirmed, so confirm with DOLP. DSS reported 561 of 569 licensed ALFs had obtained the coverage. You must give notice of your coverage on request.",
+      "cite": "22VAC40-73-45 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — FINANCIAL PLANNING & INSURANCE",
+      "priority": "HIGH",
+      "task": "Get quotes for property, umbrella, cyber and other insurance and confirm your landlord's requirements",
+      "instructions": "These are not state-mandated minimums, but landlords and lenders usually require them. The models carry operator estimates of $200 to $900 a month. Ask your broker to bundle general liability with the state-required liability tier so your policy limits match the tier for your licensed capacity.",
+      "cite": "22VAC40-73-45 (liability) — other lines are operator estimates",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 2 — FINANCIAL PLANNING & INSURANCE",
+      "priority": "HIGH",
+      "task": "Set your private-pay price from local comparables, not a single statewide number",
+      "instructions": "Benchmarks: CareScout 2024 Virginia assisted living median is $6,512/month ($78,150/yr; rank 16). VDSS cites a $6,000 monthly median, and the 2025 U.S. median is $6,200 (up 5%). CareScout is a median of community rates, not shared rooms in small homes. Call at least five competitors in your county and write down base rate, care-level add-ons and community fees.",
+      "cite": "Genworth/CareScout Cost of Care Survey 2024",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 2 — FINANCIAL PLANNING & INSURANCE",
+      "priority": "HIGH",
+      "task": "Budget payroll from local wages that clear the state minimum",
+      "instructions": "Virginia's minimum wage is $12.77/hour from Jan. 1, 2026 to Jan. 1, 2027, with no exemption for small employers. The models use Richmond-metro BLS May 2025 means as proxies: personal care and service $18.47/hour and food preparation and serving $18.03/hour. Northern Virginia pays more. Secondary sources report $13.75 on Jan. 1, 2027 and $15.00 on Jan. 1, 2028; verify against the LIS bill record.",
+      "cite": "DOLI 2026 minimum wage; BLS OEWS May 2025 Richmond",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 2 — FINANCIAL PLANNING & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Open a business bank account and set up bookkeeping and payroll",
+      "instructions": "Open a business account in the entity name once you have the EIN. Choose a payroll service that handles Virginia withholding, VEC unemployment filings and workers' compensation reporting. The models budget $400 to $1,500 a month for accounting, payroll service and legal, which is an operator estimate.",
+      "cite": "Operator guidance",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 3 — OWNER & ADMINISTRATOR QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Identify a qualified administrator before you apply",
+      "instructions": "The administrator must be at least 21 years old. Under Va. Code § 63.2-1803, the administrator must be licensed as an assisted living facility administrator by the Virginia Board of Long-Term Care Administrators. For a facility licensed for both residential and assisted living care, the administrator must be Board-licensed (ALF or nursing home administrator) or hold temporary practice authorization. If you are the owner and will serve as administrator, you need to be licensed yourself. The models carry $55,000 to $95,000 a year for this role, an operator estimate.",
+      "cite": "22VAC40-73-140 A, E; Va. Code § 63.2-1803",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — OWNER & ADMINISTRATOR QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Start the Board of Long-Term Care Administrators licensing process",
+      "instructions": "The Board is separate from DSS. Board fees, contact details, exam and administrator-in-training hour requirements were not verified from the Board's rule text (18VAC95-30). Look up the Board through Virginia DHP, confirm fees and AIT hours, and allow time for the license or temporary practice authorization to be issued before your target opening date. The models budget $300 to $1,500 for Board costs as an operator estimate.",
+      "cite": "Va. Code § 63.2-1803; 22VAC40-73-140 E",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — OWNER & ADMINISTRATOR QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Complete commissioner-required owner/administrator training before the initial license is granted",
+      "instructions": "Owners and administrators who have not previously operated a licensed ALF must complete the training required by the commissioner, and the training must be completed before any initial license is granted. Ask DOLP for the current training program, schedule and cost, and register early so it does not delay your license.",
+      "cite": "22VAC40-73-40 C",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 3 — OWNER & ADMINISTRATOR QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Plan for the administrator to work full time on site",
+      "instructions": "In a combined-license facility the administrator must serve full time as the on-site agent of the licensee. If you cannot be on site, budget a paid administrator. If the owner is the administrator, the owner's pay is this line in the pro forma.",
+      "cite": "22VAC40-73-150 F",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — OWNER & ADMINISTRATOR QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Write an administrator succession and acting-administrator plan",
+      "instructions": "A change in administrator must be reported in writing to the regional licensing office within 14 days. A combined-license facility may run on an acting administrator for no more than 150 days. Name a backup candidate and keep their Board license or temporary authorization on file.",
+      "cite": "22VAC40-73-150 B.1, B.6",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — OWNER & ADMINISTRATOR QUALIFICATIONS",
+      "priority": "MEDIUM",
+      "task": "Schedule the administrator's cognitive-impairment training if you will serve that population",
+      "instructions": "If the facility cares for residents with serious cognitive impairment, the administrator must attend 12 hours of training in working with individuals who have a cognitive impairment within three months of hire. Book the course before you advertise memory care services.",
+      "cite": "22VAC40-73-1030 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Select a building that can be classified and meet the Virginia Uniform Statewide Building Code for your residents",
+      "instructions": "Buildings must be classified by, and meet the specifications for, the proper use and occupancy classification under the USBC (13VAC5-63) for the resident population. Ask the local building official which use group applies to your plan and what upgrades will be required. Do this before signing a lease.",
+      "cite": "22VAC40-73-860 A; 13VAC5-63",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Submit plans to DSS for review before any construction, remodel or alteration",
+      "instructions": "Plans for new construction, remodeling or alterations must be submitted to DSS for review before work begins or contracts are awarded. Contact DOLP to start the plan review and keep the approval with your records. Architect or drawing costs are an operator estimate of $1,500 to $20,000 in the startup budget.",
+      "cite": "22VAC40-73-860 C",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Design bedrooms to the state size and occupancy limits",
+      "instructions": "Sleeping quarters must provide at least 450 cubic feet of air space per resident. A new facility licensee may not place more than two residents in one bedroom. Measure every bedroom against these limits before you set your licensed capacity.",
+      "cite": "22VAC40-73-900 (1) and (5)(b)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Obtain the building official's signed evaluation form",
+      "instructions": "The initial application requires a copy of the building evaluation form signed by the appropriate building official. Request it from your local building department once the building is ready for evaluation, and allow time for any corrections.",
+      "cite": "Initial Application, Part 3",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Pass the fire official's inspection and keep it current",
+      "instructions": "A fire inspection copy is required with the initial application. Facilities must comply with the Statewide Fire Prevention Code (13VAC5-51), verified by at least an annual inspection by the appropriate fire official. Ask your local fire marshal what systems your building needs. Fire and life-safety upgrade costs are an operator estimate of $5,000 to $150,000.",
+      "cite": "22VAC40-73-940 A; Initial Application, Part 3",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Get the Virginia Department of Health environmental sanitation inspection",
+      "instructions": "The initial application requires a copy of the environmental sanitation inspection conducted by the Department of Health. Contact your local health district to schedule it once the kitchen and bathrooms are complete.",
+      "cite": "Initial Application, Part 3",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Prepare a measured floor plan",
+      "instructions": "The initial application requires a measured floor plan showing bedroom dimensions and the count of bathroom fixtures. Have a drafter or architect produce it and check it against the 450 cubic feet and two-per-bedroom limits.",
+      "cite": "Initial Application, Part 3",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Install a permanent connection for temporary emergency power if you will have six or more residents",
+      "instructions": "Each facility with six or more residents must be equipped with a permanent connection for temporary emergency power. Get an electrician's quote early. The startup budget carries $2,500 to $12,000, which is an operator estimate.",
+      "cite": "22VAC40-73-980 D",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Buy and install an automated external defibrillator (AED) and train staff",
+      "instructions": "HB 1522 requires ALFs to have and maintain an AED and trained staff before a license is issued or renewed. It took effect July 1, 2026. Price is an operator estimate of $1,500 to $4,000 with training. Put the AED on your fire-system inspection checklist.",
+      "cite": "2026 Acts, HB 1522",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Make sure first aid and CPR coverage is available in every building at all times",
+      "instructions": "Each building must have either a staff member certified in first aid and CPR on duty, or an on-duty licensed or certified responder (RN, LPN or EMT). Build this into your shift schedule and track staff certification expiry dates.",
+      "cite": "22VAC40-73-260 A.4, B.1",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — BUILDING, SITE & LIFE SAFETY",
+      "priority": "MEDIUM",
+      "task": "Plan for resident electronic monitoring devices in rooms",
+      "instructions": "SB 409 requires ALFs to permit residents to use electronic monitoring devices in their rooms when specified criteria are met. The effective date wording in the VDSS memo is ambiguous. Ask DOLP when it applies to you, then add a policy and consent form.",
+      "cite": "2026 Acts, SB 409",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Use the VELA portal for your initial application",
+      "instructions": "Initial ALF applications go through the VDSS online portal (VELA). VELA is only for new, initial applications, not renewals. Technical help: vela@dss.virginia.gov.",
+      "cite": "VDSS Apply for Licensure",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Use the new application forms from October 1, 2026",
+      "instructions": "Old forms were accepted through Sept. 30, 2026. From Oct. 1, 2026 only the new applications are accepted. Download the current Initial Application (032-08-0100-03-eng, rev. 07/26) and do not reuse older versions.",
+      "cite": "DOLP memo, Revisions to Initial and Renewal Applications",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Submit the application at least 60 days before your planned opening date",
+      "instructions": "The form requires submission at least 60 days before the facility's planned opening date. Work backward from your target opening and leave extra time. The form's 60-day wording refers to a 'renewal application' in one place, so confirm the rule with DSS. The days to a licensing decision after a complete application were not found in the rule or form reviewed, so ask DOLP.",
+      "cite": "Initial Application (07/26)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Pay the correct initial application fee for your licensed capacity",
+      "instructions": "Fee tiers: 1–12 beds $14; 13–25 $35; 26–50 $70; 51–75 $105; 76–200 $140; over 200 $200. Pay by check or money order to the Treasurer of Virginia, submitted with the application as the final attachment. The fee is nonrefundable. A $50 service charge applies to any returned check. Fee regulation 22VAC40-160 is under periodic review, so confirm the amount before paying.",
+      "cite": "Initial Application, Parts 3–4",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Attach all required documents to the application",
+      "instructions": "Required attachments include the building official's signed evaluation, the fire inspection, the VDH sanitation inspection and the measured floor plan. Also include character reference letters dated within 12 months for owners and key individuals. Checklist the full list in Part 3 of the form and submit everything at once.",
+      "cite": "Initial Application, Part 3",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Obtain state police criminal history reports and keep background documents on site",
+      "instructions": "A Criminal History Record Report from the state police obtained within the last 90 days is required. Under the 2026 form revision, criminal background checks and sworn statements are not mailed with the application. They are reviewed on-site, so keep the originals at the facility for inspection.",
+      "cite": "Initial Application, Part 3; DOLP memo 8/27/2026",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "HIGH",
+      "task": "Respond fast to any incomplete-application notice",
+      "instructions": "DSS notifies you in writing within 15 days of receipt if the application is incomplete. If you do not cure it within 30 days of notification, all materials except the nonrefundable fee are returned. Check your VELA account and email daily after you submit.",
+      "cite": "Initial Application (07/26)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "HIGH",
+      "task": "Be ready for announced and unannounced DSS visits",
+      "instructions": "DSS representatives may inspect buildings, books and records and make announced and unannounced visits. Keep resident files, personnel files, background check records and inspection reports organized and on site from the day you apply.",
+      "cite": "Initial Application, Part 1",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "CRITICAL",
+      "task": "Do not admit residents until your license is issued",
+      "instructions": "Chapters 17 and 18 of Title 63.2 and 22VAC40-73 set the licensure requirements. Wait for written DSS licensure confirmation before you admit residents or advertise beds as available. Ask DOLP in writing about any pre-licensure steps it requires.",
+      "cite": "Va. Code Title 63.2, Ch. 17–18",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 5 — LICENSE APPLICATION & DSS REVIEW",
+      "priority": "MEDIUM",
+      "task": "Call DOLP with open questions before you file",
+      "instructions": "Phone 276-206-0492 or 804-389-1951; hotline 1-800-543-7545; email dss.dolp@dss.virginia.gov; address 5600 Cox Road, Glen Allen, VA 23060; fax 804-726-7132. Ask about license decision timing, renewal fees, the status of the Tier II–III liability amounts and the 2026 exempt action.",
+      "cite": "DOLP contact page",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Build a staffing schedule that meets the awake-staff minimum",
+      "instructions": "At least one direct care staff member must be awake and on duty at all times in each building when at least one resident is present. A mixed population including serious cognitive impairment needs at least two. A 24/7 single awake post is 730 hours a month. The models add extra day and evening aides as an operator choice. No numeric resident-to-staff ratio was retrieved, so ask DOLP what is expected for your resident acuity.",
+      "cite": "22VAC40-73-280 D; 22VAC40-73-1020 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Verify direct care staff age and qualifications",
+      "instructions": "Direct care staff must be at least 18 years old unless certified in Virginia as a nurse aide. The amended regulation defines direct care staff as supervisors, assistants, aides or other staff who assist residents with personal care. Keep proof of age and any CNA certification in each personnel file.",
+      "cite": "22VAC40-73-200 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Complete background checks before any direct resident contact",
+      "instructions": "No employee may work in a position involving direct resident contact until a background check has been received, unless supervised by a cleared employee. Run checks under 22VAC40-90 for every hire, and keep the results on site. Fees were not verified, and the model budgets $150 to $700 a month for training and screening as an operator estimate.",
+      "cite": "22VAC40-73-280 E; 22VAC40-90",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Set up the direct care staff training calendar",
+      "instructions": "In a combined residential and assisted living facility, direct care staff must attend at least 18 hours of training annually, and first-year training must begin within 60 days of employment. Track hours per employee. Request the full approved training topic list from the Standards PDF.",
+      "cite": "22VAC40-73-210 B–C",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "HIGH",
+      "task": "Contract an RN or LPN for health care oversight and medication reviews",
+      "instructions": "For residents meeting assisted living care criteria, a licensed health professional must provide health care oversight at least every three months and review all medications every six months. The models budget 8 to 173 nurse hours a month at $42/hour, which is an operator estimate; no RN/LPN BLS wage was retrieved. Sign a written agreement with a nurse before opening.",
+      "cite": "22VAC40-73-490 A.2.a; 22VAC40-73-690 B",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Pay every employee at least the Virginia minimum wage",
+      "instructions": "The state minimum wage is $12.77/hour from Jan. 1, 2026 to Jan. 1, 2027. The Minimum Wage Act has no exemption based on employer size. Secondary sources say cities and counties cannot set their own minimums. Display the 2026 DOLI poster and watch for the scheduled 2027 increase.",
+      "cite": "DOLI minimum wage notice and poster",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "HIGH",
+      "task": "Register as an employer with the Virginia Employment Commission",
+      "instructions": "New Virginia employers receive an initial base unemployment tax rate of 2.5% plus add-ons until eligible for a calculated rate. Experience-rated base rates normally range from 0.1% to 6.2%. The 2026 taxable wage base and the add-on amounts come from conflicting secondary sources, so get the figures from your VEC rate notice.",
+      "cite": "VEC: How are tax rates assigned?",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "CRITICAL",
+      "task": "Buy workers' compensation coverage before you hire",
+      "instructions": "Virginia law requires an employer who regularly employs more than two part-time or full-time employees to carry workers' compensation. No ALF class-code rate was found, so the models use an operator estimate of 6% of payroll. Get at least three carrier quotes and ask about the safety-program premium discount of up to 5%.",
+      "cite": "Va. Workers' Compensation Commission Employer FAQs",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PAYROLL",
+      "priority": "MEDIUM",
+      "task": "Hire cook, housekeeping and activity staff at local wages",
+      "instructions": "The models use the Richmond BLS food preparation and serving group mean ($18.03/hour) for cooks and dietary staff and the personal care and service mean ($18.47/hour) for activity aides. These are broad group means used as proxies, so verify pay in your local market.",
+      "cite": "BLS OEWS May 2025, Richmond MSA",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "CRITICAL",
+      "task": "Write admission criteria and a level-of-care policy",
+      "instructions": "Residential living care is for residents who need only minimal ADL assistance; assisted living care is for those who need at least moderate assistance. Define who you will and will not admit, when a resident must move out, and how you will reassess. Residents must be adults aged 18 or older.",
+      "cite": "22VAC40-73 (definitions); 22VAC40-73-310 E",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "CRITICAL",
+      "task": "Require a physical examination within 30 days before admission",
+      "instructions": "Within the 30 days preceding admission, a person must have a physical examination. Add this to your admission packet and reject files with older exams. Keep the report in the resident record.",
+      "cite": "22VAC40-73-320 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "HIGH",
+      "task": "Draft the resident agreement, fee schedule and insurance disclosure",
+      "instructions": "The amendments require every ALF to maintain a minimum amount of liability insurance and give notice of it on request. The proposed rule also ties the insurance amount to disclosure and resident agreements. Have an attorney draft the agreement, covering base fee, care add-ons, refunds, discharge and your liability coverage statement. Mention the Auxiliary Grant only if you accept it.",
+      "cite": "22VAC40-73-45; Register Vol. 43 Iss. 1",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "CRITICAL",
+      "task": "Set up the major-incident reporting procedure",
+      "instructions": "Report major resident incidents to the regional licensing office within 24 hours, then follow with a written report within 7 days. Post the regional office phone number at the nurses' station, assign who calls, and keep an incident log.",
+      "cite": "22VAC40-73-70 A",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "HIGH",
+      "task": "Choose an eMAR / resident documentation system",
+      "instructions": "The models carry $150 to $600 a month for eMAR and documentation software, an operator estimate. The Virginia EVV rule (12VAC30-60-65) covers personal care, respite and companion services, and no EVV requirement for ALF services was confirmed. Ask DMAS before buying EVV.",
+      "cite": "12VAC30-60-65",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "HIGH",
+      "task": "Write a medication management and review policy",
+      "instructions": "Assisted living care residents need a licensed health professional's review of all medications every six months. Set up who can administer medications under your policy, how staff are trained, and how reviews are scheduled and documented.",
+      "cite": "22VAC40-73-690 B",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, ADMISSIONS & RESIDENT CARE",
+      "priority": "MEDIUM",
+      "task": "Prepare a memory care addendum if you will accept cognitive impairment",
+      "instructions": "VDSS says memory care adds more than $1,000 a month to cost. Staffing must be two awake direct care staff per building for mixed populations that include serious cognitive impairment. Price the add-on to cover the extra post of about 730 staff hours a month.",
+      "cite": "22VAC40-73-1020 A; DOLP flyer",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "CRITICAL",
+      "task": "Decide whether you will accept Auxiliary Grant residents, and how many beds",
+      "instructions": "The AG is an income supplement for SSI recipients and certain aged, blind or disabled people living in a VDSS-licensed ALF. It is paid to the individual monthly and combined with part of their income to pay the facility up to a maximum rate. Not every ALF accepts it. About 210 providers accept AG and beds are limited (undated flyer). Model results: 12-bed home with 25% AG loses about $6,731/month; 20-bed with 15% AG nets about $12,792; 40-bed with 20% AG nets about $21,182. Run the numbers for your own mix first.",
+      "cite": "VDSS Auxiliary Grants page; Va. Code Title 51.5, Ch. 14, Art. 9",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "CRITICAL",
+      "task": "Use the correct 2026 AG rate and personal needs allowance",
+      "instructions": "Effective Jan. 1, 2026 the maximum AG facility rate is $2,130/month statewide (from $2,103) and $2,450 in Planning District 8 (Northern Virginia). The personal needs allowance stays at $87/month. The Joint Commission on Health Care found the AG rate insufficient to cover assisted living cost.",
+      "cite": "VDSS AG rate letter, Nov. 10, 2025",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "HIGH",
+      "task": "Do not bank on proposed AG increases until they are enacted",
+      "instructions": "HB30 member-request amendments would raise the AG rate to $2,500 and the personal needs allowance to $115, and introduced language would base rates on 85% occupancy of licensed capacity. None was verified as enacted in the final 2026 Appropriation Act. Re-check the budget before you change your rate assumptions.",
+      "cite": "HB30 Item 332 #1h and #3h",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "HIGH",
+      "task": "Learn the AG application process and eligibility rules so you can guide families",
+      "instructions": "Local departments of social services have 45 days to process AG applications. Applicants must have assets under $2,000 (individual) or $3,000 (couple) and must have lived in Virginia voluntarily for at least 90 days. DARS says AG space is limited. AG is funded 80% by the state and 20% locally and administered by DARS. Expect payment delays during processing and plan for them.",
+      "cite": "DARS Auxiliary Grant page",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "MEDIUM",
+      "task": "Understand how SSI relates to AG residents' income",
+      "instructions": "The 2026 SSI federal benefit rate for an individual is $994/month after a 2.8% COLA. It is context for low-income residents' income and is not paid to the facility. The grant and a designated portion of the resident's income together make up the AG facility payment, and the resident keeps the personal needs allowance.",
+      "cite": "SSA 2026 COLA Fact Sheet",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "HIGH",
+      "task": "Treat Medicaid (CCC Plus / Cardinal Care) as unconfirmed for ALF revenue",
+      "instructions": "CCC Plus is a Medicaid managed long-term services and supports program run through contracted managed care organizations. DMAS publishes no ALF rate schedule. A secondary guide says Virginia's Medicaid manual does not treat ALFs as Medicaid long-term care facilities and that the CCC Plus waiver is not a payment source for assisted living; the primary manual text was not verified. Ask DMAS and your target MCOs in writing before you model any Medicaid ALF revenue.",
+      "cite": "DMAS CCC Plus page; DMAS waivers page",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "MEDIUM",
+      "task": "Enroll in DMAS PRSS only if you will bill Medicaid for covered services",
+      "instructions": "All providers must enroll and revalidate directly with DMAS through the PRSS portal, and MCOs may not contract with providers who are not enrolled. The application fee is not required if you already paid it to another state Medicaid or Medicare program. A $750 CY2026 federal fee figure comes from a secondary source and was not verified for ALFs. Helpdesk: 804-270-5105 or 888-829-5373.",
+      "cite": "DMAS MES Portal; Provider Enrollment User Guide (May 2026)",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "MEDIUM",
+      "task": "If you also run home-based personal care, set up EVV",
+      "instructions": "EVV applies to all agency-directed and consumer-directed providers of personal care, respite and companion services. DMAS says Virginia is a Provider Choice state, so you may use any compliant system. The live-in caregiver EVV exemption ends Oct. 1, 2026. FFS personal care rate S5126 is $17.97 (NOVA) and $13.88 (rest of state) from July 1, 2025. These are not ALF rates.",
+      "cite": "12VAC30-60-65; DMAS bulletin 10/1/2026",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "HIGH",
+      "task": "Build referral relationships for private-pay residents",
+      "instructions": "VDSS states ALF services are mostly private pay. No referral-source data or waiting-list counts were found, so build your own pipeline. Introduce the facility to local hospital discharge planners, physicians, senior placement agencies and area agencies on aging. The models carry $100 per resident per month for placement fees as an operator estimate.",
+      "cite": "DOLP ALF overview flyer",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: AUXILIARY GRANT, PRIVATE PAY & MEDICAID",
+      "priority": "MEDIUM",
+      "task": "Size your market using population growth data",
+      "instructions": "UVA's Weldon Cooper Center projects that about 1 in 5 Virginians will be over 65 by 2030. Use this as demand context only. Pull county-level 65+ counts and compare them to licensed ALF capacity near you through DSS's facility search.",
+      "cite": "Weldon Cooper Center population projections",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Confirm license issuance in writing and post it",
+      "instructions": "Do not open until DSS confirms the license and you have your final capacity and level of care in writing. Keep a copy with your records and review any license conditions with your administrator.",
+      "cite": "22VAC40-73",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Post required workplace notices",
+      "instructions": "Post the 2026 Virginia Minimum Wage Poster from DOLI where employees can see it. Check DOLI's site for other required workplace postings.",
+      "cite": "2026 Virginia Minimum Wage Poster",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Schedule annual fire official inspections and AED maintenance",
+      "instructions": "Compliance with the Statewide Fire Prevention Code is verified by at least an annual fire official inspection. Keep the report on file. The AED must be maintained and staff trained before any license renewal.",
+      "cite": "22VAC40-73-940 A; HB 1522",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Calendar your license renewal",
+      "instructions": "Renewals do not go through VELA. Unpaid sanction fines must be paid before renewal. No fee is required for a renewal submitted at the end of a conditional licensure period. The renewal fee amount and renewal deadline were not verified, so ask DOLP and put the due date on your calendar well ahead.",
+      "cite": "Initial Application, Part 4; VELA page",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Track rule changes and implement them on time",
+      "instructions": "Review DOLP memos and the Virginia Register regularly. Items to watch: 22VAC40-73 amendments effective Nov. 4, 2026, the pending periodic review of 22VAC40-73, the 22VAC40-160 fee review, the 2026 legislative exempt action, final adoption of the liability tiers, and SB 409 timing.",
+      "cite": "Register Vol. 43 Iss. 4; Town Hall Review 2667",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Report administrator changes within 14 days",
+      "instructions": "Notify the regional licensing office in writing within 14 days of any change in the facility's administrator. Confirm the new person's Board license or temporary practice authorization before they start, and track the 150-day acting administrator cap.",
+      "cite": "22VAC40-73-150 B.1, B.6",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Give required notice if you ever sell or close",
+      "instructions": "Give the regional office written notice no less than 60 days before a planned sale or voluntary closure. Plan resident relocation and record transfers during this window.",
+      "cite": "22VAC40-73-40 D.1",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review the pro forma against actual results every quarter",
+      "instructions": "Compare actual occupancy, wages, insurance and rent to the model. Watch the breakeven occupancy for your configuration (20-bed private pay 64.4%; 12-bed private pay 80.1%) and adjust pricing or staffing before cash runs short. Re-check wages when the state minimum rises on Jan. 1, 2027 under the secondary-reported schedule.",
+      "cite": "Pro forma model; DOLI minimum wage",
+      "source_id": "S26"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Tier II–IV liability amounts were described as not captured or unconfirmed",
+      "change": "Listed all four per-occurrence tiers effective 9/23/2026 in opex[4].notes, key_numbers[3], the narrative sections, the 40-bed configuration notes and not_claimed[2]. Noted that the 40-bed building is Tier II at $400,000."
+    },
+    {
+      "issue": "$18,180 average premium used as tier-specific; '17 respondents' unverified",
+      "change": "Relabeled $1,515/$2,500 monthly premiums as placeholders in opex notes, startup_costs[11] and every configuration override. Dropped the respondent count. Monthly values were left unchanged pending broker quotes."
+    },
+    {
+      "issue": "CPR/first aid rule misstated",
+      "change": "Rewrote the operations bullet: CPR is required for one staff person per building at all times with no alternative, first aid is satisfied by staff or on-duty RN/LPN/EMT/first responder/paramedic, direct care staff need first aid within 60 days, and certifications are posted. The checklist task text was not provided, so checklist[i] was not patched."
+    },
+    {
+      "issue": "Wages are broad group means; RN/LPN, administrator and office wages unsourced",
+      "change": "Clarified the proxy limits in operations and the financial narrative. Added not_claimed[20] and a recommendation to re-test margins. Wage values were left unchanged."
+    },
+    {
+      "issue": "Missing medication-aide, call-system and emergency-preparedness costs",
+      "change": "Appended three startup_costs lines with $0 placeholders marked as unverified. Added requirements to licensing_pathway and operations, and added not_claimed[21]."
+    },
+    {
+      "issue": "AG and PNA increases described as 'not verified as enacted' without checking the 2026 Appropriation Act",
+      "change": "Revised rates[0] and rates[2] notes and not_claimed[1] to say the Act outcome and later rate letters were not checked. No rates were changed."
+    },
+    {
+      "issue": "Minimum wage steps described as secondary-source only",
+      "change": "Stated $13.75 (1/1/2027) and $15.00 (1/1/2028) as enacted under HB1/SB1, signed April 9, 2026. Updated key_numbers[10], market_conditions, risks and not_claimed[13]."
+    },
+    {
+      "issue": "Cognitive-impairment staffing exception and memory-care ratios omitted",
+      "change": "Added the 10-bed/3-resident exception and the unit night ratios to key_numbers[4], service_model, operations and the 6-bed configuration notes."
+    },
+    {
+      "issue": "Acting administrator limits incomplete",
+      "change": "Rewrote licensing_pathway step 7 with the 90/150-day limits, 30-day extension, twice-per-two-years cap, immediate Board notice and 10-day AIT filing."
+    },
+    {
+      "issue": "Bedroom requirements incomplete",
+      "change": "Added floor-area, ceiling and window minimums to licensing_pathway step 3."
+    },
+    {
+      "issue": "Emergency power, food, lighting and training requirements missing",
+      "change": "Added them to licensing_pathway and operations, plus the startup_costs[16] placeholder."
+    },
+    {
+      "issue": "SB 677 food-regulation exemption and SB 409 monitoring policy not mentioned",
+      "change": "Added to startup_costs[3].notes, licensing_pathway, operations and not_claimed[23]."
+    },
+    {
+      "issue": "$6,512 and $6,000 private-pay benchmarks mislabeled",
+      "change": "Labeled $6,512 as a private one-bedroom community rate in rates[4] and key_numbers[8]. Dated the VDSS $6,000 flyer to about 2024 in rates[5]."
+    },
+    {
+      "issue": "No Paid Family and Medical Leave cost",
+      "change": "Noted in payroll_burden.notes and not_claimed[22] that its status was not verified and no cost is modeled."
+    },
+    {
+      "issue": "Checklist tasks cited by findings",
+      "change": "The checklist item text was not supplied, so no patches were made to fees_and_timelines_in_checklist. The corrected wording is in the sections, key_numbers and not_claimed fields."
+    }
+  ]
+}

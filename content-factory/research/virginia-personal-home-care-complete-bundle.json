@@ -1,0 +1,2013 @@
+{
+  "bundle_slug": "virginia-personal-home-care-complete-bundle",
+  "state": "Virginia",
+  "state_code": "VA",
+  "program": "Personal Home Care",
+  "state_program_name": "Home Care Organization (HCO) license for personal care services, issued by VDH Office of Licensure and Certification under 12VAC5-381; Medicaid agency-directed personal care through the DMAS CCC Plus (CCC+) Waiver",
+  "as_of": "2026-10",
+  "report_title": "Virginia Home Care Organization (Personal Care) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Code of Virginia Article 7.1 — Home Care Organization Licensing (§§32.1-162.7 et seq.)",
+      "publisher": "Virginia General Assembly (LIS)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title32.1/chapter5/article7.1/",
+      "type": "official",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "S2",
+      "title": "12VAC5-381 Regulations for the Licensure of Home Care Organizations (chapter; definitions, 381-10, 381-40)",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincodefull/title12/agency5/chapter381/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "12VAC5-381-70 Fees",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section70/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "Fast-Track 12VAC5-381 amendment (HCO fee $1,500; three-year license), Vol. 41 Iss. 17",
+      "publisher": "Virginia Register of Regulations (DLS)",
+      "url": "https://register.dls.virginia.gov/details.aspx?id=11561",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "12VAC5-381 Part II (160 Governing body, 170 Administrator, 190 Financial controls)",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincodefull/title12/agency5/chapter381/partII/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "12VAC5-381-200 Personnel practices",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section200/",
+      "type": "official",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "S7",
+      "title": "12VAC5-381-150 Management and administration",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section150/",
+      "type": "official",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "S8",
+      "title": "12VAC5-381-210 Indemnity coverage",
+      "publisher": "Virginia Administrative Code (LIS)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section210/",
+      "type": "official",
+      "accessed": "2026-10-08"
+    },
+    {
+      "id": "S9",
+      "title": "VDH OLC Home Care Licensure Survey Checklist (undated guidance)",
+      "publisher": "Virginia Department of Health, Office of Licensure and Certification",
+      "url": "https://townhall.virginia.gov/L/GetFile.cfm?File=C%3A\\TownHall\\docroot\\GuidanceDocs\\601\\GDoc_VDH_4271_v3.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Register notice, 12VAC5-381 (agency contact), Vol. 41 Iss. 11",
+      "publisher": "Virginia Register of Regulations (DLS)",
+      "url": "https://register.dls.virginia.gov/details.aspx?id=11480",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "HCO Licensure Renewal Notice (2021)",
+      "publisher": "Virginia Department of Health, Office of Licensure and Certification",
+      "url": "https://www.vdh.virginia.gov/content/uploads/sites/96/2021/04/HCO-Renewal-Notice-21.03.31.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Home Care & Hospice — Licensure and Certification",
+      "publisher": "Virginia Department of Health",
+      "url": "https://www.vdh.virginia.gov/licensure-and-certification/division-of-acute-care-services/home-care-and-hospice/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "CCC Plus Waiver Provider Manual, Chapter II: Provider Participation (rev. 7/17/2025)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2025-07/CCC%20Plus%20Waiver%20Chapter%202%20(updated%207.17.25)_Final.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Annual Provider Staff Training Requirement, Agency-Directed Personal Care and Respite",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/annual-provider-staff-training-requirement-agency-directed-personal-care-and-respite",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Waiver Rate Updates Effective July 1, 2026",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/waiver-rate-updates-effective-july-1-2026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Personal Care Rate Updates Effective July 1, 2025 (T1019, T1005)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/personal-care-rate-updates-effective-july-1-2025",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Personal Care Rate Updates Effective July 1, 2025 (S5126 consumer-directed, PDF bulletin)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/vamed/download-pdf-bulletin/21841",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "CCC Plus Waiver rate file SFY2026",
+      "publisher": "Virginia DMAS",
+      "url": "https://www.dmas.virginia.gov/media/2xpfsq5o/cccplus_waiverweb-file-sfy2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Personal Care Rate Update Effective July 1, 2024",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/vamed/download-pdf-bulletin/21012",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "HB30 amendment 291#17h — 20%/5% rate increase, personal care, respite, companion (Member Request)",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://budget.lis.virginia.gov/amendment/2026/1/HB30/Introduced/MR/291/17h/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Electronic Visit Verification — Live-In Requirement Effective 10/1/2026",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/electronic-visit-verification-live-requirement-effective-1012026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "CCC Plus Waiver Provider Manual, Chapter IV (rev. 9/02/2026)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2026-09/CCC%20Plus%20Waiver%20chapter%204%20(updated%209.2.26)_Final.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "What's New in 2026? (SSI federal benefit rate)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/redbook/newfor2026.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Requirement of Application Fee, Provider Class Types 60/61 (CY2025 fee, CPI-U adjustment, exemption)",
+      "publisher": "Virginia DMAS",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/requirement-application-fee-provider-class-type-60-pharmacy-andor-provider-class-type-61",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Virginia Medicaid Provider Enrollment (CY2026 federal application fee $750)",
+      "publisher": "Starspmb (third-party)",
+      "url": "https://starspmb.com/virginia-medicaid-provider-enrollment/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Long-Term Care Costs in Virginia On Par with National Costs (2024 survey)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1002/long-term-care-costs-in-virginia-on-par-with-national-costs",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "CareScout Releases 2025 Cost of Care Survey Results",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1054/carescout-releases-2025-cost-of-care-survey-results",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Cost of Care Survey 2024 (methodology)",
+      "publisher": "Genworth / CareScout",
+      "url": "https://assets.carescout.com/cd5022ca64/131168.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Home Health and Personal Care Aides — Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Virginia Minimum Wage Rate Increasing Effective January 1, 2026",
+      "publisher": "Virginia Department of Labor and Industry",
+      "url": "https://doli.virginia.gov/2025/07/29/virginia-minimum-wage-rate-increasing-effective-january-1-2026/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "CCC Plus Waiver (target groups, agency/consumer model, LTSS screening)",
+      "publisher": "Virginia DMAS",
+      "url": "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/ccc-plus-waiver/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "CCC Plus Waiver Fact Sheet 2025 (56-hour personal care soft cap)",
+      "publisher": "Virginia DMAS",
+      "url": "https://dmas.virginia.gov/media/kali1um2/ccc-plus-waiver-fact-sheet-2025-english.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Waivers — Virginia Medicaid (no waiting list; 2027 proposed amendments)",
+      "publisher": "Virginia DMAS",
+      "url": "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Developmental Disability Waivers fact sheet 2026 (provider shortages)",
+      "publisher": "Virginia DBHDS",
+      "url": "https://dbhds.virginia.gov/wp-content/uploads/2026/01/Developmental-Disability-Waivers-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "QuickFacts: Virginia",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/VA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Home Health & Personal Care Aide Salary by State (BLS data, May 2025)",
+      "publisher": "CareSlink",
+      "url": "https://www.careslink.com/en/salary/home-health-aide",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "VDH OLC Releases New Licensing Application (online portal)",
+      "publisher": "Goodman Allen Donnelly",
+      "url": "https://www.goodmanallen.com/virginia-department-of-health-office-of-licensure-and-certification-releases-new-licensing-application/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Town Hall stage — Home Care Organization Regulations [12 VAC 5-381] (pending amendment)",
+      "publisher": "Virginia Regulatory Town Hall",
+      "url": "https://townhall.virginia.gov/L/viewstage.cfm?stageid=10626",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Virginia Medicaid Fee Schedule (SFY 2027) — 20% increase summary",
+      "publisher": "CheckMedicaid (third-party)",
+      "url": "https://checkmedicaid.com/virginia-medicaid-fee-schedule/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "HCO license application fee (initial and renewal); paid with the application, nonrefundable",
+      "value": "$1,500 per application (late renewal fee $50; reissuance/replacement $250)",
+      "source_id": "S3",
+      "as_of": "Effective May 22, 2025; checked 2026-10-14"
+    },
+    {
+      "metric": "HCO license term",
+      "value": "Expires on the third anniversary of issuance or renewal",
+      "source_id": "S1",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Filing lead time for initial application",
+      "value": "Completed application at least 60 days before planned opening; incomplete application goes inactive after six months",
+      "source_id": "S2",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Reserve operating funds required of initial applicant",
+      "value": "Funds sufficient to operate for the three-month period after the license is issued",
+      "source_id": "S5",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Mandatory insurance",
+      "value": "At least $1 million comprehensive general liability per occurrence, malpractice coverage, and $50,000 minimum crime insurance or blanket fidelity bond; lapse results in license revocation",
+      "source_id": "S8; S1",
+      "as_of": "2026"
+    },
+    {
+      "metric": "RN supervision of aides",
+      "value": "A DMAS-enrolled personal care agency must employ or subcontract and directly supervise a Virginia-licensed RN with at least one year of related clinical experience; VDH requires RN supervision for personal-care-only HCOs (12VAC5-381-360)",
+      "source_id": "S13; S9",
+      "as_of": "2025-07-17"
+    },
+    {
+      "metric": "Aide training (DMAS CCC Plus)",
+      "value": "Medicaid (DMAS CCC Plus): minimum 40-hour initial training program (or approved alternative) and at least 12 hours of training annually. VDH HCO personal-care rules (12VAC5-381, per 2011 Register text) likely also require at least 12 hours of annual in-service training for all home attendants, including private-pay aides; confirm in the current text on LIS.",
+      "source_id": "S13",
+      "as_of": "2025-07-17"
+    },
+    {
+      "metric": "Agency-directed personal care (T1019) DMAS rate, SFY2026; appears unchanged in the SFY2027 DD-waiver rate file (effective 7/1/2026)",
+      "value": "$23.81 Northern Virginia; $20.23 rest of state, per hour (confirm in the CCC Plus SFY2027 file)",
+      "source_id": "S16",
+      "as_of": "2025-07-01"
+    },
+    {
+      "metric": "Consumer-directed personal care (S5126) DMAS rate, SFY2026",
+      "value": "$17.97 Northern Virginia; $13.88 rest of state",
+      "source_id": "S17",
+      "as_of": "2025-07-01"
+    },
+    {
+      "metric": "Private-pay price benchmarks",
+      "value": "Virginia median home health aide $75,504 per year (Genworth 2024); national median non-medical caregiver $35 per hour (CareScout 2025)",
+      "source_id": "S26; S27",
+      "as_of": "2024 / 2025 surveys"
+    },
+    {
+      "metric": "Virginia minimum wage",
+      "value": "$12.77 per hour (Jan 1, 2026 to Jan 1, 2027); no employer-size exemption. Enacted steps: $13.75 on 1/1/2027 and $15.00 on 1/1/2028, then indexed annually (SB1/HB1 signed April 9, 2026).",
+      "source_id": "S30",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "EVV: live-in caregiver exemption ends; all agency-directed aides and consumer-directed attendants must use EVV",
+      "value": "Effective October 1, 2026 (EVV was already required for non-live-in aides)",
+      "source_id": "S21",
+      "as_of": "2026"
+    }
+  ],
+  "not_claimed": [
+    "The T1019 billing unit is per hour per the DMAS CCC Plus SFY2026 rate file. The code-to-unit mapping for T1005 and S5126 was only partly verified.",
+    "The CCC Plus SFY2027 (effective 7/1/2026) personal care rate file was not directly retrieved. DMAS's SFY2027 DD-waiver rate file lists T1019 at NOVA $23.81 and rest of state $20.23 per hour, unchanged from SFY2026, and the SFY2026 rates are modeled. Confirm the CCC Plus file and the MCO pass-through. Third-party implied figures (about $28.57 NOVA and $24.28 rest of state) are not verified.",
+    "Enactment and final terms of the 20% personal care/respite/companion increase effective July 1, 2026, the 5% increase on July 1, 2027, and the $20/hour agency pass-through requirement. The increase is not evidenced in the SFY2027 DD-waiver rate file; only the introduced member-request amendment [S20] and a secondary summary [S39] mention it.",
+    "Whether agency-directed personal care is paid fee-for-service or through Cardinal Care managed care plans for each CCC Plus member in 2026 was not confirmed. DMAS does require MCOs to pass FFS rate changes through at the same percentage [S15]. MCO contracting and credentialing steps, plan lists and member counts were not retrieved.",
+    "Numeric caregiver-to-client ratios, awake-overnight rules, maximum client or aide capacity, and administrator training-hour requirements for personal care agencies: none found in 12VAC5-381 or the DMAS manual. The only verified standards are 'sufficient qualified staff' [S6] and one year of health care experience for the administrator [S5].",
+    "OLC decision deadline for an initial license application. Only the 60-day pre-opening filing lead time is in the rule [S2]. A consultant claim of 'up to 60 days' processing is secondary and not relied on.",
+    "Initial on-site survey and administrator position details come from an undated VDH checklist [S9] and should be re-verified against the current rule.",
+    "Current OLC main phone number: a 2021 notice lists (804) 367-2102 [S11] and the 2025 Register lists (804) 875-1089 for the policy analyst [S10]. Confirm with OLC before use.",
+    "Content and effective date of the pending 12VAC5-381 amendment (undated Town Hall stage) [S38].",
+    "Certificate of Need: a vendor page claims it is required before licensure. This was not verified against an official source and is not claimed.",
+    "Zoning and siting rules beyond the general local-ordinance compliance clause in 12VAC5-381-160 [S5].",
+    "Whether a Virginia HCO is treated as an institutional provider subject to the CY2026 federal $750 application fee under DMAS rules. The $750 figure comes from a third-party source [S25], DMAS's own bulletin shows $730 for CY2025 [S24], and an older DMAS form lists $631. Confirm the fee in the DMAS PRSS portal.",
+    "Provider enrollment revalidation cycle (a third-party source reports at least every five years) and PRSS portal enrollment steps for home care agencies were not verified from DMAS primary sources.",
+    "Room and board, in-kind support and maintenance rules, and any Virginia SSI state supplement for personal care clients. Only the federal SSI benefit rate ($994 per month individual, 2026) is cited [S23].",
+    "CCC Plus income and asset limits ($2,982 per month and $2,000 in secondary sources) and CCC Plus enrollment or caseload counts. Not verified from an official DMAS or SSA page.",
+    "Official count of licensed HCOs in Virginia, market shares, competitor names, referral volumes, and occupancy or waiting-list data for personal care agencies. No official source found. DMAS describes the CCC Plus waiver as having no waiting list [S33].",
+    "Official BLS OEWS Virginia state tables for aides, CNAs, LPNs, RNs, cooks and managers. The Virginia aide median ($30,300 per year, $14.57 per hour) comes from a secondary site [S36] and conflicts with an older CareerOneStop 2024 figure ($14.03 per hour). Local metro wages were not retrieved.",
+    "Statutory text preempting local minimum wages was not verified. The 2027 ($13.75) and 2028 ($15.00) minimum wage steps are confirmed by the Governor's April 9, 2026 release (SB1/HB1), but the enacted bill text was not read.",
+    "Virginia unemployment tax components (new-employer 2.5% base plus add-ons) and the $8,000 wage base, workers' compensation premium rates and coverage thresholds, and entity fees (SCC $100 LLC filing, $50 annual registration). The Code and SCC schedules were not fetched directly.",
+    "Insurance premiums, commercial office rent for Virginia metros, EVV vendor/aggregator requirements and costs. These were not found in official sources and must be labeled 'operator estimate — verify locally' where modeled. HUD Fair Market Rent is a residential benchmark, not office rent.",
+    "Proposed 2027 CCC Plus policy changes (support brokers replacing services facilitation beginning March 1, 2027, with services facilitation ending May 31, 2027, and the employer-of-record changes) are proposals under public comment through October 17, 2026 [S33]. CMS approval was not confirmed.",
+    "Whether a companion-only business can operate without the HCO license is limited to what 12VAC5-381 states: providers of only homemaker, chore or companion services are outside the chapter [S2]. Any hands-on personal care triggers licensure.",
+    "Applicability and phase-in timing of Virginia paid sick leave (Va. Code §§40.1-33.3–.6 and SB199/HB5 signed 5/20/2026) to the agency's workforce, plus FLSA overtime and travel-time rules. The 7/1/2027 phase-in for employers with 50 or more employees comes from secondary sources. Confirm with DOLI, the U.S. DOL or counsel.",
+    "The 12-hour annual in-service requirement for all home attendants and the RN supervision cadence ('not to exceed 90 days' under 12VAC5-381-360) come from 2011 and 2017 text. The current section text was not retrieved. Confirm in 12VAC5-381 on LIS."
+  ],
+  "regulators": [
+    {
+      "name": "Virginia Department of Health — Office of Licensure and Certification (OLC), Home Care and Hospice Unit",
+      "role": "State licensure and inspection of home care organizations and hospice programs; initial and renewal HCO licenses",
+      "url": "https://www.vdh.virginia.gov/licensure-and-certification/division-of-acute-care-services/home-care-and-hospice/",
+      "phone": "(804) 875-1089 (OLC policy analyst per 2025 Register notice); 2021 notice lists (804) 367-2102 — confirm",
+      "email": "val.hornsby@vdh.virginia.gov",
+      "source_id": "S12"
+    },
+    {
+      "name": "Virginia Department of Medical Assistance Services (DMAS) — Provider Enrollment Services",
+      "role": "Medicaid provider enrollment for agency-directed personal care under the CCC Plus Waiver; requires proof of an active VDH HCO license (or accreditation) and an NPI",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2025-07/CCC%20Plus%20Waiver%20Chapter%202%20(updated%207.17.25)_Final.pdf",
+      "phone": "1-888-829-5373 (toll free); 1-804-270-5105 (local)",
+      "email": "VAMedicaidProviderEnrollment@gainwelltechnologies.com",
+      "source_id": "S13"
+    },
+    {
+      "name": "Virginia DMAS — Long-Term Care / EVV and rate setting",
+      "role": "CCC Plus waiver policy, agency-directed personal care rates, and Electronic Visit Verification requirements",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/electronic-visit-verification-live-requirement-effective-1012026",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    },
+    {
+      "name": "Virginia Department of Labor and Industry (DOLI)",
+      "role": "Virginia minimum wage administration",
+      "url": "https://doli.virginia.gov/2025/07/29/virginia-minimum-wage-rate-increasing-effective-january-1-2026/",
+      "phone": "",
+      "email": "",
+      "source_id": "S30"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Va. Code Title 32.1, Ch. 5, Art. 7.1 (§32.1-162.7 et seq.)",
+      "title": "Home Care Organization Licensing (license required; three-year term in §32.1-162.9; inspections; risk-based schedule in §32.1-162.10; insurance in §32.1-162.11; nurse supervision in §32.1-162.12)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title32.1/chapter5/article7.1/",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Va. Code §32.1-162.9:1",
+      "title": "Criminal record clearance for compensated employees (within 30 days of hire; barrier crimes; five-year misdemeanor exception)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title32.1/chapter5/article7.1/",
+      "source_id": "S1"
+    },
+    {
+      "cite": "12VAC5-381 (chapter)",
+      "title": "Regulations for the Licensure of Home Care Organizations (includes 381-10 definitions and exemption for homemaker/chore/companion-only providers)",
+      "url": "https://law.lis.virginia.gov/admincodefull/title12/agency5/chapter381/",
+      "source_id": "S2"
+    },
+    {
+      "cite": "12VAC5-381-40",
+      "title": "License application (60-day pre-opening filing; incomplete application inactive after six months)",
+      "url": "https://law.lis.virginia.gov/admincodefull/title12/agency5/chapter381/",
+      "source_id": "S2"
+    },
+    {
+      "cite": "12VAC5-381-70",
+      "title": "Fees ($1,500 initial/renewal; $50 late; $250 reissuance; $75 exemption request)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section70/",
+      "source_id": "S3"
+    },
+    {
+      "cite": "12VAC5-381-150",
+      "title": "Management and administration (posted business hours; 24/7 on-call)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section150/",
+      "source_id": "S7"
+    },
+    {
+      "cite": "12VAC5-381-160, -170, -190",
+      "title": "Governing body (local ordinance compliance); Administrator qualifications; Financial controls (three-month reserve)",
+      "url": "https://law.lis.virginia.gov/admincodefull/title12/agency5/chapter381/partII/",
+      "source_id": "S5"
+    },
+    {
+      "cite": "12VAC5-381-200",
+      "title": "Personnel practices (staffing plan; qualified staff in sufficient numbers)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section200/",
+      "source_id": "S6"
+    },
+    {
+      "cite": "12VAC5-381-210",
+      "title": "Indemnity coverage ($1M general liability per occurrence; malpractice; $50,000 crime/fidelity)",
+      "url": "https://law.lis.virginia.gov/admincode/title12/agency5/chapter381/section210/",
+      "source_id": "S8"
+    },
+    {
+      "cite": "12VAC5-381-360",
+      "title": "Personal care services (RN supervision of personal-care-only HCOs, per VDH guidance)",
+      "url": "https://townhall.virginia.gov/L/GetFile.cfm?File=C%3A\\TownHall\\docroot\\GuidanceDocs\\601\\GDoc_VDH_4271_v3.pdf",
+      "source_id": "S9"
+    },
+    {
+      "cite": "DMAS CCC Plus Waiver Provider Manual, Ch. II",
+      "title": "Provider participation requirements (license/accreditation, NPI, RN supervisor, 40-hour aide training, 12 hours annual training)",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2025-07/CCC%20Plus%20Waiver%20Chapter%202%20(updated%207.17.25)_Final.pdf",
+      "source_id": "S13"
+    },
+    {
+      "cite": "DMAS CCC Plus Waiver Provider Manual, Ch. IV (rev. 9/02/2026)",
+      "title": "Covered services and documentation (DMAS-97A/B plan of care; DMAS-90 completed same day)",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2026-09/CCC%20Plus%20Waiver%20chapter%204%20(updated%209.2.26)_Final.pdf",
+      "source_id": "S22"
+    },
+    {
+      "cite": "DMAS EVV bulletin, effective 10/1/2026",
+      "title": "Electronic Visit Verification — live-in requirement (F/EA mobile app or IVR; website portal not compliant)",
+      "url": "https://vamedicaid.dmas.virginia.gov/bulletin/electronic-visit-verification-live-requirement-effective-1012026",
+      "source_id": "S21"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Virginia Medicaid — CCC Plus Waiver, agency-directed",
+      "code": "T1019",
+      "service": "Personal care, agency-directed — Northern Virginia",
+      "rate": 23.81,
+      "unit": "per hour (DMAS CCC Plus SFY2026 rate file, 'Hour')",
+      "effective": "2025-07-01 (appears unchanged for SFY2027; confirm in the CCC Plus SFY2027 rate file)",
+      "notes": "SFY2026 rate. DMAS's SFY2027 (effective 7/1/2026) DD-waiver rate file still lists T1019 NOVA at $23.81 per hour, unchanged, so the rate appears to remain in effect after 7/1/2026. The CCC Plus SFY2027 file was not directly retrieved, so confirm with DMAS. The 20% personal care increase is not evidenced in the SFY2027 rate file, and its enactment is unverified. Prior year (7/1/2024) NOVA T1019 was $23.34 [S19].",
+      "source_id": "S16"
+    },
+    {
+      "payer": "Virginia Medicaid — CCC Plus Waiver, agency-directed",
+      "code": "T1019",
+      "service": "Personal care, agency-directed — rest of state",
+      "rate": 20.23,
+      "unit": "per hour (DMAS CCC Plus SFY2026 rate file, 'Hour')",
+      "effective": "2025-07-01 (appears unchanged for SFY2027; confirm in the CCC Plus SFY2027 rate file)",
+      "notes": "SFY2026 rate. It appears unchanged for dates of service on or after 7/1/2026: the DMAS SFY2027 DD-waiver rate file lists rest-of-state T1019 at $20.23 per hour. The CCC Plus SFY2027 file was not directly retrieved, so confirm before launch. MCOs must pass FFS percentage changes through [S15]. A 20% increase is not evidenced as enacted.",
+      "source_id": "S16"
+    },
+    {
+      "payer": "Virginia Medicaid — CCC Plus Waiver, agency-directed",
+      "code": "T1005",
+      "service": "Respite care, agency-directed — Northern Virginia",
+      "rate": 23.81,
+      "unit": "per hour (DMAS rate files)",
+      "effective": "2025-07-01 (appears unchanged for SFY2027; confirm)",
+      "notes": "SFY2026 rate. The SFY2027 DD-waiver rate file lists T1005 at NOVA $23.81 and rest of state $20.23 per hour, unchanged. The rest-of-state T1005 rate in the CCC Plus file was not extracted.",
+      "source_id": "S16"
+    },
+    {
+      "payer": "Virginia Medicaid — CCC Plus Waiver, consumer-directed",
+      "code": "S5126",
+      "service": "Personal care, consumer-directed — Northern Virginia",
+      "rate": 17.97,
+      "unit": "per hour (DMAS rate file labels the consumer-directed attendant rate 'Hour'; code-to-unit mapping not fully verified)",
+      "effective": "2025-07-01",
+      "notes": "SFY2026 rate. Consumer-directed rate pays an attendant employed by the member, not the agency model.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Virginia Medicaid — CCC Plus Waiver, consumer-directed",
+      "code": "S5126",
+      "service": "Personal care, consumer-directed — rest of state",
+      "rate": 13.88,
+      "unit": "per hour (label per DMAS rate file; mapping not fully verified)",
+      "effective": "2025-07-01",
+      "notes": "SFY2026 rate; SFY2027 update effective 7/1/2026 not retrieved.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Home health aide, Virginia statewide median",
+      "rate": 75504,
+      "unit": "per year (annual median cost; Genworth 2024 Cost of Care Survey)",
+      "effective": "2024 survey (published 2025-03-04)",
+      "notes": "Genworth publishes only the annual Virginia median home health aide cost ($75,504, 2024 survey; national $77,792) [S26][S28]. The $33.00 per hour used in the models is derived: $75,504 ÷ 2,288 hrs (44 hrs/wk × 52 wks), an operator assumption. The Virginia hourly rate was not published. This is a statewide figure, not a metro price. Test sensitivity at the 2025 national $35 per hour and at local competitor rates.",
+      "source_id": "S26"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Non-medical caregiver services, national median",
+      "rate": 35,
+      "unit": "per hour",
+      "effective": "2025 survey",
+      "notes": "National median up 3% year over year. Rates are collected at the MSA level and reflect median costs from provider-reported pricing. The Virginia figure was not confirmed.",
+      "source_id": "S27"
+    },
+    {
+      "payer": "Reference — SSI federal benefit rate (Medicaid eligibility context)",
+      "code": "",
+      "service": "SSI federal benefit rate, eligible individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Eligible couple is $1,491 per month. No Virginia state supplement verified.",
+      "source_id": "S23"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "VDH Office of Licensure and Certification (Home Care and Hospice Unit)",
+      "role": "HCO initial application, renewal and licensure questions; 9960 Mayland Drive, Suite 401, Henrico, VA 23233-1485",
+      "contact": "Policy analyst Val Hornsby: (804) 875-1089, val.hornsby@vdh.virginia.gov (2025 Register contact [S10]); main line (804) 367-2102 appears in a 2021 notice [S11] — confirm before use. Applications and payments go through the VDH OLC online portal unless staff advise otherwise [S37]."
+    },
+    {
+      "name": "DMAS Provider Enrollment Services",
+      "role": "Medicaid provider enrollment for CCC Plus agency-directed personal care",
+      "contact": "1-888-829-5373 (toll free); 1-804-270-5105 (local); VAMedicaidProviderEnrollment@gainwelltechnologies.com [S13]"
+    },
+    {
+      "name": "VDH Home Care & Hospice webpage",
+      "role": "Licensure guidance, forms and regulation references",
+      "contact": "https://www.vdh.virginia.gov/licensure-and-certification/division-of-acute-care-services/home-care-and-hospice/"
+    },
+    {
+      "name": "DMAS Waivers page",
+      "role": "CCC Plus waiver information, proposed 2027 amendments and public comment (through October 17, 2026)",
+      "contact": "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/"
+    },
+    {
+      "name": "Local Department of Social Services / LTSS screening team",
+      "role": "Entry point for CCC Plus LTSS screening; source of Medicaid referrals",
+      "contact": "Local DSS office or hospital screening team [S31]"
+    },
+    {
+      "name": "Virginia Department of Labor and Industry",
+      "role": "Minimum wage information",
+      "contact": "https://doli.virginia.gov/2025/07/29/virginia-minimum-wage-rate-increasing-effective-january-1-2026/"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "client",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.8,
+      "optimistic": 1.0,
+      "rationale": "Capacity is the active client census the office is sized for. Occupancy is the share of that census actually on service in a given month (hospitalizations, suspended cases, discharges, open shifts). The 90% default, 80% conservative and 100% optimistic values are operator assumptions — verify locally. No official Virginia occupancy or census data exists for personal care agencies (see not_claimed). DMAS describes the CCC Plus waiver as having no waiting list, which does not by itself show agency demand.",
+      "source_id": ""
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 3
+    },
+    "configurations": [
+      {
+        "id": "va_private20",
+        "label": "Private-pay personal care agency, 20 clients (owner-administrator, contract RN)",
+        "capacity": 20,
+        "notes": "Smallest realistic licensed start. The owner serves as administrator (at least 1 year of direct health care delivery experience plus supervisory/administrative experience within 5 years, 12VAC5-381-170 [S5]). A contract RN supervises aides, as VDH requires of personal-care-only HCOs [S9]. 100% private pay at the Virginia Genworth-derived price. Thin margin: the model is marginally profitable only if the owner takes a modest salary. Operator-estimate salaries and hours — verify locally.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay personal care (home health aide level)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 33.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S26"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (private pay)",
+            "wage_hourly": 16.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "12VAC5-381-200 (qualified staff in sufficient numbers)",
+            "notes": "Base is the Virginia aide median of $14.57/hour (BLS May 2025 as reproduced by CareSlink, secondary [S36]); the model adds about 10% to compete for aides in private pay (operator estimate). It is above the $12.77 state minimum wage [S30]. Hours = 80 billable hours per client-month plus 4% paid non-billable time (travel, training). The 80 hours and the 4% are operator estimates — verify locally. At 60 billable hours per client the default-size private model still profits, but less (see private40 notes)."
+          },
+          {
+            "role": "Administrator (owner; at least 1 yr direct care experience plus supervisory/administrative experience in the last 5 yrs)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "",
+            "cite": "12VAC5-381-170; 12VAC5-381-150",
+            "notes": "Operator estimate — verify locally; the BLS Virginia manager wage was not retrieved. The administrator must be a direct employee, and may also serve as the nursing/clinical director only if dually qualified [S2]. The agency must keep posted business hours and arrange 24/7 on-call coverage [S7], which this salary has to cover."
+          },
+          {
+            "role": "Contract RN supervisor of aides (about 40 hours/month)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 40,
+            "cite": "12VAC5-381-360 (per VDH guidance [S9]); Va. Code §32.1-162.12; DMAS CCC Plus Manual Ch. II [S13]",
+            "notes": "A Virginia-licensed RN, with at least 1 year of related clinical experience if the agency later enrolls with DMAS [S13], supervises aides. Nurse supervision may use interactive audio/video [S1]. $45/hour is an operator estimate (secondary Virginia RN median $93,600/year ÷ 2,080 hours; official BLS state table not retrieved). The hours are an operator estimate — verify locally."
+          },
+          {
+            "role": "Scheduler / intake coordinator (0.5 FTE)",
+            "wage_hourly": 18.27,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 86.67,
+            "cite": "",
+            "notes": "Operator estimate — verify locally; the BLS Virginia administrative wage was not retrieved."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (fixed; sized per configuration)",
+            "monthly": 1000,
+            "notes": "About 400–600 sq ft of small office or shared space. Operator estimate — verify locally; HUD Fair Market Rent is a residential benchmark, not office rent."
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+            "monthly": 450,
+            "notes": "Operator estimate. Rule minimums are $1M general liability per occurrence, malpractice coverage and $50,000 crime/fidelity [S8]. Get quotes."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1200,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 300,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate — verify locally."
+        }
+      },
+      {
+        "id": "va_private40",
+        "label": "Private-pay personal care agency, 40 clients (administrator, part-time RN, scheduler)",
+        "capacity": 40,
+        "notes": "The configuration an experienced operator would choose in Virginia. Private pay only, a full-time administrator, a contract RN supervisor and one scheduler/intake coordinator. It avoids the thin Medicaid rate and the Medicaid billing and EVV overhead. Private price = Virginia median home health aide cost of $75,504 per year [S26] ÷ 2,288 hours (44 hours/week × 52 weeks, the Genworth/CareScout convention; the quotient is exactly $33.00 — verify in survey methodology [S28]). The 2024 survey measures the standard hourly private rate for home health aide services, and the figure is statewide rather than metro-specific. It sits below the CareScout 2025 national median of $35 per hour for non-medical caregivers [S27]. At $30/hour (a discount sensitivity) this configuration still earns a profit, about 8–9% of revenue. All hours, salaries and RN time are operator estimates — verify locally.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay personal care (home health aide level)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 33.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S26"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (private pay)",
+            "wage_hourly": 16.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "12VAC5-381-200 (qualified staff in sufficient numbers)",
+            "notes": "Base is the Virginia aide median of $14.57/hour (BLS May 2025 as reproduced by CareSlink, secondary [S36]; an older CareerOneStop 2024 figure was $14.03). The model adds about 10% to compete in private pay (operator estimate). It is above the $12.77 state minimum wage in effect for 2026 [S30], which has no employer-size exemption. Hours = 80 billable hours per client-month plus 4% paid non-billable time. The 80 hours and the 4% are operator estimates — verify locally. Sensitivity: at 60 billable hours per client-month this configuration still earns roughly $7,000 per month at 90% census."
+          },
+          {
+            "role": "Administrator (at least 1 yr direct care experience plus supervisory/administrative experience in the last 5 yrs)",
+            "basis": "annual_salary",
+            "amount": 60000,
+            "wage_source_id": "",
+            "cite": "12VAC5-381-170; 12VAC5-381-150",
+            "notes": "Operator estimate — verify locally; the BLS Virginia manager wage was not retrieved. The administrator must be a direct employee [S2]. The agency must keep posted business hours and 24/7 on-call coverage [S7]."
+          },
+          {
+            "role": "Contract RN supervisor of aides (about 60 hours/month)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 60,
+            "cite": "12VAC5-381-360 (per VDH guidance [S9]); Va. Code §32.1-162.12; DMAS CCC Plus Manual Ch. II [S13]",
+            "notes": "$45/hour is an operator estimate (secondary Virginia RN median $93,600/year ÷ 2,080 hours). The hours are an operator estimate — verify locally. If the administrator is also a qualified RN, the dual role is allowed [S2], which would save most of this line."
+          },
+          {
+            "role": "Scheduler / intake and billing coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate — verify locally. Handles scheduling, on-call coordination, client invoicing and payroll data."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "va_private60",
+        "label": "Private-pay personal care agency, 60 clients (administrator, RN at ~100 hours/month, 2 coordinators)",
+        "capacity": 60,
+        "notes": "A larger private-pay agency with more RN oversight and two office coordinators. Margin stays similar to the 40-client agency; the gain is dollar profit, and it needs a stronger referral engine (hospital discharge planners, senior living, elder-law attorneys, online leads). Operator estimates throughout — verify locally.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay personal care (home health aide level)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 33.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S26"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (private pay)",
+            "wage_hourly": 16.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "12VAC5-381-200 (qualified staff in sufficient numbers)",
+            "notes": "Base is the Virginia aide median of $14.57/hour (secondary [S36]) plus about 10% (operator estimate); above the $12.77 state minimum wage [S30]. 80 billable hours per client-month plus 4% paid non-billable time (operator estimates — verify locally)."
+          },
+          {
+            "role": "Administrator (at least 1 yr direct care experience plus supervisory/administrative experience in the last 5 yrs)",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "wage_source_id": "",
+            "cite": "12VAC5-381-170; 12VAC5-381-150",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "role": "RN supervisor of aides (about 100 hours/month)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 100,
+            "cite": "12VAC5-381-360 (per VDH guidance [S9]); Va. Code §32.1-162.12; DMAS CCC Plus Manual Ch. II [S13]",
+            "notes": "$45/hour is an operator estimate (secondary Virginia RN median ÷ 2,080 hours). The hours are an operator estimate — verify locally. RN supervision may use interactive audio/video [S1]."
+          },
+          {
+            "role": "Scheduler / intake and billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 76000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate ($38,000 × 2) — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (fixed; sized per configuration)",
+            "monthly": 2500,
+            "notes": "About 1,000–1,200 sq ft. Operator estimate — verify locally."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 400,
+            "notes": "Operator estimate — get vendor quotes."
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+            "monthly": 800,
+            "notes": "Operator estimate. Rule minimums per [S8]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1000,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 2500,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 500,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator CE and in-service materials",
+            "monthly": 200,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "va_mixed60",
+        "label": "Mixed agency, 60 clients (50% private pay / 50% Medicaid CCC Plus agency-directed personal care)",
+        "capacity": 60,
+        "notes": "Half private pay and half DMAS agency-directed personal care (T1019) at the rest-of-state rate of $20.23 per hour [S16]. Requires a VDH HCO license, DMAS enrollment with an NPI and proof of license [S13], and an RN supervisor employed or subcontracted and directly supervised [S13]. EVV is already required for non-live-in Medicaid aides. From 10/1/2026 the live-in exemption ends and all agency-directed aides must use EVV [S21]. The billing unit is per hour per the DMAS CCC Plus SFY2026 rate file. DMAS's SFY2027 DD-waiver rate file (effective 7/1/2026) still lists T1019 at NOVA $23.81 and rest of state $20.23, so the rate appears unchanged. The CCC Plus SFY2027 file was not directly retrieved, so confirm. A 20% increase appears only in an introduced budget amendment [S20] and a secondary summary [S39] and is not evidenced in the SFY2027 file; it is not modeled. The result is roughly break-even at $20.23. If a 20% increase were confirmed (unverified; about $24.28), this mix would earn about $5,000–6,000 more per month. The minimum wage steps ($13.75 on 1/1/2027, $15.00 on 1/1/2028) are enacted. The modeled $14.57 Medicaid aide wage is lawful only through 2027. From 1/1/2028 a $15.00 wage would lower monthly net by about $1,100 at 90% census (not rerun in the model). Operator estimates throughout.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay personal care (home health aide level)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 33.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 0.5,
+            "source_id": "S26"
+          },
+          {
+            "name": "Medicaid CCC Plus agency-directed personal care, rest of state (T1019)",
+            "payer": "Virginia Medicaid (CCC Plus waiver)",
+            "code": "T1019",
+            "rate": 20.23,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 0.5,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (private-pay half)",
+            "wage_hourly": 16.0,
+            "wage_source_id": "S36",
+            "basis": "hours_per_client_month",
+            "amount": 41.6,
+            "cite": "12VAC5-381-200 (qualified staff in sufficient numbers)",
+            "notes": "Base is the Virginia aide median of $14.57 (secondary [S36]) plus about 10% (operator estimate). Hours = 83.2 per client-month × 50% private share (80 billable hours plus 4% non-billable; operator estimates — verify locally)."
+          },
+          {
+            "role": "Personal care aides (Medicaid half)",
+            "wage_hourly": 14.57,
+            "wage_source_id": "S36",
+            "basis": "hours_per_client_month",
+            "amount": 41.6,
+            "cite": "DMAS CCC Plus Manual Ch. II [S13]; 12VAC5-381-200",
+            "notes": "Virginia aide median of $14.57/hour (secondary [S36]); above the $12.77 minimum wage in 2026 [S30]. Aides need a minimum 40-hour initial training program (or an approved alternative) and 12 hours of annual training [S13]. Medicaid-funded aides cannot be paid from the private-pay premium. Hours = 83.2 × 50% Medicaid share. The minimum wage schedule is enacted (SB1/HB1 signed April 9, 2026, per the Governor's release): $13.75 on 1/1/2027 and $15.00 on 1/1/2028, then indexed annually. A $14.57 wage is lawful in 2026 and 2027 but below the legal minimum from 1/1/2028. From then Medicaid aide pay must be at least $15.00, about 3% higher, adding roughly $0.51 per paid hour including burden, or about $1,100 per month at 90% census (not rerun in the model). Any Medicaid aide pay below $15.00 from 1/1/2028 would be a legal violation."
+          },
+          {
+            "role": "Administrator (at least 1 yr direct care experience plus supervisory/administrative experience in the last 5 yrs)",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "wage_source_id": "",
+            "cite": "12VAC5-381-170; 12VAC5-381-150",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "role": "RN supervisor of aides (about 140 hours/month)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 140,
+            "cite": "DMAS CCC Plus Manual Ch. II [S13]; 12VAC5-381-360 (per VDH guidance [S9])",
+            "notes": "DMAS requires the provider to employ (or subcontract) and directly supervise an RN, Virginia-licensed with at least 1 year of related clinical experience, who provides ongoing supervision of all aides [S13]. $45/hour is an operator estimate; the hours are an operator estimate — verify locally."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 76000,
+            "wage_source_id": "",
+            "cite": "DMAS EVV requirement effective 10/1/2026 [S21]; DMAS-90 same-day documentation [S22]",
+            "notes": "Operator estimate ($38,000 × 2). Handles scheduling, EVV maintenance, DMAS-97A/B plans of care and DMAS-90 documentation [S22], and Medicaid claims. Staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (fixed; sized per configuration)",
+            "monthly": 2500,
+            "notes": "About 1,000–1,200 sq ft. Operator estimate — verify locally."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 600,
+            "notes": "Operator estimate for scheduling plus an EVV-capable system. The EVV vendor and aggregator requirements were not verified from DMAS — get quotes."
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+            "monthly": 800,
+            "notes": "Operator estimate. Rule minimums per [S8]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1200,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 2000,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 500,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator CE and in-service materials",
+            "monthly": 200,
+            "notes": "Operator estimate. Includes DMAS aide training (40-hour initial, 12 hours annually) [S13]."
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 19.8,
+            "notes": "Per client; 1.5% of $2,640 × 50% private-pay share. Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate. Medicaid referrals come through LTSS screening and member choice [S31]."
+        }
+      },
+      {
+        "id": "va_medicaid100",
+        "label": "Medicaid agency-directed personal care agency, 100 clients (CCC Plus T1019 only, rest of state)",
+        "capacity": 100,
+        "notes": "All clients on DMAS agency-directed personal care (T1019) at the rest-of-state rate of $20.23 per hour [S16] (unit per the DMAS CCC Plus SFY2026 rate file). Shown to demonstrate that a Medicaid-only agency does not cover its required RN, administrator and office staff at this rate: per-client contribution is only about $120 per month after aide pay, burden and per-client costs. DMAS's SFY2027 DD-waiver rate file (effective 7/1/2026) still lists T1019 at NOVA $23.81 and rest of state $20.23, so the rate appears unchanged. The CCC Plus SFY2027 file was not directly retrieved [S15], so confirm. If a 20% increase were confirmed (about $24.28 per hour, an unverified third-party figure that is not evidenced in the SFY2027 file or as enacted [S20]), this configuration would earn roughly $8,000–9,000 per month at 90% census. The Northern Virginia T1019 rate ($23.81 [S16]) is not modeled because no NOVA aide wage was retrieved. The weekly personal care soft cap is 56 hours [S32]; the 80 hours/month average is an operator estimate. The enacted $15.00 minimum wage from 1/1/2028 would lower monthly net by about $3,800 at 90% census versus the modeled $14.57 wage (not rerun).",
+        "revenue_lines": [
+          {
+            "name": "Medicaid CCC Plus agency-directed personal care, rest of state (T1019)",
+            "payer": "Virginia Medicaid (CCC Plus waiver)",
+            "code": "T1019",
+            "rate": 20.23,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S16"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides (Medicaid)",
+            "wage_hourly": 14.57,
+            "wage_source_id": "S36",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "DMAS CCC Plus Manual Ch. II [S13]; 12VAC5-381-200",
+            "notes": "Virginia aide median of $14.57/hour (secondary [S36]); above the $12.77 minimum wage in 2026 [S30]. Aides must have a 40-hour initial program (or alternative) and 12 hours of annual training [S13]. Hours = 80 billable plus 4% non-billable (operator estimates — verify locally). The minimum wage steps are enacted (SB1/HB1 signed April 9, 2026): $13.75 on 1/1/2027 and $15.00 on 1/1/2028, then indexed annually. A $14.57 wage is lawful in 2026 and 2027 but below the legal minimum from 1/1/2028. From then Medicaid aide pay must be at least $15.00, about 3% higher, which would cut monthly net by about $3,800 at 90% census (not rerun in the model)."
+          },
+          {
+            "role": "Administrator (at least 1 yr direct care experience plus supervisory/administrative experience in the last 5 yrs)",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "wage_source_id": "",
+            "cite": "12VAC5-381-170; 12VAC5-381-150",
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "role": "RN supervisor of aides (1 FTE, about 173 hours/month)",
+            "wage_hourly": 45.0,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 173.33,
+            "cite": "DMAS CCC Plus Manual Ch. II [S13]; 12VAC5-381-360 (per VDH guidance [S9])",
+            "notes": "DMAS requires an employed or subcontracted RN with direct supervision, Virginia license and at least 1 year of related clinical experience [S13]. $45/hour is an operator estimate (secondary Virginia RN median $93,600/year ÷ 2,080 hours). A full-time RN is an operator estimate for 100 Medicaid clients — verify locally."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 76000,
+            "wage_source_id": "",
+            "cite": "DMAS EVV requirement effective 10/1/2026 [S21]; DMAS-90 same-day documentation [S22]",
+            "notes": "Operator estimate ($38,000 × 2). Staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (fixed; sized per configuration)",
+            "monthly": 3000,
+            "notes": "About 1,500 sq ft. Operator estimate — verify locally."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 800,
+            "notes": "Operator estimate for scheduling, EVV and Medicaid billing — get vendor quotes."
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+            "monthly": 1200,
+            "notes": "Operator estimate. Rule minimums per [S8]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1000,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 600,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, administrator CE and in-service materials",
+            "monthly": 300,
+            "notes": "Operator estimate. Includes DMAS aide training [S13]."
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 0,
+            "notes": "No private-pay clients."
+          }
+        ],
+        "ramp": {
+          "start_clients": 5,
+          "add_per_month": 6,
+          "note": "Operator estimate."
+        }
+      }
+    ],
+    "default_configuration": "va_private40",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.095,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.03,
+      "notes": "Operator estimates — verify locally. Payroll tax of 9.5% = employer FICA of 7.65% plus Virginia new-employer unemployment (2.5% base plus add-ons on an $8,000 wage base per VEC and secondary payroll guides; the Code text and VEC rate notice were not fetched) and FUTA, spread over part-time aide wages. Workers' compensation is an operator estimate; Virginia is an advisory loss-cost state (NCCI proposed -7.7% for assigned risk effective 4/1/2026), and home care premiums vary by carrier and class code. Benefits at 3% are an operator estimate for paid time and training and should not be relied on to also cover Virginia paid sick leave. Va. Code §§40.1-33.3–.6 already requires 1 hour of paid sick leave per 30 hours worked (cap 40 hrs/yr) for covered home health workers, which by definition includes consumer-directed Medicaid workers. SB199/HB5 (signed 5/20/2026) extends paid sick leave to most employees, reportedly phasing in from 7/1/2027 for employers with 50 or more employees (secondary sources). The statutory accrual is about 3.3% of hours worked if it applies; confirm applicability and timing with DOLI or counsel. It is not separately modeled. Federal FLSA overtime and compensable inter-client travel time also apply to agency-employed aides (not verified here; confirm with the U.S. DOL). The total burden of 17.5% is applied to all wages.",
+      "source_id": ""
+    },
+    "opex": [
+      {
+        "item": "Office lease (fixed; sized per configuration)",
+        "monthly": 1800,
+        "basis": "fixed",
+        "notes": "About 700–900 sq ft of office space for the 40-client default. Operator estimate — verify locally; HUD Fair Market Rent is a residential benchmark, not commercial office rent. Vacant space still costs rent, so it is fixed.",
+        "source_id": ""
+      },
+      {
+        "item": "HCO license renewal ($1,500 per three-year term)",
+        "monthly": 41.67,
+        "basis": "fixed",
+        "notes": "$1,500 ÷ 36 months. The license expires on the third anniversary of issuance or renewal [S1]; late renewal adds $50 [S3].",
+        "source_id": "S3"
+      },
+      {
+        "item": "Virginia SCC annual LLC registration fee ($50/yr)",
+        "monthly": 4.17,
+        "basis": "fixed",
+        "notes": "$50 ÷ 12. Taken from secondary state-fee guides; the SCC schedule was not fetched. Virginia imposes no franchise tax specifically on LLCs (secondary source).",
+        "source_id": ""
+      },
+      {
+        "item": "Local business license / BPOL (varies by locality)",
+        "monthly": 20,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify with the city or county commissioner of revenue. 12VAC5-381-160 requires compliance with local ordinances [S5].",
+        "source_id": "S5"
+      },
+      {
+        "item": "Home care scheduling, billing and EVV-interface software (base)",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes. EVV is already required for non-live-in Medicaid aides. From 10/1/2026 the live-in exemption ends and all agency-directed aides must use EVV [S21]. Budget EVV software from day one for any Medicaid configuration.",
+        "source_id": ""
+      },
+      {
+        "item": "Software per-client fees",
+        "monthly": 12,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate of premium. Required minimums: $1 million comprehensive general liability per occurrence, malpractice coverage, and $50,000 third-party crime insurance or blanket fidelity bond; lapse results in license revocation [S8][S1].",
+        "source_id": "S8"
+      },
+      {
+        "item": "Liability insurance per-client exposure",
+        "monthly": 15,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Marketing and referral development",
+        "monthly": 1500,
+        "basis": "fixed",
+        "notes": "Operator estimate. Private-pay agencies depend on hospital discharge planners, senior living communities, elder-law attorneys and online leads.",
+        "source_id": ""
+      },
+      {
+        "item": "Utilities, phones, internet and IT",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. The 24/7 on-call line is required [S7].",
+        "source_id": "S7"
+      },
+      {
+        "item": "Training, administrator CE and in-service materials",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate. No administrator training-hour requirement was verified (see not_claimed). Covers aide in-service training; DMAS requires 12 hours of annual training for Medicaid aides [S13].",
+        "source_id": ""
+      },
+      {
+        "item": "Criminal record checks (turnover hiring)",
+        "monthly": 6,
+        "basis": "per_client",
+        "notes": "Operator estimate. Compensated employees must obtain a criminal record clearance within 30 days of hire; barrier crimes bar employment [S1].",
+        "source_id": "S1"
+      },
+      {
+        "item": "Recruiting and onboarding (job ads, turnover, initial aide training)",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "Gloves, PPE and client-care supplies",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate.",
+        "source_id": ""
+      },
+      {
+        "item": "RN supervisory visit mileage (about 10 miles per client-month)",
+        "monthly": 7,
+        "basis": "per_client",
+        "notes": "Operator estimate (about 10 miles × $0.70 per mile).",
+        "source_id": ""
+      },
+      {
+        "item": "Payment processing on private-pay invoices (1.5% blended)",
+        "monthly": 39.6,
+        "basis": "per_client",
+        "notes": "1.5% of $2,640 monthly private-pay billing; operator estimate (card vs ACH mix).",
+        "source_id": ""
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Virginia LLC Articles of Organization (SCC filing fee)",
+        "low": 100,
+        "high": 100,
+        "notes": "From secondary state-fee guides; the SCC schedule was not fetched — verify."
+      },
+      {
+        "item": "HCO initial license application fee (paid with the application; nonrefundable)",
+        "low": 1500,
+        "high": 1500,
+        "notes": "12VAC5-381-70: $1,500 for each initial and renewal application. The application must be filed at least 60 days before the planned opening, and an incomplete application becomes inactive after six months [S2].",
+        "source_id": "S3"
+      },
+      {
+        "item": "DMAS Medicaid provider enrollment application fee (only if enrolling for CCC Plus; may be exempt)",
+        "low": 0,
+        "high": 750,
+        "notes": "CY2026 federal application fee is $750 per a secondary source [S25]; DMAS's own bulletin shows $730 for CY2025 and an exemption if the fee was already paid to another state Medicaid program or Medicare [S24]. Whether an HCO owes the fee was not verified — confirm in the DMAS PRSS portal. Private-pay-only configurations skip DMAS enrollment.",
+        "source_id": "S25"
+      },
+      {
+        "item": "Policies and procedures manual, staffing plan, client forms and DMAS-97A/B / DMAS-90 templates",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate. 12VAC5-381-200 requires a staffing plan and qualified staff in sufficient numbers [S6].",
+        "source_id": "S6"
+      },
+      {
+        "item": "Initial hiring: criminal record checks and 40-hour aide training (first 2–8 aides)",
+        "low": 1200,
+        "high": 5000,
+        "notes": "Operator estimate. DMAS requires a minimum 40-hour initial training program (or an approved alternative) for Medicaid aides [S13].",
+        "source_id": "S13"
+      },
+      {
+        "item": "Office deposit and first two to three months' rent",
+        "low": 2000,
+        "high": 9000,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Furniture, computers, phones and 24/7 on-call line",
+        "low": 2500,
+        "high": 12000,
+        "notes": "Operator estimate. 24/7 on-call arrangements are required [S7].",
+        "source_id": "S7"
+      },
+      {
+        "item": "Scheduling, billing and EVV software setup and training",
+        "low": 500,
+        "high": 3000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Insurance down payments (general liability, malpractice, crime/fidelity bond, auto, workers' comp)",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate. Rule minimums per [S8].",
+        "source_id": "S8"
+      },
+      {
+        "item": "Launch marketing and website",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Required reserve: operating funds for the three months after licensure",
+        "low": 39000,
+        "high": 95000,
+        "notes": "12VAC5-381-190 requires an initial applicant to show reserve operating funds sufficient to operate for the three-month period after the license is issued [S5]. The figure is three months of fixed monthly costs (administration, RN oversight, scheduling, rent, insurance) for the smallest and largest configurations — an operator interpretation. Confirm the documentation OLC accepts.",
+        "source_id": "S5",
+        "category": "required_reserve"
+      },
+      {
+        "item": "Working capital reserve (payroll during ramp-up)",
+        "low": 30000,
+        "high": 120000,
+        "notes": "Operator estimate; advisory reserve, replaced in totals by the modeled ramp-up deficit.",
+        "source_id": "",
+        "category": "working_capital"
+      }
+    ],
+    "rates": {}
+  },
+  "sections": {
+    "executive_summary": "Virginia does not have a separate 'personal care agency' license. A business that sends aides into homes to help with activities of daily living must hold a **home care organization (HCO) license** from the Virginia Department of Health (VDH) Office of Licensure and Certification (OLC). The licensing statute is Va. Code Title 32.1, Chapter 5, Article 7.1 [S1], and the rules are 12VAC5-381 [S2]. The license is issued to a person (an entity), runs three years, and carries a **$1,500** application fee for each initial and renewal application. The fee is paid with the application and is nonrefundable [S3][S4]. A business that offers only homemaker, chore or companion services is outside the chapter [S2]. Once aides provide hands-on personal care, the license is required.\n\nMoney reaches a Virginia personal care agency by two routes. **Private-pay** clients pay the agency directly. The only hourly price benchmark in the research is derived from the Genworth 2024 Virginia median home health aide cost of $75,504 per year [S26], and the national CareScout 2025 median for non-medical caregivers is $35 per hour [S27]. **Medicaid** pays for agency-directed personal care through the DMAS Commonwealth Coordinated Care Plus (CCC+) Waiver. The latest verified published rates are the SFY2026 T1019 rates of **$23.81 (Northern Virginia) and $20.23 (rest of state)** per hour, effective 7/1/2025 [S16]. DMAS's SFY2027 (effective 7/1/2026) rate file for the DD waivers still lists T1019 at the same $23.81 and $20.23, so the rates appear unchanged. The CCC+ SFY2027 file itself was not directly retrieved [S15]. A 20% increase appears only in an introduced budget amendment and a secondary summary, and it is not evidenced in the SFY2027 rate file [S20][S39].\n\nThe models show a clear pattern. A **40-client private-pay agency** (the default) nets about **$16,442 per month (17.3% margin)** at 90% census. It breaks even near **47.3% occupancy**, reaches its first profitable month in **month 8**, and needs about **$83,324** of cash. A 60-client private-pay agency nets $24,955 per month (17.5%). A 20-client owner-run agency nets only $4,255 (9.0%) and breaks even near 67.9%. At the SFY2026 rate, a 50/50 private/Medicaid mix is essentially break-even ($201 per month, 0.2%, break-even occupancy 89.4%, first profit month 16, $241,309 cash needed). A Medicaid-only 100-client agency **loses $20,544 per month (-14.1%)** and cannot break even even at full capacity. These Medicaid results use a $14.57 aide wage. The enacted minimum wage reaches $15.00 on 1/1/2028, which would deepen the Medicaid losses.\n\nThe recommended path is to license, launch private-pay first, and treat Medicaid as an option to add only after the current CCC+ rates are confirmed in writing from DMAS. Most numbers for salaries, hours, rent and insurance are operator estimates and are labeled that way in the model. Verify them locally.",
+    "service_model": "**Who is served.** Home care organizations deliver care in a person's Virginia residence. VDH defines an HCO as any public or private organization, for-profit or not, that provides home health, personal care or pharmaceutical services at a person's residence [S12]. The statute lists 'personal care services, including assistance in personal care to include activities of daily living provided in an individual's residence' as a licensable service [S1]. Typical clients are older adults and people with physical disabilities who need help with bathing, dressing, toileting, transferring and meals, and who want to stay at home. The DMAS CCC+ waiver targets older adults, individuals with physical disabilities, and chronically ill or severely impaired individuals who would otherwise need nursing facility admission [S31].\n\n**Two business models.**\n\n- **Private-pay licensed personal care agency.** Families pay an hourly rate. The agency employs the aides, supervises them through a nurse, and carries the required insurance. No DMAS enrollment is needed.\n- **Medicaid agency-directed personal care.** Under CCC+, members may choose agency-directed care, consumer-directed care, or both. In the agency model the personal care agency is responsible for all employer-related functions [S31]. The agency must be DMAS-enrolled, which requires a license or accreditation, including the VDH HCO license [S13].\n\n**Regulatory framework.** The governing chapter is 12VAC5-381, not 12VAC5-371, which covers nursing facilities [S2]. Chapter 381 includes a Part V on personal care services [S2]. Key rules for this model:\n\n- The governing body appoints an administrator with at least one year of direct health care delivery training and experience, plus supervisory or administrative experience in the last five years [S5].\n- The administrator must be a direct employee, and one person may be both administrator and director of nursing or clinical director only if dually qualified [S2].\n- The statute requires licensed-nurse supervision of home care attendants providing personal care, and it may use interactive audio or video technology [S1].\n- VDH guidance says a personal-care-only HCO must have a registered nurse supervising care under 12VAC5-381-360 [S9]. That guidance is undated, so verify it against the current rule.\n- Agencies must keep posted business hours and arrange on-call services 24 hours a day, seven days a week [S7].\n\n**Exemption note.** An HCO that is licensed and later becomes Medicare/Medicaid certified can qualify for an exemption from the licensure article, but initial state licensure is still required first [S1]. This report does not model that route.",
+    "licensing_pathway": "**Step 1 — Confirm you need the license.** Hands-on personal care (ADL assistance) requires the HCO license [S1]. Providers of only homemaker, chore or companion services are outside 12VAC5-381 [S2]. Do not let aides perform any hands-on care under an unlicensed 'companion' business. A written exemption request carries a one-time $75 processing fee that must accompany the exemption application [S3].\n\n**Step 2 — Form the entity.** The license is issued to a person [S2]. The Virginia SCC filing fee for an LLC is reported at $100, with a $50 annual registration fee, but these come from secondary guides and the SCC schedule was not fetched [see not_claimed]. A secondary source says Virginia has no franchise tax specifically on LLCs. Also check your city or county for a business license (BPOL); 12VAC5-381-160 requires compliance with local ordinances governing operations [S5]. No specific zoning rule for home care offices was verified.\n\n**Step 3 — Prepare the application package.**\n\n- Appoint a qualified administrator [S5].\n- Prepare policies, a staffing plan and qualified staff sufficient to meet the assessed needs of all clients [S6].\n- Line up RN supervision [S1][S9].\n- Bind the required insurance: at least $1 million comprehensive general liability per occurrence, malpractice coverage, and $50,000 minimum third-party crime insurance or blanket fidelity bond [S8].\n- Document reserve operating funds. An initial applicant must show funds sufficient to operate the organization for the three-month period after the license is issued [S5].\n\n**Step 4 — File the application and fee.** A completed application for initial licensure must be submitted **at least 60 days before the planned opening date** [S2]. OLC directs applicants and payments to its online portal unless staff advise otherwise (secondary report) [S37]. The $1,500 fee accompanies the application and is nonrefundable [S3]. An application is complete only when all requested information and the fee are submitted. An incomplete application becomes inactive six months after OLC receives it [S2].\n\n**Step 5 — Survey and issuance.** An undated VDH checklist says an on-site survey by Home Care Licensing staff is required before an initial license is issued [S9]. The statute makes applicants and renewals subject to inspection or examination [S1]. No OLC decision deadline was found in the rule text, and a consultant's 'up to 60 days' is secondary and not relied on. Plan on at least 60 days from a complete filing and keep extra cash for delay.\n\n**Step 6 — Hire compliantly.** Compensated employees need an original criminal record clearance within 30 days of employment. Barrier crimes bar employment, with a five-year exception for qualifying misdemeanors [S1].\n\n**Step 7 — After licensure.**\n\n- The license expires on the third anniversary of issuance or renewal [S1]. A late renewal fee of $50 applies if the renewal is not filed by the date specified [S3].\n- Reissuing or replacing a license costs $250 [S3].\n- Routine inspections follow a uniformly applied risk-based schedule, plus follow-up and complaint inspections [S1].\n\n**Step 8 — (Optional) DMAS enrollment.**\n\n- DMAS requires an NPI from NPPES and proof of an active license, and it screens the provider [S13].\n- The agency must employ or subcontract and directly supervise a Virginia-licensed RN with at least one year of related clinical experience [S13].\n- Aides need a 40-hour initial training program (or an approved alternative) and 12 hours of training annually [S13][S14].\n- Enrollment takes effect on the first day of the month the application is received, unless a retroactive date is approved [S13].\n- DMAS enrollment contact is 1-888-829-5373 or 1-804-270-5105 [S13].\n- Whether an HCO owes the CY2026 application fee was not verified. A secondary source says $750 for 2026, and DMAS's own bulletin shows $730 for 2025 and an exemption if the fee was already paid to another state Medicaid program or Medicare [S24][S25]. Confirm in the DMAS provider enrollment portal.\n\n**Pending changes.** A Town Hall stage for amending 12VAC5-381 exists, but its content and date are unverified [S38]. Re-check the current rule before filing.\n\n**Fixed licensing cost.** $1,500 for the application, plus the three-month reserve requirement, which is the larger number (see Section 8).",
+    "reimbursement": "**Private pay.** Most licensed personal care revenue in the research comes from private-pay hourly billing. The only Virginia price benchmark is Genworth's 2024 survey, which reports a Virginia annual median home health aide cost of **$75,504** (national $77,792) [S26]. Genworth published only the annual figure, not a Virginia hourly rate. Dividing by 2,288 hours (44 hours a week for 52 weeks, an operator derivation of the survey's convention, to verify in [S28]) gives exactly **$33.00 per hour**, which the models use as an operator assumption. This is a statewide figure and not a metro price. The 2025 CareScout survey reports a national median of $35 per hour for non-medical caregivers, based on provider-reported pricing at the MSA level [S27]. Test sensitivity at $35 and at local competitor rates.\n\n**Medicaid — CCC+ agency-directed personal care.**\n\n- Virginia's home and community-based program for older adults and people with disabilities is the CCC+ Waiver. Members choose agency-directed care, consumer-directed care, or both [S31].\n- The agency-directed rates for SFY2026 (effective 7/1/2025) were **T1019 $23.81 per hour in Northern Virginia and $20.23 per hour in the rest of state**. The T1005 respite rate for Northern Virginia was $23.81 [S16]. The prior-year NOVA T1019 rate (7/1/2024) was $23.34 [S19].\n- Consumer-directed personal care (S5126) was $17.97 in NOVA and $13.88 in the rest of state; the DMAS rate file labels the consumer-directed attendant rate 'Hour' [S17][S18]. That model pays an attendant the member employs, not the agency.\n- **DMAS posted SFY2027 rates effective 7/1/2026**, and select CCC+ waiver rates were updated [S15]. DMAS's SFY2027 rate file for the DD waivers still lists T1019/T1005 at NOVA $23.81 and rest of state $20.23 per hour, unchanged from SFY2026. The 8/13/2026 bulletin covers only 'select services'. The CCC+ SFY2027 file itself was not directly retrieved, so confirm it with DMAS. The 20% increase for personal care, respite and companion services appears in an introduced budget amendment [S20] and a secondary summary [S39], and it is not evidenced in the SFY2027 rate file. No 20% figure is used in the base models.\n- **Billing unit.** The DMAS CCC Plus SFY2026 rate file lists T1019 as billed **per hour**, and the models use that unit.\n- DMAS requires managed care organizations to update their reimbursement at the same percentage as revised fee-for-service rates [S15]. Whether agency-directed personal care is paid fee-for-service or through managed care for a given member in 2026 was not confirmed.\n\n**How a Medicaid claim works.**\n\n1. The member is screened for LTSS through the local Department of Social Services or a hospital screening team [S31][S32].\n2. The agency develops an initial DMAS-97A/B plan of care, updated annually or as needs arise [S22].\n3. Aides document on the DMAS-90 on the day the service is delivered [S22].\n4. EVV was already required for non-live-in aides. Effective **October 1, 2026**, the live-in caregiver exemption ends, so all agency-directed aides and consumer-directed attendants for personal care, respite and companion services must use an EVV-compliant method [S21]. The compliant methods named are the Fiscal-Employer Agent's mobile app or IVR; the F/EA website portal is not compliant [S21]. EVV vendor and aggregator requirements for agencies were not verified.\n\n**Service limits and context.** The CCC+ fact sheet shows a soft cap of 56 hours per week of personal care, with exceptions [S32]. The federal SSI benefit rate for 2026 is $994 per month for an eligible individual [S23], which is the income context for many Medicaid members. No Virginia state supplement or room-and-board rule was verified.",
+    "demand": "**Population.** Virginia's population was estimated at 8,880,107 on July 1, 2025, and 18.4% were 65 or older [S35]. That is about 1.6 million people (simple arithmetic on the two Census figures). The share of that group who need paid home care is not in the research.\n\n**Medicaid referral pathway.** CCC+ serves older adults, individuals with physical disabilities, and chronically ill or severely impaired individuals who would otherwise need nursing facility admission or a prolonged hospital stay [S31]. A person can request an LTSS screening through the local Department of Social Services, and local and hospital screening teams assess individuals before services begin [S31][S32]. DMAS describes the waiver as having **no waiting list** [S33]. That means services are authorized once eligibility is established, not that every agency will find clients. Members may choose an agency, so the agency still has to win referrals from screening teams, hospital discharge planners and families.\n\n**Private-pay referral sources.** Private-pay demand comes from hospital and rehab discharge planners, senior living communities, elder-law attorneys, physicians' offices, and online search by adult children. No Virginia referral-volume data exists in the research.\n\n**Capacity signals (use with caution).** The Virginia DBHDS reports that provider network shortages are especially apparent across nursing, day, in-home, and personal care services [S34]. That statement is in a developmental disability waiver fact sheet and is not a CCC+ measurement. The same fact sheet reports a DD waiver wait list of 14,258 (2,727 priority one) as of 2025-11-25 and 19,924 individuals assigned a waiver slot [S34]. Those are different waivers and a different population from older-adult CCC+ personal care, and this bundle does not model DD services.\n\n**What is not known.** The number of licensed HCOs, competitor names, market shares, CCC+ caseloads and agency occupancy were not found in official sources (see not_claimed). Do not assume that demand guarantees a full census. The models test census from 80% to 100% and show the break-even occupancy for each size.\n\n**Pending program change.** DMAS has proposed 2027 waiver amendments, including Support Brokers replacing Services Facilitation (regional rollout beginning March 1, 2027; Services Facilitation ending May 31, 2027), a 56-hour soft cap for personal assistance in the CL and FIS waivers, and employer-of-record changes in consumer direction. Public comment runs September 17 to October 17, 2026, and CMS approval was not confirmed [S33]. These affect consumer-directed more than agency-directed care but may shift member choices.",
+    "operations": "**Staffing rules (what the rules do and do not say).** 12VAC5-381-200 requires a staffing plan and qualified staff in sufficient numbers to meet the assessed needs of all clients [S6]. No numeric aide-to-client ratio, awake-overnight rule or capacity cap was found in 12VAC5-381 or the DMAS manual. Ask OLC for written confirmation before opening.\n\n**Required roles in the models.**\n\n- **Administrator.** The governing body appoints an administrator with at least one year of direct health care delivery training and experience, plus supervisory or administrative experience within the last five years [S5]. The administrator must be a direct employee, and the same person may serve as administrator and director of nursing only if dually qualified [S2]. No administrator training-hour requirement was verified.\n- **RN supervisor.** The statute requires licensed-nurse supervision of attendants [S1]. VDH guidance requires an RN for personal-care-only HCOs under 12VAC5-381-360 [S9]. The 2017 text of 12VAC5-381-360 sets supervision on a schedule set by the RN and policy, not to exceed 90 days (current text unverified). The RN hours should cover at least that cadence and the RN-written service plan for every client. For Medicaid, DMAS requires the agency to employ or subcontract and directly supervise a Virginia-licensed RN with at least one year of related clinical experience who supervises all aides [S13]. Supervision may use interactive audio or video [S1].\n- **Scheduler / intake / billing coordinator(s).** The agency must keep posted business hours and arrange 24/7 on-call service [S7]. Coordinators carry scheduling, on-call, invoicing and, for Medicaid, EVV and claims.\n- **Aides.** For Medicaid, a minimum 40-hour initial training program (or approved alternative) and 12 hours of annual training [S13][S14]. DMAS states that aides at VDH-licensed agencies must meet 12VAC5-381 [S14]. The VDH HCO rules (per 2011 Register text) likely also require at least 12 hours of annual in-service training for all home attendants, including private-pay aides. Confirm the current text on LIS and do not treat it as optional for private pay.\n\n**Hiring compliance.** Obtain a criminal record clearance within 30 days of hire. Barrier crimes bar compensated employment, with a five-year exception for a qualifying misdemeanor [S1].\n\n**Documentation.** Medicaid requires a DMAS-97A/B plan of care and a DMAS-90 completed on the day of service [S22].\n\n**Systems.** EVV is already required for non-live-in Medicaid aides. From 10/1/2026 the live-in exemption ends and all agency-directed aides must use EVV [S21]. Budget EVV software from day one for any Medicaid configuration. The models carry scheduling/billing/EVV software costs as operator estimates; get vendor quotes. Private-pay agencies also need scheduling, invoicing and payroll tools.\n\n**Insurance.** At least $1 million comprehensive general liability per occurrence, malpractice coverage, and $50,000 minimum third-party crime insurance or blanket fidelity bond. Failure to maintain these results in license revocation [S8][S1]. Premiums in the models are operator estimates.\n\n**Operator estimates.** Hours of care per client (80 billable hours per month plus 4% non-billable), RN hours, coordinator staffing and salaries are operator estimates. Verify them locally.",
+    "market_conditions": "**Wages.** Virginia's minimum wage is **$12.77 per hour** from January 1, 2026 to January 1, 2027, and the Virginia Minimum Wage Act does not exempt employees based on employer size [S30]. The scheduled steps are enacted: SB1/HB1 were signed on April 9, 2026, per the Governor's release. The minimum wage becomes **$13.75 on 1/1/2027 and $15.00 on 1/1/2028**, then is indexed annually. The statutory text on local minimum wages was not verified. The Virginia median wage for home health and personal care aides is **$14.57 per hour** ($30,300 per year) for May 2025, shown on a secondary site that reproduces BLS data [S36]. An older CareerOneStop 2024 figure was $14.03 per hour. The national median annual wage for these aides was $35,800 in May 2025 [S29]. Official BLS state and metro tables were not retrieved, so Northern Virginia wages (likely higher) are not modeled.\n\nThe models pay private-pay aides $16.00 per hour (about 10% above the $14.57 median, an operator estimate to recruit in a tight labor market) and Medicaid aides $14.57. Both exceed the 2026 minimum, and $14.57 stays lawful through 2027. From 1/1/2028 the $15.00 floor means the Medicaid aide wage must rise at least about 3%, and any Medicaid aide pay below $15.00 from that date would be a legal violation. The private wage stays above it.\n\n**Pricing.** Genworth's Virginia median home health aide cost of $75,504 per year is close to the national $77,792 [S26], and the 2025 CareScout national non-medical median is $35 per hour [S27]. The Virginia hourly rate was not published. The $33.00 modeled price is derived ($75,504 ÷ 2,288 hours) and is an operator assumption. It is a statewide, mid-market price, not a metro price, and may be lower or higher in your area.\n\n**Medicaid rate trend.** NOVA T1019 rose from $23.34 (7/1/2024) to $23.81 (7/1/2025) [S19][S16], about 2%. DMAS's SFY2027 DD-waiver rate file (effective 7/1/2026) still lists T1019 at $23.81 NOVA and $20.23 rest of state, so the rate appears unchanged. The CCC+ SFY2027 file was not directly retrieved. A 20% increase is described only in an introduced amendment and a secondary summary [S20][S39], and it is not evidenced in the SFY2027 file.\n\n**Supply.** The number of licensed Virginia HCOs and competitor names were not found in official sources. Treat the market as competitive and do not assume an open field.\n\n**Cost environment.** Virginia's new-employer unemployment tax is reported as 2.5% base plus add-ons on an $8,000 wage base (VEC rate stated; Code text not fetched). Virginia is an advisory loss-cost state for workers' compensation, and the NCCI proposed a -7.7% change for assigned-risk rates effective 4/1/2026 (secondary). Premiums vary by carrier. Virginia paid sick leave (about 1 hour per 30 hours worked) already applies to covered home health workers and is being extended to most employees; confirm applicability and timing. HUD Fair Market Rents are residential benchmarks and do not measure office rent, so office costs in the models are operator estimates.",
+    "financial_narrative": "**How the models are built.** Each configuration has revenue per client-month equal to rate × hours × payer share. The private-pay price is $33.00 per hour × 80 hours = $2,640 per client-month. The Medicaid line is $20.23 × 80 hours = $1,618 per client-month, billed per hour per the DMAS rate file. Aide wages scale with census, including 4% paid non-billable time. The administrator, RN supervision, coordinators, rent, insurance, software and marketing are essentially fixed. Payroll burden is 17.5% (9.5% payroll tax, 5% workers' compensation, 3% benefits, all operator estimates). Default occupancy is 90% (80% conservative, 100% optimistic), an operator assumption. Vacant capacity still costs rent and office staff. The Medicaid configurations use a $14.57 aide wage, which is lawful through 2027 but not from 1/1/2028.\n\n**Results at 90% occupancy (SFY2026 rates, no 20% increase).**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| Private 60 | $24,955 | 17.5% | 46.8% | 9 | $130,651 |\n| **Private 40 (default)** | **$16,442** | **17.3%** | **47.3%** | **8** | **$83,324** |\n| Private 20 | $4,255 | 9.0% | 67.9% | 8 | $55,834 |\n| Mixed 60 (50% Medicaid) | $201 | 0.2% | 89.4% | 16 | $241,309 |\n| Medicaid 100 | -$20,544 | -14.1% | not reachable (about 260%) | none | $878,066 |\n\n**Why private pay works and Medicaid does not at the SFY2026 rate.** At 17.5% burden and 4% non-billable time, a $16.00 private-pay aide costs about $19.5 per billable hour, leaving about $13.5 of the $33.00 price for office, RN and profit. A $14.57 Medicaid aide costs about $17.8 per billable hour, leaving only about $2.4 of the $20.23 rate (about $194 per client-month, or roughly $120 after per-client costs). A Medicaid-only agency must still employ a full RN and administrator and two coordinators, so it needs far more clients than 100 to cover them, and at 100 clients it loses $20,544 per month.\n\n**Sensitivities (all approximate, computed by holding costs constant).**\n\n- *Private price at $30 instead of $33 (40 clients).* Revenue falls by about $8,640 per month, leaving roughly $7,800 net (about 9% margin). Also test the 2025 national $35 per hour and local competitor rates.\n- *Hours per client.* The 80 billable hours per month is an operator estimate. Fewer hours per client lowers revenue faster than costs: the office is fixed, and aide pay flexes with hours, so the margin shrinks as hours fall.\n- *Aide wage.* Each $1 increase in aide wage costs about $3,500 per month in the 40-client model (36 clients × 83.2 hours × 1.175), reducing net to roughly $12,900.\n- *Medicaid with a hypothetical 20% increase.* If T1019 became about $24.28 (an unverified third-party figure, not evidenced as enacted or in the SFY2027 rate file), revenue rises about $4.05 per hour. That adds roughly $8,700 per month to the mixed 60 model (27 Medicaid clients × 80 hours) and about $29,000 per month to the Medicaid 100 model, moving it to roughly break-even-to-positive at about +$8,600 per month. This is an illustration, not a forecast; no increase is built into the models.\n- *Minimum wage from 1/1/2028.* The $15.00 floor is enacted. Raising the Medicaid aide wage from $14.57 to $15.00 adds about $0.51 per paid hour including burden, compressing the Medicaid contribution to about $1.9 per billable hour at the current rate. That lowers monthly net by roughly $1,100 in the mixed 60 model (to about -$900) and roughly $3,800 in the Medicaid 100 model (to about -$24,300), at 90% census. These are approximate and not rerun in the model.\n- *Paid sick leave.* The statutory accrual is about 3.3% of hours worked if it applies to the agency's workforce (confirm timing). The 3% benefits line should not be assumed to cover both paid sick leave and training.\n\n**Startup capital.** Fixed items include the $1,500 license fee [S3], entity filing (about $100, secondary), policies, hiring and training, rent deposit, equipment, software, insurance down payments and marketing (operator estimates). The larger requirement is the **three-month reserve of operating funds** that an initial applicant must show [S5]. The model treats it as three months of fixed monthly costs (an operator interpretation; confirm what OLC accepts). The 'cash needed' figures above include the modeled ramp-up deficit and are the numbers to plan around.\n\n**Honest bottom line.** A properly staffed private-pay agency of 40 or more clients is profitable in the models. A 20-client agency is thin. Medicaid is not profitable at the SFY2026 rate, which appears unchanged for SFY2027, and the $15.00 minimum wage from 2028 makes it worse. Confirm the current CCC+ rate in writing before modeling Medicaid as a profit source.",
+    "risks": "**Regulatory**\n\n- *Unlicensed hands-on care.* Providing personal care without the HCO license is not allowed [S1]; only homemaker, chore and companion-only providers are outside the chapter [S2].\n- *Rule changes.* A 2025 fast-track amendment set the $1,500 fee and three-year term [S4], and a further amendment stage exists with undated, unverified content [S38]. Re-check the rule before filing.\n- *Undated guidance.* The on-site survey requirement and RN-supervision interpretation come from an undated VDH checklist [S9]. Confirm with OLC.\n- *Insurance lapse.* Letting the required $1 million liability or $50,000 crime/fidelity coverage lapse results in revocation [S8][S1].\n- *Unknown processing time.* No OLC decision deadline was found. Delay burns reserve cash.\n- *Contact details.* OLC's phone numbers conflict between the 2021 and 2025 sources [S10][S11]. Confirm before use.\n\n**Payer**\n\n- *Medicaid margin.* At the SFY2026 rate, Medicaid-only loses money and the 50/50 mix is break-even [see Section 8].\n- *Rate uncertainty.* DMAS's SFY2027 DD-waiver rate file lists T1019 unchanged at $23.81 and $20.23 per hour. The CCC+ SFY2027 file was not directly retrieved [S15], and a 20% increase is not evidenced as enacted [S20][S39]. Confirm the rate before enrolling.\n- *Managed care.* How agency-directed personal care is paid for each member (fee-for-service vs managed care) was not confirmed. MCO contracting steps were not retrieved. Payment timing and denials can strain cash.\n- *EVV.* EVV is already required for non-live-in Medicaid aides. From 10/1/2026 the live-in exemption ends and all agency-directed aides must use EVV. Non-compliant visits are a claim risk, and the F/EA website portal is not compliant [S21]. Vendor requirements were not verified.\n- *Program changes.* The proposed 2027 CCC+ amendments (support brokers, employer-of-record changes) may change member behavior; CMS approval was not confirmed [S33].\n- *Enrollment fees.* The CY2026 application fee (about $730–$750) may or may not apply [S24][S25].\n\n**Labor**\n\n- *Wages.* Aide wages are the largest cost. The 2026 minimum is $12.77 [S30]. The enacted steps ($13.75 on 1/1/2027 and $15.00 on 1/1/2028, then annual indexing; SB1/HB1 signed April 9, 2026) make the modeled $14.57 Medicaid aide wage unlawful from 1/1/2028. Northern Virginia and other metro wages were not retrieved and are likely higher than the statewide $14.57 [S36].\n- *Paid sick leave, overtime and travel time.* Virginia already requires paid sick leave (1 hour per 30 hours worked, cap 40 hours a year) for covered home health workers, and SB199/HB5 (signed 5/20/2026) extends it to most employees. Secondary sources say it phases in from 7/1/2027 for employers with 50 or more employees. Confirm applicability and timing with DOLI or counsel. Federal FLSA overtime and compensable inter-client travel time also apply to agency-employed aides (confirm with the U.S. DOL).\n- *Turnover and background checks.* Employees need clearance within 30 days of hire, and barrier crimes bar hiring [S1].\n- *Single-point RN.* RN supervision is mandatory. Losing the RN stops Medicaid enrollment compliance and VDH compliance.\n\n**Financial**\n\n- *Operator estimates.* Hours per client, salaries, rent, insurance, software and marketing are unsourced estimates. Build a local quote file before committing.\n- *Reserve size.* The three-month reserve [S5] and the cash needed ($55,834 to $241,309 for profitable or break-even models) are material.\n- *Census ramp.* Profit begins in month 8 or 9 even for private-pay agencies; month 16 for the mixed model.\n\n**Market**\n\n- Number of competing HCOs, market shares and referral volume are unknown. Occupancy of 90% is an assumption, not a statistic.",
+    "recommendations": "1. **Launch private pay first, at 40 clients as the target.** The default 40-client private-pay agency nets $16,442 per month (17.3%) at 90% census, breaks even near 47.3% occupancy, and starts profiting in month 8 with about $83,324 of cash. A 60-client agency raises dollar profit to $24,955 per month, but needs about $130,651 and a stronger referral engine. A 20-client agency (9.0%, break-even 67.9%) is only worth it if the owner is administrator and accepts a modest salary.\n\n2. **Do not hold out as a companion-only business and then provide hands-on care.** If your launch plan is companion services only, you are outside the chapter [S2], but the models assume the license because clients and payers expect hands-on help.\n\n3. **Hold a dually qualified administrator-RN if you can.** The rule allows the administrator and clinical director to be the same person if dually qualified [S2]. In the default model this could save most of the RN supervision line (about 60 hours × $45 = $2,700 per month before burden, an operator estimate).\n\n4. **File early and fund the reserve.** Submit a complete application at least 60 days before opening [S2]. Prepare documentation of operating funds covering three months [S5]. Keep extra cash for survey delay.\n\n5. **Price for your metro, not the state.** Start from $33.00 per hour, the figure derived from Genworth's Virginia annual median [S26]. Compare it to local competitors and to CareScout's $35 national median [S27]. At $30 the default model still earns about 9%.\n\n6. **Pay aides above the minimum.** The models use $16.00 for private pay. The enacted minimum wage steps ($13.75 on 1/1/2027, $15.00 on 1/1/2028, then indexed) make an early wage premium and retention planning prudent [S30]. Budget for paid sick leave and for FLSA overtime and travel time as well.\n\n7. **Treat Medicaid as an option, not a base case.** Before enrolling, do the following:\n   - Ask DMAS (1-888-829-5373) to confirm the current T1019 rate in the CCC+ SFY2027 rate file in writing [S13][S15]. The DD-waiver file shows $23.81 NOVA and $20.23 rest of state, per hour.\n   - Confirm whether payment is fee-for-service or through managed care for your target members.\n   - Confirm the application fee.\n   - Confirm EVV vendor requirements [S21].\n   - Model Medicaid aide pay at no less than $15.00 per hour from 1/1/2028.\n   - Add Medicaid only after the private-pay office is paid for, and only if the verified rate leaves a positive contribution per hour after your aide wage and 17.5% burden.\n\n8. **Use a mixed model carefully.** At the SFY2026 rate, the 50/50 mix earns $201 per month (0.2%) with break-even at 89.4% occupancy, month-16 first profit and $241,309 of cash. That uses a $14.57 aide wage, and a $15.00 wage from 2028 would turn it negative. It becomes attractive only if a higher Medicaid rate is confirmed (the unverified 20% case adds about $8,700 per month).\n\n9. **Avoid Medicaid-only at 100 clients at the current rate.** It loses $20,544 per month and cannot break even even at full capacity.\n\n10. **Build referrals before opening.** Contact hospital discharge planners, rehab facilities, senior living communities, elder-law attorneys and local DSS/LTSS screening teams [S31][S32].\n\n11. **Confirm the open items with OLC before filing:** a written decision timeline, current phone/portal, whether the on-site survey and RN requirement match the current rule [S9], the current 12-hour in-service and RN supervision cadence text, and the status of the pending 12VAC5-381 amendment [S38]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide your service scope: licensed personal care vs. companion-only",
+      "instructions": "Any hands-on personal care (bathing, dressing, toileting, transfers and other ADL help) in a client's home makes you a home care organization (HCO) that needs a VDH license. Providers of ONLY homemaker, chore or companion services are outside 12VAC5-381. Decide before you form the entity or write policies. This bundle assumes the licensed personal care model.",
+      "cite": "Va. Code Art. 7.1; 12VAC5-381 (scope/exemption)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Read the governing rules end to end",
+      "instructions": "Read 12VAC5-381 (Regulations for the Licensure of Home Care Organizations), including Part II (governing body, administrator, financial controls, personnel, indemnity) and Part V (personal care services). Do not confuse it with 12VAC5-371, which governs nursing facilities. Free; allow 1–2 days. VDH's checklist tells applicants to read the regulations first.",
+      "cite": "12VAC5-381",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Choose your business model and target configuration",
+      "instructions": "Compare the five modeled configurations in your Financial Model. Private-pay 40-client (default) nets about $16,442/month at 90% census, with break-even near 47% occupancy and first profit in month 8. Private-pay 20-client is thinner, at about $4,255/month. The mixed 50/50 private/Medicaid 60-client model is roughly break-even at SFY2026 rates. The Medicaid-only 100-client model loses money at the verified SFY2026 rest-of-state rate. Model results are operator-estimate based; verify locally. Start private pay and add Medicaid later if the economics change.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a Virginia legal entity",
+      "instructions": "A VDH license is issued to a 'person' (an entity), so form the entity before applying. File Articles of Organization (LLC) with the Virginia State Corporation Commission (SCC). Secondary guides report a $100 filing fee and a $50 annual registration fee, but the SCC schedule was not fetched, so confirm both on the SCC site. Filing is online and usually quick.",
+      "cite": "SCC LLC filing; 12VAC5-381 (license issued to a person)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Draft an operating agreement and set ownership/governing body",
+      "instructions": "12VAC5-381-160 requires a governing body that is responsible for the organization and that complies with federal and state laws and local ordinances. Name the owners, the governing body members and decision authority in your operating agreement. Have an attorney review it (cost varies; operator estimate).",
+      "cite": "12VAC5-381-160",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov once the entity exists. You need it for payroll, banking, the DMAS NPI/enrollment and insurance quotes. Issued immediately online.",
+      "cite": "IRC §6109",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a business bank account and keep funds separate",
+      "instructions": "Open an operating account in the entity's name. You will need to document reserve operating funds for the initial license application (see Phase 2), so keep the reserve visibly segregated.",
+      "cite": "12VAC5-381-190",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with the Virginia Employment Commission (unemployment insurance) and Dept. of Taxation (withholding)",
+      "instructions": "Register before your first payroll. New employers start at an initial base rate that VEC assigns until an experience rate is calculated. VEC's FAQ says 2.5% plus add-ons, but the rate notice was not fetched, so confirm your assigned rate and wage base with VEC. Register for withholding with Virginia Tax online.",
+      "cite": "Va. Code Title 60.2 (unemployment); VEC employer registration",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Buy workers' compensation coverage before hiring aides",
+      "instructions": "Get quotes from several carriers. Virginia is an advisory loss-cost state, so carriers file their own multipliers and premiums vary. The model uses a 5% workers' comp load, which is an operator estimate. Confirm the coverage requirement and class code for home care with your broker and the Virginia Workers' Compensation Commission.",
+      "cite": "Va. Code Title 65.2; NCCI advisory loss costs",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Check the state minimum wage before setting pay scales",
+      "instructions": "The Virginia adjusted minimum wage is $12.77/hour from Jan 1, 2026 to Jan 1, 2027. There is no employer-size exemption. Pay aides above it. Check DOLI for later scheduled increases, because enacted text for post-2026 steps was not verified here. Model includes $16.00 private-pay and $14.57 Medicaid aide wages (operator wage assumptions based on a secondary BLS reproduction).",
+      "cite": "Virginia Minimum Wage Act; DOLI 2026 notice",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Get a local business license (BPOL) and check zoning",
+      "instructions": "Contact the city/county commissioner of revenue where your office will be located to obtain a business license. Fees and gross-receipts rules vary by locality; the model uses a $20/month placeholder (operator estimate). 12VAC5-381-160 requires compliance with local ordinances, but no specific HCO zoning rule was found, so ask the zoning office whether an office use is permitted at your site.",
+      "cite": "12VAC5-381-160",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Confirm with OLC whether any other approvals apply",
+      "instructions": "A vendor page claims Certificate of Need approval is required before HCO licensure. This was not verified from any official source. Ask the OLC Home Care and Hospice Unit in writing and file the answer in your licensing binder.",
+      "cite": "Va. Code Art. 7.1",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Confirm you will hold the license in the right category: home care organization (HCO)",
+      "instructions": "No person may establish or operate an HCO without a license under Va. Code Art. 7.1. The statutory definition covers personal care services, including help with ADLs, provided in an individual's residence. Medicare/Medicaid certification or accreditation can later support an exemption, but initial state licensure is required first.",
+      "cite": "Va. Code §32.1-162.7 et seq.",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Create your account on the VDH OLC online portal",
+      "instructions": "OLC directs initial applicants and payments to the VDH OLC Portal unless staff advise otherwise (law firm summary; confirm with OLC). Have your entity documents, EIN and administrator information ready before starting.",
+      "cite": "VDH OLC application portal",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Set your target opening date and file at least 60 days before it",
+      "instructions": "A completed initial application must be submitted at least 60 days before the planned opening date. An incomplete application becomes inactive six months after OLC receives it. No OLC decision deadline was found in the rule, so build in extra time and do not market services before the license is issued.",
+      "cite": "12VAC5-381-40",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the $1,500 license fee with the application",
+      "instructions": "The fee is $1,500 for each initial and renewal application. It must accompany the application and is nonrefundable. Pay through the OLC portal. The fee took effect May 22, 2025 through a fast-track amendment that also set a three-year license term.",
+      "cite": "12VAC5-381-70",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Appoint a qualified administrator (direct employee)",
+      "instructions": "The governing body must appoint an administrator with evidence of at least one year of training and experience in direct health care service delivery, including at least one year of supervisory or administrative management experience within the last five years. The administrator must be a direct employee. Collect resume, references and credential proof for the application. Only the one-year experience standard was verified; no training-hour requirement was found.",
+      "cite": "12VAC5-381-170; 12VAC5-381-10",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Decide whether the administrator will also serve as the clinical/nursing director",
+      "instructions": "The administrator and the director of nursing or other clinical director may be the same person only if that individual is dually qualified. If the administrator is also a qualified RN, you can save most of the contract RN cost in the model (see Phase 3).",
+      "cite": "12VAC5-381-10 (definitions)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Document reserve operating funds for three months after licensure",
+      "instructions": "An initial applicant must show reserve funds sufficient to operate the HCO for the three-month period after the license is issued. The bundle's required-reserve startup line estimates this from your fixed monthly costs (operator interpretation). Gather bank statements or a letter from the funder. Ask OLC what documentation it accepts.",
+      "cite": "12VAC5-381-190",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Bind the required indemnity coverage before you apply or open",
+      "instructions": "Required minimums: at least $1 million comprehensive general liability per occurrence, malpractice coverage, and third-party crime insurance or a blanket fidelity bond of at least $50,000. Failure to maintain these coverages results in revocation of the license. Premiums are operator estimates; get at least three quotes from carriers that write home care.",
+      "cite": "12VAC5-381-210; Va. Code §32.1-162.11",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Obtain certificates of insurance and keep them on file",
+      "instructions": "Ask your broker for certificates showing the $1M per-occurrence limit, malpractice and the $50,000 crime/fidelity coverage. Calendar renewal dates, since a lapse leads to revocation.",
+      "cite": "12VAC5-381-210",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Submit a complete application package and respond fast to OLC requests",
+      "instructions": "An application is complete only when all requested information and the fee are submitted. Track every OLC email. Incomplete applications go inactive after six months, and you would need to restart and pay again.",
+      "cite": "12VAC5-381-40; 12VAC5-381-70",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Prepare for the initial on-site survey",
+      "instructions": "VDH guidance states an on-site survey by Home Care Licensing staff is conducted for an initial license, and the statute allows inspection of applicants. That checklist is undated, so confirm current expectations with OLC. Have your policies, personnel files, staffing plan, insurance certificates and administrator qualifications ready for review.",
+      "cite": "Va. Code §32.1-162.9; VDH OLC Home Care Licensure Survey Checklist",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Use the VDH survey checklist as your self-audit",
+      "instructions": "Walk through VDH's Home Care Licensure Survey Checklist item by item before the survey and fix gaps. The checklist is undated guidance that predates current fee rules, so rely on the current regulation text for any conflict.",
+      "cite": "VDH OLC Home Care Licensure Survey Checklist",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Contact OLC with questions before filing",
+      "instructions": "Use the OLC Home Care and Hospice Unit. The 2025 Register contact is Val Hornsby, Policy Analyst, (804) 875-1089, val.hornsby@vdh.virginia.gov, 9960 Mayland Drive, Henrico, VA 23233. A 2021 notice lists (804) 367-2102 as the main line. The two conflict, so confirm the correct number before relying on either.",
+      "cite": "Va. Register Vol. 41 Iss. 11",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Check for pending amendments to 12VAC5-381",
+      "instructions": "The Virginia Regulatory Town Hall shows a pending amendment stage for 12VAC5-381 with no date. Check Town Hall before you finalize policies and again at filing so your policies match the current text.",
+      "cite": "Regulatory Town Hall stage 10626",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 2 — VDH HCO LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Receive the license and post it",
+      "instructions": "Do not accept clients before the license is issued. The license expires on the third anniversary of issuance. Reissuance or replacement (for example after a change of information) costs $250 per request.",
+      "cite": "Va. Code §32.1-162.9; 12VAC5-381-70",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Contract or hire a Virginia-licensed RN to supervise aides",
+      "instructions": "Statute requires personal care rules to provide for supervision of home care attendants by a licensed nurse, and supervision may use interactive audio/video technology. VDH guidance says personal-care-only HCOs need a registered nurse supervising care under 12VAC5-381-360. Model uses a contract RN at an operator-estimate $45/hour for about 40–60 hours/month in small private-pay agencies. Hours and rate are estimates; verify locally.",
+      "cite": "Va. Code §32.1-162.12; 12VAC5-381-360",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Verify each RN's Virginia license before supervision starts",
+      "instructions": "Check the license on the Virginia Department of Health Professions license lookup and keep a printout in the file. For DMAS enrollment later, the RN must also have at least one year of related clinical experience as an RN or LPN.",
+      "cite": "DMAS CCC Plus Manual Ch. II",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Write and maintain a staffing plan",
+      "instructions": "The organization must provide qualified staff in sufficient numbers to meet the assessed needs of all clients and maintain a staffing plan. No numeric caregiver-to-client ratio was found in 12VAC5-381, so document how you size staffing against your client assessments.",
+      "cite": "12VAC5-381-200",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Run criminal record clearance on every compensated employee",
+      "instructions": "Obtain an original criminal record clearance within 30 days of employment for any compensated employee. Barrier crimes bar compensated employment. A non-abuse/neglect misdemeanor allows hiring if five years have elapsed since the conviction. Staff in direct patient contact need clearance before such work unless supervised. Check the cost with your vendor; the model carries an operator-estimate per-client allowance.",
+      "cite": "Va. Code §32.1-162.9:1",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Build personnel files with a hiring checklist",
+      "instructions": "For each aide, keep application, ID/work eligibility documents (federal I-9), criminal record clearance, references, training records, competency evaluation and signed job description. Follow 12VAC5-381-200 for personnel practices. Review the checklist at your mock survey.",
+      "cite": "12VAC5-381-200",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Set aide pay above the minimum wage and fund recruitment",
+      "instructions": "Virginia aide median is $14.57/hour (BLS May 2025 as reproduced by a secondary site; official OEWS state table not retrieved). An older CareerOneStop 2024 median was $14.03. The model pays $16.00 for private-pay aides and $14.57 for Medicaid aides. All are above the $12.77 minimum wage. Check local postings in your metro, since local wages may differ.",
+      "cite": "BLS OEWS; DOLI 2026 minimum wage",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Plan paid travel time and non-billable hours",
+      "instructions": "The model adds 4% paid non-billable time to aide hours (travel, training). That percentage and the 80 billable hours per client-month are operator estimates; verify locally. Test the plan at 60 billable hours per client-month.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Provide initial aide training and competency evaluation",
+      "instructions": "For private-pay-only aides, follow the training and competency requirements in Part V (personal care services) of 12VAC5-381. For Medicaid CCC Plus aides, DMAS requires special training in the needs of the elderly and individuals with disabilities through a minimum 40-hour training program, or an approved alternative. DMAS also says aides at VDH-licensed agencies must meet 12VAC5-381.",
+      "cite": "12VAC5-381 Part V; DMAS CCC Plus Manual Ch. II",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Schedule annual aide in-service training",
+      "instructions": "DMAS requires each Medicaid aide to have at least 12 hours of training annually. Adopting 12 hours for all aides is a simple, defensible standard. Track hours per aide in the personnel file.",
+      "cite": "DMAS CCC Plus Manual Ch. II; DMAS training bulletin",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 3 — STAFFING & PERSONNEL COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Hire a scheduler/intake coordinator",
+      "instructions": "This role handles scheduling, on-call coordination, client invoicing and payroll data. Model uses $38,000/year for one full-time coordinator in the 40-client configuration (operator estimate). Medicaid configurations need two, because of EVV, plan-of-care and claims work.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "CRITICAL",
+      "task": "Post business hours and arrange 24/7 on-call service",
+      "instructions": "The organization must have posted business hours and must provide or arrange services to clients on an on-call basis 24 hours a day, seven days a week. Set up a dedicated on-call phone line, a rotation schedule and an escalation protocol (administrator and RN). Test it before the survey.",
+      "cite": "12VAC5-381-150",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "CRITICAL",
+      "task": "Write the policies and procedures manual",
+      "instructions": "Cover governing body, administrator duties, client rights, intake and assessment, personal care service plans, infection control, incident reporting, personnel practices, financial controls and emergency procedures, matching each topic to the section headings of 12VAC5-381. Budget is an operator estimate ($1,500–$6,000 if purchased or attorney-reviewed). Keep a dated revision log.",
+      "cite": "12VAC5-381 (Parts II–V)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "HIGH",
+      "task": "Set up financial controls",
+      "instructions": "12VAC5-381-190 sets financial controls, including the reserve operating funds expectation. Document a budget, invoice and payment procedures, payroll controls and separation of duties for cash handling.",
+      "cite": "12VAC5-381-190",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "HIGH",
+      "task": "Create client intake, assessment and service plan forms",
+      "instructions": "Have the RN or qualified supervisor assess needs before service starts and write an individualized plan of care. Document who changes the plan and how aides are informed. For Medicaid members, the initial plan of care is the DMAS-97A/B, updated annually or as needs arise.",
+      "cite": "12VAC5-381 Part V; DMAS CCC Plus Manual Ch. IV",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "HIGH",
+      "task": "Create the client service agreement and private-pay billing terms",
+      "instructions": "State hourly rates, minimum shifts, cancellation terms, invoicing cycle, payment methods and termination rules. Have an attorney review the agreement. Do not promise services beyond what the license and aides' training allow.",
+      "cite": "Va. contract law; 12VAC5-381",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "HIGH",
+      "task": "Select scheduling, billing and EVV-capable software",
+      "instructions": "Get at least three vendor quotes. The model uses $250/month base (40-client private) up to $800/month (Medicaid 100-client), plus $12 per client; all are operator estimates. Medicaid agency-directed aides must use EVV, and DMAS lists specific compliant methods in its bulletin. The EVV vendor and aggregator requirements were not verified, so ask DMAS before buying.",
+      "cite": "DMAS EVV bulletin",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "HIGH",
+      "task": "Set up secure client records and confidentiality procedures",
+      "instructions": "Use a records system with role-based access. Address HIPAA obligations if you bill any covered payer electronically. Define record retention, and follow the record and documentation sections of 12VAC5-381 and DMAS manuals. The retention period was not verified here, so confirm it in the rule.",
+      "cite": "12VAC5-381; HIPAA",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "MEDIUM",
+      "task": "Create emergency and incident procedures",
+      "instructions": "Cover missed shifts, client falls, hospital transfers, abuse/neglect reporting, severe weather and aide no-shows. Tie procedures to the 24/7 on-call line and to supervisor notification steps.",
+      "cite": "12VAC5-381-150",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "MEDIUM",
+      "task": "Secure office space and equipment",
+      "instructions": "The model carries $1,000/month (20-client) to $3,000/month (100-client) fixed office cost; these are operator estimates. HUD Fair Market Rent is a residential benchmark, not office rent, so get local commercial quotes. Vacant space still costs rent, so size conservatively. Confirm zoning (Phase 1).",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, OPERATIONS & 24/7 COVERAGE",
+      "priority": "MEDIUM",
+      "task": "Buy PPE and client-care supplies",
+      "instructions": "Stock gloves, masks and basic supplies for aides. The model uses about $8 per client-month (operator estimate).",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "CRITICAL",
+      "task": "Set private-pay hourly pricing from a documented benchmark",
+      "instructions": "The model uses $33.00/hour. That is the Genworth 2024 Virginia median home health aide annual cost of $75,504 divided by 2,288 hours (44 hours x 52 weeks), a convention to verify in the survey methodology. The survey measures standard hourly private rates for home health aide services, statewide, not by metro. The CareScout 2025 national median for non-medical caregivers is $35/hour; the Virginia figure was not confirmed. Price against local competitors.",
+      "cite": "Genworth/CareScout Cost of Care Survey",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "HIGH",
+      "task": "Review the CareScout methodology before using the price",
+      "instructions": "CareScout collects rates at the metropolitan statistical area level and reports medians from provider-reported pricing. Use the methodology to explain price differences between your metro and the statewide benchmark.",
+      "cite": "CareScout 2025 Cost of Care Survey",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "HIGH",
+      "task": "Stress-test your model at lower prices and lower census",
+      "instructions": "Rerun the P&L at $30/hour and at 80% (conservative) occupancy. The 40-client private model's break-even occupancy is about 47% at $33/hour. The 20-client model breaks even at about 68%, so it has less margin for error. Do not raise the price or drop required costs to make the model work.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "CRITICAL",
+      "task": "Arrange startup capital and the working capital reserve",
+      "instructions": "Model estimates for cash needed: about $55,834 (20 clients), $83,324 (40 clients) and $130,651 (60 clients), with first profit in months 8–9 for the private-pay models. The mixed 60-client model needs about $241,309 and does not turn profitable until month 16. These are modeled estimates built on operator assumptions. Add a buffer for slower client ramp.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "HIGH",
+      "task": "Budget the license renewal cost",
+      "instructions": "Set aside $1,500 per three-year term ($41.67/month in the model). A late renewal adds a $50 fee. Calendar the renewal date well before the third anniversary.",
+      "cite": "12VAC5-381-70; Va. Code §32.1-162.9",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "HIGH",
+      "task": "Set up payroll with correct tax and burden assumptions",
+      "instructions": "Use a payroll service. The model uses a 9.5% payroll-tax load, 5% workers' compensation and 3% benefits (all operator estimates; the VEC rate notice and workers' comp premium were not retrieved). Replace them with your actual quotes and VEC notice.",
+      "cite": "Bundle payroll burden assumptions",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "MEDIUM",
+      "task": "Hire an accountant familiar with home care",
+      "instructions": "The model carries $600–$1,500/month for accounting, payroll service and legal depending on size (operator estimates). Ask about SCC annual registration, BPOL, franchise-tax status (secondary sources say Virginia has no LLC-specific franchise tax) and wage-and-hour rules for travel time.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PRICING, FINANCE & FUNDING",
+      "priority": "MEDIUM",
+      "task": "Check long-term care insurance and other private payers",
+      "instructions": "Ask whether clients carry long-term care insurance or VA benefits, and what documentation those payers require (licensed agency, caregiver credentials, invoices). Payer rules were not researched for this bundle, so confirm directly with each payer.",
+      "cite": "Payer-specific policies",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Decide whether to enroll with Medicaid at all",
+      "instructions": "Verified SFY2026 agency-directed T1019 rates are $20.23 (rest of state) and $23.81 (Northern Virginia), but the billing unit was not verified. Modeled as hourly, the Medicaid-only 100-client configuration loses about $20,544/month at 90% census, and the 50/50 mix is roughly break-even. SFY2027 rates (effective 7/1/2026) were not retrieved. A 20% increase appears only in an introduced budget amendment and a secondary summary. Get the actual SFY2027 rate sheet and unit before deciding.",
+      "cite": "DMAS rate bulletins; HB30 amendment 291#17h",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Hold the VDH HCO license before applying to DMAS",
+      "instructions": "To enroll as a Medicaid provider for personal care or respite, you must be licensed or accredited. The VDH HCO license qualifies, and DMAS requires proof of an active license. Do not file DMAS enrollment until the VDH license is issued.",
+      "cite": "DMAS CCC Plus Manual Ch. II",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Obtain an NPI from NPPES",
+      "instructions": "Enrollment requires a National Provider Identifier from the National Plan and Provider Enumeration System. Application is free and online. Allow time for the number to issue before submitting to DMAS.",
+      "cite": "DMAS CCC Plus Manual Ch. II",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Employ or subcontract an RN and supervise that RN directly",
+      "instructions": "DMAS requires the provider to employ (or subcontract) and directly supervise an RN who provides ongoing supervision of all personal care aides and LPNs. The RN must hold a Virginia license and have at least one year of related clinical experience as an RN or LPN. The mixed model carries about 140 RN hours/month and the Medicaid-only model about one full-time RN (operator estimates).",
+      "cite": "DMAS CCC Plus Manual Ch. II",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Submit the DMAS provider enrollment application and pay any required fee",
+      "instructions": "All providers must enroll and periodically revalidate directly with DMAS. DMAS Provider Enrollment Services: 1-888-829-5373 (toll free), 1-804-270-5105 (local), VAMedicaidProviderEnrollment@gainwelltechnologies.com. A secondary source reports a CY2026 application fee of $750, and DMAS's own bulletin shows $730 for CY2025. Providers may be exempt if they already paid another state Medicaid program or Medicare. Whether an HCO owes the fee was not verified, so confirm in the PRSS portal. The revalidation cycle (reported as every five years by a third party) was also not verified.",
+      "cite": "DMAS CCC Plus Manual Ch. II; DMAS application fee bulletin",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Time your DMAS application for the effective date",
+      "instructions": "Enrollment takes effect on the first day of the month in which the application is received, unless DMAS approves a retroactive date. File early in a month once your license, NPI and RN are in place.",
+      "cite": "DMAS CCC Plus Manual Ch. II",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Implement EVV for every agency-directed aide",
+      "instructions": "DMAS requires EVV for all agency-directed aides and consumer-directed attendants, regardless of live-in status, effective October 1, 2026. Confirm the approved EVV method for your agency with DMAS. The bulletin lists the F/EA mobile app and IVR as compliant methods for the live-in change, and says the F/EA website portal is not compliant. EVV vendor and aggregator rules were not verified.",
+      "cite": "DMAS EVV bulletin effective 10/1/2026",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Learn Cardinal Care managed care contracting",
+      "instructions": "Cardinal Care merged Medallion 4.0 and CCC Plus on Oct 1, 2023 (aggregator source). DMAS requires MCOs to pass legislatively mandated FFS rate changes through at the same percentage. Plan lists, contracting and credentialing steps were not retrieved, so ask DMAS and each plan whether your agency is paid FFS or by the plan.",
+      "cite": "DMAS waiver rate bulletin 7/1/2026",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Build Medicaid documentation workflows",
+      "instructions": "For agency-directed care, the provider develops the initial DMAS-97A/B plan of care and updates it annually or as needs arise. The aide must complete the DMAS-90 on the day the service is delivered. Use the CCC Plus Chapter IV manual (rev. 9/02/2026) as your template source.",
+      "cite": "DMAS CCC Plus Manual Ch. IV (9/02/2026)",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Understand service authorization and the 56-hour soft cap",
+      "instructions": "The CCC Plus fact sheet lists a soft cap of 56 hours per week for personal care, with exceptions based on criteria. Members may choose agency-directed, consumer-directed or both models, so you compete with consumer-directed care. The model's 80 hours per client-month average is an operator estimate.",
+      "cite": "CCC Plus Waiver Fact Sheet 2025",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Track the 2027 CCC Plus policy proposals",
+      "instructions": "Proposed amendments (public comment through Oct 17, 2026) would replace Services Facilitation with Support Brokers starting March 1, 2027, in regional phases, with Services Facilitation ending May 31, 2027. They would also change employer-of-record rules for consumer direction. CMS approval was not confirmed. Check the DMAS Waivers page quarterly.",
+      "cite": "DMAS Waivers page",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Review the SFY2027 rate sheet and re-run the Medicaid models",
+      "instructions": "DMAS says SFY2027 waiver rates are posted on its rate-setting page, but the amounts were not retrieved here. Confirm the T1019 rate, its billing unit and any 7/1/2026 increase. Then recompute the mixed and Medicaid-only configurations before committing capital.",
+      "cite": "DMAS waiver rate bulletin 7/1/2026",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 6 — OPTIONAL: DMAS MEDICAID (CCC PLUS) ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Learn the Medicaid referral pathway",
+      "instructions": "Individuals request an LTSS screening through their local Department of Social Services. Local and hospital screening teams assess the individual before services. The member then chooses a provider. DMAS describes the CCC Plus waiver as having no waiting list, which does not by itself show agency demand.",
+      "cite": "DMAS CCC Plus Waiver page",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Build referral relationships",
+      "instructions": "Private-pay agencies typically depend on hospital discharge planners, senior living communities, elder-law attorneys and online leads (operator observation). The model budgets $1,200–$2,500/month for marketing (operator estimate). Virginia's 65+ share is 18.4% (Census QuickFacts, July 1, 2025), a demand context only.",
+      "cite": "Census QuickFacts: Virginia",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Research your local market before pricing and sizing",
+      "instructions": "No official count of licensed HCOs, market shares or occupancy data was found. Check local competitor prices, aide availability and referral sources in your metro yourself. DBHDS reports provider network shortages across nursing, day, in-home and personal care services, which is a signal for demand but not a metro figure.",
+      "cite": "DBHDS DD Waivers fact sheet 2026",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Advertise only licensed services",
+      "instructions": "Use your exact license name and scope in marketing. Do not advertise skilled or medical services you are not licensed or staffed for. Do not advertise before the license is issued.",
+      "cite": "Va. Code §32.1-162.7",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Ramp the first clients deliberately",
+      "instructions": "The model assumes about 2–3 starting clients and 2–4 new clients per month, operator estimates. Match hiring and RN hours to actual census, and track weekly hours billed against aide pay.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Calendar recurring compliance dates",
+      "instructions": "Track: license expiration (third anniversary), insurance renewals ($1M GL, malpractice, $50,000 crime/fidelity), SCC annual registration, BPOL renewal, RN license renewals, aide annual training hours, criminal record clearance within 30 days of every hire, and DMAS revalidation if enrolled.",
+      "cite": "Va. Code Art. 7.1; 12VAC5-381-210",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Prepare for risk-based routine inspections and complaint visits",
+      "instructions": "VDH inspects on a uniformly applied risk-based schedule, plus follow-up, complaint and public-safety inspections. Keep a standing survey-ready file and run a quarterly internal audit against the VDH checklist.",
+      "cite": "Va. Code §32.1-162.10",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Renew the license on time",
+      "instructions": "File the renewal application with the $1,500 fee before the deadline specified by OLC. A $50 late fee applies if you miss it. Use the portal and confirm the date with OLC well in advance, since the 2021 renewal notice is dated.",
+      "cite": "12VAC5-381-70",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Notify OLC of changes and request reissuance when needed",
+      "instructions": "A processing fee of $250 applies to each license reissuance or replacement. Ask OLC which changes (name, address, ownership, administrator) require notice or a new license, and handle them before the change takes effect.",
+      "cite": "12VAC5-381-70",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Consider an exemption path only after licensure",
+      "instructions": "A licensed HCO that becomes Medicare/Medicaid certified, accredited or hospice-licensed may qualify for exemption from the licensure article. A written exemption request carries a one-time $75 fee. Do not rely on this for initial licensure, and confirm current rules with OLC.",
+      "cite": "Va. Code Art. 7.1; 12VAC5-381-70",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING, LAUNCH & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review the model quarterly against actuals",
+      "instructions": "Compare actual margin, aide hours per client, RN hours and payroll burden with the model. If margin falls below the break-even profile, adjust pricing, hours or the client mix. Never cut required costs such as RN supervision, insurance or the 24/7 on-call line.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Minimum wage steps ($13.75 in 2027, $15.00 in 2028) labeled secondary-only/unverified",
+      "change": "Rewrote the notes, market_conditions, risks, recommendations, financial_narrative, key_numbers and not_claimed to say the steps are enacted (SB1/HB1, signed 4/9/2026, per the Governor's release). The notes now state that $14.57 is lawful through 2027 but below the legal minimum from 1/1/2028. They also add the approximate margin impact of a $15.00 wage (about -$1,100/mo mixed60, -$3,800/mo medicaid100). The model wage_hourly stays at $14.57 for the 2026–2027 case and the engine was not rerun, so the 2028 case is a note-level sensitivity only. Checklist items 9 and 32 were not in the provided data and still need the 2027 and 2028 steps added."
+    },
+    {
+      "issue": "SFY2026 T1019 rates described as superseded by unretrieved SFY2027 rates; 20% increase treated as pending",
+      "change": "Removed 'superseded'. The rate notes, effective dates, key_numbers, executive summary, reimbursement, risks and not_claimed now say the SFY2027 DD-waiver file shows $23.81/$20.23 per hour unchanged. They add that the CCC+ SFY2027 file was not retrieved and that the 20% increase is not evidenced. Modeled rate kept at $20.23."
+    },
+    {
+      "issue": "T1019/T1005 billing unit marked unverified",
+      "change": "Set rate and revenue-line units to 'per hour' and removed the 'unit not verified' caveats and the 15-minute-unit sensitivity in the config notes, reimbursement, financial_narrative and not_claimed."
+    },
+    {
+      "issue": "$33.00/hr private rate presented as sourced to S26",
+      "change": "Relabeled it in rates[5].notes, reimbursement and market_conditions as derived ($75,504 ÷ 2,288 hrs), an operator assumption, with a $35 national sensitivity."
+    },
+    {
+      "issue": "EVV described as newly required from 10/1/2026",
+      "change": "Reworded the opex software note, config notes, key_numbers, operations, reimbursement and risks: EVV was already required for non-live-in aides, and 10/1/2026 ends the live-in exemption. The checklist item 42 was not provided and is not patched."
+    },
+    {
+      "issue": "12-hour annual training presented as DMAS-only; RN supervision cadence",
+      "change": "Updated key_numbers and operations to say 12 hours of in-service is likely also a VDH requirement for all home attendants, including private pay. Added the 12VAC5-381-360 90-day RN supervision cadence (2017 text, unverified current). Added a not_claimed item to confirm the current text. Checklist items 34 and 35 were not provided and are not patched."
+    },
+    {
+      "issue": "Paid sick leave and FLSA overtime/travel time not addressed",
+      "change": "Expanded payroll_burden.notes and added content to the risks, market_conditions, financial_narrative and recommendations sections. Added a not_claimed item on applicability and timing. The 3% benefits rate was not changed and not rerun in the model, and no new checklist item was added because the checklist was not provided."
+    }
+  ]
+}

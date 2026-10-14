@@ -1,0 +1,107 @@
+{
+  "bundle_slug": "illinois-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 17,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "revenue_lines.cila8_avg[0].rate (also key_numbers 'Average 24-hour CILA daily rate' and checklist items 12, 46)",
+      "current": 375.11,
+      "correct": 336.46,
+      "evidence": "IDHS CILA Rates Update 06-30-25 lists average topline by house capacity: '8 Bed ... $122,806', 6 Bed $129,935, 4 Bed $140,196, against a 24-hour average of $134,395. $122,806/365 = $336.46/day. $375.11 is a waiver-wide average and is not specific to 8-bed homes.",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=178397",
+      "fix": "For the 8-bed average-rate case, use about $336/day ($122,806/yr, the DDD 2025 average for 8-bed homes). Revenue falls by about $1,176 per resident per month, or about $9,400 per month for 8 residents. The modeled net of about $5,304/month (6.1% margin) turns into a loss of roughly $4,000/month. Rebuild the P&L, break-even occupancy and startup cash totals. Label $375.11 as a waiver-wide average only."
+    },
+    {
+      "severity": "critical",
+      "json_path": "revenue_lines.cila6_avg[0].rate",
+      "current": 375.11,
+      "correct": 355.99,
+      "evidence": "DDD 6/30/25 update: '6 Bed ... 1,898 ... $129,935'. $129,935/365 = $355.99/day.",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=178397",
+      "fix": "Use about $356/day ($129,935/yr) for the 6-bed average case. Revenue falls about $582 per resident per month, or about $3,490 per month for 6 residents. The modeled $4,143/month net (6.4%) shrinks to roughly $650/month (about 1%). Recompute break-even occupancy (83.9%) and the $178,346 startup cash figure."
+    },
+    {
+      "severity": "major",
+      "json_path": "revenue_lines.cila4_avg[0].rate and revenue_lines.cila12_avg[0].rate",
+      "current": 375.11,
+      "correct": 384.1,
+      "evidence": "DDD 6/30/25: '4 Bed ... 2,020 ... $140,196'. $140,196/365 = $384.10/day.",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=178397",
+      "fix": "For 4-bed homes (including the three 4-bed homes in cila12), use about $384/day. This adds about $273 per resident per month, so the 4-bed margin is understated. Re-run the 4-bed and 3x4-bed results. The size-specific averages come from the 2025 update, before the 1/1/2026 DSP wage increase, so confirm against a rate letter or the DDD CILA Estimated Rate Calculator."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role='Registered nurse'].wage_hourly",
+      "current": 48.76,
+      "correct": null,
+      "evidence": "$48.76 is the national BLS mean hourly wage for RNs ($101,420), which is correct for the US. BLS reports that the national mean annual wage for registered nurses is $101,420. CareerOneStop (BLS May 2025) shows the Illinois RN median is $46.15/hr ($95,990/yr), so the figure is not an Illinois wage.",
+      "source_url": "https://www.careeronestop.org/Toolkit/Wages/find-salary.aspx?soccode=291141&keyword=Registered+Nurses&location=Illinois&dataview=table&hourly=False&national=False",
+      "fix": "Replace with the Illinois (and, for Chicago metro configurations, Chicago-Naperville-Elgin) OEWS May 2025 RN mean hourly wage. The Illinois mean was not retrieved, so this is unverifiable here. Label the line as the Illinois OEWS figure."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role in DSP, QIDP, Administrator, Billing/office].wage_hourly / amount ($18.00, $19.00, $60,000, $65,000, $75,000, $80,000, $42,000, $45,000)",
+      "current": "Operator estimates tagged to source S36/S37 (minimum-wage pages) or S43 (IDES OEWS landing page)",
+      "correct": null,
+      "evidence": "These figures do not come from BLS OEWS May 2025 for Illinois. S36 and S37 are minimum-wage articles, and the model itself says 'Illinois OEWS rows were not retrieved'. The Rates Update confirms DSP wages are set in the rate methodology (a $0.80/hr DSP wage increase effective 1/1/2026).",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=176374",
+      "fix": "Pull Illinois (and Chicago metro) OEWS May 2025 mean wages for the DSP-equivalent SOC codes (for example 31-1120 home health and personal care aides, 31-1131 nursing assistants, 21-1093 social and human service assistants), the QIDP/coordinator role, administrator and office clerk. Replace the estimates and re-point wage_source_id. Keep each wage at or above $15.00 statewide, or $17.05 in Chicago. DSP labor is the largest cost, so this affects profit."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden / opex (missing mandatory cost)",
+      "current": "Payroll burden has FICA, SUI/FUTA, workers' comp and benefits only. There is no paid-leave cost.",
+      "correct": null,
+      "evidence": "Illinois requires employers to provide paid leave, and Chicago has its own paid leave and paid sick and safe leave ordinance (the Chicago minimum wage page and a May 2026 law-firm summary refer to it). Overtime premium is also not modeled for a 24/7 roster. I did not retrieve the statute text, so the amounts are unverified.",
+      "source_url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/minimumwageinformation.html",
+      "fix": "Add a paid-leave load (Illinois Paid Leave for All Workers Act, and the Chicago ordinance for Chicago sites), plus an overtime allowance for 24/7 coverage. Confirm the amounts with the Illinois Department of Labor and the City of Chicago. This is unverifiable here."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers['Illinois adult minimum wage / Chicago minimum wage'].value and staffing.cila8_floor_chicago[0].notes",
+      "current": "Chicago $17.05/hour from 2026-07-01 per two secondary sources (one other source lists $16.20 — confirm...)",
+      "correct": "Chicago $17.05 (official). Cook County outside Chicago is $15.40.",
+      "evidence": "City of Chicago: 'As of July 1, 2026, the minimum wage in Chicago is $17.05 per hour for employers with 4 or more employees.' The $16.20 figure is the July 2024 rate.",
+      "source_url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/minimumwageinformation.html",
+      "fix": "Remove the '$16.20' alternative and the 'confirm' language. Cite chicago.gov. Add Cook County suburban $15.40 (from 7/1/2026) for Chicago Metro sites outside the city. The $15.00 statewide figure is correct."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[Administration allowance].rate and checklist item 45",
+      "current": 13764,
+      "correct": 14385,
+      "evidence": "The 06-30-25 update lists 'Average Annual Administration Allowance Per Person: 24-Hour - $14,385'. The $13,764 figure is from the 06-30-24 update.",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=178397",
+      "fix": "Update to the current $14,385 (6/30/2025). Keep $13,764 only as the 2024 comparison."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers['CILA license application fee'] / startup_costs[0] / checklist item 20 ('statute caps the fee at $200')",
+      "current": "$200 nonrefundable; statute caps the fee at $200",
+      "correct": "$200 nonrefundable application fee is confirmed. The statutory cap is unverified.",
+      "evidence": "IDHS: 'Submit the CILA application to BALC with the required documents and the $200.00 nonrefundable application fee.' Rule 115.410(b) only says the Department charges a non-refundable licensure and renewal fee 'as provided by Section 4(d)' of the Act. The statute page could not be fetched.",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=105282",
+      "fix": "Keep $200 paid with the application. Soften the 'statute caps at $200' wording to unverifiable until 210 ILCS 135/4(d) is read. Verify the renewal fee amount; the $25/month placeholder implies $900 per 3-year term."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[Residential Habilitation avg $375.11], rates[Intermittent CILA 61H $60.48], key_numbers (364.50 to 375.11)",
+      "current": "375.11 / 364.50 / 60.48",
+      "correct": null,
+      "evidence": "The 1915(c) waiver PDF (IL.0350.R05.04) could not be fetched, so these waiver-amendment figures could not be checked.",
+      "source_url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/adultswithdevelopmentaldisabilitiesapprovedwaiver.pdf",
+      "fix": "unverifiable — confirm in Appendix J of the waiver. Whatever the result, do not use $375.11 as a per-home revenue assumption (see the critical issues above)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist (possible omissions)",
+      "current": "The checklist items shown have no step for New Provider Orientation, the one-year window, an FEIN, a Type 2 NPI, or approval of DSP/QIDP training programs.",
+      "correct": null,
+      "evidence": "Rule 115.410(a)(1): 'Agencies must fulfill new provider requirements ... within one of year of requesting a licensure application.' IDHS requires at least one person to attend the full-day orientation before receiving the application. It also requires a Type 2 NPI (taxonomy 320900000X) and DDD approval of DSP and QIDP training programs after enrollment.",
+      "source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-59-SS-115.410",
+      "fix": "Add or confirm checklist items for orientation (and the 1-year deadline), the FEIN, the Type 2 NPI (taxonomy 320900000X), ROCS/CIRAS enrollment, and DSP/QIDP training-program approval. Ignore this issue if they sit in checklist items not shown to me."
+    }
+  ]
+}

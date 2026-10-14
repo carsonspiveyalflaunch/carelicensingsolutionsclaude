@@ -1,0 +1,107 @@
+{
+  "bundle_slug": "illinois-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 14,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "staffing.*[role starts 'Caregivers'].wage_hourly (all configs, 17.21) and checklist item 26",
+      "current": "17.21 = BLS NATIONAL median (May 2025); 'Illinois-specific May 2025 OEWS figure was not retrieved'",
+      "correct": "Illinois May 2025 median for home health and personal care aides is reported as about $18.30/hour ($38,060 a year). I could only confirm this through a secondary site that cites BLS OEWS. The national $17.21 is correct for the national figure.",
+      "evidence": "careslink.com, citing BLS OEWS May 2025, ranks Illinois at $38,060 and $18.30/hr against a national $35,800 and $17.21/hr. The BLS OOH page confirms the national $35,800 and $17.21.",
+      "source_url": "https://www.careslink.com/en/salary/home-health-aide",
+      "fix": "Replace the national proxy with the Illinois OEWS May 2025 median (about $18.30). Confirm it in the BLS or IDES OEWS Illinois file, which I could not open. Then rerun the model. At a wage of $18.30 plus 19% burden, 83.2 paid hours per client-month adds about $108 per client-month, or roughly $4,300 a month at 40 clients. That is about 30% of the stated $14,080 profit. The $17.21 wage is also only $0.16 above Chicago's minimum wage, which leaves no recruiting margin."
+    },
+    {
+      "severity": "major",
+      "json_path": "key_numbers[Worker training].value; opex[Recruiting, fingerprint background checks and paid onboarding].notes; fees_and_timelines_in_checklist[23]",
+      "current": "'Minimum 8 hours' (2015 placement-agency amendment, 'verify current'); the §245.71 training rule for direct-service agencies is described as 'not retrieved'; recruiting and onboarding cost is $30 per client-month",
+      "correct": "IDPH's current survey guidance says each home services agency must provide or arrange at least 10 hours of training per home services worker. The guidance also requires 10 total hours of training in each later year of employment, covering required annual topics. Older rule text (2010 amendment and secondary summaries) reads 8 hours: 4 before the first assignment and 4 within 30 days, plus 8 hours a year. Dementia training also applies to workers who serve dementia clients, reportedly 6 hours initial and 3 hours annual per a secondary source.",
+      "evidence": "IDPH guidance: \"Each home services agency shall provide or arrange for a minimum of 10 hours of training for each home services worker.\"",
+      "source_url": "https://dph.illinois.gov/topics-services/health-care-regulation/health-care-facilities/guidance-for-common-deficiency-findings.html",
+      "fix": "Cite 77 IAC 245.71 as the controlling rule and state it as 10 initial hours plus 10 annual hours. Note that part of the initial training must come before the first assignment, and read §245.71 to confirm the split. Add a separate paid-training line: hours × wage × 1.19 burden × number of new hires per year. At about 25 part-time aides, that is roughly $5,000 or more a year for initial training alone, before turnover. Add Alzheimer's/dementia training costs. Delete the 8-hour figure, which comes from the placement-agency rule."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.il_private20 (owner-administrator, no care supervisor); staffing.* (agency manager rows)",
+      "current": "Owner-administrator is the sole supervisor for 20 clients. Manager role cited to '77 Ill. Adm. Code 245.40(f)'. No alternate manager. No on-call coverage cost.",
+      "correct": "§245.40 requires a designated supervisor who is available to workers at all times (24/7). It also requires supervisory visits, including an annual on-site observation of each home services worker, plus agency supervisory visits. The IDPH application has an 'Alternate Agency Manager' line and sends manager qualifications to §245.30 ('245.30f'). The (f) subsection citation could not be verified. §245.40(a) is headed 'Home Health Administrator or Agency Manager.'",
+      "evidence": "§245.40: \"An individual who is in a supervisory capacity shall be designated and available to the worker for responses to questions at all times.\"",
+      "source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-245.40",
+      "fix": "Change the cite to §245.40(a), §245.40(c) and §245.30 (unverified: confirm the exact subsection in the Part 245 text). Name an alternate manager or add an on-call stipend to the il_private20 configuration. Show that supervisory-visit labor, including one annual observed visit per worker, is covered in the 20-client plan (the owner-only model may not cover it)."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden.benefits_pct (0.04) and notes",
+      "current": "Benefits at 4% 'including paid leave'; 'verify paid-leave obligations locally'",
+      "correct": "Paid leave is mandatory and is not a verify-locally item. The statewide Paid Leave for All Workers Act (820 ILCS 192) accrues 1 hour per 40 worked, up to 40 hours a year. Chicago's ordinance (effective 7/1/2024) requires more for Chicago employees: paid leave plus paid sick leave, accruing 1 hour per 35 worked. At 4% total, accrual alone (2.5% statewide, higher in Chicago) leaves almost nothing for other benefits.",
+      "evidence": "unverifiable in this session. I did not fetch the statute or the City of Chicago ordinance. This comes from my knowledge of the law.",
+      "source_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=4505",
+      "fix": "Add an explicit paid-leave accrual line. At least 2.5% of aide wages statewide. Use the Chicago accrual, and a payout of unused leave if the agency's policy provides one, for Chicago hires. Confirm both against the ILGA statute and Chicago's Office of Labor Standards. Raise benefits_pct above 4% or split it into statutory leave and other benefits."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[role 'Caregivers'].notes; checklist[26]; key_numbers[Statewide minimum wage].value",
+      "current": "'Sources conflict on the Chicago 7/1/2026 figure ($17.05 vs $16.20)'",
+      "correct": "Chicago's minimum wage has been $17.05 since 7/1/2026 for employers with 4 or more employees, up from $16.60. Cook County is $15.40 and the state is $15.00. The $16.20 figure (employmentlawaid.org, S26) is a stale estimate from a page about 335 days old and is wrong.",
+      "evidence": "\"Chicago minimum wage for employers with four or more employees increases from $16.60 to $17.05 per hour.\" Cook County rose from $15.00 to $15.40. Local ordinances do not apply inside Chicago.",
+      "source_url": "https://www.hrsource.org/HRS/HRS/Articles/2026/06/09/1-July-1--2026--Chicago-Wage-and-Fair-Workweek-Changes-.aspx",
+      "fix": "Drop S26 and the $16.20 figure. State that Chicago is $17.05 since 7/1/2026 (it adjusts every July 1), Cook County outside Chicago is $15.40, and the state is $15.00. Confirm Chicago against the Chicago Office of Labor Standards and Cook County against its own notice. The $17.21 wage clears all three, but by only $0.16 in Chicago."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[DHS-DRS HSP, code 4198].notes and rates[4150].notes",
+      "current": "4198 Non-agency CNA $23.00 and 4150 Personal Assistant $20.00 listed as 'DHS-DRS Home Services Program' rates",
+      "correct": "The values are correct as posted. 4198 is a non-agency (individual provider) code. The agency-aide code in the same table is 4177 'HH Agency Aide (CNA)' at $25.00/hr, and 4100 Homemaker is $30.80. The table is headed 'Updated: 7/1/2026'. It does not give an explicit effective date.",
+      "evidence": "The table row reads: 4198 NON-AGENCY CNA ... HOUR 23.00. Another row reads: 4177 HH AGENCY AIDE (CNA) ... 25.00.",
+      "source_url": "https://www.dhs.state.il.us/page.aspx?item=83520",
+      "fix": "Label 4198 as an individual-provider rate that a licensed agency does not bill. Change the 'effective' field to 'posted as updated 7/1/2026'. Do not use 4198 as an agency billing rate."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[IDPH home services license annual renewal].notes; checklist[14]; key_numbers[IDPH license fee]",
+      "current": "'The 2026 renewal fee was not verified, so it is assumed equal to the initial fee'",
+      "correct": "The same Form 445104 covers Initial, Renewal and CHOW and lists a single $1,500 license fee. The form footer reads 'Updated 8/9/2023.' The form also says the renewal application is due 60 days before the current license expires. That renewal deadline is missing from the checklist.",
+      "evidence": "\"DUE DATE IS 60 DAYS PRIOR TO THE EXPIRATION OF THE CURRENT LICENSE\" and \"$1,500 license fee for home services agency.\"",
+      "source_url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/forms/topics-services/health-care-regulation/health-care-facilities/home-health/hs-application-092024.pdf",
+      "fix": "Add a checklist item: submit the renewal application and $1,500 fee by check or money order 60 days before license expiration. State the renewal fee as $1,500 per the form, still subject to change. Mark the verified-source note accordingly."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[IDPH].phone",
+      "current": "\"\"",
+      "correct": "The IDPH application lists 217-782-7412 (TTY 800-547-0466) for application questions. It also lists a fax number, 217-524-0488, used for client-contract submissions. The mailing address is IDPH Health Care Facilities and Programs Section, 525 W. Jefferson St., 4th Floor, Springfield, IL 62761-0001.",
+      "evidence": "\"If you have questions regarding this application, call: 217-782-7412 or TTY number (for hearing impaired) 800-547-0466.\"",
+      "source_url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/forms/topics-services/health-care-regulation/health-care-facilities/home-health/hs-application-092024.pdf",
+      "fix": "Set the phone to 217-782-7412, TTY 800-547-0466. Add the submission address, because the application must be mailed. I could not verify the DPH.COOS@illinois.gov email address."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs / opex (missing mandatory items)",
+      "current": "No lines for the Chicago Fair Workweek Ordinance, an alternate manager, or the IDPH application's required proof of Health Care Worker Registry access and job descriptions",
+      "correct": "The application requires, for initial applicants: proof of general liability coverage under §245.90(a)(2), a complaint resolution policy, an employee health and safety policy, an infection control policy, a background-check process, supervisory-visit policies, an employee training procedure, a sample service plan, job descriptions and proof of access to the IDPH Health Care Worker Registry. Chicago's Fair Workweek Ordinance may also apply to a large home care employer in Chicago (this appears in the same July 2026 Chicago notice). I did not verify that it covers home care agencies.",
+      "evidence": "The application checklist lists 'Proof of access to the IDPH Health Care Worker Registry (955.115)' and 'Employee training procedures (245.71)'.",
+      "source_url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/forms/topics-services/health-care-regulation/health-care-facilities/home-health/hs-application-092024.pdf",
+      "fix": "Add the application document package to checklist item 21. Check with counsel whether Chicago Fair Workweek applies to the 80-client and 100-client configurations (unverifiable here)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[IDPH application review and decision timing]; key_numbers[Provisional license, survey and full license term]; checklist[16], checklist[17]",
+      "current": "30-day initial review; 90-day approval or possible denial (§245.130(b)); provisional license issued within 90 days; provisional license valid 240 days (extendable 120 days); survey within 30 days of expiration",
+      "correct": null,
+      "evidence": "The IDPH FAQ page body and the §245.100 and §245.130 rule text did not load in this session, so the 30, 90, 240 and 120-day figures could not be checked against the primary text.",
+      "source_url": "https://dph.illinois.gov/topics-services/health-care-regulation/health-care-facilities/home-services/faq.html",
+      "fix": "unverifiable. Re-check the FAQ and 77 IAC 245.100 and 245.130 directly before relying on these timelines."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[Private pay, national median 2025 / Illinois median 2024].rate; revenue_lines.*.rate (35.0)",
+      "current": "$35/hour",
+      "correct": null,
+      "evidence": "The CareScout, Genworth and franchise-blog sources were not fetched in this session. Note that the same CareScout figures are the national median for a home health aide or homemaker, which is not an Illinois or Chicago agency rate.",
+      "source_url": "https://www.carescout.com/cost-of-care",
+      "fix": "unverifiable. Confirm the $35 national and Illinois medians in the CareScout survey. Test the $35 price against 5–10 local agencies before using it to drive revenue."
+    }
+  ]
+}

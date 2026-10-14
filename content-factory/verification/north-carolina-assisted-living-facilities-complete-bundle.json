@@ -1,0 +1,125 @@
+{
+  "bundle_slug": "north-carolina-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 32,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "staffing.ach12_private[2].amount / staffing.ach20_mixed[1].amount / staffing.ach20_sa_majority[1].amount (administrator annual_salary)",
+      "current": 47970,
+      "correct": null,
+      "evidence": "The $47,970 figure is the all-occupation median ('Annual median wage across all occupations is $47,970'). The same Commerce deck puts the Management Occupations median at $124,390. An ACH administrator needs certification: 2 years of college or 60 months of supervisory experience, a 120-hour AIT program and an exam.",
+      "source_url": "https://www.commerce.nc.gov/lmi-tuesday-july-7-2026/download?attachment=",
+      "fix": "Do not price a certified ACH administrator at the all-occupation median. Replace it with a sourced NC OEWS figure for a comparable management occupation, such as 11-9111 Medical and Health Services Managers. That NC figure was not retrieved, so treat it as unverifiable until sourced. Add a payroll-burden line for the administrator, or state that it is an owner's draw. This line drives profit for the ACH configurations."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.ach12_private[0], staffing.ach20_mixed[0], staffing.ach20_sa_majority[0] (no Manager line)",
+      "current": "A full-time administrator (40 h/wk) plus aides priced at the CNA median ($18.49/h); no separate Manager position or Manager premium",
+      "correct": "10A NCAC 13F .0602 (7–30 residents) and .0606 (7–12 residents): an Administrator or Manager must be in the facility or within 500 ft with two-way communication at all times. A Manager must be 21+, hold a HS diploma/GED, have 6 months of management or supervisory experience (or be a licensed health professional), and earn 12 CE hours a year.",
+      "evidence": "\"There shall be an Administrator or Manager in the facility or within 500 feet of the facility with a means of two-way telecommunication at all times.\" A 40-hour administrator covers only about 24% of the 168 weekly hours.",
+      "source_url": "https://info.ncdhhs.gov/DHSR/acls/training/pdf/1068/2025/ACLS_Joint_Training_May_2025_Staffing_of_Licensed_Adult_Care_Homes.pdf",
+      "fix": "Show who is the qualified Manager for the other ~128 hours a week. Either price a Manager at a wage above the CNA median, or state that every 24/7 aide meets 13F .0402 Manager qualifications. The 20-bed models note the 7–12 rule but never mention that .0602 also applies to 13–20 residents. Add a manager-qualification and CE cost line."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.ach12_private[4..5], staffing.ach20_mixed[3..4]",
+      "current": "Cook 40 h/wk and housekeeping 20 h/wk (12-bed); cook 1.5 FTE and housekeeping 1 FTE (20-bed)",
+      "correct": "The rules require additional staff for daily housekeeping and food service. The designated personal-care staff member may not do food service during the shift, and may do housekeeping only in narrow exceptions.",
+      "evidence": "\"There shall be additional staff to provide daily housekeeping and food service duties.\" Also: \"The staff member assigned shall not perform food service duties during the shift.\"",
+      "source_url": "https://info.ncdhhs.gov/DHSR/acls/training/pdf/1068/2025/ACLS_Joint_Training_May_2025_Staffing_of_Licensed_Adult_Care_Homes.pdf",
+      "fix": "A 40 h/wk cook covers about 5 days, and 20 h/wk of housekeeping is under 3 h a day. Add a schedule showing 7-day, 3-meal food-service coverage and daily housekeeping coverage by non-care staff. Otherwise add weekend or relief hours, because this is a compliance risk."
+    },
+    {
+      "severity": "major",
+      "json_path": "revenue_lines.fch6_private[0].rate, ach12_private[0].rate, ach20_mixed[0].rate, ach20_sa_majority[0].rate, fch6_sa_mix[0].rate",
+      "current": 6496,
+      "correct": null,
+      "evidence": "A competing consumer source for the same state shows \"1,808 communities Avg $4,586/mo\". The $6,496 CareScout figure sits behind a secondary site (Brevy) that was not retrievable. The Genworth 2024 NC value cited is $5,769. The model's own note says the survey measures a one-bedroom unit in an assisted living community, not a shared room in a small family care home.",
+      "source_url": "https://www.miradorliving.com/assisted-living/north-carolina",
+      "fix": "Run the 6-bed FCH and 12-bed ACH at a conservative or local private-pay rate, and add a sensitivity case near $4,586–$5,769. Mark $6,496 as unverifiable against primary CareScout data. Every private-pay line scales off this one number, and the break-even and 'net $/month' claims in checklist item 1 inherit it."
+    },
+    {
+      "severity": "major",
+      "json_path": "revenue_lines.fch6_sa_mix[1], ach20_mixed[1], ach20_sa_majority[1] and checklist item 2 ('Heavy SA mixes lose money')",
+      "current": "SA residents carry revenue of $1,397/month only; Medicaid PCS revenue is not modeled",
+      "correct": "The $1,397 rate is verified as the 2026 SA Basic Rate. SA residents get Medicaid automatically, and Medicaid pays for personal care services in an adult care home.",
+      "evidence": "\"If you are eligible for the Special Assistance Adult Care Home Program, you are automatically eligible for Medicaid... also helps pay for personal care services.\"",
+      "source_url": "https://ncdhhs.gov/2026-sascu-brochure/download?attachment=",
+      "fix": "Either add PCS revenue per SA resident (rate $7.03 × units; the ACH billing code and per-diem are unverified), or drop the unqualified conclusion that SA-heavy mixes lose money. As written, the loss conclusion rests on omitting a payer stream that the model itself lists in rates."
+    },
+    {
+      "severity": "major",
+      "json_path": "startup_costs (no CON application fee) and fees_and_timelines_in_checklist[14]",
+      "current": "CON application fee 'not stated'; excluded from startup costs for the 12- and 20-bed ACH",
+      "correct": null,
+      "evidence": "The DHSR page requires a CON for any new ACH beds ('No one may develop new adult care home beds without a certificate of need'). The CON fee, the construction plan-review invoice and consultant/legal costs are all excluded from the $190k and $372k cash-needed figures.",
+      "source_url": "https://info.ncdhhs.gov/dhsr/acls/floadult.html",
+      "fix": "Add a CON filing fee line from G.S. 131E-182 / the CON Section fee schedule (919-855-3873); the amount is unverifiable here. Add the plan-review invoice and CON consultant/legal costs. Alternatively, label the ACH cash-needed figures 'excludes CON and plan-review fees'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.fch6_private[1].cite and staffing.fch6_sa_mix[1].cite",
+      "current": "G.S. 90-288.14; 10A NCAC 13G",
+      "correct": "10A NCAC 13G .1501 (family care home administrator approval)",
+      "evidence": "\"Administrators of adult care homes (7+ beds) are required to... NC Gen. Stat. § 90-288-14. Administrators of family care homes (2-6 beds)... 10A NCAC 13G .1501.\"",
+      "source_url": "https://info.ncdhhs.gov/dhsr/acls/adminguidelines.html",
+      "fix": "Change the FCH administrator cite to '10A NCAC 13G .1501 (FCH administrator approval)'. G.S. 90-288.14 certification applies to 7+ bed ACHs."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[29]",
+      "current": "FCH administrator training-hour requirements under 13G 'were not verified'",
+      "correct": "An FCH administrator approval requires a high school diploma/GED, a State-approved 120-hour AIT program, the Administrator Exam, proof of age 21+, and an SBI (and FBI if applicable) check.",
+      "evidence": "\"Certificate of completion of one of the State-approved AIT programs of 120 hours... Certificate of successful completion of the Administrator Exam.\"",
+      "source_url": "https://info.ncdhhs.gov/dhsr/acls/flofch.html",
+      "fix": "Replace the 'not verified' language with the 120-hour AIT + exam requirement. Keep the AIT program cost in startup costs for the FCH as well; it is not currently budgeted for FCH."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[2] (Administrator exam fee and SBI + FBI check)",
+      "current": "low 88 / high 88, assuming the $38 SBI+FBI fee for everyone",
+      "correct": "The SBI check is $14. The $38 SBI+FBI fee applies only if the applicant has lived in NC less than 5 years. The law enforcement agency may charge an extra fingerprinting fee.",
+      "evidence": "\"$14.00 for a North Carolina SBI report; $38.00 for... SBI report and federal FBI report\" and \"The law enforcement agency may charge an additional fee for taking your fingerprints.\"",
+      "source_url": "https://info.ncdhhs.gov/dhsr/acls/adminguidelines.html",
+      "fix": "Use low = 64 ($50 + $14), high = 88 plus the local fingerprint fee. Note that payment is by money order or cashier's check only."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[NC franchise tax / entity-level tax].monthly",
+      "current": 0,
+      "correct": null,
+      "evidence": "The $0 is a placeholder the model itself calls 'not verified'. NC franchise tax generally applies to LLCs taxed as S or C corporations, with a $200 minimum; this should be confirmed with the NC Department of Revenue.",
+      "source_url": "https://www.ncdor.gov/taxes-forms/franchise-tax",
+      "fix": "Unverifiable from the sources provided. Replace $0 with $200/yr (≈$16.67/mo) if the entity elects S- or C-corp tax treatment, or document that a disregarded or partnership LLC owes none."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.payroll_tax_pct",
+      "current": 0.09,
+      "correct": null,
+      "evidence": "The note composes 9% from employer FICA 7.65% plus NC unemployment of about 1.4%. It omits federal FUTA (0.6% net on the first $7,000 per employee). The NC UI rate and wage base from S48 could not be fetched, and the BLS Raleigh page and the S48 DES page were not retrievable for confirmation.",
+      "source_url": "https://www.des.nc.gov/need-help/faqs/employer-tax-faqs",
+      "fix": "Add FUTA (about $42 per employee per year) to the payroll tax line. Mark the NC UI 1% / $34,200 figures as unverifiable until the DES page is re-fetched."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.ach12_private[4..5], staffing.ach20_mixed[3..5] (wage_hourly 16.61, 18.92, 19.29)",
+      "current": "Cook $16.61, housekeeping $18.92 and activities $19.29, labeled Raleigh-Cary May 2025 means",
+      "correct": null,
+      "evidence": "The BLS Raleigh-Cary page returned only navigation text, so these three values could not be verified. They are metro major-group means (food prep and serving; building and grounds; personal care and service), not statewide cook, housekeeper or activity-director medians. All three are well above the $7.25 minimum wage.",
+      "source_url": "https://www.bls.gov/regions/southeast/news-release/occupationalemploymentandwages_raleigh.htm",
+      "fix": "Mark the three values 'unverifiable'. Replace them with NC statewide OEWS medians for SOC 35-2012 (Cooks, Institution & Cafeteria), 37-2012 (Maids and Housekeeping Cleaners) and 39-9031/21-1093 or the appropriate activities occupation."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[Training, CE, CPR and background checks] and working-capital notes",
+      "current": "Monthly $150 for training/CE/CPR/background checks; no staff health-screening cost; no allowance for the SA eligibility lag",
+      "correct": null,
+      "evidence": "Aides and PCA supervisors must meet the tuberculosis health requirements of 13F .0406. SA eligibility decisions can take up to 45 days (65+) or 60 days (under 65) from application.",
+      "source_url": "https://ncdhhs.gov/2026-sascu-brochure/download?attachment=",
+      "fix": "Add a per-hire line for TB screening/health checks and staff background checks. Note that SA-resident revenue can lag admission by 45–60 days when sizing working capital."
+    }
+  ]
+}

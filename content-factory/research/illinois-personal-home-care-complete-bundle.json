@@ -1,0 +1,1978 @@
+{
+  "bundle_slug": "illinois-personal-home-care-complete-bundle",
+  "state": "Illinois",
+  "state_code": "IL",
+  "program": "Personal Home Care",
+  "state_program_name": "Home Services Agency license (IDPH) under the Home Health, Home Services, and Home Nursing Agency Licensing Act (210 ILCS 55; 77 Ill. Adm. Code 245). Non-medical in-home services paid privately, or through the IDoA Community Care Program and the DHS-DRS Home Services Program.",
+  "as_of": "2026-10",
+  "report_title": "Illinois Home Services Agency (Personal Home Care) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "IDPH Home Services Agencies",
+      "publisher": "Illinois Department of Public Health",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/health-care-facilities/home-services.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "77 Ill. Adm. Code 245 (full Part)",
+      "publisher": "Illinois General Assembly (JCAR)",
+      "url": "https://ilga.gov/agencies/JCAR/EntirePart?titlepart=07700245",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "77 Ill. Adm. Code 245 (incl. §245.40(f), §245.90, §245.100)",
+      "publisher": "Illinois General Assembly (JCAR)",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=077&Part=0245",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "Home Services Application (Form 445104)",
+      "publisher": "Illinois Department of Public Health",
+      "url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/forms/topics-services/health-care-regulation/health-care-facilities/home-health/hs-application-092024.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "Home Services Agencies FAQ",
+      "publisher": "Illinois Department of Public Health",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/health-care-facilities/home-services/faq.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "210 ILCS 55 Home Health, Home Services, and Home Nursing Agency Licensing Act",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1227&ChapAct=210+ILCS+55%2F&ChapterID=21&ChapterName=HEALTH+FACILITIES&ActName=Home+Health+Agency+Licensing+Act",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "77 Ill. Adm. Code 245.20 (definitions and exclusions)",
+      "publisher": "Illinois Joint Committee on Administrative Rules",
+      "url": "https://www.ilga.gov/commission/jcar/admincode/077/077002450A00200R.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "Health Care Worker Background Check Act (225 ILCS 46)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1303",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "CCP Current Rates (effective 1/1/2026)",
+      "publisher": "Illinois Department on Aging",
+      "url": "https://ilaging.illinois.gov/programs/ccp/current-rates.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "Persons who are Elderly waiver",
+      "publisher": "Illinois Dept. of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/medicalclients/hcbs/elderly.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "HSP Rates & Fees (updated 7/1/2026)",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=83520",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "Home Services Program Service Listing",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=168916",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "Public Comment Notice, PWD HCBS Waiver renewal (3/13/2026)",
+      "publisher": "Illinois Dept. of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/info/legal/publicnotices/pn03132026pdpropwaivren.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Illinois Electronic Visit Verification (EVV)",
+      "publisher": "Illinois Dept. of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/medicalproviders/electronicvisitverification.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "December 2025 Illinois EVV Updates",
+      "publisher": "Illinois Dept. of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/december2025illinoisevvupdates.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "HFS Provider Notice 02/10/2026 (EVV, State Plan HHCS)",
+      "publisher": "Illinois Dept. of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/medicalproviders/notices/notice.prn260210a.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "EVV Program Manual",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=163786",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "Provider Enrollment Application Fee Amount, CY2026",
+      "publisher": "Federal Register / CMS",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "Cost of Care (2025 survey)",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://www.carescout.com/cost-of-care",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Cost of Care Survey 2024",
+      "publisher": "Genworth / CareScout",
+      "url": "https://assets.carescout.com/cd5022ca64/131168.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Home Health and Personal Care Aides (OOH)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "OEWS May 2023: Home Health and Personal Care Aides",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/oes/2023/may/oes311120.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "Wages for Registered Nurses in Illinois",
+      "publisher": "CareerOneStop (U.S. Dept. of Labor)",
+      "url": "https://www.careeronestop.org/Toolkit/Wages/find-salary.aspx?soccode=291141&keyword=Registered+Nurses&location=Illinois&dataview=table&hourly=False&national=False",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Illinois Minimum Wage 2026",
+      "publisher": "HiveDesk (compliance guide)",
+      "url": "https://hivedesk.com/compliance/united-states/minimum-wage-illinois",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Illinois Minimum Wage Guide for 2026 (Chicago, Cook County)",
+      "publisher": "EmployerPass",
+      "url": "https://www.employerpass.com/illinois-minimum-wage",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Illinois Minimum Wage 2026: State, Chicago & Cook County",
+      "publisher": "EmploymentLawAid",
+      "url": "https://www.employmentlawaid.org/illinois/wages-and-hours/minimum-wage",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "Unemployment Tax (2026 wage base and new-employer rate)",
+      "publisher": "North Central Illinois Economic Development Corp.",
+      "url": "http://www.northcentralillinois.org/datacenter/unemployment-tax/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "Ill. Admin. Code tit. 77, §245.214 Home Services Placement Agency",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-245.214",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "Notice of Adopted Amendments, 77 IAC 245 (12/15/2015)",
+      "publisher": "Illinois Department of Public Health",
+      "url": "http://www.idph.state.il.us/rulesregs/2015_rules/adopted/77-iac-245-12-15-15.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "Bi-Annual CCU Performance Report (Dec 2025)",
+      "publisher": "Illinois Department on Aging",
+      "url": "https://www.ilga.gov/Documents/Reports/ReportsSubmitted/6399RSGAEmail14175RSGAAttachBi-Annual%20CCU%20Performance%20Report%20(6%20mo.)%20Dec%202025%2012.23.25%20(002).pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "Care Coordination Unit Performance Report (Sept 2024)",
+      "publisher": "Illinois Department on Aging",
+      "url": "https://www.ilga.gov/documents/reports/ReportsSubmitted/5256RSGAEmail11222RSGAAttachCCU%20report%20September%202024.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "Community Care Program Annual Report FY2023",
+      "publisher": "Illinois Department on Aging",
+      "url": "https://ilaging.illinois.gov/content/dam/soi/en/web/aging/resources/newsandpublications/publications/documents/ccp-programs-annual-report-fy2023.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Home Services Program (HSP)",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=67182",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Home Services Program 2025 (spending by service)",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx/?item=175282",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "Home Services Program (customers and average monthly cost)",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=146843",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "U.S. Census QuickFacts: Illinois",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/fact/table/US,IL/POP010220",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "FY2026 Fair Market Rents, Chicago metro (HUD USER dataset)",
+      "publisher": "U.S. Dept. of Housing and Urban Development",
+      "url": "https://www.huduser.gov/datasets/fmr/fmr2027/zip-calc?year=2027&zip=60168&cbsasub=METRO16980M16980",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Illinois home care rule changes: 2027 referral law",
+      "publisher": "CareRulebook (secondary guide)",
+      "url": "https://www.carerulebook.com/us/illinois/home-care/rule-changes",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "How to start a home care agency in Illinois (2026)",
+      "publisher": "CareRulebook (secondary guide)",
+      "url": "https://www.carerulebook.com/us/illinois/home-care",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "Addus HomeCare comments on budget approval for in-home rate increases",
+      "publisher": "Addus HomeCare (press release)",
+      "url": "https://addus.gcs-web.com/news-releases/news-release-details/addus-homecare-comments-budget-approval-home-care-rate-increases",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "How Much Does In-Home Senior Care Cost in Illinois?",
+      "publisher": "Homewatch CareGivers (franchise blog)",
+      "url": "https://www.homewatchcaregivers.com/hickory-hills/about-us/blog/how-much-does-in-home-senior-care-cost-illinois/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Illinois LLC Annual Report: Fee, Due Date & Filing",
+      "publisher": "LegalGlass",
+      "url": "https://legalglass.org/illinois-annual-report/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "Illinois LLC Cost (2026)",
+      "publisher": "BusinessAnywhere",
+      "url": "https://businessanywhere.io/illinois-llc-cost/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Paid Family Caregiver Programs in Illinois (2026)",
+      "publisher": "Grants for Seniors",
+      "url": "https://grantsforseniors.org/get-paid-as-a-family-caregiver-in-illinois/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "Caregiver Programs in Illinois (SEIU-bargained PA schedule)",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/caregiver/illinois/programs",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Community Care Program basics",
+      "publisher": "Illinois Legal Aid Online",
+      "url": "https://www.illinoislegalaid.org/legal-information/community-care-program-basics",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Community Care Program (eligibility)",
+      "publisher": "Area Agencies on Aging (ageguide.org)",
+      "url": "https://ageguide.org/community-care-program/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "Nursing Assistants Salary in Illinois (2025)",
+      "publisher": "SalaryWiki (citing BLS OEWS)",
+      "url": "https://salarywiki.com/salary/nursing-assistants/illinois",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "LPN Salary in Illinois 2026",
+      "publisher": "GlobalCybers (citing BLS OEWS)",
+      "url": "https://globalcybers.com/career-guide/licensed-practical-nurse/salary/illinois/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "IDPH home services agency license fee (paid with the application by check or money order; electronic payment not accepted; non-refundable; the same form covers initial, renewal and change-of-ownership applications)",
+      "value": "$1,500",
+      "source_id": "S4",
+      "as_of": "Form 445104 (file dated 09/2024; form footer 8/9/2023)"
+    },
+    {
+      "metric": "IDPH application review and decision timing",
+      "value": "Initial review within 30 days of submission; application must be completed and approved within 90 days of submission or may be denied (§245.130(b)); rule: provisional license issued within 90 days after receipt of the application",
+      "source_id": "S5; S3",
+      "as_of": "2026-10"
+    },
+    {
+      "metric": "Provisional license, survey and full license term",
+      "value": "Provisional license valid 240 days (extendable 120 days if substantial progress); on-site survey within 30 days of provisional expiration; full license expires one year from end of the month the provisional license was first issued",
+      "source_id": "S3; S5",
+      "as_of": "2026-10"
+    },
+    {
+      "metric": "IDoA Community Care Program in-home service (S5130, statewide)",
+      "value": "$30.80/hour; $32.57/hour with insurance",
+      "source_id": "S9",
+      "as_of": "Fee schedule effective 2026-01-01"
+    },
+    {
+      "metric": "DHS-DRS Home Services Program maximum unit prices",
+      "value": "Homemaker (4100) $30.80/hour; personal assistant (4150) $20.00/hour; non-agency CNA (4198) $23.00/hour",
+      "source_id": "S11",
+      "as_of": "posted as updated 2026-07-01"
+    },
+    {
+      "metric": "Private-pay benchmark, non-medical in-home caregiver (national median)",
+      "value": "$35/hour (2025); 2024 national medians: home health aide $34, homemaker $33",
+      "source_id": "S19; S20",
+      "as_of": "2025 / 2024 surveys"
+    },
+    {
+      "metric": "Community Care Program participants and in-home providers",
+      "value": "130,841 older persons served; 332 in-home providers; 34 Care Coordination Units in 59 service areas",
+      "source_id": "S30",
+      "as_of": "2025-12-31"
+    },
+    {
+      "metric": "Statewide minimum wage (adults 18+; secondary source citing IDOL)",
+      "value": "$15.00/hour statewide (unchanged since 1/1/2025); Cook County outside Chicago $15.40; Chicago $17.05 for employers with 4 or more employees since 7/1/2026 (adjusts each July 1)",
+      "source_id": "S24; S25",
+      "as_of": "2026"
+    },
+    {
+      "metric": "EVV for Medicaid personal care and home health",
+      "value": "PCS/HHCS EVV integration in HHAeXchange from March 2, 2026; 75% quarterly EVV compliance required from April 1, 2026; state EVV solution offered at no cost to providers",
+      "source_id": "S14; S15; S17",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Medicaid routing for licensed home services agencies",
+      "value": "Private pay or private insurance; Medicaid clients are served through the IDoA Community Care Program or DHS-DRS. Programs serving exclusively through CCP, DRS or VA are excluded from the licensing definition.",
+      "source_id": "S5; S7",
+      "as_of": "2026-10"
+    },
+    {
+      "metric": "Illinois population and share aged 65+",
+      "value": "12,719,141 residents; 18.7% aged 65+",
+      "source_id": "S36",
+      "as_of": "2025-07-01"
+    },
+    {
+      "metric": "Home services worker training (77 Ill. Adm. Code 245.71, per IDPH survey guidance)",
+      "value": "At least 10 hours of training per home services worker, and 10 hours in each later year of employment on required annual topics; part of the initial training must come before the first assignment (confirm the split in §245.71). Older rule text reads 8 hours initial plus 8 annual. Dementia training also applies to workers serving dementia clients (hours unverified).",
+      "source_id": "IDPH guidance for common deficiency findings (not yet in the source list)",
+      "as_of": "current IDPH survey guidance"
+    }
+  ],
+  "not_claimed": [
+    "Current count of licensed IDPH home services agencies, market shares, named competitors or referral volumes. No current official count was retrieved (the only directory found is a legacy PDF).",
+    "Waitlist or interest-list counts for the Community Care Program, HSP or I/DD waivers. None were found in official sources, and marketing claims of 'no waitlist' are unverified.",
+    "Verification of IDPH contact channels beyond the application form. The phone number (217-782-7412, TTY 800-547-0466) and the contract-submission fax come from the application form; the DPH.COOS@illinois.gov email was not independently verified.",
+    "Required insurance or bond amounts. The 245.90(a) liability-insurance requirement is confirmed, but the $1M per occurrence / $3M aggregate figure comes from a secondary guide about placement agencies and must be confirmed against the codified text. Surety bond requirements are unverified.",
+    "The exact split of the 10 initial training hours between before-first-assignment and after (the §245.71 text was not read), and the dementia-training hours (a secondary source reports 6 initial and 3 annual; unverified). IDPH guidance states 10 hours initial and 10 annual; the 8-hour figure from the placement-agency rule is not used.",
+    "Agency manager qualifications and required hours. The IDPH form points manager requirements to §245.30, and §245.40(a) is headed 'Home Health Administrator or Agency Manager'. The earlier '(f)' subsection cite could not be verified, and the qualification detail was not retrieved.",
+    "Staffing ratios, capacity limits and awake/overnight rules for home services agencies. None were found.",
+    "Inspection and complaint procedures (§245.110, §245.115), zoning or siting rules for agency offices, and any pending 2026 Part 245 rulemaking.",
+    "Whether the Health Care Worker Registry enrollment step applies to every home services worker. Only the statutory fingerprint and registry language was retrieved.",
+    "The IDPH license fee for a home services placement agency and any current IDPH fee schedule. Form 445104 (footer 8/9/2023) lists a single $1,500 fee covering initial, renewal and change of ownership, but the fee may have changed.",
+    "An official IDoA/HFS rate notice for the 2026 CCP rate. The $30.80 figure is on the official IDoA rate table [S9] and a 2025 press release [S40]. Pending proposals (SB0120 at $32.75/hour, the April 2026 $20.75 wage bill, the HFS waiver renewal noticed for 10/1/2026, the elderly waiver amendment effective 1/1/2027) were not verified as enacted.",
+    "Whether CCP in-home agency rates apply to HSP personal assistants. The HSP personal assistant rate ($20.00/hour, SEIU labor agreement) is not modeled as an agency billing rate. The rise to $20.75 on 1/1/2027 comes from a secondary source.",
+    "Final CMS approval and effective date of the 7/1/2026 Persons with Disabilities waiver individual-provider increase ($19.50 to $20.00). Only the proposed-notice language was verified.",
+    "HFS State Plan and HealthChoice Illinois MCO rates for personal care or home health beyond S5130 and the HSP codes. MCO rates have no public fee schedule and are not assumed.",
+    "The IMPACT Medicaid enrollment process and any Illinois enrollment fee. The $750 CY2026 federal application fee is verified, but whether it applies to a non-medical home care agency (a secondary guide says 'institutional providers') was not confirmed.",
+    "Illinois-specific private-pay prices. The ~$35/hour Illinois median comes from a franchise blog attributing it to the 2024 survey [S41]. The CareScout $35 figure is a national median for a home health aide or homemaker, not an Illinois or Chicago agency rate. A $36 Illinois row in the 2025 ranked table is not labeled by service. Test the price against 5–10 local agencies.",
+    "A primary BLS/IDES OEWS May 2025 wage for Illinois home health and personal care aides. A secondary site citing BLS OEWS reports an Illinois median of about $18.30/hour ($38,060); the model uses the national $17.21 ($35,800) and has not been rerun. Illinois cook and manager wages and state CNA, LPN and RN wages come from secondary or DOL-sponsored aggregators, and a dated May 2023 Chicago-metro mean ($17.08/hour) was also retrieved.",
+    "Official IDOL and IDES figures. The $15.00 state minimum wage, the Cook County $15.40 and Chicago $17.05 minimums (7/1/2026), the 2026 unemployment wage base ($14,250) and the new-employer rate (3.35% x experience factor) rest on secondary sources, and other unemployment sources conflict (3.175%, 3.525%, 3.95%). Confirm the Chicago rate with the Chicago Office of Labor Standards and Cook County with its own notice.",
+    "Class-specific Illinois workers' compensation rates for home care aides. Only a generic $1.31 per $100 payroll average (secondary) was found. FUTA rate and wage base were not retrieved from an official source.",
+    "Illinois Secretary of State fee schedule from an official page. The LLC formation ($150) and annual report ($75) figures rest on secondary sources, and the Chicago business license cost is unverified.",
+    "The effective date of the 2027 referral law limiting certain residential facilities to referring residents to licensed home services providers. It rests on a secondary source (CareRulebook).",
+    "The EVV 500-foot geofence detail. The six-element EVV rule is documented only by the HHAeXchange vendor page and the geofence was not verified against a primary HFS source.",
+    "Occupancy or utilization benchmarks for private-pay home care agencies in Illinois. No official source was found, so any occupancy assumption is an operator estimate.",
+    "Room-and-board or SSI in-kind treatment for home care payments. No primary source was found.",
+    "Statutory paid-leave details. The Illinois Paid Leave for All Workers Act (1 hour per 40 worked, up to 40 hours a year) and the Chicago ordinance (accrual of 1 hour per 35 worked plus paid sick leave) were not fetched in this review. Confirm them against ILGA and the Chicago Office of Labor Standards.",
+    "Whether the Chicago Fair Workweek Ordinance applies to home care agencies, including the larger configurations. It was not verified.",
+    "The IDPH timelines (30-day initial review, 90-day approval, 240-day provisional license with a 120-day extension, survey within 30 days of expiration). The primary rule text and FAQ body did not load during fact-checking, so they were not re-verified; re-check 77 IAC 245.100 and 245.130.",
+    "The cost of an alternate agency manager or on-call coverage, and of supervisory-visit labor (including the annual on-site observation of each worker). These requirements are noted but not costed in the model."
+  ],
+  "regulators": [
+    {
+      "name": "Illinois Department of Public Health (IDPH), Home Services Program",
+      "role": "Licenses home services agencies (initial application, provisional license, surveys, county-expansion approval, change notices)",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/health-care-facilities/home-services.html",
+      "phone": "217-782-7412 (TTY 800-547-0466)",
+      "email": "DPH.COOS@illinois.gov",
+      "source_id": "S5"
+    },
+    {
+      "name": "Illinois Department on Aging (IDoA), Community Care Program",
+      "role": "Operating agency for the Persons who are Elderly HCBS waiver; sets CCP in-home rates; Care Coordination Units assess and refer clients",
+      "url": "https://ilaging.illinois.gov/programs/ccp/current-rates.html",
+      "phone": "1-800-252-8966 (Senior HelpLine)",
+      "email": "",
+      "source_id": "S9"
+    },
+    {
+      "name": "Illinois Department of Healthcare and Family Services (HFS)",
+      "role": "State Medicaid agency; HCBS waiver oversight; Electronic Visit Verification policy",
+      "url": "https://hfs.illinois.gov/medicalclients/hcbs/elderly.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S10"
+    },
+    {
+      "name": "Illinois Department of Human Services, Division of Rehabilitation Services (DHS-DRS)",
+      "role": "Home Services Program for people with severe disabilities under age 60; sets HSP maximum unit prices",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=67182",
+      "phone": "",
+      "email": "",
+      "source_id": "S33"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "210 ILCS 55",
+      "title": "Home Health, Home Services, and Home Nursing Agency Licensing Act",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1227&ChapAct=210+ILCS+55%2F&ChapterID=21&ChapterName=HEALTH+FACILITIES&ActName=Home+Health+Agency+Licensing+Act",
+      "source_id": "S6"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245",
+      "title": "Home Health, Home Services, and Home Nursing Agency Code",
+      "url": "https://ilga.gov/agencies/JCAR/EntirePart?titlepart=07700245",
+      "source_id": "S2"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245.20",
+      "title": "Definitions and exclusions (CCP-, DRS- or VA-only programs excluded)",
+      "url": "https://www.ilga.gov/commission/jcar/admincode/077/077002450A00200R.html",
+      "source_id": "S7"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245.40(f)",
+      "title": "Staffing: home services agency must designate a person to supervise services",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=077&Part=0245",
+      "source_id": "S3"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245.90(a)",
+      "title": "Evidence of liability insurance",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=077&Part=0245",
+      "source_id": "S3"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245.100",
+      "title": "Provisional license (240 days; 120-day extension; full license term)",
+      "url": "https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=077&Part=0245",
+      "source_id": "S3"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245.130(b)",
+      "title": "Denial of an application not completed and approved within 90 days (as cited by IDPH)",
+      "url": "https://dph.illinois.gov/topics-services/health-care-regulation/health-care-facilities/home-services/faq.html",
+      "source_id": "S5"
+    },
+    {
+      "cite": "77 Ill. Adm. Code 245.214",
+      "title": "Services: home services placement agency (employer tax and workers' compensation duties)",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-245.214",
+      "source_id": "S28"
+    },
+    {
+      "cite": "225 ILCS 46; 77 Ill. Adm. Code 955",
+      "title": "Health Care Worker Background Check Act and Code (fingerprint checks; Health Care Worker Registry)",
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1303",
+      "source_id": "S8"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "IDoA Community Care Program (Elderly waiver)",
+      "code": "S5130",
+      "service": "In-Home Service (statewide, no modifier)",
+      "rate": 30.8,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "IDoA is the operating agency and HFS the Medicaid agency [S10]. A secondary guide reports the rate unchanged for 2026 [S44]. Proposals to raise it (SB0120 at $32.75) were not verified as enacted.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "IDoA Community Care Program (Elderly waiver)",
+      "code": "S5130",
+      "service": "In-Home Service with Insurance (statewide)",
+      "rate": 32.57,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "Higher statewide rate under the same code for a provider delivering with insurance. IDoA's table does not define the criteria here, so confirm them with IDoA before assuming it.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "DHS-DRS Home Services Program",
+      "code": "4100",
+      "service": "Homemaker service (maximum unit price)",
+      "rate": 30.8,
+      "unit": "per hour",
+      "effective": "posted as updated 2026-07-01",
+      "notes": "Maximum unit price posted by IDHS; HSP serves people under age 60 with severe disabilities [S33].",
+      "source_id": "S11"
+    },
+    {
+      "payer": "DHS-DRS Home Services Program",
+      "code": "4150",
+      "service": "Personal assistant (maximum unit price)",
+      "rate": 20.0,
+      "unit": "per hour",
+      "effective": "posted as updated 2026-07-01",
+      "notes": "Uniform statewide rate under a labor agreement [S12]. A secondary source reports $20.75 on 2027-01-01 [S45]. Not modeled as an agency billing rate.",
+      "source_id": "S11"
+    },
+    {
+      "payer": "DHS-DRS Home Services Program",
+      "code": "4198",
+      "service": "Non-agency CNA (maximum unit price)",
+      "rate": 23.0,
+      "unit": "per hour",
+      "effective": "posted as updated 2026-07-01",
+      "notes": "Individual-provider (non-agency) code; a licensed agency does not bill it, and it is not used as an agency billing rate. Same table lists non-agency LPN (4197) at $30.00 and RN (4196) at $36.75 per hour. The table is headed 'Updated: 7/1/2026' and gives no explicit effective date.",
+      "source_id": "S11"
+    },
+    {
+      "payer": "HFS Persons with Disabilities HCBS waiver (proposed)",
+      "code": "",
+      "service": "Individual Provider and Respite Individual Provider",
+      "rate": 20.0,
+      "unit": "per hour",
+      "effective": "2026-07-01",
+      "notes": "Proposed increase from $19.50, contingent on CMS approval; final approval not verified. Individual-provider rate, not an agency rate.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Non-medical in-home caregiver, national median (2025)",
+      "rate": 35.0,
+      "unit": "per hour",
+      "effective": "2025",
+      "notes": "CareScout/Genworth 2025 national median. The 2024 survey defines the home health aide rate as the standard hourly private rate for hands-on, non-medical personal care ($34 national; homemaker $33). Illinois-specific median not verified from the primary survey.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Illinois median in-home care (secondary report of 2024 survey)",
+      "rate": 35.0,
+      "unit": "per hour",
+      "effective": "2024 survey",
+      "notes": "Franchise blog attributing ~$35/hour to the 2024 Genworth/CareScout survey; secondary source. Chicago-area prices may differ and should be checked against local competitors.",
+      "source_id": "S41"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "IDPH Home Services Program",
+      "role": "Licensing applications, change notices, county-expansion approval",
+      "contact": "IDPH Health Care Facilities and Programs Section, 525 W. Jefferson St., 4th Floor, Springfield, IL 62761-0001; 217-782-7412 (TTY 800-547-0466); DPH.COOS@illinois.gov"
+    },
+    {
+      "name": "Illinois Department on Aging Senior HelpLine",
+      "role": "Community Care Program referral and application assistance (per Illinois Legal Aid Online)",
+      "contact": "1-800-252-8966; https://ilaging.illinois.gov/programs/ccp/current-rates.html"
+    },
+    {
+      "name": "HFS Electronic Visit Verification",
+      "role": "EVV requirements for personal care and home health Medicaid billing",
+      "contact": "https://hfs.illinois.gov/medicalproviders/electronicvisitverification.html"
+    },
+    {
+      "name": "DHS Division of Rehabilitation Services, Home Services Program",
+      "role": "HSP for people with severe disabilities under age 60 (48 local offices)",
+      "contact": "https://www.dhs.state.il.us/page.aspx?item=67182"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "client",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.85,
+      "optimistic": 0.95,
+      "rationale": "Capacity is the active client census the office team is sized for. Occupancy is the share actually on service in a month, after hospitalizations, discharges, suspended service and unfilled shifts. The 90% default (85% conservative, 95% optimistic) is an operator assumption, not a sourced statistic. No official occupancy or utilization data for Illinois private-pay home care agencies was found (see not_claimed). Verify locally.",
+      "source_id": ""
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 3
+    },
+    "configurations": [
+      {
+        "id": "il_private20",
+        "label": "Private-pay personal care agency, 20 clients (owner-administrator)",
+        "capacity": 20,
+        "notes": "Smallest realistic start. The owner is the designated manager who supervises services (77 Ill. Adm. Code 245.40(a) and (c) [S3]; manager qualifications are referenced to §245.30, subsection unverified, so confirm them before relying on this setup). §245.40 requires a designated supervisor who is available to workers at all times, plus supervisory visits, including an annual on-site observation of each home services worker. The IDPH application also has an 'Alternate Agency Manager' line. This owner-only setup does not cost an alternate manager or an on-call stipend. Confirm that the owner plus a 0.75 FTE scheduler/coordinator can cover the supervisory-visit labor. All clients pay privately at $35/hour. No Medicaid payer is modeled. Staffing ratios and capacity limits for home services agencies were not found in the rules, so staffing is sized by operator estimate. At 90% census (18 clients) this configuration is thinly profitable and carries the owner's pay inside fixed costs.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S19",
+            "notes": "$35/hour is the CareScout 2025 national median for non-medical in-home caregivers [S19]. The 2024 survey defines the home health aide rate as the standard private hourly rate for hands-on non-medical personal care ($34 national) [S20]. A franchise blog reports about $35/hour as the Illinois median [S41, secondary]. Chicago-area and downstate prices were not verified, so check local competitors. 80 billable hours per client-month (about 18 hours/week) is an operator estimate; verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "",
+            "notes": "$17.21/hour = BLS national median annual wage for home health and personal care aides, $35,800 (May 2025) ÷ 2,080 [S21]. This is a national proxy. A secondary site citing BLS OEWS reports the Illinois May 2025 median at about $18.30/hour ($38,060 a year). That figure was not confirmed in the BLS or IDES OEWS file, and the model has not been rerun at that wage. At $18.30 plus 19% burden, paid-hour cost rises about $108 per client-month (about $1,900/month at 18 active clients). The dated Chicago-metro May 2023 mean was $17.08 [S22]. The wage is above the $15.00 statewide minimum [S24] and Cook County's $15.40 [S25]. It is only $0.16 above Chicago's $17.05 minimum, in effect since 7/1/2026 and adjusted each July 1 [S25], so there is no recruiting margin. The HSP personal assistant rate of $20.00/hour [S11] competes for the same workers. Hours = 80 billable hours plus 4% paid non-billable time; both are operator estimates, verify locally."
+          },
+          {
+            "role": "Owner-administrator / designated manager (supervises services, intake, assessments, care plans)",
+            "basis": "annual_salary",
+            "amount": 55000,
+            "wage_source_id": "",
+            "cite": "77 Ill. Adm. Code 245.40(a), 245.40(c); 245.30 (subsection unverified)",
+            "notes": "Operator estimate for an owner-operator draw; no Illinois OEWS manager wage was retrieved. The rule requires a designated person to supervise provision of services, available to workers at all times, with supervisory visits including an annual on-site observation of each worker [S3]. An alternate manager or on-call stipend is not costed. Manager qualifications (§245.30, subsection unverified) were not verified."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinator (0.75 FTE)",
+            "wage_hourly": 20.0,
+            "wage_source_id": "",
+            "basis": "hours_per_month",
+            "amount": 130,
+            "cite": "",
+            "notes": "Operator estimate — verify locally; 130 hours/month ≈ 0.75 FTE."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (small commercial suite)",
+            "monthly": 1000,
+            "notes": "Operator estimate for a small shared or executive office; no Illinois office rent benchmark was retrieved. Rent is fixed regardless of census."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 250
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime/bond (base)",
+            "monthly": 600
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 500
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1000
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 300
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "il_private40",
+        "label": "Private-pay personal care agency, 40 clients (full-time manager, supervisor, scheduler)",
+        "capacity": 40,
+        "notes": "The configuration an experienced operator would choose: private pay only at $35/hour, no dependence on Medicaid payment timing, with a full-time manager, one care supervisor and one scheduler/billing coordinator. Illinois home services agencies deliver non-medical care and need no RN. The rules require a designated person to supervise services [S3]. Sensitivities (operator-modeled): at a caregiver wage of $19.00/hour this configuration still earns roughly $7,700/month at 90% census; at 60 billable hours per client-month it earns roughly $4,600/month. Break-even is near 22 active clients (about 55% of capacity).",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S19",
+            "notes": "$35/hour = CareScout 2025 national median for non-medical in-home caregivers [S19]; a franchise blog reports about $35 as the Illinois median per the 2024 survey [S41, secondary]. 2024 survey definition: standard hourly private rate for hands-on non-medical personal care [S20]. Small agencies serving the Chicago metro may price above or below this; check local competitors. 80 billable hours per client-month is an operator estimate; verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "",
+            "notes": "$17.21/hour = BLS national median annual wage $35,800 (May 2025) ÷ 2,080 [S21]. This is a national proxy. A secondary site citing BLS OEWS reports the Illinois May 2025 median at about $18.30/hour ($38,060). That figure was not confirmed in the BLS or IDES file, and the model has not been rerun at that wage. At $18.30 plus 19% burden, cost rises about $108 per client-month, roughly $3,900/month at 36 active clients (derived). The wage is above the $15.00 statewide minimum [S24] and Cook County's $15.40 [S25]. It is only $0.16 above Chicago's $17.05 minimum, in effect since 7/1/2026 [S25]. HSP personal assistants earn a posted $20.00/hour [S11], so recruiting pressure toward $19–20 is a real risk. Hours = 80 billable hours plus 4% paid non-billable time; operator estimates, verify locally."
+          },
+          {
+            "role": "Agency manager / administrator (designated to supervise services)",
+            "basis": "annual_salary",
+            "amount": 65000,
+            "wage_source_id": "",
+            "cite": "77 Ill. Adm. Code 245.40(a), 245.40(c); 245.30 (subsection unverified)",
+            "notes": "Operator estimate — verify locally; no Illinois OEWS manager wage retrieved. The rule requires a designated person to supervise provision of services, available to workers at all times, with supervisory visits including an annual on-site observation of each worker [S3]. An alternate manager or on-call coverage is not costed. Manager qualifications (§245.30, subsection unverified) were not verified."
+          },
+          {
+            "role": "Care supervisor / care coordinator (1 FTE) — assessments, care plans, caregiver supervision",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate — verify locally. No RN is required for non-medical home services in the facts retrieved; supervision caseload is an operator estimate."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 42000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "Operator estimate — verify locally. Covers scheduling, payroll hours, invoicing and (if later added) Medicaid EVV visit maintenance."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "il_private80",
+        "label": "Private-pay personal care agency at scale, 80 clients",
+        "capacity": 80,
+        "notes": "Scale version of the private-pay model: two care supervisors, two schedulers and a recruiter/HR coordinator. Shows how fixed overhead is spread. Caregiver hiring is the constraint: at 90% census the agency needs about 35 full-time-equivalent aides.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S19",
+            "notes": "CareScout 2025 national median $35/hour for non-medical caregivers [S19]; Illinois ~$35 per a secondary franchise blog [S41]. 80 hours/client-month is an operator estimate."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "",
+            "notes": "BLS national median $35,800 (May 2025) ÷ 2,080 = $17.21 [S21]; a national proxy. A secondary site citing BLS reports the Illinois median at about $18.30/hour, not confirmed from BLS/IDES, and the model has not been rerun at that wage. Above the statewide $15.00 [S24] and Cook County $15.40 [S25] minimums, and only $0.16 above Chicago's $17.05 (since 7/1/2026) [S25]. Hours = 80 billable plus 4% paid non-billable time; operator estimates."
+          },
+          {
+            "role": "Agency manager / administrator (designated to supervise services)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "",
+            "cite": "77 Ill. Adm. Code 245.40(a), 245.40(c); 245.30 (subsection unverified)",
+            "notes": "Operator estimate — verify locally. Designated supervisor requirement per [S3]: available to workers at all times, with supervisory visits including an annual on-site observation of each worker. An alternate manager or on-call coverage is not costed. Manager qualifications (§245.30, subsection unverified) were not verified."
+          },
+          {
+            "role": "Care supervisors / care coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 104000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "$52,000 × 2; operator estimate."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 84000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "$42,000 × 2; operator estimate."
+          },
+          {
+            "role": "Recruiter / HR and onboarding coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 45000,
+            "wage_source_id": "",
+            "cite": "225 ILCS 46",
+            "notes": "Operator estimate. Handles fingerprint background checks and Health Care Worker Registry steps [S8] and onboarding training; whether the registry applies to every home services worker was not verified."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (small commercial suite)",
+            "monthly": 3500,
+            "notes": "Operator estimate for about 2,000 sq ft; no Illinois office rent benchmark retrieved."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 600
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime/bond (base)",
+            "monthly": 1200
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1800
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 3000
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 700
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "il_mixed60",
+        "label": "Mixed agency, 60 clients (50% private pay / 50% IDoA Community Care Program)",
+        "capacity": 60,
+        "notes": "Half private pay at $35/hour, half CCP clients billed at the $30.80/hour S5130 in-home service rate [S9]. The CCP rate is the base statewide rate; the $32.57 'with insurance' rate [S9] is not assumed because its criteria were not verified. IDoA Care Coordination Units assess and refer CCP clients [S30]. The facts do not confirm how a new agency becomes a CCP in-home provider. Confirm IDoA provider qualification and contracting before relying on this payer. Medicaid EVV is required (75% quarterly compliance from 4/1/2026 [S15]); the state EVV solution is free to providers [S17]. A CCP-only program would be excluded from the IDPH licensing definition [S7]; a mixed agency serving private-pay clients needs the license. CCP hours per client (60/month) are an operator estimate, not a published figure.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 0.5,
+            "source_id": "S19",
+            "notes": "CareScout 2025 national median [S19]; Illinois ~ $35 per a secondary source [S41]. 80 hours/client-month is an operator estimate."
+          },
+          {
+            "name": "IDoA Community Care Program in-home service (S5130)",
+            "payer": "IDoA Community Care Program (Elderly waiver)",
+            "code": "S5130",
+            "rate": 30.8,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 0.5,
+            "source_id": "S9",
+            "notes": "$30.80/hour statewide base rate, effective 2026-01-01 [S9]. 60 hours/client-month is an operator estimate — verify locally. For scale, HSP's average monthly cost per customer is reported at $2,030 [S35], but that is a different program and a mixed service set. Proposals to raise the CCP rate were not verified as enacted."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers (private-pay half)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 41.6,
+            "cite": "",
+            "notes": "BLS national median ($35,800 ÷ 2,080) [S21]; a national proxy. A secondary site citing BLS reports the Illinois median at about $18.30/hour, not confirmed from BLS/IDES, and the model has not been rerun at that wage. Weighted by the 50% private share: 0.5 × 83.2 (80 billable hours + 4%)."
+          },
+          {
+            "role": "Caregivers (CCP half)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 31.2,
+            "cite": "",
+            "notes": "Same wage as the private-pay half [S21], a national proxy (the Illinois median is reported at about $18.30 by a secondary source; not confirmed). 0.5 × 62.4 (60 billable hours + 4%); weighted by the 50% CCP share. HSP personal assistants have a $20.00/hour posted rate [S11], so wage pressure is likely. At a $19.00 wage this configuration's profit falls to about $2,800/month (operator-modeled)."
+          },
+          {
+            "role": "Agency manager / administrator (designated to supervise services)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "",
+            "cite": "77 Ill. Adm. Code 245.40(a), 245.40(c); 245.30 (subsection unverified)",
+            "notes": "Operator estimate — verify locally. Designated supervisor requirement per [S3]: available to workers at all times, with supervisory visits including an annual on-site observation of each worker. An alternate manager or on-call coverage is not costed. Manager qualifications (§245.30, subsection unverified) were not verified."
+          },
+          {
+            "role": "Care supervisors / care coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 104000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "$52,000 × 2; operator estimate."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 84000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "$42,000 × 2; operator estimate. Includes CCP EVV visit maintenance and claims [S14][S15]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (small commercial suite)",
+            "monthly": 3000,
+            "notes": "Operator estimate for about 1,500 sq ft."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 500
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime/bond (base)",
+            "monthly": 1000
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1200
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 2000
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 600
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 21,
+            "notes": "Half of clients private pay."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "il_ccp100",
+        "label": "Community Care Program agency, 100 clients (IDoA S5130 only)",
+        "capacity": 100,
+        "notes": "All clients billed at the $30.80/hour CCP in-home service rate [S9] (the HSP homemaker maximum price is also $30.80 [S11]). Illustrates how thin a Medicaid-funded model is: about $9.35/hour of margin after caregiver pay and burden at a $17.21 wage. Referrals come through IDoA Care Coordination Units (34 CCUs in 59 service areas [S30]); CCP had 332 in-home providers in December 2025 [S30]. A CCP-only program is excluded from the IDPH licensing definition [S7]; the license fee and renewal are still modeled as a conservative cost. Whether and how a new agency enrolls with IDoA was not verified. Medicaid payment timing was not researched, so extra working capital is advisable. CCP hours per client (60/month) is an operator estimate. At 40 hours/month this configuration loses roughly $5,600/month at 90% census, and at a $19.00 caregiver wage it falls to roughly -$450/month; break-even at default assumptions is near 67 active clients (about 75% of capacity).",
+        "revenue_lines": [
+          {
+            "name": "IDoA Community Care Program in-home service (S5130)",
+            "payer": "IDoA Community Care Program (Elderly waiver)",
+            "code": "S5130",
+            "rate": 30.8,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "$30.80/hour statewide, effective 2026-01-01 [S9]. 60 hours per client-month is an operator estimate; the actual authorized hours per CCP client were not verified. The $32.57 'with insurance' rate [S9] is not assumed (criteria unverified)."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / in-home service workers (CCP)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 62.4,
+            "cite": "",
+            "notes": "BLS national median ($35,800 ÷ 2,080) [S21]; a national proxy. A secondary site citing BLS reports the Illinois median at about $18.30/hour, not confirmed from BLS/IDES, and the model has not been rerun at that wage. Above the statewide $15.00 minimum [S24] and Cook County's $15.40 [S25], and only $0.16 above Chicago's $17.05 (since 7/1/2026) [S25]. HSP personal assistants have a posted $20.00/hour [S11] (a secondary source reports $20.75 from 1/1/2027 [S45]), so competing for workers is a risk. Hours = 60 billable + 4% paid non-billable time; operator estimates."
+          },
+          {
+            "role": "Agency manager / administrator (designated to supervise services)",
+            "basis": "annual_salary",
+            "amount": 70000,
+            "wage_source_id": "",
+            "cite": "77 Ill. Adm. Code 245.40(a), 245.40(c); 245.30 (subsection unverified)",
+            "notes": "Operator estimate — verify locally. Designated supervisor must be available to workers at all times, with supervisory visits including an annual on-site observation of each worker [S3]. An alternate manager or on-call coverage is not costed."
+          },
+          {
+            "role": "Care supervisors / care coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 104000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "$52,000 × 2; operator estimate."
+          },
+          {
+            "role": "Scheduler / EVV and billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 84000,
+            "wage_source_id": "",
+            "cite": "",
+            "notes": "$42,000 × 2; operator estimate. HFS requires EVV for personal care/homemaker (S5130) services [S15]; 75% quarterly compliance from 4/1/2026 [S15]; state EVV solution is free to providers [S17]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (small commercial suite)",
+            "monthly": 3500,
+            "notes": "Operator estimate for about 2,000 sq ft."
+          },
+          {
+            "item": "Home care scheduling, billing and EVV-interface software (base)",
+            "monthly": 600
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime/bond (base)",
+            "monthly": 1100
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1000,
+            "notes": "Operator estimate; CCP referrals come through CCUs and client choice."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 700
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 0,
+            "notes": "No private-pay clients."
+          }
+        ],
+        "ramp": {
+          "start_clients": 5,
+          "add_per_month": 5,
+          "note": "Operator estimate."
+        }
+      }
+    ],
+    "default_configuration": "il_private40",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.1,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.04,
+      "notes": "Employer FICA 7.65%. Illinois new-employer unemployment rate reported as 3.35% × state experience factor on the first $14,250 of wages for 2026 [S27, secondary; other sources conflict at 3.175%, 3.525% and 3.95%, and the official IDES rate table was not retrieved]. FUTA was not retrieved from an official source. Together SUTA and FUTA add about 1–3% of wages (higher for part-time aides), giving about 10% combined. Workers' comp: carriers set their own rates in Illinois and only a generic average of $1.31 per $100 of payroll was found (not class-specific), so 5% for personal-care aide class is an operator estimate — get quotes. Benefits at 4% is an operator estimate and is probably too low. Paid leave is mandatory, not optional: Illinois' Paid Leave for All Workers Act (820 ILCS 192) accrues 1 hour per 40 worked up to 40 hours a year, about 2.5% of wages before any other benefit. Chicago's ordinance (effective 7/1/2024) is reported to require more for Chicago employees (accrual of 1 hour per 35 worked plus paid sick leave). Neither the statute nor the Chicago ordinance was fetched in this review, so confirm against ILGA and the Chicago Office of Labor Standards. The model has not been rerun with a higher benefits rate, so modeled burden likely understates cost. Total modeled burden 19%.",
+      "source_id": "S27"
+    },
+    "opex": [
+      {
+        "item": "Office lease (small commercial suite)",
+        "monthly": 2000,
+        "basis": "fixed",
+        "notes": "Operator estimate for about 1,000 sq ft; no Illinois office rent benchmark was retrieved. Fixed regardless of census; sized per configuration by override."
+      },
+      {
+        "item": "IDPH home services license annual renewal ($1,500 per Form 445104)",
+        "monthly": 125,
+        "basis": "fixed",
+        "notes": "$1,500 ÷ 12. Form 445104 covers initial, renewal and change-of-ownership applications and lists a single $1,500 license fee (form footer updated 8/9/2023), so the fee may have changed. The renewal application is due 60 days before the current license expires, with the fee by check or money order. The full license runs one year from the end of the month the provisional license was first issued [S3].",
+        "source_id": "S4"
+      },
+      {
+        "item": "Illinois LLC annual report ($75)",
+        "monthly": 6.25,
+        "basis": "fixed",
+        "notes": "$75 per year (Form LLC-50.1); no separate franchise tax for LLCs per a secondary source [S42]. Official Secretary of State fee schedule not retrieved.",
+        "source_id": "S42"
+      },
+      {
+        "item": "Home care scheduling, billing and EVV-interface software (base)",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes. The state EVV solution (HHAeXchange) is offered at no cost for Medicaid personal care/home health visits [S17]; private-pay scheduling and billing is not covered."
+      },
+      {
+        "item": "Software per-client fees",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "General/professional liability, hired & non-owned auto, crime/bond (base)",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Operator estimate for premium. Evidence of liability insurance is required under 77 Ill. Adm. Code 245.90(a) [S3]; a secondary guide cites at least $1M per occurrence / $3M aggregate [S39], which must be confirmed against the codified text. Surety bond requirements unverified.",
+        "source_id": "S3"
+      },
+      {
+        "item": "Liability insurance per-client exposure",
+        "monthly": 12,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and referral development",
+        "monthly": 1500,
+        "basis": "fixed",
+        "notes": "Operator estimate (private-pay agencies depend on hospital discharge planners, senior living communities, elder-law attorneys and online leads). A 2027 referral law reportedly limits certain residential facilities to referring residents only to licensed home services providers [S38, secondary; effective date unverified], which favors licensed agencies."
+      },
+      {
+        "item": "Utilities, phones, internet and IT",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Recruiting, fingerprint background checks and paid onboarding (turnover hiring)",
+        "monthly": 30,
+        "basis": "per_client",
+        "notes": "Operator estimate. Fingerprint checks under the Health Care Worker Background Check Act [S8]. IDPH survey guidance requires at least 10 hours of training per home services worker and 10 hours in each later year of employment (77 Ill. Adm. Code 245.71). The older 8-hour figure comes from the placement-agency rule and is not used. Paid initial training costs about $205 per new hire (10 hours × $17.21 × 1.19 burden). That is roughly $5,000 or more a year for about 25 part-time aides at 40 clients, before turnover, and dementia training is extra. This $30 per client-month line covers job ads, checks and paid orientation. It is not confirmed to cover the full paid training cost, which is not separately costed in the model."
+      },
+      {
+        "item": "Gloves, PPE and client-care supplies",
+        "monthly": 5,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Supervisor and care-manager mileage",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate for assessments and supervisory visits."
+      },
+      {
+        "item": "Payment processing on private-pay invoices (1.5% blended)",
+        "monthly": 42,
+        "basis": "per_client",
+        "notes": "1.5% of $2,800 monthly private-pay billing (80 hours × $35); operator estimate for the card/ACH mix."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Illinois LLC articles of organization",
+        "low": 150,
+        "high": 150,
+        "source_id": "S43",
+        "notes": "$150 per a secondary source; official fee schedule not retrieved."
+      },
+      {
+        "item": "IDPH home services agency license fee (paid with the application by check or money order; non-refundable; electronic payment not accepted)",
+        "low": 1500,
+        "high": 1500,
+        "source_id": "S4"
+      },
+      {
+        "item": "Federal provider enrollment application fee, CY2026 (only if enrolling in Medicaid and if it applies to this provider type)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S18",
+        "notes": "$750 for CY2026 [S18]; whether it applies to a non-medical home care agency (a secondary source says 'institutional providers') and the IMPACT enrollment process were not confirmed. Use $0 for private-pay-only."
+      },
+      {
+        "item": "Local business license and permits",
+        "low": 100,
+        "high": 1000,
+        "notes": "Operator estimate — verify locally. A Chicago-area cost was not verified against City of Chicago sources."
+      },
+      {
+        "item": "Policies and procedures manual, client agreements and legal review (Part 245)",
+        "low": 1000,
+        "high": 5000,
+        "notes": "Operator estimate.",
+        "source_id": "S2"
+      },
+      {
+        "item": "Initial fingerprint background checks and registry setup for first hires",
+        "low": 300,
+        "high": 2000,
+        "notes": "Operator estimate; requirement per [S8].",
+        "source_id": "S8"
+      },
+      {
+        "item": "Office deposit and first two to three months' rent",
+        "low": 2000,
+        "high": 10500,
+        "notes": "Operator estimate: about 2 months at $1,000 to 3 months at $3,500."
+      },
+      {
+        "item": "Furniture, computers and phones",
+        "low": 2000,
+        "high": 10000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Scheduling/billing software setup and training",
+        "low": 500,
+        "high": 3000,
+        "notes": "Operator estimate. The state EVV solution is free for Medicaid visits [S17].",
+        "source_id": "S17"
+      },
+      {
+        "item": "Insurance down payments (liability, auto, crime)",
+        "low": 1000,
+        "high": 5000,
+        "notes": "Operator estimate; evidence of liability insurance is required for licensing [S3].",
+        "source_id": "S3"
+      },
+      {
+        "item": "Launch marketing and website",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Working capital reserve (payroll and overhead during ramp-up and licensing)",
+        "low": 30000,
+        "high": 120000,
+        "notes": "Operator estimate; replaced in totals by the modeled ramp-up deficit. Covers carrying costs while IDPH reviews the application (initial review within 30 days; approval within 90 days of submission [S5]), the 240-day provisional license period with an on-site survey within 30 days of expiration [S3][S5], and slower Medicaid payment timing (not researched). Medicaid-funded configurations need the high end.",
+        "source_id": "S5",
+        "category": "working_capital"
+      }
+    ],
+    "rates": {
+      "8": {
+        "payer": "DHS-DRS Home Services Program",
+        "code": "4177",
+        "service": "HH Agency Aide (CNA) (maximum unit price)",
+        "rate": 25.0,
+        "unit": "per hour",
+        "effective": "posted as updated 2026-07-01",
+        "notes": "Agency-aide code in the same IDHS table as 4198. Not modeled as a billing rate; shown for reference only.",
+        "source_id": "S11"
+      }
+    },
+    "regulators": {},
+    "contacts": {}
+  },
+  "sections": {
+    "executive_summary": "Illinois licenses non-medical in-home care as a **home services agency** through the Illinois Department of Public Health (IDPH). The governing law is the Home Health, Home Services, and Home Nursing Agency Licensing Act (210 ILCS 55) and 77 Ill. Adm. Code 245 [S1][S6][S2]. No person may open, manage, conduct or maintain a home services agency without an IDPH license [S2]. The statute defines a home services agency as one that provides services directly or acts as a placement agency for workers providing home services [S6]. The license fee is **$1,500**, paid with the application by check or money order and non-refundable [S4].\n\nIllinois is a split-market state, and the license is a real strategic choice:\n\n- **Private pay.** The CareScout/Genworth 2025 national median for non-medical in-home caregivers is **$35 per hour** [S19]. A franchise blog reports roughly $35 as the Illinois median [S41, secondary]. This is the benchmark the financial model uses.\n- **Medicaid-funded care.** IDPH says Medicaid clients are served through the Illinois Department on Aging (IDoA) Community Care Program (CCP) or the Department of Human Services' Division of Rehabilitation Services (DHS-DRS) [S5]. The CCP statewide in-home service rate (S5130) is **$30.80 per hour** as of 1/1/2026 [S9]. The DRS Home Services Program (HSP) posts a $30.80 maximum for homemaker service and **$20.00 per hour** for a personal assistant, and the latter is not an agency billing rate [S11][S12]. Programs serving clients exclusively through CCP, DRS or the VA fall outside the licensing definition [S7].\n\nThe model results show that private pay is the stronger business. At the default 90% census, a **40-client private-pay agency** nets about **$14,080 a month (14.0% margin)**, breaks even at about 54.5% occupancy (roughly 22 clients) and needs about **$103,231** of cash to reach its first profitable month (month 9). A 20-client owner-run agency nets about $5,510 a month (10.9%) and an 80-client agency about $30,378 (15.1%). A **CCP-only agency of 100 clients** nets about $11,519 (6.9%) but breaks even only at about 67% occupancy, reaches first profit in month 15 and needs about $284,944. A 60-client **mixed agency** (half private, half CCP) nets about $6,433 (5.1%) with a 75.7% break-even.\n\nSeveral inputs are operator estimates or rest on secondary sources. These include caregiver hours per client, office rent, and the Illinois-specific private-pay price and caregiver wage, which are not confirmed from state tables. They are labeled where used and listed in the report's 'does not claim' section.",
+    "service_model": "**What the license covers.** Part 245 defines home services as assistance with activities of daily living and housekeeping in a client's personal residence [S2]. In practice this is hands-on personal care (bathing, dressing, toileting, transfers, meal help) and homemaker work, delivered by non-medical aides. IDPH's FAQ describes home services licensees as taking private pay or private insurance, with Medicaid clients routed through CCP or DRS [S5].\n\n**Two license models.** The statute covers an agency that 'provides services directly' and one that 'acts as a placement agency' placing individuals as workers [S6]. This bundle models a direct-service agency in which the agency employs the aides. A placement agency has its own rule section (§245.214), which makes the agency responsible for employment taxes, unemployment insurance and workers' compensation for the in-home worker [S28]. The IDPH placement-agency fee was not verified.\n\n**Who the clients are.**\n\n- **Private-pay seniors and families.** They buy hours directly or through long-term-care insurance, and the agency sets the price.\n- **CCP participants.** These are age 60+ Illinois residents with non-exempt assets of $17,500 or less and an assessed need for long-term care [S47]. Care Coordination Units assess them and authorize services [S30].\n- **HSP customers.** DRS serves people with severe disabilities under age 60 [S33]. The program is largely built around individually hired personal assistants, not agencies [S12][S34].\n\n**Regulatory framework to know.** The framework consists of the Act [S6], Part 245 [S2][S3], the Health Care Worker Background Check Act and Code 955 [S8][S5], and the EVV rules for Medicaid personal care [S14][S15]. Staffing ratios, capacity limits and awake-overnight rules for home services agencies were not found in the retrieved rule text. There is also no state RN-supervision requirement in the facts retrieved for non-medical home services. Confirm both against the full Part 245 text before finalizing policies.",
+    "licensing_pathway": "**Step-by-step (per IDPH and Part 245).**\n\n1. **Form the entity and decide the license type.** The FAQ tells applicants to review Part 245, Code 955 (background checks) and Code 973 to select the correct license [S5]. An applicant seeking several license types must file an application and fee for each [S5]. Home services is the license for non-medical personal care [S1][S6].\n2. **Check whether you actually need it.** A program serving clients exclusively through the IDoA Community Care Program, DHS-DRS or the VA is excluded from the definition [S7][S6]. An agency that takes any private-pay clients should plan on the license.\n3. **File the IDPH Home Services Application (Form 445104).** The fee is **$1,500**, due with the completed application by **check or money order payable to IDPH**. Electronic submission and payment are not accepted, and the fee is non-refundable. Filing does not guarantee a license [S4]. Send applications to IDPH Health Care Facilities and Programs Section, 525 W. Jefferson St., 4th Floor, Springfield, IL 62761-0001. Questions can go to 217-782-7412 (TTY 800-547-0466) or DPH.COOS@illinois.gov [S4][S5]. The form's footer is dated 8/9/2023 and the file is dated 09/2024, so confirm the fee has not changed.\n4. **IDPH review.** IDPH conducts an initial review within 30 days of submission and emails the applicant about revisions [S5]. The application must be completed and approved within 90 days of submission or it may be denied under §245.130(b) [S5]. The rule says IDPH must issue a provisional license to a new agency within 90 days after receiving the application [S3]. These timelines were not re-verified against the primary text in the latest fact-check.\n5. **Provisional license.** It is valid for 240 days unless sooner suspended or revoked. The Department may extend it by an additional 120 days if the agency is making substantial progress toward compliance [S3]. A secondary source gives 90 days, which conflicts with the rule text, so rely on §245.100.\n6. **Compliance survey.** IDPH must conduct an on-site survey within 30 days of the provisional license expiring [S5].\n7. **Full license and renewal.** For a home services agency, the full license expires one year from the end of the month in which the provisional license was first issued [S3]. Form 445104 covers initial, renewal and change-of-ownership applications and lists a single $1,500 fee, so the model uses $1,500 for renewal, subject to change. The renewal application is due 60 days before the current license expires, with the fee by check or money order [S4].\n\n**Evidence you will need.** The agency must show evidence of liability insurance under §245.90(a) [S3]. A secondary guide says a certificate of at least $1 million per occurrence and $3 million aggregate goes in with the application [S39]. That guide describes placement agencies, so confirm the amounts against the codified text. Surety bond requirements were not verified. The initial application also asks for a document package [S4]:\n\n- a complaint resolution policy\n- an employee health and safety policy\n- an infection control policy\n- a background-check process\n- supervisory-visit policies\n- an employee training procedure (§245.71)\n- a sample service plan\n- job descriptions\n- proof of access to the IDPH Health Care Worker Registry (955.115)\n\n**Designated manager.** The agency must designate a supervisor who is available to workers for questions at all times, and §245.40(a) (headed 'Home Health Administrator or Agency Manager') and §245.40(c) cover this role and supervisory visits [S3]. Supervisory visits include an annual on-site observation of each home services worker. The IDPH form points to §245.30 for manager qualifications, and the application has an 'Alternate Agency Manager' line [S4]. The exact subsection and the qualifications were not retrieved, so ask IDPH for the manager qualifications before hiring or designating one, and plan for an alternate manager.\n\n**Background checks.** Covered workers must have fingerprints collected electronically and sent to the Illinois State Police, and results run through the Health Care Worker Registry [S8]. IDPH lists Code 955 as a required reference for licensing [S5]. Whether registry enrollment applies to every home services worker was not verified.\n\n**After licensing.**\n\n- Get IDPH approval before serving clients in a new county [S5].\n- Notify IDPH within 10 days of any change, using the Facility Information Change Form [S5].\n- Business formation: a standard Illinois LLC costs $150 to file and $75 per year for the annual report (Form LLC-50.1), per secondary sources [S43][S42]. The same source says Illinois imposes no separate LLC franchise tax [S42].\n\n**Realistic timeline.** Allow roughly 90 days from submission to a provisional license, plus time before that to prepare policies, insurance and the manager designation. The 240-day provisional period and the end-of-term survey follow.",
+    "reimbursement": "**How money actually flows in Illinois.** IDPH states that licensed home services agencies may take private pay or private insurance, and that Medicaid clients are served through the IDoA Community Care Program or DHS-DRS [S5]. There is no separate Medicaid 'personal care' fee schedule for licensed agencies in the facts retrieved beyond the CCP and HSP tables below.\n\n**1. Private pay (modeled as the core payer).** The benchmark is the CareScout/Genworth survey. The 2025 national median for non-medical in-home caregivers is **$35 per hour** [S19]. The 2024 survey defines its home health aide rate as the standard hourly private rate for hands-on non-medical personal care ($34 national; homemaker $33) [S20]. A franchise blog attributes about $35 per hour to the Illinois median in the 2024 survey [S41, secondary]. Chicago-metro and downstate prices were not verified, so check local competitors before setting rates.\n\n**2. IDoA Community Care Program (Persons who are Elderly waiver).**\n\n- IDoA is the operating agency and HFS the state Medicaid agency [S10].\n- The statewide in-home service rate under S5130 is **$30.80 per hour**, or **$32.57 per hour 'with insurance'**, effective 1/1/2026 [S9].\n- The 2025 Addus release describes a 3.9% increase to $30.80 effective January 1, 2026, subject to federal approval [S40, secondary]. A secondary guide reports the rate unchanged for 2026 [S44].\n- Illinois has a pending elderly-waiver amendment with a stated 1/1/2027 effective date [S10]. A secondary source mentions a proposed waiver renewal notice dated 1 October 2026 [S44]. The contents of both were not verified.\n- The model uses $30.80 only. IDoA's table does not define the criteria for the 'with insurance' rate here, so confirm them before assuming it.\n- CCP participants are split across managed care (57,541), Medicaid fee-for-service (54,724) and non-Medicaid (18,576), out of 130,841 served [S30]. MCO payment terms have no public fee schedule and are not assumed.\n- The facts do not confirm how a new agency becomes a CCP in-home provider. The December 2025 report lists 332 in-home providers [S30], so IDoA provider qualification and contracting must be confirmed first.\n\n**3. DHS-DRS Home Services Program (HSP).** The maximum unit prices posted 7/1/2026 are homemaker service (4100) at $30.80 per hour, personal assistant (4150) at $20.00, non-agency CNA (4198) at $23.00, non-agency LPN (4197) at $30.00 and non-agency RN (4196) at $36.75 [S11]. IDHS says the personal assistant rate is a single statewide rate set under a labor agreement [S12]. A secondary source reports a rise to $20.75 on 1/1/2027 [S45]. The HSP personal assistant model is individual-provider based, so it is not modeled as an agency billing rate. A proposed 7/1/2026 increase of the Persons with Disabilities waiver individual-provider rate from $19.50 to $20.00 was noticed but its CMS approval was not verified [S13].\n\n**4. Medicaid managed care and State Plan.** HFS's February 2026 EVV notice covers home health agencies billing State Plan fee-for-service Medicaid or HealthChoice Illinois MCOs [S16]. Rates for those routes beyond S5130 and the HSP codes were not verified and are not assumed.\n\n**Electronic Visit Verification (Medicaid only).**\n\n- Illinois set March 2, 2026 as the date for integrating personal care (PCS) and home health (HHCS) EVV data into HHAeXchange [S14].\n- Only PCS (including homemaker S5130) and HHCS are subject to EVV [S15].\n- HFS requires at least 75% quarterly EVV compliance starting April 1, 2026 [S15].\n- The state EVV solution is offered to providers at no cost [S17].\n- Private-pay visits are not covered by EVV, so private-pay scheduling and billing software is a separate cost.\n\n**Federal enrollment fee.** The CY2026 provider enrollment application fee is $750 [S18]. A Medicare contractor guide says it applies to institutional providers, and whether it applies to a non-medical home care agency was not confirmed.",
+    "demand": "**Population base.** Illinois had 12,719,141 residents on July 1, 2025, and 18.7% were 65 or older [S36]. That is roughly 2.4 million older adults (derived from the two figures). Most seniors who need help with daily activities either pay privately or qualify through CCP.\n\n**Community Care Program scale (demand for Medicaid-funded care).**\n\n- CCP served **130,841** older persons as of the December 2025 report, delivered through 34 Care Coordination Units in 59 contracted service areas [S30].\n- Persons in the Elderly Waiver (FFS and MCO) rose from 111,126 in December 2024 to 112,265 on December 18, 2025. IDoA attributes part of the rise to the allowable asset limit increasing from $2,000 to $17,500 [S30].\n- In FY24 the CCUs conducted 112,172 pre-screens, a measure of intake volume [S31]. An earlier report noted total CCP participation fell by about 1,900 over the prior year but stayed above pre-pandemic levels [S31].\n- In FY23, CCP served approximately 64,750 elderly individuals each month [S32]. Differences between reports reflect different counting methods, so do not use them as a trend.\n- Prospective applicants can call the Senior HelpLine at 1-800-252-8966 [S46].\n- 332 in-home providers were in the CCP network in December 2025 [S30]. This competitor figure applies only to CCP in-home providers, not to all licensed agencies.\n\n**DRS Home Services Program.** HSP serves people with severe disabilities under age 60 through 48 local offices [S33]. A DHS listing reports 32,171 customers at an average monthly cost of $2,030 [S35]. The DHS 2025 listing shows personal assistant services with 33,840 customers and $959,270,514 in spending, which shows that most HSP money goes to individual personal assistants and not agencies [S34]. DRS referred 29 customers to IDoA in FY23 [S32].\n\n**Private-pay referral sources.** Private-pay agencies typically depend on hospital discharge planners, senior living communities, elder-law attorneys and online leads (operator observation, not a sourced statistic). A secondary guide reports a 2027 Public Act under which assisted living, community living and life care facilities may refer residents only to licensed home services providers from January 1, 2027 [S38]. The effective date was not verified from a primary source. If confirmed, it favors licensed agencies.\n\n**Not available.** Waitlist counts for CCP or HSP, the number of licensed home services agencies, and occupancy or utilization data for private-pay agencies were not found in official sources.",
+    "operations": "**Required leadership.** The agency must designate a supervisor who is available to workers for questions at all times (§245.40(a), (c)) [S3]. Supervisory visits are required, including an annual on-site observation of each home services worker. The model treats this as a manager or owner-administrator role. Manager qualifications (referenced to §245.30) and required hours were not retrieved, so confirm them with IDPH before hiring [S4]. The IDPH application has an 'Alternate Agency Manager' line, and the model does not cost an alternate manager, on-call coverage or the extra supervisory-visit labor in the 20-client owner-run setup. No RN requirement was found for non-medical home services, and the model includes no RN.\n\n**Staffing model used.**\n\n- **Aides:** hours scale with census. The model assumes 80 billable hours per client-month plus 4% paid non-billable time (about 83.2 paid hours). This is an operator estimate and should be verified locally. Illinois publishes no ratio or hours rule for home services agencies in the facts retrieved.\n- **Management and support:** a designated manager, a care supervisor or coordinator (assessments, care plans, aide supervision), and a scheduler/EVV and billing coordinator. Larger models add a second supervisor, a second scheduler and a recruiter. All salaries are operator estimates, and no Illinois OEWS manager wage was retrieved.\n- **Scale check:** at 90% of 40 clients, the agency needs about 3,000 paid aide hours a month, or roughly 17 full-time equivalents. At 80 clients it needs about 35 FTEs. Recruiting, not demand, is often the limiting factor.\n\n**Training and screening.**\n\n- Fingerprint checks are required under the Health Care Worker Background Check Act, with results entered in the Health Care Worker Registry [S8]. Code 955 applies [S5].\n- Under 77 Ill. Adm. Code 245.71, IDPH survey guidance says each home services agency must provide or arrange at least 10 hours of training per home services worker, and 10 hours in each later year of employment on required annual topics. Part of the initial training must come before the first assignment, so read §245.71 to confirm the split. Older rule text and secondary summaries read 8 hours; use 10. Dementia training also applies to workers who serve dementia clients (hours unverified).\n- Paid initial training costs about $205 per new hire (10 hours × $17.21 × 1.19 burden), or roughly $5,000 or more a year for about 25 part-time aides before turnover. The model does not carry this as a separate line; the $30 per client-month recruiting and onboarding allowance is the only provision.\n\n**Systems.**\n\n- Scheduling, payroll hours and invoicing software is required in practice for private pay (the model assumes $300 a month base).\n- For any Medicaid personal care or homemaker billing, EVV capture is mandatory: caregiver, member, service, time in, time out and GPS location are captured through the app or IVR [S15][S16], per a vendor summary. The state solution is free [S17].\n- HFS requires 75% quarterly EVV compliance from April 1, 2026 [S15]. Plan scheduler time to correct unmatched visits.\n\n**Insurance and employer duties.**\n\n- Evidence of liability insurance is required [S3]. The amounts cited by one secondary guide ($1M per occurrence / $3M aggregate) are unconfirmed [S39].\n- An employing agency pays payroll taxes, unemployment insurance and workers' compensation [S28]. Illinois carriers set their own workers' compensation rates [S49 conflict—see note below], so get class-specific quotes. The model uses a 5% burden placeholder, an operator estimate.\n- Paid leave is mandatory under the Illinois Paid Leave for All Workers Act (accruing at least 2.5% of hours worked), and Chicago employees are reported to accrue more. The model's 4% benefits rate leaves little room beyond this accrual.\n\n**Ongoing compliance.** Seek IDPH approval before serving a new county, and report any change within 10 days [S5].",
+    "market_conditions": "**Supply.** Official data on the number of licensed home services agencies was not retrieved, so the report makes no competitor-count claim. For the Medicaid channel, the December 2025 CCP report lists 332 in-home providers [S30]. Private-pay competition includes national franchises, and a franchise blog is the only Illinois price source retrieved [S41].\n\n**Pricing.** The national median for non-medical in-home caregivers was $35 per hour in 2025 [S19]. The 2024 survey measures a standard private hourly rate for hands-on non-medical care, $34 national for home health aide and $33 for homemaker [S20]. A secondary report puts the Illinois median near $35 [S41]. This is a national median for aides or homemakers, not a Chicago agency rate, so test it against local agencies. CCP's $30.80 and HSP homemaker's $30.80 sit about 12% below that private-pay figure [S9][S11].\n\n**Caregiver wages.**\n\n- BLS reports a national median annual wage for home health and personal care aides of $35,800 for May 2025 (10th percentile under $27,040; 90th above $45,040) [S21]. The model's $17.21 per hour is $35,800 divided by 2,080 hours. A secondary site citing BLS OEWS reports the Illinois May 2025 median at about $18.30 per hour ($38,060 a year). That was not confirmed in the BLS or IDES file, and the model still uses the national $17.21, so modeled labor cost is likely understated. The last Chicago-metro table found (May 2023) showed a $17.08 mean [S22].\n- Floors: the statewide minimum is $15.00 (secondary source citing IDOL) [S24]. Cook County outside Chicago is $15.40 from July 1, 2026 [S25]. Chicago is $17.05 for employers with four or more employees from July 1, 2026, and adjusts each July 1 [S25]. Confirm with the City of Chicago Office of Labor Standards.\n- The modeled $17.21 clears every minimum, but by only $0.16 against Chicago. Chicago agencies should plan to pay above the minimum.\n- Upward pressure: HSP personal assistants have a posted rate of $20.00 per hour [S11]. A secondary source reports $20.75 from 1/1/2027 [S45]. Illinois nursing assistants earn a median $22.10 per hour per an aggregator citing BLS [S48], which competes for aide labor.\n\n**Payroll taxes.** A regional economic development page reports a 2026 unemployment wage base of $14,250 and a new-employer rate of 3.35% times the experience factor [S27]. Other secondary sources conflict, and the official IDES schedule was not retrieved.\n\n**Policy trends (unverified as law).** Introduced and advocated bills would raise CCP in-home rates to fund higher home care wages (SB0120 and an April 2026 push for a $2 wage increase). Their enactment was not confirmed. A proposed elderly waiver amendment lists an effective date of 1/1/2027 [S10]. DRS moved its planned consolidation of three HSP waivers from July 1, 2026 to July 1, 2027 [S33]. The 2027 facility-referral law noted above is reported by a secondary source only [S38].",
+    "financial_narrative": "**How the P&L is built.** Revenue per client is hours times rate. Private pay is 80 hours at $35, or $2,800 per client-month. CCP is 60 hours at $30.80, or $1,848 (60 hours is an operator estimate). Aide cost is paid hours times $17.21 (the BLS national median, used as a proxy), loaded with 19% payroll burden (10% taxes, 5% workers' comp, 4% benefits). The 4% benefits rate includes statutory paid leave and is probably low. Manager, supervisor and scheduler salaries are fixed. Rent and other building costs are fixed, so vacant capacity still costs money. Per-client costs are small (about $105 per private-pay client-month for software, liability, recruiting, supplies, mileage and card processing). The model also includes the $1,500 annual license renewal (Form 445104 lists $1,500 for initial and renewal) and the $75 LLC report.\n\n**Unit economics.** A private-pay aide hour bills $35.00 and costs about $21.30 after the 4% non-billable time and 19% burden, leaving about $13.70 per hour. For one private-pay client that is roughly $1,100 a month before per-client costs, and about $990 after them. A CCP hour bills $30.80 and leaves about $9.50, or roughly $570 per client-month, and about $510 after per-client costs. These are derived from the model inputs. CCP therefore needs about half again as many clients to cover the same overhead.\n\n**Results at the default 90% census (model output at the $17.21 national-median wage).**\n\n| Configuration | Net / month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 80-client private pay | $30,378 | 15.1% | 51.7% | 12 | $262,912 |\n| **40-client private pay (default)** | **$14,080** | **14.0%** | **54.5%** | **9** | **$103,231** |\n| 100-client CCP only | $11,519 | 6.9% | 67.3% | 15 | $284,944 |\n| 60-client mixed (50/50) | $6,433 | 5.1% | 75.7% | 13 | $234,673 |\n| 20-client private pay (owner-run) | $5,510 | 10.9% | 62.2% | 7 | $47,064 |\n\n**The 40-client private-pay agency** has about $21,600 of fixed monthly cost (salaries with burden plus office, insurance, software and marketing). It breaks even at about 22 active clients. At 85% census it nets roughly $12,100 and at 95% roughly $16,100 (derived). The 20-client agency is profitable sooner because the owner's $55,000 draw is the only management cost, but its small scale leaves little cushion: break-even is about 12 to 13 clients, and one lost referral source matters. It also does not cost an alternate manager or the supervisory-visit labor that §245.40 requires. The 80-client model earns more in dollars but needs the most cash and about 35 full-time-equivalent aides.\n\n**Why the Medicaid models trail.** The CCP-only agency carries the same management structure as the larger private-pay model, but each client yields about half the contribution. It does not break even until roughly 67 of 100 clients are active, and it needs about $284,944 of cash. The mixed agency has the worst margin because it pays for two payer workflows (EVV, claims, private invoicing) with a thinner blended rate.\n\n**Sensitivities (operator-modeled; verify locally).**\n\n- **Illinois aide wage:** a secondary site citing BLS reports an Illinois median of about $18.30 an hour, not confirmed from BLS or IDES. At $18.30 plus 19% burden, each paid hour costs about $1.30 more. That is about $108 per client-month and roughly $3,900 a month at 36 active clients. The default agency's profit would fall from $14,080 to about $10,200 (derived, other inputs unchanged). By the same arithmetic the 20-client agency would fall to about $3,600, the 80-client to about $22,600, the CCP-only to about $4,200 and the mixed to about $1,300. These tabled results have not been rerun.\n- **Caregiver wage at $19.00:** the 40-client private-pay agency falls from $14,080 to roughly $7,700 a month. The mixed agency falls to roughly $2,800. The CCP-only agency falls to roughly -$450.\n- **Fewer billable hours:** at 60 hours per private-pay client-month, the 40-client agency earns roughly $4,600 a month. At 40 CCP hours per client-month, the CCP-only agency loses roughly $5,600 a month.\n- **Chicago wage floor:** Chicago's minimum is $17.05 since 7/1/2026 [S25], so the modeled $17.21 leaves only $0.16 of room. Chicago agencies should budget the $19.00 case, where the 40-client private-pay model still earns roughly $7,700.\n- **Occupancy, rate and rent** all move the result. Rent is an operator estimate and no Illinois office benchmark was retrieved.\n\n**What is not assumed.** The model does not assume the $32.57 CCP 'with insurance' rate, MCO rates, HSP personal assistant rates for agencies, or any rate increase pending in bills. It also does not assume any break-even that differs from the model's own calculation. Medicaid payment timing was not researched, so Medicaid models may need more working capital than shown. The working-capital line is replaced in the totals by the modeled ramp-up deficit.\n\n**Costs not yet in the table.** The table does not include a separate paid-training line (10 hours per new aide, about $205 per hire, plus dementia training), an alternate manager or on-call stipend, or a paid-leave accrual above the 4% benefits rate. These would lower the stated profits.\n\n**Honest path to profit.** Private pay at the Illinois-market price, 35 to 40 clients, a full-time manager and tight scheduling is the profitable configuration. Every other configuration is either thinner or slower. Total startup cash for the default configuration is about $103,231 at the modeled ramp (2 clients to start, 3 added a month), with first profit in month 9.",
+    "risks": "**Licensing and regulatory**\n\n- **Fee, timing and rule gaps.** The $1,500 fee comes from a form dated 2023 (file 09/2024). The same form lists it for initial, renewal and change-of-ownership applications, but it may have changed [S4]. The IDPH review clock (30-day review, 90-day approval deadline) can deny an incomplete application [S5]. The 120-day extension in the rule [S3] conflicts with a 90-day secondary figure.\n- **Unretrieved requirements.** The manager's qualifications (§245.30), insurance amounts, bonds, inspection and complaint procedures (§245.110, §245.115), and any pending Part 245 rulemaking were not retrieved. A requirement found later could add cost or delay.\n- **Supervision duties.** §245.40 requires a supervisor available to workers at all times, supervisory visits and an annual on-site observation of each worker. The owner-run 20-client model has no alternate manager or on-call coverage costed.\n- **Training.** IDPH guidance requires at least 10 hours of training per worker plus 10 hours a year, with part of it before the first assignment, and dementia training for workers serving dementia clients.\n- **Compliance duties.** Serving clients in a new county needs prior IDPH approval, and changes must be reported within 10 days [S5]. The renewal application is due 60 days before the license expires [S4].\n- **Background checks.** Errors in fingerprint or registry steps can delay hiring [S8].\n\n**Financial and labor**\n\n- **Wage pressure.** HSP personal assistants earn a posted $20.00 per hour [S11], with a reported $20.75 in 2027 [S45]. Chicago's minimum is $17.05 since 7/1/2026 [S25] against a modeled $17.21. A secondary source reports an Illinois aide median of about $18.30, which would cut the default configuration's profit by roughly $3,900 a month (derived). At a $19.00 wage, profit falls by roughly half in the default model. The Illinois May 2025 BLS wage was not confirmed from a primary source, so the model's wage may understate local pay.\n- **Price risk.** The Illinois private-pay price rests on a secondary source [S41], and the national figure is for a different mix of providers [S19]. A $3 lower price would cut revenue by about 8.6% and erase much of the margin.\n- **Hours risk.** 80 billable hours per client-month is an operator estimate. At 60 hours the default configuration earns roughly $4,600.\n- **Turnover and recruiting.** Large models need dozens of aides. Costs for ads, background checks and onboarding are modeled at only $30 per client-month. That line must also absorb 10 hours of paid initial training per new aide (about $205 per hire) and dementia training.\n- **Insurance and payroll costs** are estimates. Workers' compensation was modeled at 5% with only a generic $1.31 per $100 average found. Unemployment tax rates conflict across secondary sources [S27]. Statutory paid leave alone accrues at least about 2.5% of wages (more in Chicago), so the 4% benefits rate is probably too low.\n\n**Payer risk**\n\n- **CCP dependence.** The facts do not show how a new agency enrolls as a CCP in-home provider. CCP referrals flow through Care Coordination Units, and 332 providers already compete [S30]. A CCP-only model carries a 67% break-even and about $284,944 of cash need.\n- **Pending changes.** Elderly waiver and HSP waiver changes (1/1/2027 amendment [S10]; consolidation moved to July 1, 2027 [S33]) may change rules or rates. A CCP rate increase was proposed but not verified as enacted.\n- **EVV compliance.** Missing the 75% quarterly threshold [S15] puts Medicaid revenue at risk. Payment timing for Medicaid claims was not researched.\n- **Licensing definition.** Programs serving exclusively through CCP, DRS or VA are excluded from the licensing definition [S7]. Confirm with IDPH how a mixed or Medicaid-heavy business should license.\n\n**Market**\n\n- Competitor counts and utilization benchmarks are not available. The 2027 facility-referral law is reported by a secondary source only [S38].",
+    "recommendations": "1. **Lead with private pay.** The best-modeled path is a private-pay agency that grows to about 40 clients (about $14,080 a month at 90% census, break-even near 22 clients, before the unmodeled costs noted in the financial section). Start with the 20-client owner-run version if cash is limited (about $47,064 needed), then add a care supervisor and scheduler as census passes the break-even point. Plan for roughly $103,231 of cash for the 40-client path and about 9 months to first profit.\n2. **File a clean IDPH application.** Send Form 445104 with the $1,500 fee by check or money order (no electronic payment) [S4]. Prepare the insurance certificate, policies (complaint, health and safety, infection control, supervisory visits, training), job descriptions, sample service plan, Health Care Worker Registry access and manager designation first. Name an alternate manager. The application must be completed and approved within 90 days or it may be denied [S5]. Ask IDPH (217-782-7412 or DPH.COOS@illinois.gov) to confirm the manager qualifications, insurance amounts, the training-hour split and any fee change [S5].\n3. **Keep the first service area narrow.** County approval is required before serving a new county [S5]. Choose a launch county where you can staff reliably, then expand with IDPH approval.\n4. **Price from local competitors.** Use $35 per hour as the starting benchmark [S19][S41] and verify it against 5–10 Chicago-metro or downstate competitors. Do not discount below the model without checking the effect on margin.\n5. **Pay aides above the wage floor.** Budget $19.00 per hour for Chicago and Cook County hiring. Chicago's minimum is $17.05 since 7/1/2026 [S25], so confirm it with the City of Chicago Office of Labor Standards. A secondary source reports an Illinois aide median near $18.30, so confirm it in BLS or IDES data. Compare offers against the $20.00 HSP personal assistant rate [S11].\n6. **Build referral relationships early.** Target hospital discharge planners, senior living communities, elder-law attorneys and Care Coordination Unit staff. If the reported 2027 referral law is confirmed [S38], licensed status becomes a selling point to residential facilities.\n7. **Add Medicaid only after the office is paid for.** Before adding CCP clients, confirm IDoA provider requirements, Care Coordination Unit referral practice and payment timing. Then add CCP in measured steps, using the $30.80 rate and 60 authorized hours as a test [S9]. Do not treat a CCP-only agency as a launch model: it carries the lowest margin and the longest road to profit.\n8. **Set up EVV before the first Medicaid visit.** Use the free state solution and a scheduler who can correct visits, aiming for well above the 75% quarterly threshold [S15][S17].\n9. **Reserve cash for the licensing period.** Carry payroll and overhead through the 30-day review, the 90-day approval window and the 240-day provisional period [S5][S3]. Medicaid-funded configurations need the high end of the reserve.\n10. **Re-verify before launch.** Confirm the current license fee and renewal date, insurance minimums, the training-hour split, local minimum wage, the Illinois aide wage, paid-leave accrual, unemployment rate, workers' comp quotes and any new CCP or HSP rate notices. These items are listed in the 'does not claim' section."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm you need an IDPH Home Services Agency license",
+      "instructions": "Illinois prohibits anyone from opening, managing, conducting or maintaining a home services agency without an IDPH license. Home services means help with activities of daily living and housekeeping in a client's home. Read the definition in 77 Ill. Adm. Code 245 before you sign a lease or hire. Time: 1–2 hours of reading.",
+      "cite": "210 ILCS 55; 77 Ill. Adm. Code 245",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Run the licensing-exclusion test against your payer plan",
+      "instructions": "Programs that serve clients exclusively through the IDoA Community Care Program, DHS-DRS or the VA are excluded from the home services agency definition. A private-pay or mixed agency is not excluded and needs the license. Decide your payer mix first and write the decision down. The model assumes a private-pay-first launch.",
+      "cite": "77 Ill. Adm. Code 245.20",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Choose your service model: direct-service agency or placement agency",
+      "instructions": "The statute defines a home services agency as one that provides services directly or acts as a placement agency for workers providing home services. The two models carry different employer duties. For example, a placement agency must pay employment taxes, unemployment insurance and workers' compensation for the worker under §245.214. The financial model assumes a direct-service agency that employs its caregivers. Confirm your choice in the Act and Part 245 text.",
+      "cite": "210 ILCS 55; 77 Ill. Adm. Code 245.214",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form an Illinois LLC (or other entity)",
+      "instructions": "File Articles of Organization (Form LLC 5.5) with the Illinois Secretary of State. A secondary source lists the fee as $150; confirm it on the Secretary of State site before filing. The official ilsos.gov fee schedule was not retrieved. Time: online filing is typically quick, but confirm current processing times. An attorney can also form the entity as part of your legal setup.",
+      "cite": "805 ILCS 180 (confirm filing form and fee with the Secretary of State)",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov once the LLC exists. You need the EIN for payroll, banking, insurance quotes and any Medicaid enrollment. Time: usually same day online.",
+      "cite": "IRC §6109",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the LLC annual report",
+      "instructions": "Illinois LLCs file an annual report on Form LLC-50.1; a secondary source lists the fee as $75. The same source says Illinois has no separate franchise tax for LLCs. Confirm the fee and due date with the Secretary of State. The model carries $75 a year ($6.25/month) as a fixed cost.",
+      "cite": "Form LLC-50.1",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Draft an operating agreement and name the owner-manager",
+      "instructions": "Put ownership, capital contributions and decision authority in writing. IDPH will ask who is legally responsible for the agency. Part 245 defines the agency manager as the individual designated by the governing body or the entity legally responsible for the agency. Have a health-care attorney review it.",
+      "cite": "77 Ill. Adm. Code 245 (agency manager definition)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a business bank account and set up the capital reserve",
+      "instructions": "Keep agency funds separate from personal funds. The model's cash needed to reach profitability is about $47,064 for the 20-client owner-run configuration and about $103,231 for the 40-client default. The 80-client configuration needs about $262,912. Medicaid-funded configurations need $234,673 (mixed 60) to $284,944 (100-client CCP). Fund the reserve before you apply, because payroll starts before revenue does.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Check local business license, zoning and Chicago-area requirements",
+      "instructions": "No source was retrieved for zoning or siting of home services agency offices or for the cost of Chicago business licenses. Call your city or village clerk and zoning office before signing a lease. The model carries $100–$1,000 for local licenses and permits as an operator estimate — verify locally.",
+      "cite": "Local ordinance (unverified)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Engage a health-care attorney and an accountant with home care experience",
+      "instructions": "Ask the attorney to review the application, client service agreement, employee handbook and wage-hour practices. Ask the accountant to set up payroll, sales-tax analysis (if any) and a chart of accounts. The model carries $500–$1,800 a month for accounting, payroll service and legal, depending on size (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Read Part 245, Code 955 and the IDPH FAQ before applying",
+      "instructions": "IDPH's first step is to review the Home Health, Home Services, and Home Nursing Agency Code (77 Ill. Adm. Code 245) and the Healthcare Worker Background Check Code (77 Ill. Adm. Code 955) to select the right license. Then you file the initial application for that license. Read the FAQ end to end.",
+      "cite": "77 Ill. Adm. Code 245; 77 Ill. Adm. Code 955",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Download the current Home Services Application (Form 445104)",
+      "instructions": "Get the form from the IDPH Home Services page. The version retrieved is dated 09/2024 in the file name, with a form footer of 8/9/2023. Check the IDPH page for a newer version on the day you apply. Electronic submission is not accepted, so print and complete it.",
+      "cite": "Form 445104",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Designate the agency manager and document qualifications",
+      "instructions": "A home services agency must designate a person to supervise provision of services under §245.40(f). IDPH's form points to a different section number (245.30f) for agency manager requirements, and the manager qualification and hours detail was not retrieved. Before you name anyone, read the manager provisions in the Part 245 text and call or email IDPH to confirm what documents it wants.",
+      "cite": "77 Ill. Adm. Code 245.40(f)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Obtain evidence of liability insurance for the application",
+      "instructions": "The rules require the agency to show evidence of liability insurance under §245.90(a). A secondary guide says a certificate showing at least $1 million per occurrence and $3 million aggregate goes in with the application. That guide covers placement agencies and cites §245.90(a)(2), so confirm the minimums against the codified text and with IDPH before you buy. Surety bond requirements were not verified. Premiums in the model are operator estimates ($600–$1,200 a month base depending on size). Get several broker quotes.",
+      "cite": "77 Ill. Adm. Code 245.90(a)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the $1,500 license fee with the application",
+      "instructions": "IDPH's application sets a $1,500 license fee for a home services agency. Pay by check or money order to IDPH, submitted with the completed application. Electronic payment is not accepted. The fee is non-refundable and filing does not guarantee a license. If you apply for more than one license type, each license needs its own application and fee. The 2026 renewal fee was not verified. The model assumes renewal equals the initial fee, at $125 a month.",
+      "cite": "Form 445104; IDPH FAQ",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Mail the complete application to IDPH Springfield",
+      "instructions": "Send it to IDPH Home Services Program, 525 W. Jefferson St., 4th Floor, Springfield, IL 62761. Use a trackable carrier and keep a full copy. Put an email address you check daily on the form, because IDPH will contact you there for revisions. The email for the program is DPH.COOS@illinois.gov. No Home Services Program phone number was found on the official pages retrieved.",
+      "cite": "IDPH FAQ",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Answer IDPH's 30-day initial review comments quickly",
+      "instructions": "IDPH says it will conduct an initial review within 30 days of submission and will email you for revisions. Respond within a day or two. The application must be completed and approved within 90 days of submission or it may be denied under §245.130(b). Treat day 90 as a hard deadline and do not leave open questions to the end.",
+      "cite": "77 Ill. Adm. Code 245.130(b)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Know the rule's provisional-license issuance deadline",
+      "instructions": "The Department must issue a provisional license to a new agency within 90 days after receipt of an application that complies with the Part. Budget about 3 months from submission to provisional license, and do not commit to a client start date earlier than the license date.",
+      "cite": "77 Ill. Adm. Code 245.100",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Define the counties you will serve before you apply",
+      "instructions": "An agency must get IDPH approval before caring for clients in a new county. List the counties you will serve now and decide whether a second county is worth a request later. Do not take a client outside your approved area.",
+      "cite": "IDPH FAQ (service area)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Decide whether you need more than one license type",
+      "instructions": "Home services is non-medical. Home health and home nursing are separate license types under the same Act, with their own application and fee each. If you plan skilled nursing later, plan it as a separate application. The model prices only the home services agency license.",
+      "cite": "210 ILCS 55",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — IDPH LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Keep a licensing file with proof of everything submitted",
+      "instructions": "Keep the signed application, the check copy, the insurance certificate, carrier tracking and every IDPH email. You will need them for the survey. Store them in a binder and a secure drive.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Write the policies and procedures manual to Part 245",
+      "instructions": "Read the sections of Part 245 that apply to home services agencies and build policies that track them. Cover service plans, client intake and assessment, supervision, personnel files, records, complaints and emergency procedures. The inspection and complaint procedures (§245.110 and §245.115) were not retrieved, so read them directly. The model carries $1,000–$5,000 for the manual and legal review (operator estimate).",
+      "cite": "77 Ill. Adm. Code 245",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Set up fingerprint-based background checks for caregivers",
+      "instructions": "Under the Health Care Worker Background Check Act, covered workers must have fingerprints collected electronically and sent to the Illinois State Police. The statute value verified is transmission within 10 working days. Results initiated through IDPH are entered in the Health Care Worker Registry. Code 955 also applies to home services licensing. Whether registry enrollment applies to every home services worker was not verified, so confirm with IDPH who is covered. Do not place a worker in a home before you know the check status.",
+      "cite": "225 ILCS 46; 77 Ill. Adm. Code 955",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Confirm caregiver training requirements for direct-service agencies",
+      "instructions": "Section 245.71 (home services worker training) was not retrieved. A 2015 adopted amendment requires a placement agency to obtain proof that the worker completed at least 8 hours of training before the first assignment, and it is not confirmed as current. Read the current Part 245 training sections and build an orientation program that meets them. Document each worker's training before the first shift.",
+      "cite": "77 Ill. Adm. Code 245.71 (unverified); 77 IAC 245 amendment of 12/15/2015",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Define caregiver job descriptions and the scope of tasks",
+      "instructions": "Write job descriptions that match the Part 245 definition: assistance with activities of daily living and housekeeping. Keep non-medical caregivers out of nursing tasks. The Illinois facts retrieved show no RN requirement for home services, but confirm with IDPH if any client needs medical tasks.",
+      "cite": "77 Ill. Adm. Code 245.20",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Plan staffing by configuration",
+      "instructions": "No staffing ratios, capacity limits or awake-overnight rules for home services agencies were found. Size the team by your own demand. The model's default (40 clients) uses a manager, one care supervisor, one scheduler and caregivers at 83.2 paid hours per client-month (80 billable + 4%; operator estimate). Break-even is near 22 active clients (about 55% of capacity) at default assumptions.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Set caregiver wages above all applicable minimums",
+      "instructions": "The model uses $17.21/hour (BLS national median $35,800 ÷ 2,080, May 2025). An Illinois-specific May 2025 figure was not retrieved. Statewide minimum is $15.00 (secondary source citing IDOL). Cook County is $15.40 from 7/1/2026. Chicago is $17.05 per one secondary source and $16.20 per another, so confirm with the City of Chicago. If you hire in Chicago, price wages at or above the official figure and rerun the model.",
+      "cite": "820 ILCS 105 (Minimum Wage Law; verify)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Benchmark caregiver pay against HSP personal assistants",
+      "instructions": "The HSP personal assistant maximum price is $20.00/hour (7/1/2026). A secondary source reports $20.75 on 1/1/2027. These workers compete for your caregivers. At a $19.00 wage the 40-client model still earns roughly $7,700 a month at 90% census (operator-modeled). Plan recruiting and retention accordingly.",
+      "cite": "DHS HSP code 4150",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "MEDIUM",
+      "task": "Build an employee handbook and wage-hour practices",
+      "instructions": "Cover overtime, paid travel between clients, scheduling, call-offs and paid leave. Verify any paid-leave obligations locally, because the model carries 4% benefits as an operator estimate. Have the attorney review.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & BACKGROUND CHECKS",
+      "priority": "MEDIUM",
+      "task": "Create client files and care-plan templates",
+      "instructions": "Prepare an intake form, in-home assessment, written care plan, emergency contacts, consent and complaint-notice forms. Keep them in a form your supervisor can complete in the home. Match them to what Part 245 requires.",
+      "cite": "77 Ill. Adm. Code 245",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "CRITICAL",
+      "task": "Set private-pay hourly pricing",
+      "instructions": "The model uses $35/hour, the CareScout 2025 national median for non-medical in-home caregivers. A franchise blog reports about $35 as the Illinois median per the 2024 survey. The 2024 survey measures the standard hourly private rate for hands-on non-medical personal care ($34 national; homemaker $33). Call 5–10 competing agencies in your service area before finalizing. Chicago-area and downstate prices were not verified.",
+      "cite": "CareScout / Genworth Cost of Care",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "CRITICAL",
+      "task": "Write the client service agreement",
+      "instructions": "Cover the hourly rate, minimum visit length, cancellation terms, billing cycle, termination and complaint process. Have the attorney review it. The model assumes about 80 billable hours per client-month, an operator estimate to verify locally.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "HIGH",
+      "task": "Launch as private pay first",
+      "instructions": "The 40-client private-pay configuration earns about $14,080 a month (14.0% margin) at 90% census, with first profit in month 9 in the model. The 80-client version earns about $30,378 (15.1%). Mixed and CCP-only models earn less (5.1% and 6.9%) and need more cash. Add Medicaid-funded volume only after the office is paid for.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "HIGH",
+      "task": "Understand how Medicaid clients reach a licensed agency",
+      "instructions": "IDPH says licensees may take private pay or private insurance, and Medicaid clients are served through the IDoA Community Care Program or DHS-DRS. IDoA is the operating agency for the Persons who are Elderly waiver and HFS is the state Medicaid agency. Illinois has no open fee-for-service billing route for a licensed home services agency outside these programs in the facts retrieved.",
+      "cite": "IDPH FAQ; HFS Elderly waiver page",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "HIGH",
+      "task": "Contact IDoA about becoming a CCP in-home service provider",
+      "instructions": "The facts retrieved do not say how a new agency enrolls as a CCP in-home provider, so ask IDoA before counting CCP revenue. CCP has 332 in-home providers and works through 34 Care Coordination Units in 59 service areas (December 2025). The Senior HelpLine is 1-800-252-8966 (client applications, not provider enrollment).",
+      "cite": "IDoA CCP",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "HIGH",
+      "task": "Model the CCP rate carefully",
+      "instructions": "IDoA's table lists In-Home Service (S5130) at $30.80/hour statewide, effective 1/1/2026, and $32.57/hour with insurance. The criteria for the higher rate were not verified, so the model uses $30.80. At $17.21 wages with 19% burden the margin is thin: the 100-client CCP model earns about $11,519 a month (6.9%), needs about 67% census to break even and about $284,944 in cash to reach profit. CCP hours of 60 per client-month are an operator estimate.",
+      "cite": "IDoA CCP rate table, code S5130",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "MEDIUM",
+      "task": "Track pending CCP rate and waiver changes",
+      "instructions": "A 2025 bill (SB0120) proposed $32.75/hour and an April 2026 bill would fund a $2 wage increase. Neither is verified as enacted. HFS posted a proposed Elderly waiver amendment effective 1/1/2027 and a renewal notice dated for 10/1/2026. Check IDoA and HFS before you rely on any new rate.",
+      "cite": "HFS Elderly waiver page",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "MEDIUM",
+      "task": "Understand the DHS-DRS Home Services Program (HSP)",
+      "instructions": "HSP serves people with severe disabilities under age 60 through 48 local offices; those 60 and over are referred to IDoA. The HSP table lists homemaker (4100) at $30.80/hour. Personal assistants (4150) are at $20.00/hour under a labor agreement. The facts do not confirm that a new agency can bill HSP at agency rates, so confirm with DRS before assuming it.",
+      "cite": "DHS HSP rates (updated 7/1/2026)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "HIGH",
+      "task": "Set up Medicaid EVV before billing any Medicaid personal care",
+      "instructions": "Illinois integrates personal care (including homemaker, S5130) and home health EVV data in HHAeXchange from March 2, 2026. HFS requires at least 75% quarterly EVV compliance from the April 1, 2026 quarter. The state EVV solution is offered to providers at no cost. A vendor page lists six required elements: caregiver, member, service, time in, time out and GPS location. The geofence detail was not verified against an HFS source.",
+      "cite": "HFS EVV; December 2025 EVV Updates",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "MEDIUM",
+      "task": "Check the CY2026 federal enrollment fee before enrolling in Medicaid",
+      "instructions": "CMS set the CY2026 provider enrollment application fee at $750 (effective 1/1/2026). A Medicare contractor guide says it applies to institutional providers. Whether it applies to a non-medical home care agency, and the IMPACT enrollment process, were not confirmed. Ask HFS. Private-pay-only agencies skip this step.",
+      "cite": "Federal Register 2025-21877",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 4 — PAYERS, PRICING & EVV",
+      "priority": "MEDIUM",
+      "task": "Plan for slower Medicaid payment timing",
+      "instructions": "Medicaid payment timing was not researched. Hold extra working capital if you serve CCP clients and keep EVV visits clean so claims do not deny. The Medicaid-funded configurations show the longest time to first profit (13–15 months) in the model.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Register as an employer with IDES for unemployment insurance",
+      "instructions": "Register before first payroll. A regional economic development page reports a 2026 taxable wage base of $14,250 and a new-employer rate of 3.35% times the state experience factor. Other sources conflict (3.175%, 3.525%, 3.95%) and the official IDES rate table was not retrieved. Use your IDES rate notice, not these figures.",
+      "cite": "820 ILCS 405 (verify)",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Register for state income tax withholding and federal payroll tax",
+      "instructions": "Register with the Illinois Department of Revenue for withholding and set up federal employment tax deposits. Employer FICA is 7.65%. FUTA rate and wage base were not retrieved from an official source, so check IRS guidance. The model carries 10% payroll tax, 5% workers' comp and 4% benefits (19% total, operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Buy workers' compensation coverage",
+      "instructions": "Illinois carriers set their own rates. Only a generic average of $1.31 per $100 of payroll was found, and it is not class-specific. The model uses 5% of payroll for the personal-care aide class as an operator estimate. Get at least three quotes using your projected payroll. If you act as a placement agency, §245.214 puts workers' compensation on the agency.",
+      "cite": "77 Ill. Adm. Code 245.214",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Bind general and professional liability, auto and crime coverage",
+      "instructions": "Liability insurance evidence is required for licensing under §245.90(a). Add hired and non-owned auto and employee-dishonesty (crime) coverage, since caregivers enter clients' homes and may handle their property. The model carries $700 a month base for the default plus $12 per client (operator estimate). Confirm the policy limits satisfy the codified minimum.",
+      "cite": "77 Ill. Adm. Code 245.90(a)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "HIGH",
+      "task": "Select scheduling, billing and EVV software",
+      "instructions": "Private-pay scheduling and billing is not covered by the free state EVV solution. The model carries $300 a month base plus $8 per client (operator estimate). Ask vendors for payroll-hours export, invoicing and an HHAeXchange interface if you plan Medicaid work. Setup and training is $500–$3,000 in the model.",
+      "cite": "",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "HIGH",
+      "task": "Choose a payroll service",
+      "instructions": "Pick a provider that handles Illinois withholding, unemployment filings and overtime. Include its fee in the $800-a-month accounting and legal line (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "HIGH",
+      "task": "Lease or buy office space and size it to your configuration",
+      "instructions": "Rent is fixed, so vacant capacity still costs money. The model uses operator estimates of $1,000 a month for 20 clients, $2,000 for 40, $3,000 for 60 and $3,500 for 80–100. Reference benchmark: HUD FY2026 Chicago-metro Fair Market Rent is $1,750 for a 2BR (residential, not office). A listing aggregator shows typical Cook County rent at $2,272 (August 2026). Get commercial quotes.",
+      "cite": "HUD FY2026 FMR",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Build your own pro forma from the bundle workbook",
+      "instructions": "Use the workbook with your wage, price and hours inputs. Run the sensitivity cases: a $19.00 caregiver wage, 60 billable hours per client-month, and 85% occupancy. Do not change a required cost to make a case profit.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAXES & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Set up bookkeeping and monthly reporting",
+      "instructions": "Track revenue per client, caregiver hours, overtime, gross margin per hour and cash runway. Review the numbers monthly against the model's net income and break-even occupancy (about 54.5% for the 40-client default).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — PROVISIONAL LICENSE, SURVEY & FULL LICENSE",
+      "priority": "CRITICAL",
+      "task": "Receive the provisional license and note every date",
+      "instructions": "IDPH issues a provisional license valid for 240 days unless sooner suspended or revoked. Write down the issue date, the 240-day expiration and the date 30 days after it. Do not serve clients before the provisional license is in hand.",
+      "cite": "77 Ill. Adm. Code 245.100",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — PROVISIONAL LICENSE, SURVEY & FULL LICENSE",
+      "priority": "CRITICAL",
+      "task": "Admit your first clients and build records for the survey",
+      "instructions": "IDPH conducts an on-site compliance survey within 30 days of the provisional license expiring. Have real client files, care plans, personnel and training records, background-check records and policies ready to show. Keep records current from day one.",
+      "cite": "IDPH FAQ",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — PROVISIONAL LICENSE, SURVEY & FULL LICENSE",
+      "priority": "HIGH",
+      "task": "Run a mock survey about 60 days before the provisional license ends",
+      "instructions": "Compare your files against Part 245 line by line. Fix gaps and document the fixes. Have someone outside the agency review a sample of personnel and client files.",
+      "cite": "77 Ill. Adm. Code 245",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — PROVISIONAL LICENSE, SURVEY & FULL LICENSE",
+      "priority": "HIGH",
+      "task": "Know the provisional-extension rule",
+      "instructions": "The Department may extend a provisional license by an additional 120 days if the agency is making substantial progress toward full compliance. A secondary source says 90 days, which conflicts with the ILGA text. Use the rule text. Do not plan on an extension.",
+      "cite": "77 Ill. Adm. Code 245.100",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — PROVISIONAL LICENSE, SURVEY & FULL LICENSE",
+      "priority": "CRITICAL",
+      "task": "Confirm the full license term and renewal date",
+      "instructions": "For home services agencies, the full license expires one year from the end of the month the provisional license was first issued. Put the renewal date and a 90-day-ahead reminder on the calendar. The 2026 renewal fee was not verified. Ask IDPH and budget at least $1,500.",
+      "cite": "77 Ill. Adm. Code 245.100",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — PROVISIONAL LICENSE, SURVEY & FULL LICENSE",
+      "priority": "MEDIUM",
+      "task": "Be ready for inspection and complaint procedures",
+      "instructions": "Read §245.110 and §245.115 (inspection and complaints), which were not retrieved in this research. Name one person to receive IDPH contacts and train them to respond the same day.",
+      "cite": "77 Ill. Adm. Code 245.110, 245.115",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING & CLIENT ACQUISITION",
+      "priority": "HIGH",
+      "task": "Build referral relationships",
+      "instructions": "Private-pay agencies depend on hospital discharge planners, senior living communities, elder-law attorneys, geriatric care managers and online leads. Meet each referral source with your license number and insurance certificate. The model carries $1,000–$3,000 a month for marketing and referral development, depending on size (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — MARKETING & CLIENT ACQUISITION",
+      "priority": "HIGH",
+      "task": "Prepare for the 2027 residential-facility referral law",
+      "instructions": "A secondary source reports that from January 1, 2027, assisted living, community living and life care facilities may refer residents only to licensed home services providers. The effective date was not verified against an official source. If accurate, it favors licensed agencies, so approach facility administrators and care directors in your area.",
+      "cite": "2027 Public Act (as reported)",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Launch a website and local listings",
+      "instructions": "Show your IDPH license status, service list, counties served and a phone number. Claim local business listings. Launch marketing and website cost $2,000–$8,000 in the model (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — MARKETING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Use the 65+ population to target service areas",
+      "instructions": "Illinois had 12,719,141 residents on July 1, 2025, and 18.7% were 65 or older. Pick counties by concentration of older adults and by competition you found in your pricing calls. No current count of licensed agencies was found, so do not cite market share.",
+      "cite": "Census QuickFacts V2025",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Know the private-pay vs CCP boundary for referrals",
+      "instructions": "CCP applicants must be 60 or older with non-exempt assets of $17,500 or less, per secondary sources. The CCU report attributes growth partly to the asset-limit increase from $2,000 to $17,500. Clients above the limit typically pay privately until they qualify, so they are a natural private-pay prospect group.",
+      "cite": "IDoA CCU report; ageguide.org",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 7 — MARKETING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Set up a caregiver recruiting pipeline",
+      "instructions": "Caregiver hiring is the constraint, and the 80-client model needs about 35 full-time-equivalent aides at 90% census. Use job boards, referrals, community colleges and CNA programs. The model carries $30 per client per month for recruiting, fingerprint checks and onboarding (operator estimate).",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Notify IDPH within 10 days of any change",
+      "instructions": "A licensee must notify IDPH within 10 days after any change, using the Facility Information Change Form. Changes include ownership, manager, address, phone and similar details. Assign this task to one person.",
+      "cite": "IDPH FAQ",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Get IDPH approval before entering a new county",
+      "instructions": "The agency must seek approval from IDPH before caring for clients in a new county. Send the request in advance and wait for written approval before accepting a client there.",
+      "cite": "IDPH FAQ",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Renew the license on time",
+      "instructions": "File the renewal before the full license expires (one year from the end of the month the provisional license was first issued). Confirm the current renewal form and fee with IDPH. Keep insurance current, since evidence of liability insurance is a licensing requirement.",
+      "cite": "77 Ill. Adm. Code 245.100; 245.90(a)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Keep background checks current for every new hire",
+      "instructions": "Run the fingerprint check and registry steps for every new caregiver before the first assignment. Keep the results in the personnel file. Check the Code 955 sections on how long results remain valid.",
+      "cite": "225 ILCS 46; 77 Ill. Adm. Code 955",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Monitor EVV compliance every quarter",
+      "instructions": "If you bill Medicaid personal care, track the share of visits captured with all required elements. HFS requires at least 75% quarterly compliance from April 1, 2026. Claims without matching EVV visits can be denied, so review exceptions weekly.",
+      "cite": "HFS EVV December 2025 Updates",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Re-check minimum wage changes every July 1 and January 1",
+      "instructions": "Statewide minimum is $15.00. Cook County and Chicago have scheduled steps (Cook County $15.40 and Chicago $17.05 or $16.20 from July 1, 2026, per conflicting secondary sources). Confirm with IDOL and the City of Chicago, then re-check every caregiver's rate and rerun your pro forma.",
+      "cite": "Illinois Minimum Wage Law (verify)",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Review your payer rates each quarter",
+      "instructions": "Check the IDoA CCP rate table, the DHS HSP rate table and HFS notices. The HSP personal assistant rate rises to $20.75 on 1/1/2027 per a secondary source. A proposed Persons with Disabilities waiver increase for individual providers ($19.50 to $20.00) was not verified as approved. Adjust your caregiver wages and prices when rates change.",
+      "cite": "IDoA CCP rates; DHS HSP rates",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "File the LLC annual report on time",
+      "instructions": "File Form LLC-50.1 each year with the Secretary of State (secondary source lists $75). Late filings can bring penalties and loss of good standing, so set a reminder.",
+      "cite": "Form LLC-50.1",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Watch for Part 245 rulemaking and the HSP waiver consolidation",
+      "instructions": "No pending 2026 Part 245 rulemaking was found. DRS moved the target date for consolidating three HSP waivers into the Disabled Persons Waiver from July 1, 2026 to July 1, 2027. Check the Illinois Register, IDPH and DHS pages each quarter.",
+      "cite": "DHS HSP page",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review profitability and occupancy against the model",
+      "instructions": "The model's default is 90% occupancy (an operator assumption, not a sourced statistic). If census falls to 85%, recheck cash and payroll. Revisit pricing at least annually against local competitors and the CareScout survey.",
+      "cite": "",
+      "source_id": "S19"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Caregiver wage uses national median $17.21; Illinois May 2025 median reported ~ $18.30 (secondary source only)",
+      "change": "Kept $17.21 in the model because $18.30 is unconfirmed and the model cannot be rerun here. Caregiver notes in all configurations now disclose the Illinois figure and the ~$108 per client-month impact. The financial narrative and risks carry derived profit impacts. The Illinois median was added to not_claimed as unconfirmed. A rerun at the confirmed wage is still needed."
+    },
+    {
+      "issue": "Worker training: 8 hours is a placement-agency figure; IDPH guidance says 10 hours initial plus 10 annual",
+      "change": "Replaced key_numbers training row, recruiting opex note, operations, risks and not_claimed. The 8-hour figure was removed. Added paid-training cost context (~$205 per hire). A separate opex line was not added because the model cannot be rerun; the gap is disclosed in the financial narrative."
+    },
+    {
+      "issue": "Manager role: wrong §245.40(f) cite; 24/7 supervisor, supervisory visits and alternate manager not reflected",
+      "change": "Changed cites to §245.40(a), (c) and §245.30 (subsection flagged unverified) in all configurations. Updated manager notes and the il_private20 notes with the 24/7 availability, annual on-site observation and alternate-manager points. The cost is disclosed as unmodeled. Updated licensing_pathway, operations, risks and not_claimed."
+    },
+    {
+      "issue": "Benefits 4% described as 'verify paid-leave locally'; paid leave is mandatory",
+      "change": "Rewrote payroll_burden.notes to state that statutory paid leave is mandatory (820 ILCS 192, ~2.5% minimum, more in Chicago). The statute and Chicago ordinance are flagged as not fetched. benefits_pct was left unchanged pending a model rerun, and the gap is disclosed in the narrative, risks and not_claimed."
+    },
+    {
+      "issue": "Chicago 7/1/2026 minimum wage conflict; $16.20 is stale",
+      "change": "Dropped $16.20 and S26 from key_numbers, caregiver notes, market_conditions, risks and recommendations. States Chicago $17.05, Cook County $15.40 and state $15.00. Recommended confirming with the Chicago Office of Labor Standards."
+    },
+    {
+      "issue": "DHS-DRS code 4198/4150 labeling and effective dates",
+      "change": "Labeled 4198 as an individual-provider code not billed by agencies. Set 'effective' on rates 4100, 4150 and 4198 to 'posted as updated 2026-07-01'. Updated the key_numbers as_of. Added code 4177 agency aide ($25.00) as a reference-only rate."
+    },
+    {
+      "issue": "Renewal fee assumed rather than sourced; renewal deadline missing",
+      "change": "Opex license line, key_numbers metric, licensing_pathway step 7 and not_claimed now cite Form 445104's single $1,500 fee for initial, renewal and CHOW (subject to change). Added the 60-days-before-expiration renewal deadline."
+    },
+    {
+      "issue": "IDPH phone missing",
+      "change": "Set regulators[0].phone to 217-782-7412 (TTY 800-547-0466). Updated the contact address and phone in contacts[0] and in licensing_pathway. Replaced not_claimed[2]. The DPH.COOS email is flagged as not independently verified."
+    },
+    {
+      "issue": "Application document package and Fair Workweek missing",
+      "change": "Added the IDPH application document package to licensing_pathway and the recommendations. Added Chicago Fair Workweek applicability to not_claimed as unverified. The checklist items (checklist[14], [16], [17], [21], [23], [26]) were not included in the supplied data, so they could not be patched. They need the same updates: renewal deadline, 10-hour training, Chicago $17.05 and the application package."
+    },
+    {
+      "issue": "Unverified timelines (30/90/240/120 days) and $35 private-pay price",
+      "change": "Left in the text, where they are already sourced and flagged. Added a not_claimed entry for the timelines and tightened not_claimed[15] on the $35 national-median caveat. Both need re-checking against primary sources."
+    }
+  ]
+}

@@ -1,0 +1,1891 @@
+{
+  "bundle_slug": "pennsylvania-personal-home-care-complete-bundle",
+  "state": "Pennsylvania",
+  "state_code": "PA",
+  "program": "Personal Home Care",
+  "state_program_name": "Home Care Agency / Home Care Registry (non-medical), licensed by the PA Department of Health under 28 Pa. Code Chapter 611; Medicaid personal assistance services (PAS) through Community HealthChoices (managed care) and the OBRA Waiver; private pay",
+  "as_of": "2026-10",
+  "report_title": "Pennsylvania Personal Home Care (Home Care Agency / Registry) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "28 Pa. Code Chapter 611 — Home Care Agencies and Home Care Registries",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fchap611toc.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "28 Pa. Code § 611.2 — License required",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.2.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Home Care Agencies and Registries",
+      "publisher": "PA Department of Health",
+      "url": "https://www.pa.gov/agencies/health/facilities/out-patient-healthcare-facilities/home-care",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "Initial Home Health Agency Application (Ch. 601)",
+      "publisher": "PA Department of Health",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/facilities-and-licensing/HHA.App.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Information Applicable to Licensure Under 28 Pa. Code Ch. 611 (39 Pa.B. 7063)",
+      "publisher": "Pennsylvania Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol39%2F39-50%2F2286.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Home Care Agency/Registry License FAQ",
+      "publisher": "PA Department of Health, Division of Home Health",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/facilities-and-licensing/HCA%20FAQ.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Home Care Agency Licensure in Pennsylvania (2026)",
+      "publisher": "Vitable Health (secondary guide)",
+      "url": "https://www.vitablehealth.com/home-care-compliance/pennsylvania/licensure",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "28 Pa. Code § 611.52 — Criminal background checks",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?d=&file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.52.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "28 Pa. Code Ch. 611 (Dept. of Aging copy, Appendix E.2)",
+      "publisher": "PA Department of Aging",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/aging/documents/resources-for-aging-professionals/policy-and-procedure-manual/chapter-iv--options-program/appx%20e.2%2028%20pa%20code%20chapter%20611_home%20care%20agencies-home%20care%20registries%20regulations.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "28 Pa. Code § 611.55 — Competency requirements",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.55.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "28 Pa. Code § 611.4 — Requirements for home care agencies and registries",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.4.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Home Care License Cost in Pennsylvania (2026)",
+      "publisher": "Cura Compliance Consulting (secondary guide)",
+      "url": "https://curacomplianceconsulting.com/states-we-support/home-care-license-cost-pennsylvania/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "CareRing Health PAS Rate Study",
+      "publisher": "HealthManagement Associates (hosted by PA Homecare Association)",
+      "url": "https://pahomecare.org/wp-content/uploads/2025/10/CareRing-PA-Personal-Assistance-Services-Rate-Study.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "PHA Delivers Letter to Governor Shapiro and Legislators",
+      "publisher": "Pennsylvania Homecare Association",
+      "url": "https://pahomecare.org/pennsylvania-homecare-association-delivers-letter-to-governor-shapiro-and-legislators/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "FY 2026–2027 HCBS Funding Program Revision Request",
+      "publisher": "PA Homecare Association & PA Association of HCBS Providers",
+      "url": "https://pahomecare.org/wp-content/uploads/2025/11/FY-2026-2027-HCBS-Funding-PRR-1.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "MA Fee Schedule Revisions for OBRA Waiver & Act 150 Program",
+      "publisher": "paproviders.org (summary)",
+      "url": "https://www.paproviders.org/ma-fee-schedule-revisions-for-obra-waiver-act-150-program-published",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Medical Assistance Program Fee Schedule Additions (52 Pa.B. 2297)",
+      "publisher": "Pennsylvania Bulletin (DHS notice)",
+      "url": "https://pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol52%2F52-16%2F575.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "ODP Comprehensive Guide to Electronic Visit Verification v3.0",
+      "publisher": "PA DHS Office of Developmental Programs",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/evv/2026-05-13-odp-evv-guidance-3.0.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Pennsylvania EVV Updates for 2026",
+      "publisher": "HHAeXchange (vendor blog)",
+      "url": "https://www.hhaexchange.com/blog/pennsylvania-evv-updates-for-2026-what-providers-need-to-know",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "IHCP Bulletin BT2025185 — CY2026 provider enrollment application fee",
+      "publisher": "Indiana Health Coverage Programs",
+      "url": "https://secure.in.gov/medicaid/providers/files/bulletins/BT2025185.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Cost of Care Survey 2024 – Summary",
+      "publisher": "Genworth / CareScout",
+      "url": "https://assets.carescout.com/cd5022ca64/131168.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "Home Care Cost in Pennsylvania: $33–$34/Hour State Guide",
+      "publisher": "CareYaya (cites CareScout/Genworth)",
+      "url": "https://www.careyaya.org/home-care-costs/by-state/pennsylvania",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Pennsylvania Minimum Wage 2026",
+      "publisher": "Recording Law (quotes regulation)",
+      "url": "https://www.recordinglaw.com/us-laws/minimum-wage/pennsylvania-minimum-wage/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Pennsylvania Unemployment Tax Rates Unchanged for 2026",
+      "publisher": "Bloomberg Tax",
+      "url": "https://news.bloombergtax.com/payroll/pennsylvania-unemployment-tax-rates-unchanged-for-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Yearly Tax Highlights (UC tax)",
+      "publisher": "PA Department of Labor & Industry",
+      "url": "https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Occupational Employment and Wages in Philadelphia-Camden-Wilmington — May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_philadelphia.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Home Health and Personal Care Aides — Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "CHC Monthly Data Brief (May 2026 data)",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/about/documents/2026-05-data-brief-published-june-2026-for-may-data.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Community HealthChoices 1915(c) waiver application (main module)",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-01-28-chc-1915c-main-module.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Office of Long-Term Living",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/agencies/dhs/departments-offices/oltl-info",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "PA OBRA Waiver (0235.R07.00)",
+      "publisher": "CMS (Medicaid.gov)",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/83061",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "2026 OBRA Waiver Amendment (effective July 1, 2026)",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/waivers/obra-waiver-amendment",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Pennsylvania Bulletin, 39 Pa.B. 6958 (adoption of Chapter 611)",
+      "publisher": "Pennsylvania Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol39%2F39-50%2F2273.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Apply for Community HealthChoices (CHC)",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/services/dhs/apply-for-community-healthchoices",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "Personal Care Homes (DHS-licensed; separate from home care)",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/agencies/dhs/resources/aging-physical-disabilities/personal-care-homes",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Chapter 611 license application and renewal fee (home care agency or registry); non-refundable, not prorated",
+      "value": "$100",
+      "source_id": "S2",
+      "as_of": "Pa. Code current through 56 Pa.B. 4026 (July 4, 2026)"
+    },
+    {
+      "metric": "How to apply",
+      "value": "Online only; mailed or emailed applications are no longer accepted effective March 31, 2026 (the older FAQ's check/money-order instruction predates this change and should be reconfirmed)",
+      "source_id": "S3",
+      "as_of": "2026"
+    },
+    {
+      "metric": "License scope",
+      "value": "One license per physical location; no branch offices; a virtual office does not qualify",
+      "source_id": "S6",
+      "as_of": "Undated FAQ; rule text current July 2026"
+    },
+    {
+      "metric": "Inspection and renewal timing",
+      "value": "DOH inspects before the initial license and before each renewal; the renewal form must be submitted at least 60 days before the license expires",
+      "source_id": "S2",
+      "as_of": "Pa. Code current through July 4, 2026"
+    },
+    {
+      "metric": "Licensing processing time (secondary estimate; an official DOH timeline was not verified)",
+      "value": "Secondary guides conflict: about 2–3 months or longer (as of 2024) versus about 10–20 weeks. Budget 2–5 months from a complete application; no official DOH timeline was verified.",
+      "source_id": "S12",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Medicaid agency PAS reimbursement by rating region (HCPCS W1793)",
+      "value": "Region 1 (Southwest) $19.32/hr; Region 3 (Lehigh/Capital) $20.20/hr; Region 2 (remainder of state) $21.48/hr; Region 4 (Southeast/Philadelphia) $21.52/hr",
+      "source_id": "S13",
+      "as_of": "2022 rates, unchanged as of the Oct 2025 HMA rate study; later increases not rechecked"
+    },
+    {
+      "metric": "Statewide average agency PAS rate cited by the PA Homecare Association",
+      "value": "$20.63/hr in the PA Homecare Association letter (the HMA rate study gives $20.62/hr; $20.63 is the simple mean of the four regional rates). Advocates describe it as lowest among neighboring states.",
+      "source_id": "S14",
+      "as_of": "Jan 30, 2025 (PA Homecare Association letter)"
+    },
+    {
+      "metric": "Private-pay benchmark: homemaker and home health aide hourly rate in Pennsylvania",
+      "value": "About $33/hr homemaker; about $34/hr home health aide (2024 CareScout/Genworth data as reported by a secondary site; national median $34/hr)",
+      "source_id": "S22",
+      "as_of": "2024 survey data"
+    },
+    {
+      "metric": "Community HealthChoices (CHC) total enrollment",
+      "value": "396,880 (May 2026)",
+      "source_id": "S28",
+      "as_of": "May 2026"
+    },
+    {
+      "metric": "Pennsylvania minimum wage; no higher local minimum applies (state preemption, except ordinances adopted before 1/1/2006)",
+      "value": "$7.25/hr; a bill to raise it passed the House 3/24/2026 and is pending in the Senate",
+      "source_id": "S23",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Unemployment compensation (UC) tax for a new non-construction employer",
+      "value": "3.822% on the first $10,000 of wages per employee",
+      "source_id": "S24; S25",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Wage benchmarks: Philadelphia metro healthcare support and personal care and service occupations (mean hourly); national home health and personal care aide median",
+      "value": "$17.73/hr and $19.52/hr; national median $35,800/yr (about $17.21/hr)",
+      "source_id": "S26; S27",
+      "as_of": "May 2025"
+    }
+  ],
+  "not_claimed": [
+    "Staffing ratios, awake-overnight rules or capacity limits for agencies and registries. None were found in any official source.",
+    "Administrator qualifications and administrator training or continuing-education hours. Secondary sources conflict (one cites an RN or bachelor's degree plus 2 years of supervisory experience; another says Chapter 611 prescribes none), and the official text was not retrieved.",
+    "Direct care worker training-hour minimum. One secondary source says Chapter 611 sets none and another says 40 hours; this is unconfirmed. The verified competency rule is §611.55 (nurse license, agency exam or listed training program, reviewed annually).",
+    "Insurance, liability or bonding minimums for a Chapter 611 agency. None were found; insurance costs in the model must be labeled 'operator estimate — verify locally'.",
+    "Official DOH processing time. One source says 2–3 months or longer and another says about 30 days, so the processing times are secondary estimates only.",
+    "License term length and renewal cycle (the rule says the license states its term), the current online payment method, and any Chapter 611 rulemaking after 2024.",
+    "PA State Police and FBI background check fees, and who pays them.",
+    "Whether Community HealthChoices (CHC) plans pay the four regional agency PAS rates exactly (Region 4 is $21.52/hr per the HMA study [S13]), and whether any FY2025-26 or FY2026-27 increase has taken effect after the 2022 rates reported unchanged as of the October 2025 study. Each MCO contract governs.",
+    "OBRA Waiver and Act 150 participant-directed PAS (W1792) revised rate values. The fee schedule change is effective 1/1/2026 per a secondary summary [S16], but the amounts were not retrieved. The agency-model OBRA rate and OBRA agency contracting requirements were not researched.",
+    "The T1019 rate of $6.84 per 15-minute unit [S17] comes from a 2022 notice for home health agency personal care for ages 0–20 with prior authorization. It may be superseded and does not apply to adult CHC PAS, so it is not used as a model revenue assumption.",
+    "CHC MCO network access and credentialing. Whether CHC plans' networks are open to new Chapter 611 agencies was not verified. The CHC re-procurement status after the May 2025 pause is not confirmed.",
+    "Current CHC or OBRA waitlist or slot figures. Only an undated secondary note (CHC long-term services and supports (LTSS) is not an entitlement) and a stale 2018 note exist; the 14,647 and 11,624 waitlist figures are undated secondary figures and are not used.",
+    "Whether the CMS $750 CY2026 provider enrollment application fee applies to Pennsylvania Medicaid personal care agencies. The amount was confirmed only through Indiana's Medicaid bulletin [S20].",
+    "Pennsylvania state-level May 2025 BLS OEWS wages for home health and personal care aides, nursing assistants, LPNs, RNs, managers, cooks and administrators. Only national and Philadelphia-metro group figures were retrieved. Secondary Pennsylvania aide wages conflict ($14.14, $15.12 and about $30,580/yr). Pittsburgh and other metro wages were not retrieved.",
+    "Workers' compensation class code and loss cost for home care, and the premium. Only the statewide 2026 loss cost change (−1.22%) was found, so premium is an operator estimate.",
+    "The official PA Department of State fee schedule for LLC formation and the annual report. The $125 formation fee, $7 annual report and the LLC annual report due date (September 30 per several sources, April 15 per one) come only from secondary sources.",
+    "Zoning and siting rules beyond the general compliance-with-local-standards clause in §611.4, and commercial office rent benchmarks for Philadelphia or Pittsburgh.",
+    "Counts, market shares, caseloads or named competitors for licensed Chapter 611 agencies and registries, and referral-source breakdowns.",
+    "Philadelphia or Pittsburgh local minimum wage ordinances. None were found, and state preemption applies.",
+    "The 2026 HealthChoices agreement is pending Commonwealth signatures and CMS approval; its effect on CHC or home care payment was not verified.",
+    "Pennsylvania May 2025 OEWS wages for scheduler/intake (SOC 43-6014, 43-9061), administrator (SOC 11-9111 or 11-1021) and field supervisor (SOC 31-1120 or 29-1141) roles. The model's proxies (Philadelphia metro personal care and service mean $19.52/hr; all-occupation mean $34.49/hr; healthcare support mean $17.73/hr) are the wrong occupation groups and could not be confirmed from BLS tables. The $17.21 aide wage is a national median, not a Pennsylvania wage.",
+    "Costs not modeled or unverified: Philadelphia and Pittsburgh business-privilege and commercial activity taxes and local employer wage-tax administration; local paid-sick-leave ordinances; per-hire State Police, ChildLine and FBI check fees and who pays them; monthly OIG/Medicheck exclusion screening and MCO credentialing for Medicaid configurations. The $50 per month local registration line is a placeholder only.",
+    "Unconfirmed against primary sources: the T1019 rate ($6.84 per unit), the CHC enrollment figure of 396,880, the status of the state minimum-wage bill (House passage 3/24/2026), the 1/1/2020 EVV start date (the cited S18 is an ODP document, not an OLTL/CHC source), and whether the $33 and $34 private-pay figures are Pennsylvania figures or national Genworth medians.",
+    "Model burden and productivity assumptions are below state rate-setting benchmarks (23% employee-related expense, 88% billable, and 85% billable with 15% ERE in the OLTL low case), so modeled margins are likely overstated; the model was not re-run with those assumptions."
+  ],
+  "regulators": [
+    {
+      "name": "PA Department of Health, Bureau of Health Care Facilities and Home Care Services — Division of Home Health",
+      "role": "Licenses and inspects home care agencies and registries under 28 Pa. Code Chapter 611; the application is obtained from this Division; separate Chapter 601 licensing for skilled home health agencies",
+      "url": "https://www.pa.gov/agencies/health/facilities/out-patient-healthcare-facilities/home-care",
+      "phone": "(717) 783-1379 (from a 2009 Department notice; reconfirm)",
+      "email": "RA-dhhomehealth@pa.gov (questions on the online application process); ra-dhhlicenquestions@pa.gov (general contact)",
+      "source_id": "S6"
+    },
+    {
+      "name": "PA Department of Human Services, Office of Long-Term Living (OLTL)",
+      "role": "Administers Community HealthChoices (capitated Medicaid managed care) and the OBRA Waiver; the Medicaid waiver step follows state licensure",
+      "url": "https://www.pa.gov/agencies/dhs/departments-offices/oltl-info",
+      "phone": "1-800-932-0939, option 1 (enrollment and certification unit, per the DOH home care FAQ)",
+      "email": "RA-HCBSEnProv@pa.gov",
+      "source_id": "S30"
+    },
+    {
+      "name": "PA Department of Labor & Industry (UC Tax)",
+      "role": "Unemployment compensation employer registration, rates and wage base",
+      "url": "https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights",
+      "phone": "",
+      "email": "",
+      "source_id": "S25"
+    },
+    {
+      "name": "PA Department of Human Services (personal care homes and assisted living residences)",
+      "role": "Licenses personal care homes and assisted living residences, a separate market and license from home care agencies",
+      "url": "https://www.pa.gov/agencies/dhs/resources/aging-physical-disabilities/personal-care-homes",
+      "phone": "",
+      "email": "",
+      "source_id": "S35"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "28 Pa. Code Ch. 611",
+      "title": "Home Care Agencies and Home Care Registries (adopted Dec. 12, 2009 as Subpart H, 39 Pa.B. 6958; current through 56 Pa.B. 4026, July 4, 2026)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fchap611toc.html",
+      "source_id": "S1"
+    },
+    {
+      "cite": "39 Pa.B. 6958",
+      "title": "Rulemaking adding Chapter 611 to 28 Pa. Code",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol39%2F39-50%2F2273.html",
+      "source_id": "S33"
+    },
+    {
+      "cite": "28 Pa. Code §611.2",
+      "title": "License required: no operating or holding out without a Department license; $100 application or renewal fee; one license per physical location; renewal at least 60 days before expiration; inspection before initial license and renewal",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.2.html",
+      "source_id": "S2"
+    },
+    {
+      "cite": "28 Pa. Code §611.4",
+      "title": "Requirements for home care agencies and registries: Chapter 51 general provisions apply; compliance with applicable environmental, health, sanitation and professional licensure standards",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.4.html",
+      "source_id": "S11"
+    },
+    {
+      "cite": "28 Pa. Code §611.52 (cross-reference 6 Pa. Code §15.143)",
+      "title": "Criminal background checks: State Police report at application or within 1 year before; may not hire, roster or retain a person with a prohibited conviction; federal record and letter of determination if not a PA resident for 2 years",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?d=&file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.52.html",
+      "source_id": "S8"
+    },
+    {
+      "cite": "28 Pa. Code §611.53",
+      "title": "ChildLine verification where applicable",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/aging/documents/resources-for-aging-professionals/policy-and-procedure-manual/chapter-iv--options-program/appx%20e.2%2028%20pa%20code%20chapter%20611_home%20care%20agencies-home%20care%20registries%20regulations.pdf",
+      "source_id": "S9"
+    },
+    {
+      "cite": "28 Pa. Code Ch. 611 (tuberculosis screening provision)",
+      "title": "Direct care workers and certain office staff must be screened for and free of active tuberculosis before consumer contact (section number not retrieved)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fchap611toc.html",
+      "source_id": "S1"
+    },
+    {
+      "cite": "28 Pa. Code §611.55",
+      "title": "Competency requirements: nurse license, agency competency exam, or listed training program before assignment; review at least annually; portable if break in employment is 12 months or less",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F028%2Fchapter611%2Fs611.55.html",
+      "source_id": "S10"
+    },
+    {
+      "cite": "28 Pa. Code Ch. 611 (definition of home care agency)",
+      "title": "Home care agency = organization that supplies, arranges or schedules employees to provide home care services (employer model); registries are the referral model",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/aging/documents/resources-for-aging-professionals/policy-and-procedure-manual/chapter-iv--options-program/appx%20e.2%2028%20pa%20code%20chapter%20611_home%20care%20agencies-home%20care%20registries%20regulations.pdf",
+      "source_id": "S9"
+    },
+    {
+      "cite": "28 Pa. Code Ch. 601",
+      "title": "Home health agency licensing (skilled care), a separate license from Chapter 611; initial application regular fee $250 per license",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/facilities-and-licensing/HHA.App.pdf",
+      "source_id": "S4"
+    },
+    {
+      "cite": "Medicaid EVV (21st Century Cures Act implementation in PA)",
+      "title": "Electronic visit verification for Medicaid personal care services: live in PA since Jan. 1, 2020; a secondary source reports an at-least-85%-verified-without-manual-edit threshold from 1/1/2025, with quarterly alerts beginning January 2026",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/evv/2026-05-13-odp-evv-guidance-3.0.pdf",
+      "source_id": "S18"
+    },
+    {
+      "cite": "CHC 1915(b)/(c) waivers",
+      "title": "Community HealthChoices managed-care waiver (1915(b) approved Jan. 1, 2023–Dec. 31, 2027) and 1915(c) waiver application (Jan. 2026)",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-01-28-chc-1915c-main-module.pdf",
+      "source_id": "S29"
+    },
+    {
+      "cite": "OBRA Waiver PA.0235.R07.00",
+      "title": "OBRA Waiver renewal: approved 6/18/2026, effective 7/1/2026, expires 6/30/2031",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/83061",
+      "source_id": "S31"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Medicaid — Community HealthChoices (MCO), agency PAS",
+      "code": "W1793",
+      "service": "Personal Assistance Services (agency), Region 1 (Southwest/Pittsburgh)",
+      "rate": 19.32,
+      "unit": "per hour",
+      "effective": "2022 rates, unchanged as of 2025 (HMA study, Oct 2025)",
+      "notes": "Secondary source (HMA rate study hosted by PA Homecare Association). Rates are set by four rating regions. W1793 code from the FY2026-27 provider rate request [S15]. CHC is capitated managed care, so each MCO contract governs actual payment.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Medicaid — Community HealthChoices (MCO), agency PAS",
+      "code": "W1793",
+      "service": "Personal Assistance Services (agency), Region 3 (Lehigh/Capital)",
+      "rate": 20.2,
+      "unit": "per hour",
+      "effective": "2022 rates, unchanged as of 2025 (HMA study, Oct 2025)",
+      "notes": "Secondary source. Region 4 (Southeast/Philadelphia) is listed as a separate rate at $21.52/hr. Re-check for any FY2025-26 or FY2026-27 increase before relying on these rates.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Medicaid — Community HealthChoices (MCO), agency PAS",
+      "code": "W1793",
+      "service": "Personal Assistance Services (agency), Region 2 (remainder of state)",
+      "rate": 21.48,
+      "unit": "per hour",
+      "effective": "2022 rates, unchanged as of 2025 (HMA study, Oct 2025)",
+      "notes": "Secondary source. Region assignment as stated in the rate study.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Medicaid — statewide average agency PAS (advocate-cited)",
+      "code": "W1793",
+      "service": "Agency Personal Assistance Services, statewide average",
+      "rate": 20.63,
+      "unit": "per hour",
+      "effective": "Jan 30, 2025 (PA Homecare Association letter to the Governor and legislators)",
+      "notes": "Cited by the PA Homecare Association as the lowest average among neighboring states. Not an official fee schedule. The HMA rate study [S13] gives the average as $20.62/hr; $20.63 is the simple mean of the four regional rates. For a region-specific model use the regional rates ($19.32, $20.20, $21.48 or $21.52) rather than a flat average.",
+      "source_id": "S14"
+    },
+    {
+      "payer": "Medicaid (MA fee schedule) — home health agency personal care, ages 0–20",
+      "code": "T1019",
+      "service": "Personal care services, per 15-minute unit; prior authorization required; 96 units/day limit",
+      "rate": 6.84,
+      "unit": "per 15 minutes",
+      "effective": "2022-04-16 (notice date)",
+      "notes": "$27.36/hour computed from the unit rate. 2022 notice, may be superseded; applies to ages 0–20 under a home health agency, not adult CHC PAS, so shown for reference only.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "Private pay — Pennsylvania homemaker (non-medical)",
+      "code": "",
+      "service": "Homemaker services, Pennsylvania planning benchmark",
+      "rate": 33.0,
+      "unit": "per hour",
+      "effective": "2024 survey data",
+      "notes": "Secondary site attributing the figure to CareScout/Genworth 2024. The Genworth/CareScout survey measures standard private hourly rates at licensed, non-Medicare-certified agencies, not Medicaid rates. Verify against local competitors.",
+      "source_id": "S22"
+    },
+    {
+      "payer": "Private pay — Pennsylvania home health aide (non-medical personal care)",
+      "code": "",
+      "service": "Home health aide services, Pennsylvania planning benchmark",
+      "rate": 34.0,
+      "unit": "per hour",
+      "effective": "2024 survey data",
+      "notes": "Secondary site attributing the figure to CareScout/Genworth 2024; the same site cites about $6,292–$6,483 per month. National median for home health aide is also $34/hr [S21].",
+      "source_id": "S22"
+    },
+    {
+      "payer": "Medicaid — Community HealthChoices (MCO), agency PAS",
+      "code": "W1793",
+      "service": "Personal Assistance Services (agency), Region 4 (Southeast/Philadelphia metropolitan region)",
+      "rate": 21.52,
+      "unit": "per hour",
+      "effective": "2022 rates, unchanged as of 2025 (HMA study, Oct 2025)",
+      "notes": "Secondary source (HMA rate study, Table 2, hosted by PA Homecare Association). CHC is capitated managed care, so each MCO contract governs actual payment.",
+      "source_id": "S13"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "PA Department of Health, Division of Home Health",
+      "role": "Home care agency/registry licensing questions and applications",
+      "contact": "RA-dhhomehealth@pa.gov (online application questions); ra-dhhlicenquestions@pa.gov (general); 2525 N. 7th Street, Harrisburg, PA 17110; www.health.pa.gov; phone (717) 783-1379 from a Pa. Bulletin notice (reconfirm)"
+    },
+    {
+      "name": "PA DOH Home Care Agencies and Registries page",
+      "role": "Online application portal and instructions (mail/email submissions ended March 31, 2026)",
+      "contact": "https://www.pa.gov/agencies/health/facilities/out-patient-healthcare-facilities/home-care"
+    },
+    {
+      "name": "PA DHS Office of Long-Term Living (OLTL)",
+      "role": "CHC and OBRA waiver provider enrollment after the Chapter 611 license is issued",
+      "contact": "https://www.pa.gov/agencies/dhs/departments-offices/oltl-info"
+    },
+    {
+      "name": "PA Department of Labor & Industry — UC Tax",
+      "role": "Unemployment tax employer registration and rates",
+      "contact": "https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights"
+    },
+    {
+      "name": "Pennsylvania Homecare Association",
+      "role": "Trade association for home care providers; rate studies and advocacy",
+      "contact": "https://pahomecare.org/"
+    },
+    {
+      "name": "HHAeXchange",
+      "role": "EVV and authorization platform used by CHC managed care plans (vendor; per its own site)",
+      "contact": "https://www.hhaexchange.com/info-hub/pennsylvania-home-health"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "client",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.8,
+      "optimistic": 1.0,
+      "rationale": "Capacity is the active client census the office team is sized for. Occupancy is the share of that census actually on service in a given month (hospitalizations, suspensions, discharges, unfilled shifts). The 90% default (80% conservative, 100% optimistic) is an operator assumption — verify locally; it is not a sourced statistic. Chapter 611 sets no capacity limit (none was found in any official source)."
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 3
+    },
+    "configurations": [
+      {
+        "id": "pa_private20",
+        "label": "Private-pay non-medical home care agency, 20 clients (owner-administrator)",
+        "capacity": 20,
+        "notes": "Smallest realistic start. The owner acts as administrator, with a half-time scheduler/coordinator. 100% private pay at the Pennsylvania home health aide benchmark of $34/hour. That benchmark comes from a secondary site citing CareScout/Genworth 2024 and measures standard private rates at licensed, non-Medicare-certified agencies, so it is not a Philadelphia or Pittsburgh competitor price. Chapter 611 staffing minimums were not found (see not_claimed), so staffing is an operator design. 80 billable hours per client-month is an operator estimate — verify locally.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home personal care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 34.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S22"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S27",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "28 Pa. Code §611.55",
+            "notes": "$17.21/hour = BLS national median for home health and personal care aides, $35,800/yr ÷ 2,080 [S27]. Pennsylvania state-level OEWS aide wages were not retrieved. Secondary PA figures conflict and are not used. The Philadelphia metro healthcare support mean is $17.73/hour [S26], close to the modeled wage. The wage is above the $7.25 PA minimum wage [S23], and no higher local minimum applies (state preemption). Hours = 80 billable hours per client-month plus 4% paid non-billable time (training, travel, orientation); both are operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator (owner-operator)",
+            "basis": "annual_salary",
+            "amount": 71739,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code Ch. 611",
+            "notes": "Proxy: BLS Philadelphia-Camden-Wilmington all-occupation mean hourly wage $34.49 × 2,080 hours = $71,739 [S26]. Manager-specific Pennsylvania wages were not retrieved. Chapter 611 administrator qualifications could not be confirmed (secondary sources conflict) — see not_claimed."
+          },
+          {
+            "role": "Scheduler / intake coordinator (0.5 FTE)",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 86.67,
+            "cite": "",
+            "notes": "Proxy: Philadelphia metro personal care and service occupations mean $19.52/hour [S26] × 86.67 hours/month (half-time). Office-occupation wages were not retrieved. The half-time staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (physical location required; virtual office not permitted)",
+            "monthly": 1200,
+            "notes": "600 sq ft × $24/sq ft/yr ÷ 12. Operator estimate — verify locally; commercial office rent benchmarks were not retrieved. A physical location is required [S6]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1000,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 300,
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+            "monthly": 400,
+            "notes": "Operator estimate — verify locally. No insurance minimum was found in Chapter 611 sources."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "pa_private40",
+        "label": "Private-pay non-medical home care agency, 40 clients",
+        "capacity": 40,
+        "notes": "The configuration an experienced operator would target in Pennsylvania: private pay only, full-time administrator and one full-time scheduler/coordinator. Revenue uses the $34/hour Pennsylvania home health aide benchmark (secondary; CareScout/Genworth 2024). At a $30/hour price (an operator downside case) the same model still earns roughly $5,000 a month at 90% census: the contribution per client falls to about $616 against about $16,700 of fixed cost. Client acquisition, not licensing, is the binding constraint.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home personal care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 34.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S22"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S27",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "28 Pa. Code §611.55",
+            "notes": "$17.21/hour = BLS national median for home health and personal care aides, $35,800/yr ÷ 2,080 [S27]. Pennsylvania state-level OEWS aide wages were not retrieved; the Philadelphia metro healthcare support mean is $17.73/hour [S26]. Above the $7.25 PA minimum wage [S23]; no higher local minimum applies. If actual local aide pay is lower than the national median the margin improves, but that is not claimed. Hours = 80 billable hours per client-month plus 4% paid non-billable time; operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 71739,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code Ch. 611",
+            "notes": "Proxy: BLS Philadelphia-Camden-Wilmington all-occupation mean hourly wage $34.49 × 2,080 = $71,739 [S26]. Manager-specific Pennsylvania wages were not retrieved. Administrator qualification rules are unconfirmed (see not_claimed)."
+          },
+          {
+            "role": "Scheduler / intake and EVV-billing coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 40602,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "Proxy: Philadelphia metro personal care and service mean $19.52/hour × 2,080 = $40,602 [S26]. Handles scheduling, competency and background-check files, and invoicing. The staffing level is an operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "pa_private75",
+        "label": "Private-pay non-medical home care agency, 75 clients (admin, 2 coordinators, field supervisor)",
+        "capacity": 75,
+        "notes": "Scale version of the private-pay model, with a field supervisor to run caregiver competency reviews (annual under §611.55) and quality visits. It assumes the agency can sell 75 private-pay clients at the $34/hour benchmark. No market-size or referral data supports that volume (see not_claimed), so treat it as a growth case rather than a launch plan.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home personal care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 34.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S22"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private pay)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S27",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "28 Pa. Code §611.55",
+            "notes": "$17.21/hour = BLS national median for home health and personal care aides [S27]; Philadelphia metro healthcare support mean $17.73/hour [S26]. Hours = 80 billable plus 4% paid non-billable time; operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 71739,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code Ch. 611",
+            "notes": "Proxy: BLS Philadelphia all-occupation mean $34.49/hour × 2,080 [S26]."
+          },
+          {
+            "role": "Scheduler / intake and EVV-billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 81204,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "Proxy: Philadelphia metro personal care and service mean $19.52/hour × 2,080 × 2 FTE [S26]. The staffing level is an operator estimate."
+          },
+          {
+            "role": "Field supervisor / caregiver quality and competency reviews (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 40602,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code §611.55",
+            "notes": "Proxy: Philadelphia metro personal care and service mean $19.52/hour × 2,080 [S26]. Chapter 611 requires no specific supervisor ratio (none found); the role is an operator design."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (physical location required; virtual office not permitted)",
+            "monthly": 3000,
+            "notes": "1,500 sq ft × $24/sq ft/yr ÷ 12. Operator estimate — verify locally."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 2500,
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1200
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 600,
+            "notes": "Operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "pa_mixed60",
+        "label": "Mixed agency, 60 clients (50% private pay / 50% Community HealthChoices PAS)",
+        "capacity": 60,
+        "notes": "Half private pay at $34/hour [S22], half Medicaid agency PAS (W1793) at the PA Homecare Association statewide average of $20.63/hour [S14] (the HMA study gives $20.62). The average is not an official fee schedule. Rating regions run $19.32 (Region 1), $20.20 (Region 3), $21.48 (Region 2) and $21.52 (Region 4, Southeast/Philadelphia) [S13]. Each CHC managed care plan's contract governs actual payment. The Medicaid half needs OLTL/CHC network enrollment after licensure and EVV (see not_claimed for network access). Medicaid clients are assumed at 80 hours per month — an operator estimate; authorized hours vary by participant. The Medicaid half earns almost no margin per hour at the modeled aide wage, so the private-pay half carries the office.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home personal care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 34.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 0.5,
+            "source_id": "S22"
+          },
+          {
+            "name": "Community HealthChoices agency PAS (statewide average rate)",
+            "payer": "Medicaid — Community HealthChoices (MCO)",
+            "code": "W1793",
+            "rate": 20.63,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 0.5,
+            "source_id": "S14"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / personal care aides (private and Medicaid)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S27",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "28 Pa. Code §611.55",
+            "notes": "$17.21/hour = BLS national median for home health and personal care aides [S27]; Philadelphia metro healthcare support mean $17.73/hour [S26]. Same wage for both payer groups. Hours = 80 billable plus 4% paid non-billable time; operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 71739,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code Ch. 611",
+            "notes": "Proxy: BLS Philadelphia all-occupation mean $34.49/hour × 2,080 [S26]."
+          },
+          {
+            "role": "Scheduler / intake and EVV-billing coordinators (1.5 FTE)",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S26",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "cite": "",
+            "notes": "Proxy: Philadelphia metro personal care and service mean $19.52/hour [S26] × 260 hours/month (1.5 FTE). Medicaid visits must be captured in EVV [S18]. The staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (physical location required; virtual office not permitted)",
+            "monthly": 3000,
+            "notes": "1,500 sq ft × $24/sq ft/yr ÷ 12. Operator estimate — verify locally."
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 20.4,
+            "notes": "1.5% × $2,720 × 50% private share. Operator estimate."
+          },
+          {
+            "item": "Medicaid EVV / managed-care billing compliance (HHAeXchange-connected platform)",
+            "monthly": 150,
+            "notes": "Operator estimate — verify locally. CHC plans use HHAeXchange per the vendor's own site; any provider-side fee was not retrieved."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1200
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 500,
+            "notes": "Operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "pa_chc100",
+        "label": "Medicaid attendant agency, 100 clients (Community HealthChoices PAS only)",
+        "capacity": 100,
+        "notes": "All clients on agency PAS (W1793) at the $20.63/hour statewide average cited by the PA Homecare Association [S14]. Region 4 (Philadelphia) is $21.52/hour [S13], and the CHC plan contract governs actual payment. At the modeled aide wage of $17.21 plus payroll burden of about 17.5% and 4% non-billable time, the loaded aide cost is about $20.22 per billable hour, which is roughly the whole $20.63 rate. A Medicaid-only agency therefore cannot cover its office at this wage; the model shows the result honestly. State benchmarks assume higher non-billable time and a 23% employee-related load, which would make the result worse. Aide cost alone is covered only if the wage is at or below about $16.88/hour at this rate. Region 2's $21.48 [S13] raises that ceiling to about $17.58/hour, and Region 4's $21.52 to about $17.61/hour, still a very thin margin. CHC participants are 21+ with physical disabilities or dual-eligible [S34]; waitlist and slot status could not be verified (see not_claimed).",
+        "revenue_lines": [
+          {
+            "name": "Community HealthChoices agency PAS (statewide average rate)",
+            "payer": "Medicaid — Community HealthChoices (MCO)",
+            "code": "W1793",
+            "rate": 20.63,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S14"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal assistance aides (CHC)",
+            "wage_hourly": 17.21,
+            "wage_source_id": "S27",
+            "basis": "hours_per_client_month",
+            "amount": 83.2,
+            "cite": "28 Pa. Code §611.55",
+            "notes": "$17.21/hour = BLS national median for home health and personal care aides [S27]; Philadelphia metro healthcare support mean $17.73/hour [S26]. Above the $7.25 PA minimum wage [S23]. Hours = 80 billable plus 4% paid non-billable time; operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator",
+            "basis": "annual_salary",
+            "amount": 71739,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code Ch. 611",
+            "notes": "Proxy: BLS Philadelphia all-occupation mean $34.49/hour × 2,080 [S26]."
+          },
+          {
+            "role": "Scheduler / intake and EVV-billing coordinators (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 81204,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "Proxy: Philadelphia metro personal care and service mean $19.52/hour × 2,080 × 2 FTE [S26]. EVV is required for Medicaid personal care visits [S18]. The staffing level is an operator estimate."
+          },
+          {
+            "role": "Field supervisor / caregiver competency and quality reviews (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 40602,
+            "wage_source_id": "S26",
+            "cite": "28 Pa. Code §611.55",
+            "notes": "Proxy: Philadelphia metro personal care and service mean $19.52/hour × 2,080 [S26]. An operator design; Chapter 611 sets no supervisor ratio (none found)."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease (physical location required; virtual office not permitted)",
+            "monthly": 3000,
+            "notes": "1,500 sq ft × $24/sq ft/yr ÷ 12. Operator estimate — verify locally."
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5% blended)",
+            "monthly": 0,
+            "notes": "No private-pay clients."
+          },
+          {
+            "item": "Medicaid EVV / managed-care billing compliance (HHAeXchange-connected platform)",
+            "monthly": 250,
+            "notes": "Operator estimate — verify locally."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 500,
+            "notes": "Operator estimate. Medicaid referrals come through plan service coordinators and participant choice; referral flows were not verified."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500
+          },
+          {
+            "item": "Utilities, phones, internet and IT",
+            "monthly": 600,
+            "notes": "Operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 5,
+          "add_per_month": 6,
+          "note": "Operator estimate."
+        }
+      }
+    ],
+    "default_configuration": "pa_private40",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.105,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.02,
+      "notes": "Payroll tax of about 10.5% of aide wages = 7.65% employer FICA (federal statutory rate; not in the source list) plus Pennsylvania UC at the CY2026 new-employer rate of 3.822% on the first $10,000 per employee [S24][S25] plus FUTA at 0.6% on the first $7,000 (secondary). Check CY2027 UC rates and any surcharge before projecting 2027. Spread over part-time aide earnings of roughly $15,000 a year, UC and FUTA add about 2.8%. The experienced-employer UC range is 1.419% to 10.3734% [S24]. Pennsylvania state income tax (3.07%), the 0.07% employee UC withholding and any Philadelphia wage tax are withheld from employees and are not modeled as employer costs. Workers' comp is mandatory from the first employee (secondary source). The 2026 PCRB loss costs fell 1.22% [official Pa. Bulletin notice], but the home care class code and premium were not retrieved, so 5% is an operator estimate — verify locally. Benefits at 2% are an operator estimate. CAUTION: the state's own rate-setting benchmarks (HMA study, Oct 2025 [S13]) assume a 23% employee-related expense load and 88% billable time (about 12% non-billable); the OLTL low case assumes 85% billable and 15% ERE. The modeled 17.5% burden and 4% non-billable time are below those benchmarks, so modeled margins, especially the 40-client private-pay result, are likely overstated. Rerun with at least 12–15% non-billable time and a 23% load as a sensitivity case.",
+      "source_id": "S25"
+    },
+    "opex": [
+      {
+        "item": "Office lease (physical location required; virtual office not permitted)",
+        "monthly": 2000,
+        "basis": "fixed",
+        "notes": "1,000 sq ft × $24/sq ft/yr ÷ 12. Operator estimate — verify locally; commercial rent benchmarks for Philadelphia or Pittsburgh were not retrieved. Each physical location needs its own license and a virtual office is not accepted [S6]. Overridden by size in every configuration except the 40-client default.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Chapter 611 license renewal ($100 per renewal, modeled annually)",
+        "monthly": 8.33,
+        "basis": "fixed",
+        "notes": "$100 ÷ 12. The renewal fee is $100 and the form is due at least 60 days before expiration [S2]. The license term was not found, so an annual term is assumed.",
+        "source_id": "S2"
+      },
+      {
+        "item": "LLC annual report ($7) and business-entity upkeep",
+        "monthly": 0.58,
+        "basis": "fixed",
+        "notes": "$7 ÷ 12. Secondary source (state business-compliance guide); the official Department of State fee schedule was not retrieved. Pennsylvania has no LLC franchise tax per the same type of secondary source, so no entity-level tax line is modeled for a pass-through LLC."
+      },
+      {
+        "item": "Local business registration / municipal license placeholder",
+        "monthly": 50,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. Municipal business license and tax rules were not retrieved; §611.4 requires compliance with applicable local environmental, health and sanitation standards [S11]."
+      },
+      {
+        "item": "Home care scheduling, billing and EVV-interface software (base)",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes."
+      },
+      {
+        "item": "Medicaid EVV / managed-care billing compliance (HHAeXchange-connected platform)",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "Zero for private-pay-only configurations. Medicaid configurations override this line. EVV is required for Medicaid personal care; the 1/1/2020 start date is unconfirmed, because the cited S18 is an ODP (developmental programs) guide, not an OLTL/CHC source. Managed care plans use HHAeXchange per the vendor's own site. Any provider-side fee was not retrieved.",
+        "source_id": "S18"
+      },
+      {
+        "item": "Software per-client fees",
+        "monthly": 12,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "General/professional liability, hired & non-owned auto, crime bond (base)",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. No insurance, liability or bond minimum was found in Chapter 611 sources; plan contracts and private clients may require limits."
+      },
+      {
+        "item": "Liability insurance per-client exposure",
+        "monthly": 15,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and referral development",
+        "monthly": 1500,
+        "basis": "fixed",
+        "notes": "Operator estimate (private-pay agencies depend on hospital discharge planners, senior living communities, elder-law attorneys and online leads). Referral-source data were not retrieved."
+      },
+      {
+        "item": "Utilities, phones, internet and IT",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Training, annual caregiver competency reviews and administrator education",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate. Competency must be confirmed before assignment (nurse license, agency exam or listed training program) and reviewed at least annually [S10]. No training-hour minimum was confirmed.",
+        "source_id": "S10"
+      },
+      {
+        "item": "Criminal history reports, ChildLine verifications and TB screening (turnover hiring)",
+        "monthly": 6,
+        "basis": "per_client",
+        "notes": "Operator estimate. These checks are required before hire/consumer contact [S8][S9][S1]; State Police and FBI fees and who pays them were not retrieved."
+      },
+      {
+        "item": "Recruiting and onboarding (job ads, turnover)",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Gloves, PPE and client-care supplies",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Payment processing on private-pay invoices (1.5% blended)",
+        "monthly": 40.8,
+        "basis": "per_client",
+        "notes": "1.5% of $2,720 monthly private-pay billing (80 hours × $34). Operator estimate (card vs ACH mix)."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Chapter 611 license application fee (paid with the online application; non-refundable, not prorated)",
+        "low": 100,
+        "high": 100,
+        "notes": "The fee must be submitted with the application [S2]. Mail and email submissions ended March 31, 2026 [S3]; the older FAQ's check/money-order instruction predates that change and should be reconfirmed [S6].",
+        "source_id": "S2"
+      },
+      {
+        "item": "Pennsylvania LLC Certificate of Organization (DSCB:15-8821)",
+        "low": 125,
+        "high": 125,
+        "notes": "Secondary source ($125); the official Department of State fee schedule was not retrieved."
+      },
+      {
+        "item": "Policies and procedures manual (Chapter 611 and Chapter 51 compliance, competency and background-check files)",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Compliance review ahead of the pre-licensure inspection",
+        "low": 500,
+        "high": 4000,
+        "notes": "Operator estimate. DOH inspects before the initial license is issued [S2]; secondary guides conflict on timing (about 2–3 months or longer versus 10–20 weeks), so budget 2–5 months of ramp-up payroll and rent [S12].",
+        "source_id": "S12"
+      },
+      {
+        "item": "Office deposit and first two to three months' rent (600–1,500 sq ft)",
+        "low": 2400,
+        "high": 9000,
+        "notes": "Operator estimate — verify locally. Rent benchmarks were not retrieved."
+      },
+      {
+        "item": "Furniture, computers and phones",
+        "low": 2000,
+        "high": 12000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Scheduling/billing/EVV software setup and training",
+        "low": 500,
+        "high": 3000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, workers' comp deposit)",
+        "low": 1000,
+        "high": 5000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Criminal history reports and TB screening for initial hires and owners/office staff",
+        "low": 500,
+        "high": 3000,
+        "notes": "Operator estimate. Owners and office staff are included in the background requirement [S8]; fees were not retrieved."
+      },
+      {
+        "item": "Launch marketing and website",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Medicaid provider enrollment application fee (Medicaid configurations only)",
+        "low": 0,
+        "high": 750,
+        "notes": "The CY2026 federal application fee is $750 per Indiana's Medicaid bulletin [S20]; this is unverified for Pennsylvania. Replace with a PA DHS or CMS source before relying on it. Whether it applies to Pennsylvania personal care agencies was not verified. Enrollment with OLTL/CHC plans follows licensure [S6]. Medicaid enrollment does not guarantee entry to individual MCO networks, and networks may be closed to new providers, which is a revenue-timing risk for CHC configurations.",
+        "source_id": "S20"
+      },
+      {
+        "item": "Working capital reserve (payroll during ramp-up)",
+        "low": 30000,
+        "high": 120000,
+        "notes": "Operator estimate. Advisory reserve; replaced in totals by the modeled ramp-up deficit.",
+        "category": "working_capital"
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Pennsylvania licenses non-medical home care under **28 Pa. Code Chapter 611**. A business that supplies, arranges or schedules employees to provide home care services is a **home care agency** (the employer model). A **home care registry** is the referral model [S1][S7][S9]. No entity may operate, maintain or hold itself out as one without a Department of Health license [S1][S2]. This is a separate license from the Chapter 601 skilled home health license, and a separate market from DHS-licensed personal care homes and assisted living residences [S4][S35].\n\nThe state licensing barrier is low. The application or renewal fee is **$100**, non-refundable and not prorated [S2]. Applications are online only; mailed or emailed submissions ended March 31, 2026 [S3]. DOH inspects before issuing the initial license and before each renewal [S2]. Secondary guides conflict on timing, from about 2–3 months to 10–20 weeks, so budget two to five months from a complete application [S12]. The official DOH timeline was not verified. Each physical location needs its own license, and a virtual office does not qualify [S2][S6].\n\nThe business economics are harder than the license. Money comes from two very different streams:\n\n- **Private pay.** A secondary site citing 2024 CareScout/Genworth data puts Pennsylvania benchmarks at about **$33/hour for homemaker** and **$34/hour for home health aide** [S22]. The national home health aide median is also $34/hour [S21]. Check whether these are Pennsylvania figures or national medians.\n- **Medicaid personal assistance services (PAS).** Community HealthChoices (CHC) is OLTL's capitated Medicaid managed care program, with 396,880 enrollees reported for May 2026 [S28][S30]. Agency PAS (HCPCS W1793) [S15] is reported at **$19.32/hr (Region 1), $20.20/hr (Region 3), $21.48/hr (Region 2) and $21.52/hr (Region 4, Southeast/Philadelphia)** [S13]. These rates were last adjusted in 2022 and had not changed as of the October 2025 study. The PA Homecare Association cites a statewide average of **$20.63/hr** (the HMA study gives $20.62) [S14]. Each CHC plan's contract governs actual payment.\n\nThe model gives a clear answer. At 90% census, a **40-client private-pay agency nets about $16,848 a month (17.2% margin)**, breaks even near 44.7% occupancy, and first turns profitable in month 7. It needs about **$72,919** of total cash. These results use a 17.5% payroll burden and 4% non-billable time; the state's own rate-setting benchmarks assume a 23% employee-related load and about 12% non-billable time, so the margins are likely overstated. A 75-client private-pay agency nets $35,615 a month (19.4%). A 20-client owner-run agency nets only $3,782 (7.7%). A 60-client half-Medicaid agency nets $2,186 (1.9%) and does not turn profitable until month 14. A **100-client CHC-only agency loses $34,585 a month (-23.3%)** and never breaks even at the modeled aide wage. The recommended path is to launch private pay first and treat CHC as an option to test later, not a launch strategy.",
+    "service_model": "**Who is served.** Non-medical home care means hands-on personal assistance and homemaker support in the client's home, such as bathing, dressing, meal preparation and companionship, delivered by employed direct care workers. In Pennsylvania the clients are private-pay seniors and families, and Medicaid participants who receive personal assistance services through Community HealthChoices or the OBRA Waiver. CHC covers adults 21 and older with physical disabilities and dual-eligible people [S34].\n\n**Regulatory framework.** Chapter 611 was added to 28 Pa. Code by a Department of Health rulemaking adopted December 12, 2009 (39 Pa.B. 6958) [S33], and the codified text is current through 56 Pa.B. 4026 (July 4, 2026) [S1][S11]. Chapter 51 (general provisions applicable to all licensed health care facilities) applies to home care agencies and registries. Licensees must also comply with applicable environmental, health, sanitation and professional licensure standards [S11]. Chapter 611 contains the hiring and workforce rules this report relies on: criminal background checks [S8], ChildLine verification where applicable [S9], tuberculosis screening [S1] and competency requirements [S10].\n\n**Agency versus registry.** An agency employs the workers. A registry refers workers [S7][S9]. This report models the agency (employer) model, because it is the model that supports Medicaid billing and gives the operator control over competency, scheduling and quality. The registry model's economics were not researched.\n\n**What is outside this license.** Skilled home health (nursing and therapy) is licensed separately under Chapter 601 [S4]. DHS, not DOH, licenses personal care homes and assisted living residences, so those are different businesses [S35]. Anyone planning hands-on medical tasks should confirm which license applies before marketing those services.",
+    "licensing_pathway": "**Step 1 — Form the entity.** Set up the legal entity first. The $125 LLC Certificate of Organization fee and the $7 annual report come from secondary sources only; the official Department of State fee schedule was not retrieved (see Section 9). Pennsylvania reportedly levies no franchise tax on LLCs, but this comes from secondary sources and should be confirmed with a CPA.\n\n**Step 2 — Secure a physical location.** Each physical location of the agency or registry must be separately licensed, so branch offices are not recognized. A virtual office does not satisfy licensure because the license lists a physical address [S2][S6]. The only siting-related rule found is the general requirement to comply with applicable environmental, health, sanitation and professional licensure standards [S11]. Zoning and local business license rules were not retrieved, so check them with the municipality before signing a lease.\n\n**Step 3 — Prepare compliance files.** Before the inspection, have policies and procedures and a personnel-file system ready. Each direct care worker file needs the elements below. Owners and office staff are also included in the criminal history requirement [S8].\n\n- A State Police criminal history report obtained at the time of application or within one year before [S8].\n- A ChildLine verification where applicable [S9].\n- Tuberculosis screening before consumer contact [S1].\n- Documented competency [S10].\n\n**Step 4 — Apply online.** Obtain the application from the DOH Division of Home Health and submit it online with the **$100** fee. The fee is non-refundable and not prorated [S2]. Mail and email submissions ended March 31, 2026 [S3]. An older FAQ says a check or money order must accompany the initial application [S6]. That instruction predates the online-only change, so confirm the current payment method with the Division before applying.\n\n**Step 5 — Inspection and issuance.** DOH inspects before issuing an initial license [S2]. A secondary compliance guide says deficiencies require a plan of correction before licensure [S7]. A second secondary guide estimates two to three months from a complete application [S12]. Other sources give different timelines, and no official processing timeline was verified. Do not hire a full caregiver team or promise start dates until the license is in hand, and budget payroll carry accordingly.\n\n**Step 6 — Renewal and changes.** The renewal form and the $100 fee must be submitted at least 60 days before the license expires, and DOH inspects before renewal [S2]. The license term length was not found; the model assumes annual renewal for conservatism. A change of ownership of 5% or more requires a change-of-ownership application, and the change cannot occur before approval [S6]. When the administrator changes, the new administrator's criminal background results must be no more than one year old [S6].\n\n**Step 7 — Medicaid enrollment (optional).** State licensure comes first. A Medicaid waiver application through OLTL follows after the license is obtained [S6]. CHC plan credentialing and network access for new agencies were not verified (see Section 9).",
+    "reimbursement": "**How money flows.** Pennsylvania home care agencies are paid from three sources.\n\n1. **Private pay.** The client or family pays the agency directly. This is the stream the modeled default configuration uses.\n2. **Community HealthChoices (CHC).** OLTL administers CHC as a capitated Medicaid managed care program [S30]. Because payment runs through managed care plans, each plan's contract governs what an agency is actually paid. CMS approved the CHC 1915(b) managed care waiver for January 1, 2023 through December 31, 2027 [S29]. The 2026 HealthChoices agreement is pending Commonwealth signatures and CMS approval, and its effect on home care payment was not verified. Medicaid enrollment does not guarantee entry to individual MCO networks, and networks may be closed to new providers.\n3. **OBRA Waiver.** CMS lists the renewed PA OBRA Waiver (0235.R07.00) as approved June 18, 2026, effective July 1, 2026 and expiring June 30, 2031 [S31][S32]. OLTL revised the fee schedule rates for participant-directed PAS codes (W1792) in the OBRA Waiver and Act 150 programs effective January 1, 2026, according to a secondary summary [S16]. The revised amounts were not retrieved, and the agency-model OBRA rate was not researched.\n\n**Agency PAS rates.** The CareRing/HMA rate study hosted by the PA Homecare Association says agency PAS reimbursement is set by four rating regions. It reports **Region 1 (Southwest/Pittsburgh) $19.32/hr, Region 3 (Lehigh/Capital) $20.20/hr, Region 2 (remainder of state) $21.48/hr and Region 4 (Southeast/Philadelphia) $21.52/hr** [S13]. The study states that these rates have not been adjusted since 2022. The PA Homecare Association cites a statewide average of **$20.63/hr** and describes it as the lowest among neighboring states [S14]; the HMA study gives $20.62/hr, and $20.63 is the simple mean of the four regional rates. The code is W1793 per the FY2026-27 provider funding request [S15]. These are secondary sources. Check for any FY2025-26 or FY2026-27 increase, and whether CHC plans pay these exact amounts was not verified.\n\n**A rate that does not apply.** A 2022 DHS notice priced T1019 personal care at $6.84 per 15-minute unit ($27.36/hour), with prior authorization and a 96 units/day limit, for ages 0–20 under a home health agency [S17]. It may be superseded and does not apply to adult CHC PAS, so the model does not use it.\n\n**EVV.** Pennsylvania requires EVV for Medicaid personal care services; the January 1, 2020 start date is not confirmed against an OLTL source [S18]. A secondary source reports that providers must verify at least 85% of visits without manual edits, effective January 1, 2025 [S19]. Plans' EVV and authorization platform is reported (per the vendor's own site) to be HHAeXchange. Any provider-side fee was not retrieved.\n\n**Enrollment fee.** The CY2026 federal provider enrollment application fee is $750 per Indiana's Medicaid bulletin [S20]. Whether it applies to Pennsylvania personal care agencies was not verified, so the startup budget carries it as $0–$750 for Medicaid configurations only. For OLTL enrollment questions, contact the enrollment and certification unit at 1-800-932-0939, option 1, or RA-HCBSEnProv@pa.gov.\n\n**Private-pay price.** The $33 and $34 per hour benchmarks come from a secondary site attributing the figures to 2024 CareScout/Genworth data [S22]. The CareScout/Genworth survey measures standard hourly private rates for home health aide services at licensed, non-Medicare-certified agencies [S21]. It is not a Philadelphia, Pittsburgh or small-agency competitor price, so verify against local competitors before setting rates.",
+    "demand": "**What is verified.** CHC enrollment was **396,880** in May 2026 [S28]. The CHC 1915(c) waiver application estimates the program serves roughly 483,000 individuals [S29]. These figures show that Medicaid long-term services and supports is a large program, but they do not show how many participants use agency PAS in a given region or how many are open to a new agency. CHC covers adults 21 and older with physical disabilities and dual-eligible people [S34].\n\n**What is not verified.**\n\n- Current CHC and OBRA waitlist or slot figures were not found in official sources.\n- Undated secondary waitlist figures are not used.\n- Counts of licensed Chapter 611 agencies and registries, referral-source breakdowns, per-agency caseloads and named competitors were not found.\n- Pennsylvania's 65+ population counts were not included in this report's verified source list. Use the PA Department of Aging and the Census Bureau for local demographics.\n\n**Referral channels (operator view, not sourced).** Private-pay agencies typically depend on hospital discharge planners, senior living communities, elder-law attorneys, physician offices and online search. The model budgets $1,500 a month of marketing at 40 clients ($1,000 at 20 clients, $2,500 at 75), all operator estimates. Medicaid referrals come through plan service coordination and participant choice, and those flows were not verified.\n\n**Implication.** Demand is real, but this report cannot size a specific market share. The model therefore shows the client counts needed to break even (about 18 clients for the 40-client default at 90% census) rather than predicting that those clients will arrive.",
+    "operations": "**Licensing-driven requirements that are verified.**\n\n- **Background checks.** The agency may not hire, roster or retain an individual whose State Police criminal history record reveals a prohibited conviction (the list cross-referenced in 6 Pa. Code §15.143) [S8]. Direct care worker applicants must submit a report obtained at application or within one year before [S8]. Workers without two years of Pennsylvania residence must obtain a federal criminal history record and a letter of determination [S1]. Owners and office staff must also obtain a criminal history report [S8].\n- **ChildLine.** A ChildLine verification is required where applicable [S9].\n- **Tuberculosis screening.** Direct care workers and certain office staff must show they are screened for and free from active TB before consumer contact [S1].\n- **Competency.** Before a direct care worker is assigned, the agency must confirm competency through a nurse license, an agency competency exam, or a listed training program. Competency must be reviewed at least once a year afterward. Documentation transfers between agencies if the break in employment does not exceed 12 months [S10].\n- **Physical office and inspection.** A physical location is required and is inspected before licensure and renewal [S2][S6].\n- **EVV.** Medicaid personal care visits must be captured in EVV [S18]. A secondary source reports a requirement of at least 85% of visits verified without manual edits [S19].\n\n**What the rules do not say, as far as could be verified.** No staffing ratios, awake-overnight rules, capacity limits, insurance minimums, administrator qualifications, administrator continuing education or direct care training-hour minimum were found in official sources. Secondary sources conflict on administrator qualifications and on whether Chapter 611 sets a training-hour minimum (see Section 9). Ask the Division of Home Health at ra-dhhlicenquestions@pa.gov before hiring or signing a lease [S6].\n\n**Modeled staffing (operator design).** Staffing in every configuration is an operator design, not a state minimum.\n\n- **20 clients:** the owner is the administrator, with a half-time scheduler/coordinator.\n- **40 clients:** a full-time administrator and one scheduler/intake/EVV-billing coordinator.\n- **75 clients:** an administrator, two coordinators and a field supervisor for competency reviews and quality visits.\n- **Caregivers:** modeled at 80 billable hours per client-month plus 4% paid non-billable time (83.2 paid hours). Both numbers are operator estimates; verify locally.\n\n**Systems.** Budget a home care scheduling, billing and EVV-interface platform (modeled at $250 a month plus $12 per client, an operator estimate), a payroll service, and a personnel-file system that tracks each worker's background check, ChildLine, TB screening, competency documentation and annual competency review date.",
+    "market_conditions": "**Pricing.** The private-pay benchmark is about $33/hour for homemaker and about $34/hour for home health aide in Pennsylvania (2024 CareScout/Genworth data via a secondary site) [S22]. The national home health aide median is $34/hour [S21]. Medicaid agency PAS is reported at $19.32 to $21.48/hour by region, and $20.63/hour on average [S13][S14]. Private pay therefore pays roughly $13 to $15 an hour more than Medicaid on the same service, before any difference in client acquisition cost.\n\n**Wages.** Pennsylvania state-level May 2025 BLS OEWS wages for aides were not retrieved, and secondary Pennsylvania aide figures conflict. The model uses the **BLS national median for home health and personal care aides: $35,800 a year, about $17.21/hour** [S27]. For cross-checking, the Philadelphia-Camden-Wilmington metro had healthcare support mean wages of $17.73/hour and personal care and service mean wages of $19.52/hour in May 2025 [S26]. The all-occupation mean there was $34.49/hour [S26]. The model uses that mean as a proxy for the administrator salary ($71,739) because manager-specific wages were not retrieved. It uses the $19.52 personal care and service mean for coordinators ($40,602 per FTE). Pay in Pittsburgh and other regions was not retrieved.\n\n**Minimum wage.** Pennsylvania's minimum wage is $7.25/hour. State law preempts higher local minimums, except for ordinances adopted before January 1, 2006, and none were found for Philadelphia or Pittsburgh. A bill to raise the state minimum passed the House on March 24, 2026 and is pending in the Senate [S23]. All modeled wages are well above $7.25, so a minimum-wage increase would not directly change the model, but the market wage for aides could move.\n\n**Payroll taxes.** A new non-construction employer's 2026 UC rate is 3.822%, on the first $10,000 of wages per employee [S24][S25]. The experienced-employer range is 1.419% to 10.3734% [S24].\n\n**Supply.** The number of licensed Chapter 611 agencies and registries, their market shares and their caseloads were not found, so competitive density cannot be stated. Commercial office rent benchmarks were not retrieved; the model's $24 per square foot per year is an operator estimate.\n\n**Policy watch.** The CHC 1915(b) waiver runs through December 31, 2027 [S29]. The CHC re-procurement status after a May 2025 pause was not confirmed, and the 2026 HealthChoices agreement is pending signatures and CMS approval. Any of these could change plan networks or rates.",
+    "financial_narrative": "**How the model is built.** Revenue per client-month is price × 80 hours × the payer share. Costs are caregiver wages at $17.21/hour with 17.5% payroll burden (10.5% payroll tax, 5% workers' comp, 2% benefits), the administrator and coordinator salaries, and fixed and per-client operating costs. The default occupancy is 90%, with 80% conservative and 100% optimistic. All of these are operator assumptions except where a source is cited. The lease is fixed and sized per configuration, because vacant capacity still costs rent. Insurance, software, marketing and rent are operator estimates (see Section 9).\n\n**Results at 90% census.**\n\n| Configuration | Net / month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| Private pay, 20 clients (owner-administrator) | $3,782 | 7.7% | 69.7% | 8 | $54,514 |\n| **Private pay, 40 clients (default)** | **$16,848** | **17.2%** | **44.7%** | **7** | **$72,919** |\n| Private pay, 75 clients | $35,615 | 19.4% | 39.0% | 9 | $142,123 |\n| Mixed 60 clients (50% private / 50% CHC) | $2,186 | 1.9% | 81.2% | 14 | $163,132 |\n| CHC-only, 100 clients | -$34,585 | -23.3% | none | none | $1,225,427 |\n\n**Why the 40-client private-pay model works.** Each client brings in $2,720 a month (80 hours × $34). After aide wages with burden (about $1,682) and per-client costs (about $107), contribution is roughly **$931 per client-month**. Fixed costs are about $16,700 a month: administrator and coordinator payroll with burden (about $11,000) plus office, insurance, software, marketing and other overhead (about $5,700). Break-even is therefore about 18 clients, or 44.7% of the 40-client capacity. At 36 clients (90%), contribution of about $33,500 less fixed cost leaves about $16,848.\n\n**Why the 20-client model is thin.** The same $931 contribution per client has to cover a smaller but still real fixed base. With 18 clients, net is only $3,782 and break-even is 69.7% occupancy, so a few lost clients erase the profit. The 75-client model is more profitable in dollars (the 19.4% margin is only modestly above the 17.2% of the 40-client model), but it assumes the agency can sell and staff 75 private-pay clients. No market or referral data supports that volume, so treat it as a growth case.\n\n**Why Medicaid does not work at this wage.** At the $20.63/hour statewide average [S14], the 83.2 paid hours per 80 billable hours and 17.5% burden make the loaded aide cost about **$21.03 per billable hour** (the CHC-only configuration's note quotes about $20.22, which leaves out the 4% non-billable time). Either way it is at or above the rate, so the agency loses money on every hour before paying any office cost. Aide cost alone is covered only if the aide wage is at or below about **$16.88/hour** at $20.63, or about $17.58/hour at Region 2's $21.48 [S13]. Even then essentially nothing remains for the administrator, coordinators, rent and insurance. The CHC-only agency therefore loses $34,585 a month at 90% census. The $1.2 million cash figure reflects accumulated ramp-up losses and is not a funding target; it is a sign that the configuration does not work.\n\n**Mixed model.** The 60-client mixed agency has 27 private-pay and 27 CHC clients at 90% census. The private half contributes about $931 per client and the CHC half roughly breaks even or loses slightly on contribution. Net is $2,186 a month and break-even is 81.2% occupancy, so it is fragile. It does not turn profitable until month 14.\n\n**Sensitivities (recomputed from the model; each changes one input).**\n\n- **Price of $30/hour instead of $34 (40 clients).** Contribution falls to about $616 per client, and net at 90% census falls to roughly $5,000 to $5,500 a month. The agency stays profitable but with a margin of only about 6%.\n- **Aide wage of $17.73/hour (the Philadelphia metro healthcare support mean [S26]) instead of $17.21.** Net falls to about $15,000 a month.\n- **Aide wage of $19.00/hour (a hypothetical stress case, not a sourced figure).** Net falls to about $10,500 a month.\n- **Occupancy of 80% (32 clients).** Net is about $13,100 a month. At 100% (40 clients) it is about $20,600.\n- **Unsourced productivity assumptions.** The 80 billable hours per client-month and the 4% non-billable time are operator estimates — verify locally. If clients average fewer hours, revenue and aide cost fall together, but the fixed office cost does not, so break-even client count rises.\n\n**Local wages.** The default wage is a national median [S27]. The Philadelphia metro healthcare support mean is $17.73/hour [S26], close to the modeled wage, and no higher local minimum wage applies [S23]. Pittsburgh and other regional wages were not retrieved. Revenue uses a statewide benchmark rather than a metro price, so compare both to local competitors before finalizing.\n\n**Path to profit.** The only configurations that earn a meaningful profit at the modeled assumptions are private-pay agencies at 40 clients or more. The path is to price at or near the sourced benchmark, hold aide pay near the benchmark, reach about 18 clients quickly, and keep fixed overhead at the modeled level until census is secure.",
+    "risks": "**Regulatory and information gaps.** Several rules that affect cost could not be verified, so confirm them with DOH before committing money.\n\n- Staffing ratios and capacity limits.\n- Administrator qualifications, training and continuing-education hours.\n- Direct care worker training-hour minimums. Secondary sources conflict (no minimum versus 40 hours); the verified rule is the competency requirement in §611.55 [S10].\n- Insurance, liability and bonding minimums.\n- License term length.\n- Current online payment method.\n- Official DOH processing time. The 2–3 month estimate is secondary [S12].\n- Any Chapter 611 rulemaking after 2024.\n\n**Licensing and compliance risk.** Operating or holding out as an agency without a license is prohibited [S2]. Each location needs its own license [S2][S6]. Deficiencies found at inspection require correction before licensure [S7]. A change of ownership of 5% or more needs prior approval [S6]. Hiring someone with a prohibited conviction, or failing to keep background checks, TB screening and competency documentation current, is a compliance failure the inspection can find [S8][S10][S1].\n\n**Revenue risk.**\n\n- **Medicaid rates versus wages.** The agency PAS rates are at or below the loaded cost of an aide at the benchmark wage (Section 8). CHC plan contracts, network access and credentialing for new agencies were not verified.\n- **Region 4 and OBRA rates.** The Philadelphia (Region 4) rate and the agency-model OBRA rate were not retrieved. The $20.63 average is an advocate-cited figure, not a fee schedule.\n- **Program and policy changes.** The CHC re-procurement status and the pending 2026 HealthChoices agreement could change networks or payment.\n- **EVV.** A secondary source reports an 85% verified-without-edit threshold [S19]. Poor EVV practice puts Medicaid revenue at risk.\n- **Private-pay price.** The $34/hour benchmark is a secondary-site figure from a survey of licensed non-Medicare-certified agencies [S21][S22], not a measured price in the operator's market. At $30/hour the default's margin shrinks to about 6%.\n\n**Cost risk.**\n\n- Aide wages above the modeled $17.21 reduce profit quickly, and unsourced productivity (80 hours per client) and overhead inputs are operator estimates.\n- Insurance, workers' compensation (mandatory from the first employee per a secondary source) and rent premiums were not verified. The model's 5% workers' comp rate and $500 a month insurance base are operator estimates.\n- UC rates vary with claims experience, from 1.419% to 10.3734% for experienced employers [S24]. State income tax and any Philadelphia wage tax are withheld from employees and are not modeled as employer costs.\n- The state minimum wage may rise if the pending bill becomes law [S23].\n\n**Growth risk.** The 75-client configuration assumes sales volume that no data supports. The model's ramp (2 starting clients, +3 a month for the default) is an operator estimate; slower admissions push the first profit month past month 7 and increase cash needs.",
+    "recommendations": "1. **Launch as a private-pay agency, not a Medicaid agency.** The modeled evidence is clear: private-pay configurations at 40 or more clients are profitable; the CHC-only configuration loses money at the benchmark wage; the mixed model is barely profitable. Do not apply to Medicaid programs as a launch strategy.\n\n2. **Target the 40-client configuration.** Plan for the administrator and one coordinator described in Section 8. Break-even is about 18 clients (44.7% of capacity). Start as an owner-administrator at 20 clients only if you can afford a month-8 first profit and a thin 7.7% margin at full census, and plan to add a coordinator as census passes about 25 clients.\n\n3. **Fund for the ramp.** Plan for about **$72,919** in total cash for the 40-client default. That figure comes from the model's ramp (2 starting clients, +3 a month); slower admissions mean more cash. Include a buffer for a slower licensing timeline, since processing times were not verified [S12].\n\n4. **Do the licensing work in the right order.** Confirm rules with the Division of Home Health (ra-dhhlicenquestions@pa.gov) [S6]. Secure a physical office, because a virtual office does not qualify [S6]. Complete your policies, personnel-file system, background-check process and competency method (nurse license, agency exam or listed training program) [S10] before applying online with the $100 fee [S2][S3]. Confirm the current payment method [S6].\n\n5. **Price on local evidence.** Use the $33 to $34/hour benchmark only as a starting point [S22], and survey local competitors. Hold the model's cost discipline (aide wage near the benchmark, 80 billable hours per client as a target) and avoid discounting below roughly $30/hour, where the default's margin falls to about 6%.\n\n6. **Get real quotes for the unverified costs.** Insurance (liability, auto, crime bond), workers' compensation, software and office rent are operator estimates. Replace them with quotes before committing, and re-run the model.\n\n7. **Revisit Medicaid only after the office is paid for, and only with plan-level data.** Before pursuing CHC, confirm each plan's contracted rate for your region (including Region 4 if you are in the Philadelphia area), whether the network is open to new agencies, and the aide wage the rate supports. At $20.63/hour, aide cost is covered only at or below about $16.88/hour (Section 8). Treat any OBRA or participant-directed opportunity [S16] as a separate analysis, because the rates were not retrieved.\n\n8. **Build EVV and compliance habits from day one.** Even if you start private pay, build clean scheduling and documentation processes that would meet Medicaid EVV expectations later [S18][S19], and track every worker's annual competency review date [S10].\n\n9. **Protect the license.** Do not change ownership by 5% or more, move locations, or change the administrator without checking the Division's requirements first [S6]. Calendar the renewal at least 60 days before the license expires [S2]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm that Chapter 611 non-medical home care is the right license track",
+      "instructions": "A home care agency supplies, arranges or schedules its own employees to give non-medical home care. A registry is the referral model. Hands-on skilled nursing falls under a separate Chapter 601 home health license. Pick agency (employer model) or registry before you apply. This bundle models the employer-model agency. No cost; 1–2 days of planning.",
+      "cite": "28 Pa. Code Ch. 611 (definitions); Ch. 601",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Understand the license-before-operating rule",
+      "instructions": "No entity may operate, maintain or hold itself out as a home care agency or registry without a Department of Health license. That includes advertising, so do not market services or accept clients until the license is issued.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Choose your entity type and form the business",
+      "instructions": "Most small agencies form a Pennsylvania LLC by filing a Certificate of Organization (DSCB:15-8821) with the Department of State. A secondary source puts the fee at $125; confirm it on the official Department of State fee schedule before filing. Allow 1–2 weeks. Ask an attorney or CPA about liability protection and tax treatment.",
+      "cite": "15 Pa.C.S. (LLC filing); DSCB:15-8821",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Note LLC annual report and tax obligations",
+      "instructions": "A secondary source states a $7 annual report with a January 1–September 30 window. Sources conflict on the due date, so confirm it with the Department of State. The same type of source says Pennsylvania has no LLC franchise tax. Put the due date in your compliance calendar.",
+      "cite": "Pa. Dept. of State annual report",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov after the entity is formed. You need it for payroll, banking, unemployment registration and Medicaid enrollment. It is issued online the same day.",
+      "cite": "IRC §6109",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a dedicated business bank account and set up bookkeeping",
+      "instructions": "Keep agency funds separate from personal funds. Set up accounting software and a payroll service. The model budgets $600–$1,500 a month for accounting, payroll service and legal, depending on size; this is an operator estimate, so verify it locally.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Write your business plan and choose a size configuration",
+      "instructions": "Use the Pro Forma P&L. The 40-client private-pay model nets about $16,848 a month (17.2% margin) at 90% census and needs about $72,919 in cash to reach profit by month 7. The Medicaid-only 100-client model loses about $34,585 a month at the modeled wage. Decide your target size and payer mix before you sign a lease.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Do not confuse home care with personal care homes or assisted living",
+      "instructions": "Personal care homes and assisted living residences are licensed by DHS, not DOH. They are a separate license and a separate market. If you plan residential care, use a different bundle.",
+      "cite": "DHS personal care home licensing",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 2 — SITE, ADMINISTRATOR & PLANNING FOR LICENSURE",
+      "priority": "CRITICAL",
+      "task": "Secure a physical office location",
+      "instructions": "The license lists a physical address and a virtual office does not qualify. Each physical location needs its own license and branch offices are not recognized. The model assumes about $24 per sq ft per year, an operator estimate: roughly $1,200 a month for 600 sq ft up to $3,000 for 1,500 sq ft. Verify rent locally.",
+      "cite": "28 Pa. Code §611.2; DOH FAQ",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — SITE, ADMINISTRATOR & PLANNING FOR LICENSURE",
+      "priority": "HIGH",
+      "task": "Check local zoning and municipal business requirements",
+      "instructions": "Chapter 611 requires compliance with applicable environmental, health, sanitation and professional licensure standards from federal, state and local authorities. No other siting rule was found. Call the municipal zoning office to confirm office use and ask about any local business privilege or occupancy permit. The model carries a $50 a month placeholder, an operator estimate.",
+      "cite": "28 Pa. Code §611.4",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 2 — SITE, ADMINISTRATOR & PLANNING FOR LICENSURE",
+      "priority": "CRITICAL",
+      "task": "Confirm administrator qualifications with DOH before naming one",
+      "instructions": "Secondary sources conflict: one cites an RN or bachelor's degree plus 2 years of supervisory experience, another says Chapter 611 prescribes none. Read the administrator provisions in the current Chapter 611 and email the Division of Home Health to confirm. Do this before you finalize your application.",
+      "cite": "28 Pa. Code Ch. 611 (administrator provisions)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — SITE, ADMINISTRATOR & PLANNING FOR LICENSURE",
+      "priority": "HIGH",
+      "task": "Download and read the full Chapter 611 text and Chapter 51 general provisions",
+      "instructions": "Chapter 51 (general information for all licensed health care facilities) applies to Chapter 611 licensees. Read both. Sections 611.51, .53, .54 and .56–.57 were only partly reviewed in this research, including provisional hiring, ChildLine details and consumer protections. Allow 1–2 days.",
+      "cite": "28 Pa. Code §611.4; Ch. 51",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 2 — SITE, ADMINISTRATOR & PLANNING FOR LICENSURE",
+      "priority": "HIGH",
+      "task": "Ask DOH about items this research could not verify",
+      "instructions": "Email ra-dhhlicenquestions@pa.gov (Division of Home Health, 2525 N. 7th Street, Harrisburg, PA 17110). Ask about the license term length, the current payment method for the online application, any capacity or staffing rules, insurance requirements, and the official processing time. Save the replies in your compliance file.",
+      "cite": "DOH FAQ contact",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — SITE, ADMINISTRATOR & PLANNING FOR LICENSURE",
+      "priority": "MEDIUM",
+      "task": "Run a change-of-ownership check if buying an existing agency",
+      "instructions": "A change of ownership of 5% or more requires a CHOW application and the change cannot occur before approval. If you are buying an agency rather than starting one, begin with DOH's CHOW process.",
+      "cite": "DOH Home Care FAQ (CHOW)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "CRITICAL",
+      "task": "Obtain the application from DOH Division of Home Health",
+      "instructions": "The rule says the application is obtained from the Department of Health, Division of Home Health. Start from the DOH Home Care Agencies and Registries page. Use the online process, because mailed and emailed submissions are no longer accepted as of March 31, 2026.",
+      "cite": "28 Pa. Code §611.2; DOH Home Care page",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "CRITICAL",
+      "task": "Select the correct license type on the application",
+      "instructions": "Apply for a home care agency license (employer model) unless you are deliberately running a registry. Do not file under Chapter 601 (home health) unless you will provide skilled services; that license has its own application and a $250 regular fee.",
+      "cite": "28 Pa. Code Ch. 611; Ch. 601",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "CRITICAL",
+      "task": "Pay the $100 application fee",
+      "instructions": "The fee is $100, submitted with the application, and is non-refundable and not prorated. The older FAQ says a check or money order must accompany the initial application. That guidance predates the March 31, 2026 online-only change, so confirm the current payment method with DOH before you file.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "CRITICAL",
+      "task": "Submit the application online",
+      "instructions": "File through DOH's online process only. Double-check every field (legal name, physical address, owners, administrator) because an incomplete application delays everything. A secondary guide estimates 2–3 months from a complete application, longer if deficiencies arise. No official DOH timeline was verified.",
+      "cite": "DOH Home Care page; Cura guide",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "CRITICAL",
+      "task": "Complete owners' and office staff background checks for the application",
+      "instructions": "Owners and office staff, not only direct care workers, must obtain a criminal history report. The report must be obtained at the time of application or within 1 year before it. Order State Police reports early. Fees and who pays them were not found, so confirm the fee when you order.",
+      "cite": "28 Pa. Code §611.52",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "HIGH",
+      "task": "Prepare policies and procedures before the inspection",
+      "instructions": "Write the manual to follow Chapter 611 and Chapter 51: competency, background-check files, TB screening, consumer protections, records and complaints. The model budgets $1,500–$6,000, an operator estimate. Allow 2–4 weeks.",
+      "cite": "28 Pa. Code Ch. 611; Ch. 51",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "HIGH",
+      "task": "Prepare the office for the pre-licensure inspection",
+      "instructions": "DOH inspects before issuing the initial license. Have the office, personnel files, policies and consumer-record systems ready. A secondary guide says deficiencies require a plan of correction before licensure. A compliance review before inspection is budgeted at $500–$4,000, an operator estimate.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "HIGH",
+      "task": "Respond to any deficiencies with a plan of correction",
+      "instructions": "If DOH cites deficiencies, submit a plan of correction promptly and keep proof of each fix. Per a secondary guide, the license is not granted until deficiencies are corrected.",
+      "cite": "DOH licensure process (secondary summary)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "CRITICAL",
+      "task": "Do not accept clients or advertise until the license is issued",
+      "instructions": "Hold launch marketing until you have the license in hand. Holding out as an agency without a license violates §611.2. Display the license as DOH requires.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 3 — LICENSE APPLICATION & INSPECTION",
+      "priority": "MEDIUM",
+      "task": "Track the license term and renewal date",
+      "instructions": "The rule says the license states its term, and the term was not found in the research. Read your issued license, record the expiration date, and set reminders for the renewal form 60+ days earlier.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "CRITICAL",
+      "task": "Run a Pennsylvania State Police criminal history check on every direct care hire",
+      "instructions": "The report must be obtained at application or within 1 year before. You may not hire, roster or retain anyone whose State Police record shows a prohibited conviction under the list cross-referenced in 6 Pa. Code §15.143. Order the check before the first day of work. The fee was not found; the model budgets $6 per client per month for checks, screening and turnover, an operator estimate.",
+      "cite": "28 Pa. Code §611.52; 6 Pa. Code §15.143",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal record and letter of determination for non-PA-residents",
+      "instructions": "Workers who have not lived in Pennsylvania for two years must obtain a Federal criminal history record and a letter of determination. Build this into hiring for out-of-state applicants and allow extra time before the start date.",
+      "cite": "28 Pa. Code §611.52",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "HIGH",
+      "task": "Collect ChildLine verification where applicable",
+      "instructions": "Workers must submit a ChildLine verification if applicable (§611.53). Confirm with DOH when it applies to your caregivers, for example those who may serve consumers who are children or live in homes with minors. Keep the result in the personnel file.",
+      "cite": "28 Pa. Code §611.53",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "CRITICAL",
+      "task": "Document tuberculosis screening before consumer contact",
+      "instructions": "Each direct care worker and certain office staff must show they are screened for and free from active tuberculosis before consumer contact. Set up a TB screening step in onboarding with a clinic or the worker's provider. The section number was not retrieved, so check the current Ch. 611 text.",
+      "cite": "28 Pa. Code Ch. 611 (TB provision)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "CRITICAL",
+      "task": "Verify competency before assigning any direct care worker",
+      "instructions": "Before assigning or referring a worker to a consumer, confirm competency through (a) a nurse license, (b) an agency competency exam, or (c) a listed training program. Document the method in the personnel file.",
+      "cite": "28 Pa. Code §611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "HIGH",
+      "task": "Build an agency competency exam and skills checklist",
+      "instructions": "If you will test competency yourself, write the exam and a skills checklist covering personal care tasks, infection control, safety and documentation. Have a nurse or experienced administrator review it. Retain results. Training hours: the sources conflict (none vs. 40 hours) and were not verified, so confirm with DOH.",
+      "cite": "28 Pa. Code §611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "HIGH",
+      "task": "Schedule annual competency reviews",
+      "instructions": "Competency must be reviewed at least once per year after it is first established, and more often after a quality-of-care discipline. Put each worker's review date on a tracker. The model budgets $150 a month for training and reviews, an operator estimate.",
+      "cite": "28 Pa. Code §611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "MEDIUM",
+      "task": "Use competency portability when hiring experienced aides",
+      "instructions": "Competency documentation transfers between agencies if the worker's break in employment or roster status does not exceed 12 months. Request the prior agency's records, then confirm them against your own standards.",
+      "cite": "28 Pa. Code §611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "HIGH",
+      "task": "Set aide wages at or above the market and the state minimum",
+      "instructions": "The PA minimum wage is $7.25/hr (a bill to raise it passed the House on 3/24/2026 and is pending in the Senate), and state law preempts higher local minimums. The model uses $17.21/hr, the national BLS median for home health and personal care aides. The Philadelphia metro healthcare support mean is $17.73/hr. Pennsylvania state-level aide wages were not retrieved, so check local postings.",
+      "cite": "BLS OEWS May 2025; PA minimum wage",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "MEDIUM",
+      "task": "Create a hiring packet and personnel file checklist",
+      "instructions": "For each worker keep: application, State Police report, federal record and letter of determination if applicable, ChildLine verification if applicable, TB screening, competency proof, annual review, I-9 and W-4. A missing item is an easy inspection citation.",
+      "cite": "28 Pa. Code §§611.52, 611.53, 611.55",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — HIRING, BACKGROUND CHECKS & COMPETENCY",
+      "priority": "MEDIUM",
+      "task": "Handle an administrator change correctly",
+      "instructions": "When the administrator changes, the new administrator's criminal background results must be no more than 1 year old. Notify DOH per its process.",
+      "cite": "DOH Home Care FAQ",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Register as an employer with PA Department of Labor & Industry for UC tax",
+      "instructions": "Register before your first payroll. For 2026 the new-employer rate for a non-construction employer is 3.822% on the first $10,000 of each employee's wages. The experienced-employer range is 1.419% to 10.3734%.",
+      "cite": "PA UC Law; L&I Yearly Tax Highlights",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "HIGH",
+      "task": "Register for state and local withholding",
+      "instructions": "Register with the PA Department of Revenue to withhold state personal income tax from wages. Also check local earned income tax or wage tax obligations for where your workers live and work; Philadelphia has its own wage tax. These are employee withholdings and are not modeled as agency costs. Use a payroll service.",
+      "cite": "PA Dept. of Revenue; local tax collectors",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "HIGH",
+      "task": "Budget for employer payroll taxes",
+      "instructions": "The model uses about 10.5% employer payroll tax: 7.65% FICA, PA UC and FUTA. UC and FUTA add roughly 2.8% on part-time aide earnings. These are modeled assumptions, so confirm them with your CPA.",
+      "cite": "",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Bind workers' compensation insurance before the first hire",
+      "instructions": "Pennsylvania requires workers' compensation coverage for virtually all employers starting with the first employee. Statewide loss costs fell 1.22% effective April 1, 2026, but the home care class code and premium were not retrieved. The model uses 5% of wages, an operator estimate, so get broker quotes.",
+      "cite": "PA Workers' Compensation Act; PCRB filing",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "HIGH",
+      "task": "Buy liability, hired and non-owned auto, and crime/bond coverage",
+      "instructions": "No insurance or bond minimum was found in Chapter 611 sources. Still, plan contracts and private clients may require limits. The model budgets $400–$500 a month plus $15 per client, an operator estimate; verify locally with a broker who writes home care.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "HIGH",
+      "task": "Classify caregivers as employees, not contractors",
+      "instructions": "A Chapter 611 home care agency supplies, arranges or schedules its employees. Run payroll with W-2 treatment, and pay for non-billable time such as travel between clients and training as required by wage-hour law. The model includes 4% paid non-billable time, an operator estimate.",
+      "cite": "28 Pa. Code Ch. 611 (agency definition)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Plan for Pennsylvania minimum wage changes",
+      "instructions": "A bill to raise the minimum wage passed the House March 24, 2026 and is pending in the Senate. The modeled aide wage is far above $7.25 but watch for wage-compression effects on supervisors and coordinators.",
+      "cite": "PA minimum wage",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 5 — PAYROLL, TAX & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Check overtime and wage-hour compliance for aides",
+      "instructions": "Home care aides are generally covered by federal and state wage-hour rules for overtime and travel time. Confirm your pay practices with an employment attorney. No state-specific citation was retrieved in this research.",
+      "cite": "FLSA; PA Minimum Wage Act",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "HIGH",
+      "task": "Select scheduling, billing and EVV software",
+      "instructions": "Choose software that handles scheduling, timekeeping, billing and Medicaid EVV if you will serve CHC. The model carries $250 a month plus $12 per client, an operator estimate. Get vendor quotes and ask whether the platform connects to HHAeXchange.",
+      "cite": "",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "HIGH",
+      "task": "Build a consumer intake, assessment and service plan process",
+      "instructions": "Create forms for intake, needs assessment, service agreement, rate disclosure, care plan, and consumer rights and complaint procedure. Check §611.51–.57 for required consumer protection contents, which were only partly retrieved in this research.",
+      "cite": "28 Pa. Code Ch. 611",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "HIGH",
+      "task": "Establish caregiver scheduling and backup coverage",
+      "instructions": "Staffing ratios and awake-overnight rules were not found in Chapter 611 sources, so staffing is an operator design. Set minimum notice rules, an on-call coordinator and a pool of backup caregivers. The model assumes 80 billable hours per client-month, an operator estimate to verify locally.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "HIGH",
+      "task": "Create a field supervision and quality review routine",
+      "instructions": "Chapter 611 sets no supervisor ratio (none found), but annual competency reviews are required. Assign a supervisor for home visits, complaints and incident follow-up. The 75-client and 100-client models include one field supervisor, an operator design.",
+      "cite": "28 Pa. Code §611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Write incident, abuse/neglect and emergency procedures",
+      "instructions": "Document how caregivers report incidents, suspected abuse or neglect, falls and emergencies, and how the agency notifies family and authorities. Train all staff at orientation. Check Chapter 51 and Chapter 611 for reporting duties.",
+      "cite": "28 Pa. Code Ch. 51; Ch. 611",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Set up secure record storage and retention",
+      "instructions": "Keep personnel, consumer and billing files organized so DOH can review them at inspection. Use locked storage and access-controlled digital systems. Confirm retention periods against the current Chapter 611 and Chapter 51 text.",
+      "cite": "28 Pa. Code Ch. 51; Ch. 611",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Set up office equipment, phones and IT",
+      "instructions": "Budget for computers, phones, internet and a secure file system. The model assumes $2,000–$12,000 for furniture, computers and phones as a startup cost and $300–$600 a month for utilities, phones and IT; both are operator estimates.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — OPERATIONS, SYSTEMS & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Set the caregiver training calendar",
+      "instructions": "Plan orientation, annual competency reviews and in-service topics (infection control, safe transfers, dementia, documentation). No training-hour minimum could be confirmed in Chapter 611 sources, so schedule training based on your competency exam results.",
+      "cite": "28 Pa. Code §611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "CRITICAL",
+      "task": "Decide whether to pursue Medicaid before building a Medicaid model",
+      "instructions": "At the modeled aide wage ($17.21/hr plus burden), the $20.63/hr statewide average agency PAS rate leaves almost no margin. The 100-client CHC-only model loses about $34,585 a month. Pursue Medicaid only after private pay covers your office, or if your actual aide pay is lower than modeled.",
+      "cite": "",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "HIGH",
+      "task": "Get the Chapter 611 license first, then apply for Medicaid enrollment",
+      "instructions": "State licensure comes first. After the home care license is issued, you may apply for a waiver through the Office of Long-Term Living (OLTL). Do not promise Medicaid services to clients before enrollment.",
+      "cite": "DOH Home Care FAQ",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "HIGH",
+      "task": "Understand how CHC money flows",
+      "instructions": "CHC is a capitated Medicaid managed care program run by OLTL. Payment comes through the managed care plans, not straight fee-for-service. Each plan's contract governs actual payment. CHC covers adults 21 and older with physical disabilities and dual-eligible adults. About 396,880 people were enrolled in May 2026.",
+      "cite": "OLTL CHC; CHC data brief",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "HIGH",
+      "task": "Contact each CHC plan about credentialing and network access",
+      "instructions": "Whether plan networks are open to new Chapter 611 agencies was not verified. Ask each plan's provider relations team about credentialing, contract terms and the rate they pay for agency PAS (HCPCS W1793). Also ask about re-procurement status, because it was paused in 2025 and the current status is unconfirmed.",
+      "cite": "OLTL CHC",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "HIGH",
+      "task": "Compare regional agency PAS rates against your costs",
+      "instructions": "A rate study cites four rating regions: Region 1 (Southwest) $19.32/hr, Region 3 (Lehigh/Capital) $20.20/hr, Region 2 (remainder of state) $21.48/hr. The Region 4 (Southeast/Philadelphia) rate was not retrieved. Get your actual plan rates in writing and compare them with your loaded aide cost, which is about $20.22 per billable hour at the modeled wage.",
+      "cite": "CareRing/HMA PAS Rate Study",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "MEDIUM",
+      "task": "Evaluate the OBRA Waiver as a smaller Medicaid channel",
+      "instructions": "The OBRA Waiver was renewed effective July 1, 2026 through June 30, 2031, and DHS revised participant projections downward after CHC rollout. Revised participant-directed PAS fee schedule rates took effect January 1, 2026, but the amounts and the agency-model OBRA rate were not retrieved. Ask OLTL for current agency requirements.",
+      "cite": "OBRA Waiver PA.0235.R07.00",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "MEDIUM",
+      "task": "Check whether a Medicaid enrollment application fee applies",
+      "instructions": "The CY2026 federal application fee is $750 per Indiana's Medicaid bulletin. Whether it applies to Pennsylvania personal care agencies was not verified. Ask OLTL or the PROMISe enrollment unit before paying anything.",
+      "cite": "CMS CY2026 enrollment fee",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "HIGH",
+      "task": "Implement EVV for Medicaid personal care visits",
+      "instructions": "Pennsylvania has required EVV for Medicaid personal care since January 1, 2020. A secondary source reports a threshold of at least 85% of visits verified without manual edits (15% manual-edit threshold), with quarterly alerts beginning January 2026. CHC plans use HHAeXchange per the vendor's site. Train caregivers to clock in and out in real time.",
+      "cite": "Medicaid EVV; ODP EVV Guide v3.0",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "MEDIUM",
+      "task": "Know who you cannot be paid to serve under CHC",
+      "instructions": "A secondary source says CHC will not pay a participant's spouse, legal guardian, representative payee or power of attorney, though other family members can be paid. Screen family-caregiver requests accordingly.",
+      "cite": "CHC payee rules (secondary)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "MEDIUM",
+      "task": "Do not use the T1019 rate for adult CHC planning",
+      "instructions": "The $6.84 per 15-minute T1019 rate comes from a 2022 notice for home health agency personal care for ages 0–20 with prior authorization. It may be superseded and does not apply to adult CHC PAS.",
+      "cite": "52 Pa.B. 2297",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "MEDIUM",
+      "task": "Watch for funding changes",
+      "instructions": "The PA Homecare Association has requested higher HCBS funding in its FY2026–27 program revision request, and the 2026 HealthChoices agreement is pending signatures and CMS approval. Follow PHA and DHS updates, since payment changes could change the Medicaid math.",
+      "cite": "FY2026-27 HCBS PRR; DHS HealthChoices",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID: COMMUNITY HEALTHCHOICES & OBRA WAIVER",
+      "priority": "MEDIUM",
+      "task": "Understand the room-and-board exclusion for clients in residential settings",
+      "instructions": "CHC does not cover room and board. Most home care clients live in their own homes, but if you serve clients in residential settings, explain what Medicaid pays for and what the client owes.",
+      "cite": "CHC coverage (secondary summary)",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "CRITICAL",
+      "task": "Set private-pay hourly rates from local competitor research",
+      "instructions": "A secondary site citing CareScout/Genworth 2024 gives Pennsylvania planning benchmarks of about $33/hr homemaker and $34/hr home health aide (national median $34/hr). The survey measures standard private rates at licensed, non-Medicare-certified agencies, not Philadelphia or Pittsburgh prices. Call 5–10 local agencies and price against them. At $34/hr the model nets $16,848 a month at 40 clients.",
+      "cite": "Genworth/CareScout 2024",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "HIGH",
+      "task": "Test your price against a downside case",
+      "instructions": "At $30/hr the 40-client model still earns roughly $5,000 a month at 90% census, per the configuration note. Client acquisition, not licensing, is the binding constraint. Set a minimum viable price before you accept discounts.",
+      "cite": "",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "HIGH",
+      "task": "Build referral relationships",
+      "instructions": "Meet hospital and rehab discharge planners, senior living communities, elder-law attorneys, geriatric care managers and area agencies on aging. No referral-source data was retrieved, so track which sources convert and adjust. The model budgets $1,000–$2,500 a month for marketing depending on size, an operator estimate.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Build a website and local search presence",
+      "instructions": "Include your license information once issued, services offered (non-medical personal care and companionship), service area and an inquiry form. Launch marketing and a website are budgeted at $2,000–$8,000, an operator estimate.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Prepare your service agreement and payment process",
+      "instructions": "Use a written service agreement with rates, minimum hours, cancellation policy and billing terms. Set up card/ACH payments. The model assumes 1.5% processing on private-pay invoices, an operator estimate.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Size demand against the aging population",
+      "instructions": "The Department of Aging cites more than 2.5 million Pennsylvanians aged 65 and older (2020 Census), and Census estimates released June 2026 put the number near 2.8 million, per a secondary report. Use this for context only, since no agency count or referral data was found.",
+      "cite": "PA Dept. of Aging",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 8 — PRIVATE-PAY PRICING & CLIENT ACQUISITION",
+      "priority": "MEDIUM",
+      "task": "Plan your client ramp and cash runway",
+      "instructions": "Use the ramp in your chosen configuration, an operator estimate. The 40-client model reaches profit in month 7, the 75-client model in month 9 and the mixed 60-client model in month 14. Cash needed is about $72,919 for 40 clients, $142,123 for 75 clients and $163,132 for the mixed model. Secure a line of credit or reserve before launch.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "CRITICAL",
+      "task": "Renew the license at least 60 days before it expires",
+      "instructions": "Submit the renewal form with the $100 fee at least 60 days before the expiration date on the license. DOH inspects before renewal too, so be inspection-ready at all times. Model the fee at $8.33 a month; the term is unconfirmed, so an annual term is assumed.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Keep an annual compliance calendar",
+      "instructions": "Track the license renewal, LLC annual report, workers' comp renewal, insurance renewals, each caregiver's competency review date and each employee's background-check and TB records. Review it monthly.",
+      "cite": "28 Pa. Code §§611.2, 611.55",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Re-screen and retain only eligible staff",
+      "instructions": "You may not hire, roster or retain anyone whose record shows a prohibited conviction. If you learn of a disqualifying conviction, remove the worker from consumer contact and document the action.",
+      "cite": "28 Pa. Code §611.52",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Monitor EVV manual-edit rates (Medicaid agencies)",
+      "instructions": "Review the manual-edit percentage monthly against the 15% threshold. Retrain caregivers whose visits need frequent edits. Alerts to providers over the threshold began in January 2026.",
+      "cite": "Medicaid EVV",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Report ownership and administrator changes to DOH",
+      "instructions": "A 5% or more ownership change needs CHOW approval before it occurs. Administrator changes require recent background results (no more than 1 year old). Contact the Division of Home Health before making either change.",
+      "cite": "DOH Home Care FAQ",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Do not open a second site without its own license",
+      "instructions": "Each physical location must be separately licensed and branch offices are not recognized. File a new application and pay a new $100 fee per location before expanding.",
+      "cite": "28 Pa. Code §611.2",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Review financials monthly against the model",
+      "instructions": "Compare actual census, billable hours per client, aide wage and overtime against the pro forma. Break-even occupancy is about 44.7% for the 40-client model, 39.0% for 75 clients and 69.7% for 20 clients. Act early if census stalls.",
+      "cite": "",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Check the Pa. Code for Chapter 611 changes each year",
+      "instructions": "The code was current through 56 Pa.B. 4026 (July 4, 2026). No 2026 Chapter 611 rulemaking was found. Check pacodeandbulletin.gov and the DOH Home Care page for updates and new instructions.",
+      "cite": "28 Pa. Code Ch. 611",
+      "source_id": "S1"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Region 4 rate not retrieved; effective date unverified",
+      "change": "Added Region 4 $21.52/hr as a new rate and updated key_numbers[5], rate effective dates, notes, not_claimed[7], and the executive summary, reimbursement, mixed60 and chc100 text."
+    },
+    {
+      "issue": "$20.63 average undated; HMA gives $20.62",
+      "change": "Dated it Jan 30, 2025, noted the $20.62 discrepancy and that $20.63 is the mean of the regional rates, and advised using regional rates."
+    },
+    {
+      "issue": "Aide wage uses a national median; admin, scheduler and supervisor wages use wrong occupation proxies",
+      "change": "No verified PA replacements were available, so I did not change the numbers. Added a not_claimed entry marking these proxies unverified."
+    },
+    {
+      "issue": "Burden 17.5% and non-billable 4% are below state benchmarks (23% ERE, 88% billable)",
+      "change": "Added the benchmarks and an overstatement caution to payroll_burden.notes and the executive summary, and added a not_claimed entry. Model inputs were left unchanged because the P&L cannot be recomputed here; a sensitivity rerun is required."
+    },
+    {
+      "issue": "Missing local tax, sick leave, background fee and exclusion-screening costs",
+      "change": "Added a not_claimed entry listing them as unverified and unmodeled."
+    },
+    {
+      "issue": "DOH contact email",
+      "change": "Listed RA-dhhomehealth@pa.gov for online application questions and kept ra-dhhlicenquestions@pa.gov as the general contact."
+    },
+    {
+      "issue": "No OLTL enrollment contact; $750 fee sourced from Indiana",
+      "change": "Added the OLTL enrollment contact, marked the fee unverified for PA, and added the MCO network-closed risk."
+    },
+    {
+      "issue": "Unverifiable T1019, CHC enrollment, min-wage bill and $33/$34 figures",
+      "change": "Added a not_claimed entry. Customer text still contains these figures, which I did not rewrite."
+    },
+    {
+      "issue": "UC figures labeled loosely; S18 is an ODP source",
+      "change": "Labeled UC figures CY2026, flagged CY2027, and added the 0.07% employee withholding. Marked the EVV 2020 date unconfirmed."
+    },
+    {
+      "issue": "Licensing processing time conflict",
+      "change": "Changed to 2–5 months (10–20 weeks) in key_numbers, the startup note and the executive summary. The licensing_pathway, risks and recommendations text were not rewritten and still say 2–3 months or mention Region 4 as not retrieved."
+    }
+  ]
+}

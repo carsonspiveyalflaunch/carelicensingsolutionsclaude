@@ -1,0 +1,71 @@
+{
+  "bundle_slug": "virginia-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 22,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "staffing.gh8_t2_ros; staffing.gh12_mix_ros; revenue_lines.gh8_t2_ros; revenue_lines.gh12_mix_ros; startup_costs[required_reserve].high; startup_costs[Lease deposit].high; fees_and_timelines_in_checklist[i=10] and [i=11] (two-home and three-home results and cash totals)",
+      "current": "Launch configurations with 2 homes (gh8_t2_ros: 2 homes x 1,460 h, 1.0 FTE director) and 3 homes (gh12_mix_ros: Tier 1 + Tier 2 + Tier 4 homes). Profit and reserve figures are given for them: about $3,286/month for two homes, about $5,206/month for three homes, reserve high of $415,000, and cash needs of about $310,250 and $495,600.",
+      "correct": null,
+      "evidence": "12VAC35-105-50 A.1.d-e: \"A provider holding a conditional license shall not add services or locations during the conditional period.\" and \"A group home or community residential service provider shall be limited to providing services in a single location, serving no more than four individuals during the conditional period.\" A conditional license may not exceed 12 successive months in total. The model's own checklist item 34 says launch configurations are single 4-bed homes and not to sign a second lease, which contradicts the 2- and 3-home launch models.",
+      "source_url": "https://law.lis.virginia.gov/admincode/title12/agency35/chapter105/section50/",
+      "fix": "A new group home provider cannot legally open 2 or 3 homes at launch. Restate the multi-home configurations as expansion scenarios that start only after a full license is issued, with a separate timeline and ramp. Model Year 1 as one home with at most 4 residents. Remove multi-home profit claims from the launch checklist. Re-base the required-reserve high end ($415,000), the lease-deposit high end, and the checklist cash totals ($310,250 and $495,600) on one home until a full license is held."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[role=Direct support professionals].wage_hourly (18.47, source S30)",
+      "current": "$18.47/hour, described as the Richmond MSA mean for BLS May 2025 'personal care and service occupations'",
+      "correct": null,
+      "evidence": "The BLS May 2025 Richmond release was fetched but the page was truncated, so the $18.47 figure could not be confirmed. The same release series gave $18.24 for that major group in May 2024, so the figure is plausible. It is a major-group average that includes hairdressers, fitness trainers and amusement attendants, not a direct support professional occupation (for example home health and personal care aides, SOC 31-1120).",
+      "source_url": "https://www.bls.gov/regions/mid-atlantic/news-release/2026/occupationalemploymentandwages_richmond_20260710.htm",
+      "fix": "Unverifiable. DSP labor is the largest cost line (roughly 1,095 to 2,190 hours/month per home). Replace the major-group mean with the BLS OEWS May 2025 mean for the relevant occupation for the home's MSA (personal care aides 31-1122 or nursing assistants 31-1131), and use the loaded wage for the actual home location. The wage is above the $12.77 Virginia minimum wage for 2026, which was verified, so there is no minimum-wage violation."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[4], rates[5], key_numbers[2], revenue_lines.gh4_t4_ros notes ('Tier 3 rate not retrieved')",
+      "current": "Tier 3 H2022 rate stated as not retrieved",
+      "correct": "Tier 3, 4 or fewer persons: NOVA $515.37, ROS $457.37",
+      "evidence": "DMAS rate file, 'Group Home Residential- Tier 3, 4 or fewer person homes, H2022, UA, 344 billing days Per Diem: NOVA $515.37 ROS $457.37'.",
+      "source_url": "https://www.dmas.virginia.gov/media/rijnbk43/sfy27-my-life-my-community-rate-file-updated-6-26-26.pdf",
+      "fix": "Add a Tier 3 row (NOVA $515.37 / ROS $457.37) and delete the 'Tier 3 rate not retrieved' notes. The Tier 1, 2 and 4 rates and the H0043 and 2% change-log entries all match the file exactly."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[6].notes; rates[7].notes; key_numbers[3]; fees_and_timelines_in_checklist[i=13]",
+      "current": "8-person and 12-person rates shown for reference, with 'older larger homes grandfathered'",
+      "correct": "A new provider can be reimbursed for no more than 6 licensed beds. Only homes that became DD Waiver providers before March 31, 2021 are grandfathered, and a change of ownership removes the grandfathering.",
+      "evidence": "12VAC30-122-390 A: \"The number of licensed beds in a setting reimbursed for group home residential services shall not exceed six.\" Larger homes that became DD Waiver providers before March 31, 2021 may continue. If ownership changes, the home is a new setting and the six-bed limit applies.",
+      "source_url": "https://law.lis.virginia.gov/admincode/title12/agency30/chapter122/section390/",
+      "fix": "State that the 7- to 12-person rates are not available to new providers (and not after a change of ownership). Cite the official LIS page (S28) instead of the Cornell mirror (S27) for the six-bed limit, because the official text was verified."
+    },
+    {
+      "severity": "minor",
+      "json_path": "revenue_lines.*.units_per_client_month (28.67)",
+      "current": "28.67 billing days per client-month (344 / 12), with 92% occupancy applied in the notes",
+      "correct": null,
+      "evidence": "The rate file labels the unit '344 billing days Per Diem' and 12VAC30-122-390 C.1 says the unit is a day, billable if any portion of the plan for supports is provided that day. Neither source says how 344 converts to monthly billable days.",
+      "source_url": "https://www.dmas.virginia.gov/media/rijnbk43/sfy27-my-life-my-community-rate-file-updated-6-26-26.pdf",
+      "fix": "Unverifiable. Confirm with DMAS or the DD Waivers Manual Ch. IV whether 344 is an annual billing cap or only a rate-setting basis. If it is a cap, applying a further 92% occupancy factor on top of 28.67 days/month may double-discount revenue. If it is not a cap, 28.67 understates billable days (about 30.4). The error would change margins."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[DBHDS license renewal].monthly (63); startup_costs[DBHDS initial licensing application fee]; regulators[DBHDS Background Investigations Unit].role ($25 fee); regulators[0].email",
+      "current": "$750/yr renewal and $0-750 initial fee placeholders; $25 name/sex-offender search fee; CONNECT help email and two-business-day response",
+      "correct": null,
+      "evidence": "12VAC35-105-40 (the application rule) lists the required submissions and states no fee amount. The DBHDS licensing and background-unit pages returned only navigation text, so the fee amounts, the $25 search fee and the help-desk response time could not be confirmed.",
+      "source_url": "https://law.lis.virginia.gov/admincode/title12/agency35/chapter105/section40/",
+      "fix": "Unverifiable. Label these as unverified placeholders or remove them until confirmed in CONNECT or with the Background Investigations Unit."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[role=Direct support professionals] and payroll_burden",
+      "current": "DSP hours priced at straight wage x hours with no overtime. Coverage hours imply 12-hour shifts (36, 48 and 72 staff-hours/day) and 24/7 physically present staff.",
+      "correct": null,
+      "evidence": "12VAC30-122-390 A requires service continuously up to 24 hours per day by paid staff who are physically present. 12-hour shifts for full-time staff can exceed 40 hours/week, which triggers FLSA overtime for non-exempt workers.",
+      "source_url": "https://law.lis.virginia.gov/admincode/title12/agency30/chapter122/section390/",
+      "fix": "Unverifiable for the actual schedule. Add an overtime or relief-coverage line (and paid-leave cost) to the DSP cost, or state that the schedule keeps each employee at or under 40 hours/week."
+    }
+  ]
+}

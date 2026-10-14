@@ -287,3 +287,175 @@
 {"t": "2026-10-14T06:31:16Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "A:demand_market", "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1fEatLBDQVfV1wQdtwM'}"}
 {"t": "2026-10-14T06:31:16Z", "stage": "bundle", "slug": "north-carolina-residential-care-dd-complete-bundle", "status": "error: only 0 facts gathered; not assembling", "trace": " \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/carelicensingsolutionsclaude/carelicensingsolutionsclaude/content-factory/pipeline/run.py\", line 481, in process\n    raise ValueError(f\"only {len(facts.get('facts', []))} facts gathered; not assembling\")\nValueError: only 0 facts gathered; not assembling\n"}
 {"t": "2026-10-14T06:31:16Z", "stage": "end", "spent_total": 34.3825, "done": 0}
+{"t": "2026-10-14T12:53:34Z", "stage": "start", "bundles": ["illinois-assisted-living-facilities-complete-bundle", "illinois-personal-home-care-complete-bundle", "illinois-residential-care-dd-complete-bundle", "virginia-assisted-living-facilities-complete-bundle", "virginia-personal-home-care-complete-bundle", "virginia-residential-care-dd-complete-bundle", "ohio-assisted-living-facilities-complete-bundle", "ohio-personal-home-care-complete-bundle", "ohio-residential-care-dd-complete-bundle", "pennsylvania-assisted-living-facilities-complete-bundle", "pennsylvania-personal-home-care-complete-bundle", "pennsylvania-residential-care-dd-complete-bundle", "north-carolina-assisted-living-facilities-complete-bundle", "north-carolina-personal-home-care-complete-bundle", "north-carolina-residential-care-dd-complete-bundle"], "spent_so_far": 34.3825, "budget": 280.0}
+{"t": "2026-10-14T12:54:59Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.256, "stop": "end_turn"}
+{"t": "2026-10-14T12:55:09Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2837, "stop": "end_turn"}
+{"t": "2026-10-14T12:55:26Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.3242, "stop": "end_turn"}
+{"t": "2026-10-14T12:55:50Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.1223, "stop": "end_turn"}
+{"t": "2026-10-14T12:57:03Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.0971, "stop": "end_turn"}
+{"t": "2026-10-14T12:57:30Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3493, "stop": "end_turn"}
+{"t": "2026-10-14T12:57:59Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3823, "stop": "end_turn"}
+{"t": "2026-10-14T12:58:19Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.0991, "stop": "end_turn"}
+{"t": "2026-10-14T12:58:34Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.442, "stop": "end_turn"}
+{"t": "2026-10-14T12:59:27Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3033, "stop": "end_turn"}
+{"t": "2026-10-14T12:59:38Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.2962, "stop": "end_turn"}
+{"t": "2026-10-14T12:59:44Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.1009, "stop": "end_turn"}
+{"t": "2026-10-14T13:00:13Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.329, "stop": "end_turn"}
+{"t": "2026-10-14T13:01:09Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3003, "stop": "end_turn"}
+{"t": "2026-10-14T13:01:26Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2977, "stop": "end_turn"}
+{"t": "2026-10-14T13:01:52Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3665, "stop": "end_turn"}
+{"t": "2026-10-14T13:02:42Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.4247, "stop": "end_turn"}
+{"t": "2026-10-14T13:02:47Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.4658, "stop": "end_turn"}
+{"t": "2026-10-14T13:04:17Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.617, "stop": "end_turn"}
+{"t": "2026-10-14T13:04:17Z", "stage": "bundle", "slug": "illinois-assisted-living-facilities-complete-bundle", "status": "error: Expecting ',' delimiter: line 74 column 111 (char 9883)", "trace": "claude/content-factory/pipeline/run.py\", line 142, in parse_json\n    return json.loads(_repair(t), strict=False)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 359, in loads\n    return cls(**kw).decode(s)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 354, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ^^^^^^^^^^^^^^^^^^^^^^\njson.decoder.JSONDecodeError: Expecting ',' delimiter: line 74 column 111 (char 9883)\n"}
+{"t": "2026-10-14T13:04:34Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4418, "stop": "end_turn"}
+{"t": "2026-10-14T13:04:38Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.6448, "stop": "end_turn"}
+{"t": "2026-10-14T13:05:46Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3667, "stop": "end_turn"}
+{"t": "2026-10-14T13:05:46Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "E:applied", "patches": 53}
+{"t": "2026-10-14T13:05:54Z", "stage": "bundle", "slug": "illinois-personal-home-care-complete-bundle", "status": "done", "usd": 3.6606, "best": "Private-pay personal care agency at scale, 80 clients", "best_net": 30378, "issues": 11, "remaining_checks": []}
+{"t": "2026-10-14T13:06:14Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.1275, "stop": "end_turn"}
+{"t": "2026-10-14T13:06:22Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.338, "stop": "end_turn"}
+{"t": "2026-10-14T13:06:58Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3239, "stop": "end_turn"}
+{"t": "2026-10-14T13:06:58Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "E:applied", "patches": 53}
+{"t": "2026-10-14T13:07:06Z", "stage": "bundle", "slug": "illinois-residential-care-dd-complete-bundle", "status": "done", "usd": 2.8703, "best": "Three 4-person CILA homes, 24-hour, average-acuity residents (12 residents, average waiver rate)", "best_net": 5252, "issues": 11, "remaining_checks": []}
+{"t": "2026-10-14T13:07:42Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.0747, "stop": "end_turn"}
+{"t": "2026-10-14T13:08:08Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1084, "stop": "end_turn"}
+{"t": "2026-10-14T13:08:23Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.081, "stop": "end_turn"}
+{"t": "2026-10-14T13:08:35Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.395, "stop": "end_turn"}
+{"t": "2026-10-14T13:09:08Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1032, "stop": "end_turn"}
+{"t": "2026-10-14T13:09:36Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.0997, "stop": "end_turn"}
+{"t": "2026-10-14T13:10:27Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1016, "stop": "end_turn"}
+{"t": "2026-10-14T13:10:31Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1077, "stop": "end_turn"}
+{"t": "2026-10-14T13:10:51Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0877, "stop": "end_turn"}
+{"t": "2026-10-14T13:11:51Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1, "stop": "end_turn"}
+{"t": "2026-10-14T13:12:05Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0941, "stop": "end_turn"}
+{"t": "2026-10-14T13:12:25Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2669, "stop": "end_turn"}
+{"t": "2026-10-14T13:12:33Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 2.734, "stop": "end_turn"}
+{"t": "2026-10-14T13:13:09Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0992, "stop": "end_turn"}
+{"t": "2026-10-14T13:14:08Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.3232, "stop": "end_turn"}
+{"t": "2026-10-14T13:14:36Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2545, "stop": "end_turn"}
+{"t": "2026-10-14T13:15:01Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3436, "stop": "end_turn"}
+{"t": "2026-10-14T13:15:01Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "E:applied", "patches": 38}
+{"t": "2026-10-14T13:15:06Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3706, "stop": "end_turn"}
+{"t": "2026-10-14T13:15:09Z", "stage": "bundle", "slug": "virginia-assisted-living-facilities-complete-bundle", "status": "done", "usd": 4.9695, "best": "20-bed assisted living community, 100% private pay", "best_net": 23966, "issues": 16, "remaining_checks": []}
+{"t": "2026-10-14T13:16:31Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.0797, "stop": "end_turn"}
+{"t": "2026-10-14T13:16:46Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.2998, "stop": "end_turn"}
+{"t": "2026-10-14T13:17:11Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4271, "stop": "end_turn"}
+{"t": "2026-10-14T13:17:49Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.0964, "stop": "end_turn"}
+{"t": "2026-10-14T13:18:11Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4589, "stop": "end_turn"}
+{"t": "2026-10-14T13:18:33Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3282, "stop": "end_turn"}
+{"t": "2026-10-14T13:18:52Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.328, "stop": "end_turn"}
+{"t": "2026-10-14T13:18:59Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1022, "stop": "end_turn"}
+{"t": "2026-10-14T13:19:58Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.4727, "stop": "end_turn"}
+{"t": "2026-10-14T13:20:26Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3497, "stop": "end_turn"}
+{"t": "2026-10-14T13:20:47Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3569, "stop": "end_turn"}
+{"t": "2026-10-14T13:21:14Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0723, "stop": "end_turn"}
+{"t": "2026-10-14T13:22:02Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.2959, "stop": "end_turn"}
+{"t": "2026-10-14T13:22:02Z", "slug": "virginia-personal-home-care-complete-bundle", "stage": "E:applied", "patches": 37}
+{"t": "2026-10-14T13:22:09Z", "stage": "bundle", "slug": "virginia-personal-home-care-complete-bundle", "status": "done", "usd": 2.4574, "best": "Private-pay personal care agency, 60 clients (administrator, RN at ~100 hours/month, 2 coordinators)", "best_net": 24955, "issues": 7, "remaining_checks": []}
+{"t": "2026-10-14T13:22:26Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.357, "stop": "end_turn"}
+{"t": "2026-10-14T13:22:30Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.4922, "stop": "end_turn"}
+{"t": "2026-10-14T13:22:49Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2579, "stop": "end_turn"}
+{"t": "2026-10-14T13:23:37Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.0829, "stop": "end_turn"}
+{"t": "2026-10-14T13:24:26Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.5602, "stop": "end_turn"}
+{"t": "2026-10-14T13:24:32Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.2801, "stop": "end_turn"}
+{"t": "2026-10-14T13:24:32Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "E:patch", "error": "not_claimed[27]: list assignment index out of range"}
+{"t": "2026-10-14T13:24:32Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "E:patch", "error": "not_claimed[28]: list assignment index out of range"}
+{"t": "2026-10-14T13:24:32Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "E:patch", "error": "not_claimed[29]: list assignment index out of range"}
+{"t": "2026-10-14T13:24:32Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "E:patch", "error": "not_claimed[30]: list assignment index out of range"}
+{"t": "2026-10-14T13:24:32Z", "slug": "virginia-residential-care-dd-complete-bundle", "stage": "E:applied", "patches": 35}
+{"t": "2026-10-14T13:24:40Z", "stage": "bundle", "slug": "virginia-residential-care-dd-complete-bundle", "status": "done", "usd": 2.5811, "best": "EXPANSION SCENARIO (only after a full license is issued): Three 4-bed DD group homes, mixed Tiers 1 / 2 / 4 (12 residents), ROS rates", "best_net": 5206, "issues": 7, "remaining_checks": []}
+{"t": "2026-10-14T13:25:01Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3234, "stop": "end_turn"}
+{"t": "2026-10-14T13:25:11Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1022, "stop": "end_turn"}
+{"t": "2026-10-14T13:26:27Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.1022, "stop": "end_turn"}
+{"t": "2026-10-14T13:26:41Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.2983, "stop": "end_turn"}
+{"t": "2026-10-14T13:26:41Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "E:applied", "patches": 34}
+{"t": "2026-10-14T13:26:48Z", "stage": "bundle", "slug": "ohio-assisted-living-facilities-complete-bundle", "status": "done", "usd": 2.6665, "best": "50-bed RCF, 60% private pay / 40% Assisted Living Waiver", "best_net": 33643, "issues": 9, "remaining_checks": []}
+{"t": "2026-10-14T13:26:52Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3019, "stop": "end_turn"}
+{"t": "2026-10-14T13:26:56Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1014, "stop": "end_turn"}
+{"t": "2026-10-14T13:27:59Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.0929, "stop": "end_turn"}
+{"t": "2026-10-14T13:28:26Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.1007, "stop": "end_turn"}
+{"t": "2026-10-14T13:28:51Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3337, "stop": "end_turn"}
+{"t": "2026-10-14T13:28:51Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.106, "stop": "end_turn"}
+{"t": "2026-10-14T13:29:46Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1264, "stop": "end_turn"}
+{"t": "2026-10-14T13:30:28Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.5006, "stop": "end_turn"}
+{"t": "2026-10-14T13:30:31Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.3325, "stop": "end_turn"}
+{"t": "2026-10-14T13:31:09Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1052, "stop": "max_tokens"}
+{"t": "2026-10-14T13:31:11Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0994, "stop": "end_turn"}
+{"t": "2026-10-14T13:32:42Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1004, "stop": "end_turn"}
+{"t": "2026-10-14T13:32:45Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3047, "stop": "end_turn"}
+{"t": "2026-10-14T13:32:45Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "E:applied", "patches": 47}
+{"t": "2026-10-14T13:32:50Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2848, "stop": "end_turn"}
+{"t": "2026-10-14T13:32:52Z", "stage": "bundle", "slug": "ohio-personal-home-care-complete-bundle", "status": "done", "usd": 2.3728, "best": "Private-pay nonmedical home care agency, 35 clients", "best_net": 9942, "issues": 13, "remaining_checks": []}
+{"t": "2026-10-14T13:33:36Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4417, "stop": "end_turn"}
+{"t": "2026-10-14T13:34:40Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.1034, "stop": "end_turn"}
+{"t": "2026-10-14T13:34:43Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.1378, "stop": "end_turn"}
+{"t": "2026-10-14T13:35:24Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.343, "stop": "end_turn"}
+{"t": "2026-10-14T13:36:22Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2656, "stop": "end_turn"}
+{"t": "2026-10-14T13:36:34Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4597, "stop": "end_turn"}
+{"t": "2026-10-14T13:36:59Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1065, "stop": "end_turn"}
+{"t": "2026-10-14T13:37:28Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3845, "stop": "end_turn"}
+{"t": "2026-10-14T13:38:31Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3123, "stop": "end_turn"}
+{"t": "2026-10-14T13:38:41Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.1266, "stop": "end_turn"}
+{"t": "2026-10-14T13:38:58Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3682, "stop": "end_turn"}
+{"t": "2026-10-14T13:39:51Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.7381, "stop": "end_turn"}
+{"t": "2026-10-14T13:40:17Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.2887, "stop": "end_turn"}
+{"t": "2026-10-14T13:40:47Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.1348, "stop": "end_turn"}
+{"t": "2026-10-14T13:40:51Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3432, "stop": "end_turn"}
+{"t": "2026-10-14T13:41:55Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.2941, "stop": "end_turn"}
+{"t": "2026-10-14T13:42:00Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3085, "stop": "end_turn"}
+{"t": "2026-10-14T13:42:00Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "E:applied", "patches": 52}
+{"t": "2026-10-14T13:42:08Z", "stage": "bundle", "slug": "ohio-residential-care-dd-complete-bundle", "status": "done", "usd": 2.9355, "best": "Six 4-bed licensed homes (24 residents), higher-acuity residents with enhanced staffing", "best_net": 16832, "issues": 13, "remaining_checks": []}
+{"t": "2026-10-14T13:42:33Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.3144, "stop": "end_turn"}
+{"t": "2026-10-14T13:43:50Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.5454, "stop": "end_turn"}
+{"t": "2026-10-14T13:44:07Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.0905, "stop": "end_turn"}
+{"t": "2026-10-14T13:44:15Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 1.4079, "stop": "end_turn"}
+{"t": "2026-10-14T13:44:57Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.1732, "stop": "end_turn"}
+{"t": "2026-10-14T13:44:57Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "E:applied", "patches": 29}
+{"t": "2026-10-14T13:45:04Z", "stage": "bundle", "slug": "pennsylvania-personal-home-care-complete-bundle", "status": "done", "usd": 2.2943, "best": "Private-pay non-medical home care agency, 75 clients (admin, 2 coordinators, field supervisor)", "best_net": 35615, "issues": 12, "remaining_checks": []}
+{"t": "2026-10-14T13:45:40Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1006, "stop": "end_turn"}
+{"t": "2026-10-14T13:45:50Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4483, "stop": "end_turn"}
+{"t": "2026-10-14T13:46:04Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.0512, "stop": "end_turn"}
+{"t": "2026-10-14T13:46:30Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3135, "stop": "end_turn"}
+{"t": "2026-10-14T13:46:30Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "E:applied", "patches": 50}
+{"t": "2026-10-14T13:46:39Z", "stage": "bundle", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "status": "done", "usd": 3.5982, "best": "40-unit assisted living residence, 100% private pay", "best_net": 24335, "issues": 18, "remaining_checks": []}
+{"t": "2026-10-14T13:46:54Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.0985, "stop": "end_turn"}
+{"t": "2026-10-14T13:47:07Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.0959, "stop": "end_turn"}
+{"t": "2026-10-14T13:47:46Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.353, "stop": "end_turn"}
+{"t": "2026-10-14T13:48:15Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0998, "stop": "end_turn"}
+{"t": "2026-10-14T13:48:23Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.0992, "stop": "end_turn"}
+{"t": "2026-10-14T13:48:28Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "A:licensing", "model": "claude-haiku-5-5", "usd": 0.0745, "stop": "end_turn"}
+{"t": "2026-10-14T13:49:18Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3367, "stop": "end_turn"}
+{"t": "2026-10-14T13:50:07Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.101, "stop": "end_turn"}
+{"t": "2026-10-14T13:50:18Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "A:reimbursement", "model": "claude-haiku-5-5", "usd": 0.1091, "stop": "end_turn"}
+{"t": "2026-10-14T13:50:31Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.3495, "stop": "end_turn"}
+{"t": "2026-10-14T13:51:32Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "A:workforce_costs", "model": "claude-haiku-5-5", "usd": 0.0976, "stop": "end_turn"}
+{"t": "2026-10-14T13:51:39Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.2487, "stop": "end_turn"}
+{"t": "2026-10-14T13:52:26Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 1.4228, "stop": "end_turn"}
+{"t": "2026-10-14T13:52:46Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3578, "stop": "end_turn"}
+{"t": "2026-10-14T13:52:58Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "A:demand_market", "model": "claude-haiku-5-5", "usd": 0.0902, "stop": "end_turn"}
+{"t": "2026-10-14T13:54:07Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.2331, "stop": "end_turn"}
+{"t": "2026-10-14T13:54:07Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "E:applied", "patches": 41}
+{"t": "2026-10-14T13:54:15Z", "stage": "bundle", "slug": "pennsylvania-residential-care-dd-complete-bundle", "status": "done", "usd": 3.614, "best": "Three 1-person homes, high-need residents, Consolidated Needs Group 5 (shared agency overhead)", "best_net": 3919, "issues": 8, "remaining_checks": []}
+{"t": "2026-10-14T13:54:17Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.3472, "stop": "end_turn"}
+{"t": "2026-10-14T13:54:50Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "B1a:evidence", "model": "claude-sonnet-5-5", "usd": 0.3277, "stop": "end_turn"}
+{"t": "2026-10-14T13:55:22Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3955, "stop": "end_turn"}
+{"t": "2026-10-14T13:56:42Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3487, "stop": "end_turn"}
+{"t": "2026-10-14T13:57:35Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3875, "stop": "end_turn"}
+{"t": "2026-10-14T13:58:01Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "B1b:model", "model": "claude-sonnet-5-5", "usd": 0.4656, "stop": "end_turn"}
+{"t": "2026-10-14T13:58:27Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3064, "stop": "end_turn"}
+{"t": "2026-10-14T13:59:28Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "B2a:sections", "model": "claude-sonnet-5-5", "usd": 0.3194, "stop": "end_turn"}
+{"t": "2026-10-14T13:59:48Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.7916, "stop": "end_turn"}
+{"t": "2026-10-14T14:00:18Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.5525, "stop": "end_turn"}
+{"t": "2026-10-14T14:00:57Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.185, "stop": "end_turn"}
+{"t": "2026-10-14T14:00:57Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "E:applied", "patches": 35}
+{"t": "2026-10-14T14:01:06Z", "stage": "bundle", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "status": "done", "usd": 2.8563, "best": "20-bed adult care home, 75% private pay / 25% Special Assistance", "best_net": 19823, "issues": 13, "remaining_checks": []}
+{"t": "2026-10-14T14:01:09Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "B2b:checklist", "model": "claude-sonnet-5-5", "usd": 0.3601, "stop": "end_turn"}
+{"t": "2026-10-14T14:03:06Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.3525, "stop": "end_turn"}
+{"t": "2026-10-14T14:03:06Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "E:applied", "patches": 51}
+{"t": "2026-10-14T14:03:13Z", "stage": "bundle", "slug": "north-carolina-personal-home-care-complete-bundle", "status": "done", "usd": 2.5033, "best": "Medicaid personal care agency, 100 clients (State Plan PCS / CAP/DA / managed care)", "best_net": 24827, "issues": 10, "remaining_checks": []}
+{"t": "2026-10-14T14:03:23Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "D:verify", "model": "claude-sonnet-5-5", "usd": 0.9749, "stop": "end_turn"}
+{"t": "2026-10-14T14:05:06Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "E:fix", "model": "claude-sonnet-5-5", "usd": 0.2595, "stop": "end_turn"}
+{"t": "2026-10-14T14:05:06Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "E:applied", "patches": 35}
+{"t": "2026-10-14T14:05:15Z", "stage": "bundle", "slug": "north-carolina-residential-care-dd-complete-bundle", "status": "done", "usd": 3.0786, "best": "Three 6-resident supervised living homes (18 residents), Level 2/3 mix", "best_net": 6636, "issues": 10, "remaining_checks": []}
+{"t": "2026-10-14T14:05:15Z", "stage": "end", "spent_total": 76.7857, "done": 14}

@@ -1,0 +1,125 @@
+{
+  "bundle_slug": "ohio-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 26,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "rates[0..4] (all ODA PASSPORT rows), key_numbers[PASSPORT personal care rate], revenue_lines.oh_mixed60[1], revenue_lines.oh_passport100[0]",
+      "current": "PASSPORT agency personal care $7.24 per 15 min (and $5.43, $3.44, $4.70, $5.39), effective 2024-01-01, from the Jan 2024 ODA rate sheet",
+      "correct": null,
+      "evidence": "The rates match the 2024 sheet (\"PASSPORT - Personal Care 15 Min $7.24\"). However, OAC 5160-1-06.1, which sets PASSPORT maximum payment rates in its appendix, now shows \"Effective: April 17, 2026\". The Jan-2024 sheet is therefore probably not the current rate. I could not read the 2026 appendix.",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-1-06.1",
+      "fix": "Unverifiable. Pull the appendix to OAC 5160-1-06.1 (eff. 4/17/2026) and the current ODA rate sheet. Re-price the oh_passport100 and oh_mixed60 PASSPORT lines, which show only a 1.8% margin. Until then label the rate 'superseded-risk' and add a sensitivity case."
+    },
+    {
+      "severity": "critical",
+      "json_path": "staffing.oh_mixed60[1].notes / staffing.oh_passport100[0].notes / opex[Training] / staffing.*[Client care supervisor] notes",
+      "current": "Aides need 6 hours annual in-service (cited to 5160-46-04). Supervisor has no credential requirement. 'ODH nonmedical rules reviewed set no supervisor credential.' Supervisor is $46,000 with no RN/LPN.",
+      "correct": "Under 5160-46-04 the 6-hour in-service applies to NON-AGENCY aides. Agency aides need 8 hours of in-service within 12 months, first-aid certification, and a certificate from an ODH-approved or Medicare aide competency program. They must also be supervised by a licensed RN or LPN, with a face-to-face home visit at least every 60 days. The agency must be Medicare-certified or otherwise accredited.",
+      "evidence": "Rule text: agency aides must \"Maintain evidence of the completion of eight hours of in-service continuing education\" and \"Receive supervision from a licensed RN or a licensed LPN\", with a home visit \"at least every sixty days\".",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-46-04",
+      "fix": "For any Ohio Home Care Waiver or ODM-billed revenue, change the in-service figure to 8 hours for agency aides and add first-aid certification and competency-program costs. Replace the unlicensed $46,000 'client care supervisor' with RN/LPN-credentialed supervision and wage it at RN/LPN rates. Add the Medicare certification or accreditation cost. Also correct the cite: 5160-46-04 is the Ohio Home Care Waiver rule, not PASSPORT. PASSPORT aides fall under ODA rule 173-39 (S32), and the model never retrieved its enacted text."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.oh_mixed60 / staffing.oh_passport100 (supervisors), checklist i=14",
+      "current": "Only the 'personal care at least five days a week' coverage rule is listed. The 2 FTE (mixed) and 1 FTE (20-client owner-run) supervisor counts are not checked against it.",
+      "correct": "Rule 173-3-06.5(B)(3) also requires a back-up plan when no PCA is available. It requires a PCA supervisor to be available during ALL hours when PCAs are scheduled. It sets PCA initial qualifications: STNA, Medicare aide standards, 1 year of experience plus a competency evaluation, or at least 30 hours of training with competency evaluation. It also requires 6 hours of ODA-approved in-service every 12 months and licensure under ORC 3740 / OAC 3701-60.",
+      "evidence": "Rule: provider shall maintain \"The availability of a PCA supervisor during all hours when PCAs are scheduled to work.\"",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-173-3-06.5",
+      "fix": "Add an on-call or after-hours supervisor stipend or extra FTE so a supervisor is reachable whenever aides are scheduled. Add a back-up aide plan, which means paid standby capacity. Add the cost of pre-service 30-hour training or competency evaluation for non-STNA hires, and pay for that training time. Add the 6-hour in-service as paid wage hours (about 6 hrs × $16.57 per aide per year). The current 4% non-billable factor covers travel only."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden.benefits_pct / staffing.oh_passport100",
+      "current": "Benefits 3% of payroll. The 100-client PASSPORT model has about 6,240 aide hours per month plus 7 salaried staff, and no ACA employer-coverage cost.",
+      "correct": null,
+      "evidence": "Computed: 100 clients × 62.4 paid hours = 6,240 hrs/month. At 130 hrs/month per FTE that is 48 aide FTEs. Adding administrator, 3 supervisors and 3 schedulers gives about 55 FTEs, above the 50-FTE ACA applicable-large-employer threshold. This is my calculation, not a retrieved source.",
+      "source_url": "",
+      "fix": "For oh_passport100 at full census, add an ACA employer-mandate or health-coverage cost line, or document how the agency stays under 50 FTEs. Flag the 3% benefits estimate as unverified."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.* (aide rows) / payroll_burden",
+      "current": "No overtime premium and no aide mileage reimbursement. Non-billable time is limited to 4% for travel.",
+      "correct": null,
+      "evidence": "The ODA sheet itself carries separate overtime unit rates (HCAS PC OT $7.05 vs $4.70). Overtime is a real payer and employer cost. Opex has 'Supervisor mileage' only, and nothing for aide mileage between clients.",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/aging.ohio.gov/Effective-Rate-Sheet-January-2024.pdf",
+      "fix": "Add an overtime allowance (for example 3–5% of aide hours at 1.5×). Add aide mileage or travel reimbursement and the FLSA third-party-employer overtime obligation to the cost model. Mark both as operator estimates."
+    },
+    {
+      "severity": "major",
+      "json_path": "key_numbers[Medicaid new-enrollment moratorium], startup_costs[Medicaid provider enrollment], fees_and_timelines_in_checklist[4]",
+      "current": "Moratorium May 14 – Nov 14, 2026. Mixed and PASSPORT configs model Medicaid revenue and the $750 fee in the startup period.",
+      "correct": "The moratorium dates are verified. ODM states it has paused new Medicaid enrollment for Home Health, Hospice and related provider types. The page does not itself list personal care aide or home care attendant types in the text retrieved.",
+      "evidence": "ODM page: \"Enrollment Moratorium in Effect (May 14 – Nov 14, 2026)\". The provider-type list is in a linked PDF that was not read.",
+      "source_url": "https://medicaid.ohio.gov/home/odm-moratorium",
+      "fix": "Confirm the covered provider types from the linked ODM PDF. State explicitly that no new Medicaid enrollment, and so no Medicaid billing, can start before about Nov 14, 2026. Delay Medicaid ramp-up revenue in the mixed and PASSPORT models, or show a private-pay-only bridge period."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[6] (ODM Home Care Waiver S5125 $6.39), key_numbers[Ohio Home Care Waiver home care attendant]",
+      "current": "'Home care attendant (HCAS/N)... Personal care aide tasks are included in the unit rate.'",
+      "correct": "$6.39 is the HCAS/N (medication and nursing-task) unit rate. Personal care aide tasks are included in the unit rate only when billed under Table A (in lieu of continuous nursing). In Table B (intermittent nursing), personal-care-only HCAS/PC bills at $4.70 (OT $7.05) with modifier U8, and \"can only be rendered in conjunction with an HCAS/N service\".",
+      "evidence": "Rule 5160-46-06.1: \"There is no base rate for HCAS/PC. The HCAS/PC service can only be rendered in conjunction with an HCAS/N service.\"",
+      "source_url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/46/5160-46-06-1_20240101.pdf",
+      "fix": "Relabel the row as a nursing-task HCAS rate. It is outside non-medical scope. Do not use $6.39 for personal-care-only revenue. Add the $4.70 HCAS/PC rate with its condition."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[12], startup_costs[Notarized affidavit]",
+      "current": "'The application must include a notarized affidavit verifying the applicant's identity' ($25–$100 cost line, cite ORC 3740.03).",
+      "correct": "Under OAC 3701-60-03(B)(3)(f) the notarized attestation of identity applies \"If the applicant for licensure is a nonagency provider\". An agency (LLC) instead submits its written criminal records check policy, copies of Secretary of State filings, a services list with policies and procedures, and fingerprint impressions of the primary owner.",
+      "evidence": "OAC 3701-60-03(B)(3)(g): \"If the applicant for licensure is a home health agency, a copy of the home health agency's written criminal records check policy\".",
+      "source_url": "https://www.law.cornell.edu/regulations/ohio/Ohio-Admin-Code-3701-60-03",
+      "fix": "Make the affidavit task conditional on a nonagency provider. Add checklist tasks for drafting the written criminal records check policy and attaching the Secretary of State filed documents. Add a cost line for policy drafting if it is not covered by the policies manual."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[Caregivers].wage_hourly (16.57), wage_source_id S36",
+      "current": "Ohio median $16.57/hr cited as BLS OEWS May 2025 via CareSlink (secondary)",
+      "correct": null,
+      "evidence": "CareSlink lists Ohio at $34,460 / $16.57 and cites BLS OEWS May 2025. The national $17.21 / $35,800 is confirmed on the BLS OOH page. The Ohio figure was not confirmed on a bls.gov state page. $16.57 is well above the $11.00 minimum wage (confirmed by Ohio Commerce, eff. 1/1/2026).",
+      "source_url": "https://www.careslink.com/en/salary/home-health-aide",
+      "fix": "Unverifiable on a primary source. Replace the S36 citation with the BLS OEWS Ohio state page for SOC 31-1120 (May 2025). Keep $16.57 until it is confirmed. Note the median is the midpoint, not an entry wage, so entry hires may start near the 25th percentile."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[8..11], revenue_lines.oh_private*, key_numbers[Private-pay benchmark]",
+      "current": "$33/hr Ohio private-pay (CareYaya); $28/hr low case (Paying for Senior Care); national $34 aide / $33 homemaker",
+      "correct": null,
+      "evidence": "I did not retrieve the Genworth/CareScout PDF or the CareYaya and PayingForSeniorCare pages, so these figures were not checked. The model already notes they are secondary.",
+      "source_url": "https://assets.carescout.com/cd5022ca64/131168.pdf",
+      "fix": "Unverifiable. Replace with the Ohio figures from the CareScout 2024 state data, or with 5–10 local competitor quotes. These rates drive private-pay profitability."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[*].phone, regulators[*].email",
+      "current": "Phone and email are blank for every regulator",
+      "correct": "Some official contacts are available in fetched official documents. ODM Integrated Help Desk: 1-800-686-1516. ODA main line: 1-800-266-4346 (fax 614-466-5741, 30 E Broad St, 22nd Floor, Columbus OH 43215).",
+      "evidence": "ODM FAQ: \"contact the Integrated Help desk at 1-800-686- 1516.\" The ODA rate sheet header lists \"Main: 1-800-266-4346\".",
+      "source_url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/Enrollment%20and%20Support/Provider_Revalidation_-_FAQ_2026.pdf",
+      "fix": "Populate the ODM and ODA phone numbers above. Retrieve ODH Home Health Agency Licensure contact details from the ODH licensure page, because none were found. Keep the instruction to confirm in writing."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[License term, renewal fee and renewal timing], key_numbers[ODH processing guidance], fees_and_timelines_in_checklist[21,23,24]",
+      "current": "3-year term, $250 renewal, renewal filed at least 90 days before expiration, 14-day response, 10-day change notice, 60-day processing wait",
+      "correct": null,
+      "evidence": "Only the opening of OAC 3701-60-03 was returned (the page was truncated). It confirms the $250 non-refundable fee and the cashier's check or money order payee. The renewal, 14-day and 10-day provisions and the S6 60-day note were not seen.",
+      "source_url": "https://www.law.cornell.edu/regulations/ohio/Ohio-Admin-Code-3701-60-03",
+      "fix": "Unverifiable from the retrieved text. Re-read paragraphs (C)–(H) of OAC 3701-60-03 and the S6 PDF before relying on these deadlines. The $250 initial fee, the $20,000 nonmedical surety bond (ODH page, 5/29/2025), the fingerprint-card requirement and the $750 Medicaid fee for 2026 are confirmed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[PASSPORT provider certification application fee]",
+      "current": "$730 (CY2025, secondary source)",
+      "correct": null,
+      "evidence": "No official ODA source for the fee was retrieved. The model itself says the 2026 fee is unverified.",
+      "source_url": "https://www.help4seniors.org/service-providers/passport-assisted-living/prospective-provider-information/",
+      "fix": "Unverifiable. Confirm the current certification fee with ODA or the local Area Agency on Aging before budgeting."
+    }
+  ]
+}

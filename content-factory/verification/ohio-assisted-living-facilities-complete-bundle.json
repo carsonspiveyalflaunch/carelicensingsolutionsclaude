@@ -1,0 +1,89 @@
+{
+  "bundle_slug": "ohio-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 30,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "staffing.oh17_private[2].wage_hourly (also oh17_mixed[2], oh30_private[2], oh30_mixed[2], oh50_mixed[2])",
+      "current": 22.39,
+      "correct": "Licensed-nurse wage, roughly $30/hr or more (national LPN median $30.96/hr; RN $46.90/hr, BLS May 2025). The Ohio OEWS LPN figure was not retrieved.",
+      "evidence": "The $22.39 is verified as the Ohio 90th-percentile nursing-assistant wage ($46,570 / 2,080; O*NET/BLS 2025). It is not a nurse wage. BLS OOH: 'The median annual wage for licensed practical and licensed vocational nurses was $64,400 in May 2025.' OAC 3701-16-05(F) says a facility that administers medication must have an RN, an LPN with an approved medication course, or another listed person on duty to administer it.",
+      "source_url": "https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm",
+      "fix": "Replace the proxy with the Ohio OEWS May 2025 wage for LPNs (SOC 29-2061). Use the RN wage (SOC 29-1141) if the lead is an RN. Expect an understatement of about $7–8/hr or more on 243–730 hrs/month. The Ohio-specific value is unverifiable from the fetched sources. Re-run the profit model."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.oh17_private[2].amount (also oh17_mixed[2]; oh30_*[2] at 486.7 hrs)",
+      "current": "Medication-qualified lead covers 8 hrs/day (17 beds) and 16 hrs/day (30 beds) only; the notes assume the facility administers medication.",
+      "correct": "Coverage must match every medication pass, including evening and bedtime, unless the facility does not administer medication.",
+      "evidence": "OAC 3701-16-05(F): a facility that elects to administer medication must have one of the listed individuals 'on duty to administer medications' and remain on duty long enough to observe medication acceptance and reaction. The first two listed are an RN and an LPN with an approved medication course. The rest of paragraph (F) was cut off in the fetched page, so who else is authorized is unverified.",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-05",
+      "fix": "Either (a) schedule an authorized medication administrator for all medication-pass times, or (b) state in the model that residents self-administer and the facility does not administer. Verify (F)(3)-(5) before assuming that nursing-assistant-wage care staff are authorized to administer medication."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.oh17_private[0] (also oh17_mixed[0], oh30_*[0]); opex (missing line)",
+      "current": "1 awake staff overnight with no designated backup. The notes say only that the person on site may be on call if the call system requirements are met.",
+      "correct": "When only one staff person is on duty, the facility must designate another qualified staff member to be on call. Staff must also be present to evacuate nonambulatory residents at all times.",
+      "evidence": "OAC 3701-16-05(C)(1): 'When only one staff person is on duty in the facility, the residential care facility is obligated to designate another staff member who meets the same qualifications to be on call'. OAC 3701-16-05(C)(2)(c): staff needed to implement the evacuation plan must be present at all times.",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701-16-05",
+      "fix": "Add an on-call stipend line or a second overnight staff member for the 17-bed configurations (about 15 residents, 1 overnight). Confirm that the written evacuation plan can be carried out with the overnight headcount. The 30- and 50-bed overnight headcount is not stated, so check it too."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.*[3].wage_hourly (cook / housekeeping / activities, $16.57); fees_and_timelines_in_checklist[i=17]",
+      "current": "$16.57/hr, Columbus 'food preparation and serving related', May 2024 (used for cook, housekeeping, activities and maintenance). Also $18.49 healthcare support (May 2024).",
+      "correct": "A May 2025 OEWS wage for the actual occupations (cooks, maids and housekeepers, maintenance, activities). BLS has published May 2025 metro releases, for example Cleveland and Cincinnati. The May 2025 Columbus values were not retrievable here.",
+      "evidence": "The cited figures are from the May 2024 release: 'food preparation and serving related ($16.57)… healthcare support ($18.49)'. The request requires BLS OEWS May 2025. A food-service major-group mean is not a housekeeping or maintenance wage.",
+      "source_url": "https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_columbusoh.htm",
+      "fix": "Replace with Ohio statewide or Columbus OEWS May 2025 wages by SOC code (35-2014 cooks, 37-2012 maids/housekeepers, 49-9071 maintenance, 39-9031 or similar for activities). The current values are stale. The new values are unverifiable from the fetched sources. The wage still exceeds the $11.00 state minimum."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[Inspection cycle].value",
+      "current": "At least one unannounced ODH survey per 9–15 month cycle",
+      "correct": "ODH inspects at least once every 15 months. For an RCF with a clean record, the director may extend this to once every 30 months. The fire marshal inspects at least every 15 months.",
+      "evidence": "ORC 3721.02(B)(3)(a): 'By the director at least once every fifteen months, except that a home that is a residential care facility… may, at the discretion of the director, be inspected at least once every thirty months'. The statute has no 9-month floor. The 9–15 month figure was not found in the statute.",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-3721.02",
+      "fix": "Change to 'ODH survey at least every 15 months (up to 30 months at the director's discretion for RCFs with no substantiated violations); fire marshal at least every 15 months.' Drop '9–15 month' unless the ODH page S1 supports it, which was not verified."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[RCF definition].value",
+      "current": "Accommodations for 3 or more unrelated individuals with supervision and personal care for at least 3 of them",
+      "correct": "A two-prong definition: 17 or more unrelated individuals with personal care for at least 3, or 3 or more with personal care for at least 3 plus skilled nursing for at least 1. Homes of 3–16 adults without skilled nursing fall under a different licensing track.",
+      "evidence": "ORC 3721.02(A) describes a separate 'residential facility' licensed under 5119.34 for three to sixteen unrelated adults. The model's own checklist item 0 states the two-prong structure, which contradicts the key_numbers entry. The full text of OAC 3701-16-01 was cut off in the fetch, so the RCF paragraph itself was not verified.",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-3721.02",
+      "fix": "Rewrite the key_numbers entry to match checklist item 0 (the 17-bed prong plus the 3+ with skilled-care prong). Cite ORC 3721.01 as well as OAC 3701-16-01."
+    },
+    {
+      "severity": "minor",
+      "json_path": "revenue_lines.*[Assisted Living Waiver bundled services].rate; rates[2], rates[3]",
+      "current": "$130/day base and $155/day memory care",
+      "correct": "unverifiable for 2026",
+      "evidence": "LeadingAge Ohio confirms that the rates set effective January 1, 2024 are a 'base tier at $130 per day and a memory care tier at $155 per day'. OAC 5160-33-07(D) says the unit rate follows a three-tiered model and 'shall not exceed' appendix A of 5160-1-06.5. Appendix A for 2026 was not retrieved.",
+      "source_url": "https://www.leadingageohio.org/aws/LAO/pt/sd/news_article/534776/_PARENT/layout_details/false",
+      "fix": "Confirm the current base-tier per-diem in appendix A of OAC 5160-1-06.5 before relying on waiver revenue. Keep the 'unverified' flag on the net-income figures in checklist item 2."
+    },
+    {
+      "severity": "minor",
+      "json_path": "revenue_lines.*[Private-pay monthly fee].rate; rates[0]; key_numbers[Private-pay benchmark]",
+      "current": "$5,500/month (CareScout 2024) described as 'the primary-source benchmark'",
+      "correct": "CareScout 2025 (released March 2026) reports a median of about $6,102/month ($73,230/yr) for Ohio.",
+      "evidence": "Brevy: 'The most rigorous current source is the CareScout (Genworth) 2025 Cost of Care Survey, released in March 2026'. Brevy reports the Ohio median as '$6,102 a month, roughly $73,230 a year'. $73,230 / 12 = $6,102.5. I could not open the CareScout PDF, so the $66,000 figure was not verified directly.",
+      "source_url": "https://brevy.com/medicaid/ohio/assisted-living-waiver",
+      "fix": "Say that a newer CareScout 2025 survey exists. Verify $66,000 (2024) and $73,230 (2025) against the CareScout PDFs. Keep $5,500 as a conservative figure for shared rooms, but do not call the 2024 figure the latest primary benchmark."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[General & professional liability insurance] and startup_costs (missing line)",
+      "current": "Insurance modeled at $80 per resident per month. No separate lines for unavoidable compliance costs: backup on-call pay, evacuation-staffing, annual resident-rights training, or dietitian training for therapeutic diets.",
+      "correct": "Add allowances for each item.",
+      "evidence": "OAC 3701-16-06(K) requires annual staff training on resident rights. OAC 3701-16-06(F) requires dietitian training before staff provide therapeutic diets. OAC 3701-16-06(I) bars a new hire from staying alone with residents until orientation and fire/evacuation training are done, so the hire's first days must be paid and overlapped with a trained staff member.",
+      "source_url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/3701/0/16/3701-16-06_20240712.pdf",
+      "fix": "Add (1) an on-call/backup stipend; (2) paid orientation overlap hours for each new hire; (3) annual rights and fire/evacuation training time; (4) a dietitian consult fee if therapeutic diets are offered. Increase the training line (currently $200/month) if turnover is high."
+    }
+  ]
+}

@@ -1,0 +1,2361 @@
+{
+  "bundle_slug": "north-carolina-assisted-living-facilities-complete-bundle",
+  "state": "North Carolina",
+  "state_code": "NC",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Adult Care Home (ACH, 7+ beds, 10A NCAC 13F) and Family Care Home (FCH, 2–6 beds, 10A NCAC 13G), licensed by NC DHHS Division of Health Service Regulation, Adult Care Licensure Section under G.S. Chapter 131D; Certificate of Need required for new ACH beds; State/County Special Assistance and Medicaid personal care services",
+  "as_of": "2026-10",
+  "report_title": "North Carolina Adult Care Homes & Family Care Homes (Assisted Living) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "NC DHSR ACLS: License an Adult Care Home",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/floadult.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "NC DHSR ACLS: License a Family Care Home (2-6 Beds)",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/flofch.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "10A NCAC 13F Adult Care Homes (.0204, .0206, .0207, .0208)",
+      "publisher": "NC Office of Administrative Hearings (NC Administrative Code)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "10A NCAC 13G Family Care Homes",
+      "publisher": "NC Office of Administrative Hearings (NC Administrative Code)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20g/subchapter%20g%20rules.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "10A NCAC 13G .0206 Capacity",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/rules/2024/AdultCareHomeFamilyCareHomeRules/nov/10A_NCAC_13G_.0206.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "Change Licensure Application Packet, Family Care Home (quotes G.S. 131D-2.5 fees)",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/pdf/fcchgapp.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "Initial Application for Adult Care Home DHSR/AC 4603 (Rev. 06/23)",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/pdf/acinitapp.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "ACLS: Assisted Living Administrator Certification Requirements and Guidelines",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/adminguidelines.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "Staffing of Licensed Adult Care Homes (ACLS Joint Training, May 2025)",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/DHSR/acls/training/pdf/1068/2025/ACLS_Joint_Training_May_2025_Staffing_of_Licensed_Adult_Care_Homes.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "ACLS Forms and Applications (administrator testing change; test-site mirror)",
+      "publisher": "NC DHHS Division of Health Service Regulation (test.ncdhhs.gov)",
+      "url": "https://test.ncdhhs.gov/dhsr/acls/acforms.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "ACLS: Facility Licensure Information",
+      "publisher": "NC DHHS Division of Health Service Regulation, Adult Care Licensure Section",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/licenseinfo.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "10A NCAC 13F Licensing of Adult Care Homes (CPR/choking training)",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/rules/achfch2024.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "Adult Care Licensure Section home page",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/index.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "ACLS: Overview of Adult Care Home Regulation in NC",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/overview.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "ACLS: Announcements",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/acannouncement.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "NC DHHS: Adult Care Homes",
+      "publisher": "NC Department of Health and Human Services",
+      "url": "https://www.ncdhhs.gov/divisions/aging-and-adult-services/adult-care-homes",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "NC DHSR: Licensed Facilities listings (ACH and FCH, updated 07/30/2026)",
+      "publisher": "NC DHHS Division of Health Service Regulation",
+      "url": "https://info.ncdhhs.gov/dhsr/reports.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "North Carolina 2026 State Medical Facilities Plan",
+      "publisher": "NC DHHS DHSR Healthcare Planning and CON Section",
+      "url": "https://info.ncdhhs.gov/dhsr/ncsmfp/2026/02_2026%20SMFP_post.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "What NC Can Expect from the 2026 State Medical Facilities Plan",
+      "publisher": "Ascendient (consultancy blog)",
+      "url": "https://www.ascendient.com/higher-thinking/what-nc-can-expect-from-the-2026-state-medical-facilities-plan",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Certificate of need filed to develop new adult care home in Wilmington",
+      "publisher": "WECT",
+      "url": "https://www.wect.com/2026/03/06/certificate-need-filed-develop-new-adult-care-home-wilmington/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "G.S. Chapter 131D (incl. G.S. 131D-6.1 respite care)",
+      "publisher": "NC General Assembly",
+      "url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_131d.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Senate Bill 863 — Streamline Adult Care Home Inspections (text dated 2026-04-29)",
+      "publisher": "NC General Assembly",
+      "url": "https://library.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S863v1.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "Updates to Rate Increase for Personal Care Services and CAP (2026-08-04)",
+      "publisher": "NC Medicaid, Division of Health Benefits",
+      "url": "https://medicaid.ncdhhs.gov/blog/2026/08/04/updates-rate-increase-personal-care-services-and-community-alternatives-program",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Rate Increases for Personal Care Services (PCS)",
+      "publisher": "Alliance Health (NC Medicaid managed care plan)",
+      "url": "https://www.alliancehealthplan.org/provider-updates/rate-increases-for-personal-care-services-pcs/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Frequently Asked Electronic Visit Verification (EVV) Questions",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/evv-frequently-asked-questions/download?attachment=",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Electronic Visit Verification for NC Medicaid-Funded PCS and Home Health",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/blog/2024/01/29/electronic-visit-verification-nc-medicaid-funded-personal-care-services-and-home-health-services",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "North Carolina Electronic Visit Verification (vendor summary)",
+      "publisher": "Alora Health",
+      "url": "https://www.alorahealth.com/north-carolina-electronic-visit-verification/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "North Carolina EVV Software (Sandata aggregator)",
+      "publisher": "CareSmartz360 (vendor)",
+      "url": "https://www.caresmartz360.com/electronic-visit-verification/north-carolina/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "State/County Special Assistance Manual and policy update EFS-SA-CN-01-2026",
+      "publisher": "NC DHHS Division of Social Services",
+      "url": "https://policies.ncdhhs.gov/wp-content/uploads/EFS-SA-CN-01-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "SA Adult Care Home Special Care Unit brochure (2026)",
+      "publisher": "NC DHHS",
+      "url": "https://ncdhhs.gov/2026-sascu-brochure/download?attachment=",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "Special Assistance In-Home brochure (2026)",
+      "publisher": "NC DHHS Division of Social Services",
+      "url": "https://ncdhhs.gov/2026-saih-brochure/download?attachment=",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "State/County Special Assistance Manual (rev. June 2026)",
+      "publisher": "NC DHHS",
+      "url": "https://policies.ncdhhs.gov/wp-content/uploads/Special-Assistance-Manual-Rev-June-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "State and County Special Assistance for Adult Care Home Residents",
+      "publisher": "NC DHHS",
+      "url": "https://www.ncdhhs.gov/divisions/social-services/special-assistance/state-and-county-special-assistance-adult-care-home-residents",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Special Assistance In-Home Program Manual (rev. June 2026)",
+      "publisher": "NC DHHS Division of Social Services",
+      "url": "https://policies.ncdhhs.gov/wp-content/uploads/Special-Assistance-In-Home-Program-Manual-Rev-June-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "Assisted Living in North Carolina",
+      "publisher": "Mirador Living (consumer site citing NCDHHS manuals)",
+      "url": "https://www.miradorliving.com/assisted-living/north-carolina",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "NC Medicaid's CAP/DA (Community Alternatives Program for Disabled Adults)",
+      "publisher": "Medicaid Planning Assistance",
+      "url": "https://www.medicaidplanningassistance.org/north-carolina-cap-da/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Community Alternatives Program for Disabled Adults (CAP/DA) policy",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/3k-2-community-alternatives-program-disabled-adults-capda/download?attachment=",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Waitlist for the NC Medicaid CAP/DA Program",
+      "publisher": "NC Medicaid (NCDHHS)",
+      "url": "https://medicaid.ncdhhs.gov/blog/2024/03/05/waitlist-nc-medicaid-community-alternatives-program-disabled-adults-program",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "On the NC Medicaid CAP/DA Waitlist? 7 Ways to Get Home Care While You Wait",
+      "publisher": "Carolina Home Health Care (agency blog)",
+      "url": "https://www.carolinahomehealthcare.com/blog-nc-medicaid-capda-waitlist-alternatives",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "Provider Enrollment Application Fee Amount for Calendar Year 2026",
+      "publisher": "Federal Register (CMS)",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21877/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "Provider Re-credentialing/Re-verification ($100 NC application fee)",
+      "publisher": "NCTracks (NC Medicaid enrollment)",
+      "url": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Provider Enrollment",
+      "publisher": "NC Medicaid",
+      "url": "https://medicaid.ncdhhs.gov/provider-enrollment",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "NC Medicaid Provider Enrollment: 2026 NCTracks Guide & Fees",
+      "publisher": "MedSole (vendor)",
+      "url": "https://medsolercm.com/blog/nc-medicaid-provider-enrollment",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Cost of Senior Care in North Carolina (2026), citing CareScout 2025",
+      "publisher": "Brevy",
+      "url": "https://brevy.com/care-types/north-carolina/cost-of-senior-care",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "Understanding the Cost of Care in 2026 (national AL median, CareScout 2025)",
+      "publisher": "Buddy Insurance",
+      "url": "https://buddyins.com/learning-center/planning/understanding-the-cost-of-care-in-2022",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "The Cost of Senior Care in North Carolina (Genworth 2024 figure)",
+      "publisher": "ElderLife Financial",
+      "url": "https://www.elderlifefinancial.com/cost-of-care/cost-of-senior-care-north-carolina/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Adult Care Facilities (cost reporting)",
+      "publisher": "NC DHHS Office of the Controller",
+      "url": "https://www.ncdhhs.gov/about/administrative-offices/office-controller/adult-care-facilities",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "Employer Tax FAQs (2026 UI rates and wage base)",
+      "publisher": "NC Division of Employment Security",
+      "url": "https://www.des.nc.gov/need-help/faqs/employer-tax-faqs",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "North Carolina Minimum Wage 2026: $7.25 Per Hour Explained",
+      "publisher": "Recording Law (cites NCDOL)",
+      "url": "https://www.recordinglaw.com/us-laws/minimum-wage/north-carolina-minimum-wage/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "North Carolina Wage & Overtime Law 2026",
+      "publisher": "Teamed",
+      "url": "https://www.teamed.global/country-hiring-guides/united-states/north-carolina/wage-overtime-and-meal-break-law",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "North Carolina LLC Costs (Aug. 2026)",
+      "publisher": "Bizreport",
+      "url": "https://www.bizreport.com/llc-cost-north-carolina",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "North Carolina LLC Annual Report: April 15 Deadline",
+      "publisher": "Ezel (cites NC Secretary of State)",
+      "url": "https://ezel.ai/surveys/llc-annual-report-requirements/north-carolina",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S53",
+      "title": "North Carolina LLC Annual Report Fee & Due Date",
+      "publisher": "State Business Compliance (cites sosnc.gov)",
+      "url": "https://www.statebusinesscompliance.com/blog/north-carolina-llc-annual-report-2026",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S54",
+      "title": "Workers' Compensation Insurance in NC: Who Needs It, 2026 Rates",
+      "publisher": "Settlement Insight",
+      "url": "https://settlementinsight.com/north-carolina-workers-compensation-insurance",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S55",
+      "title": "Circular Letter C-25-11 Workers Comp Loss Cost Filing (eff. 4-1-26)",
+      "publisher": "North Carolina Rate Bureau",
+      "url": "https://www.ncrb.org/Portals/0/ncrb/circular%20letters/workers%20comp/2025/C-25-11%20WC%20Loss%20Cost%20Filing%20Approved%20Effective%204-1-26%20.pdf?ver=3_Clo9FcZU2IzRZh7hm0EA%3D%3D",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S56",
+      "title": "North Carolina Rate Bureau (news list, Circular C-26-9)",
+      "publisher": "North Carolina Rate Bureau",
+      "url": "https://www.ncrb.org/ncrb",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S57",
+      "title": "Occupational Employment and Wages in Raleigh-Cary, NC — May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/southeast/news-release/occupationalemploymentandwages_raleigh.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S58",
+      "title": "LMI Tuesday: Wages in North Carolina, May 2025",
+      "publisher": "NC Department of Commerce (citing BLS OEWS)",
+      "url": "https://www.commerce.nc.gov/lmi-tuesday-july-7-2026/download?attachment=",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S59",
+      "title": "CNA salary 2026 (NC median, BLS OEWS SOC 31-1131)",
+      "publisher": "NursingSchoolsNearMe",
+      "url": "https://nursingschoolsnearme.com/cna-salary/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S60",
+      "title": "LPN Salary in North Carolina (May 2025 BLS)",
+      "publisher": "RenewRN",
+      "url": "https://www.renewrn.net/lpn-salary/north-carolina",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S61",
+      "title": "North Carolina Payroll: Employer Tax Guide (E-Verify threshold)",
+      "publisher": "FirstHR",
+      "url": "https://firsthr.app/compare/payroll/north-carolina-payroll",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S62",
+      "title": "Insights Into Aging in North Carolina: Population Estimates and Projections",
+      "publisher": "NC DHHS Division of Aging and Adult Services",
+      "url": "https://www.ncdhhs.gov/2025-insights-aging-nc-0/open",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S63",
+      "title": "Progress Report on NC's Multisector Plan for Aging",
+      "publisher": "NC DHHS",
+      "url": "https://www.ncdhhs.gov/all-ages-all-stages-nc-progress-report-governor/open",
+      "type": "official",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License categories and size",
+      "value": "Adult care home (ACH) = 7+ residents, licensed under 10A NCAC 13F; family care home (FCH) = 2–6 residents, licensed under 10A NCAC 13G; both under G.S. Chapter 131D [S1][S2][S5]",
+      "source_id": "S3",
+      "as_of": "13F .0206 amended eff. 2025-04-01"
+    },
+    {
+      "metric": "Certificate of Need (new ACH beds)",
+      "value": "No new adult care home beds may be developed without a CON. Applications are accepted only for counties with a scheduled review. DHSR decides within 150 days of the start of the review period. CON must be satisfied before the license application [S1][S3]. Whether CON applies to 2–6 bed family care homes was not verified.",
+      "source_id": "S1",
+      "as_of": "page undated, fetched 2026-10-14"
+    },
+    {
+      "metric": "Initial license fee — adult care home (7+)",
+      "value": "DHSR licensing page: $400 non-refundable + $19 per bed, paid with the application [S1][S7]. This conflicts with the G.S. 131D-2.5 schedule on DHSR forms ($360 + $17.50 per bed annual) [S6]. Unresolved; the model should use the higher DHSR-page figure.",
+      "source_id": "S1",
+      "as_of": "page undated, fetched 2026-10-14"
+    },
+    {
+      "metric": "Annual renewal fee",
+      "value": "ACH: $360 + $17.50 per bed, invoiced by ACLS [S1]. FCH: $315 [S2][S6]. FCH initial licensure fee: $350 [S2].",
+      "source_id": "S1",
+      "as_of": "ACH page undated; FCH page modified 2025-11-20"
+    },
+    {
+      "metric": "Initial license term",
+      "value": "Initial licenses are issued for 6 months, then ACLS must survey. For FCHs the survey occurs about 4 months after the initial license [S1][S2]. ACLS notifies the applicant and county DSS of its decision within 14 days [S3].",
+      "source_id": "S1",
+      "as_of": "page undated, fetched 2026-10-14"
+    },
+    {
+      "metric": "Administrator certification (ACH)",
+      "value": "Age 21+; 120-hour Administrator-in-Training (min. 20 hrs coursework + 100 hrs on-the-job); exam fee $50; $30 renewal; 30 CE hrs every 2 years after first renewal. SBI check $14, or $38 with FBI [S8]. FCH administrator approval has no renewal fee [S8].",
+      "source_id": "S8",
+      "as_of": "page undated, fetched 2026-10-14"
+    },
+    {
+      "metric": "Key staffing thresholds",
+      "value": "7–20 residents: at least one designated staff per shift for personal care and supervision; 7–12 residents: administrator or manager on site or within 500 ft with two-way communication; 21–40 residents: 16 aide hours on shifts 1 and 2; 31+: Personal Care Aide Supervisor; 81+: administrator on duty 8 hrs/day, 5 days/week [S9]. Staff with CPR/choking training within 24 months must be on premises at all times [S12].",
+      "source_id": "S9",
+      "as_of": "released May 2025; manager rules eff. 2024-09-01"
+    },
+    {
+      "metric": "State/County Special Assistance room-and-board maximum",
+      "value": "Special care unit (dementia): $1,792/month; Enhanced Maintenance $1,862 including the $70 personal needs allowance [S29][S30]. Regular ACH: $1,397/month per a secondary guide [S35]; the official SA-In-Home basic rate is also $1,397 [S31]. Funded 50% state / 50% county [S32]. SA recipients are automatically Medicaid-eligible [S32].",
+      "source_id": "S30",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Medicaid State Plan PCS rate (HCPCS 99509, HA/HB)",
+      "value": "$7.03 per unit, up from $5.96 (+18%), effective 2026-08-01. Funded by $70.8M recurring state funds in S.L. 2026-41 / SB 257 §9E.15. Whether ACHs bill this code is unverified [S23].",
+      "source_id": "S23",
+      "as_of": "2026-08-04"
+    },
+    {
+      "metric": "Private-pay assisted living benchmark (NC median)",
+      "value": "$6,496/month ($77,955/yr) per CareScout 2025 (provider-reported, collected Jul–Nov 2025, published Mar 2026), secondary summary. National median $6,200/month [S44][S45]. Older Genworth 2024 NC figure of $5,769 is not comparable [S46].",
+      "source_id": "S44",
+      "as_of": "CareScout 2025"
+    },
+    {
+      "metric": "Provider count",
+      "value": "More than 1,200 adult care homes in North Carolina. DHSR publishes separate ACH and FCH listings, updated 07/30/2026 [S16][S17]. The count of family care homes and of licensed beds was not extracted.",
+      "source_id": "S16",
+      "as_of": "page fetched 2026-10-14"
+    },
+    {
+      "metric": "Older-adult population (demand)",
+      "value": "65+: 2,038,854 (18%) in 2025, projected 2,996,376 (21%) in 2050 (+47%). 85+: 186,398 in 2025, projected 509,848 in 2050 (+174%). About 211,000 people 65+ projected to live with Alzheimer's in 2025 [S62].",
+      "source_id": "S62",
+      "as_of": "2025 base; projection to 2050"
+    }
+  ],
+  "not_claimed": [
+    "Which initial fee governs a new 7+ bed adult care home — $400 + $19/bed (DHSR licensing page) or the G.S. 131D-2.5 schedule — is unresolved. G.S. 131D-2.5 was not read directly on ncleg.gov, so the model uses the DHSR page figure and the checklist tells operators to confirm the invoice with ACLS.",
+    "Construction plan-review fee amount — DHSR invoices it and the amount is not stated on the pages reviewed. No project is reviewed until the invoice is paid [S1].",
+    "Certificate of Need application fee and the 2026/2027 review schedule. The Final 2026 SMFP adult care bed need by county was not retrieved; a secondary source says the Proposed 2026 SMFP listed need only in Halifax and Perquimans counties [S19]. This is a proposed-plan statement, not a final need number.",
+    "Whether CON applies to 2–6 bed family care homes — sources reviewed cover adult care home beds only. Family care home zoning approval is verified; CON for FCHs is not.",
+    "Insurance or bond requirements for ACHs and FCHs — none found in the DHSR pages or rules reviewed. Any premium in the model is an operator estimate (verify locally).",
+    "Family care home administrator requirements are verified: high school diploma/GED, a State-approved 120-hour AIT program, the Administrator Exam, age 21+ and an SBI (and FBI if applicable) check. The AIT program cost and the background-check rules for owners, principals and affiliates were not verified.",
+    "Local zoning and siting rules (distance, density, use classification) beyond the requirement for local zoning approval, and city/county business-license fees in Charlotte, Raleigh or Greensboro.",
+    "Statewide licensed ACH bed totals in 2026, occupancy rates, and counts of licensed ACHs/FCHs by name, county or bed count. The XLSX listings exist [S17] but were not parsed. A 2010-era bed figure was seen and is outdated, so it is not used.",
+    "Competitor names, market shares, and referral-source shares (hospital discharge, DSS, family) for ACHs — no public source found.",
+    "Special Assistance caseload counts for ACH residents, and any waitlist counts for SA, ACH admission or FCH placement — none found in official sources. A consumer guide says SA In-Home has had no waitlist since the 2021 slot-cap removal [S35]; this is not verified on a primary page.",
+    "The regular-ACH SA room-and-board maximum of $1,397 comes from a secondary guide [S35]. It matches the official SA-In-Home basic rate [S31], which the SA-In-Home manual caps at 100% of the SA facility payment [S34]. The ACH-specific official table was not retrieved.",
+    "How Medicaid personal care services are billed for ACH residents (separate code, modifier or per-diem arrangement), PCS utilization in ACHs, and the fee-for-service vs managed-care routing — not confirmed. The 99509 HA/HB rate in this report is the published State Plan PCS rate [S23], not a verified ACH billing rate.",
+    "The October 2026 'Medicaid Rates Revised FY27' bulletin and the Innovations waiver unit-rate change — contents not verified.",
+    "EVV applicability to ACHs: NC Medicaid's EVV scope is in-home PCS [S25]. The statement that ACHs are exempt comes only from a vendor page [S27] and is unconfirmed on NC Medicaid pages.",
+    "Official NC Medicaid enrollment fee by provider type and the 'lite' vs full enrollment option — only a vendor source was found [S43]. The $100 NC application fee [S41][S42] and the federal CY2026 $750 institutional fee [S40] are verified; which apply to an ACH depends on provider type and was not confirmed.",
+    "NC Medicaid managed-care (Standard/Tailored Plan) negotiated rates — no public fee schedule for ACH services. The PCS increase must be loaded by plans within 45 days and claims reprocessed within 30 days after that [S23].",
+    "CAP/DA income limit (sources conflict) and the 2026 CAP/DA slot count after the October 31, 2024 renewal. CAP/DA participants cannot live in an ACH or FCH [S36], so the waiver is not an ACH payer. A secondary agency source reports all 11,648 slots filled [S39].",
+    "Number of residents with intellectual or developmental disabilities living in ACHs or FCHs.",
+    "BLS OEWS May 2025 NC state-level medians for RN, administrators/managers, cooks and aides — the BLS NC state page was not fetched. Only Raleigh metro group means [S57], the NC all-occupation median [S58], and secondary-site CNA ($18.49/hr) [S59] and LPN ($63,270/yr) [S60] values were found. Wage lines must be labeled accordingly or marked operator estimate.",
+    "HUD FY2026 Fair Market Rents for any NC metro and commercial rent benchmarks for adult care home space — not retrieved, so building cost is an operator estimate.",
+    "Workers' compensation class-code rate for adult care homes under NCRB 2026 rates — not retrieved; 3+ employee threshold and loss-cost direction (−7.8% average, 4/1/2026 filing) are secondary/official context only [S54][S55].",
+    "NC franchise tax applicability to LLCs and any NC entity-level tax — not verified. LLC formation ($125) and annual report ($200 paper / $203 online) figures come from secondary sites citing the Secretary of State [S51][S52][S53].",
+    "Production-site confirmation of the 2026-09-25 administrator exam change (online testing only) — the cited page is on a test subdomain [S10].",
+    "Enactment status of Senate Bill 863 (streamline ACH inspections) [S22] and any 2026 readoption of 10A NCAC 13F/13G physical-plant rules.",
+    "Whether a statutory minimum resident-to-staff ratio applies to a 7–12 bed ACH beyond the verified 'one designated staff per shift' and awake-staff rules for wandering/disoriented residents [S9]. The staffing rule section numbers were not captured; model staffing must be labeled operator estimate beyond those rules.",
+    "Several quotes come from search-result excerpts rather than full-page fetches; wording should be rechecked on live pages before publication.",
+    "A sourced NC wage for a certified ACH administrator. The model uses the $47,970 all-occupation median as a placeholder owner's draw. The same Commerce deck shows a Management Occupations median of $124,390, and an NC OEWS figure for a comparable occupation (for example 11-9111) was not retrieved, so ACH profit may be overstated. No payroll burden is applied to the administrator.",
+    "Who covers the Administrator/Manager requirement for the roughly 128 weekly hours outside a 40-hour administrator under 10A NCAC 13F .0602/.0606. The model assumes every 24/7 aide meets Manager qualifications, and no Manager wage premium or CE cost is priced. Cook and housekeeping coverage for 7-day food service and daily housekeeping by non-care staff is also unverified, and the 12-bed hours may need weekend or relief additions.",
+    "The $6,496 NC private-pay median is a secondary-site figure that could not be checked against primary CareScout data. A competing consumer source shows an NC average near $4,586/month, and Genworth 2024 shows $5,769. All private-pay results, break-even figures and net $/month claims inherit this uncertainty, so a sensitivity case at $4,586–$5,769 is recommended.",
+    "Raleigh-Cary metro group means for cook ($16.61), housekeeping ($18.92) and activities ($19.29) could not be re-verified (BLS page not retrievable) and are not statewide occupation medians. Statewide OEWS figures for SOC 35-2012, 37-2012 and the activities occupation were not retrieved.",
+    "Medicaid PCS revenue per SA resident in an ACH is not modeled. SA residents are automatically Medicaid-eligible and Medicaid helps pay for personal care in an adult care home, so conclusions that SA-heavy mixes lose money apply only to the no-PCS case. Also not verified: the NC UI rate and wage base (DES page not re-fetched), FUTA (not in payroll tax), NC franchise tax, staff TB screening cost, and the 45–60 day SA eligibility lag in working capital."
+  ],
+  "regulators": [
+    {
+      "name": "NC DHHS Division of Health Service Regulation — Adult Care Licensure Section (ACLS)",
+      "role": "Licenses adult care homes (7+ beds) and family care homes (2–6 beds); initial and renewal surveys; administrator certification and testing",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/index.html",
+      "phone": "919-855-3765",
+      "email": "DHSR.AdultCare.Questions@dhhs.nc.gov",
+      "source_id": "S1"
+    },
+    {
+      "name": "NC DHSR Certificate of Need (CON) Section",
+      "role": "Reviews and decides CON applications for new adult care home beds (decision within 150 days of the review period start)",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/floadult.html",
+      "phone": "919-855-3873",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "NC DHSR Construction Section",
+      "role": "Construction plan review for new or renovated adult care homes; review fee invoiced and must be paid before review",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/floadult.html",
+      "phone": "919-855-3893",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "County Department of Social Services — Adult Home Specialist",
+      "role": "Entry point for family care home licensing (zoning verification, packet submission with the $350 fee); monitors adult care facilities at least quarterly with DHSR; administers Special Assistance eligibility",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/flofch.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S2"
+    },
+    {
+      "name": "N.C. Medical Care Commission",
+      "role": "Holds rulemaking authority for adult care home rules (10A NCAC 13F/13G)",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/floadult.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S1"
+    },
+    {
+      "name": "NC DHHS Division of Social Services",
+      "role": "State/County Special Assistance program policy (room-and-board payments in ACHs and FCHs)",
+      "url": "https://www.ncdhhs.gov/divisions/social-services/special-assistance/state-and-county-special-assistance-adult-care-home-residents",
+      "phone": "",
+      "email": "",
+      "source_id": "S33"
+    },
+    {
+      "name": "NC Medicaid, Division of Health Benefits",
+      "role": "Medicaid personal care services rates and policy; provider enrollment; EVV",
+      "url": "https://medicaid.ncdhhs.gov/provider-enrollment",
+      "phone": "",
+      "email": "",
+      "source_id": "S42"
+    },
+    {
+      "name": "NCTracks (NC Medicaid enrollment portal)",
+      "role": "Medicaid provider enrollment, re-enrollment and revalidation; $100 NC application fee",
+      "url": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html",
+      "phone": "",
+      "email": "",
+      "source_id": "S41"
+    },
+    {
+      "name": "NC DHHS Office of the Controller — Adult Care Facilities",
+      "role": "Adult Care Cost Report for Special Assistance and exempt facilities (next due 2027-09-30); AUP no longer required for 7+ bed facilities beginning on or after 2026-07-01",
+      "url": "https://www.ncdhhs.gov/about/administrative-offices/office-controller/adult-care-facilities",
+      "phone": "",
+      "email": "",
+      "source_id": "S47"
+    },
+    {
+      "name": "NC Division of Employment Security (DES)",
+      "role": "Unemployment insurance tax registration and rates",
+      "url": "https://www.des.nc.gov/need-help/faqs/employer-tax-faqs",
+      "phone": "",
+      "email": "",
+      "source_id": "S48"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "N.C.G.S. Chapter 131D",
+      "title": "Inspection and Licensing of Facilities (adult care homes and family care homes)",
+      "url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_131d.html",
+      "source_id": "S21"
+    },
+    {
+      "cite": "N.C.G.S. §131D-2.5 (as quoted on DHSR forms)",
+      "title": "Annual license fees: $315 for homes with 6 or fewer beds; $360 + $17.50 per bed for more than 6 beds",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/pdf/fcchgapp.pdf",
+      "source_id": "S6"
+    },
+    {
+      "cite": "N.C.G.S. §131D-6.1",
+      "title": "Respite care in adult care homes and family care homes — Medical Care Commission directed to amend rules (eff. July 1, 2026)",
+      "url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_131d.html",
+      "source_id": "S21"
+    },
+    {
+      "cite": "10A NCAC 13F",
+      "title": "Licensing of Adult Care Homes (7+ beds)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "10A NCAC 13F .0204",
+      "title": "Applying for a License to Operate a Facility Not Currently Licensed (CON before application; fire/sanitation/occupancy approvals; 14-day notice of decision)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "10A NCAC 13F .0206",
+      "title": "Capacity (7 or more residents; bed capacity must comply with the Certificate of Need)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "10A NCAC 13F .0207",
+      "title": "Change of Licensee (30 days' written notice)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "10A NCAC 13F .0208",
+      "title": "Renewal of License (annual, calendar-year basis)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "10A NCAC 13G",
+      "title": "Licensing of Family Care Homes (2–6 beds)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20g/subchapter%20g%20rules.html",
+      "source_id": "S4"
+    },
+    {
+      "cite": "10A NCAC 13G .0206",
+      "title": "Capacity (family care homes: two to six residents)",
+      "url": "https://info.ncdhhs.gov/dhsr/rules/2024/AdultCareHomeFamilyCareHomeRules/nov/10A_NCAC_13G_.0206.pdf",
+      "source_id": "S5"
+    },
+    {
+      "cite": "N.C.G.S. Chapter 131E, Article 9",
+      "title": "Certificate of Need (must be satisfied before an ACH license application)",
+      "url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20f/subchapter%20f%20rules.html",
+      "source_id": "S3"
+    },
+    {
+      "cite": "N.C.G.S. §90-288.14",
+      "title": "Adult care home administrator certification criteria",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/adminguidelines.html",
+      "source_id": "S8"
+    },
+    {
+      "cite": "10A NCAC 13F/13G staffing rules (readopted eff. 9/1/2024)",
+      "title": "Staffing of Licensed Adult Care Homes — manager replaces 'Administrator in Charge'; staffing thresholds by census",
+      "url": "https://info.ncdhhs.gov/DHSR/acls/training/pdf/1068/2025/ACLS_Joint_Training_May_2025_Staffing_of_Licensed_Adult_Care_Homes.pdf",
+      "source_id": "S9"
+    },
+    {
+      "cite": "10A NCAC 13F (CPR/choking training)",
+      "title": "At least one staff on premises at all times with CPR/choking training within the last 24 months",
+      "url": "https://info.ncdhhs.gov/dhsr/rules/achfch2024.html",
+      "source_id": "S12"
+    },
+    {
+      "cite": "2026 NC State Medical Facilities Plan, Policy LTC-3",
+      "title": "Certification of Beds for Special Assistance (applies to CON applicants proposing new beds under a need determination); SMFP effective 2026-01-01",
+      "url": "https://info.ncdhhs.gov/dhsr/ncsmfp/2026/02_2026%20SMFP_post.pdf",
+      "source_id": "S18"
+    },
+    {
+      "cite": "N.C. State Building Code — Licensed Residential Care / Large Residential Care / I-2",
+      "title": "Building code by size: 4–6 residents Licensed Residential Care Facilities section; 7–12 residents Large Residential Care Facilities section; 13+ residents I-2 Institutional",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/licenseinfo.html",
+      "source_id": "S11"
+    },
+    {
+      "cite": "S.L. 2026-41 (SB 257) §9F.2(a); §9E.15",
+      "title": "FY2026-27 budget: adult care cost-report AUP change; $70.8M recurring for PCS rate increase",
+      "url": "https://www.ncdhhs.gov/about/administrative-offices/office-controller/adult-care-facilities",
+      "source_id": "S47"
+    },
+    {
+      "cite": "N.C.G.S. §96-9.2; §96-9.3",
+      "title": "Unemployment insurance rates and taxable wage base (2026: 1% new-employer rate; $34,200 wage base)",
+      "url": "https://www.des.nc.gov/need-help/faqs/employer-tax-faqs",
+      "source_id": "S48"
+    },
+    {
+      "cite": "Senate Bill 863 (2025 Session), text dated 2026-04-29",
+      "title": "An Act to Streamline the Inspection Process for Adult Care Homes (enactment status unverified)",
+      "url": "https://library.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S863v1.pdf",
+      "source_id": "S22"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, North Carolina statewide median, 2025 (CareScout)",
+      "rate": 6496,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "$77,955/yr. Secondary summary of CareScout's survey of provider-reported rates collected Jul–Nov 2025, published Mar 2026; the primary CareScout data could not be retrieved, so the figure is unverified against the primary source. A competing consumer source for the same state shows 1,808 communities averaging about $4,586/month, and Genworth 2024 shows $5,769 [S46]. The survey measures a private one-bedroom unit in an assisted living community, not a shared room in a small family care home, so it may overstate small-home revenue. Run a sensitivity case at roughly $4,586–$5,769. Do not mix the Genworth value into the base model.",
+      "source_id": "S44"
+    },
+    {
+      "payer": "Private pay (national benchmark)",
+      "code": "",
+      "service": "Assisted living, U.S. median, 2025 (CareScout)",
+      "rate": 6200,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "$74,400/yr. Secondary source; shown only as a comparison to the NC median.",
+      "source_id": "S45"
+    },
+    {
+      "payer": "Private pay (older benchmark, not comparable)",
+      "code": "",
+      "service": "Assisted living, NC average (Genworth 2024)",
+      "rate": 5769,
+      "unit": "per month",
+      "effective": "2024",
+      "notes": "Conflicts with the 2025 CareScout NC value and uses a different survey year. Context only; do not use in the model.",
+      "source_id": "S46"
+    },
+    {
+      "payer": "State/County Special Assistance (SA)",
+      "code": "",
+      "service": "Maximum room-and-board charge for SA resident in a regular adult care home",
+      "rate": 1397,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "Taken from a secondary consumer guide. The official SA-In-Home basic rate is also $1,397 and the SA-In-Home payment is capped at 100% of the SA facility payment [S31][S34]. The facility must agree to accept the state SA rate [S33]. The resident keeps a $70 personal needs allowance on top [S31]. SA is funded 50% state / 50% county [S32] and carries automatic Medicaid eligibility [S32].",
+      "source_id": "S35"
+    },
+    {
+      "payer": "State/County Special Assistance (SA)",
+      "code": "",
+      "service": "Maximum room-and-board charge in an ACH special care unit (Alzheimer's/dementia)",
+      "rate": 1792,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "General Assembly cap for SCU room-and-board under SA [S30]. Enhanced Maintenance Amount is $1,862, which adds the $70 personal needs allowance [S29].",
+      "source_id": "S30"
+    },
+    {
+      "payer": "State/County Special Assistance (SA)",
+      "code": "",
+      "service": "Enhanced Maintenance Amount (SCU rate + $70 personal needs allowance)",
+      "rate": 1862,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "Includes the $70 personal needs allowance that the resident keeps. The 2026 federal SSI benefit rate that anchors the SA formula is $994/month for an individual [S29].",
+      "source_id": "S29"
+    },
+    {
+      "payer": "State/County Special Assistance (resident)",
+      "code": "",
+      "service": "Personal needs allowance added to SA maximum",
+      "rate": 70,
+      "unit": "per month",
+      "effective": "2026",
+      "notes": "Kept by the resident for spending money; not facility revenue.",
+      "source_id": "S31"
+    },
+    {
+      "payer": "NC Medicaid (State Plan PCS)",
+      "code": "99509 HA/HB",
+      "service": "State Plan Personal Care Services",
+      "rate": 7.03,
+      "unit": "per unit",
+      "effective": "2026-08-01",
+      "notes": "Up from $5.96 (+18%). Funded by $70.8M recurring state funds (SB 257 §9E.15). Standard and Tailored Plans have 45 days to load the rates and 30 more days to reprocess claims back to 8/1/2026 [S23]. A plan reported providers could bill $7.03 from 2026-08-04 [S24]. Unit length is not stated on the page reviewed. Medicaid pays for care in an ACH but not for room and board [S35]. Whether an ACH bills PCS under this code is not confirmed — see not_claimed. Fee schedules are posted at ncdhhs.servicenowservices.com/fee_schedules.",
+      "source_id": "S23"
+    },
+    {
+      "payer": "NC Medicaid (State Plan PCS)",
+      "code": "99509 HC, HH, HI, HQ, SC, TT",
+      "service": "State Plan PCS daily per diem (rate × pre-approved units)",
+      "rate": 7.03,
+      "unit": "per unit; daily per diem = rate × beneficiary's pre-approved units",
+      "effective": "2026-08-01",
+      "notes": "Base fee-schedule rate shown; the daily per diem depends on the beneficiary's total pre-approved units for the authorized period (prior base $5.96) [S23]. No per-diem dollar amount per ACH resident was verified.",
+      "source_id": "S23"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "NC DHSR Adult Care Licensure Section (ACLS)",
+      "role": "Licensing, surveys, administrator certification",
+      "contact": "919-855-3765 | https://info.ncdhhs.gov/dhsr/acls/index.html"
+    },
+    {
+      "name": "ACLS questions mailbox",
+      "role": "Adult care home staffing and licensing questions",
+      "contact": "DHSR.AdultCare.Questions@dhhs.nc.gov"
+    },
+    {
+      "name": "ACLS mailing address (administrator certification submissions)",
+      "role": "Paper packets and money orders",
+      "contact": "Adult Care Licensure Section, 2708 Mail Service Center, Raleigh, NC 27699-2708"
+    },
+    {
+      "name": "NC DHSR Construction Section",
+      "role": "Plan review for new or renovated adult care homes",
+      "contact": "919-855-3893"
+    },
+    {
+      "name": "NC DHSR Certificate of Need Section",
+      "role": "CON applications for adult care home beds",
+      "contact": "919-855-3873"
+    },
+    {
+      "name": "County DSS — Adult Services / Adult Home Specialist",
+      "role": "First contact for family care home licensing; Special Assistance applications; quarterly facility monitoring",
+      "contact": "Local county Department of Social Services, adult services section (see https://info.ncdhhs.gov/dhsr/acls/flofch.html)"
+    },
+    {
+      "name": "NC Medicaid fee schedule portal",
+      "role": "Published PCS codes and rates",
+      "contact": "https://ncdhhs.servicenowservices.com/fee_schedules"
+    },
+    {
+      "name": "NCTracks",
+      "role": "Medicaid provider enrollment, re-enrollment and revalidation",
+      "contact": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html"
+    },
+    {
+      "name": "NC DHHS Division of Social Services — Special Assistance",
+      "role": "State/County Special Assistance policy and manuals",
+      "contact": "https://www.ncdhhs.gov/divisions/social-services/special-assistance/state-and-county-special-assistance-adult-care-home-residents"
+    },
+    {
+      "name": "NC DHHS Office of the Controller — Adult Care Facilities",
+      "role": "Adult care cost reports (next due 2027-09-30)",
+      "contact": "https://www.ncdhhs.gov/about/administrative-offices/office-controller/adult-care-facilities"
+    },
+    {
+      "name": "NC Division of Employment Security",
+      "role": "Employer UI registration and rates",
+      "contact": "https://www.des.nc.gov/need-help/faqs/employer-tax-faqs"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.88,
+      "conservative": 0.8,
+      "optimistic": 0.95,
+      "rationale": "No North Carolina occupancy rate for adult care homes or family care homes was found in the retrieved sources (see not_claimed). DHSR's licensed-facility listings [S17] were not parsed for it. The 88% default, 80% conservative and 95% optimistic cases are planning assumptions, not sourced NC figures. A 6-bed home swings about 17 points of occupancy per vacancy, so the 80% case matters most there. New homes ramp from a few residents. Verify against local referral flow before committing capital.",
+      "source_id": "S17"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "payroll_burden": {
+      "payroll_tax_pct": 0.09,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.05,
+      "notes": "Payroll taxes at 9% = employer FICA 7.65% (federal statutory rate; not in the retrieved source set, so verify) plus North Carolina unemployment tax, which is about 1.4% of a typical full-time aide's pay if the new-employer rate is 1% on the first $34,200 of wages per employee [S48]. The NC UI rate and wage base could not be re-fetched from the DES page and are unverified. Federal FUTA (about 0.6% net on the first $7,000 per employee, roughly $42 per employee per year) is not included in the 9%. Workers' compensation at 4% is an operator estimate: NC requires it at 3+ employees [S54], but the NCRB class-code rate for adult care homes was not retrieved. NCRB loss costs fell an average of 7.8% effective 4/1/2026 [S55], and a further filing is approved effective 4/1/2027 [S56]. Benefits at 5% is an operator estimate. All wages are above the $7.25 NC minimum wage [S49]; no local minimum wage and no scheduled increase [S50]. No payroll burden is applied to the administrator, who is treated as an owner's draw.",
+      "source_id": "S48"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 3600.0,
+        "basis": "fixed",
+        "notes": "Fixed rent owed from day one regardless of census. Modeled at $600 per licensed bed (6 beds = $3,600). Operator estimate — verify locally. No NC rent benchmark or HUD FMR was retrieved (see not_claimed). Overridden per configuration."
+      },
+      {
+        "item": "Food (3 meals + snacks per resident)",
+        "monthly": 330,
+        "basis": "per_client",
+        "notes": "Operator estimate (about $10.85 per resident-day) — verify with your food vendor."
+      },
+      {
+        "item": "Utilities base load (fixed, sized to licensed beds)",
+        "monthly": 480.0,
+        "basis": "fixed",
+        "notes": "$80 per licensed bed per month (6 beds = $480). Operator estimate — verify locally. Overridden per configuration."
+      },
+      {
+        "item": "Utilities — per-resident portion (water, laundry)",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 80,
+        "basis": "per_client",
+        "notes": "No insurance or bond minimum for ACHs or FCHs was found in the DHSR pages or rules reviewed (see not_claimed). Landlords and lenders usually require coverage. Premium is an operator estimate — get quotes."
+      },
+      {
+        "item": "Household, personal care and medical supplies",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance (fixed, sized to licensed beds)",
+        "monthly": 240.0,
+        "basis": "fixed",
+        "notes": "$40 per licensed bed per month (6 beds = $240). Operator estimate. Overridden per configuration."
+      },
+      {
+        "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+        "monthly": 100,
+        "basis": "fixed",
+        "source_id": "S11",
+        "notes": "Local fire marshal approval is required at completion of construction or renovation [S3]. Recurring inspection and monitoring cost is an operator estimate — get vendor quotes. Overridden per configuration."
+      },
+      {
+        "item": "Activities & recreation",
+        "monthly": 20,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "DHSR license renewal ÷ 12",
+        "monthly": 26.25,
+        "basis": "fixed",
+        "source_id": "S2",
+        "notes": "Family care home renewal is $315 per year (6 beds or fewer) [S2][S6], ÷ 12 = $26.25. An ACH (7+ beds) renews at $360 + $17.50 per bed [S1]. Overridden for ACH configurations."
+      },
+      {
+        "item": "NC LLC annual report ÷ 12",
+        "monthly": 16.92,
+        "basis": "fixed",
+        "source_id": "S52",
+        "notes": "$203 online by card ($200 paper), due April 15 each year [S52][S53]. Secondary sources citing the Secretary of State."
+      },
+      {
+        "item": "NC franchise tax / entity-level tax",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "Placeholder at $0, not verified. NC franchise tax generally applies to LLCs taxed as S or C corporations, with a $200 minimum (about $16.67/month); a disregarded or partnership LLC may owe none. Confirm with the NC Department of Revenue or a CPA, and add about $16.67/month if the entity elects S- or C-corp treatment."
+      },
+      {
+        "item": "eMAR / care documentation software",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes. NC Medicaid's EVV requirement covers in-home PCS [S25]. A vendor page says ACHs are exempt [S27], but this is unconfirmed on NC Medicaid pages."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate. Includes the Adult Care Cost Report for Special Assistance facilities, next due 2027-09-30. The AUP is no longer required with the cost report for 7+ bed facilities beginning on or after 2026-07-01 [S47]."
+      },
+      {
+        "item": "Marketing & website",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Training, CE, CPR and background checks",
+        "monthly": 150,
+        "basis": "fixed",
+        "source_id": "S8",
+        "notes": "Administrator renewal fee $30 with 30 CE hours every 2 years [S8]; Manager 12 CE hours a year [S9]; CPR/choking training within 24 months for at least one staff member on premises at all times [S12]; SBI check $14 or $38 with FBI [S8]. Course and certification costs are operator estimates. Per-hire TB screening and health checks for aides and PCA supervisors (10A NCAC 13F .0406) are not separately budgeted."
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 120,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate. Transportation is optional."
+      }
+    ],
+    "configurations": [
+      {
+        "id": "fch6_private",
+        "label": "6-bed family care home (2–6 beds), 100% private pay",
+        "capacity": 6,
+        "notes": "Licensed under 10A NCAC 13G [S4][S5]; application starts with the county DSS adult home specialist, who verifies local zoning approval first [S2]. Whether CON applies to 2–6 bed family care homes was not verified (see not_claimed). The $6,496 NC median is CareScout 2025, provider-reported private-pay rates for a private one-bedroom in an assisted living community [S44]. It may overstate revenue for a shared-room family care home, so the 80% occupancy case and local comparables matter. 13G staffing rules were not retrieved, so staffing is an operator estimate: one awake aide 24/7 plus the owner-administrator on site.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6496,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S44"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide, 1 awake on every shift (24/7 = 730 hrs/month)",
+            "wage_hourly": 18.49,
+            "wage_source_id": "S59",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "10A NCAC 13G (staffing section not retrieved)",
+            "notes": "Operator estimate of coverage — verify the 13G staffing rule. Wage is the NC median nursing assistant wage, May 2025 BLS OEWS via a secondary site [S59]. It is above the $7.25 minimum wage [S49]. At least one staff member with CPR/choking training within 24 months must be on premises at all times [S12]."
+          },
+          {
+            "role": "Administrator / owner-operator (full time)",
+            "wage_source_id": "S58",
+            "basis": "annual_salary",
+            "amount": 47970,
+            "cite": "10A NCAC 13G .1501 (family care home administrator approval)",
+            "notes": "Set at the NC all-occupation median wage, $47,970 [S58]. This is not an administrator wage, and NC OEWS pay for a comparable management occupation was not retrieved, so the figure is unverified. Treat it as an owner's draw, not a market salary. No payroll burden is separately budgeted for an owner's draw. FCH administrator approval (10A NCAC 13G .1501) requires a high school diploma/GED, a State-approved 120-hour AIT program, the Administrator Exam, age 21+ and an SBI (and FBI if applicable) check. There is no renewal fee [S8]. The AIT program cost is not stated and is not budgeted."
+          },
+          {
+            "role": "LVN consultant (medication oversight, 4 hrs/week)",
+            "wage_hourly": 30.42,
+            "wage_source_id": "S60",
+            "basis": "hours_per_month",
+            "amount": 17.3,
+            "cite": "Operator estimate",
+            "notes": "Hours are an operator estimate — verify locally. $30.42/hr = NC median LPN annual wage $63,270 ÷ 2,080 hours [S60]; the secondary source's own hourly figure was inconsistent."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 3600.0,
+            "basis": "fixed",
+            "notes": "6 licensed beds × $600 = $3,600/month fixed. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 480.0,
+            "basis": "fixed",
+            "notes": "6 × $80. Operator estimate."
+          },
+          {
+            "item": "Repairs & maintenance (fixed, sized to licensed beds)",
+            "monthly": 240.0,
+            "basis": "fixed",
+            "notes": "6 × $40. Operator estimate."
+          },
+          {
+            "item": "DHSR license renewal ÷ 12",
+            "monthly": 26.25,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "$315 ÷ 12 [S2][S6]."
+          }
+        ]
+      },
+      {
+        "id": "fch6_sa_mix",
+        "label": "6-bed family care home, 4 private pay + 2 State/County Special Assistance",
+        "capacity": 6,
+        "notes": "Shows what Special Assistance residents do to a small home. A facility that takes SA residents must accept the state SA rate [S33]; the maximum is $1,397/month in a regular ACH per a secondary guide [S35], matching the official SA-In-Home basic rate [S31]. SA is funded 50% state / 50% county. SA residents are automatically eligible for Medicaid, which also helps pay for personal care services in an adult care home [S32]. Medicaid PCS is not modeled as revenue because how ACHs bill it is unverified (see not_claimed). The loss shown here is therefore conditional on omitting PCS, and PCS would be upside if billable. The $6,496 private-pay figure is a secondary-source CareScout number that could not be checked against primary data. A competing consumer source shows an NC average near $4,586/month, and Genworth 2024 shows $5,769, so test a lower private rate [S44].",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6496,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.6666666666666666,
+            "source_id": "S44"
+          },
+          {
+            "name": "State/County Special Assistance — maximum facility charge, regular ACH (2026)",
+            "payer": "State/County Special Assistance",
+            "code": "SA",
+            "rate": 1397,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3333333333333333,
+            "source_id": "S35"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aide, 1 awake on every shift (24/7 = 730 hrs/month)",
+            "wage_hourly": 18.49,
+            "wage_source_id": "S59",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "10A NCAC 13G (staffing section not retrieved)",
+            "notes": "Operator estimate of coverage — verify the 13G staffing rule. NC median nursing assistant wage [S59]."
+          },
+          {
+            "role": "Administrator / owner-operator (full time)",
+            "wage_source_id": "S58",
+            "basis": "annual_salary",
+            "amount": 47970,
+            "cite": "10A NCAC 13G .1501 (family care home administrator approval)",
+            "notes": "NC all-occupation median wage [S58]; not an administrator wage and unverified for this role. Treat it as an owner's draw. FCH administrator approval under 10A NCAC 13G .1501 requires the 120-hour AIT program and the Administrator Exam; the AIT cost is not budgeted."
+          },
+          {
+            "role": "LVN consultant (medication oversight, 4 hrs/week)",
+            "wage_hourly": 30.42,
+            "wage_source_id": "S60",
+            "basis": "hours_per_month",
+            "amount": 17.3,
+            "cite": "Operator estimate",
+            "notes": "Hours are an operator estimate — verify locally. $63,270 ÷ 2,080 [S60]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 3600.0,
+            "basis": "fixed",
+            "notes": "6 × $600. Operator estimate."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 480.0,
+            "basis": "fixed",
+            "notes": "6 × $80. Operator estimate."
+          },
+          {
+            "item": "Repairs & maintenance (fixed, sized to licensed beds)",
+            "monthly": 240.0,
+            "basis": "fixed",
+            "notes": "6 × $40. Operator estimate."
+          },
+          {
+            "item": "DHSR license renewal ÷ 12",
+            "monthly": 26.25,
+            "basis": "fixed",
+            "source_id": "S2",
+            "notes": "$315 ÷ 12 [S2][S6]."
+          }
+        ]
+      },
+      {
+        "id": "ach12_private",
+        "label": "12-bed adult care home (7+ beds), 100% private pay",
+        "capacity": 12,
+        "notes": "Licensed under 10A NCAC 13F [S3]. Capacity of 7 or more residents, and bed capacity must match the facility's Certificate of Need [S3]. New ACH beds need a CON first, and applications are accepted only in counties with a scheduled review [S1]. In practice, entry is a CON award or buying an existing licensed home (30 days' written notice of change of licensee) [S3]. Capital for CON or acquisition is not modeled (see not_claimed). Building code for 7–12 residents is the Large Residential Care Facilities section [S11]. For 7–12 residents an administrator or manager must be in the facility or within 500 ft with two-way communication at all times [S9], so the overnight aide must meet manager qualifications (age 21+, HS/GED, 12 CE hours a year). The $6,496 NC median is for a private one-bedroom in an AL community [S44]; shared rooms in a small home often price lower.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6496,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S44"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Awake aide / manager-qualified staff, 24/7 (730 hrs/month)",
+            "wage_hourly": 18.49,
+            "wage_source_id": "S59",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "10A NCAC 13F staffing rules (readopted eff. 9/1/2024); ACLS May 2025 staffing training",
+            "notes": "At least one staff member on duty and awake at all times if any resident is disoriented or wanders (7–12 residents) [S9]. At least one designated staff member per shift for personal care and supervision [S9]. An Administrator or Manager must be in the facility or within 500 ft with two-way communication at all times (10A NCAC 13F .0602 and .0606) [S9]. A 40-hour administrator covers only about 24% of the 168 weekly hours. The other ~128 hours must be covered by a Manager (age 21+, HS/GED, 6 months of management or supervisory experience or a licensed health professional, 12 CE hours a year). The model assumes every 24/7 aide meets Manager qualifications and prices them at the CNA median [S59]. Manager qualification and CE cost is not separately budgeted, and a Manager wage premium is not modeled. Staff TB health screening under 13F .0406 is also not budgeted."
+          },
+          {
+            "role": "Second aide, days and evenings (16 hrs/day = 486.7 hrs/month)",
+            "wage_hourly": 18.49,
+            "wage_source_id": "S59",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "Operator estimate beyond 10A NCAC 13F minimums",
+            "notes": "No statutory resident-to-staff ratio beyond the verified rules was found for 7–12 residents (see not_claimed). This second aide is an operator staffing choice for care and meals."
+          },
+          {
+            "role": "Administrator (full time)",
+            "wage_source_id": "S58",
+            "basis": "annual_salary",
+            "amount": 47970,
+            "cite": "G.S. 90-288.14",
+            "notes": "Certified administrator: 120-hour AIT, age 21+, exam [S8]. Priced at the NC all-occupation median wage of $47,970 [S58]. That is not a management or administrator wage. The same Commerce deck shows a much higher Management Occupations median ($124,390), and a sourced NC OEWS figure for a comparable occupation (for example 11-9111) was not retrieved. The salary is therefore unverified and likely understates cost, so profit for this configuration may be overstated. Treat the line as an owner's draw."
+          },
+          {
+            "role": "LVN / nurse consultant (8 hrs/week)",
+            "wage_hourly": 30.42,
+            "wage_source_id": "S60",
+            "basis": "hours_per_month",
+            "amount": 34.7,
+            "cite": "Operator estimate",
+            "notes": "Hours are an operator estimate — verify locally. $63,270 ÷ 2,080 [S60]."
+          },
+          {
+            "role": "Cook (about 1 FTE, 40 hrs/week)",
+            "wage_hourly": 16.61,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "Operator staffing choice",
+            "notes": "Wage is the Raleigh-Cary metro mean for the food preparation and serving group, May 2025 [S57]. It is unverified (the BLS page could not be re-fetched) and is not a statewide cook median. Compliance risk: the rules require additional staff for daily food service, and the designated personal-care staff member may not do food service during the shift. 40 hrs/week covers about 5 days, so 7-day, 3-meal coverage by non-care staff needs added weekend or relief hours that are not budgeted."
+          },
+          {
+            "role": "Housekeeping / laundry (20 hrs/week)",
+            "wage_hourly": 18.92,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean for building and grounds cleaning and maintenance, May 2025 [S57]. Unverified (BLS page not retrievable) and not a statewide housekeeper median. Compliance risk: the rules require additional staff for daily housekeeping. 20 hrs/week is under 3 hours a day, so daily coverage by non-care staff needs added hours that are not budgeted."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption; verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 7200.0,
+            "basis": "fixed",
+            "notes": "12 licensed beds × $600 = $7,200/month fixed. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 960.0,
+            "basis": "fixed",
+            "notes": "12 × $80. Operator estimate."
+          },
+          {
+            "item": "Repairs & maintenance (fixed, sized to licensed beds)",
+            "monthly": 480.0,
+            "basis": "fixed",
+            "notes": "12 × $40. Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 200,
+            "basis": "fixed",
+            "source_id": "S11",
+            "notes": "Operator estimate for a 12-bed home; get vendor quotes. Large Residential Care Facilities building code applies [S11]."
+          },
+          {
+            "item": "DHSR license renewal ÷ 12",
+            "monthly": 47.5,
+            "basis": "fixed",
+            "source_id": "S1",
+            "notes": "$360 + $17.50 × 12 beds = $570 per year ÷ 12 [S1]."
+          }
+        ]
+      },
+      {
+        "id": "ach20_mixed",
+        "label": "20-bed adult care home, 75% private pay / 25% Special Assistance",
+        "capacity": 20,
+        "notes": "The most robust model in this state. It uses a 7+ bed ACH (10A NCAC 13F) [S3], so it requires a CON or purchase of an existing licensed home [S1][S3]. At 21 or more residents the rules require 16 aide hours per shift on shifts 1 and 2; at 31+ a Personal Care Aide Supervisor [S9]. A 20-bed home stays below those thresholds. The mix carries a 25% SA hedge at $1,397/month [S35], with private pay at the CareScout NC median of $6,496 [S44]. Blended revenue is about $5,221 per resident-month, below the median. Medicaid PCS is not modeled as revenue (not verified for ACHs). Buildings of 13+ residents must meet I-2 Institutional code for new construction and renovations [S11], which raises capital cost.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6496,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.75,
+            "source_id": "S44"
+          },
+          {
+            "name": "State/County Special Assistance — maximum facility charge, regular ACH (2026)",
+            "payer": "State/County Special Assistance",
+            "code": "SA",
+            "rate": 1397,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S35"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (1 awake overnight + 2 days + 2 evenings = 40 hrs/day = 1,216.7 hrs/month)",
+            "wage_hourly": 18.49,
+            "wage_source_id": "S59",
+            "basis": "hours_per_month",
+            "amount": 1216.7,
+            "cite": "10A NCAC 13F staffing rules (readopted eff. 9/1/2024); ACLS May 2025 staffing training",
+            "notes": "Rule minimum for 7–20 residents is at least one designated staff per shift for personal care and supervision [S9]. This model staffs above that minimum (operator choice) and keeps one awake overnight; a staff member with CPR/choking training within 24 months is on premises at all times [S12]. 10A NCAC 13F .0602 applies to 7–30 residents: an Administrator or Manager must be in the facility or within 500 ft with two-way communication at all times. A 40-hour administrator covers only about 24% of weekly hours, so the model assumes every 24/7 aide meets Manager qualifications (age 21+, HS/GED, 6 months of management or supervisory experience or a licensed health professional, 12 CE hours a year). No wage premium or CE cost is modeled. NC median nursing assistant wage [S59]."
+          },
+          {
+            "role": "Administrator (full time)",
+            "wage_source_id": "S58",
+            "basis": "annual_salary",
+            "amount": 47970,
+            "cite": "G.S. 90-288.14",
+            "notes": "Certified administrator [S8]. Priced at the NC all-occupation median wage [S58]. That is not an administrator wage, and the NC Management Occupations median is far higher ($124,390 in the same Commerce deck). No sourced NC figure for a comparable management occupation was retrieved, so this line is unverified and profit may be overstated. Treat it as an owner's draw. The 81+ resident threshold for 8 hrs/day on-site administrator time does not apply [S9]."
+          },
+          {
+            "role": "LVN / nurse consultant (16 hrs/week)",
+            "wage_hourly": 30.42,
+            "wage_source_id": "S60",
+            "basis": "hours_per_month",
+            "amount": 69.3,
+            "cite": "Operator estimate",
+            "notes": "Hours are an operator estimate — verify locally. $63,270 ÷ 2,080 [S60]."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 16.61,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 260.0,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean for the food preparation and serving group, May 2025 [S57]. Unverified (BLS page not retrievable) and not a statewide cook median. The rules require additional staff for daily food service, and care staff on shift may not do food service. Confirm that 1.5 FTE covers 7 days of 3 meals."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "wage_hourly": 18.92,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean for building and grounds cleaning and maintenance, May 2025 [S57]. Unverified (BLS page not retrievable) and not a statewide housekeeper median. The rules require additional staff for daily housekeeping; confirm that 1 FTE covers every day."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "wage_hourly": 19.29,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean for the personal care and service group, May 2025 [S57]. Unverified (BLS page not retrievable) and not a statewide activities-occupation median."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator planning assumption; verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 12000.0,
+            "basis": "fixed",
+            "notes": "20 licensed beds × $600 = $12,000/month fixed. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1600.0,
+            "basis": "fixed",
+            "notes": "20 × $80. Operator estimate."
+          },
+          {
+            "item": "Repairs & maintenance (fixed, sized to licensed beds)",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "20 × $40. Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 300,
+            "basis": "fixed",
+            "source_id": "S11",
+            "notes": "Operator estimate for a 20-bed building; 13+ residents must meet I-2 Institutional code [S11]."
+          },
+          {
+            "item": "DHSR license renewal ÷ 12",
+            "monthly": 59.17,
+            "basis": "fixed",
+            "source_id": "S1",
+            "notes": "$360 + $17.50 × 20 beds = $710 per year ÷ 12 [S1]."
+          }
+        ]
+      },
+      {
+        "id": "ach20_sa_majority",
+        "label": "20-bed adult care home, 40% private pay / 60% Special Assistance",
+        "capacity": 20,
+        "notes": "Shows what happens when SA residents are the majority and Medicaid PCS is not counted. SA's facility maximum is $1,397/month [S35], and the state requires facilities to accept that rate for SA residents [S33]. SA residents are automatically eligible for Medicaid, which helps pay for personal care services in an ACH, but Medicaid never pays room and board [S35]. If an ACH can bill State Plan PCS (code 99509 at $7.03 per unit since 2026-08-01 [S23]), the result would improve. How ACHs bill it and units per resident were not verified (see not_claimed), so it is excluded here. The loss conclusion applies only to this no-PCS case. Same building and staffing as the 75/25 model.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6496,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.4,
+            "source_id": "S44"
+          },
+          {
+            "name": "State/County Special Assistance — maximum facility charge, regular ACH (2026)",
+            "payer": "State/County Special Assistance",
+            "code": "SA",
+            "rate": 1397,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.6,
+            "source_id": "S35"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care aides (1 awake overnight + 2 days + 2 evenings = 40 hrs/day = 1,216.7 hrs/month)",
+            "wage_hourly": 18.49,
+            "wage_source_id": "S59",
+            "basis": "hours_per_month",
+            "amount": 1216.7,
+            "cite": "10A NCAC 13F staffing rules (readopted eff. 9/1/2024); ACLS May 2025 staffing training",
+            "notes": "Above the one-designated-staff-per-shift minimum for 7–20 residents [S9]. 10A NCAC 13F .0602 also requires an Administrator or Manager in the facility or within 500 ft at all times; the model assumes every 24/7 aide meets Manager qualifications (age 21+, HS/GED, 6 months of management or supervisory experience, 12 CE hours a year), with no wage premium or CE cost modeled. NC median nursing assistant wage [S59]."
+          },
+          {
+            "role": "Administrator (full time)",
+            "wage_source_id": "S58",
+            "basis": "annual_salary",
+            "amount": 47970,
+            "cite": "G.S. 90-288.14",
+            "notes": "NC all-occupation median wage [S58]; not an administrator wage and unverified for this role (the Management Occupations median is far higher). Treat it as an owner's draw. Profit may be overstated."
+          },
+          {
+            "role": "LVN / nurse consultant (16 hrs/week)",
+            "wage_hourly": 30.42,
+            "wage_source_id": "S60",
+            "basis": "hours_per_month",
+            "amount": 69.3,
+            "cite": "Operator estimate",
+            "notes": "Hours are an operator estimate — verify locally [S60]."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 16.61,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 260.0,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean, food preparation and serving group [S57]. Unverified. Confirm 7-day, 3-meal coverage by non-care staff."
+          },
+          {
+            "role": "Housekeeping / laundry (1 FTE)",
+            "wage_hourly": 18.92,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean, building and grounds cleaning and maintenance [S57]. Unverified. Confirm daily housekeeping coverage."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "wage_hourly": 19.29,
+            "wage_source_id": "S57",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "Operator staffing choice",
+            "notes": "Raleigh-Cary mean, personal care and service group [S57]. Unverified."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator planning assumption; SA residents come through county DSS referrals."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 12000.0,
+            "basis": "fixed",
+            "notes": "20 × $600. Operator estimate."
+          },
+          {
+            "item": "Utilities base load (fixed, sized to licensed beds)",
+            "monthly": 1600.0,
+            "basis": "fixed",
+            "notes": "20 × $80. Operator estimate."
+          },
+          {
+            "item": "Repairs & maintenance (fixed, sized to licensed beds)",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "20 × $40. Operator estimate."
+          },
+          {
+            "item": "Fire alarm monitoring, sprinkler/alarm inspections, extinguisher service",
+            "monthly": 300,
+            "basis": "fixed",
+            "source_id": "S11",
+            "notes": "Operator estimate; 13+ residents must meet I-2 Institutional code [S11]."
+          },
+          {
+            "item": "DHSR license renewal ÷ 12",
+            "monthly": 59.17,
+            "basis": "fixed",
+            "source_id": "S1",
+            "notes": "$360 + $17.50 × 20 = $710 per year ÷ 12 [S1]."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "ach20_mixed",
+    "startup_costs": [
+      {
+        "item": "NC LLC formation filing",
+        "low": 125,
+        "high": 125,
+        "source_id": "S51",
+        "notes": "$125 online or by mail; secondary source."
+      },
+      {
+        "item": "DHSR initial license fee (FCH $350; ACH $400 + $19 per bed)",
+        "low": 350,
+        "high": 780,
+        "source_id": "S1",
+        "notes": "FCH: $350, submitted with the packet through the county adult home specialist [S2]. ACH: $400 non-refundable + $19 per bed, paid with the application [S1][S7] (12 beds = $628; 20 beds = $780). This conflicts with the G.S. 131D-2.5 schedule on DHSR forms ($360 + $17.50 per bed), which is unresolved; the higher figure is used. The construction plan-review fee is invoiced by DHSR and not reviewed until paid [S1]. The CON application fee (G.S. 131E-182; CON Section 919-855-3873), the plan-review invoice and CON consultant/legal costs are not stated and are NOT included, so the ACH cash-needed figures exclude CON and plan-review fees."
+      },
+      {
+        "item": "Administrator exam fee ($50) and SBI background check ($14; $38 with FBI report)",
+        "low": 64,
+        "high": 88,
+        "source_id": "S8",
+        "notes": "Exam fee $50 plus SBI check $14 = $64 (low). The $38 SBI+FBI fee applies only if the applicant has lived in NC less than 5 years, giving $88 (high). The law enforcement agency may charge an additional fingerprinting fee, which is not included. Payment is by money order or cashier's check [S8]. Paper applications and payments for administrator testing ended 2026-09-25 in favor of an online test [S10], and the cited page is on a test subdomain. The 120-hour AIT program cost is not stated and is not included for either ACH or FCH administrators."
+      },
+      {
+        "item": "NC Medicaid provider enrollment fees, if enrolling (federal CY2026 $750; NC $100)",
+        "low": 0,
+        "high": 850,
+        "source_id": "S41",
+        "notes": "The NC application fee is $100 [S41][S42]; the federal institutional fee for CY2026 is $750 [S40]. Which apply to an ACH depends on provider type and was not confirmed. $0 for configurations that do not bill Medicaid."
+      },
+      {
+        "item": "Fire safety, sprinkler/alarm and life-safety upgrades",
+        "low": 5000,
+        "high": 60000,
+        "source_id": "S11",
+        "notes": "Operator estimate — get fire protection contractor quotes. Local fire marshal and sanitation approvals are part of the ACH application [S3]. Buildings of 13+ residents must meet I-2 Institutional code [S11]."
+      },
+      {
+        "item": "Accessibility and physical plant upgrades",
+        "low": 5000,
+        "high": 50000,
+        "notes": "Operator estimate. Construction plan review applies to new or renovated ACHs [S1]."
+      },
+      {
+        "item": "Furnishings for resident rooms and common areas",
+        "low": 12000,
+        "high": 40000,
+        "notes": "Operator estimate of about $2,000 per bed."
+      },
+      {
+        "item": "Lease deposit + first month",
+        "low": 7200,
+        "high": 24000,
+        "notes": "Two months of the modeled lease ($3,600 for 6 beds to $12,000 for 20 beds). Operator estimate."
+      },
+      {
+        "item": "Staff training, CPR certification and background checks (first hires)",
+        "low": 500,
+        "high": 2500,
+        "source_id": "S12",
+        "notes": "CPR/choking training within 24 months for at least one staff member on premises at all times [S12]. Cost is an operator estimate."
+      },
+      {
+        "item": "Insurance down payments, policies & procedures manual, eMAR setup",
+        "low": 3000,
+        "high": 8000,
+        "notes": "Operator estimate. No insurance minimum was found in the rules reviewed."
+      },
+      {
+        "item": "Launch marketing",
+        "low": 2000,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Working capital reserve through ramp-up",
+        "low": 40000,
+        "high": 150000,
+        "category": "working_capital",
+        "notes": "Operator estimate (about 3–6 months of expenses). No state-required reserve was found in the rules reviewed. Special Assistance eligibility decisions can take up to 45 days (age 65+) or 60 days (under 65) from application, so SA-resident revenue may lag admission by 45–60 days. Size the reserve with that lag in mind."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "North Carolina has two licensed settings that function as assisted living. The **adult care home (ACH)** has 7 or more licensed residents and is governed by 10A NCAC 13F. The **family care home (FCH)** has 2–6 residents and is governed by 10A NCAC 13G. Both are licensed under G.S. Chapter 131D by the NC DHHS Division of Health Service Regulation, Adult Care Licensure Section (ACLS) [S1][S2][S3][S5][S13]. NCDHHS reports more than 1,200 adult care homes in the state [S16].\n\n**Market entry is gated.** No one may develop new adult care home beds without a Certificate of Need (CON). CON applications are accepted only for counties where DHSR has scheduled a review, and a decision is due within 150 days of the start of the review period [S1]. CON requirements must be met before a license application is filed for a facility not yet licensed, and licensed bed capacity must match the CON [S3]. In practice, a new 7+ bed operator either wins a CON or buys an existing licensed home, which requires 30 days' written notice of a change of licensee [S3]. Family care homes start at the county DSS adult services section, where the adult home specialist confirms local zoning approval first [S2]. Whether CON applies to 2–6 bed family care homes was not verified.\n\n**Money flows in three ways.** (1) Private pay: CareScout's 2025 North Carolina median for assisted living is $6,496/month ($77,955/yr), against a $6,200 national median. This is a secondary summary of a survey of private one-bedroom units in assisted living communities [S44][S45]. (2) State/County Special Assistance (SA): the facility must accept the state SA rate, which is a maximum of $1,397/month in a regular ACH according to a secondary guide, or $1,792/month in a dementia special care unit. SA is funded 50% state and 50% county, and SA recipients are automatically Medicaid-eligible [S30][S32][S33][S35]. (3) Medicaid personal care services (PCS): NC Medicaid raised the State Plan PCS rate (99509 HA/HB) from $5.96 to $7.03 per unit effective 2026-08-01. Medicaid never pays room and board, and whether an ACH can bill PCS under this code was not confirmed [S23][S35]. The CAP/DA waiver is not an ACH payer, because participants cannot live in an ACH or FCH [S36].\n\n**Bottom line from the model, at the default 88% occupancy:**\n- The default configuration, a **20-bed ACH with 75% private pay and 25% Special Assistance**, nets about **$19,823/month** (21.6% margin). It breaks even at about **66.9%** occupancy, first turns profitable in **month 8**, and needs about **$372,475** in cash through ramp-up.\n- A **12-bed, 100% private-pay ACH** nets about **$14,844/month** (21.6% margin), breaks even at about **67.3%**, first turns profitable in **month 5**, and needs about **$190,580**.\n- A **6-bed, 100% private-pay family care home** nets about **$4,281/month** (12.5% margin), breaks even at about **76.1%**, first turns profitable in **month 6**, and needs about **$92,806**. It needs 5 of its 6 beds filled.\n- Mixing Special Assistance into a 6-bed home (4 private + 2 SA) loses about **$4,693/month** and cannot break even at any occupancy (about 106% needed). A **20-bed ACH that is 60% Special Assistance** loses about **$11,586/month** (about 108% needed) when Medicaid PCS is not counted as revenue.\n\nThe model does not include the capital cost of a CON, a purchase price or a building, nor debt service. The private-pay price comes from a secondary summary of a survey of private one-bedroom units, not from small shared-room homes, so test it against local comparables before relying on it.\n\n### What this report does not claim\n- Which initial license fee governs a new ACH: $400 + $19 per bed on the DHSR page, or the G.S. 131D-2.5 schedule on DHSR forms. The model uses the higher figure.\n- CON fees, the 2026/2027 county review schedule, the construction plan-review fee, or whether CON applies to FCHs.\n- Statewide bed counts, occupancy, competitor names, market shares, referral-source shares, or SA caseload and waitlist counts. No public source was found.\n- How ACHs bill Medicaid PCS, ACH PCS utilization, or negotiated managed-care rates. PCS is not counted as revenue in any configuration.\n- Insurance or bond minimums for ACHs and FCHs. None were found; insurance premiums are operator estimates.\n- Rent or purchase benchmarks for North Carolina adult care home buildings. Building cost is an operator estimate.",
+    "service_model": "**Who is served.** Adult care homes and family care homes are residential settings for older adults and adults with disabilities who need help with personal care, supervision and medication, but not nursing-home care. The state rules separate the two settings by size. The licensed capacity of an ACH is seven or more residents [S3], and an FCH may have two to six residents [S4][S5]. DHSR's licensing section describes the programs the same way: licensing of adult care homes (seven or more beds) and family care homes (two to six beds) [S13].\n\n**Regulatory framework.**\n- *Statute:* G.S. Chapter 131D covers inspection and licensing of both settings [S1][S2][S21].\n- *Rulemaking:* the N.C. Medical Care Commission holds rulemaking authority [S1]. The ACH rules are in 10A NCAC 13F [S1][S3] and the FCH rules in 10A NCAC 13G [S2][S4].\n- *Regulators:* ACLS licenses and surveys homes. County departments of social services work with DHSR to monitor facilities in their counties at least quarterly [S14].\n- *Capacity ties to CON:* an ACH's bed capacity and services must comply with its Certificate of Need [S3].\n\n**Building and site rules scale with size.**\n- Family care homes with four to six residents must meet the NC State Building Code, Licensed Residential Care Facilities section [S4].\n- ACHs housing seven to twelve residents must meet the Large Residential Care Facilities section [S3].\n- Homes of 13 or more residents must meet I-2 Institutional occupancy code for new construction and renovations [S11].\n- An ACH must be in a location approved by local zoning boards [S3]. For FCHs the county adult home specialist verifies zoning before the process proceeds [S2].\n\n**Staffing tiers by census** [S9]:\n- 7–20 residents: at least one designated staff member per shift for personal care and supervision.\n- 7–12 residents: an administrator or manager on site, or within 500 feet with two-way communication, at all times.\n- 21–40 residents: 16 aide duty hours on shifts 1 and 2.\n- 31 or more residents: a Personal Care Aide Supervisor.\n- 81 or more residents: administrator on duty at least eight hours a day, five days a week.\n\nThe model's three ACH-type configurations (12 and 20 beds) and two FCH configurations (6 beds) sit inside these tiers. The 20-bed home stays below the 21-resident and 13+ building-code thresholds only on the staffing side. It is above the 13-resident I-2 threshold, which raises capital cost [S11].\n\n**Other programs outside this bundle.** Special Assistance In-Home pays up to the same facility-equivalent amount for people who stay at home [S31][S34]. Special care units for dementia carry a higher SA maximum [S30]. The SCU licensing requirements were not researched, so they are not modeled.",
+    "licensing_pathway": "The pathway differs by size. Verify every step with ACLS before spending money, because several fees and one gating question are unresolved (see below).\n\n### Path A — Adult care home (7+ beds), 10A NCAC 13F\n1. **Secure beds.** New ACH beds require a Certificate of Need. DHSR accepts applications only for counties with a scheduled review and decides within 150 days of the start of the review period [S1]. The 2026 State Medical Facilities Plan (effective 2026-01-01) governs need, and its Policy LTC-3 covers certification of beds for Special Assistance for applicants proposing new beds under a need determination [S18]. A secondary source says the *Proposed* 2026 plan had adult care need determinations in only two counties, Halifax and Perquimans; the final numbers were not retrieved [S19]. The alternative is buying a licensed home: the current licensee gives written notice to DHSR, county DSS and residents at least 30 days before the change of licensee [S3].\n2. **Form the entity.** Online or mail filing for an NC LLC is $125 per a secondary source citing the Secretary of State [S51].\n3. **Site and construction review.** Obtain local zoning approval [S3]. DHSR's Construction Section invoices a plan-review fee, and a project is not reviewed until the invoice is paid; the amount is not stated on the pages reviewed [S1]. The building code class depends on size: 7–12 residents Large Residential Care, 13+ I-2 Institutional [S3][S11].\n4. **Complete the application packet.** It includes the initial license application (DHSR/AC 4603), a bed capacity statement, plans, the construction review fee, and, on completion, an approved fire and building safety inspection from the local fire marshal plus sanitation and occupancy approvals [S3][S7]. CON requirements must be met *before* the license application is submitted [S3].\n5. **Pay the initial fee with the application.** The form states the initial fee must accompany the application [S7]. The DHSR licensing page lists a non-refundable $400 plus $19 per bed (12 beds = $628; 20 beds = $780) [S1]. DHSR forms quoting G.S. 131D-2.5 show a different schedule for homes over six beds ($360 plus $17.50 per bed annually) [S6]. This conflict is unresolved, and the model uses the higher figure. Ask ACLS to confirm the amount in writing.\n6. **Pre-licensing survey and decision.** After a survey confirms compliance, ACLS notifies the applicant and county DSS in writing within 14 days of the decision to license or not [S3].\n7. **Initial license, then survey.** Initial licenses are issued for six months, after which ACLS must inspect or survey the home [S1].\n8. **Renew annually.** Renewal is filed annually on a calendar-year basis with the nonrefundable annual fee [S3]: $360 plus $17.50 per bed, invoiced by ACLS (12 beds = $570; 20 beds = $710) [S1]. ACLS issued a provider memo (P0050, July 23, 2025) on the 2026 renewal application [S15].\n\n### Path B — Family care home (2–6 beds), 10A NCAC 13G\n1. **Start with county DSS.** First contact is the adult services section of the local county DSS, not ACLS [S2].\n2. **Zoning check.** The adult home specialist verifies the location is approved by the local zoning office before proceeding [S2].\n3. **Packet and fee.** The county adult home specialist submits the packet with the $350 licensure fee [S2].\n4. **Initial license and first survey.** The initial license runs six months, and a survey is conducted around four months after issuance before a full license [S1][S2].\n5. **Renew annually** with the $315 renewal fee on the FCH renewal application [S2]. The statutory fee for homes with six or fewer beds is also $315 [S6].\n6. **Background checks.** The state criminal result can take up to about 2 weeks and the FBI check up to 12 weeks [S2].\n\nWhether CON applies to FCHs was not verified. Ask ACLS before committing to a site.\n\n### Administrator certification\nACH administrators must meet G.S. 90-288.14 and be at least 21. The route is a 120-hour Administrator-in-Training program (at least 20 hours of coursework plus at least 100 on-the-job hours), with qualification on education or on 60 months of supervisory experience (or a combination) [S8]. Fees: exam $50, SBI check $14 or $38 with the FBI report, and a $30 renewal with 30 CE hours every two years after the first renewal [S8]. ACLS announced that paper applications and payments for administrator testing end September 25, 2026, in favor of an online test. The cited page is on a test subdomain, so confirm on the production site [S10]. Family care home administrators receive an approval with no renewal fee [S8].\n\n### Other filings\nA licensee closing a home gives DHSR, county DSS and residents at least 30 days' notice [S11]. If you enroll as a Medicaid provider, NC charges a $100 application fee on enrollment, re-enrollment and revalidation [S41][S42], and the federal CY2026 institutional fee is $750 [S40]. Which apply to an ACH was not confirmed.",
+    "reimbursement": "North Carolina pays for assisted living through three channels, and they behave very differently in the financial model.\n\n### 1. Private pay (the main revenue source in the model)\nThe CareScout 2025 NC median is $6,496/month ($77,955/yr), from provider-reported rates collected July–November 2025 and published March 2026 (secondary summary) [S44]. The national median is $6,200/month [S45]. An older Genworth 2024 NC figure of $5,769/month is a different survey year and is not comparable [S46]. The survey measures a private one-bedroom unit in an assisted living community. A shared-room 6-bed family care home may price below it.\n\n### 2. State/County Special Assistance (SA)\n- SA is the channel for room and board. A facility must agree to accept the state rate for SA residents [S33].\n- Rates (2026): a secondary guide lists a maximum charge of $1,397/month in a regular adult care home and $1,792 in a dementia special care unit [S35]. The official SCU brochure confirms $1,792 [S30]. The Enhanced Maintenance Amount is $1,862, which adds the $70 personal needs allowance [S29]. The official SA In-Home basic rate is also $1,397 and the enhanced rate is $1,792 [S31]. The SA In-Home payment is capped at 100% of what the person would receive in an SA facility [S34]. The ACH-specific official table for the regular-home figure was not retrieved.\n- The 2026 federal benefit rate that anchors the SA formula is $994/month [S29].\n- SA is funded 50% by counties and 50% by the state [S32]. SA beneficiaries are automatically eligible for Medicaid [S32].\n- The resident keeps a $70/month personal needs allowance on top of the maximum rate [S31]. It is not facility revenue.\n- The model treats $1,397 as the revenue per SA resident-month for a regular ACH or FCH. How that amount splits between the resident's own income and the SA payment was not verified.\n\n### 3. Medicaid personal care services (PCS)\n- NC Medicaid applied an 18% increase to current rates for applicable PCS codes effective 2026-08-01. State Plan PCS code 99509 (modifiers HA/HB) moved from $5.96 to $7.03 per unit [S23]. For 99509 with modifiers HC, HH, HI, HQ, SC or TT, the daily per diem is the fee schedule rate times the beneficiary's total pre-approved units [S23].\n- The increase is funded by $70.8 million in recurring state funds (S.L. 2026-41, Senate Bill 257, §9E.15) [S23].\n- Standard and Tailored Plans have 45 calendar days to load the new rates and 30 more days to reprocess claims back to 2026-08-01 [S23]. One plan said providers could bill $7.03 starting 2026-08-04 [S24]. Fee schedules are posted at ncdhhs.servicenowservices.com/fee_schedules [S23].\n- **Medicaid never pays room and board** [S35]. It can help pay for care delivered in a licensed adult care home [S35].\n- **Unverified:** how an ACH itself bills PCS (code, modifier or per-diem), the unit length, units per resident, utilization, and the fee-for-service versus managed-care routing. For that reason **no configuration counts PCS as revenue**. If an ACH can bill it, it is upside.\n\n### CAP/DA is not an ACH payer\nCAP/DA is a 1915(c) waiver [S37], and participants cannot reside in an ACH or FCH [S36]. NC Medicaid began placing CAP/DA applicants on a waitlist on 2024-02-16, with a capacity of 11,648 slots at the time [S38]. The 2026 slot count after the October 2024 renewal was not retrieved.\n\n### EVV\nNC Medicaid's EVV requirement covers in-home PCS under the state plan, 1915(c) waivers and 1115 programs [S25]. Providers should capture EVV data electronically at least 85% of the time, with manual entries kept to 15% or less, and manual entries do not by themselves deny a claim [S26]. NCDHHS selected Sandata as the state aggregator in 2020 [S28]. A vendor page says EVV is not required for adult care homes [S27]; this is unconfirmed on NC Medicaid pages, so ask NC Medicaid before assuming an exemption.\n\n### Cost reporting\nSpecial Assistance and exempt facilities file an Adult Care Cost Report, with the next one due September 30, 2027. For facilities with 7 or more beds, an agreed-upon procedures (AUP) report is no longer required starting on or after July 1, 2026, per S.L. 2026-41 [S47].",
+    "demand": "**Population.** NCDHHS's 2025 estimates put the 65-and-older population at 2,038,854, or 18% of the state, projected to reach 2,996,376 (21%) by 2050, an increase of 47%. The 85-and-older population is 186,398 in 2025 and is projected to reach 509,848 by 2050, an increase of 174% [S62]. An earlier NCDHHS plan projected the 65+ population growing from 1.9 million in 2022 to about 2.8 million in 2042 [S63]. About 211,000 North Carolinians aged 65 and older are projected to be living with Alzheimer's in 2025 [S62]. Demand for memory-care capacity is therefore real, though special care unit requirements were not researched.\n\n**Supply is capped by CON, not only by demand.** More than 1,200 adult care homes operate in the state [S16], and DHSR publishes separate ACH and FCH listings updated 07/30/2026 [S17]. New ACH beds can be developed only through CON in counties with a scheduled review [S1]. The final 2026 bed-need numbers by county were not retrieved; a secondary source says the proposed plan had need determinations in only Halifax and Perquimans counties [S19]. One pending project shows the scale of a new build. A CON was filed to relocate 64 memory-care beds from Castle Creek Memory Care to develop The Landings of New Hanover in Wilmington, expected to cost $12.9 million and finish in October 2030 [S20]. That works out to roughly $200,000 per bed (derived). It is a single, memory-care project, not a benchmark for a small conversion. Because bed supply is limited, buying an existing licensed home is often the practical way in.\n\n**Referral flow.** County DSS agencies monitor facilities at least quarterly [S14] and administer Special Assistance [S33], so DSS relationships matter for SA admissions. Referral-source shares (hospital discharge, DSS, family and placement agencies) were not found and are not claimed.\n\n**What waitlists do and do not tell you.**\n- The CAP/DA waiver has been waitlisted since 2024-02-16 [S38], and a secondary source says all 11,648 slots are filled [S39]. Waitlists are set county by county [S36]. But CAP/DA participants cannot live in an ACH or FCH [S36], so this waitlist is not an ACH referral pipeline.\n- SA In-Home competes for the same SA-eligible people. Enrollment may expand up to 15% of the statewide SA caseload [S34], and a consumer guide says it has had no waitlist since the 2021 cap removal (unverified on a primary page) [S35]. Residents who could otherwise move to an ACH may be supported at home.\n- No official waitlist, occupancy or SA caseload figures for ACHs or FCHs were found.",
+    "operations": "### Staffing rules to build the schedule around [S9]\n- **7–20 residents:** at least one designated staff member per shift to provide personal care and supervision.\n- **7–12 residents:** at least one staff member on duty and awake at all times if any resident is disoriented or has wandering behavior. An administrator or manager must be in the facility, or within 500 feet with two-way telecommunication, at all times.\n- **21–40 residents:** 16 aide duty hours on the first and second shifts. Third-shift hours vary by census.\n- **31 or more:** a Personal Care Aide Supervisor.\n- **81 or more:** an administrator on duty at least 8 hours a day, 5 days a week.\n- **Manager:** DHSR replaced 'Administrator in Charge' with 'Manager' in the readopted staffing rules effective September 1, 2024. A manager must be 21 or older, hold a high school diploma or GED, and earn 12 hours of CE a year on ACH management or care of the elderly and disabled.\n- **CPR:** at least one staff person on the premises at all times must have completed a CPR and choking-management course within the last 24 months [S12].\n\nThe 13G family care home staffing rules were not retrieved. The 6-bed model uses one awake aide around the clock (730 hours/month) plus an owner-administrator and a part-time nurse consultant, all labeled operator estimates. Confirm against 10A NCAC 13G before opening.\n\n### Staffing in each model\n- **6-bed FCH:** 730 aide hours/month, owner-administrator, and 17.3 nurse-consultant hours/month.\n- **12-bed ACH:** 730 awake/manager-qualified hours, a second aide for 486.7 hours (days and evenings), administrator, 34.7 nurse hours, 173.3 cook hours and 86.7 housekeeping hours.\n- **20-bed ACH:** 1,216.7 aide hours (above the one-per-shift minimum), administrator, 69.3 nurse hours, a 1.5 FTE cook, one housekeeper and one activities coordinator.\n\nBeyond the verified rules above, hours are operator choices. No statutory resident-to-staff ratio was found for 7–12 residents beyond those rules.\n\n### Administrator\nCertification requires the 120-hour AIT program, age 21 or older, and a background check [S8]. Start AIT early, because the administrator must be in place for the pre-licensing survey. The model prices the administrator at the NC all-occupation median wage of $47,970 [S58]. That is a floor, not an NC administrator wage, and it doubles as the owner's draw in owner-operated homes.\n\n### Required systems and compliance\n- **Care documentation / eMAR:** modeled at $250/month, an operator estimate.\n- **EVV:** applies to in-home PCS [S25]. The statement that ACHs are exempt rests on a vendor page [S27], so confirm before relying on it.\n- **Cost report:** SA facilities file the Adult Care Cost Report, next due 2027-09-30 [S47].\n- **Star rating and renewals:** DHSR announced rule changes to the N.C. Star Rated Certificate Program effective 2025-08-01 and a memo on the 2026 renewal application [S15]. Watch ACLS announcements [S15].\n- **Training budget:** the model carries $150/month for CE, CPR and background checks [S8][S9][S12].\n\n### Employer obligations\n- NC unemployment insurance: new-employer rate 1% on the first $34,200 of wages per employee in 2026 [S48].\n- Workers' compensation: required for most businesses with three or more employees [S54]. The class-code rate for adult care homes was not retrieved, and the 4% modeled is an operator estimate.\n- A secondary guide says E-Verify is mandatory at 25 or more employees [S61]. Part-time staffing in a 20-bed home can approach that count, so check headcount.\n- Minimum wage is $7.25, with no local minimum and no scheduled increase [S49][S50]. All modeled wages are well above it.\n- The NC LLC annual report is due April 15, $200 paper or $203 online [S52][S53].",
+    "market_conditions": "**Pricing.** NC private-pay assisted living is $6,496/month at the CareScout 2025 median, above the $6,200 national median [S44][S45]. Both are secondary summaries. The older Genworth 2024 NC figure of $5,769 is from a different survey year [S46]. None of these measures a shared-room family care home, which may price lower. Special Assistance residents pay far less, at up to $1,397/month in a regular ACH and $1,792 in a special care unit [S30][S35]. The gap between private pay and SA is about $5,099 per resident-month (derived). That spread drives the whole financial model.\n\n**Supply.** More than 1,200 ACHs operate [S16]. New beds require CON in counties with a scheduled review [S1], which limits new entrants and makes existing licensed homes the usual entry point. CON for a project can take years: one pending 64-bed relocation lists a $12.9 million cost and an October 2030 completion [S20]. The 2026 State Medical Facilities Plan took effect 2026-01-01 [S18].\n\n**Wages (May 2025 unless noted).**\n- NC all-occupation median: $47,970 per year [S58].\n- NC median nursing assistant: $38,460 per year, or $18.49/hour, against $20.32 nationally (secondary, citing BLS OEWS) [S59].\n- NC median LPN: $63,270 per year (secondary, citing BLS OEWS) [S60]. The model converts this at 2,080 hours to $30.42/hour.\n- Raleigh-Cary group means: food preparation and serving $16.61, building and grounds cleaning and maintenance $18.92, personal care and service $19.29, management $71.52 [S57].\n\nThe NC state-level BLS medians for RNs, administrators, cooks and aides were not retrieved. Cook, housekeeping and activities wages in the model use Raleigh metro group means, not statewide occupation medians, so they mix geographies with a statewide private-pay price. They may overstate or understate wages outside the Triangle.\n\n**Cost trends.**\n- NC Medicaid raised PCS rates 18% effective 2026-08-01 [S23].\n- NCRB workers' compensation loss costs fell an average of 7.8% effective 4/1/2026, and a further filing was approved for 4/1/2027 [S55][S56].\n- A 2026 law effective July 1, 2026 directs the Medical Care Commission to amend respite-care rules for ACHs and FCHs as needed [S21].\n- Senate Bill 863 (text dated 2026-04-29) proposes to streamline ACH inspections; its enactment status is unverified [S22].\n\n**Not found:** rent or purchase benchmarks for adult care home buildings, HUD fair market rents for NC metros, occupancy rates, and any NC-specific insurance benchmark. Building and insurance costs in the model are operator estimates.",
+    "financial_narrative": "### How the model is built\nEach configuration computes revenue per resident-month from the rate lines and payer mix, then multiplies by occupied beds. Staffing follows the verified rules plus labeled operator choices, with a payroll burden of 18% (9% payroll taxes, 4% workers' compensation, 5% benefits) [S48][S54]. Rent, utilities base load and maintenance are fixed and sized per licensed bed ($600, $80 and $40 per bed per month), so vacant beds still cost money. DHSR renewal, the LLC annual report, software, accounting, marketing, training, phone/IT and transportation are fixed. Food, per-resident utilities, insurance, supplies and activities scale with census. All per-bed building costs, insurance, supplies and software are **operator estimates — verify locally**, because no NC benchmark was retrieved.\n\nThe default occupancy is 88%, with 80% conservative and 95% optimistic. These are planning assumptions, not sourced NC figures, since no NC ACH or FCH occupancy was found.\n\n### Results at 88% occupancy\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 20-bed ACH, 75% private / 25% SA (default) | $19,823 | 21.6% | 66.9% | Month 8 | $372,475 |\n| 12-bed ACH, 100% private | $14,844 | 21.6% | 67.3% | Month 5 | $190,580 |\n| 6-bed FCH, 100% private | $4,281 | 12.5% | 76.1% | Month 6 | $92,806 |\n| 6-bed FCH, 4 private / 2 SA | −$4,693 | −18.5% | 106.3% | Never | $260,727 |\n| 20-bed ACH, 40% private / 60% SA | −$11,586 | −19.2% | 107.8% | Never | $817,706 |\n\nCash needed includes startup costs and the modeled ramp-up deficit. It does **not** include a CON, a purchase price, building acquisition or debt service.\n\n### What drives the result\n**1. The private-pay price.** The 20-bed default earns a blended $5,221 per resident-month (75% × $6,496 + 25% × $1,397). Every private resident replaced by an SA resident removes about $5,099 of monthly revenue. Moving the 20-bed home from 25% to 60% SA at 88% occupancy shifts about 6.2 residents and about $31,400 per month, which turns +$19,823 into −$11,586. Costs barely change, because staffing is set by the rules and by operator choice, not by payer.\n\n**2. Whole residents, not percentages.** Break-even occupancy of 76.1% in a 6-bed home is about 4.6 residents. In practice the home needs 5 of 6 beds filled to be in profit, and 4 residents loses money. The 12-bed home needs about 9 residents (67.3% × 12 ≈ 8.1) and the 20-bed default about 14 (66.9% × 20 ≈ 13.4). One discharge matters far more in a small home.\n\n**3. Fixed building cost.** The $600-per-bed rent and per-bed utilities and maintenance are fixed and unsourced. Each $100 per bed per month change in rent moves the 20-bed model by about $2,000/month and the 12-bed by about $1,200 (derived).\n\n**4. Wages.** The administrator is priced at the NC all-occupation median of $47,970 [S58]. This is a floor, not an NC administrator wage. Every $10,000 added to the administrator salary costs roughly $11,800 a year with the 18% burden, about $1,000/month. NC has no local minimum wage above the state's $7.25 [S49][S50], so no metro wage adjustment is needed to stay legal. Aide wages use the NC median nursing assistant wage of $18.49 [S59], while cook, housekeeping and activities wages use Raleigh-Cary group means [S57]. Check wages in your own county.\n\n### Sensitivities (private fee lower than the $6,496 benchmark; costs held constant)\nThese are derived from the model's resident counts at 88% occupancy, not additional model runs.\n- **$500 lower private fee:** the 20-bed default falls by about $6,600/month to about $13,200; the 12-bed by about $5,300 to about $9,500; the 6-bed FCH by about $2,600 to about $1,600.\n- **$1,000 lower private fee:** the 20-bed falls to about $6,600 and the 12-bed to about $4,300, and the 6-bed FCH turns negative at about −$1,000/month.\n- **Break-even private fee at 88% occupancy:** about $5,685 for the 6-bed FCH, about $5,090 for the 12-bed and about $4,990 for the 20-bed default. The older Genworth 2024 NC figure of $5,769 is not comparable to the CareScout 2025 median [S46] but sits just above the 6-bed break-even. This shows how little cushion the 6-bed model has if its shared-room price lands below the benchmark.\n- **Occupancy:** the 6-bed FCH is profitable at 80% occupancy only about 4 points above its 76.1% break-even. At 88% it earns $4,281. Treat the 80% case as the planning case for a 6-bed home.\n\n### What Special Assistance needs to work\nAt 88% occupancy, the 6-bed FCH with 2 SA residents would need roughly $2,700 more revenue per SA resident-month (about $4,060 total instead of $1,397) just to break even. The 20-bed home with 60% SA would need roughly $1,100 more per SA resident-month (about $2,500 total). Medicaid PCS at $7.03 per unit [S23] is the only verified add-on, and how an ACH bills it, the unit length and the units per resident are all unverified. The model therefore treats PCS as unproven upside and **does not** show these SA-heavy homes as profitable.\n\n### What the model does not include\n- CON preparation and fees, purchase price or building acquisition, and debt service. If the operator owns the building, a mortgage replaces the $600-per-bed rent line.\n- The DHSR plan-review fee, which DHSR invoices separately [S1].\n- Medicaid PCS revenue.\n- Income taxes, and any NC franchise tax. The franchise tax line is a $0 placeholder, because applicability was not verified.\n\n### Path to profit\nThe honest picture is that **private-pay revenue funds the home, and Special Assistance is a minority hedge**. The two profitable multi-resident models (12 and 20 beds) both stay at or below 25% SA. The 12-bed home reaches profit fastest (month 5) and needs the least cash, but it is entirely private-pay and entirely dependent on the $6,496 benchmark holding. The 20-bed default makes more dollars and has more break-even cushion, at about 67% against 88%. It needs a CON or an existing licensed home, I-2 building standards at 13 or more residents [S11], and about twice the cash.",
+    "risks": "**Regulatory and market-entry risk**\n- *CON:* No new ACH beds without a CON, only in counties with a scheduled review, with a 150-day decision window [S1]. A denied or delayed CON can strand a lease or purchase deposit. Do not sign a lease before the CON or acquisition is certain. The CON application fee and the review schedule were not retrieved.\n- *CON for FCHs:* Unverified. Confirm with ACLS before committing to a site.\n- *Fee ambiguity:* The initial ACH fee is $400 + $19 per bed on the DHSR page [S1], but the G.S. 131D-2.5 schedule on DHSR forms differs [S6]. Get the amount from ACLS in writing. The plan-review fee is invoiced separately [S1].\n- *Rule changes:* The staffing rules were readopted effective 2024-09-01 [S9]. A 2026 law directs respite-care rule amendments [S21], and Senate Bill 863 proposes inspection changes, with enactment unverified [S22]. A star rating program rule change took effect 2025-08-01 [S15].\n- *Administrator testing:* The change to online-only testing after 2026-09-25 is confirmed only on a test subdomain [S10].\n- *Change of licensee and closure:* Both require 30 days' notice [S3][S11], and a buyer must be licensed before operating.\n\n**Payer risk**\n- *Special Assistance cap:* The state sets the maximum facility charge for SA residents, and the home must accept it [S33]. At about $5,099 less per resident-month than private pay, a high SA share turns the models negative (the 20-bed 60% SA home loses about $11,586/month).\n- *SA rate source:* The regular-ACH maximum of $1,397 comes from a secondary guide [S35]. Confirm the current amount with your county DSS.\n- *County funding:* SA is funded 50% by counties [S32]. County processing and local practice were not researched.\n- *PCS:* How ACHs bill PCS was not confirmed. The 18% increase is funded by recurring state appropriations [S23], but plans load rates on a 45-day plus 30-day schedule [S23], and negotiated managed-care rates are not public.\n- *SA In-Home diversion:* SAIH pays up to the facility-equivalent rate to people living at home [S31][S34], which may reduce SA referrals to homes.\n- *CAP/DA:* Not available to ACH/FCH residents [S36].\n\n**Pricing and census risk**\n- The $6,496 median is a secondary summary of a survey of private one-bedroom units [S44]. Small shared-room homes may price lower. At a $1,000 lower fee the 6-bed FCH loses money.\n- Small homes swing hard on one vacancy. A 6-bed home needs 5 beds full.\n- The 88% default occupancy is an assumption, not an NC figure.\n\n**Cost and staffing risk**\n- Rent, utilities, insurance, supplies and software are operator estimates. No NC insurance minimum was found, but lenders and landlords usually require coverage.\n- Building class rises with size: 13+ residents must meet I-2 Institutional code for new construction and renovations [S11], which raises capital cost for the 20-bed model.\n- Administrator pay is modeled at a floor [S58]. A certified administrator or manager is required at all times in a 7–12 bed home (on site or within 500 feet) [S9].\n- Wages use statewide and Raleigh-metro benchmarks that may not match your county [S57][S59].\n- Workers' compensation class rates for adult care homes were not retrieved; the 4% is an estimate [S54][S55].\n\n**Compliance risk**\n- Failing the CPR/choking requirement (one trained staff member on premises at all times) is a licensing deficiency risk [S12].\n- Cost-report filing obligations apply to SA facilities (next due 2027-09-30) [S47].\n- EVV status for ACHs is unconfirmed [S25][S27].\n\n**Data limits**\nOccupancy, bed counts, SA caseload, waitlists, referral shares, competitor names and market shares were not found in public sources and are not claimed. Several quotes came from search excerpts rather than full-page fetches and should be rechecked on the live pages before publication.",
+    "recommendations": "**1. Choose the entry route first, because it decides everything else.** The profitable ACH models assume you already hold licensed beds. Decide between (a) a CON application in a county with a scheduled review (150-day decision; CON before the license application) [S1][S3], or (b) buying an existing licensed home (30 days' notice of change of licensee) [S3]. Check the final 2026 State Medical Facilities Plan for need in your target county before planning around a CON [S18]. For most operators, an acquisition avoids CON risk, but the purchase price and debt service are not in this model, so model them before you sign.\n\n**2. Pick the configuration that matches your capital.**\n- *Most robust and highest cash (the default):* a 20-bed ACH with about 75% private pay and 25% Special Assistance. It nets about $19,823/month at 88% occupancy and breaks even at about 66.9%, but needs about $372,475 and reaches profit in month 8.\n- *Fastest and leanest ACH:* a 12-bed, all-private ACH. It nets about $14,844/month, breaks even at about 67.3%, reaches profit in month 5, and needs about $190,580. It sits in the Large Residential Care building class (7–12 residents) rather than I-2, which applies at 13 or more [S3][S11].\n- *Lowest capital, thinnest margin:* a 6-bed family care home, all private pay and ideally owner-operated. It nets about $4,281/month, breaks even at about 76.1%, and needs about $92,806. It works only if you hold 5 of 6 beds and can price at or near the benchmark.\n\n**3. Cap Special Assistance at about one quarter of beds, and do not take it in a 6-bed home.** The SA-heavy models both lose money at 88% occupancy [S35]. Mixing 2 SA residents into a 6-bed home loses about $4,693/month. If you take SA residents, do it deliberately, in a larger home with a private-pay base. Before counting any Medicaid PCS, ask NC Medicaid and the managed-care plans whether and how an ACH bills it, in what units, and at what volume [S23].\n\n**4. Test your price before you commit.** Gather three to five local comparables for shared and private rooms, and compare them with the $6,496 CareScout median [S44]. If your achievable fee is below about $5,700, the 6-bed FCH does not work, and below about $5,100 the 12-bed does not. Use the break-even fees in the financial narrative as your go/no-go line.\n\n**5. Run the licensing sequence in order.**\n1. Form the LLC [S51].\n2. Confirm local zoning (and, for an FCH, start with the county DSS adult home specialist) [S2][S3].\n3. Obtain CON or complete acquisition steps [S1][S3].\n4. Pay the DHSR plan-review invoice and complete construction review, then fire, sanitation and occupancy approvals [S1][S3].\n5. Submit the application with the initial fee [S7], and confirm the fee amount with ACLS in writing.\n6. Pass the pre-licensing survey and receive the six-month initial license [S1][S3].\n7. Calendar the follow-up survey, with an FCH survey about four months after the initial license [S2].\n\n**6. Get the administrator started early.** Enroll in the 120-hour AIT program, complete the background check (the FBI check can take up to 12 weeks) and take the online exam [S2][S8][S10]. Confirm the testing change on the production DHSR site.\n\n**7. Staff to the rules, then to your census.** Meet the awake-staff, manager-within-500-feet and one-designated-staff-per-shift rules for 7–12 residents [S9]. Keep the 20-bed home under the 21-resident aide-hour tier unless the extra residents justify the added hours [S9]. Keep one CPR-trained person on premises at all times [S12]. Confirm 10A NCAC 13G staffing before finalizing an FCH schedule.\n\n**8. Resolve the open items before you spend.**\n- Ask ACLS: the initial fee, whether CON applies to a 2–6 bed home, and any 2026 changes to the physical-plant rules.\n- Ask your county DSS: current SA maximum, referral process and payment timing.\n- Ask your insurance broker for a quote, since no minimum was found in the rules reviewed.\n- Ask a CPA: franchise tax applicability and entity structure.\n- Ask NC Medicaid: enrollment fees by provider type, EVV status and PCS billing for ACHs.\n\n**9. Plan cash for the ramp.** The cash figures include ramp-up deficits: $92,806, $190,580 and $372,475 for the three profitable models. Add the CON or purchase cost, plan-review fee and a cushion beyond the modeled 3–6 month working capital. Do not open without that reserve."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — STRATEGY & PATHWAY SELECTION",
+      "priority": "CRITICAL",
+      "task": "Choose your license category: Family Care Home (2–6 beds) or Adult Care Home (7+ beds)",
+      "instructions": "NC licenses two categories through DHSR's Adult Care Licensure Section (ACLS). A family care home (FCH) has 2–6 residents and falls under 10A NCAC 13G. An adult care home (ACH) has 7 or more residents and falls under 10A NCAC 13F. Both are licensed under G.S. Chapter 131D. Your choice sets the entry route (county DSS for an FCH, CON for new ACH beds), the building code, the staffing rules and the fees.",
+      "cite": "10A NCAC 13F .0206; 10A NCAC 13G .0206; G.S. 131D",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — STRATEGY & PATHWAY SELECTION",
+      "priority": "CRITICAL",
+      "task": "Review the bundle financial model and pick a configuration that clears break-even",
+      "instructions": "Open the Pro Forma P&L. At the default occupancy the model shows: 20-bed ACH at 75% private pay / 25% Special Assistance, net about $19,823/month, break-even occupancy 66.9%, first profit month 8, cash needed about $372,475. 12-bed ACH at 100% private pay, net about $14,844/month, break-even 67.3%, first profit month 5, cash needed about $190,580. 6-bed FCH at 100% private pay, net about $4,281/month, break-even 76.1%, first profit month 6, cash needed about $92,806. The 6-bed FCH with 2 Special Assistance residents and the 20-bed ACH at 60% Special Assistance both lose money in the model. Replace the operator-estimate lines (rent, utilities, insurance) with local quotes before committing capital.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 1 — STRATEGY & PATHWAY SELECTION",
+      "priority": "CRITICAL",
+      "task": "Decide your payer mix and whether you will accept State/County Special Assistance (SA) residents",
+      "instructions": "A facility must agree to accept the state SA rate to receive SA residents. The 2026 SA maximum is $1,397/month in a regular ACH (secondary guide, matching the official SA-In-Home basic rate) and $1,792/month in a special care unit. The resident keeps a $70 personal needs allowance on top. SA is funded 50% state and 50% county, and SA recipients are automatically eligible for Medicaid. Medicaid never pays room and board. Heavy SA mixes lose money in this model, so cap SA beds to what your fixed costs can absorb.",
+      "cite": "NC DHHS SA ACH page; SA Manual rev. June 2026",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 1 — STRATEGY & PATHWAY SELECTION",
+      "priority": "MEDIUM",
+      "task": "Decide whether to serve memory-care (Alzheimer's/dementia) residents in a special care unit",
+      "instructions": "SA pays a higher room-and-board cap in an ACH special care unit: $1,792/month in 2026, with an Enhanced Maintenance Amount of $1,862 that includes the $70 allowance. The 2026 SMFP Policy LTC-3 covers certification of beds for Special Assistance. The special care unit licensing and construction requirements were not researched for this bundle, so ask ACLS before you design the building. About 211,000 North Carolinians 65+ are projected to live with Alzheimer's in 2025.",
+      "cite": "SA SCU brochure 2026; EFS-SA-CN-01-2026; 2026 SMFP Policy LTC-3",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 1 — STRATEGY & PATHWAY SELECTION",
+      "priority": "HIGH",
+      "task": "Validate local demand and supply in your target county",
+      "instructions": "DHSR publishes separate Adult Care Home and Family Care Home listings (updated 07/30/2026, XLSX). Download them and count licensed homes and beds in your county. NCDHHS reports more than 1,200 adult care homes statewide. The 65+ population is about 2.04 million (18%) in 2025, projected to reach about 3.0 million by 2050, and the 85+ population is projected to grow from about 186,000 to about 510,000. County-level occupancy and waitlist data are not published in the sources reviewed, so call local homes, hospital discharge planners and county DSS.",
+      "cite": "DHSR Licensed Facilities listings; NC DHHS Insights Into Aging",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 1 — STRATEGY & PATHWAY SELECTION",
+      "priority": "HIGH",
+      "task": "Read the NC DHSR overview of adult care home regulation and the licensing pages for your category",
+      "instructions": "Read the ACLS overview page, the 'License an Adult Care Home' page and the 'License a Family Care Home' page in full before spending money. Note that several quotes in this bundle came from search excerpts, so recheck them on the live pages. Free; about 2 hours.",
+      "cite": "DHSR ACLS overview; floadult.html; flofch.html",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form your legal entity (NC LLC)",
+      "instructions": "File Articles of Organization with the NC Secretary of State. A secondary source puts the fee at $125 online or by mail. Use the exact entity name on every DHSR, county, NCTracks and insurance filing, because the licensee named on the application is the entity that holds the license.",
+      "cite": "NC Secretary of State (via Bizreport)",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN and open a business bank account",
+      "instructions": "Apply for an EIN online at irs.gov. You need it for payroll, the bank account, NC DES registration and NCTracks. Keep operating funds separate from personal funds from day one.",
+      "cite": "IRS",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the NC LLC annual report",
+      "instructions": "The annual report is due April 15 every year after the year of formation. Secondary sources citing the Secretary of State put the fee at $200 on paper or $203 online by card. An LLC ordinarily becomes eligible for administrative dissolution when the report is 60 days late, followed by notice and a 60-day cure period. Reinstatement costs $100 (secondary source). Confirm amounts on sosnc.gov.",
+      "cite": "NC Secretary of State (via Ezel / State Business Compliance)",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Confirm entity-level tax and local business license obligations with a CPA",
+      "instructions": "Whether NC franchise tax applies to your operating entity was not verified. City and county business license fees (Charlotte, Raleigh, Greensboro and others) were not researched. Ask your CPA and your city/county clerk, and replace the $0 franchise-tax placeholder in the P&L with the confirmed figure.",
+      "cite": "Not verified — see report 'not claimed'",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Engage a healthcare attorney and an accountant familiar with adult care homes",
+      "instructions": "Have the attorney review the lease or purchase contract, resident admission agreements, and any CON or acquisition documents. Have the accountant set up the chart of accounts and the Adult Care Cost Report process (see Phase 8). Budget for this in the P&L; the model carries $400/month for accounting, payroll service and legal as an operator estimate.",
+      "cite": "Operator task",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "CRITICAL",
+      "task": "Confirm that new ACH beds require a Certificate of Need (CON)",
+      "instructions": "DHSR states that no one may develop new adult care home beds without a CON. All CON requirements must be met before the license application is submitted for a facility not yet licensed. Call the CON Section at 919-855-3873 to confirm your plan.",
+      "cite": "DHSR ACLS License an ACH; 10A NCAC 13F .0204",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "CRITICAL",
+      "task": "Check whether your county has a scheduled CON review and a bed need determination",
+      "instructions": "CON applications are accepted only for proposed beds in a county where DHSR has scheduled a review. The 2026 State Medical Facilities Plan (effective January 1, 2026) governs need. A secondary source says the Proposed 2026 SMFP listed need determinations only in Halifax and Perquimans counties. That is a proposed-plan statement, not a confirmed final need number. Check the final SMFP and the CON Section's review schedule for your county.",
+      "cite": "DHSR ACLS License an ACH; 2026 SMFP",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "HIGH",
+      "task": "Review SMFP Policy LTC-3 (Certification of Beds for Special Assistance)",
+      "instructions": "The 2026 SMFP includes this policy for CON applicants proposing new beds under a need determination. Read it before drafting an application and decide how many beds you will certify for SA.",
+      "cite": "2026 SMFP, Policy LTC-3",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "HIGH",
+      "task": "Prepare and file the CON application and plan for the 150-day decision window",
+      "instructions": "A decision to approve or disapprove is made within 150 days of the beginning of the designated review period. The CON application fee amount was not found in the sources reviewed, so request it from the CON Section (919-855-3873). Budget for consultants and legal support; this cost is not in the P&L.",
+      "cite": "DHSR ACLS License an ACH",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "HIGH",
+      "task": "Alternative route: evaluate buying an existing licensed home instead of seeking a CON",
+      "instructions": "The practical alternative to a CON is acquiring an existing licensed home. A licensee selling a home must give written notice to DHSR, county DSS and residents at least 30 days before the planned change of licensee. Ask ACLS exactly what the incoming licensee must file. The licensed capacity of an ACH must comply with the CON issued to the facility, so confirm the seller's licensed bed count and CON status in diligence.",
+      "cite": "10A NCAC 13F .0207; 13F .0206",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "MEDIUM",
+      "task": "Benchmark capital scale against recent CON filings",
+      "instructions": "One example: a CON application to relocate 64 memory-care beds to develop The Landings of New Hanover in Wilmington was reported at $12.9 million with completion expected in October 2030. This is a secondary news source and the project is much larger than the models here. Use it only to understand how long and how capital-intensive new-bed development can be.",
+      "cite": "WECT, 2026-03-06",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 3 — CERTIFICATE OF NEED & ENTRY ROUTE (ACH)",
+      "priority": "HIGH",
+      "task": "Family care homes (2–6 beds): ask ACLS whether CON applies and confirm your entry point",
+      "instructions": "The sources reviewed cover CON for adult care home beds only. Whether CON applies to 2–6 bed family care homes was not verified. Initial contact for an FCH should be made with the adult services section of your local county DSS. Ask the adult home specialist directly and confirm in writing.",
+      "cite": "DHSR ACLS License a Family Care Home",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "CRITICAL",
+      "task": "Obtain local zoning approval for the site before committing to a lease or purchase",
+      "instructions": "An adult care home must be in a location approved by local zoning boards. For FCHs, the county adult home specialist verifies that the location is approved by the local zoning office before proceeding. Distance, density and use-classification rules were not researched, so call the planning department of the city or county with the specific address.",
+      "cite": "10A NCAC 13F; DHSR ACLS License a Family Care Home",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "CRITICAL",
+      "task": "Identify the NC State Building Code section that applies to your resident count",
+      "instructions": "FCHs with four to six residents must meet the NC State Building Code Licensed Residential Care Facilities section. Facilities with seven to twelve residents must meet the Large Residential Care Facilities section. Facilities housing 13 or more residents must meet I-2 Institutional occupancy for new construction and renovations. The I-2 requirement raises capital cost, so price it before choosing a 13+ bed building.",
+      "cite": "10A NCAC 13G; 10A NCAC 13F; DHSR ACLS Facility Licensure Information",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "CRITICAL",
+      "task": "Submit plans to the DHSR Construction Section and pay the plan-review invoice",
+      "instructions": "Construction plan review is invoiced by DHSR, and projects are not reviewed until the invoice is paid in full. The review fee amount is not stated on the pages reviewed, so ask the Construction Section (919-855-3893) for it and add it to your startup budget. Applies to new or renovated homes.",
+      "cite": "DHSR ACLS License an Adult Care Home",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "CRITICAL",
+      "task": "Schedule the local fire marshal inspection and obtain sanitation and occupancy approvals",
+      "instructions": "The ACH application requires an approved fire and building safety inspection report from the local fire marshal, submitted upon completion of construction or renovation. Sanitation and occupancy approvals are also part of the packet. Contact the local fire marshal and the county environmental health office early; approvals can delay your application.",
+      "cite": "10A NCAC 13F .0204",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "HIGH",
+      "task": "Get contractor quotes for fire, sprinkler, alarm and accessibility upgrades",
+      "instructions": "The model carries $5,000–$60,000 for fire and life-safety upgrades and $5,000–$50,000 for accessibility and physical-plant upgrades. Both are operator estimates. Get written quotes from a licensed fire-protection contractor and a general contractor, and replace the estimates.",
+      "cite": "Operator estimate; DHSR Facility Licensure Information",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "HIGH",
+      "task": "Confirm the status of any 2026 physical-plant rule readoption before finalizing design",
+      "instructions": "The status of 10A NCAC 13F/13G physical-plant rule readoption was not verified. Check the ACLS announcements page and the DHSR rules page for the version in effect on your application date.",
+      "cite": "DHSR ACLS Announcements; DHSR rules page",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & CONSTRUCTION REVIEW",
+      "priority": "HIGH",
+      "task": "Negotiate the lease or purchase with licensing contingencies",
+      "instructions": "The model carries rent as a fixed cost from day one at $600 per licensed bed per month, which is an operator estimate (no NC rent benchmark was retrieved). Make the lease contingent on zoning approval, CON (ACH), plan review and fire marshal approval. Vacant beds still cost rent, so negotiate a free-rent or reduced-rent period during licensing.",
+      "cite": "Operator estimate",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Confirm the administrator meets certification requirements (ACH)",
+      "instructions": "ACH administrators must meet the certification criteria under G.S. 90-288.14, and the applicant must be at least 21. Certification qualifies on education, or on supervisory experience: a minimum of 60 months of supervisory experience, or a combination of education and experience. Check the ACLS Administrator Certification page for the exact education and experience combinations.",
+      "cite": "G.S. 90-288.14; ACLS Administrator Certification Guidelines",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Complete the 120-hour Administrator-in-Training (AIT) program",
+      "instructions": "The program consists of at least 20 hours of coursework or study and at least 100 hours of on-the-job training. Allow roughly 3 or more weeks of full-time work, depending on your schedule. The AIT program cost is not stated in the sources reviewed and is not in the startup budget.",
+      "cite": "ACLS Administrator Certification Guidelines",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Submit the criminal background check for the administrator applicant",
+      "instructions": "The SBI criminal history fee is $14, or $38 if a federal FBI report is also required. Pay DHSR by money order or cashier's check. State results take about 2 weeks. The FBI check can take up to 12 weeks for NC residents under five years, so start this early.",
+      "cite": "ACLS Administrator Certification Guidelines; DHSR ACLS License a Family Care Home",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Register for and pass the administrator exam (online testing)",
+      "instructions": "The exam fee stays at $50. DHSR announced that starting September 25, 2026 it no longer accepts paper applications and payments for administrator testing, and testing moves online. The announcement was found on a test.ncdhhs.gov mirror, so confirm the current process on the production ACLS forms page.",
+      "cite": "ACLS Forms and Applications",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Family care homes: obtain administrator approval and confirm its training requirements",
+      "instructions": "FCH administrators receive an approval, not certification, and there is no fee to renew it. The FCH administrator training-hour requirements under 10A NCAC 13G were not verified, so ask the county adult home specialist or ACLS for the current requirements before you enroll in any course.",
+      "cite": "ACLS Administrator Certification Guidelines; 10A NCAC 13G",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Designate a qualified manager to run the home when the administrator is absent",
+      "instructions": "A manager must be at least 21 and hold a high school diploma or GED, and must earn 12 hours of continuing education a year on adult care home management or care of the elderly and disabled. DHSR replaced the 'Administrator in Charge' title with 'Manager' in the readopted staffing rules effective September 1, 2024. In 7–12 bed homes the administrator or manager must be in the facility or within 500 feet with two-way telecommunication at all times.",
+      "cite": "ACLS Joint Training May 2025 — Staffing of Licensed Adult Care Homes",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "MEDIUM",
+      "task": "Plan administrator renewal and continuing education",
+      "instructions": "Certified administrators renew with a $30 non-refundable fee (electronic check or debit card) and must complete 30 CE hours every two years after the first renewal. Put the renewal date on your compliance calendar.",
+      "cite": "ACLS Administrator Certification Guidelines",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & MANAGER QUALIFICATIONS",
+      "priority": "MEDIUM",
+      "task": "Ask ACLS about background-check requirements for owners, principals and affiliates",
+      "instructions": "Only administrator-applicant checks were verified in this research. Ask ACLS whether owners or other principals must also be checked, and what the cost and timeline are.",
+      "cite": "Not verified — see report 'not claimed'",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "CRITICAL",
+      "task": "Family care home: contact your county DSS adult home specialist to start the packet",
+      "instructions": "FCH applicants do not apply directly to ACLS; they start with the adult services section of the local county DSS. The specialist verifies local zoning approval before construction review proceeds and submits the packet to ACLS.",
+      "cite": "DHSR ACLS License a Family Care Home",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "CRITICAL",
+      "task": "Family care home: submit the initial licensure fee",
+      "instructions": "The FCH initial licensure fee is $350, submitted by the county adult home specialist with the packet. Confirm the payment method with your specialist.",
+      "cite": "DHSR ACLS License a Family Care Home",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "CRITICAL",
+      "task": "Adult care home: assemble the initial application (DHSR/AC 4603) packet",
+      "instructions": "The application materials include the initial license application, a bed capacity statement, plans, the construction review fee, and the fire, sanitation and occupancy approvals at completion. The initial application and fee are submitted to ACLS in Raleigh only after the construction review steps are complete. The initial fee must accompany the application.",
+      "cite": "10A NCAC 13F .0204; Initial Application DHSR/AC 4603",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "CRITICAL",
+      "task": "Adult care home: confirm which initial fee governs before you pay",
+      "instructions": "The DHSR licensing page lists a non-refundable initial fee of $400 plus $19 per bed (12 beds = $628; 20 beds = $780). The G.S. 131D-2.5 schedule quoted on DHSR forms gives $360 + $17.50 per bed annually for homes over six beds. The two conflict and the conflict is unresolved. The model uses the higher figure. Ask ACLS to confirm the exact amount in writing before you submit payment.",
+      "cite": "DHSR ACLS License an Adult Care Home; G.S. 131D-2.5 as quoted on DHSR forms",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "CRITICAL",
+      "task": "Make sure CON requirements are met and bed capacity matches the CON before submitting (ACH)",
+      "instructions": "Before submitting a license application for a facility not yet licensed, all CON requirements must be met under G.S. 131E, Article 9. The facility's bed capacity and services must comply with the CON issued to the facility. Attach your CON documents to the packet.",
+      "cite": "10A NCAC 13F .0204; 13F .0206",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "HIGH",
+      "task": "Prepare for the pre-licensing survey and the 14-day decision notice",
+      "instructions": "ACLS conducts a pre-licensing survey to confirm compliance. ACLS must notify the applicant and the county DSS in writing within 14 days from the decision to license or not to license. Have policies, staffing records, administrator documentation and the building ready before the survey.",
+      "cite": "10A NCAC 13F .0204",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "HIGH",
+      "task": "Understand the six-month initial license and the follow-up survey",
+      "instructions": "Initial licenses are issued for a six-month period, after which ACLS must inspect or survey the home. For family care homes, a survey is conducted around four months after the initial license is issued, and it is needed before a full license is granted. Plan your admissions and staffing so the home is compliant from the first day it opens.",
+      "cite": "DHSR ACLS License an ACH; DHSR ACLS License an FCH",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — LICENSE APPLICATION & SURVEYS",
+      "priority": "HIGH",
+      "task": "Ask ACLS when you may admit your first resident",
+      "instructions": "The rule text on when admissions may begin was not captured in the sources reviewed. Confirm with ACLS in writing that the license has been issued before you admit anyone, and do not market a start date that depends on licensing until the decision notice arrives.",
+      "cite": "Not verified — confirm with ACLS",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Build a staffing plan that meets the staffing rules for your census",
+      "instructions": "ACHs with 7–20 residents must have at least one designated staff member per shift to provide personal care services and supervision. For a census of 21–40 residents, 16 aide duty hours are required on first and second shifts (third-shift hours vary by census). Facilities with 31 or more residents must employ a Personal Care Aide Supervisor. Homes with 81 or more residents need an administrator on duty at least eight hours per day, five days per week. Questions go to DHSR.AdultCare.Questions@dhhs.nc.gov.",
+      "cite": "ACLS Joint Training May 2025 — Staffing of Licensed Adult Care Homes",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Staff for awake overnight coverage if any resident is disoriented or wanders",
+      "instructions": "In homes with 7–12 residents, if any resident is disoriented or has wandering behavior, at least one staff member must be on duty and awake at all times. The models carry 730 hours a month (24/7) of aide coverage for the 6- and 12-bed homes.",
+      "cite": "ACLS Joint Training May 2025",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Keep CPR/choking-trained staff on premises at all times",
+      "instructions": "Each ACH must have at least one staff person on the premises at all times who has completed, within the last 24 months, a course on cardio-pulmonary resuscitation and choking management. Schedule recertification before the 24 months lapse and track the date for every trained staff member.",
+      "cite": "10A NCAC 13F (CPR/choking)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Retrieve the family care home staffing rules in 10A NCAC 13G",
+      "instructions": "The 13G staffing section was not retrieved for this bundle, so the 6-bed FCH staffing in the model (one awake aide 24/7 plus the owner-administrator) is an operator estimate. Read the current 13G staffing rules and adjust the P&L if they require more.",
+      "cite": "10A NCAC 13G",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Set wages and confirm they exceed the minimum wage",
+      "instructions": "NC's minimum wage is $7.25/hour (secondary source citing NCDOL), with no local minimum and no scheduled increase (secondary). The model uses the NC median nursing assistant wage of $18.49/hour (May 2025 BLS OEWS via a secondary site) and a median LPN annual wage of $63,270. Cooks, housekeeping and activities use Raleigh-Cary metro group means ($16.61, $18.92 and $19.29/hour). Check local job postings and adjust wages for your area.",
+      "cite": "NCDOL via Recording Law; BLS OEWS May 2025",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Contract an LVN/RN nurse consultant",
+      "instructions": "The models carry nurse-consultant hours (4 hrs/week for the 6-bed home up to 16 hrs/week for the 20-bed home) at $30.42/hour. The hours are operator estimates, not rule minimums. Confirm with ACLS what nursing oversight your resident mix and any medication administration require.",
+      "cite": "Operator estimate; BLS via RenewRN",
+      "source_id": "S60"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Plan staff screening, personnel files and orientation",
+      "instructions": "Read the personnel, health-screening and training sections of 10A NCAC 13F or 13G for your category and build the personnel file checklist from them. Only the administrator background check, CPR/choking training and manager CE were verified in this research. The model carries $150/month for training, CE, CPR and background checks as an operator estimate.",
+      "cite": "10A NCAC 13F / 13G",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Buy care-documentation/eMAR software and set up recordkeeping",
+      "instructions": "The model carries $250/month for eMAR and care documentation as an operator estimate. Get vendor quotes. Whether EVV applies to your home is a separate question (see Phase 8).",
+      "cite": "Operator estimate",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, TRAINING & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Set up food service, laundry, activities and transportation",
+      "instructions": "The model carries food at $330 per resident per month, per-resident utilities at $25, supplies at $60, activities at $20 and $250/month for a vehicle. All are operator estimates. Confirm local sanitation requirements with the county environmental health office, since sanitation approval is part of the ACH application.",
+      "cite": "Operator estimate; 10A NCAC 13F .0204",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "CRITICAL",
+      "task": "Contact county DSS about State/County Special Assistance and agree to the state rate",
+      "instructions": "SA eligibility is determined through the county DSS. The facility must agree to accept the state rate for SA residents. 2026 maximums: $1,397/month in a regular ACH (secondary guide) and $1,792/month in a special care unit. The resident keeps a $70 personal needs allowance. SA is funded 50% by counties and 50% by the state, and SA recipients are automatically eligible for Medicaid. The ACH-specific official SA rate table was not retrieved, so confirm the $1,397 figure with your county DSS.",
+      "cite": "NC DHHS SA ACH page; SA Manual rev. June 2026; SA SCU brochure 2026",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "HIGH",
+      "task": "Understand how Medicaid fits with SA in an ACH",
+      "instructions": "Medicaid can help pay for the care a resident receives in a licensed ACH but never pays room and board; SA is the channel for room and board (per a secondary guide). How ACH residents' personal care services are billed (code, modifier or per-diem arrangement) was not confirmed, so the P&L does not count Medicaid PCS as revenue. Ask NC Medicaid and your county DSS before relying on it.",
+      "cite": "Mirador Living (citing NCDHHS manuals); NC Medicaid PCS update",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "HIGH",
+      "task": "Track the Medicaid Personal Care Services (PCS) rate increase",
+      "instructions": "Effective August 1, 2026, NC Medicaid raised State Plan PCS rates 18%: HCPCS 99509 with HA/HB modifiers went from $5.96 to $7.03 per unit. For other 99509 modifiers (HC, HH, HI, HQ, SC, TT) the daily per diem is the fee schedule rate times the beneficiary's pre-approved units. Standard and Tailored Plans have 45 calendar days to load the rates plus 30 days to reprocess claims. One plan reported billing at $7.03 could begin on 8/4/2026. Check the fee schedule portal at ncdhhs.servicenowservices.com/fee_schedules.",
+      "cite": "NC Medicaid DHB blog 2026-08-04",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "MEDIUM",
+      "task": "Decide whether to enroll in NC Medicaid through NCTracks and budget the fees",
+      "instructions": "NC charges a $100 Medicaid provider application fee on enrollment, re-enrollment and revalidation. The federal institutional provider application fee for applications submitted January 1 – December 31, 2026 is $750. Which fees apply to an ACH depends on provider type and was not confirmed. A vendor guide mentions a 12-month 'lite' enrollment option, which is not verified on an official page. Confirm the provider type and fees on NCTracks before applying.",
+      "cite": "NCTracks; Federal Register CY2026 fee notice",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "MEDIUM",
+      "task": "Confirm whether EVV applies to your home",
+      "instructions": "NC Medicaid's EVV requirement covers in-home personal care services under the state plan, 1915(c) waivers and 1115 programs. A vendor page says EVV is not required for adult care homes, but that is not confirmed on NC Medicaid pages. Ask NC Medicaid in writing before buying EVV software.",
+      "cite": "NC Medicaid EVV FAQ; Alora Health (vendor)",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "MEDIUM",
+      "task": "Do not plan on CAP/DA as a payer for your residents",
+      "instructions": "CAP/DA is a 1915(c) home- and community-based waiver, and a secondary source says participants cannot reside in an adult care home or a family care home. The waiver began placing applicants on a waitlist on February 16, 2024. Treat CAP/DA as a service for people living at home, not as ACH revenue.",
+      "cite": "NC Medicaid CAP/DA policy; Medicaid Planning Assistance",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "HIGH",
+      "task": "Set your private-pay rate from local comparables",
+      "instructions": "The CareScout 2025 NC median for assisted living is about $6,496/month ($77,955/yr), from provider-reported rates collected July–November 2025 (secondary summary). It measures a private one-bedroom in an assisted living community, so it may overstate a shared-room home. The national median is $6,200/month. An older Genworth 2024 figure of $5,769 is a different survey year and should not be mixed in. Call at least five local homes, then re-run the P&L at your price.",
+      "cite": "CareScout 2025 via Brevy; Buddy Insurance; ElderLife Financial",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "HIGH",
+      "task": "Prepare the Adult Care Cost Report if you serve SA residents or are an exempt facility",
+      "instructions": "The next Adult Care Cost Report for Special Assistance and exempt facilities is due September 30, 2027. Under S.L. 2026-41 (Senate Bill 257, Sec. 9F.2(a)), for facilities with 7 or more beds an AUP is no longer required with the cost report beginning on or after July 1, 2026. Confirm with the Office of the Controller whether your home must file and set up your books to support the report.",
+      "cite": "NC DHHS Office of the Controller — Adult Care Facilities; S.L. 2026-41",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 8 — PAYERS: SPECIAL ASSISTANCE, MEDICAID & PRICING",
+      "priority": "MEDIUM",
+      "task": "Write resident admission agreements that reflect the SA and private-pay rules",
+      "instructions": "Have your attorney draft agreements for private-pay and SA residents. For SA residents the facility must accept the state rate, and the resident keeps a $70 personal needs allowance. Do not charge SA residents above the state maximum. Read the admission and discharge sections of 10A NCAC 13F or 13G for required contents; those sections were not retrieved for this bundle.",
+      "cite": "NC DHHS SA ACH page; 10A NCAC 13F / 13G",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 9 — TAXES, PAYROLL & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Register with NC Division of Employment Security (DES) for unemployment insurance",
+      "instructions": "For 2026, the new-employer UI rate is 1% on a taxable wage base of $34,200 per employee. Experienced-employer rates range from 0.06% to 5.76% with a 1.9% base rate used in the formula. Register through the DES employer portal before your first payroll.",
+      "cite": "G.S. 96-9.2; G.S. 96-9.3",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 9 — TAXES, PAYROLL & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Set up payroll, withholding and federal payroll tax deposits",
+      "instructions": "Use a payroll service (the model carries $400/month for accounting, payroll and legal as an operator estimate). The model assumes payroll taxes of 9% of wages: federal employer FICA of 7.65%, which was not in the sources retrieved so verify it, plus NC unemployment tax.",
+      "cite": "Bundle financial model; NC DES",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 9 — TAXES, PAYROLL & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Obtain workers' compensation coverage",
+      "instructions": "A secondary source says NC requires most businesses with three or more employees to carry workers' compensation. Employers buy on the private market or, if declined, through the assigned-risk plan run by the North Carolina Rate Bureau (NCRB). NCRB's loss costs fell an average of 7.8% effective April 1, 2026, and a further filing is approved effective April 1, 2027. The model's 4% of payroll is an operator estimate; get quotes using the correct class code for your operation.",
+      "cite": "NCRB Circular C-25-11; Settlement Insight",
+      "source_id": "S55"
+    },
+    {
+      "phase": "PHASE 9 — TAXES, PAYROLL & INSURANCE",
+      "priority": "HIGH",
+      "task": "Get liability, property and auto insurance quotes",
+      "instructions": "No insurance or bond minimum for ACHs or FCHs was found in the DHSR pages or rules reviewed. Landlords, lenders and payers usually require coverage anyway. The model carries $80 per resident per month for general and professional liability as an operator estimate. Ask for quotes covering abuse and neglect liability, property, auto (if you transport residents) and any umbrella coverage.",
+      "cite": "Not verified — operator estimate",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 9 — TAXES, PAYROLL & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Check E-Verify obligations",
+      "instructions": "A secondary payroll guide says E-Verify is mandatory in NC at 25 or more employees. Confirm the current threshold with NC DOL or your attorney, and enroll if you reach it. The 20-bed model's staff count may approach the threshold.",
+      "cite": "FirstHR (secondary)",
+      "source_id": "S61"
+    },
+    {
+      "phase": "PHASE 9 — TAXES, PAYROLL & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Budget the recurring licensing and entity fees in your P&L",
+      "instructions": "ACH renewal is $360 plus $17.50 per bed per year, invoiced by ACLS (12 beds = $570, 20 beds = $710). FCH renewal is $315 per year. Administrator renewal is $30 every cycle. The LLC annual report is $200 paper or $203 online. Confirm these match the model's monthly lines.",
+      "cite": "DHSR ACLS License an ACH; DHSR ACLS License an FCH",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Build referral relationships before opening",
+      "instructions": "Referral-source shares for NC adult care homes are not published, so build your own pipeline. Contact county DSS adult services, hospital discharge planners, skilled nursing social workers, home care agencies and local aging organizations. County DSS also monitors facilities in its county, so a good relationship with them helps.",
+      "cite": "DHSR ACLS Overview",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Plan the census ramp and fund the cash reserve",
+      "instructions": "The model ramps from 1–3 residents at opening and adds 1–2 per month. At the default 88% occupancy the 12-bed ACH's first profit month is month 5 and the 20-bed 75/25 ACH's is month 8. Cash needed in the model ranges from about $92,806 (6-bed FCH, private pay) to $372,475 (20-bed ACH, 75/25 mix). Hold the working-capital reserve in the bank before you open, because occupancy in NC homes was not found in the sources and could run lower.",
+      "cite": "Bundle financial model",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Prepare for county DSS monitoring and DHSR surveys",
+      "instructions": "County social services agencies work with DHSR to monitor adult care facilities in their counties at least quarterly. Keep staffing schedules, CPR/choking training records, manager CE records, resident records and fire/safety logs ready for inspection at any time.",
+      "cite": "DHSR ACLS Overview of Adult Care Home Regulation",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "File the annual license renewal on time",
+      "instructions": "The licensee files a license renewal application annually on a calendar-year basis, with the nonrefundable annual fee. ACLS issued Provider Memo P0050 (July 23, 2025) on information required for the 2026 renewal application; watch the Announcements page for the next cycle's memo.",
+      "cite": "10A NCAC 13F .0208; ACLS Announcements",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Know your notice duties if you sell or close",
+      "instructions": "A licensee selling a home must give written notice to DHSR, county DSS and residents at least 30 days before the change of licensee. A licensee closing a home must notify DHSR, county DSS and residents at least 30 days before the planned closing.",
+      "cite": "10A NCAC 13F .0207; DHSR Facility Licensure Information",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Monitor Senate Bill 863 (streamlining ACH inspections)",
+      "instructions": "A 2025-session bill titled 'An Act to Streamline the Inspection Process for Adult Care Homes' has a text version dated April 29, 2026. Its enactment status was not verified. Check ncleg.gov before you plan around any change to the inspection process.",
+      "cite": "Senate Bill 863 (2025 Session)",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Watch the respite-care rule change under G.S. 131D-6.1",
+      "instructions": "Under a 2026 law effective July 1, 2026, the Medical Care Commission is directed to amend rules on respite care in adult care homes and family care homes as needed. If you want to offer respite stays, check for amended rules before pricing them.",
+      "cite": "G.S. 131D-6.1",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Review the N.C. Star Rated Certificate Program rule changes",
+      "instructions": "DHSR announced rule changes for the N.C. Star Rated Certificate Program effective August 1, 2025. Read the announcement and the current rule so you know how your home will be rated.",
+      "cite": "ACLS Announcements",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 10 — LAUNCH, REFERRALS & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Recheck every quote and fee on the live official pages before you file",
+      "instructions": "Several quotes in this research came from search-result excerpts, and fees such as the ACH initial fee are in conflict. Before paying any fee or relying on any rule, confirm it on the live DHSR, NCTracks and NC Medicaid pages or by calling ACLS at 919-855-3765.",
+      "cite": "DHSR ACLS",
+      "source_id": "S13"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "ACH administrator priced at the all-occupation median ($47,970)",
+      "change": "The value could not be replaced because no sourced NC figure was retrieved. Notes on all ACH configurations now say it is unverified and an owner's draw, and that profit may be overstated; added to not_claimed."
+    },
+    {
+      "issue": "No Manager coverage for the other ~128 weekly hours",
+      "change": "Notes on the ACH aide lines now state the assumption that every 24/7 aide meets Manager qualifications and that .0602 applies to 7–30 residents. The unpriced Manager premium and CE cost are in not_claimed."
+    },
+    {
+      "issue": "Cook and housekeeping hours may not meet food-service and daily-housekeeping rules",
+      "change": "Compliance-risk notes added and the wages marked unverified. Hours were not changed because the new cost cannot be recomputed here."
+    },
+    {
+      "issue": "$6,496 private rate unverifiable against a competing $4,586 source",
+      "change": "The rate was left unchanged so the model outputs stay consistent. Rate and config notes now flag the discrepancy and recommend a $4,586–$5,769 sensitivity; added to not_claimed."
+    },
+    {
+      "issue": "Medicaid PCS omitted for SA residents",
+      "change": "SA configuration notes now qualify the loss conclusions as conditional on excluding PCS; added to not_claimed."
+    },
+    {
+      "issue": "CON fee and plan-review fee absent from startup costs",
+      "change": "Startup cost note now states that ACH cash-needed figures exclude CON, plan-review and consultant/legal costs."
+    },
+    {
+      "issue": "FCH administrator cite wrong",
+      "change": "Cite changed to 10A NCAC 13G .1501 on both FCH configurations, and the 120-hour AIT and exam requirement was added to the notes."
+    },
+    {
+      "issue": "FCH administrator training listed as not verified",
+      "change": "not_claimed[5] updated to reflect the verified requirements."
+    },
+    {
+      "issue": "Background check cost assumed at $38 for all",
+      "change": "Startup cost range set to low 64 / high 88 with notes on the fingerprint fee and the money-order requirement. Stated cash-needed figures may shift by about $24."
+    },
+    {
+      "issue": "Franchise tax $0 placeholder",
+      "change": "The value was not changed, since applicability is unverifiable. Notes now give the $200 minimum for S/C-corp treatment."
+    },
+    {
+      "issue": "Payroll tax omits FUTA; NC UI unverified",
+      "change": "The percentage was not changed. Burden notes now say FUTA is excluded and the UI figures are unverified."
+    },
+    {
+      "issue": "Unsourced Raleigh metro wages",
+      "change": "Wages marked unverified in notes and not_claimed."
+    },
+    {
+      "issue": "No TB screening cost and no SA eligibility lag",
+      "change": "Added to the training opex note and the working-capital note; not_claimed updated."
+    }
+  ]
+}

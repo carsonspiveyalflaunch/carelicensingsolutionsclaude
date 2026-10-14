@@ -1,0 +1,2116 @@
+{
+  "bundle_slug": "pennsylvania-residential-care-dd-complete-bundle",
+  "state": "Pennsylvania",
+  "state_code": "PA",
+  "program": "Residential Care (DD)",
+  "state_program_name": "Community Home for Individuals with an Intellectual Disability or Autism (55 Pa. Code Ch. 6400, certificate of compliance), paid through ODP waiver Residential Habilitation (licensed)",
+  "as_of": "2026-10",
+  "report_title": "Pennsylvania Community Homes for Individuals with Intellectual Disability or Autism (Residential Habilitation) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "55 Pa. Code Ch. 6400 — Community Homes for Individuals with ID or Autism",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F055%2Fchapter6400%2Fchap6400toc.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "Chapter 6400 Regulatory Compliance Guide (Feb. 2020 ed.)",
+      "publisher": "PA DHS Office of Developmental Programs",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-ocd/6400%20Regulatory%20Compliance%20Guide%20-%20February%203%202020%20Edition.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "55 Pa. Code §20.21 — Application form",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter20/s20.21.html&d=reduce",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "55 Pa. Code §20.42 — Amount of fees",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?d=&file=/secure/pacode/data/055/chapter20/s20.42.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "Application for Certificate of Compliance (HS-633)",
+      "publisher": "PA DHS Bureau of Human Services Licensing",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/licensing/bhsl-licensing/documents/hs-633-uf-app-for-licensure.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "Application for License (ODP certificate fee note)",
+      "publisher": "PA DHS / OLTL-BHSL",
+      "url": "https://www.pa.gov/agencies/dhs/resources/licensing/pch-alr-licensing/app-for-license",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "55 Pa. Code Ch. 6400 (PDF, incl. §6400.45 staffing)",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/secure/pacode/data/055/chapter6400/055_6400.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "PCH & ALR Contact Us (BHSL)",
+      "publisher": "PA DHS Bureau of Human Services Licensing",
+      "url": "https://www.pa.gov/agencies/dhs/resources/licensing/pch-alr-licensing/pch-alr-contact",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "ODP Residential Provider Standards and Measures (eff. 1/1/2026)",
+      "publisher": "PA DHS Office of Developmental Programs",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/2026-feb-march-residential-provider-standards-and-measures.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "ODP MAAC presentation, Jan. 22, 2026",
+      "publisher": "PA DHS Office of Developmental Programs",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/about/dhs-information/documents/informationforadvocatesandstakeholders/maac/01-22-2026-odp-maac-presentation.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "Performance-Based Contracting FAQs",
+      "publisher": "PA DHS / ODP (MyODP)",
+      "url": "https://home.myodp.org/resources/waiver-implementation/performance-based-contracting-faqs/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "ODP clarifies Res Hab qualification for individuals with MCC (ODPANN 26-044)",
+      "publisher": "RCPA (PA Providers)",
+      "url": "https://paproviders.org/odp-clarifies-residential-habilitation-qualification-requirements-for-individuals-with-an-mcc/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "ODP updates Consolidated Waiver Needs Exception Allowance process",
+      "publisher": "RCPA (PA Providers)",
+      "url": "https://www.paproviders.org/odp-provides-updates-to-consolidated-waiver-needs-exception-allowance-process",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "Final Fee Schedule Rates, 54 Pa.B. 1217 (eff. 7/1/2024)",
+      "publisher": "Pennsylvania Bulletin / PA DHS",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol54/54-35/1217.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "ODP clarification on provider qualification (ODPANN 25-111)",
+      "publisher": "RCPA (PA Providers)",
+      "url": "https://paproviders.org/odp-issues-clarification-on-qualification-requirements-for-providers/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "ODP Service Rates",
+      "publisher": "PA Department of Human Services",
+      "url": "https://www.pa.gov/agencies/dhs/resources/for-providers/developmental-programs-for-providers/odp-rates",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "PA releases new rates for service coordinators (client alert)",
+      "publisher": "Vorys (law firm)",
+      "url": "https://www.vorys.com/publication-pennsylvania-releases-new-rates-for-service-coordinators-appeals-deadline-april-7-2026",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "Rate-setting methodology notice, 54 Pa.B. 2182",
+      "publisher": "Pennsylvania Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol54%2F54-16%2F562.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "Corrected Fee Schedule Rates, 54 Pa.B. 7290 (Adult Autism Waiver)",
+      "publisher": "Pennsylvania Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol54%2F54-44%2F1583.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Record of Change — performance-based contracting (1/1/2025)",
+      "publisher": "PA DHS / ODP",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/proposed-waiver-amendments/ida-record-of-change-for-performance-based-contracting-1-1-2025.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Licensing and Regulations (license vs. payment)",
+      "publisher": "ODP (myODP)",
+      "url": "https://home.myodp.org/resources/licensing-and-regulations/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "ODP HCBS Chapter 51 rulemaking, 42 Pa.B. 3230 (§51.11 enrollment)",
+      "publisher": "Pennsylvania Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol42%2F42-23%2F1043.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "CY 2026 Provider Enrollment Application Fee Notice",
+      "publisher": "CMS (Federal Register)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "ODP EVV Technical Guidance",
+      "publisher": "PA DHS / ODP",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/documents/odp/c_291620.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Understanding SSI — SSI Benefits (2026 federal benefit rate)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/ssi/text-benefits-ussi.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "ODP Bulletin 00-25-01: Room and Board for Individuals Enrolled in ODP",
+      "publisher": "PA DHS / ODP",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/00-25-01-odp-bulletin-room-and-board-for-individuals-enrolled-odp.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "Room and Board Residency Agreement (ODP Attachment 4)",
+      "publisher": "PA DHS / ODP",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/00-25-01-odp-attachment-4-room-and-board-agreement.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "55 Pa. Code Ch. 6100 (Services for Individuals with ID or Autism)",
+      "publisher": "Pennsylvania Code & Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F055%2Fchapter6100%2Fchap6100toc.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "55 Pa. Code §6100.686 — Room and board rate",
+      "publisher": "Cornell Legal Information Institute",
+      "url": "https://www.law.cornell.edu/regulations/pennsylvania/55-Pa-Code-SS-6100-686",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "Cost of Care Survey 2024 — Ranked State Data Tables",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/a41bb6478c/298701.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "Cost of Care Survey 2025 — Median Cost Data Tables",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "Long-Term Care Costs Increase in Pennsylvania (press release)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1025/long-term-care-costs-increase-in-pennsylvania-exceeding",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Pennsylvania Minimum Wage 2026",
+      "publisher": "Recording Law",
+      "url": "https://www.recordinglaw.com/us-laws/minimum-wage/pennsylvania-minimum-wage/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Occupational Employment and Wages, Philadelphia-Camden-Wilmington, May 2025",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_philadelphia.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "Occupational Wages (May 2025 PA OEWS publications)",
+      "publisher": "PA Dept. of Labor & Industry (CWIA)",
+      "url": "https://www.pa.gov/agencies/dli/resources/statistic-materials/products/occupational-wages",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Pennsylvania Unemployment Tax Rates Unchanged for 2026",
+      "publisher": "Bloomberg Tax",
+      "url": "https://news.bloombergtax.com/payroll/pennsylvania-unemployment-tax-rates-unchanged-for-2026",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Pennsylvania Payroll Taxes: 2026 Employer Guide",
+      "publisher": "Cohick Associates",
+      "url": "https://cohickassociates.com/pennsylvania-payroll-taxes-2026-guide/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Pennsylvania Payroll Tax Guide 2026 (local EIT)",
+      "publisher": "Payhroll",
+      "url": "https://payhroll.com/blog/pennsylvania-payroll-tax-guide-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "Pennsylvania LLC Filing Fees and Requirements",
+      "publisher": "Bizee",
+      "url": "https://bizee.com/llc/pennsylvania/filing-fees-requirements",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "Pennsylvania LLC Annual Report and Taxes (2026)",
+      "publisher": "LegalGlass",
+      "url": "https://legalglass.org/pennsylvania-annual-report/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "PCRB Workers' Compensation Loss Cost Filing, 55 Pa.B. 1653",
+      "publisher": "Pennsylvania Bulletin (Insurance Dept.)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol55/55-49/1653.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Workers Comp Rating Values & Loss Costs",
+      "publisher": "Pennsylvania Compensation Rating Bureau",
+      "url": "https://pcrb.com/rating-values-list/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "PA Insurance Department approves 1.22% workers' comp loss cost reduction",
+      "publisher": "WorkCompWire",
+      "url": "https://www.workcompwire.com/2026/04/pa-insurance-department-approves-1-22-loss-cost-reduction-for-workers-comp/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "FY 2026 Fair Market Rents Schedule",
+      "publisher": "U.S. HUD",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "FY2026 Small Area FMR calculation, ZIP 19707",
+      "publisher": "U.S. HUD",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmrs/FY2026_code/2026zip_code_calc.odn?zcta=19707&metro_code=METRO37980M37980&year=2026&hypo=hypo",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "Fee Schedule Rates for Select ODP Waiver Services, 53 Pa.B. 1558",
+      "publisher": "Pennsylvania Bulletin",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol53%2F53-45%2F1558.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "ODP Announcement 24-084: Final Rates for FY 2024-25",
+      "publisher": "PA DHS Office of Developmental Programs",
+      "url": "https://paproviders.org/wp-content/uploads/2024/08/ODPANN-24-084-Publication-of-Final-Rates-Effective-Starting-Fiscal-Year-2024-2025-and-Operational-Guidance.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "2025 ODP Waiting List Report: Multi-Year Program Growth Strategy",
+      "publisher": "PA DHS Office of Developmental Programs",
+      "url": "https://palms-awss3-repository.s3.us-west-2.amazonaws.com/MyODP_Content/Everyday+Lives/2025+ODP+Multi-Year+Program+Growth+Strategy+(MYPGS)+Report.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "Medical Assistance Advisory Committee: ODP Overview, Feb. 26, 2026",
+      "publisher": "PA DHS",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/about/dhs-information/documents/informationforadvocatesandstakeholders/maac/02-26-26-maac-odp-presentation.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "Governor Shapiro's 2026/27 Budget Address Overview",
+      "publisher": "RCPA",
+      "url": "https://www.paproviders.org/governor-shapiros-2026-27-budget-address-overview",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "PA Code Title 55 Ch. 6400 (Justia republication)",
+      "publisher": "Justia",
+      "url": "https://regulations.justia.com/states/pennsylvania/title-55/part-viii/subpart-e/article-i/chapter-6400",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "PA Minimum Wage 2026 (pending state bill)",
+      "publisher": "FIS Recruitment",
+      "url": "https://www.fisrecruitment.com/blog/pennsylvania-minimum-wage-2026-lehigh-valley-warehouse-labor",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S53",
+      "title": "Section 8 in Philadelphia, PA (FY2027 FMR)",
+      "publisher": "VoucherMatch",
+      "url": "https://vouchermatch.com/section-8/philadelphia-pa",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License type and rule",
+      "value": "Certificate of compliance under 55 Pa. Code Ch. 6400; must be obtained before the home operates. Applies to for-profit and nonprofit homes. The certificate names each home's location and maximum capacity, which may not be exceeded.",
+      "source_id": "S1",
+      "as_of": "Current code text (retrieved 2026-10-14)"
+    },
+    {
+      "metric": "Minimum direct-care staffing",
+      "value": "1 staff per 8 individuals awake and present; 1 staff per 16 individuals physically present while individuals sleep (§6400.45(b)). A staff person counted in the ratio must be awake (§6400.232; confirm applicability to each home type), so sleep-shift pay differentials cannot be assumed. Staffing ratios and qualifications in each individual plan must be implemented as written even above the minimums (§6400.45(d)). Staff counted in ratios must be 18+.",
+      "source_id": "S7",
+      "as_of": "Current code text (retrieved 2026-10-14)"
+    },
+    {
+      "metric": "Program specialist and CEO",
+      "value": "1 program specialist per 30 individuals (bachelor's + 2 years direct ID/autism experience, or alternates). CEO needs a master's + 2 years or a bachelor's + 4 years of experience.",
+      "source_id": "S2",
+      "as_of": "2020-02-03 edition"
+    },
+    {
+      "metric": "Physical plant limits",
+      "value": "Max 2 sleepers per bedroom; 80 sq ft per single bedroom; 1 toilet per 4 individuals; a home with only one tub/shower cannot exceed a licensed capacity of 4",
+      "source_id": "S2",
+      "as_of": "2020-02-03 edition"
+    },
+    {
+      "metric": "ODP fee schedule rate — Licensed Residential Habilitation With Day, Needs Group 1, 1 person (W9000), statewide",
+      "value": "$433.05 (enhanced communication: $512.88). Maximum rate ODP pays. POSSIBLY SUPERSEDED: existing rates were extended through 7/31/2026 and new SFY 2026–27 rates were scheduled for 8/1/2026 (not retrieved).",
+      "source_id": "S14",
+      "as_of": "2024-07-01"
+    },
+    {
+      "metric": "Highest verified residential rate point — Needs Group 5, 1 person, with day (W9000/U9)",
+      "value": "$1,265.90 per day unit (predates the 7/1/2024 table, which applied a 6% factor to residential rates; the 7/1/2024 NG5 value was not retrieved, so this figure is not confirmed as current)",
+      "source_id": "S46",
+      "as_of": "2024-01-01"
+    },
+    {
+      "metric": "Performance-based add-ons (residential)",
+      "value": "Select providers +3% per individual; Clinically Enhanced +5%; pay-for-performance up to 3% of eligible revenue. Residential rates got a 6% inflation adjustment (non-residential 8%).",
+      "source_id": "S47",
+      "as_of": "2024-07-01"
+    },
+    {
+      "metric": "Room and board cap",
+      "value": "Charge may not exceed 72% of (SSI maximum + PA State Supplement) (72% of total income if income is below the SSI maximum; $0 if below the personal needs allowance), 40% for room only, 32% for board only, or actual documented cost. Board stops on the 8th consecutive day of leave or hospitalization; room stops after more than 30 consecutive days hospitalized; no room and board during respite. Form DP 1077 is mandatory (before admission, annually, within 15 days of an emergency placement); increases that reduce personal funds need 30 days' written notice. 2026 SSI federal benefit rate: $994/month.",
+      "source_id": "S26",
+      "as_of": "2025-03-17; SSI as of 2026-01-01"
+    },
+    {
+      "metric": "Statewide waiting list, age 21+ (Feb. 2026)",
+      "value": "7,230 total (Emergency 3,044; Critical 978; Planning 3,208); 885 people enrolled from the list into the Consolidated waiver in FY24-25 after an average 24 months",
+      "source_id": "S48",
+      "as_of": "2026-02-26 snapshot"
+    },
+    {
+      "metric": "Waiver capacity and filled share",
+      "value": "Waiver capacity 42,557, filled 39,099 (92% FY25-26 YTD, down from 96% in FY18-19). Consolidated waiver served about 20,000 people in FY24-25.",
+      "source_id": "S48",
+      "as_of": "FY25-26 YTD"
+    },
+    {
+      "metric": "Cost context: licensed residential vs. supportive housing pilot",
+      "value": "$267,225 vs $98,991 average annual cost per individual (129 people in the pilot as of 1/1/2026)",
+      "source_id": "S49",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Wage and payroll cost anchors",
+      "value": "State minimum wage $7.25/hr (local minimums preempted; a $15 proposal for 1/1/2027 is pending). UC wage base $10,000; new-employer UC rate 3.822%. The model uses $19.52/hr for direct support as an unconfirmed assumption; the Philadelphia-metro May 2025 BLS figures could not be verified and the personal care and service group is a poor proxy for a DSP.",
+      "source_id": "S34",
+      "as_of": "May 2025 / 2026"
+    }
+  ],
+  "not_claimed": [
+    "Current SFY 2026–27 Residential Habilitation fee schedule amounts (effective 8/1/2026 per ODP's NEA announcement). Only the 7/1/2024 Needs Group 1 rate and the 1/1/2024 Needs Group 5 rate were verified. The full per-diem table by needs group, program capacity and procedure code was not retrieved. The revenue model must be built on the latest published table and must not use a rate that was not sourced.",
+    "The exact certificate-of-compliance fee. DHS says ODP requires a certificate fee from for-profit providers before issuance, but no amount was found. Whether community homes appear in the §20.42(a) fee list was not confirmed, and the HS-633 form states the application fee applies only to personal care homes.",
+    "Ordered Chapter 20 application steps (§§20.51–20.57), initial-certificate processing or decision timelines, and the term and renewal cycle of a regular certificate of compliance.",
+    "Statewide count of licensed Chapter 6400 homes or agencies, provider market shares, named competitors, and residential-habilitation occupancy or vacancy data. Only waiver-level filled capacity (92%) is published.",
+    "Private-pay prices for ID/A community homes. In Pennsylvania ODP is the de facto payer (no significant private or third-party payer market [S17]), and CareScout assisted-living medians are not comparable.",
+    "The Pennsylvania State Supplementary Payment (SSP) amount for 2026, so the dollar room-and-board ceiling was not computed. The personal needs allowance dollar amount was also not verified.",
+    "Whether ID/A waiver services are fee-for-service or carved out of HealthChoices managed care. ODP is described as the payer, but the delivery system was not stated.",
+    "Whether Residential Habilitation (community home) is subject to EVV. Only personal care services under the ODP waivers are confirmed as EVV-covered. PA's open EVV model lets providers use the DHS EVV system at no cost or an alternate vendor.",
+    "Whether the CMS CY2026 $750 enrollment application fee applies to ODP community-home providers, and any ODP/PROMISe enrollment fee or step list under current ODP provider qualification requirements (Chapter 6100; Chapter 51 was rescinded).",
+    "Insurance minimums for Chapter 6400 homes (general liability, professional, auto, abuse/molestation, property) and the workers' comp class code and class-specific loss cost. Premiums in the model must be labeled operator estimates.",
+    "Role-level PA OEWS May 2025 wages (direct support/aides, LPN, RN, cooks, residential managers). Only Philadelphia-metro BLS major-group means were retrieved and are proxies. Pittsburgh and other PA metro local wages were not separately verified.",
+    "Official PA L&I minimum wage and UC rate pages. The $7.25 floor, the preemption of local minimum wages and the 2026 UC rates rely on secondary sources that cite the official tables.",
+    "Entity-level local taxes and licenses (e.g., Philadelphia or Pittsburgh business privilege taxes) beyond the $7 LLC annual report.",
+    "Commercial rent surveys for converted group-home properties. Only HUD FMR (FY2026) benchmarks are cited. The FY2027 figures (2BR $1,860; 3BR $2,216) come from a secondary site and the official FY2027 schedule was not fetched.",
+    "Referral sources beyond PUNS and Supports Coordinators (hospitals, schools, counties, Community HealthChoices plans) and the PA 65+ population with ID/DD.",
+    "Final enactment of the FY2026–27 ID/A appropriation (only the Governor's February 2026 proposal was verified) and the status of the proposed waiver amendments, including the Adult Autism Waiver renewal.",
+    "Zoning and siting rules beyond the certificate-of-occupancy requirement, and the status of any pending Chapter 6400 rulemaking (none found).",
+    "Dedicated BHSL or ODP phone and email for Chapter 6400 community-home licensing. The BHSL contact found is on a PCH/ALR page, and ra-odplicensing@pa.gov is cited for waiver requests only.",
+    "Break-even points and any managed-care or market-share estimates. The generator computes break-even from the model.",
+    "Current rates effective 8/1/2026 (SFY 2026-27) for W9000 and the Adult Autism Waiver codes W7228 and W7232. The 7/1/2024 AAW rates ($168.87 and $709.30) could not be independently verified because the 54 Pa.B. 7290 table would not load, and the 7/1/2024 Needs Group 5 value was not retrieved.",
+    "The 30-day missing-document deadline for ODP enrollment. It comes from 55 Pa. Code §51.11, which Chapter 6100 rescinded; the current deadline was not confirmed.",
+    "Philadelphia-metro May 2025 BLS mean wages for personal care and service ($19.52), healthcare support ($17.73), food preparation and serving ($18.11) and management ($72.94), and the metro all-occupation mean ($34.49). The release could not be confirmed. The $19.52 DSP wage is a modeling assumption only.",
+    "Phone (717-783-3670) and email (ra-pwarlheadquarters@pa.gov) for the BHSL PCH/ALR contact page. The page loads but these details could not be confirmed on it.",
+    "Whether overnight awake-staff requirements (§6400.232) apply to each home type, and the cost of provider-borne housekeeping, laundry, lawn, food-preparation and maintenance labor, which is not modeled separately from DSP hours."
+  ],
+  "regulators": [
+    {
+      "name": "PA DHS Office of Developmental Programs (ODP)",
+      "role": "Regulation and licensing enforcement for community homes; ODP provider qualification/enrollment; sets waiver fee schedule rates; operates the waiting list (PUNS)",
+      "url": "https://www.pa.gov/agencies/dhs/resources/for-providers/developmental-programs-for-providers/odp-rates",
+      "phone": "",
+      "email": "ra-odplicensing@pa.gov (Regulatory Administration Unit — regulatory waiver requests)",
+      "source_id": "S2"
+    },
+    {
+      "name": "PA DHS Bureau of Human Services Licensing (BHSL)",
+      "role": "Application for Certificate of Compliance (HS-633) under Chapter 20 licensing procedures; contact page is titled for PCH/ALR, so confirm it is the right office for community homes",
+      "url": "https://www.pa.gov/agencies/dhs/resources/licensing/pch-alr-licensing/pch-alr-contact",
+      "phone": "",
+      "email": "",
+      "source_id": "S8"
+    },
+    {
+      "name": "Local building / fire code authority",
+      "role": "Issues the certificate of occupancy (fire safety occupancy permit) required for each community home",
+      "url": "",
+      "phone": "",
+      "email": "",
+      "source_id": "S2"
+    },
+    {
+      "name": "PA Department of Labor & Industry",
+      "role": "Unemployment compensation and May 2025 occupational wage data",
+      "url": "https://www.pa.gov/agencies/dli/resources/statistic-materials/products/occupational-wages",
+      "phone": "",
+      "email": "",
+      "source_id": "S35"
+    },
+    {
+      "name": "PA Compensation Rating Bureau (PCRB)",
+      "role": "Workers' compensation loss costs and rating values (April 1, 2026 filing)",
+      "url": "https://pcrb.com/rating-values-list/",
+      "phone": "",
+      "email": "",
+      "source_id": "S42"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "55 Pa. Code Ch. 6400 (§6400.3, §6400.11, §6400.13)",
+      "title": "Community Homes for Individuals with an Intellectual Disability or Autism — applicability, certificate of compliance, capacity",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F055%2Fchapter6400%2Fchap6400toc.html",
+      "source_id": "S1"
+    },
+    {
+      "cite": "55 Pa. Code §6400.3(e)",
+      "title": "Annual Department inspection of a sample of homes serving 8 or fewer; homes serving 9+ are each inspected annually",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F055%2Fchapter6400%2Fchap6400toc.html",
+      "source_id": "S1"
+    },
+    {
+      "cite": "55 Pa. Code §6400.45",
+      "title": "Staffing ratios (1:8 awake; 1:16 asleep)",
+      "url": "https://www.pacodeandbulletin.gov/secure/pacode/data/055/chapter6400/055_6400.pdf",
+      "source_id": "S7"
+    },
+    {
+      "cite": "55 Pa. Code Ch. 6400 Regulatory Compliance Guide (Feb. 2020)",
+      "title": "ODP's plain-language guide: capacity, physical plant, staff qualifications, training, background checks, fire drills, incident reporting, waivers",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-ocd/6400%20Regulatory%20Compliance%20Guide%20-%20February%203%202020%20Edition.pdf",
+      "source_id": "S2"
+    },
+    {
+      "cite": "55 Pa. Code §20.21",
+      "title": "Chapter 20 — Application form (one application per home; no operation until notified a certificate will issue)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter20/s20.21.html&d=reduce",
+      "source_id": "S3"
+    },
+    {
+      "cite": "55 Pa. Code §20.42",
+      "title": "Chapter 20 — Amount of fees",
+      "url": "https://pacodeandbulletin.gov/Display/pacode?d=&file=/secure/pacode/data/055/chapter20/s20.42.html",
+      "source_id": "S4"
+    },
+    {
+      "cite": "55 Pa. Code §51.11",
+      "title": "ODP HCBS provider enrollment (Chapter 51)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol42%2F42-23%2F1043.html",
+      "source_id": "S22"
+    },
+    {
+      "cite": "55 Pa. Code Ch. 6100 (§6100.571, §6100.686–.687)",
+      "title": "Services for Individuals with ID or Autism — rate-setting cycle, room and board",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F055%2Fchapter6100%2Fchap6100toc.html",
+      "source_id": "S28"
+    },
+    {
+      "cite": "ODP Bulletin 00-25-01",
+      "title": "Room and Board for Individuals Enrolled in ODP (Room and Board Agreement required)",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-odp/00-25-01-odp-bulletin-room-and-board-for-individuals-enrolled-odp.pdf",
+      "source_id": "S26"
+    },
+    {
+      "cite": "54 Pa.B. 1217 / ODPANN 24-084",
+      "title": "Final fee schedule rates and performance-based add-ons effective July 1, 2024",
+      "url": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol54/54-35/1217.html",
+      "source_id": "S14"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "PA ODP — Consolidated Waiver (fee schedule)",
+      "code": "W9000",
+      "service": "Licensed Residential Habilitation With Day, Needs Group 1, 1 person, statewide",
+      "rate": 433.05,
+      "unit": "per day unit (as published for W9000; confirm in notice)",
+      "effective": "2024-07-01",
+      "notes": "Enhanced-communication rate $512.88. Fee schedule rates are the maximum the Department pays. POSSIBLY SUPERSEDED: this is the 7/1/2024 rate (54 Pa.B. 1217). Existing rates were extended through 7/31/2026 and new SFY 2026-27 rates were scheduled for 8/1/2026 (not retrieved). Re-pull the ODP fee schedule before relying on this figure. Select providers +3% and Clinically Enhanced +5% per individual.",
+      "source_id": "S14"
+    },
+    {
+      "payer": "PA ODP — Consolidated Waiver (fee schedule)",
+      "code": "W9000/U9",
+      "service": "Licensed Residential Habilitation With Day, Needs Group 5, 1 person",
+      "rate": 1265.9,
+      "unit": "per day unit",
+      "effective": "2024-01-01",
+      "notes": "This is the 1/1/2024 Needs Group 5 rate (53 Pa.B. 1558). It predates the 7/1/2024 residential table, which applied a 6% factor to residential rates [S47]; the Needs Group 5 value from that table was not retrieved. Context only, NOT confirmed as a current rate. It may have been superseded by the SFY 2026-27 rates scheduled for 8/1/2026.",
+      "source_id": "S46"
+    },
+    {
+      "payer": "PA ODP — Adult Autism Waiver",
+      "code": "W7228",
+      "service": "Residential Habilitation, Community Home, Light staffing level",
+      "rate": 168.87,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Corrected notice. AAW community-home residential is billed by staffing level (W7228–W7232). NOT independently verified: the 54 Pa.B. 7290 table could not be loaded. Possibly superseded by SFY 2026-27 rates; re-check before relying on it.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "PA ODP — Adult Autism Waiver",
+      "code": "W7232",
+      "service": "Residential Habilitation, Community Home, Intensive+ staffing level",
+      "rate": 709.3,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Top AAW community-home staffing level. NOT independently verified: the 54 Pa.B. 7290 table could not be loaded. Possibly superseded by SFY 2026-27 rates; re-check before relying on it.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "SSA — SSI federal benefit rate (resident income base)",
+      "code": "",
+      "service": "SSI maximum federal benefit, individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Residents' room and board charge is capped at 72% of (SSI max + PA SSP), 32% for board only, and the actual documented cost. The PA SSP amount was not verified.",
+      "source_id": "S25"
+    },
+    {
+      "payer": "Private pay benchmark (assisted living community, NOT ID/A community home)",
+      "code": "",
+      "service": "CareScout/Genworth Pennsylvania assisted living median, 2024 survey",
+      "rate": 6100,
+      "unit": "per month",
+      "effective": "2024 survey (Jul–Dec 2024)",
+      "notes": "Comparison point only. PA has no meaningful private-pay market for ID/A residential services.",
+      "source_id": "S30"
+    },
+    {
+      "payer": "Private pay benchmark (assisted living community, NOT ID/A community home)",
+      "code": "",
+      "service": "CareScout/Genworth Pennsylvania assisted living median, 2025 survey ($77,760/yr)",
+      "rate": 6480,
+      "unit": "per month",
+      "effective": "2025 survey",
+      "notes": "Monthly figure is the annual median divided by 12. Comparison only.",
+      "source_id": "S31"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "PA DHS Bureau of Human Services Licensing (HQ)",
+      "role": "Certificate of compliance applications and licensing questions (page titled PCH/ALR — confirm for community homes)",
+      "contact": "https://www.pa.gov/agencies/dhs/resources/licensing/pch-alr-licensing/pch-alr-contact"
+    },
+    {
+      "name": "ODP Regulatory Administration Unit",
+      "role": "Regulatory waiver requests for Chapter 6400 (submit after 30 days' notice to affected individuals)",
+      "contact": "ra-odplicensing@pa.gov"
+    },
+    {
+      "name": "ODP Service Rates page",
+      "role": "Published fee schedule rates and rate notices",
+      "contact": "https://www.pa.gov/agencies/dhs/resources/for-providers/developmental-programs-for-providers/odp-rates"
+    },
+    {
+      "name": "myODP — Licensing and Regulations",
+      "role": "Licensing resources and ODP provider enrollment guidance (a license alone does not allow payment)",
+      "contact": "https://home.myodp.org/resources/licensing-and-regulations/"
+    },
+    {
+      "name": "RCPA (PA Providers)",
+      "role": "Provider association: ODP announcements, rate and budget updates",
+      "contact": "https://www.paproviders.org"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.92,
+      "conservative": 0.85,
+      "optimistic": 0.97,
+      "rationale": "Share of licensed capacity that is billed each day. ODP publishes only waiver-level filled capacity: 92% in FY25-26 year-to-date, down from 96% in FY18-19 [S48]. That is not a residential-habilitation vacancy statistic, and none was found. 92% is therefore used as the default, with 85% conservative and 97% optimistic. These are assumptions - verify locally. In a 1-person home, one vacancy means no residential revenue while rent and staff coverage continue.",
+      "source_id": "S48"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "pa_cons_ng1_1home",
+        "label": "One 1-person home, Consolidated Waiver Needs Group 1 (W9000)",
+        "capacity": 1,
+        "notes": "Built on the only current-table Consolidated rate that was verified: Licensed Residential Habilitation With Day, Needs Group 1, 1 person, $433.05, effective 7/1/2024 [S14]. Per-person rates for 2-, 3- and 4-person homes were not retrieved, so no multi-person Consolidated home is modeled. Existing rates were extended through 7/31/2026 and new SFY 2026-27 rates were scheduled for 8/1/2026 [S13]; the current figure was not retrieved. Result: one staff member covering 24/7 (the minimum that satisfies the 1:8 awake and 1:16 asleep ratios [S7]) plus the program specialist and executive costs exceeds the Needs Group 1 revenue. Shown as a loss case.",
+        "revenue_lines": [
+          {
+            "name": "Licensed Residential Habilitation With Day, Needs Group 1, 1 person (statewide)",
+            "payer": "PA ODP - Consolidated Waiver (fee schedule, maximum rate)",
+            "code": "W9000",
+            "rate": 433.05,
+            "unit": "per day unit",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "Effective 2024-07-01; POSSIBLY SUPERSEDED by SFY 2026-27 rates scheduled for 8/1/2026 (not retrieved). The enhanced-communication rate of $512.88 and the Select (+3%) / Clinically Enhanced (+5%) add-ons are NOT modeled because eligibility is not assumed. 30.42 = average days per month."
+          },
+          {
+            "name": "Room and board collected from resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 715.68,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Modeled at 72% of the 2026 SSI federal benefit rate of $994 [S25] = $715.68. ODP caps the charge at 72% of (SSI maximum + PA State Supplement) [S26] (or 72% of total income if income is below the SSI maximum; $0 if income is below the personal needs allowance), so omitting the unverified PA SSP keeps this at or below the cap. A room-only charge is capped at 40%. Board stops on the 8th consecutive day of leave or hospitalization; room stops after more than 30 consecutive days hospitalized; no room and board during respite. Charges are limited to actual documented cost [S28], and the resident must keep the personal needs allowance (amount not verified) [S29]. Form DP 1077 Room and Board Agreement is mandatory (before admission, annually, and within 15 days of an emergency placement); increases that reduce personal funds need 30 days' written notice [S27]. Verify each resident's income."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals - 24/7 coverage (1 staff awake when the individual is home; overnight staff counted in the ratio must be awake)",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "55 Pa. Code §6400.45(a)-(b)",
+            "notes": "730 h = 24 h x 30.42 days of single-staff coverage, the minimum under 1 staff per 8 awake / 1 per 16 asleep [S7] (§6400.45(b)); a staff person counted in that ratio must be awake (§6400.232; confirm applicability to each home type), so sleep-shift pay differentials are not assumed. Staff counted in ratios must be 18+ [S2]. Staffing in the individual plan must be implemented as written even above the minimums (§6400.45(d)). Wage $19.52 is an unconfirmed modeling proxy: the Philadelphia-metro May 2025 BLS figure could not be verified, and the personal care and service major group is a poor proxy for a DSP. Re-pull the detailed OEWS wage for home health and personal care aides or nursing assistants. The state minimum is $7.25 [S33]; local minimum wages are preempted [S33]. An actual home may need more hours than this minimum."
+          },
+          {
+            "role": "Program specialist (1 assigned per 30 individuals; bachelor's + 2 yrs ID/autism experience or alternates)",
+            "basis": "annual_salary",
+            "amount": 15000,
+            "cite": "55 Pa. Code Ch. 6400 (program specialist ratio and qualifications)",
+            "notes": "0.25 FTE x $60,000 - operator estimate; no PA wage for this role was verified. Required ratio and qualifications are from the ODP guide [S2]. The owner may fill this role if qualified; the cost is kept so the model is not understated."
+          },
+          {
+            "role": "CEO / executive (master's + 2 yrs or bachelor's + 4 yrs; ODP waiver enrollment: bachelor's + 5 yrs residential management experience)",
+            "basis": "annual_salary",
+            "amount": 21250,
+            "cite": "55 Pa. Code Ch. 6400 (CEO qualifications); ODP waiver requirement",
+            "notes": "0.25 FTE x $85,000 - operator estimate; no role-level wage verified, and no BLS management figure is used as a wage. One CEO is required [S2]; the 5-year residential manager requirement is an ODP enrollment condition, not a Ch. 6400 licensing rule [S2]."
+          }
+        ],
+        "opex_overrides": [],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate. New residential providers enroll only through a competitive ODP request for application [S11], and individuals come via supports coordinators / PUNS [S49], so admissions timing is uncertain. A vacant home still carries staff and rent."
+        }
+      },
+      {
+        "id": "pa_cons_ng5_1home",
+        "label": "One 1-person home, high-need resident, Consolidated Needs Group 5 (W9000/U9) - uses a pre-July-2024 rate",
+        "capacity": 1,
+        "notes": "Uses the only Needs Group 5 figure found in an official notice: $1,265.90 per day unit, 1 person, with day, effective 1/1/2024 [S46]. It predates the 7/1/2024 table, which applied a 6% inflation adjustment to residential rates [S47], so it is context only and is NOT confirmed as a current rate. It is not raised. Confirm the SFY 2026-27 rate before relying on this configuration. Staffing of 1,095 h/month (1:1 around the clock plus 12 h/day of second staff) is an operator estimate - verify locally. At 1,460 h/month (2:1 around the clock) this home loses about $7,400/month at default occupancy.",
+        "revenue_lines": [
+          {
+            "name": "Licensed Residential Habilitation With Day, Needs Group 5, 1 person",
+            "payer": "PA ODP - Consolidated Waiver (fee schedule, maximum rate)",
+            "code": "W9000/U9",
+            "rate": 1265.9,
+            "unit": "per day unit",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S46",
+            "notes": "Effective 2024-01-01 (53 Pa.B. 1558). The 7/1/2024 table applied a 6% factor to residential rates [S47]; the NG5 value from that table was not retrieved. This figure is NOT confirmed as current and results for this configuration are provisional. Fee schedule rates are the maximum the Department pays [S46]."
+          },
+          {
+            "name": "Room and board collected from resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 715.68,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "72% x $994 (2026 SSI federal benefit rate [S25]) = $715.68. Cap is 72% of (SSI max + PA SSP, not verified), 32% if board only [S27], and actual documented cost [S28]. Signed Room and Board Agreement required [S27]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals - 1:1 around the clock plus a second staff 12 h/day",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 1095,
+            "cite": "55 Pa. Code §6400.45(a)-(b)",
+            "notes": "1,095 h = 730 h (24/7 single coverage, regulatory minimum [S7]; overnight staff counted in the ratio must be awake, §6400.232) + 365 h (12 h/day second staff) - operator estimate of what a Needs Group 5 individual needs; the actual level comes from the individual's plan (§6400.45(d)). Wage $19.52 is an unconfirmed modeling proxy (May 2025 BLS figure not verified); state minimum $7.25 [S33]."
+          },
+          {
+            "role": "Program specialist (1 assigned per 30 individuals)",
+            "basis": "annual_salary",
+            "amount": 15000,
+            "cite": "55 Pa. Code Ch. 6400 (program specialist)",
+            "notes": "0.25 FTE x $60,000 - operator estimate; ratio and qualifications [S2]."
+          },
+          {
+            "role": "CEO / executive",
+            "basis": "annual_salary",
+            "amount": 21250,
+            "cite": "55 Pa. Code Ch. 6400 (CEO qualifications)",
+            "notes": "0.25 FTE x $85,000 - operator estimate; qualifications [S2]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Training (24 hrs/yr paid time), CPR/first aid, background checks",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate: more direct-care FTEs (about 6) each needing 24 h/yr of training [S2], first aid/CPR annually [S2] and PSP background checks within 5 working days of hire [S2]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate; one resident fills the home. Months before admission carry full staffing and rent costs."
+        }
+      },
+      {
+        "id": "pa_cons_ng5_3homes",
+        "label": "Three 1-person homes, high-need residents, Consolidated Needs Group 5 (shared agency overhead)",
+        "capacity": 3,
+        "notes": "Three separate homes (one certificate of compliance application per home [S3]), each with one resident at the Needs Group 5 rate of $1,265.90 (effective 1/1/2024, predates the 7/1/2024 table) [S46]. This is the best-case structure in the research, but it rests on a rate that was not confirmed as current, and on staffing assumptions that are operator estimates. It is profitable only at about default occupancy; at 85% occupancy it loses money. Verify the current SFY 2026-27 Needs Group 5 rate and each person's staffing level before committing.",
+        "revenue_lines": [
+          {
+            "name": "Licensed Residential Habilitation With Day, Needs Group 5, 1 person",
+            "payer": "PA ODP - Consolidated Waiver (fee schedule, maximum rate)",
+            "code": "W9000/U9",
+            "rate": 1265.9,
+            "unit": "per day unit",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S46",
+            "notes": "Effective 2024-01-01; NOT confirmed as the current rate. The 7/1/2024 table applied a 6% factor to residential rates [S47]; the corresponding NG5 value was not retrieved, so margin, break-even and cash-need results are provisional."
+          },
+          {
+            "name": "Room and board collected from resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 715.68,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "72% x $994 (2026 SSI federal benefit rate [S25]) = $715.68; within the ODP cap [S26] and actual documented cost [S28]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals - 3 homes x 1,095 h (1:1 24/7 + 12 h/day second staff)",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 3285,
+            "cite": "55 Pa. Code §6400.45(a)-(b)",
+            "notes": "3 x 1,095 h - operator estimate of staffing a Needs Group 5 resident; regulatory minimum is 730 h per home [S7], and overnight staff counted in the ratio must be awake (§6400.232). Wage $19.52 is an unconfirmed modeling proxy (May 2025 BLS figure not verified). Philadelphia-area rate and wage geography is applied statewide; the fee schedule is statewide [S14]."
+          },
+          {
+            "role": "Program specialist (1 per 30 individuals; one covers 3 residents)",
+            "basis": "annual_salary",
+            "amount": 60000,
+            "cite": "55 Pa. Code Ch. 6400 (program specialist)",
+            "notes": "1 FTE x $60,000 - operator estimate; ratio and qualifications [S2]."
+          },
+          {
+            "role": "CEO / executive",
+            "basis": "annual_salary",
+            "amount": 42500,
+            "cite": "55 Pa. Code Ch. 6400 (CEO qualifications)",
+            "notes": "0.5 FTE x $85,000 - operator estimate; qualifications [S2]; ODP waiver enrollment needs an executive with a bachelor's and 5 years of residential management [S2]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease - home(s)",
+            "monthly": 6510,
+            "basis": "fixed",
+            "notes": "3 x $2,170 = 3-bedroom FMR, Philadelphia-Camden-Wilmington metro, FY2026 [S44]. HUD FMR is a rent benchmark, not a quote for a converted group home. ZIP 19707 small-area 3BR is $2,490 [S45]; at that rent this adds about $960/month.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1050,
+            "basis": "fixed",
+            "notes": "$350 x 3 homes - operator estimate."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn/snow",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$200 x 3 homes - operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$150 x 3 homes - operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment/lease, insurance, fuel)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "$800 x 3 homes - operator estimate."
+          },
+          {
+            "item": "General, professional and abuse/molestation liability insurance",
+            "monthly": 1350,
+            "basis": "fixed",
+            "notes": "$450 x 3 homes - operator estimate; no Chapter 6400 minimum was found."
+          },
+          {
+            "item": "Training (24 hrs/yr paid time), CPR/first aid, background checks",
+            "monthly": 1300,
+            "basis": "fixed",
+            "notes": "Operator estimate for about 19 direct-care FTEs: 24 h/yr training each [S2], annual first aid/CPR [S2], PSP checks within 5 working days of hire [S2], and turnover."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and supports-coordinator/family outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records and billing software",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate - get vendor quotes."
+          },
+          {
+            "item": "Basic cable/streaming package",
+            "monthly": 180,
+            "basis": "fixed",
+            "notes": "$60 x 3 homes - operator estimate. Provider-borne room-and-board item per ODP Bulletin 00-25-01."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one new resident per month. The workbook staffs all three homes from month 1, so an operator who opens homes one at a time and hires as each fills needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "pa_aaw_4p_light",
+        "label": "One 4-person community home, Adult Autism Waiver, Light staffing level (W7228)",
+        "capacity": 4,
+        "notes": "Adult Autism Waiver community home residential habilitation is billed by staffing level (W7228-W7232) [S19]. Light is $168.87 per day, effective 7/1/2024 (corrected notice) [S19]. Only the Light and Intensive+ levels were verified; the middle levels were not retrieved. The AAW served about 750 people in FY24-25 [S49], so admissions are limited and are autism-eligible only. 4 residents is the licensed ceiling for a home with one tub/shower [S2]. At 24/7 single-staff coverage the home does not cover costs.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation, Community Home, Light staffing level",
+            "payer": "PA ODP - Adult Autism Waiver (fee schedule)",
+            "code": "W7228",
+            "rate": 168.87,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S19",
+            "notes": "Effective 2024-07-01. NOT independently verified (54 Pa.B. 7290 table could not be loaded); possibly superseded by SFY 2026-27 rates. Whether the AAW rate changed on 7/1/2026 (AAW renewal) was not verified."
+          },
+          {
+            "name": "Room and board collected from resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 715.68,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "72% x $994 (2026 SSI federal benefit rate [S25]) = $715.68; ODP cap [S26], actual documented cost [S28]. Signed Room and Board Agreement required [S27]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals - 24/7 single-staff coverage (1:8 awake, 1:16 asleep; staff counted in the ratio must be awake)",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "55 Pa. Code §6400.45(a)-(b)",
+            "notes": "730 h = minimum coverage for up to 8 awake or 16 sleeping individuals [S7]; staff counted in the ratio must be awake (§6400.232). Actual Light-level staffing definition not retrieved. Wage $19.52 is an unconfirmed modeling proxy (May 2025 BLS figure not verified); state minimum $7.25 [S33]."
+          },
+          {
+            "role": "Program specialist (1 per 30 individuals)",
+            "basis": "annual_salary",
+            "amount": 15000,
+            "cite": "55 Pa. Code Ch. 6400 (program specialist)",
+            "notes": "0.25 FTE x $60,000 - operator estimate; ratio and qualifications [S2]."
+          },
+          {
+            "role": "CEO / executive",
+            "basis": "annual_salary",
+            "amount": 21250,
+            "cite": "55 Pa. Code Ch. 6400 (CEO qualifications)",
+            "notes": "0.25 FTE x $85,000 - operator estimate; qualifications [S2]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease - home(s)",
+            "monthly": 2423,
+            "basis": "fixed",
+            "notes": "One 4-bedroom home: HUD FY2026 4BR FMR, Philadelphia-Camden-Wilmington metro [S44]. Benchmark, not a converted group-home quote. ZIP 19707 small-area 4BR is $2,870 [S45]; at that rent add about $450/month.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate for a 4-bedroom home."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn/snow",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "General, professional and abuse/molestation liability insurance",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate; no Chapter 6400 minimum found."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records and billing software",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate. AAW enrollment is small and tied to waiver slots and county allocations [S48]."
+        }
+      },
+      {
+        "id": "pa_aaw_4p_mixed",
+        "label": "One 4-person community home, Adult Autism Waiver - 3 Light residents + 1 Intensive+ resident (W7228 / W7232)",
+        "capacity": 4,
+        "notes": "Illustrates how the AAW staffing-level rates scale. Intensive+ is $709.30 per day [S19]. The Intensive+ staffing definition and the middle levels (W7229-W7231) were not retrieved, so the extra 730 h/month (a dedicated 1:1 staff around the clock) is an operator estimate - verify locally. Revenue mix is 75% Light / 25% Intensive+. The home still loses money.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation, Community Home, Light staffing level",
+            "payer": "PA ODP - Adult Autism Waiver (fee schedule)",
+            "code": "W7228",
+            "rate": 168.87,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.75,
+            "source_id": "S19",
+            "notes": "Effective 2024-07-01 [S19]; NOT independently verified, possibly superseded."
+          },
+          {
+            "name": "Residential Habilitation, Community Home, Intensive+ staffing level",
+            "payer": "PA ODP - Adult Autism Waiver (fee schedule)",
+            "code": "W7232",
+            "rate": 709.3,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.25,
+            "source_id": "S19",
+            "notes": "Top AAW community-home level; effective 2024-07-01 [S19]; NOT independently verified, possibly superseded."
+          },
+          {
+            "name": "Room and board collected from resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 715.68,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "72% x $994 (2026 SSI federal benefit rate [S25]) = $715.68; ODP cap [S26], actual documented cost [S28]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals - 24/7 coverage plus a dedicated 24/7 staff for the Intensive+ resident",
+            "wage_hourly": 19.52,
+            "wage_source_id": "S34",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "55 Pa. Code §6400.45(a)-(b)",
+            "notes": "1,460 h = 730 h minimum coverage [S7] + 730 h for a 1:1 around the clock - operator estimate. Wage $19.52 is an unconfirmed modeling proxy (May 2025 BLS figure not verified); state minimum $7.25 [S33]."
+          },
+          {
+            "role": "Program specialist (1 per 30 individuals)",
+            "basis": "annual_salary",
+            "amount": 15000,
+            "cite": "55 Pa. Code Ch. 6400 (program specialist)",
+            "notes": "0.25 FTE x $60,000 - operator estimate; ratio and qualifications [S2]."
+          },
+          {
+            "role": "CEO / executive",
+            "basis": "annual_salary",
+            "amount": 21250,
+            "cite": "55 Pa. Code Ch. 6400 (CEO qualifications)",
+            "notes": "0.25 FTE x $85,000 - operator estimate; qualifications [S2]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease - home(s)",
+            "monthly": 2423,
+            "basis": "fixed",
+            "notes": "One 4-bedroom home: HUD FY2026 4BR FMR, Philadelphia-Camden-Wilmington metro [S44]. Benchmark, not a converted group-home quote.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate for a 4-bedroom home."
+          },
+          {
+            "item": "Home maintenance, repairs, pest control, lawn/snow",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "General, professional and abuse/molestation liability insurance",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate; no Chapter 6400 minimum found."
+          },
+          {
+            "item": "Training (24 hrs/yr paid time), CPR/first aid, background checks",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate: about 9 direct-care FTEs each needing 24 h/yr of training [S2]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Records and billing software",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate."
+        }
+      }
+    ],
+    "default_configuration": "pa_cons_ng5_3homes",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.087,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.07,
+      "notes": "Payroll tax 8.7% = employer FICA 7.65% (statutory federal rate; not separately cited in this research - verify) + PA unemployment contributions at the 2026 new-employer rate of 3.822% on the first $10,000 per employee [S36] (about 0.9% of a $40,600 full-time DSP wage) + federal FUTA (about 0.1%, statutory - verify). The employee UC withholding (0.07%), the 3.07% PA income tax withholding [S37] and local earned income tax [S38] are withheld from employees and are not employer costs. Workers' comp 5% is an operator estimate: the class code and class-specific loss cost for community residential homes were not verified. PCRB's April 1, 2026 filing lowered overall loss costs 1.22% and set an employer assessment factor of 2.18% [S41][S42][S43]. Benefits 7% is an operator estimate. The $7.25 state minimum wage [S33] is well below modeled wages. A proposed $15/hour minimum wage from 1/1/2027 is pending and has no identified matching waiver rate increase [S50]; the modeled DSP wage is already above $15, but wage compression pressure could raise costs.",
+      "source_id": "S36"
+    },
+    "opex": [
+      {
+        "item": "Lease - home(s)",
+        "monthly": 2170,
+        "basis": "fixed",
+        "notes": "Base case: one 3-bedroom home at the FY2026 HUD 3BR FMR, Philadelphia-Camden-Wilmington metro [S44] (effective through 9/30/2026; a secondary source lists FY2027 3BR at $2,216 [S53], official schedule not retrieved). FMR is a benchmark, not a converted-group-home quote. Rent is fixed whether the home is full or not; each configuration overrides this line for its homes.",
+        "source_id": "S44"
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 350,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Home maintenance, repairs, pest control, lawn/snow",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Agency vehicle (payment/lease, insurance, fuel)",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate for one vehicle per home for community access and appointments."
+      },
+      {
+        "item": "General, professional and abuse/molestation liability insurance",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "Operator estimate. No Chapter 6400 insurance minimum was found; get quotes."
+      },
+      {
+        "item": "Training (24 hrs/yr paid time), CPR/first aid, background checks",
+        "monthly": 350,
+        "basis": "fixed",
+        "notes": "Operator estimate. Rule-driven: 24 hours of job training each year for direct service workers, supervisors and program specialists [S2]; 12 hours for management/administrative staff [S2]; orientation before working alone and within 30 days of hire [S2]; first aid, Heimlich and CPR within 6 months of hire and annually [S2]; PA State Police check application within 5 working days of hire [S2]."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office, postage and supplies",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and supports-coordinator/family outreach",
+        "monthly": 100,
+        "basis": "fixed",
+        "notes": "Operator estimate. Referrals come through supports coordinators and PUNS [S49]."
+      },
+      {
+        "item": "Records and billing software",
+        "monthly": 100,
+        "basis": "fixed",
+        "notes": "Operator estimate - get vendor quotes. PA uses an open EVV model with the DHS EVV system free to providers [S24]; whether community-home residential habilitation is an EVV service was not confirmed, so no EVV cost is modeled."
+      },
+      {
+        "item": "PA LLC annual report",
+        "monthly": 0.58,
+        "basis": "fixed",
+        "notes": "$7 per year, due September 30 [S40]; $7 / 12 = $0.58. PA has no LLC franchise tax [S40]; members pay 3.07% PIT on pass-through income, which is not an entity cost.",
+        "source_id": "S40"
+      },
+      {
+        "item": "Local business privilege / license taxes",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "Not verified - Philadelphia, Pittsburgh or other municipalities may levy local business taxes; none were found in the research. Modeled at $0; confirm locally."
+      },
+      {
+        "item": "Food (board)",
+        "monthly": 330,
+        "basis": "per_client",
+        "notes": "Operator estimate per resident. For reference, ODP limits a board-only charge to 32% of (SSI max + PA SSP) [S27]."
+      },
+      {
+        "item": "Household supplies and resident incidentals",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate per resident."
+      },
+      {
+        "item": "Basic cable/streaming package (provider-borne room-and-board item)",
+        "monthly": 60,
+        "basis": "fixed",
+        "notes": "Operator estimate per home. ODP Bulletin 00-25-01 lists basic cable as a provider cost. The existing internet/landline line covers the power-outage-capable landline; confirm it works in an outage (staff cell phones do not count)."
+      },
+      {
+        "item": "Incontinence supplies, toiletries, towels and bedding",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Operator estimate per resident. Incontinence products not covered by insurance, toiletries, towels and bedding are provider-borne per ODP Bulletin 00-25-01."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "PA LLC Certificate of Organization (state filing fee)",
+        "low": 125,
+        "high": 125,
+        "source_id": "S39",
+        "notes": "One-time fee filed with the PA Department of State (Form DSCB:15-8821)."
+      },
+      {
+        "item": "Certificate of compliance fee (paid after ODP fee letter, before issuance)",
+        "low": 0,
+        "high": 0,
+        "source_id": "S6",
+        "notes": "ODP requires a certificate fee from for-profit providers before the certificate issues [S6], but no amount was found; HS-633 states the application fee applies only to personal care homes [S5]. Entered as $0 only because the amount is unverified - ask BHSL/ODP and budget the fee."
+      },
+      {
+        "item": "Medicaid/ODP provider enrollment application fee (CY2026 federal amount, if it applies)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S23",
+        "notes": "The CMS application fee for CY2026 is $750 for applications filed 1/1/2026-12/31/2026 [S23]. Whether it applies to ODP community-home providers was not confirmed; the range covers either case."
+      },
+      {
+        "item": "ODP provider qualification / request-for-application preparation (competitive process for new residential providers)",
+        "low": 1500,
+        "high": 6000,
+        "source_id": "S11",
+        "notes": "New residential applicants are invited to qualify through a competitive request for application [S11] and must enroll as an ODP provider in addition to licensure [S21][S22]. Consultant/prep cost is an operator estimate."
+      },
+      {
+        "item": "Policies and procedures, Chapter 6400 compliance setup, consultant review",
+        "low": 2000,
+        "high": 8000,
+        "source_id": "S2",
+        "notes": "Operator estimate. Compliance guide: 55 Pa. Code Ch. 6400 [S2]."
+      },
+      {
+        "item": "Criminal history and clearance checks for owners and initial staff",
+        "low": 200,
+        "high": 900,
+        "source_id": "S2",
+        "notes": "Operator estimate of fees. State Police checks are due within 5 working days of hire; child abuse clearances apply if anyone 17 or younger lives in the home [S2]."
+      },
+      {
+        "item": "Lease deposit and first month's rent",
+        "low": 4340,
+        "high": 13020,
+        "source_id": "S44",
+        "notes": "Low = one 3BR home (2 x $2,170); high = three 3BR homes (6 x $2,170) [S44]. A single 4BR home needs about $4,846 (2 x $2,423). Ranges are scaled by configuration capacity; multi-home configurations need one deposit per home."
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 5000,
+        "high": 15000,
+        "notes": "$5,000 per home - operator estimate. Bedrooms need at least 80 sq ft for a single occupant and no more than 2 sleepers per room [S2]."
+      },
+      {
+        "item": "Safety setup: smoke detectors, extinguishers, bathroom and bedroom fixtures to meet capacity rules",
+        "low": 1000,
+        "high": 3000,
+        "source_id": "S2",
+        "notes": "$1,000 per home - operator estimate. Toilet ratio is 1 per 4 individuals; a home with only one tub/shower is capped at 4 [S2]."
+      },
+      {
+        "item": "Certificate of occupancy / local fire safety permit and inspection fees",
+        "low": 0,
+        "high": 900,
+        "source_id": "S2",
+        "notes": "Each home needs a certificate of occupancy (fire safety occupancy permit) from the local building authority [S2]. Local fees were not verified; operator estimate. Zoning and siting rules were not researched."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 9000,
+        "notes": "$3,000 per home - operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, workers' comp)",
+        "low": 1500,
+        "high": 4500,
+        "notes": "Operator estimate; no required minimums were found."
+      },
+      {
+        "item": "Computers, phones and records/billing software setup",
+        "low": 1500,
+        "high": 5000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Pre-opening hiring, orientation and training of direct support staff",
+        "low": 3000,
+        "high": 15000,
+        "source_id": "S2",
+        "notes": "Staff must complete orientation before working alone and within 30 days of hire [S2]. Operator estimate."
+      },
+      {
+        "item": "Pre-revenue overhead and ramp-up reserve (certificate, ODP enrollment and first admission can take months; timelines not published)",
+        "low": 20000,
+        "high": 80000,
+        "category": "working_capital",
+        "notes": "Operator estimate. Initial-certificate and ODP enrollment timelines were not found. The generator replaces this advisory line with the modeled ramp-up deficit."
+      }
+    ],
+    "rates": {}
+  },
+  "sections": {
+    "executive_summary": "Pennsylvania licenses small group residences for people with an intellectual disability or autism as **community homes** under **55 Pa. Code Chapter 6400**. A home must hold a **certificate of compliance** before it operates, and the certificate names the home's location and maximum capacity [S1]. The chapter applies equally to for-profit and nonprofit homes [S7]. A license alone does not get you paid. To be paid for ODP services you must also enroll with the Office of Developmental Programs (ODP) as a service provider [S21]. Since January 1, 2025, new residential applicants enter only through a **competitive request-for-application (RFA) process** [S11]. This is a gated market, not an open-enrollment one.\n\n**Money flows from ODP, not from families.** A law-firm client alert describes ODP as the de facto single payer because there is no significant private or third-party payer for these services in Pennsylvania [S17]. Residential Habilitation under the Consolidated Waiver is paid against a published fee schedule. The Department states that these rates are the *maximum* it will pay for each service [S46]. Residents also pay room and board from SSI or other income, capped by ODP at 72% of the SSI maximum plus the PA State Supplement, and never more than actual documented cost [S26][S28]. The 2026 SSI federal benefit rate is $994 a month [S25]. There is no private-pay price benchmark for this service. CareScout assisted-living medians ($6,100/month in 2024 [S30]) measure a different product and are not used as revenue.\n\n**Demand is large but slot-limited.** ODP's February 2026 snapshot counted 7,230 adults aged 21+ on the statewide waiting list (Emergency 3,044; Critical 978; Planning 3,208). It also reports 885 people newly enrolled into the Consolidated waiver in FY24-25 after an average of 24 months on the list [S48]. Referrals do not come from a state-run provider matching service. The PUNS needs assessment is completed by the individual's Supports Coordinator and team [S49].\n\n**The economics are thin and rest on rates that could not be confirmed as current.** Only two Consolidated residential rates were verified: Needs Group 1, 1 person, with day, $433.05 (effective 7/1/2024) [S14], and Needs Group 5, 1 person, with day, $1,265.90 (effective 1/1/2024) [S46]. ODP's own notice says existing residential rates were extended through 7/31/2026 and new SFY 2026-27 rates were scheduled for 8/1/2026 [S13]. Those new rates were not retrieved. The model results are:\n\n- **Three 1-person homes at Needs Group 5 (default):** about **$4,366 a month net (4.0% margin)**, break-even at **88.3% occupancy**, first profitable month 3, about **$160,303** cash needed.\n- **One 1-person home at Needs Group 5:** about $912 a month (2.5%), break-even at 89.7% occupancy, about $23,165 cash needed.\n- **Needs Group 1 home:** loses about **$13,697 a month**.\n- **Adult Autism Waiver 4-person homes:** lose about $6,566 (Light) and $8,791 (mixed) a month.\n\nThe only profitable models are built on a high-need resident and a rate that predates the 7/1/2024 table. Treat them as a conditional opportunity, not a proven business.",
+    "service_model": "**Who is served.** Waiver eligibility requires an intermediate care facility (ICF) level of care together with a qualifying diagnosis and adaptive-skill deficits [S49]. ODP reports about 62,000 people enrolled across its programs [S49]. Four waivers fund services: Consolidated, Person/Family Directed Support, Community Living and Adult Autism. Their FY24-25 people-served counts were about 20,000, 13,400, 9,000 and 750 [S49].\n\n**Annual limits decide which waiver can fund a residential home.** Consolidated has no annual limit, P/FDS is $47,000, Community Living is $97,000 and Adult Autism has none [S49]. A high-need resident in a licensed home costs far more than the Community Living cap. At the Needs Group 5 rate of $1,265.90 a day [S46], one resident is roughly $462,000 a year (arithmetic from the rate). That level only fits the Consolidated Waiver. ODP's own comparison puts the average annual cost of licensed residential at $267,225 per individual, against $98,991 for its supportive-housing pilot (129 people as of 1/1/2026) [S49].\n\n**The regulated model.** A community home is licensed under Chapter 6400, which sets minimum requirements for homes for people with an intellectual disability or autism [S1]. Key physical and program rules, all from ODP's Regulatory Compliance Guide [S2]:\n\n- No more than two people may sleep in a bedroom. A single-occupant bedroom needs at least 80 sq ft of wall-to-wall floor space.\n- There must be at least one toilet per four individuals in homes opened on or after March 15, 1982. A home with only one bathtub or shower cannot exceed a licensed capacity of 4.\n- One program specialist must be assigned per 30 individuals.\n- The maximum capacity on the certificate may not be exceeded.\n- Each home needs a certificate of occupancy (fire safety occupancy permit) from the local building authority.\n- Unannounced fire drills are required monthly, with a sleeping-hours drill at least every six months.\n- Each individual needs a physical exam within 12 months before admission and annually after.\n- Listed serious incidents must be reported within 24 hours of staff discovery.\n\n**Service structure in 2026.** Performance-based contracting for licensed and unlicensed Residential Habilitation took effect January 1, 2025 under a concurrent 1915(b)(4) waiver [S20][S49]. ODP's January 2026 presentation says Residential Habilitation and Life Sharing became two separate services [S10]. ODP residential performance standards took effect January 1, 2026 [S9]. In April 2026 ODP also clarified Residential Habilitation qualification requirements for individuals with a Medically Complex Condition (ODPANN 26-044) [S12].\n\n**Adult Autism Waiver.** Community-home residential habilitation under this waiver is billed by staffing level, procedure codes W7228 to W7232. Light is $168.87 a day and Intensive+ is $709.30 a day, effective 7/1/2024 [S19]. The middle levels were not retrieved.",
+    "licensing_pathway": "There are two separate gates: **licensure** (Chapter 6400 certificate of compliance) and **ODP provider enrollment**. ODP states that having a license does not mean you can receive payment and that you must enroll as an ODP service provider [S21].\n\n**Gate 1 - Certificate of compliance**\n1. **Form the legal entity.** A PA LLC Certificate of Organization costs $125 [S39]. The LLC annual report is $7, due September 30 [S40]. The application is filed by the legal entity that will operate the home.\n2. **Secure a compliant home.** Check bedroom sizes and counts, toilet and shower counts (one tub or shower caps capacity at 4), and the local certificate of occupancy before applying [S2]. Zoning and siting rules beyond the certificate of occupancy were not researched; check municipal zoning.\n3. **Submit the application.** The application is on the Department-prescribed form, submitted separately for each home [S3]. DHS posts the form as HS-633, Application for Certificate of Compliance [S5]. Licensing procedures come from 55 Pa. Code Chapter 20 [S2].\n4. **Do not open early.** The entity may not commence operation until notified that a certificate of compliance will be issued [S3].\n5. **Pay the certificate fee.** The HS-633 form states the *application* fee applies only to personal care homes [S5]. A separate DHS page states that ODP requires a certificate fee from for-profit providers before a certificate can be issued [S6]. The dollar amount was **not found**. Section 20.42 says no fee is required for a facility not listed in its fee subsection [S4], and whether community homes are listed was not confirmed. Ask BHSL or ODP and budget for the fee. The model enters $0 only because the amount is unverified.\n6. **Inspection and issuance.** The certificate specifies each home's location and maximum capacity [S1]. Agencies running homes serving eight or fewer must have at least a sample of their homes inspected by the Department each year [S1]. Each home serving nine or more is inspected annually [S51].\n\n**Not found:** ordered Chapter 20 steps (§§20.51-20.57), decision timelines for initial certificates, and the certificate's term and renewal cycle. Do not assume a timeline. The only decision language found is for regulatory waiver requests: ODP will decide 'as soon as operationally possible', with no fixed day count, after 30 days' notice to affected individuals. Requests go to the Regulatory Administration Unit (ra-odplicensing@pa.gov) [S2].\n\n**Gate 2 - ODP enrollment.** New residential applicants are invited to qualify through a **competitive request-for-application process**, effective 1/1/2025 [S11]. Enrollment is governed by the current ODP provider qualification and enrollment requirements under 55 Pa. Code Chapter 6100 and ODP's current qualification instructions. ODP Bulletin 00-25-01 states that Chapter 6100 rescinded Chapter 51, so the older Chapter 51 enrollment rule (a 2012 rulemaking notice [S22]) is not current law, and its document deadlines should not be relied on. Confirm the current enrollment document deadlines with ODP. For waiver residential enrollment, ODP requires an executive with at least five years' experience as a manager responsible for residential services plus a bachelor's degree. This is a waiver enrollment requirement, not a Chapter 6400 licensing rule [S2].\n\n**Federal fee.** The CMS provider enrollment application fee for CY2026 is $750 for applications filed from 1/1/2026 through 12/31/2026 [S23]. Whether it applies to ODP community-home providers was not confirmed, so startup costs show $0 to $750.",
+    "reimbursement": "**How the money flows.** ODP is effectively the only payer for ID/A services in Pennsylvania [S17]. Consolidated, Community Living, P/FDS and Adult Autism waiver services are paid against published fee schedule rates, which are typically updated roughly every three years [S17]. DHS sets those rates [S16]. The Department says the final rates are the maximum it will pay for each service [S46]. The model therefore treats the fee schedule as a revenue ceiling. Whether ODP pays directly fee-for-service or through managed care was not stated in the sources reviewed.\n\n**Verified rates used in the model**\n\n| Service | Code | Rate | Effective | Source |\n|---|---|---|---|---|\n| Licensed Res Hab With Day, Needs Group 1, 1 person | W9000 | $433.05 per day unit (enhanced communication $512.88) | 7/1/2024 | [S14] |\n| Licensed Res Hab With Day, Needs Group 5, 1 person | W9000/U9 | $1,265.90 per day unit | 1/1/2024 | [S46] |\n| Adult Autism Waiver, Community Home, Light | W7228 | $168.87 per day | 7/1/2024 | [S19] |\n| Adult Autism Waiver, Community Home, Intensive+ | W7232 | $709.30 per day | 7/1/2024 | [S19] |\n\n**What is not verified.** ODP's May 2026 announcement revised the Needs Exception Allowance (NEA) process for residential rate exceptions. Renewals were due June 1, 2026, a new form was required July 1, 2026, existing rates were extended through July 31, 2026, and **new SFY 2026-27 rates were scheduled for August 1, 2026** [S13]. Those new amounts were not retrieved. The full per-diem table by needs group, program capacity and procedure code was also not retrieved. The Needs Group 5 rate is dated 1/1/2024, before the 7/1/2024 table. ODP applied a 6% inflationary adjustment to residential rates (8% for non-residential) in that table [S47], so the current Needs Group 5 rate may differ. The model uses the figure as published and does not raise it. A law-firm alert says new fee schedule rates for all ID/A services are not expected until 2027 [S17]. The rate-setting regulation, 55 Pa. Code §6100.571, requires cost data to be refreshed at least every three years [S18].\n\n**Add-ons (not assumed in the model).** Select residential providers receive a 3% per-individual add-on and Clinically Enhanced providers 5% [S14][S47]. Providers meeting performance standards may receive supplemental pay-for-performance payments of up to 3% of ODP-eligible service revenue [S47]. Eligibility depends on ODP performance-based contracting tiers, so none of these is in the revenue lines.\n\n**Room and board.** This is the second revenue stream, paid by the resident. ODP caps the charge at 72% of (SSI maximum + PA State Supplement), 32% if the provider supplies board only, and at actual documented cost [S26][S27][S28]. A signed Room and Board Agreement is required [S26]. Residents must keep a personal needs allowance, a floor set by SSA for the setting [S29]. The model uses $715.68 a month, which is 72% of the $994 SSI rate [S25]. The PA State Supplement amount and the personal needs allowance dollar figure were not verified, so the real cap may be higher but the model stays at or below it.\n\n**Rate-change risk.** Few ID/A providers file rate appeals, estimated at under 10% historically [S17]. The proposed minimum wage increase to $15/hour from 1/1/2027 has no matching waiver rate adjustment identified in the proposal [S50].",
+    "demand": "**Waiting list.** ODP's waiting-list report (data snapshots through March 2026) shows the following [S48]:\n\n- For adults aged 21+ in February 2026, 7,230 people were on the list: Emergency 3,044, Critical 978, Planning 3,208. County HCBS waiver enrollment was 43,322.\n- Across all ages, the Emergency count fell to 4,320 in July 2025 while Critical rose to 4,951.\n- The adult (21+) emergency list fell 31% after the Governor's February 2024 announcement.\n- People with autism only (no co-occurring ID) on the list numbered 815 Emergency and 957 Critical in FY25-26.\n- Emergency adults with a caregiver aged 60+ numbered 696 in FY25-26 year-to-date, against 990 in FY24-25. Aging caregivers are a driver of residential demand.\n\nThe PUNS categories are defined by timing: Emergency means services needed within six months, Critical six months to two years, and Planning two to five years [S48].\n\n**Slot supply, not demand, is the constraint.** In FY24-25, 885 people were newly enrolled into the Consolidated waiver from the list after an average of 24 months [S48]. ODP's current program capacity is 41,916 [S48], and all-waiver filled capacity fell from 96% in FY18-19 to 92% in FY25-26 year-to-date [S48]. The FY25-26 state budget impasse lasted into November 2025 and stalled waiting-list reduction because counties could not enroll without budget allocations [S48]. For FY2026/27, the Governor proposed a $76.8 million increase for the ID community waiver line, described as largely maintaining existing services and enrollment rather than expanding capacity, with no funding explicitly proposed for waiting-list initiatives [S50]. Final enactment was not verified.\n\n**Referral path.** The PUNS assessment is completed by the Supports Coordinator together with the individual's team [S49]. A new home therefore fills through supports coordinators, county administrative entities and provider-to-provider transfers. Referral sources beyond PUNS and supports coordinators (hospitals, schools, Community HealthChoices plans) were not verified.\n\n**Not found:** statewide counts of licensed community homes or residential providers, residential-habilitation vacancy rates, and the share of waiting-list individuals who want a group home rather than life sharing or supportive housing. ODP's supportive-housing pilot (129 people as of 1/1/2026), at about $98,991 a year against $267,225 for licensed residential [S49], signals a policy interest in lower-cost alternatives. The default model's high-need resident is the segment least substitutable by those alternatives, but that is a judgment, not a sourced finding.",
+    "operations": "**Staffing rules.** Chapter 6400 requires at least one staff person awake and physically present for every eight individuals when they are awake, and at least one staff person physically present for every 16 individuals while they sleep (§6400.45(b)) [S7]. A staff person counted in that ratio must be awake (§6400.232; confirm applicability to each home type), so overnight sleep-shift pay differentials cannot be assumed. Staff counted in the ratio must be 18 or older [S2]. A 1-person home therefore needs one staff member around the clock, about 730 hours a month, as the regulatory floor. The staffing ratio and qualifications written in each individual plan must be implemented as written even when they exceed these minimums (§6400.45(d)). A person's plan and needs group can require much more, and the model's 1,095 hours for a Needs Group 5 resident is an operator estimate.\n\n**Required roles** [S2]:\n- **Program specialist:** one assigned per 30 individuals. Qualifications are a bachelor's plus two years of direct work with people with ID or autism, or master's plus one year, or associate/60 credits plus four years.\n- **CEO:** one required, with a master's plus two years or a bachelor's plus four years of administration or human-services experience. ODP waiver enrollment separately requires an executive with a bachelor's and five years of residential management [S2].\n\n**Training and background checks** [S2]:\n- Direct service workers, supervisors and program specialists complete 24 hours of job training each year. Management, administrative and fiscal staff complete 12 hours. Budget this paid training time separately from CPR/first aid and background-check fees.\n- Orientation is completed before working alone and within 30 days of hire.\n- First aid, Heimlich and CPR training is due within 6 months of hire and annually.\n- A PA State Police check application is due within 5 working days of hire, with an FBI check for non-PA residents.\n- Child abuse clearances apply if anyone aged 17 or younger lives in the home.\n- Under the Peake decision, the Department may not bar hiring based on the former lifetime-ban offense list, though checks are still required.\n\n**Daily compliance** [S2]: monthly unannounced fire drills and a sleeping-hours drill every six months; annual physicals; incident reports within 24 hours of discovery; a Room and Board Agreement on Form DP 1077 for each resident, completed before admission, annually, and within 15 days of an emergency placement [S26]. Provider-borne items include a landline that works in a power outage, basic cable, basic internet, cleaning products, toiletries, towels and bedding, furniture, incontinence products not covered by insurance, and the labor for laundry, lawn care, food preparation, maintenance and housekeeping.\n\n**Systems.** Pennsylvania uses an open EVV model: providers may use the DHS EVV system at no cost or an alternate vendor [S24]. Personal care services in the ODP waivers are subject to EVV, but whether community-home Residential Habilitation is an EVV service was not confirmed, so no EVV cost is modeled. Records and billing software is an operator-estimate cost. From July 1, 2026, ODP's three-participant annual minimum applies to non-residential services such as Community Participation Support, In-Home and Community Support and Companion, not to Residential Habilitation [S15].\n\n**Performance expectations.** ODP residential performance standards and measures took effect January 1, 2026 [S9], and performance-based contracting ties add-on payments to these standards [S47]. Read the current standards before applying.",
+    "market_conditions": "**Supply.** No official count of Chapter 6400 homes or residential agencies was retrieved, and no vacancy or market-share data exists in the sources. This report does not name competitors or estimate shares. Entry is gated by the competitive RFA [S11].\n\n**Labor.** No role-level Pennsylvania wage for direct support professionals was verified. The model uses $19.52 an hour for direct support as an unconfirmed assumption. The Philadelphia-metro May 2025 BLS figures that were the basis for it could not be confirmed, and the personal care and service major group is a poor proxy for a DSP. Before relying on the wage, pull the detailed May 2025 OEWS wage for home health and personal care aides or nursing assistants for the Philadelphia MSA, or the PA L&I regional tables [S35]. Pennsylvania's minimum wage is $7.25 [S33]. Local minimum wage ordinances are preempted, with an exception for ordinances adopted before 2006 [S33], so no higher local floor was found for a Philadelphia-area home. A bill raising the state minimum passed the House on March 24, 2026 and is pending in the Senate [S52]. A $15/hour minimum effective January 1, 2027 was proposed in the Governor's budget, with no matching waiver rate increase identified [S50]. The modeled DSP wage is above $15, but wage compression pressure above it is a risk.\n\n**Payroll taxes.** UC applies to the first $10,000 of each worker's pay, with a new-employer rate of 3.822% for non-construction employers in 2026 [S36]. Employee UC withholding (0.07%), 3.07% state income tax withholding [S37] and local earned income tax of typically 1% to 3.75% [S38] are withheld from employees. Workers' compensation loss costs fell 1.22% overall effective April 1, 2026 and the employer assessment factor is 2.18% [S41][S42][S43]. The class code for community residential homes was not verified.\n\n**Real estate.** HUD FY2026 fair market rents for the Philadelphia-Camden-Wilmington metro are $1,810 (2BR), $2,170 (3BR) and $2,423 (4BR) [S44]. The ZIP 19707 small-area figures are higher: $2,060 (2BR), $2,490 (3BR) and $2,870 (4BR) [S45]. A secondary source lists FY2027 at $1,860 (2BR) and $2,216 (3BR) [S53]; the official FY2027 schedule was not retrieved. These are benchmarks, not quotes for converted group-home properties.\n\n**Pricing context.** Pennsylvania assisted-living medians are $6,100 a month (2024) [S30] and $77,760 a year (2025) [S31]. Genworth reports that Pennsylvania long-term care costs rose and exceeded national costs [S32]. These measure a different product and no private-pay ID/A market exists [S17]. They are context only.\n\n**Funding conditions.** One-time ARPA HCBS funding ends in 2026 with only limited backfill proposed [S50]. The FY25-26 budget impasse delayed enrollments [S48].",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident is the ODP per-day rate times 30.42 days, plus the room-and-board pass-through of $715.68 a month (72% of the 2026 SSI benefit of $994 [S25][S26]). Staffing is built from the Chapter 6400 minimum coverage of 730 hours a month per home [S7] plus operator-estimated extra hours for high-need residents, a program specialist and a CEO. Payroll burden is 20.7% (8.7% payroll taxes, 5% workers' comp, 7% benefits); the workers' comp and benefit shares are operator estimates. Rent uses HUD fair market rents [S44]. Occupancy defaults to 92%, the waiver-level filled share, which is not a residential-habilitation statistic [S48]. Every rate is the published maximum and none was raised.\n\n**Results at 92% occupancy**\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| Three 1-person homes, Needs Group 5 (default) | $4,366 | 4.0% | 88.3% | 3 | $160,303 |\n| One 1-person home, Needs Group 5 | $912 | 2.5% | 89.7% | 1 | $23,165 |\n| 4-person AAW, Light | -$6,566 | -30.5% | not reachable (122.1%) | none | $347,734 |\n| 4-person AAW, 3 Light + 1 Intensive+ | -$8,791 | -24.0% | not reachable (115.0%) | none | $450,505 |\n| One 1-person home, Needs Group 1 | -$13,697 | -107.2% | not reachable (193.5%) | none | $516,252 |\n\n**Why the Needs Group 1 home fails.** One resident at $433.05 a day yields about $13,173 a month in waiver revenue (arithmetic from [S14]). One staff member covering 730 hours at $19.52 costs about $14,250 in wages before burden, so the revenue does not cover the minimum coverage the ratios require [S7], let alone rent and management. A Needs Group 1 resident in a 1-person home cannot support a licensed home at these rates.\n\n**Why the Adult Autism Waiver homes fail.** Four residents at the Light rate of $168.87 [S19] generate far less than the 24/7 coverage, rent, program specialist and CEO cost. Adding one Intensive+ resident at $709.30 [S19] helps, but the model adds a dedicated 730 hours for that person (an operator estimate) and the home still loses money. Only the Light and Intensive+ levels were verified, so intermediate level mixes that might do better could not be modeled.\n\n**Why the Needs Group 5 homes profit, and how fragile that is.** At $1,265.90 a day [S46], one resident yields about $38,500 a month in waiver revenue plus room and board, enough to fund 1,095 staff hours (about $21,400 in wages before burden). The default three-home configuration clears about $4,366 a month at default occupancy. The sensitivities below are arithmetic from the model inputs:\n\n- **Rate risk:** the Needs Group 5 rate is dated 1/1/2024 and may have been replaced by the 8/1/2026 table [S13]. The direction is unknown. Rates could be higher after the 6% inflation adjustment [S47], but the residential figure used here has not been confirmed. Do not rely on this model until the current rate is verified.\n- **Occupancy risk:** with three residents, one vacancy drops occupancy to about 67% while rent and staff continue. The 3.7-point gap between default (92%) and break-even (88.3%) is thinner than one vacant month. At 85% occupancy the default configuration loses money.\n- **Staffing risk:** each additional 100 staff hours a month across the three homes costs about $2,350 with burden, so the $4,366 margin covers only about 185 extra hours. If a resident needs 2:1 staffing around the clock (1,460 hours a month), the one-home configuration loses about $7,400 a month at default occupancy.\n- **Wage risk:** each $1/hour increase on the 3,285 modeled hours costs about $3,965 a month with burden. A rise of about $1.10 an hour erases the profit. The $19.52 wage is a Philadelphia-metro major-group mean used as a proxy [S34]. Outside Philadelphia, wages may be lower but the rate and rent geography should be re-verified.\n- **Rent risk:** at the ZIP 19707 small-area 3BR rent of $2,490 [S45] instead of $2,170 [S44], three homes cost about $960 more a month, leaving about $3,400. A converted-property lease can exceed any HUD benchmark.\n- **Pending mandates:** a $15 minimum wage [S50][S52] and the end of ARPA funding [S50] could raise costs without a matching rate change.\n- **Unquantified costs:** liability insurance, workers' comp class rate, the certificate fee [S6] and local business taxes are operator estimates or unverified. Each is a possible downside.\n\n**Upside not in the model.** Select (+3%) and Clinically Enhanced (+5%) add-ons [S47] would add roughly $1,150 and $1,900 a month per Needs Group 5 resident on the waiver rate (arithmetic from [S46][S47]), if the provider qualifies and the add-on percentages still apply. Pay-for-performance of up to 3% of eligible revenue is also possible [S47]. The program specialist ($60,000 a year) and CEO ($42,500 a year, a half-time estimate) lines total about $8,500 a month before burden. An owner who meets the qualifications in Chapter 6400 and ODP's executive requirement [S2] can fill those roles and keep part of that cost, but only if the qualifications and workload are genuinely met.\n\n**Cash.** The default three-home model needs about $160,303 including the modeled ramp-up deficit. It staffs all three homes from month 1 while residents arrive one per month. Opening homes one at a time and hiring as each fills reduces that cash need but delays profit.",
+    "risks": "**Rate uncertainty.** The profitable configurations use a Needs Group 5 rate effective 1/1/2024 that predates the 7/1/2024 table [S46][S47]. New SFY 2026-27 rates were scheduled for 8/1/2026 [S13] and were not retrieved. The Needs Group 1 and Adult Autism Waiver results show how quickly a lower rate level turns the model negative. A wrong rate assumption breaks the plan.\n\n**Access risk.** New residential applicants must win a competitive RFA [S11]. The outcome and the timeline are unknown. A license without ODP enrollment cannot bill [S21]. Admissions depend on county waiver capacity and supports coordinators [S49], and the state budget affects enrollments: the FY25-26 impasse lasted into November 2025 and stalled waiting-list reduction [S48]. The Governor's FY2026/27 proposal largely maintains rather than expands enrollment [S50].\n\n**Concentration and occupancy risk.** One payer sets the price and the ceiling [S17][S46]. A 1-person home is either 0% or 100% occupied. Break-even is 88.3% to 89.7% against a 92% default [S48 for the default basis], so a single vacant month can erase the margin. A resident who dies, moves or is hospitalized stops the revenue while rent and staff coverage continue.\n\n**Cost risk.** Staffing needs come from each person's plan, not from the regulatory floor [S7]. The model's high-need staffing is an operator estimate. The DSP wage is a proxy [S34]. A $15 state minimum from 2027 [S50][S52] could compress wages upward without a rate change. Insurance minimums, the workers' comp class and local taxes were not verified.\n\n**Policy risk.** ODP's supportive-housing pilot costs $98,991 a year per person against $267,225 for licensed residential [S49]. ARPA HCBS funding ends in 2026 [S50]. Performance-based contracting adds tiers and measures that affect rates [S20][S47], and ODP split Residential Habilitation and Life Sharing into separate services in 2026 [S10].\n\n**Licensing and compliance risk.** The certificate fee amount [S6], the application timeline and the renewal cycle are not published in the sources found. Capacity is a hard cap tied to the certificate [S2]. Annual inspections (a sample of homes for agencies running homes with eight or fewer; each home with nine or more) apply [S1][S51]. Chapter 6400 violations can affect licensure, and incidents must be reported within 24 hours [S2].\n\n**Data gaps.** This report has no verified statewide home count, vacancy data, referral-source mix, current fee table or insurance minimums. The model should be re-run when the current Residential Habilitation fee schedule is retrieved.",
+    "recommendations": "**1. Verify the rate before anything else.** Pull the ODP residential fee schedule effective 8/1/2026 from the ODP Service Rates page [S16] and the related notice. Rerun the model with the current Needs Group 5 per-diem and the correct program-capacity row. The $1,265.90 figure predates the 7/1/2024 table and is not confirmed as current; if the current rate is lower, none of the profitable configurations should be pursued as modeled. Also re-pull the W9000 and Adult Autism Waiver (W7228-W7232) rates, which are 7/1/2024 figures that may have been superseded.\n\n**2. Target high-need residents with an owner-operated structure.** The only configurations that cleared break-even serve Needs Group 5 residents. The three-home model earned about $4,366 a month at 92% occupancy with first profit in month 3 [model results], on a rate that is not confirmed as current. Plan for it only if you meet, or can hire to, the program specialist and CEO qualifications [S2] and the ODP executive requirement [S2], and if the owner fills part of those roles. Do not model Needs Group 1 residents in a 1-person home or Adult Autism Waiver Light-level homes; they lose money.\n\n**3. Secure the market access first.** Watch for the next ODP RFA for new residential providers [S11] and confirm the application window. Begin ODP qualification documents in parallel with licensing, and confirm the current ODP enrollment document deadlines under Chapter 6100 and ODP's current qualification instructions. Do not sign a lease or hire staff until you hold a path to both the certificate [S3] and ODP enrollment [S21].\n\n**4. Build relationships with referral gatekeepers.** Supports coordinators and county administrative entities control admission [S49]. Introduce your homes, staffing model and clinical capability to them, and tie your pitch to the waiting-list categories: Emergency 3,044 and Critical 978 adults [S48].\n\n**5. Ask the regulator the open questions in writing.** Ask BHSL and ODP the following [S8][S6]: the certificate fee amount and when it is due; whether the CMS $750 application fee applies [S23]; initial-certificate processing time; the certificate term and renewal; insurance requirements; and which EVV rules, if any, apply to community-home Residential Habilitation [S24].\n\n**6. Protect the thin margin.** Buy or lease homes sized to the capacity rules (80 sq ft single bedrooms, two per room, one toilet per four, at least two bathing fixtures above four residents [S2]). Negotiate rent below the HUD benchmark where possible [S44][S45]. Lock in staffing to the individual's plan and avoid over-hiring. Track occupancy monthly and keep a cash reserve for at least a few months of vacancy; the modeled cash need for the default configuration is about $160,303.\n\n**7. Pursue add-ons and performance pay.** Review the Select and Clinically Enhanced criteria [S47][S11] and the 2026 residential performance standards [S9]. If eligible, the +3% or +5% add-ons and up to 3% pay-for-performance could widen the margin. These are not in the base model.\n\n**8. Stage the build.** Open one home first and add the second and third as residents are confirmed, rather than staffing three homes at once. The single-home Needs Group 5 model needs about $23,165 of cash but earns only about $912 a month, so treat it as a proving step, not a destination. Re-evaluate wage, rent and the $15 minimum wage outcome [S50][S52] before each expansion."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Confirm the pathway: Chapter 6400 certificate of compliance PLUS separate ODP provider enrollment",
+      "instructions": "Pennsylvania has two separate gates. (1) A certificate of compliance under 55 Pa. Code Ch. 6400 is required before a community home operates. (2) ODP says a license does not by itself mean you can be paid, so you must also enroll as an ODP service provider. Plan and budget for both from day one.",
+      "cite": "55 Pa. Code Ch. 6400; ODP Licensing and Regulations page",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Understand that new residential providers enroll only through a competitive ODP request for application (RFA)",
+      "instructions": "Since 1/1/2025 new residential applicants are invited to qualify through a competitive RFA, not open enrollment. Contact ODP and watch the myODP and RCPA announcements for when an RFA opens. Time from RFA to award is not published. A license alone will not produce revenue.",
+      "cite": "ODP Performance-Based Contracting FAQs",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Decide which waiver and service you are targeting (Consolidated vs. Adult Autism Waiver; Residential Habilitation vs. Life Sharing)",
+      "instructions": "ODP's January 2026 webinar said Residential Habilitation and Life Sharing become two separate services. The Consolidated Waiver (about 20,000 served in FY24-25) has no annual service limit. The Adult Autism Waiver (about 750 served) pays community-home habilitation by staffing level (W7228-W7232). Community Living Waiver has a $97,000 annual limit. Pick the target before leasing a home.",
+      "cite": "ODP MAAC presentations (1/22/2026; 2/26/2026)",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Run the numbers on the rate you will actually be paid before committing capital",
+      "instructions": "In the research model, three 1-person Needs Group 5 homes earn about $4,366/month (4% margin) at 92% occupancy, break even at about 88.3% occupancy, and need about $160,000 in cash. That model uses a $1,265.90 rate effective 1/1/2024 that was not confirmed as current. A 1-person Needs Group 1 home loses about $13,700/month. Do not sign a lease until you hold a current written rate for the person you will serve.",
+      "cite": "54 Pa.B. 1217; 53 Pa.B. 1558",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Form a Pennsylvania legal entity (LLC recommended)",
+      "instructions": "File a Certificate of Organization (Form DSCB:15-8821) with the PA Department of State; state fee $125. The application for a certificate of compliance must be made by the legal entity that will operate the home. Use the exact legal name on every later filing.",
+      "cite": "15 Pa.C.S. (Certificate of Organization)",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov; issued the same day online. Needed for payroll, ODP enrollment, banking and tax accounts.",
+      "cite": "IRS Form SS-4",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Calendar the LLC annual report",
+      "instructions": "PA LLCs file a $7 annual report with the Department of State by September 30 each year (Act 122 of 2022). There is no separate LLC franchise tax; members pay 3.07% personal income tax on pass-through income.",
+      "cite": "Act 122 of 2022",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Check local business privilege taxes and licenses",
+      "instructions": "The research did not verify local business taxes or licenses in Philadelphia, Pittsburgh or other municipalities. Contact the municipality and school district where each home sits. The model carries $0 for this line until confirmed.",
+      "cite": "Local ordinances (not verified)",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISIONS & BUSINESS FORMATION",
+      "priority": "MEDIUM",
+      "task": "Open a business bank account and set up bookkeeping",
+      "instructions": "Keep resident room-and-board collections, personal needs funds and waiver revenue clearly separated from the start. Budget about $400/month for accounting, payroll and legal in the model (operator estimate).",
+      "cite": "55 Pa. Code Ch. 6100 (room and board)",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "CRITICAL",
+      "task": "Complete the ODP provider qualification process in HCSIS",
+      "instructions": "Community-home operators seeking ODP payment enroll through ODP's provider qualification process in HCSIS. Submit the Department-prescribed enrollment application. Obtain the current ODP readiness packet from ODP before starting.",
+      "cite": "55 Pa. Code §51.11",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "CRITICAL",
+      "task": "Respond to any missing-document notice within 30 days",
+      "instructions": "Under the Chapter 51 enrollment rule, missing qualification documents must be submitted within 30 days of notification or the application is treated as withdrawn. Assemble corporate, insurance, tax and staff qualification documents before you apply.",
+      "cite": "55 Pa. Code §51.11",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "CRITICAL",
+      "task": "Staff the executive position to meet the ODP waiver qualification",
+      "instructions": "For Residential Habilitation enrollment, an executive must have a bachelor's degree and at least five years of experience as a manager with responsibility for providing residential services. This is an ODP waiver requirement, stricter than the Chapter 6400 CEO rule. If you do not meet it, you must hire an executive who does.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "HIGH",
+      "task": "Confirm whether the CMS enrollment application fee applies",
+      "instructions": "The CMS provider enrollment application fee for CY2026 is $750 for applications filed 1/1/2026-12/31/2026. Whether it applies to ODP community-home providers was not confirmed. Ask ODP or the enrollment unit before you apply; budget $0-$750.",
+      "cite": "CMS CY2026 fee notice",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "HIGH",
+      "task": "Review the 2026 ODP residential performance standards",
+      "instructions": "ODP's residential performance standards took effect January 1, 2026 and drive Select and Clinically Enhanced status. Read the standards and measures and build your quality systems to them before opening.",
+      "cite": "ODP Residential Provider Standards and Measures",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "HIGH",
+      "task": "Learn the performance-based contracting payment structure",
+      "instructions": "A concurrent 1915(b)(4) waiver for Residential Habilitation began 1/1/2025. Select providers get +3% per individual, Clinically Enhanced +5%, and pay-for-performance can add up to 3% of eligible revenue. The model does not assume any add-on.",
+      "cite": "ODPANN 24-084; Record of Change 1/1/2025",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "MEDIUM",
+      "task": "Check the pending provider minimum-participant rule",
+      "instructions": "Starting 7/1/2026, ODP requires enrolled providers to serve at least 3 separate participants per fiscal year. ODP's summary applies this to non-residential services (CPS, In-Home and Community Support, Companion), not residential habilitation. Confirm with ODP if you plan to add those services.",
+      "cite": "ODPANN 25-111",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 2 — ODP PROVIDER ENROLLMENT & QUALIFICATION",
+      "priority": "MEDIUM",
+      "task": "If serving people with a Medically Complex Condition (MCC), read ODPANN 26-044",
+      "instructions": "ODP clarified qualification requirements for Residential Habilitation for individuals with an MCC in April 2026. Check whether additional qualifications apply to your staff and nursing support.",
+      "cite": "ODPANN 26-044",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "CRITICAL",
+      "task": "Obtain the current SFY 2026-27 Residential Habilitation fee schedule",
+      "instructions": "ODP's NEA announcement says existing rates ran through 7/31/2026 and new SFY 2026-27 rates began 8/1/2026. The research could not retrieve the new table. Download it from the ODP Service Rates page and replace every rate in the model before relying on any projection.",
+      "cite": "ODP Service Rates; RCPA NEA notice",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "CRITICAL",
+      "task": "Understand that the fee schedule is the maximum rate and is set by ODP, not negotiated",
+      "instructions": "Fee schedule rates are the maximum the Department pays. Revenue per person depends on needs group, program capacity (number of people in the home) and procedure code. There is no meaningful private or third-party payer for these services in PA, so ODP is effectively the single payer.",
+      "cite": "53 Pa.B. 1558; Vorys client alert",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "HIGH",
+      "task": "Learn the Needs Exception Allowance (NEA) process",
+      "instructions": "ODP revised how providers request residential fee schedule exceptions in the Consolidated Waiver. A new form was required from 7/1/2026. Know the deadlines before admitting a person whose needs exceed the base rate.",
+      "cite": "ODP NEA update (May 2026)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "HIGH",
+      "task": "Track rate-setting cycle and appeal rights",
+      "instructions": "DHS must refresh the data behind fee schedule rates at least every 3 years (55 Pa. Code §6100.571). A law firm reports new rates for all ID/A services are not expected until 2027 and that under 10% of providers historically appeal. Calendar appeal windows when a rate notice publishes.",
+      "cite": "55 Pa. Code §6100.571; 54 Pa.B. 2182",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "HIGH",
+      "task": "Understand the waiting list and how referrals arrive",
+      "instructions": "As of Feb 2026, 7,230 adults 21+ were on the waiting list (Emergency 3,044; Critical 978; Planning 3,208). Supports Coordinators complete the PUNS with the individual's team. Only 885 people were enrolled from the list into the Consolidated waiver in FY24-25. Build relationships with supports coordination organizations and county administrative entities.",
+      "cite": "ODP Multi-Year Program Growth Strategy Report",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "HIGH",
+      "task": "Plan for funding risk in the state budget",
+      "instructions": "The FY25-26 budget impasse lasted into November 2025 and stalled enrollments. The Governor's FY2026-27 proposal maintains rather than expands capacity and puts no money explicitly toward waiting lists; one-time ARPA HCBS funding ends in 2026. Confirm the enacted appropriation before relying on new waiver slots.",
+      "cite": "RCPA budget overview (2/4/2026)",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 3 — RATES, FUNDING & MARKET VERIFICATION",
+      "priority": "MEDIUM",
+      "task": "Do not plan on private-pay revenue",
+      "instructions": "CareScout's PA assisted living median ($6,100/month in 2024; $77,760/year in 2025) measures assisted living communities and is not a community-home price. Treat it as context only.",
+      "cite": "CareScout/Genworth Cost of Care Survey",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Choose a home that fits Chapter 6400 capacity rules",
+      "instructions": "The certificate lists each home's location and maximum capacity, which may not be exceeded. A home with only one bathtub/shower (or one toilet) cannot exceed a licensed capacity of 4. Plan toilets at 1 per 4 individuals.",
+      "cite": "55 Pa. Code §6400.13; ODP guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Verify bedroom size and occupancy",
+      "instructions": "No more than two individuals may sleep in one bedroom. A single-occupant bedroom needs at least 80 sq ft of wall-to-wall space excluding closets; shared rooms need 60 sq ft per person. Measure every bedroom before signing a lease.",
+      "cite": "55 Pa. Code Ch. 6400 (bedrooms)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Check zoning and siting with the municipality",
+      "instructions": "Local zoning rules for community residences were not researched. Contact the zoning office before leasing to confirm a community home for the intended number of residents is permitted at the address.",
+      "cite": "Local zoning (not researched)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Obtain a certificate of occupancy / fire safety occupancy permit",
+      "instructions": "Each community home must have a certificate of occupancy from the local building authority. Request an inspection from the municipal code office, and ask what occupancy classification applies for the number of residents. Fees and time are local; budget $0-$900 (operator estimate).",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Negotiate the lease with licensing in mind",
+      "instructions": "Rent is fixed whether the home is full or not. Benchmarks: HUD FY2026 3BR FMR for the Philadelphia metro is $2,170 (4BR $2,423); ZIP 19707 small-area 3BR is $2,490. FMR is a benchmark, not a group-home quote. Get landlord consent for modifications and for operating a licensed home.",
+      "cite": "HUD FY2026 FMR",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Install and test life-safety equipment",
+      "instructions": "Equip the home with smoke detectors, extinguishers and the fixtures the Chapter 6400 physical-site rules call for. Budget about $1,000 per home (operator estimate). Review the Chapter 6400 fire safety sections with your local fire official.",
+      "cite": "55 Pa. Code Ch. 6400 (physical site; fire safety)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — SITE SELECTION & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "Furnish the home and plan for accessibility",
+      "instructions": "Budget about $5,000 per home for beds, furniture and appliances (operator estimate). Review the accessibility needs of the first person you expect to serve; modifications may need landlord approval.",
+      "cite": "55 Pa. Code Ch. 6400",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Download the Application for Certificate of Compliance (HS-633)",
+      "instructions": "Use the Department's prescribed form. The application must be completed on the form prescribed and provided by the Department, one application for each home.",
+      "cite": "55 Pa. Code §20.21",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Submit the application before you begin operating",
+      "instructions": "The legal entity must apply before commencing operation and may not open until notified that a certificate of compliance will be issued. Do not admit anyone, even informally, before that notice.",
+      "cite": "55 Pa. Code §20.21; §6400.11",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Confirm you are applying to the correct office",
+      "instructions": "The BHSL contact page found (717-783-3670; ra-pwarlheadquarters@pa.gov) is titled for personal care homes and assisted living. Call to confirm it handles community homes, or ask ODP's licensing staff, before submitting. A dedicated community-home licensing contact was not found.",
+      "cite": "BHSL contact page",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Ask for the certificate fee and pay it when invoiced",
+      "instructions": "ODP requires for-profit providers to pay a certificate fee before the certificate is issued, and the amount was not found. HS-633 says its application fee applies only to personal care homes, and the §20.42 fee list did not confirm community homes. Ask BHSL/ODP in writing and budget for the fee.",
+      "cite": "DHS Application for License page; 55 Pa. Code §20.42",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "HIGH",
+      "task": "Ask for the processing timeline and renewal cycle",
+      "instructions": "The rules retrieved did not state decision timelines for an initial certificate or the term and renewal cycle of a regular certificate (Chapter 20 §§20.51-20.57 not fetched). Ask BHSL for the current steps, timelines and renewal dates, and plan your lease start and hiring around them.",
+      "cite": "55 Pa. Code Ch. 20",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "HIGH",
+      "task": "Prepare for the Department's inspection",
+      "instructions": "Agencies running homes serving eight or fewer must have a sample of homes inspected by the Department each year; each home serving nine or more is inspected annually. Use the ODP Regulatory Compliance Guide as your self-inspection checklist before the Department visits.",
+      "cite": "55 Pa. Code §6400.3(e)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — CERTIFICATE OF COMPLIANCE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Request a regulatory waiver only if truly needed",
+      "instructions": "Submit the form and supporting documents to the ODP Regulatory Administration Unit (ra-odplicensing@pa.gov) after giving affected individuals 30 days' notice. ODP decides 'as soon as operationally possible'; no fixed deadline is stated. Do not plan an opening around a pending waiver.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Staff to the minimum ratios, then to each person's plan",
+      "instructions": "At least 1 staff per 8 individuals must be awake and physically present, and at least 1 per 16 while individuals sleep. Staff counted in ratios must be 18 or older. One staff covering 24/7 is 730 h/month, the regulatory minimum; the person's plan often requires more (the model uses 1,095 h/month for a Needs Group 5 resident, an operator estimate).",
+      "cite": "55 Pa. Code §6400.45(a)-(b)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Designate a qualified CEO",
+      "instructions": "One CEO is required: a master's degree plus 2 years, or a bachelor's degree plus 4 years, of administration or human-services experience. The ODP enrollment executive requirement (bachelor's + 5 years residential management) is separate.",
+      "cite": "55 Pa. Code Ch. 6400 (CEO)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "CRITICAL",
+      "task": "Hire a program specialist (1 per 30 individuals)",
+      "instructions": "A bachelor's-level program specialist needs 2 years of direct work with people with ID or autism. Other pathways: master's + 1 year, or associate degree/60 credits + 4 years. The model carries $60,000/year for this role (operator estimate); an owner may fill it only if qualified.",
+      "cite": "55 Pa. Code Ch. 6400 (program specialist)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Set direct-support wages with market data",
+      "instructions": "The model uses $19.52/hour (Philadelphia-metro May 2025 mean for personal care and service, a proxy); healthcare support averages $17.73. No role-level PA wage was retrieved; check the PA L&I May 2025 OEWS tables for your region. The state minimum is $7.25 and local minimums are preempted.",
+      "cite": "BLS OEWS May 2025; PA L&I",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Plan for the proposed $15 minimum wage and wage compression",
+      "instructions": "A proposed $15/hour minimum wage effective 1/1/2027 is pending, and the Governor's proposal identifies no matching waiver rate adjustment. The model wage is above $15, but a higher floor can compress pay scales and raise your cost.",
+      "cite": "RCPA budget overview",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "HIGH",
+      "task": "Write job descriptions and an organizational chart",
+      "instructions": "Define CEO, program specialist, direct support professional and any nurse or supervisor roles, with the Chapter 6400 qualifications for each. Keep them in the personnel files the Department reviews.",
+      "cite": "55 Pa. Code Ch. 6400 (staffing)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING STRUCTURE & QUALIFICATIONS",
+      "priority": "MEDIUM",
+      "task": "Build an on-call and backup coverage plan",
+      "instructions": "A vacant shift in a 1:1 home breaks the staffing minimum. Cross-train relief staff and keep an on-call roster. Budget for turnover in the training and background-check lines.",
+      "cite": "55 Pa. Code §6400.45",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Submit PA State Police criminal history checks within 5 working days after hire",
+      "instructions": "Submit the application within 5 working days after the date of hire; an FBI check is required for non-PA residents. The old lifetime-ban offense list cannot be used to bar hiring after the Peake decision, but checks are still required and results must be evaluated.",
+      "cite": "ODP 6400 Regulatory Compliance Guide (OAPSA)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Run child abuse clearances if anyone aged 17 or younger lives in the home",
+      "instructions": "Child Protective Services Law checks apply if anyone 17 or younger resides in the home. If residents or household members are all adults, document that the CPSL trigger does not apply.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete orientation before any staff works alone",
+      "instructions": "Required orientation must be completed before working alone with individuals and within 30 days after hire. Build the curriculum and sign-in sheets before opening day.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Schedule 24 hours of annual training for direct service workers, supervisors and program specialists",
+      "instructions": "Direct service workers, their supervisors and program specialists complete 24 hours of job-skills and knowledge training each year. Track hours per person; the cost is paid staff time.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Schedule 12 hours of annual training for management, administrative and fiscal staff",
+      "instructions": "Management, administrative, fiscal and certain other staff complete 12 hours each year. No separate administrator training rule was found in Chapter 6400.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Train staff in first aid, Heimlich and CPR",
+      "instructions": "Staff must be trained within 6 months after initial employment and annually after. Use an approved provider and keep certificates in the personnel file.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — BACKGROUND CHECKS & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Build a training tracker",
+      "instructions": "Track hire date, orientation, CPR/first aid renewals, annual hours and background check dates per employee. Review monthly so nothing lapses before an inspection.",
+      "cite": "55 Pa. Code Ch. 6400",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Write the Chapter 6400 policies and procedures manual",
+      "instructions": "Use the ODP Regulatory Compliance Guide as your structure. Budget $2,000-$8,000 for consultant review (operator estimate). Include admission, rights, health, medication, incident and emergency policies.",
+      "cite": "55 Pa. Code Ch. 6400",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Hold unannounced fire drills monthly, with sleeping-hours drills every 6 months",
+      "instructions": "An unannounced fire drill must be held at least once a month, and a drill during sleeping hours at least every six months. Record each drill and fix any problems found.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Set up incident reporting within 24 hours of discovery",
+      "instructions": "Listed serious incidents must be reported within 24 hours of discovery by a staff person. Train every staff member on what counts as an incident and who reports it.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "HIGH",
+      "task": "Require physical exams for each person",
+      "instructions": "Each individual needs a physical examination within 12 months before admission and annually after. Collect it before move-in and calendar annual renewals.",
+      "cite": "ODP 6400 Regulatory Compliance Guide",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "HIGH",
+      "task": "Set up medication administration and health-care procedures",
+      "instructions": "Write medication procedures consistent with the Chapter 6400 medication sections and your staff training. The research did not verify detailed medication training requirements; confirm them in the regulation text.",
+      "cite": "55 Pa. Code Ch. 6400",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "HIGH",
+      "task": "Prepare emergency, evacuation and disaster plans",
+      "instructions": "Post evacuation routes, keep emergency contact lists and have a plan for loss of power, heat or staff. Tailor evacuation steps to each resident's mobility.",
+      "cite": "55 Pa. Code Ch. 6400 (fire safety)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — POLICIES, HEALTH & SAFETY SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Decide on EVV",
+      "instructions": "PA uses an open EVV model: the DHS EVV system is free, or you can use an alternate vendor. ODP guidance confirms personal care services are subject to EVV; whether community-home residential habilitation is subject to it was not confirmed. Ask ODP. The aggregator is the source of record for visits, and exceeding a 15% manual-entry threshold for two quarters triggers a noncompliance notice.",
+      "cite": "ODP EVV Technical Guidance",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 9 — INSURANCE, PAYROLL & TAXES",
+      "priority": "CRITICAL",
+      "task": "Obtain liability, professional, abuse/molestation, property and auto insurance",
+      "instructions": "No Chapter 6400 insurance minimum was found, so get quotes and ask ODP and your landlord what they require. The model carries about $450/home/month for liability (operator estimate) and $800/home/month for vehicle costs.",
+      "cite": "Not specified in Ch. 6400 (verify)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 9 — INSURANCE, PAYROLL & TAXES",
+      "priority": "CRITICAL",
+      "task": "Place workers' compensation coverage",
+      "instructions": "Get quotes through your broker; the class code for group/community residential homes was not verified. PCRB's April 1, 2026 filing lowered overall loss costs by 1.22%. The model uses a 5% workers' comp load (operator estimate).",
+      "cite": "PCRB loss cost filing (4/1/2026)",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 9 — INSURANCE, PAYROLL & TAXES",
+      "priority": "HIGH",
+      "task": "Register for PA unemployment compensation",
+      "instructions": "The 2026 new-employer UC rate is 3.822% (non-construction) on a $10,000 taxable wage base. Employees also have 0.07% UC withholding in 2026. Confirm the rate in your L&I account.",
+      "cite": "PA L&I contribution rate table (via Bloomberg Tax)",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 9 — INSURANCE, PAYROLL & TAXES",
+      "priority": "HIGH",
+      "task": "Set up state and local withholding",
+      "instructions": "Withhold PA personal income tax at a flat 3.07% and municipal earned income tax (typically 1% to 3.75%) based on each employee's residence and work location. Use a payroll service to handle the local tax collector setup.",
+      "cite": "PA withholding rules (2026)",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 9 — INSURANCE, PAYROLL & TAXES",
+      "priority": "HIGH",
+      "task": "Set up federal payroll accounts and compliant timekeeping",
+      "instructions": "Register for FICA, federal withholding and FUTA deposits, and use timekeeping that supports the 24/7 coverage records the Department may review.",
+      "cite": "IRS employer requirements",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 9 — INSURANCE, PAYROLL & TAXES",
+      "priority": "MEDIUM",
+      "task": "Model the effect of occupancy and ramp-up on cash",
+      "instructions": "The best modeled scenario breaks even at about 88.3% occupancy and needs about $160,000 of cash; 85% occupancy loses money. Arrange a line of credit or reserves before opening and update the model with the current SFY 2026-27 rate.",
+      "cite": "Model results; ODP waiting list report",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "CRITICAL",
+      "task": "Sign a Room and Board Agreement with each resident",
+      "instructions": "ODP requires a completed Room and Board Agreement for each individual receiving residential habilitation, giving the individual an enforceable contract. Use ODP Attachment 4 (55 Pa. Code §6100.687).",
+      "cite": "ODP Bulletin 00-25-01; Attachment 4",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "CRITICAL",
+      "task": "Cap the room and board charge correctly",
+      "instructions": "The charge may not exceed 72% of the SSI maximum plus the PA State Supplement, 32% of that total if you supply board only, or the actual documented cost minus benefits received. 2026 SSI is $994/month; the PA supplement for 2026 was not verified, so the model uses 72% of $994 = $715.68. Confirm the supplement with ODP.",
+      "cite": "ODP Bulletin 00-25-01; 55 Pa. Code §6100.686",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "CRITICAL",
+      "task": "Protect the personal needs allowance",
+      "instructions": "Residents must keep at least the SSA-established monthly personal needs amount for their setting. The dollar amount was not verified; get it from ODP or SSA, and make sure the room and board charge never cuts into it.",
+      "cite": "55 Pa. Code §6100.686",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "HIGH",
+      "task": "Confirm eligibility with the Supports Coordinator before admitting",
+      "instructions": "Waiver eligibility requires ICF level of care with a qualifying diagnosis and adaptive-skill deficits. Admissions flow through the person's supports coordinator, their team and the county administrative entity.",
+      "cite": "ODP MAAC presentation (2/26/2026)",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "HIGH",
+      "task": "Match the room and the home to the person's needs and ratios",
+      "instructions": "Check that the resident's staffing level, bedroom sharing rules and the home's maximum capacity all line up before move-in. A vacancy in a 1-person home means no residential revenue while costs continue.",
+      "cite": "55 Pa. Code §6400.13; §6400.45",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "HIGH",
+      "task": "Confirm billing method, procedure codes and delivery system",
+      "instructions": "Waiver services are reimbursed against published fee schedules. Whether ID/A waiver payments flow fee-for-service or through managed care was not stated in the sources; confirm with ODP and learn the procedure codes (for example W9000 for Consolidated, W7228-W7232 for the Adult Autism Waiver) and billing units.",
+      "cite": "ODP Service Rates; Vorys client alert",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 10 — ADMISSIONS, RESIDENT FUNDS & BILLING",
+      "priority": "MEDIUM",
+      "task": "Set up records and billing software",
+      "instructions": "Budget about $100-$250/month (operator estimate) and get vendor quotes. Reconcile billed days against attendance every month.",
+      "cite": "ODP billing requirements",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 11 — ONGOING COMPLIANCE & MONITORING",
+      "priority": "HIGH",
+      "task": "Monitor ODP announcements and rate notices",
+      "instructions": "Watch ODPANN announcements, the Pennsylvania Bulletin and RCPA. Pending items in 2026 include the NEA changes, supports coordination rate changes (delayed to 1/1/2027) and the Adult Autism Waiver renewal (not verified).",
+      "cite": "ODP; RCPA",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 11 — ONGOING COMPLIANCE & MONITORING",
+      "priority": "HIGH",
+      "task": "Never exceed the licensed capacity on the certificate",
+      "instructions": "The maximum capacity specified on the certificate of compliance may not be exceeded. Amend the certificate before changing a home's size or location.",
+      "cite": "55 Pa. Code §6400.13",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 11 — ONGOING COMPLIANCE & MONITORING",
+      "priority": "HIGH",
+      "task": "Run internal audits against the Chapter 6400 guide",
+      "instructions": "Audit personnel files, training hours, fire drills, incident reports, physical exams and room and board agreements quarterly so the annual Department inspection finds no surprises.",
+      "cite": "55 Pa. Code §6400.3(e)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 11 — ONGOING COMPLIANCE & MONITORING",
+      "priority": "MEDIUM",
+      "task": "Track performance measures for Select or Clinically Enhanced status",
+      "instructions": "Performance against ODP's 2026 residential standards affects add-ons of 3% or 5% per individual and pay-for-performance of up to 3% of eligible revenue. Assign someone to own those measures.",
+      "cite": "ODPANN 24-084; ODP standards",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 11 — ONGOING COMPLIANCE & MONITORING",
+      "priority": "MEDIUM",
+      "task": "Calendar annual filings and renewals",
+      "instructions": "LLC annual report by September 30; renewal of the certificate of compliance on the cycle BHSL gives you; workers' comp and liability renewals; quarterly UC filings; annual training and physical exam dates.",
+      "cite": "Act 122 of 2022; Chapter 20",
+      "source_id": "S40"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Rates (W9000 NG1, AAW W7228/W7232) are 7/1/2024 figures that may be superseded by the 8/1/2026 SFY 2026-27 table; AAW figures unverifiable",
+      "change": "Kept the rates (not raised or lowered) and labeled them possibly superseded or unverified in rates[], configuration revenue-line notes and key_numbers[4]. Added a not_claimed entry. The revenue rates must be re-pulled and the model re-run before finalizing."
+    },
+    {
+      "issue": "NG5 $1,265.90 predates the 7/1/2024 table (6% residential factor); the 7/1/2024 NG5 value was not retrieved",
+      "change": "Did not substitute an estimated $1,341.95 uplift because it is unsourced. Removed the 'Not raised for the 6% inflation adjustment' note and labeled the rate as unconfirmed and the NG5 results as provisional in rates[1], revenue-line notes and key_numbers[5]. The margin, break-even and cash figures are unchanged pending the real rate."
+    },
+    {
+      "issue": "55 Pa. Code §51.11 (30-day missing-document deadline) cited as current although Chapter 6100 rescinded Chapter 51",
+      "change": "Rewrote the Gate 2 text in licensing_pathway and recommendation 3 to refer to Chapter 6100 and current ODP qualification instructions; moved the 30-day deadline to not_claimed and updated not_claimed[8]. The checklist item fees_and_timelines_in_checklist[10] was not provided, so it still needs the same fix."
+    },
+    {
+      "issue": "Overnight staffing: §6400.45(b) ratio staff must be awake per §6400.232; §6400.45(d) individual-plan staffing",
+      "change": "Updated key_numbers[1], the operations text, and the DSP role and notes in configurations 0 and 3 (plus notes in 1, 2 and 4). The 730 h figure is unchanged. Checklist item [38] was not provided."
+    },
+    {
+      "issue": "Philadelphia-metro BLS May 2025 wages unverified; the personal care group is a poor DSP proxy",
+      "change": "Removed the $17.73, $18.11, $72.94 and $34.49 figures from customer text (key_numbers[11], market_conditions, config notes) and added a not_claimed entry. Kept $19.52 as an explicitly unconfirmed modeling assumption rather than lowering it, so profit is not improved. Not every mention of the wage proxy in financial_narrative and similar was rewritten."
+    },
+    {
+      "issue": "Room-and-board rules incomplete",
+      "change": "Added the 40% room-only cap, the income-below-SSI rule, the leave/hospitalization/respite exclusions, the DP 1077 requirement and the 30-day notice to key_numbers[7], configuration 0's revenue-line notes and the operations text. Revenue ($715.68) is unchanged and is already scaled by occupancy."
+    },
+    {
+      "issue": "Missing provider-borne cost lines",
+      "change": "Added opex lines for basic cable ($60/home, with a 3-home override of $180) and per-resident incontinence supplies and toiletries ($75). Both are operator estimates and raise costs. Housekeeping and laundry labor and extra paid training time are flagged in not_claimed and the operations text, not separately modeled."
+    },
+    {
+      "issue": "BHSL PCH/ALR phone and email unverifiable",
+      "change": "Blanked regulators[1].phone and email, replaced contacts[0].contact with the page URL, and moved the details to not_claimed."
+    }
+  ]
+}

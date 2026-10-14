@@ -1,0 +1,98 @@
+{
+  "bundle_slug": "north-carolina-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 29,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "staffing.*[role='In-home aides / personal care aides'].wage_hourly; fees_and_timelines_in_checklist[i=38]",
+      "current": "17.21 (national median for home health and personal care aides, May 2025), used as the North Carolina aide wage in all five configurations",
+      "correct": "NC-specific figure, not the national one. The only NC figure I found is the NC Careers profile (31-1120): median $31,240 a year, or $15.02/hr. The vintage of that figure is not stated, and the NC-specific May 2025 OEWS value was not retrieved. Treat the NC wage as roughly $15/hr until confirmed against BLS OEWS for NC.",
+      "evidence": "The national $17.21 ($35,800) is corroborated, but it is not an NC wage. NC Careers shows NC 50th percentile $31,240 ($15.02/hr), 10th percentile $11.87, 90th percentile $18.60. The model's own note says a $15.00 wage saves about $215 per client-month, which is about $11,600 a month at 54 clients and about $7,700 a month at 36 clients. That is larger than the modeled 60-client profit of $5,177 and would change the 20- and 40-client loss results.",
+      "source_url": "https://nccareers.org/occupation-profile/311120/1284",
+      "fix": "Replace 17.21 with the NC OEWS May 2025 median or mean for SOC 31-1120 (confirm at bls.gov/oes, state = NC). If it cannot be retrieved, use about $15.02 and label it as the NC Careers median. Then rerun every staffing line and the checklist i=38 text. All wage inputs are operator estimates, so state that sensitivity explicitly."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[0].source_id, rates[1].source_id, key_numbers[6].source_id",
+      "current": "S9 (July 31, 2026 bulletin) cited as the source for $7.03",
+      "correct": "S8 (Aug. 4, 2026 bulletin). It replaces the July 31 bulletin in full.",
+      "evidence": "S9 page: \"This Medicaid Bulletin has been completely replaced by an updated version published on Aug. 4, 2026.\" The $5.96 to $7.03 rates for 99509 HA/HB and CAP/C S5125 are the same in both bulletins.",
+      "source_url": "https://medicaid.ncdhhs.gov/blog/2026/08/04/updates-rate-increase-personal-care-services-and-community-alternatives-program",
+      "fix": "Change source_id from S9 to S8 for the State Plan PCS, CAP/C, and Tailored Plan context rows. Keep S9 only as a superseded reference."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[item='Medicaid enrollment and health plan credentialing allowance'] (low/high/notes); fees_and_timelines_in_checklist[i=45]",
+      "current": "low 0, high 850; \"federal and NC enrollment fees were not verified\"",
+      "correct": "The NC fee is a mandatory $100 on initial enrollment. The federal fee is $750 for calendar year 2026 and applies to the taxonomies the Provider Permission Matrix lists. The $850 high end matches $100 + $750, so the low end should not be $0 for Medicaid configurations. Fees are also due again at re-verification and when a new site is added.",
+      "evidence": "NC Medicaid: \"the federal fee for Medicaid enrollment will increase from $730 to $750\" effective Jan. 1, 2026. NCTracks: the $100 NC Medicaid Provider Application Fee is assessed on enrollment, re-enrollment and re-verification, in addition to the federal fee.",
+      "source_url": "https://medicaid.ncdhhs.gov/blog/2025/12/08/federal-provider-enrollment-application-fee-increase-year-2026",
+      "fix": "Set low = 100 (high = 850) for nc_mixed60 and nc_medicaid100. Rewrite the notes to say $100 NC fee plus $750 federal 2026 fee (confirm the federal fee applies to your taxonomy in the Provider Permission Matrix), repeated at 5-year re-verification and for each added site. Both are paid with the application, before processing."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[metric='Annual license renewal fee...'] and opex[item='NC home care license annual renewal']; fees_and_timelines_in_checklist[i=14]",
+      "current": "$510 per year modeled as $42.50/month; initial fee $510 as a one-time startup cost",
+      "correct": "Every home care license expires at midnight Dec. 31, whenever it was issued. A license issued mid-year therefore needs a second $510 renewal, received by Dec. 31, within months of the first. A renewal application received after Jan. 1 takes effect only on the date received, which means a gap in licensure.",
+      "evidence": "FAQ Q24: \"All home care licenses expire at midnight on December 31st.\" Q26: renewal application and fee \"must be received no later than December 31.\" All fees are non-refundable (Q12).",
+      "source_url": "https://info.ncdhhs.gov/dhsr/ahc/pdf/hcfaq.pdf",
+      "fix": "Add a note to the checklist and startup cost that year one can carry two $510 payments (initial plus first renewal). The first renewal is due before the Dec. 31 following licensure. Do not assume a 12-month license term."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[metric='Agency director qualification (one of three paths)']; fees_and_timelines_in_checklist[i=10]",
+      "current": "\"bachelor's degree plus 1 year of such experience\"",
+      "correct": "The degree must be in health, business or public administration science. Agencies licensed only for companion, sitter and respite services have a different director standard: high school or GED, plus a health care practitioner license or one year of experience.",
+      "evidence": "FAQ Q37: bachelor's degree \"in health, business or public administration science\" and at least one year of supervisory or management experience in home care or other licensed health care program. A separate paragraph covers companion, sitter and respite agencies only.",
+      "source_url": "https://info.ncdhhs.gov/dhsr/ahc/pdf/hcfaq.pdf",
+      "fix": "Add the degree-field qualifier to path (c). Add a note about the lighter companion/sitter/respite-only standard."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[role='In-home aides'].cite (10A NCAC 13J .1107); opex[item='RN supervisory-visit mileage']",
+      "current": "Supervision and staffing cited to .1107; RN visits modeled at about 10 miles per client-month, which implies monthly visits",
+      "correct": "The in-home caregiver supervision rule is 10A NCAC 13J .1110. It requires a supervisory visit to each client's residence every 90 days, with or without the caregiver present, and annually while the caregiver is providing care. The agency policy sets the method and frequency for other caregiver types. The RN must be continuously available during aide hours (.1107 and FAQ Q43/46). The Medicaid/CCP 3L service-plan requirements and any HCCBG rules are separate.",
+      "evidence": "Rule .1110: \"supervisory visit to each client's place of residence every 90 days with or without the in-home caregiver's presence, and annually.\"",
+      "source_url": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2013%20-%20nc%20medical%20care%20commission/subchapter%20j/10a%20ncac%2013j%20.1110.pdf",
+      "fix": "Add the .1110 cite (90-day supervisory visit plus annual visit while care is being provided). Note that the 10 miles per client-month mileage assumption is conservative against the 90-day minimum. Keep .1107 for plan of care and RN availability."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden; fees_and_timelines_in_checklist[i=41]",
+      "current": "17% burden (FICA, unemployment, FUTA, 5% workers' comp, 3% benefits) with no overtime allowance",
+      "correct": "Add an overtime premium line. Third-party home care employers cannot use the FLSA companionship or live-in exemption, so hours over 40 a week must be paid at 1.5x. The model has 80 billable hours per client-month plus 4% travel time across a pooled aide workforce.",
+      "evidence": "29 CFR 552.109 (2015 DOL rule): third-party employers may not claim the companionship or live-in exemptions. This was not in the provided sources.",
+      "source_url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-552/subpart-B/section-552.109",
+      "fix": "Add an overtime allowance, for example 3–6% of aide wages, or state that the model assumes no aide exceeds 40 hours a week. Verify against actual scheduling."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=8] vs opex[item='Office lease']",
+      "current": "Checklist says rent is about $900/month (20 clients) to $3,000/month (100 clients); the opex line is a flat $1,800/month",
+      "correct": "The two figures conflict unless the opex value is overridden per configuration.",
+      "evidence": "Internal inconsistency in the supplied JSON. No NC rent benchmark was verified, per the notes.",
+      "source_url": "",
+      "fix": "Make the lease amount per configuration in opex (for example $900 / $1,500 / $1,800 / $3,000) or change the checklist text to $1,800 flat."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.nc_private20_rn_owner",
+      "current": "Owner-RN is the only RN, serving as director, supervisor and plan-of-care visitor; the $400/month on-call stipend is described as covering \"beyond the salaried RN\"",
+      "correct": "An RN must be continuously available to aides and clients during every hour aide services are provided, and able to go on-site. The LPN cannot do assessments or supervisory visits. A solo owner-RN has no legal backup for illness, leave or nights and weekends. A relief RN or a larger on-call amount is needed to stay compliant.",
+      "evidence": "FAQ Q43/Q46/Q47: an RN must be available \"during the hours in-home aide services are provided\" and \"available to go on-site when necessary.\" An LPN may not perform assessments or conduct supervisory visits.",
+      "source_url": "https://info.ncdhhs.gov/dhsr/ahc/pdf/hcfaq.pdf",
+      "fix": "Add a relief or PRN RN cost line, or raise the stipend for the 20-client configuration. State that the owner-RN cannot be the sole RN."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*.notes (Raleigh-Cary personal care and service group mean $19.29; management mean $71.52/hr); fees_and_timelines_in_checklist[i=19] (plan of correction within 10 working days); fees_and_timelines_in_checklist[i=1] and [i=43] (modeled margins and break-even); rates[2] (Alliance 8/4/2026)",
+      "current": "Various figures cited to S26, S5, S10 and the bundle model",
+      "correct": null,
+      "evidence": "These pages were not fetched within the check, or not retrievable. A rough recomputation of the 60-client private-pay case (54 clients x $2,400 revenue; aide cost $77.3k x 1.17; salaries $203k a year; opex about $6.2k fixed plus $123 per client) gives about $6.5k–9.4k a month profit, against the stated $5,177. Burden and other assumptions may explain the gap.",
+      "source_url": "",
+      "fix": "unverifiable — confirm each against the cited source or the model workbook before relying on it."
+    }
+  ]
+}

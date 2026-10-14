@@ -1,0 +1,2473 @@
+{
+  "bundle_slug": "ohio-residential-care-dd-complete-bundle",
+  "state": "Ohio",
+  "state_code": "OH",
+  "program": "Residential Care (DD)",
+  "state_program_name": "DODD-licensed residential facility (ORC 5123.19; OAC Chapter 5123-3) and DODD-certified, Medicaid-enrolled HCBS provider under the Individual Options (IO) waiver (Homemaker/Personal Care, OAC 5123-9-30; Shared Living, OAC 5123-9-33)",
+  "as_of": "2026-10",
+  "report_title": "Ohio Residential Care for People with Developmental Disabilities (DODD Licensed Residential Facility / IO Waiver HPC) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "OAC 5123-3-01 Licensed residential facilities - administration and operation",
+      "publisher": "Ohio Administrative Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-3-01",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "ORC 5123.19 Operation of residential facilities",
+      "publisher": "Ohio Revised Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5123.19",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "ORC 5123.20 Prohibiting operation without license",
+      "publisher": "Ohio Revised Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5123.20",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "OAC 5123-3-06 Compliance reviews, issuance of licenses, adverse actions",
+      "publisher": "Ohio Administrative Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-3-06",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "OAC 5123-3-08 Licensed residential facilities - development and renovation",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/wps/wcm/connect/gov/0a14964a-11f2-4d62-8bf5-387dac816f22/5123-3-08+New+2022-07-18.pdf?MOD=AJPERES",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "DODD Agency Fees (08/20/2025)",
+      "publisher": "Ohio Legislative Service Commission",
+      "url": "https://lsc.ohio.gov/assets/organizations/legislative-service-commission/files/2025-state-agency-fees-ddd.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Working for a Provider Agency or Residential Facility",
+      "publisher": "Ohio Department of Developmental Disabilities",
+      "url": "https://dodd.ohio.gov/providers/initial-renewal-certification/working-for-a-provider-agency",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "OAC 5123-9-30 Homemaker/personal care under the IO and Level One waivers",
+      "publisher": "Ohio Administrative Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-9-30",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Ohio Admin. Code 5123-9-30 (LII mirror; contains proposed redline)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/ohio/Ohio-Admin-Code-5123-9-30",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Homemaker/Personal Care service page",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/waivers-and-services/services/homemaker-personal-care",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "OAC 5160-40-01 Individual Options waiver",
+      "publisher": "Ohio Administrative Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-40-01",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "5123-9-30 Appendix A (Jan 1–Jun 30, 2024 HPC rates; superseded)",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/wps/wcm/connect/gov/64ebf65a-1ab0-4516-b3a0-9bfcb2c4d2a2/5123-9-30+Effective+2024-01-01+Appendix+A.pdf?CACHEID=ROOTWORKSPACE.Z18_79GCH8013HMOA06A2E16IV2082-64ebf65a-1ab0-4516-b3a0-9bfcb2c4d2a2-oUZ.-x9&CONVERT_TO=url&MOD=AJPERES",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Overtime: Independent Providers",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/providers/billing/overtime%20independent%20providers",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Ohio Medicaid EVV Program and Service Code Guide",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/EVV/Providers/ODM_EVV_Covered_Programs_and_Services.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "What You Should Know About: Electronic Visit Verification",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/EVV/Providers/ODM_EVV_Fact_Sheet.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Electronic Visit Verification Resource Guide (May 2025)",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/EVV/EVV_Resource_Guide_05012025.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "FAQ: Managed Care for people on DODD waivers",
+      "publisher": "Ohio Department of Medicaid / DODD",
+      "url": "https://dodd.ohio.gov/wps/wcm/connect/gov/f177e99f-e78b-4565-a42c-d2e110fe7e95/FAQ+DD_Managed+Care+FINAL+Nov_2016.pdf?CACHEID=ROOTWORKSPACE.Z18_M1HGGIK0N0JO00QO9DDDDM3000-f177e99f-e78b-4565-a42c-d2e110fe7e95-mOXjKQA&CONVERT_TO=url&MOD=AJPERES",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "New Provider Enrollment Questions and Answers",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/Enrollment%20and%20Support/NewProviderEnrollment-FAQs.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Application Fees (CY2026 federal fee $750)",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/provgovpart/Pages/Application-Fees.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "Provider Enrollment (CY2026 fee $750, institutional providers)",
+      "publisher": "Colorado Dept. of Health Care Policy and Financing",
+      "url": "https://hcpf.colorado.gov/provider-enrollment",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Understanding SSI - SSI Benefits (2026 rate)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/ssi/text-benefits-ussi.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "Ranked Median Costs by State, Cost of Care Survey 2025",
+      "publisher": "CareScout (formerly Genworth)",
+      "url": "https://assets.carescout.com/x/5c90319b6a/298701.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Long-Term Care Costs Increase in Ohio (2024 survey)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1033/long-term-care-costs-increase-in-ohio-on-par-with-national",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "State of Ohio 2026 Minimum Wage poster",
+      "publisher": "Ohio Dept. of Commerce, Division of Industrial Compliance",
+      "url": "https://dam.assets.ohio.gov/image/upload/com.ohio.gov/DICO/WageAndHour/2026_Minumum_Wage_Poster.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Occupational Employment and Wages in Columbus, OH — May 2024",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_columbusoh.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "NFIB Unemployment Compensation Handbook (March 2026)",
+      "publisher": "NFIB",
+      "url": "https://www.nfib.com/wp-content/uploads/2026/02/NFIB-UC-Handbook-2026.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "OAC 5123-2-08 Agency provider certification",
+      "publisher": "Ohio Administrative Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-2-08",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Individual Options notice — Medicaid enrollment moratorium",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://medicaid.ohio.gov/Portals/0/Resources/PublicNotices/IndividualOptions/IndOptions-Summary.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Reimbursement System Refresh",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/wps/portal/gov/dodd/about-us/Waiver_Redesign/Waiver+Modernization/reimbursement-system-refresh",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Individual Options Waiver Amendment 08/28/2026",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://medicaid.ohio.gov/about-us/notices/individual-options-waiver-amendment-08282026-01",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "OH Individual Options (IO) Waiver (0231.R06.00)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/82836",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "OAC 5123-9-33 Shared living (effective 1/1/2024)",
+      "publisher": "Ohio Administrative Code (Legislative Services Commission)",
+      "url": "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5123/0/9/5123-9-33_20240101.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Waivers and Services",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/waivers-and-services",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Progress and Opportunities in Ohio's DD System",
+      "publisher": "Community Solutions",
+      "url": "https://www.communitysolutions.com/resources/progress-and-opportunities-in-ohios-developmental-disabilities-system",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "DODD Waiver Waiting List Information",
+      "publisher": "Ohio DODD (data.ohio.gov)",
+      "url": "https://data.ohio.gov/wps/portal/gov/data/view/dodd-waiver-waiting-list-information",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Waiting List Assessment (WLA) user guide",
+      "publisher": "Ohio DODD",
+      "url": "https://dam.assets.ohio.gov/image/upload/dodd.ohio.gov/County%20Boards/Assessments/WLA_External_CB-All_User-Guide_8-28-25.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Ohio's Waiver Waiting List",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/waivers-and-services/Ohio+Waiver+Waiting+List",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Residential Options Overview",
+      "publisher": "Hamilton County Developmental Disabilities Services",
+      "url": "https://www.hamiltonddsohio.gov/wp-content/uploads/2022/03/ResidentialOptions1.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Funding Source (waivers/Medicaid)",
+      "publisher": "Mahoning County Board of DD",
+      "url": "https://www.mahoningdd.org/community-services/waivers-medicaid",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "Ohio Shared Living",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/waivers-and-services/services/ohio-shared-living/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "DODD Compliance Review Update Effective August 1, 2026",
+      "publisher": "Medicaid Billing Solutions",
+      "url": "https://medicaidbillingsolutions.com/dodd-compliance-review-update-effective-august-1-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Independent Provider Certification Process",
+      "publisher": "Stark County Board of DD",
+      "url": "https://www.starkdd.org/independent-provider-certification-process",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Ohio Admin. Code 5123-3-04 (LII mirror)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/ohio/Ohio-Admin-Code-5123-3-04",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "Ohio Assisted Living (2026): Real Cost Data",
+      "publisher": "Senior Care Cost Guide (cites CareScout 2025)",
+      "url": "https://seniorcarecostguide.com/cost-of-assisted-living-in-ohio/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Waiver Amendments July 2026",
+      "publisher": "Ohio DODD",
+      "url": "https://dodd.ohio.gov/waivers-and-services/Waiver+Amendments/waiver-amendments-july-2026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "OAC 5123-9-33 Shared living (rule page)",
+      "publisher": "Ohio Administrative Code (codes.ohio.gov)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-9-33",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "DODD residential facility license fees (≤15 beds / 16+ beds)",
+      "value": "Initial fee $100 one-time (≤15 beds; $500 for 16+ beds); three-year license fee $300 (≤15 beds) / $1,500 (16+ beds); interim license $0. The licensure fee is collected before the three-year license is issued.",
+      "source_id": "S6",
+      "source_ids": [
+        "S6",
+        "S4"
+      ],
+      "as_of": "2025-01-31"
+    },
+    {
+      "metric": "License terms and timing",
+      "value": "Initial license ≤1 year; renewals ≤3 years; DODD issues the three-year license within 20 calendar days after compliance is determined; local officials get a 10-day notice window before issuance",
+      "source_id": "S2",
+      "source_ids": [
+        "S2",
+        "S4"
+      ],
+      "as_of": "ORC eff. 2023-10-03; OAC eff. 2023-11-09"
+    },
+    {
+      "metric": "Financial and insurance proof at application",
+      "value": "Line of credit or 90-day bank balance of at least $10,000 in the licensee's name; general liability insurance of at least $1,000,000",
+      "source_id": "S1",
+      "source_ids": [
+        "S1",
+        "S27"
+      ],
+      "as_of": "OAC 5123-3-01 eff. 2024-09-29"
+    },
+    {
+      "metric": "ODM moratorium on new Medicaid enrollment applications (hospice and home health agencies, waiver individuals and organizations, private duty nurses, personal care aides, home care attendants); issued under CMS-6101-N / 42 CFR 455.470",
+      "value": "Effective 5/14/2026 through 11/14/2026; can be extended. Primary source: https://medicaid.ohio.gov/home/odm-moratorium. This is a gating item for any new HPC or waiver provider in 2026.",
+      "source_id": "S28",
+      "as_of": "2026-05-14"
+    },
+    {
+      "metric": "Federal Medicaid provider enrollment application fee, CY2026",
+      "value": "$750 (institutional providers, per CMS). Ohio's last official figure was $631 in 2022, applied only to organizational providers; it is waived if the fee was paid to Medicare or another state Medicaid agency within 5 years. Confirm Ohio's 2026 amount with ODM.",
+      "source_id": "S19",
+      "source_ids": [
+        "S19",
+        "S20",
+        "S18"
+      ],
+      "as_of": "CY2026"
+    },
+    {
+      "metric": "HPC billing rules (IO waiver)",
+      "value": "15-minute billing unit; up to 16 hours (64 units) per day by assessed need; claims due within 350 days of service; payment rates vary by county cost-of-doing-business (CODB) category, with separate agency and independent tables",
+      "source_id": "S10",
+      "source_ids": [
+        "S10",
+        "S12",
+        "S8"
+      ],
+      "as_of": "Rate schedule: appendix B, 2024-07-01"
+    },
+    {
+      "metric": "Shared living setting cap",
+      "value": "No more than 4 persons with DD living in a home where shared living is delivered; group of two is paid at 85% of the daily rate",
+      "source_id": "S32",
+      "source_ids": [
+        "S32",
+        "S46"
+      ],
+      "as_of": "2024-01-01"
+    },
+    {
+      "metric": "SSI federal benefit rate (individual)",
+      "value": "$994 per month ($1,491 couple)",
+      "source_id": "S21",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Ohio minimum wage (non-tipped) and coverage threshold",
+      "value": "$11.00 per hour; employers grossing less than $405,000 pay the federal minimum; overtime at 1.5x after 40 hours per week (state overtime rule excludes employers grossing less than $150,000 per year; federal FLSA may still apply)",
+      "source_id": "S24",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Private-pay benchmark: Ohio non-medical caregiver (in-home; not a residential-home rate)",
+      "value": "$34 per hour; $6,483 per month; $77,792 per year (assumes ~44 hours per week)",
+      "source_id": "S22",
+      "as_of": "Survey Jul–Nov 2025; published Mar 2026"
+    },
+    {
+      "metric": "People with DD enrolled in DODD waivers",
+      "value": "More than 40,000 Ohioans (DODD); county boards pay roughly 40% of the non-federal cost of waiver services (Mahoning County Board of DD)",
+      "source_id": "S33",
+      "source_ids": [
+        "S33",
+        "S39"
+      ],
+      "as_of": "Undated page snapshots"
+    },
+    {
+      "metric": "Pending HPC/shared living rate changes",
+      "value": "DODD does not anticipate rate changes before July 2027; acuity-based rates are planned for congregate HPC, 15-minute HPC and adult day, and Shared Living rates will be updated with a new assessment",
+      "source_id": "S29",
+      "as_of": "2026-01-20"
+    }
+  ],
+  "not_claimed": [
+    "Current HPC payment rates (OAC 5123-9-30 appendix B, effective 2024-07-01) for CODB categories 1–7, agency vs independent. The appendix B PDF and the county-to-CODB mapping were not retrieved, so this report states no 2026 HPC per-unit rate. Only the rule text, the overtime figure and the percentage adjustments are cited. The Jan–Jun 2024 appendix A amounts (including the $0.82 behavioral-support modification) are superseded and are not used.",
+    "Whether any HPC rate change took effect in 2026. DODD says changes are not expected before July 2027 [S29]; no 2026 rate notice was retrieved.",
+    "Shared Living per-diem rate (OAC 5123-9-33) for 2026. Only the group-size step-down (group of two = 85%) is verified.",
+    "Monthly Rate Calculator values for congregate HPC and the exact payment formula for licensed residential facilities. The funding mechanism for licensed homes beyond HPC under the IO waiver was not retrieved.",
+    "Required staffing ratios and any awake-overnight requirement for DODD licensed residential facilities. Only the general rule (staff on duty based on individuals' needs, schedules posted in advance) was found [S1]; the OAC 5123-3 staffing sections were not located.",
+    "Current licensed-bed cap under ORC 5123.196, and the number of licensed facilities and beds statewide.",
+    "Conflict not resolved: ORC 5123.19 describes 6–8 person (family setting) and 9–16 person (multi-family) facilities [S2], while OAC 5123-3-08 (2022 file) caps licensed beds in a non-ICF residential facility at four [S5]. Confirm the controlling capacity limit with DODD before choosing a home size.",
+    "The research hint that HPC agency providers serve people in shared living is not supported. OAC 5123-9-30 says an HPC provider may not also provide shared living or money management to the same individual [S8], so the combination is prohibited for the same person.",
+    "DODD residential facility licensure application fee beyond the LSC table, and any 2026 fee change. The verified table is headed 01/31/2025.",
+    "Ohio's official 2026 Medicaid enrollment application fee on an ODM page. Only the 2022 ODM figure ($631) and out-of-state notices of the federal $750 CY2026 fee were found.",
+    "Whether the 5/14/2026–11/14/2026 enrollment moratorium applies to organizations that are already enrolled, to licensed residential facilities, or to DODD certification (as opposed to ODM enrollment); and whether it will be extended past 11/14/2026. Check the ODM notice.",
+    "Final status of the proposed IO waiver amendment (provider certification language, proposed adoption 1/1/2027; comments closed 9/27/2026) and of the July 2026 IO/Level One amendments. CMS approval was not confirmed.",
+    "Final status and effective date of the SB 315 EVV rule changes (GPS capture, written consent). Only a September 2026 stakeholder deck was found. EVV claim matching since October 2025 and the August 1, 2026 compliance-review sampling of 15-minute HPC claims come from secondary sources only [S41].",
+    "MyCare Ohio or other managed care payment rates for HPC. Waiver services stay fee-for-service when an individual enrolls in managed care [S17]; no MCO rates were found.",
+    "Room and board rules for DODD residential facilities and how SSI ($994) interacts with waiver-funded residential or shared-living payments; Ohio's 2026 SSI state supplement amount.",
+    "Statewide BLS OEWS May 2025 wages for direct care aides, nurse aides, LPNs, RNs, administrators and cooks in Ohio and Columbus. BLS has published a May 2025 Columbus release, but its occupation-level values were not retrieved. Only superseded May 2024 Columbus major-group means (all occupations $31.39; personal care and service $17.53; healthcare support $18.49; food preparation $16.57; management $61.31) were found [S25]; these are not occupation-level wages.",
+    "Official confirmation that no Ohio locality sets its own minimum wage (only a secondary source was found).",
+    "Official ODJFS 2026 unemployment tax notice. The 2.85% new-employer rate, $9,000 wage base and 0.15% Technology and Customer Service Fee (2026–2027) come from the NFIB handbook [S26], not an ODJFS page.",
+    "Ohio BWC (state fund) class-code base rates for residential or HPC services, the Ohio Commercial Activity Tax threshold and rate, and official Secretary of State LLC fees (LLC figures came from secondary guides).",
+    "Insurance premiums (general liability market range of $500–$1,800 per year is a secondary small-business estimate, not a DODD figure). Only the $1,000,000 general liability minimum is a rule requirement. Insurance, bonding or fees specific to HPC beyond the residential facility and agency provider rules.",
+    "Official bedroom-level HUD FY2026 Fair Market Rents for Columbus and commercial rent benchmarks for group-home or office space. Secondary-site values were not confirmed against the HUD file.",
+    "Statewide provider counts (licensed homes, certified HPC/shared-living agencies, independent providers), market shares, named competitors, occupancy rates for licensed or shared-living settings, and referral-source breakdowns. No official source was found.",
+    "Current official waiting-list count. Figures found are secondary and conflict (about 1,300 in Feb 2023 per Community Solutions [S34]; 1,887 cited from a 2025 KFF survey by a secondary guide). The DODD dashboard figure was not retrieved. Disability Rights Ohio reports waiting lists exist in every county.",
+    "Current enrollment counts by waiver (IO, Level One, SELF). The >40,000 figure is DODD's undated statement; the >51,000 figure is secondary.",
+    "Private-pay residential-home prices. The CareScout figures measure in-home non-medical caregiver care (and an assisted-living median relayed by secondary sites), not a DODD licensed group home. CareScout does not publish memory care data.",
+    "Administrator training hours and content (OAC 5123-3-01 Appendix A) and the full application-to-license timeline including the DODD development-approval step and pre-license survey scheduling. Only issuance (20 days), the 10-day local-notice window, and the compliance-review timelines (10-day summary; 14-day appeal or plan of correction) are verified.",
+    "A DODD email address or program-specific phone line for residential licensing. Only the main number and Columbus address are verified.",
+    "Break-even points and profit margins. The financial model computes these from sourced inputs.",
+    "Quotes were drawn largely from search-result excerpts; verify each against the live page before publication.",
+    "HPC overtime figures of $9.44 and $5.67 (code APV, CODB category 1). They could not be found on the cited DODD page, which shows a worked example of $27.39 per hour ($6.84 per 15-minute unit). Verify against the OAC 5123-9-30 appendix B table before using any such figure.",
+    "The 107% (two individuals) and 130% (four or more individuals) HPC multi-individual adjustments and the 85% shared-living group-of-two rate. The percentages were not captured in the retrieved rule text; confirm in OAC 5123-9-30(F) and 5123-9-33(F), and find the three-individual percentage.",
+    "Annual DSP training of 2 hours from DODD plus 4 hours arranged by the operator. This was not visible in the retrieved DODD page text; confirm in OAC 5123-3-01 Appendix B. Also unverified: the DODD main phone number 1-800-617-6733 (not shown in the retrieved text).",
+    "Whether DODD supported-living / HCBS certification application fees ($800 small agency or $1,600 large agency every 3 years; $75 / $150 to add HCBS; $125 independent provider) apply to a licensed facility's HCBS approval under OAC 5123-3-01(C)(3). Ask DODD.",
+    "Support-staff cost (housekeeping, laundry, maintenance, clerical) required by OAC 5123-3-01(D)(5) is not modeled, and whether a half-time administrator is acceptable to DODD for a single home is unconfirmed."
+  ],
+  "regulators": [
+    {
+      "name": "Ohio Department of Developmental Disabilities (DODD)",
+      "role": "Licenses residential facilities (applications go to the DODD Director), certifies agency and independent HCBS providers, operates the IO waiver under an interagency agreement with ODM, and conducts compliance reviews and billing",
+      "url": "https://dodd.ohio.gov/providers/initial-renewal-certification/working-for-a-provider-agency",
+      "phone": "",
+      "email": "",
+      "source_id": "S7"
+    },
+    {
+      "name": "Ohio Department of Medicaid (ODM)",
+      "role": "Medicaid provider agreement and enrollment (including the 2026 enrollment moratorium covering waiver individuals and organizations, private duty nurses, personal care aides, home care attendants, hospice and home health agencies), EVV program (Sandata at no cost), and managed care",
+      "url": "https://medicaid.ohio.gov/home/odm-moratorium",
+      "phone": "",
+      "email": "",
+      "source_id": "S28"
+    },
+    {
+      "name": "County Boards of Developmental Disabilities",
+      "role": "Waiting list assessments, service authorization for IO waiver HPC (billed to DODD), and local referral and vacancy information",
+      "url": "https://dodd.ohio.gov/waivers-and-services/Ohio+Waiver+Waiting+List",
+      "phone": "",
+      "email": "",
+      "source_id": "S37"
+    },
+    {
+      "name": "Centers for Medicare & Medicaid Services (CMS)",
+      "role": "Approves the Individual Options waiver (0231.R06.00, effective 7/1/2024, expires 6/30/2029)",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/82836",
+      "phone": "",
+      "email": "",
+      "source_id": "S31"
+    },
+    {
+      "name": "Ohio Department of Commerce, Division of Industrial Compliance (Wage and Hour)",
+      "role": "Minimum wage and overtime rules that employers must follow",
+      "url": "https://dam.assets.ohio.gov/image/upload/com.ohio.gov/DICO/WageAndHour/2026_Minumum_Wage_Poster.pdf",
+      "phone": "614-644-2239",
+      "email": "",
+      "source_id": "S24"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "ORC 5123.19",
+      "title": "Operation of residential facilities (license application to the DODD director, terms, pre-license survey, zoning, 10-day local notice)",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5123.19",
+      "source_id": "S2"
+    },
+    {
+      "cite": "ORC 5123.20",
+      "title": "Prohibiting operation without license",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5123.20",
+      "source_id": "S3"
+    },
+    {
+      "cite": "OAC 5123-3-01",
+      "title": "Licensed residential facilities - administration and operation (administrator, insurance, financial proof, training, Medicaid agreement)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "cite": "OAC 5123-3-04",
+      "title": "Licensed residential facilities - admission of residents, provision of services, and service records (transportation liability coverage)",
+      "url": "https://www.law.cornell.edu/regulations/ohio/Ohio-Admin-Code-5123-3-04",
+      "source_id": "S43"
+    },
+    {
+      "cite": "OAC 5123-3-06",
+      "title": "Compliance reviews, issuance of licenses, and adverse actions",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-3-06",
+      "source_id": "S4"
+    },
+    {
+      "cite": "OAC 5123-3-08",
+      "title": "Licensed residential facilities - development and renovation (development approval before licensing)",
+      "url": "https://dodd.ohio.gov/wps/wcm/connect/gov/0a14964a-11f2-4d62-8bf5-387dac816f22/5123-3-08+New+2022-07-18.pdf?MOD=AJPERES",
+      "source_id": "S5"
+    },
+    {
+      "cite": "OAC 5123-9-30",
+      "title": "HCBS waivers - homemaker/personal care under the IO and Level One waivers",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-9-30",
+      "source_id": "S8"
+    },
+    {
+      "cite": "OAC 5123-9-33",
+      "title": "HCBS waivers - shared living",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-9-33",
+      "source_id": "S46"
+    },
+    {
+      "cite": "OAC 5123-2-08",
+      "title": "Agency provider certification (general liability $1,000,000; $10,000 working capital)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5123-2-08",
+      "source_id": "S27"
+    },
+    {
+      "cite": "OAC 5160-40-01",
+      "title": "Individual Options waiver (DODD operates under an interagency agreement with ODM)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-40-01",
+      "source_id": "S11"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Ohio Medicaid — IO waiver (DODD billing, fee-for-service)",
+      "code": "HPC",
+      "service": "HPC overtime reimbursement, independent provider, CODB category 1 (DODD worked example)",
+      "rate": 6.84,
+      "unit": "per 15-minute unit ($27.39 per hour)",
+      "effective": "",
+      "notes": "From the DODD overtime page worked example. Overtime is calculated on the wage component of the rate. The effective date was not stated on the page. The earlier $9.44 / $5.67 figures could not be found on the cited page and are removed. Agency base rates (appendix B) were not retrieved.",
+      "source_id": "S13"
+    },
+    {
+      "payer": "Ohio Medicaid — IO waiver (DODD billing)",
+      "code": "AMW/AMX/AMY/AMZ/APC/APV (EVV service HPC)",
+      "service": "HPC multi-individual adjustment: one worker serving two individuals",
+      "rate": 107,
+      "unit": "% of one-to-one base rate",
+      "effective": "2024-01-01",
+      "notes": "Rule text of OAC 5123-9-30 (rule effective 2024-01-01; only the appendix B rates changed 2024-07-01). The 107% value was not captured in the retrieved text; confirm in 5123-9-30(F). Applied to the one-to-one base rate for the CODB category; base rate values were not retrieved.",
+      "source_id": "S8"
+    },
+    {
+      "payer": "Ohio Medicaid — IO waiver (DODD billing)",
+      "code": "",
+      "service": "HPC multi-individual adjustment: one worker serving four or more individuals",
+      "rate": 130,
+      "unit": "% of one-to-one base rate",
+      "effective": "2024-01-01",
+      "notes": "Rule text of OAC 5123-9-30 (rule effective 2024-01-01). The 130% value was not captured in the retrieved text; confirm in 5123-9-30(F). The three-individual adjustment was not retrieved; state it once confirmed.",
+      "source_id": "S8"
+    },
+    {
+      "payer": "Ohio Medicaid — IO waiver (DODD billing)",
+      "code": "",
+      "service": "Shared Living, group size of two",
+      "rate": 85,
+      "unit": "% of the daily rate",
+      "effective": "2024-01-01",
+      "notes": "Rule text of OAC 5123-9-33. The 85% value and the four-person cap were not captured in the retrieved text; confirm in 5123-9-33(F). The underlying daily rate for 2026 was not retrieved; the rule is under five-year review (11/14/2026) and DODD plans to update Shared Living rates.",
+      "source_id": "S46"
+    },
+    {
+      "payer": "Federal SSI (resident income)",
+      "code": "",
+      "service": "SSI federal benefit rate, individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Federal rate only. Ohio's state supplement and room-and-board treatment were not verified.",
+      "source_id": "S21"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Ohio non-medical caregiver (in-home), CareScout 2025 median",
+      "rate": 34,
+      "unit": "per hour",
+      "effective": "2025 survey (Jul–Nov 2025; published Mar 2026)",
+      "notes": "In-home caregiver cost, not a residential-home fee. The 2025 survey merged homemaker and home health aide categories; the Ohio annual figure assumes about 44 hours per week.",
+      "source_id": "S22"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Ohio non-medical caregiver (in-home), CareScout 2025 median",
+      "rate": 6483,
+      "unit": "per month",
+      "effective": "2025 survey (published Mar 2026)",
+      "notes": "Annual median $77,792. In-home benchmark only; not a price for a DODD licensed home.",
+      "source_id": "S22"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Ohio assisted living median, CareScout 2025 (as relayed by a secondary site)",
+      "rate": 6103,
+      "unit": "per month",
+      "effective": "2025 survey",
+      "notes": "Annual $73,236 per a secondary site citing CareScout; the primary table row was not legible in the fetched excerpt. Measures assisted living communities, not DD residential homes.",
+      "source_id": "S44"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Ohio assisted living communities, Genworth 2024 median",
+      "rate": 66000,
+      "unit": "per year",
+      "effective": "2024 survey (published 2025-03-04)",
+      "notes": "Up 4% year over year. Prior-year benchmark; assisted living communities, not DD residential homes.",
+      "source_id": "S23"
+    },
+    {
+      "payer": "Ohio wage floor (reference)",
+      "code": "",
+      "service": "Minimum wage, non-tipped, covered employers",
+      "rate": 11.0,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "Employers grossing less than $405,000 pay the federal minimum. Overtime at 1.5x after 40 hours per week, except employers grossing less than $150,000 per year are excluded from the state overtime rule; federal FLSA minimum wage and overtime may still apply, so confirm with counsel. Model wages must be at or above $11.00.",
+      "source_id": "S24"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Ohio Department of Developmental Disabilities (DODD)",
+      "role": "Residential facility licensure, provider certification, HPC and shared living rules, billing",
+      "contact": "30 E. Broad Street, Columbus, Ohio 43215; https://dodd.ohio.gov/providers/initial-renewal-certification/working-for-a-provider-agency (confirm the current phone number on the DODD site)"
+    },
+    {
+      "name": "Ohio Department of Medicaid (ODM) — Individual Options notice",
+      "role": "Medicaid provider enrollment, moratorium notice (5/14/2026–11/14/2026), EVV (Sandata)",
+      "contact": "https://medicaid.ohio.gov/home/odm-moratorium"
+    },
+    {
+      "name": "Your local County Board of Developmental Disabilities",
+      "role": "Waiting list assessments, service authorization for IO waiver HPC, referrals and local vacancy information (find your county board through DODD)",
+      "contact": "https://dodd.ohio.gov/waivers-and-services/Ohio+Waiver+Waiting+List"
+    },
+    {
+      "name": "DODD Waiver Waiting List Information (data.ohio.gov)",
+      "role": "Statewide waiting-list dashboard (login may be required)",
+      "contact": "https://data.ohio.gov/wps/portal/gov/data/view/dodd-waiver-waiting-list-information"
+    },
+    {
+      "name": "DODD Residential Options / vacancy registry",
+      "role": "Families search the DODD vacancy registry for licensed homes; example county-board overview",
+      "contact": "https://www.hamiltonddsohio.gov/wp-content/uploads/2022/03/ResidentialOptions1.pdf"
+    },
+    {
+      "name": "Ohio Department of Commerce — Division of Industrial Compliance",
+      "role": "Minimum wage and overtime posters and guidance",
+      "contact": "614-644-2239; https://dam.assets.ohio.gov/image/upload/com.ohio.gov/DICO/WageAndHour/2026_Minumum_Wage_Poster.pdf"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.85,
+      "optimistic": 0.95,
+      "rationale": "Share of licensed beds filled and funded in a typical month. No official Ohio occupancy figure for DODD-licensed or shared-living homes was found, so 90% (85% conservative, 95% optimistic) is an operator assumption — verify locally. Families and county boards fill vacancies through DODD's vacancy registry for licensed homes [S38]. Waiver slots are authorized through county boards of DD [S37], so vacant beds earn nothing while rent and staffing continue.",
+      "source_id": "S38"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "oh4_single_mid",
+        "label": "One 4-bed licensed home, mid-acuity residents (owner-operator as part-time administrator)",
+        "capacity": 4,
+        "notes": "Smallest entry model. Four beds per home is used throughout because OAC 5123-3-08 caps licensed beds in a non-ICF residential facility at four [S5]. ORC 5123.19 separately describes 6–8 person family-setting facilities [S2]; this conflict is unresolved (see not_claimed), so confirm the controlling limit with DODD before choosing a home size. Revenue per resident is a PLACEHOLDER, not a published rate: the OAC 5123-9-30 appendix B rates and the congregate HPC Monthly Rate Calculator values were not retrieved, so treat results as a sensitivity analysis, not a forecast.",
+        "revenue_lines": [
+          {
+            "name": "Congregate HPC / residential waiver funding per resident — mid-acuity PLACEHOLDER (replace with DODD Monthly Rate Calculator / appendix B result)",
+            "payer": "Ohio Medicaid — IO waiver (fee-for-service, billed to DODD, authorized by county board)",
+            "code": "HPC (DODD billing codes AMW/AMX/AMY/AMZ/APC/APV family)",
+            "rate": 7800,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S29",
+            "notes": "PLACEHOLDER — operator estimate, verify locally. No published 2026 per-resident amount was found. DODD confirms the Monthly Rate Calculator applies to congregate HPC today and acuity-based rates are planned, with no rate change expected before July 2027 [S29]. HPC is billed to DODD and authorized through county boards [S14]; payment rates depend on the county cost-of-doing-business category [S8]. Room-and-board and SSI ($994/month [S21]) treatment in licensed homes was not verified, so no resident-paid line is modeled."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours (one staff 24/7 plus a second staff about 8 h/day)",
+            "wage_hourly": 15.5,
+            "wage_source_id": "S25",
+            "basis": "hours_per_month",
+            "amount": 975,
+            "cite": "OAC 5123-3-01 (staff on duty based on individuals' needs)",
+            "notes": "975 h/month = 730 h (one staff always on duty) + about 245 h second-staff time (about 8 h/day x 30.42) — operator estimate — verify locally. Rule only requires staff on duty on the basis of individuals' needs, with schedules posted in advance [S1]; no numeric ratio or awake-overnight rule was found. Wage $15.50 is an operator estimate: above the $11.00 Ohio minimum wage [S24]. It was compared with the Columbus May 2024 personal care and service major-group mean of $17.53 [S25], which is a superseded vintage (BLS has published a May 2025 Columbus release whose occupation-level values were not retrieved) and not a direct-support occupation wage. Re-test against the May 2025 figure for home health and personal care aides / nursing assistants. Ohio has no verified local minimum wage above the state rate (secondary source only)."
+          },
+          {
+            "role": "Administrator (required; owner-operator may fill; 0.5 FTE modeled)",
+            "basis": "annual_salary",
+            "amount": 26000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-3-01",
+            "notes": "Qualifications under OAC 5123-3-01(E)(2) [S1]: age 21+; birth certificate, Social Security card and photo ID; written English proficiency; one year of paid full-time-equivalent work experience in specialized services (or four years caring for a family member with a developmental disability); and one year of paid experience in EACH of supervising employees, developing/overseeing programs or services, and financial management. An owner-operator must meet these as well as the education tier (bachelor's degree, or HS/GED plus four years' qualifying experience). Also required: DODD orientation within 30 days of appointment and Rapback consent. The operator must designate in writing a staff member to act in the administrator's absence (E)(3). The administrator must be directly and actively involved in day-to-day operation (B)(3). The rule sets no FTE minimum, but a 0.5 FTE administrator may draw scrutiny; confirm with DODD. DODD must be notified if one administrator serves more than one licensee (E)(5)(a). $26,000 = 0.5 FTE x $52,000 operator estimate. The Columbus May 2024 management mean ($61.31/hour [S25]) is a superseded vintage and not an occupation-level fit, so it is not used."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed residence(s)",
+            "monthly": 2300,
+            "basis": "fixed",
+            "notes": "One 4+ bedroom single-family home, $2,300/month — operator estimate; verify locally. A secondary FY2026 HUD FMR summary lists Columbus 4BR at $1,927 (not confirmed against the HUD file), and this figure adds a premium for a larger, accessible home. Rent is fixed whether beds are filled or not. 4–8 person facilities are a permitted use in residential districts subject to single-family standards [S2]."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home × 1 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "$250 per home × 1 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1 — operator estimate. Each employee who transports individuals must be covered by liability insurance as specified in Ohio law [S43]."
+          },
+          {
+            "item": "General liability, property and professional insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; get quotes. The rule minimum is $1,000,000 general liability including coverage for individuals' losses from theft or property damage [S1][S27]. A secondary guide quotes $500–$1,800 per year for small-business GL alone; this line also covers property, professional and umbrella needs."
+          },
+          {
+            "item": "Staff training, CPR/first aid, background checks",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home x 1 — operator estimate. DSPs must have CPR/first aid within 60 days of hire [S1][S7]. Paid pre-service training (DODD-curriculum modules, operator orientation, ISP-specific training, fire safety for licensed homes) and 30-day training are not fully covered by this line; see the start-up hiring and training budget."
+          },
+          {
+            "item": "Nurse consultation / medication-administration oversight",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$300 per home × 1 — operator estimate. No Ohio rule requiring a specific nursing level for licensed homes was retrieved; this is a prudent cost for medically complex residents."
+          },
+          {
+            "item": "DODD residential facility license (3-year fee ÷ 36)",
+            "monthly": 8.33,
+            "basis": "fixed",
+            "notes": "$300 per three-year license for a facility with 15 or fewer beds, × 1 home ÷ 36 months [S6]. Collected before the three-year license is issued [S4].",
+            "source_id": "S6"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and county-board / provider-network outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Modeled at $0. The CAT exclusion threshold and rate were not verified (see not_claimed) — confirm with the Ohio Department of Taxation. A secondary guide says Ohio LLCs file no annual report and owe no franchise tax."
+          },
+          {
+            "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line (housekeeping/laundry/maintenance hours per home) before relying on these margins."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one new resident per month. Fills depend on county-board authorizations and families choosing the home."
+        }
+      },
+      {
+        "id": "oh4x2_mid",
+        "label": "Two 4-bed licensed homes (8 residents), mid-acuity",
+        "capacity": 8,
+        "notes": "Administrator moves to a full-time role covering both homes. Revenue per resident is the same PLACEHOLDER as the single-home model, not a published rate; see that configuration's notes.",
+        "revenue_lines": [
+          {
+            "name": "Congregate HPC / residential waiver funding per resident — mid-acuity PLACEHOLDER (replace with DODD Monthly Rate Calculator / appendix B result)",
+            "payer": "Ohio Medicaid — IO waiver (fee-for-service, billed to DODD, authorized by county board)",
+            "code": "HPC (DODD billing codes AMW/AMX/AMY/AMZ/APC/APV family)",
+            "rate": 7800,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S29",
+            "notes": "PLACEHOLDER — operator estimate, verify locally. No published 2026 per-resident amount was found [S29]. HPC is billed to DODD and authorized through county boards [S14]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours (2 homes × 975 h)",
+            "wage_hourly": 15.5,
+            "wage_source_id": "S25",
+            "basis": "hours_per_month",
+            "amount": 1950,
+            "cite": "OAC 5123-3-01 (staff on duty based on individuals' needs)",
+            "notes": "Per home: 730 h (one staff always on duty) + about 245 h second-staff time — operator estimate — verify locally. No numeric ratio was found; staff on duty are scheduled by individuals' needs [S1]. Wage $15.50 is an operator estimate above the $11.00 minimum [S24] and below the Columbus personal care and service mean of $17.53 [S25]."
+          },
+          {
+            "role": "Administrator (required; full-time across both homes)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-3-01",
+            "notes": "$52,000 is an operator estimate. Qualifications per OAC 5123-3-01(E)(2) [S1]: age 21+; birth certificate, SSN card and photo ID; written English proficiency; one year of paid specialized-services experience (or four years caring for a family member with DD); one year of paid experience in each of supervision, program development/oversight and financial management; education tier (bachelor's, or HS/GED plus four years); orientation within 30 days; Rapback. Designate in writing a staff member to act in the administrator's absence (E)(3). If the two homes are separate licensees, notify DODD that one administrator serves more than one licensee (E)(5)(a). The Columbus management mean ($61.31/hour, May 2024 [S25]) is a superseded major-group figure and is not used."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed residence(s)",
+            "monthly": 4600,
+            "basis": "fixed",
+            "notes": "Two 4+ bedroom homes at $2,300 — operator estimate; verify locally (secondary HUD FMR summary lists Columbus 4BR at $1,927, unconfirmed)."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$450 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "$250 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 2 at $800 — operator estimate. Transporting employees need liability coverage [S43]."
+          },
+          {
+            "item": "General liability, property and professional insurance",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "$350 per home × 2 — operator estimate. Rule minimum $1,000,000 general liability [S1][S27]."
+          },
+          {
+            "item": "Staff training, CPR/first aid, background checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 per home × 2 — operator estimate [S1][S7]."
+          },
+          {
+            "item": "Nurse consultation / medication-administration oversight",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$300 per home × 2 — operator estimate."
+          },
+          {
+            "item": "DODD residential facility license (3-year fee ÷ 36)",
+            "monthly": 16.67,
+            "basis": "fixed",
+            "notes": "$300 per three-year license × 2 homes ÷ 36 [S6][S4].",
+            "source_id": "S6"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and county-board / provider-network outreach",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Modeled at $0; CAT threshold and rate not verified — confirm with the Ohio Department of Taxation."
+          },
+          {
+            "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line per home before relying on these margins."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate: two new residents per month across the two homes."
+        }
+      },
+      {
+        "id": "oh4x4_mid",
+        "label": "Four 4-bed licensed homes (16 residents), mid-acuity",
+        "capacity": 16,
+        "notes": "Adds a house/program manager and a billing/office coordinator. Revenue per resident is a PLACEHOLDER, not a published rate. At the placeholder mid-acuity amount the margin is thin, which shows how sensitive the model is to the funding level.",
+        "revenue_lines": [
+          {
+            "name": "Congregate HPC / residential waiver funding per resident — mid-acuity PLACEHOLDER (replace with DODD Monthly Rate Calculator / appendix B result)",
+            "payer": "Ohio Medicaid — IO waiver (fee-for-service, billed to DODD, authorized by county board)",
+            "code": "HPC (DODD billing codes AMW/AMX/AMY/AMZ/APC/APV family)",
+            "rate": 7800,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S29",
+            "notes": "PLACEHOLDER — operator estimate, verify locally. No published 2026 per-resident amount was found [S29]. HPC claims are due within 350 days of service [S10]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours (4 homes × 975 h)",
+            "wage_hourly": 15.5,
+            "wage_source_id": "S25",
+            "basis": "hours_per_month",
+            "amount": 3900,
+            "cite": "OAC 5123-3-01 (staff on duty based on individuals' needs)",
+            "notes": "Per home: 730 h (one staff always on duty) + about 245 h second-staff time — operator estimate — verify locally [S1]. Wage $15.50 operator estimate; floor $11.00 [S24]; Columbus personal care and service mean $17.53 [S25]."
+          },
+          {
+            "role": "Administrator (required; full-time)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-3-01",
+            "notes": "Operator estimate. Qualifications per OAC 5123-3-01(E)(2) [S1]: age 21+; birth certificate, SSN card and photo ID; written English proficiency; one year of paid specialized-services experience; one year of paid experience in each of supervision, program development/oversight and financial management; education tier; orientation within 30 days; Rapback. Designate in writing a staff member to act in the administrator's absence (E)(3). If the homes are separate licensees, notify DODD that one administrator serves more than one licensee (E)(5)(a)."
+          },
+          {
+            "role": "House / program manager (supervision, scheduling, individual service plans)",
+            "basis": "annual_salary",
+            "amount": 46000,
+            "wage_source_id": "S25",
+            "cite": "",
+            "notes": "1 FTE at $46,000 — operator estimate, verify locally. No Ohio rule requiring this role was found; it reflects supervision of four homes."
+          },
+          {
+            "role": "Billing / EVV / records coordinator",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-9-30; OAC 5160-1-40",
+            "notes": "1 FTE at $38,000 — operator estimate, verify locally. 15-minute HPC must use EVV (on-site/on-call exempt) [S14][S8], and EVV-requiring claims must match an EVV visit [S16]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed residence(s)",
+            "monthly": 9200,
+            "basis": "fixed",
+            "notes": "Four 4+ bedroom homes at $2,300 — operator estimate; verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "$250 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 4 at $800 — operator estimate [S43]."
+          },
+          {
+            "item": "General liability, property and professional insurance",
+            "monthly": 1400,
+            "basis": "fixed",
+            "notes": "$350 per home × 4 — operator estimate. Rule minimum $1,000,000 [S1][S27]."
+          },
+          {
+            "item": "Staff training, CPR/first aid, background checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate [S1][S7]."
+          },
+          {
+            "item": "Nurse consultation / medication-administration oversight",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$300 per home × 4 — operator estimate."
+          },
+          {
+            "item": "DODD residential facility license (3-year fee ÷ 36)",
+            "monthly": 33.33,
+            "basis": "fixed",
+            "notes": "$300 per three-year license × 4 homes ÷ 36 [S6][S4].",
+            "source_id": "S6"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and county-board / provider-network outreach",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Modeled at $0; CAT threshold and rate not verified — confirm with the Ohio Department of Taxation."
+          },
+          {
+            "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line per home before relying on these margins."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The model staffs all four homes from month 1; opening homes one at a time needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "oh4x4_high",
+        "label": "Four 4-bed licensed homes (16 residents), higher-acuity residents with enhanced staffing",
+        "capacity": 16,
+        "notes": "Configuration an experienced operator would target: higher-need residents, enhanced coverage, one administrator, one house manager and one billing coordinator. Acuity-based rates for congregate HPC are planned by DODD [S29], which would reward this model. The funding amount is a PLACEHOLDER, not a published rate; confirm against the DODD Monthly Rate Calculator / appendix B before relying on the result.",
+        "revenue_lines": [
+          {
+            "name": "Congregate HPC / residential waiver funding per resident — higher-acuity PLACEHOLDER (replace with DODD Monthly Rate Calculator / appendix B result)",
+            "payer": "Ohio Medicaid — IO waiver (fee-for-service, billed to DODD, authorized by county board)",
+            "code": "HPC (DODD billing codes AMW/AMX/AMY/AMZ/APC/APV family)",
+            "rate": 9500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S29",
+            "notes": "PLACEHOLDER — operator estimate, verify locally. HPC may be authorized up to 16 hours (64 units) per day based on assessed need [S10]; payment rates depend on the CODB category and the number of individuals served per worker (e.g. 130% of the one-to-one base for four or more) [S8]. The actual amount for a higher-acuity resident was not retrieved."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — enhanced coverage hours (4 homes × 1,200 h)",
+            "wage_hourly": 15.5,
+            "wage_source_id": "S25",
+            "basis": "hours_per_month",
+            "amount": 4800,
+            "cite": "OAC 5123-3-01 (staff on duty based on individuals' needs)",
+            "notes": "Per home: 730 h (one staff always on duty) + about 470 h second-staff time (≈15 h/day) for higher-need residents — operator estimate — verify locally [S1]. If the DODD assessment supports 1:1 coverage during waking hours, hours rise further. Wage $15.50 operator estimate; floor $11.00 [S24]; Columbus personal care and service mean $17.53 [S25]."
+          },
+          {
+            "role": "Administrator (required; full-time)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-3-01",
+            "notes": "Operator estimate. Qualifications per OAC 5123-3-01(E)(2) [S1]: age 21+; birth certificate, SSN card and photo ID; written English proficiency; one year of paid specialized-services experience; one year of paid experience in each of supervision, program development/oversight and financial management; education tier; orientation within 30 days; Rapback. Designate in writing a staff member to act in the administrator's absence (E)(3). If the homes are separate licensees, notify DODD that one administrator serves more than one licensee (E)(5)(a)."
+          },
+          {
+            "role": "House / program manager",
+            "basis": "annual_salary",
+            "amount": 46000,
+            "wage_source_id": "S25",
+            "cite": "",
+            "notes": "1 FTE at $46,000 — operator estimate, verify locally."
+          },
+          {
+            "role": "Billing / EVV / records coordinator",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-9-30; OAC 5160-1-40",
+            "notes": "1 FTE at $38,000 — operator estimate. 15-minute HPC must use EVV [S14][S8]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed residence(s)",
+            "monthly": 9200,
+            "basis": "fixed",
+            "notes": "Four 4+ bedroom homes at $2,300 — operator estimate; verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "$250 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 4 at $800 — operator estimate [S43]."
+          },
+          {
+            "item": "General liability, property and professional insurance",
+            "monthly": 1400,
+            "basis": "fixed",
+            "notes": "$350 per home × 4 — operator estimate. Rule minimum $1,000,000 [S1][S27]."
+          },
+          {
+            "item": "Staff training, CPR/first aid, background checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate [S1][S7]."
+          },
+          {
+            "item": "Nurse consultation / medication-administration oversight",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$300 per home × 4 — operator estimate; higher-acuity residents may need more."
+          },
+          {
+            "item": "DODD residential facility license (3-year fee ÷ 36)",
+            "monthly": 33.33,
+            "basis": "fixed",
+            "notes": "$300 per three-year license × 4 homes ÷ 36 [S6][S4].",
+            "source_id": "S6"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and county-board / provider-network outreach",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Modeled at $0; CAT threshold and rate not verified — confirm with the Ohio Department of Taxation."
+          },
+          {
+            "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line per home before relying on these margins."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The model staffs all four homes from month 1; opening homes one at a time needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "oh4x6_high",
+        "label": "Six 4-bed licensed homes (24 residents), higher-acuity residents with enhanced staffing",
+        "capacity": 24,
+        "notes": "Growth stage: administrator, two house managers and a billing coordinator spread over six homes. The funding amount is a PLACEHOLDER, not a published rate.",
+        "revenue_lines": [
+          {
+            "name": "Congregate HPC / residential waiver funding per resident — higher-acuity PLACEHOLDER (replace with DODD Monthly Rate Calculator / appendix B result)",
+            "payer": "Ohio Medicaid — IO waiver (fee-for-service, billed to DODD, authorized by county board)",
+            "code": "HPC (DODD billing codes AMW/AMX/AMY/AMZ/APC/APV family)",
+            "rate": 9500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S29",
+            "notes": "PLACEHOLDER — operator estimate, verify locally. No published 2026 per-resident amount was found [S29]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — enhanced coverage hours (6 homes × 1,200 h)",
+            "wage_hourly": 15.5,
+            "wage_source_id": "S25",
+            "basis": "hours_per_month",
+            "amount": 7200,
+            "cite": "OAC 5123-3-01 (staff on duty based on individuals' needs)",
+            "notes": "Per home: 730 h + about 470 h second-staff time — operator estimate — verify locally [S1]. Wage $15.50 operator estimate; floor $11.00 [S24]; Columbus personal care and service mean $17.53 [S25]."
+          },
+          {
+            "role": "Administrator (required; full-time)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-3-01",
+            "notes": "Operator estimate. Qualifications per OAC 5123-3-01(E)(2) [S1]: age 21+; birth certificate, SSN card and photo ID; written English proficiency; one year of paid specialized-services experience; one year of paid experience in each of supervision, program development/oversight and financial management; education tier; orientation within 30 days; Rapback. Designate in writing a staff member to act in the administrator's absence (E)(3). If the six homes are separate licensees, notify DODD that one administrator serves more than one licensee (E)(5)(a)."
+          },
+          {
+            "role": "House / program managers (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 92000,
+            "wage_source_id": "S25",
+            "cite": "",
+            "notes": "2 FTE × $46,000 — operator estimate, verify locally."
+          },
+          {
+            "role": "Billing / EVV / records coordinator",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-9-30; OAC 5160-1-40",
+            "notes": "1 FTE at $38,000 — operator estimate [S14][S8]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed residence(s)",
+            "monthly": 13800,
+            "basis": "fixed",
+            "notes": "Six 4+ bedroom homes at $2,300 — operator estimate; verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 2700,
+            "basis": "fixed",
+            "notes": "$450 per home × 6 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "$250 per home × 6 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$150 per home × 6 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 4800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 6 at $800 — operator estimate [S43]."
+          },
+          {
+            "item": "General liability, property and professional insurance",
+            "monthly": 2100,
+            "basis": "fixed",
+            "notes": "$350 per home × 6 — operator estimate. Rule minimum $1,000,000 [S1][S27]."
+          },
+          {
+            "item": "Staff training, CPR/first aid, background checks",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$150 per home × 6 — operator estimate [S1][S7]."
+          },
+          {
+            "item": "Nurse consultation / medication-administration oversight",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$300 per home × 6 — operator estimate."
+          },
+          {
+            "item": "DODD residential facility license (3-year fee ÷ 36)",
+            "monthly": 50.0,
+            "basis": "fixed",
+            "notes": "$300 per three-year license × 6 homes ÷ 36 [S6][S4].",
+            "source_id": "S6"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and county-board / provider-network outreach",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Modeled at $0. At this revenue level the CAT exclusion threshold matters; it was not verified — confirm with the Ohio Department of Taxation before relying on this model."
+          },
+          {
+            "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line per home before relying on these margins."
+          }
+        ],
+        "ramp": {
+          "start_clients": 8,
+          "add_per_month": 2,
+          "note": "Operator estimate; assumes growth from an operating agency that already serves several residents."
+        }
+      },
+      {
+        "id": "oh4x4_low",
+        "label": "Four 4-bed licensed homes (16 residents), lower-acuity residents (sensitivity)",
+        "capacity": 16,
+        "notes": "Same footprint as the mid-acuity model with a lower PLACEHOLDER funding level, shown to illustrate how sensitive margins are to the funding amount. Not a published rate.",
+        "revenue_lines": [
+          {
+            "name": "Congregate HPC / residential waiver funding per resident — lower-acuity PLACEHOLDER (replace with DODD Monthly Rate Calculator / appendix B result)",
+            "payer": "Ohio Medicaid — IO waiver (fee-for-service, billed to DODD, authorized by county board)",
+            "code": "HPC (DODD billing codes AMW/AMX/AMY/AMZ/APC/APV family)",
+            "rate": 6500,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S29",
+            "notes": "PLACEHOLDER — operator estimate, verify locally. No published 2026 per-resident amount was found [S29]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals — coverage hours (4 homes × 975 h)",
+            "wage_hourly": 15.5,
+            "wage_source_id": "S25",
+            "basis": "hours_per_month",
+            "amount": 3900,
+            "cite": "OAC 5123-3-01 (staff on duty based on individuals' needs)",
+            "notes": "Per home: 730 h + about 245 h second-staff time — operator estimate — verify locally [S1]. Wage $15.50 operator estimate; floor $11.00 [S24]; Columbus personal care and service mean $17.53 [S25]."
+          },
+          {
+            "role": "Administrator (required; full-time)",
+            "basis": "annual_salary",
+            "amount": 52000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-3-01",
+            "notes": "Operator estimate. Qualifications per OAC 5123-3-01(E)(2) [S1]: age 21+; birth certificate, SSN card and photo ID; written English proficiency; one year of paid specialized-services experience; one year of paid experience in each of supervision, program development/oversight and financial management; education tier; orientation within 30 days; Rapback. Designate in writing a staff member to act in the administrator's absence (E)(3). If the homes are separate licensees, notify DODD that one administrator serves more than one licensee (E)(5)(a)."
+          },
+          {
+            "role": "House / program manager",
+            "basis": "annual_salary",
+            "amount": 46000,
+            "wage_source_id": "S25",
+            "cite": "",
+            "notes": "1 FTE at $46,000 — operator estimate."
+          },
+          {
+            "role": "Billing / EVV / records coordinator",
+            "basis": "annual_salary",
+            "amount": 38000,
+            "wage_source_id": "S25",
+            "cite": "OAC 5123-9-30; OAC 5160-1-40",
+            "notes": "1 FTE at $38,000 — operator estimate [S14][S8]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed residence(s)",
+            "monthly": 9200,
+            "basis": "fixed",
+            "notes": "Four 4+ bedroom homes at $2,300 — operator estimate; verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$450 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "$250 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 4 at $800 — operator estimate [S43]."
+          },
+          {
+            "item": "General liability, property and professional insurance",
+            "monthly": 1400,
+            "basis": "fixed",
+            "notes": "$350 per home × 4 — operator estimate. Rule minimum $1,000,000 [S1][S27]."
+          },
+          {
+            "item": "Staff training, CPR/first aid, background checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate [S1][S7]."
+          },
+          {
+            "item": "Nurse consultation / medication-administration oversight",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$300 per home × 4 — operator estimate."
+          },
+          {
+            "item": "DODD residential facility license (3-year fee ÷ 36)",
+            "monthly": 33.33,
+            "basis": "fixed",
+            "notes": "$300 per three-year license × 4 homes ÷ 36 [S6][S4].",
+            "source_id": "S6"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and county-board / provider-network outreach",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Modeled at $0; CAT threshold and rate not verified — confirm with the Ohio Department of Taxation."
+          },
+          {
+            "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line per home before relying on these margins."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The model staffs all four homes from month 1."
+        }
+      }
+    ],
+    "default_configuration": "oh4x4_high",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.086,
+      "workers_comp_pct": 0.03,
+      "benefits_pct": 0.06,
+      "notes": "Payroll taxes about 8.6% = employer FICA 7.65% plus Ohio SUTA at the 2.85% new-employer rate on a $9,000 wage base (about $257 per employee), plus the 0.15% Technology and Customer Service Fee on the first $9,000 of wages for 2026 and 2027 (about $13.50 per employee), plus FUTA, for a full-time DSP at $15.50/hour [S26]. Part-time DSPs push the effective rate higher because the $9,000 base applies per employee. Workers' comp is bought from the Ohio BWC state fund; a secondary guide gives an average of $0.74 per $100 of payroll, but residential-care class-code rates were not verified, so 3% is a deliberately conservative operator estimate — verify with BWC. Benefits 6% is an operator estimate. The residential facility rule requires compliance with wage-hour, workers' comp, unemployment and withholding rules [S1]. Ohio minimum wage is $11.00 for employers grossing $405,000 or more; overtime is 1.5x after 40 hours per week, except employers grossing less than $150,000 per year are excluded from the state overtime rule [S24]. Federal FLSA rules may still apply; confirm with counsel. Overtime is not modeled separately.",
+      "source_id": "S26"
+    },
+    "opex": [
+      {
+        "item": "Lease — licensed residence(s)",
+        "monthly": 2300,
+        "basis": "fixed",
+        "notes": "Base case: one 4+ bedroom home. Operator estimate; verify locally. Each configuration overrides this line for its number of homes. Rent is fixed whether beds are filled or not."
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "$450 per home — operator estimate."
+      },
+      {
+        "item": "Home maintenance, pest control, lawn, repairs",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "$250 per home — operator estimate."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "$150 per home — operator estimate."
+      },
+      {
+        "item": "Agency vehicle (payment, auto insurance, fuel)",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "One vehicle per home — operator estimate. Employees who transport individuals must be covered by liability insurance as specified in Ohio law [S43]."
+      },
+      {
+        "item": "General liability, property and professional insurance",
+        "monthly": 350,
+        "basis": "fixed",
+        "notes": "$350 per home — operator estimate; get quotes. Rule minimum is $1,000,000 general liability including coverage for individuals' theft and property-damage losses [S1][S27]."
+      },
+      {
+        "item": "Staff training, CPR/first aid, background checks",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "$150 per home — operator estimate. CPR/first aid within 60 days of hire [S1][S7]. Paid pre-service training (DODD-curriculum modules, operator orientation, ISP-specific training, fire safety for licensed homes) and 30-day training are not fully covered by this line; see the start-up hiring and training budget. Background checks can take up to 45 days (secondary county-board source) [S42]."
+      },
+      {
+        "item": "Nurse consultation / medication-administration oversight",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "$300 per home — operator estimate. No Ohio rule requiring a specific nursing level in licensed homes was retrieved."
+      },
+      {
+        "item": "DODD residential facility license (3-year fee ÷ 36)",
+        "monthly": 8.33,
+        "basis": "fixed",
+        "notes": "$300 per three-year license for facilities with 15 or fewer beds ÷ 36 months, per home [S6]; fee collected before the three-year license is issued [S4]. Facilities with 16+ beds pay $1,500.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office, postage and supplies",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and county-board / provider-network outreach",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Ohio Commercial Activity Tax (CAT) / entity taxes",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "Modeled at $0. The CAT exclusion threshold and rate were not verified — confirm with the Ohio Department of Taxation. A secondary guide says Ohio LLCs file no annual report and owe no franchise tax."
+      },
+      {
+        "item": "Food (board) and household supplies",
+        "monthly": 360,
+        "basis": "per_client",
+        "notes": "$300 food + $60 household supplies per resident — operator estimate. Room-and-board recovery rules were not verified, so no board revenue is modeled."
+      },
+      {
+        "item": "Records / billing software and EVV",
+        "monthly": 40,
+        "basis": "per_client",
+        "notes": "Operator estimate — get vendor quotes. ODM provides the Sandata EVV system at no cost [S15]; paid alternate EVV systems or a billing vendor are optional. Providers of EVV services must complete EVV training and upload the certificate to PNM [S16]."
+      },
+      {
+        "item": "Support staff (housekeeping, laundry, maintenance, clerical) — NOT separately modeled",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "OAC 5123-3-01(D)(5) requires sufficient support staff so DSPs are not pulled from their primary duties by support tasks. No support-staff cost is modeled; budget a line per home before relying on these margins."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Ohio LLC Articles of Organization",
+        "low": 99,
+        "high": 99,
+        "notes": "Figure from a secondary 2026 LLC cost guide; the Secretary of State fee page was not verified. Name reservation is an optional extra (secondary guide: $39)."
+      },
+      {
+        "item": "DODD one-time initial licensing fee ($100 per home, 15 or fewer beds)",
+        "low": 100,
+        "high": 600,
+        "source_id": "S6",
+        "notes": "One-time initial fee, charged per licensed facility (6 homes at the high end). Interim license fee is $0. Fee table is headed 01/31/2025 [S6]; confirm the 2026 amount."
+      },
+      {
+        "item": "DODD three-year licensure fee ($300 per home), collected before the three-year license is issued",
+        "low": 300,
+        "high": 1800,
+        "source_id": "S4",
+        "notes": "DODD issues the three-year license within 20 calendar days after compliance is determined; the fee is collected at that point [S4]. Amount per the fee table [S6]."
+      },
+      {
+        "item": "Medicaid provider enrollment application fee",
+        "low": 0,
+        "high": 750,
+        "source_id": "S19",
+        "notes": "The federal CY2026 application fee is $750 for institutional providers [S19][S20]. Ohio's last official figure was $631 (2022), applied only to organizational providers and waived if the fee was paid to Medicare or another state Medicaid agency within 5 years [S18]. Confirm Ohio's 2026 amount with ODM. ODM's moratorium on new enrollment applications for waiver organizations and home care workers runs 5/14/2026–11/14/2026 [S28]; timing the application around it can delay revenue."
+      },
+      {
+        "item": "Fingerprint background checks for administrator and owners (BCI/Rapback)",
+        "low": 100,
+        "high": 400,
+        "source_id": "S1",
+        "notes": "Operator estimate of vendor fees. The administrator must consent to Rapback enrollment [S1]."
+      },
+      {
+        "item": "Policies and procedures, training plan and forms (OAC 5123-3, 5123-9)",
+        "low": 2000,
+        "high": 8000,
+        "source_id": "S1",
+        "notes": "Operator estimate. The written training plan must be updated at least every 12 months [S1]."
+      },
+      {
+        "item": "Lease deposits and first month's rent — residences",
+        "low": 4600,
+        "high": 27600,
+        "notes": "Deposit + first month at $2,300: 1 home (low) to 6 homes (high) — operator estimate; verify locally."
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 6000,
+        "high": 36000,
+        "notes": "$6,000 per home — operator estimate."
+      },
+      {
+        "item": "Safety, accessibility and development/renovation items, including plan review and inspections",
+        "low": 1500,
+        "high": 9000,
+        "source_id": "S5",
+        "notes": "$1,500 per home — operator estimate. DODD development approval precedes the license application and the director conducts an on-site survey before issuing a license [S5][S2]. Confirm local building and fire code requirements."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 18000,
+        "notes": "$3,000 per home — operator estimate."
+      },
+      {
+        "item": "Insurance down payments (general liability, property, auto, workers' comp via BWC)",
+        "low": 1500,
+        "high": 6000,
+        "source_id": "S1",
+        "notes": "Operator estimate. General liability of at least $1,000,000 must be shown at application [S1][S27]. Workers' comp is purchased from the Ohio BWC state fund."
+      },
+      {
+        "item": "Computers, phones, EVV training and billing setup",
+        "low": 1500,
+        "high": 5000,
+        "source_id": "S15",
+        "notes": "Operator estimate. Sandata EVV is free from ODM [S15]; certificate of EVV training is uploaded to PNM [S16]."
+      },
+      {
+        "item": "Pre-opening hiring and training of direct support staff",
+        "low": 3000,
+        "high": 15000,
+        "source_id": "S1",
+        "notes": "Operator estimate. New DSPs may work only with a certified staff member until they hold CPR/first aid, which is due within 60 days of hire [S1]. Includes paid pre-service training before a DSP provides services (DODD-curriculum modules, operator orientation, ISP-specific training, fire safety for licensed homes) and 30-day training for each new DSP."
+      },
+      {
+        "item": "Required financial proof: $10,000 line of credit or 90-day bank balance in the licensee's name",
+        "low": 10000,
+        "high": 10000,
+        "category": "required_reserve",
+        "source_id": "S1",
+        "notes": "Required at application under OAC 5123-3-01 [S1]; the agency-provider rule sets the same $10,000 working-capital proof [S27]."
+      },
+      {
+        "item": "Pre-revenue overhead: administrator, manager and office costs from application to first funded resident (about 3–6 months, longer if the Medicaid enrollment moratorium applies)",
+        "low": 15000,
+        "high": 60000,
+        "category": "working_capital",
+        "source_id": "S28",
+        "notes": "Operator estimate; the generator replaces this advisory line with the modeled ramp-up deficit. Medicaid-funded revenue cannot begin until the provider is enrolled and an individual is authorized by the county board [S14][S28]."
+      },
+      {
+        "item": "DODD HCBS provider approval / certification application fee (applicability to a licensed facility unconfirmed)",
+        "low": 0,
+        "high": 1600,
+        "source_id": "S6",
+        "notes": "DODD fee table lists supported living / HCBS certification application fees: small agency $800 initial and every 3 years ($75 to add HCBS); large agency $1,600 initial and every 3 years ($150 to add HCBS); independent provider $125. OAC 5123-3-01(C)(3) requires a licensed facility delivering HCBS to apply to DODD for approval. Whether these fees apply to a licensed facility's HCBS approval was not confirmed; ask DODD. If they apply, also budget a renewal every 3 years."
+      }
+    ]
+  },
+  "sections": {
+    "executive_summary": "Ohio does not run a single 'DD group home' program. Small residential care for people with developmental disabilities rests on two layers. The first is a **DODD residential facility license** under ORC 5123.19 and OAC Chapter 5123-3. Operating or admitting people to an unlicensed residential facility is prohibited [S2][S3]. The second is **Medicaid funding through the Individual Options (IO) waiver**. DODD runs IO under an interagency agreement with the Ohio Department of Medicaid (ODM) [S11], and CMS lists the waiver (0231.R06.00) as effective 7/1/2024 and expiring 6/30/2029 [S31]. A licensed home that delivers Homemaker/Personal Care (HPC) must also hold an ODM Medicaid provider agreement and comply with OAC Chapter 5123-9 [S1][S8].\n\n**One hint in the research brief is not supported.** HPC agencies do not serve people in shared living. OAC 5123-9-30 says an HPC provider may not also provide shared living or money management to the same individual [S8]. Shared living is a separate service with its own rule (OAC 5123-9-33) and a cap of four people with DD per home [S32]. This report models the licensed-home route and treats shared living only as context.\n\n**Money flows fee-for-service.** County boards of DD authorize IO waiver HPC and providers bill DODD, not ODM directly [S14]. Waiver services stay fee-for-service even when a person enrolls in optional managed care [S17]. Payment depends on the county cost-of-doing-business (CODB) category, with separate agency and independent tables [S8]. **This report does not state a 2026 HPC per-unit rate or a per-resident monthly funding amount.** The OAC 5123-9-30 appendix B rates (effective 7/1/2024), the county-to-CODB mapping and the congregate HPC Monthly Rate Calculator values could not be retrieved. DODD says it does not expect rate changes before July 2027 and plans acuity-based rates for congregate HPC [S29].\n\n**The financial model therefore uses clearly labeled placeholders** of $6,500, $7,800 and $9,500 per resident per month for lower-, mid- and higher-acuity residents. They are operator estimates, not published rates, and should be replaced with the Monthly Rate Calculator result for real individuals. On those placeholders:\n\n- The default configuration is four 4-bed homes with 16 higher-acuity residents. It nets about **$9,770 a month (7.1% margin)** at 90% occupancy, breaks even at **83.3% occupancy**, first turns profitable in month 7 and needs about **$371,789** of cash through the ramp-up.\n- Six homes (24 residents) net about $16,959 a month (8.3%).\n- Smaller or lower-funded models are thin or negative. A single home nets $829 a month (3.0%). Four mid-acuity homes net $1,681 a month (1.5%). Four lower-acuity homes lose about $17,039 a month.\n\n**Timing matters.** ODM has a moratorium on new Medicaid enrollment applications from waiver organizations, personal care aides and home care attendants, and hospice and home health agencies, effective 5/14/2026 through 11/14/2026 [S28]. Whether it reaches an applicant that holds a DODD facility license, or will be extended, is unverified. Confirm with ODM and DODD before committing to leases.",
+    "service_model": "**Who is served.** Adults and children with developmental disabilities who live in a residential facility licensed by DODD and receive waiver-funded support. Counties and families identify them through county boards of DD. Vacancy information for licensed homes, also called group homes, is published in a DODD vacancy registry that county boards direct families to [S38].\n\n**Two regulatory layers.**\n\n1. *Facility license.* A residential facility must be licensed by DODD under ORC 5123.19 [S1][S2]. The license is non-transferable and valid only for the named licensee, premises and number of individuals written on it [S1]. A dwelling is not a 'residential facility' when its only residents with developmental disabilities are in independent living arrangements (no governmental financial support paid to a residential-services provider) or are being provided supported living [S2]. The supported-living exclusion is central to choosing between a licensed facility and a certified supported-living model. The exclusions are narrow, so confirm with DODD before relying on them.\n2. *Medicaid HCBS provider status.* A licensed facility that provides home and community-based services must maintain a Medicaid provider agreement with ODM and comply with Chapter 5123-9 for those services [S1]. For HPC, a licensed provider must hold the ORC 5123.19 license and a current Medicaid provider agreement [S8][S9]. DODD describes HPC providers as agency or independent providers with a Medicaid provider agreement and DODD certification [S10]. Agency-provider certification rules also appear in OAC 5123-2-08 [S27].\n\n**Capacity: an unresolved conflict.** ORC 5123.19 describes family-setting facilities for six to eight individuals with DD and multi-family facilities for nine to sixteen [S2]. DODD's development rule, OAC 5123-3-08 (2022 file), says the number of licensed beds in a non-ICF residential facility is capped at four, and DODD will not approve development of beds beyond the statutory limit in ORC 5123.196 [S5]. The bed-cap number itself was not verified. Every model in this report uses **4-bed homes** because that is the more restrictive and more recent text. Get written confirmation from DODD of the controlling limit before choosing a home size, because it drives rent, staffing and revenue per home.\n\n**Zoning.** Facilities for six to eight residents are a permitted use in any residential district, including single-family districts, subject to uniform single-family standards. Facilities for nine to sixteen are permitted in multiple-family districts, but localities may regulate them as conditional uses [S2]. Treatment of homes smaller than six is not covered in the verified facts, so check local zoning.\n\n**Related models not modeled here.**\n\n- *Shared living* (OAC 5123-9-33): no more than four persons with DD may live in a home where shared living is delivered, and a group of two is paid at 85% of the daily rate (confirm in the rule text) [S32][S46]. A related guardian must first get probate court approval before providing shared living or HPC [S40].\n- *Developmental centers* (DODD's ICF campuses) serve over 600 people at a time [no separate verified source in this bundle; see DODD residential resources, not cited as a model input].",
+    "licensing_pathway": "**Sequence for a new licensed home.** Only some steps have verified timelines. Gaps are flagged.\n\n1. **Form the entity** and secure the financial proof (below). An Ohio LLC filing fee of $99 comes from a secondary guide and the Secretary of State page was not verified.\n2. **Obtain DODD development approval before applying for a license.** OAC 5123-3-08 addresses development and renovation, and an applicant may not apply for a license without first obtaining development approval [S5]. DODD will not approve a proposal that exceeds the statutory licensed-bed limit [S5]. The processing time for development approval was not found.\n3. **Apply to the DODD Director.** Anyone desiring to operate a residential facility applies for licensure to the director of developmental disabilities [S2]. The DODD address is 30 E. Broad Street, Columbus, Ohio 43215 [S7]. A residential-licensing-specific phone line or email was not verified.\n4. **Show financial capacity and insurance at application.** The rule requires a continuing line of credit of at least $10,000 in the licensee's name, or a bank balance of at least $10,000 documented over 90 days, and general liability insurance of at least $1,000,000, including coverage for individuals' losses from theft or property damage [S1][S27]. Only a 2016 version of the insurance text was retrieved for the residential rule, but the current 5123-2-08 agency rule and the current 5123-3-01 text both show $1,000,000 [S1][S27].\n5. **Appoint a qualified administrator.** Under OAC 5123-3-01(E)(2) the administrator must be at least 21; provide a birth certificate, Social Security card and photo ID; show written English proficiency; have one year of full-time-equivalent paid work experience in specialized services (or four years caring for a family member with a developmental disability); and have one year of paid experience in each of supervising employees, developing/overseeing programs or services, and financial management. The education tier is a bachelor's degree, or a high school credential plus four years' qualifying experience. An owner-operator must meet all of these. The administrator completes DODD web-based orientation within 30 calendar days of appointment or hire and consents to enrollment in the Ohio Attorney General's Rapback fingerprint database [S1]. The operator must designate in writing a staff member to act in the administrator's absence, and a change of administrator must be reported within 14 days [S1]. The administrator must be directly and actively involved in day-to-day operation, and DODD must be notified if one administrator serves more than one licensee [S1]. Background checks can take up to 45 days, according to a county board of DD (secondary) [S42].\n6. **Pre-license survey and local notice.** Before issuing a license, the director conducts an on-site survey of the facility [S2]. DODD must notify local officials and may not issue the license for ten days after mailing the notice (10 days excluding weekends and holidays) [S2].\n7. **License issuance and fees.** DODD issues the three-year license within 20 calendar days after compliance is determined, and the licensure fee is collected at that point [S4]. The statute says an initial license is issued for a period not exceeding one year and a renewal for a period not exceeding three years [S2]. The facts do not reconcile these two terms, so ask DODD whether a new home receives a one-year initial license followed by a three-year license. Fees per the LSC table headed 01/31/2025 [S6]:\n   - Initial licensing fee: $100 one-time for facilities with 15 or fewer beds ($500 for 16 or more).\n   - Three-year license fee: $300 for 15 or fewer beds ($1,500 for 16 or more).\n   - Interim license: $0.\n   Only the three-year fee's collection point is verified [S4]. When the initial fee is paid was not verified. The 2026 amounts were not confirmed.\n8. **Medicaid and HCBS approval.** Submit the DODD application for HCBS and obtain an ODM Medicaid provider agreement [S1][S8]. The same DODD fee table lists supported-living / HCBS certification application fees ($800 small agency or $1,600 large agency, every 3 years; $75 / $150 to add HCBS); whether they apply to a licensed facility's HCBS approval was not confirmed, so ask DODD. Ohio's last official Medicaid application fee was $631 in 2022, applied only to organizational providers, and it is waived if the organization paid Medicare or another state Medicaid agency within five years [S18]. The CY2026 federal fee is $750 for institutional providers, per other states' Medicaid agencies [S19][S20]. Ohio's 2026 figure was not verified. **The ODM moratorium on new enrollment applications runs 5/14/2026 through 11/14/2026** and may be extended [S28]. Its application to licensed facilities and any extension are unverified.\n9. **EVV setup.** Agencies and independent providers offering EVV services must complete EVV training and upload the certificate to PNM [S16]. ODM provides the Sandata EVV system at no cost [S15].\n\n**After licensing.** DODD surveys each licensed facility at least once during the license period and may inspect more often [S2]. Compliance reviews occur at least once per license term [S4]. DODD issues a written summary within ten calendar days of the end of a review, and the facility has fourteen calendar days from receipt of a summary with citations to appeal or submit a plan of correction [S4].\n\n**Pending changes.** ODM posted a proposed IO waiver amendment on 8/28/2026, proposed for adoption 1/1/2027, with added language on agency and independent provider certification requirements; comments were due 9/27/2026 [S30]. DODD's July 2026 amendment proposals are also listed [S45]. Final status and CMS approval were not confirmed.",
+    "reimbursement": "**How money flows.** For IO waiver HPC, county boards of DD authorize services and the provider bills DODD, not ODM directly [S14]. DODD operates the IO waiver under an interagency agreement with ODM [S11]. A county board describes paying roughly 40% of the cost of waiver services, with state and federal funds covering the rest [S39]. Individuals on DODD waivers may choose managed care, enrollment is optional and can start at any time, and waiver services remain fee-for-service [S17]. No managed care (for example MyCare Ohio) rates for HPC were found.\n\n**HPC rate rules (OAC 5123-9-30) [S8].**\n\n- HPC provided on or after 7/1/2024 is paid under appendix B, which replaced the January–June 2024 appendix A [S8]. The rule itself is effective 1/1/2024; only the appendix B rate table changed on 7/1/2024.\n- The billing unit is fifteen minutes [S12]. DODD authorizes up to 16 hours (64 units) a day based on assessed need, and claims are due within 350 days of service [S10].\n- Rates are set by the county cost-of-doing-business category where the service is mostly delivered, with separate tables for agency and independent providers [S8].\n- When one worker serves two individuals, the base rate is reported as 107% of the one-to-one rate, and for four or more individuals as 130% [S8]. These percentages were not captured in the retrieved rule text, so confirm them in 5123-9-30(F). The three-individual adjustment was not retrieved.\n- Independent-provider overtime is calculated on the wage component of the rate. DODD's worked example for CODB category 1 gives an HPC overtime rate of $27.39 per hour, or $6.84 per 15-minute unit [S13]. This is an independent-provider example and does not give the agency base rate.\n- Billing codes in the AMW/AMX/AMY/AMZ/APC/APV family apply to IO HPC, with EVV service code HPC [S14].\n- 15-minute HPC must use EVV, except on-site/on-call services (a continuous sleep period of at least five hours with the provider present but not awake) [S14][S9]. Since 2025, ODM requires claims that require EVV to match an EVV visit [S16].\n\n**What is not known.** The appendix B per-unit rates, the county-to-CODB mapping, the congregate HPC Monthly Rate Calculator values and the exact payment formula for licensed homes were not retrieved. The Jan–Jun 2024 appendix A values, including a $0.82 per-unit behavioral support modification, are superseded and are not used [S12]. DODD is implementing acuity-based rates for congregate HPC, 15-minute HPC and adult day services, replacing the Monthly Rate Calculator for congregate HPC settings, and does not expect rate changes before July 2027. Shared Living rates will be updated with the new assessment [S29]. This report's revenue lines are therefore labeled placeholders.\n\n**Resident income.** The 2026 SSI federal benefit rate is $994 per month for an individual [S21]. Ohio's state supplement, room-and-board rules for licensed homes and how SSI interacts with waiver payments were not verified, so the model includes no resident-paid board revenue. If a board charge is allowed, it would add revenue. Confirm the rules before assuming it.\n\n**Private pay.** The brief's private-pay benchmarks do not describe DODD licensed homes. CareScout's 2025 Ohio non-medical caregiver median is $34 an hour, $6,483 a month and $77,792 a year, assuming about 44 hours a week of in-home care [S22]. Secondary sources cite an Ohio assisted living median of about $6,103 a month for 2025 [S44] and a Genworth 2024 figure of $66,000 a year [S23]. These measure in-home care and assisted living communities, so use them only as context. The model assumes no private-pay residents.",
+    "demand": "**Statewide scale.** DODD says more than 40,000 Ohioans with developmental disabilities are enrolled in a waiver [S33]. A secondary report puts the figure above 51,000 across the IO, Level One and SELF waivers [S34]. Enrollment by waiver was not verified.\n\n**Waiting lists.** A person asks for a Waiting List Assessment at any time through the local county board of DD, which must schedule an interview within 15 days after a request [S37]. The assessment marks 'Current Need' when a need must be met within 12 months and 'Immediate Need' when it must be met within 30 days [S36][S35]. A secondary report says the statewide waiting list fell to about 1,300 in February 2023, a drop of over 97% from 2014, and that Cuyahoga County's board had zero people waiting, down from 1,600 in 2018 [S34]. A secondary compilation reports a different, higher recent count that was not confirmed against the original survey, and DODD's live dashboard was not retrieved [S35]. Do not rely on a single waiting-list figure.\n\n**What this means for a new provider.** A shrinking waiting list suggests waiver slots are not the main constraint. The harder question is filling vacancies. Referral and placement run through county boards, service and support administrators and families, and licensed-home vacancies are searched in DODD's vacancy registry [S38]. No official data exists in the facts on referral-source mix, statewide licensed-home counts or beds, occupancy, or competitors, so none are claimed. The occupancy assumption (90%) and the ramp of one to two new residents a month are operator estimates.\n\n**Funding pressure from counties.** County boards carry a share of waiver costs [S39], and a county board's willingness to authorize placement in a new home may reflect local budgets. Build relationships with county boards in the counties where homes will be located. The HPC payment rate depends on the CODB category of that county [S8].",
+    "operations": "**Staffing rules.** The only verified general rule is that operators must schedule staff on duty based on the needs of individuals served, with schedules posted in advance and available at the facility [S1]. No numeric ratio and no awake-overnight requirement was found, because the OAC 5123-3 staffing sections were not located. The models assume one staff on duty 24/7 (730 hours a month) plus a second staff about 8 hours a day for mid-acuity homes (975 hours total per home) and about 15 hours a day for higher-acuity homes (1,200 hours total per home). These are operator estimates. Individual service plans and DODD or county assessments may require more. The operator must also provide enough support staff (housekeeping, laundry, maintenance, clerical) so DSPs are not pulled from their primary duties [S1, OAC 5123-3-01(D)(5)]. No support-staff cost is modeled, so budget one.\n\n**Required roles.**\n\n- **Administrator** (required): age 21 or older; birth certificate, SSN card and photo ID; written English proficiency; one year of paid specialized-services experience (or four years caring for a family member with DD); one year of paid experience in each of supervising employees, program development/oversight and financial management; bachelor's degree, or high school credential plus four years' experience; DODD orientation within 30 days; Rapback consent. The operator must designate in writing a staff member to act in the administrator's absence. The administrator must be directly and actively involved in day-to-day operation, and DODD must be notified if one administrator serves more than one licensee [S1].\n- **Direct support professionals:** first aid and CPR within 60 days of hire. Until then they may work only with a certified staff member [S1][S7]. Before providing direct services, each DSP must complete pre-service training (DODD-curriculum modules, operator-provided orientation, ISP-specific training, and fire safety for licensed homes), and 30-day training also applies [S7]. The written training plan is updated at least every 12 months [S1]. The annual-hours figure for ongoing training was not verified.\n- **House/program manager and billing/EVV coordinator:** not required by any rule found. They are modeled for the four- and six-home configurations because of supervision and billing workload. Treat the cost as an operator choice.\n- **Nursing oversight:** no Ohio rule requiring a specific nursing level for licensed homes was retrieved. The model includes a nurse consultant line as a prudent cost.\n\n**Systems.** 15-minute HPC requires EVV, and since 2025 claims must match an EVV visit [S14][S16]. ODM provides Sandata at no cost [S15]. A secondary source says compliance reviews from 8/1/2026 will sample 15-minute HPC claims [S41]. EVV rule changes under SB 315, including GPS capture, were in stakeholder review and not final. Billing within 350 days of service is required [S10].\n\n**Other rules.** Each employee who transports individuals must be covered by valid personal or corporate liability insurance as specified in Ohio law [S43]. Operators must follow wage and hour, workers' compensation, unemployment compensation and withholding rules [S1]. Workers' compensation is purchased through the Ohio BWC state fund. The compensation system was described by a secondary source, and class-code rates were not verified.\n\n**Compliance cadence.** Plan for at least one DODD survey or compliance review per license term, a 10-day summary and a 14-day window to appeal or file a plan of correction [S2][S4]. Keep administrator, training and insurance documents ready for inspection [S1].",
+    "market_conditions": "**Wages.** Ohio's 2026 minimum wage is $11.00 for non-tipped workers at employers grossing $405,000 or more, and employers below that gross pay the federal minimum. Overtime is 1.5 times the regular rate after 40 hours in a workweek, except that employers grossing less than $150,000 per year are excluded from the state overtime rule [S24]. Federal FLSA minimum wage and overtime may still apply, so confirm with counsel. A secondary source says Ohio has no local minimum wage ordinances (not officially confirmed). BLS data for the Columbus metro in May 2024 show these major-group mean hourly wages: all occupations $31.39, personal care and service $17.53, healthcare support $18.49, food preparation and serving $16.57 and management $61.31 [S25]. These are major-group means, not direct-support occupation wages. BLS has since published a May 2025 Columbus release, but its occupation-level values (home health and personal care aides, nursing assistants) were not retrieved, so the May 2024 figures are a superseded vintage. The model's $15.50 DSP wage is an operator estimate: above the $11.00 floor and below the May 2024 $17.53 personal care and service mean. If competitors pay the group mean or more, the wage assumption is optimistic (see sensitivity).\n\n**Payroll costs.** The model uses an 8.6% payroll tax load, 3% workers' compensation and 6% benefits (17.6% total). The payroll tax load is employer FICA, the 2.85% new-employer unemployment rate on a $9,000 wage base, FUTA, and the 0.15% unemployment Technology and Customer Service Fee that applies to all contributory employers for 2026 and 2027 [S26]. The effective rate is higher for part-time DSPs because the $9,000 base applies per employee.\n\n**Real estate.** Rent in the model, $2,300 a month per 4+ bedroom home, is an operator estimate. A secondary FY2026 HUD Fair Market Rent summary lists a lower Columbus 4-bedroom figure, which was not confirmed against the HUD file, so this model adds a premium for a larger, accessible home. Confirm local rents. Rent is fixed whether beds are full or not.\n\n**Supply and competition.** No official count of licensed DODD homes, licensed beds, HPC agencies or independent providers was found. This report does not claim market shares, competitor names or saturation.\n\n**Private-pay context.** Private-pay benchmarks cover in-home caregiving and assisted living [S22][S23][S44]. They are not prices for DODD licensed homes.\n\n**Policy direction.** DODD plans acuity-based rates for congregate HPC, 15-minute HPC and adult day services and says it does not expect rate changes before July 2027 [S29]. An IO waiver amendment with provider-certification changes is proposed for 1/1/2027 [S30]. The IO waiver is approved through 6/30/2029 [S31]. These changes could raise or lower revenue for higher-acuity homes, and no data in the facts shows which way.",
+    "financial_narrative": "**How the model is built.** Revenue per resident per month is a single placeholder line for congregate HPC/residential waiver funding. The values are $6,500 (lower acuity), $7,800 (mid acuity) and $9,500 (higher acuity). They are operator estimates because the appendix B rates and Monthly Rate Calculator results were not retrieved [S29]. No board-and-room revenue and no private pay are modeled. Costs include:\n\n- DSP coverage hours at $15.50 an hour;\n- salaried administrator, house manager and billing coordinator;\n- a payroll burden of 17.5% on wages;\n- rent, utilities, maintenance, vehicle and insurance, fixed per home;\n- per-resident food/supplies ($360) and software ($40);\n- the DODD license fee, $300 per three-year license per home, spread over 36 months [S6].\n\nOhio CAT is modeled at $0 because its threshold and rate were not verified.\n\n**Results at 90% default occupancy** (the generator computes break-even):\n\n| Configuration | Net/month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| 6 homes, 24 residents, higher acuity | $16,959 | 8.3% | 82.2% | 8 | $582,835 |\n| 4 homes, 16 residents, higher acuity (default) | $9,770 | 7.1% | 83.3% | 7 | $371,789 |\n| 2 homes, 8 residents, mid acuity | $2,107 | 3.8% | 86.4% | 4 | $118,207 |\n| 4 homes, 16 residents, mid acuity | $1,681 | 1.5% | 88.6% | 7 | $356,061 |\n| 1 home, 4 residents, mid acuity | $829 | 3.0% | 87.2% | 4 | $61,173 |\n| 4 homes, 16 residents, lower acuity | -$17,039 | -18.2% | 107.5% (never profitable) | none | $930,404 |\n\n**Key drivers.**\n\n1. *Funding per resident.* This is the dominant and least certain input. At 14.4 funded residents (90% of 16), each $100 a month of funding per resident is about $1,440 a month of net income. By the model's arithmetic the default configuration reaches zero net at about $8,800 per resident per month, roughly $700 below the $9,500 placeholder. The mid-acuity placeholder ($7,800) with the same staffing as the lower-acuity case barely clears, and the lower placeholder ($6,500) loses about $17,000 a month. The $1,300 difference times 14.4 residents accounts for the entire gap between the mid- and low-acuity results. **If the real Monthly Rate Calculator amount for your residents is below the placeholder, the conclusion changes.**\n2. *Staffing intensity versus funding.* The higher-acuity model adds about 900 DSP hours per month across four homes (4,800 versus 3,900). At $15.50 plus 17.5% burden that costs about $16,400 a month, against about $24,500 of added placeholder revenue. This only works if real higher-acuity funding actually rises with need.\n3. *Occupancy.* The default break-even is 83.3% against a 90% assumption, a cushion of about one resident across 16 beds. At 85% occupancy the default configuration earns roughly $2,500 a month on the model's linear structure. Below about 83% it loses money because rent and baseline staffing are fixed.\n4. *DSP wage.* Each $1 an hour on 4,800 hours with burden is about $5,600 a month. Paying the Columbus personal care and service mean of $17.53 [S25] (a $2.03 increase) would cost about $11,400 a month and push the default model to roughly a $1,700 loss. If local competitors pay more than $15.50, this matters. The $11.00 minimum wage is not the binding constraint [S24].\n5. *Rent and overhead.* Rent of $2,300 per home is an operator estimate. A $500 per home increase across four homes would cost $2,000 a month. A full-time administrator ($52,000) is required by rule to exist, but an owner who qualifies and fills the role can lower cost in the small configurations.\n6. *Scale.* Six homes improve margin to 8.3% because the administrator, manager and billing roles are spread over more residents. That requires $582,835 of cash and more county-board relationships, and the same funding placeholder applies.\n\n**Assumption flags.** Unemployment tax rates [S26], workers' compensation class rates, CAT and many operating costs are unverified or operator estimates. No room-and-board revenue or private pay is modeled. If DODD's acuity-based rates (not before July 2027 [S29]) are lower for some residents, margins shrink; if higher, the higher-acuity model benefits.\n\n**Path to profit, honestly stated.** Under these placeholders, profit comes from higher-acuity residents whose funding exceeds the added staffing cost, tight occupancy above about 85%, controlled DSP wages and enough homes to spread management cost. Never raise the placeholder rate to make a model profit. Use the actual Monthly Rate Calculator output for each prospective resident and rerun the model.",
+    "risks": "- **Unverified revenue.** The central risk is that revenue per resident is a placeholder. The appendix B rates, CODB mapping and Monthly Rate Calculator values were not retrieved, and DODD is moving to acuity-based rates for congregate HPC [S29]. If actual funding falls below roughly $8,800 per resident in the default configuration, the model loses money.\n- **Enrollment moratorium.** ODM's pause on new Medicaid enrollment applications for waiver organizations and home care workers runs 5/14/2026–11/14/2026 [S28]. Its reach to licensed facilities and whether it is extended are unverified. A delay adds rent and staffing without revenue, and the cash estimates already assume months of ramp-up.\n- **Capacity conflict.** ORC 5123.19 describes 6–8 and 9–16 person facilities [S2] while OAC 5123-3-08 caps licensed beds in a non-ICF facility at four [S5]. Choosing the wrong size could leave you unable to license the home you leased.\n- **Staffing rules incomplete.** No numeric ratio or awake-overnight requirement was found [S1]. DODD surveyors or individual service plans may require more staff than the model assumes, which cuts margin quickly (each added 100 hours a month per home is about $1,800 with burden).\n- **Wage pressure.** The model's $15.50 DSP wage may be below local market. The Columbus personal care and service mean was $17.53 in May 2024 [S25]. Overtime is 1.5 times pay after 40 hours [S24]; the model does not separately budget overtime.\n- **Waiting-list and referral uncertainty.** No official referral data exist. Vacancies are filled through county boards and families, and empty beds earn nothing [S38][S37].\n- **Compliance and billing.** EVV matching since 2025 [S16], 350-day claim deadline [S10], and DODD's planned sampling of 15-minute HPC claims [S41] raise denial and recoupment risk. Compliance reviews can result in citations with a 14-day window to respond [S4].\n- **Rule and waiver changes.** The IO amendment proposed for 1/1/2027 adds provider-certification language [S30]. OAC 5123-9-33 is in five-year review as of 11/14/2026 [S46]. EVV rule changes (GPS capture) were not final.\n- **Cost uncertainty.** Insurance, workers' compensation, CAT, unemployment tax and rent figures are operator estimates or secondary-source figures.\n- **Do not combine services improperly.** An HPC provider may not also provide shared living or money management to the same individual [S8].\n- **Financing.** Cash needed ranges from about $61,173 for one home to about $582,835 for six homes. The required $10,000 line of credit or 90-day balance [S1] is a floor, not a plan.",
+    "recommendations": "1. **Verify before you lease.** Before signing any lease or purchase, get written answers from DODD on (a) the controlling bed limit for a new licensed home (4 versus 6–8) [S2][S5], (b) whether the ODM moratorium [S28] affects you and when applications reopen, and (c) the funding you would receive for your intended residents.\n2. **Replace the placeholders.** Ask the county board of DD or DODD to run the Monthly Rate Calculator for realistic resident profiles in your county [S29][S8]. Find your county's CODB category. Update the model and let the generator recompute break-even. Do not proceed if the default configuration breaks even above about 90% occupancy.\n3. **Start with a staged plan.** The single-home and two-home models are thin (3.0% and 3.8% margins), and the single home needs less cash ($61,173 versus $118,207 for two homes). If you qualify as administrator yourself, you reduce the largest fixed salary. Open one home, stay near full occupancy, document performance, and add homes as county boards authorize placements. The four-home higher-acuity model (7.1% margin, break-even 83.3%) is the target, not a starting point, unless you have capital of about $372,000 and referral relationships.\n4. **Target acuity deliberately.** The higher-acuity configuration works only if funding rises with support needs. Seek placements where the calculator result exceeds your staffing cost, and avoid taking low-funded residents into a high-fixed-cost home.\n5. **Hold occupancy above about 85%.** Build county-board and SSA relationships, register vacancies with DODD's registry [S38], and plan admissions so beds do not sit empty. Keep a reserve for the roughly 3–6 month pre-revenue period.\n6. **Control labor cost.** Test wages against local postings before fixing $15.50 [S25]. Schedule to the individual's assessed needs and the facility rule [S1], avoid unnecessary overtime [S24], and keep training current [S1][S7].\n7. **Prepare compliance systems early.** Complete EVV training, set up Sandata [S15][S16], and make sure every 15-minute claim matches an EVV visit and is submitted within 350 days [S10]. Keep records ready for DODD surveys and compliance reviews [S2][S4].\n8. **Watch policy dates.** Track the proposed 1/1/2027 IO amendment [S30], DODD's planned acuity-based rates and the July 2027 earliest rate-change date [S29], and EVV rule changes. Rerun the model when final rules and rates are published.\n9. **Do not mix HPC with shared living** for the same individual [S8], and if you consider shared living, review OAC 5123-9-33 separately [S32][S46]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "CRITICAL",
+      "task": "Confirm the pathway: DODD residential facility license plus Medicaid/HCBS enrollment (not an assisted living or nursing home license)",
+      "instructions": "A residential facility in Ohio must be licensed by DODD under ORC 5123.19, and operating or admitting a person with DD to an unlicensed facility is prohibited. If the home will also bill Homemaker/Personal Care (HPC) under the Individual Options waiver, you also need a Medicaid provider agreement with ODM and DODD approval for the HCBS you deliver. Plan for both tracks from day one. Cost: no charge to confirm. Time: 1–2 days of reading plus a call to DODD at 1-800-617-6733.",
+      "cite": "ORC 5123.19; ORC 5123.20; OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "CRITICAL",
+      "task": "Check whether the home is a licensed 'residential facility' or falls under the independent-living exclusion",
+      "instructions": "ORC 5123.19 excludes a dwelling whose only residents with developmental disabilities are in independent living arrangements. Ask DODD in writing which category your planned home falls into before you sign a lease. Shared living (OAC 5123-9-33) is a different service in a different setting, capped at four persons with DD per home. Cost: $0. Time: 1–2 weeks for a written reply.",
+      "cite": "ORC 5123.19; OAC 5123-9-33",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "CRITICAL",
+      "task": "Check the ODM moratorium on new Medicaid enrollment (5/14/2026 through 11/14/2026)",
+      "instructions": "ODM will not accept new Medicaid enrollment applications from waiver organizations, personal care aides, home care attendants, hospice or home health agencies during this window. Read the ODM Individual Options notice and call ODM to confirm whether it applies to a licensed residential facility applying for a Medicaid provider agreement, and whether it will be extended past 11/14/2026. It does not say whether the moratorium covers DODD certification. If you are blocked, you can still pursue the DODD license, but no Medicaid revenue can start until enrollment is accepted. Cost: $0. Time: 1 week to confirm.",
+      "cite": "ODM Individual Options notice, effective 5/14/2026",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "CRITICAL",
+      "task": "Do not plan to provide HPC and shared living to the same individual",
+      "instructions": "OAC 5123-9-30 states an HPC provider will not also provide money management or shared living to the same individual. The shared-living hint for HPC agencies does not hold for the same person. Decide per resident which service you deliver and build the business model on that basis. Cost: $0.",
+      "cite": "OAC 5123-9-30",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "CRITICAL",
+      "task": "Resolve the capacity conflict: four-bed cap in OAC 5123-3-08 vs 6–8 and 9–16 person ranges in ORC 5123.19",
+      "instructions": "DODD's development rule (2022 file) says licensed beds in a non-ICF residential facility are capped at four, while ORC 5123.19 describes family-setting (6–8) and multi-family (9–16) facilities. The model uses four beds per home. Get DODD's written answer on the controlling limit and the current licensed-bed cap under ORC 5123.196 before choosing a house. Cost: $0. Time: 1–3 weeks.",
+      "cite": "OAC 5123-3-08; ORC 5123.19(M)-(N)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "CRITICAL",
+      "task": "Get the actual 2026 funding amounts before you commit capital (the model uses placeholders)",
+      "instructions": "No 2026 per-resident amount was verified. The model uses placeholder funding of $6,500, $7,800 and $9,500 per resident per month. Obtain the current DODD Monthly Rate Calculator result for congregate HPC and the OAC 5123-9-30 appendix B rates for your county's cost-of-doing-business (CODB) category, then replace the placeholders. Model results at the placeholders: the four-home higher-acuity case earns about a 7.1% margin, the four-home lower-acuity case loses money, and the four-home mid-acuity case earns about 1.5%. Margins are very sensitive to the funding level. Cost: $0.",
+      "cite": "OAC 5123-9-30 appendix B; DODD Reimbursement System Refresh",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "HIGH",
+      "task": "Review pending changes that could alter rates and provider rules",
+      "instructions": "DODD does not anticipate rate changes before July 2027 and plans acuity-based rates for congregate HPC, 15-minute HPC and adult day, with Shared Living rates updated under a new assessment. A proposed IO waiver amendment (proposed adoption 1/1/2027) adds agency provider certification language; comments closed 9/27/2026. July 2026 IO/Level One amendments were also proposed. Check each page for final status. The IO waiver itself is approved by CMS through 6/30/2029. Time: 2 hours, repeat quarterly.",
+      "cite": "DODD Reimbursement System Refresh; ODM IO Amendment 08/28/2026",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY DECISION & GATING CHECKS",
+      "priority": "HIGH",
+      "task": "Verify demand in your target county before choosing a location",
+      "instructions": "IO HPC is authorized through county boards of DD, and DODD reports more than 40,000 Ohioans enrolled in a waiver. Waiting-list counts vary by source (about 1,300 in Feb 2023 per a secondary report; 1,887 per a 2025 KFF-based guide), and county boards also pay roughly 40% of the non-federal cost of waiver services (Mahoning County Board of DD). Call two or three county boards of DD for local residential need and referral process. Cost: $0. Time: 1–2 weeks.",
+      "cite": "DODD Waivers and Services; DODD waiting list pages",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form the legal entity that will hold the license",
+      "instructions": "The residential facility license is not transferable and is valid only for the licensee, so form the correct entity before applying. A secondary 2026 guide lists $99 for LLC Articles of Organization (optional name reservation $39); confirm on the Ohio Secretary of State fee page. The same guide says domestic LLCs file no annual report. Time: a few business days online.",
+      "cite": "OAC 5123-3-01 (license valid only for the licensee)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a federal EIN",
+      "instructions": "Apply free at irs.gov; issued immediately online. You need it for the bank account, payroll, the DODD application and ODM enrollment. Use the same legal name on every filing.",
+      "cite": "IRS EIN requirements",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Open a business bank account in the licensee's name",
+      "instructions": "The licensing rule accepts a 90-day daily bank balance as proof of the $10,000 financial requirement, so open the account early to build the balance history. Keep operating funds separate from personal funds.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register for state employer accounts (withholding, unemployment, workers' compensation)",
+      "instructions": "The residential facility rule requires compliance with wage and hour, workers' compensation, unemployment compensation and withholding tax rules. Ohio workers' comp is bought from the BWC state fund; a secondary guide gives an average of $0.74 per $100 of payroll, but the model uses 3% as a conservative estimate until you get a BWC class-code quote. For SUTA, NFIB lists a 2.85% new-employer rate on a $9,000 wage base for 2026; one payroll guide says $9,500, so confirm with ODJFS. Time: 1–2 weeks.",
+      "cite": "OAC 5123-3-01; NFIB UC Handbook 2026",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Confirm Ohio Commercial Activity Tax (CAT) obligations with the Department of Taxation",
+      "instructions": "The CAT exclusion threshold and rate were not verified; the model carries $0. At the revenue of a multi-home operation the threshold matters, so confirm with the Ohio Department of Taxation or a CPA and update the model if tax is due.",
+      "cite": "Not verified — see not_claimed",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Engage a healthcare attorney and a CPA experienced with DODD providers",
+      "instructions": "Have counsel review the operating agreement, leases, resident agreements and policies, and have the CPA set up Medicaid revenue tracking. Budget about $400 per month for accounting, payroll and legal for a single home (operator estimate).",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL PROOF & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Document $10,000 in available funds in the licensee's name",
+      "instructions": "Provide either a continuing line of credit in the licensee's name of at least $10,000, or a bank balance of at least $10,000 held daily for 90 days. The agency-provider certification rule sets the same $10,000 working-capital proof for an unencumbered line of credit or bank balance. This is a floor, not your working capital: the model estimates $371,789 of cash needed for the four-home higher-acuity configuration (model result).",
+      "cite": "OAC 5123-3-01; OAC 5123-2-08",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL PROOF & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Bind general liability insurance of at least $1,000,000",
+      "instructions": "Provide proof of continuing general liability coverage of at least $1,000,000 at application and on request, including coverage for individuals' losses from theft or property damage. A secondary guide quotes $500–$1,800 per year for small-business general liability alone; the model budgets $350 per home per month for GL, property and professional coverage (operator estimate). Get at least three quotes from carriers that write residential care or DD providers.",
+      "cite": "OAC 5123-3-01; OAC 5123-2-08",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL PROOF & INSURANCE",
+      "priority": "HIGH",
+      "task": "Arrange vehicle and transportation liability coverage",
+      "instructions": "Each employee who transports individuals must be covered by valid personal or corporate liability insurance as specified in Ohio law. Decide whether staff use agency vehicles (modeled at $800 per home per month, operator estimate) and add the vehicles and drivers to the policy.",
+      "cite": "OAC 5123-3-04",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 3 — FINANCIAL PROOF & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Price property, professional and umbrella coverage",
+      "instructions": "Only the $1,000,000 general liability minimum is a rule requirement. Ask the broker about property, abuse/neglect and professional liability, and an umbrella policy. Operator estimate: bundle these into the $350 per home per month line.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & DEVELOPMENT APPROVAL",
+      "priority": "CRITICAL",
+      "task": "Obtain DODD development approval before applying for the license",
+      "instructions": "DODD's development rule requires development approval before an applicant may apply for a residential facility license, and DODD will not approve a proposal for licensed beds, or issue a license, that would exceed the statutory bed limit. Contact DODD's residential resources staff early with your site, bed count and renovation plan. Time: allow several weeks (no processing time was verified).",
+      "cite": "OAC 5123-3-08",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & DEVELOPMENT APPROVAL",
+      "priority": "CRITICAL",
+      "task": "Check zoning for your chosen address",
+      "instructions": "Facilities for six to eight residents are a permitted use in residential districts, including single-family districts, subject to uniform standards. Facilities for nine to sixteen are permitted in multiple-family districts, and localities may regulate them as conditional uses. Smaller homes still need local building, occupancy and fire approvals; confirm with the city or county zoning office in writing. Cost: usually $0 to confirm.",
+      "cite": "ORC 5123.19",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & DEVELOPMENT APPROVAL",
+      "priority": "HIGH",
+      "task": "Select a home and negotiate the lease or purchase",
+      "instructions": "The license names the premises and the licensed capacity, so changing houses later means a new license process. The model assumes $2,300 per month for a 4+ bedroom home (operator estimate; a secondary FY2026 HUD summary lists Columbus 4BR FMR at $1,927, not confirmed against the HUD file). Rent is fixed whether beds are filled or not, so negotiate a lease with a renewal option and permission to modify the home.",
+      "cite": "OAC 5123-3-01 (license tied to premises and capacity)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & DEVELOPMENT APPROVAL",
+      "priority": "HIGH",
+      "task": "Complete safety, accessibility and renovation work",
+      "instructions": "Budget about $1,500 per home (operator estimate) for safety and accessibility items, plus any renovation required under the development approval. Get local building and fire inspections as your jurisdiction requires. DODD surveys the home before it issues the license.",
+      "cite": "OAC 5123-3-08; ORC 5123.19",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 4 — SITE, ZONING & DEVELOPMENT APPROVAL",
+      "priority": "MEDIUM",
+      "task": "Furnish and equip the home",
+      "instructions": "Budget about $6,000 per home for beds, furniture, appliances and housewares (operator estimate). Room-and-board recovery rules were not verified, so confirm with DODD how furnishings are funded before charging residents.",
+      "cite": "Operator estimate",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Hire or designate a qualified administrator",
+      "instructions": "The operator must employ an administrator who is at least 21 and holds either a bachelor's degree from an accredited college or university, or a high school credential plus four years of qualifying supervisory or family-care experience. Salary is an operator estimate ($52,000 full-time; $26,000 at 0.5 FTE for one home). An owner-operator may fill the role if they qualify.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Enroll the administrator in Rapback and complete the background check",
+      "instructions": "The administrator must consent to enrollment in the Ohio Attorney General's retained applicant fingerprint (Rapback) database. A background check can take up to 45 days to be completed and sent to DODD (secondary source, Stark County Board of DD), so start early. Budget $100–$400 for fingerprint fees (operator estimate).",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Complete DODD's web-based administrator orientation",
+      "instructions": "A newly appointed administrator must finish DODD's web-based orientation within 30 calendar days of appointment or hire. Notify DODD within 14 days of an administrator change. The orientation content and training hours are in OAC 5123-3-01 Appendix A (not verified in this report); read it before you start.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Build the staffing plan to the residents' needs",
+      "instructions": "The rule requires staff on duty on the basis of the needs of individuals served, with schedules posted in advance and available at the facility. No numeric ratio or awake-overnight rule was found, so confirm with DODD. The model assumes one staff 24/7 (730 hours per month) plus a second staff (about 245 hours per month for mid-acuity, about 470 for higher-acuity), which is an operator estimate, not a rule.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Recruit direct support professionals (DSPs) and run background checks",
+      "instructions": "Run DODD-required checks before staff work alone with residents. The model wage is $15.50 per hour (operator estimate), above the $11.00 state minimum and below the Columbus May 2024 personal care and service major-group mean of $17.53 (not a DSP occupation wage). Test your local labor market by posting jobs before finalizing the budget.",
+      "cite": "BLS Columbus May 2024; Ohio 2026 minimum wage poster",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Comply with Ohio minimum wage and overtime rules",
+      "instructions": "Ohio's 2026 minimum wage is $11.00 per hour for covered employers; employers grossing less than $405,000 pay the federal minimum. Overtime is 1.5x for hours over 40 in a workweek. Round-the-clock coverage creates overtime risk; schedule so no DSP exceeds 40 hours without budgeting for premium pay (overtime is not modeled separately).",
+      "cite": "State of Ohio 2026 Minimum Wage poster",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "CRITICAL",
+      "task": "Make sure every DSP gets first aid and CPR within 60 days of hire",
+      "instructions": "DSPs in licensed facilities must obtain first aid and CPR certification within 60 calendar days of hire and keep it valid. Until then the DSP may work only with a certified staff member. Schedule certification classes during onboarding (budget in the $150 per home per month training line, operator estimate).",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Set up annual DSP training: 2 hours DODD plus 4 hours operator-arranged",
+      "instructions": "DSPs complete two hours of DODD-provided training every calendar year plus four hours provided or arranged by the operator. Keep sign-in sheets and certificates in each personnel file.",
+      "cite": "DODD Working for a Provider Agency",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "HIGH",
+      "task": "Write the training plan and update it at least every 12 months",
+      "instructions": "The licensee must keep a written training plan and update it at least once every twelve months. Draft it with the policies manual and put the first review date on the calendar.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "MEDIUM",
+      "task": "Arrange nursing consultation and medication oversight",
+      "instructions": "No Ohio rule requiring a specific nursing level in licensed homes was retrieved. The model budgets $300 per home per month for nurse consultation (operator estimate), which is prudent for residents with medical needs. Ask DODD what health-care oversight it expects for your resident profile.",
+      "cite": "Operator estimate",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — ADMINISTRATOR & STAFFING",
+      "priority": "MEDIUM",
+      "task": "Add a house manager and billing/EVV coordinator when you scale",
+      "instructions": "The multi-home models add a house or program manager ($46,000) and a billing/EVV/records coordinator ($38,000), both operator estimates; no Ohio rule requires these roles. Four-home models that omit them overstate profit, so keep them in the plan.",
+      "cite": "Operator estimate",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Write the policies and procedures manual to OAC Chapter 5123-3",
+      "instructions": "Cover administration and operation (5123-3-01), admission of residents, provision of services and service records (5123-3-04), and compliance review and adverse action procedures (5123-3-06). Also address HCBS requirements in Chapter 5123-9 if you will bill HPC. Budget $2,000–$8,000 if outsourced (operator estimate). Time: 3–6 weeks.",
+      "cite": "OAC 5123-3-01; 5123-3-04; 5123-3-06",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Submit the residential facility license application to the DODD Director",
+      "instructions": "Every person desiring to operate a residential facility must apply for licensure to the director of developmental disabilities, not a county board or other agency. Mail or deliver to DODD, 30 E. Broad Street, Columbus, Ohio 43215; phone 1-800-617-6733. Attach the financial proof, insurance proof, administrator information and development approval. Confirm the current application form and any additional fee with DODD (not verified beyond the LSC fee table).",
+      "cite": "ORC 5123.19",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the $100 one-time initial licensing fee (15 or fewer beds)",
+      "instructions": "The LSC fee table dated 8/20/2025 lists $100 one-time for a facility with 15 or fewer beds ($500 for 16 or more). Confirm the 2026 amount and when DODD collects it. Interim licensing is listed at $0; ask DODD whether an interim license is available for your situation.",
+      "cite": "DODD Agency Fees 08/20/2025",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Prepare for the pre-license on-site survey",
+      "instructions": "Before issuing a license, the director must conduct a survey of the residential facility. Walk through the home with the policies manual and the rule checklist, confirm posted schedules, staff files and safety items are ready, and have the administrator present.",
+      "cite": "ORC 5123.19",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Plan for the local-official notice period",
+      "instructions": "Before issuing a license, DODD notifies local officials, and the director cannot issue the license until 10 days (excluding weekends and holidays) after mailing the notice. Build this into your opening date and tell your city or county contacts what to expect.",
+      "cite": "ORC 5123.19",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Receive the compliance review summary and answer any citations",
+      "instructions": "Within 10 calendar days after a compliance review concludes, DODD issues a written summary (or a written reason for delay). If the summary has citations, you have 14 calendar days from receipt to appeal or submit a plan of correction. Put both deadlines on the calendar the day the review ends.",
+      "cite": "OAC 5123-3-06",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pay the $300 three-year licensure fee and receive the license",
+      "instructions": "The licensure fee ($300 for a three-year license, 15 or fewer beds; $1,500 for 16 or more) is collected at issuance. After a routine compliance review shows compliance, DODD issues the three-year license within 20 calendar days. An initial license, however, runs no longer than one year, and renewals no longer than three years. Confirm the term printed on your first license.",
+      "cite": "OAC 5123-3-06; ORC 5123.19",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — POLICIES & LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Admit only up to the capacity written on the license",
+      "instructions": "The license covers only the number of individuals specified on it, plus the named premises and term. Post the license, and do not admit beyond the licensed number. Any change in bed count needs DODD approval.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & HCBS CERTIFICATION",
+      "priority": "CRITICAL",
+      "task": "Obtain a Medicaid provider agreement with ODM",
+      "instructions": "A licensed residential facility that provides HCBS must obtain and maintain a Medicaid provider agreement with ODM. HPC may be furnished only by an independent or agency provider with such an agreement. Apply through ODM's provider enrollment process, and check the moratorium status first. Time: not verified; plan for several weeks.",
+      "cite": "OAC 5123-3-01; OAC 5123-9-30",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & HCBS CERTIFICATION",
+      "priority": "HIGH",
+      "task": "Budget for the Medicaid enrollment application fee",
+      "instructions": "The federal CY2026 application fee is $750 for institutional providers (CMS, per California and Colorado Medicaid pages). Ohio's last official figure was $631 in 2022, applied only to organizational providers, and waived if the fee was paid to Medicare or another state Medicaid agency within five years. Confirm Ohio's 2026 amount with ODM; the model carries $0–$750.",
+      "cite": "ODM New Provider Enrollment FAQ; CMS fee notices",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & HCBS CERTIFICATION",
+      "priority": "CRITICAL",
+      "task": "Complete DODD's HCBS provider application and certification",
+      "instructions": "A residential facility providing HCBS must submit a DODD application in addition to the ODM agreement. DODD states that agency and independent providers with a Medicaid provider agreement and DODD certification can deliver HPC; county boards cannot. A licensed residential provider seeking to offer HPC must meet all licensing requirements and keep the 5123.19 license.",
+      "cite": "OAC 5123-9-30; DODD HPC page",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & HCBS CERTIFICATION",
+      "priority": "HIGH",
+      "task": "Meet agency-provider certification requirements",
+      "instructions": "The agency-provider rule requires a certificate of general liability insurance of at least $1,000,000 (including coverage for individuals' losses from theft or property damage) and proof of an unencumbered $10,000 line of credit or bank balance. Collect these documents once and reuse them for both the license and certification packets.",
+      "cite": "OAC 5123-2-08",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & HCBS CERTIFICATION",
+      "priority": "MEDIUM",
+      "task": "Have identifiers ready for enrollment",
+      "instructions": "ODM requires a Social Security Number from individuals applying for a Medicaid provider number. Gather owner and controlling-person identifiers, EIN and licensing documents before you start the application to avoid rejections.",
+      "cite": "ODM New Provider Enrollment FAQ",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & HCBS CERTIFICATION",
+      "priority": "HIGH",
+      "task": "Understand how Medicaid managed care affects you",
+      "instructions": "Enrollment in managed care is optional for people on a DODD waiver. Waiver services stay fee-for-service when someone enrolls in managed care, and enrollees can join at any time. HPC stays billed to DODD. No managed-care HPC rates were found.",
+      "cite": "ODM/DODD Managed Care FAQ",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "CRITICAL",
+      "task": "Learn the IO waiver payment flow",
+      "instructions": "IO waiver HPC is authorized through county boards of DD and billed to DODD (not ODM directly). DODD operates the IO waiver under an interagency agreement with ODM. Billing codes in the DODD family include AMW, AMX, AMY, AMZ, APC and APV, and EVV service code HPC applies. Get billing training and your DODD billing access set up before the first resident moves in.",
+      "cite": "OAC 5160-40-01; ODM EVV Program Guide",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "CRITICAL",
+      "task": "Identify your county's cost-of-doing-business (CODB) category and the applicable rate table",
+      "instructions": "HPC payment rates are based on the CODB category where services are mostly delivered, and agency and independent providers have separate tables. Services on or after July 1, 2024 are paid under appendix B. The county-to-CODB mapping and appendix B values were not retrieved in this report, so pull them from DODD.",
+      "cite": "OAC 5123-9-30",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "HIGH",
+      "task": "Know the HPC billing unit, daily limit and claim deadline",
+      "instructions": "HPC (routine) is billed in 15-minute units, and up to 16 hours (64 units) per day may be authorized based on assessed need. Providers must submit billing within 350 days of providing service, but bill monthly so cash flow does not stall.",
+      "cite": "DODD HPC page; OAC 5123-9-30",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "HIGH",
+      "task": "Apply the multi-individual rate adjustments correctly",
+      "instructions": "When one worker serves two individuals the base rate is 107% of the one-to-one rate, and four or more individuals is 130%. The three-individual percentage was not retrieved. Your staffing plan should show which hours are billed at which group size.",
+      "cite": "OAC 5123-9-30",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "HIGH",
+      "task": "Complete EVV training and upload your certificate",
+      "instructions": "Agencies and independent providers offering EVV services must complete EVV training and upload the certificate to PNM (the ODM provider network management system). ODM offers the Sandata EVV system to all providers at no cost; you may instead use a paid alternate EVV system.",
+      "cite": "ODM EVV Resource Guide (May 2025)",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "CRITICAL",
+      "task": "Make every 15-minute HPC claim match an EVV visit",
+      "instructions": "HPC billed in 15-minute units must use EVV, except services billed as on-site/on-call. Beginning in 2025, Ohio Medicaid claims that require EVV must match a visit in the EVV system. Train staff to clock in and out at every visit, and reconcile EVV against billing before you submit each month. For DODD waivers, no individual verification is required. Visits by a direct care worker who lives in the same household may be exempt (OAC 5160-32-02).",
+      "cite": "OAC 5123-9-30; ODM EVV guides",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "MEDIUM",
+      "task": "Use on-site/on-call HPC only when the rule's conditions are met",
+      "instructions": "The on-site/on-call rate applies only when the person is expected to be asleep for a continuous period of no less than five hours, and the provider need not stay awake. Check against the official OAC text (the Cornell LII mirror contains proposed redline), and document the sleep expectation in each person's plan.",
+      "cite": "OAC 5123-9-30 (LII mirror, verify against official OAC)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "MEDIUM",
+      "task": "Monitor the SB 315 EVV rule changes",
+      "instructions": "ODM's stakeholder deck says it is updating EVV rules for SB 315, which would require GPS capture at the start and end of each visit, with written consent from the individual. Rules were not final as of the deck. Watch ODM's EVV page and confirm your EVV vendor supports GPS and consent forms.",
+      "cite": "ODM EVV Resource Guide; ODM EVV stakeholder materials",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "MEDIUM",
+      "task": "Prepare for DODD compliance reviews that sample 15-minute HPC claims",
+      "instructions": "A secondary source reports that beginning August 1, 2026, DODD compliance reviews randomly verify a small sample of 15-minute HPC claims. Keep service notes, schedules and EVV records for every billed unit so each claim can be supported. Verify against DODD's own notice.",
+      "cite": "Medicaid Billing Solutions (secondary)",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 8 — BILLING, EVV & RATE SETUP",
+      "priority": "MEDIUM",
+      "task": "Understand overtime billing for independent providers",
+      "instructions": "Independent providers claim IO HPC overtime using procedure code APV, with a July 1, 2024 maximum of $9.44 for CODB 1 (one staff, one individual; second column $5.67). This table applies to independent providers; agency overtime is not covered by that row. Ask DODD how overtime works for an agency before you rely on it.",
+      "cite": "DODD Overtime: Independent Providers",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 9 — REFERRALS, ADMISSIONS & RESIDENT FINANCES",
+      "priority": "CRITICAL",
+      "task": "Build relationships with county boards of DD and register vacancies",
+      "instructions": "County boards authorize waiver services and families are told to search DODD's vacancy registry for licensed homes. Introduce your home to service and support administrators at the boards you serve, and keep your vacancy listing current. No official referral-source breakdown was found.",
+      "cite": "Hamilton County DD Residential Options; DODD waiting list page",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 9 — REFERRALS, ADMISSIONS & RESIDENT FINANCES",
+      "priority": "HIGH",
+      "task": "Understand the waiting-list assessment pathway that feeds demand",
+      "instructions": "A person can request a Waiting List Assessment at any time through the county board, which must schedule an interview within 15 days of the request. Current need means a need to be met within 12 months; immediate need means within 30 days. Use these terms when talking with boards about timing of admissions.",
+      "cite": "DODD Waiver Waiting List; WLA user guide",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 9 — REFERRALS, ADMISSIONS & RESIDENT FINANCES",
+      "priority": "CRITICAL",
+      "task": "Follow the admission and service-record rules",
+      "instructions": "OAC 5123-3-04 governs admission of residents, provision of services and maintenance of service records (Cornell LII mirror cited; verify against codes.ohio.gov). Build admission packets, individual service plans and record-keeping around that rule.",
+      "cite": "OAC 5123-3-04",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 9 — REFERRALS, ADMISSIONS & RESIDENT FINANCES",
+      "priority": "HIGH",
+      "task": "Find out how SSI and room-and-board work in a licensed home before you charge residents",
+      "instructions": "The 2026 SSI federal benefit rate is $994 per month for an individual. Ohio's SSI state supplement and how room and board interacts with waiver-funded residential payments were not verified. No resident-paid revenue is modeled. Ask DODD and the county board in writing before you collect anything from a resident.",
+      "cite": "SSA SSI benefits page",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 9 — REFERRALS, ADMISSIONS & RESIDENT FINANCES",
+      "priority": "MEDIUM",
+      "task": "Handle related-guardian providers correctly",
+      "instructions": "DODD says a related guardian may provide shared living or HPC only after getting approval from the local probate court. If a prospective resident's guardian also wants to be paid staff, require the court approval first.",
+      "cite": "DODD Ohio Shared Living",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 9 — REFERRALS, ADMISSIONS & RESIDENT FINANCES",
+      "priority": "MEDIUM",
+      "task": "If you consider shared living, respect the four-person cap and group-rate step-down",
+      "instructions": "No more than four persons with DD may live in a home in which an individual receives shared living, and the payment for a group of two is 85% of the daily rate. The 2026 daily rate was not retrieved and DODD plans to update Shared Living rates; OAC 5123-9-33 is also under five-year review (11/14/2026).",
+      "cite": "OAC 5123-9-33",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "CRITICAL",
+      "task": "Keep the license current and track renewal dates",
+      "instructions": "An initial license runs no longer than one year and renewals no longer than three years. DODD must survey each licensed facility at least once during the license period and may inspect more often. Calendar renewal at least 120 days ahead (internal practice) and keep the three-year fee ($300 per home, 15 or fewer beds) in reserve; the model accrues it at $8.33 per home per month.",
+      "cite": "ORC 5123.19; OAC 5123-3-06",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "CRITICAL",
+      "task": "Be inspection-ready at all times",
+      "instructions": "DODD compliance reviews occur at least once per license term. Keep posted schedules, training records, background checks, EVV and billing support, and insurance certificates in order. Respond to every citation within 14 calendar days.",
+      "cite": "OAC 5123-3-06",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Maintain required insurance and financial proof continuously",
+      "instructions": "Keep general liability of at least $1,000,000 in force and be ready to show proof on request. Renew policies before expiration and add new vehicles and drivers as you grow.",
+      "cite": "OAC 5123-3-01",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Track occupancy against break-even every month",
+      "instructions": "Model break-even occupancy is about 82–83% for the higher-acuity configurations, 86–89% for the mid-acuity configurations, and above 100% for the lower-acuity sensitivity case (model results at placeholder funding). Vacant beds earn nothing while rent and staffing continue. Update the model with actual DODD funding amounts as soon as you have them.",
+      "cite": "Financial model; DODD Reimbursement System Refresh",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "HIGH",
+      "task": "Follow rate and rule changes through 2027",
+      "instructions": "DODD says rate changes are not expected until July 2027 and plans acuity-based rates for congregate HPC. The IO waiver is approved through 6/30/2029. Subscribe to DODD and ODM provider notices and review the effect of each change on staffing and margins before it takes effect.",
+      "cite": "DODD Reimbursement System Refresh; CMS IO waiver listing",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Review wages and payroll taxes every January",
+      "instructions": "Recheck the Ohio minimum wage poster, the SUTA wage base and rate on your ODJFS notice (sources conflicted at $9,000 vs $9,500), and BWC premium statements. Adjust DSP wages if turnover is high.",
+      "cite": "Ohio 2026 Minimum Wage poster; NFIB UC Handbook",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & FINANCIAL MANAGEMENT",
+      "priority": "MEDIUM",
+      "task": "Verify every quote and figure against live pages before relying on them",
+      "instructions": "Several quotes in this research came from search-result excerpts, and some figures (LLC fees, SUTA, workers' comp, HUD rents) come from secondary sources. Confirm each against the official page, and call DODD at 1-800-617-6733 for anything marked unverified in this report.",
+      "cite": "See report 'What This Report Does Not Claim'",
+      "source_id": "S33"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Administrator qualifications incomplete (missing (e),(f), ID documents, English proficiency, absence designee)",
+      "change": "Rewrote administrator notes in all six configurations, licensing_pathway step 5 and operations required-roles bullet with the fuller OAC 5123-3-01(E) list, owner-operator note, (E)(3) designee and (E)(5)(a) multi-licensee notice. The checklist[23] instructions were not in the supplied data and need the same edit."
+    },
+    {
+      "issue": "Wage benchmark is May 2024 vintage; May 2025 release exists",
+      "change": "Labeled May 2024 figures as superseded in market_conditions and the single-home DSP notes, and updated not_claimed. The May 2025 values and the S25 source entry are not available and still need replacing; wage stays above the $11.00 floor."
+    },
+    {
+      "issue": "APV $9.44/$5.67 not on cited DODD page",
+      "change": "Replaced rates[0] with the page's verified worked example ($27.39/hour, $6.84 per 15-minute unit), fixed the reimbursement text, and added the old figures to not_claimed."
+    },
+    {
+      "issue": "No support-staff cost",
+      "change": "Added a $0, flagged 'not separately modeled' line citing OAC 5123-3-01(D)(5) to base opex and every configuration, plus an operations note and a not_claimed entry. Real cost still needs to be budgeted."
+    },
+    {
+      "issue": "DODD HCBS certification fees not modeled",
+      "change": "Added startup cost $0–$1,600 with the fee table figures and a note to confirm applicability and the triennial renewal. Updated licensing_pathway step 8 and not_claimed."
+    },
+    {
+      "issue": "Unemployment technology fee missing; $9,500 base conflict",
+      "change": "Set payroll_tax_pct to 0.086, rewrote payroll notes and market_conditions to include the 0.15% fee, and dropped the $9,500 conflict. The narrative's 17.5% mention in financial_narrative and generated net/break-even figures need regeneration."
+    },
+    {
+      "issue": "Fee table date wrong (08/20/2025 vs 01/31/2025)",
+      "change": "Updated key_numbers[0].as_of, startup_costs[1] notes, licensing_pathway and not_claimed[8]. The S6 source title was not supplied and still needs correcting."
+    },
+    {
+      "issue": "Independent-living exclusion omits supported living",
+      "change": "Rewrote the service_model exclusion text to include supported living and the independent-living definition. checklist[1] was not supplied."
+    },
+    {
+      "issue": "Moratorium categories and source URL",
+      "change": "Updated key_numbers[3] metric/value, regulators[1] URL/role and contacts[1] to the ODM moratorium page with the fuller categories and extension note. The executive_summary sentence and the S28 source entry still need the same update."
+    },
+    {
+      "issue": "Overtime exception below $150,000 and missing DICO phone",
+      "change": "Updated rates[9].notes, key_numbers[8], payroll notes and market_conditions; added 614-644-2239 to regulators[4] and contacts[5]."
+    },
+    {
+      "issue": "HPC rule effective date and unverifiable percentages",
+      "change": "Set rates[1] and rates[2] effective to 2024-01-01, flagged 107/130/85% as 'confirm in rule text' and added them to not_claimed."
+    },
+    {
+      "issue": "Training hours claim unverified; pre-service training omitted; DODD phone unverifiable",
+      "change": "Removed the 2+4 hour claim from opex notes and operations, described pre-service and 30-day training, and expanded the hiring/training startup note. Removed the DODD phone from regulators, contacts and licensing_pathway, and added it to not_claimed."
+    },
+    {
+      "issue": "0.5 FTE administrator scrutiny",
+      "change": "Added the 'directly and actively involved' standard and the (E)(5)(a) notice to the administrator notes."
+    }
+  ]
+}

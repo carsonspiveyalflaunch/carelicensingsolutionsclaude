@@ -1,0 +1,98 @@
+{
+  "bundle_slug": "north-carolina-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 34,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "startup_costs[5] (DHSR Construction Section project review fee) and fees_and_timelines_in_checklist[i=35, i=28]",
+      "current": "low 0 / high 0; 'amount was not retrieved, so $0 is a placeholder'",
+      "correct": "The fee amount is published in the cited S5 deck. Slide 35 'Initial Fees' has a Construction Fees table by bed count. For non-ICF/IID facilities it appears to show roughly $125 (smallest homes) and about $225 (4–6 beds). Other residential facilities of 10 or more beds are $275 + a per-sq-ft charge. The slide image is low-resolution, so confirm exact figures with the Help Desk.",
+      "evidence": "Slide 45: 'a project review fee will be assessed… invoice will be sent'. Slide 46: 'The Construction Section will not review a project or make any site visits until the construction fee is paid.' Slide 35 lists the Construction Fees table.",
+      "source_url": "https://info.ncdhhs.gov/dhsr/mhlcs/pdf/newprovider.pdf?ver=1.1",
+      "fix": "Replace the $0 placeholder with the per-home fee from slide 35 (about $225 for a 4–6 bed non-ICF/IID home, per the low-resolution image). That is about $225 per home, or $225–$675 for 1–3 homes. Confirm the exact figure at (919) 855-3893 and update checklist items 28 and 35. Also say that the fee schedule is in the deck."
+    },
+    {
+      "severity": "minor",
+      "json_path": "payroll_burden.notes",
+      "current": "NC unemployment insurance 'about $333 for a full-time direct support worker at $17/hour, roughly 1.0%'",
+      "correct": "$342 (1.000% × $34,200). A full-time worker at $17/hr earns about $35,360 a year, which is above the wage base, so the full base is taxed.",
+      "evidence": "DES table: 2026 standard beginning rate 1.000%, taxable wage base $34,200. UI rate for beginning employers 1%; maximum rate 5.76%.",
+      "source_url": "https://www.des.nc.gov/employers/tax-rate-information",
+      "fix": "Change '$333' to '$342'. The 8.8% total payroll-tax rate (7.65% FICA plus about 1% UI plus a small FUTA amount) still holds."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[5].effective and key_numbers[4].as_of",
+      "current": "'2026-10-01 (retroactive to 2026-07-01)' for the $7.68 DCW add-on",
+      "correct": "Provider rate increases are effective 2026-10-01. The July 1, 2026 retroactivity applies to LME/MCO capitation. LME/MCOs may retroactively process provider rates only back to Oct 1, 2026, and only after validating that the funds are used as the legislature intended.",
+      "evidence": "S18: 'LME/MCO capitation rate increases are retro-active to July 1, 2026, reflecting corresponding provider rate increases effective October 1, 2026… LME/MCOs may retroactively process provider rates to October 1, 2026'. The NC Medicaid blog (S11) headline says 'effective October 1, 2026, retroactive to July 1, 2026', so the sources are worded inconsistently.",
+      "source_url": "https://medicaid.ncdhhs.gov/sl-2026-41-north-carolina-innovations-waiver-direct-care-worker-wage-increases-procedure-code/download?attachment",
+      "fix": "Reword to: 'Provider rate add-on effective 2026-10-01; LME/MCO capitation retroactive to 2026-07-01; LME/MCOs may reprocess provider rates back to 10/1/2026 after validating use of funds.' Do not model any add-on revenue for Jul–Sep 2026. The Dec. 1, 2027 reporting date could not be confirmed from the fetched text (unverifiable)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[7] and key_numbers (Special Assistance $1,397; 'secondary source… do not model without confirmation')",
+      "current": "Source S26 (secondary). 'Whether a supervised living home is approved is not verified.'",
+      "correct": "$1,397/month is confirmed for 2026 by DHHS materials. The 2026 DHHS Special Assistance brochure says benefits go to eligible people in DHSR-licensed residential facilities, and its examples include group homes/supervised living and mental health group homes. The personal needs allowance is $70.",
+      "evidence": "The DHHS SA In-Home manual (rev. June 2026) states 'the SA Basic rate of $1,397 + $70 personal needs allowance'. The DHHS brochure says the program helps pay for room and board in licensed residential facilities.",
+      "source_url": "https://policies.ncdhhs.gov/wp-content/uploads/Special-Assistance-In-Home-Program-Manual-Rev-June-2026.pdf",
+      "fix": "Replace S26 with the official DHHS sources (the SA brochure and manual) and mark the $1,397 as verified. Eligibility for a given resident (age 65+ or disabled, income and assets) still needs a DSS check. Optionally add a note that SA could raise room-and-board revenue above the $750 modeled for eligible residents."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=36] and key_numbers[9]",
+      "current": "'establish page says to expect construction review in about 10-12 weeks'",
+      "correct": "I could not find '10–12 weeks' on the DHSR establish page. The DHSR FAQ says 'approximately 18-10 weeks', which is likely a typo for 8–10. The Feb 2026 deck says 8–10 weeks. The 'six months' program-review window is confirmed.",
+      "evidence": "Deck slide 36: 'Sent to DHSR Construction for 8–10 week review'. Slides 85 and 111: up to six months, after which the application is 'rescinded or denied'. FAQ Q3: 'approximately 18-10 weeks. However, if areas require a code interpretation, there could be a delay.'",
+      "source_url": "https://info.ncdhhs.gov/dhsr/mhlcs/faq.html",
+      "fix": "Cite 8–10 weeks (S5, FAQ) and drop or re-verify the '10–12 weeks' attribution to the establish page (unverifiable). Keep the advice to plan for the longer figure and add that code-interpretation delays can extend it."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[11] and fees_and_timelines_in_checklist[i=39]",
+      "current": "'Annual; licenses expire at the end of the calendar year (Dec 31)'. The renewal fee is assumed equal to the $350 initial fee.",
+      "correct": "G.S. 122C-23(e) says initial licenses are valid for up to 15 months, then renewed annually and expiring at the end of the calendar year. The renewal fee amount is still unverified.",
+      "evidence": "G.S. 122C-23(e): 'Initial licenses issued under this section are valid for not more than 15 months. Licenses shall be renewed annually thereafter and shall expire at the end of the calendar year.'",
+      "source_url": "https://www.ncleg.net/enactedlegislation/statutes/html/bysection/chapter_122c/gs_122c-23.html",
+      "fix": "Add: 'the initial license can run up to 15 months; the first renewal falls on the next Dec 31 after issuance.' Keep the renewal-fee assumption flagged as unverifiable."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*[role='Direct support professionals'].cite and fees_and_timelines_in_checklist[i=40]",
+      "current": "'10A NCAC 27G .5600 (staffing rule text not retrieved)'. The model relies on a 2018 DHHS report for '1 staff per 6 individuals'.",
+      "correct": "The staffing rule is 10A NCAC 27G .5602 (Staff). Its paragraph (b) requires at least one staff member present at all times when any adult client is on the premises, unless the client's plan documents otherwise. The modeled coverage (at least one awake staff 24/7, up to two) meets that floor. The ratio and overnight paragraphs (c)/(d) were not retrievable, so the '1:6' claim is unverified.",
+      "evidence": "A DHSR statement of deficiencies quotes .5602(b): 'A minimum of one staff member shall be present at all times when any adult client is on the premises, except when the client's treatment or habilitation plan documents…'. The same rule is titled '.5602 Supervised Living – Staff'.",
+      "source_url": "https://info.ncdhhs.gov/dhsr/mhlcs/sods/2025/20250629-150451.pdf?ver=1",
+      "fix": "Change the cite to '10A NCAC 27G .5602' and add the 'one staff present at all times' minimum. Read paragraphs (c)/(d) before finalizing schedules. No staffing violation was found in the modeled hours: 973 / 1,217 / 1,460 hours per home per month all exceed 730 hours of one-staff 24/7 coverage."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.* (direct support wage_hourly 17.0 × coverage hours) and payroll_burden",
+      "current": "A flat $17.00/hr × coverage hours, with a 17.8% burden. There is no overtime or relief-coverage premium.",
+      "correct": "BLS-sourced wages are higher. The NC CNA median is $18.49/hr, which is confirmed, and the NC RN median is $84,350/yr ($40.56/hr), also confirmed. $17.00 is above the $7.25 NC minimum wage, so there is no wage-floor violation. 24/7 coverage across part-time and full-time DSPs usually creates FLSA overtime (1.5× over 40 hrs/week) or sick/vacation relief hours that are not costed.",
+      "evidence": "CaresLink (May 2025 BLS data): NC nursing assistant median $38,460 / $18.49 per hour. NC registered nurse median $84,350 / $40.56 per hour.",
+      "source_url": "https://www.careslink.com/en/salary/nursing-assistant",
+      "fix": "Keep $17.00 only as a low case. Use $18.49 as the base wage, since the model's own loss figures at $18.49 show thin or negative margins. Add an overtime/relief factor (for example 5–10% of DSP hours at 1.5×) as a mandatory cost. Raleigh-Cary $19.29 and NC all-occupation $47,970 were not independently verified (unverifiable)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[2] and key_numbers[8] (NCTracks $100 fee)",
+      "current": "'$100 NC fee at initial enrollment and again every five years', a single $100 for all configurations.",
+      "correct": "The $100 fee and the 5-year cycle are confirmed. An NCTracks organization guide (2021, older) says the NC fee is 'collected per site location', so multi-home configurations may owe $100 per home or enrollment. Applicability of the federal $750 fee depends on the Provider Permission Matrix taxonomy.",
+      "evidence": "NCTracks: 'Providers submitting enrollment, re-enrollment, or revalidation/reverification applications will be assessed the $100 NC Medicaid Provider Application Fee.' Federal fee 'when applicable'. The NC Medicaid enrollment page confirms '$100 NC application fee during enrollment and re-verification' and re-verification every five years.",
+      "source_url": "https://www.nctracks.nc.gov/content/public/providers/provider-recredentialing.html",
+      "fix": "For the 2- and 3-home configurations, confirm with NCTracks whether the $100 is charged per site or per tax ID. If per site, raise the high case to $100 × the number of homes. The federal fee remains 'confirm at enrollment' (unverifiable here)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[6] (accreditation: 'One of COA, CQL, JCAHO or CARF')",
+      "current": "'One of COA, CQL, JCAHO or CARF', applying to enrollments after April 20, 2026.",
+      "correct": "The April 20, 2026 PPM change and the April 20, 2027 deadline for currently enrolled providers are confirmed. The accreditor list and whether Residential Supports is among the 'select' services were not visible in the fetched text (page truncated).",
+      "evidence": "S9: providers of 'select' I/DD services in Clinical Coverage Policy 8-P 'must be nationally accredited'. On April 20, 2027 the old Community/Behavioral Health service is end-dated.",
+      "source_url": "https://medicaid.ncdhhs.gov/blog/2026/04/16/innovations-waiver-providers-updated-service-and-national-accreditation-requirements",
+      "fix": "Mark the accreditor list as unverifiable until checked against the NCTracks Provider Permission Matrix for the Residential Supports service type. Add that already-enrolled providers must re-enroll and report accreditation by April 20, 2027."
+    }
+  ]
+}
