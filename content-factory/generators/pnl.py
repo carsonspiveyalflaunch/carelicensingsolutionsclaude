@@ -439,9 +439,12 @@ def build_pnl(d: dict, path: str) -> list:
     header_row(sc, 20, ["Operating model", "Capacity per unit", f"Revenue / {unit} / mo",
                         f"Contribution / billable {unit}", "Fixed costs / unit / mo", "Occupancy",
                         "Startup costs / unit"])
+    def safe(label: str) -> str:  # MATCH treats ~ * ? as wildcards
+        return label.replace("~", "approx. ").replace("*", "x").replace("?", "")
+
     for i, (cr, ref) in enumerate(refs):
         row = 21 + i
-        put(sc, f"A{row}", cr.label, wrap=True)
+        put(sc, f"A{row}", safe(cr.label), wrap=True)
         put(sc, f"B{row}", f"={ref['cap']}", fmt="#,##0")
         put(sc, f"C{row}", f"={ref['revpc']}", fmt=USD)
         put(sc, f"D{row}", f"={ref['contrib']}", fmt=USD)
@@ -453,7 +456,7 @@ def build_pnl(d: dict, path: str) -> list:
     put(sc, "A5", f"Number of {unit}s you want to serve")
     put(sc, "B5", float(max(1, round(ordered[0].capacity))), fmt="#,##0", fill=INPUT, bold=True)
     put(sc, "A6", "Operating model")
-    put(sc, "B6", ordered[0].label, fill=INPUT, bold=True)
+    put(sc, "B6", safe(ordered[0].label), fill=INPUT, bold=True)
     sc.merge_cells("B6:H6")
     dv = DataValidation(type="list", formula1=f"=$A${t1}:$A${t2}", allow_blank=False)
     sc.add_data_validation(dv)
