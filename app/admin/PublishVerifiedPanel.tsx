@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { BadgeCheck, Loader2, UploadCloud } from "lucide-react";
 import { adminFetch } from "@/utils/admin-fetch";
+import VerifiedFolderUpload from "./VerifiedFolderUpload";
 
 type Bundle = { slug: string; files: string[] };
 type Result = { ok: boolean; message: string };
@@ -76,7 +77,9 @@ export default function PublishVerifiedPanel() {
       {error && <p className="mt-3 text-sm text-red-700">{error}</p>}
       {bundles === null && !error && <p className="mt-3 text-sm text-slate-500">Loading…</p>}
       {bundles && bundles.length === 0 && (
-        <p className="mt-3 text-sm text-slate-500">No verified bundles are included in this deployment yet.</p>
+        <p className="mt-3 text-sm text-slate-500">
+          No verified bundles are included in this deployment. Use the upload below instead.
+        </p>
       )}
       {bundles && bundles.length > 0 && (
         <ul className="mt-4 divide-y divide-slate-100 text-sm">
@@ -102,6 +105,7 @@ export default function PublishVerifiedPanel() {
           ))}
         </ul>
       )}
+      <VerifiedFolderUpload />
     </div>
   );
 }
