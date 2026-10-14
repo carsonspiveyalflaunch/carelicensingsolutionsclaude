@@ -186,6 +186,16 @@ def _repair(t: str) -> str:
     return body + "".join(reversed(stack))
 
 
+def call_json(slug, stage, model, system, user, tools=None, max_tokens=16000):
+    """call() + parse_json(), retrying once if the model returns malformed JSON."""
+    try:
+        return call_json(slug, stage, model, system, user, tools=tools, max_tokens=max_tokens)
+    except (ValueError, json.JSONDecodeError) as e:
+        log({"slug": slug, "stage": stage, "retry": f"bad JSON: {str(e)[:120]}"})
+        return call_json(slug, stage + ":retry", model, system, user + "\n\nReturn strictly valid JSON "
+                               "(escape quotes inside strings).", tools=tools, max_tokens=max_tokens)
+
+
 # ---------------------------------------------------------------- shared context
 SCHEMA = (CF / "SCHEMA.md").read_text()
 EXAMPLES = {
@@ -280,23 +290,23 @@ def assemble(item: dict, facts: dict) -> dict:
             f"in another state (structure and depth only; do not copy its numbers):\n{ex}\n")
     slug = item["slug"]
     # B1a: evidence and reference data
-    d = parse_json(call(slug, "B1a:evidence", SONNET, ASSEMBLE_SYSTEM, base +
+    d = call_json(slug, "B1a:evidence", SONNET, ASSEMBLE_SYSTEM, base +
         "\nProduce a JSON object with keys: bundle_slug, state, state_code, program, state_program_name, as_of, "
         "report_title, sources (S1..Sn from the fact URLs you use), key_numbers (8-12), not_claimed, regulators, "
-        "regulations, rates, contacts. Keep source titles short.", max_tokens=40000))
+        "regulations, rates, contacts. Keep source titles short.", max_tokens=40000)
     # B1b: financial model
     fm_prompt = (base + "\nEVIDENCE already written (cite these source ids):\n" + json.dumps(d, ensure_ascii=False) +
         "\nProduce ONLY a JSON object {\"financial_model\": {...}} per the spec: 3-6 realistic configurations that "
         "meet the state's staffing rules, at least one an expert operator would choose to be profitable if real "
         "rates allow; rent and building costs fixed and sized per configuration with opex_overrides; startup_costs "
         "inside financial_model. Every numeric field must be a number, never null.")
-    fm = parse_json(call(slug, "B1b:model", SONNET, ASSEMBLE_SYSTEM, fm_prompt, max_tokens=40000))
+    fm = call_json(slug, "B1b:model", SONNET, ASSEMBLE_SYSTEM, fm_prompt, max_tokens=40000)
     d["financial_model"] = fm.get("financial_model", fm)
     err = model_error(d)
     if err:
-        fm = parse_json(call(slug, "B1b:retry", SONNET, ASSEMBLE_SYSTEM, fm_prompt + "\nYour previous attempt failed "
+        fm = call_json(slug, "B1b:retry", SONNET, ASSEMBLE_SYSTEM, fm_prompt + "\nYour previous attempt failed "
                              "validation: " + err + "\nPrevious attempt:\n" + json.dumps(d["financial_model"]),
-                             max_tokens=40000))
+                             max_tokens=40000)
         d["financial_model"] = fm.get("financial_model", fm)
         err = model_error(d)
         if err:
@@ -312,16 +322,16 @@ def assemble(item: dict, facts: dict) -> dict:
                         "first_profit_month": o["first_profitable_month"], "cash_needed": round(o["cash_needed"])})
     ctx = (base + "\nBUNDLE SO FAR:\n" + json.dumps(d, ensure_ascii=False) +
            "\n\nMODEL RESULTS computed from it (use these exact numbers):\n" + json.dumps(summary))
-    sec = parse_json(call(slug, "B2a:sections", SONNET, ASSEMBLE_SYSTEM, ctx +
+    sec = call_json(slug, "B2a:sections", SONNET, ASSEMBLE_SYSTEM, ctx +
         "\n\nProduce ONLY {\"sections\": {...}} with all 10 sections (executive_summary, service_model, "
         "licensing_pathway, reimbursement, demand, operations, market_conditions, financial_narrative, risks, "
         "recommendations), markdown with [S#] cites; financial_narrative explains drivers, sensitivities and the path "
-        "to profit honestly.", max_tokens=40000))
+        "to profit honestly.", max_tokens=40000)
     d["sections"] = sec.get("sections", sec)
-    chk = parse_json(call(slug, "B2b:checklist", SONNET, ASSEMBLE_SYSTEM, ctx +
+    chk = call_json(slug, "B2b:checklist", SONNET, ASSEMBLE_SYSTEM, ctx +
         "\n\nProduce ONLY {\"checklist\": [...]} with 50-80 items in phased order (\"PHASE 1 — ...\"), each with "
         "phase, priority (CRITICAL|HIGH|MEDIUM), task, instructions (how, where, cost, time), cite, source_id.",
-        max_tokens=40000))
+        max_tokens=40000)
     d["checklist"] = chk.get("checklist", chk)
     d["corrections_vs_previous"] = []
     return normalize(d)
@@ -404,7 +414,7 @@ def verify(item: dict, d: dict) -> dict:
             "timeline and contact. Also flag missing mandatory costs and staffing that violates the rules.\n\n"
             + json.dumps(focus, ensure_ascii=False))
     tools = [{**WEB_FETCH, "max_uses": 12, "max_content_tokens": 3000}, {**WEB_SEARCH, "max_uses": 4}]
-    return parse_json(call(item["slug"], "D:verify", SONNET, VERIFY_SYSTEM, user, tools=tools, max_tokens=24000))
+    return call_json(item["slug"], "D:verify", SONNET, VERIFY_SYSTEM, user, tools=tools, max_tokens=24000)
 
 
 FIX_SYSTEM = """You apply fact-check corrections to a research JSON. Return ONLY JSON:
@@ -446,7 +456,7 @@ def fix(item: dict, d: dict, findings: dict) -> dict:
                                                                          "contacts")}, ensure_ascii=False) +
             "\n\nCURRENT text fields:\n" + json.dumps(text_fields, ensure_ascii=False) +
             "\n\nChecklist items referenced by findings are addressed as checklist[i].field.")
-    out = parse_json(call(item["slug"], "E:fix", SONNET, FIX_SYSTEM, user, max_tokens=40000))
+    out = call_json(item["slug"], "E:fix", SONNET, FIX_SYSTEM, user, max_tokens=40000)
     applied = 0
     for p in out.get("patches", []):
         try:

@@ -1,7 +1,7 @@
 {
-  "note": "Resume (credits added): remaining 15 bundles.",
-  "slugs": [],
-  "limit": 0,
-  "workers": 4,
+  "note": "Retry the one bundle that failed on malformed JSON.",
+  "slugs": ["illinois-assisted-living-facilities-complete-bundle"],
+  "limit": 1,
+  "workers": 1,
   "budget_usd": 280
 }
