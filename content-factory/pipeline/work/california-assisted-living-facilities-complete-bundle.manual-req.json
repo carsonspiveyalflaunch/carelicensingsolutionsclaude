@@ -451,434 +451,648 @@
   ],
   "policies": [
     {
-      "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Licensee Governing Body and Administrator Responsibilities",
+      "id": "SA-01",
+      "category": "Section A - Forms by Type of Facility (A1-A16 for RCFE)",
+      "title": "License Application and Applicant Forms (LIC 200, 215, 308, 309)",
+      "covers": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "citations": [
+        "C31",
+        "C28",
+        "C17"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "LIC 200: original signatures only. Every applicant signs, including each general partner. A corporation or LLC attaches a Board resolution authorizing the signers.",
+        "LIC 215: one per applicant, with current reference statements that are not from relatives.",
+        "LIC 308: name at least one person to act in the licensee's absence. The licensee cannot designate self. An entity attaches a resolution.",
+        "LIC 309: required only for a corporation, public agency, partnership or LLC. It must match the LIC 200.",
+        "Non-refundable application fee: $990 (4-6 beds) or $1,486.80 (7-15 beds), payable to CDSS. Mail the packet to the Centralized Applications Bureau, 744 P Street, MS 9-14-8201, Sacramento, CA 95814."
+      ]
+    },
+    {
+      "id": "SA-02",
+      "category": "Section A - Forms by Type of Facility (A1-A16 for RCFE)",
+      "title": "Resident Cash Resources Affidavit and Surety Bond (LIC 400, LIC 402)",
+      "covers": [
+        "A5",
+        "A6"
+      ],
+      "citations": [
+        "C16",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "LIC 400: check the correct box and obtain a bond if the facility will hold resident cash.",
+        "LIC 402: use the LIC 402 language, name the State of California as beneficiary, show effective and expiration dates, and carry original seals and signatures.",
+        "The bond amount must match the amount on the LIC 400.",
+        "If the facility holds resident money, keep receipts and accounting records and a separate account titled as residents' money (no commingling)."
+      ]
+    },
+    {
+      "id": "SA-03",
+      "category": "Section A - Forms by Type of Facility (A1-A16 for RCFE)",
+      "title": "Financial Forms and Start-Up Funds Verification (LIC 401, 401a, 403, 403a, 404)",
+      "covers": [
+        "A7",
+        "A8(a)",
+        "A8(b)",
+        "A8(c)",
+        "A9"
+      ],
+      "citations": [
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "LIC 401: resident count matches requested capacity, salaries are at least minimum wage, about 25% is added for fringe benefits (or explain why not), and rent matches the lease. File a separate LIC 401 for each other licensed facility.",
+        "LIC 401a: Part I is completed by individual applicants and each general partner; Part II by all applicants.",
+        "Complete the LIC 403a first, then the LIC 403. Use realistic figures. Only cash and cash equivalents count toward the 3-month start-up funds (22 CCR §87155).",
+        "LIC 404: the financial institution sends verification directly to the licensing agency. One form per bank, all account holders sign, and the account is in the applicant's name. A readily accessible line of credit is acceptable.",
+        "Every financial form shows the preparer's name and original signatures. Do not spend start-up funds on renovation or repair."
+      ]
+    },
+    {
+      "id": "SA-04",
+      "category": "Section A - Forms by Type of Facility (A1-A16 for RCFE)",
+      "title": "Personnel Report and Staff Forms (LIC 500, 501, 503, 508)",
+      "covers": [
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "citations": [
+        "C3",
+        "C15",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "LIC 500: list every planned position with days and hours covering all hours of operation. Show unhired positions as 'to be hired' by title. Sign the reverse side if there are fingerprint-exempt personnel.",
+        "LIC 501: needed only for non-licensee directors/administrators who do not complete an LIC 215. Keep other staff forms on file at the facility.",
+        "LIC 503: one each for the applicant or designee and the administrator. It must be under 6 months old at application, signed and dated by a qualified medical professional, and show the TB result.",
+        "LIC 508: one each for the applicant or designee and the administrator.",
+        "Staff health screening is due within 6 months before or 7 days after employment. Criminal record clearance, exemption or transfer is required before employment or presence."
+      ]
+    },
+    {
+      "id": "SA-05",
+      "category": "Section A - Forms by Type of Facility (A1-A16 for RCFE)",
+      "title": "Emergency Disaster Plan, Facility Sketch and Fire Inspection Forms (LIC 610E, LIC 999, LIC 9054)",
+      "covers": [
+        "A14",
+        "A15",
+        "A16"
+      ],
+      "citations": [
+        "C2",
+        "C12",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "LIC 610E (the RCFE version of LIC 610D) shows two relocation sites away from the facility with room for all residents. If the applicant does not yet occupy the property, get written authorization to use each site.",
+        "LIC 999: dimensions and use of all rooms, door and window exits keyed by number to the LIC 610E exit routes, rooms for non-ambulatory residents and staff, and all indoor and outdoor space.",
+        "LIC 999 outdoor sketch shows driveways, fences, storage, gardens, recreation areas, major equipment, pools and utility shut-offs. Multi-building sites need one sketch per building plus an overall sketch.",
+        "LIC 9054 fire inspection is required for RCFEs. Fire clearance is needed before licensure (22 CCR §87202). No fire-inspection fee may be charged for homes of 6 or fewer (HSC §1569.84)."
+      ]
+    },
+    {
+      "id": "SB-01",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Legal Entity Documents and Authority to Act (Partnership, Corporation, LLC)",
+      "covers": [
+        "B1",
+        "B1.P1",
+        "B1.P2",
+        "B1.P3",
+        "B1.P4",
+        "B1.C1",
+        "B1.C2",
+        "B1.C3",
+        "B1.C4",
+        "B1.L1",
+        "B1.L2"
+      ],
+      "citations": [
+        "C31",
+        "C35"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Partnership: a written agreement is not needed for spouses. Two unrelated individuals must provide one. All general partners are named on the license and sign. Describe each general partner's duties and whether each can act for the others. For a limited partnership, list the limited partners' names and addresses.",
+        "Corporation: Articles of Incorporation with state seal; a foreign corporation also needs a California Secretary of State Certificate of Qualification. Add the constitution and by-laws and a Board Resolution naming the authorized signer.",
+        "Corporation: list directors' and officers' names, titles, addresses and phones, and the name and address of each 10% shareholder.",
+        "LLC: Articles of Organization stamped by the Secretary of State (a foreign LLC also files stamped form LLC-5). Add the operating agreement.",
+        "LLC: list managers, managing members and non-managing members holding 10% or more. If the signer's authority is not in the operating agreement, add a written delegation."
+      ]
+    },
+    {
+      "id": "SB-02",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Administrator Qualifications and Certification Verification",
+      "covers": [
+        "B2.1",
+        "B2.2",
+        "B2.3",
+        "B2.4"
+      ],
       "citations": [
         "C17",
-        "C35",
+        "C21"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "LIC 281 B2 refers to a 40-hour program. Current HSC §1569.616 requires an 80-hour initial certification program (at least 60 live hours) plus the state exam within 60 days. Follow the statute and confirm with the Administrator Certification Bureau, 916-653-9300.",
+        "Submit proof of program registration with the application. A Department-issued certificate from an approved vendor is required before licensure.",
+        "Administrator: age 21+, high school diploma or equivalent, good character. 16+ beds add education and experience requirements.",
+        "Education: transcripts from an accredited school when required. For foreign schools, provide class descriptions, a catalog, or a local college equivalency.",
+        "Experience: written references showing the capacity, duties and dates, or a signed administrator declaration explaining why none could be obtained. Experience verification is not needed for a 1-6 bed RCFE."
+      ]
+    },
+    {
+      "id": "SB-03",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Job Descriptions and Personnel Policies",
+      "covers": [
+        "B4.1",
+        "B4.2",
+        "B4.3",
+        "B4.4",
+        "B5.1",
+        "B5.2",
+        "B5.3"
+      ],
+      "citations": [
+        "C3",
+        "C17",
+        "C25",
+        "C29",
+        "C30",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Write a job description for every classification on the LIC 500. Each states duties, minimum qualifications (licenses, certificates, skills tied to licensing requirements), and supervision given and received.",
+        "Include an awake night-shift duty statement and an administrator job description (premises hours, designated substitute).",
+        "Personnel policies show shifts and hours that match all personnel reports and give 24-hour competent coverage.",
+        "Staff are told in writing they must report abuse to the licensing agency, law enforcement and the adult protective/ombudsman agency (W&I §15630).",
+        "Hiring practice: screen education and experience. Conditions of employment are fingerprint clearance, criminal conviction statement, TB clearance, physical exam/health questionnaire and child abuse index check. Pay at least the state minimum wage ($16.90 in 2026) or a higher local rate, and give at least 40 hours of paid sick leave (Labor Code §246)."
+      ]
+    },
+    {
+      "id": "SB-04",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "In-Service Training Plan, First Aid Cards and Orientation Certificate",
+      "covers": [
+        "B6.1",
+        "B6.2",
+        "B16",
+        "B17"
+      ],
+      "citations": [
+        "C22",
+        "C23",
+        "C24",
+        "C21",
+        "C3",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "New-employee training plan: describe the training and who conducts it. Direct care staff need 40 hours initial (20 before working alone, 20 within 4 weeks) and 20 hours annually.",
+        "Ongoing training plan: list topics (including administrator CE), frequency and documentation. Annual training includes 8 hours dementia and 4 hours postural supports/restricted conditions/hospice.",
+        "Medication assistance: 10 hours initial plus an exam for homes of 15 or fewer (6 hands-on before assisting); 8 hours annually.",
+        "Administrator CE: 40 hours every 2 years, including 8 hours dementia.",
+        "Submit first aid cards for the applicant and administrators (verified by CDSS) and the Component I orientation certificate with the application. The certificate expires 30 days after access, so download it."
+      ]
+    },
+    {
+      "id": "SB-05",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Program Description and Plan of Operation",
+      "covers": [
+        "B7.1",
+        "B7.2",
+        "B7.3",
+        "B7.4",
+        "B7.5",
+        "B7.6",
+        "B7.7",
+        "B7.8",
+        "B7.9",
+        "B7.10",
+        "B7.11"
+      ],
+      "citations": [
+        "C11",
+        "C4",
+        "C31",
+        "C2"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Cover philosophy and goals, days and hours of operation, a daily activity schedule and a one-month activity calendar. Say who plans, conducts and assists with each.",
+        "Describe basic services (per LIC 604/604A) and the optional services listed in the admission agreement.",
+        "Medical emergencies: call 9-1-1 for imminent threats, notify the physician and person responsible, and follow the reporting policy. Medication assistance is limited to self-administered medications (22 CCR §87465).",
+        "State transportation arrangements and the community resources and consultants used.",
+        "Include a licensing-approved procedure for immediate response to incidents and complaints. A pamphlet is acceptable only if every element B7.1-B7.11 is in it."
+      ]
+    },
+    {
+      "id": "SB-06",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Admission Policies",
+      "covers": [
+        "B9.1",
+        "B9.2",
+        "B9.3",
+        "B9.4",
+        "B9.5",
+        "B9.6",
+        "B9.7",
+        "B9.8",
+        "B9.9",
+        "B9.10",
+        "B9.11"
+      ],
+      "citations": [
+        "C20",
+        "C5",
+        "C6",
+        "C1",
+        "C11",
+        "C44",
+        "C45"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Cover who is accepted (age range, compatibility), rates and refund policy, acceptance and retention limits, pre-admission appraisal, needs and services plan, medical assessment and the admission agreement.",
+        "B9.2 (intake for group homes) applies to group homes only. State in the manual that it is not applicable to an RCFE.",
+        "Criteria for placement appropriateness: interview, paperwork, and suitability against admission criteria before admission (22 CCR §87457).",
+        "Residents are told their personal rights (22 CCR §87468.1) and that those rights will not be violated. Also cover emergency information, sign-in/sign-out, immunization and physical exam/TB requirements.",
+        "Exclude prohibited conditions (22 CCR §87615): stage 3-4 pressure injuries, G-tubes, NG tubes, tracheostomies, serious infections, and total dependence in all ADLs."
+      ]
+    },
+    {
+      "id": "SB-07",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Control of Property, Water Analysis and Insurance Information",
+      "covers": [
+        "B11.1",
+        "B11.2",
+        "B11.3",
+        "B12",
+        "B13"
+      ],
+      "citations": [
+        "C31",
+        "C26",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "B11: name and address of the property owner, plus a lease or rental agreement (any length) that allows facility use. If the agreement precludes use as a facility, the license is denied or withdrawn.",
+        "B11: if the applicant owns the property, provide a property tax bill, deed or other document showing the street address.",
+        "B12: if water comes from a well or other private source, submit an on-site source inspection and a bacteriological analysis signed by a qualified agency. This is required at initial licensure regardless of capacity. Retest annually for capacity 7-15.",
+        "B13: state whether the facility is insured, the coverage type and the carrier. HSC §1569.605 requires liability insurance of $1M per occurrence / $3M aggregate.",
+        "Workers' compensation is required once the facility has employees (RCFE class 9070(1))."
+      ]
+    },
+    {
+      "id": "SB-08",
+      "category": "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+      "title": "Neighborhood Complaint Policy",
+      "covers": [
+        "B15"
+      ],
+      "citations": [
+        "C31",
         "C11"
       ],
       "federal": [],
       "state_specifics": [
-        "The licensee's governing body is accountable under 22 CCR §87205 (title confirmed; text not retrieved).",
-        "The certified administrator must be on premises a sufficient number of hours, with a designated qualified substitute when absent (§87405). Designation is on LIC 308.",
-        "A new administrator must be reported to CDSS in writing within 30 days (§87211(g)): name, addresses, start date, background and qualifications, with certificate copy.",
-        "A change of chief corporate officer must be reported within 15 working days, with a fingerprint card (§87211(h)).",
-        "Residents and volunteers cannot be counted as staff (§87411(i),(j)).",
-        "Regulator: CDSS Community Care Licensing, Adult and Senior Care Program, (916) 657-2592."
+        "Required in the RCFE column of the Section B table. LIC 281 text applies it to non-resident-owner facilities of 6 or fewer.",
+        "State procedures for immediate response to incidents and complaints.",
+        "State a time when the owner, licensee or designee will meet with neighbors, and publish the contact number.",
+        "Keep a complaint log with date, complainant, response and resolution."
+      ]
+    },
+    {
+      "id": "FC-01",
+      "category": "Final checklist ('Have you remembered the following')",
+      "title": "Application Packet Final Checklist and Submission Review",
+      "covers": [
+        "Checklist-1",
+        "Checklist-2",
+        "Checklist-3",
+        "Checklist-4",
+        "Checklist-5",
+        "Checklist-6",
+        "Checklist-7"
+      ],
+      "citations": [
+        "C31",
+        "C28",
+        "C11",
+        "C2"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Orientation certificate(s) for the facility type are enclosed.",
+        "The LIC 200 is signed and dated by all applicants. Every form has an original signature and date.",
+        "The Emergency Disaster Plan (LIC 610E) and facility sketch (LIC 999, showing indoor/outdoor space and all exits) are complete.",
+        "All financial information (LIC 401/401a/403/403a/404) is complete and the application fee check is enclosed.",
+        "Keep a full copy. Expect 90-120 days. Respond quickly to analyst deficiency requests."
+      ]
+    },
+    {
+      "id": "GOV-01",
+      "category": "Governance and Administration",
+      "title": "Organization, Governing Body and Administrator Responsibilities",
+      "covers": [],
+      "citations": [
+        "C17",
+        "C35",
+        "C11",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The licensee and governing body are accountable for the facility's operation and compliance (22 CCR §87205; text not retrieved, verify before publishing).",
+        "A certified administrator is on the premises a sufficient number of hours, with a designated qualified substitute when absent.",
+        "Notify CDSS within 30 days of a new administrator and within 15 working days of a change of chief corporate officer (22 CCR §87211).",
+        "Written plan of operation covering administrative organization is kept current (22 CCR §87208)."
       ]
     },
     {
       "id": "GOV-02",
       "category": "Governance and Administration",
-      "title": "Administrator Certification, Continuing Education and Designated Substitute",
+      "title": "Licensure, Posting and Regulatory Compliance",
+      "covers": [],
       "citations": [
-        "C17",
-        "C21",
-        "C50"
+        "C28",
+        "C12",
+        "C13",
+        "C14",
+        "C36",
+        "C2"
       ],
       "federal": [],
       "state_specifics": [
-        "Administrator must be 21 or older with a high school diploma or equivalent and good character.",
-        "80-hour initial certification program (at least 60 hours live) and state exam within 60 days of the course.",
-        "Fees: $140 application and $100 exam.",
-        "40 hours of CE every 2 years, with 8 hours on dementia, and no more than half self-paced.",
-        "Late renewal carries a $300 delinquency fee.",
-        "Administrator Certification Bureau: 916-653-9300, AdminCertInfo@dss.ca.gov."
+        "Post the license, resident rights, emergency exit plans and phone numbers, and the Ombudsman CRISISline 1-800-231-4024 with the local ombudsman number.",
+        "Pay the annual fee by each license anniversary: $495.60 (4-6 beds) or $742.80 (7-15). Late payment adds 50%.",
+        "Notify CDSS before changing capacity ($25) or relocating (50% of the application fee).",
+        "Fire clearance is needed before licensure and separately before accepting nonambulatory or bedridden residents (22 CCR §87202).",
+        "ASCP contact: (916) 657-2592. Advertising and license-number display follow 22 CCR §87206 (text not retrieved)."
       ]
     },
     {
       "id": "GOV-03",
       "category": "Governance and Administration",
-      "title": "Licensure, Posting and Regulatory Compliance",
+      "title": "Policy Review, Document Control and Quality Assurance",
+      "covers": [],
       "citations": [
-        "C12",
-        "C28",
-        "C36",
-        "C5",
-        "C2",
-        "C4",
-        "C34"
+        "C18",
+        "C7",
+        "C11"
       ],
       "federal": [],
       "state_specifics": [
-        "Post the license.",
-        "Post or make available a complete copy of the approved admission agreement (§87507(e)(2)).",
-        "Post emergency exit plans and telephone numbers (§87212(c)).",
-        "Post emergency agency numbers, visible to staff and residents (§87465(f)(2)).",
-        "Post the ombudsman CRISISline 1-800-231-4024 and the local ombudsman number (research S58).",
-        "Annual license fee is $495.60 for 4–6 beds and $742.80 for 7–15, due each anniversary, with a 50% late penalty (HSC §1569.185).",
-        "Fire clearance is required, and a separate one before accepting nonambulatory or bedridden residents (§87202).",
-        "Change of licensed capacity fee is $25. Notify CDSS before changing capacity or location.",
-        "Advertising and license-number display rules are in §87206 (text not retrieved)."
+        "Review all policies at least annually (facility standard). The infection control plan must be reviewed annually, after an outbreak declaration, or when the licensing agency asks.",
+        "Run quarterly internal mock inspections of medication records, personnel files (training, health screening, clearances), appraisals and admission agreements.",
+        "Trend incident, injury and grievance reports and record corrective actions.",
+        "Control versions: each policy shows an effective date and revision history, and a staff acknowledgment is kept."
       ]
     },
     {
       "id": "GOV-04",
       "category": "Governance and Administration",
-      "title": "Plan of Operation, Policy Review and Document Control",
+      "title": "Corporate Compliance, Fraud and Billing Integrity (including Assisted Living Waiver)",
+      "covers": [],
       "citations": [
-        "C11",
-        "C38",
-        "C31"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The plan of operation (§87208) must contain: purposes and goals; admission agreement; admission policies; administrative organization; staffing and training plan; dimensioned floor plan and grounds sketch (LIC 999); transportation; resident money; visiting policy; approach to behavioral expression; and infection control plan.",
-        "Job descriptions and personnel policies are LIC 281 attachments B4–B5.",
-        "Include an awake night shift duty statement.",
-        "Program flexibility requests fall under §87209 (text not retrieved).",
-        "Keep the manual on site; policies must be present for the pre-licensing inspection (research)."
-      ]
-    },
-    {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
-      "title": "Quality Assurance and Internal Compliance Review (facility-adopted; no state QAPI mandate verified)",
-      "citations": [
-        "C3",
-        "C4",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "No mandatory QAPI program for RCFEs was found in the verified sources. Keep this as an internal compliance policy.",
-        "Quarterly mock inspections (research checklist): medication records (§87465), personnel files for training, health screening and clearances (§87411), appraisals, and admission agreements (§87507).",
-        "Annual infection control plan review (§87470).",
-        "Track CDSS deficiencies and plans of correction."
-      ]
-    },
-    {
-      "id": "GOV-06",
-      "category": "Governance and Administration",
-      "title": "False Claims, Advertising Accuracy and Billing Integrity",
-      "citations": [
+        "C27",
         "C37",
-        "C36",
-        "C10",
-        "C5"
+        "C28"
       ],
       "federal": [
-        "42 CFR 441.301(c) (only if enrolled in the Assisted Living Waiver)"
+        "42 CFR 441.301(c)"
       ],
       "state_specifics": [
-        "§87207 False Claims and §87206 Advertisements (text not retrieved).",
-        "Dementia-care advertising requires the §87706 program; keep ads 3 years.",
-        "A separate charge is allowed only if listed in and authorized by the admission agreement (§87507(g)(3)(B)2).",
-        "Itemized monthly statement of charges (§87507(g)(3)(H)).",
-        "ALW residents pay their own room and board; waiver rates are billed only through DHCS-enrolled provider channels (research S68)."
+        "Do not make false claims or statements to licensing or payers (22 CCR §87207; text not retrieved).",
+        "If enrolled in the Medi-Cal Assisted Living Waiver (ALW): follow the DHCS provider agreement and tier rates. The waiver does not pay room and board; the resident pays it (typically the SSI/SSP basic rate of $1,444.07/month in 2026).",
+        "The HCBS settings rule applies only to ALW participants: a lease or agreement, privacy, choice, and access to food and visitors.",
+        "The DHCS enrollment packet is notarized (DHCS 6204, 6207, 6208) with a $750 CY2026 application fee. ALW providers need licensed nursing on call or employed, and an Individual Response System if housing more than 6 participants."
       ]
     },
     {
-      "id": "GOV-07",
-      "category": "Governance and Administration",
-      "title": "Liability Insurance, Workers' Compensation and Bonding",
-      "citations": [
-        "C26",
-        "C32",
-        "C16",
-        "C39"
+      "id": "RR-01",
+      "category": "Resident Rights",
+      "title": "Resident Rights and Responsibilities (Personal Rights and Discipline)",
+      "covers": [
+        "B8.1",
+        "B8.2"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Liability insurance of $1M per occurrence and $3M aggregate (HSC §1569.605).",
-        "Workers' compensation is required once the facility has employees (Labor Code §3700; WCIRB class 9070(1); research).",
-        "If resident cash is held, LIC 402 surety bond and LIC 400 affidavit are required (§87217; research). §87216 Bonding title confirmed only."
-      ]
-    },
-    {
-      "id": "GOV-08",
-      "category": "Governance and Administration",
-      "title": "Medi-Cal Assisted Living Waiver Participation and HCBS Settings Compliance (applies only if enrolled)",
       "citations": [
+        "C1",
+        "C47",
         "C27"
       ],
       "federal": [
         "42 CFR 441.301(c)"
       ],
       "state_specifics": [
-        "ALW operates only in 15 counties (Alameda, Contra Costa, Fresno, Kern, Los Angeles, Orange, Riverside, Sacramento, San Bernardino, San Diego, San Francisco, San Joaquin, San Mateo, Santa Clara, Sonoma).",
-        "Enrollment goes through DHCS: ProFacWAIVER@dhcs.ca.gov; WaiveProEnroll@dhcs.ca.gov.",
-        "The Medi-Cal enrollment packet includes a CY2026 application fee of $750 (research S65).",
-        "ALW providers need licensed nursing staff on call or employed. Facilities with more than 6 participants need an Individual Response System (research S47).",
-        "Tier rates run $95.69 (Tier 1) to $270.80 (Tier 5) per day. The waiver does not pay room and board. The SSI/SSP basic services rate is $1,444.07 a month (research).",
-        "HCBS settings elements: lease or agreement, privacy, choice, and access to food and visitors.",
-        "Federal EVV (42 USC 1396b(l)) is not shown to apply to RCFE residential services in the research."
-      ]
-    },
-    {
-      "id": "RR-01",
-      "category": "Resident Rights",
-      "title": "Resident Personal Rights and Responsibilities",
-      "citations": [
-        "C1",
-        "C47",
-        "C3"
-      ],
-      "federal": [
-        "ADA (Title III)"
-      ],
-      "state_specifics": [
-        "Implement all 18 rights in §87468.1(a) and post or distribute them as required. §87468 and §87468.2 (privately operated facilities) have titles confirmed only.",
-        "Residents may leave at any time and cannot be locked in. House rules such as locking doors at night or barring windows require Department permission (§87468.1(a)(6)).",
-        "Residents may keep and spend their own money, keep personal possessions, and have individual storage space, confidential phone calls and unopened mail.",
-        "Residents may receive or reject medical care and get help to vote.",
-        "Inform residents and representatives of the complaint procedure, including the CCLD complaint unit address and phone and the ombudsman.",
-        "Staff are trained on resident rights under §87411(c)(3)(C)."
+        "Post and give residents the 18 personal rights of 22 CCR §87468.1: dignity; freedom from punishment, humiliation, intimidation and abuse; leaving at any time and not being locked in; keeping and spending own money; phone, mail, voting and refusing care.",
+        "The facility cannot deny admission, transfer, discharge, room sharing, room or restroom assignment, preferred name or pronouns, or association based on actual or perceived sexual orientation, gender identity, gender expression or HIV status. The Department cannot waive these protections.",
+        "Staff are trained on personal rights (22 CCR §87411(c)(3)(C) cross-references §87468).",
+        "Discipline statement: no corporal or unusual punishment of any resident. The detailed LIC 281 B8 discipline-policy content is for group homes and FFAs only."
       ]
     },
     {
       "id": "RR-02",
       "category": "Resident Rights",
-      "title": "Grievances and Complaints (resident and neighborhood)",
+      "title": "Grievances, Complaints and Ombudsman Access",
+      "covers": [],
       "citations": [
         "C1",
         "C5",
-        "C31"
+        "C25"
       ],
-      "federal": [
-        "42 CFR 441.301(c) (if ALW)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "The admission agreement must announce the grievance procedure (§87507(g)(9)) and the right to contact CDSS and the ombudsman (§87507(g)(12)).",
-        "Procedures for residents to suggest policy changes must be specified (§87507(g)(8)(B)).",
-        "Residents must be told how to confidentially register complaints with CCLD, including the complaint receiving unit's address and phone (§87468.1(a)(4)).",
-        "Representatives' communications must be answered promptly (§87468.1(a)(9)).",
-        "Neighborhood complaint policy, LIC 281 attachment B15, is required when the owner does not live in a home serving 6 or fewer.",
-        "No retaliation against residents or staff who complain."
+        "The grievance procedure is in the admission agreement. Residents are told how to complain to CDSS Community Care Licensing and the ombudsman.",
+        "Ombudsmen and advocates may visit privately at reasonable hours without prior notice.",
+        "Post the Ombudsman CRISISline 1-800-231-4024 and the local ombudsman number. ASCP: (916) 657-2592.",
+        "Log each grievance, response and outcome. Never retaliate."
       ]
     },
     {
       "id": "RR-03",
       "category": "Resident Rights",
-      "title": "Long-Term Care Ombudsman and Licensing Agency Access",
+      "title": "Admission Agreement, Fees, Deposits and Refunds",
+      "covers": [],
       "citations": [
-        "C1",
         "C5",
-        "C7"
+        "C43"
       ],
-      "federal": [
-        "Older Americans Act (45 CFR 1324 Subpart A)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Ombudsmen and advocacy representatives may visit privately, during reasonable hours, without prior notice (§87468.1(a)(11)).",
-        "Post the CRISISline 1-800-231-4024 and the local ombudsman number.",
-        "Written notice to the State Long-Term Care Ombudsman within 2 business days of foreclosure, unlawful detainer, bankruptcy, rent default or utility shut-off notices (§87211(d)).",
-        "Abuse reports go to the local ombudsman as well as licensing and law enforcement (§87211(b),(c)).",
-        "The admission agreement must state the Department's authority to examine resident records (§87507(g)(6))."
+        "Individual written agreement in 12-point plain-language type with titled sections, signed and dated within 7 days of admission. Give a copy immediately and post a copy or notice of availability.",
+        "State basic and additional services, rates and payment terms, refund conditions, and preadmission fee limits and refunds.",
+        "Give 60 days' written notice of rate changes.",
+        "Include visiting and firearms policies, the grievance procedure, eviction grounds and notice rights (wording from 22 CCR §87224, not modified), and the right to contact CDSS and the ombudsman.",
+        "Attach LIC 9158 when the appraisal shows a hearing or other disability. No liability-waiver provisions."
       ]
     },
     {
       "id": "RR-04",
       "category": "Resident Rights",
-      "title": "Admission Agreement, Fees, Preadmission Fees, Rate Changes and Refunds",
+      "title": "Resident Funds, Personal Property and Theft and Loss",
+      "covers": [
+        "B14"
+      ],
       "citations": [
-        "C5",
-        "C28"
+        "C16",
+        "C31",
+        "C40",
+        "C39",
+        "C1"
       ],
       "federal": [],
       "state_specifics": [
-        "Agreement format: 12-point black type on plain white paper, one-sided, plain language, titled sections (§87507(a)(1)).",
-        "Signed and dated by resident or representative and the licensee within 7 days of admission. Give a copy immediately; keep the original and all modifications in the resident file.",
-        "Only one preadmission fee per admission. It must be refundable and described in writing. SSI/SSP recipients cannot be charged a preadmission fee or deposit. No damage deposits (§87507(g)(3)(C)).",
-        "Preadmission fee refund: 100% if the applicant decides not to enter before the preadmission appraisal, or if disclosure was not made. For fees above $500: at least 80% of the excess in month 1, 60% in month 2, 40% in month 3.",
-        "60 days' written notice of any rate or rate structure change, or as soon as notified of SSI/SSP changes. Rate change conditions are set under HSC §§1569.655 and 1569.657 as referenced in §87507.",
-        "Prepaid fees must be refunded as a proportional daily amount. If the resident gives 5 days' notice, refund at move-out. Otherwise refund within 7 days of vacating.",
-        "Refund of advance monthly fees on death follows HSC §1569.652 per §87507(g)(5)(A). Written notice goes to the payor if that is a different person.",
-        "Admission agreement must not contain liability waivers or prohibited provisions (§87507(h)).",
-        "LIC 9158 Telecommunications Device Notification for deaf, hearing-impaired or otherwise disabled residents (§87507(b)).",
-        "Blank agreement copies must be given to the public on request; copy fees at cost."
+        "Residents keep and spend their own money (22 CCR §87468.1). Decide whether the facility holds cash; if yes, file LIC 400/402.",
+        "Held cash: receipts, accounting records, and a separate account titled as residents' money, never commingled.",
+        "Theft and loss policy (B14): inventory of personal property at admission, modification of the inventory, safeguarding property on death, documentation and reporting of loss, method of marking, and a secure safekeeping area.",
+        "Keep the inventory in the resident record and give the resident a copy."
       ]
     },
     {
       "id": "RR-05",
       "category": "Resident Rights",
-      "title": "Resident Funds, Personal Property, Valuables, and Theft and Loss",
+      "title": "Advance Directives and Resuscitation Requests",
+      "covers": [],
       "citations": [
-        "C16",
-        "C39",
-        "C40",
-        "C31",
+        "C48",
+        "C4",
         "C1"
       ],
       "federal": [],
       "state_specifics": [
-        "Decide at licensing whether the facility will hold resident cash. If yes: LIC 400 affidavit, LIC 402 surety bond, receipts and accounting records, and a separate account titled as the residents' money with no commingling (§87217; research).",
-        "Withholding a resident's money as punishment is prohibited (§87468.1(a)(3)).",
-        "Written theft and loss policy is LIC 281 attachment B14. §87218 (title confirmed) is the regulatory section for theft and loss.",
-        "Residents may keep and spend their own money and keep personal possessions (§87468.1(a)(12))."
+        "Honor advance directives and resuscitative-measure requests per 22 CCR §87469 (text not retrieved; verify before publishing).",
+        "Staff call 9-1-1 for an imminent threat to health except where §87469(c)(2)-(4) applies (cross-referenced in §87465(g)).",
+        "Keep the directive or request in the resident record and make it available to staff and emergency responders.",
+        "Residents may refuse care (22 CCR §87468.1)."
       ]
     },
     {
       "id": "RR-06",
       "category": "Resident Rights",
-      "title": "Advance Directives and Resuscitative Measures",
+      "title": "Privacy, Confidentiality and HIPAA",
+      "covers": [],
       "citations": [
-        "C48",
-        "C4",
-        "C7"
+        "C1",
+        "C27"
       ],
       "federal": [
-        "Patient Self-Determination Act principles (not applicable to RCFE as a provider type; do not cite 42 CFR 484)"
+        "45 CFR 160",
+        "45 CFR 164"
       ],
       "state_specifics": [
-        "§87469 governs advance directives and requests regarding resuscitative measures (title confirmed; text not retrieved).",
-        "Call 9-1-1 immediately for an imminent threat to health, except as §87469(c)(2),(3),(4) provides (§87465(g)).",
-        "Report AED use to licensing within 7 days (§87211(a)(1)(C)).",
-        "Residents have the right to receive or reject medical care (§87468.1(a)(16))."
+        "Residents have privacy in phone, mail and visits (22 CCR §87468.1). Privacy is also an HCBS setting requirement for ALW participants.",
+        "HIPAA applies if the facility is a covered entity (for example it conducts standard electronic transactions, as in ALW billing). Designate a privacy officer and issue a Notice of Privacy Practices if so.",
+        "Release resident information only with consent or as the law permits, including to licensing, the ombudsman and emergency responders.",
+        "Secure paper and electronic records. Report breaches to the administrator."
       ]
     },
     {
       "id": "RR-07",
       "category": "Resident Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
+      "title": "Nondiscrimination and Language Access",
+      "covers": [],
       "citations": [
         "C1",
         "C5"
       ],
       "federal": [
-        "45 CFR 160",
-        "45 CFR 164.530 (only if the facility is a HIPAA covered entity, e.g., bills Medi-Cal electronically)"
+        "ADA, 42 USC 12101 et seq.",
+        "Title VI, 42 USC 2000d"
       ],
       "state_specifics": [
-        "Confidential phone calls and unopened correspondence (§87468.1(a)(14),(15)).",
-        "Records access is limited. The Department may examine resident records (§87507(g)(6)).",
-        "Representatives are regularly informed of care activities as appropriate (§87468.1(a)(8)).",
-        "The facility must decide whether it is a HIPAA covered entity; the verified sources do not establish this."
+        "No discrimination based on sexual orientation, gender identity, gender expression or HIV status in admission, transfer, discharge, room assignment or pronoun use (22 CCR §87468.1(b), not waivable).",
+        "Provide reasonable accommodation for disabilities, including LIC 9158 for hearing or other disabilities.",
+        "Provide interpreters or translated documents for residents with limited English proficiency."
       ]
     },
     {
-      "id": "RR-08",
-      "category": "Resident Rights",
-      "title": "Nondiscrimination, SOGI/HIV Protections and Language Access",
-      "citations": [
-        "C1",
-        "C5"
-      ],
-      "federal": [
-        "ADA",
-        "Title VI of the Civil Rights Act (42 USC 2000d), if federal financial assistance is received"
-      ],
-      "state_specifics": [
-        "No admission denial, transfer, discharge or eviction based on actual or perceived sexual orientation, gender identity, gender expression or HIV status (§87468.1(b)(1)).",
-        "Room sharing, transgender room assignment by gender identity, restroom access, preferred name and pronouns, clothing and cosmetics, association, and consensual relations are protected (§87468.1(b)(2)–(8)).",
-        "A facility-wide restriction or ban on sexual relations is allowed only if applied uniformly and notified in writing to residents, representatives and prospective residents before signing (§87468.1(b)(7)(A)).",
-        "The Department cannot waive these protections (§87468.1(d)).",
-        "Use LIC 9158 for hearing disabilities. The admission agreement must be understandable (§87507(a)(1)(B))."
-      ]
-    },
-    {
-      "id": "RR-09",
-      "category": "Resident Rights",
-      "title": "Resident Council",
-      "citations": [
-        "C42"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "§87221 Resident Councils (title confirmed; text not retrieved). Review the text before writing meeting frequency or staff-attendance rules.",
-        "The admission agreement must state how residents suggest policy changes (§87507(g)(8)(B))."
-      ]
-    },
-    {
-      "id": "ADM-01",
+      "id": "AD-01",
       "category": "Admission, Retention and Discharge",
-      "title": "Pre-Admission Appraisal, Suitability Evaluation and Admission Criteria",
+      "title": "Pre-Admission Screening, Appraisal and Reassessment",
+      "covers": [],
       "citations": [
         "C20",
         "C44",
-        "C6",
-        "C11",
-        "C1"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Pre-admission appraisal covers interview, functional, mental and social evaluation, consent, and suitability against admission criteria before admission (§87457). Related: §87456 suitability and §87455 acceptance limits (titles confirmed).",
-        "Applicants may visit before residence with their representatives (§87468.1(a)(7)).",
-        "The appraisal triggers LIC 9158 if the person is deaf, hearing-impaired or disabled (§87507(b)).",
-        "Disclose any preadmission fee and refund terms before payment (§87507(g)(3)(C)).",
-        "Prospective residents must be told in writing, before signing, of foreclosure, bankruptcy, eviction or utility events (§87211(e)).",
-        "Admission policies are part of the plan of operation (§87208)."
-      ]
-    },
-    {
-      "id": "ADM-02",
-      "category": "Admission, Retention and Discharge",
-      "title": "Resident Assessment and Reassessment",
-      "citations": [
         "C45",
-        "C20",
-        "C3"
+        "C5",
+        "C6"
       ],
       "federal": [],
       "state_specifics": [
-        "Required components, by section title: medical assessment (§87458), functional capabilities (§87459), mental condition (§87461), social factors (§87462) and reappraisals (§87463). Text not retrieved; confirm timelines before publishing.",
-        "Dementia night-supervision need is determined by appraisal, reappraisal or observation (§87705).",
-        "Staff must observe residents and recognize early signs of illness (§87411(d)(5); §87466 title)."
+        "Before admission, complete a pre-admission appraisal: interview, functional, mental and social evaluation, consent, and a suitability determination against admission criteria (22 CCR §87457).",
+        "Obtain a physician medical assessment and record functional capabilities, mental condition and social factors (22 CCR §§87458-87462; text not retrieved).",
+        "Reappraise per §87463 and when staff observe a change. Reappraisal also drives awake night supervision for residents with dementia (22 CCR §87705).",
+        "Screen for prohibited conditions (22 CCR §87615) before accepting any resident."
       ]
     },
     {
-      "id": "ADM-03",
+      "id": "AD-02",
       "category": "Admission, Retention and Discharge",
-      "title": "Individualized Service Plan",
+      "title": "Needs and Services Plan",
+      "covers": [],
       "citations": [
         "C46",
-        "C5",
-        "C45"
+        "C20",
+        "C5"
       ],
-      "federal": [
-        "42 CFR 441.301(c) (person-centered planning for ALW residents)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "The admission agreement must explain how third-party services relate to the resident's service plan (§87507(g)(3)(B)6).",
-        "Basic services are listed in §87464 (title confirmed; text not retrieved).",
-        "§87467 requires resident participation in decisionmaking (title confirmed).",
-        "Representatives are regularly informed of ongoing evaluations (§87468.1(a)(8))."
+        "Use the California term 'needs and services plan'. Base it on the appraisal.",
+        "Provide the basic services (22 CCR §87464; list in LIC 604/604A) and any additional services in the admission agreement.",
+        "Involve the resident and representative in decisions (22 CCR §87467). Staff observe the resident and note changes (§87466).",
+        "Update the plan at each reappraisal or change in condition."
       ]
     },
     {
-      "id": "ADM-04",
+      "id": "AD-03",
       "category": "Admission, Retention and Discharge",
-      "title": "Retention Limits and Prohibited Health Conditions",
+      "title": "Retention Limits and Conditions the Facility Cannot Serve",
+      "covers": [],
       "citations": [
         "C6",
         "C44",
-        "C12",
-        "C53"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Cannot admit or retain residents with: stage 3 or 4 pressure injuries; gastrostomy tubes; naso-gastric tubes; staph or other serious infection; total dependence on others for all ADLs; or tracheostomies (§87615(a)(1)–(6)).",
-        "The list is not exhaustive.",
-        "Exceptions and Department review are in §87616 and §87617 (titles confirmed).",
-        "Department health condition relocation orders are in §87637 (title confirmed)."
-      ]
-    },
-    {
-      "id": "ADM-05",
-      "category": "Admission, Retention and Discharge",
-      "title": "Allowable and Restricted Health Conditions, Bedridden and Nonambulatory Residents (CA-specific addition)",
-      "citations": [
         "C53",
-        "C52",
         "C12",
-        "C34",
-        "C22"
+        "C19",
+        "C55"
       ],
       "federal": [],
       "state_specifics": [
-        "Allowable and restricted health conditions are in §§87609, 87611, 87612, 87613; these include home health agency use (§87609). Titles confirmed; text not retrieved.",
-        "Specific condition sections (titles confirmed): oxygen §87618, IPPB §87619, colostomy/ileostomy §87621, enemas/suppositories §87622, indwelling catheter §87623, managed incontinence §87625, contractures §87626, diabetes §87628, injections §87629, healing wounds §87631.",
-        "Care of bedridden residents: §87606. A separate fire clearance is required before accepting or keeping nonambulatory or bedridden residents (§87202).",
-        "Staff must receive 4 hours of training on postural supports, restricted conditions and hospice before working alone (HSC §1569.625).",
-        "Ambulatory-status limits: §87204."
+        "Cannot admit or retain residents who need health services for, or have: stage 3-4 pressure injuries, gastrostomy tubes, naso-gastric tubes, staph or other serious infection, total dependence on others for all ADLs, or tracheostomies (the list is not exhaustive).",
+        "Allowable and restricted health conditions and exceptions follow 22 CCR §§87609-87617 (text not retrieved).",
+        "Get a separate fire clearance before accepting or keeping nonambulatory or bedridden residents.",
+        "Hospice residents are served under an approved hospice care waiver (22 CCR §87632)."
       ]
     },
     {
-      "id": "ADM-06",
+      "id": "AD-04",
       "category": "Admission, Retention and Discharge",
-      "title": "Eviction, Discharge, Transfer and Relocation Notice",
+      "title": "Discharge, Transfer and Relocation Notice",
+      "covers": [],
       "citations": [
         "C43",
         "C5",
@@ -887,36 +1101,17 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Eviction grounds in the admission agreement must come only from state law or regulation, be worded exactly as shown there, and not be modified, except general house policies under §87224(a)(3) (§87507(g)(10); §87224).",
-        "The agreement must explain the resident's notice rights (HSC §§1569.682, 1569.683, as referenced in §87507), the process to file a complaint with the Department about the eviction, the relocation assistance offered, and the licensee's closure-plan responsibilities.",
-        "Cannot evict, transfer or discharge based on sexual orientation, gender identity, gender expression or HIV status (§87468.1(b)(1)).",
-        "If the Department orders relocation (§87223), the resident is not held to advance-notice terms. Refund what would have been owed had notice been given (§87507(g)(5)(B)).",
-        "Pay prepaid fee refunds on closure, sale or license forfeiture as specified (§87507(g)(5)(C),(D)). Preadmission fee refunds on forfeiture or closure must be paid within 15 days of issuing the notice.",
-        "Health condition relocation orders and the resident's right to request review: §§87637, 87638, 87639 (titles confirmed)."
+        "Eviction grounds and procedures follow 22 CCR §87224 and may not be modified (§87507(g)(10)); full text not retrieved.",
+        "The admission agreement states eviction grounds and notice rights and the right to contact CDSS and the ombudsman.",
+        "Department-ordered relocation follows §87223. Health-condition relocation orders and resident review requests follow §§87637-87639.",
+        "Residents may move out at any time (22 CCR §87468.1). No transfer or discharge on the basis of sexual orientation, gender identity, expression or HIV status."
       ]
     },
     {
-      "id": "HCS-01",
+      "id": "HS-01",
       "category": "Health and Care Services",
-      "title": "Medication Management, Storage and Disposal",
-      "citations": [
-        "C4",
-        "C11"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Centrally store medications when refrigeration is needed and the resident has no private refrigerator, when the physician deems the medication hazardous in personal possession, or when it is a safety hazard to others (§87465(h)(1)).",
-        "Store centrally stored medications in a locked place accessible only to responsible employees, in the original container, with no transfers between containers. Only the dispensing pharmacist may alter a label (§87465(h)(2)–(5)).",
-        "Keep the record of centrally stored prescription medications for at least 1 year: resident, prescriber, drug, strength, quantity, fill date, Rx number and pharmacy, and custody instructions (§87465(h)(6)).",
-        "Destroy leftover prescription medications at the facility by the administrator and one other non-resident adult. Both sign a record kept at least 3 years listing resident, Rx number and pharmacy, drug, strength and quantity, and date. Hospice disposal procedures apply to hospice patients (§87465(i)).",
-        "Maintain a record of dosages of centrally stored medications when requested by the physician or Department (§87465(a)(6)).",
-        "Facilities of 16+ designate staff with primary responsibility for first aid and medication assistance (§87465(j))."
-      ]
-    },
-    {
-      "id": "HCS-02",
-      "category": "Health and Care Services",
-      "title": "Assistance with Self-Administered Medications and Staff Authorization (no administration by staff)",
+      "title": "Medication Management, Assistance, Storage and Disposal",
+      "covers": [],
       "citations": [
         "C4",
         "C24",
@@ -924,690 +1119,1340 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Staff may only assist with self-administered medications: those usually prescribed for self-administration and authorized by the physician, temporary minor illness, and tremor or failing eyesight (§87465(a)(5)). Staff may not give injections unless authorized by law.",
-        "Forbidden: forcing medications, hiding or camouflaging them without consent, or infringing the right to refuse (§87465(a)(5)(D)).",
-        "PRN medication: written physician order on a prescription blank, signed and dated, with symptoms, exact dose, minimum hours between doses and maximum doses per 24 hours; the label must match (§87465(e)).",
-        "If the resident cannot decide on PRN need but can communicate symptoms, the physician directions must include a discontinuation time or circumstance and when to recontact the physician. Record each dose with date, time, dose and response (§87465(c)).",
-        "If the resident can neither decide nor communicate symptoms, staff must call the physician before every dose and document the call (§87465(d)).",
-        "Staff training: homes of 15 or fewer need 10 hours initial (6 hands-on before assisting, 4 within 2 weeks) plus an exam, and 8 hours annually. Homes of 16+ need 24 hours initial (16 hands-on, 8 within 4 weeks) plus an exam, and 8 hours annually (HSC §1569.69).",
-        "Staff need knowledge to safely assist with self-administered medications (§87411(d)(4))."
+        "Staff assist only with self-administered medications and give no injections unless authorized by law. Never force, hide or camouflage medications.",
+        "PRN orders: signed and dated physician order on a prescription blank stating symptoms, exact dose, minimum hours between doses and maximum doses per 24 hours.",
+        "Central storage in a locked place, in the original container. Keep the medication record at least 1 year.",
+        "Destruction is done by the administrator and one other non-resident adult. Keep the record at least 3 years.",
+        "Medication-assist staff: 10 hours initial training (6 hands-on before assisting) plus an exam for homes of 15 or fewer; 8 hours annually."
       ]
     },
     {
-      "id": "HCS-03",
+      "id": "HS-02",
       "category": "Health and Care Services",
-      "title": "Incidental Medical and Dental Care and Emergency Response",
+      "title": "Incidental Medical Care, Nursing Oversight and Delegation",
+      "covers": [],
       "citations": [
         "C4",
-        "C7"
+        "C52",
+        "C54",
+        "C6"
       ],
       "federal": [],
       "state_specifics": [
-        "Written plan for incidental medical and dental care: arrange or assist with care, and provide transportation, which may be limited to the nearest available facility that meets the need (§87465(a)).",
-        "Staff must know how to use residents' prosthetics, hearing aids and vision aids (§87465(a)(3)).",
-        "Complete first aid kit in a specific location, with a manual, sterile dressings, bandages, scissors, tweezers and thermometers (§87465(a)(8)).",
-        "Physician and dentist contact information readily available. Post emergency agency numbers. Ambulance service number readily available (§87465(f)).",
-        "Call 9-1-1 immediately for an imminent threat to health (§87465(g)).",
-        "Report AED use to licensing within 7 days (§87211(a)(1)(C))."
+        "Maintain a plan for incidental medical and dental care (22 CCR §87465). RCFE staff do not perform services outside allowable health conditions.",
+        "Healing wounds and care of bedridden residents follow 22 CCR §§87631 and 87606 (text not retrieved; verify before publishing).",
+        "ALW providers need licensed nursing on call or employed.",
+        "Keep a first aid kit, post emergency numbers and keep an ambulance number available."
       ]
     },
     {
-      "id": "HCS-04",
-      "category": "Health and Care Services",
-      "title": "Licensed Professionals, Home Health Agencies and Limits on Staff Nursing Tasks",
-      "citations": [
-        "C3",
-        "C4",
-        "C53",
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "RCFE staff are not licensed nursing staff. Services requiring specialized skills must be performed by personnel qualified by training or experience (§87411(h)).",
-        "Staff may not give injections unless authorized by law (§87465(a)(5)).",
-        "Use of home health agencies for allowable health conditions: §87609 (title confirmed; text not retrieved).",
-        "If enrolled in the ALW: licensed nursing staff on call or employed; LVN oversight (research S47).",
-        "Federal home health Conditions of Participation (42 CFR 484) do not apply to an RCFE."
-      ]
-    },
-    {
-      "id": "HCS-05",
+      "id": "HS-03",
       "category": "Health and Care Services",
       "title": "Change of Condition, Physician Notification and Hospital Transfer",
+      "covers": [],
       "citations": [
-        "C45",
-        "C46",
-        "C4",
         "C7",
-        "C5"
+        "C4",
+        "C45",
+        "C6"
       ],
       "federal": [],
       "state_specifics": [
-        "Observe residents and recognize early signs of illness (§87411(d)(5); §87466 title).",
-        "Call 9-1-1 for an imminent threat (§87465(g)).",
-        "Any serious injury (as determined by the attending physician) or incident threatening welfare, safety or health: written report within 7 days to licensing and the person responsible (§87211(a)(1)).",
-        "Reappraisal after a change (§87463, title confirmed).",
-        "Check §87615 prohibited conditions and §87637 relocation orders before readmission.",
-        "Document physician contact for PRN decisions (§87465(d))."
+        "Call 9-1-1 for any imminent threat to health.",
+        "Notify the physician and the person responsible for the resident. Send a written report to CDSS and the responsible person within 7 days of a death, a serious injury as determined by the physician, or an incident threatening health or safety.",
+        "Reappraise after any change of condition and recheck against prohibited conditions (22 CCR §87615).",
+        "Outbreaks, poisonings and major accidents: report to licensing and the local health officer within 24 hours."
       ]
     },
     {
-      "id": "HCS-06",
+      "id": "HS-04",
       "category": "Health and Care Services",
       "title": "Dementia and Memory Care",
+      "covers": [],
       "citations": [
         "C9",
         "C10",
         "C23",
-        "C22",
         "C8"
       ],
       "federal": [],
       "state_specifics": [
-        "Homes under 16 beds must have at least one awake night staff person when a dementia resident needs awake supervision (§87705).",
-        "Dementia training for direct care staff: 12 hours initial and 8 hours annually (research; HSC §1569.626). The first 20 hours before working alone include 6 hours dementia; the second 20 within 4 weeks include 6 more.",
-        "If dementia care is advertised, maintain the §87706 program covering philosophy, admission, training, activities, environment, changes in condition and success indicators. Keep ads for 3 years.",
-        "Administrator CE includes 8 hours on dementia (HSC §1569.616).",
-        "Plan of operation includes the approach to resident behavioral expression (§87208).",
-        "Staff training includes recognizing signs of dementia (§87411(c)(3)(F))."
+        "In homes under 16 beds, at least one night staff person is awake and on duty when a resident with dementia needs awake night supervision (per appraisal, reappraisal or observation).",
+        "A facility advertising dementia care must have a written dementia program (philosophy, admission, training, activities, environment, changes in condition, success indicators). Keep advertisements for 3 years.",
+        "Direct care staff: 12 hours initial and 8 hours annual dementia training (HSC §§1569.625, 1569.626).",
+        "Administrator CE includes 8 hours dementia."
       ]
     },
     {
-      "id": "HCS-07",
+      "id": "HS-05",
       "category": "Health and Care Services",
-      "title": "Falls Prevention",
-      "citations": [
-        "C7",
-        "C13",
-        "C14",
-        "C46"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A serious injury under facility supervision (as determined by the physician) requires a written report to licensing and the person responsible within 7 days (§87211(a)(1)(B)).",
-        "Call 9-1-1 for an imminent threat (§87465(g)).",
-        "Physical plant: non-slip surfaces, grab bars at toilets, tubs and showers, and emergency lighting (research checklist, §87303).",
-        "Observation of residents: §87466 (title confirmed).",
-        "Check resident reappraisal after falls (§87463)."
-      ]
-    },
-    {
-      "id": "HCS-08",
-      "category": "Health and Care Services",
-      "title": "Skin Integrity and Pressure Injuries",
+      "title": "Falls Prevention and Skin Integrity",
+      "covers": [],
       "citations": [
         "C6",
+        "C52",
         "C54",
-        "C53"
+        "C14"
       ],
       "federal": [],
       "state_specifics": [
-        "Stage 3 and 4 pressure injuries are prohibited conditions: no admission or retention (§87615(a)(1)).",
-        "Healing wounds: §87631 (title confirmed; text not retrieved).",
-        "Staff training on personal care, including bathing and toileting (§87411(c)(3)(B)).",
-        "Residents have the right to appropriate care that does not cause avoidable discomfort (§87468.1(b)(8))."
+        "Stage 3-4 pressure injuries cannot be admitted or retained (22 CCR §87615).",
+        "Assess fall and skin risk at appraisal and reappraisal, and record it in the needs and services plan.",
+        "Physical plant: grab bars at toilets, tubs and showers, non-slip surfaces and emergency lighting (22 CCR §87303).",
+        "Postural supports follow 22 CCR §87608; staff get 4 hours of training on postural supports/restricted conditions/hospice."
       ]
     },
     {
-      "id": "HCS-09",
+      "id": "HS-06",
       "category": "Health and Care Services",
-      "title": "Hospice and Home Health Coordination",
+      "title": "Hospice, Home Health Coordination and Death of a Resident",
+      "covers": [],
       "citations": [
         "C19",
         "C54",
         "C2",
-        "C4",
-        "C22"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A hospice care waiver is required. Submit a written request stating the maximum number of hospice residents; CDSS decides within 30 days of an acceptable request (§87632).",
-        "Hospice care for terminally ill residents: §87633 (title confirmed; text not retrieved).",
-        "Notify the resident's hospice agency on evacuation or relocation (§87212(b)(3)).",
-        "Dispose of a hospice resident's medications per the hospice's procedures (§87465(i)).",
-        "Direct care staff need 4 hours of training on postural supports, restricted conditions and hospice (HSC §1569.625)."
-      ]
-    },
-    {
-      "id": "HCS-10",
-      "category": "Health and Care Services",
-      "title": "Death of a Resident",
-      "citations": [
         "C7",
-        "C5",
         "C4"
       ],
       "federal": [],
       "state_specifics": [
-        "Death of any resident from any cause, wherever it occurs (including a hospital, in transit or away from the facility), requires a written report to licensing and the person responsible within 7 days (§87211(a)(1)(A)). The report must include resident name, age, sex, date of admission; date and nature of event; attending physician's name, findings and treatment; and disposition.",
-        "Refund prepaid fees per the admission agreement and HSC §1569.652. Written notice to the payor if different from the responsible person (§87507(g)(5)(A)).",
-        "Destroy unreturned medications with the two-signature log kept for 3 years (§87465(i)).",
-        "Coordinate with the hospice agency if applicable.",
-        "Update the register of residents (§87508)."
+        "Hospice waiver: written request stating the maximum number of hospice residents. CDSS decides within 30 days of an acceptable request (22 CCR §87632). Hospice care also follows §87633.",
+        "Notify the resident's hospice agency on evacuation or relocation (22 CCR §87212).",
+        "Report a death in writing to licensing and the person responsible within 7 days.",
+        "On death, safeguard personal property under the theft and loss policy and inventory it.",
+        "Coordinate home health and hospice care plans with the needs and services plan."
       ]
     },
     {
-      "id": "SAF-01",
+      "id": "SP-01",
       "category": "Safety and Protection",
       "title": "Abuse, Neglect and Exploitation Prevention and Reporting",
+      "covers": [],
       "citations": [
         "C25",
         "C7",
-        "C1",
-        "C15"
-      ],
-      "federal": [
-        "42 CFR 441.301(c) (if ALW)"
-      ],
-      "state_specifics": [
-        "Use W&I §15630. Do not use the Lanterman Act.",
-        "Suspected physical abuse of an elder or dependent adult: report to the local ombudsman, licensing agency and local law enforcement within 2 hours if it results in serious bodily injury, otherwise within 24 hours (§87211(b),(c)). Written follow-up on SOC 341.",
-        "Psychological abuse by staff or residents, or any incident threatening welfare, safety or health: written report to licensing and the person responsible within 7 days (§87211(a)(1)(D)).",
-        "Residents have the right to be free from punishment, humiliation, intimidation and abuse (§87468.1(a)(3)).",
-        "Criminal record clearance before employment or presence (§87411(g); §87355).",
-        "Post the ombudsman CRISISline 1-800-231-4024."
-      ]
-    },
-    {
-      "id": "SAF-02",
-      "category": "Safety and Protection",
-      "title": "Incident, Accident and Unusual Incident Reporting",
-      "citations": [
-        "C7",
-        "C4"
+        "C1"
       ],
       "federal": [],
       "state_specifics": [
-        "Written report within 7 days to licensing and the person responsible for: death, physician-determined serious injury, AED use, and any incident threatening welfare, safety or health (§87211(a)(1)).",
-        "Epidemic outbreaks, poisonings, catastrophes and major accidents: report within 24 hours by phone or fax to licensing and, when appropriate, the local health officer (§87211(a)(2)).",
-        "Fires and explosions: report immediately to the local fire authority and no later than the next working day to licensing (§87211(a)(3)).",
-        "Reports must include resident name, age, sex, admission date, date and nature of event, physician findings and treatment, and disposition.",
-        "Call 9-1-1 for an imminent threat (§87465(g)).",
-        "Keep incident reports with a copy of the notification to the responsible person."
+        "Staff are mandated reporters under W&I Code §15630. Use W&I §15630, not the Lanterman Act.",
+        "Report suspected physical abuse to the local ombudsman, licensing agency and local law enforcement within 2 hours if there is serious bodily injury, otherwise within 24 hours (22 CCR §87211(b),(c)). Follow with the written SOC 341.",
+        "Ombudsman CRISISline: 1-800-231-4024. Residents are free from abuse, humiliation and intimidation (22 CCR §87468.1).",
+        "Protect residents from further harm, preserve evidence and never retaliate."
       ]
     },
     {
-      "id": "SAF-03",
+      "id": "SP-02",
       "category": "Safety and Protection",
-      "title": "Elopement, Unexplained Absence and Missing Resident",
+      "title": "Incident and Accident Reporting",
+      "covers": [],
       "citations": [
-        "C7",
-        "C4",
-        "C1",
-        "C9"
+        "C7"
       ],
       "federal": [],
       "state_specifics": [
-        "Unexplained absence of any resident is a reportable incident: written report within 7 days to licensing and the person responsible (§87211(a)(1)(D)).",
-        "Call 9-1-1 if the absence creates an imminent threat to health (§87465(g)).",
-        "Residents may leave at any time and cannot be locked in. Door locking at night or window barring requires Department permission (§87468.1(a)(6)).",
-        "Awake night supervision for dementia residents who need it (§87705).",
-        "Search and notification procedures are facility-defined; no state-prescribed search steps were verified."
+        "Written report to licensing and the responsible person within 7 days of any death, physician-determined serious injury, AED use, or incident threatening welfare, safety or health (including unexplained absence or psychological abuse).",
+        "Outbreaks, poisonings, catastrophes and major accidents: phone or fax to licensing and the local health officer within 24 hours.",
+        "Fires and explosions: immediately to the local fire authority and by the next working day to licensing.",
+        "Written notice within 2 business days of foreclosure, unlawful detainer, bankruptcy, rent default or utility shut-off notice. Civil penalty is $100 per day up to $2,000."
       ]
     },
     {
-      "id": "SAF-04",
+      "id": "SP-03",
+      "category": "Safety and Protection",
+      "title": "Elopement and Missing Resident",
+      "covers": [],
+      "citations": [
+        "C7",
+        "C1",
+        "C9",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Residents may leave at any time and cannot be locked in (22 CCR §87468.1).",
+        "Identify residents at risk of wandering at appraisal and provide awake night supervision when a resident with dementia needs it.",
+        "Search immediately, call law enforcement and notify the responsible person. Report an unexplained absence in writing within 7 days (22 CCR §87211).",
+        "Night staff must know the emergency plan."
+      ]
+    },
+    {
+      "id": "SP-04",
       "category": "Safety and Protection",
       "title": "Restraints, Postural Supports and Restrictive Practices",
+      "covers": [],
       "citations": [
         "C1",
         "C52",
-        "C22"
-      ],
-      "federal": [
-        "42 CFR 441.301(c) (HCBS modifications must be documented, if ALW)"
-      ],
-      "state_specifics": [
-        "Residents have the right to be free from punishment and intimidation and from interference with eating, sleeping or elimination (§87468.1(a)(3)).",
-        "Residents cannot be locked into any room, building or premises (§87468.1(a)(6)).",
-        "Postural supports are governed by §87608 (title confirmed; text not retrieved).",
-        "Staff training on postural supports is 4 hours before working alone (HSC §1569.625).",
-        "Chemical restraint: staff may not hide or camouflage medications or force them (§87465(a)(5)(D))."
-      ]
-    },
-    {
-      "id": "SAF-05",
-      "category": "Safety and Protection",
-      "title": "Emergency Preparedness and Disaster Plan",
-      "citations": [
-        "C2",
-        "C4",
-        "C7"
+        "C22",
+        "C4"
       ],
       "federal": [],
       "state_specifics": [
-        "Written disaster and mass casualty plan, readily available to the Department (§87212(a),(b)).",
-        "Required elements: administrative authority and staff assignments; fire safety plan; means of exiting; assembly at a predetermined evacuation site; transportation arrangements; relocation sites equipped for safe temporary accommodation; supervision during evacuation and contact after relocation; contact with fire, law enforcement, civil defense and disaster authorities; hospice notification (§87212(b)).",
-        "Post emergency exit plans and telephone numbers (§87212(c)).",
-        "LIC 610E is the application form for the plan.",
-        "Report catastrophes and major accidents within 24 hours (§87211(a)(2)).",
-        "Night staff must know the emergency plan (§87415)."
+        "Residents are free from punishment, humiliation and intimidation, may refuse care and cannot be locked in (22 CCR §87468.1).",
+        "Postural supports follow 22 CCR §87608 (text not retrieved). Staff get 4 hours of postural supports/restricted conditions/hospice training before working alone and annually.",
+        "Never force, hide or camouflage medications (chemical restraint prohibited in practice).",
+        "Document and review any restrictive intervention with the physician and responsible person."
       ]
     },
     {
-      "id": "SAF-06",
+      "id": "SP-05",
       "category": "Safety and Protection",
-      "title": "Fire Safety, Clearance, Evacuation and Drills",
+      "title": "Emergency Preparedness and Disaster Plan",
+      "covers": [],
+      "citations": [
+        "C2",
+        "C12",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a written, readily available disaster and mass casualty plan (LIC 610E) with staff assignments, fire safety plan, exits, assembly site, transportation and relocation sites equipped for temporary stay.",
+        "Cover supervision during evacuation, contact after relocation, contact with fire, law enforcement and disaster agencies, and hospice notification.",
+        "Post emergency exit plans and telephone numbers.",
+        "Night staff know the emergency plan and are first-aid trained (22 CCR §87415)."
+      ]
+    },
+    {
+      "id": "SP-06",
+      "category": "Safety and Protection",
+      "title": "Fire Safety, Evacuation and Drills",
+      "covers": [],
       "citations": [
         "C12",
         "C33",
-        "C34",
-        "C2",
-        "C7"
+        "C14"
       ],
       "federal": [],
       "state_specifics": [
-        "Fire clearance from the local fire authority is required before licensure, and a separate clearance before accepting or keeping nonambulatory or bedridden residents (§87202). No fire-inspection fee for homes of 6 or fewer (HSC §1569.84).",
-        "Fire safety plan and means of exiting are part of the disaster plan (§87212(b)(2)).",
-        "Fires and explosions: report immediately to the local fire authority and by the next working day to licensing (§87211(a)(3)).",
-        "Fire safety rules are in §87203 and capacity and ambulatory limits in §87204 (titles confirmed). Drill frequency and equipment standards were not retrieved. Read §87203 before writing them."
+        "Fire clearance is required before licensure and separately for nonambulatory or bedridden residents.",
+        "Fire safety, drills and extinguisher requirements follow 22 CCR §87203 (text not retrieved; confirm drill frequency before publishing).",
+        "Keep exit routes clear, emergency lighting working and exit plans posted.",
+        "No fire-inspection fee may be charged for homes of 6 or fewer (HSC §1569.84).",
+        "Keep fire drill logs on file."
       ]
     },
     {
-      "id": "SAF-07",
+      "id": "SP-07",
       "category": "Safety and Protection",
-      "title": "Infection Prevention and Control Plan",
+      "title": "Infection Prevention and Control",
+      "covers": [],
       "citations": [
         "C18",
         "C3",
-        "C4"
+        "C7"
       ],
       "federal": [
-        "OSHA 29 CFR 1910.1030 (bloodborne pathogens; employees with occupational exposure)"
+        "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "Written infection control plan (LIC 9282) with an Infection Control Lead trained by a qualified professional (§87470).",
-        "Initial and ongoing staff training. Review annually, after an outbreak declaration, or at the licensing agency's request (§87470).",
-        "Staff training includes infection control (§87411(c)(3)(B)); the licensee must maintain infection control practices (§87465(a)(9)).",
-        "Serious infections such as staph are prohibited conditions (§87615(a)(4)).",
-        "Report outbreaks within 24 hours to licensing and the local health officer (§87211(a)(2)).",
-        "TB screening for staff: see STF-04."
+        "Written infection control plan (LIC 9282) naming an Infection Control Lead trained by a qualified professional.",
+        "Set initial and ongoing staff training. Review the plan annually, after an outbreak declaration, or when licensing asks.",
+        "Staff TB screening: chest x-ray or intradermal test within 6 months before or 7 days after employment.",
+        "Report outbreaks within 24 hours to licensing and the local health officer."
       ]
     },
     {
-      "id": "SAF-08",
+      "id": "SP-08",
       "category": "Safety and Protection",
-      "title": "Smoking, Visitors, Pets and Firearms",
+      "title": "Smoking, Visitors and Pets",
+      "covers": [],
       "citations": [
+        "C5",
         "C1",
-        "C5"
+        "C11",
+        "C27"
       ],
-      "federal": [],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
       "state_specifics": [
-        "The visiting policy follows HSC §1569.313 and must be in the admission agreement (§87507(g)(7)). Residents have the right to be told it (§87468.1(a)(10)).",
-        "Visitors, including ombudsmen and advocacy representatives, may visit privately during reasonable hours without prior notice if other residents' rights are not infringed (§87468.1(a)(11)).",
-        "Policy on firearms retained by residents must be in the admission agreement. If permitted, store per HSC §1569.282 (§87507(g)(8)(C)).",
-        "Facility house policies must be reasonable and not violate rights (§87507(g)(8)(A)).",
-        "No smoking or pet regulations were verified. Draft per local ordinance and the plan of operation."
+        "State the visiting policy in the plan of operation and admission agreement.",
+        "State the firearms policy in the admission agreement.",
+        "Ombudsmen and advocates may visit privately without prior notice.",
+        "ALW participants have access to visitors under the HCBS settings rule.",
+        "Smoking and pet rules are facility policy; keep them consistent with fire safety and infection control."
       ]
     },
     {
       "id": "DL-01",
       "category": "Daily Living",
-      "title": "Food Service, Sample Menu and Therapeutic Diets",
+      "title": "Food Service, Therapeutic Diets and Sample Menu",
+      "covers": [
+        "B10.1",
+        "B10.2",
+        "B10.3"
+      ],
       "citations": [
         "C56",
         "C31",
-        "C3"
+        "C27"
       ],
       "federal": [
-        "42 CFR 441.301(c) (access to food, if ALW)"
+        "42 CFR 441.301(c)"
       ],
       "state_specifics": [
-        "Food Services regulations are in Article 10 of Chapter 8. No section number was retrieved; verify before citing.",
-        "A sample menu is required with the application (LIC 281 B10).",
-        "Staff need knowledge of good nutrition, food preparation and storage, and menu planning (§87411(d)(1)).",
-        "Plan of operation includes a food service description (research S23).",
-        "Under HCBS, residents must have access to food (if ALW)."
+        "Sample menu (B10): one week of planned meals and snacks using the four basic food groups, with portion sizes and meal times.",
+        "Food service requirements are in 22 CCR Div. 6, Ch. 8, Art. 10 (section numbers not retrieved; pull the text before finalizing storage and therapeutic diet content).",
+        "Therapeutic diets only on a physician's order.",
+        "ALW participants have access to food under the HCBS settings rule."
       ]
     },
     {
       "id": "DL-02",
       "category": "Daily Living",
       "title": "Activities and Social Programming",
+      "covers": [],
       "citations": [
         "C41",
-        "C3",
-        "C9"
+        "C42",
+        "C10",
+        "C11"
       ],
       "federal": [],
       "state_specifics": [
-        "Planned activities: §87219 (title confirmed; text not retrieved).",
-        "Staff need knowledge of psychosocial needs such as recreation, companionship and independence (§87411(c)(3)(E)).",
-        "Residents may attend religious services of their choice voluntarily (§87468.1(a)(5)).",
-        "Dementia program (if advertised) must cover activities (§87706)."
+        "Planned activities follow 22 CCR §87219 (text not retrieved). Keep a daily schedule and a monthly calendar stating who plans and conducts each.",
+        "Resident councils follow 22 CCR §87221 (text not retrieved).",
+        "A facility advertising dementia care includes activities in its written dementia program.",
+        "Tailor activities to appraisals and the needs and services plan."
       ]
     },
     {
       "id": "DL-03",
       "category": "Daily Living",
-      "title": "Housekeeping, Laundry, Maintenance and Physical Plant",
+      "title": "Housekeeping, Laundry and Maintenance",
+      "covers": [],
       "citations": [
         "C14",
-        "C13",
-        "C3",
-        "C1"
+        "C13"
       ],
       "federal": [],
       "state_specifics": [
-        "Resident rooms heated to 68°F minimum; hot water 105–120°F (§87303).",
-        "No more than 2 residents per bedroom; at least 1 toilet and washbasin per 6 persons and 1 tub or shower per 10 (§87307).",
-        "Private water supply testing: annually for capacity 7–15; for 6 or fewer only when evidence shows a need (research).",
-        "Residents are entitled to safe, healthful and comfortable accommodations (§87468.1(a)(2)) and individual storage space (§87468.1(a)(13)).",
-        "Staff need housekeeping and sanitation knowledge (§87411(d)(2))."
+        "Heat at least 68°F; hot water 105-120°F (22 CCR §87303).",
+        "No more than 2 residents per bedroom; at least 1 toilet and washbasin per 6 persons and 1 tub or shower per 10, counting live-in staff and family (22 CCR §87307).",
+        "Keep the plant clean and in good repair, with grab bars, non-slip surfaces and emergency lighting.",
+        "Test any private water supply (annually for capacity 7-15)."
       ]
     },
     {
       "id": "DL-04",
       "category": "Daily Living",
       "title": "Transportation",
+      "covers": [],
       "citations": [
-        "C4",
-        "C11"
+        "C11",
+        "C5",
+        "C15"
       ],
       "federal": [],
       "state_specifics": [
-        "Transportation to medical or dental care may be limited to the nearest available facility that meets the need, provided directly or by arrangement (§87465(a)(2)).",
-        "Transportation arrangements are part of the plan of operation (§87208) and the evacuation plan (§87212(b)(2)(D)).",
-        "Any other facility transportation rules were not retrieved."
+        "State transportation arrangements in the plan of operation.",
+        "Any charge for transportation is listed as an additional service with its rate in the admission agreement.",
+        "Drivers are staff and need criminal record clearance and training (facility practice).",
+        "Residents' rights to leave and to participate in community activities are preserved."
       ]
     },
     {
-      "id": "STF-01",
+      "id": "ST-01",
       "category": "Staffing and Personnel",
-      "title": "Staffing Levels, Night Supervision and Supervision",
+      "title": "Staffing Levels, Night Supervision and Scheduling",
+      "covers": [],
       "citations": [
         "C3",
         "C8",
-        "C9"
+        "C9",
+        "C17",
+        "C30"
       ],
       "federal": [],
       "state_specifics": [
-        "No numeric day ratio. Staff must be sufficient in numbers and competent at all times. CDSS may require more staff based on documentation (§87411(a)).",
-        "Night supervision (10 p.m. to 6 a.m.): fewer than 16 residents need a qualified person on call on the premises. 16–100 residents need one awake employee plus one on call within 10 minutes (§87415).",
-        "In homes under 16 beds, at least one night staff person must be awake when a dementia resident needs it (§87705).",
-        "Night staff must know the emergency plan and be first-aid trained (§87415).",
-        "Everyone supervising staff or residents must be 18 or older (§87411(b)).",
-        "Residents cannot substitute for required staff. Volunteers are supervised and not counted (§87411(i),(j)).",
-        "LIC 500 Personnel Report shows coverage by shift. Include an awake night duty statement."
+        "No numeric ratio. Staff must be sufficient in numbers and competent. CDSS may require more staff when documentation shows a need (22 CCR §87411).",
+        "Night (10 p.m.-6 a.m.), under 16 residents: a qualified person on call on the premises. 16-100 residents: one awake employee plus one on call within 10 minutes.",
+        "Awake night staff are required in homes under 16 beds when a resident with dementia needs it.",
+        "Residents cannot substitute for required staff. Volunteers are supervised and not counted.",
+        "Wage Order 5 has special meal and rest rules for a sole caregiver in 24-hour residential care for the elderly. Get employment counsel for live-in or 24-hour shifts."
       ]
     },
     {
-      "id": "STF-02",
+      "id": "ST-02",
       "category": "Staffing and Personnel",
-      "title": "Criminal Record Clearance and Background Checks",
+      "title": "Background Checks and Employee Registries",
+      "covers": [],
       "citations": [
         "C15",
         "C3"
       ],
       "federal": [],
       "state_specifics": [
-        "Before employment or initial presence, employees and volunteers subject to a criminal record review must obtain a California clearance or exemption, or request a transfer of a clearance or an exemption (§87411(g)).",
-        "DOJ and FBI Live Scan clearance is required for the applicant, administrator and adult household members before licensure, and for staff before they work or are present (§87355).",
-        "LIC 508 criminal record statement is part of the personnel documentation (research).",
-        "No RCFE-specific employee registry check was verified in the sources."
+        "DOJ and FBI fingerprint clearance, exemption or transfer is required for the applicant, administrator, adult household members and all staff before they work or are present.",
+        "Each person completes the criminal record statement (LIC 508).",
+        "Do not allow anyone without clearance, exemption or transfer to be present or work alone.",
+        "Keep clearance records in the personnel file."
       ]
     },
     {
-      "id": "STF-03",
+      "id": "ST-03",
       "category": "Staffing and Personnel",
       "title": "Hiring, Orientation and Ongoing Training",
+      "covers": [],
       "citations": [
-        "C3",
         "C22",
         "C23",
         "C24",
-        "C21"
+        "C21",
+        "C3"
       ],
       "federal": [],
       "state_specifics": [
-        "Direct care staff: 40 hours initial. Twenty hours before working alone (including 6 hours dementia and 4 hours postural supports, restricted conditions and hospice) and 20 within 4 weeks (including 6 hours dementia). Then 20 hours annually (including 8 hours dementia and 4 hours postural supports, restricted conditions and hospice) (HSC §1569.625; §1569.626).",
-        "First aid training from a qualified provider such as the American Red Cross for staff providing care (§87411(c)(1)).",
-        "Required training topics: aging process; personal care and infection control; residents' rights; medication policies; psychosocial needs; signs of dementia (§87411(c)(3)).",
-        "Trainers must meet one of the qualifying criteria: degree plus 2 years' experience, health care license, or 2 years as an RCFE administrator within 8 years (§87411(c)(4)).",
-        "Documentation of training in personnel records. For on-the-job training, a trainer statement of content (§87411(c)(6)).",
-        "Medication assistance training per HSC §1569.69 (see HCS-02).",
-        "Facilities of 16+ meet §87411(d) with a planned on-the-job training program (§87411(e))."
+        "Direct care staff: 40 hours initial (20 before working alone, including 6 dementia and 4 postural supports/restricted conditions/hospice; the second 20, including 6 dementia, within 4 weeks); 20 hours annually (8 dementia).",
+        "Medication assistance (15 or fewer beds): 10 hours (6 hands-on first, 4 within 2 weeks) plus exam; 8 hours annually. 16+ beds: 24 hours (16 hands-on, 8 within 4 weeks) plus exam.",
+        "First aid from a qualified provider for care staff.",
+        "Administrator: 80-hour program, exam, then 40 hours CE every 2 years including 8 dementia."
       ]
     },
     {
-      "id": "STF-04",
+      "id": "ST-04",
       "category": "Staffing and Personnel",
-      "title": "Employee Health Screening and TB Screening",
+      "title": "Employee Health and TB Screening",
+      "covers": [],
       "citations": [
-        "C3"
+        "C3",
+        "C18"
       ],
       "federal": [
-        "OSHA 29 CFR 1910.1030"
+        "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "All personnel, including the licensee and administrator, need a physician health screening with a chest x-ray or intradermal test not more than 6 months before or 7 days after employment or licensure (§87411(f)).",
-        "A signed physician report of each screening is required, stating whether the person is physically qualified and whether any condition creates a hazard.",
-        "Volunteers sign a statement of good health.",
-        "Staff with physical illness or emotional instability posing a significant threat to residents must be relieved of duty.",
-        "LIC 503 is the health screening form (research)."
+        "All personnel need a physician health screening, including a chest x-ray or intradermal TB test, within 6 months before or 7 days after employment (22 CCR §87411(f)).",
+        "Complete LIC 503 for staff.",
+        "Exposure control follows the infection control plan and OSHA bloodborne pathogen rules.",
+        "Keep results in the personnel file."
       ]
     },
     {
-      "id": "STF-05",
+      "id": "ST-05",
       "category": "Staffing and Personnel",
       "title": "Personnel Records",
+      "covers": [],
       "citations": [
         "C49",
         "C3",
-        "C15"
+        "C31"
       ],
       "federal": [],
       "state_specifics": [
-        "Personnel records are governed by §87412 (title confirmed; text not retrieved).",
-        "Training documentation belongs in the personnel record (§87411(c)(6) cross-referencing §87412(c)(2)).",
-        "Include the health screening report (§87411(f)), criminal clearance documentation (§87411(g)) and training sign-in sheets.",
-        "LIC 501 Personnel Record, LIC 503 and LIC 508 are the application forms (research)."
+        "Keep a personnel file for each employee (22 CCR §87412; text not retrieved).",
+        "Include training documentation, sign-in sheets, health screening (LIC 503), criminal record statement (LIC 508), clearance proof, first aid card and personnel record (LIC 501).",
+        "Training documentation is stored in the personnel record (§87411(c)(6) cross-reference).",
+        "Keep job descriptions and supervision lines on file."
       ]
     },
     {
-      "id": "STF-06",
+      "id": "ST-06",
       "category": "Staffing and Personnel",
       "title": "Staff Conduct and Professional Boundaries",
+      "covers": [],
       "citations": [
         "C1",
-        "C3"
+        "C25",
+        "C16",
+        "C47"
       ],
       "federal": [],
       "state_specifics": [
-        "Staff must treat residents with dignity (§87468.1(a)(1)).",
-        "No punitive actions, humiliation or intimidation. No withholding of money (§87468.1(a)(3)).",
-        "No discrimination on the bases listed in §87468.1(b); staff must use preferred names and pronouns.",
-        "Staff are trained on residents' rights (§87411(c)(3)(C)).",
-        "Residents may not be used as staff substitutes (§87411(i)).",
-        "No state-specific gift or boundary rule was verified; keep the facility's own standards."
-      ]
-    },
-    {
-      "id": "STF-07",
-      "category": "Staffing and Personnel",
-      "title": "Wage-Hour, Paid Sick Leave and Meal/Rest Rules (CA-specific addition)",
-      "citations": [
-        "C29",
-        "C30"
-      ],
-      "federal": [
-        "FLSA 29 CFR 552 (home care)"
-      ],
-      "state_specifics": [
-        "California minimum wage is $16.90 per hour from January 1, 2026. Local rates may be higher: City of Los Angeles $18.42 and San Francisco $19.61 from July 1, 2026; San Diego $17.75; San Jose $18.45.",
-        "Paid sick leave: at least 40 hours or 5 days per year (Labor Code §246).",
-        "IWC Wage Order 5 has special meal and rest rules for a sole caregiver in 24-hour residential care for the elderly. Live-in and 24-hour shifts need employment counsel.",
-        "SB 525 health care minimum wage applies only to RCFEs affiliated with or controlled by an acute-care hospital or its parent (research S61).",
-        "Exempt managers need at least $70,304 per year (research)."
+        "Staff protect residents' dignity and freedom from humiliation and intimidation, and use residents' preferred names and pronouns (22 CCR §87468.1).",
+        "Staff do not handle resident cash or accept gifts except under the resident funds policy and safeguards (facility practice).",
+        "Staff report suspected abuse as mandated reporters.",
+        "Violations lead to discipline up to termination."
       ]
     },
     {
       "id": "REC-01",
       "category": "Records",
-      "title": "Resident Records, Register of Residents and Retention",
+      "title": "Resident Records and Retention",
+      "covers": [],
       "citations": [
         "C51",
-        "C5",
         "C4",
-        "C49"
+        "C5",
+        "C20"
       ],
       "federal": [
-        "45 CFR 164 (only if a covered entity)"
+        "45 CFR 164.530"
       ],
       "state_specifics": [
-        "Resident record (§87506), documentation (§87505) and register of residents (§87508): titles confirmed; text not retrieved.",
-        "Keep the original signed admission agreement and all signed modifications in the resident's file (§87507(d)).",
-        "PRN physician orders and dose records stay in the resident's file (§87465(c)–(e)).",
-        "Centrally stored medication records are kept at least 1 year. Medication destruction records are kept at least 3 years (§87465(h)(6),(i)).",
-        "LIC 9158 is kept in the file when required (§87507(b)).",
-        "No other retention period was verified. Read §87506 before stating one."
+        "Maintain resident records and a register of residents (22 CCR §§87506, 87508; content and retention periods not retrieved. Do not state a general retention period until §87506 is read).",
+        "Keep the admission agreement, appraisal, medical assessment, needs and services plan, advance directive and property inventory in the record.",
+        "Medication records at least 1 year; destruction records at least 3 years (22 CCR §87465).",
+        "Keep dementia advertisements for 3 years.",
+        "If HIPAA applies, follow 45 CFR 164.530 administrative requirements."
       ]
     },
     {
       "id": "REC-02",
       "category": "Records",
-      "title": "Required Reports and Notices to the State",
+      "title": "Required Reports to the State",
+      "covers": [],
       "citations": [
         "C7",
+        "C28",
         "C25",
-        "C17",
-        "C28"
+        "C21"
       ],
       "federal": [],
       "state_specifics": [
-        "7-day written reports: death, serious injury, AED use, threats to welfare, safety or health (§87211(a)(1)).",
-        "24-hour reports: outbreaks, poisonings, catastrophes and major accidents, by phone or fax to licensing and the local health officer (§87211(a)(2)).",
-        "Fires and explosions: immediately to the fire authority, by the next working day to licensing (§87211(a)(3)).",
-        "Abuse reports: 2 hours for serious bodily injury, 24 hours otherwise, to the ombudsman, licensing and law enforcement (§87211(b),(c)).",
-        "Notice within 2 business days to CDSS, the State Long-Term Care Ombudsman, residents and representatives of foreclosure, unlawful detainer, bankruptcy, rent default or utility shut-off notice (§87211(d)). Notify applicants before signing the agreement (§87211(e)). Civil penalty of $100 per day, up to $2,000 (§87211(f)).",
-        "New administrator: 30 days. Chief corporate officer change: 15 working days (§87211(g),(h)).",
-        "Annual license fee due each anniversary (HSC §1569.185)."
+        "7-day written reports for deaths, serious injuries, AED use and threatening incidents. 24-hour reports for outbreaks and poisonings. Report fires immediately and to licensing by the next working day.",
+        "Abuse: 2 hours (serious bodily injury) or 24 hours, then SOC 341.",
+        "Written notice within 2 business days of foreclosure, bankruptcy, rent default or utility shut-off. Notify within 30 days of a new administrator and within 15 working days of a change of chief corporate officer.",
+        "Annual license fee on each anniversary; $25 for a capacity change.",
+        "Administrator certificate renewal every 2 years (40 hours CE; $140 renewal fee)."
       ]
     }
   ],
   "forms": [
     {
-      "name": "Admission Agreement (with attachments and modification page)",
-      "purpose": "Written agreement meeting §87507 content rules, signed within 7 days of admission",
+      "name": "LIC 200 Application for License",
+      "purpose": "Initial license application signed by all applicants",
       "policy_ids": [
-        "RR-04",
-        "ADM-06",
+        "SA-01",
+        "FC-01"
+      ]
+    },
+    {
+      "name": "LIC 215 Applicant Information",
+      "purpose": "Applicant background and reference statements",
+      "policy_ids": [
+        "SA-01"
+      ]
+    },
+    {
+      "name": "LIC 308 Designation of Facility Responsibility",
+      "purpose": "Names the person who acts in the licensee's absence",
+      "policy_ids": [
+        "SA-01",
+        "GOV-01"
+      ]
+    },
+    {
+      "name": "LIC 309 Administrative Organization",
+      "purpose": "Organization chart and authority for entity applicants",
+      "policy_ids": [
+        "SA-01",
+        "SB-01"
+      ]
+    },
+    {
+      "name": "LIC 400 Affidavit Regarding Client Cash Resources",
+      "purpose": "Declares whether the facility holds resident cash",
+      "policy_ids": [
+        "SA-02",
+        "RR-04"
+      ]
+    },
+    {
+      "name": "LIC 402 Surety Bond",
+      "purpose": "Bond protecting resident cash",
+      "policy_ids": [
+        "SA-02",
+        "RR-04"
+      ]
+    },
+    {
+      "name": "LIC 401 Monthly Operating Statement",
+      "purpose": "Projected income and operating costs",
+      "policy_ids": [
+        "SA-03"
+      ]
+    },
+    {
+      "name": "LIC 401a Supplemental Financial Information",
+      "purpose": "Applicant's other income and expenses",
+      "policy_ids": [
+        "SA-03"
+      ]
+    },
+    {
+      "name": "LIC 403 Balance Sheet and LIC 403a Supplemental Schedule",
+      "purpose": "Assets and liabilities of the applicant",
+      "policy_ids": [
+        "SA-03"
+      ]
+    },
+    {
+      "name": "LIC 404 Financial Information Release and Verification",
+      "purpose": "Bank verification of start-up funds",
+      "policy_ids": [
+        "SA-03"
+      ]
+    },
+    {
+      "name": "LIC 500 Personnel Report",
+      "purpose": "Positions, days and hours, and coverage",
+      "policy_ids": [
+        "SA-04",
+        "ST-01"
+      ]
+    },
+    {
+      "name": "LIC 501 Personnel Record",
+      "purpose": "Staff personal and qualification information",
+      "policy_ids": [
+        "SA-04",
+        "ST-05"
+      ]
+    },
+    {
+      "name": "LIC 503 Health Screening Report - Facility Personnel",
+      "purpose": "Physician health screening and TB result",
+      "policy_ids": [
+        "SA-04",
+        "ST-04"
+      ]
+    },
+    {
+      "name": "LIC 508 Criminal Record Statement",
+      "purpose": "Staff statement of criminal convictions",
+      "policy_ids": [
+        "SA-04",
+        "ST-02"
+      ]
+    },
+    {
+      "name": "LIC 610E Emergency Disaster Plan",
+      "purpose": "Evacuation, relocation and staff assignments",
+      "policy_ids": [
+        "SA-05",
+        "SP-05"
+      ]
+    },
+    {
+      "name": "LIC 999 Facility Sketch",
+      "purpose": "Dimensioned indoor/outdoor sketch with exits",
+      "policy_ids": [
+        "SA-05",
+        "SP-06"
+      ]
+    },
+    {
+      "name": "LIC 9054 Fire Inspection Request",
+      "purpose": "Request local fire clearance",
+      "policy_ids": [
+        "SA-05",
+        "SP-06",
+        "GOV-02"
+      ]
+    },
+    {
+      "name": "LIC 9282 Infection Control Plan",
+      "purpose": "Written plan with named Infection Control Lead",
+      "policy_ids": [
+        "SP-07",
+        "GOV-03"
+      ]
+    },
+    {
+      "name": "LIC 9158 Hearing/Disability Addendum to Admission Agreement",
+      "purpose": "Required when appraisal shows hearing or other disability",
+      "policy_ids": [
+        "RR-03",
+        "RR-07"
+      ]
+    },
+    {
+      "name": "Admission Agreement",
+      "purpose": "12-point plain-language agreement signed within 7 days of admission",
+      "policy_ids": [
+        "RR-03",
+        "SB-06"
+      ]
+    },
+    {
+      "name": "Pre-Admission Appraisal and Reappraisal",
+      "purpose": "Functional, mental and social evaluation and suitability determination",
+      "policy_ids": [
+        "AD-01",
+        "SB-06"
+      ]
+    },
+    {
+      "name": "Needs and Services Plan",
+      "purpose": "Individual plan of care",
+      "policy_ids": [
+        "AD-02"
+      ]
+    },
+    {
+      "name": "Physician Medical Assessment",
+      "purpose": "Health condition and TB documentation for admission",
+      "policy_ids": [
+        "AD-01",
+        "SB-06"
+      ]
+    },
+    {
+      "name": "Medication Record, PRN Order and Destruction Log",
+      "purpose": "Document assistance, PRN limits and destruction (1-year / 3-year retention)",
+      "policy_ids": [
+        "HS-01",
         "REC-01"
       ]
     },
     {
-      "name": "Telecommunications Device Notification (LIC 9158)",
-      "purpose": "For residents whose appraisal or medical assessment shows deafness, hearing impairment or other disability",
+      "name": "Unusual Incident / Injury Report (7-day written report)",
+      "purpose": "Report to licensing and responsible person",
       "policy_ids": [
-        "RR-04",
-        "RR-08",
-        "REC-01"
+        "SP-02",
+        "HS-03",
+        "REC-02"
       ]
     },
     {
-      "name": "Preadmission Fee Disclosure and Refund Statement",
-      "purpose": "Written statement that the fee is refundable and the conditions for refund",
+      "name": "SOC 341 Report of Suspected Dependent Adult/Elder Abuse",
+      "purpose": "Written follow-up to the phone report",
       "policy_ids": [
-        "RR-04",
-        "ADM-01"
+        "SP-01",
+        "REC-02"
       ]
     },
     {
-      "name": "60-Day Rate Change Notice and Acknowledgment",
-      "purpose": "Written notice of rate or rate structure change",
+      "name": "Personal Property Inventory and Loss Report",
+      "purpose": "Admission inventory, changes, loss and death safeguarding",
+      "policy_ids": [
+        "RR-04",
+        "HS-06"
+      ]
+    },
+    {
+      "name": "Resident Cash Ledger and Receipts",
+      "purpose": "Accounting for held resident funds",
       "policy_ids": [
         "RR-04"
       ]
     },
     {
-      "name": "Prepaid Fee Refund Calculation Worksheet",
-      "purpose": "Proportional daily refunds on discharge, death or closure",
+      "name": "Resident Grievance Form and Log",
+      "purpose": "Record complaints and responses",
       "policy_ids": [
-        "RR-04",
-        "ADM-06",
-        "HCS-10"
+        "RR-02"
       ]
     },
     {
-      "name": "Pre-Admission Appraisal",
-      "purpose": "Interview and functional, mental and social evaluation, with consent",
+      "name": "Neighborhood Complaint Log",
+      "purpose": "Record neighbor complaints and owner meeting times",
       "policy_ids": [
-        "ADM-01",
-        "ADM-02"
+        "SB-08"
       ]
     },
     {
-      "name": "Medical Assessment / Physician's Report",
-      "purpose": "Medical assessment under §87458 (confirm current CDSS form number before printing)",
+      "name": "Job Description Template",
+      "purpose": "Duties, qualifications and supervision lines per classification",
       "policy_ids": [
-        "ADM-02",
-        "ADM-04"
+        "SB-03"
       ]
     },
     {
-      "name": "Reappraisal and Service Plan Review",
-      "purpose": "Documents reappraisal after a change and updates the service plan",
+      "name": "Employee Acknowledgment of Abuse Reporting and Conditions of Employment",
+      "purpose": "Proof staff were informed of reporting duties and employment conditions",
       "policy_ids": [
-        "ADM-02",
-        "ADM-03",
-        "HCS-05"
+        "SB-03",
+        "SP-01",
+        "ST-02"
       ]
     },
     {
-      "name": "Health Condition Review Checklist",
-      "purpose": "Screens for prohibited, restricted and allowable conditions",
+      "name": "Training Plan and Sign-In Sheet",
+      "purpose": "Document initial and annual training hours",
       "policy_ids": [
-        "ADM-04",
-        "ADM-05"
+        "SB-04",
+        "ST-03",
+        "ST-05"
       ]
     },
     {
-      "name": "Eviction/Transfer Notice Packet",
-      "purpose": "Notice using the exact §87224 grounds, complaint-process explanation and relocation assistance",
+      "name": "Program Description and Activity Calendar",
+      "purpose": "Daily schedule and one-month activity calendar",
       "policy_ids": [
-        "ADM-06"
+        "SB-05",
+        "DL-02"
       ]
     },
     {
-      "name": "Centrally Stored Medication Record",
-      "purpose": "Resident, prescriber, drug, strength, quantity, fill date, Rx number and pharmacy, custody instructions; kept at least 1 year",
+      "name": "Sample Weekly Menu",
+      "purpose": "One week of meals, portions and meal times",
       "policy_ids": [
-        "HCS-01"
+        "DL-01"
       ]
     },
     {
-      "name": "Medication Destruction Record",
-      "purpose": "Two-signature record kept at least 3 years",
+      "name": "Control of Property Packet (lease or deed)",
+      "purpose": "Proof of right to use the property",
       "policy_ids": [
-        "HCS-01",
-        "HCS-10"
+        "SB-07"
       ]
     },
     {
-      "name": "PRN Order and Dose Record",
-      "purpose": "Signed physician order and per-dose documentation",
+      "name": "Water Bacteriological Analysis",
+      "purpose": "Private water source safety evidence",
       "policy_ids": [
-        "HCS-02"
-      ]
-    },
-    {
-      "name": "Medication Assistance Training and Exam Record",
-      "purpose": "10-hour (15 or fewer) or 24-hour (16+) training with exam and annual 8 hours",
-      "policy_ids": [
-        "HCS-02",
-        "STF-03"
+        "SB-07"
       ]
     },
     {
       "name": "Hospice Care Waiver Request",
-      "purpose": "Written request stating maximum number of hospice residents",
+      "purpose": "Request to serve hospice residents and state the maximum number",
       "policy_ids": [
-        "HCS-09"
+        "HS-06",
+        "AD-03"
       ]
     },
     {
-      "name": "Unusual Incident/Injury Report (LIC 624)"
+      "name": "Fire Drill and Disaster Drill Log",
+      "purpose": "Record drills and corrective actions",
+      "policy_ids": [
+        "SP-06",
+        "SP-05"
+      ]
+    },
+    {
+      "name": "Application Packet Final Checklist",
+      "purpose": "Pre-submission review of LIC 281 items",
+      "policy_ids": [
+        "FC-01"
+      ]
     }
-  ]
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "Application Instructions for A Facility License (Section A forms; Section B supportive documents / plan of operation items)",
+        "form_number": "LIC 281",
+        "issuer": "California Department of Social Services, Community Care Licensing Division (CCLD)",
+        "version": "The CDSS Forms I-L page lists LIC 281 (11/25) as the current edition. I could not open that PDF because cdss.ca.gov returned a permission error for the Portals URL. The item list below comes from the full LIC 281 (9/04) text, retrieved from the cdss.ca.gov /cdssweb/entres/forms/english/lic281.pdf URL. It matches the owner-supplied text. Compare it against the 11/25 PDF before submitting.",
+        "url": "https://www.cdss.ca.gov/Portals/9/Additional-Resources/Forms-and-Brochures/2020/I-L/LIC281.pdf?ver=cDy_GGClLQ7_6gtjxO-jNQ%3d%3d (current per CDSS forms list; 9/04 text read at https://www.cdss.ca.gov/cdssweb/entres/forms/english/lic281.pdf)",
+        "how_used": "The reviewer uses LIC 281 as the packet checklist. Section A lists the LIC forms. Section B lists the plan-of-operation documents and policies. Item numbers below are the document's own (A1-A16, B1-B17). The document uses bullets inside each B item, so sub-items are numbered here in bullet order (e.g., B7.1). Items for other facility types (A9.A, A17, B3, B18) are omitted."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "A1",
+        "text": "LIC 200 - Application for a Community Care Facility or Residential Care Facility for the Elderly License. Form filled out completely; all applicants sign, including each general partner; original signatures only (no photocopied signatures); signatures match the applicant's name unless the applicant is a corporation or LLC; if a corporation applies, the Board resolution authorizing the signers must be submitted with the form.",
+        "cite": "LIC 281, Section A table p.2; A1 p.3",
+        "doc": 0
+      },
+      {
+        "item_id": "A2",
+        "text": "LIC 215 - Applicant Information. One form completed by each applicant; original signatures; reference statements must be current and should not be from relatives.",
+        "cite": "LIC 281, A2 p.3",
+        "doc": 0
+      },
+      {
+        "item_id": "A3",
+        "text": "LIC 308 - Designation of Facility (Administrative) Responsibility. At least one individual must be designated to act in the licensee's absence; a licensee cannot designate himself or herself; a corporation or LLC must submit a resolution authorizing the delegation; original signatures.",
+        "cite": "LIC 281, A3 p.3",
+        "doc": 0
+      },
+      {
+        "item_id": "A4",
+        "text": "LIC 309 - Administrative Organization. Not required of individual applicants; required if the applicant is a corporation, public agency, partnership or LLC; information must match the LIC 200; terms of office should match articles/bylaws.",
+        "cite": "LIC 281, A4 p.3",
+        "doc": 0
+      },
+      {
+        "item_id": "A5",
+        "text": "LIC 400 - Affidavit Regarding Client Cash Resources. Form completed with the appropriate box checked; make sure a bond is obtained if needed; original signatures.",
+        "cite": "LIC 281, A5 p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "A6",
+        "text": "LIC 402 - Surety Bond. Must use the LIC 402 language; State of California identified as beneficiary; effective and expiration dates; original seals and signatures; bond amount must match the amount on the LIC 400.",
+        "cite": "LIC 281, A6 p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "A7",
+        "text": "LIC 401 - Monthly Operating Statement. Number of clients corresponds to requested capacity; other facility income clear and documented; operating costs indicated and reasonable (salaries at least minimum wage); approximately 25 percent of salaries added for fringe benefits (or explain why not); rent matches lease/rental/mortgage payment; separate LIC 401 for each other licensed facility; indicate estimated or actual; preparer name and original signatures.",
+        "cite": "LIC 281, A7 p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "A8(a)",
+        "text": "LIC 401a - Supplemental Financial Information. Part I (other income and expenses, excluding facility income) completed by individual applicants and each general partner; Part II completed by all applicants; preparer name and original signature.",
+        "cite": "LIC 281, A8(a) p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "A8(b)",
+        "text": "LIC 403 - Balance Sheet. Complete the LIC 403a first; reflect assets and liabilities of all owner activities; figures must be 'realistic'; life insurance at cash/surrender value; real estate shown per applicant type; on-site furnishings and equipment at market value; only cash and cash equivalents count toward the three-month start-up funds; preparer name and original signatures.",
+        "cite": "LIC 281, A8(b) p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "A8(c)",
+        "text": "LIC 403a - Balance Sheet Supplemental Schedule. Detailed balance sheet completed before the LIC 403; cash in the bank verified with the LIC 404; liabilities verified by credit report; preparer name and original signatures.",
+        "cite": "LIC 281, A8(c) p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "A9",
+        "text": "LIC 404 - Financial Information Release and Verification. Used to verify approximately three months of operating funds; a verifiable line of credit is acceptable if readily accessible; start-up funds should not be consumed on renovation or repair; the financial institution must send the verification directly to the licensing agency (the licensee cannot hand-carry it); one form or set per bank; all persons on an account sign; accounts in the applicant's name; original signatures.",
+        "cite": "LIC 281, A9 p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "A10",
+        "text": "LIC 500 - Personnel Report. Show all planned employee positions, with days and hours of duty (reviewed for required staff coverage for all hours of operation); list the Director/Administrator and any staff already hired; list unhired positions as 'to be hired' by position title; reverse side signed if there are fingerprint-exempt personnel; separate LIC 500 for each other licensed facility; original signatures.",
+        "cite": "LIC 281, A10 p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "A11",
+        "text": "LIC 501 - Personnel Record. Only for those who do not complete an LIC 215; submitted with the application only for directors/administrators who are not licensees; other staff forms are kept on file at the facility.",
+        "cite": "LIC 281, A11 p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "A12",
+        "text": "LIC 503 - Health Screening Report - Facility Personnel. One form each for the applicant or designee and the administrator; for RCFE applicants the screening must be less than six months old at the time of application; must be signed and dated by a qualified medical professional (no photocopied signatures); TB test portion completed including result, or separate test verification attached.",
+        "cite": "LIC 281, A12 p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "A13",
+        "text": "LIC 508 - Criminal Record Statement. One form each for the applicant or designee and the administrator.",
+        "cite": "LIC 281, Section A table p.2; A13 p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "A14",
+        "text": "LIC 610D (RCFE only: LIC 610E) - Emergency Disaster Plan. The plan must show two relocation sites away from the facility that can accommodate the number of residents; if the applicant does not currently occupy the property, use of the relocation site requires authorization from the agency or person in possession, verified in writing.",
+        "cite": "LIC 281, Section A table p.2; A14 p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "A15",
+        "text": "LIC 999 - Facility Sketch. Dimensions and use of all rooms; door and window exits shown, with exit routes indicated by number as on the LIC 610 Emergency Disaster Plan; rooms for non-ambulatory residents and staff identified; sketch of all indoor and outdoor space (driveways, fences, storage, gardens, recreation areas); separate sketches per building plus one overall sketch for multi-building sites; outdoor sketch shows dimensions, location of major equipment and swimming pools, and utility shut-off locations.",
+        "cite": "LIC 281, A15 p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "A16",
+        "text": "LIC 9054 - Fire Inspection. Listed as 'Required' for RCFE in the Section A table; no further instruction text appears for A16 in LIC 281.",
+        "cite": "LIC 281, Section A table p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "B1",
+        "text": "Partnership Agreement / Articles of Incorporation / Articles of Organization. Required for RCFE; it tells the licensing agency who is ultimately responsible for which functions in the facility.",
+        "cite": "LIC 281, Section B table p.10; B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.P1",
+        "text": "Partnership: a written agreement is not necessary when partners are husband and wife; two individuals not related by marriage must provide a partnership agreement.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.P2",
+        "text": "Partnership: determine whether it is a general or limited partnership; for a limited partnership only the general partner(s) are on the license, but names and addresses of limited partners are also needed.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.P3",
+        "text": "Partnership: all general partners need to be on the license and sign the application; name and business address of each general partner is needed.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.P4",
+        "text": "Partnership: a description of the obligations and duties of each general partner and whether or not each can act on behalf of the others.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.C1",
+        "text": "Articles of Incorporation: establish the applicant is a valid corporation qualified to do business in California; a seal from the state of incorporation should be attached; foreign (out-of-state) corporations must also provide a Certificate of Qualification from the California Secretary of State.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.C2",
+        "text": "Corporation: constitution and by-laws (day-to-day operation).",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.C3",
+        "text": "Corporation: Board Resolution identifying the agents acting for the corporation, including authorization to apply for a license and the person authorized to sign and act on its behalf.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.C4",
+        "text": "Corporation: directors' and officers' names, titles, business addresses and phone numbers; name and address of 10 percent shareholders.",
+        "cite": "LIC 281, B1 p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.L1",
+        "text": "Articles of Organization (LLC): stamped by the Secretary of State; a foreign LLC must also submit Secretary of State Form LLC-5 stamped by the California Secretary of State.",
+        "cite": "LIC 281, B1 (Continued) p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "B1.L2",
+        "text": "LLC: operating agreement; names, titles, business addresses and phone numbers of all managing members, managers, and non-managing members holding a 10 percent or more interest. If the signer is not identified in the operating agreement as having authority, a written delegation of authority consistent with the operating agreement is necessary.",
+        "cite": "LIC 281, B1 (Continued) p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "B2.1",
+        "text": "Verification of Administrator Qualifications - For RCFE only: proof of registration in a 40-hour certification program submitted with the application; a Department-issued certificate verifying completion of the 40-hour RCFE certification program by an approved vendor is required prior to licensure.",
+        "cite": "LIC 281, B2 p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "B2.2",
+        "text": "Education: transcripts from an accredited school, when required; for out-of-country schools, class descriptions or college catalog, or certification of class equivalency from a local college.",
+        "cite": "LIC 281, B2 p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "B2.3",
+        "text": "Experience: written references obtained by the applicant/licensee and submitted (showing the person worked there, in what capacity, specific duties, and for what period); if references cannot be obtained, a declaration signed by the Administrator stating why and the same details.",
+        "cite": "LIC 281, B2 p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "B2.4",
+        "text": "Verification of experience for an applicant applying for a one to six bed ARF or RCFE is not necessary.",
+        "cite": "LIC 281, B2 p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "B4.1",
+        "text": "Job Descriptions - a job description for each staff classification; there must be a job description for each classification listed on the LIC 500, and staff positions must correspond to those listed on all personnel reports.",
+        "cite": "LIC 281, B4 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B4.2",
+        "text": "Each job description must address: duties and responsibilities.",
+        "cite": "LIC 281, B4 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B4.3",
+        "text": "Each job description must address: minimum qualifications that correspond to licensing requirements, including any special licenses, certificates or special skills needed for the job.",
+        "cite": "LIC 281, B4 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B4.4",
+        "text": "Each job description must address: lines of supervision (supervision given and to whom, and supervision received and from whom).",
+        "cite": "LIC 281, B4 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B5.1",
+        "text": "Personnel Policies - work hours/shifts documenting positions that provide coverage with competent staff, corresponding with the positions, work days and hours on all personnel reports.",
+        "cite": "LIC 281, B5 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B5.2",
+        "text": "Personnel Policies - abuse reporting procedures; documentation must indicate employees will be informed of their responsibilities to report to the licensing agency as well as to the police and child/adult protective agency.",
+        "cite": "LIC 281, B5 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B5.3",
+        "text": "Personnel Policies - hiring practices, including screening for necessary education and experience, and informing employees that conditions of employment include fingerprint clearance, statement of prior criminal convictions, TB clearance, physical examination/health questionnaire, and child abuse index check.",
+        "cite": "LIC 281, B5 p.14",
+        "doc": 0
+      },
+      {
+        "item_id": "B6.1",
+        "text": "In-Service Training for Staff - a plan for in-service training submitted at the time of application, as part of the plan of operation. New employee training: a description of the training and who will conduct it.",
+        "cite": "LIC 281, B6 p.15",
+        "doc": 0
+      },
+      {
+        "item_id": "B6.2",
+        "text": "Ongoing training: topics to be covered (the list should include administrator continuing education units); how often the training will be given; how the training will be documented; must include topics specified in the regulation sections listed (for RCFE: 87565 Residential Care Facilities for the Elderly Regulations; 80065 General Regulations also listed).",
+        "cite": "LIC 281, B6 p.15",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.1",
+        "text": "Program Description (CCF/RCFE) - brief statement of the purpose, goals and program methods (program philosophy). A pamphlet or brochure is acceptable if all of the elements B7.1-B7.11 are included.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.2",
+        "text": "Days and hours of operation.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.3",
+        "text": "Daily schedule of activities provided by the facility, stating who plans, conducts and assists clients in participating.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.4",
+        "text": "A one month schedule of planned social, educational and recreational activities, stating who plans, conducts and assists clients in participating.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.5",
+        "text": "Description of the basic services provided by the facility (see Admission Guideline LIC 604 or 604A for a list of basic services).",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.6",
+        "text": "Description of the optional services provided in the facility as listed in the admission agreement.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.7",
+        "text": "Description of how the facility will handle medical emergencies if a client becomes ill or injured.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.8",
+        "text": "Procedure for handling and assisting clients/residents with self-administered medications.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.9",
+        "text": "Transportation arrangements.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.10",
+        "text": "Description of community resources and consultants to be used by the facility.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B7.11",
+        "text": "A procedure (approved by the licensing agency) for immediate response to incidents and complaints.",
+        "cite": "LIC 281, B7 p.16",
+        "doc": 0
+      },
+      {
+        "item_id": "B8.1",
+        "text": "Rules of Discipline / Personal Rights (titled 'Discipline Policies' in the text) - personal rights applies to all facility categories. The detailed discipline-policy content in the document is for group homes and foster family agencies only.",
+        "cite": "LIC 281, Section B table p.10; B8 p.17",
+        "doc": 0
+      },
+      {
+        "item_id": "B8.2",
+        "text": "The Department evaluates the discipline policies to ensure they do not violate personal rights and that there is a clear statement that no corporal or unusual punishment will be used; further information may be requested if the statements are unclear.",
+        "cite": "LIC 281, B8 p.17",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.1",
+        "text": "Admission Policies - persons accepted for care, including age range and compatibility determination process, when necessary. Overall, the policies must provide ages of clients, rates and refund policies, acceptance and retention limitations, pre-admission appraisals, needs and services plans, medical assessments, and an admission agreement.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.2",
+        "text": "Intake procedures for placement in group homes (listed in the document's B9 list; it names group homes only).",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.3",
+        "text": "Criteria for assessing appropriateness of placement given an individual client's needs (interviews, procedures for obtaining and developing the necessary paperwork, etc.).",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.4",
+        "text": "Needs and services plan.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.5",
+        "text": "Client's Rights/Personal Rights (at a minimum a statement that residents will be informed of their rights and that their rights will not be violated).",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.6",
+        "text": "Medical assessment.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.7",
+        "text": "Pre-admission appraisal plan.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.8",
+        "text": "Emergency information.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.9",
+        "text": "Sign-in and sign-out procedures.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.10",
+        "text": "Immunization requirements.",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B9.11",
+        "text": "Physical examination requirements (including TB testing).",
+        "cite": "LIC 281, B9 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B10.1",
+        "text": "Sample Menu - planned meals and snacks for one week, with foods from the four basic food groups.",
+        "cite": "LIC 281, B10 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B10.2",
+        "text": "Sample Menu - portion sizes.",
+        "cite": "LIC 281, B10 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B10.3",
+        "text": "Sample Menu - times meals served.",
+        "cite": "LIC 281, B10 p.18",
+        "doc": 0
+      },
+      {
+        "item_id": "B11.1",
+        "text": "Control of Property - name and address of the owner of the property.",
+        "cite": "LIC 281, B11 p.19",
+        "doc": 0
+      },
+      {
+        "item_id": "B11.2",
+        "text": "Control of Property - a copy of the lease or rental agreement (no requirement on length). If the agreement precludes use as a facility or operation is contrary to its terms, the license must be denied/withdrawn.",
+        "cite": "LIC 281, B11 p.19",
+        "doc": 0
+      },
+      {
+        "item_id": "B11.3",
+        "text": "Control of Property - proof of ownership if the applicant owns the property (property tax bill, deed or other document containing the facility street address).",
+        "cite": "LIC 281, B11 p.19",
+        "doc": 0
+      },
+      {
+        "item_id": "B12",
+        "text": "Bacterial Analysis of Water - only if the facility gets water from a well or other private source (required at initial licensure regardless of number of clients): evidence of on-site inspection of the source and a bacteriological analysis by a local or state health department or other qualified laboratory establishing the water is safe; analysis signed by a qualified agency representative.",
+        "cite": "LIC 281, B12 p.19",
+        "doc": 0
+      },
+      {
+        "item_id": "B13",
+        "text": "Insurance Information (RCFE only) - a statement on whether there will be insurance covering the facility operation; if so, the type of coverage and with whom; if none, a statement of such is sufficient.",
+        "cite": "LIC 281, B13 p.19",
+        "doc": 0
+      },
+      {
+        "item_id": "B14",
+        "text": "Theft and Loss Policy (RCFE only) - must include provisions for inventory of personal property at admission, modification of the inventory, practices to safeguard personal property upon the death of the resident, documentation and reporting of loss of personal property, method of marking personal property, and method for providing a secure area for safekeeping of resident personal property.",
+        "cite": "LIC 281, B14 p.19",
+        "doc": 0
+      },
+      {
+        "item_id": "B15",
+        "text": "Neighborhood Complaint Policy - procedures for immediate response to incidents and complaints, including a time when the owner, licensee or designee will be available to meet with neighborhood residents. The text says it is applicable to non-resident owner community care facilities providing care for six or fewer persons only; the Section B table marks it 'Required' in the RCFE column.",
+        "cite": "LIC 281, Section B table p.10; B15 p.20",
+        "doc": 0
+      },
+      {
+        "item_id": "B16",
+        "text": "First Aid Card - staff providing direct care and supervision must receive first aid training from qualified persons (e.g., American Red Cross); copies of first aid cards for applicant/administrators must be submitted and will be verified.",
+        "cite": "LIC 281, B16 p.20",
+        "doc": 0
+      },
+      {
+        "item_id": "B17",
+        "text": "Orientation Certificate - proof of attendance must be submitted with the application.",
+        "cite": "LIC 281, B17 p.20",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-1",
+        "text": "Final checklist: Have you attended an orientation for your facility type and submitted a copy of your orientation certificate(s)?",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-2",
+        "text": "Final checklist: Is your application (LIC 200) signed and dated by all applicants?",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-3",
+        "text": "Final checklist: Do you have an Emergency Disaster Plan (LIC 610)?",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-4",
+        "text": "Final checklist: Do you have a Facility Sketch (LIC 999) showing indoor/outdoor space as well as all exits?",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-5",
+        "text": "Final checklist: Have you completed all Financial Information to operate your facility?",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-6",
+        "text": "Final checklist: Have you enclosed your application fee?",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      },
+      {
+        "item_id": "Checklist-7",
+        "text": "Final checklist: Be sure all necessary information is completed, properly signed (original signature) and dated.",
+        "cite": "LIC 281, p.21",
+        "doc": 0
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "Section A - Forms by Type of Facility (A1-A16 for RCFE)",
+        "Section B - Supportive Documents (B1, B2, B4-B17 for RCFE; B3 and B18 do not apply)",
+        "Final checklist ('Have you remembered the following')"
+      ]
+    },
+    "notes": "LIC 281 has no single 'plan of operation' form. The application fee plus Section A and Section B documents go to the licensing agency as one packet. Per LIC 281, submit them in the same sequence as the booklet. An incomplete packet is returned in full. All forms need original signatures and dates, and the applicant should keep a photocopy. The reviewer compares documents against each other: job descriptions (B4) must match the LIC 500; work hours in the personnel policies (B5) must match the personnel reports; and the exit routes on the LIC 999 must match the LIC 610 plan. Organize the manual by B-number in this order: B1, B2, B4, B5, B6, B7, B8, B9, B10, B11, B12 (only if the water supply is private), B13, B14, B15, B16, B17. B15 (neighborhood complaint policy) is marked 'Required' for RCFE in the table, but the B15 text limits it to non-resident-owner facilities of six or fewer. B9 includes a group-home intake bullet, and B8's discipline detail is for group homes and FFAs only. B7 says its '**' items may also appear in 'Section B10 - Admission Policies'; the document most likely means B9. Newer program-specific plan-of-operation content, such as the infection control plan and the dementia and hospice waivers listed in your regulations, is not in LIC 281. Use the Title 22 sections you listed (87208 plan of operation and others) as supplements. The CDSS forms page lists the current edition as LIC 281 (11/25), which I could not retrieve, so confirm the numbering against it before filing."
+  },
+  "plan_version": 2
 }
