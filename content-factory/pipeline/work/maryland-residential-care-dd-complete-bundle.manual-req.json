@@ -347,522 +347,648 @@
   ],
   "policies": [
     {
-      "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Organization, Governing Body and Program Director Responsibilities",
-      "citations": [
-        "C3",
-        "C8",
-        "C10",
-        "C11"
+      "id": "PA-01",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Health and Safety Needs Met per the Individual Plan; Implementation of Supports and Daily Documentation",
+      "covers": [
+        "A(1)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "The licensee must be a Maryland corporation, or a registered foreign corporation (.02A(1)). Archived OHCQ guidance says DDA does not accept LLCs.",
-        "The governing body is legally responsible for oversight of all programs and for compliance with COMAR 10.22.02 (.02A(2)-(3)).",
-        "Board composition: at least 1 person with a DD, 1 family member of a person with a DD, and 1 person with DD experience. At least 75% live in MD or within 100 miles. No employees or immediate family as voting members.",
-        "Bylaws cover oversight, compliance, mission/budget/policy approval, conflict-of-interest rules, POC responses and PSP approval.",
-        "Board members and employees may not own property leased back to the licensee (.08C(9)).",
-        "The administrative head or two officers sign license applications and renewals (.02C).",
-        "The program director ensures every staff member, care provider, consultant and volunteer knows and implements each policy (.10C).",
-        "Managers must have 5+ years of DD experience, per the DDA application."
-      ]
-    },
-    {
-      "id": "GOV-02",
-      "category": "Governance and Administration",
-      "title": "Licensure, Qualified Provider Approval and Medicaid Provider Agreements",
-      "citations": [
-        "C2",
-        "C3",
-        "C32",
-        "C39"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)",
-        "42 USC 1320a-7"
-      ],
-      "state_specifics": [
-        "Three linked approvals: DDA qualified-provider approval, an OHCQ-administered COMAR 10.22.02 license, and a separate Medicaid MA number for each licensed site (PT 90 DDA addendum).",
-        "Provider standard: minimum 5 years of demonstrated DD residential experience.",
-        "File the license renewal at least 60 days before expiration (.02B). The license does not expire until the Director acts and judicial review time lapses.",
-        "The Director may approve, approve with conditions, deny or request more information (.02D). Denial notice carries a right to a hearing request to OAH within 30 days (.02E).",
-        "Keep SDAT good standing and licenses current in MPRIME (PT 36-27; loss of good standing means Medicaid suspension).",
-        "Policies and procedures go to OHCQ within 30 days of DDA approval (DDA application §VII.A).",
-        "Keep the signed Provider Agreement to Conditions of Participation on file.",
-        "Screen owners and managers against the OIG LEIE and the Maryland sanctioned provider list."
-      ]
-    },
-    {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review, Document Control and Staff Awareness",
       "citations": [
         "C10",
-        "C14"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Written policies must cover every topic in COMAR 10.22.02.10A(1)-(19) and the .10B emergency plan.",
-        "All staff, care providers, consultants and volunteers must be aware of the policies and implement them as adopted (.10C).",
-        "The standing committee reviews policies and their implementation to ensure legal and human rights are protected (.14E(1)(f)).",
-        "Include a cross-reference table of each COMAR .10A item to the policy ID that covers it.",
-        "Policy approval is a governing-body duty under the bylaws (.08C)."
-      ]
-    },
-    {
-      "id": "GOV-04",
-      "category": "Governance and Administration",
-      "title": "Quality Assurance Plan, Data Review and Mortality Review",
-      "citations": [
-        "C14",
-        "C3"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The QA plan, and any substantive changes, require DDA approval (.14A).",
-        "The QA system must include personal contact with the people served and track their choices, preferences and satisfaction (.14B(1)).",
-        "Goals and standards must be measurable, with records kept to show effectiveness, and changes implemented from the data (.14C). DDA can request documentation to verify goals are being met (.14D).",
-        "Track behavior-plan restrictive techniques: individual, medication or technique, date and time, emergency vs. plan, and effectiveness (.14B(4)).",
-        "Mortality review: conduct a review of every death through the QA committee. Follow the DDA incident policy (PORII) and any DDA mortality review process, whose current details were not verified here."
-      ]
-    },
-    {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
-      "title": "Standing Committee (Human Rights / Quality Assurance / Incident Review)",
-      "citations": [
-        "C14",
-        "C17"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Required committee functions: perform QA functions, review the incident protocol, review all incidents, approve behavior plans that use restrictive techniques, review and set time frames for rights restrictions not related to challenging behavior, and review policies (.14E(1)).",
-        "Membership must have equal numbers of licensee staff and non-employees (individuals, proponents or community members). A member paid only for committee service counts as neither (.14E(3)).",
-        "A member may not take part in decisions on incidents they were involved in or behavior plans they developed (.14E(5)).",
-        "The committee meets as needed with at least a majority present (.14E(6)). Keep minutes.",
-        "The committee may consult a psychologist, physician, PA, NP or board-certified clinical pharmacist (.14E(4)).",
-        "Maintain confidentiality under Health-General §7-1010 (.14E(7))."
-      ]
-    },
-    {
-      "id": "GOV-06",
-      "category": "Governance and Administration",
-      "title": "Medicaid Compliance, Billing, Retainer Days and Service Documentation",
-      "citations": [
-        "C32",
-        "C33",
-        "C39",
-        "C40"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)",
-        "42 USC 1320a-7"
-      ],
-      "state_specifics": [
-        "Bill W5600 Community Living – Group Home per person per day in LTSSMaryland. Bill only services in the approved PCP and Detailed Service Authorization.",
-        "Enter 'Number of People Authorized' correctly on every claim. It counts residents living in the home and present, or on a retainer day. A move-out drops the others to the smaller-home rate (4 to 3: $403.30 to $355.23 at the Oct 1, 2026 standard rate).",
-        "Retainer days: up to 18 per resident per calendar year for hospitalization, behavioral respite, or family/friend visits.",
-        "Room and board are never billed to Medicaid; collect them from the resident under a written agreement.",
-        "Dedicated 1:1 hours (W1999) may be shared only in the situations the waiver permits (retired, transitioning, recovering, or few day-service hours). Document in each PCP and bill for one participant only. The threshold is under 40 hours in the current text and under 30 under pending Amendment #4.",
-        "Do not pay relatives, legal guardians or legally responsible persons for CL–GH.",
-        "EVV is not required for CL–GH (it applies to Personal Supports and Respite).",
-        "The 2% FY2027 rate reduction is pending CMS approval; rates stay at June 30, 2026 levels until then.",
-        "Daily documentation must support each billed day. Keep billing records at least 6 years."
-      ]
-    },
-    {
-      "id": "GOV-07",
-      "category": "Governance and Administration",
-      "title": "Program Service Plan Maintenance and DDA Approval of Changes",
-      "citations": [
-        "C9",
-        "C15"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A PSP is required for each service provided (.09A).",
-        "Submit a revised PSP for DDA approval before implementing any change (.09B).",
-        "The administrative head ensures the governing body reviews and updates the PSP at least every 3 years (.09C).",
-        "Comply with all provisions of the approved PSP (.09D).",
-        "The PSP contains rationale, scope, staffing and training, and setting and location, including the number of individuals expected per home (.09E).",
-        "An alternative model needs DDA approval through an innovative PSP variance (.09F)."
-      ]
-    },
-    {
-      "id": "GOV-08",
-      "category": "Governance and Administration",
-      "title": "Licensed Capacity, New Site, Relocation and Closure",
-      "citations": [
-        "C6",
-        "C7",
-        "C3",
-        "C32",
-        "C42",
-        "C43"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)"
-      ],
-      "state_specifics": [
-        "DDA approval is required at least 30 days before opening, closing or relocating any site (.05).",
-        "The license states capacity. Exceeding it needs Director approval for up to 60 days, plus one 60-day extension (.06).",
-        "Maximum 4 residents per home unless DDA previously approved otherwise, with private bedrooms.",
-        "Site addendum DD.ADD.1.0 lists each site, capacity and occupancy date, and includes the Community Settings Rule attestation.",
-        "The DDA New Site Visit checklist applies, including proximity to the provider's other sites and heightened scrutiny. OHCQ surveys the site after DDA approval.",
-        "Voluntary surrender of the license needs a closure schedule submitted at least 90 days ahead; the Director may require 90 more days of operation (.02F)."
-      ]
-    },
-    {
-      "id": "GOV-09",
-      "category": "Governance and Administration",
-      "title": "Regulatory Surveys, Complaint Investigations and Plans of Correction",
-      "citations": [
-        "C4",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "OHCQ is DDA's monitoring agent. Expect an on-site pre-licensure survey, announced and unannounced visits at least annually, and complaint investigation visits (.04A-D).",
-        "Submit the POC at the exit conference or within 10 working days of receiving findings. OHCQ may require it sooner, and its Director may extend up to 30 days (.04E).",
-        "If OHCQ rejects a POC, resubmit within 10 working days (.04F).",
-        "The governing body approves POC responses (.08C).",
-        "OHCQ Developmental Disabilities contacts: 410-402-8100 / 877-402-8220.",
-        "Priority 1 (immediate jeopardy) investigations start within 2 working days (.03, per research)."
-      ]
-    },
-    {
-      "id": "GOV-10",
-      "category": "Governance and Administration",
-      "title": "Conflict of Interest and Fiscal Management",
-      "citations": [
-        "C10",
-        "C8",
+        "C13",
+        "C16",
+        "C18",
         "C32"
       ],
       "federal": [],
       "state_specifics": [
-        "No financial or personal conflict of interest for governing body members, staff, care providers, volunteers and standing committee members (.10A(13)).",
-        "Fiscal affairs follow generally accepted accounting practices (.10A(14)).",
-        "Board members and employees may not own property leased back to the licensee (.08C(9)).",
-        "Relatives, legal guardians and legally responsible persons may not be paid to provide CL–GH.",
-        "Keep individuals' funds separate from agency funds (see IR-05)."
+        "Each person's health and safety needs as identified in the IP are met and documented (COMAR 10.22.02.10A(1))",
+        "Staffing levels and patterns are those determined in the IP (COMAR 10.22.08.04A)",
+        "Document IP implementation in the record kept at the site (.13B)",
+        "Services are available 24/7 with back-up and emergency support",
+        "Section numbers for IP timelines in COMAR 10.22.05 are unverified; pull them before finalizing"
       ]
     },
     {
-      "id": "IR-01",
-      "category": "Individual Rights",
-      "title": "Fundamental Rights and HCBS Settings Requirements",
+      "id": "PA-02",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Fundamental Rights, HCBS Settings Requirements, Rights Restrictions and Individual Choice",
+      "covers": [
+        "A(2)",
+        "A(3)"
+      ],
       "citations": [
         "C10",
         "C17",
         "C28",
         "C34",
         "C35",
-        "C43"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)",
-        "45 CFR Part 80",
-        "Americans with Disabilities Act"
-      ],
-      "state_specifics": [
-        "A written policy ensures fundamental rights under Health-General §7-1002 and promotes choice and the exercise of rights (.10A(2)-(3)). Read COMAR 10.22.04.03 and the statute before finalizing the rights list.",
-        "Each home must meet HCBS settings conditions: a lease or equivalent agreement, privacy, lockable bedroom doors, roommate choice, access to food and visitors, and community integration.",
-        "The home must not be gated or isolated, and must not sit near the provider's other sites (DDA New Site Visit checklist).",
-        "Any modification of a settings condition must follow 42 CFR 441.301(c)(4)(vi)(F) and be documented in the person-centered plan.",
-        "Train staff on fundamental rights within 3 months of hire (.11D(5))."
-      ]
-    },
-    {
-      "id": "IR-02",
-      "category": "Individual Rights",
-      "title": "Rights Restrictions and Due Process",
-      "citations": [
         "C14",
-        "C17",
-        "C20",
-        "C35"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(F)"
-      ],
-      "state_specifics": [
-        "The standing committee reviews and approves any restriction of a right not related to challenging behavior, and sets its time frame (.14E(1)(e)).",
-        "Restrictions tied to behavior require a behavior plan approved by the committee (.14E(1)(d); COMAR 10.22.10).",
-        "Federal modification elements: specific assessed need, positive interventions tried, less intrusive methods tried, description of the condition, regular data collection and review, time limits, informed consent, and assurance of no harm.",
-        "Individuals receive a right to a hearing under COMAR 10.22.16 when services are to be terminated (.02G(2)).",
-        "Rights restriction records must be in the IP."
-      ]
-    },
-    {
-      "id": "IR-03",
-      "category": "Individual Rights",
-      "title": "Grievances and Complaints",
-      "citations": [
-        "C10"
-      ],
-      "federal": [
-        "45 CFR 164.530(d)"
-      ],
-      "state_specifics": [
-        "Implement a grievance process with safeguards against retaliation for filing (.10A(5)).",
-        "Give each individual, and the proponent where appropriate, enough information about the process to use it effectively (.10D).",
-        "Provide the process in accessible formats (plain language, pictures, interpretation).",
-        "Include an external-contact page listing the DDA regional office and OHCQ (410-402-8100 / 877-402-8220).",
-        "The standing committee reviews grievance trends as part of QA."
-      ]
-    },
-    {
-      "id": "IR-04",
-      "category": "Individual Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
-      "citations": [
-        "C10",
-        "C13",
-        "C14",
-        "C29"
-      ],
-      "federal": [
-        "45 CFR 164.530",
-        "45 CFR 164.502",
-        "45 CFR 164.308",
-        "45 CFR 164.312"
-      ],
-      "state_specifics": [
-        "A confidentiality policy is required under Health-General §7-1010 (.10A(4)). The standing committee must also keep confidentiality (.14E(7)).",
-        "Electronic records must comply with the HIPAA privacy and security rules (.13E(2)(b)).",
-        "On a medical emergency, make the person's medical information readily accessible to emergency personnel (.13C).",
-        "Records stay at the site where the person is served (.13A). Control access to them there.",
-        "Designate a privacy officer and a security officer, and include a breach response procedure."
-      ]
-    },
-    {
-      "id": "IR-05",
-      "category": "Individual Rights",
-      "title": "Personal Funds and Property Management",
-      "citations": [
-        "C10",
-        "C32"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A system must ensure funds are used consistent with each person's needs and preferences (.10A(15)(a)).",
-        "Keep personal funds separate from agency funds, and transfer them to the individual in a timely manner when services end (.10A(15)(b)).",
-        "Individuals have timely access to their funds (.10A(15)(c)) and can request an accounting (.10A(15)(d)).",
-        "Interest from an interest-bearing account accrues to the individual's account (.10A(15)(e)).",
-        "The licensee's board and staff must have no financial conflict of interest (.10A(13)).",
-        "Room and board are collected from the resident, so SSI income ($994/month in 2026 per research) must leave personal spending money."
-      ]
-    },
-    {
-      "id": "IR-06",
-      "category": "Individual Rights",
-      "title": "Informed Consent, Proponents and Decision-Making Support",
-      "citations": [
-        "C10",
-        "C11",
-        "C35"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(F)"
-      ],
-      "state_specifics": [
-        "COMAR .10A(12) requires the licensee to have a policy complying with Health-General §5-605. Confirm the statute's subject before drafting.",
-        "Train staff on supporting individuals and families in making choices (.11D(7)) and on communication skills (.11D(8)).",
-        "Informed consent for any rights modification or restrictive technique must be documented in the IP.",
-        "Identify each person's proponent or legal decision-maker in the record."
-      ]
-    },
-    {
-      "id": "IR-07",
-      "category": "Individual Rights",
-      "title": "Nondiscrimination and Communication Access",
-      "citations": [
-        "C10",
-        "C11"
-      ],
-      "federal": [
-        "Americans with Disabilities Act (Title III)",
-        "45 CFR Part 80 (Title VI)",
-        "45 CFR Part 92 (Section 1557)",
-        "Section 504 (45 CFR Part 84)"
-      ],
-      "state_specifics": [
-        "Services must be provided without discrimination (.10A(6)).",
-        "The licensee also needs a separate policy to prevent employment discrimination (.11E(2); see ST-08).",
-        "Provide interpreters, accessible formats and assistive communication for individuals and families.",
-        "Staff communication-skills training is required within 3 months of hire (.11D(8))."
-      ]
-    },
-    {
-      "id": "IR-08",
-      "category": "Individual Rights",
-      "title": "Residency Agreement, Room and Board and Rent",
-      "citations": [
-        "C32",
-        "C33",
-        "C34",
-        "C35"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)"
-      ],
-      "state_specifics": [
-        "Each resident needs a lease or equivalent legally enforceable residency agreement, with protections against eviction comparable to landlord-tenant law.",
-        "Medicaid excludes room and board. Collect it from the resident under a written agreement, and keep it separate from Medicaid billing.",
-        "Set an amount residents can afford (2026 federal SSI is $994/month per research).",
-        "Residents choose roommates and have private bedrooms, with sharing only by choice, and lockable doors.",
-        "Residents control their schedule and have access to food and visitors."
-      ]
-    },
-    {
-      "id": "IR-09",
-      "category": "Individual Rights",
-      "title": "Payment for Property Damage",
-      "citations": [
-        "C10"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "An individual may be required to pay for property damage only if the IP shows all of the following (.10A(11)): a documented history of destructive behavior in the behavior plan, a behavior plan addressing it, ability to pay, approval by the licensee's standing committee, and a report of the approval to the regional director.",
-        "Without all five, do not charge the individual."
-      ]
-    },
-    {
-      "id": "IR-10",
-      "category": "Individual Rights",
-      "title": "Individuals' Household Tasks and Prohibition on Performing Paid Staff Duties",
-      "citations": [
-        "C10"
-      ],
-      "federal": [
-        "29 USC 201 et seq. (FLSA)"
-      ],
-      "state_specifics": [
-        "An individual may not perform the duties of a paid staff person (.10A(18)).",
-        "An individual may perform only tasks shared by the household, tasks documented as an activity in the IP, or tasks paid as part of a training program as required by federal or State law (.10A(19)).",
-        "Document chore participation in the IP, and pay for any work that is not shared household work."
-      ]
-    },
-    {
-      "id": "PC-01",
-      "category": "Person-Centered Services",
-      "title": "Referral, Admission and Transition In",
-      "citations": [
-        "C13",
-        "C15",
-        "C32"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Referrals and service authorization come through the DDA Regional Office and the person's PCP. Services must be authorized in LTSSMaryland before billing.",
-        "At admission, create the record at the site with the items in .13B, including application information, emergency contact, next of kin, physician, diagnosis, allergies and medication list.",
-        "Check vacancy and compatibility against the PSP's stated number of individuals per home and the licensed capacity.",
-        "Fill vacancies only with DDA authorization; a vacancy changes the billing rate (see GOV-06).",
-        "Regional offices: CMRO 410-234-8200; ESRO 410-572-5920; SMRO 301-362-5100; WMRO 301-791-4670."
-      ]
-    },
-    {
-      "id": "PC-02",
-      "category": "Person-Centered Services",
-      "title": "Person-Centered Planning and the Individual Plan",
-      "citations": [
-        "C10",
-        "C13",
-        "C18"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(1)-(2)"
-      ],
-      "state_specifics": [
-        "The IP is defined in COMAR 10.22.05, and it must be in the record (.13B(3)). Read that chapter and add its timelines before finalizing.",
-        "Health and safety needs identified in the IP must be met (.10A(1)).",
-        "Staffing levels and patterns come from the IP (COMAR 10.22.08.04A).",
-        "Train staff on individual-directed, outcome-oriented planning within 3 months of hire (.11D(2)).",
-        "Services billed must be in the approved PCP."
-      ]
-    },
-    {
-      "id": "PC-03",
-      "category": "Person-Centered Services",
-      "title": "Implementation of Supports and Daily Documentation",
-      "citations": [
-        "C13",
-        "C16",
-        "C33"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The record must contain documentation demonstrating implementation of the IP (.13B(4)).",
-        "Staffing patterns follow the IP (COMAR 10.22.08.04A).",
-        "Daily notes must support each day billed under W5600, and each retainer day.",
-        "Document any authorized dedicated hours separately from home staffing.",
-        "Hot water above 110°F is allowed only if the IP documents that everyone in the home can regulate temperature safely (.12C)."
-      ]
-    },
-    {
-      "id": "PC-04",
-      "category": "Person-Centered Services",
-      "title": "Community Integration, Dedicated Hours and Employment Choice",
-      "citations": [
-        "C11",
-        "C32",
-        "C35"
+        "C42"
       ],
       "federal": [
         "42 CFR 441.301(c)(4)"
       ],
       "state_specifics": [
-        "Train staff on community integration and inclusion within 3 months of hire (.11D(1)).",
-        "Dedicated 1:1 hours (W1999) may be shared only for people who are retired, transitioning, recovering, or receiving few day-service hours. Under current text the limit is under 40 hours, and under pending Amendment #4 under 30 hours.",
-        "Transportation is included in the daily rate. Use the most cost-effective mode.",
-        "Support employment and day-service choices as set out in each PCP, and do not restrict community access without the rights-restriction process (IR-02)."
+        "Ensure fundamental rights under Health-General §7-1002 (COMAR 10.22.02.10A(2)); read COMAR 10.22.04.03 text before finalizing",
+        "Provider-controlled homes need a lease or equivalent agreement, privacy, lockable bedroom doors, roommate choice, and access to food and visitors",
+        "Any modification of a settings-rule condition needs a specific assessed need documented in the person-centered plan (441.301(c)(4)(vi))",
+        "The standing committee reviews rights restrictions not related to challenging behavior and sets time frames (.14E)",
+        "Services are delivered in ways that promote choice (A(3)); sign the Community Settings Rule attestation on the site addendum"
       ]
     },
     {
-      "id": "PC-05",
-      "category": "Person-Centered Services",
-      "title": "Transition, Discharge and Termination of Services",
+      "id": "PA-03",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Privacy, Confidentiality and HIPAA",
+      "covers": [
+        "A(4)"
+      ],
       "citations": [
-        "C3",
-        "C24",
+        "C10",
+        "C29",
         "C13"
+      ],
+      "federal": [
+        "45 CFR 160",
+        "45 CFR 164"
+      ],
+      "state_specifics": [
+        "Confidentiality for each individual per Health-General §7-1010 (COMAR 10.22.02.10A(4))",
+        "Standing committee members must keep confidentiality under §7-1010 (.14E(7))",
+        "Electronic records must comply with HIPAA privacy and security rules and be backed up off-site (.13E)",
+        "Records are kept at the site where the person is served; release only with valid authorization or as the law requires"
+      ]
+    },
+    {
+      "id": "PA-04",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Grievances and Complaints",
+      "covers": [
+        "A(5)"
+      ],
+      "citations": [
+        "C10",
+        "C4",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "Terminate services for good cause only with the Director's written approval (.02G).",
-        "Notify the Director in writing 90 days before the proposed termination date (.02G(1)).",
-        "Give the individual, and the proponent where appropriate, written notice of the intent to terminate and the right to a hearing under COMAR 10.22.16, within the same 90-day period. Copy the regional office and the individual's team (.02G(2)).",
-        "Treat services as terminated after 60 consecutive days of absence unless the Director decides otherwise (.02G(3)).",
-        "Transfer personal funds to the individual in a timely manner when services end (.10A(15)(b)).",
-        "Keep the record at least 6 years after services end (.13D(1))."
+        "Implement a grievance process with safeguards against retaliation for filing any grievance (COMAR 10.22.02.10A(5))",
+        "Give individuals and proponents enough information to use the process (.10D); see DG-01",
+        "Include OHCQ DD complaint line 410-402-8100 / 877-402-8220 in the notice",
+        "Log each grievance, the response and the outcome, and review trends in the QA system"
       ]
     },
     {
-      "id": "HW-01",
-      "category": "Health and Wellness",
-      "title": "Medication Administration and Medication Technician Certification",
+      "id": "PA-05",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Nondiscrimination and Communication Access",
+      "covers": [
+        "A(6)"
+      ],
       "citations": [
         "C10",
-        "C11",
+        "C11"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)",
+        "Title VI (42 USC 2000d)"
+      ],
+      "state_specifics": [
+        "Services are provided without discrimination (COMAR 10.22.02.10A(6))",
+        "Written policy to prevent employment discrimination and written job descriptions for every position (.11E)",
+        "Provide interpreters, accessible formats and communication supports to individuals and proponents",
+        "The site addendum asks whether the home is wheelchair accessible; track accommodations"
+      ]
+    },
+    {
+      "id": "PA-06",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Reportable Incidents and Investigations",
+      "covers": [
+        "A(7)"
+      ],
+      "citations": [
+        "C10",
+        "C31",
+        "C4",
+        "C5",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report and investigate all incidents under DDA's Policy on Reportable Incidents and Investigations (PORII); the reviewer form cites the 10/1/2007 revision",
+        "Copy incident levels, deadlines and forms from the current DDA PORII; they were not verified here",
+        "The standing committee reviews the incident protocol and all incidents; members involved in an incident may not decide it (.14E)",
+        "OHCQ starts Priority 1 (immediate jeopardy) investigations within 2 working days (.03)",
+        "Respond to OHCQ findings with a plan of correction at the exit conference or within 10 working days (.04E)"
+      ]
+    },
+    {
+      "id": "PA-07",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Medication Administration (MATP) and Compliance with Nursing Delegation (COMAR 10.27.11)",
+      "covers": [
+        "A(8)",
+        "A(9)"
+      ],
+      "citations": [
+        "C10",
         "C12",
+        "C25",
+        "C32",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Administer medication per DDA's medication curriculum (MATP) (COMAR 10.22.02.10A(8); .12D)",
+        "Unit-dose packaging for oral solids unless the IP says otherwise; separate packaging for absent individuals",
+        "Request pharmacy-generated MARs, TARs and physician order forms",
+        "Unlicensed staff who give medication or treatments must be Board of Nursing Medication Technicians under RN delegation (10.27.11)",
+        "Follow the detailed procedures in NU-01 through NU-07"
+      ]
+    },
+    {
+      "id": "PA-08",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Positive Behavior Support, Behavior Plans and Medications Used to Modify Behavior",
+      "covers": [
+        "A(10)"
+      ],
+      "citations": [
+        "C10",
+        "C19",
+        "C21",
+        "C23",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Anyone whose behaviors require intervention gets the safeguards in COMAR 10.22.10 (COMAR 10.22.02.10A(10))",
+        "Behavior plan content and approval follow .10.05; medications to modify behavior follow .10.07; monitoring follows .10.11 (rule text not read; confirm before finalizing)",
+        "The standing committee approves every behavior plan that uses restrictive techniques (.14E(1)(d))",
+        "Track restrictive techniques in the QA system: who, which technique, date/time, emergency vs. plan, and effectiveness (.14B)",
+        "Use proactive, person-centered supports first and document that less restrictive options were tried"
+      ]
+    },
+    {
+      "id": "PA-09",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Restrictive Interventions, Restraint and Seclusion",
+      "covers": [
+        "A(10)"
+      ],
+      "citations": [
+        "C10",
+        "C20",
+        "C22",
+        "C14",
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Restrictive techniques are used only as allowed by COMAR 10.22.10.06 and the specific restraint rules (.08 physical; .09 mechanical; .10 chemical); rule text not read",
+        "Standing committee approval is required before use in a behavior plan (.14E(1)(d))",
+        "Log every use and review it in QA (.14B)",
+        "Any use outside a plan is an emergency use: report it as an incident under the PORII",
+        "Staff may use only techniques they are trained in"
+      ]
+    },
+    {
+      "id": "PA-10",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Payment for Property Damage",
+      "covers": [
+        "A(11)(a)",
+        "A(11)(b)",
+        "A(11)(c)",
+        "A(11)(d)",
+        "A(11)(e)"
+      ],
+      "citations": [
+        "C10",
+        "C14",
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "An individual may be required to pay for property damage only if the IP shows all five conditions in COMAR 10.22.02.10A(11)",
+        "(a) a documented history of destructive behavior in the behavior plan; (b) a BP that addresses it",
+        "(c) evidence the individual has the ability to pay",
+        "(d) the standing committee has reviewed and approved the payment",
+        "(e) the licensee has reported the approval to the Regional Director"
+      ]
+    },
+    {
+      "id": "PA-11",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Informed Consent, Surrogate Decision-Making and Decision-Making Support",
+      "covers": [
+        "A(12)"
+      ],
+      "citations": [
+        "C10"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Comply with Health-General §5-605 (surrogate decision-making) (COMAR 10.22.02.10A(12))",
+        "Use supported decision-making and plain-language information before seeking any consent",
+        "Identify the legal decision-maker or proponent for each person and keep documentation in the record",
+        "Do not use staff or board members as surrogates (see PA-12)"
+      ]
+    },
+    {
+      "id": "PA-12",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Conflict of Interest",
+      "covers": [
+        "A(13)"
+      ],
+      "citations": [
+        "C10",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "No financial or personal conflict of interest for governing body members, staff, care providers, volunteers or standing committee members (COMAR 10.22.02.10A(13))",
+        "Board members and employees may not own property leased back to the licensee (.08C(9))",
+        "Employees and their immediate family may not be voting board members (.08)",
+        "Collect annual conflict of interest disclosures and record recusals"
+      ]
+    },
+    {
+      "id": "PA-13",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Fiscal Practices (Generally Accepted Accounting Practices)",
+      "covers": [
+        "A(14)"
+      ],
+      "citations": [
+        "C10",
+        "C3",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Fiscal affairs are conducted per generally accepted accounting practices (COMAR 10.22.02.10A(14))",
+        "The board approves the budget (.08C)",
+        "Keep room-and-board collections separate from Medicaid billing",
+        "Keep SDAT good standing and MA numbers current"
+      ]
+    },
+    {
+      "id": "PA-14",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Personal Funds and Property Management",
+      "covers": [
+        "A(15)(a)",
+        "A(15)(b)",
+        "A(15)(c)",
+        "A(15)(d)",
+        "A(15)(e)"
+      ],
+      "citations": [
+        "C10",
         "C32"
       ],
       "federal": [],
       "state_specifics": [
-        "Administer all medication per DDA's curriculum on medication training (.10A(8); .12D(1)).",
-        "Unlicensed staff who give medication or treatments must be Maryland Board of Nursing certified Medication Technicians working under RN delegation (waiver standard).",
-        "Medication administration training is required before independent duties (.11C(2)(d)).",
-        "Oral solid medication comes in unit-dose packages unless the IP says otherwise (.12D(2)). Send medication for an absent person in a separate, easily identified pharmaceutical package (.12D(3)).",
-        "Request computer-generated MARs, TARs and physician order forms from the pharmacy (.12D(4)).",
-        "Keep the allergy list and medication list in the record (.13B(2)(e)-(f))."
+        "A(15)(a): a system to ensure funds are used for the individual's needs and preferences",
+        "A(15)(b): keep personal funds separate from licensee funds, and transfer them promptly when the person leaves",
+        "A(15)(c): the individual has timely access to funds",
+        "A(15)(d): provide an accounting of funds on request",
+        "A(15)(e): credit interest to the individual if the account bears interest; room and board is collected from the resident under a written agreement"
       ]
     },
     {
-      "id": "HW-02",
-      "category": "Health and Wellness",
-      "title": "Delegating Nurse Oversight and Health Care Coordination",
+      "id": "PA-15",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Infection Prevention, Standard Precautions and Safety Precautions",
+      "covers": [
+        "A(16)"
+      ],
+      "citations": [
+        "C10",
+        "C36",
+        "C11"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Implement State and federal safety precautions, infection control and standard precautions (COMAR 10.22.02.10A(16))",
+        "OSHA bloodborne pathogens training before independent duties (.11C(3))",
+        "Training on communicable diseases within 3 months of hire (.11D)",
+        "Provide PPE, an exposure control plan and post-exposure follow-up"
+      ]
+    },
+    {
+      "id": "PA-16",
+      "category": "COMAR 10.22.02.10 – A(1) through A(19)",
+      "title": "Individuals Not Performing Paid Staff Duties; Household Duties",
+      "covers": [
+        "A(18)",
+        "A(19)"
+      ],
+      "citations": [
+        "C10"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Individuals do not perform duties of paid staff (COMAR 10.22.02.10A(18))",
+        "An individual does only household duties shared by the household, activities documented in the IP, or work paid as part of a training program (A(19))",
+        "Document any household-task agreement in the IP and respect choice",
+        "Staff-assigned chores such as cleaning common areas for the agency are not allowed"
+      ]
+    },
+    {
+      "id": "EP-01",
+      "category": "B(1) through B(7) – Emergency plan for ALUs/GHs",
+      "title": "Emergency Plan: Evacuation, Transportation, 72-Hour Shelter-in-Place, Identification and Role of Family",
+      "covers": [
+        "A(17)",
+        "B(1)",
+        "B(1)(a)",
+        "B(1)(d)",
+        "B(1)(e)"
+      ],
+      "citations": [
+        "C10",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written plan for all types of emergencies with before, during and after procedures (COMAR 10.22.02.10B(1))",
+        "Cover evacuation, transportation or 72-hour shelter-in-place for individuals and staff (B(1)(a))",
+        "Everyone has ID with current health and contact information that is immediately accessible during evacuation (B(1)(d))",
+        "Define the role of the resident, family or legal representative during evacuation (B(1)(e))",
+        "Keep a written fire evacuation plan in each home (.12B)"
+      ]
+    },
+    {
+      "id": "EP-02",
+      "category": "B(1) through B(7) – Emergency plan for ALUs/GHs",
+      "title": "Emergency and Fire Drills and After-Action Reports",
+      "covers": [
+        "A(17)",
+        "B(1)(b)",
+        "B(1)(c)"
+      ],
+      "citations": [
+        "C10",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Hold an annual practice drill coordinated with local emergency planners for sheltering in place or evacuating (B(1)(b))",
+        "Prepare an after-action report and improvement plan after drills, evaluating the plan and taking corrective action (B(1)(c))",
+        "Run enough drills to meet A(17) (adequate drills); the rule sets no fixed number, so set a schedule that covers all shifts",
+        "Smoke detectors and fire extinguishers are working and updated (.12B)"
+      ]
+    },
+    {
+      "id": "EP-03",
+      "category": "B(1) through B(7) – Emergency plan for ALUs/GHs",
+      "title": "Alternate Sites, Redundant Communication and Notifications",
+      "covers": [
+        "B(1)(f)",
+        "B(1)(g)",
+        "B(2)"
+      ],
+      "citations": [
+        "C10",
+        "C5"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Arrange medical needs and accommodations for individuals and staff at alternate facilities or shelters (B(1)(f))",
+        "Communication protocol with redundant means among all parties (B(1)(g))",
+        "Notify families, staff and DDA (B(2)); DDA regional offices: CMRO 410-234-8200, ESRO 410-572-5920, SMRO 301-362-5100, WMRO 301-791-4670",
+        "Notification of any incident follows the PORII"
+      ]
+    },
+    {
+      "id": "EP-04",
+      "category": "B(1) through B(7) – Emergency plan for ALUs/GHs",
+      "title": "Emergency Staff Coverage, Recall and Continuity of Operations",
+      "covers": [
+        "B(3)",
+        "B(3)(a)",
+        "B(3)(b)",
+        "B(3)(c)",
+        "B(4)"
+      ],
+      "citations": [
+        "C10",
+        "C11",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Plan staff coverage for ongoing shelter in place or evacuation (B(3)(a))",
+        "Identify staff available to report or remain during extended periods (B(3)(b))",
+        "Staff notification and recall contingency procedures (B(3)(c))",
+        "Continuity of operations plan (B(4)) that keeps 24/7 coverage with back-up"
+      ]
+    },
+    {
+      "id": "EP-05",
+      "category": "B(1) through B(7) – Emergency plan for ALUs/GHs",
+      "title": "Back-up of Records, Sharing the Plan with Emergency Management, and Family Summary",
+      "covers": [
+        "B(5)",
+        "B(5)(a)",
+        "B(5)(b)",
+        "B(6)",
+        "B(7)"
+      ],
+      "citations": [
+        "C10",
+        "C13"
+      ],
+      "federal": [
+        "45 CFR 164"
+      ],
+      "state_specifics": [
+        "Back up and store off-site electronic records of individuals, staff and the facility for emergency access (B(5)(a))",
+        "Provide an electronic copy of the plan when local, State or federal emergency management requests it (B(5)(b))",
+        "Share the plan with local emergency management organizations (B(6))",
+        "Give families an executive summary on request (B(7))",
+        "Electronic records must also meet HIPAA security rules and be backed up off-site (.13E)"
+      ]
+    },
+    {
+      "id": "CS-01",
+      "category": "C – Staff awareness and implementation of policies",
+      "title": "Staff Awareness and Implementation of Policies; Policy Review and Document Control",
+      "covers": [
+        "C"
+      ],
+      "citations": [
+        "C10",
+        "C11",
+        "C41"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "All staff, care providers, consultants and volunteers must know and carry out each adopted policy (COMAR 10.22.02.10C)",
+        "Document orientation and a signed acknowledgment at hire and after each revision",
+        "Review the policy manual at least annually and whenever the rules change; keep a version log",
+        "Document training on the Staff Training Form"
+      ]
+    },
+    {
+      "id": "DG-01",
+      "category": "D – Grievance process information for individuals and proponents",
+      "title": "Grievance Process Information for Individuals and Proponents",
+      "covers": [
+        "D"
+      ],
+      "citations": [
+        "C10"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)"
+      ],
+      "state_specifics": [
+        "Give individuals and proponents enough information to use the grievance process effectively (COMAR 10.22.02.10D)",
+        "Provide it at admission and annually in plain language, accessible formats and the person's own language",
+        "Post OHCQ complaint contacts: 410-402-8100 / 877-402-8220",
+        "Explain anti-retaliation protections and who will help file a grievance"
+      ]
+    },
+    {
+      "id": "NU-01",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "Medication: Obtaining Orders and Medications",
+      "covers": [
+        "Nursing-1"
+      ],
+      "citations": [
+        "C10",
+        "C12",
+        "C25"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Medications are given only on a current written prescriber order",
+        "Request pharmacy-generated MARs, TARs and physician order forms (.12D)",
+        "The reviewer cites MTTP 1:4-9; 2:2-7; 2:4-2; 2:4-7; 2:3-18; 2:3-26",
+        "Unit-dose packaging for oral solids unless the IP says otherwise",
+        "Follow the current MTTP and DDA medication curriculum for transcription and order verification"
+      ]
+    },
+    {
+      "id": "NU-02",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "Medication Administration and Storage",
+      "covers": [
+        "Nursing-2"
+      ],
+      "citations": [
+        "C10",
+        "C12",
+        "C25"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The reviewer cites MTTP 1:1-18; 1:4-9; 2:2-7; 2:3; 2:3-26; 2:2-28; 2:4-2; 2:4-7",
+        "Only certified Medication Technicians (or licensed nurses) give medication",
+        "Store medication locked, separate by individual, and package medication for absent individuals separately (.12D)",
+        "Document each dose on the MAR at the time given"
+      ]
+    },
+    {
+      "id": "NU-03",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "Controlled Drugs",
+      "covers": [
+        "Nursing-3"
+      ],
+      "citations": [
+        "C10",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The reviewer cites MTTP 1:4-9; 2:1-9; 2:2-5; 2:2-7",
+        "Double-lock controlled drugs and count at every shift change with two signatures",
+        "Investigate and report discrepancies immediately; treat them as incidents under the PORII",
+        "Document destruction and disposal"
+      ]
+    },
+    {
+      "id": "NU-04",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "Medication Errors",
+      "covers": [
+        "Nursing-4"
+      ],
+      "citations": [
+        "C10",
+        "C25",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The reviewer cites COMAR 10.27.11 and MTTP 2:3-17; 2:4-10",
+        "Notify the delegating RN and prescriber immediately and follow instructions",
+        "Report and review errors under the PORII and the QA system",
+        "Retrain or restrict the Medication Technician after an error as the RN directs"
+      ]
+    },
+    {
+      "id": "NU-05",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "Determining Ability to Self-Medicate",
+      "covers": [
+        "Nursing-5"
+      ],
+      "citations": [
+        "C10",
+        "C12",
+        "C25"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "The reviewer cites MTTP Chapter 8",
+        "The RN assesses ability and supports needed; record the result in the IP",
+        "Reassess at least annually and after any change of condition",
+        "Support the person's choice to self-administer when assessed as safe; store medication so the person can reach it"
+      ]
+    },
+    {
+      "id": "NU-06",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "Reporting and Communication of Health Information",
+      "covers": [
+        "Nursing-6"
+      ],
+      "citations": [
+        "C10",
+        "C13",
+        "C31"
+      ],
+      "federal": [
+        "45 CFR 164"
+      ],
+      "state_specifics": [
+        "The reviewer cites MTTP 1:2-7; 1:3-4; 1:3-7; 1:3-10 & 11; 1:4-9; 3:2-9",
+        "Staff report changes in condition to the delegating RN and document them",
+        "Make medical information readily accessible to emergency personnel (.13C)",
+        "Hand-off between shifts is documented, and health communication is shared with prescribers, family and the case coordinator as authorized"
+      ]
+    },
+    {
+      "id": "NU-07",
+      "category": "Nursing – Medication P&P, Reporting/Communication and the RN Role",
+      "title": "The RN Role, Nursing Delegation and Health Care Coordination",
+      "covers": [
+        "Nursing-7"
+      ],
       "citations": [
         "C10",
         "C25",
@@ -870,281 +996,357 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Have a policy ensuring compliance with COMAR 10.27.11, Delegation of Nursing Functions (.10A(9)). Read that chapter before finalizing.",
-        "The waiver standard requires RN delegation of nursing tasks to unlicensed staff.",
-        "Nursing Support Services are included within CL–GH based on assessed need; the Regional Office may authorize additional standalone hours after a health change or hospital discharge.",
-        "Document the individual's physician, diagnosis and medication list in the record (.13B(2))."
+        "The reviewer cites COMAR 10.27.11 and MTTP 6-5",
+        "The delegating RN delegates and supervises CMT tasks and audits MARs",
+        "The RN coordinates HRST and health care follow-up for each resident",
+        "Nursing Support Services: ask DDA whether hours are authorized separately per resident (W5804)",
+        "Confirm RN licensure annually"
       ]
     },
     {
-      "id": "HW-03",
-      "category": "Health and Wellness",
-      "title": "Health Monitoring, Seizures and Choking Risk",
+      "id": "XP-01",
+      "category": "Explanation of all items checked 'No', with a compliance plan",
+      "title": "Compliance Plan for Required Items Not Met",
+      "covers": [],
       "citations": [
         "C10",
-        "C11",
-        "C13"
+        "C3",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "Health and safety needs identified in the IP must be met (.10A(1)).",
-        "Seizure disorders training is required before independent duties (.11C(2)(a)).",
-        "Include aging-process training (.11C(2)(e)) and First Aid/CPR within 3 months of hire (.11D(4)); the waiver standard requires CPR/First Aid with an in-person skills check.",
-        "Record diagnoses and allergies per .13B(2).",
-        "Choking-risk protocols belong in the IP and are not set by a specific COMAR section (none found in the sections fetched)."
+        "Explain every item checked 'No' on the DDA policy review form and attach a compliance plan with owner and due date",
+        "Track the plan to completion and report status to the governing body",
+        "Submit revised policies to OHCQ and DDA as requested",
+        "Submit policies to OHCQ within 30 days of DDA approval"
       ]
     },
     {
-      "id": "HW-04",
-      "category": "Health and Wellness",
-      "title": "Change of Condition and Emergency Medical Care",
+      "id": "GOV-01",
+      "category": "Governance and Administration",
+      "title": "Organization, Governing Body and Program Director Responsibilities",
+      "covers": [],
       "citations": [
-        "C10",
-        "C13",
-        "C14"
-      ],
-      "federal": [
-        "45 CFR 164.512(j)"
-      ],
-      "state_specifics": [
-        "On notification of a medical emergency, make the individual's medical information readily accessible to emergency personnel (.13C).",
-        "Incidents involving life-threatening conditions must be reported and investigated under DDA procedures (.10A(7)).",
-        "The QA system must respond promptly and appropriately when an individual's health or safety is at risk (.14B(5)).",
-        "Keep emergency contact, next of kin and physician in each record (.13B(2))."
-      ]
-    },
-    {
-      "id": "HW-05",
-      "category": "Health and Wellness",
-      "title": "Death of an Individual",
-      "citations": [
-        "C10",
-        "C13",
-        "C31"
-      ],
-      "federal": [
-        "45 CFR 164.502(f)"
-      ],
-      "state_specifics": [
-        "Report a death under DDA procedures on reportable incidents (.10A(7)). Insert the current PORII reporting level and deadline; those were not verified here.",
-        "Keep the record at least 6 years after a person dies (.13D(1)).",
-        "The standing committee reviews all incidents (.14E(1)(c)).",
-        "Return personal funds and property in a timely manner (.10A(15)(b)).",
-        "Notify family or the proponent and the DDA regional office."
-      ]
-    },
-    {
-      "id": "BH-01",
-      "category": "Behavior Support and Protection",
-      "title": "Positive Behavior Support and Behavior Plans",
-      "citations": [
-        "C10",
-        "C11",
-        "C14",
-        "C19"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(F)"
-      ],
-      "state_specifics": [
-        "A policy must ensure that an individual whose behavior requires intervention receives the safeguards required by the chapter (.10A(10)).",
-        "Behavior plans that use restrictive techniques must be approved by the standing committee and comply with COMAR 10.22.04.03A and 10.22.10 (.14E(1)(d)).",
-        "Training on principles of behavior change and management of disruptive behaviors is required before independent duties (.11C(2)(b)-(c)).",
-        "COMAR 10.22.10.05 covers the Behavior Plan; its text was not read."
-      ]
-    },
-    {
-      "id": "BH-02",
-      "category": "Behavior Support and Protection",
-      "title": "Restrictive Interventions, Restraint and Seclusion",
-      "citations": [
-        "C14",
-        "C17",
-        "C20",
-        "C22"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(F)"
-      ],
-      "state_specifics": [
-        "COMAR 10.22.10 has separate sections on Use of Restrictive Techniques (.06), Physical Restraint (.08), Mechanical Restraint and Support (.09) and Chemical Restraint (.10). Their text was not read; copy permitted techniques, limits and documentation from them before finalizing.",
-        "Track each use: individual, technique, date and time, emergency vs. plan, effectiveness (.14B(4)).",
-        "The standing committee approves all behavior plans using restrictive techniques (.14E(1)(d)).",
-        "Seclusion: check the 10.22.10 text on whether it is addressed, and do not state a rule here that is unverified."
-      ]
-    },
-    {
-      "id": "BH-03",
-      "category": "Behavior Support and Protection",
-      "title": "Medications Used to Modify Behavior and Restrictive Technique Monitoring",
-      "citations": [
-        "C14",
-        "C21",
-        "C23"
+        "C3",
+        "C8",
+        "C9"
       ],
       "federal": [],
       "state_specifics": [
-        "COMAR 10.22.10.07 covers Use of Medications to Modify Challenging Behavior, and .11 covers Monitoring Use of Medications to Modify Behavior and Restrictive Techniques. Their text was not read.",
-        "The QA system must record the medication or technique, date and time, whether emergency or planned, and whether it meets behavior plan goals (.14B(4)).",
-        "The standing committee reviews trends."
+        "Licensee must be a Maryland corporation or registered foreign corporation (COMAR 10.22.02.02A(1))",
+        "Board must include at least one person with a DD, one family member and one person with DD experience; 75% must live in MD or within 100 miles (.08)",
+        "Employees and their immediate family cannot be voting members",
+        "Bylaws cover oversight, compliance, mission/budget/policy approval, conflict of interest, POC responses and PSP approval (.08C)",
+        "Governing body reviews the Program Service Plan at least every 3 years (.09C)"
       ]
     },
     {
-      "id": "BH-04",
-      "category": "Behavior Support and Protection",
-      "title": "Abuse, Neglect and Exploitation Prevention and Reporting",
+      "id": "GOV-02",
+      "category": "Governance and Administration",
+      "title": "Licensure, Site Approval, Licensed Capacity and Provider Agreements",
+      "covers": [],
       "citations": [
-        "C10",
-        "C11",
-        "C30",
-        "C31"
+        "C2",
+        "C3",
+        "C6",
+        "C7",
+        "C39",
+        "C42"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A license is required to provide community residential services (COMAR 10.22.02.01-1)",
+        "DDA approval at least 30 days in advance to open, close or relocate a site (.05)",
+        "Do not exceed licensed capacity without Director approval (60 days plus one 60-day extension) (.06)",
+        "File renewal at least 60 days before the license expires (.02B)",
+        "Each licensed site needs its own MA number (PT 90 DDA); keep SDAT good standing in MPRIME"
+      ]
+    },
+    {
+      "id": "GOV-03",
+      "category": "Governance and Administration",
+      "title": "Quality Assurance, Standing Committee, Data Review and Mortality Review",
+      "covers": [],
+      "citations": [
+        "C14",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Submit the QA plan and substantive changes to DDA for approval (COMAR 10.22.02.14A)",
+        "QA is focused on individual choice and satisfaction, with measurable outcomes and trend analysis (.14B)",
+        "Standing committee has equal numbers of staff and non-employees and reviews incidents, restrictive behavior plans and rights restrictions (.14E)",
+        "Review each death in the mortality review process and report results to the committee",
+        "Make changes based on QA data and keep records (.14C)"
+      ]
+    },
+    {
+      "id": "GOV-04",
+      "category": "Governance and Administration",
+      "title": "Medicaid Compliance, Billing and Service Documentation",
+      "covers": [],
+      "citations": [
+        "C33",
+        "C40",
+        "C32",
+        "C39"
       ],
       "federal": [
         "42 CFR 441.301(c)(4)"
       ],
       "state_specifics": [
-        "All incidents must be reported and investigated per DDA procedures (.10A(7)). Use the current DDA PORII for abuse, neglect and exploitation categories and deadlines (not verified here).",
-        "Mandatory-reporter duties under Family Law §14-302 for vulnerable adults were not verified; confirm before use.",
-        "Reports are made to the local department of social services (Adult Protective Services), and to DDA and OHCQ per PORII.",
-        "Do not retaliate against anyone who reports (see the anti-retaliation safeguard in .10A(5)).",
-        "Background checks bar anyone whose history shows behavior potentially harmful to individuals (.11B).",
-        "OHCQ complaint line: 410-402-8100 / 877-402-8220."
+        "Bill only services in the approved PCP and Detailed Service Authorization in LTSSMaryland (W5600, per person per day)",
+        "Enter the correct 'Number of People Authorized' on each claim; the rate follows the number of people living in the home",
+        "Retainer days up to 18 per person per year; the person still counts toward home size",
+        "EVV is not required for CL–GH; it is required for Personal Supports and Respite",
+        "Screen staff and owners against the OIG exclusion list; payment may lag up to 180 days"
       ]
     },
     {
-      "id": "BH-05",
-      "category": "Behavior Support and Protection",
-      "title": "Reportable Incidents and Investigations",
+      "id": "PCS-01",
+      "category": "Person-Centered Services",
+      "title": "Referral, Admission, Residency Agreement, Room and Board, and Transition In",
+      "covers": [],
       "citations": [
-        "C4",
-        "C5",
-        "C10",
-        "C14",
-        "C31"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Report and investigate all incidents, including life-threatening conditions, per DDA's procedures on reportable incidents (.10A(7)). Insert PORII levels, deadlines and forms from the current policy; these were not verified here.",
-        "The standing committee reviews the incident protocol and all incidents to identify deficient practices and recommend corrective action (.14E(1)(b)-(c)).",
-        "OHCQ conducts complaint and incident investigations. Priority 1 investigations start within 2 working days (.03, per research).",
-        "POC due at the exit conference or within 10 working days (.04E)."
-      ]
-    },
-    {
-      "id": "BH-06",
-      "category": "Behavior Support and Protection",
-      "title": "Missing Person and Elopement",
-      "citations": [
-        "C10",
-        "C14",
-        "C31"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A missing person is a reportable incident under the DDA procedure (.10A(7)). Insert the PORII category and deadline once verified.",
-        "Include search steps, police notification, and notification of the proponent and DDA regional office.",
-        "Individuals' IPs must address elopement risk (.10A(1)).",
-        "The standing committee reviews every incident (.14E(1)(c))."
-      ]
-    },
-    {
-      "id": "HE-01",
-      "category": "Home Environment and Safety",
-      "title": "Residential Environment and Accessibility",
-      "citations": [
-        "C12",
         "C32",
-        "C35",
+        "C34",
         "C42",
+        "C43",
+        "C7"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "Maximum 4 residents per home unless DDA previously approved; private bedrooms (sharing only by choice)",
+        "Do not exceed licensed capacity (.06)",
+        "Each resident has a lease or equivalent residency agreement under the settings rule",
+        "Room and board is excluded from the Medicaid rate and collected from the resident under a written agreement; set an affordable amount",
+        "Roommate choice and a trial-experience option should be documented"
+      ]
+    },
+    {
+      "id": "PCS-02",
+      "category": "Person-Centered Services",
+      "title": "Person-Centered Planning and the Individual Plan",
+      "covers": [],
+      "citations": [
+        "C18",
+        "C9",
+        "C13",
+        "C32"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "The IP as defined in COMAR 10.22.05 must be in the record (.13B)",
+        "Services are authorized in the PCP in LTSSMaryland",
+        "Settings-rule modifications must be justified and documented in the plan",
+        "Shared dedicated hours must be documented in each PCP",
+        "Pull IP timelines from COMAR 10.22.05 before finalizing; the sections were not verified"
+      ]
+    },
+    {
+      "id": "PCS-03",
+      "category": "Person-Centered Services",
+      "title": "Community Integration and Employment Choice",
+      "covers": [],
+      "citations": [
+        "C32",
+        "C34",
+        "C11",
         "C43"
       ],
       "federal": [
-        "Americans with Disabilities Act",
-        "42 CFR 441.301(c)(4)(vi)"
+        "42 CFR 441.301(c)(4)"
       ],
       "state_specifics": [
-        "Each home must meet local zoning (except as in Health-General §7-603), local and State building requirements and life-safety requirements. It must be free of hazards and in good repair (.12A).",
-        "Water at a maximum of 110°F unless every resident can regulate it safely and the IP documents it (.12C).",
-        "Maximum 4 residents, each with a private bedroom (sharing only by choice), and lockable bedroom doors.",
-        "Site addendum DD.ADD.1.0 asks whether the site is wheelchair accessible. Plan for accessibility based on residents' needs.",
-        "The home must not be gated or isolated from the community."
+        "The home must be integrated in the community and not gated or isolated; DDA's site checklist tests proximity to the provider's other sites",
+        "Residents have access to the community, visitors and food at any time",
+        "Offer information about employment and day service options and document the person's choice",
+        "Staff training in community integration within 3 months of hire (.11D)"
       ]
     },
     {
-      "id": "HE-02",
-      "category": "Home Environment and Safety",
-      "title": "Emergency Preparedness and Fire Drills",
+      "id": "PCS-04",
+      "category": "Person-Centered Services",
+      "title": "Transition, Discharge and Termination of Services",
+      "covers": [],
       "citations": [
+        "C3",
+        "C24"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Terminate services only for good cause with the Director's written approval (COMAR 10.22.02.02G)",
+        "Give the Director 90 days' written notice",
+        "Give the individual and proponent written notice of the right to a hearing under COMAR 10.22.16, and copy the regional office and team",
+        "Services are considered terminated after 60 consecutive days' absence unless the Director decides otherwise",
+        "Transfer personal funds, records and property promptly when the person leaves"
+      ]
+    },
+    {
+      "id": "HW-01",
+      "category": "Health and Wellness",
+      "title": "Health Monitoring, Seizures and Choking Risk",
+      "covers": [],
+      "citations": [
+        "C11",
+        "C25",
+        "C32"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Pre-service training on seizure disorders is required before independent duties (.11C)",
+        "Staff hold First Aid/CPR with an in-person skills check (American Red Cross or equivalent)",
+        "Each person's health and safety risks (seizure, choking) are in the IP with staff protocols",
+        "The RN reviews risk, including HRST results, and updates plans after changes",
+        "Nursing Support Services may be needed after a health change or hospital discharge"
+      ]
+    },
+    {
+      "id": "HW-02",
+      "category": "Health and Wellness",
+      "title": "Change of Condition and Emergency Medical Care",
+      "covers": [],
+      "citations": [
+        "C13",
+        "C31",
+        "C32"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Call 911 for emergencies and then notify the RN, guardian/proponent and DDA as the PORII requires",
+        "Make medical information readily accessible to emergency personnel (.13C)",
+        "Retainer days up to 18 per year cover hospitalization",
+        "Document the event and follow up on any change of condition in the record"
+      ]
+    },
+    {
+      "id": "HW-03",
+      "category": "Health and Wellness",
+      "title": "Death of an Individual",
+      "covers": [],
+      "citations": [
+        "C31",
+        "C13",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report a death immediately under the current DDA PORII and notify family or proponent",
+        "Keep the person's records at least 6 years after death (.13D)",
+        "Preserve the scene and medication records as directed by authorities",
+        "Include the death in the mortality review (see GOV-03)",
+        "Transfer personal funds and property per PA-14"
+      ]
+    },
+    {
+      "id": "BP-01",
+      "category": "Behavior Support and Protection",
+      "title": "Abuse, Neglect and Exploitation Prevention and Reporting",
+      "covers": [],
+      "citations": [
+        "C31",
+        "C10",
+        "C11",
+        "C26"
+      ],
+      "federal": [
+        "45 CFR 164"
+      ],
+      "state_specifics": [
+        "Report and investigate all incidents under the PORII (COMAR 10.22.02.10A(7))",
+        "Report suspected abuse to the authorities as Maryland law requires; confirm statute before finalizing",
+        "No retaliation against reporters",
+        "Criminal history checks before hire (.11B; Health-General §19-1902 et seq.; COMAR 12.15.03)",
+        "OHCQ complaint line 410-402-8100 / 877-402-8220"
+      ]
+    },
+    {
+      "id": "BP-02",
+      "category": "Behavior Support and Protection",
+      "title": "Missing Person and Elopement",
+      "covers": [],
+      "citations": [
+        "C31",
         "C10",
         "C12"
       ],
       "federal": [],
       "state_specifics": [
-        "A written fire evacuation plan is required, with adequate smoke detectors and working, updated fire extinguishers (.12B).",
-        "An effective disaster and emergency evacuation plan with sufficient evacuation drills is required (.10A(17)). COMAR sets no drill frequency in the text fetched; confirm with the local fire marshal.",
-        "Emergency plan for all emergencies and disasters (.10B): procedures before, during and after; evacuation or 72-hour shelter-in-place; annual practice drill coordinated with local emergency planners; after-action report and improvement plan; ID with health and contact information; role of resident, family and legal representative; and medical needs at shelters.",
-        "Also include notification of families, staff and the DDA regional office; staff coverage and recall; continuity of operations; off-site backup of records; sharing the plan with local emergency management; and an executive summary for families on request."
+        "Immediate search protocol, then notify police, the guardian/proponent and DDA",
+        "Report as an incident under the PORII; take the timelines from the current PORII",
+        "Document each person's elopement risk and supports in the IP",
+        "Do not use locks or alarms on exits unless approved as a rights restriction"
+      ]
+    },
+    {
+      "id": "HE-01",
+      "category": "Home Environment and Safety",
+      "title": "Residential Environment, Accessibility, Fire Safety and Water Temperature",
+      "covers": [],
+      "citations": [
+        "C12",
+        "C32",
+        "C34",
+        "C35",
+        "C42"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)",
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "Meet local zoning (except as in Health-General §7-603), State and local building codes and life-safety requirements (.12A)",
+        "Home free of hazards and in good repair; adequate smoke detectors; working, updated fire extinguishers; written fire evacuation plan (.12B)",
+        "Water temperature at a maximum of 110°F unless every resident can regulate it safely and each IP documents this (.12C)",
+        "Lockable bedroom doors and resident control of their space (441.301(c)(4)(vi))",
+        "Document wheelchair accessibility on the site addendum"
+      ]
+    },
+    {
+      "id": "HE-02",
+      "category": "Home Environment and Safety",
+      "title": "Food, Nutrition and Modified Diets",
+      "covers": [],
+      "citations": [
+        "C34",
+        "C11",
+        "C32"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "Residents have access to food at any time under the settings rule",
+        "Modified diets and texture needs are in the IP and ordered by a prescriber or dietitian",
+        "Staff are trained on diets and choking protocols",
+        "Honor food preferences and document choices"
       ]
     },
     {
       "id": "HE-03",
       "category": "Home Environment and Safety",
-      "title": "Infection Prevention and Control",
-      "citations": [
-        "C10",
-        "C11",
-        "C36"
-      ],
-      "federal": [
-        "29 CFR 1910.1030",
-        "29 CFR 1910.1030(c)",
-        "29 CFR 1910.1030(f)-(g)"
-      ],
-      "state_specifics": [
-        "State and federally required safety precautions, infection control and standard precautions must be implemented (.10A(16)).",
-        "Blood-borne pathogens training under 29 CFR 1910.1030 is required before independent duties (.11C(3)).",
-        "Communicable diseases training is required within 3 months of hire (.11D(6)).",
-        "Maintain a written OSHA exposure control plan, offer hepatitis B vaccination, and provide annual bloodborne pathogen training."
-      ]
-    },
-    {
-      "id": "HE-04",
-      "category": "Home Environment and Safety",
-      "title": "Food, Nutrition and Modified Diets",
-      "citations": [
-        "C10",
-        "C13",
-        "C35"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(C)"
-      ],
-      "state_specifics": [
-        "Residents must have access to food at any time. Any restriction needs an IP-documented modification.",
-        "Record allergies and diagnoses (.13B(2)).",
-        "Diet orders and modified textures must be in the IP and follow physician orders. No COMAR section on diets was found in the sections fetched."
-      ]
-    },
-    {
-      "id": "HE-05",
-      "category": "Home Environment and Safety",
       "title": "Transportation and Vehicle Safety",
+      "covers": [],
       "citations": [
-        "C32",
-        "C10"
+        "C32"
       ],
       "federal": [],
       "state_specifics": [
-        "Transportation is included in the daily rate. Use the most cost-effective mode.",
-        "Staff who drive need a valid driver's license, and all vehicles must be insured.",
-        "Include auto insurance documentation (DDA application Attachment 12).",
-        "Maintain emergency information and medication plans for outings, and transport only per the IP."
+        "Transportation is included in the daily rate; use the most cost-effective mode",
+        "Insure all vehicles; drivers need a valid driver's license",
+        "Staff are 18+ with First Aid/CPR",
+        "Include vehicle evacuation in emergency planning (see EP-01)"
       ]
     },
     {
-      "id": "ST-01",
+      "id": "SP-01",
       "category": "Staffing and Personnel",
-      "title": "Staffing Plan, Supervision and Overnight Coverage",
+      "title": "Staffing Plan, Supervision and Awake Overnight Staff",
+      "covers": [],
       "citations": [
         "C11",
         "C16",
@@ -1152,436 +1354,790 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Maryland sets no fixed staff ratio. The licensee analyzes the number and needs of individuals served and develops and implements a staffing plan that meets health and safety needs and IP services (.11A).",
-        "Staffing levels and patterns follow the IP (COMAR 10.22.08.04A).",
-        "Services must be available 24/7 at each licensed site, with back-up and emergency support.",
-        "DDA's rate assumes 43.14 staff-hours per day for a 4-person home with overnight supervision (research S10); use it as a planning benchmark only.",
-        "Overnight coverage (awake or asleep) is set by each person's assessed needs and the IP; COMAR does not mandate awake overnight staff in the sections fetched.",
-        "Any person who meets the training requirements and has no disqualifying criminal history may be on the staffing plan (.11A)."
+        "Maryland sets no fixed staff ratio; analyze each person's needs and develop and implement a staffing plan (COMAR 10.22.02.11A)",
+        "Staffing levels and patterns follow the IP (10.22.08.04A)",
+        "Services available 24/7 at each licensed site with back-up and emergency support",
+        "DDA's rate for a 4-person home with overnight supervision funds 43.14 staff-hours per day",
+        "No relatives, legal guardians or legally responsible persons may be paid for this service"
       ]
     },
     {
-      "id": "ST-02",
+      "id": "SP-02",
       "category": "Staffing and Personnel",
       "title": "Background Checks and Employee Registries",
+      "covers": [],
       "citations": [
         "C11",
         "C26",
         "C27"
       ],
-      "federal": [
-        "42 USC 1320a-7"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Do not employ or contract with anyone whose criminal history indicates behavior potentially harmful to individuals, documented through a criminal history records check or background check (.11B).",
-        "Cite Health-General §19-1902 et seq. and COMAR 12.15.03 (statute text not verified).",
-        "Check every staff member, contractor and volunteer before direct contact. Record on the DDA Staff Criminal History form.",
-        "Screen against the OIG LEIE and the Maryland sanctioned provider list.",
-        "Fingerprint checks run through CJIS using DDA's agency authorization codes in the DDA instructions."
+        "No employing or contracting with anyone whose criminal history indicates behavior potentially harmful to individuals (.11B)",
+        "Check everyone with direct contact before work: employees, contractors and volunteers",
+        "Cite COMAR 12.15.03 and Health-General §19-1902 et seq.; confirm the exact statute start section",
+        "Screen against the OIG exclusion list and the Maryland sanctioned provider list",
+        "Keep results on the Staff Criminal History form"
       ]
     },
     {
-      "id": "ST-03",
+      "id": "SP-03",
       "category": "Staffing and Personnel",
-      "title": "Direct Support Professional Orientation and Pre-Service Training",
+      "title": "Direct Support Professional Orientation and Training",
+      "covers": [],
       "citations": [
         "C11",
+        "C16",
         "C36",
-        "C41"
+        "C41",
+        "C32"
       ],
       "federal": [
         "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "Before independent duties, document that all staff and care providers (.11C): receive adequate job training; complete DDA-approved training on seizure disorders, principles of behavior change, management of disruptive behaviors, medication administration, and the aging process; and receive blood-borne pathogens training per 29 CFR 1910.1030.",
-        "Document on the DDA Staff Training form DD.APP.1.1.",
-        "No unsupervised duties until the pre-service training record is signed off."
+        "Before independent duties: job training, DDA-approved training on seizures, behavior change, managing disruptive behavior, medication administration and aging, and OSHA bloodborne pathogens (.11C)",
+        "Within 3 months of hire: community integration, individual-directed planning, characteristics of people served, First Aid/CPR, rights, communicable diseases, choice, and communication skills (.11D)",
+        "Document training on the Staff Training Form DD.APP.1.1",
+        "Medication Technician certification for unlicensed staff who give medication",
+        "DDA's rate assumes about 27.3 training hours per FTE per year"
       ]
     },
     {
-      "id": "ST-04",
+      "id": "SP-04",
       "category": "Staffing and Personnel",
-      "title": "Three-Month Training Requirements, CPR and First Aid",
+      "title": "Personnel Records, Employee Health Screening and Wage and Leave Compliance",
+      "covers": [],
       "citations": [
         "C11",
-        "C41",
-        "C32"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Within 3 months of hire, complete DDA-approved training on (.11D): community integration and inclusion; individual-directed outcome-oriented planning; general characteristics and needs of individuals served; First Aid and CPR (American Red Cross or equivalent); fundamental rights; communicable diseases; supporting choices; and communication skills.",
-        "Waiver standard: First Aid/CPR with an in-person skills check for all direct staff.",
-        "Record on DD.APP.1.1."
-      ]
-    },
-    {
-      "id": "ST-05",
-      "category": "Staffing and Personnel",
-      "title": "Employee Health, Communicable Disease and TB Screening",
-      "citations": [
-        "C10",
-        "C11",
+        "C37",
+        "C38",
         "C36"
       ],
       "federal": [
         "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "COMAR 10.22.02 in the sections fetched sets no TB-testing mandate. This policy is based on the infection-control duty in .10A(16) and communicable diseases training in .11D(6).",
-        "Set pre-employment health screening and TB screening by agency policy, following local health department guidance.",
-        "Offer hepatitis B vaccination under OSHA 29 CFR 1910.1030.",
-        "Exclude ill staff from work when they could transmit communicable disease."
+        "Written job descriptions for every position and an anti-discrimination policy (.11E)",
+        "Keep training, background-check and CMT records in each personnel file",
+        "TB and health screening: no COMAR requirement was verified; set per licensee policy and confirm with the local health department",
+        "State minimum wage is $15.00; check county minimums (Montgomery, Howard, Prince George's)",
+        "Earned sick and safe leave: 1 hour per 30 worked, up to 40 hours per year, paid at 15 or more employees"
       ]
     },
     {
-      "id": "ST-06",
-      "category": "Staffing and Personnel",
-      "title": "Personnel Records and Job Descriptions",
-      "citations": [
-        "C11",
-        "C26",
-        "C41"
-      ],
-      "federal": [
-        "29 CFR 1910.1030"
-      ],
-      "state_specifics": [
-        "Each position has a written job description including the nature and extent of training and experience required (.11E(1)).",
-        "Each personnel file holds the criminal history check result, training documentation (DD.APP.1.1), license or certification (e.g., Medication Technician, CPR), and exclusion screening.",
-        "Training must be documented to show it was completed before independent duties (.11C).",
-        "Retention periods for personnel files are not set in the COMAR sections fetched; adopt a period of at least 6 years consistent with .13D."
-      ]
-    },
-    {
-      "id": "ST-07",
+      "id": "SP-05",
       "category": "Staffing and Personnel",
       "title": "Staff Conduct and Professional Boundaries",
+      "covers": [],
       "citations": [
         "C10",
+        "C8",
         "C32"
       ],
       "federal": [],
       "state_specifics": [
-        "No financial or personal conflict of interest for staff, care providers and volunteers (.10A(13)).",
-        "Relatives, legal guardians and legally responsible persons may not be paid to provide CL–GH.",
-        "No borrowing from, or financial dealings with, individuals served; follow the personal funds policy (IR-05).",
-        "Staff must implement every policy as adopted (.10C)."
+        "No conflict of interest for staff, care providers and volunteers (A(13))",
+        "Individuals do not perform paid staff duties (A(18))",
+        "Staff may not borrow from, sell to or take money or gifts from individuals",
+        "Relatives, legal guardians and legally responsible persons may not be paid for this service",
+        "Misconduct is reported as an incident under the PORII"
       ]
     },
     {
-      "id": "ST-08",
-      "category": "Staffing and Personnel",
-      "title": "Employment Nondiscrimination",
-      "citations": [
-        "C11"
-      ],
-      "federal": [
-        "Title VII (42 USC 2000e)",
-        "Americans with Disabilities Act (Title I)"
-      ],
-      "state_specifics": [
-        "A policy to prevent employment discrimination is required (.11E(2)).",
-        "Pair with the written job descriptions (.11E(1))."
-      ]
-    },
-    {
-      "id": "ST-09",
-      "category": "Staffing and Personnel",
-      "title": "Wage, Hour and Leave Compliance",
-      "citations": [
-        "C37",
-        "C38"
-      ],
-      "federal": [
-        "29 USC 206-207 (FLSA)"
-      ],
-      "state_specifics": [
-        "State minimum wage is $15.00/hr. Montgomery County is $18.00 (51+ employees), $16.50 (11–50, and certain nonprofits and Medicaid-funded home care providers) and $15.95 (10 or fewer). Howard County is $16.00. Prince George's County is $15.30 (as of July 1, 2026).",
-        "Earned sick and safe leave accrues at 1 hour per 30 worked, up to 40 hours per year, and is paid when the employer has 15 or more employees (§3-1304).",
-        "FAMLI contributions start January 1, 2027 at 0.9% of wages, split 0.45% employer / 0.45% employee; employers under 15 employees remit only the employee share (research S63).",
-        "Pay overtime per FLSA; treat paid training time as hours worked."
-      ]
-    },
-    {
-      "id": "ST-10",
-      "category": "Staffing and Personnel",
-      "title": "Volunteers, Contractors and Consultants",
-      "citations": [
-        "C10",
-        "C11",
-        "C26"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Volunteers, consultants and contractors must be aware of and follow all policies (.10C).",
-        "Background checks apply to anyone the licensee employs or contracts with (.11B).",
-        "Volunteers and care providers receive the same pre-service and 3-month training as staff (.11C-D).",
-        "No conflict of interest for volunteers (.10A(13))."
-      ]
-    },
-    {
-      "id": "RC-01",
+      "id": "REC-01",
       "category": "Records",
       "title": "Individual Records and Retention",
+      "covers": [],
       "citations": [
         "C13",
-        "C18"
+        "C29"
       ],
       "federal": [
-        "45 CFR 164.530(j)"
+        "45 CFR 164"
       ],
       "state_specifics": [
-        "Keep each individual's records at the site where the person is served (.13A).",
-        "Minimum contents: application identifying information; emergency contact; next of kin; physician; diagnosis; allergies; medication list; the IP; documentation of IP implementation; and anything else DDA requires (.13B).",
-        "Make medical information readily accessible to emergency personnel (.13C).",
-        "Retain records at least 6 years, even if the person no longer receives services or dies. Keep documents relevant to current services as long as the person is served, and organize for easy access (.13D)."
+        "Keep each individual's records at the site where the person is served (.13A)",
+        "Minimum contents: identifying information, emergency contact, next of kin, physician, diagnosis, allergies, medication list, the IP and IP implementation documentation (.13B)",
+        "Keep records at least 6 years, even if the person leaves or dies (.13D)",
+        "Electronic records must meet HIPAA, be backed up and be stored off-site (.13E)"
       ]
     },
     {
-      "id": "RC-02",
+      "id": "REC-02",
       "category": "Records",
-      "title": "Electronic Records, Backup and Security",
+      "title": "Required Reports to the State, Inspections and Plans of Correction",
+      "covers": [],
       "citations": [
-        "C13",
-        "C10"
-      ],
-      "federal": [
-        "45 CFR 164.308",
-        "45 CFR 164.312",
-        "45 CFR 164.316"
-      ],
-      "state_specifics": [
-        "Electronic records are encouraged (.13E(1)).",
-        "They must meet the chapter, comply with the HIPAA privacy and security rules, and be properly backed up and stored off-site (.13E(2)).",
-        "The emergency plan must back up and electronically store off-site appropriate records of individuals, staff and facility documents, with an electronic copy of the emergency plan available on request from emergency management organizations (.10B(5))."
-      ]
-    },
-    {
-      "id": "RC-03",
-      "category": "Records",
-      "title": "Required Reports to the State",
-      "citations": [
-        "C3",
+        "C4",
         "C5",
-        "C9",
-        "C10",
-        "C14",
+        "C6",
+        "C7",
         "C31"
       ],
       "federal": [],
       "state_specifics": [
-        "Incident reports go to DDA under PORII (deadlines to be inserted from the current policy).",
-        "POC to OHCQ within 10 working days of findings (.04E).",
-        "Report approval of a property-damage payment to the regional director (.10A(11)(e)).",
-        "Notify DDA regional office when the emergency plan is activated (.10B(2)).",
-        "Submit revised PSP and QA plan changes for DDA approval (.09B; .14A).",
-        "Give the Director 90 days' notice of terminating services (.02G) or surrendering the license (.02F).",
-        "Submit license renewal at least 60 days before expiration (.02B).",
-        "Notify DDA at least 30 days ahead of a site opening, closure or relocation (.05)."
+        "OHCQ inspects announced and unannounced at least annually, plus complaint visits (.04C–D)",
+        "Plan of correction at the exit conference or within 10 working days; the OHCQ Director may extend up to 30 days (.04E)",
+        "Resubmit an unacceptable POC within 10 working days (.04F)",
+        "Report incidents under the PORII",
+        "Seek DDA approval 30 days ahead for new sites, closures or relocations (.05), and report capacity overages (.06)"
       ]
     }
   ],
   "forms": [
     {
-      "name": "Governing Body Roster and Conflict-of-Interest Disclosure",
-      "purpose": "Document board composition (DD individual, family member, DD experience, 75% residency) and annual conflict-of-interest disclosures.",
+      "name": "COMAR 10.22.02.10 Policy Crosswalk and Compliance Plan for Items Checked 'No'",
+      "purpose": "Maps each required item (A(1)–D and Nursing) to its policy and records any gap with a corrective plan and due date",
       "policy_ids": [
-        "GOV-01",
-        "GOV-10"
+        "XP-01",
+        "CS-01"
       ]
     },
     {
-      "name": "Policy Acknowledgment and Staff Awareness Record",
-      "purpose": "Show staff, consultants and volunteers know and implement each policy.",
+      "name": "Individual Rights Notice and Acknowledgment",
+      "purpose": "Explains fundamental rights and settings-rule rights to individuals and proponents",
       "policy_ids": [
-        "GOV-03",
-        "ST-10"
+        "PA-02",
+        "PCS-01"
       ]
     },
     {
-      "name": "Standing Committee Meeting Minutes and Incident Review Log",
-      "purpose": "Record committee membership balance, incident reviews, behavior plan approvals and rights restriction approvals.",
+      "name": "Rights Restriction Review Record (standing committee)",
+      "purpose": "Documents assessed need, less restrictive alternatives, time frames and committee approval",
       "policy_ids": [
-        "GOV-05",
-        "BH-05"
+        "PA-02",
+        "PA-08",
+        "GOV-03"
       ]
     },
     {
-      "name": "QA Plan Goals and Measures Tracker",
-      "purpose": "Track measurable QA goals, individual satisfaction contacts and trend analysis.",
+      "name": "Grievance Form, Grievance Log and Plain-Language Grievance Notice",
+      "purpose": "Lets individuals and proponents file and track grievances; shows OHCQ contacts and anti-retaliation protections",
       "policy_ids": [
-        "GOV-04"
+        "PA-04",
+        "DG-01"
       ]
     },
     {
-      "name": "Plan of Correction Tracking Form",
-      "purpose": "Track the 10-working-day POC deadline and revisions.",
+      "name": "Authorization for Release of Information",
+      "purpose": "Documents permitted disclosures under Health-General §7-1010 and HIPAA",
       "policy_ids": [
-        "GOV-09"
+        "PA-03",
+        "REC-01"
       ]
     },
     {
-      "name": "Site Opening / Closure / Relocation Notice (30-day) and DD.ADD.1.0 Site Addendum",
-      "purpose": "Support DDA approval of site changes and capacity.",
+      "name": "Reportable Incident Report (current DDA PORII form) and Incident Review Log",
+      "purpose": "Reports and tracks incidents for DDA, OHCQ and the standing committee",
       "policy_ids": [
-        "GOV-08"
+        "PA-06",
+        "BP-01",
+        "BP-02",
+        "HW-02",
+        "HW-03",
+        "REC-02"
       ]
     },
     {
-      "name": "PT 90 DDA Addendum (Medicaid Site MA Number Application)",
-      "purpose": "Enroll each licensed site in Medicaid.",
+      "name": "Pharmacy-generated MAR/TAR and Physician Order Verification Log",
+      "purpose": "Documents orders, doses and treatments",
       "policy_ids": [
-        "GOV-02",
-        "GOV-06"
+        "PA-07",
+        "NU-01",
+        "NU-02"
       ]
     },
     {
-      "name": "Daily Billing and Number-of-People-Authorized Log",
-      "purpose": "Match each billed day to the residents present and retainer days used (max 18 per person per year).",
+      "name": "Controlled Substance Count Log",
+      "purpose": "Documents shift counts and discrepancies",
       "policy_ids": [
-        "GOV-06"
+        "NU-03"
       ]
     },
     {
-      "name": "Residency Agreement and Room-and-Board Agreement",
-      "purpose": "HCBS-compliant lease or equivalent, with affordable room-and-board terms.",
+      "name": "Medication Error Report",
+      "purpose": "Documents errors, RN and prescriber notification and corrective action",
       "policy_ids": [
-        "IR-08",
-        "IR-01"
+        "NU-04",
+        "PA-06"
       ]
     },
     {
-      "name": "Rights Restriction Request and Committee Review Form",
-      "purpose": "Document assessed need, less intrusive methods, time limit, consent and committee decision.",
+      "name": "Self-Medication Assessment",
+      "purpose": "RN assessment of ability to self-administer and supports needed",
       "policy_ids": [
-        "IR-02",
-        "BH-02"
+        "NU-05"
       ]
     },
     {
-      "name": "Grievance Form and Log",
-      "purpose": "Accessible grievance intake, response and anti-retaliation tracking.",
+      "name": "Health Communication and Shift Hand-off Log",
+      "purpose": "Records reports of changes in health and communication with the RN, prescribers and family",
       "policy_ids": [
-        "IR-03"
-      ]
-    },
-    {
-      "name": "Personal Funds Ledger and Quarterly Accounting",
-      "purpose": "Keep individuals' funds separate and available for accounting on request.",
-      "policy_ids": [
-        "IR-05"
-      ]
-    },
-    {
-      "name": "Property Damage Payment Approval Checklist",
-      "purpose": "Verify all five .10A(11) conditions before charging an individual.",
-      "policy_ids": [
-        "IR-09"
-      ]
-    },
-    {
-      "name": "Discharge / Termination Notice Packet (90-day Director notice, individual notice with hearing rights)",
-      "purpose": "Meet .02G notices and copy the regional office and team.",
-      "policy_ids": [
-        "PC-05"
-      ]
-    },
-    {
-      "name": "Individual Record Face Sheet",
-      "purpose": "Capture emergency contact, next of kin, physician, diagnosis, allergies and medications.",
-      "policy_ids": [
-        "RC-01",
-        "PC-01",
-        "HW-04"
-      ]
-    },
-    {
-      "name": "Medication Administration Record (pharmacy-generated MAR/TAR) and Medication Error Report",
-      "purpose": "Document medication administration per DDA curriculum.",
-      "policy_ids": [
-        "HW-01"
-      ]
-    },
-    {
-      "name": "RN Delegation Record",
-      "purpose": "Document delegation of nursing tasks and Medication Technician certification.",
-      "policy_ids": [
+        "NU-06",
         "HW-01",
         "HW-02"
       ]
     },
     {
-      "name": "Incident Report (DDA PORII format)",
-      "purpose": "Report and investigate incidents using the current DDA form and levels.",
+      "name": "RN Delegation and Supervision Record",
+      "purpose": "Documents delegation to Medication Technicians, MAR audits and RN oversight",
       "policy_ids": [
-        "BH-04",
-        "BH-05",
-        "BH-06",
-        "HW-05"
+        "NU-07",
+        "PA-07"
       ]
     },
     {
-      "name": "Behavior Plan and Restrictive Technique Use Log",
-      "purpose": "Track each use of a restrictive technique or behavior-modifying medication.",
+      "name": "Behavior Plan Approval and Restrictive Technique Use Log",
+      "purpose": "Documents committee approval and each use of a restrictive technique",
       "policy_ids": [
-        "BH-01",
-        "BH-02",
-        "BH-03"
+        "PA-08",
+        "PA-09",
+        "GOV-03"
       ]
     },
     {
-      "name": "Emergency Plan, Annual Drill Report and After-Action Report",
-      "purpose": "Document the .10B plan, annual drill and corrective actions.",
+      "name": "Property Damage Payment Review Record",
+      "purpose": "Documents the five conditions in A(11) and the report to the Regional Director",
       "policy_ids": [
-        "HE-02"
+        "PA-10"
       ]
     },
     {
-      "name": "Water Temperature and Home Safety Inspection Checklist",
-      "purpose": "Check zoning, fire safety, 110°F water and good repair.",
+      "name": "Consent and Decision-Maker Record",
+      "purpose": "Documents informed consent and the surrogate or proponent, if any",
       "policy_ids": [
-        "HE-01",
-        "HE-02"
+        "PA-11"
       ]
     },
     {
-      "name": "Staffing Plan per Home",
-      "purpose": "Show 24/7 coverage, back-up and IP-based staffing patterns.",
+      "name": "Conflict of Interest Disclosure and Recusal Record",
+      "purpose": "Annual disclosures for board, staff, volunteers and committee members",
       "policy_ids": [
-        "ST-01"
+        "PA-12",
+        "GOV-01",
+        "SP-05"
+      ]
+    },
+    {
+      "name": "Individual Funds Ledger, Account Statement and Personal Property Inventory",
+      "purpose": "Tracks funds separately from licensee funds and supports accounting on request",
+      "policy_ids": [
+        "PA-14",
+        "PA-13"
+      ]
+    },
+    {
+      "name": "Exposure Incident Report",
+      "purpose": "Documents bloodborne pathogen exposures and follow-up",
+      "policy_ids": [
+        "PA-15"
+      ]
+    },
+    {
+      "name": "Household Duties and Activity Agreement",
+      "purpose": "Documents shared household tasks and IP-documented activities",
+      "policy_ids": [
+        "PA-16"
+      ]
+    },
+    {
+      "name": "Emergency Plan Binder (evacuation, 72-hour shelter-in-place, alternate sites, communication tree)",
+      "purpose": "Single emergency plan with B(1)–B(7) elements",
+      "policy_ids": [
+        "EP-01",
+        "EP-03",
+        "EP-04",
+        "EP-05"
+      ]
+    },
+    {
+      "name": "Emergency and Fire Drill Record and After-Action Report/Improvement Plan",
+      "purpose": "Documents drills, evaluation and corrective actions",
+      "policy_ids": [
+        "EP-02",
+        "HE-01"
+      ]
+    },
+    {
+      "name": "Emergency ID and Health Information Card",
+      "purpose": "Portable health and contact information for each person and staff member",
+      "policy_ids": [
+        "EP-01",
+        "HW-02"
+      ]
+    },
+    {
+      "name": "Staff Notification and Recall Roster",
+      "purpose": "Contact list and assignment of responsibilities during emergencies",
+      "policy_ids": [
+        "EP-04"
+      ]
+    },
+    {
+      "name": "Family Emergency Plan Executive Summary",
+      "purpose": "Summary of the emergency plan for families on request",
+      "policy_ids": [
+        "EP-05"
+      ]
+    },
+    {
+      "name": "Staff Policy Acknowledgment and Policy Revision Log",
+      "purpose": "Shows staff, consultants and volunteers have read and will implement policies",
+      "policy_ids": [
+        "CS-01"
+      ]
+    },
+    {
+      "name": "Staff Training Form DD.APP.1.1 (COMAR 10.22.02.11C&D)",
+      "purpose": "Documents pre-service and 3-month training topics",
+      "policy_ids": [
+        "SP-03",
+        "CS-01",
+        "PA-15"
       ]
     },
     {
       "name": "Staff Criminal History Form and Exclusion Screening Log",
-      "purpose": "Document pre-hire criminal history checks and LEIE/State list screening.",
+      "purpose": "Documents criminal history checks and OIG and Maryland sanction screening",
       "policy_ids": [
-        "ST-02",
-        "GOV-02"
+        "SP-02",
+        "BP-01",
+        "SP-04"
       ]
     },
     {
-      "name": "Staff Training Form (DD.APP.1.1)",
-      "purpose": "Document pre-service and 3-month training topics.",
+      "name": "Personnel File Checklist",
+      "purpose": "Verifies job description, training, credentials and screening in each file",
       "policy_ids": [
-        "ST-03",
-        "ST-04",
-        "ST-06"
+        "SP-04"
       ]
     },
     {
-      "name": "Job Descriptions and Employment Nondiscrimination Policy Statement",
-      "purpose": "Meet .11E.",
+      "name": "Home Staffing Plan Worksheet",
+      "purpose": "Documents analysis of each person's needs, 24/7 coverage and back-up",
       "policy_ids": [
-        "ST-06",
-        "ST-08"
+        "SP-01",
+        "PA-01"
       ]
     },
     {
-      "name": "Vehicle and Driver Verification",
-      "purpose": "Verify licenses and insurance for staff who transport individuals.",
+      "name": "Admission Checklist, Residency Agreement and Room-and-Board Agreement",
+      "purpose": "Documents admission, settings-rule rights and the resident's financial obligation",
       "policy_ids": [
-        "HE-05"
+        "PCS-01",
+        "PA-02",
+        "PA-14"
+      ]
+    },
+    {
+      "name": "Service Termination Notice and Hearing Rights Notice",
+      "purpose": "90-day written notice to the Director, individual and proponent",
+      "policy_ids": [
+        "PCS-04"
+      ]
+    },
+    {
+      "name": "Missing Person Response Record",
+      "purpose": "Documents search, notifications and follow-up",
+      "policy_ids": [
+        "BP-02"
+      ]
+    },
+    {
+      "name": "Number of People Authorized and Retainer Day Log",
+      "purpose": "Tracks census and retainer days (up to 18 per year) for correct billing",
+      "policy_ids": [
+        "GOV-04"
+      ]
+    },
+    {
+      "name": "QA Committee Agenda and Minutes",
+      "purpose": "Documents committee composition, reviews, decisions and recusals",
+      "policy_ids": [
+        "GOV-03",
+        "PA-06"
+      ]
+    },
+    {
+      "name": "Site Safety Inspection Checklist (smoke detectors, extinguishers, water temperature, hazards)",
+      "purpose": "Periodic check of COMAR 10.22.02.12 requirements",
+      "policy_ids": [
+        "HE-01"
+      ]
+    },
+    {
+      "name": "Individual Record Index and Retention Schedule",
+      "purpose": "Shows required record contents and the 6-year retention period",
+      "policy_ids": [
+        "REC-01",
+        "PA-01"
       ]
     }
-  ]
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "DH Form DD.APP.1.1 – Policies and Procedures (COMAR 10.22.02.10)",
+        "form_number": "DH Form DD.APP.1.1 (02/18)",
+        "issuer": "Maryland Department of Health / Developmental Disabilities Administration (DDA)",
+        "version": "02/18. This is the version the owner supplied. The copy on the DDA website is also marked 02/18, and I found no newer one.",
+        "url": "https://health.maryland.gov/dda/Documents/Policies%20and%20Procedures%20DH%20Form%20DD.APP.1.1.pdf",
+        "how_used": "This is the checklist the reviewer uses. For each policy item the provider marks Present Yes, No or N/A, and marks whether the policy was modified since the last OHCQ survey. The provider attaches its policies and procedures document. The provider must explain every item marked 'No' and give a plan to bring the agency into compliance. The item list below follows the form's own numbering and wording."
+      },
+      {
+        "title": "COMAR 10.22.02.10 Policies and Procedures",
+        "form_number": "COMAR 10.22.02.10",
+        "issuer": "Maryland Division of State Documents / Library of Maryland Regulations (MDH/DDA regulation)",
+        "version": "Current online text, fetched 2026-10-14",
+        "url": "https://regs.maryland.gov/us/md/exec/comar/10.22.02.10",
+        "how_used": "This is the regulation text behind the form. I used it only to list the sub-items (a)–(g), (a)–(c) and (a)–(b) that the form's B(1), B(3) and B(5) refer to without spelling out."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "A(1)",
+        "text": "Each individual's health and safety needs, as identified in the IP, are being met",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(2)",
+        "text": "Individuals' fundamental rights are ensured, in accordance with Health-General Article, §7-1002, Annotated Code of Maryland",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(3)",
+        "text": "Services provided in a manner that promotes individual choice and the exercise of individual rights",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(4)",
+        "text": "Confidentiality for each individual as per Health-General Article, §7-1010, Annotated Code of Maryland",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(5)",
+        "text": "Implementation of a grievance process",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(5) (the regulation adds: with safeguards which protect against retaliatory actions for the filing of any grievance)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(6)",
+        "text": "Services are provided without discrimination",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(7)",
+        "text": "All incidents are reported and investigated in accordance with DDA's Policy on Reportable Incidents and Investigations (PORI, revised 10/1/2007)",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(8)",
+        "text": "Medications administered in accordance with MATP",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(8)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(9)",
+        "text": "Compliance with COMAR 10.27.11 (Nursing delegation)",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(9)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(10)",
+        "text": "Any individual whose behaviors require intervention receive the safeguards required by regulation",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(10)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(11)(a)",
+        "text": "In order for an individual to be required to pay for property damage caused by his/her actions, the IP shows evidence that the individual has a history of destructive behaviors that have been documented in the behavior plan (BP)",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(11)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(11)(b)",
+        "text": "In order for an individual to be required to pay for property damage caused by his/her actions, the IP shows evidence that the individual has a BP that addresses the destructive behavior",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(11)(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(11)(c)",
+        "text": "In order for an individual to be required to pay for property damage caused by his/her actions, the IP shows evidence that the individual has the ability to pay for damages",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(11)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(11)(d)",
+        "text": "In order for an individual to be required to pay for property damage caused by his/her actions, the IP shows evidence that the licensee's standing committee has reviewed and approved the damage payment",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(11)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(11)(e)",
+        "text": "In order for an individual to be required to pay for property damage caused by his/her actions, the IP shows evidence that the licensee has reported the approval to the Regional Director",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(11)(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(12)",
+        "text": "Compliance with H-G Article §5-605, Annotated Code of Maryland: Surrogate Decision Making",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(12)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(13)",
+        "text": "No financial or personal conflict of interest - members of governing body, staff, care providers, volunteers, standing committee",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(13)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(14)",
+        "text": "Fiscal affairs of Licensee conducted in accordance with generally accepted accounting practices",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(14)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(15)(a)",
+        "text": "Adequate protection for finances and property of individuals, including a system to ensure funds are used appropriately for the individual's needs and preferences",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(15)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(15)(b)",
+        "text": "Adequate protection for finances and property of individuals, including a system to keep personal funds separate from Licensee funds and the timely transfer of funds when an individual leaves",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(15)(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(15)(c)",
+        "text": "Adequate protection for finances and property of individuals, including an individual's timely access to funds",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(15)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(15)(d)",
+        "text": "Adequate protection for finances and property of individuals, including an accounting of the individual's funds, on request",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(15)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(15)(e)",
+        "text": "Adequate protection for finances and property of individuals, including accrual of interest, if interest bearing account",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(15)(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(16)",
+        "text": "State/Federal safety precautions, infection control and standard precautions implemented",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(16)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(17)",
+        "text": "Disaster/emergency plans in place with adequate drills",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(17)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(18)",
+        "text": "Individuals do not perform duties of paid staff",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(18)",
+        "doc": 0
+      },
+      {
+        "item_id": "A(19)",
+        "text": "Individual only performs household duties as shared by the household, as activity documented in IP, or remunerated as part of a training program",
+        "cite": "DH Form DD.APP.1.1 p.1; COMAR 10.22.02.10A(19)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(1)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: procedures to be followed before, during and after for (a) through (g)",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(1)(a)",
+        "text": "The evacuation, transportation, or 72 hour shelter-in-place of individuals and staff served",
+        "cite": "COMAR 10.22.02.10B(1)(a), sub-item of form item B(1)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(1)(b)",
+        "text": "Holding an annual practice drill coordinated with local emergency planners for sheltering in place or evacuating",
+        "cite": "COMAR 10.22.02.10B(1)(b)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(1)(c)",
+        "text": "Preparing an after action report and improvement plan after drills that evaluates the plan and takes corrective actions",
+        "cite": "COMAR 10.22.02.10B(1)(c)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(1)(d)",
+        "text": "Ensuring that individuals served and staff have identification with current health, contact, and other important information that is immediately accessible in the event of evacuation",
+        "cite": "COMAR 10.22.02.10B(1)(d)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(1)(e)",
+        "text": "The role of the resident, family member, or legal representative in the event of evacuation",
+        "cite": "COMAR 10.22.02.10B(1)(e)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(1)(f)",
+        "text": "Arranging for medical needs and other accommodations for individuals served and staff at alternative facilities or shelters",
+        "cite": "COMAR 10.22.02.10B(1)(f)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(1)(g)",
+        "text": "Establishing a communication protocol among all appropriate parties that includes redundant communication means",
+        "cite": "COMAR 10.22.02.10B(1)(g)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(2)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: notifications to families, staff, DDA",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(3)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: staff coverage, organization, and assignment of responsibilities including (a) through (c)",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(3)(a)",
+        "text": "Planning staff coverage needs for ongoing shelter in place or evacuations",
+        "cite": "COMAR 10.22.02.10B(3)(a), sub-item of form item B(3)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(3)(b)",
+        "text": "Identifying staff members available to report for work or remain during extended periods",
+        "cite": "COMAR 10.22.02.10B(3)(b)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(3)(c)",
+        "text": "Establishing staff notification and recall contingency plans and procedures",
+        "cite": "COMAR 10.22.02.10B(3)(c)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(4)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: continuity of operations",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(5)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: procedures for back-up records (a) and (b)",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(5)(a)",
+        "text": "Backup and electronically store off-site, appropriate records and data of consumers and staff and facility documents, for access under emergency conditions",
+        "cite": "COMAR 10.22.02.10B(5)(a), sub-item of form item B(5)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(5)(b)",
+        "text": "Ensure access to an electronic copy of the emergency plans when requested by local, State, or federal emergency management organizations",
+        "cite": "COMAR 10.22.02.10B(5)(b)",
+        "doc": 1
+      },
+      {
+        "item_id": "B(6)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: provisions to share plans with local emergency management organizations",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "B(7)",
+        "text": "Residential service providers operating ALUs and/or GHs develop an emergency plan for all types of emergencies that includes: executive summary of procedure provided to family member upon request",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10B(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "C",
+        "text": "Ensure that all staff, care providers, consultants and volunteers are aware of policies and implement each policy as adopted",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10C",
+        "doc": 0
+      },
+      {
+        "item_id": "D",
+        "text": "Provide sufficient information about the grievance process to individuals served, and/or their proponents, to enable individual to effectively use process",
+        "cite": "DH Form DD.APP.1.1 p.2; COMAR 10.22.02.10D",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-1",
+        "text": "Medication P&P: Obtaining orders and medications (MTTP 1:4-9; 2:2-7; 2:4-2; 2:4-7; 2:3-18; 2:3-26)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section (no item number on the form)",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-2",
+        "text": "Medication P&P: Administration and storage (MTTP 1:1-18; 1:4-9; 2:2-7; 2:3; 2:3-26; 2:2-28; 2:4-2; 2:4-7)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-3",
+        "text": "Medication P&P: Controlled drugs (MTTP 1:4-9; 2:1-9; 2:2-5; 2:2-7)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-4",
+        "text": "Medication P&P: Errors (10.27.11; MTTP referenced 2:3-17; 2:4-10)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-5",
+        "text": "Medication P&P: Determining ability to self-medicate (MTTP Chapter 8)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-6",
+        "text": "Procedures re: Reporting/Communication of information (MTTP 1:2-7; 1:3-4; 1:3-7; 1:3-10 & 11; 1:4-9; 3:2-9)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section",
+        "doc": 0
+      },
+      {
+        "item_id": "Nursing-7",
+        "text": "The RN Role (10.27.11; MTTP 6-5)",
+        "cite": "DH Form DD.APP.1.1 p.2, Nursing section",
+        "doc": 0
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "COMAR 10.22.02.10 – A(1) through A(19) (A(11) has sub-items (a)–(e); A(15) has sub-items (a)–(e))",
+        "B(1) through B(7) – Emergency plan for ALUs/GHs (B(1) has sub-items (a)–(g); B(3) has (a)–(c); B(5) has (a)–(b))",
+        "C – Staff awareness and implementation of policies",
+        "D – Grievance process information for individuals and proponents",
+        "Nursing – Medication P&P (obtaining orders and medications; administration and storage; controlled drugs; errors; determining ability to self-medicate), reporting/communication procedures, and the RN Role",
+        "Explanation of all items checked 'No', with a compliance plan"
+      ]
+    },
+    "notes": "The reviewer works from the two-page DH Form DD.APP.1.1 (02/18) checklist. The provider submits it together with a written policies and procedures document. For each item, the provider marks Present Yes, No or N/A, and marks whether the policy was modified since the last OHCQ survey. Every item marked 'No' needs an explanation and a compliance plan in the box at the end of the form. The safest way to organize the manual is to follow the form's numbering (A(1)–A(19), B(1)–B(7), C, D, then Nursing). Put the item ID on the policy that satisfies it, so the reviewer can match each box to a page. The form has no numbers for the seven Nursing items. I labeled them Nursing-1 to Nursing-7 in the order the form lists them. These seven items cite specific Medication Training and Technical Procedures (MTTP) sections, so the medication policies should reference those sections. The DDA Qualified Provider Application (Provider Application 9.19.25) says that if DDA approves the application, the policies and procedures must be submitted to OHCQ within 30 days of approval. The A(8) and A(9) wording on the form is shorter than the regulation's. A(8) says 'MATP' on the form. The regulation refers to the Administration's curriculum on medication training. COMAR 10.22.02.10 sets no separate policy about staff training. Staff training is a separate DDA checklist, 'Staff Training – DDS (COMAR 10.22.02.11C&D)', which is also marked DH Form DD.APP.1.1 (02/18). It is a training-record form, not a policy list, so I left it out of the items. The regulation text I used for sub-items is the current version on regs.maryland.gov."
+  },
+  "plan_version": 2
 }
