@@ -147,7 +147,37 @@ Use the given policy set as the base (keep its categories); add any policy the s
 drop any that does not apply to this program in this state, and rename to the state's terms. 40-55 policies total."""
 
 
-def requirements(item: dict, d: dict, citations: list | None = None) -> dict:
+OFFICIAL_SYSTEM = """You find the OFFICIAL document(s) a state uses to review a new provider's policies and procedures
+for this exact license/program — e.g., a policy checklist form (Maryland DH Form DD.APP.1.1 for COMAR 10.22.02.10),
+application instructions that list required plan-of-operation components (California LIC 281 Section B), a
+regulation section that enumerates required written policies, or a provider manual/application packet checklist.
+Search the regulator's website and fetch the current version. Then list EVERY required item exactly as the document
+states it (keep the document's own item numbering, e.g., "A(7)" or "B9"). Never invent items; if no single document
+exists, use the regulation sections that list required written policies/plan of operation and say so.
+Return ONLY JSON: {"documents":[{"title","form_number","issuer","version","url","how_used"}],
+"required_items":[{"item_id","text","cite","doc":0}],
+"structure":{"use_as_categories":true|false,"sections":["section names in the document's order"]},
+"notes":"how the reviewer expects the manual to be organized or submitted"}"""
+
+
+def official_requirements(item: dict, d: dict) -> dict:
+    seeds = []
+    idx_path = CF / "reference" / "requirements" / "index.json"
+    if idx_path.exists():
+        for doc in json.loads(idx_path.read_text()).get(item["slug"], []):
+            txt = (CF / "reference" / "requirements" / doc["file"]).read_text(errors="ignore")
+            seeds.append({**{k: v for k, v in doc.items() if k != "file"}, "text": txt[:30000]})
+    user = (f"State: {d['state']}\nProgram: {d['program']} — state name: {d['state_program_name']}\n"
+            f"Regulators: {json.dumps(d.get('regulators'), ensure_ascii=False)}\n"
+            f"Regulations: {json.dumps(d.get('regulations'), ensure_ascii=False)}\n")
+    if seeds:
+        user += ("\nThe business owner supplied these official documents (verified authentic). Use them; check online "
+                 "whether a newer version exists and use the newer one if so:\n" + json.dumps(seeds, ensure_ascii=False))
+    tools = [{**WEB_SEARCH, "max_uses": 6}, {**WEB_FETCH, "max_uses": 8, "max_content_tokens": 8000}]
+    return call_json(item["slug"], "M0:official", SONNET, OFFICIAL_SYSTEM, user, tools=tools, max_tokens=24000)
+
+
+def requirements(item: dict, d: dict, citations: list | None = None, official: dict | None = None) -> dict:
     """M1a: verify citations (with tools). M1b: plan the policy set from them (no tools)."""
     ps = POLICY_SETS[program_key(d["program"])]
     ctx = (f"State: {d['state']}\nProgram: {d['program']} — state name: {d['state_program_name']}\n\n"
@@ -161,10 +191,18 @@ def requirements(item: dict, d: dict, citations: list | None = None) -> dict:
                       "preparedness) and return ONLY {\"citations\": [...]} — 25-60 entries, each requirement under "
                       "250 characters.", tools=tools, max_tokens=40000)
         citations = c.get("citations", [])
+    official = official or {}
+    items = official.get("required_items", [])
     plan_prompt = (ctx + "\nVERIFIED CITATIONS (use these ids only):\n" + json.dumps(citations, ensure_ascii=False) +
+                   "\n\nOFFICIAL REQUIRED ITEMS the state reviewer checks (every item must be covered):\n" +
+                   json.dumps(items, ensure_ascii=False) + "\nOfficial structure: " +
+                   json.dumps(official.get("structure", {}), ensure_ascii=False) +
                    "\n\nSTEP 2 ONLY: return ONLY {\"policies\": [...], \"forms\": [...]} with 42-55 policies "
-                   "(id, category, title, citations, federal, state_specifics with at most 5 short items). Policy ids "
-                   "use a short prefix per category (e.g., GOV-01, RR-03).")
+                   "(id, category, title, covers (list of official item_ids this policy satisfies), citations, federal, "
+                   "state_specifics with at most 5 short items). Every official item_id must appear in at least one "
+                   "policy's covers. If the official structure says use_as_categories, use its sections as the "
+                   "categories in that order (then add other categories after). Policy ids use a short prefix per "
+                   "category (e.g., GOV-01, RR-03).")
     plan = call_json(item["slug"], "M1b:plan", SONNET, REQ_SYSTEM, plan_prompt, max_tokens=40000)
     pols = [p for p in plan.get("policies", []) if isinstance(p, dict) and p.get("id") and p.get("title")]
     if len(pols) < 40:
@@ -176,7 +214,15 @@ def requirements(item: dict, d: dict, citations: list | None = None) -> dict:
         raise ValueError(f"policy plan too short ({len(pols)})")
     for p in pols:
         p.setdefault("category", "General")
-    return {"citations": citations, "policies": pols, "forms": plan.get("forms", [])}
+        p["covers"] = [c for c in p.get("covers", []) if isinstance(c, str)]
+    covered = {c for p in pols for c in p["covers"]}
+    gaps = [it for it in items if it.get("item_id") and it["item_id"] not in covered]
+    for n, it in enumerate(gaps, 1):  # never leave an official item uncovered
+        pols.append({"id": f"REQ-{n:02d}", "category": "Additional State Requirements",
+                     "title": (it.get("text") or it["item_id"])[:90], "covers": [it["item_id"]],
+                     "citations": [], "federal": [], "state_specifics": [it.get("text", "")]})
+    return {"citations": citations, "policies": pols, "forms": plan.get("forms", []), "official": official,
+            "plan_version": 2}
 
 
 WRITE_SYSTEM = """You write policies for a state-specific Policy & Procedure Manual that a new licensed care business
@@ -186,12 +232,17 @@ hotlines, forms, who may perform tasks). Cite ONLY the citation ids provided for
 section numbers that are not in the provided citation list. Use placeholders only in square brackets for
 agency-specific facts ([ADMINISTRATOR NAME], [PHONE], [ADDRESS]); never leave template junk (XXXX, TBD).
 Procedures: 10-20 numbered, concrete steps (who does what, by when, where it is documented).
+Each policy lists "official_items" — items on the state's official policy checklist/application form. Address every
+one explicitly and name it in the Policy section (e.g., "This policy meets COMAR 10.22.02.10 A(5)" or "LIC 281
+item B9 — Admission Policies"), so the reviewer can tick it off. Keep "covers" exactly as given.
 Return ONLY JSON: {"policies":[{"id","category","title","applies_to","citations":["C1"],"federal":["..."],
-"purpose","policy","definitions":[{"term","definition"}],"procedures":["..."],"responsibilities":[{"role","duty"}],
+"covers":["item ids"],"purpose","policy","definitions":[{"term","definition"}],"procedures":["..."],"responsibilities":[{"role","duty"}],
 "documentation":["..."],"related":["IDS"]}]}"""
 
 
 def write_policies(item: dict, d: dict, req: dict, batch: list[dict], extra: str = "") -> list[dict]:
+    items = {it.get("item_id"): it for it in (req.get("official") or {}).get("required_items", [])}
+    batch = [dict(p, official_items=[items[c] for c in p.get("covers", []) if c in items]) for p in batch]
     cite_ids = {c for p in batch for c in p.get("citations", [])}
     cites = [c for c in req["citations"] if c["id"] in cite_ids]
     user = (f"State: {d['state']} — {d['state_program_name']}\nAll policy ids/titles in this manual (for 'related'):\n"
@@ -225,7 +276,9 @@ def problems_in(pol: dict, valid_cites: set, allow_484: bool) -> list[str]:
 
 FRONT_SYSTEM = """Write the front matter of a state-specific Policy & Procedure Manual. Return ONLY JSON:
 {"purpose": markdown, "how_to_use": markdown, "regulatory_framework": markdown}. regulatory_framework lists the
-governing rules (from the citations given, by their exact cite text) and the regulators with contact info. Do not
+governing rules (from the citations given, by their exact cite text) and the regulators with contact info, and names
+the official policy checklist / application document(s) the state uses to review this manual, explaining that
+Appendix A maps every official item to the policy that satisfies it. Do not
 invent rules. Mention that the manual must be customized ([AGENCY NAME] placeholders), adopted by the governing
 body, kept current, and that staff must be trained on it."""
 
@@ -239,8 +292,15 @@ def process(item: dict) -> dict:
     work = CF / "pipeline" / "work" / f"{slug}.manual-req.json"
     req = json.loads(work.read_text()) if work.exists() else {}
     good = [p for p in req.get("policies", []) if isinstance(p, dict) and p.get("id") and p.get("title")]
-    if len(good) < 40:
-        req = requirements(item, d, citations=req.get("citations") or None)
+    if len(good) < 40 or req.get("plan_version", 1) < 2:
+        off_path = CF / "pipeline" / "work" / f"{slug}.official.json"
+        if off_path.exists():
+            official = json.loads(off_path.read_text())
+        else:
+            official = official_requirements(item, d)
+            off_path.parent.mkdir(parents=True, exist_ok=True)
+            off_path.write_text(json.dumps(official, indent=2, ensure_ascii=False))
+        req = requirements(item, d, citations=req.get("citations") or None, official=official)
         work.parent.mkdir(parents=True, exist_ok=True)
         work.write_text(json.dumps(req, indent=2, ensure_ascii=False))
     req["citations"] = [c for c in req.get("citations", []) if c.get("verified") and c.get("cite")]
@@ -262,6 +322,7 @@ def process(item: dict) -> dict:
         if p["id"] in by_id:
             w = by_id[p["id"]]
             w.setdefault("category", p["category"])
+            w["covers"] = p.get("covers", [])
             ordered.append(w)
         else:
             missing.append(p)
@@ -288,11 +349,14 @@ def process(item: dict) -> dict:
 
     front = call_json(slug, "M4:front", SONNET, FRONT_SYSTEM,
                       json.dumps({"state": d["state"], "program": d["state_program_name"], "citations": req["citations"],
+                                  "official_documents": (req.get("official") or {}).get("documents"),
+                                  "official_notes": (req.get("official") or {}).get("notes"),
                                   "regulators": d.get("regulators")}, ensure_ascii=False), max_tokens=8000)
     manual = {"bundle_slug": slug, "state": d["state"], "program": d["program"],
               "state_program_name": d["state_program_name"], "as_of": time.strftime("%Y-%m"),
               "front_matter": front, "citations": req["citations"], "policies": ordered,
-              "forms": req.get("forms", []), "unresolved_checks": still}
+              "forms": req.get("forms", []), "unresolved_checks": still,
+              "official": req.get("official") or {}}
     out_json.parent.mkdir(parents=True, exist_ok=True)
     out_json.write_text(json.dumps(manual, indent=2, ensure_ascii=False))
     outdir = CF / "output" / slug

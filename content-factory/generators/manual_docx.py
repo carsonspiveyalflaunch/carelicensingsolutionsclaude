@@ -207,8 +207,9 @@ def build_manual(m: dict, docx_path: str, pdf: bool = True) -> None:
             q = doc.add_paragraph(f"{pol['id']}  {pol['title']}")
             q.paragraph_format.left_indent = Inches(0.3)
             q.paragraph_format.space_after = Pt(0)
-    doc.add_paragraph("Appendix A. Regulatory Crosswalk")
-    doc.add_paragraph("Appendix B. Forms and Records Referenced")
+    doc.add_paragraph("Appendix A. Official Requirements Crosswalk")
+    doc.add_paragraph("Appendix B. Regulatory Crosswalk")
+    doc.add_paragraph("Appendix C. Forms and Records Referenced")
     doc.add_page_break()
 
     # ---- Introduction
@@ -235,7 +236,8 @@ def build_manual(m: dict, docx_path: str, pdf: bool = True) -> None:
             _kv_table(doc, [("Policy number", pol["id"]), ("Effective date", "[DATE]"),
                             ("Last reviewed", "[DATE]"), ("Applies to", pol.get("applies_to") or "All staff"),
                             (f"{m['state']} rules", state_cites),
-                            ("Federal / other", "; ".join(pol.get("federal") or []) or "—")])
+                            ("Federal / other", "; ".join(pol.get("federal") or []) or "—"),
+                            ("Official checklist items", ", ".join(pol.get("covers") or []) or "—")])
             doc.add_heading("Purpose", level=3)
             _md_block(doc, pol.get("purpose", ""))
             doc.add_heading("Policy", level=3)
@@ -269,9 +271,48 @@ def build_manual(m: dict, docx_path: str, pdf: bool = True) -> None:
                 r = p.add_run("Related policies: " + ", ".join(pol["related"]))
                 r.italic, r.font.size, r.font.color.rgb = True, Pt(9), GREY
 
-    # ---- Appendix A crosswalk
+    # ---- Appendix A: official checklist / application items -> policies
+    off = m.get("official") or {}
     doc.add_page_break()
-    doc.add_heading("Appendix A. Regulatory Crosswalk", level=1)
+    doc.add_heading("Appendix A. Official Requirements Crosswalk", level=1)
+    docs = off.get("documents") or []
+    if docs:
+        doc.add_paragraph("The state reviews this manual against the official document(s) below. Each item is mapped "
+                          "to the policy that satisfies it, in the document's own numbering.")
+        for dd in docs:
+            p = doc.add_paragraph(style="List Bullet")
+            p.add_run(" ".join(x for x in [dd.get("form_number") or "", dd.get("title") or ""] if x)).bold = True
+            extra = " — ".join(x for x in [dd.get("issuer") or "", f"version {dd['version']}" if dd.get("version") else "",
+                                            dd.get("url") or ""] if x)
+            if extra:
+                p.add_run(f" ({extra})")
+    if off.get("notes"):
+        _md_block(doc, off["notes"])
+    items = off.get("required_items") or []
+    if items:
+        t = doc.add_table(rows=1, cols=3)
+        t.style = "Table Grid"
+        for i, h in enumerate(("Item", "Official requirement", "Policies")):
+            c = t.rows[0].cells[i]
+            _shade(c, "1F4E3D")
+            rr = c.paragraphs[0].add_run(h)
+            rr.bold, rr.font.color.rgb = True, RGBColor(0xFF, 0xFF, 0xFF)
+        for it in items:
+            pols = [p["id"] for p in m["policies"] if it.get("item_id") in (p.get("covers") or [])]
+            cells = t.add_row().cells
+            cells[0].text = str(it.get("item_id", ""))
+            cells[1].text = it.get("text", "")
+            cells[2].text = ", ".join(pols) or "—"
+            for cell in cells:
+                for r in cell.paragraphs[0].runs:
+                    r.font.size = Pt(8.5)
+    else:
+        doc.add_paragraph("No single official checklist was found for this license; Appendix B maps the governing "
+                          "rules to the policies.")
+
+    # ---- Appendix B: rule crosswalk
+    doc.add_page_break()
+    doc.add_heading("Appendix B. Regulatory Crosswalk", level=1)
     doc.add_paragraph(f"Each {m['state']} requirement below is addressed by the listed policies. Surveyors and "
                       "application reviewers often ask for this map.")
     t = doc.add_table(rows=1, cols=3)
@@ -300,7 +341,7 @@ def build_manual(m: dict, docx_path: str, pdf: bool = True) -> None:
 
     # ---- Appendix B forms
     doc.add_page_break()
-    doc.add_heading("Appendix B. Forms and Records Referenced", level=1)
+    doc.add_heading("Appendix C. Forms and Records Referenced", level=1)
     doc.add_paragraph("Create or obtain each form below before opening. State-issued forms must be the current "
                       "version from the regulator's website.")
     t = doc.add_table(rows=1, cols=3)
