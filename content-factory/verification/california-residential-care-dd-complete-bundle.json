@@ -1,0 +1,89 @@
+{
+ "bundle_slug": "california-residential-care-dd-complete-bundle",
+ "checked_at": "2026-10-13",
+ "summary": "This bundle is accurate on everything that drives profitability. All 4-bed and 5-6-bed 905/915 rates (full and 90% base) match the DDS 'Rates Effective Jul 2026' xlsx files exactly. So do the tier groupings, checked against 18 regional center files (SDRC=HRC=RCOC=NLACRC=SGPRC=NBRC; CVRC=ACRC=FNRC=IRC=KRC=RCRC=VMRC; RCEB=SARC; GGRC $15,309.57). The $1,444.07 B&C / $182 P&I matches the DDS rate page and ACWDL 25-29 ($1,626.07 NMOHC minus $182). Rate-model staffing hours (180/220/300/280 for 5+ beds), wages ($18.20/$19.58/$25.24), consultant hours (16/24/32 per year at $123.50), mileage (210 x $0.725) and food ($270) match the Feb 2026 Burns rate models. Other verified figures: Title 17 staffing/consultant tables (56004), 56005, 56026, 56037, 56038, 56033, 54320, 54326; Title 22 85018, 85064, 85064.2/.3, 85065.5/.6, 85087, 85088, 80020; HSC 1523.1 fees ($908/$454), 1566.2, 1520.5; CAB 90-120 days and contacts; admin cert $100/$140/35 hrs/40 CE; Component I $54.85; FTB $800 plus fee tiers; minimum wages ($16.90; SD $17.75; SJ $18.45; LA City $18.42; SF $19.61); the WCIRB $1.65 benchmark; HUD FY26 4-BR FMRs; DDS caseload/POS figures; every CHHS residence/age count; the CCL ARF counts (6,128 licensed / 40,041 beds, capacity buckets, counties, 512 new / 360 closed in 2024); and the DSTF FY17-18 level counts. I recomputed the model and it reproduces exactly: arf4x2_l6 +5,229 (0.844), arf4_l6 +2,698 (0.842), arf6_l4 +828 (0.882), arf4_l4 -1,730 (0.952), arf4_l3 -2,223 (0.979). Staffing at the DDS hours with 24/7 awake coverage meets 17 CCR 56004(c) and 22 CCR 85065.5/85065.6. Rent is fixed, and the LLC fee is correctly sized per configuration. Issues found: one wrong sensitivity number (1.15 paid-hours factor), a dead USDA URL, citation and labeling fixes, and a missing local-wage and independent-review caveat. Not re-confirmed: the BLS 21-1093 and 11-9151 25th-percentile values, because the BLS API hit its daily limit and the cited page is now an index.",
+ "verified_count": 104,
+ "issues": [
+  {
+   "severity": "major",
+   "json_path": "sections.financial_narrative (Sensitivity table row 'Use DDS's 1.15 paid-hours factor')",
+   "current": "−$2,614 | +$84",
+   "correct": "−$2,745 | −$47",
+   "evidence": "I recomputed with generators/model.py, scaling only the line and lead staffing amounts by 1.15/1.045 and leaving the administrator unchanged. arf4_l6 default net = −47. Other configurations at 1.15: arf4x2_l6 −260; arf6_l4 −1,901; arf4_l4 −3,700; arf4_l3 −3,805. Hand check: (1009.8×18.20 + 253.6×19.58) × (1.15/1.045 − 1) × 1.17 = $2,745. At DDS's own productivity factor the default home is slightly negative, not slightly positive.",
+   "source_url": "https://www.dds.ca.gov/wp-content/uploads/2026/02/SDRC_RateReform_RateModels_20260210.pdf",
+   "fix": "Change the row to '| Use DDS's 1.15 paid-hours factor (PTO + supervision + training) instead of 1.045 | −$2,745 | −$47 |'. In risks #5, add that at DDS's 1.15 factor the default home is at break-even (−$47/month)."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sources[S67].url / financial_model.opex['Food (3 meals + snacks)']",
+   "current": "https://fns-prod.azureedge.us/sites/default/files/resource-files/cnpp-costfood-3levels-may2026.pdf (male $397.00, female $335.60 → $366.30)",
+   "correct": "https://www.fns.usda.gov/sites/default/files/resource-files/CostofFoodAug2026LowModLib.pdf (moderate-cost, 19–50: male $398.10, female $336.10 → $367.10)",
+   "evidence": "The cited URL returns HTTP 404, and the May 2026 report is no longer at a guessable fns.usda.gov path. The current USDA report (Aug 2026) shows moderate-cost female 19-50 at $336.10 and male 19-50 at $398.10.",
+   "source_url": "https://www.fns.usda.gov/sites/default/files/resource-files/CostofFoodAug2026LowModLib.pdf",
+   "fix": "Replace the S67 URL and title with the Aug 2026 report, and set the food opex monthly to 367.10 with updated notes (male $398.10, female $336.10). The model impact is about −$3/month."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sections.operations / sections.risks #5 / sections.financial_narrative (local minimum wages)",
+   "current": "Only City of Los Angeles ($18.42) and San Francisco ($19.61) are named as above the $18.20 modeled wage",
+   "correct": "Also: unincorporated Los Angeles County $18.47, Pasadena $18.57, Santa Monica $18.47, Malibu $17.91 (below), Milpitas $18.50, Berkeley $19.61, Emeryville $20.34 (eff. 7/1/2026)",
+   "evidence": "DWT July 2026 list. Unincorporated LA County and Pasadena lie in the NLACRC/SGPRC/Harbor catchments, which are the modeled SDRC-tier rates, and both exceed the LA City figure. Recomputed arf4_l6 with DSPs at $18.47 gives +$2,379 (vs +$2,438 at $18.42). With DSPs and leads at $19.61 (SF/Berkeley) it gives +$1,023, before those homes' higher RCEB/GGRC tier rates.",
+   "source_url": "https://www.dwt.com/blogs/employment-labor-and-benefits/2026/06/california-local-minimum-wage-increases-july-2026",
+   "fix": "In operations and risks #5, add 'unincorporated LA County $18.47 and Pasadena $18.57 (both in SDRC-tier regional centers); Berkeley $19.61, Emeryville $20.34'. In the sensitivity table, either change the LA row to $18.47 (−$319 → +$2,379) or add that row."
+  },
+  {
+   "severity": "minor",
+   "json_path": "financial_model.opex / configurations[*].opex_overrides item 'Consultant hours (behavioral/clinical) — Level 4 (24 hrs/resident/yr)'",
+   "current": "arf4_l3 override = 164.67 (16 hrs/yr) and arf4_l6 / arf4x2_l6 overrides = 329.33 (32 hrs/yr), all under an item label that says 'Level 4 (24 hrs/resident/yr)'",
+   "correct": "Item label without a level/hours (e.g., 'Consultant hours (behavioral/clinical)'), with the hours stated in each override's notes",
+   "evidence": "The values are right: the DDS rate models fund 16 consultant hrs/yr at Level 3, 24 at Level 4 and 32 at Level 6. 17 CCR 56004(f) requires 4A/4B 8, 4C 8, 4D–4E 12, 4F 12 and 4G–4I 16 hrs per six months. But the shared label prints 'Level 4 (24 hrs)' on the Level 3 and Level 6 P&Ls. Overrides match by exact name, so the label must change in the base item and in every override together.",
+   "source_url": "https://www.law.cornell.edu/regulations/california/17-CCR-56004",
+   "fix": "Rename the base opex item and all three overrides to 'Consultant hours (behavioral/clinical)'. Put 'L3: 16 hrs/yr', 'L4: 24 hrs/yr' and 'L6 (4I): 32 hrs/yr × $123.50' in the notes."
+  },
+  {
+   "severity": "minor",
+   "json_path": "financial_model.configurations[arf6_l4].opex_overrides['Lease — 4-bedroom house (fixed)']",
+   "current": "Item label 'Lease — 4-bedroom house (fixed)', monthly 6000, notes say 5-bedroom house",
+   "correct": "A label that does not say 4-bedroom, e.g., 'Lease — house (fixed)', with the bedroom count in the notes",
+   "evidence": "The 6-bed P&L shows a '4-bedroom' lease at $6,000 while the notes describe a 5-bedroom house. The label is inherited because overrides must match the base item name exactly.",
+   "source_url": "https://www.law.cornell.edu/regulations/california/22-CCR-85087",
+   "fix": "Rename the base item and both lease overrides to 'Lease — house (fixed)'. State '4-bedroom' or '5-bedroom' in each notes field."
+  },
+  {
+   "severity": "minor",
+   "json_path": "financial_model.configurations[arf4_l6] (optimistic scenario) / sections.risks #8",
+   "current": "No independent-review cost for the single 4-bed Level 6 home",
+   "correct": "Note that regional center payments cross $500,000/yr above about 93.9% occupancy, or with the QIP, which triggers a WIC §4652.5 independent review (operator estimate ≈ $500/month as used in arf4x2_l6)",
+   "evidence": "Regional center portion at 97% = $11,095.17 × 3.88 × 12 = $516,600/yr, which is at or above the $500,000 threshold in the RCOC notice ('more than or equal to five hundred thousand dollars ($500,000), but less than two million'). At the 90% default it is $479,300, under the threshold. With the QIP earned at 90% it is $11,928.70 × 3.6 × 12 = $515,300. The optimistic net (+$5,965) and the QIP sensitivity (+$7,136) leave this cost out.",
+   "source_url": "https://www.rcocdd.com/wp-content/uploads/serviceproviders/resources/2023NoticetoAllRCOCVendors-Informationfo.pdf",
+   "fix": "In the arf4_l6 notes, risks #8 and the QIP sensitivity row, add: 'At ~94%+ occupancy or with the QIP, regional center payments exceed $500,000/yr and an independent review (~$6,000/yr, operator estimate) is required.' Optionally reduce the QIP row to +$6,636."
+  },
+  {
+   "severity": "minor",
+   "json_path": "rates[915 Level 6 highest tier].service / sections.reimbursement ('Golden Gate $15,309.57 [S4]')",
+   "current": "GGRC $15,309.57 cited to S4 (RCEB file)",
+   "correct": "Cite the GGRC file: https://www.dds.ca.gov/wp-content/uploads/2026/09/GGRC_RatesEffectiveJul2026_20260923.xlsx (Level 6, 4 or fewer beds = $15,309.57; Level 4 = $10,904.78)",
+   "evidence": "The value is correct, but it comes from the GGRC rate file, not the RCEB file that S4 points to.",
+   "source_url": "https://www.dds.ca.gov/wp-content/uploads/2026/09/GGRC_RatesEffectiveJul2026_20260923.xlsx",
+   "fix": "Add a source S71 for the GGRC xlsx and cite [S71] next to the GGRC figure."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sources[S57].url (BLS OEWS California May 2025)",
+   "current": "https://www.bls.gov/oes/current/oes_ca.htm",
+   "correct": "https://data.bls.gov/oes/#/area/0600000 (or cite BLS series OEUS0600000000000{SOC}{datatype})",
+   "evidence": "The cited URL now resolves to an OEWS navigation index with no occupation wages. 31-1120 mean $17.51 and 11-9151 median $40.01 (CA, May 2025) were confirmed through BLS in the prior CA ALF verification. I could not re-confirm 21-1093 25th pct $22.17 / median $24.56 or 11-9151 25th pct $34.04 today because the BLS API daily limit was hit. They are consistent with the confirmed 11-9151 median.",
+   "source_url": "https://data.bls.gov/oes/#/area/0600000",
+   "fix": "Replace the S57 URL. For the 21-1093 and 11-9151 25th-percentile values: unverifiable in this pass. Re-check through the BLS API before publishing; if they cannot be confirmed, keep them as sensitivity-only."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sources[S66].url (HUD FY2026 FMR)",
+   "current": "https://www.huduser.gov/portal/datasets/fmr.html",
+   "correct": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs.xlsx",
+   "evidence": "The landing page has no county figures and now leads with FY2027. All five 4-BR values (LA $3,672; Orange $5,246; Riverside $3,514; Sacramento $3,460; San Diego $4,845) match FY26_FMRs.xlsx.",
+   "source_url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs.xlsx",
+   "fix": "Point S66 at the FY26_FMRs.xlsx county file (values unchanged)."
+  }
+ ]
+}

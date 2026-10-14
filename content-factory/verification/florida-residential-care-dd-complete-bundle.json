@@ -1,0 +1,80 @@
+{
+  "bundle_slug": "florida-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "High-quality bundle. All 26 rates[] values and every revenue rate in the financial model match the adopted Oct 1, 2025 iBudget rate table (Ref-18974, Rule 59G-13.081 eff. 3/12/2026). The proposed July 2026 rates (Ref-20058) and the 7/1/2024 APD rate sheet also match. Handbook minimum staff hours (2/4/6/8/11) are confirmed. The current (3/26/2026) texts of 65G-2.002, .003, .0032, .006, .007, .0072, .008, .009, .010 and .015 support the cited subsections, including the 60-day financial-ability rule in 65G-2.0032(5), the 30-day first-admission review in (8), and the 15-day corrective action plan. Room and board $583.42 and PNA 18% (65G-13.008, 65G-2.018) are confirmed. O*NET/BLS 2025 Florida medians ($16.25 aide, $17.25 75th percentile, $76,050, $41,730) are confirmed. The Florida minimum wage of $15.00 on 9/30/2026, HUD FY2027 SAFMR 32825 ($2,580/$3,020) and 33024 ($2,990/$3,450), the CY2026 Medicaid application fee of $750, the AHCA screening contacts, APD's free enrollment and regional mailboxes, the DOH no-inspection statement, the APD Q4 FY25-26 figures and the 'no fee on Form 65G-2.002-A (Dec 2025)' claim all check out. Recomputed model: gh8x2 +$4,849 (breakeven 0.76), gh8_bf +$2,998 (0.75), gh8 +$2,251 (0.772), gh6 -$91 (0.938), gh4 -$2,176 (1.034), fc3_livein -$9,325 (1.629). These match the narrative, and the narrative sensitivities recompute correctly. Issues found: the ramp-up projection lets direct-care hours fall below the one-staff-24/7 floor, so year-1 losses are understated by about $7k-$27k. The Florida LLC annual report is $138.75, not $50. The s. 393.067(10) annual sworn cost statement is mandatory but is described as 'may request'. The executive summary calls licensure 'free', which conflicts with not_claimed. New residential habilitation centers cannot be licensed. A few minor citation and cost gaps remain. Steady-state profitability is unchanged except trivially.",
+  "verified_count": 72,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[2,3,4,5].staffing[0] (gh6, gh8, gh8_bf, gh8x2 DSP line, basis hours_per_client_month)",
+      "current": "DSP hours scale purely with billable census (192.7 / 182.5 / 212.9 h per resident-month) with no floor; e.g. gh8x2 month 1 = 3 residents x 0.93 x 182.5 = 509 h across two homes",
+      "correct": "During ramp-up each open home needs at least 730 h/month (one staff present 24/7 whenever any resident is home). Missing cost over the 36-month projection at $16.25 x 1.173 burden: gh6 about $21,500, gh8 about $8,400, gh8_bf about $6,800, gh8x2 about $26,500 (if both homes open in month 1 as modeled). Operating deficit becomes gh6 $50,860 / gh8 $21,504 / gh8_bf $20,974 / gh8x2 $63,358. Year-1 net becomes gh6 -$48,670 / gh8 -$1,241 / gh8_bf +$6,003 / gh8x2 -$26,219. Cash needed is unchanged because the 60-day required reserve is still larger than the deficit.",
+      "evidence": "65G-2.009(6)(b) (current text, amended 3-26-26): 'At least one staff person must be present at all times while residents are in the facility.' The bundle's own notes call this the binding floor for the 3-4 bed homes (730 h fixed). model.py staff_monthly() applies hours_per_client_month as purely variable, and projection() ramps from 1-3 residents, so in early months the hours fall below 730 per home. The steady state at 88-97% occupancy is above 730 per home, so the monthly results are unaffected.",
+      "source_url": "https://flrules.org/gateway/readFile.asp?sid=0&type=1&tid=30618843&file=65G-2.009.doc",
+      "fix": "Add a startup_costs line 'Ramp-up staffing floor: one staff on duty 24/7 per home while census is below ~4 (65G-2.009(6)(b))', low 6,800 high 26,500, with source_id S16 and no category, so it is summed. Alternatively, raise ramp start_clients to 4 per home. Add one sentence to financial_narrative giving the year-1 figures above. In the default gh8x2 note, state that opening the second home only after the first fills avoids most of this cost."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[0-5].opex_overrides[11] ('Florida LLC annual report ($50 / 12)'); checklist[2].instructions; checklist[70].instructions; sources[41].title",
+      "current": "$50/year; monthly 4.17",
+      "correct": "$138.75/year (Sunbiz LLC annual report price, which is more than the $50 statutory filing fee in s. 605.0213(5)); monthly 11.56. A $400 late fee applies after May 1.",
+      "evidence": "Sunbiz Annual Report page fee table: 'Annual Report - Limited Liability Company $138.75'. It also says 'A $400 late fee will be imposed on all profit corporations, limited liability companies...' if the report is filed after May 1. Section 605.0213(5) lists only the $50 component.",
+      "source_url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
+      "fix": "In every configuration, set item to 'Florida LLC annual report ($138.75 / 12)', monthly 11.56, and add the Sunbiz URL as a source. Change checklist[2] to 'Annual report $138.75, due Jan 1-May 1; $400 late fee after May 1.' Change '($50)' in checklist[70] to '($138.75)'. Note in sources[41] that $50 is only the statutory filing component."
+    },
+    {
+      "severity": "major",
+      "json_path": "checklist[70].instructions; financial_model.configurations[0-5].opex_overrides[8].notes",
+      "current": "\"APD may require a sworn cost statement for agency-funded care\" / \"APD may request a sworn annual cost statement (s. 393.067(10))\"",
+      "correct": "Mandatory annual filing: each licensed facility shall forward annually to APD a true and accurate sworn statement of its costs of providing care to APD-funded clients.",
+      "evidence": "s. 393.067(10), F.S.: 'Each facility or program licensed under this section shall forward annually to the agency a true and accurate sworn statement of its costs of providing care to clients funded by the agency.'",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/393.067",
+      "fix": "Replace the text with 'Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10))' in checklist[70] and in all six accounting-line notes. Keep checklist[70] priority at least HIGH."
+    },
+    {
+      "severity": "major",
+      "json_path": "sections.executive_summary",
+      "current": "\"APD licensure and waiver provider enrollment are both free [S20][S21].\"",
+      "correct": "Waiver provider enrollment is free (APD). No licensure fee appears on Form 65G-2.002-A, but s. 393.067(3) says applications 'shall be accompanied by the appropriate license fee' and 65G-2.002(11)(a) counts 'required fees' toward completeness, so 'free' licensure is not established.",
+      "evidence": "s. 393.067(3): 'An application for a license under this section must be made to the agency on a form furnished by it and shall be accompanied by the appropriate license fee.' 65G-2.002(11)(a) (current): an application is complete upon receipt of 'All required documents, information and required fees'. The bundle's own not_claimed[2] treats the license fee as unconfirmed, so the executive summary contradicts it.",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/393.067",
+      "fix": "Change to: 'APD waiver provider enrollment is free [S21], and no license fee appears on the December 2025 license application [S20]; confirm with your APD regional office.'"
+    },
+    {
+      "severity": "major",
+      "json_path": "checklist[0].instructions; sections.service_model (license-type table row 'Residential habilitation center')",
+      "current": "\"Residential habilitation centers hold 9+.\" / table row 'Not fewer than 9 residents | Larger community facility providing habilitation'",
+      "correct": "Residential habilitation centers (9+) cannot be newly licensed: no new RHC licenses have been issued, and no existing RHC capacity increases allowed, since Oct. 1, 1989. New entrants can only choose a foster care facility (3 or fewer) or a group home (4-15).",
+      "evidence": "s. 393.063(35): '\"Residential habilitation center\" ... The capacity of such a facility may not be fewer than nine residents. After October 1, 1989, new residential habilitation centers may not be licensed and the licensed capacity for any existing residential habilitation center may not be increased.'",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/393.063",
+      "fix": "Append to checklist[0]: 'Residential habilitation centers (9+) are closed to new licenses since Oct. 1, 1989 (s. 393.063(35)).' Change the service_model table row description to 'Not available to new applicants — no new licenses since 10/1/1989 [S7]'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[33] (S34) / sections.market_conditions ('RNs $40.48; LPNs $29.70 (median) [S34]')",
+      "current": "https://www.bls.gov/oes/current/oes_fl.htm cited for RN median $40.48 and LPN $29.70",
+      "correct": null,
+      "evidence": "The cited page holds only links to OEWS May 2025 download tables, so it does not contain the RN or LPN wage figures (checked 2026-10-13). The BLS API was rate-limited, so the values themselves could not be confirmed either way.",
+      "source_url": "https://www.bls.gov/oes/current/oes_fl.htm",
+      "fix": "Cite O*NET Florida local-wage pages (https://www.onetonline.org/link/localwages/29-1141.00?st=FL and .../29-2061.00?st=FL), as done for S31-S33, or the BLS state XLSX. If they can't be confirmed, mark them unverifiable and move them to not_claimed. They are context only, not model inputs."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex / configurations[*].opex_overrides (missing line)",
+      "current": "No local business tax receipt cost",
+      "correct": "Add a fixed line for county (and, where applicable, city) local business tax receipts, roughly $50-$300/year per home as an operator estimate; verify with the county tax collector.",
+      "evidence": "s. 205.032, F.S.: 'The governing body of a county may levy ... a business tax for the privilege of engaging in or managing any business, profession, or occupation within its jurisdiction.' Most Florida counties and cities levy one (s. 205.042 for municipalities). SCHEMA lessons ask for local business licenses to be sized per configuration.",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/205.032",
+      "fix": "Add an opex_overrides item 'Local business tax receipt(s), county/city' at monthly 15 per home (fixed; 30 for gh8x2), noted as an operator estimate, and add a startup line of $50-$600. The profit impact is negligible."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.executive_summary ('July 2026 table ... about 1.0%'); rates[23]",
+      "current": "Proposed July 2026 table, uniform increase 'about +1.0%'",
+      "correct": "Confirmed: the proposed Ref-20058 table shows Moderate $5,108.95, Minimal $3,404.67, Extensive 1 $6,872.31, BF Moderate $5,343.98 and geographical Moderate $5,492.36 (all +1.00%). Note that the 8/31/2026 notice is a Notice of Rule Development, not a proposed rule, and gives no percentage. The 1.0% comes from the table itself.",
+      "evidence": "The FAR notice 31315303 text says 'The revised rate table includes a uniform rate increase pursuant to HB 5001, the 2026-2027 General Appropriations Act' with no percentage. The Ref-20058 xlsx row 64 shows T2023UCU4 non-geographical $5,108.95.",
+      "source_url": "https://flrules.org/gateway/reference.asp?No=Ref-20058",
+      "fix": "No number change. Optionally cite Ref-20058 (the table) next to S3 for the 1.0% figure."
+    }
+  ]
+}

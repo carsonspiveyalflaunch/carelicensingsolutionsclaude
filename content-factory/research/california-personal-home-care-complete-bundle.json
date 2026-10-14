@@ -1,0 +1,1909 @@
+{
+  "bundle_slug": "california-personal-home-care-complete-bundle",
+  "state": "California",
+  "state_code": "CA",
+  "program": "Personal Home Care",
+  "state_program_name": "Home Care Organization (HCO) — licensed by CDSS Home Care Services Branch under the Home Care Services Consumer Protection Act (HSC §1796.10 et seq.); non-medical home care by registered home care aides",
+  "as_of": "2026-10",
+  "report_title": "California Personal Home Care (Home Care Organization) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Home Care Organization Application Process (forms A1–A7, Section B documents, mailing address, HCSB phone and email)",
+      "publisher": "CA Dept. of Social Services — Home Care Services Branch",
+      "url": "https://cdss.ca.gov/inforesources/community-care/home-care-services/home-care-org-application-process",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "Home Care Services Application Fees (HCO license $5,603 per 2 years; HCA registration $35 per 2 years; change of location $100; change in corporation $200)",
+      "publisher": "CA Dept. of Social Services",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/home-care-services/application-fees",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "HCS 281 — Application Instructions for a Home Care Organization License (Section A/B, $1M/$3M liability, workers' comp certificate, HCS 402 bond, HCS 308 'a licensee cannot designate him or herself', training plan)",
+      "publisher": "CA Dept. of Social Services",
+      "url": "https://www.cdss.ca.gov/cdssweb/entres/forms/English/HCS281.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "Health & Safety Code §1796.37 — Requirements for HCO licensure and two-year renewal ($1M/$3M liability, workers' comp, $10,000 dishonesty bond, background exam, orientation)",
+      "publisher": "FindLaw (California Codes)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-37/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Health & Safety Code §1796.42 — HCO operating requirements (posting, workers' comp, bond, liability insurance, abuse reporting)",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.42",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Health & Safety Code §1796.43 — Registry clearance, background checks and TB before client contact; notify CDSS when an aide leaves",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.43",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Health & Safety Code §1796.45 — Tuberculosis examination of home care aides (90 days before or 7 days after hire; every 2 years)",
+      "publisher": "FindLaw (California Codes)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-45/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "Health & Safety Code §1796.12 — Definitions (home care services, home care organization, affiliated/independent/registered home care aide)",
+      "publisher": "FindLaw (California Codes)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-12/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Health & Safety Code §1796.17 — Entities that are not home care organizations (home health agencies, IHSS providers, DDS-vendored organizations >50% DD, employment agencies, etc.)",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.17",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Health & Safety Code §1796.49 — HCO initial (24-month) and renewal fees set by the department",
+      "publisher": "FindLaw (California Codes)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-49/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "Health & Safety Code §1796.52 — Random, unannounced inspections; complaint investigations",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.52",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Health & Safety Code §1796.38 — Grounds to deny, suspend or revoke an HCO license",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.38",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Health & Safety Code, Division 2, Chapter 13 (Home Care Services Consumer Protection Act) — article list",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/health_and_safety_code,_division_2,_chapter_13",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "SB 412 (2025), Chapter 414, Statutes of 2025 — amends HSC §1796.44 (5 hours entry-level training before client contact: 2 h orientation + 3 h safety; 5 hours annual; dementia topic added from 1/1/2027)",
+      "publisher": "LegiScan (chaptered bill text)",
+      "url": "https://legiscan.com/CA/text/SB412/2025",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Information for Home Care Aides (Guardian portal, $35 registration and $35 renewal, Live Scan, independent PIN; Care Provider Management Branch 1-888-422-5669)",
+      "publisher": "CA Dept. of Social Services",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/home-care-services/home-care-aide-application-process",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Joint CDSS/DHCS notice (Dec. 16, 2021): Medi-Cal Personal Care Agencies providing HCBA Waiver Personal Care Services are exempt from HCO licensure",
+      "publisher": "CA Dept. of Health Care Services / CDSS",
+      "url": "https://www.dhcs.ca.gov/wp-content/uploads/2025/10/PCA-Exemption.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "DHCS Community Supports Policy Guide, Volume 1 (updated April 2025) — Personal Care and Homemaker Services (PCHS): eligibility, IHSS primary, HCBA exclusion, provider types",
+      "publisher": "CA Dept. of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/Documents/MCQMD/DHCS-Community-Supports-Policy-Guide.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "California Community Supports Pricing Resource — web page (non-binding; update and provider survey under way; page modified Aug. 2026)",
+      "publisher": "CA Dept. of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/calaim-transforming-medi-cal/california-community-supports-pricing-resource/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Community Supports Pricing Resource (Dec. 2025 addendum edition): Personal Care Services S5130/T1019 hourly agency model $29 low / $33 midpoint / $38 high; Respite H0045/S5151/S9125 same range; built on a $15/hour direct care wage",
+      "publisher": "CA Dept. of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/ko/Documents/MCQMD/Community-Supports-Pricing-Resource.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "Medi-Cal provider application fee: $750 for calendar year 2026",
+      "publisher": "CA Dept. of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/providers-partners/application-fees/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "IHSS Program Data — monthly workbook, August 2026 (statewide 930,755 authorized recipients; 843,828 active/leave individual providers; 119.0 authorized hours per recipient; county wage rates e.g. Los Angeles $19.64, San Diego $20.40, San Francisco $23.00)",
+      "publisher": "CA Dept. of Social Services",
+      "url": "https://www.cdss.ca.gov/inforesources/ihss/program-data",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "In-Home Supportive Services Integration into Medi-Cal Managed Care (Aug. 2026): recipient and county Public Authority are employers of record; contract mode used only in San Francisco (~1,100 people); over 70% of providers are family members; FY2026–27 projection ~875,000",
+      "publisher": "California Health Care Foundation",
+      "url": "https://www.chcf.org/wp-content/uploads/2026/08/InHomeSupportiveServicesIntegrationManagedCare.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Community Care Licensing Facilities — Home Care Organization list (data as of 05/25/2025): 2,247 licensed, 210 pending, 1,197 closed",
+      "publisher": "CA Health & Human Services Open Data Portal (CDSS)",
+      "url": "https://data.chhs.ca.gov/dataset/ccl-facilities",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Cost of Care Survey 2025 — Median Cost Data Tables (California non-medical caregiver $40/hour; homemaker services $91,520/yr at 44 hours/week)",
+      "publisher": "CareScout (Genworth)",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Personal Care Aides / Home Health and Personal Care Aides (31-1122) — California wages, BLS OEWS 2025 (CA median $16.50, 90th pct $18.87; San Diego median $16.97, 90th $19.64; Los Angeles 90th $18.28)",
+      "publisher": "O*NET OnLine / U.S. Dept. of Labor (BLS OEWS data)",
+      "url": "https://www.onetonline.org/link/localwages/31-1122.00?st=CA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "First-Line Supervisors of Personal Service Workers (39-1022) — California wages, BLS OEWS 2025 (San Diego median $49,570)",
+      "publisher": "O*NET OnLine / U.S. Dept. of Labor (BLS OEWS data)",
+      "url": "https://www.onetonline.org/link/localwages/39-1022.00?st=CA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Social and Community Service Managers (11-9151) — California wages, BLS OEWS 2025 (San Diego 10th pct $55,490, median $79,770)",
+      "publisher": "O*NET OnLine / U.S. Dept. of Labor (BLS OEWS data)",
+      "url": "https://www.onetonline.org/link/localwages/11-9151.00?st=CA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Medical Secretaries and Administrative Assistants (43-6013) — California wages, BLS OEWS 2025 (San Diego median $24.83/h, $51,650)",
+      "publisher": "O*NET OnLine / U.S. Dept. of Labor (BLS OEWS data)",
+      "url": "https://www.onetonline.org/link/localwages/43-6013.00?st=CA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "California minimum wage rises to $16.90 on January 1, 2026 (News Release 2025-118)",
+      "publisher": "CA Dept. of Industrial Relations",
+      "url": "https://www.dir.ca.gov/DIRNews/2025/2025-118.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "California Local Minimum Wage Increases Effective July 1, 2026 (City of Los Angeles $18.42; unincorporated LA County $18.47; San Francisco $19.61; Emeryville $20.34)",
+      "publisher": "Davis Wright Tremaine LLP",
+      "url": "https://www.dwt.com/blogs/employment-labor-and-benefits/2026/06/california-local-minimum-wage-increases-july-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "California Local Minimum Wage Rates Increases Starting January 1, 2026 (San Diego $17.75; San Jose $18.45; West Hollywood $20.25; Mountain View $19.70)",
+      "publisher": "CalChamber HRCalifornia",
+      "url": "https://hrcalifornia.calchamber.com/articles/california-local-minimum-wage-rates-increases-starting-january-1-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "California Raises Minimum Wages for Healthcare Workers (SB 525 covered facility types — licensed home health agencies are covered; HCOs are not listed)",
+      "publisher": "McDermott Will & Emery",
+      "url": "https://www.mcdermottlaw.com/insights/california-raises-minimum-wages-for-healthcare-workers-effective-june-1-2024/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Rates and Withholding 2026 (UI wage base $7,000; new employer UI 3.4%; ETT 0.1%; SDI 1.3% employee-paid)",
+      "publisher": "CA Employment Development Department",
+      "url": "https://edd.ca.gov/en/Payroll_Taxes/rates_and_withholding/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Topic No. 751 Social Security and Medicare Withholding Rates (employer 7.65%)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/taxtopics/tc751",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "Workers' Compensation Decision and Order (statewide average advisory pure premium benchmark $1.65 per $100 of payroll, effective 9/1/2026)",
+      "publisher": "CA Dept. of Insurance",
+      "url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/upload/Workers-Comp-Decision-and-Order-7-10-26.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Labor Code §246 — Paid sick leave (at least 40 hours / 5 days per year)",
+      "publisher": "Justia (California Codes)",
+      "url": "https://law.justia.com/codes/california/code-lab/division-2/part-1/chapter-1/article-1-5/section-246",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Labor Code §2802 — Employer must indemnify employees for all necessary expenditures (mileage)",
+      "publisher": "FindLaw (California Codes)",
+      "url": "https://codes.findlaw.com/ca/labor-code/lab-sect-2802/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "IRS sets 2026 business standard mileage rate at 72.5 cents per mile",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/newsroom/irs-sets-2026-business-standard-mileage-rate-at-725-cents-per-mile-up-25-cents",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Direct Care Workers: Travel Time (travel between clients during the workday is compensable)",
+      "publisher": "U.S. Dept. of Labor, Wage and Hour Division",
+      "url": "https://www.dol.gov/agencies/whd/direct-care/travel-time",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "29 CFR §552.109 — Third-party employers of home care workers may not claim the companionship or live-in exemptions",
+      "publisher": "eCFR",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-552/subpart-B/section-552.109",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "Limited liability company — $800 annual tax and LLC fee by total California income ($900 / $2,500 / $6,000 / $11,790)",
+      "publisher": "CA Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Limited Liability Companies — California (Articles of Organization LLC-1 $70; Statement of Information LLC-12 $20)",
+      "publisher": "CA Secretary of State",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-california-domestic",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "42 U.S.C. §1396b(l) — Electronic visit verification required for Medicaid personal care services",
+      "publisher": "Cornell LII (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/42/1396b",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "California's Aging Population (Jan. 2025): 5.7 million age 65+ in 2020 (14%); just over 9 million (22%) projected by 2040; 80+ population to more than double",
+      "publisher": "Public Policy Institute of California",
+      "url": "https://www.ppic.org/publication/californias-aging-population/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Welfare & Institutions Code §15630 — Elder/dependent adult abuse mandated reporting",
+      "publisher": "FindLaw (California Codes)",
+      "url": "https://codes.findlaw.com/ca/welfare-and-institutions-code/wic-sect-15630/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Get an Employer Identification Number (EIN)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "NPPES — National Plan and Provider Enumeration System (NPI application)",
+      "publisher": "CMS",
+      "url": "https://nppes.cms.hhs.gov/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "IRS — Determining if an employer is an applicable large employer (50+ full-time employees incl. FTEs; part-time hours capped at 120/person, divided by 120)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Health & Safety Code §1796.53 — Department may enter an HCO during posted business hours, with or without advance notice",
+      "publisher": "California.Public.Law",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.53",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License type / regulator",
+      "value": "Home Care Organization (HCO) license — CDSS Community Care Licensing Division, Home Care Services Branch; Home Care Services Consumer Protection Act, HSC §1796.10 et seq.",
+      "source_id": "S1",
+      "as_of": "2026",
+      "source_ids": [
+        "S1",
+        "S13"
+      ]
+    },
+    {
+      "metric": "HCO license fee (paid with the application; same 2-year fee at renewal)",
+      "value": "$5,603 per 2-year license; change of location $100; change in corporation $200",
+      "source_id": "S2",
+      "as_of": "2026",
+      "source_ids": [
+        "S2",
+        "S10"
+      ]
+    },
+    {
+      "metric": "Required coverage before licensure",
+      "value": "General & professional liability $1M per occurrence / $3M aggregate; workers' comp for all affiliated aides; employee dishonesty bond (incl. third-party) ≥ $10,000",
+      "source_id": "S4",
+      "as_of": "2026",
+      "source_ids": [
+        "S4",
+        "S5",
+        "S3"
+      ]
+    },
+    {
+      "metric": "Home Care Aide registration",
+      "value": "$35 per 2 years (renewal $35); Live Scan and registry clearance before client contact; TB exam 90 days before or 7 days after hire, then every 2 years",
+      "source_id": "S15",
+      "as_of": "2026",
+      "source_ids": [
+        "S15",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "metric": "Aide training (HSC §1796.44)",
+      "value": "5 hours entry-level before client contact (2 h orientation + 3 h safety) and 5 hours every year; dementia topic added to annual training from 1/1/2027 (SB 412)",
+      "source_id": "S14",
+      "as_of": "2026",
+      "source_ids": [
+        "S14",
+        "S3"
+      ]
+    },
+    {
+      "metric": "Licensed HCOs in California",
+      "value": "2,247 licensed, 210 pending (Los Angeles 594, Orange 244, San Diego 230); 433 first licensed in 2024",
+      "source_id": "S23",
+      "as_of": "2025-05-25"
+    },
+    {
+      "metric": "California private-pay benchmark: non-medical caregiver",
+      "value": "$40/hour median (CareScout 2025, statewide)",
+      "source_id": "S24",
+      "as_of": "2025"
+    },
+    {
+      "metric": "Medi-Cal Community Supports — Personal Care and Homemaker Services (S5130/T1019)",
+      "value": "No public rate; DHCS non-binding benchmark $29 low / $33 midpoint / $38 high per hour (agency model); negotiated with each managed care plan",
+      "source_id": "S19",
+      "as_of": "2025-12"
+    },
+    {
+      "metric": "IHSS (largest California home care program)",
+      "value": "930,755 recipients, 843,828 individual providers (Aug. 2026). Pays individual providers, not agencies; contract mode only in San Francisco (~1,100 people)",
+      "source_id": "S21",
+      "as_of": "2026-08",
+      "source_ids": [
+        "S21",
+        "S22"
+      ]
+    },
+    {
+      "metric": "IHSS provider wage (competing wage for caregivers)",
+      "value": "San Diego $20.40; Los Angeles $19.64; San Francisco $23.00 per hour",
+      "source_id": "S21",
+      "as_of": "2026-08"
+    },
+    {
+      "metric": "Minimum wage 2026 / BLS personal care aide wage",
+      "value": "State $16.90 (local up to $20.34 in Emeryville); BLS May 2025 CA aide median $16.50, 90th percentile $18.87",
+      "source_id": "S29",
+      "as_of": "2026",
+      "source_ids": [
+        "S29",
+        "S30",
+        "S31",
+        "S25"
+      ]
+    },
+    {
+      "metric": "California LLC costs",
+      "value": "Formation $90 (LLC-1 $70 + LLC-12 $20); $800 annual tax; gross-receipts fee $900–$6,000 for $250k–$5M",
+      "source_id": "S41",
+      "as_of": "2026",
+      "source_ids": [
+        "S41",
+        "S42"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "CDSS processing time for an HCO application. CDSS publishes no timeline; HCS 281 says review starts only when a complete packet and fee arrive and incomplete packets are returned [S3]. Plan for several months and confirm with HCSB.",
+    "Negotiated Medi-Cal managed care plan rates for Community Supports Personal Care and Homemaker Services. DHCS's $29–$38 hourly range is a non-binding benchmark built on a $15 wage [S19]; the model's $33 is an assumption. Which plans in each county offer PCHS and whether their networks accept new HCOs was not verified.",
+    "Whether a managed care plan requires state-level Medi-Cal enrollment (PAVE, $750 CY2026 fee [S20]) for a PCHS provider. Confirm with each plan.",
+    "Which EVV system an HCO must use for Medi-Cal-funded personal care (state system vs. an approved alternate). Federal law requires EVV for Medicaid personal care [S43]; get specifics from DHCS or the plan.",
+    "Metro-level private-pay prices. CareScout's $40/hour is a statewide median [S24]; Los Angeles, San Diego, Bay Area and Inland Empire prices were not retrieved. Price from local competitors.",
+    "Average hours purchased per private-pay client. The model's 80 billable hours per client-month (about 18.5 hours a week) is an operator estimate — verify locally; the financial narrative shows results at 60 hours.",
+    "Paid non-billable time (5% of caregiver hours for travel between clients and training) and caregiver mileage (40 miles per client-month). Both are operator estimates; travel time is compensable [S39] and mileage must be reimbursed [S37].",
+    "Office rent. No citable California office-rent survey was retrieved; $2.75 per sq ft per month full service and the office sizes are operator estimates — verify locally.",
+    "Insurance premiums, the workers' compensation rate for a home care classification (6% used; the CDI statewide average benchmark is $1.65 per $100 [S35]), California's FUTA credit-reduction amount, and benefits (4%). Get broker and payroll-provider quotes.",
+    "All other overhead amounts (software, accounting/legal, marketing, utilities, training, recruiting, supplies, payment processing) and the startup ranges other than state fees. These are operator estimates.",
+    "The 90% default census (80% conservative, 100% optimistic). It is an operator assumption.",
+    "California daily-overtime and Domestic Worker Bill of Rights treatment of agency-employed personal attendants, live-in and 24-hour shifts. Not verified for this report; the model assumes hourly visits without overtime. Get employment counsel before selling live-in care.",
+    "Regional center (DDS) vendorization rates for in-home respite or personal assistance, VA Homemaker/Home Health Aide rates, HCBA Waiver Personal Care Services rates, Medicare Advantage supplemental in-home support benefits and long-term care insurance reimbursement terms. Not retrieved.",
+    "Local business-tax amounts (e.g., City of Los Angeles or San Diego business tax certificates). They vary by city and were not verified.",
+    "Market shares, named competitors, referral volumes or the number of private-pay home care clients in any California market.",
+    "Break-even census or break-even month. The P&L generator calculates these from the inputs.",
+    "Cost of ACA-compliant health coverage once the agency reaches about 50 FTE (75 private-pay or 100 PCHS clients). Premiums were not retrieved; the model does not include them [S48]."
+  ],
+  "regulators": [
+    {
+      "name": "CDSS Community Care Licensing Division — Home Care Services Branch (HCSB)",
+      "role": "Licenses Home Care Organizations, maintains the Home Care Aide Registry, conducts random unannounced inspections and complaint investigations",
+      "url": "https://cdss.ca.gov/inforesources/community-care/home-care-services/home-care-org-application-process",
+      "phone": "(877) 424-5778",
+      "email": "HCSB@dss.ca.gov",
+      "source_id": "S1"
+    },
+    {
+      "name": "CDSS Care Provider Management Branch (Guardian)",
+      "role": "Live Scan background checks and online Home Care Aide registration (Guardian Applicant Portal)",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/home-care-services/home-care-aide-application-process",
+      "phone": "1-888-422-5669",
+      "email": "guardian@dss.ca.gov",
+      "source_id": "S15"
+    },
+    {
+      "name": "Department of Health Care Services (DHCS) — Managed Care / Community Supports",
+      "role": "Sets CalAIM Community Supports policy (Personal Care and Homemaker Services, Respite) and the non-binding pricing resource; plans contract and pay providers",
+      "url": "https://www.dhcs.ca.gov/calaim-transforming-medi-cal/california-community-supports-pricing-resource/",
+      "phone": "",
+      "email": "CACSPricingResource@dhcs.ca.gov",
+      "source_id": "S18"
+    },
+    {
+      "name": "DHCS — Home and Community-Based Alternatives (HCBA) Waiver",
+      "role": "Waiver Personal Care Services; Medi-Cal Personal Care Agencies serving HCBA are exempt from HCO licensure",
+      "url": "https://www.dhcs.ca.gov/wp-content/uploads/2025/10/PCA-Exemption.pdf",
+      "phone": "(833) 388-4551",
+      "email": "HCBAlternatives@dhcs.ca.gov",
+      "source_id": "S16"
+    },
+    {
+      "name": "CDSS / County IHSS programs",
+      "role": "In-Home Supportive Services — county-administered, consumer-directed; pays individual providers through state payroll, not agencies",
+      "url": "https://www.cdss.ca.gov/inforesources/ihss/program-data",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "HSC §1796.10 et seq. (Chapter 13, Division 2)",
+      "title": "Home Care Services Consumer Protection Act",
+      "url": "https://california.public.law/codes/health_and_safety_code,_division_2,_chapter_13",
+      "source_id": "S13"
+    },
+    {
+      "cite": "HSC §1796.12",
+      "title": "Definitions (home care services, HCO, affiliated/independent/registered aide)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-12/",
+      "source_id": "S8"
+    },
+    {
+      "cite": "HSC §1796.17",
+      "title": "Entities that are not HCOs (exemptions)",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.17",
+      "source_id": "S9"
+    },
+    {
+      "cite": "HSC §1796.37",
+      "title": "HCO licensure requirements and two-year renewal",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-37/",
+      "source_id": "S4"
+    },
+    {
+      "cite": "HSC §1796.38",
+      "title": "Denial, suspension and revocation",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.38",
+      "source_id": "S12"
+    },
+    {
+      "cite": "HSC §1796.42",
+      "title": "HCO operating requirements (posting, insurance, bond, abuse reporting)",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.42",
+      "source_id": "S5"
+    },
+    {
+      "cite": "HSC §1796.43",
+      "title": "Registry clearance, background checks, TB; notice when an aide leaves",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.43",
+      "source_id": "S6"
+    },
+    {
+      "cite": "HSC §1796.44 (as amended by SB 412, Stats. 2025, ch. 414)",
+      "title": "Affiliated home care aide training (5 h entry-level, 5 h annual; dementia from 2027)",
+      "url": "https://legiscan.com/CA/text/SB412/2025",
+      "source_id": "S14"
+    },
+    {
+      "cite": "HSC §1796.45",
+      "title": "Tuberculosis examination of aides",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-45/",
+      "source_id": "S7"
+    },
+    {
+      "cite": "HSC §1796.49",
+      "title": "License fees",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-49/",
+      "source_id": "S10"
+    },
+    {
+      "cite": "HSC §1796.52",
+      "title": "Inspections and complaint investigations",
+      "url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.52",
+      "source_id": "S11"
+    },
+    {
+      "cite": "WIC §15630",
+      "title": "Elder and dependent adult abuse mandated reporting",
+      "url": "https://codes.findlaw.com/ca/welfare-and-institutions-code/wic-sect-15630/",
+      "source_id": "S45"
+    },
+    {
+      "cite": "Labor Code §246; §2802",
+      "title": "Paid sick leave; reimbursement of employee expenses (mileage)",
+      "url": "https://law.justia.com/codes/california/code-lab/division-2/part-1/chapter-1/article-1-5/section-246",
+      "source_id": "S36"
+    },
+    {
+      "cite": "29 CFR §552.109",
+      "title": "FLSA: third-party employers cannot use the companionship exemption",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-552/subpart-B/section-552.109",
+      "source_id": "S40"
+    },
+    {
+      "cite": "42 U.S.C. §1396b(l)",
+      "title": "Electronic visit verification for Medicaid personal care services",
+      "url": "https://www.law.cornell.edu/uscode/text/42/1396b",
+      "source_id": "S43"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Non-medical caregiver (in-home care), California median",
+      "rate": 40.0,
+      "unit": "per hour",
+      "effective": "2025",
+      "notes": "CareScout 2025 statewide median. Homemaker services at 44 h/week = $91,520/yr (≈$40/h). Not a metro price; verify locally.",
+      "source_id": "S24"
+    },
+    {
+      "payer": "Medi-Cal managed care plan (CalAIM Community Supports)",
+      "code": "S5130, T1019",
+      "service": "Personal Care and Homemaker Services — hourly, agency model (DHCS non-binding benchmark, midpoint)",
+      "rate": 33.0,
+      "unit": "per hour",
+      "effective": "2025-12",
+      "notes": "Range $29 low – $38 high. Non-binding: plans may pay above or below. Benchmark assumes a $15/hour direct care wage, 1 supervisor per 10 workers and 30 miles/day travel — below the 2026 $16.90 minimum wage, so expect pressure for rates at the upper end.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "Medi-Cal managed care plan (CalAIM Community Supports)",
+      "code": "S5130, T1019",
+      "service": "Personal Care and Homemaker Services — benchmark low",
+      "rate": 29.0,
+      "unit": "per hour",
+      "effective": "2025-12",
+      "notes": "Low end of the DHCS non-binding range.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "Medi-Cal managed care plan (CalAIM Community Supports)",
+      "code": "S5130, T1019",
+      "service": "Personal Care and Homemaker Services — benchmark high",
+      "rate": 38.0,
+      "unit": "per hour",
+      "effective": "2025-12",
+      "notes": "High end of the DHCS non-binding range.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "Medi-Cal managed care plan (CalAIM Community Supports)",
+      "code": "H0045, S5151, S9125",
+      "service": "Respite Services (caregiver respite), hourly — DHCS benchmark midpoint",
+      "rate": 33.0,
+      "unit": "per hour",
+      "effective": "2025-12",
+      "notes": "Range $29–$38; non-binding.",
+      "source_id": "S19"
+    },
+    {
+      "payer": "IHSS (paid to individual providers — NOT payable to agencies)",
+      "code": "",
+      "service": "IHSS provider wage, San Diego County (context: competing caregiver wage)",
+      "rate": 20.4,
+      "unit": "per hour",
+      "effective": "2026-08",
+      "notes": "Los Angeles $19.64; San Francisco $23.00. Paid by the state payroll to the consumer-hired provider; shown only as the wage an HCO competes with.",
+      "source_id": "S21"
+    }
+  ],
+  "sections": {
+    "executive_summary": "### Opportunity snapshot\nIn California, a business that sends caregivers into clients' homes to help with bathing, dressing, toileting, transfers, meals, errands, medication reminders and companionship must hold a **Home Care Organization (HCO) license** from the California Department of Social Services (CDSS) Home Care Services Branch, and every caregiver must be a **registered home care aide** on the state registry [S1][S8][S6]. The license costs **$5,603 for two years**, paid with the application [S2], and requires $1M/$3M liability insurance, workers' compensation and a $10,000 employee dishonesty bond before CDSS will issue it [S4].\n\nThe market is large and still growing. California had **2,247 licensed HCOs and 210 pending applications** in May 2025, with 433 first licensed in 2024 alone [S23]. The state's 65+ population is projected to grow from 5.7 million (2020) to just over 9 million by 2040 [S44].\n\n### How the money really flows\nMost home care in California is publicly funded through **In-Home Supportive Services (IHSS)** — 930,755 recipients in August 2026 [S21] — but **IHSS does not pay agencies**. The recipient hires an individual provider (often a family member) and the state payroll pays that person; only San Francisco uses a contract-mode agency, for about 1,100 people [S22]. IHSS is a competitor for caregivers, not a payer: it pays $20.40/hour in San Diego County and $19.64 in Los Angeles County [S21].\n\nThat leaves two real revenue sources for a new HCO: **private pay** (CareScout's 2025 California median is **$40/hour** [S24]) and **Medi-Cal managed care plans** that contract for the CalAIM Community Support **Personal Care and Homemaker Services (PCHS)** — supplementing IHSS hours, covering people waiting for IHSS, or preventing short nursing-home stays [S17]. Plans negotiate PCHS rates privately; DHCS's non-binding benchmark is $29–$38/hour with a $33 midpoint [S19].\n\n### Bottom line\nAt the $40 private-pay median, an HCO paying caregivers the IHSS-competitive $20.40 wage keeps about **$977 per client per month** after caregiver pay, payroll costs and per-client expenses. A private-pay agency with 40 clients nets about **+$9,100/month** (7.9%) at 90% census, a 75-client agency about **+$27,400/month**, and a 70/30 private/PCHS mix of 60 clients about **+$15,400**. A PCHS-only agency loses money at the $33 midpoint and needs about **$34.67/hour** to break even. Profit depends most on hours sold per client and on the spread between your price and the caregiver wage — see Section 8.",
+    "service_model": "### Who is served and what an HCO does\nThe Home Care Services Consumer Protection Act defines **home care services** as non-medical services provided by a registered home care aide to a client who, because of age or disability, cannot do them alone, so the client can stay at home. They include bathing, dressing, feeding, exercising, hygiene and grooming, transferring, ambulating, positioning, toileting, help with self-administered medication, household chores, meals, laundry, errands, transportation, help with phone and mail, and companionship [S8]. An **HCO** is a licensed individual or entity that arranges these services through **affiliated home care aides** it employs; an **independent home care aide** works directly for a client and is not employed by an HCO [S8].\n\n### What an HCO may not do\nHCO aides provide non-medical care only. Skilled nursing, therapy and medications requiring a licensed professional belong to licensed home health agencies, hospices or health facilities, which are not HCOs [S8][S9].\n\n### Who does not need an HCO license\nHSC §1796.17 lists entities that are not HCOs, including licensed home health agencies and hospices, IHSS providers, employment agencies that refer independent aides, and **regional center/DDS-vendored organizations** when DDS funds the services and more than 50% of the organization's home care recipients have developmental disabilities [S9]. CDSS and DHCS have also determined that Medi-Cal **Personal Care Agencies** serving the HCBA Waiver are exempt [S16]. A general private-pay or managed-care home care business needs the HCO license.\n\n### Regulatory framework\n- **Statute:** HSC §1796.10 et seq. (13 articles covering the registry, aide registration, HCO licensure, operating requirements, fees, inspections and enforcement) [S13].\n- **Licensure:** HSC §1796.37 (requirements, two-year renewal) [S4]; fees under §1796.49 [S10]; denial and revocation under §1796.38 [S12].\n- **Operations:** §1796.42 (posting, insurance, bond, abuse reporting) [S5]; §1796.43 (registry, background, TB, aide separation notice) [S6]; §1796.44 (training) [S14]; §1796.45 (TB) [S7].\n- **Oversight:** random, unannounced inspections and complaint investigations (§1796.52) [S11].\n- **Mandated reporting:** elder and dependent adult abuse under WIC §15630 [S45][S5].",
+    "licensing_pathway": "### Step-by-step\n1. **Form the business.** California LLC: Articles of Organization (LLC-1) $70 and Statement of Information (LLC-12) $20 [S42]. Get an EIN [S46] and register with EDD as an employer [S33].\n2. **Buy the required coverage first.** CDSS will not license without: general and professional liability of at least **$1,000,000 per occurrence / $3,000,000 aggregate**; **workers' compensation** covering affiliated aides (certificate with policy number, dates, carrier name and address); and an **employee dishonesty bond, including third-party coverage, of at least $10,000** on form HCS 402 with the State of California as beneficiary [S4][S3].\n3. **Prepare Section A forms** [S1][S3]: HCS 200 (application), HCS 215 (licensee applicant information), HCS 308 (designation of responsibility — at least one person, and **a licensee cannot designate him- or herself**), HCS 309 (partnership/corporation/LLC), HCS 402 (bond), LIC 508 (criminal record statement for each applicant) and HCS 9165 (one per board member, if any).\n4. **Prepare Section B documents** [S1][S3]: articles of organization or partnership agreement, job descriptions for each position, personnel policies (employment conditional on fingerprint clearance, criminal-conviction statement, TB clearance and registry listing), a **training plan** (5 hours entry-level and 5 hours annual, trainers, objectives, sample training log), the HCO program description, and insurance certificates.\n5. **Mail one complete packet with the fee** — **$5,603** (2-year license), check or money order to CDSS — to: CDSS Home Care Services Branch, 744 P Street, M.S. 9-14-90, Sacramento, CA 95814 [S1][S2]. The fee is non-refundable and incomplete packets are returned in full [S3].\n6. **Receipt notice.** CDSS sends your HCO number and instructions for **fingerprinting (Live Scan)** and the **online orientation** [S1]. The licensee must pass a background examination and complete the CDSS orientation before licensure [S4].\n7. **License issued.** CDSS publishes no processing time; plan for several months and respond quickly to any request [S3].\n8. **Hire and register aides before any client contact.** Each aide registers on the Home Care Aide Registry ($35; the HCO can submit through its own Guardian account) [S15], is Live Scanned and cleared [S6], has a TB exam 90 days before or within 7 days after hire with clearance before working [S7], and completes 5 hours of entry-level training [S14].\n9. **Operate and renew.** Post the license and business hours [S5]; keep insurance and bond in force [S5]; notify CDSS immediately when an aide leaves [S6]; renew every two years with the fee postmarked by the expiration date (CDSS mails a fee notice at least 60 days before) [S4]. A $100 fee applies to a change of location and $200 to a change in corporation [S2].\n\n### Fees at a glance\n| Item | Amount | When paid |\n|---|---|---|\n| HCO license (2 years) | $5,603 | With the application; again at each renewal [S2][S10] |\n| Home care aide registration | $35 per aide (2 years) | At registration and renewal [S15] |\n| Change of location / corporation | $100 / $200 | When filed [S2] |\n| LLC formation | $90 | At formation [S42] |\n| Medi-Cal provider application (only if a plan requires PAVE enrollment) | $750 (CY2026) | With the enrollment application [S20] |",
+    "reimbursement": "### 1. Private pay (main revenue for most HCOs)\nFamilies pay by the hour. CareScout's 2025 survey puts the California median for a non-medical caregiver at **$40/hour**; homemaker services at 44 hours a week cost $91,520 a year [S24]. This is a statewide median; coastal metros may price higher. Long-term care insurance and Medicare Advantage supplemental benefits sometimes reimburse private-pay clients, but their terms were not verified for this report.\n\n### 2. Medi-Cal managed care — CalAIM Community Supports\nMedi-Cal managed care plans may offer **Personal Care and Homemaker Services (PCHS)** as a Community Support. PCHS covers help with ADLs and IADLs for members at risk of hospitalization or nursing-facility placement, members with functional deficits and no adequate support, and IHSS-approved members — during the IHSS application process, on top of approved IHSS hours, or (for people not eligible for IHSS) to prevent a short nursing-facility stay of up to 60 days [S17]. **IHSS must remain the primary source of support**; PCHS cannot replace an IHSS referral, and HCBA Waiver members who get Waiver Personal Care Services are not eligible [S17]. Allowable providers listed by DHCS include personal care agencies and home health agencies (non-exhaustive) [S17].\n\n**Rates:** there is no state fee schedule. Each plan negotiates. DHCS's **non-binding** Community Supports Pricing Resource gives an hourly agency-model range of **$29 / $33 / $38** (low / midpoint / high) for codes S5130 and T1019, and the same range for Respite (H0045, S5151, S9125) [S19]. The benchmark assumes a **$15/hour** caregiver wage, one supervisor per 10 workers and 30 miles a day of travel [S19] — below today's $16.90 state minimum [S29]. DHCS says the resource is being updated [S18]. Treat the $33 midpoint as a starting point for negotiation, not a guaranteed rate.\n\n### 3. IHSS — why it does not pay HCOs\nIHSS served **930,755 recipients** with **843,828 individual providers** in August 2026, averaging 119 authorized hours per recipient per month [S21]. The recipient and the county Public Authority are the employers of record, CDSS runs a central payroll, over 70% of providers are family members, and the agency-based **contract mode exists only in San Francisco (about 1,100 people)** [S22]. IHSS providers themselves are exempt from HCO licensure [S9]. For an HCO, IHSS matters in two ways: it sets the **wage** your caregivers can earn elsewhere ($20.40 in San Diego, $19.64 in Los Angeles, $23.00 in San Francisco [S21]), and IHSS recipients who need more hours than authorized are potential private-pay or PCHS clients.\n\n### 4. Other public payers (not modeled)\nHCBA Waiver Personal Care Services are delivered by Medi-Cal Personal Care Agencies that are exempt from HCO licensure [S16]. Regional center (DDS) vendored services are exempt when DDS funds them and over 50% of recipients have developmental disabilities [S9]. VA and regional-center rates were not retrieved (see What This Report Does Not Claim). Federal law requires electronic visit verification (EVV) for Medicaid-funded personal care [S43].",
+    "demand": "### Demographics\nCalifornia had about **5.7 million residents age 65+ in 2020 (14%)**, projected to reach **just over 9 million (22%) by 2040**, and the 80+ population is expected to more than double [S44].\n\n### Public-program signal\nIHSS authorized **110.8 million hours** for 930,755 recipients in August 2026 — about 119 hours per recipient per month [S21] — and is projected to serve about 875,000 people in FY2026–27 under the state budget estimate cited by CHCF [S22]. These are consumer-directed hours, not agency revenue, but they show the depth of need and the pool of people who may need hours beyond their IHSS authorization (an allowed use of PCHS [S17]).\n\n### Supply\nThe CDSS facility list (May 25, 2025) shows **2,247 licensed HCOs** and **210 pending**; the largest counts are Los Angeles (594), Orange (244), San Diego (230), Santa Clara (132) and Riverside (126). New licenses rose from 152 first licensed in 2017 to 433 in 2024, while 283 closed in 2024 [S23]. Competition is real, especially in Southern California metros.\n\n### Referral sources\nPrivate-pay referrals typically come from hospital and skilled-nursing discharge planners, senior living communities, geriatric care managers, elder-law attorneys, Area Agencies on Aging and online search. For PCHS, referrals come from the member's managed care plan (often through care management) [S17]. Referral volumes were not verified and are not claimed.",
+    "operations": "### Staffing rules\nThe Act sets **no staffing ratios, no administrator license and no RN requirement** for HCOs. It requires:\n- A licensee who passes the background exam and CDSS orientation [S4], and at least one **designee** named on HCS 308 who acts in the licensee's absence; the licensee cannot designate him- or herself [S3].\n- **Affiliated home care aides age 18+**, registered on the Home Care Aide Registry [S8][S6].\n- Background clearance (Live Scan) for any staff, volunteer or employee with client contact or access to confidential client information, **before** contact [S6].\n- **TB clearance**: exam 90 days before or within 7 days after hire, no work until a licensed professional documents no risk, repeat every 2 years [S7].\n- **Training**: at least 5 hours entry-level before client contact (2 hours orientation, 3 hours safety including infection control and emergency procedures) and 5 hours every year (client rights and safety, ADL needs, abuse and neglect reporting, hygiene assistance, safe transport); **dementia care is added to the annual topics from January 1, 2027** [S14][S3].\n- Immediate notice to CDSS when an aide is no longer employed [S6].\n\n### Required coverage and postings\nKeep $1M/$3M liability, workers' comp and the $10,000 dishonesty bond in force; post the license and business hours where clients and aides can see them; report suspected elder, dependent-adult and child abuse and keep copies of reports for CDSS review [S5][S45].\n\n### Employment law that shapes cost\n- **Wages:** the 2026 state minimum is $16.90 [S29]; many cities are higher (City of Los Angeles $18.42 and unincorporated LA County $18.47 from July 1, 2026; San Francisco $19.61; Emeryville $20.34; San Diego $17.75; West Hollywood $20.25) [S30][S31]. SB 525's health care minimum wage covers licensed home health agencies but does not list HCOs [S32].\n- **Overtime:** as third-party employers, HCOs cannot use the federal companionship or live-in exemptions [S40].\n- **Travel time** between clients during the workday is paid time [S39], and **mileage** for driving between clients and client errands must be reimbursed (Labor Code §2802) [S37]; the 2026 IRS rate is 72.5¢/mile [S38].\n- **Paid sick leave**: at least 40 hours / 5 days per year [S36].\n- **Payroll taxes**: employer FICA 7.65% [S34]; UI 3.4% (new employer) and ETT 0.1% on the first $7,000 per employee; employees pay SDI 1.3% [S33].\n\n### Systems\nScheduling, caregiver timekeeping and billing software; a training log; personnel files with registry, Live Scan and TB documentation. Medi-Cal-funded personal care requires EVV [S43].",
+    "market_conditions": "### Supply and growth\n2,247 licensed HCOs and 210 pending (May 2025), concentrated in Los Angeles, Orange and San Diego counties; 433 first licensed in 2024 and 283 closed the same year [S23].\n\n### Pricing\n- Private pay: **$40/hour** California median for a non-medical caregiver (CareScout 2025) [S24].\n- Medi-Cal PCHS: negotiated per plan; DHCS non-binding benchmark **$29–$38/hour** (midpoint $33) [S19].\n\n### Wages\n| Measure | Hourly |\n|---|---|\n| BLS May 2025 personal care aide median — California / San Diego / Los Angeles | $16.50 / $16.97 / $16.50 [S25] |\n| BLS 90th percentile — California / San Diego / San Francisco | $18.87 / $19.64 / $21.55 [S25] |\n| IHSS provider wage, Aug. 2026 — San Diego / Los Angeles / San Francisco | $20.40 / $19.64 / $23.00 [S21] |\n| State minimum wage 2026 | $16.90 [S29] |\n\nThe May 2025 BLS median equals the 2025 state minimum ($16.50) and is below the 2026 minimum, so it is not a usable hiring wage. HCOs compete for the same workers IHSS pays at $19.64–$23.00. **The model pays $20.40 (San Diego County IHSS)**, which clears every 2026 local minimum found [S30][S31]. Office salaries use San Diego metro BLS medians: administrator (social and community service manager) $79,770 [S27], care supervisor $49,570 [S26], scheduler $51,650 [S28].\n\n### Trends\n- DHCS is updating the Community Supports pricing resource [S18]; its current benchmark still assumes a $15 wage [S19].\n- SB 412 adds dementia training from 2027, a modest new training cost [S14].",
+    "financial_narrative": "### How the model is built\nCapacity is the active client census the office is sized for; occupancy (90% default) is the share actually on service in a month (operator assumption). Revenue = hourly rate × billable hours.\n- **Private pay:** $40/hour (CareScout California median) [S24] × **80 billable hours per client-month** (about 18.5 hours a week — operator estimate, verify locally).\n- **Medi-Cal PCHS:** $33/hour, the DHCS non-binding midpoint [S19] — an **assumption**, since plans negotiate rates — × 60 authorized hours per member-month (operator estimate).\n- **Caregivers:** $20.40/hour (San Diego County IHSS wage [S21]) for billable hours plus 5% paid non-billable time (travel between clients [S39], training [S14]; operator estimate).\n- **Office staff:** San Diego metro BLS medians — administrator $79,770 [S27], supervisor $49,570 [S26], scheduler $51,650 [S28]. The 20-client owner-operator takes $55,490 (10th percentile) [S27].\n- **Payroll burden 19.5%:** 9.5% taxes (FICA, UI, ETT, FUTA) [S34][S33], 6% workers' comp (operator estimate; mandatory coverage [S4]), 4% benefits incl. paid sick leave [S36].\n- **Required fixed costs:** HCO renewal $5,603 ÷ 24 [S2]; $800 LLC tax and the gross-receipts LLC fee ($2,500–$6,000 by size) [S41]; liability insurance and bond at the required minimums [S4] (premiums are estimates). Office rent at $2.75/sq ft/month is an operator estimate.\n- **Per-client costs:** caregiver mileage (40 miles × 72.5¢) [S37][S38], HCA registration/Live Scan/TB for replacement hires [S15], software, insurance exposure, recruiting, supplies, 1.5% card/ACH fees (estimates).\n\n### Results at 90% census\n| Configuration | Monthly net | Margin | Break-even census |\n|---|---|---|---|\n| Private pay, 75 clients | +$27,386 | 12.7% | 39.5 clients (53%) |\n| Mixed 60 clients (70% private / 30% PCHS) | +$15,405 | 10.1% | 34.2 clients (57%) |\n| Private pay, 40 clients (default) | +$9,057 | 7.9% | 26.7 clients (67%) |\n| Private pay, 20 clients (owner-administrator) | +$3,909 | 6.8% | 14.0 clients (70%) |\n| PCHS only, 100 members | −$9,032 | −5.1% | not reached (≈118 members) |\n\nAt 80% census the private 40 agency nets +$5,148 and the 20-client agency +$1,955.\n\n### Unit economics\nOne private-pay client brings $3,200 a month (80 h × $40). The caregiver costs 84 paid hours × $20.40 × 1.195 ≈ $2,048, and per-client expenses about $175, leaving **≈ $977 per client per month** for the office. A PCHS member brings $1,980 (60 h × $33) and leaves only **≈ $317** after the same costs, so a PCHS-only agency cannot cover a full office. **The 100-member PCHS agency breaks even at about $34.67/hour** (it nets +$1,768 at $35, +$17,968 at the $38 high, and −$30,632 at the $29 low). In the mixed agency, PCHS at $29 cuts the result to +$11,517; at $38 it rises to +$20,265.\n\n### Sensitivity (operator estimates — verify locally)\n- **60 billable hours per client instead of 80:** private 40 −$1,313; private 20 −$1,276; private 75 +$7,942; mixed 60 +$4,516. The 40-client agency breaks even at about 62–63 hours per client-month.\n- **Price $36 instead of $40:** private 40 −$2,463; private 20 −$1,851; private 75 +$5,786. Break-even price ≈ $36.86 for the 40-client agency and ≈ $37.29 for the 20-client agency.\n- **Price $44:** private 40 +$20,577.\n- **Caregiver wage $22.00 instead of $20.40:** private 40 +$3,275; private 20 +$1,019; private 75 +$16,545; mixed 60 +$7,382; PCHS 100 −$19,873.\n- **Lower-wage market:** the model wage is above every 2026 local minimum found (highest Emeryville $20.34 [S30]); paying the unincorporated LA County minimum of $18.47 is legal [S30] but below the LA County IHSS wage ($19.64 [S21]) and would make hiring harder.\n\nThe private-pay result is most sensitive to hours sold per client and to the spread between price and caregiver wage.",
+    "risks": "- **Caregiver wage competition.** IHSS pays $19.64–$23.00 in the largest counties [S21] and lets family members be paid, so agencies must match or beat it. Each $1.60/hour wage increase costs the 40-client agency about $5,800 a month (see Section 8).\n- **Price and hours risk.** At $36/hour or 60 hours per client the 40-client private agency loses money; hold minimum visit lengths and price to local competitors.\n- **No published Medi-Cal rate.** PCHS rates are negotiated with each plan; DHCS's benchmark is non-binding and built on a $15 wage [S19]. A PCHS-only agency needs about $34.67/hour to break even.\n- **PCHS is secondary to IHSS.** Plans must keep IHSS primary and cannot use PCHS in place of an IHSS referral; HCBA members receiving WPCS are ineligible [S17]. Authorizations can be short.\n- **Licensing delays.** CDSS publishes no processing time and returns incomplete packets [S3]; you pay rent and insurance while waiting.\n- **Unannounced inspections and enforcement.** CDSS may inspect without notice and can deny, suspend or revoke for violations, conduct inimical to clients, disqualifying convictions or financial malfeasance [S11][S12].\n- **Employment-law exposure.** Unpaid travel time, unreimbursed mileage and overtime errors are common claims [S39][S37][S40]. Live-in and 24-hour arrangements need counsel (not verified here).\n- **Insurance cost.** Required $1M/$3M liability, workers' comp and bond [S4]; home care workers' comp classes run above the $1.65 per $100 statewide average [S35] — get quotes before pricing.\n- **Competition.** 2,247 licensed HCOs and 210 pending (May 2025) [S23].\n- **New training rule.** Dementia training becomes mandatory in annual training from 1/1/2027 [S14].\n- **ACA employer mandate at larger census.** At about 75 private-pay clients or 100 PCHS members (90% census), the agency reaches roughly 50 full-time-equivalent employees and becomes an ACA applicable large employer [S48]. It must then offer affordable health coverage to full-time (30+ h/week) staff or face IRC 4980H penalties. The model's 4% benefits load does not cover this; get a quote, or keep most aides under 30 hours a week. The 40-client private agency (~28 FTE) and the 60-client mixed agency (~38 FTE) are below the threshold.",
+    "recommendations": "1. **Lead with private pay.** Price at or above the $40 California median [S24] after checking local competitors; the 40-client agency breaks even near $36.86/hour.\n2. **Sell hours, not visits.** Set minimum visit lengths (e.g., 4 hours) and target 80+ billable hours per client-month; at 60 hours the 40-client agency loses money.\n3. **Pay to win caregivers.** Budget at least your county's IHSS wage ($20.40 San Diego, $19.64 Los Angeles [S21]) and pay travel time and mileage [S39][S37]; price so the spread over wage stays near $19–20/hour.\n4. **Start lean, then scale.** Begin as an owner-operator (20 clients, +$3,900/month) and add a supervisor and scheduler as you pass ~30 clients; at 75 clients the margin reaches 12.7%.\n5. **Add Medi-Cal PCHS selectively.** Contract with plans for PCHS/Respite only at rates near or above $35/hour and with authorized hours that fit your scheduling; keep it a minority of revenue (the 70/30 mix nets +$15,400 at $33) [S17][S19].\n6. **File a complete packet once.** Bind insurance, the $10,000 bond and HCS 402 before mailing; name a designee other than the licensee on HCS 308; include the training plan and policies [S3][S4].\n7. **Build compliance into hiring.** Registry clearance, Live Scan, TB and 5 hours of training before any client contact; notify CDSS when aides leave; add dementia content to annual training before January 2027 [S6][S7][S14].\n8. **Develop referral sources** — discharge planners, senior living, care managers, elder-law attorneys and plan care managers — and track cost per client acquired.\n9. **Keep a cash reserve** for the ramp: the model's 40-client agency runs a cumulative deficit of about $125,000 before turning profitable in month 11."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm you need an HCO license",
+      "instructions": "If your employees will provide non-medical help at home — bathing, dressing, feeding, hygiene, transfers, toileting, help with self-administered medication, chores, meals, errands, transportation or companionship — you need a CDSS Home Care Organization license.",
+      "cite": "HSC §1796.12",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Check whether an exemption applies instead",
+      "instructions": "Licensed home health agencies and hospices, IHSS providers, employment agencies referring independent aides, and DDS-vendored organizations (DDS-funded, >50% of recipients with developmental disabilities) are not HCOs. Medi-Cal Personal Care Agencies serving the HCBA Waiver are exempt. Everyone else selling non-medical home care needs the license.",
+      "cite": "HSC §1796.17; CDSS/DHCS notice 12/16/2021",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Stay within non-medical scope",
+      "instructions": "Do not advertise or provide skilled nursing, therapy or medications that require a licensed professional; those require a home health or other health license.",
+      "cite": "HSC §1796.12; §1796.17",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a California entity",
+      "instructions": "File Articles of Organization (LLC-1, $70) and a Statement of Information (LLC-12, $20) with the Secretary of State.",
+      "cite": "SOS LLC-1 / LLC-12",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Budget the $800 LLC annual tax and LLC fee",
+      "instructions": "Every California LLC owes $800 a year; an LLC fee of $900 / $2,500 / $6,000 applies at $250k / $500k / $1M+ of California income, estimated and paid by the 15th day of the 6th month.",
+      "cite": "FTB LLC",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN",
+      "instructions": "Apply free at irs.gov; needed for payroll, banking, insurance and the HCO application.",
+      "cite": "IRS",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with EDD as an employer",
+      "instructions": "Open a payroll tax account: UI 3.4% (new employer) and ETT 0.1% on the first $7,000 per employee; withhold SDI 1.3%.",
+      "cite": "EDD 2026 rates",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Pick your designee(s)",
+      "instructions": "At least one person other than the licensee must be designated on HCS 308 to act in the licensee's absence; a licensee cannot designate him- or herself. LLCs/corporations need a board resolution authorizing the delegation.",
+      "cite": "HCS 308 / HCS 281",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Lease a business office",
+      "instructions": "CDSS posts no office-size rule, but you must post your license and business hours where clients and aides can see them and CDSS may enter during posted business hours [S5][S49].",
+      "cite": "HSC §1796.42(a); §1796.53",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Get a local business license",
+      "instructions": "Most cities require a business tax certificate; amounts vary by city (not verified here).",
+      "cite": "Local ordinance",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "CRITICAL",
+      "task": "Buy general and professional liability insurance",
+      "instructions": "Minimum $1,000,000 per occurrence and $3,000,000 aggregate. The certificate must show policy number, effective/expiration dates, carrier and broker names and addresses, and limits.",
+      "cite": "HSC §1796.37; HCS 281 (B6)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "CRITICAL",
+      "task": "Buy workers' compensation for affiliated aides",
+      "instructions": "Required before licensure and at all times. Proof must include policy number, dates and carrier name and address.",
+      "cite": "HSC §1796.37; §1796.42(b)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "CRITICAL",
+      "task": "Buy a $10,000+ employee dishonesty bond",
+      "instructions": "Bond must include third-party coverage, minimum $10,000. Bonding agent signs HCS 402; State of California is beneficiary; original to CDSS, copy on file.",
+      "cite": "HSC §1796.37; §1796.42(c); HCS 402",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "HIGH",
+      "task": "Set up payroll that pays travel time and mileage",
+      "instructions": "Travel between clients during the workday is paid time; reimburse driving for client visits and errands (2026 IRS rate 72.5¢/mile is a common benchmark).",
+      "cite": "DOL WHD travel-time guidance; Labor Code §2802",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "HIGH",
+      "task": "Do not classify aides as exempt from overtime",
+      "instructions": "Third-party employers of home care workers cannot use the federal companionship or live-in exemptions. Get counsel on California daily overtime before selling live-in or 24-hour care.",
+      "cite": "29 CFR §552.109",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "HIGH",
+      "task": "Set pay at or above local minimum and market",
+      "instructions": "2026 state minimum $16.90; local minimums include City of Los Angeles $18.42 and unincorporated LA County $18.47 (7/1/2026), San Francisco $19.61, San Diego $17.75, San Jose $18.45, West Hollywood $20.25, Emeryville $20.34. Compare with your county IHSS wage (San Diego $20.40, LA $19.64).",
+      "cite": "DIR; local ordinances; IHSS data",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 2 — INSURANCE, BOND & PAYROLL SETUP",
+      "priority": "MEDIUM",
+      "task": "Set up paid sick leave",
+      "instructions": "Provide at least 40 hours / 5 days per year.",
+      "cite": "Labor Code §246",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "CRITICAL",
+      "task": "Write personnel policies",
+      "instructions": "Include hiring, discipline, grievance and mandated reporting; state that employment is conditional on fingerprint clearance, a statement of prior convictions, TB clearance and registry listing.",
+      "cite": "HCS 281 (B3)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "CRITICAL",
+      "task": "Write the training plan",
+      "instructions": "5 hours entry-level before client contact (2 h orientation on the caregiver role and employment terms; 3 h safety incl. infection control and emergency procedures) and 5 hours annually (client rights and safety, ADL needs, abuse/neglect reporting, hygiene assistance, safe transport). Name trainers, objectives, and include a sample training log.",
+      "cite": "HSC §1796.44; HCS 281 (B4)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "HIGH",
+      "task": "Add dementia care to annual training before 1/1/2027",
+      "instructions": "SB 412 (Stats. 2025, ch. 414) adds the special care needs of clients with dementia to required annual training starting January 1, 2027; hour minimums stay at 5.",
+      "cite": "HSC §1796.44 (SB 412)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "HIGH",
+      "task": "Write job descriptions for each position",
+      "instructions": "Administrator/designee, care supervisor, scheduler, home care aide — duties, qualifications and reporting lines.",
+      "cite": "HCS 281 (B2)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "HIGH",
+      "task": "Write the HCO program description",
+      "instructions": "Services offered (non-medical only), service area, hours, client population, how you assign and supervise aides.",
+      "cite": "HCS 281 (B5)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "HIGH",
+      "task": "Write the abuse-reporting policy",
+      "instructions": "Report suspected or known elder/dependent-adult abuse (WIC §15630) and child abuse (Penal Code §§11164–11174.3); keep a copy of each report for CDSS review.",
+      "cite": "HSC §1796.42(e); WIC §15630",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, TRAINING PLAN & PROGRAM DESCRIPTION",
+      "priority": "MEDIUM",
+      "task": "Write a client service agreement and care plan template",
+      "instructions": "Document services, schedule, rates and cancellation terms for each client (operator best practice; contract terms not verified as statutory).",
+      "cite": "Operator practice",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Complete HCS 200 — Application for HCO License",
+      "instructions": "Item 8 names the designee who acts for the licensee; it should match HCS 308.",
+      "cite": "HCS 200 / HCS 281",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Complete HCS 215 — Licensee Applicant Information",
+      "instructions": "Discloses TrustLine status, prior licensure and business experience.",
+      "cite": "HCS 215",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Disclose prior facility roles and disciplinary history",
+      "instructions": "Report any role as administrator, general partner, officer, director or 10%+ owner of licensed facilities (including HCOs) and any revocation or discipline.",
+      "cite": "HSC §1796.37",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Complete HCS 308 — Designation of Responsibility",
+      "instructions": "At least one designee; the licensee cannot designate him- or herself; attach board resolution if an LLC/corporation.",
+      "cite": "HCS 308",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Complete HCS 309 — Partnership/Corporation/LLC",
+      "instructions": "Lists owners, members and officers.",
+      "cite": "HCS 309",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Complete HCS 402 — Employee Dishonesty Bond",
+      "instructions": "Signed by the bonding agent; original to CDSS.",
+      "cite": "HCS 402",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Complete LIC 508 — Criminal Record Statement",
+      "instructions": "One per applicant.",
+      "cite": "LIC 508 / HCS 281",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "MEDIUM",
+      "task": "Complete HCS 9165 — Board of Directors Statement (if you have a board)",
+      "instructions": "One per board member, signed before joining; keep on file for inspection.",
+      "cite": "HCS 9165; HSC §1796.37",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Assemble Section B",
+      "instructions": "B1 articles/partnership agreement; B2 job descriptions; B3 personnel policies; B4 training plan; B5 program description; B6 insurance certificates.",
+      "cite": "HCS 281",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 4 — HCO APPLICATION PACKET (SECTION A & B)",
+      "priority": "CRITICAL",
+      "task": "Prepare the $5,603 license fee",
+      "instructions": "Check or money order payable to the California Department of Social Services; non-refundable. Covers a 2-year license.",
+      "cite": "CDSS Application Fees; HSC §1796.49",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 5 — SUBMISSION, BACKGROUND CHECK & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Mail one complete packet",
+      "instructions": "Send fee, all Section A and B items together to CDSS Home Care Services Branch, 744 P Street, M.S. 9-14-90, Sacramento, CA 95814. Keep a full copy; incomplete packets are returned.",
+      "cite": "HCS 281",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — SUBMISSION, BACKGROUND CHECK & ORIENTATION",
+      "priority": "HIGH",
+      "task": "Track the receipt notice",
+      "instructions": "CDSS sends your HCO number (use it on all correspondence) and instructions for fingerprinting and the online orientation. No processing time is published.",
+      "cite": "CDSS HCO application process",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 5 — SUBMISSION, BACKGROUND CHECK & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Complete Live Scan for the licensee",
+      "instructions": "The licensee must pass the CDSS background examination; questions to Care Provider Management Branch 1-888-422-5669.",
+      "cite": "HSC §1796.37; §1796.33",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — SUBMISSION, BACKGROUND CHECK & ORIENTATION",
+      "priority": "CRITICAL",
+      "task": "Complete the CDSS orientation",
+      "instructions": "Required before licensure.",
+      "cite": "HSC §1796.37",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — SUBMISSION, BACKGROUND CHECK & ORIENTATION",
+      "priority": "HIGH",
+      "task": "Respond quickly to CDSS requests",
+      "instructions": "Failure to cooperate can lead to withdrawal of the application.",
+      "cite": "HSC §1796.37",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 5 — SUBMISSION, BACKGROUND CHECK & ORIENTATION",
+      "priority": "HIGH",
+      "task": "Post the license when issued",
+      "instructions": "Post license, business hours and other required information in a conspicuous place visible to clients and aides.",
+      "cite": "HSC §1796.42(a)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — HIRING & REGISTERING HOME CARE AIDES",
+      "priority": "CRITICAL",
+      "task": "Hire aides age 18+",
+      "instructions": "Affiliated home care aides must be at least 18 and listed on the registry.",
+      "cite": "HSC §1796.12",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — HIRING & REGISTERING HOME CARE AIDES",
+      "priority": "CRITICAL",
+      "task": "Register each aide on the Home Care Aide Registry",
+      "instructions": "Online through Guardian ($35, card) or HCS 100 by mail; the HCO can submit through its Guardian account; affiliated aides enter your HCO PIN.",
+      "cite": "CDSS HCA application process",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 6 — HIRING & REGISTERING HOME CARE AIDES",
+      "priority": "CRITICAL",
+      "task": "Clear Live Scan before any client contact",
+      "instructions": "Any staff, volunteer or employee with client contact or access to confidential client information must be cleared first.",
+      "cite": "HSC §1796.43(a)(1)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 6 — HIRING & REGISTERING HOME CARE AIDES",
+      "priority": "CRITICAL",
+      "task": "TB clearance",
+      "instructions": "Exam 90 days before or within 7 days after hire; aide may not work until a licensed professional documents no risk; certificate on file; repeat every 2 years.",
+      "cite": "HSC §1796.45",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — HIRING & REGISTERING HOME CARE AIDES",
+      "priority": "CRITICAL",
+      "task": "Deliver 5 hours of entry-level training before first visit",
+      "instructions": "2 h orientation + 3 h safety; log completion.",
+      "cite": "HSC §1796.44",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 6 — HIRING & REGISTERING HOME CARE AIDES",
+      "priority": "HIGH",
+      "task": "Keep personnel files",
+      "instructions": "Registry status, Live Scan clearance, TB certificate, training logs, I-9 and payroll records for each aide.",
+      "cite": "HSC §1796.43; §1796.45",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "CRITICAL",
+      "task": "Set private-pay prices",
+      "instructions": "Benchmark: $40/hour California median non-medical caregiver (CareScout 2025); check local competitors; set minimum visit lengths.",
+      "cite": "CareScout 2025",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "HIGH",
+      "task": "Understand IHSS will not pay your agency",
+      "instructions": "IHSS pays consumer-hired individual providers through state payroll; contract mode exists only in San Francisco. Market to IHSS recipients who need hours beyond their authorization (private pay or PCHS).",
+      "cite": "CHCF 2026; IHSS data",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "HIGH",
+      "task": "Approach Medi-Cal managed care plans for Community Supports",
+      "instructions": "Ask each plan in your county whether it offers Personal Care and Homemaker Services and Respite and how it credentials providers.",
+      "cite": "DHCS CS Policy Guide",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "HIGH",
+      "task": "Negotiate PCHS rates with the DHCS benchmark in hand",
+      "instructions": "Non-binding hourly agency benchmark $29 / $33 / $38 (S5130, T1019), built on a $15 wage; a PCHS-only agency needs ≈$34.67/hour to break even in this model.",
+      "cite": "DHCS CS Pricing Resource",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "MEDIUM",
+      "task": "Get a Type 2 NPI",
+      "instructions": "Needed for health plan contracting and claims.",
+      "cite": "NPPES",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "MEDIUM",
+      "task": "Enroll in Medi-Cal (PAVE) only if a plan requires it",
+      "instructions": "CY2026 application fee $750 for applicable enrollment applications.",
+      "cite": "DHCS Application Fees",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 7 — FUNDING: PRIVATE PAY & MEDI-CAL MANAGED CARE",
+      "priority": "MEDIUM",
+      "task": "Set up EVV for Medi-Cal personal care",
+      "instructions": "Federal law requires EVV for Medicaid personal care services; confirm the system with DHCS/the plan.",
+      "cite": "42 U.S.C. §1396b(l)",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "CRITICAL",
+      "task": "Notify CDSS when an aide leaves",
+      "instructions": "Immediately notify the department when the HCO no longer employs an aide.",
+      "cite": "HSC §1796.43(a)(3)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "CRITICAL",
+      "task": "Keep insurance and bond in force",
+      "instructions": "Lapse of liability, workers' comp or the bond violates operating requirements.",
+      "cite": "HSC §1796.42",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Deliver 5 hours of annual training to every aide",
+      "instructions": "Dementia care becomes a required topic from 1/1/2027.",
+      "cite": "HSC §1796.44",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Repeat TB exams every 2 years",
+      "instructions": "Unless a positive test was followed by an X-ray.",
+      "cite": "HSC §1796.45(c)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Renew aide registrations",
+      "instructions": "$35 per renewal.",
+      "cite": "CDSS HCA application process",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "HIGH",
+      "task": "Be ready for unannounced inspections",
+      "instructions": "CDSS verifies compliance through random, unannounced inspections and may investigate complaints.",
+      "cite": "HSC §1796.52",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "CRITICAL",
+      "task": "Renew the HCO license every 2 years",
+      "instructions": "Send the renewal fee ($5,603 current schedule) postmarked on or before the expiration date; CDSS mails a fee notice at least 60 days before.",
+      "cite": "HSC §1796.37(b)-(c); CDSS fees",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "Report changes",
+      "instructions": "Change of location $100; change in corporation $200.",
+      "cite": "CDSS Application Fees",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 8 — ONGOING COMPLIANCE & RENEWAL",
+      "priority": "MEDIUM",
+      "task": "File FTB and SOS obligations",
+      "instructions": "FTB: $800 annual LLC tax (due the 15th day of the 4th month) and the LLC fee, estimated and paid by the 15th day of the 6th month on FTB 3536. SOS: Statement of Information (LLC-12, $20) within 90 days of formation and then every two years (biennial), not annually.",
+      "cite": "FTB; SOS LLC-12",
+      "source_id": "S41"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "CDSS Home Care Services Branch",
+      "role": "HCO applications, renewals, Home Care Aide Registry",
+      "contact": "(877) 424-5778 / HCSB@dss.ca.gov / 744 P Street, M.S. 9-14-90, Sacramento, CA 95814"
+    },
+    {
+      "name": "CDSS Care Provider Management Branch",
+      "role": "Live Scan background checks; Guardian online HCA registration",
+      "contact": "1-888-422-5669 / guardian@dss.ca.gov"
+    },
+    {
+      "name": "DHCS Community Supports Pricing Resource",
+      "role": "Questions on the non-binding Community Supports pricing benchmarks",
+      "contact": "CACSPricingResource@dhcs.ca.gov"
+    },
+    {
+      "name": "DHCS HCBA Waiver",
+      "role": "Waiver Personal Care Services / Personal Care Agency questions",
+      "contact": "(833) 388-4551 / HCBAlternatives@dhcs.ca.gov"
+    },
+    {
+      "name": "Medi-Cal managed care plans in your county",
+      "role": "Community Supports (PCHS, Respite) contracting and credentialing",
+      "contact": "Each plan's provider relations / Community Supports team"
+    },
+    {
+      "name": "California Secretary of State",
+      "role": "LLC formation (LLC-1 $70) and Statement of Information (LLC-12 $20)",
+      "contact": "sos.ca.gov / bizfileOnline"
+    },
+    {
+      "name": "Franchise Tax Board",
+      "role": "$800 LLC annual tax and LLC fee",
+      "contact": "ftb.ca.gov"
+    },
+    {
+      "name": "Employment Development Department",
+      "role": "Employer payroll tax account (UI, ETT, SDI withholding)",
+      "contact": "edd.ca.gov"
+    },
+    {
+      "name": "IRS",
+      "role": "EIN",
+      "contact": "irs.gov"
+    },
+    {
+      "name": "NPPES",
+      "role": "Type 2 NPI (needed for Medi-Cal plan contracting)",
+      "contact": "nppes.cms.hhs.gov"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "client",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.8,
+      "optimistic": 1.0,
+      "rationale": "Capacity is the active client census the office team is sized for; occupancy is the share actually on service in a month (hospital stays, pauses, discharges, unfilled shifts). The 90% default (80% conservative, 100% optimistic) is an operator assumption — verify locally; it is not a sourced statistic."
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 2
+    },
+    "configurations": [
+      {
+        "id": "hco_pp20",
+        "label": "Private-pay HCO, 20 clients (owner-administrator)",
+        "capacity": 20,
+        "notes": "Smallest realistic start: the owner runs the office and a qualified designee (HCS 308) covers absences; half-time scheduler. All private pay at the CareScout California median.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 40.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S24"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / registered home care aides (private pay)",
+            "wage_hourly": 20.4,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 84.0,
+            "cite": "HSC §1796.43, §1796.44; 29 CFR §552.109(a)",
+            "notes": "$20.40/hour = San Diego County IHSS individual-provider wage, August 2026 [S21] — the wage the same caregivers can earn through IHSS, so it is used as the competitive floor. It is above the San Diego metro BLS 90th percentile for personal care aides ($19.64, May 2025) [S25], the 2026 state minimum ($16.90) [S29] and every 2026 local minimum found (highest: Emeryville $20.34, West Hollywood $20.25) [S30][S31]. Hours = 80 billable hours per client-month + 5% paid non-billable time (travel between clients is paid time [S39]; annual 5-hour training [S14]); the 80 hours and 5% are operator estimates — verify locally."
+          },
+          {
+            "role": "Owner-administrator (paid salary)",
+            "basis": "annual_salary",
+            "amount": 55490,
+            "wage_source_id": "S27",
+            "cite": "HCS 308",
+            "notes": "San Diego metro 10th-percentile social and community service manager ($55,490) [S27] — a modest owner salary; the owner also does assessments and supervision at this size."
+          },
+          {
+            "role": "Scheduler / on-call coordinator (0.5 FTE)",
+            "wage_hourly": 24.83,
+            "wage_source_id": "S28",
+            "basis": "hours_per_month",
+            "amount": 86.67,
+            "cite": "",
+            "notes": "San Diego metro median medical secretary/administrative assistant ($24.83/h) [S28] × 86.67 h/month."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease",
+            "monthly": 1375.0,
+            "notes": "500 sq ft × $2.75/sq ft/month full service — operator estimate, verify locally (no citable California office-rent survey was retrieved)."
+          },
+          {
+            "item": "California LLC fee (gross receipts) ÷ 12",
+            "monthly": 208.33,
+            "notes": "Annual revenue ≈ $691,200 at 90% census → $2,500/yr FTB tier [S41]."
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 700
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1500
+          },
+          {
+            "item": "General/professional liability ($1M/$3M), $10,000 dishonesty bond, hired & non-owned auto (base)",
+            "monthly": 550
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "hco_pp40",
+        "label": "Private-pay HCO, 40 clients",
+        "capacity": 40,
+        "notes": "The configuration an experienced California operator targets first: private pay only, full-time administrator, one care supervisor and one scheduler.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 40.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S24"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / registered home care aides (private pay)",
+            "wage_hourly": 20.4,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 84.0,
+            "cite": "HSC §1796.43, §1796.44; 29 CFR §552.109(a)",
+            "notes": "$20.40/hour = San Diego County IHSS individual-provider wage, August 2026 [S21] — the wage the same caregivers can earn through IHSS, so it is used as the competitive floor. It is above the San Diego metro BLS 90th percentile for personal care aides ($19.64, May 2025) [S25], the 2026 state minimum ($16.90) [S29] and every 2026 local minimum found (highest: Emeryville $20.34, West Hollywood $20.25) [S30][S31]. Hours = 80 billable hours per client-month + 5% paid non-billable time (travel between clients is paid time [S39]; annual 5-hour training [S14]); the 80 hours and 5% are operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator / licensee's designee (HCS 308)",
+            "basis": "annual_salary",
+            "amount": 79770,
+            "wage_source_id": "S27",
+            "cite": "HCS 308; HSC §1796.37",
+            "notes": "San Diego metro median, social and community service managers (BLS OEWS 2025: $79,770) [S27]. A licensee cannot designate him- or herself on HCS 308 [S3], so a second responsible person is needed."
+          },
+          {
+            "role": "Client care supervisor (1 FTE) — assessments, care plans, aide supervision, scheduling backup",
+            "basis": "annual_salary",
+            "amount": 49570,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "San Diego metro median, first-line supervisors of personal service workers ($49,570) × 1 [S26]. The HCO Act sets no supervisor ratio or credential; caseload per supervisor is an operator estimate."
+          },
+          {
+            "role": "Scheduler / billing and HCA-registry coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 51650,
+            "wage_source_id": "S28",
+            "cite": "HSC §1796.43(a)(3)",
+            "notes": "San Diego metro median, medical secretaries and administrative assistants ($51,650) × 1 [S28]. Staffing level is an operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "hco_pp75",
+        "label": "Private-pay HCO, 75 clients",
+        "capacity": 75,
+        "notes": "Scaled private-pay agency with two supervisors and two schedulers.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 40.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 1.0,
+            "source_id": "S24"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / registered home care aides (private pay)",
+            "wage_hourly": 20.4,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 84.0,
+            "cite": "HSC §1796.43, §1796.44; 29 CFR §552.109(a)",
+            "notes": "$20.40/hour = San Diego County IHSS individual-provider wage, August 2026 [S21] — the wage the same caregivers can earn through IHSS, so it is used as the competitive floor. It is above the San Diego metro BLS 90th percentile for personal care aides ($19.64, May 2025) [S25], the 2026 state minimum ($16.90) [S29] and every 2026 local minimum found (highest: Emeryville $20.34, West Hollywood $20.25) [S30][S31]. Hours = 80 billable hours per client-month + 5% paid non-billable time (travel between clients is paid time [S39]; annual 5-hour training [S14]); the 80 hours and 5% are operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator / licensee's designee (HCS 308)",
+            "basis": "annual_salary",
+            "amount": 79770,
+            "wage_source_id": "S27",
+            "cite": "HCS 308; HSC §1796.37",
+            "notes": "San Diego metro median, social and community service managers (BLS OEWS 2025: $79,770) [S27]. A licensee cannot designate him- or herself on HCS 308 [S3], so a second responsible person is needed."
+          },
+          {
+            "role": "Client care supervisor (2 FTE) — assessments, care plans, aide supervision, scheduling backup",
+            "basis": "annual_salary",
+            "amount": 99140,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "San Diego metro median, first-line supervisors of personal service workers ($49,570) × 2 [S26]. The HCO Act sets no supervisor ratio or credential; caseload per supervisor is an operator estimate."
+          },
+          {
+            "role": "Scheduler / billing and HCA-registry coordinator (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 103300,
+            "wage_source_id": "S28",
+            "cite": "HSC §1796.43(a)(3)",
+            "notes": "San Diego metro median, medical secretaries and administrative assistants ($51,650) × 2 [S28]. Staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease",
+            "monthly": 4125.0,
+            "notes": "1500 sq ft × $2.75/sq ft/month full service — operator estimate, verify locally (no citable California office-rent survey was retrieved)."
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 3000
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 4,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "hco_mix60",
+        "label": "Mixed HCO, 60 clients (70% private pay / 30% Medi-Cal Community Supports PCHS)",
+        "capacity": 60,
+        "notes": "Adds a managed-care Community Supports contract for Personal Care and Homemaker Services. MCP rates are negotiated and not published; the model assumes the DHCS non-binding midpoint ($33/hour) and 60 authorized hours per member-month (operator estimate).",
+        "revenue_lines": [
+          {
+            "name": "Private-pay in-home care (non-medical caregiver)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 40.0,
+            "unit": "per hour",
+            "units_per_client_month": 80,
+            "share_of_clients": 0.7,
+            "source_id": "S24"
+          },
+          {
+            "name": "Medi-Cal managed care Community Supports — Personal Care and Homemaker Services (assumed DHCS midpoint)",
+            "payer": "Medi-Cal managed care plan (CalAIM Community Supports)",
+            "code": "S5130 / T1019",
+            "rate": 33.0,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 0.3,
+            "source_id": "S19"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / registered home care aides (private pay)",
+            "wage_hourly": 20.4,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 58.8,
+            "cite": "HSC §1796.43, §1796.44; 29 CFR §552.109(a)",
+            "notes": "$20.40/hour = San Diego County IHSS individual-provider wage, August 2026 [S21] — the wage the same caregivers can earn through IHSS, so it is used as the competitive floor. It is above the San Diego metro BLS 90th percentile for personal care aides ($19.64, May 2025) [S25], the 2026 state minimum ($16.90) [S29] and every 2026 local minimum found (highest: Emeryville $20.34, West Hollywood $20.25) [S30][S31]. Hours = 80 billable hours per client-month + 5% paid non-billable time (travel between clients is paid time [S39]; annual 5-hour training [S14]); the 80 hours and 5% are operator estimates — verify locally. Amount weighted by the 70% share of clients."
+          },
+          {
+            "role": "Caregivers / registered home care aides (Community Supports PCHS members)",
+            "wage_hourly": 20.4,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 18.9,
+            "cite": "HSC §1796.43, §1796.44; 29 CFR §552.109(a)",
+            "notes": "$20.40/hour = San Diego County IHSS individual-provider wage, August 2026 [S21] — the wage the same caregivers can earn through IHSS, so it is used as the competitive floor. It is above the San Diego metro BLS 90th percentile for personal care aides ($19.64, May 2025) [S25], the 2026 state minimum ($16.90) [S29] and every 2026 local minimum found (highest: Emeryville $20.34, West Hollywood $20.25) [S30][S31]. Hours = 60 billable hours per client-month + 5% paid non-billable time (travel between clients is paid time [S39]; annual 5-hour training [S14]); the 60 hours and 5% are operator estimates — verify locally. Amount weighted by the 30% share of clients."
+          },
+          {
+            "role": "Administrator / licensee's designee (HCS 308)",
+            "basis": "annual_salary",
+            "amount": 79770,
+            "wage_source_id": "S27",
+            "cite": "HCS 308; HSC §1796.37",
+            "notes": "San Diego metro median, social and community service managers (BLS OEWS 2025: $79,770) [S27]. A licensee cannot designate him- or herself on HCS 308 [S3], so a second responsible person is needed."
+          },
+          {
+            "role": "Client care supervisor (1 FTE) — assessments, care plans, aide supervision, scheduling backup",
+            "basis": "annual_salary",
+            "amount": 49570,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "San Diego metro median, first-line supervisors of personal service workers ($49,570) × 1 [S26]. The HCO Act sets no supervisor ratio or credential; caseload per supervisor is an operator estimate."
+          },
+          {
+            "role": "Scheduler / billing and HCA-registry coordinator (1 FTE)",
+            "basis": "annual_salary",
+            "amount": 51650,
+            "wage_source_id": "S28",
+            "cite": "HSC §1796.43(a)(3)",
+            "notes": "San Diego metro median, medical secretaries and administrative assistants ($51,650) × 1 [S28]. Staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease",
+            "monthly": 3300.0,
+            "notes": "1200 sq ft × $2.75/sq ft/month full service — operator estimate, verify locally (no citable California office-rent survey was retrieved)."
+          },
+          {
+            "item": "California LLC fee (gross receipts) ÷ 12",
+            "monthly": 500.0,
+            "notes": "Annual revenue ≈ $1,836,432 at 90% census → $6,000/yr FTB tier [S41]."
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5%)",
+            "monthly": 33.6,
+            "notes": "1.5% × $3,200 × 70% private-pay share."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "hco_pchs100",
+        "label": "Medi-Cal Community Supports PCHS only, 100 members",
+        "capacity": 100,
+        "notes": "All revenue from one or more Medi-Cal managed care plans at the assumed $33/hour DHCS midpoint; 60 authorized hours per member-month (operator estimate).",
+        "revenue_lines": [
+          {
+            "name": "Medi-Cal managed care Community Supports — Personal Care and Homemaker Services (assumed DHCS midpoint)",
+            "payer": "Medi-Cal managed care plan (CalAIM Community Supports)",
+            "code": "S5130 / T1019",
+            "rate": 33.0,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 1.0,
+            "source_id": "S19"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Caregivers / registered home care aides (Community Supports PCHS members)",
+            "wage_hourly": 20.4,
+            "wage_source_id": "S21",
+            "basis": "hours_per_client_month",
+            "amount": 63.0,
+            "cite": "HSC §1796.43, §1796.44; 29 CFR §552.109(a)",
+            "notes": "$20.40/hour = San Diego County IHSS individual-provider wage, August 2026 [S21] — the wage the same caregivers can earn through IHSS, so it is used as the competitive floor. It is above the San Diego metro BLS 90th percentile for personal care aides ($19.64, May 2025) [S25], the 2026 state minimum ($16.90) [S29] and every 2026 local minimum found (highest: Emeryville $20.34, West Hollywood $20.25) [S30][S31]. Hours = 60 billable hours per client-month + 5% paid non-billable time (travel between clients is paid time [S39]; annual 5-hour training [S14]); the 60 hours and 5% are operator estimates — verify locally."
+          },
+          {
+            "role": "Administrator / licensee's designee (HCS 308)",
+            "basis": "annual_salary",
+            "amount": 79770,
+            "wage_source_id": "S27",
+            "cite": "HCS 308; HSC §1796.37",
+            "notes": "San Diego metro median, social and community service managers (BLS OEWS 2025: $79,770) [S27]. A licensee cannot designate him- or herself on HCS 308 [S3], so a second responsible person is needed."
+          },
+          {
+            "role": "Client care supervisor (2 FTE) — assessments, care plans, aide supervision, scheduling backup",
+            "basis": "annual_salary",
+            "amount": 99140,
+            "wage_source_id": "S26",
+            "cite": "",
+            "notes": "San Diego metro median, first-line supervisors of personal service workers ($49,570) × 2 [S26]. The HCO Act sets no supervisor ratio or credential; caseload per supervisor is an operator estimate."
+          },
+          {
+            "role": "Scheduler / billing and HCA-registry coordinator (2 FTE)",
+            "basis": "annual_salary",
+            "amount": 103300,
+            "wage_source_id": "S28",
+            "cite": "HSC §1796.43(a)(3)",
+            "notes": "San Diego metro median, medical secretaries and administrative assistants ($51,650) × 2 [S28]. Staffing level is an operator estimate."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease",
+            "monthly": 4125.0,
+            "notes": "1500 sq ft × $2.75/sq ft/month full service — operator estimate, verify locally (no citable California office-rent survey was retrieved)."
+          },
+          {
+            "item": "California LLC fee (gross receipts) ÷ 12",
+            "monthly": 500.0,
+            "notes": "Annual revenue ≈ $2,138,400 at 90% census → $6,000/yr FTB tier [S41]."
+          },
+          {
+            "item": "Payment processing on private-pay invoices (1.5%)",
+            "monthly": 0,
+            "notes": "No private-pay invoices in this configuration."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 5,
+          "note": "Operator estimate; depends on MCP referral volume."
+        }
+      }
+    ],
+    "default_configuration": "hco_pp40",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.095,
+      "workers_comp_pct": 0.06,
+      "benefits_pct": 0.04,
+      "notes": "Taxes: employer FICA 7.65% [S34]; California UI 3.4% (new employer) and ETT 0.1% on the first $7,000 per employee [S33]; FUTA on the first $7,000. For part-time aides earning roughly $20,000–$30,000 a year this is about 9%; 9.5% leaves room for California's FUTA credit reduction (amount not verified). Workers' compensation is mandatory for HCO aides (HSC §1796.37) [S4]; 6% is an operator estimate for a home care class — the CDI statewide average advisory benchmark is $1.65 per $100 of payroll [S35], and home care classes run higher; get quotes. Benefits 4%: 40 hours of paid sick leave a year (Labor Code §246) [S36] plus other benefits — operator estimate.",
+      "source_id": "S33"
+    },
+    "opex": [
+      {
+        "item": "Office lease",
+        "monthly": 2750,
+        "basis": "fixed",
+        "notes": "1,000 sq ft × $2.75/sq ft/month full service — operator estimate, verify locally (no citable California office-rent survey was retrieved). Resized per configuration."
+      },
+      {
+        "item": "HCO license renewal ($5,603 per 2-year license) ÷ 24",
+        "monthly": 233.46,
+        "basis": "fixed",
+        "notes": "Renewal is due every two years with the CDSS fee [S4][S2]; amortized over 24 months.",
+        "source_id": "S2"
+      },
+      {
+        "item": "California LLC annual tax ÷ 12",
+        "monthly": 66.67,
+        "basis": "fixed",
+        "notes": "$800/yr, owed regardless of income [S41].",
+        "source_id": "S41"
+      },
+      {
+        "item": "California LLC fee (gross receipts) ÷ 12",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "FTB tiers: $250,000–$499,999 = $900; $500,000–$999,999 = $2,500; $1,000,000–$4,999,999 = $6,000 [S41]. Base = $6,000/yr for a 40-client agency (≈$1.38M revenue). Resized per configuration.",
+        "source_id": "S41"
+      },
+      {
+        "item": "General/professional liability ($1M/$3M), $10,000 dishonesty bond, hired & non-owned auto (base)",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Coverage minimums are set by HSC §1796.37 and §1796.42 [S4][S5]; premium amounts are operator estimates — get broker quotes.",
+        "source_id": "S4"
+      },
+      {
+        "item": "Liability insurance per-client exposure",
+        "monthly": 20,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Home care scheduling, billing and EVV-capable software (base)",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate — get vendor quotes."
+      },
+      {
+        "item": "Software per-client fees",
+        "monthly": 15,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 900,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and referral development",
+        "monthly": 2000,
+        "basis": "fixed",
+        "notes": "Operator estimate (private-pay agencies depend on hospital and SNF discharge planners, senior living communities, elder-law attorneys, care managers and online leads)."
+      },
+      {
+        "item": "Utilities, phones, internet and IT",
+        "monthly": 450,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Training materials, CPR/first-aid classes and in-service",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate. Covers the 5-hour entry-level and 5-hour annual aide training (dementia topic added 1/1/2027) [S14]."
+      },
+      {
+        "item": "HCA registration ($35/2 yrs), Live Scan and TB tests for turnover hires",
+        "monthly": 30,
+        "basis": "per_client",
+        "notes": "Operator estimate built on the $35 HCA registration fee [S15] plus Live Scan and TB test costs for replacement hires (turnover rate is an operator estimate).",
+        "source_id": "S15"
+      },
+      {
+        "item": "Recruiting and onboarding (job ads)",
+        "monthly": 25,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Gloves, PPE and client-care supplies",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Caregiver mileage reimbursement (≈40 miles per client-month × $0.725)",
+        "monthly": 29,
+        "basis": "per_client",
+        "notes": "California employers must reimburse necessary work expenses, including driving between clients and client errands (Labor Code §2802) [S37]; 2026 IRS rate 72.5¢ [S38]. The 40 miles is an operator estimate.",
+        "source_id": "S37"
+      },
+      {
+        "item": "Payment processing on private-pay invoices (1.5%)",
+        "monthly": 48,
+        "basis": "per_client",
+        "notes": "1.5% of $3,200 monthly private-pay billing; operator estimate (card vs ACH mix). Scaled down in the mixed configuration by override."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "California LLC formation (LLC-1 $70 + LLC-12 $20)",
+        "low": 90,
+        "high": 90,
+        "source_id": "S42"
+      },
+      {
+        "item": "HCO license fee (2-year license), paid with the application",
+        "low": 5603,
+        "high": 5603,
+        "source_id": "S2"
+      },
+      {
+        "item": "Live Scan fingerprinting for licensee, designee and office staff",
+        "low": 200,
+        "high": 600,
+        "notes": "Operator estimate; fees vary by Live Scan site (CDSS Care Provider Management Branch handles background checks) [S1]."
+      },
+      {
+        "item": "HCA registration ($35) and TB tests for first caregivers",
+        "low": 500,
+        "high": 2500,
+        "notes": "$35 per aide [S15]; TB test cost and number of first hires are operator estimates.",
+        "source_id": "S15"
+      },
+      {
+        "item": "Policies, training plan, job descriptions and program description (HCS 281 Section B)",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Insurance and bond down payments ($1M/$3M liability, workers' comp, $10,000 dishonesty bond)",
+        "low": 2000,
+        "high": 6000,
+        "notes": "Operator estimate; coverage required before licensure [S4].",
+        "source_id": "S4"
+      },
+      {
+        "item": "Office deposit and first month (500–1,500 sq ft at $2.75/sq ft)",
+        "low": 2750,
+        "high": 8250,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Furniture, computers and phones",
+        "low": 2500,
+        "high": 12000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Scheduling/billing software setup and training",
+        "low": 500,
+        "high": 3000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Launch marketing and website",
+        "low": 2500,
+        "high": 10000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Medi-Cal provider application fee (only if an MCP requires state enrollment)",
+        "low": 0,
+        "high": 750,
+        "notes": "DHCS CY2026 application fee; physician/individual applicants exempt [S20].",
+        "source_id": "S20"
+      },
+      {
+        "item": "Working capital reserve (payroll during ramp-up)",
+        "low": 40000,
+        "high": 150000,
+        "notes": "Operator estimate. Replaced in totals by the modeled ramp-up deficit.",
+        "category": "working_capital"
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "Old checklist cited 'HSC 1796.37(g)' for the $10,000 employee dishonesty bond. The bond requirement is in HSC §1796.37 (licensure) and §1796.42(c) (ongoing operation); there is no subdivision (g) for it [S4][S5].",
+    "Old checklist cited 'HSC 1796.30, 1796.48' for Live Scan background checks. Background check requirements are in HSC §1796.23–§1796.28 as applied by §1796.43, and the licensee background exam is required by §1796.37 (background exam under §1796.33) [S6][S4].",
+    "Old checklist cited 'HSC 1796.63' for a post-licensure inspection and told owners to 'schedule' it. CDSS conducts random, unannounced inspections under HSC §1796.52 and may enter during business hours without notice (§1796.53) [S49]; there is no scheduled pre- or post-licensure inspection to request [S11].",
+    "Old checklist described the 5-hour entry-level training as '2 hours orientation, 3 hours core competencies'. The statute requires 2 hours of orientation and 3 hours of safety training before client contact, plus 5 hours annually; SB 412 (Stats. 2025, ch. 414) adds dementia care to annual training from January 1, 2027 — the old file missed this change [S14].",
+    "Old checklist cited HSC §1796.44 (training) for aide Live Scan and HCA registration. Registry clearance, background checks and TB clearance before client contact are in §1796.43 and §1796.45 [S6][S7].",
+    "Old checklist omitted the TB examination (90 days before or within 7 days after hire, repeated every 2 years), the CDSS orientation the licensee must complete, the rule that the licensee cannot name him- or herself as designee on HCS 308, and the requirement to notify CDSS immediately when an aide leaves [S7][S4][S3][S6].",
+    "Old checklist stated as fact that 'failure to respond in 30 days may void your application' and gave a '3–12 weeks' processing estimate. Neither appears in CDSS materials reviewed; HCS 281 says incomplete packets are returned and review starts only on a complete packet with fee [S3].",
+    "Old checklist said dementia care is 'not permitted under HCO license'. The Act defines home care services broadly (non-medical help for people who cannot perform tasks because of age or disability) and from 2027 requires dementia training for aides — serving clients with dementia is within scope; medical/skilled care is not [S8][S14].",
+    "Old files contained no funding analysis. They did not explain that IHSS — California's largest home care program (930,755 recipients, Aug. 2026) — pays consumer-hired individual providers, not agencies (contract mode only in San Francisco), or that Medi-Cal money reaches HCOs mainly through managed care Community Supports contracts with no published rate [S21][S22][S17][S19]."
+  ],
+  "verification_log": [
+    {
+      "issue": "Medi-Cal provider application fee startup line cited S43 (EVV statute).",
+      "change": "Changed source_id and notes citation to S20 (DHCS Application Fees page, $750 CY2026)."
+    },
+    {
+      "issue": "Phase 8 task said FTB and SOS obligations were annual; LLC-12 is biennial.",
+      "change": "Renamed task to 'File FTB and SOS obligations'; instructions now give FTB $800 tax and LLC fee (FTB 3536) timing and LLC-12 within 90 days of formation then every two years."
+    },
+    {
+      "issue": "No mention of ACA employer mandate; pp75 and pchs100 reach ~52 FTE at 90% census.",
+      "change": "Added risk bullet citing IRS ALE rule (new source S48) and a not_claimed line for coverage cost; model unchanged (premium unverifiable)."
+    },
+    {
+      "issue": "Licensee background exam cited only §1796.37.",
+      "change": "Checklist cite now 'HSC §1796.37; §1796.33'; corrections_vs_previous wording updated."
+    },
+    {
+      "issue": "HSC §1796.53 (entry during business hours) was cited but not in sources.",
+      "change": "Fetched and verified §1796.53 text ('enter ... during posted business hours, with or without advance notice'); added as source S49 and cited it in the office checklist item and corrections_vs_previous."
+    },
+    {
+      "issue": "Third-party code publishers (FindLaw, California.Public.Law) labeled 'official'.",
+      "change": "Set type to 'secondary' for S4–S13, S37, S45."
+    }
+  ]
+}

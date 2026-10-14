@@ -1,0 +1,116 @@
+{
+  "bundle_slug": "new-york-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "No critical errors. Model recomputed (85% occupancy, net/month and break-even occupancy): 80-bed +$162,258 (52.8%), 48-bed +$74,440 (60.4%), 24-bed +$48,533 (52.9%), 16-bed +$21,071 (64.9%), 48-bed 30% SSI +$4,893 (82.8%), 60-bed Albany ALP -$27,540 (103.9%). These match the narrative. Checked against primary sources: every ALP rate (DOH statewide_update.xlsx: 167 provider numbers, 169 locations; statewide RUG medians, Albany PB median $75.03 (17 locations, $71.99-$80.03), NYC PB $113.39, Albany PA $60.19, Albany RA $103.18, range $49.75-$235.11, rate codes 3301-3331); the March 9, 2026 DAL; SSI Level 3 $1,688 = $994 + $694 with a $262 PNA (OTDA); the CareScout 2025 NY AL median $7,110 (private one-bedroom); all 19 BLS 2025 wages (O*NET, NY and Albany); minimum wage $17/$16 (Labor Law 652); home care aide minimum $19.65/$18.65 for 2026 and $20/$19 for 2027 (LeadingAge, NY DOL); NY UI new-employer rate 4.1% and the $17,600 wage base; the IT-204-LL brackets; DOS fees $200/$9; the CMS $750 fee; and Census QuickFacts. Q2 2026 ACF open data matches: 525 facilities, 51,211 beds, 523 with capacity, median 81, 11 at 15 beds or fewer, 30 at 24 or fewer, 401 at 50+; regional occupancy NYC 84.1%, LI/Westchester 79.1%, rest of state 77.7%; ALR 26,572/270, EALR 13,215/218, SNALR 7,449/203, ALP 14,840/161 with 12,770 residents. The 2025 Legislative Report contacts, 533/386 counts, 12,880 complaints and 85 referrals against 66 homes all match. Rule text matches for the 487.9 staffing table and hour minimums, administrator 20/40 hrs, 1001.11 case manager hours and aide training, 487.11 sprinklers and room sizes, 485.6 Part I/II clocks and the 18-month window, 485.5 (4-year term, 120-day closure), 485.7 renewal, PHL 4656 fees, SSL 461-b ownership rules (10% transfers, class A misdemeanor), 461-l(3)(m) ALP need since 4/1/2025, 1001.5 (60 days, 1-year lapse, non-refundable fees), 494.6 ALP staffing, PHL 3614(6) 50% methodology, and LLC Law 206. All six configurations meet the cited staffing floors. Problems found: four financial_model lines cite the wrong source ID, the USDA food-plan URL returns 404, the ALP configuration lacks LHCSA/Medicaid enrollment startup costs (and wrongly picks up an ALR fee), plus several minor wording and sizing items. Web search budget was exhausted, so all checks used direct fetches of cited URLs. www.health.ny.gov, ssa.gov and access.nyc.gov return 403 to scripted requests (bot blocking); those pages were not treated as dead.",
+  "verified_count": 112,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[5].startup_costs (missing) / financial_model.startup_costs[2]",
+      "current": "ALP-only 60-bed model uses the shared startup list, which includes 'ALR initial licensure fee' (scaled to about $2,900 at 60 beds) and has no LHCSA licensure or Medicaid enrollment cost lines",
+      "correct": "ALP-specific startup list: drop the ALR licensure fee (ALP beds are excluded from ALR licensure; the model itself sets the ALR opex fee to $0), and add (a) LHCSA licensure application with PHHPC approval (attorney/consultant, policies, required documents), operator estimate, verify locally, and (b) Medicaid provider enrollment application fee $750 (CY2026; whether NY collects it is already in not_claimed)",
+      "evidence": "SSL 461-l(1)(a) and (3) require an LHCSA (or CHHA/LTHHCP) under identical ownership, and a new LHCSA needs PHHPC approval (the research's own checklist[62]). The Federal Register (CMS-6096-N) sets a '$750.00 calendar year (CY) 2026 application fee for institutional providers that are initially enrolling in the Medicare or Medicaid program'. The research's ALP opex override says 'ALP beds are excluded from ALR licensure (PHL 4651(1)(e), 4656(1))', but model.startup_items applies the shared ALR fee line to every configuration.",
+      "source_url": "https://newyork.public.law/laws/n.y._social_services_law_section_461-l",
+      "fix": "Add configurations[5].startup_costs = the shared list minus the ALR licensure fee line, plus {item:'LHCSA licensure application and PHHPC approval (legal/consulting, policies)', low:25000, high:75000, notes:'Operator estimate - verify locally.', source_id:'S13'} and {item:'Medicaid provider enrollment application fee (CY2026)', low:750, high:750, source_id:'S50', notes:'Applies only if NY Medicaid collects it from the ALP; see not_claimed.'}. The ALP model is already unprofitable, so the ranking does not change, but cash needed rises."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.opex[13].source_id; financial_model.configurations[4].opex_overrides[13].source_id",
+      "current": "S49",
+      "correct": "S47",
+      "evidence": "S49 is the IRS page 'Get an employer identification number'. The NY LLC filing fee table ($1,500 for $1M-$5M; $3,000 for $5M-$25M) is in S47, the IT-204-LL instructions, which I verified.",
+      "source_url": "https://www.tax.ny.gov/pdf/current_forms/it/it204lli.pdf",
+      "fix": "Change source_id from S49 to S47 on both 'NY LLC filing fee (IT-204-LL) / 12' lines."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.opex[14].source_id",
+      "current": "S50",
+      "correct": "S48",
+      "evidence": "S50 is the Federal Register CY2026 provider enrollment fee notice. The food line cites the USDA moderate-cost food plan, which is S48 (sections.financial_narrative also cites [S48] for food).",
+      "source_url": "https://www.fns.usda.gov/sites/default/files/resource-files/CostofFoodAug2026LowModLib.pdf",
+      "fix": "Change the food line's source_id from S50 to S48."
+    },
+    {
+      "severity": "major",
+      "json_path": "sources[47] (S48).url",
+      "current": "https://fns-prod.azureedge.us/sites/default/files/resource-files/cnpp-costfood-3levels-may2026.pdf",
+      "correct": "https://www.fns.usda.gov/sites/default/files/resource-files/CostofFoodAug2026LowModLib.pdf",
+      "evidence": "The cited URL returns HTTP 404. The current USDA report (August 2026, Low/Moderate/Liberal plans) shows the moderate-cost plan for age 71+ at female $329.80 and male $363.70 per month, an average of $346.75, so the modeled $347 still holds. The May 2026 values cited ($329.90/$363.90) could not be retrieved.",
+      "source_url": "https://www.fns.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports",
+      "fix": "Replace the S48 URL and title with 'USDA Food Plans: Cost of Food at Home, August 2026 (Low/Moderate/Liberal)'. Update the opex[14] note to 'average of female $329.80 and male $363.70 (Aug 2026)'. Keep monthly at 347."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.startup_costs[0].source_id",
+      "current": "S47",
+      "correct": "S45",
+      "evidence": "The $200 LLC Articles of Organization fee comes from the DOS fee schedule (S45): 'DOMESTIC Articles of Organization $200'. S47 is the IT-204-LL instructions.",
+      "source_url": "https://dos.ny.gov/fee-schedules",
+      "fix": "Change source_id from S47 to S45."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.startup_costs[1].source_id",
+      "current": "S48",
+      "correct": "S46",
+      "evidence": "The publication requirement is LLC Law §206 (S46): 'within one hundred twenty days ... published once in each week for six successive weeks, in two newspapers'. S48 is the USDA food plan.",
+      "source_url": "https://newyork.public.law/laws/n.y._limited_liability_company_law_section_206",
+      "fix": "Change source_id from S48 to S46."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.reimbursement (SSI paragraph)",
+      "current": "DOH's audits of eight adult homes' 2023 financials found results from a $539,207 loss to a $567,319 profit",
+      "correct": "from a $1,397,899 loss to a $567,319 profit",
+      "evidence": "The 2025 Legislative Report audit tables list net results including (1,397,899), (539,207), (13,601), (9,858), 4,917, 75,835 and 567,319. sections.market_conditions already says 'losses of up to $1.4M', so the two sections contradict each other.",
+      "source_url": "https://healthweb-back.health.ny.gov/facilities/adult_care/docs/legislative_report_2025.pdf",
+      "fix": "Replace '$539,207 loss' with '$1,397,899 loss'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.startup_costs[7]",
+      "current": {"item": "Lease security deposit + first month", "low": 35000, "high": 200000},
+      "correct": {"low": 35200, "high": 272000},
+      "evidence": "The item is described as one month's deposit plus first month, which is 2x the modeled occupancy cost. That is 2 x $17,600 = $35,200 at 16 beds and 2 x $136,000 = $272,000 at 80 beds (configurations[4].opex_overrides[0]). The current high of $200,000 does not cover it at 80 beds.",
+      "source_url": null,
+      "fix": "Set high to 272000 (low 35200), or rename the item so the amount matches its description. Operator estimate."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[5].staffing[7] (Activities staff 20 hrs/week, 60 beds)",
+      "current": 86.9,
+      "correct": 130.4,
+      "evidence": "18 NYCRR 487.9(e)(1)(ii): 'In facilities with 50 or more beds, a qualified activities director shall be on staff and on duty on a pro rata basis for 0.5 hour per week per each additional bed, up to 40 hours per week.' Read per bed, 60 beds x 0.5 = 30 hrs/week (130.4 hrs/month). The 80-bed model already uses this reading (0.5 x 80 = 40 hrs). The rule must also be met by a qualified activities director, not general activities staff.",
+      "source_url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-487.9",
+      "fix": "Raise to 130.4 hrs/month and relabel 'Activities director (pro rata, 50+ beds)', or keep 20 hrs with a note to confirm DOH's pro-rata reading. The rule wording is ambiguous ('each additional bed'), so treat as unverifiable if DOH reads it differently. Impact is about -$1,000/month."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.financial_narrative (Sensitivity - Occupancy)",
+      "current": "At the actual statewide average of 79.7% [S27] (the conservative case), ... the mixed SSI model loses about $6,200/month, and the ALP loses about $34,800/month.",
+      "correct": "At 80% (the conservative case, about the 79.7% statewide average) ...",
+      "evidence": "occupancy.conservative = 0.80, and the quoted figures are the model's 80% results (-$6,153 and -$34,817). At exactly 79.7% the model gives -$6,815 and -$35,254.",
+      "source_url": "https://health.data.ny.gov/resource/h5s5-hcxg.json?reporting_year=2026&reporting_quarter=2",
+      "fix": "Change the wording to 'At 80% occupancy (the conservative case, close to the 79.7% statewide average)'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "not_claimed[0]",
+      "current": "No state fee schedule was found in SSL 461-b or 18 NYCRR 485",
+      "correct": null,
+      "evidence": "PHL §4656(6): the ALR fee 'shall be in addition to the fee charged by the department for certification as an adult care facility.' The statute assumes an ACF certification fee exists, but no amount was found.",
+      "source_url": "https://newyork.public.law/laws/n.y._public_health_law_section_4656*2",
+      "fix": "Add to not_claimed[0]: 'PHL 4656(6) refers to a separate fee for ACF certification; the amount is unverifiable - confirm with the Bureau of Licensure.'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[2..4].staffing (ALR case manager wage_hourly 22.69, SOC 21-1093)",
+      "current": 22.69,
+      "correct": null,
+      "evidence": "10 NYCRR 1001.11 and 18 NYCRR 487.9(d)(4) require a case manager with a bachelor's/master's degree and 1 year of experience (or an associate degree and 3 years). SOC 21-1093 (Social and Human Service Assistants, NY median $47,190) is an assistant-level proxy. The research already notes that qualified hires may cost more.",
+      "source_url": "https://www.onetonline.org/link/localwages/21-1093.00?st=NY",
+      "fix": "Unverifiable which SOC fits best. Either keep it with the existing caveat or add a sensitivity line at a degree-level wage (e.g., a social worker SOC median)."
+    }
+  ]
+}

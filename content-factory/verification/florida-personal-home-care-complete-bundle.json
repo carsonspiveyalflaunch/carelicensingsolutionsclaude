@@ -1,0 +1,44 @@
+{
+  "bundle_slug": "florida-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "The research holds up well. Every revenue rate in the financial model matches its primary source: CareScout FL non-medical caregiver $32/hr (rank 39, $73,216 at 44 h/wk, +7%), Medicaid FFS S9122 $17.32/hr, APD S5130UC agency $6.07/QH with 7/1/2024 still the latest APD change, and Pasco-Pinellas AAA $27.00-$29.92 / $26.00-$27.30. Every wage matches BLS OEWS 2025 via O*NET; the hourly figures are the annual figures divided by 2080: aides FL 25th/median/75th $15.16/$16.25/$17.25, Tampa median $16.45 and 75th $17.42, Miami $15.81, Orlando $16.40; RN FL $40.48, Tampa $41.09; Tampa social and community service manager 25th $62,020 and median $77,560; Tampa first-line supervisor of personal service workers $46,250; Tampa medical secretary $43,770 ($21.04/hr). All wages are at or above the $15.00 Florida minimum effective 9/30/2026 (Fla. Const. Art. X s.24), and s.218.077 preempts local minimum wages. Fees check out: HHA $1,705 + $300 assessment (checklist 3110-1011CL), homemaker/companion registration $50.75 + $25 amended certificate, nurse registry $2,000, LLC $100 + $25, LLC annual report $138.75 with a $400 late fee, IRS mileage 72.5 cents. The statutory requirements also check out: $250,000/claim malpractice and liability insurance; CPA-compiled 2-year projections with no month in year 1 at a 15%+ margin; 3 months of average projected expenses with contingency of at least 1 month; non-skilled agencies exempt from accreditation; DON required only for skilled care; RN supervisory visits as needed, with patient consent and agreement to pay; 36.9-month survey cycle; 8 consecutive hours of availability; 40-hour aide training or the 14-task / 90-of-104 competency test; dementia training under s.430.5025, which covers companion/homemaker staff because its definition of personal care includes companion services; nurse registry contractor rules; planning-district service areas for registrants. Contacts verified: (850) 412-4500, 850-412-4503, 1-877-711-3662, 1-800-962-2873. Enrollment and demand figures verified against ENR_202609.xls (176,819 / 125,912 / 50,907; 174,349 the prior month; Dade 61,139, Broward 13,647, Hillsborough 12,746, Palm Beach 11,755, Pinellas 8,844), the APD Q4 FY25-26 report (37,645; 15,504; 9,750; 61.5-61.7% not receiving services) and Census QuickFacts (23,462,518; 22.8%; 8.9%). Recomputing the model reproduces every figure in the narrative: default net, margin, conservative net, break-even occupancy, every sensitivity, the $23.20 and $26.12 LTC break-even rates, $28.88 / $29.69 break-even private prices, the APD 60-client result of +$3,672, first profitable month 10, the $80,219 deficit and the required reserves. No critical issues. The one major issue: S9122 is Florida Medicaid's state-plan personal care benefit for recipients under 21, so it is described wrongly as the adult LTC benchmark. The minor issues are citation and label fixes.",
+  "verified_count": 94,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[3].notes; financial_model.configurations[3].revenue_lines[0]; rates[1].notes; key_numbers[9].value; sections.reimbursement; sections.executive_summary; not_claimed[0]",
+      "current": "S9122 $17.32/hr presented as 'Florida Medicaid's only published hourly personal care rate' and used as the benchmark for SMMC LTC plan rates, with no note of who the benefit covers",
+      "correct": "The $17.32 rate is correct, but S9122 is the Medicaid state-plan Personal Care Services benefit, which covers recipients under age 21 (EPSDT). It is not an adult LTC rate, and SMMC LTC plan rates for adults are negotiated separately.",
+      "evidence": "Rule 59G-4.215 Personal Care Services Coverage Policy: 'Florida Medicaid recipients under the age of 21 years requiring medically necessary personal care...'. The 2026 Personal Care Services Fee Schedule lists S9122 at $17.32/hr.",
+      "source_url": "https://ahca.myflorida.com/content/download/25561/file/59G-4.215%20Personal%20Care%20Services%20Coverage%20Policy_Final_10.8.24.pdf",
+      "fix": "Keep $17.32 as a labeled assumption. Wherever it appears, add: 'S9122 is the fee-for-service state-plan personal care rate for Medicaid recipients under 21 (Rule 59G-4.215); adult LTC plan rates are negotiated, are not published, and may be higher or lower.' Add the coverage policy as a new source. The break-even rate ($23.20/hr at minimum wage) stays as stated."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[1].staffing[2].cite; financial_model.configurations[2].staffing[3].cite; financial_model.configurations[3].staffing[2].cite; checklist[25].cite",
+      "current": "s. 400.487(3), F.S.; Rule 59A-8.0095(5)",
+      "correct": "s. 400.487(3), F.S.; Rule 59A-8.0095(3)(c)-(d)",
+      "evidence": "In Rule 59A-8.0095, subsection (3) 'Registered Nurse', paragraphs (c)-(d), holds the RN supervisory-visit, written-consent and 'on-site supervision as needed' text. Subsection (5) covers home health aides.",
+      "source_url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59A-8-0095",
+      "fix": "Replace 'Rule 59A-8.0095(5)' with 'Rule 59A-8.0095(3)(c)-(d)' in all four places."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[0].opex_overrides; financial_model.configurations[4].opex_overrides",
+      "current": "In the registrant config (hc_private20), the $2.11 registration fee appears under the item 'AHCA HHA biennial license fee + assessment (($1,705 + $300) ÷ 24)'; the registrant and APD configs keep the item name 'Malpractice + general liability insurance ($250,000 per claim minimum)'; and the mileage item says '≈10 miles' while its $3.63 is based on 5 miles",
+      "correct": "Labels should describe the actual cost: the homemaker/companion registration at $50.75 ÷ 24; registrant/APD insurance with no statutory minimum; mileage at ≈5 miles × $0.725",
+      "evidence": "Section 400.509 sets a $50 registration fee (AHCA charges $50.75) and no insurance minimum; the $250,000 minimum in s.400.471(3) applies only to HHAs. Overrides are matched by item name, so the HHA labels carry through to the customer workbook.",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2026/400.509",
+      "fix": "In these configs, override the HHA-fee, HHA-insurance and mileage items to monthly 0. Add new items with correct names: 'AHCA homemaker/companion registration ($50.75 ÷ 24)' 2.11 fixed; 'General liability, non-owned auto and bond (no statutory minimum)' 350 fixed (APD: 400); 'Supervisor mileage (≈5 miles per client-month × $0.725)' 3.63 per_client. Net results do not change."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[30].cite; checklist[50].instructions",
+      "current": "cite 's. 400.464; s. 400.509(5), F.S.'; 'Fines start at $100 ($500 for repeats) for HHAs.'",
+      "correct": "cite 's. 400.464(1), (4)(a); s. 400.509(5), F.S.'; the $100 / $500 advertising fines apply to any licensee or registrant, so registrants are covered too",
+      "evidence": "s.400.464(4)(a): 'A licensee or registrant that offers or advertises ... must include in the advertisement the license number or registration number ... The agency shall assess a fine of not less than $100 ... The fine for a second or subsequent offense is $500.'",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2026/400.464",
+      "fix": "Change the cites to 's. 400.464(1), (4)(a)'. In checklist[50], change 'for HHAs' to 'for HHAs and homemaker/companion registrants'."
+    }
+  ]
+}

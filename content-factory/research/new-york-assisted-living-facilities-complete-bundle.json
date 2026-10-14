@@ -1,0 +1,2958 @@
+{
+  "bundle_slug": "new-york-assisted-living-facilities-complete-bundle",
+  "state": "New York",
+  "state_code": "NY",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Adult Home / Enriched Housing Program with Assisted Living Residence (ALR, EALR, SNALR) licensure; Medicaid Assisted Living Program (ALP)",
+  "as_of": "2026-10",
+  "report_title": "New York Adult Home & Assisted Living Residence — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Social Services Law §461-b — Establishment of adult care facilities (eligible operators incl. LLCs; public need; DOH approval of LLC articles before DOS filing; ownership-transfer approvals)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._social_services_law_section_461-b",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "18 NYCRR §485.5 — Operating certificates (max 4-year term; nontransferable; 120-day closure notice)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-485.5",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "18 NYCRR §485.6 — Application for operating certificate (Part I/Part II, public need factors, 90-day Part I decision, 18-month construction window, ALP application rules)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-485.6",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "18 NYCRR §485.2 — Definitions (adult home and enriched housing = 5 or more adults; family-type home = 4 or fewer; public need)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-485.2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "18 NYCRR §487.9 — Adult home personnel (administrator hours/qualifications, case management, supervision census table, personal care 3.75 hrs, housekeeping 1.0 hr, food service 2.0 hrs)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-487.9",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "18 NYCRR §487.11 — Adult home environmental standards (sprinklers at 25+ beds, bedroom 100/160 sq ft, 1 toilet per 6, 1 bath per 10, call system)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-487.11",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "18 NYCRR §488.9 — Enriched housing program personnel (coordinator, case manager 0.5 hr/resident/week, 6 hrs/resident/week personal care/housekeeping/food)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-488.9",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "Public Health Law §4651 (Art. 46-B) — Assisted living definitions (5 or more residents; 24-hour on-site monitoring; ALP excluded)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_4651*2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Public Health Law §4655 (Art. 46-B) — Enhanced assisted living certification and aging in place",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_4655*2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Public Health Law §4656 (Art. 46-B) — General requirements; ALR biennial fee $500 + $50/resident above 400% FPL (max $5,000); EALR/SNALR $2,000, both $3,000; quality reporting and price posting",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_4656*2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "10 NYCRR §1001.5 — Applications for ALR licensure and EALR/SNALR certification (must also hold AH/EHP certificate; LLC documentation; 60-day response rule; 1-year implementation)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-1001.5",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "10 NYCRR §1001.11 — ALR personnel (case manager 20 hrs/week under 25 beds; aides 40 hrs initial + 12 hrs annual; EALR/SNALR RN/LPN coverage and waiver at 40 or fewer beds)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-1001.11",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Social Services Law §461-l — Assisted living program (eligible applicants; LHCSA/CHHA requirement; PHHPC approval; case-by-case public need from April 1, 2025)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._social_services_law_section_461-l",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "18 NYCRR §494.6 — ALP personnel (designated individual, case manager qualifications, minimum staffing per 487.9(f)(6))",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-494.6",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "18 NYCRR §494.5 — ALP resident services and services inside the Medicaid capitated rate",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-494.5",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Public Health Law §3614(6) — ALP capitated rates = 50% of low-intensity nursing home prices by wage-equalization region",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_3614",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "ALP 2025 Minimum Wage Rate Update — provider-specific ALP per diem rates effective 1/1/2025 by RUG-II category (167 providers)",
+      "publisher": "NYS Department of Health, Office of Health Insurance Programs",
+      "url": "https://healthweb-back.health.ny.gov/facilities/long_term_care/reimbursement/alp/2025/docs/statewide_update.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "ALP Dear Administrator Letter, March 9, 2026 (CY2025 rates; minimum wage add-on; check release 4/1/2026; ALP-Rates@health.ny.gov)",
+      "publisher": "NYS Department of Health",
+      "url": "https://healthweb-back.health.ny.gov/facilities/long_term_care/reimbursement/alp/letters/2026-03-09_dal.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Public Health Law §4403-f — Managed long term care (persons enrolled in the assisted living program are not eligible for MLTC)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_4403-f",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "2026 Maximum Monthly SSI Benefit Amounts (Congregate Care Level 3 $1,688 = $994 federal + $694 state; $262 personal needs allowance)",
+      "publisher": "NYS Office of Temporary and Disability Assistance",
+      "url": "https://www.otda.ny.gov/programs/ssp/2026-Maximum-Monthly-Benefit-Amounts.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Labor Law §652 — Minimum wage ($17.00 NYC/Nassau/Suffolk/Westchester and $16.00 rest of state from January 1, 2026)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._labor_law_section_652",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "Home Care Minimum Wage Increases January 1, 2026 ($19.65 NYC/LI/Westchester; $18.65 rest of state)",
+      "publisher": "LeadingAge New York",
+      "url": "https://leadingageny.org/providers/home-and-community-based-services/lhcsa/home-care-minimum-wage-increases-january-1st-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Adult Care Facility Common Application — training presentation (NYSECON submission, Schedules 1-8, Part I components incl. need for adult homes only, Schedule 4B/4C 90% occupancy projections)",
+      "publisher": "NYS Department of Health",
+      "url": "https://healthweb-back.health.ny.gov/facilities/adult_care/application/docs/training_power_point.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Questions and Answers — ACF Common Application (new construction approval 18 months to 2 years; ALP beds only through announced solicitations)",
+      "publisher": "NYS Department of Health",
+      "url": "https://healthweb-back.health.ny.gov/facilities/adult_care/application/questions_and_answers.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Adult Care Facility and Assisted Living Common Application (schedules, model residency agreements; NYSECON since July 1, 2019)",
+      "publisher": "NYS Department of Health",
+      "url": "https://healthweb-back.health.ny.gov/facilities/adult_care/application/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "2025 Adult Care Facilities Annual Legislative Report (533 ACFs, 386 adult homes at 12/31/2025; regional office contacts; 2023 audited financial results)",
+      "publisher": "NYS Department of Health",
+      "url": "https://healthweb-back.health.ny.gov/facilities/adult_care/docs/legislative_report_2025.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Adult Care Facility Quarterly Statistical Information Report: 2013-Present (Q2 2026: 525 facilities, 51,211 certified beds, 40,810 census)",
+      "publisher": "NYS Department of Health (health.data.ny.gov)",
+      "url": "https://health.data.ny.gov/resource/h5s5-hcxg.json?reporting_year=2026&reporting_quarter=2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Cost of Care Survey 2025 — Median Cost Data Tables (New York assisted living community $7,110/month; private one-bedroom)",
+      "publisher": "CareScout",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "QuickFacts: New York (population 20,002,427 July 1, 2025; persons 65+ 19.3%)",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/quickfacts/fact/table/NY/AGE775224",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Home Health and Personal Care Aides (31-1122) — New York wages, BLS 2025 (median $19.05/hr; Albany $18.07)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/31-1122.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Cooks, Institution and Cafeteria (35-2012) — New York wages, BLS 2025 (median $22.06; Albany $20.94)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/35-2012.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Maids and Housekeeping Cleaners (37-2012) — New York wages, BLS 2025 (median $20.17; Albany $17.18)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/37-2012.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Social and Community Service Managers (11-9151) — New York wages, BLS 2025 (median $95,980; Albany $88,410)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/11-9151.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Social and Human Service Assistants (21-1093) — New York wages, BLS 2025 (median $22.69; Albany $21.87)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/21-1093.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "Registered Nurses (29-1141) — New York wages, BLS 2025 (median $52.62; Albany $48.06)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/29-1141.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Licensed Practical Nurses (29-2061) — New York wages, BLS 2025 (median $32.30)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/29-2061.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Dietitians and Nutritionists (29-1031) — New York wages, BLS 2025 (median $39.66; Albany $38.04)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/29-1031.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Recreation Workers (39-9032) — New York wages, BLS 2025 (median $18.29; Albany $17.02)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/39-9032.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Maintenance and Repair Workers, General (49-9071) — New York wages, BLS 2025 (median $27.79; Albany $23.79)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/49-9071.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "Social Security & Medicare tax rates (employer 7.65%)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/progdata/taxRates.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "Topic no. 759, Form 940 — FUTA (6.0% on first $7,000; up to 5.4% credit)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/taxtopics/tc759",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Unemployment insurance rate information (2026 new-employer rate 4.025% + 0.075% Re-employment Services Fund = 4.1%)",
+      "publisher": "NYS Department of Labor",
+      "url": "https://dol.ny.gov/unemployment-insurance-rate-information",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "2026 state unemployment insurance taxable wage bases (New York $17,600)",
+      "publisher": "EY Tax News",
+      "url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "Labor Law §196-b — Paid sick leave (40 hrs for 5-99 employees; 56 hrs for 100+)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._labor_law_section_196-b",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Fee schedules — Department of State (LLC Articles of Organization $200; Biennial Statement $9)",
+      "publisher": "NYS Department of State",
+      "url": "https://dos.ny.gov/fee-schedules",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Limited Liability Company Law §206 — Publication requirement (6 weeks, 2 newspapers, within 120 days)",
+      "publisher": "NY Legislature (via NewYork.Public.Law)",
+      "url": "https://newyork.public.law/laws/n.y._limited_liability_company_law_section_206",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "Instructions for Form IT-204-LL — LLC filing fee table ($25 to $4,500 by NY-source gross income)",
+      "publisher": "NYS Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov/pdf/current_forms/it/it204lli.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "USDA Food Plans: Cost of Food at Home, August 2026 (Low/Moderate/Liberal)",
+      "publisher": "USDA Food and Nutrition Service",
+      "url": "https://www.fns.usda.gov/sites/default/files/resource-files/CostofFoodAug2026LowModLib.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Get an employer identification number",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "CY 2026 provider enrollment application fee ($750) — Federal Register Vol. 90 No. 230",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Family Type Homes for Adults (FTHA) — up to four residents; OCFS/HRA program",
+      "publisher": "NYC ACCESS NYC",
+      "url": "https://access.nyc.gov/programs/family-type-homes-for-adults-ftha/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "Adult Care Facilities/Assisted Living — DOH program page (complaint line 1-866-893-6772; Do Not Refer List; ALR quality site; public comment on pending ALR applications)",
+      "publisher": "NYS Department of Health",
+      "url": "https://healthweb-back.health.ny.gov/facilities/adult_care/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "18 NYCRR §485.7 — Renewal of operating certificates (apply 45-90 days before expiration)",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-485.7",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "18 NYCRR §494.2 — ALP definitions (5 or more eligible adults; capitated rate under PHL 3614(6))",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-494.2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "Minimum Wage for Home Care Aides (FARE Grant) — $20.00 / $19.00 effective 1/1/2027",
+      "publisher": "NYS Department of Labor",
+      "url": "https://dol.ny.gov/minimum-wage-home-care-aides-fare-grant",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "Minimum Wage — general rates stay the same on January 1, 2027",
+      "publisher": "NYS Department of Labor",
+      "url": "https://dol.ny.gov/minimum-wage-0",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "18 NYCRR §487.4 — Adult home admission standards",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-487.4",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "10 NYCRR §1001.13 — ALR structural and environmental standards",
+      "publisher": "Cornell LII (NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-1001.13",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "Healthcare Social Workers (21-1022) — New York wages, BLS 2025 (median $73,070/yr = $35.13/hr; Albany $67,190 = $32.30/hr)",
+      "publisher": "O*NET OnLine / BLS",
+      "url": "https://www.onetonline.org/link/localwages/21-1022.00?st=NY",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License structure",
+      "value": "Adult home or enriched housing operating certificate (18 NYCRR 485-488) + Assisted Living Residence license (PHL Art. 46-B, 10 NYCRR 1001); EALR/SNALR add-ons; ALP is separate (SSL 461-l)",
+      "source_id": "S10",
+      "as_of": "2026",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S13"
+      ]
+    },
+    {
+      "metric": "Minimum size",
+      "value": "5 or more adults (adult home, EHP, ALR); 4 or fewer = family-type home, not assisted living",
+      "source_id": "S4",
+      "as_of": "current rule",
+      "source_ids": [
+        "S4",
+        "S8"
+      ]
+    },
+    {
+      "metric": "Public need review",
+      "value": "Required for new adult homes; DOH may deny on need alone; new ALP beds case-by-case on need since 4/1/2025",
+      "source_id": "S3",
+      "as_of": "current rule",
+      "source_ids": [
+        "S3",
+        "S13"
+      ]
+    },
+    {
+      "metric": "Approval timeline",
+      "value": "Part I decision within 90 days of a complete file; DOH estimates 18 months-2 years for new construction",
+      "source_id": "S24",
+      "as_of": "2026",
+      "source_ids": [
+        "S3",
+        "S24"
+      ]
+    },
+    {
+      "metric": "ALR licensure fee (paid with application, then biennially)",
+      "value": "$500 + $50 per resident above 400% FPL (max $5,000); EALR or SNALR +$2,000; both +$3,000",
+      "source_id": "S10",
+      "as_of": "current statute"
+    },
+    {
+      "metric": "24-hour supervision floor",
+      "value": "1 staff on site 24/7 for census 1-40; 2 for 41-80; personal care ≥3.75 hrs, housekeeping ≥1.0, food ≥2.0 hrs per resident per week",
+      "source_id": "S5",
+      "as_of": "current rule"
+    },
+    {
+      "metric": "Supply and occupancy",
+      "value": "525 ACFs reporting, 51,211 certified beds, 40,810 residents (79.7%); median 81 beds",
+      "source_id": "S27",
+      "as_of": "Q2 2026"
+    },
+    {
+      "metric": "Private-pay benchmark",
+      "value": "$7,110/month NY assisted living median (private one-bedroom, AL community)",
+      "source_id": "S28",
+      "as_of": "2025"
+    },
+    {
+      "metric": "SSI Congregate Care Level 3",
+      "value": "$1,688/month ($994 federal + $694 state); $262 personal needs allowance → facility keeps ≈ $1,426",
+      "source_id": "S20",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "ALP Medicaid per diem (1/1/2025, 167 providers)",
+      "value": "Statewide median PA $65.04 to RB $118.60/day; Albany PB median $75.03; NYC PB median $113.39",
+      "source_id": "S17",
+      "as_of": "2025-01-01 (paid 4/1/2026)",
+      "source_ids": [
+        "S17",
+        "S18"
+      ]
+    },
+    {
+      "metric": "Minimum wage 2026 / aide wage",
+      "value": "$17.00 NYC-LI-Westchester, $16.00 rest of state; BLS 2025 NY aide median $19.05; home care aide minimum $19.65/$18.65",
+      "source_id": "S21",
+      "as_of": "2026-01-01",
+      "source_ids": [
+        "S21",
+        "S30",
+        "S22"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "An adult care facility (adult home/EHP) operating certificate application fee. No state fee schedule was found in SSL 461-b or 18 NYCRR 485; only the ALR/EALR/SNALR fees in PHL 4656(6) are verified. Confirm with the Bureau of Licensure. PHL 4656(6) refers to a separate fee for ACF certification; the amount is unverifiable - confirm with the Bureau of Licensure.",
+    "Actual DOH processing times beyond the rule clocks (90-day Part I decision after a complete file) and DOH's published 18-month-to-2-year estimate for new construction.",
+    "County-level public need determinations, bed-need numbers or waiting lists. DOH applies the 485.6(c) factors case by case and publishes no bed-need table for adult homes.",
+    "Whether a new enriched housing program needs a public need review. DOH's training lists need for adult homes only, but 485.6 and 461-b(2) are not explicit for EHP; confirm with DOH.",
+    "Regional (metro-level) private-pay assisted living prices for New York. CareScout's 2025 tables used here are state-level; the $7,110 median is for a private one-bedroom in an AL community and may overstate what small adult homes can charge.",
+    "ALP case mix (share of residents in each RUG-II category) for any facility. The ALP model assumes the Albany PB median as an average; actual revenue depends on assessed case mix.",
+    "2026 ALP rates. The latest posted file is the 1/1/2025 rate update (released 2026).",
+    "Occupancy cost (lease or debt service) for licensed adult home/ALR buildings, real estate taxes, insurance premiums, utilities and other overhead lines marked 'operator estimate'. No citable NY rent survey exists for licensed congregate buildings.",
+    "Statutory minimum liability insurance limits for NY adult homes or ALRs. None were found.",
+    "A workers' compensation rate for NY residential care classifications; 5% of payroll is an operator estimate.",
+    "Whether Medicaid EVV requirements apply to ALP personal care delivered in the ALP setting. Not verified; confirm with DOH.",
+    "Whether a given facility is subject to the Justice Center (and therefore SEL/SCR checks). It depends on facility type and population; confirm with DOH.",
+    "Market shares, named competitors, or individual facility pricing. No public aggregate source; facility-level ALR price postings exist but were not compiled.",
+    "Break-even month or payback for a specific property. The P&L generator computes these from the inputs, and they will vary by site.",
+    "The CMS $750 CY2026 application fee is federal. Whether NY Medicaid collects it from a new ALP at enrollment was not confirmed."
+  ],
+  "regulators": [
+    {
+      "name": "NYS Department of Health — Division of Adult Care Facility and Assisted Living Surveillance (Central Office)",
+      "role": "Policy and executive oversight of adult homes, enriched housing, ALRs and ALPs",
+      "url": "https://www.health.ny.gov/facilities/adult_care/",
+      "phone": "(518) 408-1133",
+      "email": "acfinfo@health.ny.gov",
+      "source_id": "S26"
+    },
+    {
+      "name": "NYS DOH — Bureau of Adult Care Facility Licensure and Certification",
+      "role": "Reviews ACF Common Applications (new facilities, ALR/EALR/SNALR, ALP, changes of ownership); issues operating certificates",
+      "url": "https://www.health.ny.gov/facilities/adult_care/application/",
+      "phone": "(518) 408-1624",
+      "email": "acfcon@health.ny.gov",
+      "source_id": "S26"
+    },
+    {
+      "name": "NYS DOH Regional Offices (Capital District, Central NY, Western NY, Metropolitan Area)",
+      "role": "Part II program review, pre-opening and recertification surveys, complaints",
+      "url": "https://www.health.ny.gov/facilities/adult_care/docs/legislative_report_2025.pdf",
+      "phone": "Capital (518) 408-5287; Central (315) 477-8472; Western (585) 423-8188; Metro (212) 417-4440",
+      "email": "acfcdro@health.ny.gov; syradulthomes@health.ny.gov; acfwro@health.ny.gov; acfmaro@health.ny.gov",
+      "source_id": "S26"
+    },
+    {
+      "name": "NYS DOH Office of Health Insurance Programs — Bureau of Nursing Home & Long-Term Care Rate Setting",
+      "role": "Sets ALP Medicaid capitated rates",
+      "url": "https://www.health.ny.gov/facilities/long_term_care/reimbursement/alp/",
+      "phone": "",
+      "email": "ALP-Rates@health.ny.gov",
+      "source_id": "S18"
+    },
+    {
+      "name": "Public Health and Health Planning Council (PHHPC)",
+      "role": "Approves new LHCSA licensure required for ALP applicants",
+      "url": "https://www.health.ny.gov/facilities/public_health_and_health_planning_council/",
+      "phone": "",
+      "email": "",
+      "source_id": "S13"
+    },
+    {
+      "name": "NYS Office of Temporary and Disability Assistance (OTDA)",
+      "role": "SSI state supplement (Congregate Care Level 3) amounts",
+      "url": "https://www.otda.ny.gov/programs/ssp/",
+      "phone": "",
+      "email": "",
+      "source_id": "S20"
+    },
+    {
+      "name": "NYS Department of State — Division of Corporations",
+      "role": "Files LLC articles (after DOH approval of purpose language) and biennial statements",
+      "url": "https://dos.ny.gov/fee-schedules",
+      "phone": "",
+      "email": "",
+      "source_id": "S45"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Social Services Law §461-b",
+      "title": "Establishment of adult care facilities; eligible operators; public need; ownership changes",
+      "url": "https://newyork.public.law/laws/n.y._social_services_law_section_461-b",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Social Services Law §461-l",
+      "title": "Assisted living program (Medicaid)",
+      "url": "https://newyork.public.law/laws/n.y._social_services_law_section_461-l",
+      "source_id": "S13"
+    },
+    {
+      "cite": "Public Health Law Art. 46-B (§§4651, 4655, 4656)",
+      "title": "Assisted living residences; EALR/SNALR; fees; quality reporting",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_4656*2",
+      "source_id": "S10"
+    },
+    {
+      "cite": "Public Health Law §3614(6)",
+      "title": "ALP capitated rate methodology",
+      "url": "https://newyork.public.law/laws/n.y._public_health_law_section_3614",
+      "source_id": "S16"
+    },
+    {
+      "cite": "18 NYCRR Part 485 (§§485.2, 485.5, 485.6, 485.7)",
+      "title": "Adult care facilities — general provisions, certificates, applications, renewal",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-485.6",
+      "source_id": "S3"
+    },
+    {
+      "cite": "18 NYCRR Part 487 (§§487.4, 487.9, 487.11)",
+      "title": "Standards for adult homes — admission, personnel, environment",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-487.9",
+      "source_id": "S5"
+    },
+    {
+      "cite": "18 NYCRR Part 488 (§488.9)",
+      "title": "Standards for enriched housing programs — personnel",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-488.9",
+      "source_id": "S7"
+    },
+    {
+      "cite": "18 NYCRR Part 494",
+      "title": "Assisted living programs",
+      "url": "https://www.law.cornell.edu/regulations/new-york/18-NYCRR-494.6",
+      "source_id": "S14"
+    },
+    {
+      "cite": "10 NYCRR Part 1001 (§§1001.5, 1001.11, 1001.13)",
+      "title": "Assisted living residences — applications, personnel, structural standards",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-1001.5",
+      "source_id": "S11"
+    },
+    {
+      "cite": "Labor Law §652; §196-b",
+      "title": "Minimum wage; paid sick leave",
+      "url": "https://newyork.public.law/laws/n.y._labor_law_section_652",
+      "source_id": "S21"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3323 (PA)",
+      "service": "ALP capitated per diem, RUG-II PA Reduced Physical Functioning A — statewide median of 167 provider rates",
+      "rate": 65.04,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3325 (PB)",
+      "service": "ALP capitated per diem, RUG-II PB Reduced Physical Functioning B — statewide median of 167 provider rates",
+      "rate": 80.03,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3327 (PC)",
+      "service": "ALP capitated per diem, RUG-II PC Reduced Physical Functioning C — statewide median of 167 provider rates",
+      "rate": 88.29,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3329 (PD)",
+      "service": "ALP capitated per diem, RUG-II PD Reduced Physical Functioning D — statewide median of 167 provider rates",
+      "rate": 94.25,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3331 (PE)",
+      "service": "ALP capitated per diem, RUG-II PE Reduced Physical Functioning E — statewide median of 167 provider rates",
+      "rate": 103.48,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3309 (CA)",
+      "service": "ALP capitated per diem, RUG-II CA Clinically Complex A — statewide median of 167 provider rates",
+      "rate": 75.22,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3311 (CB)",
+      "service": "ALP capitated per diem, RUG-II CB Clinically Complex B — statewide median of 167 provider rates",
+      "rate": 93.94,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3313 (CC)",
+      "service": "ALP capitated per diem, RUG-II CC Clinically Complex C — statewide median of 167 provider rates",
+      "rate": 99.88,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3315 (CD)",
+      "service": "ALP capitated per diem, RUG-II CD Clinically Complex D — statewide median of 167 provider rates",
+      "rate": 112.79,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3317 (BA)",
+      "service": "ALP capitated per diem, RUG-II BA Severe Behavioral A — statewide median of 167 provider rates",
+      "rate": 75.01,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3319 (BB)",
+      "service": "ALP capitated per diem, RUG-II BB Severe Behavioral B — statewide median of 167 provider rates",
+      "rate": 88.29,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3321 (BC)",
+      "service": "ALP capitated per diem, RUG-II BC Severe Behavioral C — statewide median of 167 provider rates",
+      "rate": 97.45,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3301 (RA)",
+      "service": "ALP capitated per diem, RUG-II RA Heavy Rehabilitation A — statewide median of 167 provider rates",
+      "rate": 110.02,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3303 (RB)",
+      "service": "ALP capitated per diem, RUG-II RB Heavy Rehabilitation B — statewide median of 167 provider rates",
+      "rate": 118.6,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3305 (SA)",
+      "service": "ALP capitated per diem, RUG-II SA Special Care A — statewide median of 167 provider rates",
+      "rate": 107.85,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program (fee-for-service)",
+      "code": "Rate code 3307 (SB)",
+      "service": "ALP capitated per diem, RUG-II SB Special Care B — statewide median of 167 provider rates",
+      "rate": 117.2,
+      "unit": "per day",
+      "effective": "2025-01-01 (2025 minimum wage update, paid 4/1/2026)",
+      "notes": "Provider-specific; excludes room and board (resident pays from SSI/income). Medians computed from the DOH statewide file.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program",
+      "code": "Rate code 3325 (PB)",
+      "service": "ALP per diem, RUG PB — Albany WEF region median (17 providers)",
+      "rate": 75.03,
+      "unit": "per day",
+      "effective": "2025-01-01",
+      "notes": "Used in the 60-bed Albany ALP model. Regional range $71.99-$80.03.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "NY Medicaid — Assisted Living Program",
+      "code": "Rate code 3325 (PB)",
+      "service": "ALP per diem, RUG PB — NYC WEF region median (44 providers)",
+      "rate": 113.39,
+      "unit": "per day",
+      "effective": "2025-01-01",
+      "notes": "NYC range $101.07-$176.89.",
+      "source_id": "S17"
+    },
+    {
+      "payer": "SSI + NYS supplement (paid by resident)",
+      "code": "Congregate Care Level 3",
+      "service": "Monthly SSI benefit for adult home / enriched housing residents",
+      "rate": 1688,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "$994 federal + $694 state; resident keeps at least $262 personal needs allowance, so the facility receives about $1,426.",
+      "source_id": "S20"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "New York assisted living community median (private one-bedroom)",
+      "rate": 7110,
+      "unit": "per month",
+      "effective": "2025 survey",
+      "notes": "CareScout 2025 state median; not a regulated rate.",
+      "source_id": "S28"
+    }
+  ],
+  "sections": {
+    "executive_summary": "### Opportunity snapshot\nNew York does not license \"assisted living\" as a stand-alone business. An operator first needs a Department of Health (DOH) **adult care facility operating certificate**, as an **adult home** (18 NYCRR Part 487) or an **enriched housing program** (Part 488). To call itself assisted living, the same operator also needs an **Assisted Living Residence (ALR) license** under Public Health Law Article 46-B and 10 NYCRR Part 1001. **Enhanced ALR (EALR)** and **Special Needs ALR (SNALR)** are add-on certifications on top of that [S10][S11]. The Medicaid-funded **Assisted Living Program (ALP)** is a separate approval. It needs an adult home or enriched housing certificate *plus* a licensed home care services agency (LHCSA) under identical ownership, and new ALP beds are awarded only where DOH finds public need [S13].\n\nThree facts shape this market. First, the minimum size is **5 residents**, and the state has no small-home assisted living tradition. Only 11 of the 523 facilities reporting a capacity in Q2 2026 had 15 or fewer beds, and the median facility has 81 beds [S4][S27]. Second, new adult homes face a **public need review**, and DOH may deny an application on need alone [S3]. Third, DOH says a new-construction project can take **18 months to 2 years** to reach full approval [S24]. This is a capital-intensive, slow-to-license business, not a quick residential-home startup.\n\nThe market is large but not tight. DOH counted 533 licensed adult care facilities (386 adult homes) at the end of 2025 [S26]. The Q2 2026 census shows 40,810 residents in 51,211 certified beds, or **79.7% occupancy statewide** (NYC 84.1%, rest of state 77.7%) [S27]. Private pay drives profit: the CareScout 2025 New York assisted living median is **$7,110/month** [S28]. By contrast, an SSI resident brings the facility about $1,426/month ($1,688 Level 3 benefit less the $262 personal needs allowance) [S20].\n\n**Bottom line from the pro forma (85% occupancy):** private-pay adult home + ALR models from 16 to 80 beds are profitable at the CareScout median price with rule-compliant staffing. Profit ranges from about +$21,000/month (16 beds) to +$162,000/month (80 beds). The result depends on actually charging around $7,110: break-even prices are about $5,570 (16 beds) and $5,290 (48 beds). Holding 30% of beds for SSI residents drops a 48-bed model to roughly break-even. A 60-bed Medicaid ALP in the Albany region loses money at the median Albany ALP rate for RUG category PB. It needs a case mix that averages about $93/day to break even.\n",
+    "service_model": "### Who is served\nAdult care facilities serve adults who do not need continual medical or nursing care but, because of age, physical or mental limitations, are unable or substantially unable to live independently [S4]. Adult homes may not admit or keep residents who need continual nursing care, are chronically bedfast, have chronic unmanaged incontinence, or are a danger to themselves or others [S57]. EALR certification lets residents **age in place** beyond those limits. This requires a physician's report and agreement that their needs can be safely met, and they must still not need 24-hour skilled nursing [S9]. SNALR serves residents with dementia or other special needs in a fixed, dedicated area [S11].\n\n### License and certification types (real names)\n| Layer | Statute / rule | What it allows | Who can hold it |\n|---|---|---|---|\n| Adult home | SSL Art. 7; 18 NYCRR 485-487 | Room, board, housekeeping, personal care, supervision for 5+ adults | Natural persons, partnerships of natural persons, NFPs, closely held business corporations, eligible LLCs [S1] |\n| Enriched housing program | 18 NYCRR 485, 488 | Same services in community-integrated, apartment-like units for 5+ adults, mostly 65+ | Same as above (SSL 461-b(1)(a)); older reg text still lists only public/NFP operators [S1][S2] |\n| Assisted Living Residence (ALR) | PHL 4651-4656; 10 NYCRR 1001 | Use of the term \"assisted living\"; 24-hour on-site monitoring; case management; individualized service plans | Must also hold an AH or EHP certificate [S8][S10] |\n| Enhanced ALR / Special Needs ALR | PHL 4655; 10 NYCRR 1001.5, 1001.11 | Aging in place / dementia care; RN and LPN coverage | Must be an ALR [S9][S12] |\n| Assisted Living Program (ALP) | SSL 461-l; 18 NYCRR 494; PHL 3614(6) | Medicaid capitated services for nursing-home-eligible residents | AH or EHP + LHCSA/CHHA with identical owners; serves 5 or more eligible adults [S13][S54] |\n| Family-type home for adults | 18 NYCRR 489 | 4 or fewer residents | Natural persons only; not an ALF [S51][S1] |\n\nNote the conflict in the rules. The regulation at 18 NYCRR 485.5(b) still says only natural persons, partnerships, NFPs and public bodies may be operators [S2]. The statute, SSL 461-b(1)(a), now expressly allows closely held business corporations and LLCs whose members are natural persons [S1]. DOH's ALR rule asks LLC applicants to certify eligibility under 461-b(1)(a) [S11], and the statute controls.\n\n### Size reality\nBecause every facility needs at least one person awake and on site 24 hours a day [S5], plus an approved administrator and (for an ALR) a case manager on site at least 20 hours a week [S12], fixed costs are heavy. That is why New York facilities are large: in Q2 2026, 401 of the 523 facilities reporting a capacity had 50+ beds and only 30 had 24 or fewer [S27]. The smallest configuration modeled here is 16 beds.\n",
+    "licensing_pathway": "### Step-by-step pathway (adult home + ALR)\nAll new adult care facility, ALR and ALP applications use one **ACF Common Application**, uploaded to NYSECON. The original signature page is mailed to DOH at 875 Central Avenue, Albany [S23][S25].\n\n1. **Feasibility and need.** Pull county occupancy from the DOH quarterly census [S27] and assemble need evidence. For adult homes, DOH weighs beds and occupied beds per 1,000 residents 65+, SSI recipients in adult homes, occupancy, people awaiting placement, local recommendations and alternatives such as home care. DOH may deny on lack of need before reviewing anything else [S3]. DOH's training lists the need component for adult homes only [S23].\n2. **Entity.** Use an eligible structure [S1]. If you use an LLC, DOH must approve the articles of organization (with the required purpose language) *before* the Department of State files them [S1]. The DOS filing fee is $200 [S45]. Publication in two newspapers must follow within 120 days [S46].\n3. **Site and design.** Get site control with DOH-required lease language [S3][S23]. A NY architect/PE certifies the design (Schedules 5B/5C) [S23]. Adult home standards: bedrooms of 100 sq ft (single) or 160 sq ft (double); 1 toilet per 6 and 1 bath per 10 residents; call systems; sprinklers at 25+ beds [S6]. ALRs also follow 10 NYCRR 1001.13 [S58].\n4. **Part I (Schedules 1-5).** This covers character and competence, legal, financial (two-year start-up projections and a 12-month budget at 90% occupancy), architectural review, and need for adult homes [S23]. Pay the ALR fee up front: **$500 + $50 per resident above 400% of the federal poverty level, max $5,000, every two years**. EALR or SNALR adds $2,000, or $3,000 for both [S10][S11]. DOH decides Part I within **90 days of receiving all required information**, including recommendations from local and state agencies [S3]. For ALR applications, answer information requests within 60 days or risk administrative withdrawal and loss of fees [S11].\n5. **Part II (Schedule 6).** Submit within 90 days of Part I approval. It covers administration and staffing plans, resident services, admission/residency agreements (DOH models exist), disaster plan, food, housekeeping and maintenance plans. The regional office reviews it [S3][S25]. Part I and Part II may be reviewed at the same time [S23].\n6. **Construction (if any).** Report start and completion dates within 90 days of Part II approval. Completion must come within 18 months of Part II approval, with progress reports every 90 days [S3].\n7. **Final inspections.** At least 30 days before opening, request the architectural inspection (after fire systems are operating) and then the facility inspection. Before the final inspection, the administrator must be DOH-approved, hiring must be complete and local code compliance must be documented [S3].\n8. **Operating certificate and ALR license.** These are issued after all conditions are met. Certificates run up to 4 years and are not transferable [S2]. An ALR approval lapses if the residence is not licensed and operating within one year [S11].\n\n### Realistic timeline\n- **Rule clocks:** 90 days for the Part I decision after a complete file, 90 days to file Part II, 30 days' notice for final inspection, and 18 months for construction [S3].\n- **DOH's own estimate:** 18 months to 2 years for full approval of a new-construction project, including local permits [S24].\n- A conversion of an existing compliant building avoids the construction window but still goes through Part I, Part II and a final inspection. Actual processing times are not published.\n\n### Fee and cost summary\n| Item | Amount | When paid | Source |\n|---|---|---|---|\n| LLC articles of organization | $200 | At DOS filing (after DOH approves purpose language) | [S45] |\n| LLC publication | Varies by county | Within 120 days of formation | [S46] |\n| ALR licensure fee | $500 + $50 per resident above 400% FPL (max $5,000) | With the application; then biennially | [S10] |\n| EALR or SNALR certification | +$2,000 (both: +$3,000) | With the application; then biennially | [S10] |\n| Adult home / EHP operating certificate | No state fee identified (see Not Claimed) | — | — |\n| NY LLC filing fee | $25-$4,500/yr by NY gross income ($1,500 at $1M-$5M) | Annually | [S47] |\n\n### ALP pathway (Medicaid)\nNew ALP beds have been approved **case by case since April 1, 2025**, when DOH finds public need at the time and place proposed. DOH can weigh regional ACF and ALP occupancy and how much the project serves Medicaid [S13]. The applicant must hold or apply for an AH/EHP certificate *and* a LHCSA (or CHHA/LTHHCP) license with identical ownership. A new LHCSA needs Public Health and Health Planning Council approval [S13]. The application also needs a proposed contract with the local social services district [S3]. Medicaid enrollment begins only after full approval [S23]. Existing ALPs in good standing may add up to 9 beds under a 90-day expedited review [S13].\n",
+    "reimbursement": "### How money flows\n**1. Private pay (the profit engine).** Most adult home/ALR revenue at the margin is private pay. CareScout's 2025 survey puts the New York assisted living median at **$7,110/month** ($85,320/year). That figure is for a private one-bedroom in an assisted living community [S28]. Small adult homes with shared rooms or fewer amenities may price below it. Use local competitor pricing. ALRs must post their starting monthly service rate and rent range publicly [S10].\n\n**2. SSI residents.** Adult homes and enriched housing take residents on SSI at the state's **Congregate Care Level 3** rate. In 2026 that is $1,688/month ($994 federal + $694 state supplement), and the resident keeps at least $262 as a personal needs allowance [S20]. The facility therefore receives about **$1,426/month for room, board and all services**. That is roughly 20% of the private-pay median, and it is why SSI-heavy adult homes run thin. DOH's audits of eight adult homes' 2023 financials found results from a $1,397,899 loss to a $567,319 profit, with several near break-even [S26].\n\n**3. Medicaid Assisted Living Program (ALP).** For ALP residents, Medicaid pays a **capitated per diem** for personal care, home health aide, nursing, therapies, medical supplies and adult day health care [S15]. The resident still pays room and board from SSI/income. Rates are set by DOH by **RUG-II category** and wage-equalization region at **50% of low-intensity nursing home prices** [S16]. They are provider-specific and published in a statewide file [S17]. ALP enrollees are **excluded from managed long-term care**, so ALP is billed fee-for-service rather than through MLTC plans [S19]. Rates effective **1/1/2025**, with the 2025 minimum-wage add-on built in, were released in cycle 2534 with checks on 4/1/2026 [S18]. No 2026 rate file had been posted when this research was done.\n\n### ALP rate context (1/1/2025, 167 providers) [S17]\n| RUG-II category | Rate code | Statewide median/day | Range |\n|---|---|---|---|\n| PA Reduced Physical Functioning A | 3323 | $65.04 | $49.75-$153.34 |\n| PB Reduced Physical Functioning B | 3325 | $80.03 | $62.61-$176.89 |\n| CA Clinically Complex A | 3309 | $75.22 | $58.39-$168.83 |\n| BA Severe Behavioral A | 3317 | $75.01 | $58.06-$168.26 |\n| RA Heavy Rehabilitation A | 3301 | $110.02 | $86.77-$221.57 |\n| RB Heavy Rehabilitation B | 3303 | $118.60 | $93.61-$235.11 |\n\nRegional spread is large. The PB median is $113.39/day in NYC, $100.87 on Long Island, $93.58 in Westchester and $75.03 in the Albany region [S17].\n\n**4. What is not available.** The ALR license itself carries no Medicaid funding; Medicaid reaches assisted living mainly through ALP beds [S8][S13]. The SSL 461-l(3)(n) dementia voucher program for non-Medicaid SNALR residents is \"subject to appropriations\" and was not modeled [S13].\n",
+    "demand": "### Population\nNew York had about 20.0 million residents on July 1, 2025, and 19.3% are 65 or older (Census QuickFacts) [S29]. That is roughly 3.9 million older adults.\n\n### Supply and occupancy (official census)\nDOH's Q2 2026 quarterly statistical report shows [S27]:\n- **525 facilities reporting, 51,211 certified beds, 40,810 residents (79.7% occupied).**\n- NYC: 85 facilities, 12,177 beds, 84.1% occupied. Long Island/Westchester: 145 facilities, 15,906 beds, 79.1%. Rest of state: 295 facilities, 23,128 beds, 77.7%.\n- Certified capacity within these facilities includes 26,572 ALR beds (270 facilities), 13,215 EALR beds (218), 7,449 SNALR beds (203) and 14,840 ALP beds (161), with 12,770 ALP residents (86.1%).\n- Size: median 81 beds; only 30 of 523 facilities reporting a capacity have 24 or fewer beds.\n\nDOH separately reports 533 licensed ACFs, including 386 adult homes and zero residences for adults, as of 12/31/2025 [S26].\n\n**What this means for demand:** statewide, about one in five certified beds is empty. That is exactly the kind of data DOH uses to judge public need for new adult home beds [S3]. A new entrant must win residents from existing operators or target a county or niche (dementia, aging-in-place, Medicaid ALP) where occupancy is higher. Check your county in the dataset before you sign anything.\n\n### Referral sources\nHospital discharge planners, nursing home transitions, elder-law attorneys, geriatric care managers and family self-referral drive private-pay placements. Social services districts, hospitals and OMH facilities refer SSI/Medicaid residents. These referrers are barred from referring to facilities on DOH's Do Not Refer List [S52], so a clean survey record matters. ALP admissions require an assessment showing the person would otherwise need nursing home placement [S13].\n",
+    "operations": "### Staffing rules that drive cost (adult home) [S5]\n| Function | Rule minimum |\n|---|---|\n| 24-hour supervision | Staff on duty and on site 24 hours: 1 (census 1-40), 2 (41-80), 3 (81-150), 4 (151-200), plus 1 per additional 60 |\n| Administrator | DOH-approved; on duty at least 20 hrs/week (24 beds or fewer) or 40 hrs/week (25+); 60 hrs CE every 2 years |\n| Case management / activities | The administrator may be designated under 50 beds; qualified staff required at 50+ |\n| Personal care | At least 3.75 hrs per resident per week, on day and evening shifts |\n| Housekeeping | At least 1.0 hr per resident per week |\n| Food service | At least 2.0 hrs per resident per week, never under 35 hrs/week; food service manager; dietitian consultant under written agreement |\n| First aid | At least one first-aid-qualified person on site at all times |\n\n**ALR additions [S12]:** a qualified case manager on site at least 20 hrs/week under 25 beds, rising to 40 hrs at 45+ beds. Resident aides need **40 hours of initial training** and **12 hours of in-service a year**. **EALR/SNALR:** an RN on duty on site 8 hrs/day, 5 days/week, an LPN 8 hrs/day for the rest of the week, and an RN on call 24/7. Homes of 40 beds or fewer can request a waiver of the on-site minimum.\n\n**Enriched housing [S7]:** program coordinator at 1.5 hrs/resident/week for the first 16 residents, then 1 hr; case manager 0.5 hr/resident/week; and 6 hrs/resident/week of combined personal care, housekeeping and food staff.\n\n**ALP [S14][S15]:** keeps at least the adult home supervision levels and adds a designated program director, a qualified case manager (RN, MSW, or degree plus experience), and home-care-trained personal care staff. Nursing and therapies are part of the capitated service package.\n\n### Other required systems and practices\n- Annual health statement and TB screening for every employee [S5].\n- Background checks: criminal history record checks, and the Justice Center Staff Exclusion List and State Central Register where the facility is subject to the Justice Center [S5].\n- Quarterly census reports to DOH [S27]. ALR quality-measure reporting and public posting of prices [S10].\n- Operating certificate renewal 45-90 days before expiration [S53]. Annual or 18-month recertification surveys [S26].\n\n### Wages (BLS OEWS 2025, New York median) [S30]-[S39]\nHome health & personal care aides $19.05; institutional cooks $22.06; housekeepers $20.17; social & community service managers $95,980/yr; social & human service assistants $22.69; LPNs $32.30; RNs $52.62; dietitians $39.66; recreation workers $18.29; maintenance workers $27.79. All exceed the 2026 minimum wage of $17.00 (NYC, Nassau, Suffolk, Westchester) and $16.00 (rest of state) [S21]. Aides employed by a LHCSA, which includes ALP personal care, must be paid the home care aide minimum: $19.65 downstate and $18.65 elsewhere in 2026 [S22], rising to $20.00/$19.00 in 2027 [S55].\n",
+    "market_conditions": "### Supply\nNew York's adult care system is mature and large-facility based: 51,211 certified beds in 525 reporting facilities with a median of 81 beds [S27]. About half of all certified beds also carry ALR licensure (26,572), and EALR, SNALR and ALP capacity are each in the thousands [S27].\n\n### Pricing\n- Private pay: $7,110/month NY assisted living median (CareScout 2025, private one-bedroom) [S28].\n- SSI: $1,688/month Level 3 benefit, of which the facility receives about $1,426 after the $262 personal needs allowance [S20].\n- ALP: provider-specific per diems from $49.75 to $235.11 (1/1/2025), with large NYC/downstate premiums [S17].\n\n### Wages and labor policy\nThe general minimum wage is $17.00/$16.00 in 2026 [S21]. DOL says the general rate will not increase on January 1, 2027 [S56], while the home care aide minimum rises to $20.00/$19.00 [S55]. BLS 2025 aide medians ($19.05 statewide; $19.08 NYC metro; $18.07 Albany) sit close to these floors [S30], so wage pressure from the home care minimum is likely.\n\n### Trends and policy\n- **ALP expansion is now need-based and case-by-case** (since 4/1/2025) instead of periodic bed solicitations [S13].\n- **ALR transparency:** annual quality reporting began in 2025, with public posting of starting rates and fee summaries; top-quartile facilities earn advanced standing on survey schedules [S10].\n- **Enforcement:** DOH received 12,880 ACF complaints in 2025 and made 85 enforcement referrals against 66 adult homes. It has recommended removing the \"right of rectification\" (the 30-day cure period) [S26].\n- **Thin margins in legacy adult homes:** DOH's audit sample of eight adult homes (2023) included losses of up to $1.4M and profits of up to $567,000 [S26].\n",
+    "financial_narrative": "### How the pro forma is built\n- **Revenue.** Private pay uses the CareScout 2025 NY median of $7,110/month [S28]. SSI residents bring $1,426/month ($1,688 Level 3 benefit less the $262 personal needs allowance) [S20]. The ALP model uses the Albany-region median ALP per diem for RUG category PB ($75.03/day × 30.42 days) plus SSI room and board [S17][S20]. The PB case-mix choice is an assumption; see the sensitivity below.\n- **Staffing follows the rule floors** [S5][S12]: one awake aide 24/7 for census up to 40 and two for 41-80, personal care hours above 3.75/resident/week, housekeeping at 1.0 and food service at 2.0 hrs/resident/week (35-hr floor), an approved administrator (20 or 40 hrs as size requires, modeled full-time and combined with the ALR case manager under 25 beds), an ALR case manager (40 hrs at 45+ beds), and a dietitian consultant.\n- **Above-minimum choices.** The 48- and 80-bed models add an LPN, which a private-pay market expects but basic ALR rules do not require. They also add activities and maintenance staff. Wages are BLS 2025 NY medians [S30]-[S39]. The ALP model uses Albany wages and the $18.65 home care aide minimum for LHCSA aides [S22].\n- **Payroll burden** is 20%: taxes 10% (FICA 7.65% [S40], FUTA [S41], NY UI 4.1% on a $17,600 base [S42][S43]), workers' comp 5% (operator estimate) and benefits 5% (NY paid sick leave [S44] plus modest benefits).\n- **Operating costs.** Food follows the USDA moderate plan for adults 71+, $347/resident/month [S48]. Fees: the ALR biennial fee [S10] and the NY LLC filing fee [S47]. Occupancy cost is $1,100/bed/month for converted buildings (16 and 24 beds), $1,700/bed for new or substantially rebuilt buildings (48 and 80 beds) and $900/bed for an older Albany building (ALP). Utilities ($175/bed), insurance ($110/bed), maintenance ($60/bed), real estate taxes ($150/bed) and the other overheads are **operator estimates — verify locally**. Building costs are fixed: vacant beds still cost money.\n\n### Results at 85% default occupancy (generator recomputes)\n| Configuration | Revenue/mo | Net/mo | Break-even occupancy | Break-even private price |\n|---|---|---|---|---|\n| 80-bed AH+ALR, private pay | ≈ $483,500 | ≈ +$162,300 | ≈ 53% | ≈ $4,730 |\n| 48-bed AH+ALR, private pay | ≈ $290,100 | ≈ +$74,400 | ≈ 60% | ≈ $5,290 |\n| 24-bed AH+ALR, private pay | ≈ $145,000 | ≈ +$48,500 | ≈ 53% | ≈ $4,740 |\n| 16-bed AH+ALR, private pay | ≈ $96,700 | ≈ +$21,100 | ≈ 65% | ≈ $5,570 |\n| 48-bed, 70% private / 30% SSI | ≈ $220,500 | ≈ +$4,900 | ≈ 83% | private ≈ $6,940 |\n| 60-bed AH+ALP, Albany, all Medicaid/SSI | ≈ $189,100 | ≈ −$28,400 | ≈ 105% (not reachable) | ALP ≈ $93/day |\n\nThe 24-bed model looks better than the 48-bed model only because it assumes a cheaper converted building ($1,100 vs $1,700 per bed). Rent is the biggest unsourced input. Cash needed to open, covering one-time start-up items plus ramp-up losses, is roughly $0.38M (16 beds), $0.60M (24), $1.69M (48) and $2.80M (80) under the modeled admission pace. The 60-bed ALP needs about $2.80M, including LHCSA licensure and the $750 Medicaid enrollment fee [S13][S50], because it never reaches break-even.\n\n### Sensitivity\n- **Price.** At $5,500/month, the 16-bed model is about break-even (−$800/month), the 24-bed earns +$15,700, the 48-bed earns +$8,800 (−$2,500 at 80% occupancy) and the 80-bed earns +$52,800. The mixed SSI model loses about $41,000/month.\n- **Rent +$500/bed/month.** 16 beds +$13,100; 48 beds +$50,400; 80 beds +$122,300; the mixed SSI model falls to −$19,100.\n- **Wages.** Raising every aide wage by $2/hr cuts the 16-bed result to +$18,400 and the 48-bed result to +$69,800, and leaves the mixed model at about break-even.\n- **ALP.** At the Albany PA median ($60.19/day), the 60-bed ALP loses about $51,500/month. At the RA median ($103.18) it earns about +$15,200. The 20 extra aide hours per resident per month are an operator estimate: at 30 hours the loss is about −$39,800, and at 10 hours about −$17,000. The ALP model staffs a qualified activities director at 30 hrs/week (0.5 hr per bed under 18 NYCRR 487.9(e)(1)(ii)); confirm DOH's pro-rata reading [S5]. ALP economics work only with a heavier-acuity case mix, higher-rate regions, larger scale, or blending with private-pay ALR beds.\n- **Occupancy.** At 80% occupancy (the conservative case, close to the 79.7% statewide average [S27]), all four private-pay models stay profitable, the mixed SSI model loses about $6,200/month, and the ALP loses about $35,700/month.\n- **Case manager wage.** The ALR and ALP case managers are modeled at the Social and Human Service Assistants median ($22.69 NY; $21.87 Albany) [S34], an assistant-level proxy. The rules require a degree plus experience [S12][S14]. At the Healthcare Social Workers median ($35.13 NY; $32.30 Albany) [S59], the 48-bed private model falls to about +$71,900, the 80-bed to +$159,700, the mixed SSI model to +$2,300, and the ALP to −$30,600.\n- **Local minimum wage.** The modeled aide wage ($19.05) already exceeds the 2026 downstate minimum ($17.00) [S21]. Downstate facilities face much higher building costs, which the rent sensitivity captures.\n",
+    "risks": "### Main risks\n1. **Public need denial.** DOH may deny an adult home application on lack of need alone, and statewide occupancy is only 79.7% [S3][S27]. Pick counties with high occupancy and get local support letters.\n2. **Long, uncertain licensing.** DOH itself estimates 18 months to 2 years for new construction [S24]. You carry rent, debt and pre-opening payroll throughout.\n3. **Price risk.** Profit depends on near-median private pricing. The $7,110 benchmark measures a private one-bedroom in an assisted living community [S28]; smaller homes with shared rooms may not reach it. At $5,500 the 16-bed model is about break-even.\n4. **SSI and Medicaid mix.** Every SSI bed brings about $1,426/month [S20]. A 30% SSI mix nearly wipes out the 48-bed margin. The ALP loses money at median Albany PB rates [S17].\n5. **Building costs and real estate.** Occupancy cost is an operator estimate. NY new construction and downstate real estate can far exceed the modeled $1,100-$1,700/bed/month.\n6. **Wage floors.** The general minimum is $17.00/$16.00 in 2026 [S21]. The home care aide minimum ($19.65/$18.65 in 2026, $20.00/$19.00 in 2027) applies to LHCSA aides in ALP models [S22][S55], and BLS aide medians are only slightly above these floors [S30].\n7. **Enforcement and reputation.** With 12,880 complaints in 2025 and DOH seeking to remove the 30-day right of rectification [S26], a poor survey history can trigger penalties, Do Not Refer listing [S52] and blocked future approvals. Character-and-competence reviews look back 10 years across all affiliated facilities [S1].\n8. **Ownership rules.** Transfers of 10% or more of ownership need DOH approval [S1], which limits investor flexibility and exit timing.\n9. **Rule conflicts.** Some regulation text (e.g., 18 NYCRR 485.5(b) on eligible operators) lags the statute [S1][S2]. Have NY counsel confirm entity eligibility before filing.\n",
+    "recommendations": "### Strategy to reach profit\n1. **Start with private pay and an ALR license** (adult home + ALR). That is the only modeled path that is clearly profitable at verified prices [S28][S10].\n2. **Size for the fixed costs.** 24-80 beds spread the 24/7 supervision, administrator and case manager costs [S5][S12]. Avoid planning under 16 beds; the 16-bed model needs about $5,570/month to break even.\n3. **Choose a county with demonstrable need.** Use the DOH quarterly census (target occupancy above the 79.7% statewide average) and get letters from local officials and the county office for the aging before you file [S27][S3].\n4. **Prefer converting a compliant building over new construction** to shorten the 18-month construction window and the 18-24 month approval path [S3][S24]. Make every lease or purchase contingent on DOH approval.\n5. **Price with evidence.** Survey local ALR posted rates (ALRs must publish starting rates [S10]) and model at least $6,000-$7,100. Keep SSI beds to a small share unless rent is very low.\n6. **Add EALR/SNALR once census is stable.** These certifications let residents age in place and support premium pricing. Budget the +$2,000/$3,000 biennial fee and RN/LPN coverage, waivable at 40 or fewer beds [S10][S12].\n7. **Treat ALP as a second-stage, scale play.** It requires a LHCSA, PHHPC approval, a public-need finding and, in the Albany region, a case mix averaging about $93/day to break even at 60 beds [S13][S17].\n8. **Hire a qualified administrator early and get DOH approval.** Hiring must be complete before the final inspection [S5][S3].\n9. **Use NY counsel and a NY architect.** The LLC articles need DOH approval before DOS filing, and the architectural certification is part of Part I [S1][S23].\n"
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "CRITICAL",
+      "task": "Choose the license stack: adult home or enriched housing + ALR (+ EALR/SNALR) or + ALP",
+      "instructions": "In New York you cannot hold an assisted living license by itself. Every ALR must also hold an adult care facility operating certificate as an adult home (AH) or enriched housing program (EHP); both can be applied for at the same time on the ACF Common Application. EALR (aging in place) and SNALR (dementia) are add-on certifications to an ALR. The Medicaid Assisted Living Program (ALP) is a separate approval that needs an AH or EHP plus a licensed home care services agency (LHCSA) under identical ownership.",
+      "cite": "PHL §4656(1), (3)(a); 10 NYCRR §1001.5(b)-(c); SSL §461-l(1)(a)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "CRITICAL",
+      "task": "Confirm the minimum size — at least 5 residents",
+      "instructions": "Adult homes, enriched housing programs and ALRs serve 5 or more adults unrelated to the operator. A home for 4 or fewer is a family-type home for adults, a different program certified through local social services/OCFS, not an ALF. Plan for 16+ beds to cover the 24/7 staffing floor.",
+      "cite": "18 NYCRR §485.2(b), (c), (f); PHL §4651(1)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "CRITICAL",
+      "task": "Test public need for the county before buying or leasing",
+      "instructions": "Adult home applications must document unmet public need: DOH weighs certified and occupied adult home beds per 1,000 people 65+, SSI recipients in adult homes, occupancy, waiting lists, alternatives such as home care, and contiguous counties. DOH may deny on need alone before reviewing anything else. Pull county occupancy from the DOH quarterly ACF census and get letters of support.",
+      "cite": "18 NYCRR §485.6(c)(1), (c)(3), (d)(2)-(3); SSL §461-b(2)(a)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "HIGH",
+      "task": "Pull county occupancy and competitor capacity from DOH open data",
+      "instructions": "Download the Adult Care Facility Quarterly Statistical Information Report (health.data.ny.gov, dataset h5s5-hcxg). Q2 2026 statewide: 525 facilities, 51,211 certified beds, 79.7% occupied; rest of state 77.7%. Filter by county to support (or reject) your need argument.",
+      "cite": "18 NYCRR §487.10(e)(2) (quarterly reports)",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "HIGH",
+      "task": "Decide whether enriched housing fits your building",
+      "instructions": "EHP is long-term residential care for 5 or more adults, mainly 65+, in community-integrated settings resembling independent housing units, with 6 hrs/resident/week of personal care, housekeeping and food staff. DOH's training lists the 'need' review for adult homes only. Confirm with the Bureau of Licensure whether your EHP project needs a need review.",
+      "cite": "18 NYCRR §485.2(c); §488.9(e)(2); DOH ACF Common Application training",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "HIGH",
+      "task": "Set a realistic private-pay price",
+      "instructions": "CareScout 2025 puts the NY assisted living median at $7,110/month for a private one-bedroom in an AL community. Smaller homes with shared rooms may not reach that. The 16-bed model breaks even at about $5,570/month and the 48-bed model at about $5,290 (85% occupancy). Survey 5-10 local competitors before you commit.",
+      "cite": "Market benchmark",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "HIGH",
+      "task": "Model SSI residents correctly",
+      "instructions": "An SSI resident pays the Congregate Care Level 3 rate: $1,688/month in 2026 ($994 federal + $694 state), of which the resident keeps at least $262 for personal needs, leaving the facility about $1,426/month. A 30% SSI share cuts the 48-bed model's profit from about $74,000 to about $4,900/month.",
+      "cite": "OTDA 2026 maximum monthly benefit amounts",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 1 — PROGRAM CHOICE, FEASIBILITY & PUBLIC NEED",
+      "priority": "MEDIUM",
+      "task": "Request a pre-application conversation with DOH",
+      "instructions": "Call or email the Bureau of Adult Care Facility Licensure and Certification ((518) 408-1624, acfcon@health.ny.gov) and the regional office for your county to confirm the application type, whether need review applies, and expected review issues.",
+      "cite": "DOH 2025 Annual Legislative Report (contacts)",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm your ownership structure is eligible",
+      "instructions": "Eligible operators: natural persons, partnerships of natural persons, not-for-profit corporations, business corporations whose shares are not publicly traded and not owned by another corporation, and LLCs whose corporate/LLC/partnership members are in turn owned only by natural persons. Publicly traded companies and corporate-owned corporations cannot be the operator.",
+      "cite": "SSL §461-b(1)(a)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Get DOH written approval of the LLC articles BEFORE filing with the Department of State",
+      "instructions": "The Department of State may not file LLC articles of organization that list the establishment or operation of an adult home, residence for adults or enriched housing program as a purpose unless DOH's written approval is attached. Submit the proposed articles (with DOH purpose language from Schedule 3A) as part of the application; applications may be signed by a proposed member of an entity not yet formed.",
+      "cite": "SSL §461-b(3)(c); 10 NYCRR §1001.5(d), (g)(6)(vii)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "File the Articles of Organization once approved ($200)",
+      "instructions": "File with the NYS Department of State; fee $200. The biennial statement is $9.",
+      "cite": "DOS fee schedule",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Complete LLC publication within 120 days",
+      "instructions": "Publish the articles or a notice once a week for six weeks in two newspapers designated by the county clerk, then file the certificate of publication with DOS. Cost varies widely by county (highest in NYC).",
+      "cite": "LLC Law §206",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Draft the operating agreement with DOH-required provisions",
+      "instructions": "Schedule 3A lists required language: DOH prior approval for transfers of membership interest, reserved powers if non-member managers are used (appointment of the administrator, budgets, policies, contracts), and lease 'notice to the Department' language keeping fiscal control with the operator.",
+      "cite": "10 NYCRR §1001.5(g)(6)(vii); DOH ACF Common Application training (Schedule 3A)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain an EIN",
+      "instructions": "Apply free at IRS.gov after the entity is formed; needed for payroll, banking and Medicaid enrollment.",
+      "cite": "IRC §6109",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Budget for the NY LLC filing fee (IT-204-LL)",
+      "instructions": "Annual fee based on NY-source gross income: $1,500 for $1M-$5M and $3,000 for $5M-$25M. A 16- to 60-bed facility at the model's prices falls in the $1,500 bracket; an 80-bed private-pay residence (about $5.8M/yr) owes $3,000.",
+      "cite": "Tax Law §658(c)(3); IT-204-LL instructions",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 2 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Plan for ownership-change approvals",
+      "instructions": "Any transfer of 10% or more of the interests in the operating LLC/corporation needs prior DOH approval; smaller transfers need 90 days' notice.",
+      "cite": "SSL §461-b(9)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "CRITICAL",
+      "task": "Secure site control with regulatory contingencies",
+      "instructions": "Applications require evidence of site control (deed, lease or use agreement), copies of all lease and purchase agreements, and full real-property ownership disclosure. Make leases contingent on DOH approval and include the DOH-required lease language.",
+      "cite": "18 NYCRR §485.6(d)(11)-(12); 10 NYCRR §1001.5(g)(6)(ii)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "CRITICAL",
+      "task": "Confirm local zoning and get documentation of compliance",
+      "instructions": "Part I asks for documentation of compliance with applicable local ordinances; final inspection requires written proof of local code compliance.",
+      "cite": "18 NYCRR §485.6(d)(20), (g)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "CRITICAL",
+      "task": "Hire a NY registered architect or PE early",
+      "instructions": "Schedule 5 requires architectural information and, where applicable, a Schedule 5B certification by a registered architect or professional engineer that the facility meets NYS and local codes; 5C is required after construction if 5B was based on schematic drawings.",
+      "cite": "DOH ACF Common Application training (Schedule 5)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "CRITICAL",
+      "task": "Design to adult home environmental standards",
+      "instructions": "Single bedrooms at least 100 sq ft and doubles at least 160 sq ft (no more than 2 per room), above grade with outside windows; 1 toilet and lavatory per 6 residents and 1 tub/shower per 10; 15 sq ft/bed dining and 20 sq ft/bed leisure space; call system in bedrooms, toilets and baths.",
+      "cite": "18 NYCRR §487.11",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "CRITICAL",
+      "task": "Plan fire protection",
+      "instructions": "Automatic sprinklers are required throughout buildings of 25 or more beds, with at least one fire protection system connected to the local fire department; check the NYS building/fire code for smaller buildings.",
+      "cite": "18 NYCRR §487.11(b)(4), (6)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "HIGH",
+      "task": "Add ALR structural standards if you will be an ALR",
+      "instructions": "ALRs must also meet 10 NYCRR §1001.13 structural and environmental standards; SNALR beds must be in a fixed area.",
+      "cite": "10 NYCRR §1001.13; §1001.5(c)(2)",
+      "source_id": "S58"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "MEDIUM",
+      "task": "Decide whether to start construction early (Schedule 5E)",
+      "instructions": "You may ask DOH to begin construction before Part I approval at your own risk; DOH responds within 60 days of complete information.",
+      "cite": "DOH ACF Common Application training (Schedule 5E)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & ARCHITECTURE",
+      "priority": "MEDIUM",
+      "task": "Track the 18-month construction window",
+      "instructions": "For projects with construction, notify DOH of start and completion dates within 90 days of Part II approval; completion must fall within 18 months of Part II approval, with progress reports every 90 days. 90-day extensions are possible for reasons outside your control, not financing.",
+      "cite": "18 NYCRR §485.6(h), (j)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Get NYSECON access",
+      "instructions": "The ACF Common Application is uploaded to the NYS Electronic Certificate of Need system (through the Health Commerce System or my.ny.gov). The original Schedule 1A signature page is mailed to DOH, 875 Central Avenue, Albany, NY 12206.",
+      "cite": "DOH ACF Common Application training",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Complete Schedule 1 (general information, project description, checklist; 1D for ALR fees)",
+      "instructions": "Indicate business type, facility type, county and beds. ALR/EALR/SNALR applicants complete 1D with the biennial fee calculation.",
+      "cite": "DOH ACF Common Application training (Schedule 1)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Complete Schedule 2 for every member/principal",
+      "instructions": "Personal Qualifying Information (10-year history, affiliations, enforcement history; notarized), personal financial statements, and out-of-state compliance forms for any affiliated facilities in other states.",
+      "cite": "DOH ACF Common Application training (Schedule 2); 18 NYCRR §485.6(b)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Prepare the character-and-competence record",
+      "instructions": "DOH reviews financial status, education, experience, past performance and business associations; anyone affiliated with a care facility in the last 10 years needs an affirmative finding of a 'substantially consistent high level of care'. Include three letters of reference per principal.",
+      "cite": "18 NYCRR §485.6(b), (d)(8); SSL §461-b(3)(a)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Complete Schedule 3 (legal)",
+      "instructions": "Articles/operating agreement with DOH purpose language, lease language, management agreement provisions. Optional Schedule 3B lets a NY-licensed attorney certify the legal component to speed review.",
+      "cite": "DOH ACF Common Application training (Schedule 3)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Complete Schedule 4 (financial)",
+      "instructions": "4A general financial information; 4B two-year start-up projections reaching 90% occupancy; 4C 12-month budget at 90% occupancy (DOH accepts budgets to 90% or to sustainability). Show sources of working capital and loan commitments.",
+      "cite": "18 NYCRR §485.6(d)(10); DOH training (Schedule 4); DOH Q&A #11",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Document public need (adult homes)",
+      "instructions": "Include demographic data on the population at risk, numbers awaiting placement, location/capacity/occupancy of existing facilities and alternatives, and statements of support from local officials and community organizations.",
+      "cite": "18 NYCRR §485.6(d)(2)-(3)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "CRITICAL",
+      "task": "Pay the ALR licensure fee with the application",
+      "instructions": "$500 per license plus $50 per resident with income above 400% of the federal poverty level (based on occupied beds; capped at $5,000), biennially. EALR or SNALR adds $2,000; both $3,000. Fees must be paid before DOH processes the application and are non-refundable.",
+      "cite": "PHL §4656(6); 10 NYCRR §1001.5(p)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "HIGH",
+      "task": "Answer DOH information requests within 60 days",
+      "instructions": "For ALR applications, missing information is due within 60 days; otherwise the application can be administratively withdrawn and fees forfeited.",
+      "cite": "10 NYCRR §1001.5(h), (m)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "HIGH",
+      "task": "Know the Part I clock",
+      "instructions": "DOH must decide Part I within 90 days after it has all required information from you and all required recommendations from local/state agencies. DOH posts pending ALR applications for public comment.",
+      "cite": "18 NYCRR §485.6(e); PHL §4656(3)(b)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — PART I APPLICATION (NYSECON SCHEDULES 1-5)",
+      "priority": "HIGH",
+      "task": "Plan for the real timeline: 18 months to 2 years for new construction",
+      "instructions": "DOH states that full approval for a new-construction project, including local permits and licensing, may take 18 months to 2 years. Conversions without construction can move faster but still go through Part I, Part II and a final inspection.",
+      "cite": "DOH ACF Common Application Q&A #1",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Submit Schedule 6 (Part II) within 90 days of Part I approval",
+      "instructions": "Plan for administration (personnel policies, job descriptions, orientation and in-service training, staffing schedules), resident services program, admission/discharge policies, admission or residency agreement, disaster plan, food service, housekeeping and maintenance plans. The regional office reviews Part II.",
+      "cite": "18 NYCRR §485.6(f)(1); DOH training (Schedule 6)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Use the DOH model admission/residency agreement",
+      "instructions": "DOH publishes model Adult Home/EHP admission and residency agreements and EALR, SNALR and ALP addenda. Upload early; agreements are pre-approved in Part II.",
+      "cite": "DOH Common Application page",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Write admission and retention criteria that match the rules",
+      "instructions": "Adult homes may not admit or keep anyone who needs continual medical or nursing care, is chronically bedfast, has chronic unmanaged incontinence, or is dangerous to self or others, among other exclusions. EALR lets residents age in place with a physician's report.",
+      "cite": "18 NYCRR §487.4(c); PHL §4655(2)",
+      "source_id": "S57"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "CRITICAL",
+      "task": "Prepare the emergency and disaster plan",
+      "instructions": "Required in Part II and pre-approved by the regional office.",
+      "cite": "18 NYCRR §485.6(f)(1)(v); DOH training (Schedule 6)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "HIGH",
+      "task": "Write the personal care in-service training plan and submit it for approval",
+      "instructions": "Adult home operators must submit an in-service training plan for personal care staff; new personal care staff complete training within 3 months.",
+      "cite": "18 NYCRR §487.9(g)(4)-(5)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "HIGH",
+      "task": "Contract a dietary consultant",
+      "instructions": "A qualified dietitian or dietetic technician must supervise food service under a written agreement stating duties and time commitment.",
+      "cite": "18 NYCRR §487.9(j)(3)-(4)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "HIGH",
+      "task": "Request regulatory waivers in writing",
+      "instructions": "Use DOH-4235 (program) or DOH-5226 (construction) through NYSECON; waivers are not transferable.",
+      "cite": "DOH ACF Common Application training (Schedule 6)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 5 — PART II PROGRAM (SCHEDULE 6) & POLICIES",
+      "priority": "MEDIUM",
+      "task": "Prepare price posting and quality reporting (ALR)",
+      "instructions": "ALRs must post the starting monthly service rate, starting rent range, approved agreement and a fee summary on their website and in the facility, report them to DOH, and report annual quality measures.",
+      "cite": "PHL §4656(7)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Get DOH approval of the administrator before naming them",
+      "instructions": "No one may be designated administrator without prior written DOH approval. For 24 beds or fewer: HS diploma + 3 years related experience (1 supervisory), or associate + 2 years, or bachelor's + 1 year supervisory. Larger homes require more. Administrator CE: 60 hours every 2 years.",
+      "cite": "18 NYCRR §487.9(c)(2), (9), (15)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Staff the administrator hours the rule requires",
+      "instructions": "At least 20 hours/week on duty during the day at 24 beds or fewer; at least 40 hours/week at 25 beds or more.",
+      "cite": "18 NYCRR §487.9(c)(4)-(5)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Staff 24-hour supervision by census",
+      "instructions": "Staff on duty and on site 24 hours a day: 1 for 1-40 residents, 2 for 41-80, 3 for 81-150, 4 for 151-200, plus 1 per additional 60. At least one person trained in first aid must be on site at all times.",
+      "cite": "18 NYCRR §487.9(f)(6)-(7), (a)(15)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Meet the hour minimums for care, housekeeping and food",
+      "instructions": "Personal care at least 3.75 hrs/resident/week (day and evening); housekeeping at least 1.0 hr/resident/week; food service at least 2.0 hrs/resident/week and never under 35 hrs/week.",
+      "cite": "18 NYCRR §487.9(g)(2), (h), (j)(1)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Designate an ALR case manager (if ALR)",
+      "instructions": "Under 25 beds: qualified case manager on site at least 20 hrs/week. 25-44 beds: 20 hrs + 1 hr/bed over 24. 45+ beds: at least 40 hrs. Case manager approval by DOH is required for adult homes.",
+      "cite": "10 NYCRR §1001.11(c)(1); 18 NYCRR §487.9(d)(2)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "CRITICAL",
+      "task": "Train ALR resident aides",
+      "instructions": "40 hours of initial training under the DOH curriculum (or approved equivalent) and 12 hours of in-service each year, with an annual performance assessment including direct observation.",
+      "cite": "10 NYCRR §1001.11(c)(2)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Complete employee health screening",
+      "instructions": "Before employment and every 12 months: a physician/PA/RN statement of fitness and TB risk assessment/testing.",
+      "cite": "18 NYCRR §487.9(a)(8)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Run required background checks",
+      "instructions": "Run criminal history record checks for direct-care staff, and check the Justice Center Staff Exclusion List and the State Central Register before hiring if your facility is subject to the Justice Center.",
+      "cite": "18 NYCRR §487.9(a)(7), (17)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Pay at least the 2026 minimum wage",
+      "instructions": "$17.00/hr in NYC, Nassau, Suffolk and Westchester; $16.00/hr elsewhere. Aides of a LHCSA (e.g., ALP personal care) fall under the home care aide minimum: $19.65 downstate / $18.65 rest of state in 2026, rising to $20.00 / $19.00 on 1/1/2027.",
+      "cite": "Labor Law §652(1-a); PHL §3614-f",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "HIGH",
+      "task": "Set up NY payroll obligations",
+      "instructions": "Register for NY UI (2026 new-employer rate 4.1% including the 0.075% Re-employment Services Fund) and carry workers' compensation, disability and paid family leave coverage; provide 40 hrs paid sick leave (56 hrs at 100+ employees).",
+      "cite": "NY DOL UI rates; Labor Law §196-b",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & BACKGROUND CHECKS",
+      "priority": "MEDIUM",
+      "task": "Notify DOH of key vacancies within 3 business days",
+      "instructions": "Report a vacancy in the administrator, case manager, activities director, dietary consultant or health consultant position to the regional office.",
+      "cite": "18 NYCRR §487.9(a)(16)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 7 — FINAL INSPECTION, OPERATING CERTIFICATE & OPENING",
+      "priority": "CRITICAL",
+      "task": "Request the final facility inspection at least 30 days before opening",
+      "instructions": "No-construction projects: within 90 days of Part II approval. DOH will not inspect until changes are made, the administrator (and case manager/activities director if applicable) are approved, hiring is complete and you have written proof of local code compliance.",
+      "cite": "18 NYCRR §485.6(g)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — FINAL INSPECTION, OPERATING CERTIFICATE & OPENING",
+      "priority": "CRITICAL",
+      "task": "Request the final architectural inspection first (construction projects)",
+      "instructions": "At least 30 days before occupancy, after all fire protection systems are installed and operating; then request the final facility inspection. Submit Schedule 5C if needed.",
+      "cite": "18 NYCRR §485.6(h)(3)-(4)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 7 — FINAL INSPECTION, OPERATING CERTIFICATE & OPENING",
+      "priority": "CRITICAL",
+      "task": "Receive the operating certificate (and ALR license) before admitting anyone",
+      "instructions": "Operating an adult care facility without DOH approval is a class A misdemeanor; so is operating an ALR without approval. Certificates last up to 4 years and are not transferable.",
+      "cite": "SSL §461-b(2)(d); PHL §4656(5); 18 NYCRR §485.5(d)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — FINAL INSPECTION, OPERATING CERTIFICATE & OPENING",
+      "priority": "HIGH",
+      "task": "Open within the ALR implementation window",
+      "instructions": "An ALR approval lapses if the residence is not licensed and operating within one year of approval; fees are forfeited.",
+      "cite": "10 NYCRR §1001.5(o)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 7 — FINAL INSPECTION, OPERATING CERTIFICATE & OPENING",
+      "priority": "HIGH",
+      "task": "Advertise only with the licensed designation",
+      "instructions": "You may not call the facility 'assisted living' or use any designation not on your operating certificate/license.",
+      "cite": "18 NYCRR §485.5(f); PHL §4656(1)",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 7 — FINAL INSPECTION, OPERATING CERTIFICATE & OPENING",
+      "priority": "MEDIUM",
+      "task": "Plan admissions for the ramp",
+      "instructions": "The 48-bed private-pay model needs about $1.66M of cash (startup plus ramp-up losses at 3 admissions/month) and first breaks even around month 12. Line up referral sources (hospital discharge planners, elder-law attorneys, geriatric care managers) before opening.",
+      "cite": "Model output",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Apply for EALR and/or SNALR certification when the market supports it",
+      "instructions": "EALR requires a plan covering services, staffing, training and environmental changes; EALR/SNALR need an RN on site 8 hrs/day 5 days/week and an LPN 8 hrs/day the other 2 days (waivable at 40 or fewer beds) plus RN on call 24/7. SNALR needs a special needs plan; DOH publishes a SNALR plan guide.",
+      "cite": "10 NYCRR §1001.5(i)-(j); §1001.11(j)-(k)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Watch for ALP bed availability and apply only with a credible public-need case",
+      "instructions": "From April 1, 2025, new ALP beds are approved case by case when DOH finds public need (regional ACF and ALP occupancy, Medicaid service). Existing ALPs in good standing may add up to 9 beds under expedited review.",
+      "cite": "SSL §461-l(3)(m)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Form or co-own a LHCSA for ALP",
+      "instructions": "The ALP must include a licensed home care services agency (or CHHA/LTHHCP) under identical ownership; a new LHCSA needs Public Health and Health Planning Council approval. You also need a proposed contract with the local social services district.",
+      "cite": "SSL §461-l(1)(a), (3)(a)-(b); 18 NYCRR §485.6(n)(5)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Enroll in NY Medicaid after ALP approval",
+      "instructions": "Medicaid provider enrollment starts after full approval because the operating certificate number is needed. ALP residents are excluded from MLTC plans, so ALP services are billed fee-for-service at DOH's provider-specific rates. Budget the CY2026 $750 application fee where it applies.",
+      "cite": "DOH training (Schedule 1E); PHL §4403-f; 42 CFR 455.460",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Know how ALP rates are set",
+      "instructions": "ALP per diems are set by DOH by RUG-II category and wage region at 50% of low-intensity nursing home prices; 1/1/2025 rates range from $49.75 to $235.11/day. Send rate questions to ALP-Rates@health.ny.gov.",
+      "cite": "PHL §3614(6); DOH ALP rates",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Renew the operating certificate on time",
+      "instructions": "Apply 45-90 days before expiration with financial data, new leases/contracts and code compliance; missing the window can bring penalties or be treated as surrender.",
+      "cite": "18 NYCRR §485.7",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Renew the ALR license every two years",
+      "instructions": "Pay the biennial fee ($500 + $50 per resident above 400% FPL, max $5,000; plus EALR/SNALR fees) before renewal is processed.",
+      "cite": "PHL §4656(6); 10 NYCRR §1001.5(p)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "File quarterly census reports",
+      "instructions": "Each operator submits a quarterly statistical information report; DOH publishes it on open data.",
+      "cite": "18 NYCRR §487.10(e)(2)",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Prepare for annual surveys and complaints",
+      "instructions": "Each ACF gets a recertification survey every 12 or 18 months (18 for top-rated). DOH received 12,880 ACF complaints in 2025. Correct cited violations within 30 days.",
+      "cite": "SSL §461-a; DOH 2025 Annual Legislative Report",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Post the complaint line and resident rights",
+      "instructions": "Post DOH's ACF complaint line (1-866-893-6772) and resident rights materials; facilities on the Do Not Refer List cannot receive referrals from hospitals, social services districts and OMH facilities.",
+      "cite": "SSL §460-d; DOH ACF page",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Plan any future expansion",
+      "instructions": "Up to 9 additional beds may be approved without a public need review once every five years (Schedule 7C; total capacity under 200).",
+      "cite": "18 NYCRR §485.6(c)(4); DOH training (Schedule 7C)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID ALP, EALR/SNALR & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Give 120 days' notice before any closure",
+      "instructions": "Closure requires written notice to the regional office at least 120 days in advance and a DOH-approved closure plan.",
+      "cite": "18 NYCRR §485.5(k)",
+      "source_id": "S2"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "DOH Bureau of Adult Care Facility Licensure and Certification",
+      "role": "New applications (ACF Common Application / NYSECON)",
+      "contact": "(518) 408-1624 / acfcon@health.ny.gov / 875 Central Avenue, Albany, NY 12206"
+    },
+    {
+      "name": "DOH Division of Adult Care Facility and Assisted Living Surveillance — Central Office",
+      "role": "Policy and general questions",
+      "contact": "(518) 408-1133 / acfinfo@health.ny.gov"
+    },
+    {
+      "name": "DOH Capital District Regional Office",
+      "role": "Albany, Saratoga, Schenectady and 14 other counties",
+      "contact": "(518) 408-5287 / acfcdro@health.ny.gov"
+    },
+    {
+      "name": "DOH Central New York Regional Office",
+      "role": "Onondaga, Oneida, Broome and 11 other counties",
+      "contact": "(315) 477-8472 / syradulthomes@health.ny.gov"
+    },
+    {
+      "name": "DOH Western New York Regional Office (Rochester; Buffalo field office)",
+      "role": "Monroe, Erie and 15 other counties",
+      "contact": "(585) 423-8188 / acfwro@health.ny.gov"
+    },
+    {
+      "name": "DOH Metropolitan Area Regional Office (NYC; Long Island and New Rochelle field offices)",
+      "role": "NYC, Nassau, Suffolk, Westchester, Hudson Valley counties",
+      "contact": "(212) 417-4440 / acfmaro@health.ny.gov"
+    },
+    {
+      "name": "DOH ACF waiver requests",
+      "role": "Program and construction waivers",
+      "contact": "acf.waiver@health.ny.gov"
+    },
+    {
+      "name": "DOH ALP rate setting",
+      "role": "ALP Medicaid rate questions",
+      "contact": "ALP-Rates@health.ny.gov"
+    },
+    {
+      "name": "DOH ACF Centralized Complaint Intake",
+      "role": "Complaints (post in facility)",
+      "contact": "1-866-893-6772"
+    },
+    {
+      "name": "NYS Department of State, Division of Corporations",
+      "role": "LLC filing ($200) and biennial statement ($9)",
+      "contact": "https://dos.ny.gov/fee-schedules"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.85,
+      "conservative": 0.8,
+      "optimistic": 0.9,
+      "rationale": "NYS DOH quarterly ACF census (Q2 2026): 40,810 residents in 51,211 certified beds = 79.7% statewide (NYC 84.1%, Long Island/Westchester 79.1%, rest of state 77.7%); ALP beds 86.1% occupied (12,770 of 14,840). The 85% default is a stabilized planning anchor for a new, well-marketed residence; 80% reflects the actual statewide average and is the stress case.",
+      "source_id": "S27"
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 2,
+      "note": "Operator planning assumption - verify locally."
+    },
+    "configurations": [
+      {
+        "id": "ah_alr16_private",
+        "label": "16-bed adult home + basic ALR, 100% private pay (statewide wages)",
+        "capacity": 16,
+        "notes": "Smallest size a seasoned NY operator would consider: a large house or small building converted to an adult home with basic ALR licensure. NY has no small-home ALF category - adult homes and ALRs serve 5 or more, and only 11 of 523 ACFs reporting a capacity in Q2 2026 had 15 or fewer beds.",
+        "revenue_lines": [
+          {
+            "name": "Private pay monthly fee (adult home + ALR, all-inclusive)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7110,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S28"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Resident aide, awake on site 24/7 (1 on duty)",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(f)(6); PHL 4651(1) (24-hour on-site monitoring)",
+            "notes": "730 hrs = 24 x 30.42. Census 1-40 requires 1 staff on duty and on site 24 hours a day. BLS 2025 NY median, Home Health & Personal Care Aides ($19.05) - above the $17.00 downstate / $16.00 upstate 2026 minimum."
+          },
+          {
+            "role": "Second resident aide (12 hrs/day, day and evening personal care)",
+            "basis": "hours_per_month",
+            "amount": 365,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(g)(2)",
+            "notes": "Rule minimum is 3.75 personal-care hours per resident per week on day/evening shifts (about 16.3 hrs/resident/month); a second aide covers meals, bathing and peaks so the awake aide can stay accessible for supervision."
+          },
+          {
+            "role": "Cook / food service (35 hrs/week rule minimum)",
+            "basis": "hours_per_month",
+            "amount": 152.1,
+            "wage_source_id": "S31",
+            "wage_hourly": 22.06,
+            "cite": "18 NYCRR 487.9(j)(1)",
+            "notes": "Rule: 2.0 food-service hours per resident per week, never less than 35 hours/week (35 x 4.345 = 152 hrs). At 13.6 residents the 35-hour floor governs."
+          },
+          {
+            "role": "Housekeeping (1.0 hr/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 4.35,
+            "wage_source_id": "S32",
+            "wage_hourly": 20.17,
+            "cite": "18 NYCRR 487.9(h)",
+            "notes": "1.0 hr/week x 4.345 weeks."
+          },
+          {
+            "role": "Administrator / case manager (full-time; admin 20 hrs on duty + ALR case manager 20 hrs on site)",
+            "basis": "annual_salary",
+            "amount": 95980,
+            "wage_source_id": "S33",
+            "cite": "18 NYCRR 487.9(c)(5), (d)(1)(i); 10 NYCRR 1001.11(c)(1)(ii)",
+            "notes": "BLS 2025 NY median, Social & Community Service Managers ($95,980). Under 50 beds the administrator may be designated case manager and activities director if qualified."
+          },
+          {
+            "role": "Dietary consultant (dietitian, contract)",
+            "basis": "hours_per_month",
+            "amount": 4,
+            "wage_source_id": "S37",
+            "wage_hourly": 39.66,
+            "cite": "18 NYCRR 487.9(j)(3)",
+            "notes": "Hours are an operator estimate - verify locally."
+          }
+        ]
+      },
+      {
+        "id": "ah_alr24_private",
+        "label": "24-bed adult home + basic ALR, 100% private pay (statewide wages)",
+        "capacity": 24,
+        "notes": "Largest size under the 25-bed thresholds (20-hr administrator rule; 487.11(b)(4) sprinkler rule - though building code may still require sprinklers).",
+        "revenue_lines": [
+          {
+            "name": "Private pay monthly fee (adult home + ALR, all-inclusive)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7110,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S28"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Resident aide, awake on site 24/7 (1 on duty)",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(f)(6); PHL 4651(1) (24-hour on-site monitoring)",
+            "notes": "730 hrs = 24 x 30.42. Census 1-40 requires 1 staff on duty and on site 24 hours a day. BLS 2025 NY median, Home Health & Personal Care Aides ($19.05) - above the $17.00 downstate / $16.00 upstate 2026 minimum."
+          },
+          {
+            "role": "Second resident aide (16 hrs/day, day and evening personal care)",
+            "basis": "hours_per_month",
+            "amount": 487,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(g)(2)",
+            "notes": "Rule minimum is 3.75 personal-care hours per resident per week on day/evening shifts (about 16.3 hrs/resident/month); a second aide covers meals, bathing and peaks so the awake aide can stay accessible for supervision."
+          },
+          {
+            "role": "Cook / food service (2.0 hrs/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 8.69,
+            "wage_source_id": "S31",
+            "wage_hourly": 22.06,
+            "cite": "18 NYCRR 487.9(j)(1)",
+            "notes": "2.0 hrs x 4.345 = 8.69 hrs/resident/month; at 20.4 residents this is about 177 hrs/month, above the 35-hr/week floor."
+          },
+          {
+            "role": "Housekeeping (1.0 hr/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 4.35,
+            "wage_source_id": "S32",
+            "wage_hourly": 20.17,
+            "cite": "18 NYCRR 487.9(h)"
+          },
+          {
+            "role": "Administrator / case manager (full-time)",
+            "basis": "annual_salary",
+            "amount": 95980,
+            "wage_source_id": "S33",
+            "cite": "18 NYCRR 487.9(c)(5); 10 NYCRR 1001.11(c)(1)(ii)",
+            "notes": "24 beds is the largest size where a 20-hr/week administrator satisfies 487.9(c); 25+ beds need 40 hrs."
+          },
+          {
+            "role": "Dietary consultant (dietitian, contract)",
+            "basis": "hours_per_month",
+            "amount": 6,
+            "wage_source_id": "S37",
+            "wage_hourly": 39.66,
+            "cite": "18 NYCRR 487.9(j)(3)",
+            "notes": "Operator estimate - verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Occupancy cost - lease or debt service on licensed building",
+            "monthly": 26400,
+            "basis": "fixed",
+            "notes": "24 beds x $1100/bed/month. Operator estimate - verify locally. Assumes a converted existing building."
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 4200,
+            "basis": "fixed",
+            "notes": "$175/bed/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Property, general and professional liability insurance",
+            "monthly": 2640,
+            "basis": "fixed",
+            "notes": "$110/bed/month. No statutory minimum limits found for NY ACFs; Operator estimate - verify locally. Get broker quotes."
+          },
+          {
+            "item": "Repairs, maintenance contracts, fire alarm/sprinkler/call-system inspections",
+            "monthly": 1440,
+            "basis": "fixed",
+            "notes": "$60/bed/month. Operator estimate - verify locally. 487.11 requires maintained fire protection and call systems.",
+            "source_id": "S6"
+          },
+          {
+            "item": "Software (care records/eMAR, scheduling, payroll)",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Phone, internet, cable",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Accounting, annual financial report, legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Training & CE (aide 12 hrs/yr ALR in-service; administrator 60 hrs/2 yrs)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally.",
+            "source_id": "S12"
+          },
+          {
+            "item": "Background checks (CHRC fingerprinting, SCR/SEL where applicable)",
+            "monthly": 120,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Real estate taxes (net-lease pass-through)",
+            "monthly": 3600,
+            "basis": "fixed",
+            "notes": "$150/bed/month. Operator estimate - verify locally. NY property taxes vary widely by town and school district."
+          },
+          {
+            "item": "ALR biennial licensure fee / 24",
+            "monthly": 64.58,
+            "basis": "fixed",
+            "notes": "$500 + $50 x 21 occupied beds = $1,550 per 2 years.",
+            "source_id": "S10"
+          }
+        ]
+      },
+      {
+        "id": "ah_alr48_private",
+        "label": "48-bed adult home + basic ALR, 100% private pay (statewide wages)",
+        "capacity": 48,
+        "notes": "Mid-size purpose-built or substantially rebuilt building - closer to the NY norm (median ACF capacity 81 beds).",
+        "revenue_lines": [
+          {
+            "name": "Private pay monthly fee (adult home + ALR, all-inclusive)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7110,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S28"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Resident aides, awake on site 24/7 (2 on duty)",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(f)(6)",
+            "notes": "Census 41-80 requires 2 staff on duty and on site 24 hours (2 x 730 hrs)."
+          },
+          {
+            "role": "Additional resident aide hours (16 hrs/day)",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(g)(2)",
+            "notes": "Personal care minimum 3.75 hrs/resident/week on day/evening shifts; added hours cover morning and evening peaks."
+          },
+          {
+            "role": "Cook / food service (2.0 hrs/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 8.69,
+            "wage_source_id": "S31",
+            "wage_hourly": 22.06,
+            "cite": "18 NYCRR 487.9(j)(1)"
+          },
+          {
+            "role": "Housekeeping (1.0 hr/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 4.35,
+            "wage_source_id": "S32",
+            "wage_hourly": 20.17,
+            "cite": "18 NYCRR 487.9(h)"
+          },
+          {
+            "role": "Administrator (full-time, 25+ beds)",
+            "basis": "annual_salary",
+            "amount": 95980,
+            "wage_source_id": "S33",
+            "cite": "18 NYCRR 487.9(c)(4)",
+            "notes": "25 or more beds: qualified administrator on duty at least 40 hrs/week."
+          },
+          {
+            "role": "ALR case manager (full-time, 45+ beds)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S34",
+            "wage_hourly": 22.69,
+            "cite": "10 NYCRR 1001.11(c)(1)(iv)",
+            "notes": "BLS 2025 NY median, Social & Human Service Assistants ($22.69). The rule requires a bachelor's (or associate + 3 yrs) - qualified hires may cost more."
+          },
+          {
+            "role": "Activities staff",
+            "basis": "hours_per_month",
+            "amount": 86.9,
+            "wage_source_id": "S38",
+            "wage_hourly": 18.29,
+            "cite": "18 NYCRR 487.9(e)",
+            "notes": "Under 50 beds the administrator may be designated; paid hours are an operator choice."
+          },
+          {
+            "role": "Maintenance worker",
+            "basis": "hours_per_month",
+            "amount": 86.9,
+            "wage_source_id": "S39",
+            "wage_hourly": 27.79,
+            "cite": "18 NYCRR 487.9(i)",
+            "notes": "Hours are an operator estimate."
+          },
+          {
+            "role": "Dietary consultant (dietitian, contract)",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "wage_source_id": "S37",
+            "wage_hourly": 39.66,
+            "cite": "18 NYCRR 487.9(j)(3)",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "role": "LPN wellness / medication-oversight nurse (40 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S36",
+            "wage_hourly": 32.3,
+            "notes": "Not required for a basic ALR (nurses are mandated only for EALR/SNALR, 10 NYCRR 1001.11(j)); included because a private-pay market at the median price expects clinical oversight. Operator choice."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 3,
+          "note": "Operator planning assumption - larger buildings admit several residents a month. Verify against your local referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Occupancy cost - lease or debt service on licensed building",
+            "monthly": 81600,
+            "basis": "fixed",
+            "notes": "48 beds x $1700/bed/month. Operator estimate - verify locally. Assumes a new or substantially rebuilt building (roughly 8% lease yield on about $250,000 of project cost per bed)."
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 8400,
+            "basis": "fixed",
+            "notes": "$175/bed/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Property, general and professional liability insurance",
+            "monthly": 5280,
+            "basis": "fixed",
+            "notes": "$110/bed/month. No statutory minimum limits found for NY ACFs; Operator estimate - verify locally. Get broker quotes."
+          },
+          {
+            "item": "Repairs, maintenance contracts, fire alarm/sprinkler/call-system inspections",
+            "monthly": 2880,
+            "basis": "fixed",
+            "notes": "$60/bed/month. Operator estimate - verify locally. 487.11 requires maintained fire protection and call systems.",
+            "source_id": "S6"
+          },
+          {
+            "item": "Software (care records/eMAR, scheduling, payroll)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Phone, internet, cable",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 2000,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Accounting, annual financial report, legal",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Training & CE (aide 12 hrs/yr ALR in-service; administrator 60 hrs/2 yrs)",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally.",
+            "source_id": "S12"
+          },
+          {
+            "item": "Background checks (CHRC fingerprinting, SCR/SEL where applicable)",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Real estate taxes (net-lease pass-through)",
+            "monthly": 7200,
+            "basis": "fixed",
+            "notes": "$150/bed/month. Operator estimate - verify locally. NY property taxes vary widely by town and school district."
+          },
+          {
+            "item": "ALR biennial licensure fee / 24",
+            "monthly": 106.25,
+            "basis": "fixed",
+            "notes": "$500 + $50 x 41 occupied beds = $2,550 per 2 years (assumes no income documentation).",
+            "source_id": "S10"
+          }
+        ]
+      },
+      {
+        "id": "ah_alr48_mixed_ssi",
+        "label": "48-bed adult home + basic ALR, 70% private pay / 30% SSI Level 3 (statewide wages)",
+        "capacity": 48,
+        "notes": "Same building and staffing as the private-pay 48-bed model, with 30% of beds held for residents paying the SSI Congregate Care Level 3 rate.",
+        "revenue_lines": [
+          {
+            "name": "Private pay monthly fee (adult home + ALR, all-inclusive)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7110,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.7,
+            "source_id": "S28"
+          },
+          {
+            "name": "SSI Congregate Care Level 3 resident (facility keeps $1,688 less $262 personal needs allowance)",
+            "payer": "SSI + NYS supplement (resident pays)",
+            "code": "",
+            "rate": 1426,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3,
+            "source_id": "S20"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Resident aides, awake on site 24/7 (2 on duty)",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(f)(6)",
+            "notes": "Census 41-80 requires 2 staff on duty and on site 24 hours (2 x 730 hrs)."
+          },
+          {
+            "role": "Additional resident aide hours (16 hrs/day)",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(g)(2)",
+            "notes": "Personal care minimum 3.75 hrs/resident/week on day/evening shifts; added hours cover morning and evening peaks."
+          },
+          {
+            "role": "Cook / food service (2.0 hrs/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 8.69,
+            "wage_source_id": "S31",
+            "wage_hourly": 22.06,
+            "cite": "18 NYCRR 487.9(j)(1)"
+          },
+          {
+            "role": "Housekeeping (1.0 hr/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 4.35,
+            "wage_source_id": "S32",
+            "wage_hourly": 20.17,
+            "cite": "18 NYCRR 487.9(h)"
+          },
+          {
+            "role": "Administrator (full-time, 25+ beds)",
+            "basis": "annual_salary",
+            "amount": 95980,
+            "wage_source_id": "S33",
+            "cite": "18 NYCRR 487.9(c)(4)",
+            "notes": "25 or more beds: qualified administrator on duty at least 40 hrs/week."
+          },
+          {
+            "role": "ALR case manager (full-time, 45+ beds)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S34",
+            "wage_hourly": 22.69,
+            "cite": "10 NYCRR 1001.11(c)(1)(iv)",
+            "notes": "BLS 2025 NY median, Social & Human Service Assistants ($22.69). The rule requires a bachelor's (or associate + 3 yrs) - qualified hires may cost more."
+          },
+          {
+            "role": "Activities staff",
+            "basis": "hours_per_month",
+            "amount": 86.9,
+            "wage_source_id": "S38",
+            "wage_hourly": 18.29,
+            "cite": "18 NYCRR 487.9(e)",
+            "notes": "Under 50 beds the administrator may be designated; paid hours are an operator choice."
+          },
+          {
+            "role": "Maintenance worker",
+            "basis": "hours_per_month",
+            "amount": 86.9,
+            "wage_source_id": "S39",
+            "wage_hourly": 27.79,
+            "cite": "18 NYCRR 487.9(i)",
+            "notes": "Hours are an operator estimate."
+          },
+          {
+            "role": "Dietary consultant (dietitian, contract)",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "wage_source_id": "S37",
+            "wage_hourly": 39.66,
+            "cite": "18 NYCRR 487.9(j)(3)",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "role": "LPN wellness / medication-oversight nurse (40 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S36",
+            "wage_hourly": 32.3,
+            "notes": "Not required for a basic ALR (nurses are mandated only for EALR/SNALR, 10 NYCRR 1001.11(j)); included because a private-pay market at the median price expects clinical oversight. Operator choice."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 3,
+          "note": "Operator planning assumption - verify locally."
+        },
+        "opex_overrides": [
+          {
+            "item": "Occupancy cost - lease or debt service on licensed building",
+            "monthly": 81600,
+            "basis": "fixed",
+            "notes": "48 beds x $1700/bed/month. Operator estimate - verify locally. Assumes a new or substantially rebuilt building (roughly 8% lease yield on about $250,000 of project cost per bed)."
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 8400,
+            "basis": "fixed",
+            "notes": "$175/bed/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Property, general and professional liability insurance",
+            "monthly": 5280,
+            "basis": "fixed",
+            "notes": "$110/bed/month. No statutory minimum limits found for NY ACFs; Operator estimate - verify locally. Get broker quotes."
+          },
+          {
+            "item": "Repairs, maintenance contracts, fire alarm/sprinkler/call-system inspections",
+            "monthly": 2880,
+            "basis": "fixed",
+            "notes": "$60/bed/month. Operator estimate - verify locally. 487.11 requires maintained fire protection and call systems.",
+            "source_id": "S6"
+          },
+          {
+            "item": "Software (care records/eMAR, scheduling, payroll)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Phone, internet, cable",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 2000,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Accounting, annual financial report, legal",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Training & CE (aide 12 hrs/yr ALR in-service; administrator 60 hrs/2 yrs)",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally.",
+            "source_id": "S12"
+          },
+          {
+            "item": "Background checks (CHRC fingerprinting, SCR/SEL where applicable)",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Real estate taxes (net-lease pass-through)",
+            "monthly": 7200,
+            "basis": "fixed",
+            "notes": "$150/bed/month. Operator estimate - verify locally. NY property taxes vary widely by town and school district."
+          },
+          {
+            "item": "ALR biennial licensure fee / 24",
+            "monthly": 81.25,
+            "basis": "fixed",
+            "notes": "$500 + $50 x 29 private-pay residents = $1,950 per 2 years; SSI residents are presumed at or below 400% FPL.",
+            "source_id": "S10"
+          }
+        ]
+      },
+      {
+        "id": "ah_alr80_private",
+        "label": "80-bed adult home + basic ALR, 100% private pay (statewide wages)",
+        "capacity": 80,
+        "notes": "Typical NY scale (median reporting ACF has 81 beds). Census 41-80 keeps the 24-hour supervision floor at 2 staff; personal care hours rise with census.",
+        "revenue_lines": [
+          {
+            "name": "Private pay monthly fee (adult home + ALR, all-inclusive)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7110,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S28"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Resident aides, awake on site 24/7 (2 on duty)",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(f)(6)",
+            "notes": "Census 41-80 requires 2 staff on duty and on site 24 hours (2 x 730 hrs)."
+          },
+          {
+            "role": "Additional resident aide hours (24 hrs/day)",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "wage_source_id": "S30",
+            "wage_hourly": 19.05,
+            "cite": "18 NYCRR 487.9(g)(2)",
+            "notes": "Personal care minimum 3.75 hrs/resident/week on day/evening shifts; added hours cover morning and evening peaks."
+          },
+          {
+            "role": "Cook / food service (2.0 hrs/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 8.69,
+            "wage_source_id": "S31",
+            "wage_hourly": 22.06,
+            "cite": "18 NYCRR 487.9(j)(1)"
+          },
+          {
+            "role": "Housekeeping (1.0 hr/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 4.35,
+            "wage_source_id": "S32",
+            "wage_hourly": 20.17,
+            "cite": "18 NYCRR 487.9(h)"
+          },
+          {
+            "role": "Administrator (full-time, 25+ beds)",
+            "basis": "annual_salary",
+            "amount": 95980,
+            "wage_source_id": "S33",
+            "cite": "18 NYCRR 487.9(c)(4)",
+            "notes": "25 or more beds: qualified administrator on duty at least 40 hrs/week."
+          },
+          {
+            "role": "ALR case manager (full-time, 45+ beds)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S34",
+            "wage_hourly": 22.69,
+            "cite": "10 NYCRR 1001.11(c)(1)(iv)",
+            "notes": "BLS 2025 NY median, Social & Human Service Assistants ($22.69). The rule requires a bachelor's (or associate + 3 yrs) - qualified hires may cost more."
+          },
+          {
+            "role": "Activities director (full-time, 50+ beds)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S38",
+            "wage_hourly": 18.29,
+            "cite": "18 NYCRR 487.9(e)(1)(ii)",
+            "notes": "50+ beds need a qualified activities director on a pro-rata basis up to 40 hrs/week."
+          },
+          {
+            "role": "Maintenance worker",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S39",
+            "wage_hourly": 27.79,
+            "cite": "18 NYCRR 487.9(i)",
+            "notes": "Hours are an operator estimate."
+          },
+          {
+            "role": "Dietary consultant (dietitian, contract)",
+            "basis": "hours_per_month",
+            "amount": 12,
+            "wage_source_id": "S37",
+            "wage_hourly": 39.66,
+            "cite": "18 NYCRR 487.9(j)(3)",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "role": "LPN wellness / medication-oversight nurse (40 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S36",
+            "wage_hourly": 32.3,
+            "notes": "Not required for a basic ALR (nurses are mandated only for EALR/SNALR, 10 NYCRR 1001.11(j)); included because a private-pay market at the median price expects clinical oversight. Operator choice."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 4,
+          "note": "Operator planning assumption - verify locally."
+        },
+        "opex_overrides": [
+          {
+            "item": "Occupancy cost - lease or debt service on licensed building",
+            "monthly": 136000,
+            "basis": "fixed",
+            "notes": "80 beds x $1700/bed/month. Operator estimate - verify locally. Assumes a new or substantially rebuilt building (roughly 8% lease yield on about $250,000 of project cost per bed)."
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 14000,
+            "basis": "fixed",
+            "notes": "$175/bed/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Property, general and professional liability insurance",
+            "monthly": 8800,
+            "basis": "fixed",
+            "notes": "$110/bed/month. No statutory minimum limits found for NY ACFs; Operator estimate - verify locally. Get broker quotes."
+          },
+          {
+            "item": "Repairs, maintenance contracts, fire alarm/sprinkler/call-system inspections",
+            "monthly": 4800,
+            "basis": "fixed",
+            "notes": "$60/bed/month. Operator estimate - verify locally. 487.11 requires maintained fire protection and call systems.",
+            "source_id": "S6"
+          },
+          {
+            "item": "Software (care records/eMAR, scheduling, payroll)",
+            "monthly": 1300,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Phone, internet, cable",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 3000,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Accounting, annual financial report, legal",
+            "monthly": 2000,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Training & CE (aide 12 hrs/yr ALR in-service; administrator 60 hrs/2 yrs)",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally.",
+            "source_id": "S12"
+          },
+          {
+            "item": "Background checks (CHRC fingerprinting, SCR/SEL where applicable)",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Real estate taxes (net-lease pass-through)",
+            "monthly": 12000,
+            "basis": "fixed",
+            "notes": "$150/bed/month. Operator estimate - verify locally. NY property taxes vary widely by town and school district."
+          },
+          {
+            "item": "ALR biennial licensure fee / 24",
+            "monthly": 162.5,
+            "basis": "fixed",
+            "notes": "$500 + $50 x 68 occupied beds = $3,900 per 2 years (cap $5,000).",
+            "source_id": "S10"
+          },
+          {
+            "item": "NY LLC filing fee (IT-204-LL) / 12",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "NY-source gross income about $5.8M at 85% occupancy -> $3,000/yr bracket ($5M-$25M).",
+            "source_id": "S47"
+          }
+        ]
+      },
+      {
+        "id": "ah_alp60_albany",
+        "label": "60-bed adult home + ALP (Medicaid), Albany region, 100% Medicaid/SSI",
+        "capacity": 60,
+        "notes": "Requires an ALP bed award (public need, SSL 461-l(3)(m)) and a Licensed Home Care Services Agency under identical ownership. Revenue = ALP per diem (Albany WEF region median, RUG-II category PB, 1/1/2025 rates) plus the SSI Level 3 room-and-board amount.",
+        "revenue_lines": [
+          {
+            "name": "ALP Medicaid capitated per diem (Albany region median, RUG PB 'Reduced Physical Functioning B')",
+            "payer": "NY Medicaid fee-for-service (eMedNY)",
+            "code": "ALP rate code by RUG-II category",
+            "rate": 75.03,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S17"
+          },
+          {
+            "name": "SSI Congregate Care Level 3 resident (facility keeps $1,688 less $262 personal needs allowance)",
+            "payer": "SSI + NYS supplement (resident pays)",
+            "code": "",
+            "rate": 1426,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S20"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides, awake on site 24/7 (2 on duty)",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "wage_source_id": "S22",
+            "wage_hourly": 18.65,
+            "cite": "18 NYCRR 487.9(f)(6); 494.6(c)(1)",
+            "notes": "Wage = 2026 home care aide minimum for the rest of the state ($18.65) because ALP personal care is delivered through the operator's LHCSA; the Albany BLS aide median ($18.07) is below it."
+          },
+          {
+            "role": "Additional personal care aide hours for nursing-home-eligible residents",
+            "basis": "hours_per_client_month",
+            "amount": 20,
+            "wage_source_id": "S22",
+            "wage_hourly": 18.65,
+            "cite": "SSL 461-l(1)(d); 18 NYCRR 494.6(c)",
+            "notes": "Operator estimate - verify locally (about 40 min/day per resident on top of the 24/7 aides). Sensitivity in the narrative."
+          },
+          {
+            "role": "RN (LHCSA director of patient services / supervising nurse, full-time)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S35",
+            "wage_hourly": 48.06,
+            "cite": "SSL 461-l(2)(d); 18 NYCRR 494.5(b)(4)",
+            "notes": "Nursing is a covered ALP service; Albany MSA BLS 2025 RN median $48.06."
+          },
+          {
+            "role": "Cook / food service (2.0 hrs/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 8.69,
+            "wage_source_id": "S31",
+            "wage_hourly": 20.94,
+            "cite": "18 NYCRR 487.9(j)(1)",
+            "notes": "Albany MSA BLS 2025 median $20.94."
+          },
+          {
+            "role": "Housekeeping (1.0 hr/resident/week)",
+            "basis": "hours_per_client_month",
+            "amount": 4.35,
+            "wage_source_id": "S32",
+            "wage_hourly": 17.18,
+            "cite": "18 NYCRR 487.9(h)",
+            "notes": "Albany MSA median $17.18."
+          },
+          {
+            "role": "Administrator (full-time)",
+            "basis": "annual_salary",
+            "amount": 88410,
+            "wage_source_id": "S33",
+            "cite": "18 NYCRR 487.9(c)(4); 494.6(a)(2)",
+            "notes": "Albany MSA BLS 2025 median, Social & Community Service Managers."
+          },
+          {
+            "role": "Case manager (full-time, 50+ beds)",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "wage_source_id": "S34",
+            "wage_hourly": 21.87,
+            "cite": "18 NYCRR 494.6(b)",
+            "notes": "Albany MSA median $21.87; ALP case manager must be an RN, MSW, or bachelor's + 1 yr."
+          },
+          {
+            "role": "Activities director (pro rata, 50+ beds: 0.5 hr/bed/week = 30 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 130.4,
+            "wage_source_id": "S38",
+            "wage_hourly": 17.02,
+            "cite": "18 NYCRR 487.9(e)(1)(ii)",
+            "notes": "Albany MSA median $17.02 (Recreation Workers proxy; a qualified activities director may cost more). 18 NYCRR 487.9(e)(1)(ii) read as 0.5 hr/week per bed (same reading as the 80-bed model); confirm DOH's pro-rata reading."
+          },
+          {
+            "role": "Maintenance worker (20 hrs/week)",
+            "basis": "hours_per_month",
+            "amount": 86.9,
+            "wage_source_id": "S39",
+            "wage_hourly": 23.79,
+            "cite": "18 NYCRR 487.9(i)",
+            "notes": "Albany MSA median $23.79; hours are an operator estimate."
+          },
+          {
+            "role": "Dietary consultant (contract)",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "wage_source_id": "S37",
+            "wage_hourly": 38.04,
+            "cite": "18 NYCRR 487.9(j)(3)",
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 4,
+          "note": "Operator planning assumption; ALP admissions depend on hospital/nursing home and county referrals - verify locally."
+        },
+        "opex_overrides": [
+          {
+            "item": "Occupancy cost - lease or debt service on licensed building",
+            "monthly": 54000,
+            "basis": "fixed",
+            "notes": "60 beds x $900/bed/month. Operator estimate - verify locally. Assumes a converted existing building."
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 10500,
+            "basis": "fixed",
+            "notes": "$175/bed/month. Operator estimate - verify locally."
+          },
+          {
+            "item": "Property, general and professional liability insurance",
+            "monthly": 6600,
+            "basis": "fixed",
+            "notes": "$110/bed/month. No statutory minimum limits found for NY ACFs; Operator estimate - verify locally. Get broker quotes."
+          },
+          {
+            "item": "Repairs, maintenance contracts, fire alarm/sprinkler/call-system inspections",
+            "monthly": 3600,
+            "basis": "fixed",
+            "notes": "$60/bed/month. Operator estimate - verify locally. 487.11 requires maintained fire protection and call systems.",
+            "source_id": "S6"
+          },
+          {
+            "item": "Software (care records/eMAR, scheduling, payroll)",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Phone, internet, cable",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Accounting, annual financial report, legal",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Training & CE (aide 12 hrs/yr ALR in-service; administrator 60 hrs/2 yrs)",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally.",
+            "source_id": "S12"
+          },
+          {
+            "item": "Background checks (CHRC fingerprinting, SCR/SEL where applicable)",
+            "monthly": 250,
+            "basis": "fixed",
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Real estate taxes (net-lease pass-through)",
+            "monthly": 9000,
+            "basis": "fixed",
+            "notes": "$150/bed/month. Operator estimate - verify locally. NY property taxes vary widely by town and school district."
+          },
+          {
+            "item": "ALR biennial licensure fee / 24",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "ALP beds are excluded from ALR licensure (PHL 4651(1)(e), 4656(1)); this model has no ALR beds.",
+            "source_id": "S8"
+          },
+          {
+            "item": "Medical supplies covered by the ALP rate",
+            "monthly": 60,
+            "basis": "per_client",
+            "notes": "Per resident; supplies not requiring prior authorization are inside the capitated rate (18 NYCRR 494.5(b)(8)). Operator estimate - verify locally.",
+            "source_id": "S15"
+          },
+          {
+            "item": "LHCSA operating costs (license compliance, EVV/billing clearinghouse, cost reports)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "ALP operator must hold or co-own an LHCSA. Operator estimate - verify locally.",
+            "source_id": "S13"
+          }
+        ],
+        "startup_costs": [
+          {
+            "item": "LLC Articles of Organization (NY DOS)",
+            "low": 200,
+            "high": 200,
+            "source_id": "S45"
+          },
+          {
+            "item": "LLC publication (6 weeks in 2 newspapers, LLC Law 206) and certificate of publication",
+            "low": 300,
+            "high": 1500,
+            "notes": "Publication is required by statute; cost varies by county (highest in NYC). Operator estimate - verify locally.",
+            "source_id": "S46"
+          },
+          {
+            "item": "LHCSA licensure application and PHHPC approval (legal/consulting, policies, required documents)",
+            "low": 25000,
+            "high": 75000,
+            "notes": "SSL 461-l requires the ALP operator to hold or co-own an LHCSA (or CHHA/LTHHCP); a new LHCSA needs PHHPC approval. Operator estimate - verify locally.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Medicaid provider enrollment application fee (CY2026)",
+            "low": 750,
+            "high": 750,
+            "notes": "CMS CY2026 institutional provider application fee. Applies only if NY Medicaid collects it from the ALP; see What This Report Does Not Claim.",
+            "source_id": "S50"
+          },
+          {
+            "item": "Attorney - legal schedule, LLC/operating agreement with DOH-required provisions, optional Schedule 3B legal certification",
+            "low": 15000,
+            "high": 40000,
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Architect / PE - plans and Schedule 5B/5C architectural certification",
+            "low": 20000,
+            "high": 90000,
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Fire alarm, sprinkler, nurse-call and accessibility upgrades for a converted building",
+            "low": 40000,
+            "high": 400000,
+            "notes": "Sprinklers are required by 487.11 for 25+ beds and usually by building code below that; call systems in bedrooms, toilets and baths. Operator estimate - verify locally.",
+            "source_id": "S6"
+          },
+          {
+            "item": "Furniture, beds, kitchen and laundry equipment",
+            "low": 56000,
+            "high": 280000,
+            "notes": "About $3,500 per bed. Operator estimate - verify locally."
+          },
+          {
+            "item": "Lease security deposit + first month",
+            "low": 108000,
+            "high": 108000,
+            "notes": "2 x the modeled $54,000 monthly occupancy cost for the 60-bed ALP building. Operator estimate - verify locally."
+          },
+          {
+            "item": "Pre-opening payroll (staff hired and trained before the final DOH inspection)",
+            "low": 30000,
+            "high": 150000,
+            "notes": "18 NYCRR 485.6(g): hiring must be complete before the final inspection. Operator estimate - verify locally.",
+            "source_id": "S3"
+          },
+          {
+            "item": "Consulting / application preparation (optional)",
+            "low": 10000,
+            "high": 40000,
+            "notes": "Operator estimate - verify locally."
+          },
+          {
+            "item": "Working capital reserve (advisory - replaced by the modeled ramp-up deficit)",
+            "low": 150000,
+            "high": 800000,
+            "category": "working_capital",
+            "notes": "Schedule 4B requires two-year start-up projections reaching 90% occupancy and proof of working capital; DOH sets no fixed dollar amount.",
+            "source_id": "S23"
+          }
+        ]
+      }
+    ],
+    "default_configuration": "ah_alr48_private",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.1,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.05,
+      "notes": "Taxes: employer FICA 7.65% (SSA) + FUTA 0.6% on first $7,000 (IRS) + NY UI new-employer 4.1% incl. 0.075% Re-employment Services Fund (NY DOL 2026) on a $17,600 wage base (EY, 2026) - about 9.6% of a $40,000 aide's wages, rounded to 10% with NY disability (DBL) employer share. Workers' comp 5%: operator estimate - get a quote (NY residential-care classes vary). Benefits 5%: NY paid sick leave 40 hrs/yr (5-99 employees) or 56 hrs (100+) under Labor Law 196-b (about 2-3% of pay) plus modest other benefits.",
+      "source_id": "S44"
+    },
+    "opex": [
+      {
+        "item": "Occupancy cost - lease or debt service on licensed building",
+        "monthly": 17600,
+        "basis": "fixed",
+        "notes": "Base = 16 beds x $1,100/bed/month. Operator estimate - verify locally. No citable NY rent survey exists for licensed adult-home buildings; HUD FMRs stop at 4 bedrooms. Sized per configuration via overrides."
+      },
+      {
+        "item": "Utilities (electric, heat, water, trash)",
+        "monthly": 2800,
+        "basis": "fixed",
+        "notes": "$175/bed/month. Operator estimate - verify locally."
+      },
+      {
+        "item": "Property, general and professional liability insurance",
+        "monthly": 1760,
+        "basis": "fixed",
+        "notes": "$110/bed/month. No statutory minimum limits were found for NY adult homes or ALRs; Operator estimate - verify locally. Get broker quotes."
+      },
+      {
+        "item": "Repairs, maintenance contracts, fire alarm/sprinkler/call-system inspections",
+        "monthly": 960,
+        "basis": "fixed",
+        "notes": "$60/bed/month. Operator estimate - verify locally. 18 NYCRR 487.11 requires fire protection and call systems to be maintained.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Software (care records/eMAR, scheduling, payroll)",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Phone, internet, cable",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Marketing & referral development",
+        "monthly": 1000,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Accounting, annual financial report, legal",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Training & CE (aide 12 hrs/yr ALR in-service; administrator 60 hrs/2 yrs)",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally.",
+        "source_id": "S12"
+      },
+      {
+        "item": "Background checks (CHRC fingerprinting, SCR/SEL where applicable)",
+        "monthly": 100,
+        "basis": "fixed",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Real estate taxes (net-lease pass-through)",
+        "monthly": 2400,
+        "basis": "fixed",
+        "notes": "Base = 16 beds x $150/bed/month. Operator estimate - verify locally. NY property taxes vary widely by town and school district."
+      },
+      {
+        "item": "ALR biennial licensure fee / 24",
+        "monthly": 50,
+        "basis": "fixed",
+        "notes": "$500 base + $50 per resident above 400% FPL (max $5,000) every 2 years: 16 beds at 14 occupied = $1,200 / 24 months. Sized per configuration.",
+        "source_id": "S10"
+      },
+      {
+        "item": "NY LLC filing fee (IT-204-LL) / 12",
+        "monthly": 125,
+        "basis": "fixed",
+        "notes": "$1,500/yr for NY-source gross income $1M-$5M (16-60 bed models). 80-bed model override $3,000/yr.",
+        "source_id": "S47"
+      },
+      {
+        "item": "Food (3 meals + snacks)",
+        "monthly": 347,
+        "basis": "per_client",
+        "notes": "USDA moderate-cost food plan, age 71+, average of female $329.80 and male $363.70 (Aug 2026).",
+        "source_id": "S48"
+      },
+      {
+        "item": "Personal care, household and incontinence supplies",
+        "monthly": 90,
+        "basis": "per_client",
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Activities supplies",
+        "monthly": 30,
+        "basis": "per_client",
+        "notes": "Operator estimate - verify locally."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "LLC Articles of Organization (NY DOS)",
+        "low": 200,
+        "high": 200,
+        "source_id": "S45"
+      },
+      {
+        "item": "LLC publication (6 weeks in 2 newspapers, LLC Law 206) and certificate of publication",
+        "low": 300,
+        "high": 1500,
+        "notes": "Publication is required by statute; cost varies by county (highest in NYC). Operator estimate - verify locally.",
+        "source_id": "S46"
+      },
+      {
+        "item": "ALR initial licensure fee (paid before the application is processed)",
+        "low": 500,
+        "high": 3900,
+        "notes": "$500 base + $50 per resident above 400% FPL at licensure, max $5,000; EALR or SNALR adds $2,000 (both $3,000). Not applicable to the ALP-only model.",
+        "source_id": "S10"
+      },
+      {
+        "item": "Attorney - legal schedule, LLC/operating agreement with DOH-required provisions, optional Schedule 3B legal certification",
+        "low": 15000,
+        "high": 40000,
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Architect / PE - plans and Schedule 5B/5C architectural certification",
+        "low": 20000,
+        "high": 90000,
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Fire alarm, sprinkler, nurse-call and accessibility upgrades for a converted building",
+        "low": 40000,
+        "high": 400000,
+        "notes": "Sprinklers are required by 487.11 for 25+ beds and usually by building code below that; call systems in bedrooms, toilets and baths. Operator estimate - verify locally.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Furniture, beds, kitchen and laundry equipment",
+        "low": 56000,
+        "high": 280000,
+        "notes": "About $3,500 per bed. Operator estimate - verify locally."
+      },
+      {
+        "item": "Lease security deposit + first month",
+        "low": 35200,
+        "high": 272000,
+        "notes": "One month deposit + first month = 2 x modeled monthly occupancy cost (2 x $17,600 at 16 beds; 2 x $136,000 at 80 beds). Operator estimate - verify locally."
+      },
+      {
+        "item": "Pre-opening payroll (staff hired and trained before the final DOH inspection)",
+        "low": 30000,
+        "high": 150000,
+        "notes": "18 NYCRR 485.6(g): hiring must be complete before the final inspection. Operator estimate - verify locally.",
+        "source_id": "S3"
+      },
+      {
+        "item": "Consulting / application preparation (optional)",
+        "low": 10000,
+        "high": 40000,
+        "notes": "Operator estimate - verify locally."
+      },
+      {
+        "item": "Working capital reserve (advisory - replaced by the modeled ramp-up deficit)",
+        "low": 150000,
+        "high": 800000,
+        "category": "working_capital",
+        "notes": "Schedule 4B requires two-year start-up projections reaching 90% occupancy and proof of working capital; DOH sets no fixed dollar amount.",
+        "source_id": "S23"
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "Old checklist said EALR/SNALR certification adds '$1,000 per enhanced/special needs certification'. PHL §4656(6) sets $2,000 for EALR or SNALR and $3,000 for both, biennially, on top of the $500 + $50/resident ALR fee.",
+    "Old checklist told applicants to 'Form Business Entity' with the Department of State as a first step. SSL §461-b(3)(c) bars DOS from filing LLC articles that include adult home/EHP purposes unless DOH's written approval is attached, so DOH approval of the articles comes first.",
+    "Old checklist never addressed the public need review, the Part I / Part II structure, the 90-day Part I clock, the 18-month construction window or DOH's 18-24 month estimate for new construction (18 NYCRR §485.6; DOH Q&A).",
+    "Old checklist treated assisted living as one license. In NY an ALR must also hold an adult home or enriched housing operating certificate, and ALP is a separate Medicaid approval needing a LHCSA with identical ownership (PHL §4656; SSL §461-l).",
+    "Old checklist cited the Article 28 'pre-opening survey' (health.ny.gov/facilities/cons/pre_opening_survey) and a 'Certificate of Need Pre-Opening Survey'. Those apply to Article 28 health facilities; adult homes use the final facility (and architectural) inspection under 18 NYCRR §485.6(g)-(h).",
+    "Old checklist cited 10 NYCRR §1001.11 for record-keeping. §1001.11 is the ALR personnel section (case manager hours, 40-hr aide training, EALR/SNALR nursing); records are §1001.12.",
+    "Old checklist cited '10 NYCRR §1001.14' for the emergency plan and '10 NYCRR §1001.5(d)(2)/(d)(3)/(d)(4)' for attestations and pro formas. §1001.5(d) covers who signs the application; the emergency plan is a Part II item under 18 NYCRR §485.6(f)(1)(v), and financial projections are Schedule 4 (two years to 90% occupancy).",
+    "Old checklist told applicants to submit general liability insurance certificates 'naming NYSDOH' as a requirement. No statutory insurance minimum or DOH certificate-holder rule was found for adult homes/ALRs.",
+    "Old P&L modeled a 10-resident 'New York Elderly' home with a flat $50,000/month of unsourced 'Other Revenue' ($5,000/resident). NY assisted living requires at least 5 residents and has no small-home tradition (only 11 of 523 facilities have 15 or fewer beds). The sourced private-pay median is $7,110 and SSI residents bring about $1,426.",
+    "Old P&L staffed about 1,080 hours/month at $19.00 with a $60,000 administrator. That omits rule-driven costs: 24/7 on-site supervision (730 hrs/month per required staff), food service of at least 35 hrs/week, housekeeping, an ALR case manager of at least 20 hrs/week, a dietitian consultant, payroll burden and food. The BLS 2025 NY median for social & community service managers is $95,980.",
+    "Old P&L used a $6,000/month lease for a licensed facility with no sizing, no property tax, no utilities and no food line. Building costs scale with licensed beds and are operator estimates here."
+  ],
+  "verification_log": [
+    {
+      "issue": "NY LLC filing fee (IT-204-LL) lines cited S49 (IRS EIN page).",
+      "change": "source_id changed to S47 (IT-204-LL instructions) on base opex and the 80-bed override."
+    },
+    {
+      "issue": "Food opex line cited S50 (CMS enrollment fee notice).",
+      "change": "source_id changed to S48 (USDA food plan); note updated to Aug 2026 values ($329.80/$363.70, avg $346.75; $347 kept)."
+    },
+    {
+      "issue": "S48 URL (May 2026 USDA report) returned 404.",
+      "change": "Replaced with the August 2026 USDA Low/Moderate/Liberal report URL (HTTP 200) and retitled."
+    },
+    {
+      "issue": "Startup LLC Articles fee cited S47; LLC publication cited S48.",
+      "change": "Changed to S45 (DOS fee schedule) and S46 (LLC Law 206)."
+    },
+    {
+      "issue": "Lease deposit + first month range ($35,000-$200,000) did not equal 2x the modeled occupancy cost.",
+      "change": "Range set to $35,200-$272,000 (2 x $17,600 to 2 x $136,000); ALP list uses 2 x $54,000 = $108,000."
+    },
+    {
+      "issue": "ALP-only 60-bed model used the shared startup list, which included the ALR initial licensure fee and lacked LHCSA licensure and Medicaid enrollment costs.",
+      "change": "Added configuration-level startup_costs for ah_alp60_albany: shared list minus the ALR fee, plus LHCSA licensure/PHHPC approval ($25,000-$75,000, operator estimate, S13) and the $750 CY2026 Medicaid enrollment fee (S50)."
+    },
+    {
+      "issue": "ALP 60-bed activities staffing (20 hrs/week) was below 18 NYCRR 487.9(e)(1)(ii) read as 0.5 hr/week per bed (30 hrs/week at 60 beds).",
+      "change": "Raised to 130.4 hrs/month and relabeled as a pro-rata qualified activities director; note asks to confirm DOH's reading."
+    },
+    {
+      "issue": "not_claimed[0] said no ACF fee schedule exists without noting PHL 4656(6) implies one.",
+      "change": "Added that PHL 4656(6) refers to a separate ACF certification fee whose amount is unverifiable."
+    },
+    {
+      "issue": "Reimbursement section quoted the audit range as from a $539,207 loss (contradicting 'losses of up to $1.4M').",
+      "change": "Changed to 'from a $1,397,899 loss to a $567,319 profit'."
+    },
+    {
+      "issue": "Narrative ALP results, sensitivities and cash-needed figures needed recomputing after the ALP staffing, ALP startup list and deposit fixes.",
+      "change": "Results table (ALP −$28,400, break-even ≈105%), ALP rate/aide-hour sensitivities, conservative-case figures, and cash needed (16/24/48/80 beds and ALP) updated from model.py."
+    },
+    {
+      "issue": "Conservative-case sentence said 'at the actual statewide average of 79.7%' but quoted the model's 80% results.",
+      "change": "Reworded to 'At 80% occupancy (the conservative case, close to the 79.7% statewide average)'."
+    },
+    {
+      "issue": "Case manager wage uses SOC 21-1093 (assistant-level) while the rules require degree-level staff.",
+      "change": "Kept the modeled wage with its caveat and added a sensitivity at the BLS 2025 Healthcare Social Workers median (new source S59, O*NET 21-1022 NY/Albany)."
+    }
+  ]
+}

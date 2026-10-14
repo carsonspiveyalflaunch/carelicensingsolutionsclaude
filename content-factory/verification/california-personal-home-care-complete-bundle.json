@@ -1,0 +1,62 @@
+{
+  "bundle_slug": "california-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Strong file. I checked every financial_model input against its cited source: the CareScout $40/h CA non-medical caregiver median and the $91,520 homemaker figure; DHCS PCS and Respite $29/$33/$38 with the $15 wage assumption; the IHSS Aug-2026 county wages (SD $20.40, LA $19.64, SF $23.00); 930,755 recipients, 843,828 providers and 119.0 h; BLS OEWS 2025 metro wages for 31-1122, 11-9151, 39-1022 and 43-6013; the $16.90 state minimum and the local minimums; EDD UI/ETT/SDI; FTB LLC tiers; SOS fees; the HCO fee of $5,603; HCA $35; the DHCS $750 CY2026 fee; the IRS 72.5 cents; and the CDI $1.65 benchmark. All match. The model recomputes exactly (pp75 +27,386 / 0.526; mix60 +15,405 / 0.571; pp40 +9,057 / 0.668; pp20 +3,909 / 0.70; pchs100 -9,032 / 1.185). Every sensitivity figure in financial_narrative and risks reproduces, as do the ramp figures (pp40 cumulative deficit about $124,911, first profitable month 11). LLC-fee tiers are sized correctly for each configuration. Rent is fixed. Staffing satisfies the statute, which sets no ratios. Licensing facts are verified against HCS 281, HSC 1796.12/.17/.37/.42/.43/.45/.49 and SB 412 ch. 414: $1M/$3M, workers' comp, the $10k bond with third-party coverage, the 60-day renewal notice, TB at 90 days before / 7 days after, training of 2h+3h then 5h, and dementia training from 1/1/2027. HCO counts were recomputed from the CHHS CSV (2,247 / 210 / 1,197; LA 594, Orange 244, SD 230; 433 first licensed in 2024, 283 closed). Contacts (HCSB, CPMB, HCBA, DHCS pricing inbox) are verified. Only a source-id error and small wording or advisory issues remain. Several FindLaw/Justia/eCFR/DOL URLs return 403 to curl, but they load in a browser fetcher and contain the claims.",
+  "verified_count": 68,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "financial_model.startup_costs[10].source_id",
+      "current": "S43",
+      "correct": "S20",
+      "evidence": "The 'Medi-Cal provider application fee' startup line ($0-$750) cites S43, which is 42 U.S.C. 1396b(l) (the EVV statute). That source says nothing about the fee. The DHCS Application Fees page (S20) states the fee is $750 for applications submitted 1/1/2026-12/31/2026, and that physician/NPP groups and individuals are exempt.",
+      "source_url": "https://www.dhcs.ca.gov/providers-partners/application-fees/",
+      "fix": "Change source_id to \"S20\" and change '[S43]' in that line's notes to '[S20]'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[PHASE 8 - 'File FTB and SOS annual obligations']",
+      "current": "File FTB and SOS annual obligations — $800 LLC tax and LLC fee (FTB); Statement of Information (SOS).",
+      "correct": "File FTB annual obligations ($800 LLC tax; LLC fee estimated by the 15th day of the 6th month on FTB 3536) and the SOS Statement of Information (LLC-12, $20) within 90 days of formation and every two years after that.",
+      "evidence": "SOS: LLC-12 is filed biennially, 'every two years', and the first one is due within 90 days of registration. FTB: the $800 tax is due on the 15th day of the 4th month, and the LLC fee is estimated and paid by the 15th day of the 6th month.",
+      "source_url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-california-domestic",
+      "fix": "Reword the task to 'File FTB and SOS obligations'. In the instructions, state that the LLC-12 is filed within 90 days of formation and then every two years (biennial), not annually."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.risks / sections.financial_narrative (hco_pp75, hco_pchs100)",
+      "current": "No mention of the ACA employer mandate; benefits are 4% of payroll.",
+      "correct": null,
+      "evidence": "IRS: an employer is an ALE if it has at least 50 full-time employees, including full-time equivalents. Part-time hours are summed, capped at 120 per person, and divided by 120. At 90% census, pp75 and pchs100 each schedule 5,670 caregiver hours a month (67.5 × 84 and 90 × 63). That is 5,670 ÷ 120 ≈ 47 FTE before counting 5 full-time office staff, so about 52 FTE. Both would be ALEs subject to IRC 4980H (offer affordable coverage to full-time employees, or pay a penalty if a full-time employee gets a premium tax credit). pp40 (~28 FTE) and mix60 (~38 FTE) are below the threshold.",
+      "source_url": "https://www.irs.gov/affordable-care-act/employers/determining-if-an-employer-is-an-applicable-large-employer",
+      "fix": "Add a risk bullet: 'At about 75 private-pay clients or 100 PCHS members, the agency reaches roughly 50 full-time-equivalent employees (ACA applicable large employer). It must then offer affordable health coverage to full-time (30+ h/week) staff or face IRC 4980H penalties. The 4% benefits load does not cover this; get a quote, or keep most aides under 30 hours a week.' Leave the model unchanged; the premium amount is unverifiable."
+    },
+    {
+      "severity": "minor",
+      "json_path": "corrections_vs_previous[1]; checklist[PHASE 5 'Complete Live Scan for the licensee'].cite",
+      "current": "the licensee background exam is §1796.37",
+      "correct": "the licensee background exam is required by §1796.37 and conducted under §1796.33",
+      "evidence": "HSC 1796.37 requires the applicant to pass 'the background examination required under Section 1796.33'.",
+      "source_url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1796-37/",
+      "fix": "Change the cite to 'HSC §1796.37; §1796.33' and change the corrections wording to 'required by §1796.37 (background exam under §1796.33)'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[PHASE 1 'Lease a business office'].cite",
+      "current": "HSC §1796.42(a); §1796.53",
+      "correct": null,
+      "evidence": "§1796.42(a) (posting of license and business hours) is verified in S5. §1796.53 (department entry during business hours) is not in sources[] and was not verified in this check.",
+      "source_url": "https://california.public.law/codes/ca_health_and_safety_code_section_1796.42",
+      "fix": "Either add a source for HSC §1796.53 (e.g., https://california.public.law/codes/ca_health_and_safety_code_section_1796.53) or drop '§1796.53' and the 'CDSS may enter during posted business hours' clause. The entry clause is unverifiable as written."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S4,S7,S8,S10,S37,S45].type / sources[S5,S6,S9,S11,S12,S13].type",
+      "current": "official",
+      "correct": "secondary",
+      "evidence": "These are third-party code publishers (FindLaw, California.Public.Law, Justia), not the official leginfo.legislature.ca.gov text. The text they show matched the statute claims in every case checked.",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1796.37",
+      "fix": "Either set type to 'secondary', or swap each URL for the leginfo.legislature.ca.gov codes_displaySection URL for the same section (lawCode=HSC or LAB or WIC; sectionNum=...)."
+    }
+  ]
+}

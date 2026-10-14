@@ -1,0 +1,98 @@
+{
+ "bundle_slug": "new-york-personal-home-care-complete-bundle",
+ "checked_at": "2026-10-13",
+ "summary": "Strong, carefully sourced file. Verified against primary sources: all five BLS OEWS May 2025 New York wages (31-1120 $18.59/$19.05/$21.05, 663,140 jobs; RN $45.60/$52.62; 11-9111 $123,170/$164,120; 43-1011 $79,170; 43-6013 $47,710); home care aide minimum $19.65/$18.65 (1/1/2026) and $20.00/$19.00 (1/1/2027); general minimum $17/$16 unchanged in 2027; wage parity benefit portions $2.54/$1.67, the annual certification, audited statement and 10-year record rule (PHL 3614-c); NYC FFS rates $32.64/$32.11/$32.16/$28.89 (+$3.15) effective 1/1/2024; the March 17, 2026 DAL (CY2024 rates, check release April 8, 2026); CareScout 2025 NY non-medical in-home $35/hr, rank 26; PHL 3605 license scope, exemptions, PHHPC criteria and the $2,000 fee; the 765-1.16 need presumption, CHOW and ALP/PACE/NFP/CCRC exemptions and access commitment; FAQ items (NYSE-CON, 30-day fee, nonrefundable, 5 counties in one region plus one contiguous county, 25-patient threshold, rebuttal for each county, two months of working capital, CPA, loans only if awarded, PHHPC six meetings a year, P&P manual then pre-opening survey, license not transferable); the 2022 need report (20 no-need and 42 presumed-need counties, list matches); DAL 22-14 target date; S4400 (moratorium 4/1/2027 to 3/31/2029, in Senate Health Committee, referred 1/7/2026, not passed); MLTC LHCSA ratios 1:100 downstate and 1:60 rest of state; registration $500/month penalty and revocation after two periods; cost report 90 + 30 days; 505.14 (Level I 8 h/week, 40-hour training finished within 3 months, 3 h in-service twice a year, RN visits every 90 days or every 6 months for stable self-directing clients, 12-month authorizations); 766.9 (RN, QI committee 4 times a year, 30-day appeal); 766.11 (12/6 in-service hours, immunizations, TB, flu or mask, registry, CHRC); 402.6 (10 business days, two IDs, temporary employment); HERDS DAL 25-09 (June 17, 2025, Tuesday 8 a.m. to Thursday 2 p.m., Chittenden (518) 408-8827); EVV deadline 1/1/2021 and choice model; PPL as Statewide FI and phone 1-833-247-5346; MLTC 338,186 enrollees and $15.7B (2022), 174,453 (2015) to 329,618 (2020); Census figures 20,002,427, 19.3% and $85,974; CMS CY2026 fee $750; IRS 72.5 cents; FICA; DOS $200/$50/120 days/(518) 473-2492. Upstate FFS rates: 86% of 198 CY2024 Level II rates fall between $30 and $41 (median $34.44). The model recomputes exactly as stated: mix_ros80 +$25,048 (break-even occupancy 0.436), mltc_ros60 +$20,403 (0.440), pp_ros40 +$2,262 (0.798), pp_ds40 -$1,067 (0.951), mltc_nyc100 -$5,652 (1.084). All sensitivities match: rates $34/$30/$28, break-even rates $28.33/$26.76/$32.74, the 2027 wage floor, 80% census, ramp deficits $89k/$71k, and working capital $45k-$95k (equal to the first two months of ramp expenses). Issues: the NYC configuration leaves out the mandatory MCTMT payroll tax; the county examples of upstate FFS rate ranges are wrong for Albany, Erie and Monroe; and several smaller wording and citation points. No issue changes the default configuration's profitability.",
+ "verified_count": 74,
+ "issues": [
+  {
+   "severity": "major",
+   "json_path": "financial_model.configurations[id=mltc_nyc100].opex_overrides; sections.financial_narrative; sections.executive_summary; rates[Medicaid MLTC plans].notes",
+   "current": "No MCTMT line. NYC parity agency -$5,652/month at 90% census; break-even MLTC rate about $32.74/hour",
+   "correct": "Add a fixed opex line 'NY Metropolitan Commuter Transportation Mobility Tax (MCTMT), Zone 1, 0.60% of payroll' at about $1,403/month. NYC parity agency: about -$7,055/month; break-even rate about $32.89/hour",
+   "evidence": "NYS Tax: an employer is subject to the MCTMT if it 'has greater than $312,500 in payroll expense for covered employees across both zones of the MCTD in any calendar quarter.' Zone 1 (NYC), quarters beginning on or after July 1, 2025: 'Over $437,500 but not over $2,500,000 0.60%.' The modeled NYC agency's wages at 90% census are $233,910/month ($701,730/quarter), so 0.60% = $1,403/month. Recomputed with generators/model.py: net -$5,652 - $1,403 = -$7,055; break-even rate = $32.11 + $7,055/9,000 h = $32.89. pp_ds40 payroll is about $166k/quarter, under the $312,500 threshold, so it is exempt at the modeled size.",
+   "source_url": "https://www.tax.ny.gov/bus/mctmt/emp.htm",
+   "fix": "Add to mltc_nyc100 opex_overrides: {\"item\": \"MCTMT payroll tax (NYC Zone 1, 0.60% of payroll above $437,500/quarter)\", \"monthly\": 1403, \"basis\": \"fixed\", \"notes\": \"Employers with more than $312,500 of quarterly payroll in the MCTD pay the MCTMT; Zone 1 rate 0.60% for $437,500 to $2.5M of quarterly payroll (quarters from July 1, 2025).\"} and add the source. Rerun the model and update the NYC figures everywhere: -$5,652 → about -$7,055; break-even $32.74 → about $32.89; the $34/$30/$28 sensitivity row and the 2027 / Long Island lines move by about -$1,400 each (the LI/Westchester figure is Zone 2, at a lower rate). Add a risk note: downstate agencies with quarterly payroll above $312,500 owe the MCTMT."
+  },
+  {
+   "severity": "major",
+   "json_path": "rates[4].service (NY Medicaid FFS rest of state)",
+   "current": "examples: Albany $31.84–$38.06; Erie $30.43–$35.82; Monroe $28.53–$39.66; Onondaga $31.50–$40.89",
+   "correct": "examples: Albany $30.40–$39.54; Erie $30.43–$40.91; Monroe $28.03–$40.92; Onondaga $31.50–$40.89",
+   "evidence": "DOH 2024 Personal Care Rates (eff. 01/01/24), Level Two column. Albany: All Metro $30.40, VNA of Albany $39.54. Erie: Allcare Family Services $40.91. Monroe: Maxim of New York $28.03, Innovative Care $40.92. Onondaga is correct. Across 198 rest-of-state agencies with a Level II rate, the median is $34.44 and 86% fall between $30 and $41.",
+   "source_url": "https://healthweb-back.health.ny.gov/facilities/long_term_care/reimbursement/pcr/rates/docs/cy2024_rates.pdf",
+   "fix": "Replace the example ranges with the corrected values. Optionally add to the notes: 'median CY2024 rest-of-state Level II rate $34.44 across 198 agencies; the $32.11 benchmark is below the upstate median, so it is conservative for upstate configurations.'"
+  },
+  {
+   "severity": "minor",
+   "json_path": "not_claimed[6]; financial_model.configurations[id=pp_ds40].staffing[0].notes",
+   "current": "Not claimed: 'Whether the PHL §3614-f home care aide minimum wage applies to purely private-pay hours.' pp_ds40 notes call $19.65 'a downstate market floor'",
+   "correct": "The home care aide minimum wage applies to all payers. $19.65/$18.65 (2026) is the legal floor for private-pay aides too",
+   "evidence": "DOH reminder to plans, quoted by LeadingAge NY (Dec. 2, 2025): 'The requirement applies across the board for agencies and all payor types.' DOL P105 defines 'home care aide' under §3614-f as any person whose primary responsibility includes in-home ADL/IADL assistance, with no Medicaid limit.",
+   "source_url": "https://www.leadingageny.org/providers/home-and-community-based-services/lhcsa/home-care-minimum-wage-increases-january-1st-2026/",
+   "fix": "Remove not_claimed[6]. In pp_ds40 and the private-pay aide notes, state: 'The PHL §3614-f home care aide minimum applies to all payers [S44][S14].' No model change is needed, because modeled private-pay wages already meet the floor in 2026 and 2027."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sections.reimbursement ('Rates do not automatically pass them through to agencies'); sections.risks #7; rates[Medicaid MLTC plans].notes",
+   "current": "DOH reminds plans of these increases each year [S44]. Rates do not automatically pass them through to agencies",
+   "correct": "DOH tells plans that their capitation assumes they pay $0.55 more per hour of home care from 1/1/2026 (and the same for 2025), and expects them to make sure vendors meet the minimum wage. Pass-through to the LHCSA rate is still negotiated",
+   "evidence": "LeadingAge NY quoting DOH OHIP: 'your monthly capitated payment assumes you will be paying $0.55 more per hour of home care service beginning January 1, 2026.'",
+   "source_url": "https://www.leadingageny.org/providers/home-and-community-based-services/lhcsa/home-care-minimum-wage-increases-january-1st-2026/",
+   "fix": "Reword: 'Plan capitation is set assuming plans pay $0.55 more per hour of home care from January 1, 2026 [S44]; cite this when negotiating, because contracts do not automatically raise your rate.' In the MLTC rate notes, add that the $32.11 benchmark predates the 2025 and 2026 increases ($1.10/hour of aide wages), so it is a conservative 2026 benchmark."
+  },
+  {
+   "severity": "minor",
+   "json_path": "financial_model.payroll_burden.notes",
+   "current": "NY unemployment insurance (new-employer rate not verified here; about 2.35% of aide pay assumed — confirm with NYS DOL)",
+   "correct": "The 2026 NY new-employer UI total contribution rate is 4.1% (4.025% UI plus 0.075% Re-employment Service Fund), applied to the taxable wage base",
+   "evidence": "NYS DOL: 'New Employer rate: 4.025% 0.075% 4.1% ... For 2026, the new employer normal contribution rate is 3.4%. General Account Balance: Less than $0.' A negative general-account balance also points to a possible FUTA credit reduction.",
+   "source_url": "https://dol.ny.gov/unemployment-insurance-rate-information",
+   "fix": "Replace 'new-employer rate not verified' with 'NY 2026 new-employer UI rate 4.1% of the taxable wage base [add source]; with high aide turnover the effective cost can exceed 2.35% of pay. At an 11% payroll-tax assumption, the default mix_ros80 nets +$23,657 and mltc_ros60 +$19,201.' Keep the 10% as an operator estimate."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sections.reimbursement (Eligibility changes); checklist[PHASE 4 'Screen referrals against the 2025 Minimum Needs Requirements'].instructions and .cite",
+   "current": "People already receiving services keep the old criteria. Cite: '25 OHIP/ADM-03'",
+   "correct": null,
+   "evidence": "The cited page (S30) says only: 'The Minimum Needs Requirements applies to initial assessments and subsequent reassessment that occurred on or after September 1, 2025.' It says nothing about grandfathering current recipients and does not cite 25 OHIP/ADM-03. It also says the rule applies to recipients aged 18+ who want to enroll in MLTC or MAP plans, not only to those aged 21+ seeking PCS/CDPAS.",
+   "source_url": "https://healthweb-back.health.ny.gov/health_care/medicaid/program/longterm/cdpap/",
+   "fix": "Unverifiable: remove 'existing recipients keep the old criteria' and the '25 OHIP/ADM-03' cite unless the ADM itself is fetched and cited. Quote S30 instead. Add: 'also applies to Medicaid recipients 18+ seeking MLTC or MAP enrollment.'"
+  },
+  {
+   "severity": "minor",
+   "json_path": "sections.operations ('Annual evaluation, including an in-home observation [S26]'); checklist[PHASE 6 annual health assessments...].instructions",
+   "current": "Annual evaluation, including an in-home observation [S26]",
+   "correct": null,
+   "evidence": "10 NYCRR 766.11 (Cornell text) requires annual health status assessments and annual TB assessments, and lists 'performance evaluations' among required personnel records. It contains no requirement for an annual evaluation with in-home observation ('observation' does not appear). 766.5 requires in-home supervisory visits to 'direct, demonstrate and evaluate' care.",
+   "source_url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-766.11",
+   "fix": "Unverifiable as cited: replace with 'Keep performance evaluations in each personnel record (766.11) and do in-home supervision as required by 766.5 and the 90-day Medicaid RN visits (505.14).' Delete 'Each annual evaluation includes an in-home observation' from the checklist."
+  },
+  {
+   "severity": "minor",
+   "json_path": "regulators[0].email; contacts[0].contact",
+   "current": "homecareapplications@health.ny.gov",
+   "correct": "General LHCSA application questions: homecareliccert@health.ny.gov (DOH LHCSA page). homecareapplications@health.ny.gov is for applications already acknowledged and for amendments (FAQ)",
+   "evidence": "DOH LHCSA page: 'If you have any questions, please email: homecareliccert@health.ny.gov.' FAQ: 'If your application has been acknowledged, you may direct your questions to homecareapplications@health.ny.gov.'",
+   "source_url": "https://www.health.ny.gov/facilities/home_care/lhcsa/",
+   "fix": "Add homecareliccert@health.ny.gov as the pre-filing questions contact and keep homecareapplications@ for acknowledged applications and amendments. Use https://www.health.ny.gov/facilities/home_care/lhcsa/ as regulators[0].url (it loads; the research note said it was blocked). Recommendations #1 and the checklist tell readers to email homecareapplications@ for county status before filing; change these to homecareliccert@."
+  },
+  {
+   "severity": "minor",
+   "json_path": "financial_model (RN revenue); sections.financial_narrative",
+   "current": "RN assessment and supervision time is modeled as cost only, with no revenue",
+   "correct": null,
+   "evidence": "DOH's CY2024 rest-of-state rate file has separate 'Nursing Supervision' and 'Nursing Assessment' per-visit rates for many agencies (e.g., Accu Care, Albany, $111.76 each), so FFS (and often MLTC) pay for RN visits separately.",
+   "source_url": "https://healthweb-back.health.ny.gov/facilities/long_term_care/reimbursement/pcr/rates/docs/cy2024_rates.pdf",
+   "fix": "Add one sentence to financial_narrative: 'FFS (and some MLTC contracts) pay separate RN supervision and assessment visit rates (CY2024 upstate examples about $50–$160 per visit); the model counts none of this revenue, so it is conservative.' No model change is required."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sections.financial_narrative / sections.risks (labor)",
+   "current": "No mention of overtime, spread-of-hours or call-in pay",
+   "correct": null,
+   "evidence": "DOL P105: home care aides must be paid 1½ times their regular rate over 40 hours a week (44 for residential employees), plus spread-of-hours pay (workdays over 10 hours), call-in pay and uniform maintenance where applicable.",
+   "source_url": "https://dol.ny.gov/system/files/documents/2024/12/p105-home-health-aide-10-23-24.pdf",
+   "fix": "Add to labor risks: 'Aides are owed overtime over 40 hours a week and spread-of-hours pay for days over 10 hours [S14]; the model assumes schedules avoid overtime (operator assumption).'"
+  }
+ ]
+}

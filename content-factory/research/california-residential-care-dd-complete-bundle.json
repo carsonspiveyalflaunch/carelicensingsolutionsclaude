@@ -1,0 +1,2364 @@
+{
+  "bundle_slug": "california-residential-care-dd-complete-bundle",
+  "state": "California",
+  "state_code": "CA",
+  "program": "Residential Care (DD)",
+  "state_program_name": "Adult Residential Facility (ARF) licensed by CDSS Community Care Licensing and vendored by a regional center (DDS Title 17, service codes 915/905, ARM Levels 2–6)",
+  "as_of": "2026-10",
+  "report_title": "California DD Residential (ARF, Regional Center–Vendored) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Rate Models / Rates Only files by regional center (rates as of July 1, 2026; files updated 9/24/2026; 'Effective January 1, 2026 B&C (SSI/SSP) is $1444.07 and P&I is $182.00')",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/rc/vendor-provider/rate-reform/rate-models",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "San Diego Regional Center — Rates Effective July 2026 (xlsx; residential 905/910/915/920 Levels 2–7, 113, 109; base = (full − $1,444.07) × 90% + $1,444.07). Same residential rates for HRC, RCOC, NLACRC, SGPRC, NBRC",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/09/SDRC_RatesEffectiveJul2026_20260923.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Central Valley Regional Center — Rates Effective July 2026 (xlsx; lower tier shared by ACRC, FNRC, IRC, KRC, RCRC, VMRC)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/09/CVRC_RatesEffectiveJul2026_20260923.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "Regional Center of the East Bay — Rates Effective July 2026 (xlsx; highest tier, same as SARC; GGRC slightly lower)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/09/RCEB_RatesEffectiveJul2026_20260923.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "DDS Vendor Rate Study — Rate Models, San Diego Regional Center (Burns & Associates, Feb 9 2026): residential staffing hours, wages ($18.20 DSP, $19.58 lead, $25.24 administrator), level crosswalk, food, mileage, consultant hours",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/02/SDRC_RateReform_RateModels_20260210.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Rate Reform: Residential (webinar slides, Dec 20 2024) — 11 levels streamlined to Levels 2–6 + customizable 7; 90% base / 10% QIP; hold harmless; 113 = ARFPSHN only; new Level 4–6 homes paid staff-operated rates",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2025/01/RR_Residential_20241223.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Quality Incentive Program (QIP) — residential codes 113/905/915 on the Quality Incentive Rate; Prevention & Wellness measure; eligibility requires HCBS, EVV and independent audit/review compliance",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/rc/vendor-provider/quality-incentive-program/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "2026-27 Governor's Budget Highlights (hold harmless ended end of February 2026; QIP eligibility provider mandate −$333.9M)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/01/DDS_BudgetHighlights_2026-27.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "2026 May Revision Highlights (community caseload 487,114 in FY 2025-26 → 526,848 in FY 2026-27; Residential Services POS $7.41 billion FY 2026-27)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/05/DDS_MayRevisionsHighlights_202605.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "DDS Consumers Served by Residence Type and Regional Center (CSV, monthly through Dec 2025)",
+      "publisher": "CHHS Open Data / DDS",
+      "url": "https://data.chhs.ca.gov/dataset/consumers-served-by-residence-type-and-regional-center",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "DDS Consumers Served by Age Group and Residence Type (CSV, monthly through Dec 2025)",
+      "publisher": "CHHS Open Data / DDS",
+      "url": "https://data.chhs.ca.gov/dataset/consumers-served-by-age-group-and-residence-type",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Community Care Licensing Facilities — Adult Residential Facilities list (CSV, file dated 05/25/2025)",
+      "publisher": "CHHS Open Data / CDSS",
+      "url": "https://data.chhs.ca.gov/dataset/ccl-facilities",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Community Care Facilities with ARM rates — number of facilities by service level, FY 2014-15 to FY 2017-18 (Developmental Services Task Force)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2019/02/DSTF_CommunityCareAug29_20190212.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "17 CCR §56004 — Facility Service Levels (basic staffing by level; consultant hours 8/12/16 per consumer per six months)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56004",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "17 CCR §56005 — Facility Service Level Approval Process (regional center decides within 45 days)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56005",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "17 CCR §56013 — Program Design Requirements",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56013",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "17 CCR §56037 — Administrator Qualifications and Continuing Education (6/9/12 months DD experience; 8/12/12 CE hours)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56037",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "17 CCR §56038 — Direct Care Staff Qualifications and Continuing Education (40-hour on-site orientation; 8/12/12 CE hours)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56038",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "17 CCR §56033 — Direct Care Staff Competency-Based Training and Testing (two 35-hour segments)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56033",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "17 CCR §56003 — Residential Services Orientation (administrator completes before first admission)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56003",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "17 CCR §56026 — Consumer Notes, Quarterly and Semiannual Reports",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56026",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "17 CCR §54310 — Vendor Application Requirements (DS 1890; HCBS Provider Agreement)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-54310",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "17 CCR §54320 — Regional Center Review of Vendor Application (45 days; no approval or referrals until license received)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-54320",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "17 CCR §54326 — General Requirements for Vendors and Regional Centers (5-year records; rate is payment in full; no referrals before vendorization)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-54326",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "17 CCR §54342 — Types of Services (905/910 owner-operated, 915/920 staff-operated residential facilities)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-54342",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Stages of the Standardized Vendorization Process (Provider Directory; 15 / 30 / 45-day steps; implemented by 1/1/2026)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2025/07/Stages-of-Standardized-Vendorization_07172025_.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Vendorization Steps & Processing Time Requirements",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2025/08/Vendorization-steps-response_04082025-1.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Direct Support Professional Training (DSPT) — free to first- and second-year DSPs; challenge test option",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/services/dspt/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "22 CCR §80018 — Application for License (orientation before filing; contents)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80018",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "22 CCR §85018 — ARF Application for License (financial plan; start-up funds for first three months)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85018",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "22 CCR §85064 — ARF Administrator Qualifications and Duties",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85064",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "22 CCR §85064.2 — ARF Administrator Certification Requirements (exam within 60 days, 3 attempts; LIC 9214)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85064.2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "22 CCR §85064.3 — ARF Administrator Recertification (40 hours CE every two years)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85064.3",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Administrator Certification — Administrator Information (ARF ICTP 35 hours; exam $100; application $140; CE 40 hours)",
+      "publisher": "CA Dept. of Social Services (CDSS)",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/administrator-certification/administrator-information",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "22 CCR §85065 — ARF Personnel Requirements",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85065",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "22 CCR §85065.5 — Day Staff-Client Ratio (regional center clients: as specified by RC, no less than 1:3 for total-care clients)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85065.5",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "22 CCR §85065.6 — Night Supervision (≤15 clients: one person on call on premises; RC clients needing total care: as RC requires)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85065.6",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "22 CCR §85087 — Buildings and Grounds (no more than two clients per bedroom)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85087",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "22 CCR §85088 — Fixtures, Furniture, Equipment and Supplies (1 toilet/washbasin per 6 persons; 1 tub/shower per 10)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85088",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "22 CCR §80020 — Fire Clearance (separate clearance before admitting nonambulatory clients or persons 65+)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80020",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "22 CCR §80022 — Plan of Operation",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80022",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "22 CCR §80065 — Personnel Requirements (health screening incl. TB; age 18+)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80065",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "22 CCR §80019 — Criminal Record Clearance",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80019",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "22 CCR §80061 — Reporting Requirements (next working day; written report within 7 days)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80061",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "22 CCR §80075 — Health-Related Services (assistance with self-administered medications; no injections by unlicensed staff)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80075",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "22 CCR §80072 — Personal Rights",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80072",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "22 CCR §85068.2 — Needs and Services Plan (before admission)",
+      "publisher": "Cornell LII (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85068.2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "Health & Safety Code §1523.1 — Community care facility license fees ('other community care facilities': 1–3 beds $454/$454; 4–6 beds $908 initial/$454 annual; 7–15 beds $1,363/$681; 2025 Code)",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3/article-2/section-1523-1/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Health & Safety Code §1566.3 — Residential facility serving six or fewer is a residential use; no conditional use permit",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1566-3/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "Health & Safety Code §1566.2 — Six-or-fewer facilities exempt from business taxes, local registration and use-permit fees; no fire-inspection fees except under §13235",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1566-2/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Health & Safety Code §1520.5 — Overconcentration (residential facilities within 300 feet)",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1520-5/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "How to Become Licensed — ASCP Centralized Applications Bureau (90–120 days; LIC 281; LIC 9282 infection control plan for ARFs; start-up funds verification; CAB contacts)",
+      "publisher": "CA Dept. of Social Services (CDSS)",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/ascp-centralized-application-units",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Online Orientations — Adult orientation Component I ($50 + $4.85); Components II and III",
+      "publisher": "CA Dept. of Social Services (CDSS)",
+      "url": "https://cdss.ca.gov/inforesources/Community-Care/ASCP-Centralized-Application-Units/Online-Orientations",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "Notice to All RCOC Vendors — WIC §4652.5 independent audit (≥$2,000,000/yr) and independent review ($500,000–$1,999,999/yr), due 9 months after fiscal year end",
+      "publisher": "Regional Center of Orange County",
+      "url": "https://www.rcocdd.com/wp-content/uploads/serviceproviders/resources/2023NoticetoAllRCOCVendors-Informationfo.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "Emergency and Proposed Regulations (Special Incident Reporting regulations effective 5/1/2026; EBSH and CCH regulations)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/transparency/laws-regulations/emergency-and-proposed-regulations",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "California minimum wage rises to $16.90 on January 1, 2026 (News Release 2025-118)",
+      "publisher": "CA Dept. of Industrial Relations (DIR)",
+      "url": "https://www.dir.ca.gov/DIRNews/2025/2025-118.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "Occupational Employment and Wage Statistics, California, May 2025 (31-1120 mean $17.51; 21-1093 25th pct $22.17, median $24.56; 11-9151 25th pct $34.04, median $40.01; 29-1141; 29-2061)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://data.bls.gov/oes/#/area/0600000",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "California Local Wage Increases Effective July 1, 2026 (City of Los Angeles $18.42; unincorporated LA County $18.47; San Francisco $19.61)",
+      "publisher": "Davis Wright Tremaine LLP",
+      "url": "https://www.dwt.com/blogs/employment-labor-and-benefits/2026/06/california-local-minimum-wage-increases-july-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "California Local Minimum Wage Rates Increases Starting January 1, 2026 (San Diego $17.75; San Jose $18.45)",
+      "publisher": "CalChamber HRCalifornia",
+      "url": "https://hrcalifornia.calchamber.com/articles/california-local-minimum-wage-rates-increases-starting-january-1-2026",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S60",
+      "title": "Rates and Withholding 2026 (UI $7,000 wage base, 3.4% new employer, ETT 0.1%)",
+      "publisher": "CA Employment Development Department (EDD)",
+      "url": "https://edd.ca.gov/en/Payroll_Taxes/rates_and_withholding/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S61",
+      "title": "Social Security & Medicare tax rates (employer 7.65%)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/progdata/taxRates.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S62",
+      "title": "Workers' Compensation Decision and Order (average advisory benchmark $1.65 per $100 of payroll, eff. 9/1/2026)",
+      "publisher": "California Department of Insurance",
+      "url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/upload/Workers-Comp-Decision-and-Order-7-10-26.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S63",
+      "title": "Limited liability company — annual tax ($800) and LLC fee by total California income",
+      "publisher": "CA Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S64",
+      "title": "Limited Liability Companies — California (LLC-1 $70; Statement of Information LLC-12 $20)",
+      "publisher": "CA Secretary of State",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-california-domestic",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S65",
+      "title": "Labor Code §246 — Paid sick leave (40 hours / 5 days)",
+      "publisher": "California Legislature (via Justia)",
+      "url": "https://law.justia.com/codes/california/code-lab/division-2/part-1/chapter-1/article-1-5/section-246",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S66",
+      "title": "FY2026 Fair Market Rents — county-level file FY26_FMRs.xlsx (4-bedroom FMRs)",
+      "publisher": "U.S. Dept. of Housing and Urban Development (HUD USER)",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY26_FMRs.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S67",
+      "title": "USDA Food Plans: Cost of Food at Home, August 2026 (moderate-cost plan: male 19–50 $398.10, female 19–50 $336.10)",
+      "publisher": "USDA Food and Nutrition Service",
+      "url": "https://www.fns.usda.gov/sites/default/files/resource-files/CostofFoodAug2026LowModLib.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S68",
+      "title": "SSI/SSP Payment Standards Effective January 1, 2026 (ACWDL 25-29, Enclosure 1; nonmedical out-of-home care)",
+      "publisher": "CA Dept. of Health Care Services (DHCS)",
+      "url": "https://www.dhcs.ca.gov/services/medi-cal/eligibility/letters/Pages/ACWDL-25-29-Enclosure-1.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S69",
+      "title": "Welfare & Institutions Code §15630 — Elder/dependent adult abuse mandated reporting",
+      "publisher": "California Legislature (via FindLaw)",
+      "url": "https://codes.findlaw.com/ca/welfare-and-institutions-code/wic-sect-15630/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S70",
+      "title": "SSI Federal Payment Amounts for 2026 ($994 individual)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/cola/SSI.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S71",
+      "title": "Golden Gate Regional Center — Rates Effective July 2026 (xlsx; Level 6, 4 or fewer beds $15,309.57; Level 4 $10,904.78)",
+      "publisher": "CA Dept. of Developmental Services (DDS)",
+      "url": "https://www.dds.ca.gov/wp-content/uploads/2026/09/GGRC_RatesEffectiveJul2026_20260923.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S72",
+      "title": "O*NET OnLine Local Wages, California — BLS May 2025 OEWS data: 21-1093 annual 25th pct $46,110 (=$22.17/hr), median $51,090 (=$24.56/hr); 11-9151 annual 25th pct $70,810 (=$34.04/hr), median $83,210",
+      "publisher": "U.S. Dept. of Labor, O*NET (data: BLS OEWS)",
+      "url": "https://www.onetonline.org/link/localwages/21-1093.00?st=CA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S73",
+      "title": "O*NET OnLine Local Wages, California — 11-9151 Social and Community Service Managers (BLS May 2025: annual 25th pct $70,810 = $34.04/hr; median $83,210)",
+      "publisher": "U.S. Dept. of Labor, O*NET (data: BLS OEWS)",
+      "url": "https://www.onetonline.org/link/localwages/11-9151.00?st=CA",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License / funding pathway",
+      "value": "Adult Residential Facility (ARF) licensed by CDSS Community Care Licensing (22 CCR §80000 + §85000), then vendored by a regional center under Title 17 as service code 915 (staff-operated) or 905 (owner-operated)",
+      "source_id": "S25",
+      "as_of": "2026",
+      "source_ids": [
+        "S25",
+        "S14",
+        "S52"
+      ]
+    },
+    {
+      "metric": "ARM service levels since rate reform (Jan 1 2025)",
+      "value": "Levels 2–6 plus customizable Level 7. Crosswalk: L3 = old 3/4A/4B; L4 = 4C–4E; L5 = 4F–4H; L6 = 4I",
+      "source_id": "S6",
+      "as_of": "2025-01-01"
+    },
+    {
+      "metric": "4-bed staff-operated full monthly rate per resident, L3 / L4 / L6 (San Diego, Harbor, Orange, North LA, San Gabriel–Pomona, North Bay tier)",
+      "value": "$8,457.87 / $9,892.30 / $13,772.04 (includes $1,444.07 SSI/SSP)",
+      "source_id": "S2",
+      "as_of": "2026-07-01"
+    },
+    {
+      "metric": "What a new vendor is paid (base rate)",
+      "value": "90% of the regional-center portion + SSI/SSP: L4 4-bed $9,047.48; L6 4-bed $12,539.24. The other 10% is earnable through the Quality Incentive Program",
+      "source_id": "S2",
+      "as_of": "2026-07-01",
+      "source_ids": [
+        "S2",
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "metric": "SSI/SSP board-and-care amount (paid by resident) / personal needs kept",
+      "value": "$1,444.07 / $182.00 per month",
+      "source_id": "S1",
+      "as_of": "2026-01-01",
+      "source_ids": [
+        "S1",
+        "S68"
+      ]
+    },
+    {
+      "metric": "CDSS license fees (4–6 beds)",
+      "value": "$908 with the application; $454 annual",
+      "source_id": "S48",
+      "as_of": "2025 Code"
+    },
+    {
+      "metric": "Licensing timeline (CDSS CAB)",
+      "value": "90–120 days for the whole application process",
+      "source_id": "S52",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Vendorization timeline (standardized, Provider Directory)",
+      "value": "RC 15 days to screen minimum requirements → 30 days to confirm complete (applicant 30 days to cure) → 45 days to approve/deny",
+      "source_id": "S26",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "Administrator certification (ARF)",
+      "value": "35-hr Initial Certification Training + state exam ($100) + $140 application; 40 hrs CE every 2 years",
+      "source_id": "S34",
+      "as_of": "2026"
+    },
+    {
+      "metric": "DSP training (Title 17)",
+      "value": "Two 35-hour DSPT segments (year 1 and year 2), free to staff; 40-hr on-site orientation; 12 hrs CE/yr at Levels 3–4",
+      "source_id": "S19",
+      "as_of": "current rule",
+      "source_ids": [
+        "S19",
+        "S18",
+        "S28"
+      ]
+    },
+    {
+      "metric": "People with I/DD living in community care homes (DDS)",
+      "value": "32,940 (25,603 age 18+) of 519,111 served, December 2025",
+      "source_id": "S10",
+      "as_of": "2025-12",
+      "source_ids": [
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "metric": "CA minimum wage 2026 / DDS rate-model DSP wage",
+      "value": "$16.90/hr statewide (higher in many cities) / $18.20/hr",
+      "source_id": "S56",
+      "as_of": "2026-01-01",
+      "source_ids": [
+        "S56",
+        "S5"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "Statewide count of regional-center-vendored ARFs by service level today. The newest official level count found is FY 2017-18 (4,294 ARM homes; 1,192 at Level 4I). The CCL list counts all licensed ARFs, including homes serving mental-health clients.",
+    "Waitlist or placement backlog for residential homes. Regional centers do not publish a residential waitlist; the Lanterman Act makes services an entitlement.",
+    "Regional center demand for a particular level, gender or location. Ask your regional center's resource development or community services unit.",
+    "Occupancy or vacancy rates for ARFs. The 90% default is an operator estimate.",
+    "Whether or when a new vendor will earn the 10% Quality Incentive Program amount. The model uses the 90% base rate.",
+    "Absence/bed-hold billing rules for residential services. Confirm with your regional center.",
+    "Level 7, ARFPSHN (113), Enhanced Behavioral Supports Home and Community Crisis Home rates. These are customized or negotiated, so no published rate exists.",
+    "Community Placement Plan or start-up funding offers. Availability varies by regional center and year.",
+    "Workers' compensation class rate for DD residential homes. The 5% is an operator estimate.",
+    "Rent for a licensed-use 4–6 bedroom house. HUD Fair Market Rents are a proxy, and the rents used are operator estimates.",
+    "A statewide minimum liability insurance amount for ARFs. None was identified; regional centers may set insurance terms.",
+    "Private-pay demand. Almost all residents are funded through regional centers and SSI/SSP; no private-pay benchmark is used."
+  ],
+  "regulators": [
+    {
+      "name": "CDSS Community Care Licensing Division — Adult and Senior Care Program, Centralized Applications Bureau (CAB)",
+      "role": "Licenses ARFs under Title 22; processes new applications; pre-licensing inspection; annual/complaint inspections",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/ascp-centralized-application-units",
+      "phone": "(833) 827-6084",
+      "email": "CCLASCPCAB@dss.ca.gov",
+      "source_id": "S52"
+    },
+    {
+      "name": "CDSS Administrator Certification Bureau",
+      "role": "ARF administrator certificate (35-hr ICTP, exam), recertification",
+      "url": "https://www.cdss.ca.gov/inforesources/community-care/administrator-certification/administrator-information",
+      "phone": "916-653-9300",
+      "email": "AdminCertInfo@dss.ca.gov",
+      "source_id": "S34"
+    },
+    {
+      "name": "California Department of Developmental Services (DDS)",
+      "role": "Sets residential (ARM) rates under rate reform, Title 17 rules, QIP, DSPT; oversees the 21 regional centers",
+      "url": "https://www.dds.ca.gov/rc/vendor-provider/",
+      "phone": "833-421-0061",
+      "email": "RatesQuestions@dds.ca.gov; vendorization@dds.ca.gov; QIPQuestions@dds.ca.gov",
+      "source_id": "S1"
+    },
+    {
+      "name": "Your vendoring regional center (one of 21 private nonprofits)",
+      "role": "Vendorization, service level approval (17 CCR §56005), residential orientation, placements, monitoring, payment",
+      "url": "https://www.dds.ca.gov/rc/listings/",
+      "phone": "",
+      "email": "",
+      "source_id": "S23"
+    },
+    {
+      "name": "Local fire authority / State Fire Marshal",
+      "role": "Fire clearance (ordered through CAB); separate clearance before admitting nonambulatory residents",
+      "url": "",
+      "phone": "",
+      "email": "",
+      "source_id": "S40"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "HSC §1500 et seq. (Community Care Facilities Act)",
+      "title": "Licensing statute for ARFs; fees in §1523.1",
+      "url": "https://law.justia.com/codes/california/code-hsc/division-2/chapter-3/article-2/section-1523-1/",
+      "source_id": "S48"
+    },
+    {
+      "cite": "22 CCR §80000 et seq.",
+      "title": "General licensing requirements for community care facilities",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-80018",
+      "source_id": "S29"
+    },
+    {
+      "cite": "22 CCR §85000 et seq.",
+      "title": "Adult Residential Facilities",
+      "url": "https://www.law.cornell.edu/regulations/california/22-CCR-85018",
+      "source_id": "S30"
+    },
+    {
+      "cite": "17 CCR §54300 et seq.",
+      "title": "Vendorization (DS 1890, review, general vendor requirements, service codes)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-54310",
+      "source_id": "S22"
+    },
+    {
+      "cite": "17 CCR §56001 et seq.",
+      "title": "Residential Services and Quality Assurance (service levels, program design, staff training, reports)",
+      "url": "https://www.law.cornell.edu/regulations/california/17-CCR-56004",
+      "source_id": "S14"
+    },
+    {
+      "cite": "WIC §4500 et seq. (Lanterman Act); WIC §4519.10; §4652.5",
+      "title": "Entitlement to services; rate reform timeline; independent audit/review",
+      "url": "https://www.rcocdd.com/wp-content/uploads/serviceproviders/resources/2023NoticetoAllRCOCVendors-Informationfo.pdf",
+      "source_id": "S54"
+    },
+    {
+      "cite": "HSC §1566.2, §1566.3, §1520.5",
+      "title": "Six-or-fewer homes are a residential use (no CUP; no business tax); overconcentration",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-1566-3/",
+      "source_id": "S49"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 2",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 2 (old 2)",
+      "rate": 6789.37,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $6,254.84. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 3",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 3 (old 3, 4A, 4B)",
+      "rate": 8457.87,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $7,756.49. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 4",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 4 (old 4C–4E)",
+      "rate": 9892.3,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $9,047.48. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 5",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 5 (old 4F–4H)",
+      "rate": 12314.17,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $11,227.16. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 6",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 6 (old 4I)",
+      "rate": 13772.04,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $12,539.24. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 2",
+      "service": "Staff-operated adult home, 5–6 beds, Level 2 (old 2)",
+      "rate": 5422.47,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $5,024.63. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 3",
+      "service": "Staff-operated adult home, 5–6 beds, Level 3 (old 3, 4A, 4B)",
+      "rate": 7663.19,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $7,041.28. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 4",
+      "service": "Staff-operated adult home, 5–6 beds, Level 4 (old 4C–4E)",
+      "rate": 9218.29,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $8,440.87. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 5",
+      "service": "Staff-operated adult home, 5–6 beds, Level 5 (old 4F–4H)",
+      "rate": 11662.07,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $10,640.27. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 6",
+      "service": "Staff-operated adult home, 5–6 beds, Level 6 (old 4I)",
+      "rate": 13251.21,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "SDRC/HRC/RCOC/NLACRC/SGPRC/NBRC tier. Base (90%) rate = $12,070.50. 7+ beds same as 5–6.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "905 Level 2",
+      "service": "Owner-operated adult home (licensee lives in), 4 or fewer beds, Level 2",
+      "rate": 5982.95,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Owner-operated Levels 4–6: new homes are paid staff-operated rates (DDS).",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "905 Level 2",
+      "service": "Owner-operated adult home (licensee lives in), 5–6 beds, Level 2",
+      "rate": 4839.37,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Owner-operated Levels 4–6: new homes are paid staff-operated rates (DDS).",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "905 Level 3",
+      "service": "Owner-operated adult home (licensee lives in), 4 or fewer beds, Level 3",
+      "rate": 6573.35,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Owner-operated Levels 4–6: new homes are paid staff-operated rates (DDS).",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "905 Level 3",
+      "service": "Owner-operated adult home (licensee lives in), 5–6 beds, Level 3",
+      "rate": 6300.89,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Owner-operated Levels 4–6: new homes are paid staff-operated rates (DDS).",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 4",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 4 — lower tier (ACRC, CVRC, FNRC, IRC, KRC, RCRC, VMRC)",
+      "rate": 9591.58,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Regional rate differences are built into the DDS rate models.",
+      "source_id": "S3"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 6",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 6 — lower tier (ACRC, CVRC, FNRC, IRC, KRC, RCRC, VMRC)",
+      "rate": 13298.48,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Regional rate differences are built into the DDS rate models.",
+      "source_id": "S3"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 4",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 4 — highest tier (RCEB, SARC; GGRC $15,309.57 at L6)",
+      "rate": 10942.61,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Regional rate differences are built into the DDS rate models. GGRC figure from the GGRC rate file [S71].",
+      "source_id": "S4"
+    },
+    {
+      "payer": "Regional center (ARM, full rate incl. SSI/SSP)",
+      "code": "915 Level 6",
+      "service": "Staff-operated adult home, 4 or fewer beds, Level 6 — highest tier (RCEB, SARC; GGRC $15,309.57 at L6)",
+      "rate": 15350.62,
+      "unit": "per resident per month",
+      "effective": "2026-07-01",
+      "notes": "Regional rate differences are built into the DDS rate models. GGRC figure from the GGRC rate file [S71].",
+      "source_id": "S4"
+    },
+    {
+      "payer": "Regional center",
+      "code": "109",
+      "service": "Supplemental Residential Program Support (extra staffing authorized for an individual)",
+      "rate": 32.1,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "SDRC tier; $30.67 lower tier, $36.36 highest tier.",
+      "source_id": "S2"
+    },
+    {
+      "payer": "Resident (SSI/SSP)",
+      "code": "",
+      "service": "Board & care (SSI/SSP) amount paid to the facility — part of every ARM rate",
+      "rate": 1444.07,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "The resident keeps $182 for personal and incidental needs.",
+      "source_id": "S1"
+    }
+  ],
+  "sections": {
+    "executive_summary": "### Opportunity snapshot\nCalifornia serves adults with intellectual and developmental disabilities (I/DD) in small licensed homes. The home is licensed by CDSS Community Care Licensing as an **Adult Residential Facility (ARF)** and paid by one of 21 **regional centers** once it is vendored under Title 17 [S52][S25]. Payment is a **monthly rate per resident set by DDS**, so there is no rate to negotiate. The rate depends on the home's **service level**, its **size** (4 or fewer beds is paid more than 5+), whether it is **staff- or owner-operated**, and the **regional center's cost tier** [S2].\n\nRate reform changed the business in 2025:\n- Since January 1, 2025 the old 11 levels (2, 3, 4A–4I) are paid as **Levels 2–6** plus a customizable **Level 7** [S6].\n- Rates are split into a **90% base** and a **10% Quality Incentive Program (QIP)** amount that must be earned [S6][S7].\n- The hold-harmless protection for vendors above the new rates ended at the end of February 2026 [S8].\n- Current rates took effect **July 1, 2026** [S1][S2].\n\nDemand is steady, not booming:\n- DDS served **519,111 people in December 2025**; **32,940** lived in community care homes, **25,603** of them adults [S10][S11].\n- Community-care-home residents rose only about 5% since December 2020, while the overall caseload grew about 42% [S10]. Most growth is people living at home with family.\n- **152,976 adults live with a parent or guardian**, including 21,964 age 42+ [S11]. That is the future pipeline as parents age.\n\n### The bottom line of the model\nAt the current base rates (San Diego/Orange/North LA tier) and 90% occupancy:\n- **4-bed Level 6 (old 4I): +$2,695/month.** This is the configuration that works. Break-even occupancy is 84%.\n- **Two 4-bed Level 6 homes sharing an administrator: +$5,223/month.**\n- **6-bed Level 4: +$824/month** (thin).\n- **4-bed Level 4: −$1,733/month; 4-bed Level 3: −$2,226/month.** These lose money unless the home stays nearly full or earns the QIP 10%.\n\nThese results staff each home at the hours DDS built into its rate models. The rent assumed is coastal-metro rent. Earning the QIP adds $4,438/month to a 4-bed Level 6 home (Section 8).\n\n### Key numbers (verified)\nSee the table above. Every figure traces to the sources list.\n\n### What this report does not claim\nSee the 'not claimed' list: no residential waitlist, no occupancy data, no current count of vendored homes by level, and no Level 7, ARFPSHN, EBSH or CCH rates.",
+    "service_model": "### Who is served\nAdults (18+) who are regional center clients under the Lanterman Act and need 24-hour care and supervision outside the family home [S9][S14]. Residents typically attend day programs or work during the day. The home supports daily living skills, health, behavior and community participation under each person's Individual Program Plan (IPP) [S16].\n\n### Two layers of rules\n| Layer | Agency | What it controls | Rules |\n|---|---|---|---|\n| License | CDSS Community Care Licensing | Health and safety, building, administrator certificate, personnel, records, inspections | HSC §1500 et seq.; 22 CCR §80000 (general) and §85000 (ARF) [S29][S30] |\n| Vendorization + service level | Regional center (DDS rules) | Program design, service level, staffing hours, consultant hours, staff training, reports, payment | 17 CCR §54300 et seq. and §56001 et seq. [S22][S14] |\n\nA home must hold the CCL license **and** be vendored before the regional center can place anyone or pay [S23][S24].\n\n### Service codes\n- **905** — residential facility serving adults, **owner-operated**: the home is the residence of the licensee or a corporate board member [S25].\n- **915** — residential facility serving adults, **staff-operated**: not the licensee's residence; employees provide care [S25].\n- 910 and 920 are the owner- and staff-operated codes for **children** (not adults) [S25].\n- **113** is now used only for ARFs for Persons with Special Health Care Needs (ARFPSHN); former 'specialized residential facilities' moved to 905–920 in 2025 [S6].\n\n### Service levels after rate reform\n| Rate level (2025+) | Title 17 levels it replaces | Basic staffing rule (17 CCR §56004) | Consultant hours per resident per 6 months |\n|---|---|---|---|\n| Level 2 | 2 | 1 direct care staff per up to 6 | — |\n| Level 3 | 3, 4A, 4B | 1 per up to 3 | 4A/4B: 8 |\n| Level 4 | 4C, 4D, 4E | 1 per up to 2 | 8 (4C), 12 (4D–4E) |\n| Level 5 | 4F, 4G, 4H | 1 for the first resident, plus added hours | 12 (4F), 16 (4G–4H) |\n| Level 6 | 4I | 1 for the first resident, plus added hours | 16 |\n| Level 7 | Above Level 6 | Customized | Customized |\n\nSources: crosswalk [S6]; staffing and consultant rules [S14]. Title 17 still uses the 4A–4I names; the regional center approves the level from your program design within 45 days [S15].\n\n### Related models (not modeled here)\n- **Enhanced Behavioral Supports Homes (EBSH)** and **Community Crisis Homes (CCH)** are ARFs certified by DDS under separate regulations; DDS lists their regulations on its regulations page [S55][S52].\n- **ARFPSHN (113)** serves people with significant health needs and uses a customizable rate [S6].\n- These carry negotiated or customized rates that are not published, so they are not modeled [S2].",
+    "licensing_pathway": "### Step 1 — Form the business\n- Form an LLC or corporation with the Secretary of State: LLC-1 $70; Statement of Information $20 [S64].\n- California LLCs owe an **$800 annual tax** plus a gross-receipts LLC fee ($900 at $250k–$499,999; $2,500 at $500k–$999,999; $6,000 at $1M–$4.99M) [S63].\n\n### Step 2 — Administrator certification\n- An ARF must have a **certified administrator** who is at least 21 and has a high school diploma or GED [S31].\n- Certification: complete the **35-hour Initial Certification Training Program**, pass the state exam within 60 days (3 attempts), then apply within 30 days on LIC 9214 with Live Scan [S32].\n- Fees: exam **$100**; application **$140** [S34].\n- Renewal: **40 hours of CE every two years** [S33]. Up to 24 hours of regional-center-approved DDS training can count toward the 40 [S33].\n- Homes of 7–15 clients need an administrator with one year of residential care experience [S31].\n- Title 17 adds DD experience for administrators: Level 2 = 6 months, Level 3 = 9 months, Level 4 = 12 months. The regional center can waive this [S17].\n\n### Step 3 — CCL orientation and application\n1. **Component I** online Adult orientation: $50 + $4.85 [S53]. The orientation is required before filing [S29].\n2. Prepare the application:\n   - LIC 281 application [S52]\n   - plan of operation [S41]\n   - **LIC 9282 infection control plan** (required for ARFs) [S52]\n   - administrator certificate, fire authority information, Live Scan and health screenings [S52][S43][S42]\n   - a **financial plan showing start-up funds for the first three months of operation** [S30]\n3. Pay the **application fee with the application**: $908 for 4–6 beds ($454 for 1–3; $1,363 for 7–15) [S48].\n4. **Component II** interview with the analyst, then a **pre-licensing inspection**, then **Component III** (operations and record keeping) before licensure [S53][S52].\n5. CAB checks: criminal record, overconcentration, documents, start-up funds, credit and compliance history [S52]. Expect **90–120 days** for the whole process [S52].\n6. The **annual fee** ($454 for 4–6 beds) is due each year; late payment adds 50% [S48].\n\n### Location rules\n- A home for **six or fewer** is a **residential use**: no conditional use permit or zoning variance [S49].\n- It is exempt from local business taxes, registration fees and use-permit fees. Fire-inspection fees are barred except under HSC §13235 [S50].\n- **Overconcentration:** CDSS can deny a license if residential facilities would be within **300 feet** of each other. RCFEs and foster family homes do not count [S51].\n- **Fire clearance** is requested through CCL. A separate clearance is needed before admitting **nonambulatory** residents or anyone 65+ [S40].\n- Bedrooms: no more than **two clients** per bedroom [S38].\n- Bathrooms: one toilet and washbasin per 6 persons; one tub or shower per 10, counting staff and family who live there [S39].\n\n### Step 4 — Regional center vendorization (in parallel)\n1. Attend the regional center's **residential services orientation**. The administrator must complete it before the first admission [S20].\n2. **Standardized vendorization** has run through the DDS **Provider Directory** since 1/1/2026 [S26][S27]:\n   - Create a profile and submit minimum requirements. The regional center has **15 days** to decide.\n   - Submit the full packet. The regional center has **30 days** to confirm it is complete; you have **30 days** to cure gaps.\n   - The regional center **approves or denies within 45 days** and issues a vendor number.\n3. The packet includes:\n   - DS 1890 vendor application, disclosures and the signed HCBS Provider Agreement [S22]\n   - a **program design** (17 CCR §56013): organizational chart, purpose, services and outcomes, entrance/exit criteria, program preparation duties, staff qualifications and duty statements, sample staff schedule, and training plan. Level 3 and Level 4 designs have extra content requirements [S16].\n   - a written request for the **service level**, with the administrator's qualifications. The regional center decides within **45 days** [S15].\n4. The regional center may process the vendor application up to approval while the license is pending, but it **cannot approve vendorization or refer anyone until the license is issued** [S23]. It cannot pay for services before vendorization [S24].\n\n### Realistic overall timeline\nAbout 4–8 months from LLC formation to first admission:\n- 90–120 days for licensing [S52]\n- vendor steps of up to 15 + 30 (+30 cure) + 45 days [S27], which can run in parallel\n- property search and staff hiring (operator estimate — verify locally)",
+    "reimbursement": "### How money flows\nEach resident's monthly ARM rate has two parts [S1][S2]:\n1. **SSI/SSP board-and-care amount — $1,444.07/month**, paid by the resident from SSI/SSP. The resident keeps **$182** for personal and incidental needs [S1][S68]. For context, the 2026 federal SSI benefit is $994 [S70].\n2. **Regional center payment** = full rate − $1,444.07. The regional center pays from DDS purchase-of-service funds, with federal HCBS waiver match where the resident is eligible [S9].\n\nThe rate is **payment in full**. Vendors may not bill families a supplement for authorized services [S24].\n\n### Base rate vs. Quality Incentive Program\n- DDS rate files publish the **full rate** and a **base rate** = (full − $1,444.07) × 90% + $1,444.07 [S2].\n- The remaining 10% is the **QIP** amount. Residential codes 905/915/113 are on the Quality Incentive Rate, and the residential measure is **Prevention & Wellness** (residents get preventive screenings on schedule) [S7].\n- QIP eligibility requires HCBS settings compliance, EVV compliance where applicable, and independent audit/review compliance [S7]. The 2026-27 budget books a $333.9 million reduction for the QIP eligibility mandate [S8].\n- **This model uses the base rate.** A new vendor should not count on the QIP until DDS confirms eligibility.\n\n### 2026 residential rates (effective July 1, 2026, adults, staff-operated 915)\n| Level | 4 or fewer beds — full | 4 or fewer — base (90%) | 5–6 beds — full |\n|---|---|---|---|\n| 2 (old 2) | $6,789.37 | $6,254.84 | $5,422.47 |\n| 3 (old 3, 4A, 4B) | $8,457.87 | $7,756.49 | $7,663.19 |\n| 4 (old 4C–4E) | $9,892.30 | $9,047.48 | $9,218.29 |\n| 5 (old 4F–4H) | $12,314.17 | $11,227.16 | $11,662.07 |\n| 6 (old 4I) | $13,772.04 | $12,539.24 | $13,251.21 |\n\nNotes on the table:\n- Tier: SDRC, Harbor, Orange County, North LA, San Gabriel–Pomona and North Bay [S2]. 7+ beds pay the same as 5–6 [S2].\n- Lower tier (Alta, Central Valley, Far Northern, Inland, Kern, Redwood Coast, Valley Mountain): Level 6 at 4 beds = $13,298.48 [S3].\n- Highest tier: RCEB and San Andreas Level 6 = $15,350.62 [S4]; Golden Gate $15,309.57 [S71].\n- Owner-operated (905) Level 2 and 3 rates are lower: Level 3 at 4 beds = $6,573.35. **New Level 4–6 homes get staff-operated rates whether or not the owner lives there** [S2][S6].\n- **Supplemental Residential Program Support (109)** pays **$32.10/hour** (SDRC tier) when the regional center authorizes extra staff for an individual [S2].\n- **Level 7** and **ARFPSHN (113)** rates are calculated by the regional center from staffing, consultant hours and fixed costs [S2][S6].\n\n### What the rate model assumes you spend\nDDS's rate models show what each rate is built to fund [S5]. For a **4-bed Level 4** home:\n- 220 staff hours/week per facility, including 56 lead-staff hours and 21 administrator hours (one administrator shared by two homes)\n- DSP wage $18.20, lead $19.58, administrator $25.24\n- 24 consultant hours per resident per year at $123.50 (San Diego)\n- food $270/person/month; 210 miles/week at $0.725/mile\n- program operations $70/week per resident; 12% administration\n\nLevel 6 assumes **300 hours/week**; Level 3, **180** [S5]. Housing is funded through the SSI/SSP amount (about $5,776/month for four residents) [S5].\n\n### Rate history and risk\nRate reform was phased in: partial increases came first, and full benchmark rates began January 1, 2025 [S6]. AB 2423 requires DDS to update and post the rate models every two years starting January 1, 2026. **Updates are paid only if the Legislature and the Administration fund them** [S1].",
+    "demand": "### Who refers\nPlacements come from **regional center service coordinators** and residential/placement units, guided by each person's IPP. The regional center may not refer anyone to a home until it is vendored [S24]. There is no advertising-driven private-pay market.\n\n### Size of the market (DDS data)\n| Measure | Value | Source |\n|---|---|---|\n| People served by regional centers (all residence types), Dec 2025 | 519,111 | [S10] |\n| Living in community care homes, Dec 2025 | 32,940 (25,603 age 18+) | [S10][S11] |\n| Community care home residents, Dec 2020 | 31,413 | [S10] |\n| Adults 18+ living with parent/guardian, Dec 2025 | 152,976 (21,964 age 42+; 9,269 age 52+) | [S11] |\n| DDS community caseload forecast | 487,114 (FY 2025-26) → 526,848 (FY 2026-27) | [S9] |\n| Residential Services purchase of services, FY 2026-27 | $7.41 billion | [S9] |\n\n### Where the residents are (community care homes, Dec 2025) [S10]\nInland 4,250; San Diego 2,677; North LA 2,445; East Bay 2,251; Orange County 2,062; Alta California 2,058; Central Valley 2,009; South Central LA 1,873; San Andreas 1,666; Valley Mountain 1,588; San Gabriel–Pomona 1,555; Harbor 1,206; Golden Gate 1,163; North Bay 1,024; Tri-Counties 968; Far Northern 934; Kern 868; Eastern LA 754; Lanterman 702; Westside 659; Redwood Coast 228.\n\n### What the data suggest\n- **Slow, steady growth in residential placements.** Community-care-home residents grew about 5% (Dec 2020 → Dec 2025), while total people served grew about 42% [S10]. New homes compete mostly for turnover and for people leaving family homes.\n- **Aging caregivers.** Nearly 22,000 adults age 42+ still live with a parent or guardian [S11]. Many will need out-of-home placement as parents age.\n- **Older residents.** 6,129 community-care-home residents are 62+ [S11]. Health needs and end-of-life planning are rising.\n- **Higher-acuity demand.** In the last published count by level (FY 2017-18), Level 4I was the largest and fastest-growing level (1,192 of 4,294 ARM homes, +7.8% that year), while Levels 2 and 3 shrank [S13]. This is old data; use it as direction only.\n\n### How to confirm demand locally\nAsk your regional center's community services/resource development unit:\n- which levels, genders, ages and behavioral or medical profiles they need placements for\n- whether they are funding any new homes through community placement plans (not verified here)\n\nGet this in writing before you sign a lease.",
+    "operations": "### Staffing rules that drive cost\n- **Title 17 basic staffing** (whenever residents are under facility supervision) [S14]:\n  - Level 2: 1 direct care staff per up to 6 residents\n  - Levels 3/4A/4B: 1 per up to 3\n  - 4C–4E: 1 per up to 2\n  - 4F–4I: 1 for the first resident\n  - Homes above these resident counts must add weekly direct care hours by level (a table in §56004(d)). Up to 2–7 hours per resident per week of program preparation can count toward them [S14].\n- **Title 22:** staff in numbers needed to meet client needs; CCL can require more [S35][S42].\n  - Day ratio for clients who rely on others for all ADLs: as the regional center specifies, never worse than **1:3** [S36].\n  - Night (10 p.m.–7 a.m.): homes of 15 or fewer need one person **on call on the premises**. For regional center clients who rely on others for all ADLs, night staffing is **as the regional center requires** [S37].\n  - Level 3+ homes in the DDS rate models are staffed **awake around the clock** (no overnight offset), and so is this P&L [S5].\n- **Consultant hours** at Level 4: 8–16 per resident per six months, by level [S14].\n- **Specialized skills** (for example nursing tasks) must be done by licensed or certified personnel [S35]. Unlicensed staff may assist with **self-administered** medications but may not give injections [S45].\n\n### Modeled staffing (from the DDS rate models) [S5]\n| Configuration | Facility hrs/week | Line | Lead | Administrator |\n|---|---|---|---|---|\n| 4-bed Level 3 | 180 | 103 | 56 | 21 |\n| 4-bed Level 4 | 220 | 143 | 56 | 21 |\n| 4-bed Level 6 | 300 | 223 | 56 | 21 |\n| 6-bed Level 4 | 298.4 | 221.4 | 56 | 21 |\n| Two 4-bed Level 6 | 600 | 446 | 112 | 42 |\n\nLine and lead hours are multiplied by a **1.045 paid-hours factor**. It covers paid sick leave (40 hrs/yr) [S65] and paid time for required training [S19][S18]. It is an operator estimate; DDS's own models use 1.15 (Section 8).\n\n### Training\n| Who | Requirement | Source |\n|---|---|---|\n| New direct care staff | On-site orientation within the first 40 hours: program design, IPPs, rights, medications, emergencies, SIRs, abuse reporting | [S18] |\n| Direct care staff | **DSPT**: two 35-hour competency-based segments (year 1 and year 2) with tests or a challenge test; free to DSPs | [S19][S28] |\n| Direct care staff CE | 8 hrs/yr (L2), 12 hrs/yr (L3, L4); L4 staff without 6 months' experience add 12 hrs in the first 6 months | [S18] |\n| Night staff | Emergency procedures and first aid | [S37] |\n| Administrator | 35-hr ICTP + exam; 40 hrs CE / 2 yrs; Title 17 CE 8–12 hrs/yr (can overlap); HIV/TB training within 6 months | [S34][S33][S17][S31] |\n\n### Required records and reporting\n- **Needs and Services Plan before admission** [S47]. Plan of operation kept current [S41]. Personal rights posted and honored [S46].\n- **Consumer notes** (activities, illness, medical visits, SIRs). Progress reports: **semiannual** at Levels 2–3; **quarterly** at Level 4, sent to the service coordinator within 30 days of quarter end [S21].\n- **CCL incident reports** by the next working day, written report within 7 days [S44].\n- **Special Incident Reports** to the regional center under Title 17. DDS's revised SIR regulations took effect **5/1/2026** [S55].\n- **Mandated reporting** of dependent adult abuse [S69].\n- **Vendor records** kept at least 5 years [S24].\n- **Independent review** if regional center payments reach $500,000–$1,999,999 a year; **independent audit** at $2 million+. Reports are due 9 months after fiscal year end [S54].\n\n### Labor law\n- California minimum wage is **$16.90** (2026) [S56]. Local rates are higher, e.g. San Diego $17.75, San Jose $18.45 [S59], and from July 1, 2026: City of Los Angeles $18.42, unincorporated Los Angeles County $18.47, Pasadena $18.57, Milpitas $18.50, San Francisco and Berkeley $19.61, Emeryville $20.34 [S58].\n- The DDS model's $18.20 DSP wage is **below those local minimums**, including unincorporated LA County and Pasadena, which sit in the SDRC-tier regional centers this model uses; those operators must pay more (Section 8).\n- 24-hour shifts, sleep time and meal/rest rules for residential care need employment counsel (Wage Order 5; not separately verified here).",
+    "market_conditions": "### Supply\n- **6,128 licensed Adult Residential Facilities** with **40,041 beds** (May 2025) [S12]:\n  - 2,818 are licensed for exactly 4 beds\n  - 2,661 for 5–6 beds, 259 for 1–3, 175 for 7–15 and 215 for 16+\n  - 401 more applications were pending\n- Specialized types listed separately: 97 ARFPSHN homes (463 beds), 82 EBSH homes (309 beds), 25 Community Crisis Homes (103 beds) [S12].\n- ARFs also serve non-DD adults (e.g., mental health), so these counts are not all regional center homes.\n- **Churn:** the CCL list shows 512 new ARF licenses first issued in 2024 and 360 ARF closures in 2024 [S12].\n- **Where:** most licensed ARFs are in Los Angeles (1,596), San Diego (577), Riverside (460), Orange (384), San Bernardino (380) and Sacramento (354) counties [S12].\n\n### Why small homes dominate\n4-bed homes are paid materially more per resident than 5–6-bed homes. At Level 6 the difference is $520.83 a month (full rate), but staffing does not scale down proportionally [S2][S5]. That explains the 2,818 four-bed licenses [S12].\n\n### Wages (BLS OEWS May 2025, California) [S57][S72][S73]\n| Role (SOC) | Statistic | Hourly |\n|---|---|---|\n| Home health & personal care aides (31-1120) | mean | $17.51 |\n| Social & human service assistants (21-1093) | 25th pct / median | $22.17 / $24.56 |\n| Social & community service managers (11-9151) | 25th pct / median | $34.04 / $40.01 |\n| Registered nurses (29-1141) | mean | $72.25 |\n| LVNs (29-2061) | mean | $39.59 |\n\nThe DDS rate models fund $18.20 for DSPs, $19.58 for lead staff and $25.24 for administrators at Levels 2–4 [S5]. **The P&L pays the administrator the BLS 11-9151 25th percentile ($34.04)**, which is above the rate-model figure, to stay conservative.\n\n### Housing cost proxy (HUD FY2026 4-bedroom FMR) [S66]\n- Sacramento $3,460; Riverside–San Bernardino $3,514; Los Angeles $3,672; San Diego $4,845; Orange County $5,246.\n- The P&L uses $5,000 for a 4-bedroom home and $6,000 for a 5-bedroom home (operator estimates — verify locally).\n\n### Trends to watch\n- DDS caseload growth (+8% forecast for FY 2026-27) [S9].\n- QIP eligibility enforcement and HCBS settings compliance [S7][S8].\n- Rate-model updates every two years that need legislative funding [S1].\n- Rising local minimum wages [S58][S59].\n- Workers' comp: the average advisory benchmark is $1.65 per $100 of payroll from 9/1/2026 [S62].",
+    "financial_narrative": "### How the pro forma is built\n**Revenue per occupied bed** = the regional center's **base (90%)** payment + the **$1,444.07 SSI/SSP** amount from the resident [S2][S1]. All rates are the July 1, 2026 SDRC/Harbor/Orange/North LA tier:\n- 4-bed Level 3 = $7,756.49\n- 4-bed Level 4 = $9,047.48\n- 4-bed Level 6 = $12,539.24\n- 6-bed Level 4 = $8,440.87\n\n**Staffing** follows the facility hours in the DDS rate models (table in Section 6) [S5]:\n- DSP $18.20 and lead $19.58, the DDS model wages\n- administrator $34.04 for 21 hrs/week per home (BLS 11-9151 25th percentile, May 2025) [S57][S73]\n- payroll burden 17%: taxes about 9% [S60][S61], workers' comp 5% (operator estimate) [S62], other benefits 3%\n- consultant hours at the DDS model's $123.50/hour [S5][S14]\n- food at the USDA moderate plan, $367.10 (August 2026) [S67]\n- mileage per the DDS model [S5]\n\n**Fixed costs** include rent, utilities, insurance, the CDSS annual fee [S48], the LLC tax and fee sized to revenue [S63], and accounting. The two-home configuration adds an independent review [S54].\n\n### Results at 90% occupancy (stabilized month)\n| Configuration | Revenue | Expenses | Net | Break-even occupancy |\n|---|---|---|---|---|\n| 4-bed Level 6 (default) | $45,141 | $42,447 | +$2,695 | 84% |\n| Two 4-bed Level 6 | $90,283 | $85,060 | +$5,223 | 84% |\n| 6-bed Level 4 | $45,581 | $44,757 | +$824 | 88% |\n| 4-bed Level 4 | $32,571 | $34,304 | −$1,733 | 95% |\n| 4-bed Level 3 | $27,923 | $30,149 | −$2,226 | 98% |\n\nAt **80% occupancy** every configuration loses money: 4-bed Level 6 −$1,972; two homes −$4,111. In a 4-bed home, one long vacancy is the difference between profit and loss.\n\n### Sensitivity (4-bed Level 6, default +$2,695)\n| Change | Effect | Result |\n|---|---|---|\n| Earn the QIP 10% (full rate) | +$4,438 | +$7,133 |\n| QIP earned, less the independent review it triggers (~$500/month, operator estimate) [S54] | +$3,938 | +$6,633 |\n| Pay City of Los Angeles minimum ($18.42) to line staff | −$260 | +$2,435 |\n| Pay unincorporated LA County minimum ($18.47) to line staff (SDRC-tier catchments) | −$319 | +$2,376 |\n| Pay San Francisco/Berkeley minimum ($19.61) to line and lead staff, same rate tier | −$1,675 | +$1,020 |\n| Pay BLS 21-1093 25th percentile ($22.17) to line and lead staff [S72] | −$5,459 | −$2,764 |\n| Use DDS's 1.15 paid-hours factor (PTO + supervision + training) instead of 1.045 | −$2,744 | −$50 |\n| Lower rate tier (Central Valley/Inland etc., base $12,113.04), same rent | −$1,534 | +$1,161 |\n| Highest tier (East Bay/San Andreas, base $13,959.97), same rent and wages | +$5,115 | +$7,810 |\n| Each $1,000/month of rent | −$1,000 | |\n\n- **4-bed Level 4** turns positive only with the QIP (+$1,308) or occupancy above 95%.\n- At DDS's own 1.15 paid-hours factor every configuration loses money at 90% occupancy (two homes −$266; 6-bed Level 4 −$1,905; 4-bed Level 4 −$3,703; 4-bed Level 3 −$3,808). The 1.045 factor used here is an operator estimate; budget for real PTO, supervision and training time.\n- At about 94%+ occupancy (the 97% optimistic case) or with the QIP, a single 4-bed Level 6 home's regional center payments exceed $500,000/yr and require a WIC §4652.5 independent review (~$6,000/yr, operator estimate — verify with a CPA) [S54]. The optimistic result in the P&L does not include it.\n- Inland regions pay less, but HUD rents there are about $1,300–$1,400 lower than the $5,000 modeled [S66]. A lower-tier Level 6 home with inland rent is roughly as profitable as the default.\n\n### Ramp-up and cash\nThe ramp assumes one admission a month (two homes: two a month). Real fill speed depends on regional center referrals. CAB requires proof of **three months of operating funds** before licensing [S30]: about $127,341 for a 4-bed Level 6 home. The workbook's modeled ramp-up deficit replaces that line in total cash needed.",
+    "risks": "1. **Single payer, fixed rates.** One regional center decides placements and the level; DDS sets the rate [S2][S15]. Rate-model updates need legislative funding [S1].\n2. **QIP uncertainty.** 10% of the regional center portion depends on QIP eligibility and measures. This is worth $4,438/month to a 4-bed Level 6 home [S7][S8].\n3. **Vacancy.** One empty bed in a 4-bed home is 25% vacancy. The default home breaks even at 84% occupancy and loses $1,972/month at 80%.\n4. **Level mismatch.** If residents' needs fall, or the regional center approves a lower level, revenue drops by roughly $1,300–$3,500 per resident per month (Level 6 → 4 base: $3,491.76) [S2][S15]. A level change is considered only on a change of ownership or when most residents' ID teams identify a new need [S15].\n5. **Wages.** The modeled $18.20 is below several July 1, 2026 local minimums [S58]: City of Los Angeles $18.42, unincorporated Los Angeles County $18.47 and Pasadena $18.57 (both in SDRC-tier regional center areas), San Jose $18.45 [S59], San Francisco and Berkeley $19.61, and Emeryville $20.34. At $18.47 the default home nets +$2,376; at $19.61 for line and lead staff, +$1,020 (before the higher RCEB/GGRC tier rates those Bay Area homes receive). Paying the BLS 21-1093 25th percentile ($22.17) [S72] turns the default home to −$2,764. Using DDS's own 1.15 paid-hours factor instead of the 1.045 operator estimate puts the default home at break-even (−$50/month). California daily overtime is not modeled; staff schedules should avoid it.\n6. **Behavioral risk.** Level 5–6 residents bring property damage, staff injury (workers' comp) and incident reporting [S44][S55]. Insurance and repair costs are operator estimates.\n7. **Licensing delays.** 90–120 days at CCL [S52] plus vendorization; rent runs before revenue.\n8. **Compliance.** Annual CCL inspections, regional center monitoring, SIRs, quarterly reports at Level 4, and independent review once regional center payments reach $500,000 a year [S21][S54]. A single 4-bed Level 6 home crosses that line at about 94% occupancy or once it earns the QIP (≈$515,000–$517,000/yr); budget about $6,000/yr for the review (operator estimate — verify with a CPA). Revocation risk if there is no certified administrator [S31].\n9. **Overconcentration and fire clearance** can block a chosen house [S51][S40].\n10. **Policy change.** HCBS settings compliance and QIP eligibility rules are tightening [S7][S8].",
+    "recommendations": "1. **Design for Level 6 (old 4I) in a 4-bed home** if you have the clinical capability. It is the only single-home configuration that is clearly profitable at the base rate (+$2,695/month at 90%; break-even at 84% occupancy, and about −$50/month if paid hours run at DDS's 1.15 factor) [S2][S5]. Level 3–4 homes need the QIP or near-full occupancy.\n2. **Talk to the regional center first.** Confirm the level, population and location they need, in writing, before signing a lease. Ask about community placement plan funding (not verified here).\n3. **Stay at 4 beds.** The 4-or-fewer rate premium beats the extra bed at Levels 3–6 [S2].\n4. **Plan for two homes under one administrator.** That is DDS's own model assumption [S5]. Two Level 6 homes net +$5,223/month at 90% in this model.\n5. **Qualify for the QIP from day one.** Complete the Provider Directory profile; meet HCBS settings, EVV (if applicable) and audit/review requirements; track residents' preventive screenings for the Prevention & Wellness measure [S7]. The QIP adds $4,438/month at Level 6.\n6. **Get the administrator experience right.** Level 4 needs 12 months of DD experience (waivable) and an ARF certificate [S17][S34]. The licensee can be the administrator.\n7. **Budget cash for six months, not three.** CAB verifies three months of operating funds [S30]; the ramp and referral timing usually take longer.\n8. **Hire to the DDS hours, pay above local minimum, and enroll every DSP in DSPT** within year 1 and year 2 [S19][S28].\n9. **Pick the house for licensing:** at least 300 ft from other residential facilities [S51]; bedrooms for two at most [S38]; bathrooms per §85088 [S39]; single-story or accessible if you will accept nonambulatory residents (separate fire clearance) [S40].\n10. **Reprice the P&L for your regional center's tier and your city's wage floor** before committing [S3][S4][S58]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Identify your vendoring regional center",
+      "instructions": "Find the regional center for the county where the home will be (dds.ca.gov/rc/listings). You are vendored by the regional center where the home is located; one vendorization per service per location.",
+      "cite": "17 CCR §54326(a)(14)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Meet the regional center's resource development/community services unit",
+      "instructions": "Ask what level (2–6), gender, age and behavioral/medical profile they need placements for, and where. Get it in writing before leasing.",
+      "cite": "17 CCR §56005",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Attend the regional center residential services orientation",
+      "instructions": "Regional centers hold it at least every six months; the administrator must complete it before the first admission.",
+      "cite": "17 CCR §56003",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Pull current rates for your regional center",
+      "instructions": "Download the DDS 'Rates Effective Jul 2026' file for your regional center. Note the full and base (90%) rates for 915, 4 or fewer beds, at your target level.",
+      "cite": "DDS rate files",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Choose service level and size",
+      "instructions": "Model 4-bed Level 6 vs Level 4 with this workbook. 4-or-fewer rates are higher per resident than 5–6 beds.",
+      "cite": "DDS rate files; rate models",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Decide staff-operated (915) vs owner-operated (905)",
+      "instructions": "905 only if the home is the licensee's/board member's residence. New Level 4–6 homes get staff-operated rates either way.",
+      "cite": "17 CCR §54342; DDS Residential directive",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Form the LLC or corporation",
+      "instructions": "File LLC-1 ($70) and the Statement of Information ($20) on bizfile. Budget the $800 annual tax plus the gross-receipts LLC fee.",
+      "cite": "SOS; FTB",
+      "source_id": "S64"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Get an EIN and open a business bank account",
+      "instructions": "Free EIN from the IRS. Keep resident trust money separate if you will handle residents' funds (plan of operation).",
+      "cite": "22 CCR §80022(b)(12)",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Register with EDD as an employer",
+      "instructions": "Payroll taxes: UI 3.4% new employer and ETT 0.1% on the first $7,000 of wages per employee; employer FICA 7.65%.",
+      "cite": "EDD 2026",
+      "source_id": "S60"
+    },
+    {
+      "phase": "PHASE 1 — PLANNING, MARKET CHECK & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Secure start-up funds",
+      "instructions": "CCL requires start-up funds covering the first three months of operation (about $90k–$127k for one 4-bed home in this model) and verifies them.",
+      "cite": "22 CCR §85018(b)(1)",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION",
+      "priority": "CRITICAL",
+      "task": "Confirm administrator eligibility",
+      "instructions": "Age 21+, high school diploma/GED. Title 17: 6/9/12 months DD direct-support experience for Level 2/3/4 (RC may waive).",
+      "cite": "22 CCR §85064; 17 CCR §56037",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION",
+      "priority": "CRITICAL",
+      "task": "Complete the 35-hour ARF Initial Certification Training Program",
+      "instructions": "Use a CDSS-approved vendor; in person or live stream unless specified.",
+      "cite": "22 CCR §85064.2(b)(1)",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION",
+      "priority": "CRITICAL",
+      "task": "Pass the ARF administrator exam",
+      "instructions": "Within 60 days of finishing the ICTP, maximum 3 attempts; $100 exam fee.",
+      "cite": "22 CCR §85064.2(b)(2)",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION",
+      "priority": "CRITICAL",
+      "task": "Apply for the administrator certificate",
+      "instructions": "LIC 9214 within 30 days of passing, with LIC 508 and Live Scan (LIC 9163); $140 application fee.",
+      "cite": "22 CCR §85064.2(b)(3); CDSS",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION",
+      "priority": "MEDIUM",
+      "task": "Plan administrator CE",
+      "instructions": "40 hours every 2 years (4 hrs laws/regs); up to 24 hrs of RC-approved DDS training count. Title 17 CE 8–12 hrs/yr.",
+      "cite": "22 CCR §85064.3; 17 CCR §56037",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 2 — ADMINISTRATOR CERTIFICATION",
+      "priority": "MEDIUM",
+      "task": "Complete HIV/TB training",
+      "instructions": "Within six months of becoming administrator; update every two years.",
+      "cite": "22 CCR §85064(k)",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "CRITICAL",
+      "task": "Screen the address for overconcentration",
+      "instructions": "Ask CAB or check the CCL facility search; residential facilities within 300 feet can be denied.",
+      "cite": "HSC §1520.5",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "HIGH",
+      "task": "Confirm residential-use status",
+      "instructions": "Six or fewer residents = residential use; no CUP or zoning variance; exempt from business taxes and use-permit fees.",
+      "cite": "HSC §1566.3, §1566.2",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "CRITICAL",
+      "task": "Check bedroom and bathroom capacity",
+      "instructions": "Max 2 clients per bedroom; bedrooms not used as passageways; 1 toilet+washbasin per 6 persons, 1 tub/shower per 10 (incl. live-in staff/family).",
+      "cite": "22 CCR §85087, §85088",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "HIGH",
+      "task": "Plan for nonambulatory residents",
+      "instructions": "If you will admit nonambulatory residents, tell CCL so the fire authority issues the right clearance before admission.",
+      "cite": "22 CCR §80020(b)",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "HIGH",
+      "task": "Sign the lease with a licensing contingency",
+      "instructions": "Lease must allow licensed residential care; include the landlord's name/address in the application.",
+      "cite": "22 CCR §80018(d)(3)",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "HIGH",
+      "task": "Furnish to Title 22",
+      "instructions": "Per resident: bed, chair, nightstand, lamp, drawers (2 drawers or 8 cu ft); linens; hygiene supplies; emergency lighting; night lights.",
+      "cite": "22 CCR §85088(c),(e)",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 3 — PROPERTY & SITE READINESS",
+      "priority": "MEDIUM",
+      "task": "Draw floor plan and grounds sketch",
+      "instructions": "With room dimensions and rooms for nonambulatory clients; required in the plan of operation.",
+      "cite": "22 CCR §80022(b)(7)–(8)",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Complete Component I online orientation (Adult)",
+      "instructions": "$50 + $4.85; laptop only; access lasts 30 days; save the certificate.",
+      "cite": "22 CCR §80018(b); CDSS",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Write the plan of operation",
+      "instructions": "Purpose, admissions, admission agreement, staffing plan, in-service plan, floor plan, menus, transportation, rate/refund policy, resident money handling, consultants, visiting policy.",
+      "cite": "22 CCR §80022; §85022",
+      "source_id": "S41"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Prepare the LIC 9282 infection control plan",
+      "instructions": "Required in every ARF application submission.",
+      "cite": "CDSS CAB; 22 CCR §85022(a)(1)",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Prepare the financial plan with start-up funds",
+      "instructions": "Show three months of operating funds; CAB verifies.",
+      "cite": "22 CCR §85018",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Live Scan and health screening for licensee/administrator",
+      "instructions": "Fingerprint clearance before presence; TB test and health screening within 1 year before or 7 days after.",
+      "cite": "22 CCR §80019; §80065(g)",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Submit LIC 281 application with the fee",
+      "instructions": "$908 for 4–6 beds ($454 for 1–3), paid with the application; nonrefundable; facility address on the check.",
+      "cite": "HSC §1523.1; CDSS CAB",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Provide fire authority information",
+      "instructions": "CAB orders the fire clearance; verify the authority's address, fax and phone.",
+      "cite": "22 CCR §80020; CDSS CAB",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Complete the Component II interview",
+      "instructions": "Phone or video with the analyst after submission.",
+      "cite": "CDSS Online Orientations",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Pass the pre-licensing inspection",
+      "instructions": "Home fully furnished, safe and staffed-ready.",
+      "cite": "CDSS CAB",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "HIGH",
+      "task": "Complete Component III",
+      "instructions": "Operations and record keeping, in person, after the pre-licensing inspection.",
+      "cite": "CDSS Online Orientations",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 4 — CDSS LICENSE APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Expect 90–120 days",
+      "instructions": "Have construction, funds and documents ready before you submit.",
+      "cite": "CDSS CAB",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Create a DDS Provider Directory profile and start vendorization",
+      "instructions": "Submit minimum requirements; RC decides within 15 days.",
+      "cite": "DDS standardized vendorization",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Submit DS 1890 and disclosures",
+      "instructions": "Name, IDs, address, service type (915/905), capacity, consultants; copy of license or proof of application.",
+      "cite": "17 CCR §54310",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Sign the HCBS Provider Agreement",
+      "instructions": "Required for Medi-Cal-eligible services; vendorization is denied without it.",
+      "cite": "17 CCR §54310(a)(10)(J); §54326(a)(16)",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Write the Title 17 program design",
+      "instructions": "Org chart, purpose and outcomes, entrance/exit criteria, program preparation, staff qualifications and duties, sample schedule, training plan; Level 3/4 extras.",
+      "cite": "17 CCR §56013",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Request the service level in writing",
+      "instructions": "Include administrator qualifications and the proposed level; RC decides within 45 days.",
+      "cite": "17 CCR §56005",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Build the staff schedule to the level",
+      "instructions": "Meet §56004 basic staffing (e.g., 1:2 at 4C–4E) and added hours; DDS rate models assume 180/220/300 hrs/week for Levels 3/4/6 in a 4-bed home.",
+      "cite": "17 CCR §56004; DDS rate models",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "HIGH",
+      "task": "Line up consultants",
+      "instructions": "Level 4: 8–16 consultant hours per resident per six months; list them in the plan of operation and vendor application.",
+      "cite": "17 CCR §56004(f); 22 CCR §85022(a)(2)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "HIGH",
+      "task": "Cure missing items within 30 days",
+      "instructions": "RC confirms completeness within 30 days; applicant has 30 days to submit missing items.",
+      "cite": "DDS vendorization steps",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "CRITICAL",
+      "task": "Receive vendor number before any placement",
+      "instructions": "RC cannot approve or refer until the license is issued, and cannot pay for pre-vendorization services.",
+      "cite": "17 CCR §54320(c); §54326(d)(4)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 5 — REGIONAL CENTER VENDORIZATION & SERVICE LEVEL",
+      "priority": "HIGH",
+      "task": "Sign the rate/service acknowledgement",
+      "instructions": "Confirm service code, subcode (e.g., 915 / 640 for Level 6, 4 beds) and rate.",
+      "cite": "DDS Residential directive",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Hire and clear all staff before they start",
+      "instructions": "Live Scan clearance (or exemption) before presence; health screening and TB; age 18+.",
+      "cite": "22 CCR §80019; §80065",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Deliver the 40-hour on-site orientation",
+      "instructions": "Program design, IPPs, rights, medications, emergencies/fire, SIRs, abuse reporting.",
+      "cite": "17 CCR §56038(a)(1)",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Enroll DSPs in DSPT Year 1",
+      "instructions": "35-hour segment and test (or challenge test) within one year of hire; free to the DSP.",
+      "cite": "17 CCR §56033; DDS DSPT",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Schedule DSPT Year 2",
+      "instructions": "Second 35-hour segment within two years of hire.",
+      "cite": "17 CCR §56033(a)(2)(B)",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "First aid and emergency training for night staff",
+      "instructions": "Night staff must know emergency procedures and first aid.",
+      "cite": "22 CCR §85065.6(b)",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Inhaler training by a licensed professional",
+      "instructions": "If staff will assist with metered-dose/dry-powder inhalers; document and review yearly.",
+      "cite": "22 CCR §80075(b)(1)(A)",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Plan staff CE",
+      "instructions": "8 hrs/yr (L2) or 12 hrs/yr (L3–L4); L4 staff without 6 months' experience add 12 hrs in the first six months.",
+      "cite": "17 CCR §56038",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Set wages at or above the local minimum",
+      "instructions": "State $16.90; check city rates (e.g., City of LA $18.42, unincorporated LA County $18.47, Pasadena $18.57, SF/Berkeley $19.61, Emeryville $20.34 from 7/1/2026; San Diego $17.75).",
+      "cite": "DIR; local ordinances",
+      "source_id": "S56"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Paid sick leave policy",
+      "instructions": "At least 40 hours or 5 days per year.",
+      "cite": "Labor Code §246",
+      "source_id": "S65"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Personnel files",
+      "instructions": "Name, DL if driving, start date, age statement, training, health screening, TB, criminal clearance.",
+      "cite": "22 CCR §80066",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Admission procedures and Needs and Services Plan",
+      "instructions": "Complete before admission, with the medical and functional assessments.",
+      "cite": "22 CCR §85068.2",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Personal rights",
+      "instructions": "Post rights and train staff; no restraints; postural supports only per rule.",
+      "cite": "22 CCR §80072",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Medication assistance procedures",
+      "instructions": "Self-administration assistance; PRN rules; no injections by unlicensed staff.",
+      "cite": "22 CCR §80075",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Incident reporting system",
+      "instructions": "CCL: next working day + written report in 7 days. Regional center SIRs under the revised regulations effective 5/1/2026.",
+      "cite": "22 CCR §80061; DDS SIR regs",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Mandated reporter training",
+      "instructions": "Dependent adult abuse reporting obligations.",
+      "cite": "WIC §15630",
+      "source_id": "S69"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Consumer notes and progress reports",
+      "instructions": "Notes on activities, illness, visits, SIRs. Level 2–3 semiannual reports; Level 4 quarterly, sent within 30 days of quarter end.",
+      "cite": "17 CCR §56026",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "HIGH",
+      "task": "Record retention",
+      "instructions": "Keep billing/service records at least 5 years.",
+      "cite": "17 CCR §54326(a)(3)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "MEDIUM",
+      "task": "Insurance",
+      "instructions": "General and professional liability, abuse/molestation, auto, workers' comp. Ask your RC whether the vendor packet sets limits.",
+      "cite": "Operator practice",
+      "source_id": "S62"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "MEDIUM",
+      "task": "QIP readiness",
+      "instructions": "Complete the Provider Directory; meet HCBS settings, EVV (if applicable) and audit/review rules; track preventive screenings.",
+      "cite": "DDS QIP",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "MEDIUM",
+      "task": "Independent review/audit planning",
+      "instructions": "RC payments $500k–$1.99M/yr = independent review; $2M+ = audit; due 9 months after fiscal year end.",
+      "cite": "WIC §4652.5",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 7 — POLICIES, SYSTEMS & FINANCE",
+      "priority": "MEDIUM",
+      "task": "SSI/SSP collection",
+      "instructions": "Collect the $1,444.07 board-and-care amount from each resident or representative payee; resident keeps $182.",
+      "cite": "DDS rate files",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "CRITICAL",
+      "task": "Accept first placement only with license + vendor number + approved level",
+      "instructions": "Confirm the authorization (service code, subcode, rate) with the RC.",
+      "cite": "17 CCR §54320; §56005",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Bill the regional center monthly",
+      "instructions": "Bill only authorized, delivered services; the rate is payment in full.",
+      "cite": "17 CCR §54326(a)(10),(12)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Pay the CDSS annual fee on time",
+      "instructions": "$454 for 4–6 beds; late fee +50%.",
+      "cite": "HSC §1523.1",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Renew the administrator certificate",
+      "instructions": "Every two years; 40 hrs CE; $100 renewal (CDSS charges per its current schedule).",
+      "cite": "22 CCR §85064.3",
+      "source_id": "S33"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Prepare for CCL and RC monitoring",
+      "instructions": "Unannounced CCL visits and regional center monitoring; access must be provided.",
+      "cite": "17 CCR §54326(a)(2)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Request a level change only when allowed",
+      "instructions": "Only on change of ownership or when most residents' ID teams identify a new need.",
+      "cite": "17 CCR §56005(c)(1)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — OPENING & ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Watch rate updates",
+      "instructions": "Check DDS rate files after each January/July; AB 2423 model updates need funding.",
+      "cite": "DDS rate models page",
+      "source_id": "S1"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "CDSS Centralized Applications Bureau (CAB)",
+      "role": "New ARF applications",
+      "contact": "(833) 827-6084 / CCLASCPCAB@dss.ca.gov / 744 P Street, MS 9-14-8201, Sacramento, CA 95814"
+    },
+    {
+      "name": "CDSS Online Orientation Help Desk",
+      "role": "Component I support",
+      "contact": "CDSSCCLOnlineOrientationHelpDesk@dss.ca.gov; register at cdssadult.cpshr.us/RegForm?i=adult"
+    },
+    {
+      "name": "CDSS Administrator Certification Bureau",
+      "role": "ARF administrator certificate and exam",
+      "contact": "916-653-9300 / AdminCertInfo@dss.ca.gov"
+    },
+    {
+      "name": "DDS Rates",
+      "role": "Rate questions, accessible rate files",
+      "contact": "RatesQuestions@dds.ca.gov"
+    },
+    {
+      "name": "DDS Rates and Vendorization Section",
+      "role": "Vendorization process questions",
+      "contact": "vendorization@dds.ca.gov"
+    },
+    {
+      "name": "DDS Quality Incentive Program",
+      "role": "QIP eligibility and measures",
+      "contact": "QIPQuestions@dds.ca.gov"
+    },
+    {
+      "name": "DDS general information",
+      "role": "Department switchboard",
+      "contact": "833-421-0061 / info@dds.ca.gov"
+    },
+    {
+      "name": "DDS DSPT",
+      "role": "Direct Support Professional Training schedules",
+      "contact": "dds.ca.gov/services/dspt; dsptrain.org"
+    },
+    {
+      "name": "Regional center listings",
+      "role": "Find your vendoring regional center",
+      "contact": "dds.ca.gov/rc/listings"
+    },
+    {
+      "name": "California Secretary of State — bizfile",
+      "role": "Entity formation",
+      "contact": "bizfileonline.sos.ca.gov"
+    },
+    {
+      "name": "Franchise Tax Board",
+      "role": "LLC tax and fee",
+      "contact": "ftb.ca.gov"
+    },
+    {
+      "name": "EDD Employer Services",
+      "role": "Payroll tax registration",
+      "contact": "edd.ca.gov/en/Payroll_Taxes"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.8,
+      "optimistic": 0.97,
+      "rationale": "No public occupancy data for regional-center-vendored ARFs was found. In a 4-bed home one empty bed is 25% vacancy, so 90% means a bed is empty about 40% of the time; 80% means one bed empty most of the time. Operator estimate — vacancy depends on regional center referral flow in your catchment (DDS data show 32,940 people in community care homes, Dec 2025).",
+      "source_id": "S10"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "arf4_l4",
+        "label": "4-bed ARF, staff-operated, Service Level 4 (formerly 4C–4E)",
+        "capacity": 4,
+        "notes": "Common entry model. Staffing per the DDS rate model: 220 facility hrs/week (24/7 awake coverage plus a second staff 52 hrs/week).",
+        "revenue_lines": [
+          {
+            "name": "Regional center ARM payment — Level 4, 4 or fewer beds (915), base rate (90%)",
+            "payer": "Regional center (DDS POS; HCBS waiver where eligible)",
+            "code": "915 / subcode 440",
+            "rate": 7603.41,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S2",
+            "notes": "Full monthly rate $9,892.30 (eff. 7/1/2026, San Diego/Harbor/Orange/North LA/San Gabriel–Pomona/North Bay tier) includes the $1,444.07 SSI/SSP board-and-care amount. Regional center pays the rest: ($9,892.30 − $1,444.07) × 90% = $7,603.41 base. The other 10% ($844.82) is the Quality Incentive Program amount — not assumed (see Section 8)."
+          },
+          {
+            "name": "SSI/SSP board-and-care amount paid by resident",
+            "payer": "Resident (SSI/SSP, nonmedical out-of-home care)",
+            "code": "",
+            "rate": 1444.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "B&C (SSI/SSP) $1,444.07 effective 1/1/2026; the resident keeps $182 for personal and incidental needs. DDS rate files state that full and base rates include this amount."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (line staff; coverage incl. awake overnight)",
+            "wage_hourly": 18.2,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 647.6,
+            "cite": "17 CCR §56004(c)–(d); 22 CCR §85065, §85065.6(g)",
+            "notes": "143 line-staff hrs/week (DDS rate model facility hours less lead and administrator hours) × 4.333 wks × 1.045 paid-hours factor (paid sick leave + paid DSPT/CE time — operator estimate). Wage = DDS rate-model DSP wage $18.20 (Feb 2026 models); BLS CA 31-1120 mean is $17.51 and 21-1093 25th pct $22.17 (May 2025; $46,110/yr via O*NET [S72]). "
+          },
+          {
+            "role": "Lead staff / house manager",
+            "wage_hourly": 19.58,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 253.6,
+            "cite": "DDS rate model (56 lead hrs/week per home)",
+            "notes": "56 hrs/week × 4.333 × 1.045. Wage = DDS rate-model lead wage $19.58."
+          },
+          {
+            "role": "Certified ARF administrator (counts toward floor coverage)",
+            "wage_hourly": 34.04,
+            "wage_source_id": "S73",
+            "basis": "hours_per_month",
+            "amount": 91.0,
+            "cite": "22 CCR §85064, §85064.2; 17 CCR §56037",
+            "notes": "21 hrs/week (DDS model: 21 hrs/week per home, one administrator per two homes). Wage = BLS CA 11-9151 25th percentile $34.04 (May 2025; $70,810/yr via O*NET [S73]); the DDS model funds $25.24 (Levels 2–4) — the higher BLS figure is used to be conservative. Owner-administrators still carry this cost (or forgo the pay)."
+          }
+        ]
+      },
+      {
+        "id": "arf4_l3",
+        "label": "4-bed ARF, staff-operated, Service Level 3 (formerly 3, 4A, 4B)",
+        "capacity": 4,
+        "notes": "Lower-acuity model. DDS model: 180 facility hrs/week (24/7 single coverage plus 12 hrs).",
+        "revenue_lines": [
+          {
+            "name": "Regional center ARM payment — Level 3, 4 or fewer beds (915), base rate (90%)",
+            "payer": "Regional center (DDS POS; HCBS waiver where eligible)",
+            "code": "915 / subcode 340",
+            "rate": 6312.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S2",
+            "notes": "Full monthly rate $8,457.87 (eff. 7/1/2026, San Diego/Harbor/Orange/North LA/San Gabriel–Pomona/North Bay tier) includes the $1,444.07 SSI/SSP board-and-care amount. Regional center pays the rest: ($8,457.87 − $1,444.07) × 90% = $6,312.42 base. The other 10% ($701.38) is the Quality Incentive Program amount — not assumed (see Section 8)."
+          },
+          {
+            "name": "SSI/SSP board-and-care amount paid by resident",
+            "payer": "Resident (SSI/SSP, nonmedical out-of-home care)",
+            "code": "",
+            "rate": 1444.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "B&C (SSI/SSP) $1,444.07 effective 1/1/2026; the resident keeps $182 for personal and incidental needs. DDS rate files state that full and base rates include this amount."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (line staff; coverage incl. awake overnight)",
+            "wage_hourly": 18.2,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 466.4,
+            "cite": "17 CCR §56004(c)–(d); 22 CCR §85065, §85065.6(g)",
+            "notes": "103 line-staff hrs/week (DDS rate model facility hours less lead and administrator hours) × 4.333 wks × 1.045 paid-hours factor (paid sick leave + paid DSPT/CE time — operator estimate). Wage = DDS rate-model DSP wage $18.20 (Feb 2026 models); BLS CA 31-1120 mean is $17.51 and 21-1093 25th pct $22.17 (May 2025; $46,110/yr via O*NET [S72]). "
+          },
+          {
+            "role": "Lead staff / house manager",
+            "wage_hourly": 19.58,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 253.6,
+            "cite": "DDS rate model (56 lead hrs/week per home)",
+            "notes": "56 hrs/week × 4.333 × 1.045. Wage = DDS rate-model lead wage $19.58."
+          },
+          {
+            "role": "Certified ARF administrator (counts toward floor coverage)",
+            "wage_hourly": 34.04,
+            "wage_source_id": "S73",
+            "basis": "hours_per_month",
+            "amount": 91.0,
+            "cite": "22 CCR §85064, §85064.2; 17 CCR §56037",
+            "notes": "21 hrs/week (DDS model: 21 hrs/week per home, one administrator per two homes). Wage = BLS CA 11-9151 25th percentile $34.04 (May 2025; $70,810/yr via O*NET [S73]); the DDS model funds $25.24 (Levels 2–4) — the higher BLS figure is used to be conservative. Owner-administrators still carry this cost (or forgo the pay)."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Consultant hours (behavioral/clinical)",
+            "monthly": 164.67,
+            "notes": "L3: 16 hrs/yr × $123.50 = $164.67/resident-month (old 4A/4B need 8 hrs per consumer per six months, 17 CCR §56004(f); DDS model funds 16 hrs/yr)."
+          }
+        ]
+      },
+      {
+        "id": "arf4_l6",
+        "label": "4-bed ARF, staff-operated, Service Level 6 (formerly 4I)",
+        "capacity": 4,
+        "notes": "Highest standard level; the most common and fastest-growing ARM level historically (4I). DDS model: 300 facility hrs/week (about 1.8 staff on average, 24/7 awake). At about 94%+ occupancy (including the 97% optimistic case), or with the QIP earned, regional center payments exceed $500,000/yr and a WIC §4652.5 independent review (~$6,000/yr, operator estimate — verify with a CPA) is required; that cost is not in this configuration's P&L [S54].",
+        "revenue_lines": [
+          {
+            "name": "Regional center ARM payment — Level 6, 4 or fewer beds (915), base rate (90%)",
+            "payer": "Regional center (DDS POS; HCBS waiver where eligible)",
+            "code": "915 / subcode 640",
+            "rate": 11095.17,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S2",
+            "notes": "Full monthly rate $13,772.04 (eff. 7/1/2026, San Diego/Harbor/Orange/North LA/San Gabriel–Pomona/North Bay tier) includes the $1,444.07 SSI/SSP board-and-care amount. Regional center pays the rest: ($13,772.04 − $1,444.07) × 90% = $11,095.17 base. The other 10% ($1,232.80) is the Quality Incentive Program amount — not assumed (see Section 8)."
+          },
+          {
+            "name": "SSI/SSP board-and-care amount paid by resident",
+            "payer": "Resident (SSI/SSP, nonmedical out-of-home care)",
+            "code": "",
+            "rate": 1444.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "B&C (SSI/SSP) $1,444.07 effective 1/1/2026; the resident keeps $182 for personal and incidental needs. DDS rate files state that full and base rates include this amount."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (line staff; coverage incl. awake overnight)",
+            "wage_hourly": 18.2,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 1009.8,
+            "cite": "17 CCR §56004(c)–(d); 22 CCR §85065, §85065.6(g)",
+            "notes": "223 line-staff hrs/week (DDS rate model facility hours less lead and administrator hours) × 4.333 wks × 1.045 paid-hours factor (paid sick leave + paid DSPT/CE time — operator estimate). Wage = DDS rate-model DSP wage $18.20 (Feb 2026 models); BLS CA 31-1120 mean is $17.51 and 21-1093 25th pct $22.17 (May 2025; $46,110/yr via O*NET [S72]). "
+          },
+          {
+            "role": "Lead staff / house manager",
+            "wage_hourly": 19.58,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 253.6,
+            "cite": "DDS rate model (56 lead hrs/week per home)",
+            "notes": "56 hrs/week × 4.333 × 1.045. Wage = DDS rate-model lead wage $19.58."
+          },
+          {
+            "role": "Certified ARF administrator (counts toward floor coverage)",
+            "wage_hourly": 34.04,
+            "wage_source_id": "S73",
+            "basis": "hours_per_month",
+            "amount": 91.0,
+            "cite": "22 CCR §85064, §85064.2; 17 CCR §56037",
+            "notes": "21 hrs/week (DDS model: 21 hrs/week per home, one administrator per two homes). Wage = BLS CA 11-9151 25th percentile $34.04 (May 2025; $70,810/yr via O*NET [S73]); the DDS model funds $25.24 (Levels 2–4) — the higher BLS figure is used to be conservative. Owner-administrators still carry this cost (or forgo the pay)."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Consultant hours (behavioral/clinical)",
+            "monthly": 329.33,
+            "notes": "L6 (4I): 32 hrs/yr × $123.50 = $329.33/resident-month (17 CCR §56004(f) requires 16 hrs per consumer per six months for 4I)."
+          },
+          {
+            "item": "California LLC fee (gross-receipts based) ÷ 12",
+            "monthly": 208.33,
+            "notes": "Gross receipts ≈ $541k/yr at 90% occupancy → $2,500/yr LLC fee."
+          }
+        ]
+      },
+      {
+        "id": "arf6_l4",
+        "label": "6-bed ARF, staff-operated, Service Level 4",
+        "capacity": 6,
+        "notes": "Larger home at the lower 5–6-bed rate. Staffing scaled from the DDS 5+ bed model: 77 fixed hrs + 36.9 line hrs per resident per week × 6 = 298.4 hrs/week.",
+        "revenue_lines": [
+          {
+            "name": "Regional center ARM payment — Level 4, 5 or 6 beds (915), base rate (90%)",
+            "payer": "Regional center (DDS POS; HCBS waiver where eligible)",
+            "code": "915 / subcode 460",
+            "rate": 6996.8,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S2",
+            "notes": "Full monthly rate $9,218.29 (eff. 7/1/2026, San Diego/Harbor/Orange/North LA/San Gabriel–Pomona/North Bay tier) includes the $1,444.07 SSI/SSP board-and-care amount. Regional center pays the rest: ($9,218.29 − $1,444.07) × 90% = $6,996.80 base. The other 10% ($777.42) is the Quality Incentive Program amount — not assumed (see Section 8)."
+          },
+          {
+            "name": "SSI/SSP board-and-care amount paid by resident",
+            "payer": "Resident (SSI/SSP, nonmedical out-of-home care)",
+            "code": "",
+            "rate": 1444.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "B&C (SSI/SSP) $1,444.07 effective 1/1/2026; the resident keeps $182 for personal and incidental needs. DDS rate files state that full and base rates include this amount."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (line staff; coverage incl. awake overnight)",
+            "wage_hourly": 18.2,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 1002.6,
+            "cite": "17 CCR §56004(c)–(d); 22 CCR §85065, §85065.6(g)",
+            "notes": "221.4 line-staff hrs/week (DDS rate model facility hours less lead and administrator hours) × 4.333 wks × 1.045 paid-hours factor (paid sick leave + paid DSPT/CE time — operator estimate). Wage = DDS rate-model DSP wage $18.20 (Feb 2026 models); BLS CA 31-1120 mean is $17.51 and 21-1093 25th pct $22.17 (May 2025; $46,110/yr via O*NET [S72]). "
+          },
+          {
+            "role": "Lead staff / house manager",
+            "wage_hourly": 19.58,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 253.6,
+            "cite": "DDS rate model (56 lead hrs/week per home)",
+            "notes": "56 hrs/week × 4.333 × 1.045. Wage = DDS rate-model lead wage $19.58."
+          },
+          {
+            "role": "Certified ARF administrator (counts toward floor coverage)",
+            "wage_hourly": 34.04,
+            "wage_source_id": "S73",
+            "basis": "hours_per_month",
+            "amount": 91.0,
+            "cite": "22 CCR §85064, §85064.2; 17 CCR §56037",
+            "notes": "21 hrs/week (DDS model: 21 hrs/week per home, one administrator per two homes). Wage = BLS CA 11-9151 25th percentile $34.04 (May 2025; $70,810/yr via O*NET [S73]); the DDS model funds $25.24 (Levels 2–4) — the higher BLS figure is used to be conservative. Owner-administrators still carry this cost (or forgo the pay)."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — house (fixed)",
+            "monthly": 6000,
+            "notes": "5-bedroom house for 6 residents (2 per room max, 22 CCR §85087) — operator estimate, verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 800
+          },
+          {
+            "item": "General & professional liability insurance",
+            "monthly": 450
+          },
+          {
+            "item": "Repairs & maintenance",
+            "monthly": 350
+          },
+          {
+            "item": "Training & CE (CPR/first aid, administrator 40 hrs/2 yrs, DSP CE 12 hrs/yr)",
+            "monthly": 120
+          },
+          {
+            "item": "Live Scan, health screenings & TB tests for new hires",
+            "monthly": 120
+          },
+          {
+            "item": "Accounting, payroll service, legal",
+            "monthly": 450
+          },
+          {
+            "item": "California LLC fee (gross-receipts based) ÷ 12",
+            "monthly": 208.33,
+            "notes": "Gross receipts ≈ $547k/yr → $2,500/yr."
+          }
+        ]
+      },
+      {
+        "id": "arf4x2_l6",
+        "label": "Two 4-bed Level 6 ARFs sharing one administrator",
+        "capacity": 8,
+        "notes": "Expert scale-up: the DDS model itself assumes one administrator per two homes. Two licenses, two vendorizations.",
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 2,
+          "note": "Second home opens with the first; two admissions a month"
+        },
+        "revenue_lines": [
+          {
+            "name": "Regional center ARM payment — Level 6, 4 or fewer beds (915), base rate (90%)",
+            "payer": "Regional center (DDS POS; HCBS waiver where eligible)",
+            "code": "915 / subcode 640",
+            "rate": 11095.17,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S2",
+            "notes": "Full monthly rate $13,772.04 (eff. 7/1/2026, San Diego/Harbor/Orange/North LA/San Gabriel–Pomona/North Bay tier) includes the $1,444.07 SSI/SSP board-and-care amount. Regional center pays the rest: ($13,772.04 − $1,444.07) × 90% = $11,095.17 base. The other 10% ($1,232.80) is the Quality Incentive Program amount — not assumed (see Section 8)."
+          },
+          {
+            "name": "SSI/SSP board-and-care amount paid by resident",
+            "payer": "Resident (SSI/SSP, nonmedical out-of-home care)",
+            "code": "",
+            "rate": 1444.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "B&C (SSI/SSP) $1,444.07 effective 1/1/2026; the resident keeps $182 for personal and incidental needs. DDS rate files state that full and base rates include this amount."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (line staff; coverage incl. awake overnight)",
+            "wage_hourly": 18.2,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 2019.6,
+            "cite": "17 CCR §56004(c)–(d); 22 CCR §85065, §85065.6(g)",
+            "notes": "446 line-staff hrs/week (DDS rate model facility hours less lead and administrator hours) × 4.333 wks × 1.045 paid-hours factor (paid sick leave + paid DSPT/CE time — operator estimate). Wage = DDS rate-model DSP wage $18.20 (Feb 2026 models); BLS CA 31-1120 mean is $17.51 and 21-1093 25th pct $22.17 (May 2025; $46,110/yr via O*NET [S72]). Two homes."
+          },
+          {
+            "role": "Lead staff / house manager",
+            "wage_hourly": 19.58,
+            "wage_source_id": "S5",
+            "basis": "hours_per_month",
+            "amount": 507.2,
+            "cite": "DDS rate model (56 lead hrs/week per home)",
+            "notes": "112 hrs/week × 4.333 × 1.045. Wage = DDS rate-model lead wage $19.58."
+          },
+          {
+            "role": "Certified ARF administrator (counts toward floor coverage)",
+            "wage_hourly": 34.04,
+            "wage_source_id": "S73",
+            "basis": "hours_per_month",
+            "amount": 182.0,
+            "cite": "22 CCR §85064, §85064.2; 17 CCR §56037",
+            "notes": "42 hrs/week (DDS model: 21 hrs/week per home, one administrator per two homes). Wage = BLS CA 11-9151 25th percentile $34.04 (May 2025; $70,810/yr via O*NET [S73]); the DDS model funds $25.24 (Levels 2–4) — the higher BLS figure is used to be conservative. Owner-administrators still carry this cost (or forgo the pay)."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Consultant hours (behavioral/clinical)",
+            "monthly": 329.33,
+            "notes": "L6 (4I): 32 hrs/yr × $123.50 = $329.33/resident-month (17 CCR §56004(f) requires 16 hrs per consumer per six months for 4I)."
+          },
+          {
+            "item": "Lease — house (fixed)",
+            "monthly": 10000,
+            "notes": "Two 4-bedroom houses at $5,000 — operator estimate, verify locally."
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1300
+          },
+          {
+            "item": "General & professional liability insurance",
+            "monthly": 800
+          },
+          {
+            "item": "CDSS annual license fee ÷ 12 (4–6 beds)",
+            "monthly": 75.67,
+            "notes": "Two licenses × $454/yr."
+          },
+          {
+            "item": "Vehicle / resident transportation",
+            "monthly": 1320,
+            "notes": "Two homes × DDS 210 miles/week × $0.725."
+          },
+          {
+            "item": "Software (client records, MAR, scheduling, payroll)",
+            "monthly": 300
+          },
+          {
+            "item": "Phone, internet",
+            "monthly": 300
+          },
+          {
+            "item": "Repairs & maintenance",
+            "monthly": 600
+          },
+          {
+            "item": "Marketing & regional center relations",
+            "monthly": 150
+          },
+          {
+            "item": "Training & CE (CPR/first aid, administrator 40 hrs/2 yrs, DSP CE 12 hrs/yr)",
+            "monthly": 200
+          },
+          {
+            "item": "Live Scan, health screenings & TB tests for new hires",
+            "monthly": 200
+          },
+          {
+            "item": "Accounting, payroll service, legal",
+            "monthly": 600
+          },
+          {
+            "item": "California LLC fee (gross-receipts based) ÷ 12",
+            "monthly": 500.0,
+            "notes": "Gross receipts ≈ $1.08M/yr → $6,000/yr."
+          },
+          {
+            "item": "Independent review (WIC §4652.5) ÷ 12",
+            "monthly": 500,
+            "notes": "Regional center payments of $500,000–$1,999,999/yr require an independent review report (≈ $959k/yr here). Price is an operator estimate — verify with a CPA.",
+            "basis": "fixed",
+            "source_id": "S54"
+          }
+        ]
+      }
+    ],
+    "default_configuration": "arf4_l6",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.09,
+      "workers_comp_pct": 0.05,
+      "benefits_pct": 0.03,
+      "notes": "Taxes: employer FICA 7.65% (SSA) + FUTA and CA UI 3.4% (new employer) / ETT 0.1% on the first $7,000 per employee (EDD 2026) ≈ 9% of a DSP's annual wages. Workers' comp 5% is an operator estimate (CDI average advisory benchmark $1.65 per $100 of payroll eff. 9/1/2026; the DDS rate model assumes 3.65%). Benefits 3% = other benefits; paid sick leave time is in the 1.045 paid-hours factor. The DDS rate model assumes a 22% benefit load (taxes + health + PTO).",
+      "source_id": "S60"
+    },
+    "opex": [
+      {
+        "item": "Lease — house (fixed)",
+        "monthly": 5000,
+        "basis": "fixed",
+        "source_id": "S66",
+        "notes": "4-bedroom house. Operator estimate — verify locally. HUD FY2026 4-BR Fair Market Rents: Sacramento $3,460, Riverside–San Bernardino $3,514, Los Angeles $3,672, San Diego $4,845, Orange County $5,246. Licensed-use leases usually run above FMR. The modeled rates are the San Diego/Orange/North LA tier, so a coastal-metro rent is used. The DDS rate model funds housing through the SSI/SSP board-and-care amount ($1,444.07 per resident)."
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 650,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. No statewide statutory liability minimum for ARFs was identified in this research (the $1M/$3M rule in HSC §1569.605 is for RCFEs); regional centers may set insurance terms in the vendor packet — ask yours. Get broker quotes (GL, professional, abuse/molestation, auto)."
+      },
+      {
+        "item": "CDSS annual license fee ÷ 12 (4–6 beds)",
+        "monthly": 37.83,
+        "basis": "fixed",
+        "source_id": "S48",
+        "notes": "HSC §1523.1 'other community care facilities' 4–6 capacity: $454/yr annual fee (1–3 beds also $454). Late fee = +50%."
+      },
+      {
+        "item": "Vehicle / resident transportation",
+        "monthly": 660,
+        "basis": "fixed",
+        "source_id": "S5",
+        "notes": "DDS rate-model assumption: 210 miles/home/week (San Diego) × $0.725/mile × 4.333 = $660/month. Covers vehicle cost, fuel, auto insurance and maintenance. Transportation arrangements are part of the plan of operation (22 CCR §80022(b)(10))."
+      },
+      {
+        "item": "Software (client records, MAR, scheduling, payroll)",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Phone, internet",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Repairs & maintenance",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. Behavioral homes often run higher (property damage)."
+      },
+      {
+        "item": "Marketing & regional center relations",
+        "monthly": 100,
+        "basis": "fixed",
+        "notes": "Operator estimate — referrals come from regional center service coordinators/placement units, not advertising."
+      },
+      {
+        "item": "Training & CE (CPR/first aid, administrator 40 hrs/2 yrs, DSP CE 12 hrs/yr)",
+        "monthly": 100,
+        "basis": "fixed",
+        "source_id": "S18",
+        "notes": "Operator estimate — verify locally. DSPT tuition is free to first- and second-year DSPs (DDS); paid staff time for training is in the paid-hours factor."
+      },
+      {
+        "item": "Live Scan, health screenings & TB tests for new hires",
+        "monthly": 100,
+        "basis": "fixed",
+        "source_id": "S43",
+        "notes": "Operator estimate — verify locally; clearance and health screening required before presence/employment (22 CCR §80019, §80065(g))."
+      },
+      {
+        "item": "California LLC annual tax ÷ 12",
+        "monthly": 66.67,
+        "basis": "fixed",
+        "source_id": "S63",
+        "notes": "$800/yr minimum tax regardless of income."
+      },
+      {
+        "item": "California LLC fee (gross-receipts based) ÷ 12",
+        "monthly": 75.0,
+        "basis": "fixed",
+        "source_id": "S63",
+        "notes": "FTB LLC fee on total California income (includes SSI/SSP collected from residents): $250,000–$499,999 = $900; $500,000–$999,999 = $2,500; $1,000,000–$4,999,999 = $6,000. Base = $900 (4-bed Level 3/4 ≈ $335k–$391k/yr). Size-corrected by configuration overrides."
+      },
+      {
+        "item": "Accounting, payroll service, legal",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Food (3 meals + snacks)",
+        "monthly": 367.1,
+        "basis": "per_client",
+        "source_id": "S67",
+        "notes": "USDA moderate-cost food plan, ages 19–50, average of male $398.10 and female $336.10 (August 2026). DDS rate model assumes $270/person/month."
+      },
+      {
+        "item": "Household, hygiene & incontinence supplies",
+        "monthly": 100,
+        "basis": "per_client",
+        "source_id": "S39",
+        "notes": "Operator estimate — verify locally. 22 CCR §85088(c) requires the facility to supply linens, soap, toothpaste etc."
+      },
+      {
+        "item": "Activities & community outings",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Operator estimate — verify locally. HCBS settings and IPP community-integration expectations."
+      },
+      {
+        "item": "Consultant hours (behavioral/clinical)",
+        "monthly": 247.0,
+        "basis": "per_client",
+        "source_id": "S14",
+        "notes": "L4: 24 hrs/resident/yr × $123.50 (San Diego DDS model) = $247/resident-month. 17 CCR §56004(f): Levels 4C–4E require 8–12 consultant hours per consumer per six months. Level 3 and Level 6 configurations override this amount (L3: 16 hrs/yr; L6 (4I): 32 hrs/yr)."
+      }
+    ],
+    "opex_overrides_note": "Configurations carry 'opex_overrides' that replace the matching base opex item (by exact 'item' name), or add new items, for that configuration.",
+    "startup_costs": [
+      {
+        "item": "LLC formation (LLC-1 $70 + Statement of Information $20)",
+        "low": 90,
+        "high": 90,
+        "source_id": "S64"
+      },
+      {
+        "item": "CDSS orientation Component I (Adult)",
+        "low": 54.85,
+        "high": 54.85,
+        "source_id": "S53"
+      },
+      {
+        "item": "Administrator 35-hour ICTP course (vendor tuition)",
+        "low": 400,
+        "high": 900,
+        "notes": "Operator estimate — verify locally; vendor prices vary."
+      },
+      {
+        "item": "Administrator exam ($100) + certificate application ($140)",
+        "low": 240,
+        "high": 240,
+        "source_id": "S34"
+      },
+      {
+        "item": "CDSS license application fee, paid with LIC 281 (4–6 beds $908 per license)",
+        "low": 908,
+        "high": 1816,
+        "source_id": "S48",
+        "notes": "One license = $908; two homes = two licenses ($1,816)."
+      },
+      {
+        "item": "Fire clearance",
+        "low": 0,
+        "high": 150,
+        "source_id": "S50",
+        "notes": "HSC §1566.2 bars fire-inspection fees for six-or-fewer homes except those authorized by HSC §13235; confirm with your fire authority."
+      },
+      {
+        "item": "Live Scan and health screenings (licensee, administrator, first staff)",
+        "low": 500,
+        "high": 1500,
+        "notes": "Operator estimate — verify locally (22 CCR §80019, §80065(g))."
+      },
+      {
+        "item": "Lease security deposit + first month",
+        "low": 10000,
+        "high": 20000,
+        "notes": "Operator estimate — verify locally; two homes at the high end."
+      },
+      {
+        "item": "Safety and accessibility work (smoke/CO alarms, extinguishers, grab bars, ramps, egress)",
+        "low": 3000,
+        "high": 20000,
+        "notes": "Operator estimate — verify locally; nonambulatory residents need a separate fire clearance (22 CCR §80020(b)) and often more work."
+      },
+      {
+        "item": "Furniture, beds, linens, kitchen, locked medication storage",
+        "low": 10000,
+        "high": 25000,
+        "notes": "Operator estimate — verify locally; §85088(c) lists required bedroom furniture and supplies per resident."
+      },
+      {
+        "item": "Program design, policies, plan of operation (consultant/legal)",
+        "low": 2000,
+        "high": 10000,
+        "notes": "Operator estimate — verify locally. Title 17 §56013 program design and Title 22 §80022 plan of operation are required."
+      },
+      {
+        "item": "Insurance down payments (liability, workers' comp, auto)",
+        "low": 2000,
+        "high": 5000,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Vehicle down payment",
+        "low": 3000,
+        "high": 10000,
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "Pre-opening staff hiring, orientation and paid training time",
+        "low": 3000,
+        "high": 8000,
+        "notes": "Operator estimate — verify locally; 17 CCR §56038 requires a 40-hour on-site orientation for new direct care staff."
+      },
+      {
+        "item": "Start-up funds: first three months of operation (22 CCR §85018(b)(1))",
+        "low": 90000,
+        "high": 255000,
+        "source_id": "S30",
+        "category": "working_capital",
+        "notes": "Computed as 3 × this model's monthly operating costs at 90% occupancy: 4-bed L3 ≈ $90,447; 4-bed L4 ≈ $102,912; 4-bed L6 ≈ $127,341; 6-bed L4 ≈ $134,271; two L6 homes ≈ $255,180 (each license must show its own three months). CAB verifies these funds before licensing."
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "Old CVRC report described the rate structure as Levels 1–4 with sub-levels 4A–4I. Since January 1, 2025 regional centers pay Levels 2–6 plus customizable Level 7 (L3 = old 3/4A/4B, L4 = 4C–4E, L5 = 4F–4H, L6 = 4I) (DDS Residential directive).",
+    "Old report's rate table (e.g., $9,428.87 Level 4 and $13,066.98 Level 6, 4 beds, CVRC) is out of date and was presented as what the provider is paid. July 1, 2026 CVRC-tier rates are $9,591.58 and $13,298.48 full, and a new vendor is paid the 90% base ($8,776.83 and $12,113.04) unless it earns the QIP 10% (DDS Rates Effective Jul 2026).",
+    "Old report put the SSI room-and-board portion at about $1,420 and the personal allowance at about $177. For 2026 they are $1,444.07 and $182.00 (DDS rate page; ACWDL 25-29).",
+    "Old report cited California minimum wage as $15.50 (2023) and DSP pay of $16–$18 without a source. The 2026 state minimum is $16.90 (higher in many cities); the DDS rate models fund $18.20 for DSPs and $19.58 for lead staff.",
+    "Old P&L modeled 6 residents at a single Level 4I rate of $12,015.70 each, with no SSI/regional-center split, full rate from month 4, and #VALUE! errors in COGS. Current 5–6-bed Level 6 rates are $12,789.26–$14,764.95 full depending on tier ($11,654.74 base in the CVRC tier), and 4-bed homes earn more per resident.",
+    "Old report said 'issue a provisional license, followed by a regular license' and gave no CCL fee or timeline. CAB gives 90–120 days; the application fee for 4–6 beds is $908 with a $454 annual fee (HSC §1523.1).",
+    "Old report did not cover the standardized vendorization process (Provider Directory; 15/30/45-day steps since 1/1/2026), the 45-day service level decision (17 CCR §56005), or the start-up funds rule (22 CCR §85018).",
+    "Task framing listed service codes 910/915 for adults; per 17 CCR §54342, adult homes are 905 (owner-operated) and 915 (staff-operated); 910 and 920 are children's homes."
+  ],
+  "verification_log": [
+    {
+      "issue": "Sensitivity row for DDS 1.15 paid-hours factor showed −$2,614 / +$84 (major).",
+      "change": "Recomputed with model.py (line + lead hours × 1.15/1.045): −$2,744 / −$50. Added a bullet with the other configurations at 1.15 and added it to risks #5 and recommendations #1."
+    },
+    {
+      "issue": "USDA food plan URL (S67) returned 404; May 2026 values.",
+      "change": "S67 now points to the Aug 2026 USDA report; food opex 366.30 → 367.10 (male $398.10, female $336.10). All results tables, reserve note and executive summary recomputed (default 4-bed L6 +$2,698 → +$2,695)."
+    },
+    {
+      "issue": "Only City of LA and SF named as local minimums above the $18.20 modeled wage.",
+      "change": "Operations, risks #5, checklist and sensitivity table now list unincorporated LA County $18.47, Pasadena $18.57, Milpitas $18.50, Berkeley $19.61, Emeryville $20.34; added sensitivity rows at $18.47 (+$2,376) and $19.61 (+$1,020)."
+    },
+    {
+      "issue": "Consultant-hours opex label said 'Level 4 (24 hrs/resident/yr)' on Level 3 and Level 6 P&Ls.",
+      "change": "Renamed base item and all overrides to 'Consultant hours (behavioral/clinical)'; hours per level stated in notes (L3 16, L4 24, L6 32 hrs/yr)."
+    },
+    {
+      "issue": "6-bed configuration showed a '4-bedroom' lease label.",
+      "change": "Renamed base item and overrides to 'Lease — house (fixed)'; bedroom count in each notes field."
+    },
+    {
+      "issue": "Single 4-bed Level 6 optimistic scenario and QIP sensitivity omit the WIC §4652.5 independent review triggered above $500,000/yr.",
+      "change": "Added note to arf4_l6 configuration notes, risks #8 and Section 8; added a QIP sensitivity row net of ~$500/month review (+$6,633). Model costs unchanged at default occupancy (payments $479k < $500k)."
+    },
+    {
+      "issue": "GGRC $15,309.57 cited to the RCEB file (S4).",
+      "change": "Added S71 (GGRC Jul 2026 rate xlsx) and cited it in reimbursement and the rates notes."
+    },
+    {
+      "issue": "S57 BLS URL now resolves to an index page; 21-1093 and 11-9151 25th-percentile values not re-confirmed by verifier.",
+      "change": "S57 URL replaced with data.bls.gov/oes area page. Values confirmed via O*NET Local Wages (BLS May 2025 data): 21-1093 CA 25th pct $46,110/yr = $22.17/hr, median $51,090 = $24.56/hr; 11-9151 CA 25th pct $70,810 = $34.04/hr, median $83,210 (≈$40.00 at 2,080 hrs; BLS hourly $40.01). Added S72/S73 and cited them; administrator wage_source_id → S73. BLS API itself was still rate-limited."
+    },
+    {
+      "issue": "S66 HUD FMR URL pointed to a landing page without county figures.",
+      "change": "S66 now points to FY26_FMRs.xlsx (values unchanged)."
+    }
+  ]
+}

@@ -1,0 +1,2880 @@
+{
+  "bundle_slug": "florida-residential-care-dd-complete-bundle",
+  "state": "Florida",
+  "state_code": "FL",
+  "program": "Residential Care (DD)",
+  "state_program_name": "APD-licensed Group Home Facility (Ch. 393 F.S., 65G-2 F.A.C.) providing Residential Habilitation under the iBudget Florida waiver",
+  "as_of": "2026-10",
+  "report_title": "Florida APD Group Homes & iBudget Residential Habilitation (DD Residential Care) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Florida Medicaid Developmental Disabilities Individual Budgeting Waiver Services Provider Rate Table, effective October 1, 2025 (incl. Residential Habilitation rows 59–99, Geographical/Non-Geographical/Monroe columns, legend, ResHab Rate Descriptors)",
+      "publisher": "Agency for Health Care Administration via Florida Administrative Register (Ref-18974)",
+      "url": "https://flrules.org/gateway/reference.asp?No=Ref-18974",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "Rule 59G-13.081, F.A.C. — Developmental Disabilities Individual Budgeting Waiver Services Provider Rate Table (effective 3/12/2026, incorporates the October 1, 2025 table)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=59G-13.081",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "Notice of Rule Development 31315303 (Aug. 31, 2026): amendment to incorporate the July 2026 rate table with a uniform rate increase under HB 5001 (2026-27 GAA); July 2026 table Ref-20058",
+      "publisher": "AHCA via Florida Administrative Register",
+      "url": "https://www.flrules.org/gateway/View_notice.asp?id=31315303",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "iBudget Waiver Rate Changes — New Rates Effective 7/1/2024",
+      "publisher": "Agency for Persons with Disabilities (APD)",
+      "url": "https://apd.myflorida.com/providers/rates-billing/docs/iBudget Waiver Rates Changes Effective 20240701 FINAL v5.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Florida Medicaid Developmental Disabilities Individual Budgeting Waiver Services Coverage and Limitations Handbook, May 2023 (Residential Habilitation pp. 2-46–2-65; qualifications p. 1-20; Appendix B training; iConnect/EVV definitions)",
+      "publisher": "AHCA/APD via Florida Administrative Register (Ref-15361)",
+      "url": "https://flrules.org/gateway/reference.asp?No=Ref-15361",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "Rule 59G-13.070, F.A.C. — Developmental Disabilities Individual Budgeting Waiver Services (incorporates the May 2023 handbook and the Medicaid Waiver Services Agreement, AHCA Form 5000-3553)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=59G-13.070",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "Section 393.063, F.S. — Definitions (developmental disability; foster care facility ≤3; group home facility 4–15; residential habilitation center ≥9)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/393.063",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "Section 393.067, F.S. — Facility licensure (application contents, background screening, financial ability, annual inspections, CEMP, no funds to unlicensed facilities)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/393.067",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "Rule 65G-2.002, F.A.C. — License Application and Renewal Procedures (amended 3-26-26)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.002",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Rule 65G-2.003, F.A.C. — Length of Licenses (one-year license for residential facilities)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.003",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "Rule 65G-2.0032, F.A.C. — Agency Monitoring and Oversight (pre-licensure monitoring; 60-day financial ability; review within 30 days of first admission)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.0032",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "Rule 65G-2.006, F.A.C. — Licensed Residential Facility Capacity (census reporting)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.006",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Rule 65G-2.007, F.A.C. — General Residential Facility Standards (bedrooms, bathrooms, living space, water temperature, meals, detectors)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.007",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Rule 65G-2.0072, F.A.C. — Group Home Facility Standards (zoning, facility operator qualifications)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.0072",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Rule 65G-2.008, F.A.C. — Staffing Requirements for Residential Facilities (DSP qualifications, training, schedules)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.008",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Rule 65G-2.009, F.A.C. — Resident Care and Supervision Standards (one staff present at all times residents are in the facility)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.009",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Rule 65G-2.010, F.A.C. — Fire and Emergency Procedures (annual fire inspection under ch. 69A-38; CEMP)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.010",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "Rule 65G-2.015, F.A.C. — Siting (no more than three facilities within 1,000 ft)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.015",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Rule 65G-2.018, F.A.C. — Personal Needs Allowance (at least 18% of the SSI federal benefit rate)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.018",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "License Application Form 65G-2.002-A (December 2025) — license types, zoning steps, supporting documents, Annual Budget Sheet",
+      "publisher": "APD via Florida Administrative Register (Ref-18971)",
+      "url": "https://flrules.org/gateway/reference.asp?No=Ref-18971",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Waiver Provider Enrollment (free process; Clearinghouse; APD application; Service Listing Letter; Medicaid enrollment; MWSA; regional enrollment emails)",
+      "publisher": "APD",
+      "url": "https://apd.myflorida.com/providers/enrollment",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "APD Group Homes (home must be secured; Application Request; interview; Level 2 screening; CEMP template; monthly APD monitoring)",
+      "publisher": "APD",
+      "url": "https://apd.myflorida.com/providers/group-homes.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Northeast Region APD Enrollment Process for Prospective Waiver Providers (Letter of Intent; screening first; checklists; packets reviewed in order received)",
+      "publisher": "APD Northeast Region",
+      "url": "https://APD.MyFlorida.com/region/northeast/docs/Northeast Region APD Enrollment Process for Prospective Waiver Providers.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "FY 2025-26 Q4 Quarterly Report on Agency Services (Aug. 15, 2026): enrollment, pre-enrollment, residential habilitation clients by month",
+      "publisher": "APD",
+      "url": "https://apd.myflorida.com/resources/reports/FY 25-26 Q4 Quarter Report on Agency Services Aug 15 2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Section 419.001, F.S. — Site selection of community residential homes",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/419.001",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Rule 65G-13.008, F.A.C. — Room and board payment ($583.42 standard)",
+      "publisher": "Justia Regulations (Florida Administrative Code)",
+      "url": "https://regulations.justia.com/states/florida/65/65g/chapter-65g-13/section-65g-13-008",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Provider Advisory 2023-026 — Personal Needs Allowance and Room and Board (Sept. 27, 2023)",
+      "publisher": "APD",
+      "url": "https://apd.myflorida.com/providers/docs/Provider Advisory 2023-026 PNA and Room and Board advisory 09272023.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Residential Group Care — \"DOH does not conduct any inspections at homes/facilities licensed by APD\"",
+      "publisher": "Florida Department of Health",
+      "url": "https://www.floridahealth.gov/environmental-health/group-care/residential-group-care.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Rule 65G-7.004, F.A.C. — Medication administration training and validation (annual revalidation)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-65G-7-004",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Chapter 65G-2, F.A.C. — rule list and effective dates (most rules amended 3/26/2026; 65G-2.012 transferred 7/1/2014)",
+      "publisher": "Florida Department of State — FAC",
+      "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=65G-2",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Local wages — Personal Care Aides (data from Home Health and Personal Care Aides), Florida, BLS 2025: 10th $14.74, 25th $15.16, median $16.25, 75th $17.25; metro medians",
+      "publisher": "O*NET OnLine (BLS OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/31-1122.00?st=FL",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Local wages — Social and Community Service Managers, Florida, BLS 2025: median $76,050",
+      "publisher": "O*NET OnLine (BLS OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/11-9151.00?st=FL",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Local wages — Medical Secretaries and Administrative Assistants, Florida, BLS 2025: median $41,730",
+      "publisher": "O*NET OnLine (BLS OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/43-6013.00?st=FL",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Local wages — Registered Nurses (29-1141) and Licensed Practical Nurses (29-2061), Florida, BLS 2025: RN median $40.48/h; LPN median $29.70/h",
+      "publisher": "O*NET OnLine (BLS 2025 wage data)",
+      "url": "https://www.onetonline.org/link/localwages/29-1141.00?st=FL",
+      "type": "official",
+      "accessed": "2026-10-13",
+      "url_alt": "https://www.onetonline.org/link/localwages/29-2061.00?st=FL"
+    },
+    {
+      "id": "S35",
+      "title": "Florida Constitution, Art. X, s. 24 — Minimum wage ($15.00 on September 30, 2026)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Constitution",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Section 448.110, F.S. — Florida Minimum Wage Act",
+      "publisher": "Florida Legislature",
+      "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0448/Sections/0448.110.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Section 440.02, F.S. — Workers' compensation definitions (four or more employees)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/440.02",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "Section 443.131, F.S. — Reemployment assistance contributions (initial rate 2.7%)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/443.131",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Section 443.1217, F.S. — Wages (first $7,000 taxable)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/443.1217",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "26 U.S.C. §3111 — Employer FICA (6.2% OASDI, 1.45% Medicare)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/uscode/text/26/3111",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "26 U.S.C. §3301 — FUTA rate",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/uscode/text/26/3301",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Section 605.0213, F.S. — LLC filing fees (articles $100, registered agent $25; $50 is only the statutory annual-report filing component — Sunbiz charges $138.75 in total, see S53)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/605.0213",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "SSI Federal Payment Amounts for 2026 ($994/month individual)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/cola/SSIamts.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "HUD FY2027 Small Area Fair Market Rent — ZIP 32825 (Orlando-Kissimmee-Sanford MSA): 3BR $2,580, 4BR $3,020",
+      "publisher": "fairmarketrentmap.com (HUD SAFMR data)",
+      "url": "https://fairmarketrentmap.com/zip/32825",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "HUD FY2027 Small Area Fair Market Rent — ZIP 33024 (Fort Lauderdale HUD Metro FMR Area): 3BR $2,990, 4BR $3,450",
+      "publisher": "fairmarketrentmap.com (HUD SAFMR data)",
+      "url": "https://fairmarketrentmap.com/zip/33024",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Provider Enrollment Application Fee Amount for CY 2026 ($750), 90 FR 55738 (Dec. 3, 2025)",
+      "publisher": "CMS / Federal Register",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "42 CFR §441.301(c) — HCBS settings requirements (provider-owned or controlled residential settings)",
+      "publisher": "eCFR",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "Section 435.12, F.S. — Care Provider Background Screening Clearinghouse",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/435.12",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Background Screening Unit (contacts, Clearinghouse)",
+      "publisher": "AHCA",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/bureau-of-central-services/background-screening.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "DCF Contact Us (Florida Abuse Hotline 1-800-962-2873)",
+      "publisher": "Florida Department of Children and Families",
+      "url": "https://www.myflfamilies.com/contact-us",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Get an employer identification number",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "APD Regions (six regions and counties served; headquarters 4030 Esplanade Way, Tallahassee)",
+      "publisher": "APD",
+      "url": "https://apd.myflorida.com/region/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Florida Division of Corporations (Sunbiz) — Annual Report: LLC annual report $138.75; due by May 1; $400 late fee after May 1",
+      "publisher": "Florida Department of State",
+      "url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "Section 205.032, F.S. — County local business tax (municipal: s. 205.042)",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/205.032",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "Proposed iBudget rate table effective July 1, 2026 (Ref-20058): e.g., Moderate $5,108.95, Minimal $3,404.67, Extensive 1 $6,872.31 (+1.00%)",
+      "publisher": "Florida Administrative Register / AHCA",
+      "url": "https://flrules.org/gateway/reference.asp?No=Ref-20058",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "License type and regulator",
+      "value": "APD-licensed group home facility (4–15 residents) or foster care facility (≤3); one-year license; licensed under s. 393.067, F.S. and ch. 65G-2, F.A.C.",
+      "source_id": "S7",
+      "as_of": "2026",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S10"
+      ]
+    },
+    {
+      "metric": "APD license fee / waiver enrollment fee",
+      "value": "No fee on Form 65G-2.002-A (Dec. 2025); APD says becoming a waiver provider is free",
+      "source_id": "S21",
+      "as_of": "2026",
+      "source_ids": [
+        "S20",
+        "S21"
+      ]
+    },
+    {
+      "metric": "Residential habilitation (standard), monthly, agency, non-geographical",
+      "value": "Minimal $3,370.96 / Moderate $5,058.37 / Extensive 1 $6,804.27 / Extensive 2 $8,938.77",
+      "source_id": "S1",
+      "as_of": "2025-10-01"
+    },
+    {
+      "metric": "Behavior focus, monthly (non-geographical)",
+      "value": "Minimal $3,526.54 / Moderate $5,291.07 / Extensive 1 $7,117.10 / Extensive 2 $9,349.92",
+      "source_id": "S1",
+      "as_of": "2025-10-01"
+    },
+    {
+      "metric": "Intensive behavioral residential habilitation, daily (all areas)",
+      "value": "Level 1 $363.57 → Level 6 $545.35",
+      "source_id": "S1",
+      "as_of": "2025-10-01"
+    },
+    {
+      "metric": "Do rates vary by home size?",
+      "value": "No — by support level and county group (Miami-Dade/Broward/Palm Beach, Monroe, rest of state). Only the Live-In rate is limited to homes licensed for 3 or fewer",
+      "source_id": "S1",
+      "as_of": "2025-10-01"
+    },
+    {
+      "metric": "Minimum direct-care staff hours per resident per day",
+      "value": "Basic 2 / Minimal 4 / Moderate 6 / Extensive 1 8 / Extensive 2 11",
+      "source_id": "S5",
+      "as_of": "May 2023 handbook"
+    },
+    {
+      "metric": "Pending rate change",
+      "value": "July 2026 rate table (uniform increase under HB 5001; about +1.0% for residential habilitation) in rule development since Aug. 31, 2026",
+      "source_id": "S3",
+      "as_of": "2026-08-31"
+    },
+    {
+      "metric": "iBudget enrollment / waiting list",
+      "value": "37,645 enrolled (all waivers, June 1, 2026); 15,451 in pre-enrollment (July 1, 2026); 2,819 new enrollments in FY 2025-26",
+      "source_id": "S24",
+      "as_of": "2026-07-01"
+    },
+    {
+      "metric": "Clients using residential habilitation (monthly rate), June 2026",
+      "value": "6,639 (plus 1,850 behavioral focus and 873 intensive behavior day-rate users); counts incomplete due to unsubmitted claims",
+      "source_id": "S24",
+      "as_of": "2026-06"
+    },
+    {
+      "metric": "Room and board standard / personal needs allowance",
+      "value": "$583.42/month APD room-and-board standard; PNA ≥18% of SSI FBR = $178.92 (2026 SSI $994)",
+      "source_id": "S26",
+      "as_of": "2026",
+      "source_ids": [
+        "S26",
+        "S19",
+        "S43"
+      ]
+    },
+    {
+      "metric": "Florida minimum wage / DSP wage benchmark",
+      "value": "$15.00/hr from Sept. 30, 2026; personal care aide median $16.25 (75th pct $17.25)",
+      "source_id": "S31",
+      "as_of": "2026",
+      "source_ids": [
+        "S35",
+        "S31"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "A statewide count of APD-licensed group homes, licensed beds, providers or market shares — APD's quarterly report does not publish facility counts and no official count was found. No competitor names are given.",
+    "A published APD processing time for facility license applications or waiver provider enrollment — none found. Rule 65G-2.002 says APD reviews applications under s. 120.60, F.S.; plan on several months.",
+    "Whether APD charges any facility license fee — s. 393.067(3) says applications are \"accompanied by the appropriate license fee,\" but no amount appears in the statute, Rule 65G-2.002, Form 65G-2.002-A or APD's Group Homes page. The model uses $0; confirm with your APD regional office.",
+    "Whether the July 2026 rate table (about +1.0%) is already being paid — it was in rule development on Aug. 31, 2026 and is not yet incorporated in Rule 59G-13.081. The model uses the adopted October 1, 2025 rates.",
+    "Whether a facility may charge a resident more than the $583.42 room-and-board standard — Rule 65G-13.008 governs only APD's payment. The model uses $583.42; an SSI-only resident has $815.08 left after the personal needs allowance.",
+    "Whether the federal Medicaid application fee ($750 in CY 2026) applies to iBudget residential habilitation enrollment — confirm during AHCA enrollment; the startup range shows $0–$750.",
+    "A minimum general/professional liability insurance limit for APD-licensed facilities — none found in ch. 65G-2 or the iBudget handbook. Premiums are operator estimates.",
+    "The share of APD residents at each support level or the typical mix in a new home — not published. The resident mixes in the configurations are operator assumptions.",
+    "The 93% default occupancy (88% conservative, 97% optimistic) and the ramp-up pace — operator assumptions, not sourced statistics.",
+    "Every opex line marked \"operator estimate\" (utilities, maintenance, vehicles, insurance, software, training, accounting, marketing, food, BCBA contract, fire inspection fees), the 1.15 rent factor for a 5-bedroom home, and the $1.00/hour behavior-focus wage premium — verify locally and get quotes.",
+    "Typical wait time on the APD pre-enrollment list — APD reports counts, not wait times.",
+    "Break-even census or break-even month — the P&L generator calculates these from the inputs."
+  ],
+  "regulators": [
+    {
+      "name": "Agency for Persons with Disabilities (APD) — Regional Offices (licensing)",
+      "role": "Licenses group home and foster care facilities (s. 393.067, ch. 65G-2), conducts pre-licensure, monthly and renewal monitoring, approves capacity and resident characteristics",
+      "url": "https://apd.myflorida.com/region/",
+      "phone": "",
+      "email": "",
+      "source_id": "S22",
+      "source_ids": [
+        "S22",
+        "S52",
+        "S11"
+      ]
+    },
+    {
+      "name": "APD — Regional Provider Enrollment",
+      "role": "Waiver provider applications, iBudget Provider Service Listing Letter, Medicaid Waiver Services Agreement (MWSA), behavior-focus/intensive-behavior designation",
+      "url": "https://apd.myflorida.com/providers/enrollment",
+      "phone": "",
+      "email": "[region].providerenrollment@apdcares.org (Northwest, Northeast, Central, Suncoast, Southeast, Southern)",
+      "source_id": "S21"
+    },
+    {
+      "name": "Agency for Health Care Administration (AHCA) — Florida Medicaid",
+      "role": "State Medicaid agency: provider enrollment (Medicaid Provider Enrollment Wizard), claims payment, rate table rule 59G-13.081 and handbook rule 59G-13.070",
+      "url": "https://portal.flmmis.com/",
+      "phone": "",
+      "email": "",
+      "source_id": "S21",
+      "source_ids": [
+        "S21",
+        "S2",
+        "S6"
+      ]
+    },
+    {
+      "name": "AHCA Background Screening Unit / Care Provider Background Screening Clearinghouse",
+      "role": "Level 2 fingerprint screening for owners, operators and all direct service providers",
+      "url": "https://ahca.myflorida.com/health-quality-assurance/bureau-of-central-services/background-screening.html",
+      "phone": "850-412-4503",
+      "email": "bgscreen@ahca.myflorida.com",
+      "source_id": "S49",
+      "source_ids": [
+        "S49",
+        "S48"
+      ]
+    },
+    {
+      "name": "Local fire authority / State Fire Marshal",
+      "role": "Annual fire inspection under ch. 69A-38, F.A.C., required before initial licensure and every renewal",
+      "url": "",
+      "phone": "",
+      "email": "",
+      "source_id": "S17"
+    },
+    {
+      "name": "Local zoning authority",
+      "role": "Zoning compliance; approval/denial of 7–14 resident community residential homes within 60 days",
+      "url": "",
+      "phone": "",
+      "email": "",
+      "source_id": "S25"
+    },
+    {
+      "name": "Department of Children and Families — Florida Abuse Hotline",
+      "role": "Abuse, neglect and exploitation investigations; mandatory reporting",
+      "url": "https://www.myflfamilies.com/contact-us",
+      "phone": "1-800-962-2873",
+      "email": "",
+      "source_id": "S50"
+    },
+    {
+      "name": "Centers for Medicare & Medicaid Services",
+      "role": "Oversees the 1915(c) iBudget waiver and the HCBS settings rule (42 CFR 441.301(c))",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "phone": "",
+      "email": "",
+      "source_id": "S47"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Ch. 393, F.S. (s. 393.063 definitions; s. 393.067 facility licensure)",
+      "title": "Developmental Disabilities",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/393.067",
+      "source_id": "S8"
+    },
+    {
+      "cite": "Ch. 65G-2, F.A.C.",
+      "title": "Licensure of Residential Facilities (most rules amended 3/26/2026)",
+      "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=65G-2",
+      "source_id": "S30"
+    },
+    {
+      "cite": "Rule 65G-2.002 / 2.003 / 2.0032",
+      "title": "Application and renewal; one-year license; monitoring",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.002",
+      "source_id": "S9"
+    },
+    {
+      "cite": "Rule 65G-2.007 / 2.0072",
+      "title": "General residential and group home facility standards",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.007",
+      "source_id": "S13"
+    },
+    {
+      "cite": "Rule 65G-2.008 / 2.009",
+      "title": "Staffing requirements; resident care and supervision",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.008",
+      "source_id": "S15"
+    },
+    {
+      "cite": "Rule 65G-2.010",
+      "title": "Fire and emergency procedures (ch. 69A-38 inspection; CEMP)",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.010",
+      "source_id": "S17"
+    },
+    {
+      "cite": "Rule 65G-2.015; s. 419.001, F.S.",
+      "title": "Siting and community residential homes",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/419.001",
+      "source_id": "S25"
+    },
+    {
+      "cite": "Rule 65G-2.018; Rule 65G-13.008",
+      "title": "Personal needs allowance; room and board payment",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=65G-2.018",
+      "source_id": "S19"
+    },
+    {
+      "cite": "Rule 65G-7.004",
+      "title": "Medication administration training and validation",
+      "url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-65G-7-004",
+      "source_id": "S29"
+    },
+    {
+      "cite": "Rule 59G-13.070, F.A.C.",
+      "title": "iBudget Waiver Services Coverage and Limitations Handbook (May 2023)",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=59G-13.070",
+      "source_id": "S6"
+    },
+    {
+      "cite": "Rule 59G-13.081, F.A.C.",
+      "title": "iBudget Waiver Services Provider Rate Table (Oct. 1, 2025)",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=59G-13.081",
+      "source_id": "S2"
+    },
+    {
+      "cite": "42 CFR 441.301(c)",
+      "title": "HCBS settings requirements",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "source_id": "S47"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCSC",
+      "service": "Residential Habilitation (standard) — Minimal, month",
+      "rate": 3370.96,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $3,623.78; Monroe $4,045.48. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCU4",
+      "service": "Residential Habilitation (standard) — Moderate, month",
+      "rate": 5058.37,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $5,437.98; Monroe $6,070.04. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCU6",
+      "service": "Residential Habilitation (standard) — Extensive 1, month",
+      "rate": 6804.27,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $7,314.59; Monroe $8,165.12. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCU9",
+      "service": "Residential Habilitation (standard) — Extensive 2, month",
+      "rate": 8938.77,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $9,609.45; Monroe $10,726.53. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UC",
+      "service": "Residential Habilitation (standard) — Basic, month",
+      "rate": 1686.98,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $1,813.50; Monroe $2,024.37. Monthly rate for 24+ days in the month. Basic is mainly used for residents of non-APD-licensed settings such as ALFs (rate descriptors).",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "H0043UCHI",
+      "service": "Residential Habilitation (standard) — Minimal, day",
+      "rate": 115.57,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $124.25; Monroe $138.72. Daily rate when the resident is in the home fewer than 24 days in the month (max 23 days).",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "H0043UCHM",
+      "service": "Residential Habilitation (standard) — Moderate, day",
+      "rate": 173.44,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $186.45; Monroe $208.13. Daily rate when the resident is in the home fewer than 24 days in the month (max 23 days).",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "H0043UCHN",
+      "service": "Residential Habilitation (standard) — Extensive 1, day",
+      "rate": 233.28,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $250.78; Monroe $279.93. Daily rate when the resident is in the home fewer than 24 days in the month (max 23 days).",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "H0043UCHO",
+      "service": "Residential Habilitation (standard) — Extensive 2, day",
+      "rate": 306.48,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $329.47; Monroe $367.78. Daily rate when the resident is in the home fewer than 24 days in the month (max 23 days).",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCHM",
+      "service": "Residential Habilitation, Behavioral Focus — Minimal, month",
+      "rate": 3526.54,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $3,791.21; Monroe $4,231.84. Monthly rate for 24+ days in the month. Home must be APD-designated behavior focus.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCHN",
+      "service": "Residential Habilitation, Behavioral Focus — Moderate, month",
+      "rate": 5291.07,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $5,688.08; Monroe $6,349.37. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCHO",
+      "service": "Residential Habilitation, Behavioral Focus — Extensive 1, month",
+      "rate": 7117.1,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $7,650.88; Monroe $8,540.61. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCHP",
+      "service": "Residential Habilitation, Behavioral Focus — Extensive 2, month",
+      "rate": 9349.92,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $10,051.16; Monroe $11,220.10. Monthly rate for 24+ days in the month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2020UCHI",
+      "service": "Residential Habilitation, Behavioral Focus — Moderate, day",
+      "rate": 181.41,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $195.03; Monroe $217.69. Daily rate when the resident is in the home fewer than 24 days in the month (max 23 days).",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2016UC",
+      "service": "Intensive Behavioral Residential Habilitation — Level 1, day",
+      "rate": 363.57,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Same rate statewide. Level set by APD regional behavior analyst using the IB Matrix; up to 31 days/month.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2016UCHN",
+      "service": "Intensive Behavioral Residential Habilitation — Level 3, day",
+      "rate": 404.47,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Same rate statewide.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2016UCSC",
+      "service": "Intensive Behavioral Residential Habilitation — Level 6, day",
+      "rate": 545.35,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Same rate statewide.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCTG",
+      "service": "Enhanced Intensive Behavioral Residential Habilitation, month",
+      "rate": 25093.47,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $26,975.48; Monroe $33,903.14. Eligibility re-confirmed by APD at least every 6 months.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "H0043UCSC",
+      "service": "Residential Habilitation — Live-In, 1:3 ratio, agency, day",
+      "rate": 140.14,
+      "unit": "per day",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $150.65; Monroe $168.17. Only for facilities licensed for three or fewer residents; staff need not live in. 1:1 $230.82, 1:2 $163.48 (non-geographical agency). Billable up to 365 days when present.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T1002UC",
+      "service": "Residential Nursing — RN, quarter hour",
+      "rate": 8.08,
+      "unit": "per 15 min",
+      "effective": "2025-10-01",
+      "notes": "Requires a prescription; billable by nurses employed by the licensed facility or independent.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T1001UC",
+      "service": "Residential Nursing — LPN, quarter hour",
+      "rate": 7.02,
+      "unit": "per 15 min",
+      "effective": "2025-10-01",
+      "notes": "Requires a prescription.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "G9012UC",
+      "service": "Support Coordination — Full, month (for context)",
+      "rate": 181.55,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Paid to the Waiver Support Coordinator, not the group home.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "S5102UCHI",
+      "service": "Life Skills Development 3 (ADT), facility-based, 1:6–10, month (day program many residents attend)",
+      "rate": 788.43,
+      "unit": "per month",
+      "effective": "2025-10-01",
+      "notes": "Non-geographical agency rate shown. Geographical (Miami-Dade, Broward, Palm Beach) $803.73; Monroe $803.73. Agency rate; paid to the ADT provider. Residential staffing can be concentrated when residents are at ADT.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Florida Medicaid — iBudget waiver",
+      "code": "T2023UCU4",
+      "service": "Residential Habilitation (standard) — Moderate, month — PROPOSED July 2026 table",
+      "rate": 5108.95,
+      "unit": "per month",
+      "effective": "2026-07-01 (proposed; rule development 8/31/2026)",
+      "notes": "Uniform increase under HB 5001 (2026-27 GAA): about +1.0% (Minimal $3,404.67; Extensive 1 $6,872.31; BF Moderate $5,343.98; geographical Moderate $5,492.36). Not yet adopted into Rule 59G-13.081.",
+      "source_id": "S3"
+    },
+    {
+      "payer": "APD room-and-board payment / resident income",
+      "code": "",
+      "service": "Room and board standard (APD pays shortfall up to this amount; full amount under age 22)",
+      "rate": 583.42,
+      "unit": "per month",
+      "effective": "2023-08-17",
+      "notes": "Rule 65G-13.008; Provider Advisory 2023-026.",
+      "source_id": "S26"
+    }
+  ],
+  "sections": {
+    "executive_summary": "Florida group homes for people with developmental disabilities are **licensed by the Agency for Persons with Disabilities (APD)** as *group home facilities* (4–15 residents) or *foster care facilities* (up to 3 residents) under s. 393.067, F.S. and chapter 65G-2, F.A.C. [S7][S8][S30]. They are paid mainly through **residential habilitation** under the **iBudget Florida 1915(c) waiver**, billed to Florida Medicaid at fixed state rates from the iBudget provider rate table (Rule 59G-13.081) [S1][S2]. APD waiver provider enrollment is free [S21], and no license fee appears on the December 2025 license application [S20]; confirm with your APD regional office.\n\n**How the money works.** Rates are set by the resident's *support level* (Basic, Minimal, Moderate, Extensive 1, Extensive 2), by service type (standard, behavioral focus, intensive behavioral) and by county group — not by home size [S1]. A Moderate resident earns **$5,058.37/month** outside South Florida and $5,437.98 in Miami-Dade, Broward and Palm Beach (rates effective Oct. 1, 2025, unchanged since July 1, 2024) [S1][S4]. A July 2026 table with a uniform increase of about 1.0% is in rulemaking [S3][S55]. The rate excludes room and board, which the resident pays from SSI; APD's room-and-board standard is $583.42/month [S5][S26]. Each support level carries a **minimum number of direct-care staff hours per resident per day** (Minimal 4, Moderate 6, Extensive 1 8, Extensive 2 11) [S5]. The rates work out to roughly $28 per required staff hour, so profit depends on keeping staffing near the minimum the residents actually need, paying near-market wages and spreading overhead across enough beds.\n\n**Demand.** 37,645 people were enrolled in Florida's DD waivers on June 1, 2026, and 15,451 were in pre-enrollment (the waiting list) on July 1, 2026 [S24]. In June 2026, 6,639 people billed monthly residential habilitation, plus 1,850 behavioral-focus and 873 intensive-behavior day-rate users (APD notes these counts are incomplete) [S24].\n\n**Bottom line.** With one staff on duty 24/7 per home plus handbook-minimum hours, Florida median aide wages ($16.25) and 93% occupancy, a 3-person foster home on the Live-In rate and a 4-bed home lose money, a 6-bed home loses about $1,100/month, and **8-bed homes earn about $1,250–$1,950/month each; two 8-bed homes earn about $2,860/month (3.4%)**. Margins are thin: every $1/hour of DSP wage costs the two-home model about $3,300/month. Because one staff member must be on duty around the clock from the first admission, every configuration loses money in year 1; the two-home model loses about $80,000 in year 1 if both homes open together. Homes of 7–14 residents must sit in multifamily zoning and can be denied by the local government (s. 419.001) [S25], so site selection is the critical early risk.",
+    "service_model": "### Program names and license categories\nFlorida law defines three APD-licensed residential facility types, but only two are open to new applicants [S7]:\n\n| Type | Capacity | Notes |\n|---|---|---|\n| Foster care facility | No more than 3 residents | Family living environment; with a live-in caregiver it is not a \"community residential home\" and is exempt from local zoning notification [S7][S20] |\n| Group home facility | At least 4, not more than 15 residents | The standard DD group home [S7] |\n| Residential habilitation center | Not fewer than 9 residents | Not available to new applicants — no new licenses since 10/1/1989 (s. 393.063(35)) [S7] |\n\n\"Residential habilitation\" is the service — supervision and training to acquire, retain or improve daily living, homemaking and social skills so the person can live in the community [S7][S5]. APD will not fund services in an unlicensed facility (s. 393.067(14)) [S8].\n\n### Who is served\nPeople APD has found eligible with a developmental disability: intellectual disability, cerebral palsy, autism, spina bifida, Down syndrome, Phelan-McDermid syndrome or Prader-Willi syndrome, manifesting before age 18 [S7]. Each resident's iBudget plan, developed with a Waiver Support Coordinator, authorizes the service, support level and units [S5].\n\n### Service tiers\n- **Standard residential habilitation** — Basic, Minimal, Moderate, Extensive 1, Extensive 2, assigned from APD's Residential Habilitation Rate Descriptors (functional, behavioral and physical needs) [S1].\n- **Behavioral focus** — for residents with documented serious behaviors in the past 12 months (injury requiring medical attention, arrest, property damage over $500, restraint or Baker Act, inappropriate sexual behavior). Only in homes APD designates as behavior focus, with behavior-analyst monitoring and ABA-trained staff [S5].\n- **Intensive behavioral** (Levels 1–6) and **enhanced intensive behavioral** — eligibility and level set by the APD regional behavior analyst (IB Matrix), designated homes only [S1][S5].\n- **Live-In** — a daily rate for homes licensed for three or fewer; staff need not live in the home [S1][S5].\n\nProviders enrolled after January 1, 2015 must be the owner or operator of the licensed facility in which they provide residential habilitation [S5].\n\n### Regulatory framework\n- **Licensing:** APD regional offices under ch. 65G-2 (most rules amended March 26, 2026) [S30].\n- **Medicaid:** AHCA enrolls providers and pays claims; the rate table and handbook are AHCA rules 59G-13.081 and 59G-13.070 [S2][S6].\n- **Federal:** CMS 1915(c) waiver rules and the HCBS settings rule (lease-like protections, privacy, choice of roommate, access to food and visitors) for provider-owned settings [S47].\n- **Not DOH:** the Department of Health states that it does **not** inspect APD-licensed homes [S28].",
+    "licensing_pathway": "Opening a funded home takes two parallel tracks: an **APD facility license** for the house, and **iBudget waiver provider enrollment** (APD, then AHCA Medicaid) for the business. The provider of residential habilitation must own or operate the licensed home [S5].\n\n### Track A — APD facility license (per home)\n1. **Secure the home first.** APD asks applicants to have the home secured before requesting an application, then contacts you for an interview [S22]. Each home needs its own license (65G-2.002(8)) [S9].\n2. **Check siting.** Homes of six or fewer residents are a single-family use and need no local approval unless within 1,000 ft of another such home or 1,200 ft of a community residential home. Homes of 7–14 must be in multifamily zoning; the local government has 60 days to approve or deny, and may deny within 1,200 ft of another community residential home or 500 ft of single-family zoning (s. 419.001) [S25]. APD also allows no more than three facilities within 1,000 ft (65G-2.015(4)) [S18]. Follow the five zoning-notification steps in the application (lists of nearby AHCA, DCF and APD homes to local zoning) [S20].\n3. **Meet physical standards** (65G-2.007): max two residents per bedroom (homes licensed on/after 7/1/2014); 80 sq ft single / 60 sq ft per person shared; one toilet, sink and tub/shower per three residents; 35 sq ft of living/dining space per household member; hot water ≤120°F; smoke and CO detectors; no mobile homes [S13].\n4. **Background screening.** Applicant, managers, supervisors and every direct service staff member complete Level 2 screening through the Clearinghouse before licensure, with a signed affidavit (s. 393.067(5)) [S8][S48].\n5. **Fire inspection and CEMP.** Get an approved fire inspection under ch. 69A-38 before the initial license and each renewal (65G-2.010(2)) [S17], and prepare a comprehensive emergency management plan, updated annually (s. 393.067(8)) [S8][S17].\n6. **Submit Form 65G-2.002-A (December 2025)** with: articles of organization; staff numbers, experience and training; marketing materials; the lease; fire inspection; CEMP; evidence of financial ability (bank statements, line of credit); the Annual Budget Sheet; behavioral-intervention and sexual-activity policies; floor plan; admission/termination criteria; zoning documentation; and video-monitoring criteria if used [S20]. No license fee appears on the form [S20].\n7. **Completeness and inspection.** The application is complete only with all documents, screening results and a satisfactory inspection; APD will not schedule the licensure inspection until documents and screenings are in (65G-2.002(11)-(12)); deficiencies must be fixed before the license issues (65G-2.002(9)) [S9]. APD reviews applications under s. 120.60, F.S. [S9].\n8. **License issued for one year** (65G-2.003) [S10]. APD reviews the home on site within 30 days after the first admission (65G-2.0032(8)) [S11] and monitors licensed homes at least monthly, including one weekend visit a year [S22]. Renewals are due at least 45 days before expiration (65G-2.002(4)) [S9].\n\n### Track B — iBudget waiver provider enrollment (per business)\n1. Review the handbook qualifications for residential habilitation [S21][S5].\n2. Send the Clearinghouse access request (Letter of Intent) to your region's Intent mailbox; register in the Clearinghouse 5–10 business days later; get fingerprinted by a Livescan vendor [S21][S23].\n3. After screening clears, submit the APD iBudget provider application with the agency checklist documents and policies to the regional provider enrollment specialist; all checklist documents must go in at once and packets are reviewed in the order received [S21][S23].\n4. APD issues a draft **iBudget Provider Service Listing Letter** [S21].\n5. Apply to Florida Medicaid through the Medicaid Provider Enrollment Wizard, uploading the listing letter; on approval AHCA sends a Welcome Letter with your Medicaid provider ID [S21]. The CY 2026 federal application fee is $750 where it applies — confirm [S46].\n6. Send the Welcome Letter to APD and sign the **Medicaid Waiver Services Agreement (AHCA Form 5000-3553)** [S21][S6].\n7. Bill only after Waiver Support Coordinators issue service authorizations [S21]. Behavior focus and intensive behavior also require APD regional designation [S5].\n\nAPD publishes no processing time for either track; budget several months and carry rent from the day you sign.",
+    "reimbursement": "### Payer and flow\nResidential habilitation is a 1915(c) iBudget waiver service. Providers bill Florida Medicaid using the procedure codes in the iBudget rate table, incorporated in Rule 59G-13.081 [S1][S2]. Rates are fixed by the state — there is no managed care negotiation for these codes in the rate table or handbook [S1][S5]. Each resident has an individual iBudget allocation; the Waiver Support Coordinator authorizes the residential habilitation level and units [S5].\n\n### Rate structure (effective Oct. 1, 2025)\n- **Monthly vs daily:** a resident in the home 24 or more days bills the monthly rate; fewer days bill the daily rate (max 23); billing waits until the month is complete and no date may be billed when the resident was absent [S1][S5].\n- **Support level** sets the rate: Minimal $3,370.96, Moderate $5,058.37, Extensive 1 $6,804.27, Extensive 2 $8,938.77 per month (agency, non-geographical) [S1].\n- **Geography:** Miami-Dade, Broward and Palm Beach (\"Geographical\") pay about 7.5% more (Moderate $5,437.98); Monroe more still ($6,070.04) [S1].\n- **Behavioral focus** pays about 4–5% more than standard (Moderate $5,291.07; Extensive 1 $7,117.10) [S1]; **intensive behavioral** pays $363.57–$545.35/day statewide [S1].\n- **Home size does not change the rate**, except that the Live-In daily rate ($140.14/day at 1:3, agency, non-geographical) is limited to homes licensed for three or fewer [S1].\n- Rates were unchanged from July 1, 2024 [S4]. The July 2026 table (about +1.0%) is in rule development [S3].\n\n### What the rate covers and excludes\nThe rate includes incidental transportation and documentation time; it excludes room and board, facility upkeep (except safety modifications) and payments to immediate family [S5]. Transportation between the home and another waiver service is paid separately only if you enroll as a transportation provider [S5]. Residential nursing (RN $8.08, LPN $7.02 per 15 minutes) is billable with a prescription [S1].\n\n### Room and board\nResidents pay room and board from their own benefits. The facility, if representative payee, must leave a personal needs allowance of at least 18% of the SSI federal benefit rate — $178.92 in 2026 (65G-2.018; SSI $994) [S19][S43]. APD's room-and-board standard is **$583.42/month**: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the PNA fall below it (Rule 65G-13.008; Form 65G-13.008A within 90 days of month end) [S26][S27].\n\n### Revenue per resident in the model\nWeighted residential habilitation rate plus $583.42 room and board: about **$5,656/month** for a Minimal/Moderate/Extensive 1 mix of 1:2:1 (non-geographical) and **$6,788** for a behavior-focus Moderate/Extensive 1 mix.",
+    "demand": "### Size of the program (APD, FY 2025-26 Q4) [S24]\n- **Enrolled:** 37,645 people in Florida's DD waivers on June 1, 2026 (32,316 iBudget + 5,329 CDC+).\n- **Waiting list:** 15,451 people in pre-enrollment on July 1, 2026 (Categories 3–7); Categories 1 and 2 (crisis and foster-care-related) are offered enrollment immediately.\n- **New enrollments FY 2025-26:** 2,819 (1,091 Category 1, 84 Category 2, 1,590 Categories 3–6, 54 other).\n- **Residential habilitation users (June 2026):** 6,639 monthly residential habilitation; 1,850 behavioral focus (day); 873 intensive behavior (day); 279 in ALFs. APD says counts are incomplete because of unsubmitted claims.\n- **Spending:** $875.2 million in FY 2025-26 actual expenditures ($943.1 million with AHCA actuals) against a $973.8 million appropriation.\n\n### Referral sources\n- **Waiver Support Coordinators** — they authorize services and help residents choose providers [S5][S7].\n- **APD regional offices** — crisis placements (Category 1) and residents moving from other settings; region pages list critical needs [S21].\n- **Families and guardians**, school transition teams for 18–22-year-olds (APD pays full room and board under 22) [S26].\n- **Behavior-focus/intensive referrals** come through the APD regional behavior analyst, who determines eligibility [S5].\n\n### What this means\nDemand exists — about 15,000 people waiting and thousands of current residential habilitation users — but placements depend on iBudget enrollment and each person's budget allocation. New homes fill through relationships with support coordinators and APD regional staff, not public advertising. This report does not claim a regional shortage or surplus of beds; no official count of licensed homes was found.",
+    "operations": "### Staffing rules\n- **One staff present at all times** while residents are in the home, unless APD approves a written plan for a specific resident to be alone for limited periods (65G-2.009(6)(b)) [S16].\n- **Handbook minimum direct-care hours per resident per 24-hour day:** Basic 2, Minimal 4, Moderate 6, Extensive 1 8, Extensive 2 11. Multiply by residents at each level for the home's daily minimum; meet it daily or over a seven-day period. Example: six Moderate residents = 36 hours/day, 252 hours/week [S5]. Staffing must exceed the minimum when residents need more [S5][S15].\n- **Facility operator** on site or on call at all times, with a designated backup; 90 college credits in a related field, or a high school diploma plus three years of disability experience (65G-2.0072) [S14].\n- **Direct service providers:** 18+, high school diploma/GED, Level 2 screening, and one year of relevant experience or 30 semester hours/720 classroom hours of related training; new staff without experience can work under 90 days of direct supervision with APD notice within 5 days (65G-2.008(2)) [S15].\n- **Behavior focus:** BCBA or Ch. 490/491 licensee monitoring; staff with 20 contact hours in an APD-approved curriculum (or RBT, or 90 classroom hours of ABA), APD-approved emergency procedures training, monthly competency monitoring of 50% of staff and yearly recertification [S5].\n- **Weekly staffing schedule** posted one week ahead; actual schedules kept six months (65G-2.008(6)) [S15].\n\n### Training\n| Requirement | Timing | Source |\n|---|---|---|\n| Zero Tolerance (abuse/neglect/exploitation) | Before providing services; every 3 years | [S15][S5] |\n| Direct Care Core Competencies | Within 90 days | [S15][S5] |\n| Classroom first aid + CPR (no online-only) | Within 90 days; one CPR-certified staff on site whenever residents are present | [S15] |\n| HIV/AIDS | Within 90 days | [S15] |\n| Emergency management plan | Within 30 days of hire; annually | [S17] |\n| Medication administration (unlicensed staff) | APD Basic Medication Administration course (≥85% exam, 100% MAR section) + validation; annual update and revalidation | [S29] |\n| Residents' behavior plans | Trained by a certified behavior analyst | [S15] |\n\n### Required systems and records\n- **APD iConnect** — APD's data system for documentation and authorizations; EVV in iConnect applies to personal care and home health, not residential habilitation [S5].\n- Census changes reported to APD in writing before the change; updated census within five calendar days (65G-2.006(2)) [S12].\n- Resident records kept six years; copies to APD within two days on request (65G-2.009(5)) [S16].\n- Annual sex-offender registry check within one mile; annual driving-history checks for drivers (65G-2.008(4)) [S15].\n- Monthly fire drills (not between midnight and 5 a.m.) and an annual CEMP update (65G-2.010) [S17].\n- Personal needs allowance and resident funds accounting (65G-2.009(4), 65G-2.018) [S16][S19].\n- An implementation plan per resident and quarterly summaries/annual report to the support coordinator [S5].",
+    "market_conditions": "### Supply\nNo official count of APD-licensed group homes or beds was found, and this report does not estimate one. APD reports 6,639 monthly residential habilitation users in June 2026 [S24].\n\n### Rates\nResidential habilitation rates were flat from July 1, 2024 through the October 1, 2025 table [S4][S1]. The July 2026 table adds about 1.0% (e.g., Moderate $5,058.37 → $5,108.95) and is in rule development [S3][S55]. Rates do not vary by home size, so larger homes earn more per dollar of fixed cost [S1].\n\n### Wages (BLS/O*NET 2025, Florida)\n- Personal care aides (from home health and personal care aides): 10th percentile $14.74, median **$16.25**, 75th $17.25; metro medians Miami-Fort Lauderdale-West Palm Beach $15.81, Orlando $16.40, Tampa $16.45, Jacksonville $16.53 [S31].\n- Social and community service managers: median $76,050 (Miami $79,240; Tampa $77,560; Jacksonville $75,660; Orlando $75,250) [S32].\n- Medical secretaries/administrative assistants: median $41,730 [S33].\n- RNs $40.48; LPNs $29.70 (median) [S34].\n\nFlorida's minimum wage rose to **$15.00/hour on September 30, 2026** [S35][S36]. The 10th-percentile aide wage ($14.74) is now below the legal floor, and the median is only $1.25 above it — expect wage pressure.\n\n### Employer costs\nEmployer FICA 7.65% [S40]; Florida reemployment tax 2.7% new-employer rate on the first $7,000 [S38][S39]; FUTA [S41]; workers' compensation mandatory at four or more employees [S37].\n\n### Housing\nHUD FY2027 Small Area FMRs: Orlando-area ZIP 32825 3BR $2,580 and 4BR $3,020 [S44]; Fort Lauderdale-area ZIP 33024 3BR $2,990 and 4BR $3,450 [S45]. FMRs are a benchmark for ordinary rentals; landlords may charge more for group-home use.",
+    "financial_narrative": "**How the model works.** Revenue per resident = the October 1, 2025 monthly residential habilitation rate for each support level in the mix (agency, non-geographical) [S1] plus room and board at APD's **$583.42** standard [S26]. Direct-care staffing has two parts. **(1) A fixed 24/7 floor:** 730 hours a month per home (one staff member on duty 24 hours × 30.42 days), because at least one staff person must be present whenever residents are home (65G-2.009(6)(b)) [S16]; this cost starts with the first admission and does not shrink while the home fills. **(2) A per-resident line for the handbook hours above that floor:** the handbook minimum for the mix at full census (Minimal 4, Moderate 6, Extensive 1 8 hours per resident per day × 30.42) [S5], minus the floor, spread over the licensed beds — 71.03 h per resident-month for the 6-bed home, 91.25 h for the 8-bed homes and 121.65 h for the behavior-focus home. At full census the two parts equal the handbook minimum exactly; at 93% occupancy they carry about 51 hours per home per month more than the strict per-resident minimum, because vacancy trims only the per-resident part (a conservative simplification worth about $970 per home per month). The 3- and 4-resident homes carry only the 730-hour floor, which already exceeds their handbook minimum. DSPs are paid the Florida aide median **$16.25** [S31] ($17.25 in behavior-focus homes, including a $1.00 operator-estimate premium). Every configuration pays a facility operator/program director (Florida median $76,050 × FTE) [S32][S14] and a billing/office coordinator ($41,730 × FTE) [S33]. Payroll burden is 17.3%: taxes 8.3% (FICA plus reemployment tax and FUTA on the first $7,000) [S40][S38][S41], workers' comp 4% and benefits 5% (operator estimates). Rent (HUD SAFMR) [S44], utilities, vehicles and insurance are **fixed per home**. Default occupancy is 93% (88% conservative, 97% optimistic) — an operator assumption.\n\n**Results at 93% occupancy (monthly).**\n- **3-resident foster home, Live-In rate:** revenue $13,522, expenses $22,869, **−$9,347**. The Live-In rate ($140.14/day) cannot pay round-the-clock shift staff; it works only with a live-in caregiver.\n- **4-bed group home:** revenue $21,042, expenses $23,241, **−$2,199**; break-even needs more than 100% occupancy. With an unpaid owner-operator it is about −$340.\n- **6-bed group home:** revenue $33,159, expenses $34,246, **−$1,087**; break-even occupancy about 97%. If the owner is the unpaid facility operator, about +$2,630.\n- **8-bed group home:** revenue $42,084, expenses $40,829, **+$1,255 (3.0%)**; break-even occupancy about 89%.\n- **8-bed behavior-focus home:** revenue $50,499, expenses $48,558, **+$1,941 (3.8%)** after a $1,500/month BCBA contract and the wage premium; break-even about 87%.\n- **Two 8-bed homes (default):** revenue $84,167, expenses $81,304, **+$2,864 (3.4%)**, about $34,000 a year; break-even occupancy about 88%; at 88% occupancy about +$50.\n\n**Ramp-up and year 1.** The model admits 1 resident a month in the 3–6 bed homes, 2 a month in the 8-bed homes and 3 a month across the two-home model (operator estimates), while the 24/7 floor is paid from day one. Year-1 net: 6-bed −$71,500; 8-bed −$24,200; behavior-focus 8-bed −$20,500; two 8-bed homes opened together −$80,100 (first profitable month: month 4 for the 8-bed homes, month 6 for the two-home model; the 3–6 bed homes never reach a profitable month at 93%). Peak cumulative operating deficit: 8-bed about $35,500, behavior-focus about $38,000, two-home about $100,200, 6-bed about $97,600. Cash needed = one-time startup costs plus the larger of that deficit or APD's 60-day financial-ability reserve (65G-2.0032(5)) [S11]: about $134,600 for one 8-bed home and $245,900 for two. None of the configurations recovers startup costs plus the ramp-up deficit within 36 months at default assumptions. **Opening the second home only after the first is full** avoids paying a second empty-home floor (about $13,900 a month in wages and burden) during the ramp and cuts the two-home deficit substantially.\n\n**Sensitivities (default two-home model unless noted).**\n- **Wages:** at the 75th-percentile aide wage of $17.25 the default loses about $440; at $18.00 it loses about $2,920. The break-even DSP wage is about **$17.10**. The 6-bed home loses about $2,410 at $17.25.\n- **Staffing above the minimum:** 10% more direct-care hours than the handbook minimum turns the default to about −$2,310 and the 8-bed home to about −$1,330. Most homes staff above the minimum for overnight and weekend coverage, so this is the biggest risk.\n- **Strict per-resident minimum:** if staffing tracked the handbook minimum for residents actually present (never below the 24/7 floor) instead of the conservative floor-plus-line simplification, steady-state results would be about $970 per home per month better (default about +$4,810; 8-bed about +$2,230; 6-bed about −$110).\n- **Room and board:** if residents can pay $815.08 (SSI minus the PNA) instead of $583.42 — not established in rule — the default rises to about +$6,310.\n- **July 2026 rates (+1.0%):** about +$3,620 for the default and −$790 for the 6-bed home [S55].\n- **Owner as program director (unpaid):** the default rises to about +$10,300; the 8-bed home to about +$4,970.\n- **South Florida 6-bed home:** at geographical rates (+7.5%) and a Broward 4BR rent of $3,450 [S45], about +$730 at a $16.25 wage, or about −$500 at the Miami 75th-percentile aide wage of $17.18 [S31].\n- **10-bed home** (2 Minimal, 5 Moderate, 3 Extensive 1; rent at 1.4 × the 4BR SAFMR, 0.6 FTE program director, operator estimates): about +$3,370.\n\nThe model counts no add-on revenue (residential nursing, transportation) and no startup interest.",
+    "risks": "- **Thin margin on staffing.** The rates fund roughly $28 per required staff hour. Staffing 10% above the handbook minimum, or paying about $0.85/hour above the $16.25 median, erases the default profit [S5][S31]. Residents' real needs, overnight coverage and the rule that one staff is present whenever residents are home (65G-2.009(6)(b)) push hours above the minimum [S16].\n- **Minimum wage.** Florida's $15.00 floor (Sept. 30, 2026) is close to market DSP pay; competition for staff will raise wages [S35][S31].\n- **Zoning for 7–14 beds.** Larger homes must be in multifamily zoning and can be denied within 1,200 ft of another community residential home or 500 ft of single-family zoning [S25]; APD's own siting rule caps three facilities within 1,000 ft [S18]. The profitable 8-bed configurations depend on finding a compliant site.\n- **Support level changes.** Rates follow each resident's APD-assigned level; a downgrade cuts revenue immediately, and Extensive staffing reductions need APD written approval [S1][S5].\n- **Vacancy and absences.** Fewer than 24 days in the home drops a resident to the daily rate, and empty beds earn nothing [S1][S5].\n- **Flat rates.** Residential habilitation rates did not change from July 2024 to October 2025; the July 2026 increase is only about 1% [S4][S3].\n- **Room and board.** The model assumes $583.42; residents' benefits, representative-payee duties and the PNA limit what can be collected [S19][S26].\n- **Regulatory actions.** APD monitors monthly; violations can lead to fines, conditional licenses, denial or revocation (65G-2.004–2.005) [S22][S30]. A late renewal is treated as an initial application [S9].\n- **Abuse findings.** A verified finding against staff requires supervision restrictions and a corrective action plan within 15 days (65G-2.008(5)) [S15].\n- **Hurricanes.** The CEMP must cover evacuation and sheltering; facilities must evacuate when directed (65G-2.010) [S17].\n- **Financial ability.** APD may require proof that you can operate 60 days without state payments (65G-2.0032(5)) [S11].\n- **Cash flow.** Monthly billing is submitted only after the month ends [S5], so plan for at least two months of payroll before the first payment. The 24/7 staffing floor is paid from the first admission, so year 1 loses money in every configuration (two 8-bed homes opened together: about −$80,000).",
+    "recommendations": "1. **Plan for 8 beds per home, or several homes.** At current rates a 6-bed home loses about $1,100/month with a paid program director; 8-bed homes earn about $1,250–$1,950/month each [S1][S5]. If you start with one 6-bed home, plan to be the unpaid facility operator yourself until a second home opens.\n2. **Find a site that fits s. 419.001 before anything else.** For 7–14 residents, look in multifamily zones away from single-family zoning (500 ft) and other community residential homes (1,200 ft); confirm in writing with the local zoning office before signing a lease [S25][S18].\n3. **Start Level 2 screening and APD enrollment early.** Send the Clearinghouse Letter of Intent and APD application while you search for property; you need the Provider Service Listing Letter before Medicaid enrollment [S21][S23].\n4. **Staff to the residents' handbook minimum, flexibly.** Concentrate staff when residents are home (evenings, weekends) and reduce while they attend ADT or work, as the handbook allows [S5]. Track hours per resident per day weekly against the minimum.\n5. **Admit a balanced mix.** Moderate and Extensive 1 residents pay more in absolute dollars; per required staff hour, all standard levels pay about the same. Choose residents whose needs your staffing pattern can meet without overtime.\n6. **Consider behavior-focus designation once experienced.** It adds about 4–5% per resident but needs a BCBA contract, trained staff and APD designation [S5][S1].\n7. **Use APD's room-and-board process.** File Form 65G-13.008A within 90 days for residents under 22 or with low benefits [S27].\n8. **Watch the July 2026 rate table** (about +1.0%) and APD provider advisories [S3].\n9. **Budget cash for the ramp-up.** Keep at least 60 days of operating costs available (APD can ask for proof) plus the ramp-up deficit [S11]. One staff must be on duty 24/7 from the first admission (65G-2.009(6)(b)) [S16], so open the second home only after the first is nearly full — opening both together roughly doubles the empty-home staffing cost during ramp-up."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Confirm the right license: APD group home or foster care facility (not an AHCA ALF)",
+      "instructions": "DD group homes are licensed by APD under s. 393.067 and ch. 65G-2. Group home = 4–15 residents; foster care facility = up to 3. APD will not fund an unlicensed facility. Residential habilitation centers (9+) are not an option: no new licenses since Oct. 1, 1989 (s. 393.063(35)).",
+      "cite": "s. 393.063(18)-(19),(35); s. 393.067(14)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Choose your service tier",
+      "instructions": "Standard residential habilitation is the entry point. Behavior focus, intensive behavioral and enhanced intensive behavioral require APD designation and extra staff qualifications. The Live-In rate applies only to homes licensed for three or fewer.",
+      "cite": "iBudget Handbook pp. 2-46–2-65; rate table",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Form a Florida LLC or corporation",
+      "instructions": "File Articles of Organization on Sunbiz ($100) plus registered agent designation ($25). Annual report $138.75, due Jan. 1–May 1; $400 late fee after May 1 [S53]. The entity name must match on the APD and Medicaid applications.",
+      "cite": "s. 605.0213, F.S.; Sunbiz annual report fees",
+      "source_id": "S42"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "MEDIUM",
+      "task": "Get county (and city) local business tax receipts for each home",
+      "instructions": "Apply with the county tax collector and, inside city limits, the city; fees vary (operator estimate about $50–$300 per home per year) and renew annually.",
+      "cite": "s. 205.032, s. 205.042, F.S.",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN",
+      "instructions": "Apply free at irs.gov. The license application asks for the FEIN.",
+      "cite": "Form 65G-2.002-A",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Open a business bank account and document financial ability",
+      "instructions": "APD requires satisfactory proof of financial ability to operate and may request proof you can operate 60 days without state payment (bank statements, line of credit).",
+      "cite": "s. 393.067(6); 65G-2.0032(5)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "HIGH",
+      "task": "Read the iBudget handbook and the rate table",
+      "instructions": "Read residential habilitation (pp. 2-46–2-65), qualifications and Appendix B training. Note the minimum staff hours per level and the monthly (24+ days) vs daily billing rule.",
+      "cite": "Rule 59G-13.070; Rule 59G-13.081",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 1 — PATHWAY & BUSINESS FORMATION",
+      "priority": "MEDIUM",
+      "task": "Build your budget with the APD Annual Budget Sheet",
+      "instructions": "The license application requires a projected 12-month budget (income by licensed capacity, personnel, workers' comp, transportation, liability insurance, supplies). Use this bundle's P&L.",
+      "cite": "Form 65G-2.002-A",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Decide home size against zoning rules",
+      "instructions": "Six or fewer residents = single-family use, no local approval unless within 1,000 ft of another such home or 1,200 ft of a community residential home. 7–14 residents must be in multifamily zoning; local government can approve, deny (within 60 days) or not respond.",
+      "cite": "s. 419.001(2)-(3), F.S.",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Check distance limits",
+      "instructions": "APD: no more than three facilities within 1,000 ft; within 1,000 ft requires a local variance. For 7–14 beds, a site within 1,200 ft of another community residential home or 500 ft of single-family zoning can be denied.",
+      "cite": "65G-2.015(4)-(5); s. 419.001(3)(c)",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Complete the zoning notification steps",
+      "instructions": "Print FloridaHealthFinder proximity searches (ALF, AFCH, residential treatment, ICF/DD within one mile), get DCF and APD lists of nearby community residential homes, give them to local zoning, and notify zoning once the home receives its first resident.",
+      "cite": "Form 65G-2.002-A, zoning steps 1–5",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Secure the home (lease or purchase)",
+      "instructions": "APD asks that the home be secured before you request an application. A fully executed lease is required if you rent. Mobile/manufactured homes are not allowed.",
+      "cite": "65G-2.007(2),(25); APD Group Homes",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Verify bedroom capacity",
+      "instructions": "Max two residents per bedroom (homes first licensed on/after 7/1/2014); single rooms ≥80 sq ft, shared ≥60 sq ft per person; direct access from a common area; staff-only bedrooms do not count.",
+      "cite": "65G-2.007(6)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Verify bathrooms and living space",
+      "instructions": "One toilet, sink and tub/shower per three residents; 35 sq ft of living/dining space per household member; ventilation; accessible design for residents' disabilities.",
+      "cite": "65G-2.007(3),(4),(7)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Install safety items",
+      "instructions": "Smoke and carbon monoxide detectors; hot water ≤120°F at outlets; heating/cooling; restrict access to pools/water hazards; secure hazardous chemicals; no portable heaters in bedrooms (≤6 residents).",
+      "cite": "65G-2.007(6),(8),(10),(16),(17),(20)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Furnish bedrooms and common areas",
+      "instructions": "Bed, dresser/chest, shelf space, window coverings, linens; let residents decorate. Designate an office area with secure records storage.",
+      "cite": "65G-2.007(6)(k); 65G-2.0072(4)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "Confirm HCBS settings compliance",
+      "instructions": "Provider-controlled settings need a lease or equivalent agreement, lockable bedroom doors, roommate choice, access to food and visitors, freedom to decorate.",
+      "cite": "42 CFR 441.301(c)(4)",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 2 — SITE SELECTION, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "Do not schedule a DOH group care inspection",
+      "instructions": "The Department of Health states it does not inspect APD-licensed homes. (The old checklist required one.)",
+      "cite": "FDOH Residential Group Care",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 3 — BACKGROUND SCREENING & KEY PERSONNEL",
+      "priority": "CRITICAL",
+      "task": "Request Clearinghouse access (Letter of Intent)",
+      "instructions": "If you lack an \"APD General\" eligibility determination, send the Provider Applicant Access Request to your region's Intent mailbox ([region].Intent@apdcares.org).",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 3 — BACKGROUND SCREENING & KEY PERSONNEL",
+      "priority": "CRITICAL",
+      "task": "Register in the Clearinghouse and get fingerprinted",
+      "instructions": "Register 5–10 business days after the request; use a Clearinghouse-authorized Livescan vendor. Do nothing else until results clear (Northeast Region guidance).",
+      "cite": "s. 435.12; APD enrollment",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 3 — BACKGROUND SCREENING & KEY PERSONNEL",
+      "priority": "CRITICAL",
+      "task": "Screen all owners, managers and staff",
+      "instructions": "The applicant, managers, supervisors and every direct service staff member need Level 2 screening before licensure; sign the screening affidavit.",
+      "cite": "s. 393.067(5)",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 3 — BACKGROUND SCREENING & KEY PERSONNEL",
+      "priority": "CRITICAL",
+      "task": "Name a qualified facility operator and backup",
+      "instructions": "Operator: 90 college credits in a related field or high school diploma + 3 years' disability experience; on site or on call at all times; designate a backup for absences.",
+      "cite": "65G-2.0072(2)-(3)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 3 — BACKGROUND SCREENING & KEY PERSONNEL",
+      "priority": "HIGH",
+      "task": "Line up a behavior analyst (if behavior focus)",
+      "instructions": "A BCBA or Ch. 490/491 licensee at Level 1/2 must monitor behavior programs face to face. Get a written contract.",
+      "cite": "iBudget Handbook p. 2-52",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — BACKGROUND SCREENING & KEY PERSONNEL",
+      "priority": "MEDIUM",
+      "task": "Check disqualifying history",
+      "instructions": "APD weighs prior disciplinary actions, revocations, bankruptcy, verified abuse findings and good moral character.",
+      "cite": "65G-2.002(5)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 4 — APD WAIVER PROVIDER ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Complete the APD iBudget provider application",
+      "instructions": "After screening clears, complete the application for residential habilitation with the agency checklist documents and Clearinghouse printout. Incomplete packets are not processed.",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — APD WAIVER PROVIDER ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Submit policies and procedures with the packet",
+      "instructions": "Agency applicants must submit policies and procedures; all checklist documents go in at one time. Request the checklist from your region's provider enrollment email.",
+      "cite": "Northeast Region process",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — APD WAIVER PROVIDER ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Submit to your regional provider enrollment specialist",
+      "instructions": "Email [region].providerenrollment@apdcares.org. Packets are reviewed in the order received. There is no fee.",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — APD WAIVER PROVIDER ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Receive the iBudget Provider Service Listing Letter",
+      "instructions": "APD issues a draft listing letter if you are eligible; you need it for Medicaid enrollment.",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 4 — APD WAIVER PROVIDER ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Request behavior-focus or intensive-behavior designation (if applicable)",
+      "instructions": "These services may only be provided in homes APD designates.",
+      "cite": "iBudget Handbook p. 2-48",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Write behavioral intervention and sexual activity policies",
+      "instructions": "Required attachments to the license application.",
+      "cite": "Form 65G-2.002-A §9; 65G-2.009(8)-(9)",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Write admission and termination criteria",
+      "instructions": "Required for group home applications. Serve only residents whose characteristics, level of care, age and sex match the license.",
+      "cite": "Form 65G-2.002-A §9B; 65G-2.006(3)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "CRITICAL",
+      "task": "Prepare the Comprehensive Emergency Management Plan (CEMP)",
+      "instructions": "Use APD's CEMP template; cover evacuation, sheltering, staffing, post-disaster needs; update annually; attach any local approval letter.",
+      "cite": "s. 393.067(8); 65G-2.010(4)",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "HIGH",
+      "task": "Write video monitoring criteria (if cameras used)",
+      "instructions": "Written criteria for which residents are monitored; never use footage to humiliate or punish.",
+      "cite": "65G-2.009(7)",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "HIGH",
+      "task": "Set up resident funds and PNA procedures",
+      "instructions": "As representative payee, set aside at least 18% of the SSI federal benefit rate ($178.92 in 2026) as personal needs allowance; keep separate accounting.",
+      "cite": "65G-2.018; 65G-2.009(4)",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "HIGH",
+      "task": "Write medication administration procedures",
+      "instructions": "Unlicensed staff may administer medication only after APD's Basic Medication Administration course and validation; revalidate annually.",
+      "cite": "65G-7.004",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "HIGH",
+      "task": "Buy liability, auto and workers' comp insurance",
+      "instructions": "No minimum limit was found in rule; get quotes. Workers' comp is mandatory with four or more employees. Drivers need valid licenses and annual driving-history checks.",
+      "cite": "s. 440.02; 65G-2.008(4)(b)",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, PLANS & INSURANCE",
+      "priority": "MEDIUM",
+      "task": "Prepare personnel policies and job descriptions",
+      "instructions": "Job descriptions, training records, personnel files with screening, weekly schedules one week ahead (keep six months).",
+      "cite": "65G-2.008(6)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 6 — FIRE INSPECTION & APD FACILITY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Pass the fire inspection",
+      "instructions": "Request inspection by the local fire authority or State Fire Marshal under ch. 69A-38. An approved inspection is required before the initial license and every renewal.",
+      "cite": "65G-2.010(2)",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 6 — FIRE INSPECTION & APD FACILITY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Submit APD Application Request and interview",
+      "instructions": "Submit the Application Request with photo ID once the home is secured; APD regional staff will interview you.",
+      "cite": "APD Group Homes",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 6 — FIRE INSPECTION & APD FACILITY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Submit License Application Form 65G-2.002-A (December 2025)",
+      "instructions": "Select Initial and Group Home (or Foster Care). Attach articles, staff information, marketing materials, lease, fire inspection, CEMP, financial ability, Annual Budget Sheet, policies, floor plan, admission criteria, zoning documentation. No license fee appears on the form.",
+      "cite": "65G-2.002(2); Form 65G-2.002-A",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 6 — FIRE INSPECTION & APD FACILITY LICENSE",
+      "priority": "HIGH",
+      "task": "Request the capacity and resident characteristics you want",
+      "instructions": "APD sets licensed capacity from residents' needs, staffing, operator qualifications, services and fire limits.",
+      "cite": "65G-2.006(1),(3)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 6 — FIRE INSPECTION & APD FACILITY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Pass the APD licensure inspection",
+      "instructions": "APD will not schedule it until documents and screenings are complete. Deficiencies must be corrected before the license issues. Respond within 21 days if APD writes by regular mail after certified mail fails.",
+      "cite": "65G-2.002(9)-(12)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 6 — FIRE INSPECTION & APD FACILITY LICENSE",
+      "priority": "HIGH",
+      "task": "Receive the one-year license",
+      "instructions": "The license is valid for the dates shown; each home has its own license.",
+      "cite": "65G-2.003; 65G-2.002(7)-(8)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & WAIVER AGREEMENT",
+      "priority": "CRITICAL",
+      "task": "Enroll in Florida Medicaid",
+      "instructions": "Use the Medicaid Provider Enrollment Wizard; upload the APD listing letter. Medicaid runs its own screening review. The CY 2026 federal application fee is $750 where it applies — confirm.",
+      "cite": "APD Waiver Provider Enrollment; 90 FR 55738",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & WAIVER AGREEMENT",
+      "priority": "CRITICAL",
+      "task": "Receive the Medicaid Welcome Letter and send it to APD",
+      "instructions": "The letter contains your Medicaid provider ID; send a copy to your Regional Provider Enrollment Specialist.",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & WAIVER AGREEMENT",
+      "priority": "CRITICAL",
+      "task": "Sign the Medicaid Waiver Services Agreement (MWSA)",
+      "instructions": "AHCA Form 5000-3553, signed with APD, completes enrollment.",
+      "cite": "Rule 59G-13.070(3)(a)",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 7 — MEDICAID ENROLLMENT & WAIVER AGREEMENT",
+      "priority": "HIGH",
+      "task": "Set up APD iConnect access",
+      "instructions": "Complete APD iConnect training (≥75% test) to get access for documentation and billing.",
+      "cite": "iBudget Handbook App. B",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Hire qualified DSPs",
+      "instructions": "18+, high school diploma/GED, Level 2 screening, one year of relevant experience or 30 semester hours/720 classroom hours; or use the 90-day supervised alternative with notice to APD within 5 days and a 120-day evaluation.",
+      "cite": "65G-2.008(2)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Plan staffing to the handbook minimum and the supervision rule",
+      "instructions": "Minimum direct-care hours per resident per day: Minimal 4, Moderate 6, Extensive 1 8, Extensive 2 11 (sum for the home, meet daily or weekly). Always one staff present when residents are home.",
+      "cite": "iBudget Handbook p. 2-46; 65G-2.009(6)(b)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Zero Tolerance training before work",
+      "instructions": "All DSPs before providing services; refresher every three years.",
+      "cite": "65G-2.008(7)(c)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Direct Care Core Competencies within 90 days",
+      "instructions": "APD curriculum; web-based course available.",
+      "cite": "65G-2.008(7)(a); Handbook App. B",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Classroom CPR and first aid within 90 days",
+      "instructions": "Online-only courses are not acceptable; at least one CPR-certified staff on site whenever residents are present.",
+      "cite": "65G-2.008(7)(d)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "HIV/AIDS course within 90 days",
+      "instructions": "All staff.",
+      "cite": "65G-2.008(7)(e)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Medication administration certification",
+      "instructions": "APD Basic Medication Administration course and validation by an approved validator; annual update and revalidation within 60 days before expiry.",
+      "cite": "65G-7.004",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "HIGH",
+      "task": "Emergency plan training within 30 days of hire",
+      "instructions": "Train all staff on the CEMP within 30 days and annually.",
+      "cite": "65G-2.010(4)(c)",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 8 — STAFFING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Behavior-focus staff training (if applicable)",
+      "instructions": "20 contact hours in an APD-approved curriculum (or RBT or 90 classroom ABA hours) plus APD-approved emergency procedures training; yearly recertification.",
+      "cite": "iBudget Handbook pp. 2-52–2-53",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "CRITICAL",
+      "task": "Get referrals from support coordinators and APD",
+      "instructions": "Waiver Support Coordinators authorize services; APD regional offices place crisis cases.",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "CRITICAL",
+      "task": "Wait for service authorizations before serving",
+      "instructions": "Bill only services covered by a WSC-issued authorization.",
+      "cite": "APD Waiver Provider Enrollment",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "HIGH",
+      "task": "Report census changes to APD",
+      "instructions": "Notify APD in writing before a census change; send the updated census within five calendar days.",
+      "cite": "65G-2.006(2)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "HIGH",
+      "task": "Write an implementation plan for each resident",
+      "instructions": "Developed with the resident and tied to support plan goals; file quarterly summaries and the annual report.",
+      "cite": "iBudget Handbook (Implementation Plan, Quarterly Summary definitions; p. 2-48)",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "HIGH",
+      "task": "Prepare for the 30-day post-admission APD review",
+      "instructions": "APD reviews the home on site within 30 days after the first admission.",
+      "cite": "65G-2.0032(8)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "HIGH",
+      "task": "Bill correctly: monthly vs daily",
+      "instructions": "Monthly rate at 24+ days in the home; daily rate otherwise; submit after month end; never bill days the resident was absent.",
+      "cite": "iBudget Handbook p. 2-50; rate table",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "MEDIUM",
+      "task": "Claim APD room-and-board payments where eligible",
+      "instructions": "Form 65G-13.008A within 90 days after month end; $583.42 for residents under 22, shortfall for low-benefit adults.",
+      "cite": "Rule 65G-13.008; Advisory 2023-026",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 9 — OPENING, ADMISSIONS & BILLING",
+      "priority": "HIGH",
+      "task": "Notify local zoning that the home is licensed",
+      "instructions": "After the license, notify zoning once the home receives its first resident.",
+      "cite": "Form 65G-2.002-A step 5; s. 419.001(2)",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "CRITICAL",
+      "task": "Renew each license 45+ days before expiration",
+      "instructions": "Late or incomplete renewals become initial applications.",
+      "cite": "65G-2.002(4),(14)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "CRITICAL",
+      "task": "Annual fire inspection",
+      "instructions": "Request annually; needed for renewal.",
+      "cite": "65G-2.010(2)",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Monthly fire drills and annual CEMP update",
+      "instructions": "No drills between midnight and 5 a.m.",
+      "cite": "65G-2.010",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Expect monthly APD monitoring",
+      "instructions": "At least monthly visits, one on a weekend each year; allow inspection and copies of records.",
+      "cite": "APD Group Homes; 65G-2.0032(4)",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Annual sex-offender and driving checks",
+      "instructions": "Check the FDLE registry within one mile and notify staff; update drivers' histories annually.",
+      "cite": "65G-2.008(4)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Report abuse immediately",
+      "instructions": "Call the Florida Abuse Hotline 1-800-962-2873; follow investigation rules for staff named as alleged perpetrators.",
+      "cite": "65G-2.008(5)",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Track Level 2 rescreening and training expirations",
+      "instructions": "Zero Tolerance every 3 years; med admin annually; CPR per card.",
+      "cite": "65G-2.008(7); 65G-7.004",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "File annual cost statement and LLC annual report",
+      "instructions": "Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)). File the Sunbiz LLC annual report ($138.75) between Jan. 1 and May 1 to avoid the $400 late fee [S53].",
+      "cite": "s. 393.067(10); s. 605.0213",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Give 30 days' notice before closing a home",
+      "instructions": "Written notice to APD.",
+      "cite": "65G-2.002(13)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Request capacity changes 30 days ahead",
+      "instructions": "Include a passed fire inspection and zoning compliance.",
+      "cite": "65G-2.006(1)(d)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 10 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Watch rate table updates",
+      "instructions": "The July 2026 table (about +1%) is in rulemaking; check Rule 59G-13.081.",
+      "cite": "Rule 59G-13.081",
+      "source_id": "S3"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "APD Regional Provider Enrollment",
+      "role": "Waiver provider applications, listing letters, MWSA",
+      "contact": "Northwest/Northeast/Central/Suncoast/Southeast/Southern.providerenrollment@apdcares.org"
+    },
+    {
+      "name": "APD Regional Clearinghouse Intent mailboxes",
+      "role": "Background screening access requests (Letter of Intent)",
+      "contact": "[Region].Intent@apdcares.org (e.g., Northwest.Intent@apdcares.org)"
+    },
+    {
+      "name": "APD Regional Offices",
+      "role": "Facility licensing, Application Request, monitoring",
+      "contact": "apd.myflorida.com/region/ (Northwest, Northeast, Central, Suncoast, Southeast, Southern)"
+    },
+    {
+      "name": "APD Headquarters",
+      "role": "Statewide policy, provider advisories",
+      "contact": "4030 Esplanade Way, Tallahassee, FL 32311 / apd.myflorida.com"
+    },
+    {
+      "name": "Florida Medicaid Provider Enrollment (AHCA)",
+      "role": "Medicaid Provider Enrollment Wizard",
+      "contact": "portal.flmmis.com"
+    },
+    {
+      "name": "AHCA Background Screening Unit / Clearinghouse",
+      "role": "Level 2 screening",
+      "contact": "850-412-4503 / bgscreen@ahca.myflorida.com"
+    },
+    {
+      "name": "Florida Abuse Hotline (DCF)",
+      "role": "Mandatory abuse, neglect and exploitation reports",
+      "contact": "1-800-962-2873 / myflfamilies.com/contact-us"
+    },
+    {
+      "name": "Local fire authority / State Fire Marshal",
+      "role": "Ch. 69A-38 fire inspection",
+      "contact": "Your city or county fire marshal"
+    },
+    {
+      "name": "Local zoning office",
+      "role": "Zoning compliance; 7–14 bed community residential home notice",
+      "contact": "City or county planning/zoning department"
+    },
+    {
+      "name": "Florida Division of Corporations (Sunbiz)",
+      "role": "LLC formation and annual reports",
+      "contact": "sunbiz.org"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.93,
+      "conservative": 0.88,
+      "optimistic": 0.97,
+      "rationale": "Share of licensed beds billed. Residential habilitation is paid only for days the resident is present; a resident in the home 24+ days bills the monthly rate, fewer days bill the daily rate [S1][S5]; empty beds earn nothing. 93% default (88% conservative, 97% optimistic) is an operator assumption — verify locally; it is not a sourced statistic.",
+      "source_id": "S5"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "fc3_livein",
+        "label": "3-resident foster care facility, Live-In rate (1:3)",
+        "capacity": 3,
+        "notes": "Smallest APD-licensed model. A foster care facility may hold no more than three residents (s. 393.063(18)) [S7]; the Live-In rate is for homes licensed for three or fewer [S1]. With paid shift staff covering 24 hours it cannot cover its costs — it works only when a live-in caregiver (often the owner) provides much of the coverage.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation — Live-In, 1:3 ratio, agency, non-geographical (daily)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "H0043UCSC",
+            "rate": 140.14,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Live-In rate applies only to facilities licensed for three or fewer residents; staff need not live in the home; billable up to 365 days when the resident is present [S1][S5]."
+          },
+          {
+            "name": "Room and board collected from resident (APD standard $583.42; APD pays any shortfall up to that amount)",
+            "payer": "Resident (SSI/SSDI) / APD room-and-board payment",
+            "code": "",
+            "rate": 583.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Residential habilitation payments exclude room and board [S5]. Rule 65G-13.008 sets the APD room-and-board payment standard at $583.42/month: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the personal needs allowance fall below it [S26][S27]. An SSI-only resident has $994 − $178.92 PNA (18% of the federal benefit rate, Rule 65G-2.018) = $815.08 available [S43][S19]; whether a facility may charge more than $583.42 is not stated in rule, so the model uses $583.42."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct service providers (DSPs) — one staff present at all times residents are home",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "65G-2.009(6)(b), F.A.C.",
+            "notes": "730 h/month = one staff member 24 h × 30.42 days. Rule 65G-2.009(6)(b) requires at least one staff person present at all times while residents are in the facility [S16]. The Live-In rate allows up to 24 hours of supports in a home of three or fewer [S5]. Wage = Florida median for home health and personal care aides, $16.25 (BLS/O*NET 2025) [S31], above the $15.00 Florida minimum wage in effect since Sept. 30, 2026 [S35]."
+          },
+          {
+            "role": "Facility operator / program director (on site or on call at all times)",
+            "basis": "annual_salary",
+            "amount": 19012,
+            "wage_source_id": "S32",
+            "cite": "65G-2.0072(2)-(3), F.A.C.",
+            "notes": "0.25 FTE × Florida median social and community service manager wage $76,050 (BLS/O*NET 2025) [S32]. The operator needs 90 college credit hours in a related field or a high school diploma plus 3 years of disability experience, and a designated backup [S14]. If the owner fills this role unpaid, add this amount back to profit."
+          },
+          {
+            "role": "Billing, iConnect documentation and office coordinator",
+            "basis": "annual_salary",
+            "amount": 4173,
+            "wage_source_id": "S33",
+            "cite": "",
+            "notes": "0.1 FTE × Florida median medical secretary/administrative assistant wage $41,730 (BLS/O*NET 2025) [S33]. Handles Medicaid claims, service authorizations, census updates to APD within 5 days (65G-2.006(2)) and staff training files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed home(s)",
+            "monthly": 2580,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR, Orlando-area ZIP 32825: 3BR $2,580, 4BR $3,020 [S44]. This home uses the 3BR figure ($2,580); single bedrooms need 80 sq ft, shared 60 sq ft per person, max two per room (65G-2.007(6)) [S13]. Rent is fixed whether beds are full or not.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric/A-C, water, sewer, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home × 1 — operator estimate, verify locally (Florida A/C load is high)."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate. Rule 65G-2.007(12),(21) requires interior/exterior upkeep and vermin control.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Phone, internet and staff devices",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. APD iConnect access needs internet (handbook App. J).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. Drivers need a valid license and an annual driving-history check (65G-2.008(4)(b)); incidental transportation is included in the residential habilitation rate (handbook p. 2-49).",
+            "source_id": "S15"
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum limit was found in Ch. 65G-2 or the iBudget handbook. The license application budget sheet asks for liability insurance cost. Get quotes.",
+            "source_id": "S20"
+          },
+          {
+            "item": "Training, CPR/first aid, med-admin validation, Level 2 rescreening",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Required: Zero Tolerance before service, DCCC, classroom CPR/first aid and HIV/AIDS within 90 days (65G-2.008(7)); annual medication administration revalidation (65G-7.004).",
+            "source_id": "S15"
+          },
+          {
+            "item": "Annual fire inspection (local authority) — before each annual license renewal",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Rule 65G-2.010(2) requires an approved fire inspection before initial licensure and each renewal. $180/year per home × 1 is an operator estimate of local fees — verify locally.",
+            "source_id": "S17"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate. Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)) [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Office supplies, postage, printing",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and support-coordinator outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through Waiver Support Coordinators and APD regional offices."
+          },
+          {
+            "item": "Florida LLC annual report ($138.75 ÷ 12)",
+            "monthly": 11.56,
+            "basis": "fixed",
+            "notes": "Sunbiz charges $138.75 for an LLC annual report, due Jan. 1–May 1; a $400 late fee applies after May 1 [S53]. The $50 in s. 605.0213, F.S. is only the statutory filing component [S42].",
+            "source_id": "S53"
+          },
+          {
+            "item": "Local business tax receipt(s), county/city",
+            "monthly": 15,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "Counties may levy a local business tax (s. 205.032, F.S.) and cities may too (s. 205.042) [S54]. $15 per home × 1 (about $180/year each) is an operator estimate — verify with your county tax collector and city."
+          }
+        ]
+      },
+      {
+        "id": "gh4",
+        "label": "4-bed group home (1 Minimal, 2 Moderate, 1 Extensive 1)",
+        "capacity": 4,
+        "notes": "Smallest group home (group homes hold 4–15, s. 393.063(19)) [S7]. One staff on duty around the clock already exceeds the handbook minimum for four residents, so fixed costs sit on four rates.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation (standard) — Minimal, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCSC",
+            "rate": 3370.96,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S1",
+            "notes": "1 of 4 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Moderate, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU4",
+            "rate": 5058.37,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S1",
+            "notes": "2 of 4 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Extensive 1, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU6",
+            "rate": 6804.27,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S1",
+            "notes": "1 of 4 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Room and board collected from resident (APD standard $583.42; APD pays any shortfall up to that amount)",
+            "payer": "Resident (SSI/SSDI) / APD room-and-board payment",
+            "code": "",
+            "rate": 583.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Residential habilitation payments exclude room and board [S5]. Rule 65G-13.008 sets the APD room-and-board payment standard at $583.42/month: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the personal needs allowance fall below it [S26][S27]. An SSI-only resident has $994 − $178.92 PNA (18% of the federal benefit rate, Rule 65G-2.018) = $815.08 available [S43][S19]; whether a facility may charge more than $583.42 is not stated in rule, so the model uses $583.42."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct service providers (DSPs) — one staff present at all times residents are home",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "65G-2.009(6)(b), F.A.C.",
+            "notes": "730 h/month = one staff member 24 h × 30.42 days. Rule 65G-2.009(6)(b) requires at least one staff person present at all times while residents are in the facility [S16]. This also exceeds the handbook minimum for this mix (1 Minimal 4 h + 2 Moderate 6 h + 1 Extensive 1 8 h = 24 h/day = 730 h/month at full occupancy) [S5]. Wage = Florida median for home health and personal care aides, $16.25 (BLS/O*NET 2025) [S31], above the $15.00 Florida minimum wage in effect since Sept. 30, 2026 [S35]."
+          },
+          {
+            "role": "Facility operator / program director (on site or on call at all times)",
+            "basis": "annual_salary",
+            "amount": 19012,
+            "wage_source_id": "S32",
+            "cite": "65G-2.0072(2)-(3), F.A.C.",
+            "notes": "0.25 FTE × Florida median social and community service manager wage $76,050 (BLS/O*NET 2025) [S32]. The operator needs 90 college credit hours in a related field or a high school diploma plus 3 years of disability experience, and a designated backup [S14]. If the owner fills this role unpaid, add this amount back to profit."
+          },
+          {
+            "role": "Billing, iConnect documentation and office coordinator",
+            "basis": "annual_salary",
+            "amount": 4173,
+            "wage_source_id": "S33",
+            "cite": "",
+            "notes": "0.1 FTE × Florida median medical secretary/administrative assistant wage $41,730 (BLS/O*NET 2025) [S33]. Handles Medicaid claims, service authorizations, census updates to APD within 5 days (65G-2.006(2)) and staff training files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed home(s)",
+            "monthly": 2580,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR, Orlando-area ZIP 32825: 3BR $2,580, 4BR $3,020 [S44]. Four residents fit two shared bedrooms in a 3BR home with a staff/office room; one bathroom per three residents is required (65G-2.007(7)) [S13]. Rent is fixed whether beds are full or not.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric/A-C, water, sewer, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home × 1 — operator estimate, verify locally (Florida A/C load is high)."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate. Rule 65G-2.007(12),(21) requires interior/exterior upkeep and vermin control.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Phone, internet and staff devices",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. APD iConnect access needs internet (handbook App. J).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. Drivers need a valid license and an annual driving-history check (65G-2.008(4)(b)); incidental transportation is included in the residential habilitation rate (handbook p. 2-49).",
+            "source_id": "S15"
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum limit was found in Ch. 65G-2 or the iBudget handbook. The license application budget sheet asks for liability insurance cost. Get quotes.",
+            "source_id": "S20"
+          },
+          {
+            "item": "Training, CPR/first aid, med-admin validation, Level 2 rescreening",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Required: Zero Tolerance before service, DCCC, classroom CPR/first aid and HIV/AIDS within 90 days (65G-2.008(7)); annual medication administration revalidation (65G-7.004).",
+            "source_id": "S15"
+          },
+          {
+            "item": "Annual fire inspection (local authority) — before each annual license renewal",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Rule 65G-2.010(2) requires an approved fire inspection before initial licensure and each renewal. $180/year per home × 1 is an operator estimate of local fees — verify locally.",
+            "source_id": "S17"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate. Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)) [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Office supplies, postage, printing",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and support-coordinator outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through Waiver Support Coordinators and APD regional offices."
+          },
+          {
+            "item": "Florida LLC annual report ($138.75 ÷ 12)",
+            "monthly": 11.56,
+            "basis": "fixed",
+            "notes": "Sunbiz charges $138.75 for an LLC annual report, due Jan. 1–May 1; a $400 late fee applies after May 1 [S53]. The $50 in s. 605.0213, F.S. is only the statutory filing component [S42].",
+            "source_id": "S53"
+          },
+          {
+            "item": "Local business tax receipt(s), county/city",
+            "monthly": 15,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "Counties may levy a local business tax (s. 205.032, F.S.) and cities may too (s. 205.042) [S54]. $15 per home × 1 (about $180/year each) is an operator estimate — verify with your county tax collector and city."
+          }
+        ]
+      },
+      {
+        "id": "gh6",
+        "label": "6-bed group home (1 Minimal, 3 Moderate, 2 Extensive 1)",
+        "capacity": 6,
+        "notes": "The most common small group home size: it can be sited in single-family zoning (s. 419.001(2)) [S25]. Breaks even only at about 97% occupancy with the 24/7 staffing floor and a paid program director.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation (standard) — Minimal, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCSC",
+            "rate": 3370.96,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.1667,
+            "source_id": "S1",
+            "notes": "1 of 6 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Moderate, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU4",
+            "rate": 5058.37,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S1",
+            "notes": "3 of 6 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Extensive 1, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU6",
+            "rate": 6804.27,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.3333,
+            "source_id": "S1",
+            "notes": "2 of 6 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Room and board collected from resident (APD standard $583.42; APD pays any shortfall up to that amount)",
+            "payer": "Resident (SSI/SSDI) / APD room-and-board payment",
+            "code": "",
+            "rate": 583.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Residential habilitation payments exclude room and board [S5]. Rule 65G-13.008 sets the APD room-and-board payment standard at $583.42/month: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the personal needs allowance fall below it [S26][S27]. An SSI-only resident has $994 − $178.92 PNA (18% of the federal benefit rate, Rule 65G-2.018) = $815.08 available [S43][S19]; whether a facility may charge more than $583.42 is not stated in rule, so the model uses $583.42."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct service providers (DSPs) — 24/7 floor: one staff on duty per home at all times",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "65G-2.009(6)(b), F.A.C.",
+            "source_id": "S16",
+            "notes": "730 h/month = one staff member 24 h × 30.42 days × 1 home. Rule 65G-2.009(6)(b) requires at least one staff person present at all times while residents are in the facility [S16], so this cost is fixed from the first admission and does not fall with census during ramp-up. Wage $16.25 = Florida aide median [S31]; Florida minimum wage $15.00 [S35]."
+          },
+          {
+            "role": "Direct service providers (DSPs) — handbook hours above the 24/7 floor (per resident)",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_client_month",
+            "amount": 71.03,
+            "cite": "iBudget Handbook p. 2-46 (min. direct care staff hours per recipient per day)",
+            "source_id": "S5",
+            "notes": "Handbook minimum at full census = 6 residents × 192.7 h per resident-month (average of Minimal 4, Moderate 6, Extensive 1 8 h per recipient per 24-hour day × 30.42 for this mix) = 1,156.2 h/month [S5]. The 24/7 floor line already covers 730 h, so this line carries the remaining 426.2 h spread over 6 beds = 71.03 h per billable resident-month. At full census, floor + this line = exactly the handbook minimum; during ramp-up the floor keeps at least one awake staff per home. Because vacancy reduces only this line, at 93% occupancy the model carries about 51 h/month more than the strict per-resident handbook minimum — a conservative simplification. Staff above the minimum when residents need more [S5][S15]."
+          },
+          {
+            "role": "Facility operator / program director (on site or on call at all times)",
+            "basis": "annual_salary",
+            "amount": 38025,
+            "wage_source_id": "S32",
+            "cite": "65G-2.0072(2)-(3), F.A.C.",
+            "notes": "0.5 FTE × Florida median social and community service manager wage $76,050 (BLS/O*NET 2025) [S32]. The operator needs 90 college credit hours in a related field or a high school diploma plus 3 years of disability experience, and a designated backup [S14]. If the owner fills this role unpaid, add this amount back to profit."
+          },
+          {
+            "role": "Billing, iConnect documentation and office coordinator",
+            "basis": "annual_salary",
+            "amount": 8346,
+            "wage_source_id": "S33",
+            "cite": "",
+            "notes": "0.2 FTE × Florida median medical secretary/administrative assistant wage $41,730 (BLS/O*NET 2025) [S33]. Handles Medicaid claims, service authorizations, census updates to APD within 5 days (65G-2.006(2)) and staff training files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed home(s)",
+            "monthly": 3020,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR, Orlando-area ZIP 32825: 3BR $2,580, 4BR $3,020 [S44]. Six residents need at least three bedrooms (two per room max) and two resident bathrooms (one per three) [S13]; a 4BR home is modeled. Homes of six or fewer are a single-family use under s. 419.001(2) [S25]. Rent is fixed whether beds are full or not.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric/A-C, water, sewer, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home × 1 — operator estimate, verify locally (Florida A/C load is high)."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate. Rule 65G-2.007(12),(21) requires interior/exterior upkeep and vermin control.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Phone, internet and staff devices",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. APD iConnect access needs internet (handbook App. J).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. Drivers need a valid license and an annual driving-history check (65G-2.008(4)(b)); incidental transportation is included in the residential habilitation rate (handbook p. 2-49).",
+            "source_id": "S15"
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum limit was found in Ch. 65G-2 or the iBudget handbook. The license application budget sheet asks for liability insurance cost. Get quotes.",
+            "source_id": "S20"
+          },
+          {
+            "item": "Training, CPR/first aid, med-admin validation, Level 2 rescreening",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Required: Zero Tolerance before service, DCCC, classroom CPR/first aid and HIV/AIDS within 90 days (65G-2.008(7)); annual medication administration revalidation (65G-7.004).",
+            "source_id": "S15"
+          },
+          {
+            "item": "Annual fire inspection (local authority) — before each annual license renewal",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Rule 65G-2.010(2) requires an approved fire inspection before initial licensure and each renewal. $180/year per home × 1 is an operator estimate of local fees — verify locally.",
+            "source_id": "S17"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate. Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)) [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Office supplies, postage, printing",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and support-coordinator outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through Waiver Support Coordinators and APD regional offices."
+          },
+          {
+            "item": "Florida LLC annual report ($138.75 ÷ 12)",
+            "monthly": 11.56,
+            "basis": "fixed",
+            "notes": "Sunbiz charges $138.75 for an LLC annual report, due Jan. 1–May 1; a $400 late fee applies after May 1 [S53]. The $50 in s. 605.0213, F.S. is only the statutory filing component [S42].",
+            "source_id": "S53"
+          },
+          {
+            "item": "Local business tax receipt(s), county/city",
+            "monthly": 15,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "Counties may levy a local business tax (s. 205.032, F.S.) and cities may too (s. 205.042) [S54]. $15 per home × 1 (about $180/year each) is an operator estimate — verify with your county tax collector and city."
+          }
+        ]
+      },
+      {
+        "id": "gh8",
+        "label": "8-bed group home (2 Minimal, 4 Moderate, 2 Extensive 1)",
+        "capacity": 8,
+        "notes": "Homes of 7–14 residents are \"community residential homes\": they must sit in multifamily zoning, the local government gets 60 days to approve or deny, and sites within 1,200 ft of another such home or 500 ft of single-family zoning can be denied (s. 419.001(3)) [S25]. Spreads the program director and fixed costs over eight rates.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation (standard) — Minimal, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCSC",
+            "rate": 3370.96,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S1",
+            "notes": "2 of 8 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Moderate, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU4",
+            "rate": 5058.37,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S1",
+            "notes": "4 of 8 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Extensive 1, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU6",
+            "rate": 6804.27,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S1",
+            "notes": "2 of 8 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Room and board collected from resident (APD standard $583.42; APD pays any shortfall up to that amount)",
+            "payer": "Resident (SSI/SSDI) / APD room-and-board payment",
+            "code": "",
+            "rate": 583.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Residential habilitation payments exclude room and board [S5]. Rule 65G-13.008 sets the APD room-and-board payment standard at $583.42/month: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the personal needs allowance fall below it [S26][S27]. An SSI-only resident has $994 − $178.92 PNA (18% of the federal benefit rate, Rule 65G-2.018) = $815.08 available [S43][S19]; whether a facility may charge more than $583.42 is not stated in rule, so the model uses $583.42."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct service providers (DSPs) — 24/7 floor: one staff on duty per home at all times",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "65G-2.009(6)(b), F.A.C.",
+            "source_id": "S16",
+            "notes": "730 h/month = one staff member 24 h × 30.42 days × 1 home. Rule 65G-2.009(6)(b) requires at least one staff person present at all times while residents are in the facility [S16], so this cost is fixed from the first admission and does not fall with census during ramp-up. Wage $16.25 = Florida aide median [S31]; Florida minimum wage $15.00 [S35]."
+          },
+          {
+            "role": "Direct service providers (DSPs) — handbook hours above the 24/7 floor (per resident)",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_client_month",
+            "amount": 91.25,
+            "cite": "iBudget Handbook p. 2-46 (min. direct care staff hours per recipient per day)",
+            "source_id": "S5",
+            "notes": "Handbook minimum at full census = 8 residents × 182.5 h per resident-month (average of Minimal 4, Moderate 6, Extensive 1 8 h per recipient per 24-hour day × 30.42 for this mix) = 1,460.0 h/month [S5]. The 24/7 floor line already covers 730 h, so this line carries the remaining 730.0 h spread over 8 beds = 91.25 h per billable resident-month. At full census, floor + this line = exactly the handbook minimum; during ramp-up the floor keeps at least one awake staff per home. Because vacancy reduces only this line, at 93% occupancy the model carries about 51 h/month more than the strict per-resident handbook minimum — a conservative simplification. Staff above the minimum when residents need more [S5][S15]."
+          },
+          {
+            "role": "Facility operator / program director (on site or on call at all times)",
+            "basis": "annual_salary",
+            "amount": 38025,
+            "wage_source_id": "S32",
+            "cite": "65G-2.0072(2)-(3), F.A.C.",
+            "notes": "0.5 FTE × Florida median social and community service manager wage $76,050 (BLS/O*NET 2025) [S32]. The operator needs 90 college credit hours in a related field or a high school diploma plus 3 years of disability experience, and a designated backup [S14]. If the owner fills this role unpaid, add this amount back to profit."
+          },
+          {
+            "role": "Billing, iConnect documentation and office coordinator",
+            "basis": "annual_salary",
+            "amount": 8346,
+            "wage_source_id": "S33",
+            "cite": "",
+            "notes": "0.2 FTE × Florida median medical secretary/administrative assistant wage $41,730 (BLS/O*NET 2025) [S33]. Handles Medicaid claims, service authorizations, census updates to APD within 5 days (65G-2.006(2)) and staff training files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed home(s)",
+            "monthly": 3473,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR, Orlando-area ZIP 32825: 3BR $2,580, 4BR $3,020 [S44]. Eight residents need four shared bedrooms and three resident bathrooms [S13]; a 5BR home is priced at the 4BR SAFMR × 1.15 = $3,473 — the 1.15 factor is an operator estimate, verify locally. Rent is fixed whether beds are full or not.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric/A-C, water, sewer, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home × 1 — operator estimate, verify locally (Florida A/C load is high)."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate. Rule 65G-2.007(12),(21) requires interior/exterior upkeep and vermin control.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Phone, internet and staff devices",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. APD iConnect access needs internet (handbook App. J).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. Drivers need a valid license and an annual driving-history check (65G-2.008(4)(b)); incidental transportation is included in the residential habilitation rate (handbook p. 2-49).",
+            "source_id": "S15"
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum limit was found in Ch. 65G-2 or the iBudget handbook. The license application budget sheet asks for liability insurance cost. Get quotes.",
+            "source_id": "S20"
+          },
+          {
+            "item": "Training, CPR/first aid, med-admin validation, Level 2 rescreening",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Required: Zero Tolerance before service, DCCC, classroom CPR/first aid and HIV/AIDS within 90 days (65G-2.008(7)); annual medication administration revalidation (65G-7.004).",
+            "source_id": "S15"
+          },
+          {
+            "item": "Annual fire inspection (local authority) — before each annual license renewal",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Rule 65G-2.010(2) requires an approved fire inspection before initial licensure and each renewal. $180/year per home × 1 is an operator estimate of local fees — verify locally.",
+            "source_id": "S17"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate. Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)) [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Office supplies, postage, printing",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and support-coordinator outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through Waiver Support Coordinators and APD regional offices."
+          },
+          {
+            "item": "Florida LLC annual report ($138.75 ÷ 12)",
+            "monthly": 11.56,
+            "basis": "fixed",
+            "notes": "Sunbiz charges $138.75 for an LLC annual report, due Jan. 1–May 1; a $400 late fee applies after May 1 [S53]. The $50 in s. 605.0213, F.S. is only the statutory filing component [S42].",
+            "source_id": "S53"
+          },
+          {
+            "item": "Local business tax receipt(s), county/city",
+            "monthly": 15,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "Counties may levy a local business tax (s. 205.032, F.S.) and cities may too (s. 205.042) [S54]. $15 per home × 1 (about $180/year each) is an operator estimate — verify with your county tax collector and city."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "gh8_bf",
+        "label": "8-bed behavior-focus group home (4 BF Moderate, 4 BF Extensive 1)",
+        "capacity": 8,
+        "notes": "Requires APD regional office designation as a behavior-focus home, behavior-analyst monitoring and ABA-trained staff; residents must meet behavioral criteria assessed by the APD regional behavior analyst [S5]. Higher rates (about 4–5% above standard) are partly consumed by the BCBA contract and the staff wage premium.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation, Behavioral Focus — Moderate, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCHN",
+            "rate": 5291.07,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S1",
+            "notes": "4 of 8 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation, Behavioral Focus — Extensive 1, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCHO",
+            "rate": 7117.1,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S1",
+            "notes": "4 of 8 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Room and board collected from resident (APD standard $583.42; APD pays any shortfall up to that amount)",
+            "payer": "Resident (SSI/SSDI) / APD room-and-board payment",
+            "code": "",
+            "rate": 583.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Residential habilitation payments exclude room and board [S5]. Rule 65G-13.008 sets the APD room-and-board payment standard at $583.42/month: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the personal needs allowance fall below it [S26][S27]. An SSI-only resident has $994 − $178.92 PNA (18% of the federal benefit rate, Rule 65G-2.018) = $815.08 available [S43][S19]; whether a facility may charge more than $583.42 is not stated in rule, so the model uses $583.42."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct service providers (DSPs) (behavior-focus trained) — 24/7 floor: one staff on duty per home at all times",
+            "wage_hourly": 17.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "65G-2.009(6)(b), F.A.C.",
+            "source_id": "S16",
+            "notes": "730 h/month = one staff member 24 h × 30.42 days × 1 home. Rule 65G-2.009(6)(b) requires at least one staff person present at all times while residents are in the facility [S16], so this cost is fixed from the first admission and does not fall with census during ramp-up. Wage $16.25 = Florida aide median [S31] + $1.00/h operator-estimate premium for RBT/90-hour ABA-trained staff required in behavior-focus homes [S5]."
+          },
+          {
+            "role": "Direct service providers (DSPs) (behavior-focus trained) — handbook hours above the 24/7 floor (per resident)",
+            "wage_hourly": 17.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_client_month",
+            "amount": 121.65,
+            "cite": "iBudget Handbook p. 2-46 (min. direct care staff hours per recipient per day)",
+            "source_id": "S5",
+            "notes": "Handbook minimum at full census = 8 residents × 212.9 h per resident-month (average of Minimal 4, Moderate 6, Extensive 1 8 h per recipient per 24-hour day × 30.42 for this mix) = 1,703.2 h/month [S5]. The 24/7 floor line already covers 730 h, so this line carries the remaining 973.2 h spread over 8 beds = 121.65 h per billable resident-month. At full census, floor + this line = exactly the handbook minimum; during ramp-up the floor keeps at least one awake staff per home. Because vacancy reduces only this line, at 93% occupancy the model carries about 51 h/month more than the strict per-resident handbook minimum — a conservative simplification. Staff above the minimum when residents need more [S5][S15]."
+          },
+          {
+            "role": "Facility operator / program director (on site or on call at all times)",
+            "basis": "annual_salary",
+            "amount": 38025,
+            "wage_source_id": "S32",
+            "cite": "65G-2.0072(2)-(3), F.A.C.",
+            "notes": "0.5 FTE × Florida median social and community service manager wage $76,050 (BLS/O*NET 2025) [S32]. The operator needs 90 college credit hours in a related field or a high school diploma plus 3 years of disability experience, and a designated backup [S14]. If the owner fills this role unpaid, add this amount back to profit."
+          },
+          {
+            "role": "Billing, iConnect documentation and office coordinator",
+            "basis": "annual_salary",
+            "amount": 8346,
+            "wage_source_id": "S33",
+            "cite": "",
+            "notes": "0.2 FTE × Florida median medical secretary/administrative assistant wage $41,730 (BLS/O*NET 2025) [S33]. Handles Medicaid claims, service authorizations, census updates to APD within 5 days (65G-2.006(2)) and staff training files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed home(s)",
+            "monthly": 3473,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR, Orlando-area ZIP 32825: 3BR $2,580, 4BR $3,020 [S44]. 5BR home priced at the 4BR SAFMR × 1.15 = $3,473 (operator estimate factor). Rent is fixed whether beds are full or not.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric/A-C, water, sewer, trash)",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home × 1 — operator estimate, verify locally (Florida A/C load is high)."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate. Rule 65G-2.007(12),(21) requires interior/exterior upkeep and vermin control.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Phone, internet and staff devices",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. APD iConnect access needs internet (handbook App. J).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. Drivers need a valid license and an annual driving-history check (65G-2.008(4)(b)); incidental transportation is included in the residential habilitation rate (handbook p. 2-49).",
+            "source_id": "S15"
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum limit was found in Ch. 65G-2 or the iBudget handbook. The license application budget sheet asks for liability insurance cost. Get quotes.",
+            "source_id": "S20"
+          },
+          {
+            "item": "Training, CPR/first aid, med-admin validation, Level 2 rescreening",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Required: Zero Tolerance before service, DCCC, classroom CPR/first aid and HIV/AIDS within 90 days (65G-2.008(7)); annual medication administration revalidation (65G-7.004).",
+            "source_id": "S15"
+          },
+          {
+            "item": "Annual fire inspection (local authority) — before each annual license renewal",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Rule 65G-2.010(2) requires an approved fire inspection before initial licensure and each renewal. $180/year per home × 1 is an operator estimate of local fees — verify locally.",
+            "source_id": "S17"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate. Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)) [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Office supplies, postage, printing",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and support-coordinator outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through Waiver Support Coordinators and APD regional offices."
+          },
+          {
+            "item": "Florida LLC annual report ($138.75 ÷ 12)",
+            "monthly": 11.56,
+            "basis": "fixed",
+            "notes": "Sunbiz charges $138.75 for an LLC annual report, due Jan. 1–May 1; a $400 late fee applies after May 1 [S53]. The $50 in s. 605.0213, F.S. is only the statutory filing component [S42].",
+            "source_id": "S53"
+          },
+          {
+            "item": "Behavior analyst monitoring contract (behavior-focus home)",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "$1,500 per home × 1 — operator estimate. A BCBA or Ch. 490/491 licensee meeting Level 1/2 behavior-analysis qualifications must provide face-to-face monitoring of behavioral programs, monitor 50% of trained staff monthly and recertify staff yearly (handbook pp. 2-51–2-53).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Local business tax receipt(s), county/city",
+            "monthly": 15,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "Counties may levy a local business tax (s. 205.032, F.S.) and cities may too (s. 205.042) [S54]. $15 per home × 1 (about $180/year each) is an operator estimate — verify with your county tax collector and city."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator estimate."
+        }
+      },
+      {
+        "id": "gh8x2",
+        "label": "Two 8-bed group homes (16 residents; Minimal/Moderate/Extensive 1 mix)",
+        "capacity": 16,
+        "notes": "Each home is licensed separately (65G-2.002(8)) [S9] with its own operator coverage; one full-time program director oversees both. The configuration an experienced operator would grow into. The model opens both homes together, paying two 24/7 staffing floors from month 1; opening the second home only after the first fills avoids most of that ramp-up cost.",
+        "revenue_lines": [
+          {
+            "name": "Residential Habilitation (standard) — Minimal, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCSC",
+            "rate": 3370.96,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S1",
+            "notes": "4 of 16 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Moderate, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU4",
+            "rate": 5058.37,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.5,
+            "source_id": "S1",
+            "notes": "8 of 16 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Residential Habilitation (standard) — Extensive 1, monthly (agency, non-geographical)",
+            "payer": "Florida Medicaid — iBudget Florida waiver (FFS, APD/AHCA)",
+            "code": "T2023UCU6",
+            "rate": 6804.27,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S1",
+            "notes": "4 of 16 residents. Monthly rate requires 24+ days in the home in the month; fewer days bill the daily rate [S1][S5]. Rate unchanged since 7/1/2024 [S4]; the proposed July 2026 table adds about 1.0% [S3]."
+          },
+          {
+            "name": "Room and board collected from resident (APD standard $583.42; APD pays any shortfall up to that amount)",
+            "payer": "Resident (SSI/SSDI) / APD room-and-board payment",
+            "code": "",
+            "rate": 583.42,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S26",
+            "notes": "Residential habilitation payments exclude room and board [S5]. Rule 65G-13.008 sets the APD room-and-board payment standard at $583.42/month: APD pays the full amount for residents under 22 and the shortfall for adults whose benefits net of the personal needs allowance fall below it [S26][S27]. An SSI-only resident has $994 − $178.92 PNA (18% of the federal benefit rate, Rule 65G-2.018) = $815.08 available [S43][S19]; whether a facility may charge more than $583.42 is not stated in rule, so the model uses $583.42."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct service providers (DSPs) — 24/7 floor: one staff on duty per home at all times",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_month",
+            "amount": 1460,
+            "cite": "65G-2.009(6)(b), F.A.C.",
+            "source_id": "S16",
+            "notes": "1460 h/month = one staff member 24 h × 30.42 days × 2 homes. Rule 65G-2.009(6)(b) requires at least one staff person present at all times while residents are in the facility [S16], so this cost is fixed from the first admission and does not fall with census during ramp-up. Wage $16.25 = Florida aide median [S31]; Florida minimum wage $15.00 [S35]."
+          },
+          {
+            "role": "Direct service providers (DSPs) — handbook hours above the 24/7 floor (per resident)",
+            "wage_hourly": 16.25,
+            "wage_source_id": "S31",
+            "basis": "hours_per_client_month",
+            "amount": 91.25,
+            "cite": "iBudget Handbook p. 2-46 (min. direct care staff hours per recipient per day)",
+            "source_id": "S5",
+            "notes": "Handbook minimum at full census = 16 residents × 182.5 h per resident-month (average of Minimal 4, Moderate 6, Extensive 1 8 h per recipient per 24-hour day × 30.42 for this mix) = 2,920.0 h/month [S5]. The 24/7 floor line already covers 1460 h, so this line carries the remaining 1,460.0 h spread over 16 beds = 91.25 h per billable resident-month. At full census, floor + this line = exactly the handbook minimum; during ramp-up the floor keeps at least one awake staff per home. Because vacancy reduces only this line, at 93% occupancy the model carries about 102 h/month more than the strict per-resident handbook minimum — a conservative simplification. Staff above the minimum when residents need more [S5][S15]."
+          },
+          {
+            "role": "Facility operator / program director (on site or on call at all times)",
+            "basis": "annual_salary",
+            "amount": 76050,
+            "wage_source_id": "S32",
+            "cite": "65G-2.0072(2)-(3), F.A.C.",
+            "notes": "1.0 FTE × Florida median social and community service manager wage $76,050 (BLS/O*NET 2025) [S32]. The operator needs 90 college credit hours in a related field or a high school diploma plus 3 years of disability experience, and a designated backup [S14]. If the owner fills this role unpaid, add this amount back to profit."
+          },
+          {
+            "role": "Billing, iConnect documentation and office coordinator",
+            "basis": "annual_salary",
+            "amount": 20865,
+            "wage_source_id": "S33",
+            "cite": "",
+            "notes": "0.5 FTE × Florida median medical secretary/administrative assistant wage $41,730 (BLS/O*NET 2025) [S33]. Handles Medicaid claims, service authorizations, census updates to APD within 5 days (65G-2.006(2)) and staff training files."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — licensed home(s)",
+            "monthly": 6946,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR, Orlando-area ZIP 32825: 3BR $2,580, 4BR $3,020 [S44]. Two 5BR homes at the 4BR SAFMR × 1.15 = $3,473 each (operator estimate factor) = $6,946. Rent is fixed whether beds are full or not.",
+            "source_id": "S44"
+          },
+          {
+            "item": "Utilities (electric/A-C, water, sewer, trash)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$450 per home × 2 — operator estimate, verify locally (Florida A/C load is high)."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$200 per home × 2 — operator estimate. Rule 65G-2.007(12),(21) requires interior/exterior upkeep and vermin control.",
+            "source_id": "S13"
+          },
+          {
+            "item": "Phone, internet and staff devices",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 per home × 2 — operator estimate. APD iConnect access needs internet (handbook App. J).",
+            "source_id": "S5"
+          },
+          {
+            "item": "Agency vehicle (payment, auto insurance, fuel)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 2; $800/month is an operator estimate. Drivers need a valid license and an annual driving-history check (65G-2.008(4)(b)); incidental transportation is included in the residential habilitation rate (handbook p. 2-49).",
+            "source_id": "S15"
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "$350 per home × 2 — operator estimate; no minimum limit was found in Ch. 65G-2 or the iBudget handbook. The license application budget sheet asks for liability insurance cost. Get quotes.",
+            "source_id": "S20"
+          },
+          {
+            "item": "Training, CPR/first aid, med-admin validation, Level 2 rescreening",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$150 per home × 2 — operator estimate. Required: Zero Tolerance before service, DCCC, classroom CPR/first aid and HIV/AIDS within 90 days (65G-2.008(7)); annual medication administration revalidation (65G-7.004).",
+            "source_id": "S15"
+          },
+          {
+            "item": "Annual fire inspection (local authority) — before each annual license renewal",
+            "monthly": 30,
+            "basis": "fixed",
+            "notes": "Rule 65G-2.010(2) requires an approved fire inspection before initial licensure and each renewal. $180/year per home × 2 is an operator estimate of local fees — verify locally.",
+            "source_id": "S17"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "Operator estimate. Each licensed facility must file an annual sworn statement of its costs of caring for APD-funded clients (s. 393.067(10)) [S8].",
+            "source_id": "S8"
+          },
+          {
+            "item": "Office supplies, postage, printing",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and support-coordinator outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through Waiver Support Coordinators and APD regional offices."
+          },
+          {
+            "item": "Florida LLC annual report ($138.75 ÷ 12)",
+            "monthly": 11.56,
+            "basis": "fixed",
+            "notes": "Sunbiz charges $138.75 for an LLC annual report, due Jan. 1–May 1; a $400 late fee applies after May 1 [S53]. The $50 in s. 605.0213, F.S. is only the statutory filing component [S42].",
+            "source_id": "S53"
+          },
+          {
+            "item": "Local business tax receipt(s), county/city",
+            "monthly": 30,
+            "basis": "fixed",
+            "source_id": "S54",
+            "notes": "Counties may levy a local business tax (s. 205.032, F.S.) and cities may too (s. 205.042) [S54]. $15 per home × 2 (about $180/year each) is an operator estimate — verify with your county tax collector and city."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 3,
+          "note": "Operator estimate; second home opens after the first is licensed. Opening homes one at a time needs less cash than the modeled deficit."
+        }
+      }
+    ],
+    "default_configuration": "gh8x2",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.083,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.05,
+      "notes": "Employer FICA 7.65% [S40]. Florida reemployment tax at the 2.7% new-employer rate and FUTA (0.6% net) apply only to the first $7,000 per worker [S38][S39][S41], about 0.7% of a full-time DSP's pay, so taxes ≈ 8.3% (more with part-time staff or turnover). Workers' compensation is mandatory with four or more employees (s. 440.02, F.S.) [S37]; 4% is an operator estimate — get a carrier quote for your class code. Benefits 5% is an operator estimate.",
+      "source_id": "S40"
+    },
+    "opex": [
+      {
+        "item": "Food and household supplies",
+        "monthly": 360,
+        "basis": "per_client",
+        "notes": "$300 food + $60 household supplies per resident — operator estimate. Rule 65G-2.007(13) requires three meals a day plus snacks [S13]; food is funded by the room-and-board charge.",
+        "source_id": "S13"
+      },
+      {
+        "item": "Records / eMAR / scheduling software",
+        "monthly": 40,
+        "basis": "per_client",
+        "notes": "Operator estimate — get vendor quotes. APD iConnect is APD's free data system; EVV applies to personal care and home health, not residential habilitation [S5].",
+        "source_id": "S5"
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Florida LLC Articles of Organization ($100) + registered agent designation ($25)",
+        "low": 125,
+        "high": 125,
+        "source_id": "S42"
+      },
+      {
+        "item": "Local business tax receipt(s), county/city — first year",
+        "low": 50,
+        "high": 600,
+        "source_id": "S54",
+        "notes": "Operator estimate — verify with the county tax collector and city (s. 205.032, s. 205.042, F.S.)."
+      },
+      {
+        "item": "APD facility license fee",
+        "low": 0,
+        "high": 0,
+        "source_id": "S20",
+        "notes": "No fee appears on Form 65G-2.002-A or APD's Group Homes page; confirm with your region."
+      },
+      {
+        "item": "APD waiver provider enrollment",
+        "low": 0,
+        "high": 0,
+        "source_id": "S21",
+        "notes": "APD: \"Becoming a Provider is a Free Process.\""
+      },
+      {
+        "item": "Florida Medicaid enrollment application fee",
+        "low": 0,
+        "high": 750,
+        "source_id": "S46",
+        "notes": "CY 2026 federal fee is $750 where it applies; confirm with AHCA."
+      },
+      {
+        "item": "Level 2 fingerprinting for owners, operator and initial staff",
+        "low": 200,
+        "high": 1500,
+        "source_id": "S48",
+        "notes": "Operator estimate — Livescan vendor fees vary."
+      },
+      {
+        "item": "Policies and procedures manual, CEMP, admission criteria",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Lease deposit + first month",
+        "low": 5160,
+        "high": 13892,
+        "source_id": "S44",
+        "notes": "Two months of modeled rent: one 3BR home at $2,580 (low) to two 5BR homes at $3,473 (high)."
+      },
+      {
+        "item": "Furniture, beds, appliances, housewares (~$2,000 per bed)",
+        "low": 6000,
+        "high": 32000,
+        "source_id": "S13",
+        "notes": "Operator estimate. Rule 65G-2.007(6) bedroom furnishing requirements."
+      },
+      {
+        "item": "Safety items: smoke/CO detectors, extinguishers, water-temperature control, locks",
+        "low": 800,
+        "high": 5000,
+        "source_id": "S13",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Initial fire inspection fee(s)",
+        "low": 0,
+        "high": 400,
+        "source_id": "S17",
+        "notes": "Operator estimate of local fees."
+      },
+      {
+        "item": "Pre-opening staff training (classroom CPR/first aid, medication administration)",
+        "low": 500,
+        "high": 4000,
+        "source_id": "S15",
+        "notes": "Operator estimate; Zero Tolerance and DCCC are free online."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 12000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Insurance down payments",
+        "low": 1500,
+        "high": 5000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Required financial-ability reserve (60 days of operating costs)",
+        "low": 45740,
+        "high": 162610,
+        "source_id": "S11",
+        "category": "required_reserve",
+        "notes": "65G-2.0032(5): APD may require proof of ability to operate up to 60 days without state or resident payments. Two months of modeled expenses (3-resident home low $22,869 × 2; two 8-bed homes high $81,304 × 2, including the 24/7 staffing floor)."
+      },
+      {
+        "item": "Working capital through ramp-up (advisory)",
+        "low": 20000,
+        "high": 150000,
+        "category": "working_capital",
+        "notes": "Operator estimate; replaced in totals by the modeled ramp-up deficit."
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "The old checklist required a Department of Health environmental health inspection under ch. 64E-12 (and a food permit under 64E-11). DOH states it does not conduct any inspections at APD-licensed homes [S28].",
+    "The old checklist said to \"submit required application fees\" that \"vary by home size/region.\" No APD license fee appears on Form 65G-2.002-A or APD's Group Homes page, and APD states waiver enrollment is free [S20][S21].",
+    "The old checklist cited Rule 65G-2.012 for group home standards and floor plans; it was transferred on 7/1/2014 and group home standards are now Rule 65G-2.0072, with physical standards in 65G-2.007 (both amended 3/26/2026) [S30].",
+    "The old checklist cited s. 429.435, F.S. (an assisted living statute) for fire safety; APD homes are inspected under ch. 69A-38 per Rule 65G-2.010(2), before the initial license and every renewal [S17].",
+    "The old checklist said to \"apply through APD iConnect\" for an iBudget provider number in 1–2 weeks. The real sequence is Clearinghouse screening → APD application → Provider Service Listing Letter → Medicaid Provider Enrollment Wizard → Welcome Letter → Medicaid Waiver Services Agreement; no processing time is published [S21].",
+    "The old checklist did not mention that homes of 7–14 residents must be in multifamily zoning and can be denied within 1,200 ft of another community residential home or 500 ft of single-family zoning, or APD's three-facilities-within-1,000-ft limit [S25][S18].",
+    "The old checklist did not cover the handbook's minimum direct-care staff hours by support level, the one-staff-present rule, or the operator qualifications (65G-2.0072) [S5][S16][S14].",
+    "The old checklist's \"APD Attachment 9 Facility Form\", \"Affidavit of Good Moral Character notarization\" and \"COI listing APD as certificate holder\" steps could not be verified in the current Form 65G-2.002-A or rules and were omitted."
+  ],
+  "verification_log": [
+    {
+      "issue": "Ramp-up staffing: DSP hours for gh6/gh8/gh8_bf/gh8x2 scaled purely with census (hours_per_client_month), so early ramp months fell below one staff on duty 24/7 per home (65G-2.009(6)(b)); year-1 losses understated.",
+      "change": "Restructured DSP staffing in those four configurations into (1) a fixed 24/7 floor of 730 h/month per home (hours_per_month; 1,460 for gh8x2) citing 65G-2.009(6)(b) [S16], and (2) a per-resident line carrying only the handbook hours above that floor at full census: gh6 71.03 h/resident-month (= (1,156.2 − 730) / capacity); gh8 91.25 h/resident-month (= (1,460.0 − 730) / capacity); gh8_bf 121.65 h/resident-month (= (1,703.2 − 730) / capacity); gh8x2 91.25 h/resident-month (= (2,920.0 − 1460) / capacity). Full-census totals equal the handbook minimum; ramp months never drop below one awake staff per home. No separate startup line was added because the ramp-up deficit now reflects the floor (adding one would double count). Documented in financial_narrative."
+    },
+    {
+      "issue": "Florida LLC annual report modeled at $50/year; Sunbiz charges $138.75 ($400 late fee after May 1).",
+      "change": "All six configurations: item renamed 'Florida LLC annual report ($138.75 ÷ 12)', monthly 4.17 → 11.56, source S53 (Sunbiz annual report page, fetched 2026-10-13). Updated checklist[2], checklist[70] and S42 title."
+    },
+    {
+      "issue": "s. 393.067(10) annual sworn cost statement described as optional ('may request/may require').",
+      "change": "Reworded to mandatory in checklist[70] and in all six accounting opex notes; checklist[70] priority raised to HIGH."
+    },
+    {
+      "issue": "No local business tax receipt cost.",
+      "change": "Added fixed opex 'Local business tax receipt(s), county/city' $15/month per home ($30 for gh8x2), operator estimate, source S54 (s. 205.032, F.S.); added startup line $50–$600."
+    },
+    {
+      "issue": "Residential habilitation centers (9+) presented as a license option, but s. 393.063(35) bars new RHC licenses after Oct. 1, 1989.",
+      "change": "Removed RHC as a new option: checklist[0] now states RHCs are closed to new licenses; service_model table row changed to 'Not available to new applicants'."
+    },
+    {
+      "issue": "Executive summary called APD licensure 'free', contradicting not_claimed (s. 393.067(3) refers to a license fee).",
+      "change": "Reworded: waiver enrollment is free [S21]; no license fee appears on the Dec. 2025 application [S20]; confirm with APD region."
+    },
+    {
+      "issue": "S34 (BLS oes_fl.htm) does not contain the RN/LPN medians.",
+      "change": "Re-sourced S34 to O*NET Florida local-wage pages for 29-1141 (RN $40.48) and 29-2061 (LPN $29.70), BLS 2025 data, both fetched and confirmed 2026-10-13; values unchanged."
+    },
+    {
+      "issue": "July 2026 ~1.0% figure comes from the Ref-20058 table, not the notice.",
+      "change": "Added S55 (Ref-20058) and cited it beside S3 in executive_summary and market_conditions; no number change."
+    },
+    {
+      "issue": "Required 60-day reserve was sized from pre-fix monthly expenses.",
+      "change": "Recomputed from post-fix expenses: low 45,700 → 45,740 (fc3), high 158,600 → 162,610 (gh8x2)."
+    },
+    {
+      "issue": "Narrative results, sensitivities, exec-summary bottom line, risks and recommendations reflected the pre-fix model.",
+      "change": "Recomputed with generators/model.py after all fixes and rewrote financial_narrative results (all six configs), added a ramp-up/year-1 paragraph (year-1 nets, deficits, cash needed, stagger-the-second-home note), redid every sensitivity (wages, +10% hours, R&B, +1% rates, owner-operator, South Florida 6-bed, 10-bed), added a 'strict per-resident minimum' sensitivity documenting the conservatism of the floor-plus-line structure, and updated executive_summary, risks and recommendations figures."
+    }
+  ]
+}
