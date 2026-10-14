@@ -280,15 +280,16 @@ def config_sheet(wb, d, cfg, cr, idx, sources):
         put(ws, f"G{r}", (item.get("notes") or "")[:250], italic=True, color="595959")
         put(ws, f"H{r}", src_label(sources, item.get("source_id")), italic=True, color="595959")
         if cat == "required_reserve":
-            reserve_rows.append(r)
+            reserve_rows.append(item["amount"])
         r += 1
     su_last = r - 1
     put(ws, f"A{r}", "Total one-time startup costs", bold=True)
     put(ws, f"B{r}", f"=SUM(B{su_first}:B{su_last})", fmt=USD, bold=True, fill=TOTAL)
     SU = f"$B${r}"
     r += 1
-    reserve_formula = "+".join(f"((C{x}+D{x})/2)" for x in reserve_rows) or "0"
-    put(ws, f"A{r}", "Required cash reserve (if the rules set one)")
+    # sized to this configuration the same way the model scales startup ranges
+    reserve_formula = f"{round(sum(reserve_rows), 2)}"
+    put(ws, f"A{r}", "Required cash reserve (if the rules set one), sized for this configuration")
     put(ws, f"B{r}", f"={reserve_formula}", fmt=USD)
     RES = f"$B${r}"
     r += 2
