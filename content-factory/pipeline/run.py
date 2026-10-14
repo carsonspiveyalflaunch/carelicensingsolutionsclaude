@@ -256,6 +256,8 @@ def gather(item: dict) -> dict:
         except BudgetExceeded:
             raise
         except Exception as e:  # keep going with other topics
+            if "credit balance" in str(e).lower():
+                raise BudgetExceeded("Anthropic API credit balance too low — add credits") from e
             log({"slug": item["slug"], "stage": f"A:{topic}", "error": str(e)[:300]})
     return out
 
