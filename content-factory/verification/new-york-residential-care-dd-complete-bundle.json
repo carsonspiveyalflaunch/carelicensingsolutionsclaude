@@ -1,0 +1,98 @@
+{
+  "bundle_slug": "new-york-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 28,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "revenue_lines.*[0].rate (all configs: ira4, ira6, ira8, ira6x2, ira8x2, ira8x3)",
+      "current": 208.22,
+      "correct": null,
+      "evidence": "The arithmetic is right ($76,000 / 365 = $208.22). But OPWDD's report says its Medicaid spend is about $10 billion, 'about $76,000 per person' across ALL services, for 135,000+ people, with 35% children and 7% seniors. That spend includes care coordination, day, community habilitation and respite. Certified residential alone is $5.9B. IRA residents are the highest-cost group, so the all-services average is not a valid proxy for a supervised-IRA per diem.",
+      "source_url": "https://opwdd.ny.gov/strategic-planning/2025-strategic-plan-annual-report-plain-language-document-0",
+      "fix": "Unverifiable from the cited source. Replace the benchmark with the published DOH/OPWDD supervised-IRA per diem for the target region, or with a written rate from OPWDD/DOH. All revenue lines and every profit result depend on this figure."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[2] and key_numbers[3] (2.7% increase) / startup_costs / entity plan (NY LLC)",
+      "current": "2.7% increase shown as a revenue assumption for a new NY LLC",
+      "correct": null,
+      "evidence": "OPWDD: 'A targeted Inflationary Increase of 2.7 percent for voluntary-operated providers of OPWDD services.' The rate figure is verified. The model never checks whether a for-profit LLC counts as a 'voluntary-operated' provider. In OPWDD usage, voluntary generally means not-for-profit.",
+      "source_url": "https://opwdd.ny.gov/news/2027-fiscal-year-enacted-budget-will-help-improve-lives-new-yorkers-developmental-disabilities",
+      "fix": "Do not apply the 2.7% to an LLC provider's rate. Mark it 'unverifiable: eligibility of proprietary providers'. Confirm in writing with OPWDD whether a for-profit LLC can be certified and receive the increase."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[14].rate; sources S59 note; staffing.ira4[2].amount; staffing.ira6[2].amount; staffing.ira8[2].amount; staffing.ira6x2[2].amount; staffing.ira8x2[2].amount; staffing.ira8x3[2].amount",
+      "current": "42260 (billing coordinator amounts 10565 / 21130 / 21130 / 31695 / 42260 / 52825)",
+      "correct": "41870 (amounts 10467.50 / 20935 / 20935 / 31402.50 / 41870 / 52337.50)",
+      "evidence": "BLS OOH, Nursing Assistants and Orderlies: '2025 Median Pay $41,870 per year, $20.13 per hour'.",
+      "source_url": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
+      "fix": "Change the nursing-assistant national median to 41870 and recompute the billing-coordinator salaries as FTE x 41870. A nursing-assistant wage is also a weak proxy for a Medicaid billing clerk. Replace it with a NY OEWS clerical wage."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[12].rate",
+      "current": 37340,
+      "correct": null,
+      "evidence": "The BLS OOH page shows the all-industry national median for home health and personal care aides as $35,800 (May 2025). The retrieved text did not include the residential IDD facilities industry figure.",
+      "source_url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "fix": "Unverifiable from the retrieved page. Confirm the industry-specific median in OEWS (NAICS 623210), or replace it with the verified all-industry figure of $35,800."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[10].effective, rates[10].rate, rates[11].rate, opex[0].monthly, startup_costs lease line",
+      "current": "FY2026 FMR (effective 2025-10-01 to 2026-09-30); 'FY2027 values not located'",
+      "correct": "FY2027 FMRs (effective 2026-10-01)",
+      "evidence": "The FY2026 schedule is verified (NY HMFA 0BR 2529, 1BR 2655, 2BR 2910, 3BR 3644, 4BR 3959). Today is 2026-10-14, so that schedule expired on 2026-09-30.",
+      "source_url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "fix": "Update all housing benchmarks to the HUD FY2027 FMR schedule, which is now in effect. Also use the county-specific FMR for any upstate site. The NY HMFA covers only the NYC metro counties."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex[0].monthly (4949) and startup_costs lease line (9898 to 53448)",
+      "current": "FMR 4BR ÷ 4 × 5 rooms = $4,949; 9 rooms = $8,908 per home",
+      "correct": "HUD method: 5BR = 4BR × 1.15 ≈ $4,553; 9BR ≈ $6,928",
+      "evidence": "HUD Note 1: 'FMRs for unit sizes larger than 4 BRs are calculated by adding 15% to the 4 BR FMR for each extra bedroom.'",
+      "source_url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "fix": "Either state that the linear per-room extrapolation is a deliberate conservative choice, or use the HUD +15%-per-bedroom rule. The linear method overstates rent by about $400 per month for a 5-room home and about $2,000 per month for a 9-room home."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[46] (S47) / rates[5].source_id / payroll_burden.source_id",
+      "current": "S47 cited as the '2026 wage base' (Form NYS-50)",
+      "correct": "Cite the NYS DOL rate page or a 2026 DOL rate release",
+      "evidence": "The cited NYS-50 page is titled '2025 Form NYS-50 ... (Revised December 2025)'. The retrieved text does not show a $17,600 base. The figures themselves ($17,600 wage base, 4.1% new-employer rate including the 0.075% RSF) are confirmed by the NYS DOL rate page and Bloomberg Tax. Some other sites still show $13,000.",
+      "source_url": "https://dol.ny.gov/unemployment-insurance-rate-information",
+      "fix": "Re-point the S47 citation to dol.ny.gov/unemployment-insurance-rate-information. Note that from 2027 the wage base is indexed to 16% of the state average annual wage, so budget a step-up in 2027."
+    },
+    {
+      "severity": "major",
+      "json_path": "staffing.ira4[0], staffing.ira6[0], staffing.ira8[0], staffing.ira6x2[0], staffing.ira8x2[0], staffing.ira8x3[0] (DSP hours)",
+      "current": "Zero staff for about 130 h/month on weekday day-program hours",
+      "correct": "Staff must be onsite or proximately available at all times any resident is present",
+      "evidence": "14 NYCRR 686.99: a supervised IRA 'has staff onsite or proximately available at all times when the persons are present'. The model schedules no staff when residents are away at day programs. It has no coverage for sick days, day-program closures, retirement-age residents or hospital returns, when residents are home on weekdays.",
+      "source_url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-686.99",
+      "fix": "Add coverage hours for weekday residents at home, or document that the day-program assumption holds for every resident. Also add a relief factor. The hours shown are post-coverage hours, not paid hours, so they exclude sick leave, training and overtime."
+    },
+    {
+      "severity": "major",
+      "json_path": "payroll_burden",
+      "current": "payroll_tax_pct 0.10, workers_comp_pct 0.06, benefits_pct 0.08",
+      "correct": "Add explicit lines for NY statutory disability (DBL) coverage, NY Paid Sick Leave and overtime",
+      "evidence": "The notes cover only FICA, UI, FUTA, workers' comp and a generic 'benefits 8%'. They do not mention NY DBL coverage, which employers must carry. They do not mention NY Paid Sick Leave (paid hours are required for most employers). They do not mention overtime premium for 24/7 residential shifts or paid mandatory annual training time (14 NYCRR 633.8). NY Paid Family Leave is employee-funded through a 0.432% payroll deduction, so it is not an employer cost.",
+      "source_url": "https://www.wcb.ny.gov/content/main/coverage-required-wc.jsp",
+      "fix": "Add a DBL premium line, a paid-sick-leave and training-time hours allowance, and an overtime or relief-staff factor. Confirm each rate with a NY payroll or insurance broker. This could not be fully checked from the cited sources."
+    },
+    {
+      "severity": "minor",
+      "json_path": "opex (accounting/legal line) and fees_and_timelines_in_checklist",
+      "current": "$800/month accounting, payroll and legal",
+      "correct": null,
+      "evidence": "No line item covers OPWDD/Medicaid annual fiscal reporting (Consolidated Fiscal Report) or the independent audit or review that may be required above revenue thresholds. This could not be verified from the cited sources.",
+      "source_url": "https://www.health.ny.gov/health_care/medicaid/rates/mental_hygiene/",
+      "fix": "Unverifiable. Confirm with OPWDD and DOH whether a CFR filing and CPA audit or review is required for a new provider. Budget it if so."
+    }
+  ]
+}

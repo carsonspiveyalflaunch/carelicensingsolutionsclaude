@@ -1,0 +1,2958 @@
+{
+  "bundle_slug": "new-york-residential-care-dd-complete-bundle",
+  "state": "New York",
+  "state_code": "NY",
+  "program": "Residential Care (DD)",
+  "state_program_name": "OPWDD-certified Individualized Residential Alternative (IRA), supervised or supportive community residence, with residential habilitation paid under the OPWDD HCBS waiver (Medicaid)",
+  "as_of": "2026-10",
+  "report_title": "New York OPWDD Individualized Residential Alternative (IRA) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "14 NYCRR 619.2 - Classes of Operating Certificates",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-619.2",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S2",
+      "title": "14 NYCRR 686.99 - Glossary (IRA definitions)",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-686.99",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S3",
+      "title": "14 NYCRR 686.16 - Certification of IRA facility class (Justia copy)",
+      "publisher": "Justia (reproduces NYCRR)",
+      "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-686/section-686-16",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S4",
+      "title": "14 NYCRR 686.16 - Certification of IRA facility class (LII copy)",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-686.16",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S5",
+      "title": "14 NYCRR 686.15 - Temporary use beds and vacant beds",
+      "publisher": "Justia (reproduces NYCRR)",
+      "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-686/section-686-15",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S6",
+      "title": "IRA Operating Certificate Application (OMR 248)",
+      "publisher": "NY Business Express (NYS)",
+      "url": "https://www.businessexpress.ny.gov/app/answers/cms/a_id/2383",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S7",
+      "title": "TPPN #9/94 - IRA Facilities (NYC DOB)",
+      "publisher": "NYC Department of Buildings",
+      "url": "https://www.nyc.gov/assets/buildings/ppn/tppn994.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S8",
+      "title": "OPWDD Responses to Questions - Supportive Residential Habilitation RFA",
+      "publisher": "NYS OPWDD",
+      "url": "https://ko.opwdd.ny.gov/system/files/documents/2022/05/opwdd-responses-to-questions-supportive-residential-habilitation-rfa-20220518.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S9",
+      "title": "Technical Bulletin TB 1203 - Care Facilities Guidance",
+      "publisher": "NYS Dept. of State, Division of Building Standards and Codes",
+      "url": "https://dos.ny.gov/system/files/documents/2024/05/tb-1203-care-facilities-guidance.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S10",
+      "title": "Prior Approval Review (PAR) - OMH",
+      "publisher": "NYS Office of Mental Health",
+      "url": "https://omh.ny.gov/omhweb/par/index.html",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S11",
+      "title": "10 NYCRR 86-10.2 - Definitions (residential habilitation)",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-86-10.2",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S12",
+      "title": "OPWDD HCBS Waiver Policy Section",
+      "publisher": "NYS Medicaid Program (eMedNY)",
+      "url": "https://www.emedny.org/providermanuals/hcbswaiver/pdfs/hcbs_policy_section.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S13",
+      "title": "Home and Community-Based Services Waiver (OPWDD)",
+      "publisher": "NYS Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/program/longterm/omrdd.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S14",
+      "title": "14 NYCRR 633.22 - Criminal history record checks",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-633.22",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S15",
+      "title": "Criminal Background Check (CBC)",
+      "publisher": "NYS Justice Center",
+      "url": "https://www.justicecenter.ny.gov/criminal-background-check-cbc",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S16",
+      "title": "PRAISE Institutional Manual (annual training, 14 NYCRR 633.8)",
+      "publisher": "NYS OPWDD",
+      "url": "https://zh.opwdd.ny.gov/system/files/documents/2026/03/praise_inst_manual-2026-03-04.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S17",
+      "title": "2022-ADM-05 Medication Administration Training Curriculum",
+      "publisher": "NYS OPWDD",
+      "url": "https://bn.opwdd.ny.gov/system/files/documents/2022/08/final-adm-medication-administration-and-3-tasks-curriculum-8_11_22.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S18",
+      "title": "14 NYCRR 633.27 - Training Flexibilities",
+      "publisher": "Justia (reproduces NYCRR)",
+      "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-633/section-633-27",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S19",
+      "title": "Request for Approval to Fill a Residential Opportunity",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/request-approval-fill-residential-opportunity",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Provider Directory - OPWDD",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/provider-directory",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "NYS OPWDD provider listing (general inquiry email)",
+      "publisher": "ThinkDIFFERENTLY (secondary listing)",
+      "url": "https://www.thinkdifferently.net/provider/new-york-state-office-for-people-with-developmental-disabilities-opwdd/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Provider Instructions - Deficiency Dispute (BPC Area Assignments)",
+      "publisher": "NYS OPWDD Division of Quality Improvement",
+      "url": "https://opwdd.ny.gov/system/files/documents/2024/04/provider-deficiency-dispute-process-revised-and-effective-4.1.2024.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "Proposed Rate Setting for Residential Habilitation in Community Residences",
+      "publisher": "NYS Department of Health (proposed regulations)",
+      "url": "https://regs.health.ny.gov/sites/default/files/proposed-regulations/Rate%20Setting%20for%20Residential%20Habilitation%20in%20Community%20Residences%20and%20for%20Non-State%20Providers%20of%20Day%20Habilitation.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "NY Medicaid Payment Rates for Residential Habilitation Services (A-02-13-01008)",
+      "publisher": "HHS Office of Inspector General",
+      "url": "https://oig.hhs.gov/oas/reports/region2/21301008.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Medicaid Rate Reform, Bureau of Mental Hygiene Services Rate Setting",
+      "publisher": "NYS Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/rates/dfrs/bmhcr.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "OPWDD Services Rates (fee schedules)",
+      "publisher": "NYS Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/rates/mental_hygiene/",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "10 NYCRR 86-10.3 - Rates for residential habilitation services",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-86-10.3",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S28",
+      "title": "OMIG Audit Protocol - OPWDD IRA Residential Habilitation",
+      "publisher": "NYS Office of the Medicaid Inspector General",
+      "url": "https://omig.ny.gov/media/54136/download",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S29",
+      "title": "Administrative Memorandum #2014-01 (supervised IRA retainer days)",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/system/files/documents/2020/01/admin_memo_2014-01.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S30",
+      "title": "Administrative Memorandum #2002-01 (IRA Res Hab documentation)",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/system/files/documents/2020/01/ira-res-hab-adm.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S31",
+      "title": "OPWDD Rate Rationalization or Reform: Update for Providers",
+      "publisher": "Forvis Mazars",
+      "url": "https://www.forvismazars.us/forsights/2026/10/opwdd-rate-rationalization-or-reform-update-for-providers",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S32",
+      "title": "Personal Allowance - Applicable Regulations and Law (14 NYCRR 635.9, SSL 131-o)",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/providers/personal-allowance/applicable-regulations-and-law",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S33",
+      "title": "Understanding Supplemental Security Income (SSI) Benefits",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/ssi/text-benefits-ussi.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S34",
+      "title": "Glossary of Personal Allowance Terms",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/providers/personal-allowance/glossary-personal-allowance-terms",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S35",
+      "title": "Provider Enrollment Application Fee",
+      "publisher": "eMedNY (NYS DOH)",
+      "url": "https://www.emedny.org/info/providerenrollment/ffs.aspx",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S36",
+      "title": "Provider Enrollment - OPWDD Waiver Provider",
+      "publisher": "eMedNY (NYS DOH)",
+      "url": "https://www.emedny.org/info/ProviderEnrollment/omrdd/index.aspx",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S37",
+      "title": "Provider Enrollment - OPWDD Community Residence",
+      "publisher": "eMedNY (NYS DOH)",
+      "url": "https://www.emedny.org/info/ProviderEnrollment/comm_residences/index.aspx",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S38",
+      "title": "Electronic Visit Verification resources",
+      "publisher": "Cerebral Palsy Associations of NYS",
+      "url": "https://cpstate.org/evv_resources/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S39",
+      "title": "EVV Program Guidelines and Requirements",
+      "publisher": "NYS Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/redesign/evv/repository/docs/evv_prog_guidelines.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S40",
+      "title": "NYS DOH OHIP Electronic Visit Verification (annual attestation)",
+      "publisher": "NYS DOH (copy hosted by STIC-CIL)",
+      "url": "https://www.stic-cil.org/web/content/2112?unique=3b605f6fe601f5e10ec2e13aaaef2ebe3755ae2f&download=true",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S41",
+      "title": "Long-term care costs in New York (citing CareScout/Genworth 2025)",
+      "publisher": "The Retirement Atlas",
+      "url": "https://theretirementatlas.com/answers/long-term-care-costs-in-retirement/new-york",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S42",
+      "title": "Assisted Living Cost in New York 2026 (Genworth 2024 median)",
+      "publisher": "ParentCareCalc",
+      "url": "https://parentcarecalc.com/new-york/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S43",
+      "title": "Long-Term Care Costs Increase in New York (Genworth press release)",
+      "publisher": "Genworth Financial",
+      "url": "https://investor.genworth.com/news-events/press-releases/detail/1019/long-term-care-costs-increase-in-new-york-on-par-with",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S44",
+      "title": "Long-Term Care Costs and Insurance Premiums by Age (2025)",
+      "publisher": "Plootus (citing CareScout/Genworth)",
+      "url": "https://www.plootus.com/long-term-care-costs",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S45",
+      "title": "Governor Hochul Reminds New Yorkers of Minimum Wage Increase on January 1",
+      "publisher": "Office of the Governor of New York",
+      "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-reminds-new-yorkers-minimum-wage-increase-january-1",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S46",
+      "title": "NYS minimum wage set to increase in the new year",
+      "publisher": "NEWS10 (WNYT)",
+      "url": "https://www.news10.com/news/albany-county/nys-minimum-wage-set-to-increase-in-the-new-year/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S47",
+      "title": "Form NYS-50, Employer's Guide to Unemployment Insurance (2026 wage base)",
+      "publisher": "NYS Dept. of Taxation and Finance",
+      "url": "https://www.tax.ny.gov/forms/publications/wt/nys50.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S48",
+      "title": "UI Liability and Determination Section (IA 318.13)",
+      "publisher": "NYS Department of Labor",
+      "url": "https://forms.labor.ny.gov/UI/IA318.13.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S49",
+      "title": "How Much Does an LLC Cost in New York?",
+      "publisher": "LegalZoom",
+      "url": "https://www.legalzoom.com/articles/how-much-is-an-llc-in-new-york",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S50",
+      "title": "Articles of Organization - Professional Service Domestic LLCs (publication deadline)",
+      "publisher": "NY Department of State, Division of Corporations",
+      "url": "https://dos.ny.gov/articles-organization-professional-service-domestic-limited-liability-companies-0",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S51",
+      "title": "Certificate of Publication for Domestic LLC",
+      "publisher": "NY Department of State",
+      "url": "https://dos.ny.gov/certificate-publication-domestic-limited-liability-company-0",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S52",
+      "title": "New York LLC Formation: Fees, Publication Requirement",
+      "publisher": "LLCAttorney.com",
+      "url": "https://llcattorney.com/states/ny/llc-formation-new-york",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S53",
+      "title": "What are New York's LLC filing fees?",
+      "publisher": "Discern",
+      "url": "https://www.discern.com/resources/new-york-llc-filing-fee",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S54",
+      "title": "Is Workers' Compensation Coverage Required?",
+      "publisher": "NY Workers' Compensation Board",
+      "url": "https://www.wcb.ny.gov/content/main/coverage-required-wc.jsp",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S55",
+      "title": "New York Workers Comp Insurance Guide",
+      "publisher": "Aegivra",
+      "url": "https://aegivra.com/guides/new-york-workers-compensation-insurance",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S56",
+      "title": "New York's workers' compensation insurance requirements",
+      "publisher": "OnPay",
+      "url": "https://onpay.com/insights/workers-comp-requirements-by-state/new-york/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S57",
+      "title": "FY 2026 Schedule of Fair Market Rents",
+      "publisher": "U.S. Dept. of Housing and Urban Development",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2026/FY2026_FMR_Schedule.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S58",
+      "title": "Home Health and Personal Care Aides: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S59",
+      "title": "Nursing Assistants and Orderlies: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S60",
+      "title": "Registered Nurses: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S61",
+      "title": "Medical and Health Services Managers: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/management/medical-and-health-services-managers.htm",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S62",
+      "title": "Registered nurse salary in New York (2026), OEWS May 2025",
+      "publisher": "Rippling",
+      "url": "https://www.rippling.com/blog/registered-nurse-salary-new-york",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S63",
+      "title": "Average Salary in New York (2025), OEWS May 2025",
+      "publisher": "StateSalary.com",
+      "url": "https://statesalary.com/states/new-york/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S64",
+      "title": "Medical and Health Services Manager Salary by State (2025)",
+      "publisher": "StateSalary.com",
+      "url": "https://statesalary.com/jobs/medical-health-services-manager/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S65",
+      "title": "Home Health Aide Salary and Job Outlook (2026)",
+      "publisher": "NueCareer",
+      "url": "https://nuecareer.com/careers/home-health-aide",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S66",
+      "title": "2025 Annual Report Plain Language",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/strategic-planning/2025-strategic-plan-annual-report-plain-language-document-0",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S67",
+      "title": "People Receiving OPWDD Medicaid Services",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/data/people-receiving-opwdd-medicaid-services",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S68",
+      "title": "2027 Fiscal Year Enacted Budget Will Help Improve the Lives of New Yorkers with Developmental Disabilities",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/news/2027-fiscal-year-enacted-budget-will-help-improve-lives-new-yorkers-developmental-disabilities",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S69",
+      "title": "What New York's FY2027 Budget Means for I/DD Agencies",
+      "publisher": "Hudson Pharmacy (secondary summary)",
+      "url": "https://www.hrltcp.org/what-new-yorks-fy2027-budget-means-for-i-dd-agencies-opwdd-funding-rate-increases-and-what-to-know/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S70",
+      "title": "ADM 24-ADM-03 Certified Residential Opportunities (CRO)",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/regulations-guidance/adm-2024-03-certified-residential-opportunities-cro-0",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S71",
+      "title": "Housing",
+      "publisher": "NYS OPWDD",
+      "url": "https://opwdd.ny.gov/providers/housing",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S72",
+      "title": "New Priority Categories for Housing Opportunities Announced",
+      "publisher": "Parent Network of WNY (advocacy)",
+      "url": "https://parentnetworkwny.org/new-priority-categories-housing-opportunities-announced/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S73",
+      "title": "Individualized Residential Alternatives (IRA) directory listing",
+      "publisher": "211 Central New York",
+      "url": "https://www.211cny.com/healthyhomes/detail.php?id=11411897",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S74",
+      "title": "Report to the Legislature: Residential Request List (Feb 2016)",
+      "publisher": "NYS OPWDD (hosted on nyhrc.org)",
+      "url": "https://www.nyhrc.org/wp-content/uploads/2025/08/report_to_the_legislature___residential_request_list_0.pdf",
+      "type": "official",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S75",
+      "title": "New York Medicaid Waivers and Long-Term Care Services",
+      "publisher": "Disability Resources",
+      "url": "https://www.disabilityresources.org/new-york-medicaid-waivers.html",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S76",
+      "title": "When a Member needs a new residence",
+      "publisher": "Advance Care Alliance New York",
+      "url": "https://acany.org/when-a-member-needs-a-new-residence/",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S77",
+      "title": "14 NYCRR 636-3.5 - Responsibilities of Care Management Providers",
+      "publisher": "Cornell LII (reproduces NYCRR)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-636-3.5",
+      "type": "secondary",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "S78",
+      "title": "Provider Enrollment (CY2026 institutional fee $750)",
+      "publisher": "Colorado Dept. of Health Care Policy and Financing",
+      "url": "https://hcpf.colorado.gov/provider-enrollment",
+      "type": "official",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "IRA size and building-code tiers",
+      "value": "OPWDD defines an IRA as a certified home for 1 to 14 people providing room, board and individualized protective oversight. 8 or fewer persons use the 635-7.1 building-code tier; 9 or more must meet supervised-CR physical plant and Life Safety Code requirements.",
+      "source_id": "S34",
+      "source_ids": [
+        "S34",
+        "S3"
+      ],
+      "as_of": "Current OPWDD page; NYCRR current through Dec 2024"
+    },
+    {
+      "metric": "OPWDD certified residential Medicaid spending (largest service category)",
+      "value": "$5.9 billion",
+      "source_id": "S66",
+      "as_of": "2024"
+    },
+    {
+      "metric": "People supported by OPWDD / average annual cost per person (all services)",
+      "value": "Over 135,000 people; about $10 billion total, about $76,000 per person per year",
+      "source_id": "S66",
+      "as_of": "2024"
+    },
+    {
+      "metric": "OPWDD State spending, enacted FY2027 budget",
+      "value": "Over $7.9 billion (nearly $380 million in new resources)",
+      "source_id": "S68",
+      "as_of": "2026-06-09"
+    },
+    {
+      "metric": "Enacted FY2027 targeted inflationary increase for voluntary-operated OPWDD providers",
+      "value": "2.7% for voluntary-operated OPWDD providers (Executive Budget proposed 1.7% per a secondary analysis). Unverified: whether a for-profit LLC is eligible, and whether it applies to IRA per-diems. The model does not apply it.",
+      "source_id": "S68",
+      "source_ids": [
+        "S68",
+        "S69"
+      ],
+      "as_of": "2026-06-09"
+    },
+    {
+      "metric": "IRA operating certificate processing time and term",
+      "value": "90 to 120 days; triennial, maximum 3 years",
+      "source_id": "S6",
+      "as_of": "Undated portal listing"
+    },
+    {
+      "metric": "Supervised IRA retainer-day cap",
+      "value": "14 retainer days per person per rate year",
+      "source_id": "S29",
+      "as_of": "ADM #2014-01 (confirm still in effect)"
+    },
+    {
+      "metric": "NY Medicaid provider enrollment application fee",
+      "value": "$750 (waived if already enrolled in Medicare or another state's Medicaid; hardship waiver available)",
+      "source_id": "S35",
+      "as_of": "CY2026"
+    },
+    {
+      "metric": "NY minimum wage 2026 (rest of state / NYC, Long Island, Westchester)",
+      "value": "$16.00 / $17.00 per hour",
+      "source_id": "S45",
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "SSI federal benefit rate, individual (resident income base for room and board)",
+      "value": "$994 per month ($1,491 couple)",
+      "source_id": "S33",
+      "as_of": "2026-01-01"
+    },
+    {
+      "metric": "NY unemployment insurance: 2026 taxable wage base / new-employer rate",
+      "value": "$17,600 per employee / 4.1% total (includes 0.075% Re-employment Service Fund)",
+      "source_id": "S47",
+      "source_ids": [
+        "S47",
+        "S48"
+      ],
+      "as_of": "2026"
+    },
+    {
+      "metric": "OPWDD participants aged 65+ (share of people / share of Medicaid payments)",
+      "value": "9,140 people; 7% of individuals, 15% of payments",
+      "source_id": "S67",
+      "as_of": "2022"
+    }
+  ],
+  "not_claimed": [
+    "Current OPWDD per-diem dollar rates, rate codes and effective dates for Supervised and Supportive IRA residential habilitation. The DOH rate spreadsheets were not opened. Residential habilitation uses one provider-wide rate per provider [S27], so a new provider cannot assume a published statewide rate.",
+    "Whether the DOH OPWDD fee schedule effective April 1, 2026 is in effect or still pending Division of the Budget approval. DOH page versions conflict [S26].",
+    "Whether the proposed OPWDD rate rule is adopted. It would remove the vacancy-based occupancy adjustment and limit payment while residents are absent [S23]. The model must not assume vacancy protection.",
+    "Whether OPWDD residential services are paid fee-for-service or carved into Medicaid managed care. DOH lists Medicaid FFS rates for OPWDD [S25], but the carve-in question was not verified.",
+    "IRA certification or application fees and the date each is paid. No fee schedule for OMR 248 was found [S6].",
+    "The full ordered application steps (pre-application consult, site review, inspection, certificate issuance). Only the 90-120 day processing range, the triennial term and the OMR 248 form were confirmed [S6]. Denials depend on the inspection outcome.",
+    "That Prior Approval Review (PAR) applies to IRAs. PAR is the NYS Office of Mental Health certification process [S10], not a confirmed OPWDD IRA step. New OPWDD capacity is described as needing CON, Padavan law and Prior Property Approval processes [S8].",
+    "IRA staffing ratios, awake-overnight rules, administrator or manager qualifications and training hours, insurance or bond minimums, and survey frequency. None were found in the sources reviewed. Staffing in the model must be labeled an operator estimate.",
+    "The current regulatory maximum IRA capacity. OPWDD describes IRAs as 1 to 14 people [S34], but only the 8-or-fewer and 9-or-more tiers were confirmed in regulation [S3].",
+    "Whether the 1994 NYC Department of Buildings notice (license before final Certificate of Occupancy) is still in effect [S7].",
+    "Counts of OPWDD IRAs, certified residences, provider agencies, market shares, competitor names and IRA occupancy or vacancy rates. No official list or data was retrieved.",
+    "A current count of people waiting for certified residential placement. OPWDD does not publish one in the sources reviewed [S75]. The 2016 Residential Request List figure (over 11,000 people) is historical only [S74]. OPWDD manages the CRO list and does not share it with care managers or CCOs [S76].",
+    "The number of residents aged 65+ in IRAs specifically. Only system-wide 65+ counts were verified [S67].",
+    "The current New York personal allowance amount under SSL 131-o. Only the 2017 statutory figure of $163 per month was retrieved and it is superseded by indexing [S32]. The NY state SSI supplement for residents was not verified.",
+    "Whether Supervised IRA residential habilitation is subject to EVV. OPWDD said remote services do not require EVV [S38], but IRA applicability and billing-code coverage were not confirmed.",
+    "Current supportive IRA billing minimums. Only the 2002 memo (11 enrolled days per month) was retrieved and it may be superseded [S30].",
+    "The timing of any move from DDP-2 to the Coordinated Assessment System (CAS) for acuity-based rates. It was only discussed in industry commentary [S31].",
+    "A New York private-pay price for IRA or supervised group residences. Genworth/CareScout figures measure assisted living, not OPWDD residences [S41][S43]. The 2025 New York median ($85,320 per year) came only from a secondary site, and a 2024 figure of $6,300 per month conflicts with it [S42].",
+    "Official New York state BLS OEWS wages for aides, nursing assistants, LPNs, RNs and managers. New York figures come from secondary aggregators and BLS national data. No New York cook wage was located.",
+    "Workers' compensation premium or manual rates, and general, professional, auto and umbrella liability minimums for an OPWDD IRA provider.",
+    "Whether any local minimum wage exceeds the state regional minimum wage. Secondary sources say none do, which was not confirmed from an official source.",
+    "The official DOS fee schedule for the LLC Articles of Organization ($200), biennial statement ($9) and annual LLC filing fee (Form IT-204-LL). These figures come from secondary sources, and the publication cost of about $600 to $2,000 varies by county [S49][S52][S53].",
+    "Commercial or group-home rent surveys for New York. HUD Fair Market Rents are residential benchmarks only, FY2027 values (effective October 1, 2026) were not located, and they cover specific areas [S57].",
+    "Whether 2026 Medicaid revalidation changes apply to OPWDD residences, and the full Prospective Service Provider (PSP) enrollment steps and timelines.",
+    "Exact quote wording for sources retrieved only through search excerpts, notably 14 NYCRR 686.16, 633.8 and the NY Business Express page. Confirm wording on each URL before publication.",
+    "Whether the $76,000 all-services average annual cost per person is a valid proxy for a supervised-IRA per diem. OPWDD's figure covers care coordination, day, community habilitation, respite and residential services. IRA residents are likely a higher-cost group. The $208.22 benchmark is therefore unvalidated and must be replaced with the published DOH/OPWDD rate for the region or a written OPWDD/DOH rate [S66].",
+    "Whether a for-profit LLC can be certified as an OPWDD provider or receive the 2.7% targeted inflationary increase, which OPWDD describes as for 'voluntary-operated providers' (generally not-for-profit in OPWDD usage) [S68]. The model does not apply it.",
+    "The BLS median wage for home health and personal care aides in residential IDD facilities (NAICS 623210). The earlier $37,340 figure was not verified. Only the all-industry national median of $35,800 (May 2025) was confirmed [S58].",
+    "The cost of NY statutory disability (DBL) coverage, NY Paid Sick Leave, paid mandatory training time under 14 NYCRR 633.8 and overtime or relief-staff premiums for 24/7 residential shifts. They are not separately modeled and are covered only by the 8% benefits allowance.",
+    "Whether a new OPWDD provider must file the annual Consolidated Fiscal Report or obtain an independent audit or review, and what that would cost. Neither is separately budgeted.",
+    "Whether every resident is away at a day program during weekday hours the model leaves unstaffed (about 130 h/month per home). 14 NYCRR 686.99 requires staff onsite or proximately available whenever any resident is present. The modeled DSP hours are coverage hours and exclude relief for sick days, program closures and hospital returns."
+  ],
+  "regulators": [
+    {
+      "name": "NYS Office for People With Developmental Disabilities (OPWDD)",
+      "role": "Certifies IRAs and community residences (operating certificates), approves placements, approves waiver providers jointly with DOH, and sets service and documentation requirements",
+      "url": "https://opwdd.ny.gov/provider-directory",
+      "phone": "(866) 946-9733",
+      "email": "info@opwdd.ny.gov",
+      "source_id": "S20",
+      "notes": "44 Holland Avenue, Albany, NY 12229-0001. Email is from a secondary listing [S21]."
+    },
+    {
+      "name": "OPWDD Division of Quality Improvement (regional certification area offices)",
+      "role": "Certification and survey area offices. Each publishes its own contact details; the Schenectady North Area office is listed.",
+      "url": "https://opwdd.ny.gov/system/files/documents/2024/04/provider-deficiency-dispute-process-revised-and-effective-4.1.2024.pdf",
+      "phone": "(518) 388-1441",
+      "email": "",
+      "source_id": "S22"
+    },
+    {
+      "name": "OPWDD Developmental Disabilities Regional Office (DDRO) Director",
+      "role": "Approves every placement into a certified residence before admission",
+      "url": "https://opwdd.ny.gov/request-approval-fill-residential-opportunity",
+      "phone": "",
+      "email": "",
+      "source_id": "S19"
+    },
+    {
+      "name": "NYS Department of Health (DOH)",
+      "role": "Co-administers the OPWDD HCBS waiver; publishes OPWDD Medicaid fee schedules and rate-setting rules",
+      "url": "https://www.health.ny.gov/health_care/medicaid/rates/mental_hygiene/",
+      "phone": "",
+      "email": "",
+      "source_id": "S26"
+    },
+    {
+      "name": "eMedNY (NYS Medicaid fiscal agent portal)",
+      "role": "Medicaid provider enrollment, including the OPWDD waiver provider and community residence enrollment categories",
+      "url": "https://www.emedny.org/info/ProviderEnrollment/omrdd/index.aspx",
+      "phone": "",
+      "email": "",
+      "source_id": "S36"
+    },
+    {
+      "name": "NYS Justice Center for the Protection of People with Special Needs",
+      "role": "Criminal background check (CBC) program for OPWDD provider hiring, including MHL 16.34 checks",
+      "url": "https://www.justicecenter.ny.gov/criminal-background-check-cbc",
+      "phone": "",
+      "email": "",
+      "source_id": "S15"
+    },
+    {
+      "name": "NYS Office of the Medicaid Inspector General (OMIG)",
+      "role": "Audits IRA residential habilitation claims for documentation and rate-code compliance",
+      "url": "https://omig.ny.gov/media/54136/download",
+      "phone": "",
+      "email": "",
+      "source_id": "S28"
+    },
+    {
+      "name": "NYS Department of State, Division of Building Standards and Codes",
+      "role": "Uniform Code guidance for care facilities, including OPWDD-licensed IRAs",
+      "url": "https://dos.ny.gov/system/files/documents/2024/05/tb-1203-care-facilities-guidance.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S9"
+    },
+    {
+      "name": "NYC Department of Buildings",
+      "role": "Certificate of Occupancy for IRA sites in New York City (1994 notice; current status unverified)",
+      "url": "https://www.nyc.gov/assets/buildings/ppn/tppn994.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S7"
+    },
+    {
+      "name": "NYS Department of State, Division of Corporations",
+      "role": "LLC formation and Certificate of Publication",
+      "url": "https://dos.ny.gov/certificate-publication-domestic-limited-liability-company-0",
+      "phone": "",
+      "email": "",
+      "source_id": "S51"
+    },
+    {
+      "name": "NYS Department of Labor (Unemployment Insurance Division)",
+      "role": "Employer UI registration and contribution rate",
+      "url": "https://forms.labor.ny.gov/UI/IA318.13.pdf",
+      "phone": "",
+      "email": "",
+      "source_id": "S48"
+    },
+    {
+      "name": "NYS Workers' Compensation Board",
+      "role": "Workers' compensation coverage requirement and enforcement",
+      "url": "https://www.wcb.ny.gov/content/main/coverage-required-wc.jsp",
+      "phone": "",
+      "email": "",
+      "source_id": "S54"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "14 NYCRR 619.2",
+      "title": "Classes of operating certificates (community residences: supervised CR, supportive CR, IRA)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-619.2",
+      "source_id": "S1"
+    },
+    {
+      "cite": "14 NYCRR 686.99",
+      "title": "Part 686 Glossary: IRA, supervised IRA and supportive IRA definitions",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-686.99",
+      "source_id": "S2"
+    },
+    {
+      "cite": "14 NYCRR 686.16",
+      "title": "Certification of the facility class known as individualized residential alternative (capacity tiers, evacuation plan, protective oversight plan)",
+      "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-686/section-686-16",
+      "source_id": "S3"
+    },
+    {
+      "cite": "14 NYCRR 686.15",
+      "title": "Utilization of temporary use beds and vacant beds (IRAs of four or more beds)",
+      "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-686/section-686-15",
+      "source_id": "S5"
+    },
+    {
+      "cite": "14 NYCRR 635-7.1, 635-7.2, 635-7.4",
+      "title": "Physical plant, Life Safety Code and environmental requirements referenced by Section 686.16; Uniform Code enforcement for IRAs via 635-7.4(a)(3)",
+      "url": "https://dos.ny.gov/system/files/documents/2024/05/tb-1203-care-facilities-guidance.pdf",
+      "source_id": "S9"
+    },
+    {
+      "cite": "14 NYCRR Parts 620, 624, 633, 635, 636, 671, 686",
+      "title": "Authority listed for the IRA Operating Certificate Application (OMR 248)",
+      "url": "https://www.businessexpress.ny.gov/app/answers/cms/a_id/2383",
+      "source_id": "S6"
+    },
+    {
+      "cite": "14 NYCRR 633.22",
+      "title": "Criminal history record checks (residential facilities including IRAs)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-633.22",
+      "source_id": "S14"
+    },
+    {
+      "cite": "Mental Hygiene Law 16.34",
+      "title": "Criminal history checks for prospective OPWDD employees and volunteers, submitted through OPWDD",
+      "url": "https://www.justicecenter.ny.gov/criminal-background-check-cbc",
+      "source_id": "S15"
+    },
+    {
+      "cite": "14 NYCRR 633.8",
+      "title": "Annual training of employees, volunteers and family care providers",
+      "url": "https://zh.opwdd.ny.gov/system/files/documents/2026/03/praise_inst_manual-2026-03-04.pdf",
+      "source_id": "S16"
+    },
+    {
+      "cite": "14 NYCRR 633.17",
+      "title": "Medication administration; OPWDD-approved training for staff who administer medications",
+      "url": "https://bn.opwdd.ny.gov/system/files/documents/2022/08/final-adm-medication-administration-and-3-tasks-curriculum-8_11_22.pdf",
+      "source_id": "S17"
+    },
+    {
+      "cite": "14 NYCRR 633.27",
+      "title": "Training flexibilities during extreme staffing shortages",
+      "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-633/section-633-27",
+      "source_id": "S18"
+    },
+    {
+      "cite": "14 NYCRR Subpart 636-3",
+      "title": "Admission to and services in residential facilities certified or operated by OPWDD (effective 3/14/2023); 24-ADM-03 Certified Residential Opportunities",
+      "url": "https://opwdd.ny.gov/regulations-guidance/adm-2024-03-certified-residential-opportunities-cro-0",
+      "source_id": "S70"
+    },
+    {
+      "cite": "14 NYCRR 636-3.5",
+      "title": "Responsibilities of care management providers (confirm OPWDD eligibility and residential request before referral)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-636-3.5",
+      "source_id": "S77"
+    },
+    {
+      "cite": "14 NYCRR Subpart 635-10 and Part 671; 10 NYCRR 86-10.2",
+      "title": "Residential habilitation in a community residence under the OPWDD HCBS waiver (definitions)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-86-10.2",
+      "source_id": "S11"
+    },
+    {
+      "cite": "10 NYCRR 86-10.3",
+      "title": "Rates for residential habilitation services (one provider-wide rate per provider)",
+      "url": "https://www.law.cornell.edu/regulations/new-york/10-NYCRR-86-10.3",
+      "source_id": "S27"
+    },
+    {
+      "cite": "OPWDD ADM #2014-01",
+      "title": "Supervised IRA residential habilitation: daily unit, rate codes, 14 retainer days per person per rate year",
+      "url": "https://opwdd.ny.gov/system/files/documents/2020/01/admin_memo_2014-01.pdf",
+      "source_id": "S29"
+    },
+    {
+      "cite": "OPWDD ADM #2002-01",
+      "title": "IRA Residential Habilitation Service Documentation (dated; supportive IRA 11-day minimum, status unverified)",
+      "url": "https://opwdd.ny.gov/system/files/documents/2020/01/ira-res-hab-adm.pdf",
+      "source_id": "S30"
+    },
+    {
+      "cite": "14 NYCRR 635.9; SSL 131-o",
+      "title": "Personal allowance and room and board cost responsibilities for residents",
+      "url": "https://opwdd.ny.gov/providers/personal-allowance/applicable-regulations-and-law",
+      "source_id": "S32"
+    },
+    {
+      "cite": "Proposed rule (not confirmed adopted)",
+      "title": "Rate Setting for Residential Habilitation in Community Residences and Non-State Day Habilitation (occupancy adjustment)",
+      "url": "https://regs.health.ny.gov/sites/default/files/proposed-regulations/Rate%20Setting%20for%20Residential%20Habilitation%20in%20Community%20Residences%20and%20for%20Non-State%20Providers%20of%20Day%20Habilitation.pdf",
+      "source_id": "S23"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "SSI (resident income base)",
+      "code": "",
+      "service": "SSI federal benefit rate, individual",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Couple rate is $1,491. This is resident income, not provider revenue. The NY personal allowance amount and the state SSI supplement were not verified.",
+      "source_id": "S33"
+    },
+    {
+      "payer": "NY Medicaid (eMedNY)",
+      "code": "Category of service 0269 (community residence enrollment)",
+      "service": "Medicaid provider enrollment application fee",
+      "rate": 750,
+      "unit": "per application",
+      "effective": "CY2026",
+      "notes": "Waived if enrolled in Medicare or another state's Medicaid; hardship waiver available. Waiver enrollment needs an IRS SS-4 assignment letter (a W-9 is rejected) and a Provider Compliance Program certification [S36][S37]. The $750 CY2026 federal institutional fee is corroborated by [S78].",
+      "source_id": "S35"
+    },
+    {
+      "payer": "OPWDD / Medicaid HCBS waiver",
+      "code": "",
+      "service": "Targeted inflationary increase, voluntary-operated OPWDD providers (enacted FY2027 budget)",
+      "rate": 2.7,
+      "unit": "percent",
+      "effective": "FY2027 enacted budget (announced 2026-06-09)",
+      "notes": "A percentage adjustment, not a per-diem. The effective date and whether it applies to IRA residential habilitation rates were not verified. Executive proposal was 1.7% per a secondary summary [S69]. The same budget includes a 5% rate increase for Family Care.",
+      "source_id": "S68"
+    },
+    {
+      "payer": "Cost benchmark (not revenue)",
+      "code": "",
+      "service": "NY minimum wage, rest of state",
+      "rate": 16.0,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "Floor for direct support wages outside NYC, Long Island and Westchester. Indexed to inflation from 2027 per a secondary source [S46].",
+      "source_id": "S45"
+    },
+    {
+      "payer": "Cost benchmark (not revenue)",
+      "code": "",
+      "service": "NY minimum wage, NYC, Long Island and Westchester",
+      "rate": 17.0,
+      "unit": "per hour",
+      "effective": "2026-01-01",
+      "notes": "Floor for downstate sites. Wage assumptions for downstate homes must be at or above this rate.",
+      "source_id": "S46"
+    },
+    {
+      "payer": "Cost benchmark (not revenue)",
+      "code": "",
+      "service": "NY UI taxable wage base",
+      "rate": 17600,
+      "unit": "per employee per year",
+      "effective": "2026",
+      "notes": "Secondary sites citing $13,000 or about $12,500 conflict with the official figure.",
+      "source_id": "S47"
+    },
+    {
+      "payer": "Cost benchmark (not revenue)",
+      "code": "",
+      "service": "NY UI new-employer contribution rate (includes 0.075% Re-employment Service Fund)",
+      "rate": 4.1,
+      "unit": "percent of taxable wages",
+      "effective": "2026",
+      "notes": "Composition: 3.4% normal + 0.625% subsidiary + 0.075% RSF.",
+      "source_id": "S48"
+    },
+    {
+      "payer": "Private pay (benchmark only; not an IRA revenue source)",
+      "code": "",
+      "service": "NY assisted living median, CareScout/Genworth 2025 ($85,320 per year / 12)",
+      "rate": 7110,
+      "unit": "per month",
+      "effective": "2025 survey",
+      "notes": "Measures assisted living, not IRAs. IRA residents are Medicaid waiver participants. Secondary source; conflicts with the 2024 figure below.",
+      "source_id": "S41"
+    },
+    {
+      "payer": "Private pay (benchmark only; not an IRA revenue source)",
+      "code": "",
+      "service": "NY assisted living median, Genworth 2024 (secondary)",
+      "rate": 6300,
+      "unit": "per month",
+      "effective": "2024 survey",
+      "notes": "Genworth's 2024 survey contacted over 140,000 providers nationwide [S43]. Use only as context.",
+      "source_id": "S42"
+    },
+    {
+      "payer": "Private pay (benchmark only; not an IRA revenue source)",
+      "code": "",
+      "service": "National assisted living median, CareScout 2025 (secondary)",
+      "rate": 6200,
+      "unit": "per month",
+      "effective": "2025 survey",
+      "notes": "National comparison for the New York figures.",
+      "source_id": "S44"
+    },
+    {
+      "payer": "Housing cost benchmark (not revenue)",
+      "code": "",
+      "service": "HUD FY2026 Fair Market Rent, 3-bedroom, New York, NY HMFA (Bronx, Kings, New York, Putnam, Queens, Richmond, Rockland, Westchester)",
+      "rate": 3644,
+      "unit": "per month",
+      "effective": "2025-10-01 to 2026-09-30",
+      "notes": "Residential benchmark, not a commercial group-home lease. 0BR $2,529, 1BR $2,655, 2BR $2,910. FY2027 values not located.",
+      "source_id": "S57"
+    },
+    {
+      "payer": "Housing cost benchmark (not revenue)",
+      "code": "",
+      "service": "HUD FY2026 Fair Market Rent, 4-bedroom, New York, NY HMFA",
+      "rate": 3959,
+      "unit": "per month",
+      "effective": "2025-10-01 to 2026-09-30",
+      "notes": "Residential benchmark. Does not cover other regions of the state.",
+      "source_id": "S57"
+    },
+    {
+      "payer": "Labor benchmark (not revenue)",
+      "code": "",
+      "service": "Home health and personal care aides in residential IDD facilities, national median",
+      "rate": 37340,
+      "unit": "per year",
+      "effective": "May 2025",
+      "notes": "National industry median, not New York.",
+      "source_id": "S58"
+    },
+    {
+      "payer": "Labor benchmark (not revenue)",
+      "code": "",
+      "service": "Home health aides, New York median (OEWS-based, secondary)",
+      "rate": 39620,
+      "unit": "per year",
+      "effective": "May 2025",
+      "notes": "About $19.05 per hour at 2,080 hours. Secondary aggregator; confirm the column meaning against BLS OEWS before use.",
+      "source_id": "S65"
+    },
+    {
+      "payer": "Labor benchmark (not revenue)",
+      "code": "",
+      "service": "Nursing assistants, national median",
+      "rate": 42260,
+      "unit": "per year",
+      "effective": "May 2025",
+      "notes": "National figure.",
+      "source_id": "S59"
+    },
+    {
+      "payer": "Labor benchmark (not revenue)",
+      "code": "",
+      "service": "Registered nurse, New York median (OEWS-based, secondary)",
+      "rate": 109440,
+      "unit": "per year",
+      "effective": "May 2025",
+      "notes": "Mean $113,440. National RN median is $97,550 [S60].",
+      "source_id": "S62"
+    },
+    {
+      "payer": "Labor benchmark (not revenue)",
+      "code": "",
+      "service": "LPN, New York median (OEWS-based, secondary)",
+      "rate": 67180,
+      "unit": "per year",
+      "effective": "May 2025",
+      "notes": "Mean $69,170.",
+      "source_id": "S63"
+    },
+    {
+      "payer": "Labor benchmark (not revenue)",
+      "code": "",
+      "service": "Medical and health services manager, New York median (OEWS-based, secondary)",
+      "rate": 164120,
+      "unit": "per year",
+      "effective": "May 2025",
+      "notes": "Proxy for administrator or program director. 10th percentile $95,660; 90th percentile $340,990. National median is $123,860 [S61]. A New York IRA program director may be paid below this proxy; verify locally.",
+      "source_id": "S64"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "NYS OPWDD main office",
+      "role": "Certification, provider and general inquiries",
+      "contact": "44 Holland Avenue, Albany, NY 12229-0001; (866) 946-9733; info@opwdd.ny.gov (email from secondary listing); https://opwdd.ny.gov/provider-directory"
+    },
+    {
+      "name": "OPWDD Division of Quality Improvement - North Area (Schenectady)",
+      "role": "Regional certification area office; each DQI area office publishes its own number",
+      "contact": "(518) 388-1441; https://opwdd.ny.gov/system/files/documents/2024/04/provider-deficiency-dispute-process-revised-and-effective-4.1.2024.pdf"
+    },
+    {
+      "name": "OPWDD DDRO Director (regional office)",
+      "role": "Approval of placement before admission to a certified residence",
+      "contact": "https://opwdd.ny.gov/request-approval-fill-residential-opportunity"
+    },
+    {
+      "name": "NYS Department of Health, OPWDD Services Rates",
+      "role": "Medicaid rate schedules and rate-setting rules for OPWDD services",
+      "contact": "https://www.health.ny.gov/health_care/medicaid/rates/mental_hygiene/"
+    },
+    {
+      "name": "eMedNY Provider Enrollment (OPWDD waiver provider)",
+      "role": "Medicaid enrollment, application fee and compliance program certification",
+      "contact": "https://www.emedny.org/info/ProviderEnrollment/omrdd/index.aspx"
+    },
+    {
+      "name": "NYS Justice Center, Criminal Background Check unit",
+      "role": "Authorized Person registration, IdentoGO fingerprinting, MHL 16.34 checks",
+      "contact": "https://www.justicecenter.ny.gov/criminal-background-check-cbc"
+    },
+    {
+      "name": "NYS Department of State, Building Standards and Codes",
+      "role": "Uniform Code guidance for IRA buildings",
+      "contact": "https://dos.ny.gov/system/files/documents/2024/05/tb-1203-care-facilities-guidance.pdf"
+    },
+    {
+      "name": "NYC Department of Buildings",
+      "role": "Certificate of Occupancy for NYC IRA sites",
+      "contact": "https://www.nyc.gov/assets/buildings/ppn/tppn994.pdf"
+    },
+    {
+      "name": "NYS Department of Labor, Unemployment Insurance",
+      "role": "Employer UI registration and rate assignment",
+      "contact": "https://forms.labor.ny.gov/UI/IA318.13.pdf"
+    },
+    {
+      "name": "NYS Workers' Compensation Board",
+      "role": "Coverage requirement and stop-work order enforcement",
+      "contact": "https://www.wcb.ny.gov/content/main/coverage-required-wc.jsp"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.93,
+      "conservative": 0.88,
+      "optimistic": 0.97,
+      "rationale": "Share of certified beds billed each day. OPWDD fills vacancies through the Certified Residential Opportunities process and every placement needs DDRO Director approval before admission [S19][S70]. A proposed OPWDD rate rule would remove the system-wide vacancy-utilization adjustment and limit payment when residents are absent [S23]. Adoption of that rule is unverified, so the model assumes no vacancy protection. Supervised IRA claims also allow at most 14 retainer days per person per rate year [S29]. The 93% default (88% conservative, 97% optimistic) is an operator assumption, not a sourced statistic. Verify it against the vacancy history of any home you acquire.",
+      "source_id": "S23"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "ira4",
+        "label": "One 4-bed supervised IRA (1 home)",
+        "capacity": 4,
+        "notes": "Smallest realistic entry model, within the 8-or-fewer building-code tier [S3]. At the benchmark rate it loses money because the director, office and nursing costs sit on four residents. It would need roughly $300 per resident-day in Medicaid revenue to break even (the benchmark is $208.22). The rate benchmark is an assumption, not a published IRA rate.",
+        "revenue_lines": [
+          {
+            "name": "OPWDD HCBS waiver residential habilitation, supervised IRA daily rate (BENCHMARK ASSUMPTION)",
+            "payer": "NY Medicaid — OPWDD HCBS waiver (provider-wide rate)",
+            "code": "",
+            "rate": 208.22,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S66",
+            "notes": "BENCHMARK, NOT A PUBLISHED RATE, AND NOT VALIDATED AS A SUPERVISED-IRA PER DIEM. $76,000 (OPWDD average annual Medicaid cost per person across ALL services in 2024, including care coordination, day, community habilitation, respite and residential) ÷ 365 = $208.22 per day [S66]. Certified residential spend alone is $5.9B and IRA residents are likely a higher-cost group, so the all-services average is not a valid proxy. Supervised IRA residential habilitation is billed per day [S28]. Each provider gets one provider-wide rate [S27]. The DOH per-diem schedules were not opened and the 4/1/2026 set's status is unverified [S26]. Replace this with the published DOH/OPWDD supervised-IRA per diem for the target region, or a written rate from OPWDD/DOH. The 2.7% FY2027 increase is not applied, because eligibility of a for-profit LLC is unverified [S68]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S33",
+            "notes": "Operator estimate — verify locally. Resident income base is the 2026 SSI federal benefit of $994 per month [S33]. The personal allowance under SSL 131-o was at least $163 per month in 2017; the current amount is unverified [S32]. $994 − $163 = $831 is the ceiling this estimate stays under. The NY SSI supplement and each resident's actual income and board rule were not verified. Check every resident before billing."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (supervised IRA coverage hours)",
+            "wage_hourly": 19.05,
+            "wage_source_id": "S65",
+            "basis": "hours_per_month",
+            "amount": 780,
+            "cite": "14 NYCRR 686.99",
+            "notes": "Operator estimate — verify locally. No IRA staffing ratio was found in the sources reviewed. A supervised IRA must have staff onsite or proximately available at all times residents are present [S2]. 780 h/month = 1 overnight staff (8 h × 30.42 = 243 h) + about 1.5 staff over about 357 waking hours per month when residents are home (16 waking h × 30.42 minus ~130 h/month of weekday day-program time). The day-program assumption must hold for every resident. Hours are coverage hours, not paid hours. They exclude relief for sick days, day-program closures, hospital returns, retirement-age residents at home, training time and overtime, and no relief factor is modeled. Residents' individual plans may require more. Each extra 8-hour daily staff post adds about 243 h, or about $5,700 per month loaded. Wage = NY home health aide median $39,620 ÷ 2,080 = $19.05 per hour (OEWS May 2025, secondary aggregator) [S65]. It exceeds the 2026 minimum wage of $16.00 upstate and $17.00 in NYC, Long Island and Westchester [S45][S46]."
+          },
+          {
+            "role": "Program director / administrator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 47830,
+            "wage_source_id": "S64",
+            "cite": "",
+            "notes": "0.5 FTE × $95,660 = NY 10th-percentile medical and health services manager wage (OEWS May 2025, secondary) [S64]. It is the lowest sourced NY figure and a proxy. The NY median is $164,120 [S64]. OPWDD manager qualifications and training hours were not found. Owner-operators may fill this role."
+          },
+          {
+            "role": "Billing and records coordinator (0.25 FTE)",
+            "basis": "annual_salary",
+            "amount": 10467.5,
+            "wage_source_id": "S59",
+            "cite": "",
+            "notes": "0.25 FTE × $41,870 = BLS national nursing assistant median (May 2025), a weak proxy for a clerical wage [S59]. No sourced NY clerical wage was located; replace with a NY OEWS clerical wage or a local quote. Handles Medicaid billing, rate-code documentation (OMIG audits [S28]) and records."
+          },
+          {
+            "role": "Registered nurse (oversight, medication training and delegation)",
+            "wage_hourly": 52.62,
+            "wage_source_id": "S62",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "14 NYCRR 633.17",
+            "notes": "NY RN median $109,440 ÷ 2,080 = $52.62 per hour (OEWS May 2025, secondary) [S62]. 2.5 h per resident per month is an operator estimate — verify locally. Required nursing time under OPWDD rules was not verified. Staff who administer medications need OPWDD-approved training [S17]."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 4949,
+            "basis": "fixed",
+            "notes": "One 4-bed home. HUD FY2026 Fair Market Rent, 4-bedroom, New York NY HMFA = $3,959 [S57] ÷ 4 = $989.75 per bedroom × 5 rooms (4 resident bedrooms + 1 staff/office room). This is an operator extrapolation of a residential benchmark, not a group-home lease quote. The linear method is a deliberate conservative choice; HUD's +15%-per-extra-bedroom rule would give about $4,553, roughly $400 per month lower. The HMFA covers NYC, Westchester, Rockland and Putnam; upstate rents are likely lower and were not located. The FY2026 schedule expired 2026-09-30; FY2027 values were not retrieved. Rent is fixed whether beds are full or not.",
+            "source_id": "S57"
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "$700 per home — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, snow/lawn, pest control, repairs",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "One vehicle per home; operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "$700 per home — operator estimate. No OPWDD insurance minimum was found. Get quotes."
+          },
+          {
+            "item": "Training, medication-administration certification, background checks",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "$300 per home — operator estimate. MHL 16.34 and 633.22 checks, annual training under 633.8 and OPWDD-approved medication training [S14][S15][S16][S17]. Fingerprint vendor fees were not verified."
+          },
+          {
+            "item": "Provider Compliance Program and quality assurance",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate. A Provider Compliance Program certification is required for OPWDD waiver enrollment [S36].",
+            "source_id": "S36"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Operator estimate. Placement comes through OPWDD's referral process, not open marketing [S19][S76]."
+          },
+          {
+            "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Operator estimate (~$175 per year) from the unverified secondary range of $25 to $4,500 [S53]. The fee is size-based; verify on tax.ny.gov. The $9 biennial statement is also secondary [S52]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate. Every placement needs DDRO Director approval before admission [S19]. A single home fills one resident at a time."
+        }
+      },
+      {
+        "id": "ira6",
+        "label": "One 6-bed supervised IRA (1 home)",
+        "capacity": 6,
+        "notes": "Common mid-size home, within the 8-or-fewer building-code tier [S3]. Loses money at the benchmark rate. It would need roughly $247 per resident-day in Medicaid revenue to break even (the benchmark is $208.22).",
+        "revenue_lines": [
+          {
+            "name": "OPWDD HCBS waiver residential habilitation, supervised IRA daily rate (BENCHMARK ASSUMPTION)",
+            "payer": "NY Medicaid — OPWDD HCBS waiver (provider-wide rate)",
+            "code": "",
+            "rate": 208.22,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S66",
+            "notes": "BENCHMARK, NOT A PUBLISHED RATE, AND NOT VALIDATED AS A SUPERVISED-IRA PER DIEM. $76,000 (OPWDD average annual Medicaid cost per person across ALL services in 2024, including care coordination, day, community habilitation, respite and residential) ÷ 365 = $208.22 per day [S66]. Certified residential spend alone is $5.9B and IRA residents are likely a higher-cost group, so the all-services average is not a valid proxy. Billed per day [S28]. One provider-wide rate per provider [S27]. DOH per-diem schedules were not opened [S26]. Replace with the published DOH/OPWDD supervised-IRA per diem for the target region, or a written rate from OPWDD/DOH. The 2.7% FY2027 increase is not applied, because eligibility of a for-profit LLC is unverified [S68]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S33",
+            "notes": "Operator estimate — verify locally. Stays under $994 SSI [S33] minus at least $163 personal allowance (2017 figure; current amount unverified) [S32]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (supervised IRA coverage hours)",
+            "wage_hourly": 19.05,
+            "wage_source_id": "S65",
+            "basis": "hours_per_month",
+            "amount": 960,
+            "cite": "14 NYCRR 686.99",
+            "notes": "Operator estimate — verify locally. No IRA staffing ratio was found. 960 h/month = 1 overnight staff (243 h) + 2 staff over about 357 waking hours when residents are home. Staff must be onsite or proximately available whenever residents are present [S2]. Wage $19.05 per hour (NY home health aide median, secondary) [S65], above the $16.00/$17.00 2026 minimums [S45][S46]."
+          },
+          {
+            "role": "Program director / administrator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 47830,
+            "wage_source_id": "S64",
+            "cite": "",
+            "notes": "0.5 FTE × NY 10th-percentile medical and health services manager wage $95,660 (secondary proxy) [S64]."
+          },
+          {
+            "role": "Billing and records coordinator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 20935,
+            "wage_source_id": "S59",
+            "cite": "",
+            "notes": "0.5 FTE × $41,870 (BLS national nursing assistant median, weak proxy for a clerical wage) [S59]. No sourced NY clerical wage."
+          },
+          {
+            "role": "Registered nurse (oversight, medication training and delegation)",
+            "wage_hourly": 52.62,
+            "wage_source_id": "S62",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "14 NYCRR 633.17",
+            "notes": "NY RN median $109,440 ÷ 2,080 = $52.62 per hour (secondary) [S62]. 2.5 h per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 6928,
+            "basis": "fixed",
+            "notes": "One 6-bed home. HUD FY2026 4BR Fair Market Rent $3,959 [S57] ÷ 4 = $989.75 per bedroom × 7 rooms (6 resident bedrooms + 1 staff/office room). Operator extrapolation of a residential benchmark for the NYC-area HMFA; upstate may be lower. The linear method is a deliberate conservative choice; HUD's +15%-per-extra-bedroom rule would give about $5,741, roughly $1,200 per month lower. The FY2026 schedule expired 2026-09-30; FY2027 values were not retrieved. Fixed whether beds are full or not.",
+            "source_id": "S57"
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "$800 per home — operator estimate."
+          },
+          {
+            "item": "Home maintenance, snow/lawn, pest control, repairs",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$400 per home — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "One vehicle per home; operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "$800 per home — operator estimate. No OPWDD insurance minimum was found."
+          },
+          {
+            "item": "Training, medication-administration certification, background checks",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home — operator estimate [S14][S15][S16][S17]."
+          },
+          {
+            "item": "Provider Compliance Program and quality assurance",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate; certification required for waiver enrollment [S36].",
+            "source_id": "S36"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+            "monthly": 15,
+            "basis": "fixed",
+            "notes": "Operator estimate; the fee is size-based and unverified (secondary range $25–$4,500) [S53]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate. Every placement needs DDRO Director approval before admission [S19]."
+        }
+      },
+      {
+        "id": "ira8",
+        "label": "One 8-bed supervised IRA (1 home)",
+        "capacity": 8,
+        "notes": "Largest home in the 8-or-fewer building-code tier (635-7.1) [S3]. Nine or more residents trigger supervised-CR physical plant and Life Safety Code requirements [S3]. About break-even at the benchmark rate (needs roughly $205 per resident-day versus the $208.22 benchmark).",
+        "revenue_lines": [
+          {
+            "name": "OPWDD HCBS waiver residential habilitation, supervised IRA daily rate (BENCHMARK ASSUMPTION)",
+            "payer": "NY Medicaid — OPWDD HCBS waiver (provider-wide rate)",
+            "code": "",
+            "rate": 208.22,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S66",
+            "notes": "BENCHMARK, NOT A PUBLISHED RATE, AND NOT VALIDATED AS A SUPERVISED-IRA PER DIEM. $76,000 (OPWDD average annual Medicaid cost per person across ALL services in 2024, including care coordination, day, community habilitation, respite and residential) ÷ 365 = $208.22 per day [S66]. Certified residential spend alone is $5.9B and IRA residents are likely a higher-cost group, so the all-services average is not a valid proxy. Billed per day [S28]. One provider-wide rate per provider [S27]. DOH per-diem schedules were not opened [S26]. Replace with the published DOH/OPWDD supervised-IRA per diem for the target region, or a written rate from OPWDD/DOH. The 2.7% FY2027 increase is not applied, because eligibility of a for-profit LLC is unverified [S68]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S33",
+            "notes": "Operator estimate — verify locally. Stays under $994 SSI [S33] minus at least $163 personal allowance (2017 figure; current amount unverified) [S32]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (supervised IRA coverage hours)",
+            "wage_hourly": 19.05,
+            "wage_source_id": "S65",
+            "basis": "hours_per_month",
+            "amount": 1050,
+            "cite": "14 NYCRR 686.99",
+            "notes": "Operator estimate — verify locally. No IRA staffing ratio was found. 1,050 h/month = 1 overnight staff (243 h) + 2 staff over about 357 waking hours when residents are home (714 h) + about 3 peak hours per day for a third staff (91 h). Staff must be onsite or proximately available whenever residents are present [S2]. Wage $19.05 per hour [S65], above the $16.00/$17.00 2026 minimums [S45][S46]."
+          },
+          {
+            "role": "Program director / administrator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 47830,
+            "wage_source_id": "S64",
+            "cite": "",
+            "notes": "0.5 FTE × NY 10th-percentile medical and health services manager wage $95,660 (secondary proxy) [S64]."
+          },
+          {
+            "role": "Billing and records coordinator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 20935,
+            "wage_source_id": "S59",
+            "cite": "",
+            "notes": "0.5 FTE × $41,870 (BLS national nursing assistant median, weak proxy for a clerical wage) [S59]."
+          },
+          {
+            "role": "Registered nurse (oversight, medication training and delegation)",
+            "wage_hourly": 52.62,
+            "wage_source_id": "S62",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "14 NYCRR 633.17",
+            "notes": "NY RN median $109,440 ÷ 2,080 = $52.62 per hour (secondary) [S62]. 2.5 h per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 8908,
+            "basis": "fixed",
+            "notes": "One 8-bed home. HUD FY2026 4BR Fair Market Rent $3,959 [S57] ÷ 4 = $989.75 per bedroom × 9 rooms (8 resident bedrooms + 1 staff/office room). Operator extrapolation of a residential benchmark for the NYC-area HMFA; upstate may be lower. The linear method is a deliberate conservative choice; HUD's +15%-per-extra-bedroom rule would give about $6,928, roughly $2,000 per month lower. The FY2026 schedule expired 2026-09-30; FY2027 values were not retrieved. Fixed whether beds are full or not.",
+            "source_id": "S57"
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$900 per home — operator estimate."
+          },
+          {
+            "item": "Home maintenance, snow/lawn, pest control, repairs",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$450 per home — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "One vehicle per home; operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$900 per home — operator estimate. No OPWDD insurance minimum was found."
+          },
+          {
+            "item": "Training, medication-administration certification, background checks",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$400 per home — operator estimate [S14][S15][S16][S17]."
+          },
+          {
+            "item": "Provider Compliance Program and quality assurance",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate; certification required for waiver enrollment [S36].",
+            "source_id": "S36"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+            "monthly": 42,
+            "basis": "fixed",
+            "notes": "Operator estimate (~$500 per year); the fee is size-based and unverified (secondary range $25–$4,500) [S53]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 1,
+          "note": "Operator estimate. Every placement needs DDRO Director approval before admission [S19]. Two residents transfer or are placed at opening, then one per month."
+        }
+      },
+      {
+        "id": "ira6x2",
+        "label": "Two 6-bed supervised IRAs (12 residents)",
+        "capacity": 12,
+        "notes": "Shows overhead spread across two small homes. Loses money at the benchmark rate (needs roughly $240 per resident-day versus $208.22) because 6-bed staffing is heavier per resident than 8-bed staffing in this model.",
+        "revenue_lines": [
+          {
+            "name": "OPWDD HCBS waiver residential habilitation, supervised IRA daily rate (BENCHMARK ASSUMPTION)",
+            "payer": "NY Medicaid — OPWDD HCBS waiver (provider-wide rate)",
+            "code": "",
+            "rate": 208.22,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S66",
+            "notes": "BENCHMARK, NOT A PUBLISHED RATE, AND NOT VALIDATED AS A SUPERVISED-IRA PER DIEM. $76,000 (OPWDD average annual Medicaid cost per person across ALL services in 2024, including care coordination, day, community habilitation, respite and residential) ÷ 365 = $208.22 per day [S66]. Certified residential spend alone is $5.9B and IRA residents are likely a higher-cost group, so the all-services average is not a valid proxy. Billed per day [S28]. One provider-wide rate per provider [S27]. Replace with the published DOH/OPWDD supervised-IRA per diem for the target region, or a written rate from OPWDD/DOH. The 2.7% FY2027 increase is not applied, because eligibility of a for-profit LLC is unverified [S68]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S33",
+            "notes": "Operator estimate — verify locally. Stays under $994 SSI [S33] minus at least $163 personal allowance (2017 figure; current amount unverified) [S32]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (supervised IRA coverage hours, 2 homes)",
+            "wage_hourly": 19.05,
+            "wage_source_id": "S65",
+            "basis": "hours_per_month",
+            "amount": 1920,
+            "cite": "14 NYCRR 686.99",
+            "notes": "Operator estimate — verify locally. 2 homes × 960 h (1 overnight staff + 2 staff over waking hours when residents are home). No IRA staffing ratio was found. Staff must be onsite or proximately available whenever residents are present [S2]. Wage $19.05 per hour [S65], above the $16.00/$17.00 2026 minimums [S45][S46]."
+          },
+          {
+            "role": "Program director / administrator (1.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 95660,
+            "wage_source_id": "S64",
+            "cite": "",
+            "notes": "1 FTE × NY 10th-percentile medical and health services manager wage $95,660 (secondary proxy) [S64]."
+          },
+          {
+            "role": "Billing and records coordinator (0.75 FTE)",
+            "basis": "annual_salary",
+            "amount": 31402.5,
+            "wage_source_id": "S59",
+            "cite": "",
+            "notes": "0.75 FTE × $41,870 (BLS national nursing assistant median, weak proxy for a clerical wage) [S59]."
+          },
+          {
+            "role": "Registered nurse (oversight, medication training and delegation)",
+            "wage_hourly": 52.62,
+            "wage_source_id": "S62",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "14 NYCRR 633.17",
+            "notes": "NY RN median $109,440 ÷ 2,080 = $52.62 per hour (secondary) [S62]. 2.5 h per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 13856,
+            "basis": "fixed",
+            "notes": "Two 6-bed homes at $6,928 each. HUD FY2026 4BR Fair Market Rent $3,959 [S57] ÷ 4 = $989.75 per bedroom × 7 rooms per home. Operator extrapolation of a residential benchmark for the NYC-area HMFA; upstate may be lower. The linear method is a deliberate conservative choice; HUD's +15%-per-extra-bedroom rule would give about $5,741 per home. The FY2026 schedule expired 2026-09-30; FY2027 values were not retrieved. Fixed.",
+            "source_id": "S57"
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "$800 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, snow/lawn, pest control, repairs",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "$400 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$200 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 2; operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "$800 per home × 2 — operator estimate. No OPWDD insurance minimum was found."
+          },
+          {
+            "item": "Training, medication-administration certification, background checks",
+            "monthly": 700,
+            "basis": "fixed",
+            "notes": "$350 per home × 2 — operator estimate [S14][S15][S16][S17]."
+          },
+          {
+            "item": "Provider Compliance Program and quality assurance",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate; certification required for waiver enrollment [S36].",
+            "source_id": "S36"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1300,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+            "monthly": 42,
+            "basis": "fixed",
+            "notes": "Operator estimate (~$500 per year); the fee is size-based and unverified (secondary range $25–$4,500) [S53]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator estimate. Every placement needs DDRO Director approval before admission [S19]. The workbook staffs both homes from month 1; opening homes one at a time needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "ira8x2",
+        "label": "Two 8-bed supervised IRAs (16 residents)",
+        "capacity": 16,
+        "notes": "The configuration an experienced operator would target: both homes stay in the 8-or-fewer building-code tier [S3], with one director and one office coordinator shared across them. Thin positive margin at the benchmark rate (break-even is roughly $203 per resident-day versus the $208.22 benchmark, so a rate about 3% lower turns it negative). The result depends entirely on the unverified rate benchmark and on staffing hours that are an operator estimate.",
+        "revenue_lines": [
+          {
+            "name": "OPWDD HCBS waiver residential habilitation, supervised IRA daily rate (BENCHMARK ASSUMPTION)",
+            "payer": "NY Medicaid — OPWDD HCBS waiver (provider-wide rate)",
+            "code": "",
+            "rate": 208.22,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S66",
+            "notes": "BENCHMARK, NOT A PUBLISHED RATE, AND NOT VALIDATED AS A SUPERVISED-IRA PER DIEM. $76,000 (OPWDD average annual Medicaid cost per person across ALL services in 2024, including care coordination, day, community habilitation, respite and residential) ÷ 365 = $208.22 per day [S66]. Certified residential spend alone is $5.9B and IRA residents are likely a higher-cost group, so the all-services average is not a valid proxy. Billed per day [S28]. One provider-wide rate per provider [S27]. DOH rate schedules were not opened and the 4/1/2026 set's status is unverified [S26]. Industry commentary expects OPWDD rate changes (acuity tool and rate reform), timing unverified [S31]. Replace with the published DOH/OPWDD supervised-IRA per diem for the target region, or a written rate from OPWDD/DOH. The 2.7% FY2027 increase is not applied, because eligibility of a for-profit LLC is unverified [S68]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S33",
+            "notes": "Operator estimate — verify locally. Stays under $994 SSI [S33] minus at least $163 personal allowance (2017 figure; current amount unverified) [S32]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (supervised IRA coverage hours, 2 homes)",
+            "wage_hourly": 19.05,
+            "wage_source_id": "S65",
+            "basis": "hours_per_month",
+            "amount": 2100,
+            "cite": "14 NYCRR 686.99",
+            "notes": "Operator estimate — verify locally. 2 homes × 1,050 h (1 overnight staff + 2 staff over waking hours when residents are home + about 3 peak hours per day for a third staff). No IRA staffing ratio was found. Staff must be onsite or proximately available whenever residents are present [S2]. Sensitivity: one extra 8-hour daily staff post per home adds 486 h, or about $11,500 per month loaded, which turns the result negative. Wage $19.05 per hour [S65], above the $16.00/$17.00 2026 minimums [S45][S46]."
+          },
+          {
+            "role": "Program director / administrator (1.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 95660,
+            "wage_source_id": "S64",
+            "cite": "",
+            "notes": "1 FTE × NY 10th-percentile medical and health services manager wage $95,660 (secondary proxy) [S64]. The NY median is $164,120 [S64]; at the median, this configuration loses about $5,000 per month."
+          },
+          {
+            "role": "Billing and records coordinator (1.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 41870,
+            "wage_source_id": "S59",
+            "cite": "",
+            "notes": "1 FTE × $41,870 (BLS national nursing assistant median, weak proxy for a clerical wage) [S59]. No sourced NY clerical wage."
+          },
+          {
+            "role": "Registered nurse (oversight, medication training and delegation)",
+            "wage_hourly": 52.62,
+            "wage_source_id": "S62",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "14 NYCRR 633.17",
+            "notes": "NY RN median $109,440 ÷ 2,080 = $52.62 per hour (secondary) [S62]. 2.5 h per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 17816,
+            "basis": "fixed",
+            "notes": "Two 8-bed homes at $8,908 each. HUD FY2026 4BR Fair Market Rent $3,959 [S57] ÷ 4 = $989.75 per bedroom × 9 rooms per home. Operator extrapolation of a residential benchmark for the NYC-area HMFA; upstate may be lower. The linear method is a deliberate conservative choice; HUD's +15%-per-extra-bedroom rule would give about $6,928 per home (roughly $4,000 per month lower for two homes). The FY2026 schedule expired 2026-09-30; FY2027 values were not retrieved. Fixed.",
+            "source_id": "S57"
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$900 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, snow/lawn, pest control, repairs",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$450 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$200 per home × 2 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 2; operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 1800,
+            "basis": "fixed",
+            "notes": "$900 per home × 2 — operator estimate. No OPWDD insurance minimum was found."
+          },
+          {
+            "item": "Training, medication-administration certification, background checks",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "$400 per home × 2 — operator estimate [S14][S15][S16][S17]."
+          },
+          {
+            "item": "Provider Compliance Program and quality assurance",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "Operator estimate; certification required for waiver enrollment [S36].",
+            "source_id": "S36"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 1500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+            "monthly": 125,
+            "basis": "fixed",
+            "notes": "Operator estimate (~$1,500 per year); the fee is size-based and unverified (secondary range $25–$4,500) [S53]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. Every placement needs DDRO Director approval before admission [S19]. The workbook staffs both homes from month 1; opening homes one at a time needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "ira8x3",
+        "label": "Three 8-bed supervised IRAs (24 residents)",
+        "capacity": 24,
+        "notes": "Growth stage with 1.5 FTE program leadership and 1.25 FTE office staff. Slightly better margin than two homes at the benchmark rate (break-even roughly $200 per resident-day versus $208.22), still dependent on the unverified rate and on operator-estimate staffing.",
+        "revenue_lines": [
+          {
+            "name": "OPWDD HCBS waiver residential habilitation, supervised IRA daily rate (BENCHMARK ASSUMPTION)",
+            "payer": "NY Medicaid — OPWDD HCBS waiver (provider-wide rate)",
+            "code": "",
+            "rate": 208.22,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 1.0,
+            "source_id": "S66",
+            "notes": "BENCHMARK, NOT A PUBLISHED RATE, AND NOT VALIDATED AS A SUPERVISED-IRA PER DIEM. $76,000 (OPWDD average annual Medicaid cost per person across ALL services in 2024, including care coordination, day, community habilitation, respite and residential) ÷ 365 = $208.22 per day [S66]. Certified residential spend alone is $5.9B and IRA residents are likely a higher-cost group, so the all-services average is not a valid proxy. Billed per day [S28]. One provider-wide rate per provider [S27]. Replace with the published DOH/OPWDD supervised-IRA per diem for the target region, or a written rate from OPWDD/DOH. The 2.7% FY2027 increase is not applied, because eligibility of a for-profit LLC is unverified [S68]."
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 750,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S33",
+            "notes": "Operator estimate — verify locally. Stays under $994 SSI [S33] minus at least $163 personal allowance (2017 figure; current amount unverified) [S32]."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support professionals (supervised IRA coverage hours, 3 homes)",
+            "wage_hourly": 19.05,
+            "wage_source_id": "S65",
+            "basis": "hours_per_month",
+            "amount": 3150,
+            "cite": "14 NYCRR 686.99",
+            "notes": "Operator estimate — verify locally. 3 homes × 1,050 h (1 overnight staff + 2 staff over waking hours when residents are home + about 3 peak hours per day for a third staff). No IRA staffing ratio was found. Staff must be onsite or proximately available whenever residents are present [S2]. Wage $19.05 per hour [S65], above the $16.00/$17.00 2026 minimums [S45][S46]."
+          },
+          {
+            "role": "Program director / administrator (1.5 FTE incl. assistant director)",
+            "basis": "annual_salary",
+            "amount": 143490,
+            "wage_source_id": "S64",
+            "cite": "",
+            "notes": "1.5 FTE × NY 10th-percentile medical and health services manager wage $95,660 (secondary proxy) [S64]."
+          },
+          {
+            "role": "Billing and records coordinators (1.25 FTE)",
+            "basis": "annual_salary",
+            "amount": 52337.5,
+            "wage_source_id": "S59",
+            "cite": "",
+            "notes": "1.25 FTE × $41,870 (BLS national nursing assistant median, weak proxy for a clerical wage) [S59]."
+          },
+          {
+            "role": "Registered nurse (oversight, medication training and delegation)",
+            "wage_hourly": 52.62,
+            "wage_source_id": "S62",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "14 NYCRR 633.17",
+            "notes": "NY RN median $109,440 ÷ 2,080 = $52.62 per hour (secondary) [S62]. 2.5 h per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 26724,
+            "basis": "fixed",
+            "notes": "Three 8-bed homes at $8,908 each. HUD FY2026 4BR Fair Market Rent $3,959 [S57] ÷ 4 = $989.75 per bedroom × 9 rooms per home. Operator extrapolation of a residential benchmark for the NYC-area HMFA; upstate may be lower. The linear method is a deliberate conservative choice; HUD's +15%-per-extra-bedroom rule would give about $6,928 per home (roughly $6,000 per month lower for three homes). The FY2026 schedule expired 2026-09-30; FY2027 values were not retrieved. Fixed.",
+            "source_id": "S57"
+          },
+          {
+            "item": "Utilities (electric, heat, water, trash)",
+            "monthly": 2700,
+            "basis": "fixed",
+            "notes": "$900 per home × 3 — operator estimate."
+          },
+          {
+            "item": "Home maintenance, snow/lawn, pest control, repairs",
+            "monthly": 1350,
+            "basis": "fixed",
+            "notes": "$450 per home × 3 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$200 per home × 3 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+            "monthly": 2700,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 3; operator estimate."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 2700,
+            "basis": "fixed",
+            "notes": "$900 per home × 3 — operator estimate. No OPWDD insurance minimum was found."
+          },
+          {
+            "item": "Training, medication-administration certification, background checks",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$400 per home × 3 — operator estimate [S14][S15][S16][S17]."
+          },
+          {
+            "item": "Provider Compliance Program and quality assurance",
+            "monthly": 500,
+            "basis": "fixed",
+            "notes": "Operator estimate; certification required for waiver enrollment [S36].",
+            "source_id": "S36"
+          },
+          {
+            "item": "Accounting, payroll service and legal",
+            "monthly": 2000,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Office, postage and supplies",
+            "monthly": 650,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing and referral outreach",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+            "monthly": 125,
+            "basis": "fixed",
+            "notes": "Operator estimate (~$1,500 per year); the fee is size-based and unverified (secondary range $25–$4,500) [S53]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate; assumes growth from an operating agency, with placements approved by the DDRO Director [S19]. The workbook staffs all homes from month 1; opening homes one at a time needs less cash than the modeled deficit."
+        }
+      }
+    ],
+    "default_configuration": "ira8x2",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.1,
+      "workers_comp_pct": 0.06,
+      "benefits_pct": 0.08,
+      "notes": "Payroll tax 10%: employer FICA 7.65% + NY unemployment insurance at the 4.1% new-employer rate on the first $17,600 of wages (NYS DOL rate page) [S47][S48] (about $722 per employee, roughly 1.8% of a full-time $39,624 DSP) + FUTA, with margin for part-time staff and turnover. From 2027 the UI wage base is indexed to 16% of the state average annual wage, so budget a step-up. NY workers' compensation is required for virtually all employers [S54]. NY premium and manual rates were not located, so 6% is an operator estimate for direct-care payroll; get a quote. Benefits 8% is an operator estimate and is the only allowance for items not separately modeled: NY statutory disability (DBL) coverage, NY Paid Sick Leave, paid mandatory annual training time (14 NYCRR 633.8) and overtime or relief-staff premium for 24/7 shifts. Confirm each with a NY payroll provider or insurance broker. NY Paid Family Leave is employee-funded and is not an employer cost. Total burden is 24%.",
+      "source_id": "S47"
+    },
+    "opex": [
+      {
+        "item": "Lease — residences",
+        "monthly": 4949,
+        "basis": "fixed",
+        "notes": "Base case: one 4-bed home. HUD FY2026 4BR Fair Market Rent $3,959 [S57] ÷ 4 × 5 rooms. This linear per-room extrapolation is a deliberate conservative choice. HUD's own rule (4BR FMR plus 15% per extra bedroom) would give about $4,553 for 5 rooms, roughly $400 per month lower. The FY2026 schedule expired 2026-09-30; FY2027 FMRs were not retrieved. Each configuration overrides this line with its own homes. Rent is fixed whether beds are full or not.",
+        "source_id": "S57"
+      },
+      {
+        "item": "Utilities (electric, heat, water, trash)",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Operator estimate, per home."
+      },
+      {
+        "item": "Home maintenance, snow/lawn, pest control, repairs",
+        "monthly": 350,
+        "basis": "fixed",
+        "notes": "Operator estimate, per home."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate, per home."
+      },
+      {
+        "item": "Agency vehicle (accessible van payment/lease, auto insurance, fuel)",
+        "monthly": 900,
+        "basis": "fixed",
+        "notes": "Operator estimate, one per home."
+      },
+      {
+        "item": "General and professional liability insurance",
+        "monthly": 700,
+        "basis": "fixed",
+        "notes": "Operator estimate, per home. No OPWDD insurance minimum was found."
+      },
+      {
+        "item": "Training, medication-administration certification, background checks",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate, per home [S14][S15][S16][S17]."
+      },
+      {
+        "item": "Provider Compliance Program and quality assurance",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate; certification required for waiver enrollment [S36].",
+        "source_id": "S36"
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "Operator estimate. It does not include OPWDD/Medicaid annual fiscal reporting (Consolidated Fiscal Report) or an independent audit or review that may be required above revenue thresholds. Confirm with OPWDD and DOH and budget it if required."
+      },
+      {
+        "item": "Office, postage and supplies",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and referral outreach",
+        "monthly": 100,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "NY LLC annual filing fee (Form IT-204-LL) and biennial statement",
+        "monthly": 15,
+        "basis": "fixed",
+        "notes": "Operator estimate; size-based and unverified (secondary range $25–$4,500) [S53]."
+      },
+      {
+        "item": "Food (board)",
+        "monthly": 450,
+        "basis": "per_client",
+        "notes": "Per resident — operator estimate, verify locally. Funded from the room and board charge and the waiver rate; supervised IRAs carry the cost of required supplies and services [S32]."
+      },
+      {
+        "item": "Household and personal-care supplies",
+        "monthly": 75,
+        "basis": "per_client",
+        "notes": "Per resident — operator estimate."
+      },
+      {
+        "item": "Records, billing and EVV software",
+        "monthly": 60,
+        "basis": "per_client",
+        "notes": "Operator estimate; get vendor quotes. Whether supervised IRA residential habilitation is subject to EVV was not confirmed [S38][S39]; the line covers the billing and records systems needed for OMIG-auditable rate-code documentation [S28]."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "NY LLC Articles of Organization",
+        "low": 200,
+        "high": 200,
+        "notes": "$200 filing fee per a secondary source; verify on the Department of State fee schedule [S49].",
+        "source_id": "S49"
+      },
+      {
+        "item": "LLC formation notice publication in newspapers",
+        "low": 600,
+        "high": 2000,
+        "notes": "Required within 120 days of formation or the LLC loses authority to do business [S50]. Cost is set by county-designated papers and ranges from roughly $600 to $2,000 depending on county (secondary) [S53]. NYC counties are at the high end.",
+        "source_id": "S53"
+      },
+      {
+        "item": "Certificate of Publication filing fee",
+        "low": 50,
+        "high": 50,
+        "notes": "Paid to the Department of State when you file proof of publication [S51].",
+        "source_id": "S51"
+      },
+      {
+        "item": "NY Medicaid provider enrollment application fee (2026)",
+        "low": 0,
+        "high": 750,
+        "notes": "$750 for 2026; waived if you are enrolled in Medicare or another state's Medicaid; a hardship waiver can be requested [S35]. Waiver enrollment also needs an IRS SS-4 assignment letter (a W-9 is rejected) and a Provider Compliance Program certification [S36].",
+        "source_id": "S35"
+      },
+      {
+        "item": "OPWDD IRA operating certificate application (OMR 248) fees",
+        "low": 0,
+        "high": 0,
+        "notes": "No fee schedule for OMR 248 was found [S6]. Processing time is 90 to 120 days and the term is triennial (maximum 3 years) [S6]. Confirm fees with OPWDD before budgeting.",
+        "source_id": "S6"
+      },
+      {
+        "item": "Legal and consultant support: OPWDD application, CON, Padavan law and Prior Property Approval",
+        "low": 10000,
+        "high": 40000,
+        "notes": "Operator estimate — verify locally. New OPWDD capacity must follow the CON, Padavan law and Prior Property Approval processes [S8]. Fee quotes vary widely.",
+        "source_id": "S8"
+      },
+      {
+        "item": "Fingerprint and criminal history checks (owners, managers, initial staff)",
+        "low": 500,
+        "high": 3000,
+        "notes": "Operator estimate; vendor fees were not verified. MHL 16.34 checks run through OPWDD and the Justice Center CBC process, with fingerprinting through IdentoGO [S14][S15]."
+      },
+      {
+        "item": "Policies, protective oversight plan, evacuation plan and staff handbook",
+        "low": 3000,
+        "high": 10000,
+        "notes": "Operator estimate. Each IRA must write a site-specific protective oversight plan and OPWDD verifies an implemented evacuation plan [S3][S4].",
+        "source_id": "S3"
+      },
+      {
+        "item": "Building code, fire alarm/sprinkler and accessibility upgrades",
+        "low": 15000,
+        "high": 120000,
+        "notes": "Operator estimate — verify with an architect or fire-code consultant. Homes for 8 or fewer follow the 635-7.1 building-code tier; 9 or more must meet supervised-CR physical plant and Life Safety Code requirements; a three-minute evacuation trigger can require Life Safety Code compliance [S3]. Uniform Code enforcement is via 14 NYCRR 635-7.4(a)(3) [S9]. In NYC, a 1994 DOB notice required the IRA license before final Certificate of Occupancy; current status is unverified [S7].",
+        "source_id": "S3"
+      },
+      {
+        "item": "Lease deposit and first month's rent — residences",
+        "low": 9898,
+        "high": 53448,
+        "notes": "Estimated as two months' rent: smallest config 2 × $4,949 (1 home) to largest 2 × $26,724 (3 homes). Rent basis is the HUD FY2026 4BR Fair Market Rent extrapolation [S57]. The deposit amount is an operator assumption.",
+        "source_id": "S57"
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 7000,
+        "high": 21000,
+        "notes": "$7,000 per home — operator estimate."
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 5000,
+        "high": 15000,
+        "notes": "$5,000 per home — operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, workers' compensation)",
+        "low": 3000,
+        "high": 12000,
+        "notes": "Operator estimate. Workers' compensation is required for virtually all NY employers [S54]; premium rates were not located.",
+        "source_id": "S54"
+      },
+      {
+        "item": "Computers, phones and records/billing software setup",
+        "low": 2000,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Pre-opening hiring and training of direct support staff",
+        "low": 4000,
+        "high": 25000,
+        "notes": "Operator estimate. Employees must complete annual training under 14 NYCRR 633.8 and medication administration staff need OPWDD-approved training [S16][S17]."
+      },
+      {
+        "item": "Pre-revenue overhead and working capital until residents are placed",
+        "low": 40000,
+        "high": 200000,
+        "category": "working_capital",
+        "notes": "Operator estimate. Placement needs DDRO Director approval before admission [S19] and OPWDD does not publish its referral list [S76], so timing is uncertain. The generator replaces this advisory line with the modeled ramp-up deficit."
+      }
+    ],
+    "rates": {}
+  },
+  "sections": {
+    "executive_summary": "New York does not have a simple \"group home license.\" The small-residence model for adults with intellectual and developmental disabilities is the **Individualized Residential Alternative (IRA)**. OPWDD certifies it as a community residence under 14 NYCRR 619.2, which names three community residence types: supervised CRs, supportive CRs and IRAs [S1]. OPWDD defines an IRA as a certified home for one to 14 people that provides room, board and individualized protective oversight [S34]. In a **supervised IRA**, staff are onsite or proximately available at all times residents are present. In a **supportive IRA**, staff typically are not [S2]. Operators are paid for residential habilitation through the OPWDD **Medicaid home and community-based services (HCBS) waiver**, a 1915(c) waiver run jointly by OPWDD and the Department of Health [S12][S13][S24]. The waiver exists as an alternative to ICF placement [S13][S1].\n\n**Demand is large, but access is controlled by the state.** OPWDD supported more than 135,000 people in 2024 and spent $5.9 billion on certified residential services, its largest category [S66]. A provider does not recruit residents openly. Referrals flow through OPWDD's Certified Residential Opportunities (CRO) process, and every placement needs the DDRO Director's approval before admission [S19][S70]. New certified capacity must also go through CON, Padavan law and Prior Property Approval processes [S8]. This report's brief mentions Prior Approval Review (PAR), but PAR is the Office of Mental Health's certification process, not a confirmed OPWDD IRA step [S10].\n\n**The most important finding is what we could not verify.** We could not retrieve the current per-diem rate, rate codes or effective dates for supervised or supportive IRA residential habilitation. OPWDD sets one provider-wide rate per provider [S27], so a new provider cannot assume a statewide published rate. DOH's rate page shows conflicting versions, with a fee set effective April 1, 2026 whose status we could not confirm [S26]. The financial model therefore uses a clearly labeled **benchmark assumption of $208.22 per resident-day**. That is OPWDD's reported 2024 average cost of about $76,000 per person per year across all services, divided by 365 [S66]. It is not an IRA rate. Replace it with a real rate before relying on any number below.\n\n**At that benchmark the economics are thin and depend on scale.** Six-bed and four-bed homes lose money. The default configuration, two 8-bed supervised IRAs with 16 residents, earns about $2,430 a month (2.3% margin) at 93% occupancy, and its break-even occupancy is about 90.6%. Three 8-bed homes earn about $5,274 a month (3.3%). A single 8-bed home earns about $660 a month (1.3%). Every profitable result rests on an unverified rate and on staffing hours that are operator estimates, because no IRA staffing ratio was found. Read the financial section as a sensitivity framework, not a forecast.",
+    "service_model": "**Who is served.** IRA residents are adults with developmental disabilities who are enrolled in the HCBS waiver and cannot live independently, per a directory listing of the program [S73]. That listing is secondary, so confirm eligibility with OPWDD. Of the people OPWDD serves, about 7% are 65 or older [S66]. In 2022 the Medicaid-services table counted 9,140 people aged 65+ out of 126,925 unduplicated, about 7% of individuals but 15% of payments [S67]. We could not find how many seniors live in IRAs specifically.\n\n**The model.** An IRA is a home, usually an ordinary residence, where the provider supplies room, board and individualized protective oversight [S2][S34]. Habilitation services are billed to Medicaid under the waiver's residential habilitation service [S11]. Residential habilitation in a community residence is governed by 14 NYCRR Subpart 635-10 and Part 671 [S11]. Supervised IRAs carry responsibility for the cost of required supplies and services. Supportive IRAs may meet those obligations differently [S32].\n\n**Supervised vs. supportive.** Supervised means staff are onsite or proximately available whenever residents are present. Supportive means staff are typically not [S2]. This report models **supervised IRAs only**. That is the type for which we found billing rules, namely a daily unit and three rate-code types [S28]. The supportive IRA billing minimum we found comes from a 2002 memo whose status is unverified (at least 11 enrolled days in a month) [S30]. OPWDD has also issued a Supportive Residential Habilitation RFA, which we mention only as context [S8].\n\n**Size and building tiers.** IRAs for eight or fewer people use the building code in 14 NYCRR 635-7.1 and the environmental rules in 635-7.4(b)(3). IRAs housing nine or more must meet supervised-CR physical plant, Life Safety Code and environmental requirements [S3][S4]. An IRA with occupants who cannot be evacuated within three minutes must also meet the 635-7.2 Life Safety Code requirements [S3]. Because the cost jump at nine beds is large, every configuration modeled here is eight beds or fewer per home. OPWDD describes IRAs as serving up to 14 people [S34], but we confirmed only the tiers at eight or fewer and nine or more. The regulatory maximum was not verified.\n\n**Temporary use beds.** An IRA with four or more beds may designate temporary use beds on its operating certificate for time-limited stays. They count toward certified capacity [S5].\n\n**Governing rules.** Section 686.16 says an IRA must also meet the listed sections of Part 686, including 686.1 through 686.5, 686.9, 686.15(a)(1)-(3) and 686.16 [S3]. The operating certificate application, form OMR 248, is listed under 14 NYCRR Parts 620, 624, 633, 635, 636, 671 and 686 [S6]. The ICF/IID alternative route (an ICF) is a different, institutional certification and is not modeled.",
+    "licensing_pathway": "**What you need.** There are three layers: (1) an OPWDD operating certificate for the IRA, (2) Medicaid and OPWDD waiver provider enrollment so you can be paid, and (3) DDRO approval for each placement. The order of the OPWDD steps (pre-application consultation, site review, inspection, certificate issuance) was **not** confirmed from a primary OPWDD page. Confirm the sequence with your OPWDD regional office before spending money. The regional Division of Quality Improvement area offices publish their own contacts [S22].\n\n**Steps we can support from sources:**\n\n1. **Form the entity.** A New York LLC files Articles of Organization (secondary sources give a $200 fee) [S49]. It must then publish a formation notice and file the Certificate of Publication with the Department of State within **120 days** or lose authority to do business [S50]. The Certificate of Publication filing fee is $50 [S51]. Newspaper publication runs roughly $600 to $2,000 depending on the county [S53].\n2. **Get an IRS SS-4 assignment letter.** OPWDD waiver provider enrollment requires it, and a W-9 is not accepted [S36].\n3. **Clear the capacity and siting approvals.** New OPWDD certified capacity must follow established development processes, including CON approval, any applicable Padavan law requirements and Prior Property Approval [S8]. We found no timeline or fee for these steps.\n4. **Secure a compliant building.** Eight or fewer residents follow the 635-7.1 tier. Nine or more follow supervised-CR physical plant and Life Safety Code requirements [S3][S4]. OPWDD-licensed IRAs are regulated for Uniform Code purposes under 14 NYCRR 635-7.4(a)(3) [S9]. In New York City, a 1994 Department of Buildings notice required the IRA license to be received before the final Certificate of Occupancy. We could not confirm whether it is still in effect [S7].\n5. **Write the required plans.** An IRA receiving an operating certificate must write a site-specific plan for protective oversight [S3]. OPWDD verifies that each IRA has implemented a facility evacuation plan [S4].\n6. **File OMR 248.** This is the IRA operating certificate application [S6]. The NY Business Express listing gives a processing time of **90 to 120 days**, a **triennial term (maximum 3 years)**, and says denials are based on the outcome of inspection [S6]. **No application or certification fee schedule was found**, so the model carries $0 for it and flags it. Confirm with OPWDD.\n7. **Enroll in Medicaid.** The 2026 Medicaid application fee is $750 (the federal CY2026 institutional fee is also $750 [S78]). It is waived for providers already enrolled in Medicare or another state's Medicaid, and a hardship waiver can be requested [S35]. Waiver providers must be approved by OPWDD and DOH and be Medicaid-enrolled to be paid [S12]. A Provider Compliance Program certification is required [S36]. Community residence enrollment is filed under category of service 0269 [S37]. Enrollment revalidation changes reported for May 2026 by a secondary guide were not verified.\n8. **Get placements approved.** Every placement into a certified residence needs the DDRO Director's approval before admission [S19]. Admission is governed by 14 NYCRR Subpart 636-3 [S70].\n\n**Realistic timeline.** The only sourced duration is the 90 to 120 day processing range for OMR 248 [S6]. CON, Padavan and property approvals come before certified capacity exists [S8], and they could add months we cannot quantify. Budget for a long pre-revenue period, as the cash-needed figures in the financial section reflect. Hiring, staff training and background checks must also be completed before opening [S14][S15][S16].",
+    "reimbursement": "**How money flows.** IRA residents are overwhelmingly Medicaid waiver participants, not private-pay. OPWDD's community residential services are delivered under a 1915(c) waiver administered by OPWDD and DOH [S12][S24]. DOH lists Medicaid fee-for-service rates established for OPWDD [S25]. Whether OPWDD residential services have been carved into managed care was not verified. CMS approves the rate-setting methodology as part of the waiver process, and residential habilitation is paid at two levels of care, each with its own rate (supervised and supportive) [S24]. That finding comes from a 2013 OIG audit, so confirm it is current.\n\n**One provider-wide rate.** DOH rules provide one provider-wide rate for each provider of residential habilitation [S27]. For voluntary providers the rate period runs July 1 to June 30 [S11]. This is why we cannot publish a single statewide IRA per-diem. The rate you receive depends on your own rate-setting inputs.\n\n**Billing rules.**\n- Supervised IRA residential habilitation is billed **per day** [S28].\n- There are three rate-code types: a service day, a therapeutic or non-medical leave day, and a retainer or medical leave day. A claim is disallowed if documentation does not match the code [S28].\n- A provider can be paid for at most **14 retainer days per person per rate year** [S29]. This comes from a 2014 memo; confirm it remains in effect.\n- A 2002 memo required at least 11 enrolled days in a month for supportive IRA billing. Its current status is unverified [S30].\n\n**Rate context for 2026.**\n- The DOH OPWDD rate page lists a fee set effective April 1, 2026, but a cached version showed a 2024 set and fees pending Division of the Budget approval. We could not confirm which is in effect [S26].\n- The enacted FY2027 budget grows State spending on OPWDD to over $7.9 billion with nearly $380 million in new resources [S68]. It includes a targeted 2.7% inflationary increase for voluntary-operated providers. A secondary analysis says the governor's proposal was 1.7% [S68][S69]. Whether and when the 2.7% applies to IRA per-diems was not verified.\n- A separate 5% increase applies to Family Care, which is not an IRA [S68].\n- A proposed DOH rule would eliminate the system-wide vacancy-utilization adjustment for IRAs and limit reimbursement when individuals are not present. We could not confirm it was adopted [S23]. Industry commentary from October 2026 expects OPWDD rate changes for residential providers, including a possible move from the DDP-2 to the CAS acuity tool, with timing unset. It expects no significant change to room and board reimbursement [S31].\n\n**Room and board.** Residents pay room and board from their own income. The 2026 SSI federal benefit rate is $994 per month for an individual [S33]. OPWDD sets the personal allowance by reference to Social Services Law 131-o. Only the 2017 figure ($163 per month) was retrieved, and later indexed amounts were not confirmed [S32]. The model collects $750 per resident per month as an operator estimate. It sits below $994 minus $163 = $831. Check each resident's actual income and the current allowance before billing.\n\n**What the model uses.** Revenue is $208.22 per resident-day (a benchmark derived from OPWDD's $76,000 average annual cost per person across all services [S66]) plus $750 room and board. This is not a published IRA rate, and the all-services average includes non-residential services.",
+    "demand": "**Scale of the system.** OPWDD supported over 135,000 people in 2024, with about $10 billion in total Medicaid spending (about $76,000 per person per year) and $5.9 billion on certified residential services [S66]. In 2016, nearly 41,000 people received residential supports, about 38,000 of them in certified group residences [S74]. That is a historical figure.\n\n**How people reach a home.** Care managers must confirm OPWDD eligibility and that the person has requested residential services before referring [S77]. OPWDD's Residential Support team places each referred person in one of three need categories: Emergency Need, Substantial Need or Current Need [S71]. These replaced the older Priority 1, 2 and 3 designations [S72]. Certified residences must promptly report vacancies so every possible vacancy is first considered for people with Emergency Need [S70]. A provider association states that OPWDD manages the CRO list and does not share it with care managers or CCOs [S76]. In practice, a new provider cannot build its own waiting list. It fills homes through the OPWDD process and DDRO approval [S19].\n\n**Is there a waitlist?** We could not find a current count. OPWDD's housing pages publish no count of people waiting [S75]. The last figure we found, more than 11,000 people on the Residential Request List, dates from a February 2016 report and is historical only [S74]. In the 2015 survey behind that report, 62% of respondents (N=3,043) preferred a traditional, agency-staffed certified model [S74]. Do not treat these as current demand.\n\n**Policy signals for 2026.**\n- The enacted FY2027 budget adds $30 million ($60 million annualized) for new service opportunities for people entering the system or whose needs changed [S68].\n- It adds $15 million for housing development aimed specifically at independent living opportunities [S68].\n- OPWDD's Integrated Supportive Housing program has a 2026-27 round, funding up to 25% of units in projects that prefer OPWDD-eligible tenants [S71].\n- OPWDD reports nine CATH transitional homes and plans three more in 2026-2027 [S66].\n\nThe housing money and ISH program suggest state emphasis on less-staffed living arrangements alongside certified residences. How this affects IRA vacancies was not verified.\n\n**Bottom line.** Need appears large, but access is rationed by OPWDD, and new IRA capacity requires state approval. There is no public data on IRA occupancy, vacancy or provider counts, so the 93% default occupancy is an operator assumption [S23].",
+    "operations": "**Staffing rules.** A supervised IRA must have staff onsite or proximately available at all times residents are present [S2]. We found **no IRA staffing ratio, awake-overnight rule or administrator qualification** in the sources reviewed. Staffing in the model is an operator estimate, set by each person's plan, and must be verified with OPWDD. The default two-home model uses 2,100 direct-support hours per month. That is 1,050 hours per 8-bed home: one overnight staff, two staff over waking hours when residents are home, and a third staff for about three peak hours a day. Each extra 8-hour daily post per home adds roughly 243 hours a month.\n\n**Supporting roles in the model.** Program director or administrator (1.0 FTE for two homes), billing and records coordinator (1.0 FTE), and registered nurse time of 2.5 hours per resident per month for oversight and medication delegation. The nursing hours are an operator estimate. Required nursing time under OPWDD rules was not verified.\n\n**Hiring and background checks.**\n- Criminal history checks under 14 NYCRR 633.22 apply to residential facilities including IRAs [S14].\n- OPWDD providers must request Mental Hygiene Law 16.34 checks for prospective employees and volunteers [S15].\n- Providers designate Authorized Persons to register applicants for fingerprinting, which runs through IdentoGO [S15].\n- A substantiated Category 2 finding does not automatically bar hiring. It informs the provider's decision [S15].\n\n**Training.**\n- Employees, volunteers and family care providers must be trained annually under 14 NYCRR 633.8 [S16].\n- Staff who administer medications must complete OPWDD-approved training under 633.17 [S17].\n- During extreme staffing shortages, the commissioner may permit abbreviated training or extended recertification deadlines under 633.27 [S18].\n\n**Plans and safety.** Write the site-specific protective oversight plan and keep the facility evacuation plan implemented, because OPWDD verifies it [S3][S4]. Keep the three-minute evacuation trigger in mind when accepting residents with mobility needs [S3].\n\n**Systems and compliance.**\n- Waiver enrollment requires a Provider Compliance Program certification [S36].\n- Because OMIG audits IRA claims and disallows those where documentation does not match the rate code [S28], documentation discipline is a revenue issue. The model funds a billing and records coordinator.\n- Whether supervised IRA residential habilitation is subject to Electronic Visit Verification was not confirmed. OPWDD said remote services do not require EVV [S38], and providers using EVV file an annual attestation and submit data to the state aggregator [S39][S40]. Confirm applicability with OPWDD.\n\n**Placements.** Maintain a vacancy-reporting process, and request DDRO approval for each placement [S19][S70]. Vacant beds still cost rent, utilities and staffing.",
+    "market_conditions": "**Supply.** We could not find counts of IRAs, certified residences, provider agencies, competitors or vacancy rates. No official list was retrieved. This report makes no market-share or competitor claims.\n\n**Wages.**\n- The 2026 minimum wage is $16.00 per hour outside NYC, Long Island and Westchester, and $17.00 in those downstate areas [S45][S46]. It is reported to be indexed to inflation starting in 2027 [S46].\n- The model's direct-support wage is **$19.05 per hour**: the New York home health aide median of $39,620 divided by 2,080 hours (OEWS May 2025, secondary aggregator) [S65]. It is above both minimums. For reference, the BLS all-industry national median for home health and personal care aides is $35,800 per year (May 2025). An industry-specific median for residential IDD facilities was not verified.\n- Official New York BLS state wages were not retrieved, so statewide figures come from aggregators. Downstate labor markets may pay more than the statewide median, but we have no sourced downstate wage.\n- Other wages: RN median $109,440 [S62]; medical and health services manager 10th percentile $95,660, median $164,120 [S64]; a billing/records coordinator proxy of $41,870 (the BLS national nursing assistant median, May 2025) [S59], a weak proxy because no sourced New York clerical wage was found.\n\n**Payroll costs.** The new-employer unemployment insurance rate is 4.1% on the first $17,600 of wages in 2026 [S47][S48]. The wage base is indexed from 2027, so expect a step-up. Workers' compensation is required for virtually all New York employers [S54], but premium rates were not located. The model carries a 24% total burden (10% payroll tax, 6% workers' compensation, 8% benefits), with workers' compensation and benefits as operator estimates. NY disability (DBL) coverage, paid sick leave, training time and overtime are not separately modeled and must be confirmed with a payroll provider or broker.\n\n**Housing.** The HUD FY2026 Fair Market Rent for a four-bedroom in the New York, NY HMFA (Bronx, Kings, New York, Putnam, Queens, Richmond, Rockland, Westchester) is $3,959 per month [S57]. That schedule expired on September 30, 2026, and FY2027 FMRs are now in effect but were not retrieved. The model scales the FY2026 figure to $989.75 per bedroom and adds one staff/office room, giving about $8,908 per month for an 8-bed home. This linear method is a deliberately conservative extrapolation of a residential benchmark, not a group-home lease quote. HUD's own rule (+15% of the 4BR rent per extra bedroom) would give about $6,928. Upstate rents are likely lower and were not located.\n\n**Private-pay context.** Genworth/CareScout figures measure assisted living, not IRAs. The 2025 New York median is reported at $85,320 per year (about $7,110 per month) on a secondary site, against a 2024 figure of $6,300 per month, also secondary. The national 2025 median is reported at $6,200 per month [S41][S42][S44]. They do not price OPWDD residences, and IRA revenue is Medicaid, so they are shown only as context.\n\n**Trends.** State spending on OPWDD is rising (over $7.9 billion in the enacted FY2027 budget) [S68]. Providers should expect rate reform, possibly including an acuity-tool change [S31], and a possible change to vacancy payment [S23]. Both could move IRA revenue in either direction.",
+    "financial_narrative": "**How the P&L is built.** Revenue per resident per month is the daily rate times 30.42 days plus room and board. The daily rate is a **benchmark assumption** of $208.22 per day (OPWDD's reported 2024 average annual cost of about $76,000 per person across all services, divided by 365 [S66]), not a published IRA rate. Room and board is $750 per resident per month, an operator estimate below the $831 ceiling implied by SSI less the 2017 personal allowance figure [S32][S33]. Costs are direct-support hours at $19.05 per hour, leadership and office salaries, RN hours per resident, a 24% payroll burden, per-home rent, utilities, vehicle, insurance and compliance costs, and per-resident food, supplies and software. Rent is **fixed**, so vacant beds still cost money. Default occupancy is 93% (88% conservative, 97% optimistic), an operator assumption.\n\n**Results at the benchmark rate and 93% occupancy (model output):**\n\n| Configuration | Net / month | Margin | Break-even occupancy | First profit month | Cash needed |\n|---|---|---|---|---|---|\n| Three 8-bed IRAs (24 residents) | $5,274 | 3.3% | 89.5% | 11 | $903,876 |\n| **Two 8-bed IRAs (16 residents), default** | **$2,430** | **2.3%** | **90.6%** | **7** | **$442,071** |\n| One 8-bed IRA | $660 | 1.3% | 91.7% | 7 | $229,667 |\n| One 6-bed IRA | -$6,591 | -16.7% | 110.3% | none | $410,748 |\n| One 4-bed IRA | -$10,604 | -40.2% | 134.8% | none | $477,334 |\n| Two 6-bed IRAs (12 residents) | -$10,903 | -13.8% | 107.3% | none | $699,356 |\n\nA break-even occupancy above 100% means the configuration cannot break even at the benchmark rate even with every bed full. In rough terms, a 4-bed home needs about $300 per resident-day, a 6-bed home about $247, an 8-bed home about $205, two 8-bed homes about $203 and three 8-bed homes about $200, against the $208.22 benchmark. These are approximate break-even daily rates computed from the model.\n\n**Why size matters.** Fixed costs (rent, the director, the office coordinator, compliance and a vehicle per home) are spread over few residents in small homes. The 6-bed homes lose money mainly because each 6-bed home needs 960 staff hours a month for six residents, a heavier staffing load per resident than the 8-bed model's 1,050 hours for eight. The two-6-bed configuration also carries a full-time director. Single 8-bed homes get close to break-even because the director is only 0.5 FTE.\n\n**Sensitivities (default two-8-bed configuration).**\n- **Rate:** each 1% change in the daily rate moves net income by about $940 per month. A rate about 3% below the benchmark (roughly $203 per day) turns the result negative. A higher actual rate improves it by about the same amount per percent.\n- **Occupancy:** break-even occupancy is 90.6%, only about 2.4 points below the 93% default. At the 88% conservative case the configuration is below break-even. We found no data on actual IRA vacancy, and the proposed rule could remove vacancy protection [S23].\n- **Staffing:** one extra 8-hour daily staff post per home adds 486 hours across two homes, about $11,500 per month loaded, which turns the result negative. Individual plans may require more than the modeled hours.\n- **Wages:** each $1.00 per hour increase in the direct-support wage costs about $2,600 per month across 2,100 hours at the 24% burden. The modeled wage is above the $16.00 and $17.00 minimums [S45][S46], but downstate market wages may be higher than the statewide median. We have no sourced downstate wage.\n- **Director pay:** the director is modeled at the New York 10th-percentile manager wage of $95,660, the lowest sourced figure and a proxy [S64]. At the $164,120 median, the default configuration would lose roughly $4,600 to $5,000 per month. An owner-operator filling this role avoids that cost.\n- **Rent:** the lease is a NYC-area HUD benchmark extrapolation [S57]. Upstate sites may cost less, which would improve results. A downstate site may cost more.\n\n**Cash and timing.** The model staffs every home from opening and ramps residents in at two per month (starting at four for the two-home case), with DDRO approval for each placement [S19]. First profit comes in month 7 for the default and in month 11 for three homes. Cash needed is $442,071 for the default and $903,876 for three homes, and these include the modeled ramp-up deficit. They exclude any pre-approval consultant, CON or property costs beyond the startup lines. Opening homes one at a time would reduce peak cash, but it also delays scale.\n\n**Path to profit, honestly stated.** There is a path only if (1) your actual OPWDD rate is at or above roughly $203 per resident-day for two 8-bed homes, (2) you keep occupancy above about 91%, (3) your plans' staffing needs stay near the modeled hours, and (4) the director role is filled at or near the modeled cost. We have not raised the rate or dropped a required cost to make any model profit. The 1% to 3% margins show that this is a thin-margin business at the benchmark, and the benchmark itself is unverified.",
+    "risks": "- **Rate risk (highest).** We could not verify any IRA per-diem. Each provider gets one provider-wide rate [S27], the April 1, 2026 fee set's status is unconfirmed [S26], and rate reform is expected [S31]. A rate about 3% below the benchmark turns the default model negative.\n- **Vacancy and occupancy risk.** A proposed rule would remove the vacancy-utilization adjustment and limit payment when residents are absent [S23]. Adoption is unverified. Retainer days are capped at 14 per person per rate year [S29], and every placement needs DDRO approval, so vacancies can last [S19].\n- **Approval and timing risk.** New capacity must pass CON, Padavan law and Prior Property Approval [S8]. OMR 248 takes 90 to 120 days and denials turn on inspection outcomes [S6]. We found no fee schedule or timeline for the capacity approvals. Delay means months of carrying costs.\n- **Referral control.** OPWDD manages the CRO list and does not share it with care managers or CCOs [S76]. You cannot market your way to a full house.\n- **Audit and documentation risk.** OMIG audits supervised IRA claims, and a claim is disallowed if documentation does not match the rate code [S28].\n- **Staffing and wage risk.** No staffing ratio was found, so required coverage could exceed the model. Minimum wages are indexed to inflation from 2027 [S46], and downstate wages may exceed the statewide median. Workforce shortages also drive training flexibility rules [S18].\n- **Building and code risk.** Upgrades can be costly. Nine or more residents, or residents who cannot be evacuated within three minutes, trigger Life Safety Code requirements [S3]. In NYC, the 1994 DOB notice on the license before final Certificate of Occupancy may still apply [S7].\n- **Insurance and workers' compensation.** No OPWDD insurance minimum or workers' compensation premium was located. Workers' compensation is required for virtually all employers, and the WCB can issue stop-work orders to uninsured businesses [S54][S56].\n- **Policy direction.** New housing money targets independent living [S68][S71]. The effect on demand for certified IRAs is unknown.\n- **Data quality.** Several wage, LLC and private-pay figures come from secondary sources. Some quotes came from search excerpts, so confirm wording on each URL before relying on it.\n- **Concentration.** One payer (Medicaid through OPWDD and DOH) provides nearly all revenue. A single rate decision affects every home.",
+    "recommendations": "1. **Get the real rate first.** Before signing leases, contact OPWDD and DOH [S20][S26] to learn how a new provider's rate would be set, what the current supervised IRA per-diem range is, and whether the April 1, 2026 fee set is in effect. Rerun the model at that rate. The default configuration needs roughly $203 per resident-day to break even.\n2. **Target 8-bed homes, not 4 or 6.** At the benchmark, the 4-bed and 6-bed homes cannot break even, even at full occupancy. Eight beds is also the top of the lower-cost building tier, so stay at eight or fewer per home [S3].\n3. **Plan on two or three homes under one management team.** The default is two 8-bed homes with one director and one office coordinator. Three homes improve the margin to 3.3% but need about $904,000 of cash. Build gradually, as OPWDD approvals allow.\n4. **Be the director yourself, at least at first.** The model uses a low-end director cost. At the New York median manager wage, the default would lose money.\n5. **Confirm the approval path early.** Ask OPWDD which of CON, Padavan law and Prior Property Approval apply to your site [S8], and whether PAR applies (we found that PAR is an OMH process [S10]). Ask whether existing certified capacity can be taken on or transferred. We did not verify that this is possible.\n6. **Settle staffing with OPWDD.** Ask for the staffing, overnight and administrator requirements for a supervised IRA, since none were found. Build hours from residents' plans rather than from our estimate, and re-price if each home needs more than 1,050 hours a month.\n7. **Find the right rent.** The HUD benchmark covers the NYC area only [S57]. Get actual quotes for your region. Keep within the sizing and evacuation rules to avoid costly Life Safety Code upgrades [S3].\n8. **Build compliance in from day one.** Set up MHL 16.34 and 633.22 background checks, annual 633.8 training, OPWDD-approved medication training, a Provider Compliance Program, and a billing process that matches documentation to rate codes [S14][S15][S16][S17][S28][S36].\n9. **Confirm resident income rules.** Check each resident's income, the current personal allowance and any state SSI supplement before setting the room and board charge [S32][S33].\n10. **Hold enough cash.** The default needs about $442,000 in the model, and approvals plus slow placements could extend that. Do not open until the rate, approvals and funding are in place. Watch the rate reform, the occupancy rule and the FY2027 2.7% increase [S23][S31][S68], and re-run the model whenever one changes."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm the correct pathway: an OPWDD-certified community residence (IRA), not an OMH, assisted-living or other license",
+      "instructions": "New York certifies IRAs under OPWDD operating-certificate classes. The three community residence types are supervised CR, supportive CR and IRA. Do not use the OMH Prior Approval Review (PAR) process. PAR is the Office of Mental Health certification process, and no source confirms it applies to OPWDD IRAs. Call OPWDD at (866) 946-9733 to confirm the entry route for your county. No cost; 1 week.",
+      "cite": "14 NYCRR 619.2",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide between a supervised IRA and a supportive IRA",
+      "instructions": "A supervised IRA has staff onsite or proximately available at all times residents are present. In a supportive IRA, staff typically are not. The financial model covers supervised IRAs only. Supportive IRA billing minimums were not verified; only a 2002 memo was found. Choose before you start the application. No cost.",
+      "cite": "14 NYCRR 686.99",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Choose the home size and building-code tier before committing to a site",
+      "instructions": "OPWDD describes an IRA as a certified home for 1 to 14 people. In regulation, 8 or fewer persons use the 635-7.1 building-code tier. 9 or more must meet supervised-CR physical plant and Life Safety Code requirements. The model shows 4- and 6-bed single homes losing money at the benchmark rate. 8-bed homes are about break-even or slightly profitable. A 9-plus-bed home was not modeled.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Pressure-test the business plan against your real rate, not the benchmark",
+      "instructions": "The model uses a benchmark of $208.22 per resident-day ($76,000 average cost per person ÷ 365). That is not a published IRA rate. Each provider receives one provider-wide residential habilitation rate. Ask OPWDD and DOH how a new provider's rate is set, then rerun the Pro Forma P&L with that rate. Do not sign a lease before you know the expected rate. No cost; 2–4 weeks.",
+      "cite": "10 NYCRR 86-10.3",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form the legal entity (NY LLC)",
+      "instructions": "File Articles of Organization with the NY Department of State. The $200 filing fee comes from a secondary source, so confirm it on the DOS fee schedule. Online filing is usually fast, but the processing time was not verified. Have counsel review ownership structure, because OPWDD and Medicaid enrollment will examine the owners.",
+      "cite": "NY LLC Law",
+      "source_id": "S49"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Complete the LLC publication requirement within 120 days",
+      "instructions": "Publish the formation notice and file the Certificate of Publication with the Department of State within 120 days, or the LLC's authority to do business is suspended. Newspaper cost is set by county-designated papers and runs roughly $600 to $2,000 depending on the county (secondary source). NYC counties are at the high end.",
+      "cite": "NY LLC Law §206",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "File the Certificate of Publication and pay the $50 fee",
+      "instructions": "File with the NY Department of State after the notice runs. The filing fee is $50. Keep the affidavits of publication in your corporate records.",
+      "cite": "NY DOS Certificate of Publication",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN and keep the IRS assignment letter (SS-4)",
+      "instructions": "Apply free at irs.gov. OPWDD waiver provider enrollment requires the IRS EIN assignment letter. A W-9 is not accepted. Issued immediately online; save the letter as a PDF for the enrollment packet.",
+      "cite": "eMedNY OPWDD waiver provider enrollment",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Calendar the LLC biennial statement and annual LLC filing fee",
+      "instructions": "The biennial statement is $9, due in the anniversary month (secondary source). The annual LLC filing fee (Form IT-204-LL, paid to the Tax Department) is size-based, and secondary sources give a $25 to $4,500 range. Verify the amount on tax.ny.gov. The model carries $15 to $125 per month as an operator estimate.",
+      "cite": "NY Tax Law (IT-204-LL)",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register as an employer with NYS Department of Labor (unemployment insurance)",
+      "instructions": "Newly liable employers are assigned a UI rate of 4.1% (3.4% normal + 0.625% subsidiary + 0.075% Re-employment Service Fund). The 2026 taxable wage base is $17,600 per employee. Register before your first payroll. No fee found; 1–2 days online.",
+      "cite": "NYS-50; IA 318.13",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Bind workers' compensation coverage before hiring",
+      "instructions": "Virtually all New York employers must carry workers' compensation. The WCB can issue a stop-work order against uninsured businesses. Premium rates were not located, so the model uses a 6% payroll operator estimate. Get quotes from at least two carriers or the State Insurance Fund.",
+      "cite": "NY WCL §10",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain liability, auto and umbrella insurance quotes",
+      "instructions": "No OPWDD insurance or bond minimum was found. The model uses $700–$900 per home per month for general and professional liability as an operator estimate. Ask OPWDD whether certification requires specific limits. Allow 2–3 weeks for quotes.",
+      "cite": "",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Contact OPWDD and your regional office to start the pre-application conversation",
+      "instructions": "OPWDD main office: 44 Holland Avenue, Albany, NY 12229-0001; (866) 946-9733; info@opwdd.ny.gov (email is from a secondary listing). Certification area offices publish their own numbers; for example, North Area (Schenectady) is (518) 388-1441. Ask which regional office covers your county and what the current steps are. The ordered application steps were not confirmed from a primary OPWDD page.",
+      "cite": "",
+      "source_id": "S20"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Ask OPWDD whether a new provider can add residential capacity now",
+      "instructions": "OPWDD states that any new certification or capacity must follow established development processes. These include approval of a Certificate of Need (CON), any applicable Padavan law requirements and Prior Property Approval. Ask in writing whether OPWDD is accepting new provider applications and whether capacity is limited to RFAs. The enacted FY2027 budget adds $30 million for new service opportunities, but how this reaches new providers was not verified.",
+      "cite": "OPWDD RFA Q&A (May 2022)",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Understand the CON, Padavan law and Prior Property Approval steps and their timing",
+      "instructions": "Have an experienced OPWDD attorney or consultant explain each step and its timeline. The model budgets $10,000 to $40,000 for legal and consultant support as an operator estimate. Do not assume the 90–120 day OMR 248 processing time covers these earlier approvals.",
+      "cite": "OPWDD RFA Q&A (May 2022)",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Check for open OPWDD housing and capacity opportunities",
+      "instructions": "Review the OPWDD Housing page, including the 2026-27 Integrated Supportive Housing (ISH) application, and any residential RFAs. ISH funds rental subsidies and services for up to 25% of units in participating projects. The budget adds $15 million for housing development aimed at independent living. These are alternatives to an IRA and do not replace certification.",
+      "cite": "",
+      "source_id": "S71"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Obtain the IRA Operating Certificate Application (OMR 248)",
+      "instructions": "The form is listed on NY Business Express under 14 NYCRR Parts 620, 624, 633, 635, 636, 671 and 686. No fee schedule was found, so ask OPWDD whether any fee applies. Download the current form from OPWDD or Business Express and confirm you have the latest version.",
+      "cite": "OMR 248; 14 NYCRR Part 686",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Read and map Part 686 requirements that apply to IRAs",
+      "instructions": "Section 686.16 says an IRA must meet the requirements of Part 686 in sections 686.1 through 686.5, 686.9 and 686.15(a)(1)-(3), as well as 686.16 itself. Build a compliance matrix from the current text on the NYCRR site. Some wording in the sources comes from search excerpts, so confirm it against the official text.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Write the site-specific protective oversight plan",
+      "instructions": "An IRA receiving an operating certificate must develop a site-specific written plan for protective oversight. Tailor it to the house, the residents' needs and your staffing pattern. The model budgets $3,000 to $10,000 for the plan, evacuation plan and handbook as an operator estimate.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Write the facility evacuation plan and train staff and residents",
+      "instructions": "OPWDD must verify that each IRA has implemented a facility evacuation plan, and staff and residents are trained on it. Document drills and each resident's evacuation ability. Residents who cannot evacuate in three minutes or less trigger additional Life Safety Code requirements.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "CRITICAL",
+      "task": "Submit the OMR 248 package and calendar the processing window",
+      "instructions": "NY Business Express lists processing as 90 to 120 days (average listed as 90). Submit only after the site, building and plan documents are ready. Track the application with your OPWDD contact and respond to requests quickly. Budget carrying costs (rent, director salary) for the full window.",
+      "cite": "OMR 248",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Prepare for the certification inspection",
+      "instructions": "The Business Express listing says denials are based on the outcome of inspection. Run a mock walk-through using Part 686, 633 and 635-7 requirements: safety systems, evacuation plan, protective oversight plan, records and staff files. Fix gaps before OPWDD arrives.",
+      "cite": "OMR 248",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "MEDIUM",
+      "task": "Decide whether to designate temporary use beds (homes of four or more beds)",
+      "instructions": "IRAs of four or more beds may elect to have beds designated on the operating certificate as temporary use beds for time-limited stays. Temporary use beds count toward certified capacity. Ask your regional office how this affects billing and the occupancy assumptions in the model.",
+      "cite": "14 NYCRR 686.15",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — OPWDD CERTIFICATION & PROVIDER APPLICATION",
+      "priority": "HIGH",
+      "task": "Understand the operating certificate term and renewal",
+      "instructions": "The IRA operating certificate is triennial, with a maximum term of 3 years. Put the expiration date on your compliance calendar and ask OPWDD about the renewal process 12 months ahead.",
+      "cite": "OMR 248",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Select a site that fits the building-code tier and your resident mix",
+      "instructions": "For 8 or fewer residents the 635-7.1 building-code tier applies; 9 or more must meet supervised-CR physical plant and Life Safety Code requirements. Confirm the site with OPWDD before signing a lease. Rent is fixed whether beds are full or not.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Get actual lease quotes and replace the HUD benchmark in the model",
+      "instructions": "The model's rent is an extrapolation of the HUD FY2026 4-bedroom Fair Market Rent for the New York, NY HMFA ($3,959 per month; 3BR $3,644). It is a residential benchmark, not a group-home lease quote, and it does not cover upstate regions. Get broker quotes for your county. Rent is the largest fixed cost after payroll.",
+      "cite": "HUD FY2026 FMR",
+      "source_id": "S57"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Hire an architect or fire-code consultant to review the building",
+      "instructions": "Uniform Code enforcement for OPWDD-licensed IRAs runs through 14 NYCRR 635-7.4(a)(3). Have the consultant check the building-code tier, fire alarm and sprinkler needs and accessibility. The model budgets $15,000 to $120,000 for upgrades as an operator estimate. Get a written scope before you sign a lease.",
+      "cite": "14 NYCRR 635-7.4(a)(3)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "CRITICAL",
+      "task": "Confirm Life Safety Code requirements for your residents",
+      "instructions": "An IRA with occupants who cannot be evacuated to a point of safety or the exterior in three minutes or less must also meet the 635-7.2 Life Safety Code requirements. Assess likely residents' mobility before choosing the house, because this can add construction cost.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Verify Certificate of Occupancy and local building sign-off",
+      "instructions": "Contact the local building department about the Certificate of Occupancy for a community residence. In New York City, a 1994 DOB notice required the IRA license before the final Certificate of Occupancy. Its current status was not confirmed, so ask DOB directly. Allow several weeks.",
+      "cite": "NYC DOB TPPN #9/94",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Review zoning and Padavan siting requirements with counsel",
+      "instructions": "OPWDD says new capacity must follow any applicable Padavan law requirements. Ask counsel whether notice to the municipality is required for your site and what happens if the locality objects. Do this before signing a lease.",
+      "cite": "OPWDD RFA Q&A (May 2022)",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "HIGH",
+      "task": "Negotiate lease terms that protect you if certification is delayed or denied",
+      "instructions": "Seek a contingency clause tied to OPWDD approval, or a rent-abatement period. The processing window is 90 to 120 days, and denials can follow inspection. Budget a deposit and first month's rent; the model uses two months' rent as an operator assumption.",
+      "cite": "",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "MEDIUM",
+      "task": "Furnish the home and install safety equipment",
+      "instructions": "Beds, appliances, housewares and safety items. The model budgets $7,000 per home for furniture as an operator estimate. Choose items for the residents' disabilities and keep receipts, since some household costs may be recoverable through room and board.",
+      "cite": "",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 3 — SITE, BUILDING & LIFE SAFETY",
+      "priority": "MEDIUM",
+      "task": "Acquire an accessible van and set up vehicle insurance",
+      "instructions": "The model carries one vehicle per home at $900 per month (payment, insurance, fuel) as an operator estimate, plus a $5,000 per home down payment. Confirm insurance and driver requirements with OPWDD before transporting residents.",
+      "cite": "",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "CRITICAL",
+      "task": "Understand how the waiver and residential habilitation work",
+      "instructions": "Residential habilitation in a community residence is paid under the OPWDD 1915(c) HCBS waiver, administered by OPWDD with DOH. It serves people in the community as an alternative to ICF placement. Providers must apply to and be approved by OPWDD and DOH for participation in the waiver, and be Medicaid-enrolled to be paid.",
+      "cite": "14 NYCRR Subpart 635-10; Part 671",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "CRITICAL",
+      "task": "Start eMedNY enrollment for OPWDD community residences",
+      "instructions": "Community residence enrollment is filed under category of service 0269. Review the eMedNY community residence and OPWDD waiver provider pages for the packet. Enrollment steps and timelines beyond these were not verified, so ask OPWDD or eMedNY.",
+      "cite": "eMedNY community residence enrollment",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "CRITICAL",
+      "task": "Assemble OPWDD waiver provider enrollment documents",
+      "instructions": "An IRS SS-4 assignment letter is required, and a W-9 is not acceptable. A provider compliance certification is also required (see the next item). Have your entity name match the IRS letter exactly, to avoid rejection.",
+      "cite": "eMedNY OPWDD waiver provider enrollment",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "CRITICAL",
+      "task": "Adopt a Provider Compliance Program and certify it",
+      "instructions": "Certification of a Provider Compliance Program is required for OPWDD waiver enrollment. The model budgets $400 per month for compliance and quality assurance as an operator estimate. Appoint a compliance officer and document training and audits.",
+      "cite": "eMedNY OPWDD waiver provider enrollment",
+      "source_id": "S36"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "HIGH",
+      "task": "Pay or waive the 2026 Medicaid application fee",
+      "instructions": "The 2026 application fee is $750. It is waived if you are enrolled in Medicare or another state's Medicaid program, and a hardship waiver can be requested. Confirm on eMedNY whether it applies to OPWDD community residence enrollment. The model shows $0 to $750.",
+      "cite": "eMedNY Provider Enrollment Application Fee",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "CRITICAL",
+      "task": "Obtain your provider-wide rate and effective date in writing",
+      "instructions": "Each residential habilitation provider gets one provider-wide rate. DOH publishes OPWDD fee schedules, but whether the set effective April 1, 2026 is in effect or still pending Division of the Budget approval was not verified. Ask DOH's Bureau of Mental Hygiene Services Rate Setting and OPWDD how a new provider's rate is determined. Replace the $208.22 benchmark in the P&L before you commit.",
+      "cite": "10 NYCRR 86-10.3",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "HIGH",
+      "task": "Learn the supervised IRA billing unit and rate-code types",
+      "instructions": "The unit of service for supervised IRA residential habilitation is daily. There are three rate code types: service day, therapeutic/non-medical leave day, and retainer/medical leave day. A claim is disallowed if documentation does not match the code. Train billing staff before the first claim.",
+      "cite": "OMIG Audit Protocol — IRA Res Hab",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "HIGH",
+      "task": "Plan around the retainer-day cap",
+      "instructions": "A supervised IRA provider can be paid for at most 14 retainer days per person per rate year, per ADM #2014-01 (confirm it is still in effect). Plan cash flow for hospital stays and leave beyond that. The voluntary-provider rate year runs July 1 through June 30.",
+      "cite": "OPWDD ADM #2014-01",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "HIGH",
+      "task": "Do not assume vacancy protection; monitor the proposed occupancy rule",
+      "instructions": "A proposed DOH rule would eliminate the system-wide vacancy-utilization adjustment and limit reimbursement when individuals are not present. Whether it has been adopted was not verified. Check the NY Register and DOH before launch. The model uses 93% occupancy (88% conservative) with no vacancy protection.",
+      "cite": "Proposed rate-setting rule (DOH)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "MEDIUM",
+      "task": "Track 2026 rate-reform and acuity-tool changes",
+      "instructions": "Industry commentary (October 2026) says OPWDD rate changes for residential providers are expected, including discussion of moving from the DDP-2 to the Coordinated Assessment System (CAS). Timing is unverified. The enacted FY2027 budget has a 2.7% targeted inflationary increase for voluntary providers, but whether it applies to IRA rates is unverified. Subscribe to OPWDD provider updates.",
+      "cite": "",
+      "source_id": "S31"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "HIGH",
+      "task": "Confirm whether Electronic Visit Verification (EVV) applies to your services",
+      "instructions": "Applicability of EVV to supervised IRA residential habilitation was not confirmed. Providers and fiscal intermediaries subject to EVV must send data to the NYS EVV Data Aggregator and file an annual attestation through eMedNY. Ask OPWDD for the current billing-code list. The model carries $60 per resident per month for billing, records and EVV software as an operator estimate.",
+      "cite": "NYS DOH EVV Program Guidelines",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID / WAIVER ENROLLMENT & RATES",
+      "priority": "HIGH",
+      "task": "Set up resident room-and-board and personal-allowance procedures",
+      "instructions": "The 2026 SSI federal benefit rate is $994 per month for an individual. OPWDD uses the amount in SSL 131-o to set the personal allowance for IRA residents. The 2017 figure was at least $163 per month, and the current amount was not verified. Confirm each resident's income and the current allowance with OPWDD before charging any board. The model assumes $750 per month as an operator estimate.",
+      "cite": "14 NYCRR 635.9; SSL 131-o",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Set the staffing plan and get OPWDD's written position on required coverage",
+      "instructions": "No IRA staffing ratio or awake-overnight rule was found. A supervised IRA must have staff onsite or proximately available at all times residents are present. The model's 780 to 1,050 hours per home per month are operator estimates. Individual plans may require more, and each extra 8-hour daily post adds about $5,700 per month loaded. Verify with your regional office.",
+      "cite": "14 NYCRR 686.99",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Set direct support wages at or above the 2026 NY minimum wage",
+      "instructions": "The 2026 minimum wage is $16.00 per hour outside NYC, Long Island and Westchester, and $17.00 inside them. The model uses $19.05 per hour (NY home health aide median $39,620 ÷ 2,080, from a secondary aggregator). Wages are expected to be indexed to inflation from 2027. Check local pay offers and recompute the P&L at your actual wage.",
+      "cite": "NY Labor Law §652",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Hire a program director and confirm OPWDD qualification requirements",
+      "instructions": "Administrator or manager qualifications and training hours were not found. The model budgets 0.5 to 1.5 FTE at $95,660 per FTE (NY 10th-percentile medical and health services manager, secondary proxy); the NY median is $164,120. At the median, the 16-resident configuration loses about $5,000 per month. Ask OPWDD for written qualification standards. An owner-operator may fill the role.",
+      "cite": "",
+      "source_id": "S64"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Contract or hire a registered nurse for oversight and medication delegation",
+      "instructions": "The model uses 2.5 hours per resident per month at $52.62 per hour (NY RN median $109,440, secondary), an operator estimate. Required nursing time was not verified. Staff who administer medications must have OPWDD-approved training.",
+      "cite": "14 NYCRR 633.17",
+      "source_id": "S62"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Designate Authorized Persons for criminal background checks",
+      "instructions": "Providers designate staff as Authorized Persons (AP) who register applicants for fingerprinting and receive results. Set this up with the Justice Center Criminal Background Check (CBC) program before the first hire.",
+      "cite": "Justice Center CBC",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Run MHL 16.34 and 633.22 criminal history checks on every prospective employee and volunteer",
+      "instructions": "OPWDD providers must request Mental Hygiene Law 16.34 checks for prospective employees and volunteers, submitted through OPWDD. 14 NYCRR 633.22 covers residential facilities, including IRAs. Fingerprinting is done through IdentoGO. Fingerprint vendor fees were not verified; the model budgets $500 to $3,000 as an operator estimate.",
+      "cite": "MHL §16.34; 14 NYCRR 633.22",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Write a hiring policy for Category 2 findings",
+      "instructions": "A substantiated Category 2 finding does not automatically bar an applicant from the position. It informs the provider's decision. Document how you weigh these results and keep the decision in the personnel file.",
+      "cite": "Justice Center CBC",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Complete medication administration training for all staff who give medications",
+      "instructions": "All staff who administer medications must complete OPWDD-approved training under 14 NYCRR 633.17. Schedule the curriculum before opening, and record certifications in each staff file. The model budgets $300 to $400 per home per month for training and checks as an operator estimate.",
+      "cite": "14 NYCRR 633.17",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Build the annual training program",
+      "instructions": "The regulations require employees, volunteers and family care providers to be trained on an annual basis. Keep a training matrix and attendance records. Request OPWDD's current required-topics list from your regional office.",
+      "cite": "14 NYCRR 633.8",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Know the training flexibility rule, but do not plan around it",
+      "instructions": "During extreme staffing shortages, as determined by the commissioner, the commissioner may permit abbreviated direct support professional training or extended recertification deadlines. This is discretionary, so build your plan on the full training requirements.",
+      "cite": "14 NYCRR 633.27",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 5 — STAFFING, BACKGROUND CHECKS & TRAINING",
+      "priority": "HIGH",
+      "task": "Set up payroll and budget the full employer burden",
+      "instructions": "The model uses 24% burden: 10% payroll taxes (FICA 7.65%, UI at 4.1% on the first $17,600, FUTA), 6% workers' compensation (operator estimate) and 8% benefits (operator estimate). Use a payroll service. The model budgets $800 to $2,000 per month for accounting, payroll and legal as an operator estimate.",
+      "cite": "NYS-50; IA 318.13",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Understand the Certified Residential Opportunities (CRO) process",
+      "instructions": "OPWDD assigns each referred person one of three residential support categories: Emergency Need, Substantial Need or Current Need (replacing the old Priority 1, 2 and 3). Admission rules are in 14 NYCRR Subpart 636-3 (effective 3/14/2023). Read 24-ADM-03 in full before you try to fill beds.",
+      "cite": "14 NYCRR Subpart 636-3; 24-ADM-03",
+      "source_id": "S70"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Report every vacancy promptly to OPWDD",
+      "instructions": "Certified residences must promptly report vacancy announcements so each vacancy is first considered for people with Emergency Need. Assign a staff member to report vacancies and track the response. A slow report is a cost, because empty beds earn nothing and rent is fixed.",
+      "cite": "24-ADM-03",
+      "source_id": "S70"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Obtain DDRO Director approval before admitting any resident",
+      "instructions": "Every placement into a certified residence requires the DDRO Director's approval prior to admission. Use OPWDD's Request for Approval to Fill a Residential Opportunity form. Do not move anyone in before you have approval.",
+      "cite": "OPWDD Request for Approval to Fill a Residential Opportunity",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Confirm the referral prerequisites with care managers",
+      "instructions": "Care managers must confirm that the individual has established OPWDD eligibility and a request for residential services before referring someone. Ask for this documentation with every referral. Eligibility screening for IRAs is generally adults 18 and older enrolled in the HCBS waiver (per a secondary directory listing).",
+      "cite": "14 NYCRR 636-3.5",
+      "source_id": "S77"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Plan your outreach around OPWDD's referral system",
+      "instructions": "OPWDD manages housing and residential support access and, per a provider association, does not share the CRO list with care managers or CCOs. Marketing is therefore relationship-based: introduce your home to the DDRO, regional residential support team and care coordination organizations. The model budgets only $100 to $150 per month for marketing as an operator estimate.",
+      "cite": "",
+      "source_id": "S76"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "HIGH",
+      "task": "Plan a slow, approved fill schedule",
+      "instructions": "The model starts with 1 to 4 residents and adds 1 to 2 per month, an operator estimate. No current waiting list count is published (the 2016 request list of over 11,000 is historical). Staff each home to its actual census, and avoid staffing the full home on day one if you open homes one at a time.",
+      "cite": "",
+      "source_id": "S74"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Set up household food, supplies and the resident cost split",
+      "instructions": "Supervised IRAs are responsible for the cost of required supplies and services under 635.9; supportive IRAs may meet these obligations differently. The model carries $450 per resident per month for food and $75 for household and personal-care supplies as operator estimates. Confirm what you must provide at your level.",
+      "cite": "14 NYCRR 635.9",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 6 — ADMISSIONS, PLACEMENT & OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Build individual resident files and service documentation",
+      "instructions": "Billing must match the documentation for the rate code used. The OMIG audit protocol shows what auditors check. Create templates for daily service notes, leave and retainer days, and absence tracking.",
+      "cite": "OMIG Audit Protocol",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "CRITICAL",
+      "task": "Submit claims at the daily unit and reconcile payments monthly",
+      "instructions": "Bill the correct rate code for each day (service, therapeutic/non-medical leave, or retainer/medical leave). Reconcile remittances to your census every month. Rate code mismatches are the audit finding to avoid.",
+      "cite": "OMIG Audit Protocol",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "HIGH",
+      "task": "Prepare for OMIG audits",
+      "instructions": "OMIG audits IRA residential habilitation claims for documentation and rate-code compliance. Perform internal quarterly samples as part of your Provider Compliance Program. Keep records for the period OPWDD or OMIG specifies, which was not verified here.",
+      "cite": "OMIG Audit Protocol",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "HIGH",
+      "task": "Know the deficiency dispute process",
+      "instructions": "OPWDD Division of Quality Improvement publishes provider instructions for disputing survey deficiencies, with area office assignments (effective 4/1/2024). Keep a copy in your compliance binder and respond within the stated deadlines.",
+      "cite": "",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "HIGH",
+      "task": "Keep evacuation drills and protective oversight plans current",
+      "instructions": "OPWDD verifies that the IRA has implemented its evacuation plan, and staff and residents must be trained on it. Review the site-specific protective oversight plan whenever residents' needs change or staffing patterns change.",
+      "cite": "14 NYCRR 686.16",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "HIGH",
+      "task": "Calendar the annual EVV attestation (if applicable) and Medicaid revalidation",
+      "instructions": "If EVV applies, service providers and fiscal intermediaries must file an EVV attestation each year through eMedNY. A secondary guide mentions 2026 Medicaid revalidation changes effective May 1, 2026; whether they apply to OPWDD residences was not verified. Ask eMedNY.",
+      "cite": "NYS DOH EVV",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Update the P&L whenever the rate, wage or rule changes",
+      "instructions": "Rerun the Pro Forma P&L at least annually, and whenever your provider-wide rate, minimum wage, staffing requirements or the occupancy rule changes. At the default 16-resident configuration, the model shows thin margins (about 2.3% at the benchmark rate), with a break-even occupancy of about 91%.",
+      "cite": "",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "HIGH",
+      "task": "Fund adequate startup cash and working capital",
+      "instructions": "The model's cash need from the ramp-up deficit is about $442,000 for two 8-bed homes and about $230,000 for one 8-bed home, using the benchmark rate and operator-estimate staffing. It excludes up-front costs not yet confirmed (building upgrades, legal support). Confirm your own numbers with a lender or advisor before committing to leases.",
+      "cite": "",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Watch for a downstate minimum-wage and rent effect",
+      "instructions": "Homes in NYC, Long Island or Westchester face a $17.00 minimum wage and higher rents than the upstate sites. The modeled $19.05 wage clears both minimums, but rent in those areas is likely higher than the HUD-derived figures for many sites. Recompute the model at the local wage and rent before signing a lease.",
+      "cite": "",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 7 — BILLING, COMPLIANCE & ONGOING OPERATIONS",
+      "priority": "MEDIUM",
+      "task": "Renew the operating certificate before it expires",
+      "instructions": "The term is triennial, with a maximum of 3 years. Start preparing at least 6 to 12 months before the expiration date: update the oversight plan, staff training records and inspection readiness. Confirm the renewal steps with your regional office.",
+      "cite": "OMR 248",
+      "source_id": "S6"
+    }
+  ],
+  "corrections_vs_previous": [],
+  "verification_log": [
+    {
+      "issue": "Rate benchmark ($76,000/365 = $208.22) is an all-services average, not a supervised-IRA per diem",
+      "change": "No replacement rate was verifiable, so the rate was not changed or raised. Relabeled the revenue-line notes in all six configurations as unvalidated, and added a not_claimed entry directing replacement with the published DOH/OPWDD rate."
+    },
+    {
+      "issue": "2.7% inflationary increase eligibility for a for-profit LLC",
+      "change": "Rewrote rates[2].notes and key_numbers[4].value to flag the unverified eligibility. Added not_claimed. The model does not apply it. The existing 'voluntary-operated' wording in the reimbursement section was left as is."
+    },
+    {
+      "issue": "Nursing assistant median is $41,870, not $42,260",
+      "change": "Updated rates[14] and billing coordinator amounts in all six configurations (10,467.5 / 20,935 / 20,935 / 31,402.5 / 41,870 / 52,337.5) and notes. Updated market_conditions text. Flagged it as a weak clerical proxy. Net-income and cash figures in the narrative table change by only about $40 per month or less for the default; regenerate the model outputs."
+    },
+    {
+      "issue": "Residential IDD aide median $37,340 unverified",
+      "change": "Replaced rates[12] with the verified all-industry $35,800 and relabeled it. Removed the $37,340 figure from market_conditions and added a not_claimed entry."
+    },
+    {
+      "issue": "HUD FY2026 FMR schedule expired",
+      "change": "Noted the expiry in rates[10] and rates[11] and in the market text. FY2027 values were not available, so the numbers were not changed."
+    },
+    {
+      "issue": "Linear per-room rent extrapolation vs HUD +15% rule",
+      "change": "Kept the linear method and documented it as a deliberate conservative choice, with the HUD-rule alternative, in opex[0] and all six lease notes. Rent was not reduced."
+    },
+    {
+      "issue": "S47 citation points to NYS-50 page",
+      "change": "Not patched: the sources array was not provided, so the citation could not be edited. Payroll notes now cite the NYS DOL rate page and the 2027 indexing step-up. The S47 source entry should be re-pointed to dol.ny.gov/unemployment-insurance-rate-information."
+    },
+    {
+      "issue": "Unstaffed weekday day-program hours vs 686.99; no relief factor",
+      "change": "No hours were invented. Documented that hours are coverage hours and that the day-program assumption must hold, in the ira4 DSP notes and not_claimed. Added not_claimed."
+    },
+    {
+      "issue": "Payroll burden omits DBL, paid sick leave, training time and overtime",
+      "change": "Rewrote payroll_burden.notes to state these are not separately modeled and to point to the 8% benefits allowance. Noted PFL is employee-funded. Added not_claimed. No rates were changed."
+    },
+    {
+      "issue": "No budget line for CFR or audit",
+      "change": "Noted the gap in the accounting opex notes and added not_claimed."
+    }
+  ]
+}

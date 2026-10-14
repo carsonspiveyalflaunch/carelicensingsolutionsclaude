@@ -1,0 +1,98 @@
+{
+  "bundle_slug": "georgia-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-14",
+  "pre_fix_code_checks": [],
+  "verified_count": 30,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "staffing.alc30_private[3].wage_hourly; staffing.alc40_private[4].wage_hourly",
+      "current": 15.37,
+      "correct": 18.77,
+      "evidence": "BLS Atlanta MSA May 2025: lower paying groups include \"food preparation and serving related ($15.37), personal care and service ($18.17), and building and grounds cleaning and maintenance ($18.77)\"",
+      "source_url": "https://www.bls.gov/regions/southeast/news-release/occupationalemploymentandwages_atlanta.htm",
+      "fix": "Housekeeping/laundry rows use the food-prep wage as a proxy, but the same BLS release gives a housekeeping-type group at $18.77. Change both rows to 18.77 (or pull the Atlanta OEWS maids/housekeeping-cleaners occupation). That adds about $884/mo (30-bed) and $1,179/mo (40-bed) before about 17.5% burden. The 30-bed ALC net of about $1,427 falls to roughly $400. The 40-bed ALC net of about $9,005 falls to roughly $7,600. Re-run break-even occupancy. Do the same check on the PCH 'Cook / housekeeper' rows."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[0].rate; revenue_lines.pch6_private/pch16_private/pch24_private[0].rate",
+      "current": 5300,
+      "correct": null,
+      "evidence": "CareScout table column is \"Assisted Living Community\"; footnote: \"As reported, monthly rate, private, one bedroom\". Georgia = $5,300/mo ($63,600/yr, $166/day). National = $6,200.",
+      "source_url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "fix": "The $5,300, $63,600, $166 and $6,200 figures are verified. The problem is the basis. The PCH configurations (6, 16 and 24 beds) are priced at an ALC private one-bedroom median. The headline claim that the 16- and 24-bed PCHs are the 'strongest configurations' rests on that rate. Make the lower $4,395 benchmark (or a shared-room rate) the PCH base case. Keep $5,300 only for the ALC configurations. The $4,395 and $4,752 secondary figures were not independently re-verified (unverifiable)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=29].instructions; startup_costs[CPA financial stability affidavit].notes; startup_costs[Working capital].notes",
+      "current": "CPA affidavit affirming ability to operate as a going concern for the next two years; \"Confirm whether DCH asks the same of PCH applicants.\"",
+      "correct": "The affidavit applies only to ALC and PCH of 25+ beds. The form's wording is that the applicant has demonstrated the financial resources to operate, and the form shows no two-year term.",
+      "evidence": "Affidavit of Financial Stability: \"Required for both Initial Applications and CHOW Applications for Licensure for ALC and PCH of 25 beds or more.\"",
+      "source_url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+      "fix": "Replace 'confirm whether PCH applicants...' with 'not required for PCHs under 25 beds; required for ALC and PCH of 25+ beds, and also for change of ownership'. Remove or source 'two-year going-concern'. The retrieved DCH form does not say it, and the rule text was not retrieved (unverifiable). Also note that CHOW applications need it."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs (missing items); opex (missing items)",
+      "current": "No line for the DCH Office of Health Planning Letter of Determination, local zoning approval documentation, or the contingent DCH fees below.",
+      "correct": "The initial checklist requires a Letter of Determination approved by DCH OHP (item 13) and zoning approval documentation (item 2). The fee schedule lists a $250 follow-up visit to a periodic inspection and a $550 involuntary application processing fee after an unlicensed complaint investigation.",
+      "evidence": "Checklist: \"A Letter of Determination approved by DCH Office of Health Planning (OHP).\" Fee schedule: \"Follow-up visit to periodic inspection $250\"; \"Involuntary Application Processing fee after unlicensed complaint investigation $550\".",
+      "source_url": "https://dch.georgia.gov/document/document/schedule-licensure-activity-fees-oct2024/download",
+      "fix": "Add a startup line for OHP Letter of Determination and zoning documentation (cost unverifiable; confirm with OHP and the local zoning office). Add a contingency line for the $250 follow-up inspection fee. Note the $150 late fee (60 days past due) already appears in checklist item 35."
+    },
+    {
+      "severity": "minor",
+      "json_path": "fees_and_timelines_in_checklist[i=27]; key_numbers[Annual license fee]",
+      "current": "The initial license fee is paid \"before the license is issued\"; the startup row treats it as a pre-issuance cost.",
+      "correct": "The checklist lists \"Licensure fee\" as item 15 of the initial application documents, and the fee schedule says the initial fee is \"Submitted prior to issuance of license\". The annual fee is also paid yearly, not monthly.",
+      "evidence": "Checklist item 15: \"Licensure fee - see Schedule of Licensure Activity Fees\"; \"All licensure fees must be paid in full prior to receiving a permit or license.\"",
+      "source_url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+      "fix": "Amounts ($300; $350/$750/$1,500; $200 memory care) are correct. Say that the licensure fee should be budgeted for the application submission (checklist lists it as an application item) and at least before issuance. Note that the monthly ÷12 opex line is an accrual, while DCH bills the fee annually as a lump sum. Also note that application fees are non-refundable and may be forfeited if an incomplete application is submitted."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[Staff training hours]; opex[Training, CPR...]",
+      "current": "24 hours of continuing education in the first year; 16 hours/year after (applied to all configurations)",
+      "correct": "ALC rule 111-8-63-.09(5)-(6): 24 hours in the first year, then 16 hours a year. PCH rule 111-8-62-.09(5): at least 16 hours of training per year for all direct care staff, including the administrator or on-site manager. PCHs must have at least one staff person with the required first-aid/CPR and orientation training present whenever residents are present.",
+      "evidence": "62-.09(5): \"All direct care staff, including the administrator or on-site manager, must have at least sixteen (16) hours of training per year.\"",
+      "source_url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-62-.09",
+      "fix": "Label the 24-hour first-year rule as ALC-only. State the PCH (under 25 beds) requirement as 16 hours/year, and add 'at least one fully trained staff on site at all times' for PCHs. For ALCs, at least two trained staff must be present, with one on each occupied floor."
+    },
+    {
+      "severity": "minor",
+      "json_path": "staffing.*.wage_hourly (18.17 'direct care aide'); staffing.pch16/pch24/alc30/alc40 (18.99 and 46.90 rows)",
+      "current": "Aide wage = $18.17, the Atlanta 'personal care and service' major-group mean. Second aide = $18.99 (national $39,490 ÷ 2,080). RN/LPN = $46.90 (national RN median).",
+      "correct": null,
+      "evidence": "BLS Atlanta release gives $18.17 only as the occupational group mean for personal care and service. OOH RN median May 2025 = $97,550 / $46.90 per hour (verified). OOH Nursing Assistants page now shows a 2025 median of $41,870 / $20.13; the $39,490 'assisted living' figure was not found in the retrieved text.",
+      "source_url": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
+      "fix": "$18.17, $15.37 and $46.90 match their sources. However, the user's standard is BLS OEWS May 2025. The aide and LPN rows are not occupation-specific or Georgia/Atlanta-specific. Replace them with Atlanta MSA (or Georgia) OEWS May 2025 means for nursing assistants (31-1131), home health and personal care aides, and LPNs (29-2061). Verify or replace the $18.99 figure (unverifiable as stated; the OOH page now shows $20.13 all-industry). Using an RN rate for LPN hours likely overstates the nurse line, while the aide group mean may understate it, so the net effect is unverifiable until the occupation-specific wages are pulled."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[Awake direct-care staffing ratio]; key_numbers[Required nurse hours]; staffing.pch*.cite; fees_and_timelines_in_checklist[i=40,41,43]",
+      "current": "ALC: 1:15 waking, 1:20 non-waking, 2 staff 24/7; RN/LPN 8 hrs/week for 1-30 residents and 16 hrs/week for 31-60. PCH under 25 beds: 1:15 waking, 1:25 non-waking.",
+      "correct": null,
+      "evidence": "The retrieved text of 111-8-63-.09 verifies the two-trained-staff-on-site rule, with one on each occupied floor. The retrieved text did not include the ratio or nurse-hour paragraphs. The PCH staffing source (City of Hampton PDF) returned no content, and the rules.sos.ga.gov subject page cut off before staffing.",
+      "source_url": "https://www.law.cornell.edu/regulations/georgia/Ga-Comp-R-Regs-R-111-8-63-.09",
+      "fix": "Unverifiable from the retrieved text. Confirm the exact ratio and nurse-hour wording in the current rule text before relying on it. The scheduled coverage in the model would meet the stated ratios: 2 day / 1 night for 16 beds; 3 day / 2 night for 30 beds; 4 day / 2 night for 40 beds. No staffing violation was found against the stated ratios. The PCH nurse-hour requirement, if any, remains unverified and unmodeled."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[2].rate (768); rates[3].rate (994); key_numbers[Medicaid enrollment application fee] ($750); EVV 9/14/2026 date",
+      "current": "R&B $768; SSI $994; Medicaid enrollment fee $750; EVV mandatory 9/14/2026",
+      "correct": null,
+      "evidence": "The cited S13 page (georgiahealth.us) could not be accessed. The Georgia EVV page loaded but the retrieved portion did not show the 9/14/2026 date. The Federal Register fee notice and the SSA SSI table were not fetched.",
+      "source_url": "https://www.georgiahealth.us/medicaid-waivers/",
+      "fix": "Unverifiable. $768 (secondary only), $994, $750 and 9/14/2026 should be confirmed against DHS Division of Aging, SSA, the CMS Federal Register notice and the DCH EVV announcements. 994 − 768 = 226 is arithmetically consistent. None of these figures drives modeled revenue."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[GAHLES].email; regulators[Board of LTC Facility Administrators].phone; regulators[OHP].phone",
+      "current": "Blank email/phone fields",
+      "correct": "The checklist lists hfrd.applicationswaivers@dch.ga.gov (general application questions) and hfrd.payments@dch.ga.gov (payment issues). It lists gchexs.user@dch.ga.gov and 404-463-7154 for GCHEXS. The Board form lists 237 Coliseum Dr., Macon, GA 31217, phone 404-424-9966 and Trades3@sos.ga.gov.",
+      "evidence": "Checklist: \"For general application questions, email the HFRD Applications and Waivers Team at hfrd.applicationswaivers@dch.ga.gov.\"",
+      "source_url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+      "fix": "Fill in these contacts. The pchprogram.hfrd@dch.ga.gov email is verified as the Personal Care Home Team contact for regulations, surveys, permits and administrator updates. The phone (404) 656-4507 was not verified."
+    }
+  ]
+}
