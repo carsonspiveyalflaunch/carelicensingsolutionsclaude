@@ -147,16 +147,36 @@ Use the given policy set as the base (keep its categories); add any policy the s
 drop any that does not apply to this program in this state, and rename to the state's terms. 40-55 policies total."""
 
 
-def requirements(item: dict, d: dict) -> dict:
+def requirements(item: dict, d: dict, citations: list | None = None) -> dict:
+    """M1a: verify citations (with tools). M1b: plan the policy set from them (no tools)."""
     ps = POLICY_SETS[program_key(d["program"])]
-    user = (f"State: {d['state']}\nProgram: {d['program']} — state name: {d['state_program_name']}\n\n"
-            f"BASE POLICY SET:\n{json.dumps(ps)}\n\nFACT-CHECKED RESEARCH (citations here are verified):\n"
-            f"{json.dumps(research_context(d), ensure_ascii=False)}\n\nFetch the governing rule text (table of "
-            "contents and the sections on policies required, staffing, training, medication, incidents/abuse "
-            "reporting, rights, records, emergency preparedness) to verify citations and collect state specifics. "
-            "Policy ids use a short prefix per category (e.g., GOV-01, RR-03).")
-    tools = [{**WEB_FETCH, "max_uses": 14, "max_content_tokens": 6000}, {**WEB_SEARCH, "max_uses": 5}]
-    return call_json(item["slug"], "M1:requirements", SONNET, REQ_SYSTEM, user, tools=tools, max_tokens=40000)
+    ctx = (f"State: {d['state']}\nProgram: {d['program']} — state name: {d['state_program_name']}\n\n"
+           f"BASE POLICY SET:\n{json.dumps(ps)}\n\nFACT-CHECKED RESEARCH (citations here are verified):\n"
+           f"{json.dumps(research_context(d), ensure_ascii=False)}\n")
+    if not citations:
+        tools = [{**WEB_FETCH, "max_uses": 14, "max_content_tokens": 6000}, {**WEB_SEARCH, "max_uses": 5}]
+        c = call_json(item["slug"], "M1a:citations", SONNET, REQ_SYSTEM, ctx +
+                      "\nSTEP 1 ONLY: fetch the governing rule text (table of contents and the sections on required "
+                      "policies, staffing, training, medication, incident/abuse reporting, rights, records, emergency "
+                      "preparedness) and return ONLY {\"citations\": [...]} — 25-60 entries, each requirement under "
+                      "250 characters.", tools=tools, max_tokens=40000)
+        citations = c.get("citations", [])
+    plan_prompt = (ctx + "\nVERIFIED CITATIONS (use these ids only):\n" + json.dumps(citations, ensure_ascii=False) +
+                   "\n\nSTEP 2 ONLY: return ONLY {\"policies\": [...], \"forms\": [...]} with 42-55 policies "
+                   "(id, category, title, citations, federal, state_specifics with at most 5 short items). Policy ids "
+                   "use a short prefix per category (e.g., GOV-01, RR-03).")
+    plan = call_json(item["slug"], "M1b:plan", SONNET, REQ_SYSTEM, plan_prompt, max_tokens=40000)
+    pols = [p for p in plan.get("policies", []) if isinstance(p, dict) and p.get("id") and p.get("title")]
+    if len(pols) < 40:
+        plan = call_json(item["slug"], "M1b:plan-retry", SONNET, REQ_SYSTEM, plan_prompt +
+                         f"\nYour previous answer had only {len(pols)} complete policies. Return all 42-55, keeping "
+                         "each entry compact.", max_tokens=40000)
+        pols = [p for p in plan.get("policies", []) if isinstance(p, dict) and p.get("id") and p.get("title")]
+    if len(pols) < 35:
+        raise ValueError(f"policy plan too short ({len(pols)})")
+    for p in pols:
+        p.setdefault("category", "General")
+    return {"citations": citations, "policies": pols, "forms": plan.get("forms", [])}
 
 
 WRITE_SYSTEM = """You write policies for a state-specific Policy & Procedure Manual that a new licensed care business
@@ -217,10 +237,10 @@ def process(item: dict) -> dict:
         return {"slug": slug, "status": "skipped (exists)"}
     d = json.loads((CF / "research" / f"{slug}.json").read_text())
     work = CF / "pipeline" / "work" / f"{slug}.manual-req.json"
-    if work.exists():
-        req = json.loads(work.read_text())
-    else:
-        req = requirements(item, d)
+    req = json.loads(work.read_text()) if work.exists() else {}
+    good = [p for p in req.get("policies", []) if isinstance(p, dict) and p.get("id") and p.get("title")]
+    if len(good) < 40:
+        req = requirements(item, d, citations=req.get("citations") or None)
         work.parent.mkdir(parents=True, exist_ok=True)
         work.write_text(json.dumps(req, indent=2, ensure_ascii=False))
     req["citations"] = [c for c in req.get("citations", []) if c.get("verified") and c.get("cite")]
@@ -261,6 +281,8 @@ def process(item: dict) -> dict:
                 for j, p in enumerate(ordered):
                     if p["id"] == f.get("id"):
                         ordered[j] = f
+    if len(ordered) < 0.9 * len(req["policies"]):
+        raise ValueError(f"only {len(ordered)} of {len(req['policies'])} policies written")
     still = {p["id"]: problems_in(p, valid, allow_484) for p in ordered}
     still = {k: v for k, v in still.items() if v}
 
