@@ -137,9 +137,9 @@ def parse_json(text: str):
     t = t[start:]
     end = max(t.rfind("}"), t.rfind("]"))
     try:
-        return json.loads(t[: end + 1])
+        return json.loads(t[: end + 1], strict=False)
     except json.JSONDecodeError:
-        return json.loads(_repair(t))
+        return json.loads(_repair(t), strict=False)
 
 
 def _repair(t: str) -> str:
@@ -401,7 +401,7 @@ def verify(item: dict, d: dict) -> dict:
             "rate, wage (BLS OEWS May 2025; at/above 2026 minimum wage), fee and when it is paid, staffing rule, "
             "timeline and contact. Also flag missing mandatory costs and staffing that violates the rules.\n\n"
             + json.dumps(focus, ensure_ascii=False))
-    tools = [{**WEB_FETCH, "max_uses": 15, "max_content_tokens": 4000}, {**WEB_SEARCH, "max_uses": 4}]
+    tools = [{**WEB_FETCH, "max_uses": 12, "max_content_tokens": 3000}, {**WEB_SEARCH, "max_uses": 4}]
     return parse_json(call(item["slug"], "D:verify", SONNET, VERIFY_SYSTEM, user, tools=tools, max_tokens=24000))
 
 
@@ -448,7 +448,13 @@ def fix(item: dict, d: dict, findings: dict) -> dict:
     applied = 0
     for p in out.get("patches", []):
         try:
-            set_path(d, p["path"], p["value"])
+            try:
+                set_path(d, p["path"], p["value"])
+            except (KeyError, IndexError, TypeError):
+                alt = re.sub(r"^financial_model\.(?=(rates|key_numbers|sources|regulators|contacts|checklist|sections))", "", p["path"])
+                if alt == p["path"]:
+                    raise
+                set_path(d, alt, p["value"])
             applied += 1
         except Exception as e:
             log({"slug": item["slug"], "stage": "E:patch", "error": f"{p.get('path')}: {e}"})

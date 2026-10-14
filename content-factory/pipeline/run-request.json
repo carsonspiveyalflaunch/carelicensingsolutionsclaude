@@ -1,10 +1,7 @@
 {
-  "note": "Pilot retry 2: split assembly steps.",
-  "slugs": [
-    "georgia-assisted-living-facilities-complete-bundle",
-    "new-york-residential-care-dd-complete-bundle"
-  ],
-  "limit": 2,
-  "workers": 2,
+  "note": "Full run: every remaining priority bundle in queue.json (already-finished bundles are skipped).",
+  "slugs": [],
+  "limit": 0,
+  "workers": 4,
   "budget_usd": 280
 }
