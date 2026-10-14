@@ -1,6 +1,9 @@
 {
-  "note": "Pilot: 2 bundles to measure real cost per bundle before running the rest.",
-  "slugs": ["georgia-assisted-living-facilities-complete-bundle", "new-york-residential-care-dd-complete-bundle"],
+  "note": "Pilot retry after fixes: 2 bundles to measure real cost per bundle.",
+  "slugs": [
+    "georgia-assisted-living-facilities-complete-bundle",
+    "new-york-residential-care-dd-complete-bundle"
+  ],
   "limit": 2,
   "workers": 2,
   "budget_usd": 280

@@ -128,15 +128,62 @@ def call(slug: str, stage: str, model: str, system: str, user: str, tools=None, 
 
 def parse_json(text: str):
     t = text.strip()
-    m = re.search(r"```(?:json)?\s*(.*?)```", t, re.S)
-    if m:
+    m = re.search(r"```(?:json)?\s*(.*?)(?:```|$)", t, re.S)
+    if m and m.group(1).strip():
         t = m.group(1)
     start = min([i for i in (t.find("{"), t.find("[")) if i != -1], default=-1)
     if start == -1:
         raise ValueError("no JSON in response")
     t = t[start:]
     end = max(t.rfind("}"), t.rfind("]"))
-    return json.loads(t[: end + 1])
+    try:
+        return json.loads(t[: end + 1])
+    except json.JSONDecodeError:
+        return json.loads(_repair(t))
+
+
+def _repair(t: str) -> str:
+    """Close a truncated JSON document: drop the incomplete tail and balance brackets."""
+    stack, out, in_str, esc, last_ok = [], [], False, False, 0
+    for i, ch in enumerate(t):
+        out.append(ch)
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]":
+            if stack:
+                stack.pop()
+            last_ok = i + 1
+        elif ch == "," and stack:
+            last_ok = i
+    body = t[:last_ok].rstrip().rstrip(",")
+    # recompute open brackets for the kept prefix
+    stack, in_str, esc = [], False, False
+    for ch in body:
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]" and stack:
+            stack.pop()
+    return body + "".join(reversed(stack))
 
 
 # ---------------------------------------------------------------- shared context
@@ -189,7 +236,8 @@ FACT_SYSTEM = """You are a meticulous research assistant gathering VERIFIED fact
 Rules: prefer official sources (state agency sites, administrative code, statutes, CMS, SSA, BLS). Every fact must
 include the exact supporting quote from the page you fetched and the page URL. Never guess or estimate. If you cannot
 find something, list it under "unverified". Current year is 2026; use the latest values in effect.
-Return ONLY JSON: {"facts":[{"topic":"...","claim":"...","value":"...","quote":"exact text from the page",
+Keep each quote under 200 characters. Return ONLY JSON (no prose before or after):
+{"facts":[{"topic":"...","claim":"...","value":"...","quote":"exact text from the page",
 "url":"...","title":"...","publisher":"...","type":"official|secondary","as_of":"..."}],"unverified":["..."]}"""
 
 
@@ -198,12 +246,12 @@ def gather(item: dict) -> dict:
     for topic, brief in TOPICS.items():
         user = (f"State: {item['state']}\nProgram: {item['program']}\nState terms/hints (verify, do not trust): "
                 f"{item['terms']}\n\nResearch topic: {brief}\nAim for 20-40 facts. Fetch the primary pages; "
-                "quote exactly.")
+                "quote exactly. Return 20-35 facts as compact JSON.")
         tools = [{**WEB_SEARCH, "max_uses": 8}, {**WEB_FETCH, "max_uses": 10, "max_content_tokens": 6000}]
         try:
-            txt = call(item["slug"], f"A:{topic}", HAIKU, FACT_SYSTEM, user, tools=tools, max_tokens=12000)
+            txt = call(item["slug"], f"A:{topic}", HAIKU, FACT_SYSTEM, user, tools=tools, max_tokens=32000)
             d = parse_json(txt)
-            out["facts"] += d.get("facts", [])
+            out["facts"] += [f for f in d.get("facts", []) if isinstance(f, dict) and f.get("url") and f.get("value")]
             out["unverified"] += d.get("unverified", [])
         except BudgetExceeded:
             raise
@@ -236,6 +284,18 @@ def assemble(item: dict, facts: dict) -> dict:
                  "rent and building costs fixed and sized per configuration with opex_overrides).",
                  max_tokens=32000)
     d = parse_json(part1)
+    err = model_error(d)
+    if err:
+        part1 = call(item["slug"], "B1:retry", SONNET, ASSEMBLE_SYSTEM,
+                     base + "\nYour previous PART 1 failed validation: " + err + "\nPrevious PART 1:\n" +
+                     json.dumps(d, ensure_ascii=False) + "\nReturn the corrected full PART 1 JSON. Every numeric "
+                     "field (capacity, rate, units_per_client_month, share_of_clients, amount, wage_hourly, monthly, "
+                     "occupancy values, payroll_burden percentages) must be a number, never null.",
+                     max_tokens=32000)
+        d = parse_json(part1)
+        err = model_error(d)
+        if err:
+            raise ValueError(f"financial model invalid after retry: {err}")
     res = rank(evaluate(d["financial_model"]))
     cfgs = {c["id"]: c for c in d["financial_model"]["configurations"]}
     summary = []
@@ -256,6 +316,17 @@ def assemble(item: dict, facts: dict) -> dict:
                  max_tokens=32000)
     d.update(parse_json(part2))
     return d
+
+
+def model_error(d: dict) -> str:
+    try:
+        fm = d["financial_model"]
+        if not fm.get("configurations"):
+            return "no configurations"
+        evaluate(fm)
+        return ""
+    except Exception as e:
+        return f"{type(e).__name__}: {e}"
 
 
 # ---------------------------------------------------------------- code checks
@@ -367,11 +438,14 @@ def process(item: dict) -> dict:
         return {"slug": slug, "status": "skipped (already done)"}
     facts_path = CF / "pipeline" / "work" / f"{slug}.facts.json"
     facts_path.parent.mkdir(parents=True, exist_ok=True)
-    if facts_path.exists():
-        facts = json.loads(facts_path.read_text())
+    facts = json.loads(facts_path.read_text()) if facts_path.exists() else {}
+    if len(facts.get("facts", [])) >= 15:
+        pass
     else:
         facts = gather(item)
         facts_path.write_text(json.dumps(facts, indent=2, ensure_ascii=False))
+        if len(facts.get("facts", [])) < 15:
+            raise ValueError(f"only {len(facts.get('facts', []))} facts gathered; not assembling")
     d = assemble(item, facts)
     problems = code_checks(d)
     if problems:
