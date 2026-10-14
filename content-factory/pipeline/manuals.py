@@ -151,9 +151,15 @@ OFFICIAL_SYSTEM = """You find the OFFICIAL document(s) a state uses to review a 
 for this exact license/program — e.g., a policy checklist form (Maryland DH Form DD.APP.1.1 for COMAR 10.22.02.10),
 application instructions that list required plan-of-operation components (California LIC 281 Section B), a
 regulation section that enumerates required written policies, or a provider manual/application packet checklist.
-Search the regulator's website and fetch the current version. Then list EVERY required item exactly as the document
-states it (keep the document's own item numbering, e.g., "A(7)" or "B9"). Never invent items; if no single document
-exists, use the regulation sections that list required written policies/plan of operation and say so.
+Search the regulator's website and fetch the current version. Then list every item that the provider's WRITTEN
+POLICIES, PROCEDURES, PLANS OR PROGRAM STATEMENT must address, exactly as the document states it (keep the document's
+own item numbering, e.g., "A(7)" or "B9"). EXCLUDE application paperwork that is not policy content: application
+forms, applicant/ownership information, financial statements, budgets, credit/bank verification, IDs, fingerprints,
+fees, sketches, inspection certificates, partnership/corporate documents, licenses and certificates. INCLUDE items such
+as personnel policies, job descriptions, training plans, program statements, admission/discharge policies, rights,
+discipline, medication, incident/abuse reporting, emergency/disaster plans, menus, control of property, theft and loss,
+complaint procedures. Never invent items; if no single document exists, use the regulation sections that list
+required written policies/plan of operation and say so.
 Return ONLY JSON: {"documents":[{"title","form_number","issuer","version","url","how_used"}],
 "required_items":[{"item_id","text","cite","doc":0}],
 "structure":{"use_as_categories":true|false,"sections":["section names in the document's order"]},
@@ -174,7 +180,16 @@ def official_requirements(item: dict, d: dict) -> dict:
         user += ("\nThe business owner supplied these official documents (verified authentic). Use them; check online "
                  "whether a newer version exists and use the newer one if so:\n" + json.dumps(seeds, ensure_ascii=False))
     tools = [{**WEB_SEARCH, "max_uses": 6}, {**WEB_FETCH, "max_uses": 8, "max_content_tokens": 8000}]
-    return call_json(item["slug"], "M0:official", SONNET, OFFICIAL_SYSTEM, user, tools=tools, max_tokens=24000)
+    try:
+        out = call_json(item["slug"], "M0:official", SONNET, OFFICIAL_SYSTEM, user, tools=tools, max_tokens=24000)
+        if out.get("required_items"):
+            return out
+    except (ValueError, json.JSONDecodeError) as e:
+        log({"slug": item["slug"], "stage": "M0:official", "fallback": str(e)[:120]})
+    # Fallback: no tools — work from the owner-supplied document(s) and the fact-checked research.
+    return call_json(item["slug"], "M0:official-offline", SONNET, OFFICIAL_SYSTEM, user +
+                     "\nDo not use tools. Work only from the documents and research above; mark document versions as "
+                     "supplied.", max_tokens=24000)
 
 
 def requirements(item: dict, d: dict, citations: list | None = None, official: dict | None = None) -> dict:
