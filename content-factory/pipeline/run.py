@@ -276,23 +276,26 @@ def assemble(item: dict, facts: dict) -> dict:
             f"{item['program']}\nState hints: {item['terms']}\nas_of: {time.strftime('%Y-%m')}\n\n"
             f"FACTS:\n{json.dumps(facts, ensure_ascii=False)}\n\nEXAMPLE of a finished bundle for the same program "
             f"in another state (structure and depth only; do not copy its numbers):\n{ex}\n")
-    part1 = call(item["slug"], "B1:model", SONNET, ASSEMBLE_SYSTEM,
-                 base + "\nProduce PART 1 as a JSON object with keys: bundle_slug, state, state_code, program, "
-                 "state_program_name, as_of, report_title, sources, key_numbers (8-12), not_claimed, regulators, "
-                 "regulations, rates, contacts, financial_model (3-6 realistic configurations meeting the state's "
-                 "staffing rules, at least one an expert operator would choose to be profitable if real rates allow; "
-                 "rent and building costs fixed and sized per configuration with opex_overrides).",
-                 max_tokens=32000)
-    d = parse_json(part1)
+    slug = item["slug"]
+    # B1a: evidence and reference data
+    d = parse_json(call(slug, "B1a:evidence", SONNET, ASSEMBLE_SYSTEM, base +
+        "\nProduce a JSON object with keys: bundle_slug, state, state_code, program, state_program_name, as_of, "
+        "report_title, sources (S1..Sn from the fact URLs you use), key_numbers (8-12), not_claimed, regulators, "
+        "regulations, rates, contacts. Keep source titles short.", max_tokens=40000))
+    # B1b: financial model
+    fm_prompt = (base + "\nEVIDENCE already written (cite these source ids):\n" + json.dumps(d, ensure_ascii=False) +
+        "\nProduce ONLY a JSON object {\"financial_model\": {...}} per the spec: 3-6 realistic configurations that "
+        "meet the state's staffing rules, at least one an expert operator would choose to be profitable if real "
+        "rates allow; rent and building costs fixed and sized per configuration with opex_overrides; startup_costs "
+        "inside financial_model. Every numeric field must be a number, never null.")
+    fm = parse_json(call(slug, "B1b:model", SONNET, ASSEMBLE_SYSTEM, fm_prompt, max_tokens=40000))
+    d["financial_model"] = fm.get("financial_model", fm)
     err = model_error(d)
     if err:
-        part1 = call(item["slug"], "B1:retry", SONNET, ASSEMBLE_SYSTEM,
-                     base + "\nYour previous PART 1 failed validation: " + err + "\nPrevious PART 1:\n" +
-                     json.dumps(d, ensure_ascii=False) + "\nReturn the corrected full PART 1 JSON. Every numeric "
-                     "field (capacity, rate, units_per_client_month, share_of_clients, amount, wage_hourly, monthly, "
-                     "occupancy values, payroll_burden percentages) must be a number, never null.",
-                     max_tokens=32000)
-        d = parse_json(part1)
+        fm = parse_json(call(slug, "B1b:retry", SONNET, ASSEMBLE_SYSTEM, fm_prompt + "\nYour previous attempt failed "
+                             "validation: " + err + "\nPrevious attempt:\n" + json.dumps(d["financial_model"]),
+                             max_tokens=40000))
+        d["financial_model"] = fm.get("financial_model", fm)
         err = model_error(d)
         if err:
             raise ValueError(f"financial model invalid after retry: {err}")
@@ -305,16 +308,39 @@ def assemble(item: dict, facts: dict) -> dict:
                         "margin": round(r.results["default"]["margin"], 3),
                         "breakeven_occupancy": None if r.breakeven_occupancy is None else round(r.breakeven_occupancy, 3),
                         "first_profit_month": o["first_profitable_month"], "cash_needed": round(o["cash_needed"])})
-    part2 = call(item["slug"], "B2:narrative", SONNET, ASSEMBLE_SYSTEM,
-                 base + "\nPART 1 (already written):\n" + json.dumps(d, ensure_ascii=False) +
-                 "\n\nMODEL RESULTS computed from PART 1 (use these exact numbers in the narrative):\n" +
-                 json.dumps(summary) +
-                 "\n\nProduce PART 2 as a JSON object with keys: sections (all 10, markdown with [S#] cites, "
-                 "executive_summary through recommendations; financial_narrative explains drivers, sensitivities "
-                 "and the path to profit honestly), checklist (50-90 items in phased order, each with phase, "
-                 "priority, task, instructions, cite, source_id), corrections_vs_previous (empty list).",
-                 max_tokens=32000)
-    d.update(parse_json(part2))
+    ctx = (base + "\nBUNDLE SO FAR:\n" + json.dumps(d, ensure_ascii=False) +
+           "\n\nMODEL RESULTS computed from it (use these exact numbers):\n" + json.dumps(summary))
+    sec = parse_json(call(slug, "B2a:sections", SONNET, ASSEMBLE_SYSTEM, ctx +
+        "\n\nProduce ONLY {\"sections\": {...}} with all 10 sections (executive_summary, service_model, "
+        "licensing_pathway, reimbursement, demand, operations, market_conditions, financial_narrative, risks, "
+        "recommendations), markdown with [S#] cites; financial_narrative explains drivers, sensitivities and the path "
+        "to profit honestly.", max_tokens=40000))
+    d["sections"] = sec.get("sections", sec)
+    chk = parse_json(call(slug, "B2b:checklist", SONNET, ASSEMBLE_SYSTEM, ctx +
+        "\n\nProduce ONLY {\"checklist\": [...]} with 50-80 items in phased order (\"PHASE 1 — ...\"), each with "
+        "phase, priority (CRITICAL|HIGH|MEDIUM), task, instructions (how, where, cost, time), cite, source_id.",
+        max_tokens=40000))
+    d["checklist"] = chk.get("checklist", chk)
+    d["corrections_vs_previous"] = []
+    return normalize(d)
+
+
+def normalize(d: dict) -> dict:
+    """Drop incomplete items left by truncation and fill optional fields the generators read."""
+    d["checklist"] = [c for c in d.get("checklist", []) if isinstance(c, dict) and c.get("task") and c.get("phase")]
+    for c in d["checklist"]:
+        c.setdefault("priority", "MEDIUM"); c.setdefault("instructions", ""); c.setdefault("cite", "")
+    d["sources"] = [s for s in d.get("sources", []) if isinstance(s, dict) and s.get("id")]
+    for s in d["sources"]:
+        for k in ("title", "publisher", "url", "type", "accessed"):
+            s.setdefault(k, "")
+    d["key_numbers"] = [k for k in d.get("key_numbers", []) if isinstance(k, dict) and k.get("metric")]
+    d["rates"] = [r for r in d.get("rates", []) if isinstance(r, dict) and r.get("service") is not None]
+    d["regulators"] = [r for r in d.get("regulators", []) if isinstance(r, dict) and r.get("name")]
+    d["regulations"] = [r for r in d.get("regulations", []) if isinstance(r, dict) and r.get("cite")]
+    d["contacts"] = [c for c in d.get("contacts", []) if isinstance(c, dict) and c.get("name")]
+    if "startup_costs" in d and "financial_model" in d:  # misplaced by a patch
+        d["financial_model"].setdefault("startup_costs", d.pop("startup_costs"))
     return d
 
 
@@ -375,13 +401,14 @@ def verify(item: dict, d: dict) -> dict:
             "rate, wage (BLS OEWS May 2025; at/above 2026 minimum wage), fee and when it is paid, staffing rule, "
             "timeline and contact. Also flag missing mandatory costs and staffing that violates the rules.\n\n"
             + json.dumps(focus, ensure_ascii=False))
-    tools = [{**WEB_FETCH, "max_uses": 25, "max_content_tokens": 5000}, {**WEB_SEARCH, "max_uses": 5}]
-    return parse_json(call(item["slug"], "D:verify", SONNET, VERIFY_SYSTEM, user, tools=tools, max_tokens=12000))
+    tools = [{**WEB_FETCH, "max_uses": 15, "max_content_tokens": 4000}, {**WEB_SEARCH, "max_uses": 4}]
+    return parse_json(call(item["slug"], "D:verify", SONNET, VERIFY_SYSTEM, user, tools=tools, max_tokens=24000))
 
 
 FIX_SYSTEM = """You apply fact-check corrections to a research JSON. Return ONLY JSON:
 {"patches":[{"path":"dot.path[0].with.indexes","value":<new value>}], "log":[{"issue":"...","change":"..."}]}
-Paths address existing fields (or a new list index equal to the list length to append). Fix every place the
+Paths address existing fields (or a new list index equal to the list length to append). Startup costs live at
+financial_model.startup_costs; opex at financial_model.opex; configurations at financial_model.configurations[i]. Fix every place the
 wrong value appears, including narrative text (replace whole strings). Never raise rates or remove required costs
 to improve profit. Unverifiable claims move to not_claimed (append) and out of customer text."""
 
@@ -417,7 +444,7 @@ def fix(item: dict, d: dict, findings: dict) -> dict:
                                                                          "contacts")}, ensure_ascii=False) +
             "\n\nCURRENT text fields:\n" + json.dumps(text_fields, ensure_ascii=False) +
             "\n\nChecklist items referenced by findings are addressed as checklist[i].field.")
-    out = parse_json(call(item["slug"], "E:fix", SONNET, FIX_SYSTEM, user, max_tokens=32000))
+    out = parse_json(call(item["slug"], "E:fix", SONNET, FIX_SYSTEM, user, max_tokens=40000))
     applied = 0
     for p in out.get("patches", []):
         try:
@@ -450,12 +477,16 @@ def process(item: dict) -> dict:
     problems = code_checks(d)
     if problems:
         log({"slug": slug, "stage": "C:checks", "problems": problems[:20]})
+    pre_fix_fm = json.loads(json.dumps(d["financial_model"]))
     findings = verify(item, d)
     (CF / "verification").mkdir(exist_ok=True)
     (CF / "verification" / f"{slug}.json").write_text(json.dumps(
         {"bundle_slug": slug, "checked_at": time.strftime("%Y-%m-%d"), "pre_fix_code_checks": problems, **findings},
         indent=2, ensure_ascii=False))
-    d = fix(item, d, findings)
+    d = normalize(fix(item, d, findings))
+    if model_error(d):  # a bad patch broke the model: keep the pre-fix model
+        log({"slug": slug, "stage": "E:rollback", "error": model_error(d)})
+        d["financial_model"] = json.loads(json.dumps(pre_fix_fm))
     remaining = code_checks(d)
     research.write_text(json.dumps(d, indent=2, ensure_ascii=False))
     subprocess.run([sys.executable, str(CF / "generators" / "build.py"), str(research)], check=True)
