@@ -1,0 +1,67 @@
+name: Bundle pipeline
+# Runs when content-factory/pipeline/run-request.json changes (or manually from the Actions tab).
+on:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Comma-separated bundle slugs (blank = next in queue)"
+        required: false
+        default: ""
+      limit:
+        description: "Max bundles this run (0 = all)"
+        required: false
+        default: "0"
+  push:
+    branches: [main]
+    paths:
+      - content-factory/pipeline/run-request.json
+permissions:
+  contents: write
+concurrency:
+  group: bundle-pipeline
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install LibreOffice, fonts and Python packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-calc fonts-liberation > /dev/null
+          pip install -q anthropic openpyxl weasyprint markdown pypdf
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INPUT_SLUGS: ${{ github.event.inputs.slugs }}
+          INPUT_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          REQ=content-factory/pipeline/run-request.json
+          SLUGS="${INPUT_SLUGS}"; LIMIT="${INPUT_LIMIT:-0}"; BUDGET=280; WORKERS=4
+          if [ -z "$SLUGS" ] && [ -f "$REQ" ]; then
+            SLUGS=$(python3 -c "import json;print(','.join(json.load(open('$REQ')).get('slugs',[])))")
+            LIMIT=$(python3 -c "import json;print(json.load(open('$REQ')).get('limit',0))")
+            BUDGET=$(python3 -c "import json;print(json.load(open('$REQ')).get('budget_usd',280))")
+            WORKERS=$(python3 -c "import json;print(json.load(open('$REQ')).get('workers',4))")
+          fi
+          export BUDGET_USD=$BUDGET
+          python3 content-factory/pipeline/run.py --slugs "$SLUGS" --limit "$LIMIT" --workers "$WORKERS"
+      - name: Save results to the repo
+        if: always()
+        run: |
+          git config user.name "cls-factory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content-factory/research content-factory/verification content-factory/status content-factory/pipeline/work || true
+          git commit -m "Pipeline results [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break || sleep 5; done
+      - name: Upload finished files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle-files
+          path: content-factory/output/
+          if-no-files-found: ignore
