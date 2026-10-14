@@ -251,1252 +251,1934 @@
   ],
   "policies": [
     {
-      "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Organization, Licensee and Manager Responsibilities",
+      "id": "LIC-01",
+      "category": "Subchapter B – Licensing",
+      "title": "License Type, Capacity, Renewal and Regulatory Compliance",
+      "covers": [],
       "citations": [
-        "C1",
-        "C2",
         "C15",
         "C16",
-        "C24"
-      ],
-      "federal": [
-        "29 USC 206 (minimum wage)"
-      ],
-      "state_specifics": [
-        "The facility designates a manager in writing with authority over operations (§553.253(a)).",
-        "Manager must be on duty 40 hrs/week and may manage only one facility. Exception: a small Type A manager may have up to 4 facilities with no more than 16 residents in total and must be reachable by phone or pager off-site.",
-        "Name in writing an employee competent and authorized to act in the manager's absence.",
-        "Manager qualifications: small facility, high school diploma or equivalent; large facility (17+), associate's degree (nursing, health care management or related), bachelor's degree, or high school credential plus 1 year of management experience.",
-        "Manager training: 24-hr ALF management course, with 8 hrs on the standards within 3 months of hire, completed by the first anniversary. Facility in-services do not count. Keep evidence of content, hours, dates and provider. An exemption applies for a comparable prior course, or for a manager moving between licensed ALFs with a break of 30 days or less.",
-        "Manager CE: 12 hrs per year covering at least two of the listed areas. Also 4 hrs of Alzheimer's/dementia training with a competency test, then 2 hrs per year (§553.254(b)).",
-        "Document the license category (Type A or B; small ≤16 or large 17+) and the evacuation capability of every resident against it."
-      ]
-    },
-    {
-      "id": "GOV-02",
-      "category": "Governance and Administration",
-      "title": "Licensure, Renewal and Regulatory Compliance",
-      "citations": [
         "C17",
         "C18",
-        "C24",
         "C29",
+        "C24",
         "C21",
         "C22",
-        "C19",
         "C30"
       ],
-      "federal": [],
-      "state_specifics": [
-        "The license is HHSC LTCR Type A or Type B, issued for 3 years. Fee is $300 + $15 per bed, capped at $2,250. Alzheimer's certification adds $300.",
-        "File renewal at least 45 days before expiration. A later filing adds a late fee of half the basic fee (§553.47(b)).",
-        "Get HHSC approval before adding beds ($15 per added bed, and the building must meet construction rules) (§§553.39, 553.47(a)(2)).",
-        "Applications and changes are filed through TULIP on HHSC Form 3720 (3721 adds Alzheimer's certification).",
-        "HHSC may assess an annual trust fund fee, payable within 90 days of notice (§553.47(d)).",
-        "HHSC contacts: Licensing 512-438-2630, LTC_ALF_ICF_Licensing@hhs.texas.gov; LTCR Policy 512-438-3161, LTCRPolicy@hhs.texas.gov; complaint and incident intake 800-458-9858.",
-        "Facilities of 6 or fewer residents that rely on community-home status (HRC Ch. 123) keep zoning and half-mile spacing documentation on file.",
-        "Surveys cover the Life Safety Code and health inspections. Subchapter G covers investigations and informal dispute resolution. Subchapter H covers enforcement."
-      ]
-    },
-    {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review, Document Control and Rule Change Tracking",
-      "citations": [
-        "C5",
-        "C14",
-        "C24"
+      "federal": [
+        "ADA (28 CFR Part 36)",
+        "Title VI, Civil Rights Act (45 CFR Part 80)"
       ],
-      "federal": [],
       "state_specifics": [
-        "Written resident policies must be available to staff and to residents or responsible parties at admission. Notify residents of any policy change in writing before its effective date (§553.259(c)(4)–(5)).",
-        "The emergency plan, evacuation summary and contact lists are reviewed at least annually. Update them within 30 days after a disaster shortcoming, a drill shortcoming, or a change in facility policy or HHSC rule, and document the review date and changes (§553.275(d)).",
-        "Track HHSC rule changes. A proposed Chapter 553 revision (Proposed Rule 25R031, Texas Register, Sept. 4, 2026) would change on-duty staffing, add food handler and infection-control training, and renumber sections. It is proposed, not adopted; update citations when it is adopted."
+        "Type A: residents evacuate without staff help, no routine night attendance. Type B: may need evacuation help and night attendance, not permanently bedfast (§553.5).",
+        "Small = 16 or fewer residents; large = 17 or more (§553.3).",
+        "3-year license fee: $300 + $15/bed, cap $2,250. Alzheimer's certification +$300. Capacity increase $15/bed, with HHSC approval first (§§553.47, 553.39).",
+        "File renewal at least 45 days before expiration or pay a late fee of half the basic fee (§§553.33, 553.47).",
+        "Staff cooperate with HHSC inspections, complaint investigations, informal dispute resolution and enforcement (Subchapters G and H)."
       ]
     },
     {
-      "id": "GOV-04",
-      "category": "Governance and Administration",
-      "title": "Quality Assurance, Plans of Correction and Survey Response",
-      "citations": [
-        "C5",
-        "C14",
-        "C21",
-        "C22"
+      "id": "LIC-02",
+      "category": "Subchapter B – Licensing",
+      "title": "Policy and Procedure Manual Submission for Licensure (Including Alzheimer's Certification)",
+      "covers": [
+        "553.25(d)(1)(A)",
+        "553.29(f)(1)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Chapter 553 as retrieved does not prescribe a QAPI program for ALFs. This is a facility-adopted policy built on the rule-driven review points.",
-        "Survey response uses HHSC Form 3724 (Statement of Licensing Violations and Plan of Correction) and Form 3614-A (Report of Contact). Placement-related submissions are due within 10 working days of receiving them (§553.259(e)).",
-        "Review points: drill shortcomings corrected within 30 days (§553.275(d)(2)(C)); annual resident assessment and service plan review; incident and abuse report trends; infection data; resident grievances.",
-        "Informal dispute resolution is available under Subchapter G."
-      ]
-    },
-    {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
-      "title": "Corporate Compliance, Fraud and Billing Integrity",
       "citations": [
         "C17",
-        "C25",
-        "C26",
-        "C28",
-        "C8"
+        "C1",
+        "C4",
+        "C20",
+        "C29"
       ],
-      "federal": [
-        "42 CFR 438.602",
-        "31 USC 3729 (False Claims Act)",
-        "42 USC 1320a-7b(b) (Anti-Kickback)",
-        "42 CFR 441.301(c)(4) (HCBS settings, for STAR+PLUS HCBS)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "HHSC must deny a license to an applicant or controlling person excluded from Medicare/Medicaid or with a license revoked in the past 5 years (§553.17). Screen owners and staff against exclusion lists.",
-        "STAR+PLUS ALFs are screened and enrolled and contract with MCOs. Bill the correct HCPCS T2031 level code and verify each MCO's billing guide.",
-        "Keep the simple financial record of charges billed to each resident, available to HHSC (§553.265(b)). Issue receipts on request.",
-        "STAR+PLUS room and board can be reduced but not waived (Handbook §§7240–7241.1)."
+        "A good-standing applicant requesting a license before the health inspection submits this manual through the HHSC online portal (TULIP) with evidence of §553.257(b) compliance and staff credentials under §553.253.",
+        "An applicant requesting Alzheimer's certification before the health inspection also submits the Subchapter F policies for approval, with documentation of Subchapter F and §553.257(b) compliance.",
+        "Certification applies to a Type B facility or unit only (§553.27). Use Form 3721 with Form 3720.",
+        "The application packet needs the local fire authority documentation and the pre-licensure training certificate.",
+        "The Administrator keeps a credential and compliance file for each employee, ready for submission."
       ]
     },
     {
-      "id": "GOV-06",
-      "category": "Governance and Administration",
-      "title": "Required Postings and Providers' Bill of Rights",
+      "id": "SAF-01",
+      "category": "Subchapter D – Safety Operations (§553.104)",
+      "title": "Fire Safety Plan, Evacuation and Drills",
+      "covers": [
+        "553.104(c)",
+        "553.104(c)(3)",
+        "553.104(c)(4)-(8)"
+      ],
       "citations": [
-        "C11",
-        "C9",
+        "C19",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The written fire safety plan is in effect at all times. Supervisory personnel get copies, and a copy is kept readily available in the facility.",
+        "The plan covers evacuation to an area of refuge, evacuation from the building when necessary, and special staff actions and fire protection procedures to keep each resident safe.",
+        "Large Type B: include the NFPA 101 'Procedure in Case of Fire' provisions (§19.7.2 existing / §18.7.2 new).",
+        "Review the plan at least annually and revise it. Instruct employees on their duties at least annually and whenever the plan is revised.",
+        "Keep the plan current with residents' evacuation capabilities, consistent with Type A/B status."
+      ]
+    },
+    {
+      "id": "SAF-02",
+      "category": "Subchapter D – Safety Operations (§553.104)",
+      "title": "Smoking, E-Cigarette/Vaping and Oxygen Safety",
+      "covers": [
+        "553.104(f)",
+        "553.104(n)(2)"
+      ],
+      "citations": [
+        "C19"
+      ],
+      "federal": [
+        "OSHA 29 CFR 1910.1000 series (employee exposure, as applicable)"
+      ],
+      "state_specifics": [
+        "The written smoking policy must be enforced even if the policy is that smoking is not permitted. It must address e-cigarettes and vaping devices.",
+        "If smoking is permitted: designated smoking areas for residents and staff, and noncombustible, safely designed ashtrays.",
+        "Written procedures for resident use, storage and handling of oxygen cylinders and liquid oxygen containers in residents' possession and control.",
+        "Staff review oxygen and smoking rules at orientation and annually."
+      ]
+    },
+    {
+      "id": "SAF-03",
+      "category": "Subchapter D – Safety Operations (§553.104)",
+      "title": "Fire Alarm and Fire Sprinkler Inspection, Testing and Maintenance",
+      "covers": [
+        "553.104(g)",
+        "553.104(h)"
+      ],
+      "citations": [
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Fire alarm: inspect, test and maintain per NFPA 72 (NFPA 720 where CO detection is provided) at least every six months, through a contract with a State Fire Marshal-registered company.",
+        "Sprinkler system (if equipped): inspect, test and maintain per NFPA 25 at least every six months.",
+        "Keep documentation onsite.",
+        "New small Type A and Type B facilities must have an NFPA 13, 13R or 13D sprinkler system with electrical supervision and a manual fire alarm with smoke detection (§§553.215, 553.225)."
+      ]
+    },
+    {
+      "id": "EMP-01",
+      "category": "§553.253 Employee Qualifications and Training",
+      "title": "Manager Designation, Qualifications and Backup",
+      "covers": [
+        "553.253(a)"
+      ],
+      "citations": [
+        "C1",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Designate the manager in writing with authority over operation. The manager is on duty 40 hrs/week and may manage only one facility (a small Type A manager may oversee up to 4 facilities with no more than 16 residents total).",
+        "Small facility: high school diploma or equivalent. Large facility: associate's degree (nursing, health care management or related), bachelor's degree, or high school credential + 1 year of management experience.",
+        "Manager completes the 24-hr ALF management course by the first anniversary, with 8 hrs on the standards within 3 months, and 12 hrs of CE every year.",
+        "Designate in writing an employee competent and authorized to act in the manager's absence."
+      ]
+    },
+    {
+      "id": "EMP-02",
+      "category": "§553.253 Employee Qualifications and Training",
+      "title": "Staffing Levels, 24-Hour Staffing Pattern and Night Staffing",
+      "covers": [
+        "553.253(c)"
+      ],
+      "citations": [
+        "C1",
+        "C15",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "There is no numeric ratio. Staffing ratios are set from residents' needs identified in service plans, and an attendant is in the facility whenever residents are present.",
+        "Disclose the normal 24-hr staffing pattern to prospective residents and post it monthly.",
+        "Staff must be sufficient for order, safety and cleanliness, medication help, meals, laundry, supervision and safe evacuation.",
+        "Night shift: small Type A, immediately available. Large Type A and all Type B, immediately available and awake."
+      ]
+    },
+    {
+      "id": "EMP-03",
+      "category": "§553.253 Employee Qualifications and Training",
+      "title": "Orientation, Attendant On-the-Job Training and Annual In-Service Training",
+      "covers": [
+        "553.253(d)(1)",
+        "553.253(d)(2)",
+        "553.253(d)(3)-(4)"
+      ],
+      "citations": [
+        "C1",
+        "C27"
+      ],
+      "federal": [
+        "OSHA 29 CFR 1910.1030 (bloodborne pathogens training)"
+      ],
+      "state_specifics": [
+        "All staff: 4-hr orientation before assuming job duties. It covers abuse/neglect reporting, confidentiality, universal precautions, when to notify the manager, residents' rights, and emergency/evacuation procedures.",
+        "Attendants: 16 hrs supervised on-the-job training within the first 16 hrs after orientation. It covers ADLs, health conditions, accident prevention, first aid, disruptive behavior, behavior management and fall prevention.",
+        "Direct care staff: 6 hrs/year, competency-based, including 1 hr fall prevention and 1 hr behavior management.",
+        "Licensed nurses, CNAs and certified medication aides: annual in-service suited to their job duties.",
+        "Medication aide permit: 100 classroom + 20 lab + 10 clinical hrs, annual renewal."
+      ]
+    },
+    {
+      "id": "ALZ-01",
+      "category": "§553.254 / §553.255 Alzheimer's Staff Training and All-Staff Policy",
+      "title": "Dementia Training and All-Staff Policy for Residents with Alzheimer's Disease or Related Disorders",
+      "covers": [
+        "553.254",
+        "553.255(a)",
+        "553.255(b)"
+      ],
+      "citations": [
+        "C2",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Manager: 4 hrs + competency evaluation, then 2 hrs annual CE. Personal care staff: 4 hrs + competency evaluation before personal care, then 2 hrs CE.",
+        "Non-direct staff with recurring contact (housekeeping, front desk, maintenance) complete training and a competency evaluation.",
+        "Written policy requires direct-care staff to complete dementia training and ensures care meets each resident's diagnosis-specific needs.",
+        "Training content: symptoms of dementia, stages of Alzheimer's, person-centered behavioral interventions, and communication.",
+        "Issue certificates and keep them per retention policy. Training carries over if the employment gap is under 2 years."
+      ]
+    },
+    {
+      "id": "HR-01",
+      "category": "§553.257 Human Resources",
+      "title": "Personnel Records",
+      "covers": [
+        "553.257(a)"
+      ],
+      "citations": [
+        "C4",
+        "C23"
+      ],
+      "federal": [
+        "I-9 / employment eligibility (8 CFR 274a)"
+      ],
+      "state_specifics": [
+        "Each file holds: criminal history check, annual EMR check, annual NAR check, initial TB screening, vaccine-policy compliance or exemption, signed criminal liability statement, and signed §250.006 disclosure statement (including residence in another state in the past 5 years).",
+        "Files are current and complete, and training certificates are filed.",
+        "Keep files confidential and available to HHSC."
+      ]
+    },
+    {
+      "id": "HR-02",
+      "category": "§553.257 Human Resources",
+      "title": "Background Checks, Employee Registries and Staff Conduct",
+      "covers": [
+        "553.257(b)"
+      ],
+      "citations": [
+        "C4",
+        "C23"
+      ],
+      "federal": [
+        "Fair Credit Reporting Act (if using consumer reporting agencies)",
+        "42 CFR 1001 (OIG exclusion screening for Medicaid providers)"
+      ],
+      "state_specifics": [
+        "Before hire, search the Employee Misconduct Registry (EMR) and Nurse Aide Registry (NAR), and repeat at least every 12 months. File the results.",
+        "Do not hire or keep anyone listed as unemployable or barred by HSC §250.006.",
+        "Name-based criminal check in each state of residence in the past 5 years. The person may be hired pending results but not in a direct-contact position.",
+        "Suspend, and do not reinstate, an employee HHSC finds engaged in reportable conduct until appeals are exhausted.",
+        "Give EMR notification per §561.3. Staff conduct and professional boundaries rules apply to all staff."
+      ]
+    },
+    {
+      "id": "ADM-01",
+      "category": "§553.259 Admission Policies and Procedures",
+      "title": "Pre-Admission Screening, Admission Criteria and Admission Health Examination",
+      "covers": [
+        "553.259(a)(1)",
+        "553.259(a)(5)-(6)"
+      ],
+      "citations": [
+        "C5",
+        "C15",
+        "C19"
+      ],
+      "federal": [
+        "ADA",
+        "Title VI, Civil Rights Act"
+      ],
+      "state_specifics": [
+        "Do not admit or retain a resident whose needs the facility cannot meet and who cannot get the services from an outside resource. Additional services need written concurrence of the resident, physician or legal representative.",
+        "Check that the resident's evacuation capability matches the license type (§553.259(a)(1)).",
+        "Physician health exam within 30 days before or 14 days after admission.",
+        "At admission, collect identifying information: name, SSN, usual residence, sex, marital status, DOB, place of birth, occupation, emergency contacts, physician, pharmacy preference, and Medicaid/Medicare number."
+      ]
+    },
+    {
+      "id": "ADM-02",
+      "category": "§553.259 Admission Policies and Procedures",
+      "title": "Admission Agreement, Disclosure Statement, Rates, Fees and Refunds",
+      "covers": [
+        "553.259(a)(2)",
+        "553.259(a)(3)-(4)"
+      ],
+      "citations": [
+        "C5",
         "C12"
       ],
       "federal": [],
       "state_specifics": [
-        "Post in a public area readily available to residents, employees and visitors: license; HHSC complaint sign; inspection-report availability notice with the HHSC toll-free number; latest inspection report; Residents' Bill of Rights (in each resident's primary language); Providers' Bill of Rights; local ombudsman number and 1-800-252-2412; 24-hr staffing pattern (updated monthly); abuse sign with 1-800-458-9858.",
-        "Post the 8½ x 11 'Electronic Monitoring' notice at the main entrance (§553.267(d)(7)).",
-        "Advertising and promotional material must comply with §553.272. If memory care is marketed, give the Memory Care Disclosure Statement."
+        "Written admission agreement stating services and charges, with a statement if services or supplies could be a Medicare benefit.",
+        "Share the disclosure statement, rate schedule and service plan with outside resources providing additional services.",
+        "Memory Care Disclosure Statement (Form 3650) if the facility advertises memory care. State whether it is Alzheimer's certified (Form 3641 if certified).",
+        "Agreement states deposit, refund and discharge terms."
       ]
     },
     {
-      "id": "RR-01",
-      "category": "Resident Rights",
-      "title": "Resident Rights and Responsibilities (Residents' Bill of Rights)",
+      "id": "ADM-03",
+      "category": "§553.259 Admission Policies and Procedures",
+      "title": "Resident Assessment, Reassessment and Individual Service Plan",
+      "covers": [
+        "553.259(b)"
+      ],
       "citations": [
-        "C9",
         "C5",
-        "C11"
-      ],
-      "federal": [
-        "42 USC 3604 (Fair Housing Act)"
-      ],
-      "state_specifics": [
-        "Give every resident a copy of the Residents' Bill of Rights at admission and post it (§§553.259(c)(2), 553.267(a)(1)).",
-        "Rights cover mail, visits at any reasonable hour, a telephone, privacy, choice of physician, refusal of treatment, a locked personal area, finances, access to records, and temporary or permanent departure.",
-        "Residents are told by the 30th day after admission whether they are entitled to Medicare or Medicaid benefits and which items and services are covered (§553.267(a)(3)(W)).",
-        "A married couple receiving similar services may share a room."
-      ]
-    },
-    {
-      "id": "RR-02",
-      "category": "Resident Rights",
-      "title": "Grievances and Complaints",
-      "citations": [
-        "C9",
-        "C13",
-        "C11"
+        "C26"
       ],
       "federal": [],
       "state_specifics": [
-        "A resident may complain about care or treatment anonymously or through a designee. The provider must respond promptly and may not discriminate or retaliate (§553.267(a)(3)(H), §553.273(e)).",
-        "Post the HHSC complaint sign and the toll-free number. HHSC complaints and incident intake: 800-458-9858.",
-        "Complaints about abuse, neglect or exploitation follow the SAF-01 policy, not an internal grievance track."
+        "Comprehensive assessment (items A–T) and service plan within 14 days of admission.",
+        "Service plan signed by the resident or responsible person. Update annually and on significant change.",
+        "Respite and emergency admission provisions apply.",
+        "STAR+PLUS members also get a health assessment within 3 days of admission (see MED-01)."
       ]
     },
     {
-      "id": "RR-03",
-      "category": "Resident Rights",
-      "title": "Ombudsman Access",
+      "id": "ADM-04",
+      "category": "§553.259 Admission Policies and Procedures",
+      "title": "Admission Packet, Written Resident Policies and Required Notices",
+      "covers": [
+        "553.259(c)(1)-(3)",
+        "553.259(c)(4)",
+        "553.259(c)(5)-(7)"
+      ],
+      "citations": [
+        "C5",
+        "C9",
+        "C11",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Before admission, explain and give the disclosure statement (document receipt), the Residents' Bill of Rights, and the HHSC abuse/neglect/exploitation hotline number to the resident and family (document receipt).",
+        "Written resident policies cover residents accepted, services, charges, refunds, responsibilities, privileges and rules.",
+        "Give policies to residents or representatives at admission, with documented notice of changes before they take effect.",
+        "Give HHSC rules and facility policy on restraint and seclusion before or at admission.",
+        "Give a written copy of the emergency plan or an evacuation summary."
+      ]
+    },
+    {
+      "id": "ADM-05",
+      "category": "§553.259 Admission Policies and Procedures",
+      "title": "Advance Directives",
+      "covers": [
+        "553.259(d)"
+      ],
+      "citations": [
+        "C5"
+      ],
+      "federal": [
+        "HIPAA Privacy Rule 45 CFR 164 (records)"
+      ],
+      "state_specifics": [
+        "Written policy on implementing advance directives, with a clear statement of any procedure the facility is unwilling or unable to provide or withhold.",
+        "Give written notice to residents at admission, including the order of preference for incapacitated residents.",
+        "Failure to inform carries a $500 penalty (§553.259(d))."
+      ]
+    },
+    {
+      "id": "ADM-06",
+      "category": "§553.259 Admission Policies and Procedures",
+      "title": "Aging in Place, Inappropriate Placement, Evacuation Waiver, Discharge and Transfer",
+      "covers": [
+        "553.259(e)"
+      ],
+      "citations": [
+        "C5",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Inappropriate placement procedure: Forms 1124, 1125 and 1126, plus a detailed emergency plan, within 10 working days.",
+        "The disclosure statement describes the waiver process and the aging-in-place policy.",
+        "If the waiver is not obtained, discharge within 30 days.",
+        "Discharge only on grounds listed in the Bill of Rights, with 30 days' written notice. A serious threat allows immediate termination after notice to HHSC at 800-458-9858 (§553.267(b))."
+      ]
+    },
+    {
+      "id": "CC-01",
+      "category": "§553.261 Coordination of Care",
+      "title": "Medication Administration, Supervision and Self-Administration",
+      "covers": [
+        "553.261(a)"
+      ],
+      "citations": [
+        "C6",
+        "C27"
+      ],
+      "federal": [
+        "Controlled Substances Act (21 CFR 1300 series, as applicable)"
+      ],
+      "state_specifics": [
+        "Administer per physician's orders. Only a licensed nurse, a permitted medication aide under a nurse on duty or on call, or an RN-delegated employee may administer (PL 2023-22).",
+        "Keep a medication profile record per resident with name, strength, dosage, amount received, directions, route, Rx number, pharmacy and date issued.",
+        "Staff supervision is limited to the listed tasks. Monthly counseling for self-administering residents.",
+        "Report unusual reactions immediately. Keep a written record of missed doses."
+      ]
+    },
+    {
+      "id": "CC-02",
+      "category": "§553.261 Coordination of Care",
+      "title": "Medication Storage, Controlled Drug Diversion Prevention and Disposal",
+      "covers": [
+        "553.261(a)(5)",
+        "553.261(a)(6)"
+      ],
+      "citations": [
+        "C6"
+      ],
+      "federal": [
+        "DEA 21 CFR 1317 (disposal of controlled substances, as applicable)"
+      ],
+      "state_specifics": [
+        "Lock all medications. Store each resident's medication separately, refrigerated items in a locked refrigerator, and poisons and 'external use only' items separately.",
+        "If controlled drugs are stored, the policy must address diversion prevention.",
+        "Discontinued, deceased-resident and expired medications are kept separate and disposed of by a Texas-registered pharmacist.",
+        "Needles and syringes per 25 TAC §§1.131–1.137. Release medications to discharged residents on signed receipt."
+      ]
+    },
+    {
+      "id": "CC-03",
+      "category": "§553.261 Coordination of Care",
+      "title": "Accident, Injury, Acute Illness, Change of Condition, Falls and Skin Integrity",
+      "covers": [
+        "553.261(b)"
+      ],
+      "citations": [
+        "C6",
+        "C1"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Arrange emergency care or transfer. Immediately notify the physician and next of kin, responsible party or placing agency.",
+        "Describe and document each event on a separate report with final disposition.",
+        "Keep first aid supplies for burns, cuts and poisoning in one location.",
+        "Falls prevention (1 hr annual staff training) and skin integrity are addressed in service plans and in the change-of-condition notification process."
+      ]
+    },
+    {
+      "id": "CC-04",
+      "category": "§553.261 Coordination of Care",
+      "title": "Activities and Social Programming",
+      "covers": [
+        "553.261(d)"
+      ],
+      "citations": [
+        "C6",
+        "C26"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Provide an activity or social program for residents at least weekly.",
+        "STAR+PLUS members: at least 4 social activities per week.",
+        "Individualize activities to resident interests and abilities. Memory care units have additional standards (CAL-02)."
+      ]
+    },
+    {
+      "id": "CC-05",
+      "category": "§553.261 Coordination of Care",
+      "title": "Food Service, Dietary Services and Therapeutic Diets",
+      "covers": [
+        "553.261(e)"
+      ],
+      "citations": [
+        "C6"
+      ],
+      "federal": [
+        "FDA Food Code (as adopted by Texas, for food safety)"
+      ],
+      "state_specifics": [
+        "Designate a person responsible for food service. Serve at least three meals daily with no more than a 16-hr span between evening meal and breakfast.",
+        "Plan menus one week ahead, follow them, document variations, and keep records 30 days.",
+        "Therapeutic diets per physician order (dietitian-calculated where required).",
+        "Keep a four-day supply of staples and a one-day supply of perishables.",
+        "Follow items (1)–(18) on food sources, storage, temperatures, handwashing, sanitation and employee illness."
+      ]
+    },
+    {
+      "id": "CC-06",
+      "category": "§553.261 Coordination of Care",
+      "title": "Infection Prevention and Control Program",
+      "covers": [
+        "553.261(f)(1)",
+        "553.261(f)(5)",
+        "553.261(f)(6)"
+      ],
+      "citations": [
+        "C6"
+      ],
+      "federal": [
+        "OSHA 29 CFR 1910.1030 (bloodborne pathogens)"
+      ],
+      "state_specifics": [
+        "Establish, implement, enforce and maintain a policy for a safe, sanitary environment that prevents the spread of disease.",
+        "Written procedures for: monitoring key infectious agents including multidrug-resistant organisms; PPE and hand hygiene; cleaning and disinfecting surfaces; universal precautions; and removing soiled items from the environment at least daily.",
+        "Written procedure for making a rapid influenza diagnostic test available to a resident with flu-like symptoms."
+      ]
+    },
+    {
+      "id": "CC-07",
+      "category": "§553.261 Coordination of Care",
+      "title": "Communicable Disease, Tuberculosis Screening and Vaccine-Preventable Disease Policy",
+      "covers": [
+        "553.261(f)(3)-(4)",
+        "553.261(f)(9)"
+      ],
+      "citations": [
+        "C6",
+        "C4"
+      ],
+      "federal": [
+        "ADA (reasonable accommodation for exemptions)",
+        "CDC TB screening guidelines"
+      ],
+      "state_specifics": [
+        "Report residents with reportable diseases to the local health authority.",
+        "Employee TB screening within 2 weeks of employment and annually. Resident TB screening consistent with CDC guidelines.",
+        "Exclude infected employees from food handling or direct care.",
+        "Vaccine policy (HSC Ch. 224) must: specify vaccines by risk, verify, handle exemptions, protect residents from exempt staff, bar retaliation, keep records and set discipline.",
+        "The policy may include conscience exemptions and restrict contact during a public health disaster."
+      ]
+    },
+    {
+      "id": "CC-08",
+      "category": "§553.261 Coordination of Care",
+      "title": "Restraints, Seclusion and Wheelchair Self-Release Seat Belts",
+      "covers": [
+        "553.261(g)",
+        "553.261(h)"
+      ],
+      "citations": [
+        "C6",
+        "C9"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)(F) (HCBS modifications of rights, Medicaid residents)"
+      ],
+      "state_specifics": [
+        "Restraints for behavioral management, convenience or discipline and all seclusion are prohibited.",
+        "Restraint only on written physician authorization (circumstances and duration) or in a behavioral emergency.",
+        "Follow the rules on prohibited restraint types, the acceptable hold, post-restraint physician appointment, 24-hr notification and no retaliation for reporting.",
+        "Allow wheelchair self-release seat belts when the four conditions are met. Restraint-free facilities give residents a written statement."
+      ]
+    },
+    {
+      "id": "HMA-01",
+      "category": "§553.263 Health Maintenance Activities",
+      "title": "Nursing Services, Delegation, Health Maintenance Activities and Outside Health Professionals (Home Health/Hospice)",
+      "covers": [
+        "553.261(c)",
+        "553.263"
+      ],
+      "citations": [
+        "C6",
+        "C7",
+        "C27"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Coordinate services within each professional's scope. Do not provide ongoing services comparable to a nursing facility. Residents may contract with a HCSSA or independent professional.",
+        "Personal care staff perform a health maintenance activity (HMA) without delegation only after RN assessment and documentation under 22 TAC §225.6.",
+        "Conditions: stable and predictable, the resident directs the task, and written agreement.",
+        "RN reassessment on change of condition, at least annually, and every 6 months for residents with Alzheimer's. Non-HMA tasks need RN delegation under 22 TAC Ch. 225."
+      ]
+    },
+    {
+      "id": "REC-01",
+      "category": "§553.265 Resident Records and Retention",
+      "title": "Resident Records, Financial Records, Retention and Guardianship Documentation",
+      "covers": [
+        "553.265(a)-(b)",
+        "553.265(c)"
+      ],
+      "citations": [
+        "C8"
+      ],
+      "federal": [
+        "HIPAA 45 CFR 164.530(c) (safeguards)"
+      ],
+      "state_specifics": [
+        "Records are confidential and safeguarded against unauthorized use, loss or destruction.",
+        "Contents: admission form, assessments, service plan, physician orders, advance directives, physician exam, professional service documentation and guardianship papers.",
+        "Records are available to residents, legal representatives and HHSC.",
+        "Keep a simple financial record of charges and any personal funds handled, and issue receipts on request.",
+        "Request the guardianship order and letters at admission, on appointment and at each annual assessment. Follow up within 30 days and keep copies."
+      ]
+    },
+    {
+      "id": "REC-02",
+      "category": "§553.265 Resident Records and Retention",
+      "title": "Death of a Resident and Required Reports to the State",
+      "covers": [],
+      "citations": [
+        "C13",
+        "C14",
+        "C8",
+        "C21"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report a death resulting from abuse or neglect to HHSC at 800-458-9858 and to law enforcement (§553.273).",
+        "Notify the physician, next of kin or responsible party, and any hospice or HCSSA provider.",
+        "Release the resident's property and records per the admission agreement and policy.",
+        "Self-report fires and disaster-related deaths or injuries per §553.275(o) (see EMG-08).",
+        "STAR+PLUS: report changes in condition to the MCO by the next business day."
+      ]
+    },
+    {
+      "id": "RTS-01",
+      "category": "§553.267 Rights",
+      "title": "Residents' Bill of Rights and Providers' Bill of Rights",
+      "covers": [
+        "553.267(a)",
+        "553.267(b)-(c)"
+      ],
+      "citations": [
+        "C9",
+        "C11"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4) (HCBS settings, Medicaid residents)"
+      ],
+      "state_specifics": [
+        "Give each resident the Bill of Rights and post it in each resident's primary language.",
+        "Rights include freedom from abuse and from restraint, complaint without reprisal, unopened mail, visitors at reasonable hours, managing one's own finances with at least quarterly accounting, record access, physician choice, refusal of treatment and a locked personal area.",
+        "Notify residents by day 30 of Medicare/Medicaid entitlement.",
+        "Discharge only on listed grounds with 30 days' written notice. Post the Providers' Bill of Rights.",
+        "Allow HHSC and local authority access to residents."
+      ]
+    },
+    {
+      "id": "RTS-02",
+      "category": "§553.267 Rights",
+      "title": "Authorized Electronic Monitoring (AEM)",
+      "covers": [
+        "553.267(d)"
+      ],
+      "citations": [
+        "C9"
+      ],
+      "federal": [
+        "HIPAA 45 CFR 164 (recordings that contain PHI)"
+      ],
+      "state_specifics": [
+        "Permit AEM. Never refuse admission or discharge a resident because of an AEM request.",
+        "Forms: Form 3100 on admission, Form 0066 request, Form 0067 roommate consent.",
+        "Post a notice at the room entrance and an 8.5 x 11 'Electronic Monitoring' notice at the main entrance.",
+        "Make reasonable physical accommodation. Report abuse or neglect seen in recordings."
+      ]
+    },
+    {
+      "id": "RTS-03",
+      "category": "Resident Rights (Additional Required Policies)",
+      "title": "Grievances and Complaints",
+      "covers": [],
+      "citations": [
+        "C9",
+        "C11",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Residents may complain without reprisal.",
+        "Post the HHSC complaint-procedure sign and the toll-free ombudsman number 800-252-2412.",
+        "Document each complaint, the investigation and the response, and review them in QAPI.",
+        "Any abuse, neglect or exploitation complaint goes through ABU-01."
+      ]
+    },
+    {
+      "id": "RTS-04",
+      "category": "Resident Rights (Additional Required Policies)",
+      "title": "Resident Funds, Personal Property and Trust Accounts",
+      "covers": [],
+      "citations": [
+        "C8",
+        "C9",
+        "C26"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Residents manage their own finances, with at least a quarterly accounting for any funds the facility handles.",
+        "Keep a record of charges and any personal funds entrusted, and issue receipts on request.",
+        "STAR+PLUS: keep member trust fund records. Room and board cannot be waived (a lower amount may be accepted), is prorated in month one and is due on a written date.",
+        "Financial exploitation of $25 or more is reportable conduct."
+      ]
+    },
+    {
+      "id": "RTS-05",
+      "category": "Resident Rights (Additional Required Policies)",
+      "title": "Privacy, Confidentiality, HIPAA, Nondiscrimination and Language Access",
+      "covers": [],
+      "citations": [
+        "C8",
+        "C9",
+        "C10",
+        "C31"
+      ],
+      "federal": [
+        "HIPAA 45 CFR 160 and 164",
+        "ADA (28 CFR Part 36)",
+        "Title VI, Civil Rights Act (45 CFR Part 80)"
+      ],
+      "state_specifics": [
+        "Resident information is confidential. Release only with consent or as allowed by law.",
+        "HIPAA does not bar release to the ombudsman, who is a health oversight agency.",
+        "The Residents' Bill of Rights is posted in each resident's primary language.",
+        "No discrimination in admission or services on a protected basis. Provide interpreters and auxiliary aids as needed."
+      ]
+    },
+    {
+      "id": "OMB-01",
+      "category": "§553.269 Ombudsman Access",
+      "title": "State Long-Term Care Ombudsman Access to Residents and Records",
+      "covers": [
+        "553.269"
+      ],
       "citations": [
         "C10",
         "C31",
-        "C9",
         "C11"
       ],
       "federal": [
         "42 USC 3058g(b)",
         "45 CFR 1324.11(e)(2)",
-        "45 CFR 164.501"
+        "HIPAA 45 CFR 164.512(d)"
       ],
       "state_specifics": [
-        "The State Ombudsman, certified ombudsmen and interns have immediate, private, unimpeded access to the facility and residents at regular business or visiting hours. The State Ombudsman and certified ombudsmen may also enter at other times if circumstances require.",
-        "Release records to the ombudsman per §553.269(c). The ombudsman is a health oversight agency, so HIPAA does not bar release.",
-        "Post the local ombudsman number and 1-800-252-2412."
+        "The State Ombudsman, certified ombudsmen and interns get immediate, private, unimpeded access to the facility and residents during business or visiting hours.",
+        "The State Ombudsman and certified ombudsmen also get access at other times if circumstances require.",
+        "Access to records is with consent or as the rule otherwise allows.",
+        "State Ombudsman toll-free number: 800-252-2412."
       ]
     },
     {
-      "id": "RR-04",
-      "category": "Resident Rights",
-      "title": "Admission Agreement, Fees, Deposits and Refunds",
+      "id": "POST-01",
+      "category": "§553.271 Postings",
+      "title": "Required Postings, Advertising and Promotional Material",
+      "covers": [
+        "553.271"
+      ],
       "citations": [
-        "C5",
-        "C9",
-        "C26"
+        "C11",
+        "C12",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "A written admission agreement states the services and charges. If any service or supply could be a Medicare benefit, give the resident a statement saying so (§553.259(a)(2)).",
-        "Written policies must cover residents accepted, services, charges, refunds, responsibilities, privileges and rules (§553.259(c)(4)). Give the facility disclosure statement and rate schedule before admission and document receipt (§553.259(c)(1)).",
-        "Provider termination for just cause needs 30 days' written notice. Immediate termination for a serious or immediate threat needs notice to HHSC (1-800-458-9858 on evenings, weekends and holidays) (§553.267(b)(2)).",
-        "STAR+PLUS room and board is capped by the SSI rate minus the $85 personal needs allowance (2026: $909/month). It is prorated in the first month and due on a written date (Handbook §§7240–7241.1)."
+        "Post in a public area: the license, the HHSC complaint-procedure sign, the inspection-report notice and most recent inspection report, and both Bills of Rights.",
+        "Post local and State Ombudsman numbers (800-252-2412) and the normal 24-hr staffing pattern (updated monthly).",
+        "Post the sign: 'Cases of Suspected Abuse, Neglect, or Exploitation must be reported to HHSC by calling 1-800-458-9858.'",
+        "Advertising must comply with §553.272, including the memory care marketing rule in §553.259(a)(4)."
       ]
     },
     {
-      "id": "RR-05",
-      "category": "Resident Rights",
-      "title": "Resident Funds and Personal Property",
+      "id": "ABU-01",
+      "category": "§553.273 Abuse, Neglect or Exploitation",
+      "title": "Abuse, Neglect and Exploitation Prevention, Detection and Reporting",
+      "covers": [
+        "553.273(a)-(c)",
+        "553.273(b)"
+      ],
       "citations": [
-        "C8",
-        "C9",
-        "C26"
+        "C13",
+        "C4",
+        "C11"
+      ],
+      "federal": [
+        "42 USC 1320b-25 (as applicable to Medicaid-participating settings)"
+      ],
+      "state_specifics": [
+        "Any staff member with cause to believe a resident has been or may be harmed, or died from abuse or neglect, reports to HHSC at 800-458-9858 (or the HHSC website) and to local police or the county sheriff.",
+        "The report includes the resident's name, age and address, the responsible person, the nature and extent of the condition, the basis of knowledge, and other relevant information.",
+        "Follow internal prevention, detection and reporting procedures (§553.273(b)).",
+        "Reportable conduct includes abuse or neglect causing harm, sexual abuse, financial exploitation of $25 or more, and emotional or verbal abuse causing harm."
+      ]
+    },
+    {
+      "id": "ABU-02",
+      "category": "§553.273 Abuse, Neglect or Exploitation",
+      "title": "Abuse Investigation, Written Report, Non-Retaliation and Staff Acknowledgment",
+      "covers": [
+        "553.273(d)-(f)"
+      ],
+      "citations": [
+        "C13",
+        "C4"
       ],
       "federal": [],
       "state_specifics": [
-        "The resident may manage their own money or authorize another person in writing. The resident chooses the manner (money management program, representative payee, financial POA, trust, or similar) and may choose the least restrictive.",
-        "If the facility accepts written delegation to handle funds, give the resident an accounting at least quarterly and on request.",
-        "Keep a simple financial record of receipts and expenditures, available to HHSC. Issue receipts for payments on request (§553.265(b)).",
-        "Residents keep and use personal property and have a locked area in their living quarters (§553.267(a)(3)(S),(U)).",
-        "STAR+PLUS member trust fund records are kept per Handbook §§7250–7252."
+        "Make an immediate oral report to HHSC, investigate, and send a written investigation report to the HHSC state office no later than the 5th calendar day after the oral report.",
+        "No retaliation against anyone who reports in good faith.",
+        "As a condition of employment, every staff member signs a statement of possible criminal liability for failure to report. File it in the personnel record.",
+        "Protect the resident during the investigation and suspend implicated staff as required by §553.257."
       ]
     },
     {
-      "id": "RR-06",
-      "category": "Resident Rights",
-      "title": "Advance Directives",
+      "id": "ABU-03",
+      "category": "§553.273 Abuse, Neglect or Exploitation",
+      "title": "Incident Reporting, Elopement and Missing Resident",
+      "covers": [],
       "citations": [
-        "C5",
-        "C9",
-        "C8"
-      ],
-      "federal": [
-        "42 CFR 489.102 (not applicable to ALFs; state rule governs)"
-      ],
-      "state_specifics": [
-        "Maintain written policies on implementing advance directives, including a clear statement of any procedure the facility is unwilling or unable to provide or withhold (§553.259(d)(1)).",
-        "Give written notice at admission. If the resident is incapacitated, give notice in order of preference: guardian, person responsible for health care decisions, spouse, adult child, parent, person admitting the resident. Give notice again when the resident becomes able to receive it.",
-        "HHSC imposes a $500 administrative penalty for failure to inform residents. The facility has 20 days to consent or request a hearing.",
-        "Keep any advance directive in the resident record (§553.265(a)(2)(E)). Residents may execute one under HSC Chapter 166."
-      ]
-    },
-    {
-      "id": "RR-07",
-      "category": "Resident Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
-      "citations": [
-        "C8",
-        "C9",
-        "C10",
-        "C1"
-      ],
-      "federal": [
-        "45 CFR 164.530",
-        "45 CFR 164.502",
-        "45 CFR 164.524",
-        "45 CFR Part 164 Subpart D (breach notification)"
-      ],
-      "state_specifics": [
-        "Resident records are confidential and safeguarded from unauthorized use, loss or destruction. Release only with consent, to another provider on transfer, or when another law requires it (§§553.265(a)(1), 553.267(a)(3)(M)).",
-        "Records are available to residents, legal representatives and HHSC.",
-        "Confidentiality is a required orientation topic for all staff (§553.253(d)(1)(B)).",
-        "Ombudsman and HHSC access are permitted disclosures.",
-        "Apply HIPAA to the extent the facility is a covered entity (for example, if it bills Medicaid electronically)."
-      ]
-    },
-    {
-      "id": "RR-08",
-      "category": "Resident Rights",
-      "title": "Nondiscrimination, Language Access and Accessibility",
-      "citations": [
-        "C9",
-        "C1"
-      ],
-      "federal": [
-        "Title VI, 42 USC 2000d",
-        "ADA, 42 USC 12181 et seq.",
-        "Section 504, 29 USC 794",
-        "Fair Housing Act, 42 USC 3601 et seq."
-      ],
-      "state_specifics": [
-        "Residents are treated with dignity regardless of race, religion, national origin, sex, age, disability, marital status or source of payment (§553.267(a)(3)(E)).",
-        "Residents may not be prohibited from speaking their native language with other residents or staff for treatment, care or services (§553.267(a)(3)(G)).",
-        "The Residents' Bill of Rights is posted in each resident's primary language (§553.267(a)(1)(B)). The comprehensive assessment records primary language (§553.259(b)(1)(B)).",
-        "Manager CE and the 24-hr course include ADA accessibility, the Fair Housing Act and other federal laws (§553.253(a)(2),(3)(H))."
-      ]
-    },
-    {
-      "id": "RR-09",
-      "category": "Resident Rights",
-      "title": "Authorized Electronic Monitoring (AEM)",
-      "citations": [
-        "C9"
+        "C6",
+        "C13",
+        "C14",
+        "C21"
       ],
       "federal": [],
       "state_specifics": [
-        "The facility must permit electronic monitoring of a resident's room on request. It may not refuse admission or discharge a resident for requesting AEM (§553.267(d)(1)–(2)).",
-        "All new and current residents sign the HHSC 'Information Regarding Authorized Electronic Monitoring' form, kept in the active clinical record.",
-        "The request uses the HHSC Request for AEM form. The HHSC Consent to AEM form is also needed from every other resident in the room. Roommates may condition consent on pointing the camera away or limiting audio.",
-        "The resident or representative pays all costs. The facility must provide a secure mount and power access, and must obstruct the camera on request to protect dignity.",
-        "A notice at the room entrance is mandatory when AEM is in use. A facility-wide 'Electronic Monitoring' notice at the main entrance is mandatory regardless.",
-        "A physician determines capacity to request AEM, and the determination is documented. Surrogate priority order is in §553.267(d)(4)(C)(ii).",
-        "Abuse or neglect seen on a recording must be reported under §553.273. Covert monitoring is not a ground for discharge."
+        "Self-report reportable incidents through TULIP or Complaint and Incident Intake at 800-458-9858.",
+        "Document accidents and injuries on a separate report (§553.261(b)).",
+        "Elopement procedure: immediate search, 911 and law enforcement, then notification of the physician and the responsible party.",
+        "Review each incident in QAPI and update service plans."
       ]
     },
     {
-      "id": "ADM-01",
-      "category": "Admission, Retention and Discharge",
-      "title": "Pre-Admission Screening, Disclosure and Admission Criteria",
+      "id": "EMG-01",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Emergency Risk Assessment and Written Emergency Preparedness and Response Plan",
+      "covers": [
+        "553.275(b)",
+        "553.275(c)"
+      ],
       "citations": [
-        "C5",
-        "C15",
-        "C8",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Document a risk assessment for fire/explosion, power/telecom/water outage, wildfire, hazardous materials, active shooter/bomb threat, flood, hurricane/severe weather, epidemic/pandemic, cyber-attack and loss of all or part of the facility.",
+        "The written plan addresses the 8 core functions: direction and control, warning, communication, sheltering, evacuation, transportation, health and medical needs, and resource management.",
+        "The plan documents Emergency Management Coordinator (EMC) contact information and how to communicate with the EMC.",
+        "The plan names where the current resident list is kept, identifying residents with Alzheimer's/related disorders, evacuation waivers, and mobility or special needs.",
+        "Notify the EMC of the plan."
+      ]
+    },
+    {
+      "id": "EMG-02",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Emergency Plan Maintenance, Staff and Resident Training, and Drills",
+      "covers": [
+        "553.275(d)",
+        "553.275(n)"
+      ],
+      "citations": [
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a printed copy in a central location accessible to staff, residents and representatives.",
+        "Review at least annually and after events. Update within 30 days of drill shortcomings or policy/rule changes. Document reviews.",
+        "Give residents or representatives the plan or an evacuation summary. Tell residents how to register with 2-1-1 Texas, and register the facility as a provider.",
+        "Annual staff training, and training on responsibilities before assuming duties and when they change.",
+        "At least one unannounced drill per year. Offer and document training for residents, representatives and emergency contacts."
+      ]
+    },
+    {
+      "id": "EMG-03",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Emergency Direction and Control, Warning and Communication",
+      "covers": [
+        "553.275(e)",
+        "553.275(f)",
+        "553.275(g)"
+      ],
+      "citations": [
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Designate an Emergency Preparedness Coordinator (EPC) and an alternate. Assign duties by function or position.",
+        "Warning: how the EPC is notified (including off hours, weekends and holidays), how people in the facility are kept informed, and monitoring of local news and weather.",
+        "Communication: primary and alternate modes, when to call 911, and where the contact lists are kept.",
+        "Notify staff, residents, representatives, emergency contacts, HCSSAs, receiving facilities, drivers and the EMC."
+      ]
+    },
+    {
+      "id": "EMG-04",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Sheltering in Place",
+      "covers": [
+        "553.275(h)"
+      ],
+      "citations": [
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Decision procedure for remaining in the facility. It requires access to medication, records, equipment, water and food (including special diets), and sheltering staff.",
+        "Safe power, with temperatures kept between 68 and 82°F.",
+        "After deciding to remain, notify the HHSC regional office and the EMC."
+      ]
+    },
+    {
+      "id": "EMG-05",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Evacuation and Emergency Transportation",
+      "covers": [
+        "553.275(i)",
+        "553.275(j)"
+      ],
+      "citations": [
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Evacuation destinations and routes with a map. Decision procedure with contingencies and a plan for pets and service animals.",
+        "Written acknowledgment from at least one receiving facility or destination and one alternate.",
+        "Procedures for notifying HHSC and the EMC, staff accompaniment, resident accounting and tracking, release of resident information, re-entry determination and return of residents.",
+        "Transportation: arrange enough vehicles, designate drivers, and transport residents and staff safely with oxygen, medications, records, food, water and equipment."
+      ]
+    },
+    {
+      "id": "EMG-06",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Emergency Health and Medical Needs and Resource Management",
+      "covers": [
+        "553.275(k)",
+        "553.275(l)"
+      ],
+      "citations": [
+        "C14",
+        "C6"
+      ],
+      "federal": [
+        "HIPAA 45 CFR 164.308(a)(7) (contingency plan principles for records)"
+      ],
+      "state_specifics": [
+        "Identify residents' special services (dialysis, oxygen, hospice) and how they continue. Notify HCSSAs and independent professionals of an evacuation.",
+        "Plan for obtaining, transporting and storing medications, records, food, water, equipment and supplies.",
+        "Keep medications secure and at proper temperature.",
+        "Safeguard confidentiality, security and integrity of resident records."
+      ]
+    },
+    {
+      "id": "EMG-07",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Receiving Facility Procedures (Only If the Facility Will Accept Evacuees)",
+      "covers": [
+        "553.275(m)"
+      ],
+      "citations": [
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Include this policy only if the facility will act as a receiving facility for another ALF.",
+        "Procedures follow conditions (1)–(5): capacity limits, safety, ability to meet needs, log, and continuity-of-care items.",
+        "Keep a written acknowledgment with each sending facility."
+      ]
+    },
+    {
+      "id": "EMG-08",
+      "category": "§553.275 Emergency Preparedness and Response",
+      "title": "Disaster Incident Self-Reports and Emergency Response System",
+      "covers": [
+        "553.275(o)-(p)"
+      ],
+      "citations": [
+        "C14",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Fire: call 800-458-9858 and submit Form 3707 within 15 days.",
+        "Death, serious injury or threat from a disaster: call immediately and submit Provider Investigation Report Form 3613-A within 5 working days.",
+        "The administrator and a designee enroll in the HHSC Emergency Response System and respond in HHSC's format."
+      ]
+    },
+    {
+      "id": "CAL-01",
+      "category": "Subchapter F – Certified Alzheimer's ALFs",
+      "title": "Certified Alzheimer's Facility: Manager Qualifications and Staff Training",
+      "covers": [
+        "553.301",
+        "553.303"
+      ],
+      "citations": [
+        "C20",
+        "C29"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Applies only to a Type B facility or unit that is certified or advertises specialized dementia care.",
+        "Manager/unit supervisor: age 21 plus education/experience options and 6 hrs annual dementia continuing education (§553.301).",
+        "Staff: 4-hr dementia-specific orientation. Attendants: 16 hrs on-the-job training plus 12 hrs annual Alzheimer's in-service (§553.303).",
+        "Training covers ADLs, dementia-specific emergency/evacuation procedures, dysfunctional behavior and behavior management."
+      ]
+    },
+    {
+      "id": "CAL-02",
+      "category": "Subchapter F – Certified Alzheimer's ALFs",
+      "title": "Certified Alzheimer's Facility: Staffing and Activities Program",
+      "covers": [
+        "553.305",
+        "553.309"
+      ],
+      "citations": [
         "C20"
       ],
       "federal": [],
       "state_specifics": [
-        "Do not admit or retain a resident whose needs the facility cannot meet and who cannot secure services from an outside resource. Facility management decides, with the written concurrence of the resident, physician or legal representative (§553.259(a)(1)).",
-        "Type A: residents can evacuate without staff help. Type B: residents may need evacuation help but may not be permanently bedfast (§553.5).",
-        "Physician exam within 30 days before or 14 days after admission, unless a transferring hospital or facility has a physical exam in the record.",
-        "Collect at admission: full name, SSN, usual residence, sex, marital status, date and place of birth, usual occupation, emergency contacts and physician, pharmacy preference, Medicaid/Medicare number (§553.259(a)(6)).",
-        "Before admission: explain and give the disclosure statement; give the Residents' Bill of Rights; give and document the family's receipt of the HHSC abuse hotline number; give the restraint/seclusion notice; give the emergency plan or evacuation summary.",
-        "If memory care is promoted, give the Assisted Living Facility Memory Care Disclosure Statement, and HHSC Form 3641 if Alzheimer's certified.",
-        "Request guardianship order and letters at admission (§553.265(c)). Emergency admissions are assessed and given a service plan. Respite service plans may be kept for 6 months."
+        "Sufficient staff for residents' needs. In facilities or units with 17 or more residents, two staff are immediately available whenever residents are present (§553.305).",
+        "Planned, structured, individualized program mixing cognitive, recreational and ADL activities, with daily offerings and a monthly schedule (§553.309).",
+        "Activity director for 20 hrs weekly in facilities of 17 or more residents. The responsible employee gets 6 hrs annual CE."
       ]
     },
     {
-      "id": "ADM-02",
-      "category": "Admission, Retention and Discharge",
-      "title": "Resident Assessment and Reassessment",
+      "id": "CAL-03",
+      "category": "Subchapter F – Certified Alzheimer's ALFs",
+      "title": "Certified Alzheimer's Facility: Admission, Assessment and Service Plan",
+      "covers": [
+        "553.307"
+      ],
       "citations": [
-        "C5",
-        "C7"
+        "C20",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "A comprehensive assessment is completed within 14 days of admission, on a facility-developed form. If information cannot be obtained, document the attempts (§553.259(b)).",
-        "Required elements: admitting location, primary language, sleep, behaviors, psychosocial/depression screen, Alzheimer's history, ADL patterns, activity preferences, cognition, communication, physical function, continence, nutrition, oral/dental, diagnoses, medications (administered/supervised/self), health conditions and side effects, special treatments, hospital admissions in past 6 months, and preventive health needs.",
-        "Reassess annually and on significant change in condition.",
-        "The RN's HMA reassessment is at least annual, or every 6 months for residents with Alzheimer's/related disorders or in a certified facility (§553.263(b)(4)).",
-        "STAR+PLUS members also need a health assessment and emergency training within 3 days of admission (Handbook §§7250–7252)."
+        "Use Form 3641. Give it to any inquirer.",
+        "Pre-admission procedures (application, interviews, home visits) ensure appropriate placement.",
+        "Comprehensive assessment and individualized service plan within 14 days and annually. Update the plan on significant change."
       ]
     },
     {
-      "id": "ADM-03",
-      "category": "Admission, Retention and Discharge",
-      "title": "Individual Service Plan",
+      "id": "GOV-01",
+      "category": "Governance and Administration",
+      "title": "Organization, Governing Body and Administrator Responsibilities",
+      "covers": [],
       "citations": [
-        "C5",
-        "C9",
         "C1",
-        "C26"
+        "C24",
+        "C17"
       ],
       "federal": [],
       "state_specifics": [
-        "The service plan is completed within 14 days of admission and based on the comprehensive assessment (§553.259(b)).",
-        "It is approved and signed by the resident or the person responsible for their health care decisions. The facility provides care according to the plan.",
-        "Update the plan annually and on significant change. The resident may participate in developing it (§553.267(a)(3)(O)).",
-        "Staffing ratios are based on needs identified in service plans (§553.253(c)(1)).",
-        "Share the disclosure statement, rate schedule and service plan with outside resources providing additional services. Outside resources provide their care plans and document services at the facility on the day provided (§553.259(a)(3)).",
-        "For STAR+PLUS members, coordinate with the MCO service plan (ISP) and its renewal cycle."
+        "The governing body (the licensee on the HHSC application) is accountable for compliance with HSC Ch. 247 and 26 TAC Ch. 553.",
+        "It appoints the manager in writing (§553.253).",
+        "Report ownership and manager changes to HHSC on Form 3720.",
+        "Review this manual at least annually and whenever the rules change (watch proposed Rule 25R031)."
       ]
     },
     {
-      "id": "ADM-04",
-      "category": "Admission, Retention and Discharge",
-      "title": "Retention Limits and Conditions the Facility Cannot Serve",
+      "id": "GOV-02",
+      "category": "Governance and Administration",
+      "title": "Quality Assurance and Performance Improvement",
+      "covers": [],
       "citations": [
-        "C5",
-        "C6",
-        "C15",
-        "C19"
+        "C21",
+        "C22",
+        "C14"
       ],
       "federal": [],
       "state_specifics": [
-        "The facility may not provide ongoing services comparable to those of a licensed nursing facility (HSC Chapter 242) (§553.261(c)(1)).",
-        "'Aging in place' with outside services is allowed only with the written concurrence of the resident, physician or legal representative. The facility must still meet NFPA 101 and Subchapter D requirements for each resident's evacuation capability (§553.259(a)(1)).",
-        "A Type B facility may not retain a permanently bedfast resident (§553.5).",
-        "A provider may refuse a referral if inappropriate and may maintain a weapons- and drug-free environment (§553.267(b)(2)(H),(I)).",
-        "Before admission, determine whether the building and staffing can meet the resident's evacuation needs. Use ADM-05 if they cannot."
+        "Track incidents, falls, medication errors, complaints, drill results and survey findings.",
+        "Review quarterly and document corrective actions.",
+        "Use survey results to prepare plans of correction and informal dispute resolution."
       ]
     },
     {
-      "id": "ADM-05",
-      "category": "Admission, Retention and Discharge",
-      "title": "Inappropriate Placement and Evacuation Waiver",
+      "id": "GOV-03",
+      "category": "Governance and Administration",
+      "title": "Corporate Compliance, Fraud and Billing Integrity",
+      "covers": [],
       "citations": [
-        "C5",
-        "C15",
-        "C19"
+        "C28",
+        "C23",
+        "C25"
       ],
-      "federal": [],
+      "federal": [
+        "42 CFR 1001 (OIG exclusion)",
+        "False Claims Act (31 USC 3729)",
+        "42 CFR 438.602"
+      ],
       "state_specifics": [
-        "Change of condition but still meeting evacuation criteria: to keep the resident, submit within 10 working days of HHSC's Form 3724 and Form 3614-A (or of the facility's own determination) the Physician's Assessment (Form 1126), the Resident's Request to Remain (Form 1125) and the Facility Request (Form 1124) (§553.259(e)(1)).",
-        "Facility does not meet the evacuation requirements for a designated resident: request an evacuation waiver from the HHSC regional office within 10 working days. If the facility is unwilling to retain the resident, discharge within 30 days after receiving Forms 3724 and 3614-A (§553.259(e)(2)).",
-        "Waiver packet: Forms 1126, 1125, 1124; detailed emergency plan (staff positions, night awake staff, evacuation training); floor plan; evacuation plan; 12 months of fire drill records; Fire Marshal Notification Form 1127; Fire Suppression Authority Notification Form 1129; assessment within 60 days; service plan; other residents' service plans if requested."
+        "Screen employees and contractors against Medicare/Medicaid exclusion lists.",
+        "STAR+PLUS providers are screened and enrolled with the State (42 CFR 438.602).",
+        "Bill the correct STAR+PLUS code (T2031 with level modifier after the ISP renews) and keep supporting documentation.",
+        "Staff may report compliance concerns without retaliation."
       ]
     },
     {
-      "id": "ADM-06",
-      "category": "Admission, Retention and Discharge",
-      "title": "Discharge, Transfer and Relocation Notice",
-      "citations": [
-        "C9",
-        "C5",
-        "C6"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Discharge or transfer is permitted only if: it is for the resident's welfare and needs cannot be met; the resident's health improved so services are no longer needed; the resident's health or safety, or another's, is endangered; the provider ceases operating or leaves the reimbursement program; or the resident fails to pay after reasonable notice (§553.267(a)(3)(X)).",
-        "Except in an emergency, give 30 days' written notice to the resident, legal representative or family member stating the intent, the reason, the effective date, the destination if any, and appeal rights (§553.267(a)(3)(Y)).",
-        "Provider-initiated immediate termination for a serious or immediate threat requires notice to HHSC (1-800-458-9858) (§553.267(b)(2)(C)).",
-        "Medications held in central storage are released to a discharged resident on a signed receipt (§553.261(a)(6)(C)).",
-        "Discharge cannot be based on a request for electronic monitoring (§553.267(d)(2))."
-      ]
-    },
-    {
-      "id": "ADM-07",
-      "category": "Admission, Retention and Discharge",
-      "title": "STAR+PLUS HCBS Assisted Living Participation",
+      "id": "MED-01",
+      "category": "Medicaid STAR+PLUS HCBS Assisted Living",
+      "title": "STAR+PLUS Assisted Living Operations (Contracting, Room and Board, Reporting)",
+      "covers": [],
       "citations": [
         "C25",
         "C26",
         "C28"
       ],
       "federal": [
-        "42 CFR 441.301(c)(4) (HCBS settings)",
+        "42 CFR 441.301(c) (HCBS settings)",
         "42 CFR 438.602"
       ],
       "state_specifics": [
-        "Applies only if the facility contracts with STAR+PLUS MCOs. The MCO contract states which housing options are offered (apartment single or double, non-apartment). Non-apartment settings are freestanding buildings licensed for 16 or fewer beds.",
-        "Operational duties: health assessment and emergency training within 3 days of admission; at least 4 social activities a week; report changes to the MCO by the next business day; keep member trust fund records (Handbook §§7250–7252).",
-        "Room and board is SSI minus $85 ($909/month in 2026). It cannot be waived, only reduced, and is prorated in the first month. SSI recipients owe no copayment (§§7240–7241.1).",
-        "Bill HCPCS T2031 with the level modifier on the new ISP. Keep billing a member's current RUG-III code until the ISP renews (effective 9/1/2025 rate methodology)."
-      ]
-    },
-    {
-      "id": "HCS-01",
-      "category": "Health and Care Services",
-      "title": "Medication Management, Storage and Disposal",
-      "citations": [
-        "C6"
-      ],
-      "federal": [
-        "21 CFR Part 1301 (controlled substances, if applicable)"
-      ],
-      "state_specifics": [
-        "Provide a locked area for all medications (central storage, medication cart, or resident room). Store each resident's medications separately (§553.261(a)(5)).",
-        "Refrigerated medications need a designated locked area unless the refrigerator is inside a locked medication room.",
-        "Store poisons and 'external use only' items separately within the locked medication area.",
-        "If controlled drugs are stored, policies must address prevention of diversion.",
-        "Discontinued, expired and deceased residents' medications are kept separate from current medications and disposed of by a Texas-licensed registered pharmacist (§553.261(a)(6)(A)). Needles and syringes follow 25 TAC §§1.131–1.137.",
-        "Prescriptions are dispensed by a pharmacy or the resident's treating physician or dentist. Physician samples need specific dosage instructions for the individual resident."
-      ]
-    },
-    {
-      "id": "HCS-02",
-      "category": "Health and Care Services",
-      "title": "Medication Administration and Staff Authorization",
-      "citations": [
-        "C6",
-        "C27",
-        "C1"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Medications are administered per physician orders. Residents who cannot or choose not to self-administer have medications given only by: (i) a currently licensed person authorized to administer, (ii) a medication aide with a current permit acting under a licensed nurse on duty or on call, or (iii) an employee delegated by an RN under 22 TAC Chapter 225 (§553.261(a)(1)(A)).",
-        "Medication aide permit: 100 classroom + 20 lab + 10 clinical hours and an exam. Renew yearly ($15). Seven hours of CE are required for renewals after the first.",
-        "Keep a medication profile record for each resident: name, strength, dosage, amount received, directions, route, prescription number, pharmacy, and date issued.",
-        "Report any unusual reaction to the physician and responsible party immediately.",
-        "Document every missed or refused dose: date, time, and medication name and strength (not required when the resident is away from the facility).",
-        "A nurse must be employed or on call (the model uses 4 hrs/week for a 6-bed home and 8 hrs/week for 16 beds, an operator estimate). Without one, admit only residents who self-administer."
-      ]
-    },
-    {
-      "id": "HCS-03",
-      "category": "Health and Care Services",
-      "title": "Medication Supervision and Resident Self-Administration",
-      "citations": [
-        "C6",
-        "C27"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Supervision is limited to: reminders; opening containers and replacing lids; pouring the prescribed dose per the medication profile; returning medications to locked storage; obtaining medications from the pharmacy; and maintaining the medication profile record (§553.261(a)(2)).",
-        "Residents who keep medications locked in their room are counseled by staff at least monthly on whether they can still self-administer safely and keep medications secure. A written record is required (§553.261(a)(3)(A)).",
-        "A resident may access the central storage area to self-administer, with staff present the whole time (§553.261(a)(3)(B))."
-      ]
-    },
-    {
-      "id": "HCS-04",
-      "category": "Health and Care Services",
-      "title": "Nursing Services, RN Delegation and Health Maintenance Activities",
-      "citations": [
-        "C6",
-        "C7",
-        "C27"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Health care professionals may coordinate services within their scope of practice, but the facility must not provide ongoing nursing-facility-comparable services (§553.261(c)(1)).",
-        "Residents may contract with a home and community support services agency (Chapter 558 of this title) or an independent health professional (§553.261(c)(2)). Temporary illness or injury services may be delivered by qualified persons (§553.261(b)(3)).",
-        "HMA without delegation: only for a person with a functional disability. An RN must document an assessment, and the condition must be stable and predictable. The resident or representative must be able and willing to direct the task and agree in writing (§553.263).",
-        "If an activity is not an HMA, personal care staff may do it only through RN delegation under 22 TAC Chapter 225, and for medication under §553.261(a)(1)(A)(iii) (§553.263(d)).",
-        "RN reassessment: on any change of condition, at least annually, and at least every 6 months for residents with Alzheimer's/related disorder or in a certified facility or unit."
-      ]
-    },
-    {
-      "id": "HCS-05",
-      "category": "Health and Care Services",
-      "title": "Change of Condition, Physician Notification and Hospital Transfer",
-      "citations": [
-        "C6",
-        "C5",
-        "C26"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "After an accident or injury needing emergency medical, dental or nursing care: arrange emergency care or transfer; immediately notify the physician and next of kin, responsible party or placing agency; document on a separate report with a statement of final disposition (§553.261(b)(1)).",
-        "Report unusual reactions to medications or treatments immediately to the physician and responsible party (§553.261(a)(4)(A)).",
-        "Update the service plan on significant change in condition (§553.259(b)(2)). Consider whether the resident is now inappropriately placed (ADM-05).",
-        "STAR+PLUS: report significant changes to the MCO by the next business day.",
-        "Stock first aid supplies for burns, cuts and poisoning in a single location (§553.261(b)(2))."
-      ]
-    },
-    {
-      "id": "HCS-06",
-      "category": "Health and Care Services",
-      "title": "Dementia and Memory Care",
-      "citations": [
-        "C2",
-        "C3",
-        "C20",
-        "C29",
-        "C5",
-        "C7"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "All facilities serving residents with Alzheimer's or related disorders must meet §553.254: personal care staff get 4 hrs of training and pass a competency evaluation before providing personal care, then 2 hrs of CE. Managers get 4 hrs plus 2 hrs/yr. Non-direct staff with recurring contact also complete training and an evaluation. Certificates are kept.",
-        "Keep the all-staff Alzheimer's policy required by §553.255 (confirm required content from the rule text).",
-        "If memory care is marketed, give the Memory Care Disclosure Statement. An Alzheimer's certified facility also gives HHSC Form 3641 (§553.259(a)(4)).",
-        "Certification is open only to Type B facilities or units (§553.27) and adds Subchapter F staffing, training and physical plant standards (§553.311). The fee is +$300 on Form 3721.",
-        "The RN HMA reassessment is every 6 months for these residents (§553.263(b)(4)(B)).",
-        "The emergency plan resident list must identify residents with Alzheimer's or related disorders (§553.275(c)(2)(C))."
-      ]
-    },
-    {
-      "id": "HCS-07",
-      "category": "Health and Care Services",
-      "title": "Falls Prevention",
-      "citations": [
-        "C1",
-        "C6",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Direct care staff must complete 1 hr of competency-based fall prevention training each year as part of the 6 hrs of annual education (§553.253(d)(3)).",
-        "Attendants' 16-hr on-the-job training includes safety measures to prevent accidents and injuries, fall prevention, and emergency first aid for a resident who falls (§553.253(d)(2)).",
-        "Document each fall on a separate report with final disposition, and notify the physician and responsible party (§553.261(b)(1)).",
-        "Include fall risk in the comprehensive assessment and service plan (physical functioning and transfer status)."
-      ]
-    },
-    {
-      "id": "HCS-08",
-      "category": "Health and Care Services",
-      "title": "Skin Integrity and Pressure Injury Prevention",
-      "citations": [
-        "C5",
-        "C6",
-        "C7",
-        "C1"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Chapter 553 has no stand-alone skin integrity rule in the retrieved text. This policy implements the service plan, first aid and scope-of-care rules.",
-        "Assess nutrition, continence and physical functioning in the 14-day assessment (§553.259(b)(1)).",
-        "Wound or treatment care beyond personal care must be done by licensed or delegated persons: a licensed professional, an HCSSA or independent professional, or RN delegation or HMA assessment (§§553.261(c), 553.263).",
-        "Report sudden changes in condition to the physician and the responsible party (§553.261(a)(4), (b)).",
-        "Ongoing care comparable to a nursing facility is not permitted (§553.261(c)(1))."
-      ]
-    },
-    {
-      "id": "HCS-09",
-      "category": "Health and Care Services",
-      "title": "Hospice and Home Health Coordination",
-      "citations": [
-        "C6",
-        "C5",
-        "C14"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A resident may contract with a home and community support services agency licensed under Chapter 558 of the title, or an independent health professional, for services at the facility (§553.261(c)(2)).",
-        "Share the disclosure statement, rate schedule and service plan with outside resources. Outside providers must give the facility their care plans and document services at the facility on the day provided (§553.259(a)(3)).",
-        "Include HCSSAs and independent professionals in the emergency contact list and notification procedures (§553.275(g)(3)(C),(g)(5)(E)).",
-        "The facility remains responsible for all care provided at the facility (§553.259(a)(1))."
-      ]
-    },
-    {
-      "id": "HCS-10",
-      "category": "Health and Care Services",
-      "title": "Death of a Resident",
-      "citations": [
-        "C6",
-        "C13",
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "On apparent death: arrange emergency care or transfer, immediately notify the physician and next of kin, responsible party or placing agency, and document on a report with final disposition (§553.261(b)(1)).",
-        "If the death is believed due to abuse or neglect, report to HHSC (1-800-458-9858) and law enforcement (§553.273(a)).",
-        "Medications remaining after a resident's death are separated and disposed of by a Texas-licensed pharmacist (§553.261(a)(6)(A)(ii)).",
-        "Resident funds and property are accounted for per the facility's financial record (§553.265(b)). Keep the record per REC-01."
-      ]
-    },
-    {
-      "id": "SAF-01",
-      "category": "Safety and Protection",
-      "title": "Abuse, Neglect and Exploitation Prevention and Reporting",
-      "citations": [
-        "C13",
-        "C4",
-        "C23",
-        "C9"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Anyone with cause to believe a resident has been or may be harmed by abuse, neglect or exploitation, or died from abuse or neglect, reports to HHSC at 1-800-458-9858 and to municipal law enforcement or the county sheriff (§553.273(a)).",
-        "Oral report to HHSC is immediate. The facility investigates and sends a written report to the HHSC state office no later than the 5th calendar day after the oral report (§553.273(d)).",
-        "Report content: resident name, age and address; responsible person; nature and extent of the condition; basis of knowledge; other relevant information (§553.273(c)).",
-        "No retaliation against any person who files a complaint or provides information in good faith (§553.273(e)).",
-        "Every employee signs, as a condition of employment, a statement that they may be criminally liable for failure to report. Keep it in the personnel file (§553.273(f), §553.257(a)(6)).",
-        "Reportable-conduct suspension: when HHSC finds that an employee engaged in abuse, neglect, sexual abuse, financial exploitation of $25 or more, or harmful emotional abuse, suspend the employee and do not reinstate during appeals (§553.257(b)(8)–(9)).",
-        "Reporting abuse is a required orientation topic for all staff (§553.253(d)(1)(A)). Post the sign with 1-800-458-9858 (§553.271(9))."
-      ]
-    },
-    {
-      "id": "SAF-02",
-      "category": "Safety and Protection",
-      "title": "Incident and Accident Reporting",
-      "citations": [
-        "C6",
-        "C13",
-        "C14"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Document every accident, injury or acute illness on a separate report with a statement of final disposition, kept on file (§553.261(b)(1)(C)).",
-        "Notify the physician and next of kin, responsible party or placing agency immediately.",
-        "Reportable incidents are self-reported to HHSC through TULIP or Complaint and Incident Intake at 800-458-9858.",
-        "Report any resident with a reportable disease to the city, county or health unit authority immediately (§553.261(f)(3)).",
-        "Staff must be told which conditions to report to the manager (§553.253(d)(1)(D)).",
-        "Disasters and emergency decisions are reported under SAF-05."
-      ]
-    },
-    {
-      "id": "SAF-03",
-      "category": "Safety and Protection",
-      "title": "Elopement and Missing Resident",
-      "citations": [
-        "C1",
-        "C14",
-        "C20",
-        "C6",
-        "C13"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Chapter 553 as retrieved has no stand-alone elopement rule. This policy implements the supervision and emergency requirements.",
-        "Staff must be sufficient to give each resident the supervision and care needed to meet basic needs. An attendant must be in the facility whenever residents are present (§553.253(b)(1),(c)(3)(E)).",
-        "Identify residents with Alzheimer's or related disorders and those needing special assistance on the emergency plan's resident list (§553.275(c)(2)(C)).",
-        "Certified Alzheimer's facilities follow Subchapter F physical plant and staffing standards (§553.311).",
-        "Document a missing-resident event on an incident report (§553.261(b)). If a resident is believed harmed by neglect, report under §553.273. Notify the resident's responsible party and physician immediately."
-      ]
-    },
-    {
-      "id": "SAF-04",
-      "category": "Safety and Protection",
-      "title": "Restraints and Restrictive Practices",
-      "citations": [
-        "C9",
-        "C5",
-        "C1",
-        "C6"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Residents are free from physical and chemical restraints used for discipline or convenience (§553.267(a)(3)(A)).",
-        "Physical or chemical restraints may be used only with written physician authorization or in an emergency to protect the resident or others from injury. The authorization must specify the circumstances and duration. Except in an emergency, only qualified medical personnel may administer restraints.",
-        "For a resident with an intellectual disability and a court-appointed guardian, behavior modification involving restraints or adverse stimuli needs the guardian's informed consent (§553.267(a)(3)(D)).",
-        "Before or upon admission, notify the resident and representative of HHSC rules and facility policy on restraint and seclusion (§553.259(c)(6)).",
-        "Training: behavior management, de-escalation, practices to decrease restraint use, and alternatives to restraint (§553.253(d)(2)(F),(d)(3)).",
-        "§553.261(g) separately governs restraints and seclusion; read and incorporate its full text before finalizing."
-      ]
-    },
-    {
-      "id": "SAF-05",
-      "category": "Safety and Protection",
-      "title": "Emergency Preparedness and Disaster Plan",
-      "citations": [
-        "C14",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Document a risk assessment covering fire, outage, water contamination, wildfire, hazmat, active shooter or bomb threat, flood, hurricane or severe weather, epidemic or pandemic, cyber attack and loss of facility (§553.275(b)).",
-        "The written plan covers 8 core functions: direction and control, warning, communication, sheltering, evacuation, transportation, health and medical needs, and resource management (§553.275(c)).",
-        "Name an Emergency Preparedness Coordinator and an alternate. Document contact information for the local Emergency Management Coordinator and notify and coordinate with the EMC.",
-        "Keep a printed plan in a central location accessible to staff, residents and representatives. Give the plan or an evacuation summary at admission, on request and on significant change. Register the facility with 2-1-1 Texas and tell residents how to register for evacuation assistance.",
-        "Shelter in place: arrange safe power and temperatures of at least 68°F and no more than 82°F. Notify the HHSC regional office and EMC immediately after deciding to shelter or evacuate.",
-        "Evacuation: pre-arranged destination and a receiving facility with written acknowledgment, plus an alternate. Evacuate when the county judge or mayor orders it. Plan for pets and service animals.",
-        "Update the plan within 30 days after an event, drill or rule change. Only part of §553.275 was retrieved; check drill and training provisions in the full text."
-      ]
-    },
-    {
-      "id": "SAF-06",
-      "category": "Safety and Protection",
-      "title": "Fire Safety, Evacuation and Drills",
-      "citations": [
-        "C19",
-        "C15",
-        "C5",
-        "C14",
-        "C1"
-      ],
-      "federal": [
-        "NFPA 101 (Life Safety Code)",
-        "NFPA 13/13R/13D",
-        "NFPA 72"
-      ],
-      "state_specifics": [
-        "New small Type A and Type B facilities must have an NFPA 13, 13R or 13D sprinkler system chosen per NFPA 101 Ch. 32, with electrical supervision (§§553.215(b), 553.225).",
-        "A manual fire alarm per NFPA 101 Ch. 9 with a whole-building evacuation alarm. Smoke detectors in bedrooms, corridors, living and dining rooms, offices, kitchens, laundries and common areas. Dedicated circuit with secondary power per NFPA 72.",
-        "Keep inspection and testing records for sprinkler and alarm systems.",
-        "Keep fire drill records. HHSC may request the last 12 months with an evacuation waiver (§553.259(e)(2)(C)(vii)). Drill frequency should be confirmed from Subchapter D and the unread parts of §553.275.",
-        "Emergency and evacuation procedures are a required topic in the 4-hr orientation for all staff (§553.253(d)(1)(F)).",
-        "Staff must be sufficient to ensure safe evacuation (§553.253(c)(3)(F)). A Fire Marshal notification (Form 1127) and Fire Suppression notification (Form 1129) are required if a resident's evacuation capability changes."
-      ]
-    },
-    {
-      "id": "SAF-07",
-      "category": "Safety and Protection",
-      "title": "Infection Prevention and Control",
-      "citations": [
-        "C6",
-        "C1",
-        "C4"
-      ],
-      "federal": [
-        "29 CFR 1910.1030 (bloodborne pathogens)"
-      ],
-      "state_specifics": [
-        "Maintain a written infection prevention and control policy (§553.261(f)(1)). Comply with the special waste rules at 25 TAC Chapter 1, Subchapter K.",
-        "Immediately report any resident with a reportable disease (25 TAC Chapter 97, Subchapter A) to the local health authority and follow its direction.",
-        "Written procedures must cover: monitoring key infectious agents and multidrug-resistant organisms; PPE and hand hygiene; cleaning and disinfecting surfaces such as door knobs, handrails and light switches; universal precautions; and daily removal of soiled items (§553.261(f)(5)).",
-        "Keep a written policy and procedures for a rapid influenza diagnostic test for residents with flu-like symptoms (§553.261(f)(6)).",
-        "Handle, store, process and transport linens to prevent spread of infection. Use universal precautions for all residents.",
-        "Exclude employees with a communicable disease transmissible through food handling or direct care for the period of communicability. A food service employee with a communicable disease or infected wound may not work in food service (§553.261(e)(12),(f)(4)(A))."
-      ]
-    },
-    {
-      "id": "SAF-08",
-      "category": "Safety and Protection",
-      "title": "Smoking, Visitors and Pets",
-      "citations": [
-        "C9",
-        "C14",
-        "C6",
-        "C19"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Residents may have unrestricted communication and personal visitation with any person of their choice at any reasonable hour, including family and representatives of advocacy groups (§553.267(a)(3)(J)). Residents have a private place for receiving visitors (§553.267(a)(3)(R)).",
-        "HHSC and local authority employees must be admitted as needed to serve a resident (§553.267(c)). Ombudsmen follow RR-03.",
-        "Tobacco products may not be used in food preparation and service areas (§553.261(e)(14)). Smoking elsewhere follows NFPA 101 and Subchapter D; state the facility's smoking areas in the admission agreement.",
-        "Providers may maintain an environment free of weapons and drugs (§553.267(b)(2)(I)).",
-        "Pets and service animals that live in the facility must be covered in the evacuation plan (§553.275(i)(2)(B))."
+        "Members live in an ALF contracted with their MCO. The contract states the housing option (apartment single/double or non-apartment).",
+        "Health assessment and emergency training within 3 days of admission. At least 4 social activities per week.",
+        "Report significant changes to the MCO by the next business day. Keep member trust fund records.",
+        "Room and board (SSI minus $85 personal needs allowance, $909/month in 2026) cannot be waived (a lower amount may be accepted). It is prorated in month one and due on a written date.",
+        "Pay-source rate: HCPCS T2031 with level modifier on the new ISP."
       ]
     },
     {
       "id": "DL-01",
       "category": "Daily Living",
-      "title": "Food Service and Therapeutic Diets",
-      "citations": [
-        "C6",
-        "C1"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Designate a person responsible for the total food service (§553.261(e)(1)).",
-        "At least 3 meals or equivalent daily, at regular times, with no more than 16 hours between a substantial evening meal and breakfast. Exceptions must be approved by HHSC.",
-        "Plan menus one week ahead and follow them. Document variations. Menus must be balanced and nutritious. Keep menus as served for 30 days.",
-        "Physician-ordered therapeutic diets are provided per the service plan. Diets that a layperson cannot customarily prepare must be calculated by a qualified dietitian.",
-        "Keep at least a 4-day supply of staple foods and a 1-day supply of perishable foods on the premises.",
-        "Staffing must be sufficient to prepare and serve meals that meet each resident's nutritional and special dietary needs (§553.253(c)(3)(C))."
-      ]
-    },
-    {
-      "id": "DL-02",
-      "category": "Daily Living",
-      "title": "Food Safety and Sanitation",
-      "citations": [
-        "C6"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Potentially hazardous foods are held at 45°F or below. Hot food is held at 140°F or above. Reheated food reaches 165°F. Refrigerators are 41°F or below, freezers 0°F or below, with thermometers in the warmest area (§553.261(e)(8)–(9)).",
-        "Food comes from sources compliant with food laws. Food removed from its original container is sealed, labeled and dated if perishable.",
-        "Use effective hair restraints, handwashing after using the lavatory, sanitary dishwashing, and cleaned, rinsed and sanitized surfaces. No tobacco in food areas.",
-        "Facilities that house 17 or more residents must comply with 25 TAC Chapter 228 (Retail Food) and local health ordinances (§553.261(e)(18))."
-      ]
-    },
-    {
-      "id": "DL-03",
-      "category": "Daily Living",
-      "title": "Activities and Social Programming",
-      "citations": [
-        "C6",
-        "C9",
-        "C26"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Provide an activity or social program at least weekly (§553.261(d)).",
-        "Residents may take part in social, religious or community groups and practice their chosen religion (§553.267(a)(3)(B),(C)).",
-        "The comprehensive assessment records involvement patterns and preferred activities (§553.259(b)(1)(H)).",
-        "STAR+PLUS members: offer at least 4 social activities a week (Handbook §§7250–7252)."
-      ]
-    },
-    {
-      "id": "DL-04",
-      "category": "Daily Living",
-      "title": "Housekeeping, Laundry and Maintenance",
+      "title": "Housekeeping, Laundry, Maintenance, Transportation, Visitors and Pets",
+      "covers": [],
       "citations": [
         "C1",
-        "C6",
         "C9",
+        "C14",
         "C19"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Staff must be sufficient to maintain order, safety and cleanliness and to assist with laundry (§553.253(c)(3)(A),(D)).",
-        "Clean and disinfect environmental surfaces. Remove soiled items from the environment at least daily. Handle linens to prevent infection (§553.261(f)(5),(7)).",
-        "Residents have a safe and decent living environment (§553.267(a)(3)(F)).",
-        "Maintain the building and fire protection systems to Subchapter D standards."
-      ]
-    },
-    {
-      "id": "DL-05",
-      "category": "Daily Living",
-      "title": "Transportation (Non-Emergency and Evacuation)",
-      "citations": [
-        "C14",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Chapter 553 as retrieved has no stand-alone non-emergency transportation rule. Facility-provided transportation is a charge disclosed in the admission agreement (§553.259(a)(2)).",
-        "Evacuation transportation is one of the 8 core functions of the emergency plan. The plan includes the procedure for safely transporting residents and notifying drivers, and the employer of any non-facility driver, of the evacuation (§553.275(a)(5)(B), (c)(1), (g)(5)(G)).",
-        "Sufficient trained staff must accompany evacuating residents and remain with them (§553.275(i)(2)(D)(ii)).",
-        "Residents may leave the facility temporarily or permanently, subject to contractual or financial obligations (§553.267(a)(3)(Z))."
-      ]
-    },
-    {
-      "id": "STF-01",
-      "category": "Staffing and Personnel",
-      "title": "Staffing Levels and Supervision",
-      "citations": [
-        "C1",
-        "C11",
-        "C15",
-        "C16"
-      ],
       "federal": [
-        "29 USC 206 (minimum wage)"
+        "ADA (accessibility)"
       ],
       "state_specifics": [
-        "Chapter 553 sets no numeric ratio. Staffing ratios must be based on residents' needs as identified in their service plans (§553.253(c)(1)).",
-        "An attendant must be in the facility at all times when residents are in the facility. Attendants may also perform other functions the facility requires (§553.253(b)).",
-        "Night shift: small Type A, staff immediately available; large Type A, immediately available and awake; Type B (any size), immediately available and awake.",
-        "Disclose the normal 24-hr staffing pattern to prospective residents and families before admission, and post it monthly (§§553.253(c)(2), 553.271(8)).",
-        "Staff must be sufficient to maintain order, safety and cleanliness, assist with medications, prepare meals, assist with laundry, supervise residents and ensure safe evacuation.",
-        "Full-time attendants must be at least 18 or a high school graduate."
-      ]
-    },
-    {
-      "id": "STF-02",
-      "category": "Staffing and Personnel",
-      "title": "Background Checks and Employee Registries",
-      "citations": [
-        "C4",
-        "C23"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Comply with HSC Chapter 250. Before hire, search the Employee Misconduct Registry (EMR) and HHSC Nurse Aide Registry (NAR). Do not hire or retain anyone listed as unemployable or convicted of an offense that bars employment under HSC §250.006 (§553.257(b)).",
-        "Repeat EMR and NAR searches at least every 12 months. Keep the results in the personnel file.",
-        "If the applicant lived in another state in the past 5 years, run a name-based criminal history check in each state. The person may be hired pending results but may not have direct resident contact.",
-        "Give the employee EMR notification per 26 TAC §561.3.",
-        "Obtain a signed disclosure statement on §250.006 convictions and residence in another state (§553.257(a)(7)).",
-        "Suspend, and do not reinstate during appeals, an employee HHSC finds engaged in reportable conduct (§553.257(b)(8))."
-      ]
-    },
-    {
-      "id": "STF-03",
-      "category": "Staffing and Personnel",
-      "title": "Hiring, Orientation and Ongoing Training",
-      "citations": [
-        "C1",
-        "C2",
-        "C3",
-        "C27"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Document that staff are competent to provide personal care before assuming responsibilities (§553.253(d)).",
-        "4-hr orientation before any job responsibilities: reporting abuse and neglect; confidentiality; universal precautions; conditions to notify the manager about; resident rights; emergency and evacuation procedures.",
-        "Attendants: 16 hrs of on-the-job supervision and training within the first 16 hrs of employment after orientation. Topics: ADL assistance, health conditions, accident prevention, emergency first aid (Heimlich, falls, lacerations, sudden changes), disruptive behavior, behavior management, fall prevention.",
-        "Direct care staff: 6 documented hrs/yr by hire date, including 1 hr fall prevention and 1 hr behavior management, competency-based.",
-        "Nurses, CNAs and medication aides: annual geriatric in-service from the §553.253(d)(4) topic list.",
-        "Alzheimer's/dementia training per §553.254. Medication aide permit renewal yearly with 7 hrs CE after the first renewal."
-      ]
-    },
-    {
-      "id": "STF-04",
-      "category": "Staffing and Personnel",
-      "title": "Employee Health and TB Screening",
-      "citations": [
-        "C6",
-        "C4"
-      ],
-      "federal": [
-        "29 CFR 1910.1030",
-        "CDC TB screening guidelines"
-      ],
-      "state_specifics": [
-        "Screen all employees for TB within 2 weeks of employment and annually per CDC guidelines. Outside-resource contractors must provide evidence on request (§553.261(f)(4)(C)).",
-        "Maintain written communicable disease policies for employees and residents covering TB screening (§553.261(f)(4)).",
-        "Exclude employees with a communicable disease transmissible through food handling or direct care for the period of communicability.",
-        "Keep evidence of compliance with local and state health codes on employee and resident health status.",
-        "Keep initial TB screening documentation in the personnel file (§553.257(a)(4))."
-      ]
-    },
-    {
-      "id": "STF-05",
-      "category": "Staffing and Personnel",
-      "title": "Employee and Contractor Vaccination Policy",
-      "citations": [
-        "C6",
-        "C4"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Maintain a written policy to protect residents from vaccine-preventable diseases under HSC Chapter 224 (§553.261(f)(9)).",
-        "The policy must: require employees and direct-care contractors to receive the vaccines the facility specifies based on their risk; specify the vaccines; include verification procedures; include procedures to exempt for CDC-identified medical contraindications or precautions; state protective measures for exempt employees; prohibit retaliation against medically exempt employees; require a written or electronic record of compliance or exemption; and state disciplinary actions for non-compliance.",
-        "The policy may also allow exemption for reasons of conscience, including religious beliefs, and may bar exempt staff from resident contact during a public health disaster.",
-        "Keep each employee's compliance or exemption in the personnel file (§553.257(a)(5))."
-      ]
-    },
-    {
-      "id": "STF-06",
-      "category": "Staffing and Personnel",
-      "title": "Personnel Records",
-      "citations": [
-        "C4",
-        "C1",
-        "C2"
-      ],
-      "federal": [
-        "8 USC 1324a (Form I-9)"
-      ],
-      "state_specifics": [
-        "Keep current, complete personnel records available for HHSC review (§553.257(a)). Contents: criminal history documentation; annual EMR and NAR results; TB screening; vaccine compliance or exemption; the signed statement on criminal liability for failure to report; the signed disclosure statement.",
-        "Also keep documentation of orientation, 16-hr on-the-job training, annual education hours and competency (§553.253(d)); the manager's 24-hr course evidence with content, hours, dates and provider (§553.253(a)(2)(A)(iii)); Alzheimer's training certificates (§553.254(e)); and the medication aide permit and any RN delegation records."
-      ]
-    },
-    {
-      "id": "STF-07",
-      "category": "Staffing and Personnel",
-      "title": "Staff Conduct and Professional Boundaries",
-      "citations": [
-        "C13",
-        "C4",
-        "C9",
-        "C1"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Staff may not abuse, neglect or exploit residents. Financial exploitation of $25 or more is reportable conduct (§553.257(b)(9)(C)).",
-        "Staff may not retaliate against any person who files a complaint or provides information (§553.273(e)).",
-        "Staff acknowledge their duty to report suspected abuse, neglect or exploitation and their potential criminal liability (§553.273(f)).",
-        "Residents may refuse to perform services for the facility except as contracted (§553.267(a)(3)(V)). Respect privacy, dignity and personal property.",
-        "Training topics include promoting dignity, independence and choice, resident rights, and conflict resolution (§553.253(d)(3))."
-      ]
-    },
-    {
-      "id": "REC-01",
-      "category": "Records",
-      "title": "Resident Records and Retention",
-      "citations": [
-        "C8",
-        "C9"
-      ],
-      "federal": [
-        "45 CFR 164.530(j) (6-year retention of HIPAA documentation)"
-      ],
-      "state_specifics": [
-        "Resident records contain: the standard admission form, assessments, the service plan, physician orders, advance directives, the physician exam within 30 days before or 14 days after admission (unless exempt, including Christian Scientists), health professionals' service documentation, and guardianship papers (§553.265(a)(2)).",
-        "Records are confidential, safeguarded, and available to residents, their legal representatives and HHSC.",
-        "Request the guardianship court order and letters at admission, upon learning of a guardian, and at each annual assessment. Make at least one follow-up request within 30 days. Keep the results and copies.",
-        "Keep a simple financial record of charges and of any personal funds held. Issue receipts on request.",
-        "Keep menus as served for 30 days, medication profile and missed-dose records, monthly self-administration counseling records, AEM forms in the clinical record, and incident reports.",
-        "The retrieved §553.265 sets no fixed retention period for resident records. Set the period in facility policy with counsel (the HIPAA documentation period is 6 years)."
-      ]
-    },
-    {
-      "id": "REC-02",
-      "category": "Records",
-      "title": "Required Reports and Notifications to HHSC and Others",
-      "citations": [
-        "C13",
-        "C5",
-        "C14",
-        "C6",
-        "C9",
-        "C18",
-        "C26"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Abuse, neglect, exploitation: oral report immediately to HHSC (1-800-458-9858) and law enforcement. Written investigation report to the HHSC state office no later than the 5th calendar day (§553.273).",
-        "Notify HHSC before immediate termination of a resident who is a serious threat (§553.267(b)(2)(C)).",
-        "Placement forms (1124, 1125, 1126) or evacuation waiver packet to the HHSC regional office within 10 working days (§553.259(e)).",
-        "Notify the HHSC regional office and EMC immediately after deciding to shelter in place or evacuate (§553.275(h)(2),(i)(2)(D)).",
-        "Report resident reportable diseases immediately to the local health authority (§553.261(f)(3)).",
-        "License renewal at least 45 days before expiration, and approval before adding beds (§§553.33, 553.39, 553.47).",
-        "STAR+PLUS: report significant changes to the MCO by the next business day.",
-        "Report incidents through TULIP or the 800-458-9858 intake line."
+        "Staffing must be sufficient for cleanliness and laundry (§553.253(c)).",
+        "Residents may have visitors at any reasonable hour (§553.267).",
+        "Plan for pets and service animals in emergencies (§553.275).",
+        "Maintain the building to Subchapter D standards for the license category."
       ]
     }
   ],
   "forms": [
     {
-      "name": "HHSC Form 3720 (License Application) / Form 3721 (Alzheimer's Certification)",
-      "purpose": "Initial, relocation, change of ownership, capacity change, and manager or controlling-party change filings; Alzheimer's certification",
+      "name": "HHSC Form 3720 – Application for ALF License",
+      "purpose": "Initial, relocation, change of ownership, capacity change, or change of manager/controlling parties",
       "policy_ids": [
-        "GOV-02",
-        "HCS-06"
-      ]
-    },
-    {
-      "name": "Local Fire Authority Documentation and Pre-Licensure Training Certificate",
-      "purpose": "Required with the initial application",
-      "policy_ids": [
-        "GOV-02",
-        "SAF-06"
-      ]
-    },
-    {
-      "name": "Manager Designation and Backup (Acting Manager) Letter",
-      "purpose": "Written designation of the manager and the employee authorized to act in the manager's absence",
-      "policy_ids": [
+        "LIC-01",
+        "LIC-02",
         "GOV-01"
       ]
     },
     {
-      "name": "Manager Training Record (24-hr Course, 8-hr Standards, 12-hr CE, Alzheimer's 4-hr)",
-      "purpose": "Evidence of content, hours, dates and provider",
+      "name": "HHSC Form 3721 – Alzheimer's Certification Application",
+      "purpose": "Add Alzheimer's certification to a Type B facility or unit",
       "policy_ids": [
-        "GOV-01",
-        "STF-03",
-        "STF-06"
+        "LIC-02",
+        "CAL-01"
       ]
     },
     {
-      "name": "HHSC Form 3724 (Statement of Licensing Violations and Plan of Correction) and Form 3614-A (Report of Contact) Tracking Log",
-      "purpose": "Survey response and plan-of-correction tracking",
+      "name": "Fire Safety Plan and Annual Employee Instruction Record",
+      "purpose": "Document plan review, revisions and employee instruction on duties",
       "policy_ids": [
-        "GOV-04",
-        "ADM-05"
-      ]
-    },
-    {
-      "name": "Policy Change Notification to Residents",
-      "purpose": "Documented notice before a policy change takes effect",
-      "policy_ids": [
-        "GOV-03"
-      ]
-    },
-    {
-      "name": "Required Postings Checklist (monthly staffing pattern update)",
-      "purpose": "Verify all §553.271 postings and update the staffing pattern monthly",
-      "policy_ids": [
-        "GOV-06",
-        "STF-01"
-      ]
-    },
-    {
-      "name": "Facility Disclosure Statement and Rate Schedule",
-      "purpose": "Given and receipt documented before admission",
-      "policy_ids": [
-        "ADM-01",
-        "RR-04"
-      ]
-    },
-    {
-      "name": "Assisted Living Facility Memory Care Disclosure Statement / HHSC Form 3641 (Alzheimer's ALF Disclosure Statement)",
-      "purpose": "Required if memory care is marketed; Form 3641 if certified",
-      "policy_ids": [
-        "ADM-01",
-        "HCS-06"
-      ]
-    },
-    {
-      "name": "Admission Agreement",
-      "purpose": "Written services and charges, including the Medicare-benefit statement",
-      "policy_ids": [
-        "RR-04",
-        "ADM-01"
-      ]
-    },
-    {
-      "name": "Admission Checklist and Resident Information Sheet",
-      "purpose": "Captures the §553.259(a)(6) identifying information, physician exam date, emergency contacts, pharmacy",
-      "policy_ids": [
-        "ADM-01",
-        "REC-01"
-      ]
-    },
-    {
-      "name": "Receipt of Residents' Bill of Rights, Restraint/Seclusion Notice, Emergency Plan or Evacuation Summary and Abuse Hotline Notice (family)",
-      "purpose": "Documents §553.259(c) delivery",
-      "policy_ids": [
-        "RR-01",
-        "ADM-01",
-        "SAF-04",
-        "SAF-05",
         "SAF-01"
       ]
     },
     {
-      "name": "Advance Directive Policy Notice and Acknowledgment",
-      "purpose": "Written notice at admission",
+      "name": "Fire Alarm/Sprinkler Semiannual Inspection Log",
+      "purpose": "File contractor reports (NFPA 72 / NFPA 25) onsite",
       "policy_ids": [
-        "RR-06"
+        "SAF-03"
       ]
     },
     {
-      "name": "Comprehensive Resident Assessment Form",
-      "purpose": "Facility form covering the §553.259(b)(1) elements",
+      "name": "Smoking and Oxygen Safety Acknowledgment",
+      "purpose": "Resident and staff acknowledgment of smoking policy and oxygen handling",
       "policy_ids": [
-        "ADM-02"
+        "SAF-02"
       ]
     },
     {
-      "name": "Individual Service Plan",
-      "purpose": "Signed plan reviewed annually and on significant change",
+      "name": "Manager Designation and Backup Letter",
+      "purpose": "Written designation of manager and the employee authorized to act in the manager's absence",
+      "policy_ids": [
+        "EMP-01"
+      ]
+    },
+    {
+      "name": "Monthly 24-Hour Staffing Pattern Posting",
+      "purpose": "Disclose and post the normal staffing pattern",
+      "policy_ids": [
+        "EMP-02",
+        "POST-01"
+      ]
+    },
+    {
+      "name": "Orientation, OJT and Annual Training Record",
+      "purpose": "Document 4-hr orientation, 16-hr attendant OJT, 6-hr annual training",
+      "policy_ids": [
+        "EMP-03",
+        "CAL-01"
+      ]
+    },
+    {
+      "name": "Dementia Training Competency Evaluation and Certificate",
+      "purpose": "Record §553.254/.255 training and competency",
+      "policy_ids": [
+        "ALZ-01"
+      ]
+    },
+    {
+      "name": "Personnel File Checklist (EMR/NAR, criminal history, TB, vaccine, §250.006 disclosure)",
+      "purpose": "Verify all required personnel record items",
+      "policy_ids": [
+        "HR-01",
+        "HR-02",
+        "CC-07"
+      ]
+    },
+    {
+      "name": "Statement of Criminal Liability for Failure to Report",
+      "purpose": "Signed by each employee as condition of employment",
+      "policy_ids": [
+        "ABU-02",
+        "HR-01"
+      ]
+    },
+    {
+      "name": "Admission Agreement, Disclosure Statement and Rate Schedule",
+      "purpose": "Written agreement with services, charges, refunds and discharge terms",
+      "policy_ids": [
+        "ADM-02",
+        "ADM-04"
+      ]
+    },
+    {
+      "name": "HHSC Form 3650 – Memory Care Disclosure Statement",
+      "purpose": "Required if the facility advertises memory care",
+      "policy_ids": [
+        "ADM-02",
+        "CAL-03"
+      ]
+    },
+    {
+      "name": "HHSC Form 3641 – Alzheimer's Disclosure Statement",
+      "purpose": "Required if the facility is Alzheimer's certified",
+      "policy_ids": [
+        "ADM-02",
+        "CAL-03"
+      ]
+    },
+    {
+      "name": "Physician Health Exam and Resident Identification Form",
+      "purpose": "Exam within 30 days before/14 days after admission and the required identifying information",
+      "policy_ids": [
+        "ADM-01"
+      ]
+    },
+    {
+      "name": "Comprehensive Assessment and Individual Service Plan",
+      "purpose": "14-day assessment (items A–T) and signed service plan",
       "policy_ids": [
         "ADM-03",
-        "HCS-07",
-        "HCS-08"
+        "CAL-03"
       ]
     },
     {
-      "name": "HHSC Forms 1124, 1125, 1126 (Facility Request / Resident's Request to Remain / Physician's Assessment)",
-      "purpose": "Inappropriate placement and evacuation waiver",
+      "name": "Admission Receipts Checklist (Bill of Rights, hotline number, disclosure, restraint notice, emergency plan)",
+      "purpose": "Document receipt of required admission notices",
       "policy_ids": [
         "ADM-04",
+        "RTS-01"
+      ]
+    },
+    {
+      "name": "Advance Directive Notice and Facility Policy Statement",
+      "purpose": "Written notice to residents at admission",
+      "policy_ids": [
         "ADM-05"
       ]
     },
     {
-      "name": "HHSC Forms 1127 and 1129 (Fire Marshal and Fire Suppression Authority Notification)",
-      "purpose": "Notification when a resident's evacuation capability changes",
-      "policy_ids": [
-        "ADM-05",
-        "SAF-06"
-      ]
-    },
-    {
-      "name": "30-Day Discharge/Transfer Notice",
-      "purpose": "Content per §553.267(a)(3)(Y)",
+      "name": "HHSC Forms 1124, 1125, 1126 – Inappropriate Placement / Evacuation Waiver",
+      "purpose": "Aging in place and evacuation waiver process",
       "policy_ids": [
         "ADM-06"
       ]
     },
     {
-      "name": "Provider Notice to HHSC of Immediate Termination",
-      "purpose": "Record of notice to HHSC for a serious or immediate threat",
+      "name": "30-Day Discharge Notice",
+      "purpose": "Written notice with required content",
       "policy_ids": [
         "ADM-06",
-        "REC-02"
+        "RTS-01"
       ]
     },
     {
-      "name": "Medication Profile Record",
-      "purpose": "Per-resident medication listing from the prescription label",
+      "name": "Medication Profile Record and Missed-Dose Log",
+      "purpose": "Record per-resident medication details and missed doses",
       "policy_ids": [
-        "HCS-01",
-        "HCS-02",
-        "HCS-03"
+        "CC-01"
       ]
     },
     {
-      "name": "Medication Administration and Missed/Refused Dose Record",
-      "purpose": "Documents doses given and missed doses",
+      "name": "Self-Administration Monthly Counseling Record",
+      "purpose": "Document monthly counseling for self-administering residents",
       "policy_ids": [
-        "HCS-02",
-        "HCS-03"
-      ]
-    },
-    {
-      "name": "Monthly Self-Administration Counseling Record",
-      "purpose": "Required written record of monthly counseling",
-      "policy_ids": [
-        "HCS-03"
+        "CC-01"
       ]
     },
     {
       "name": "Medication Disposal and Release Receipt",
-      "purpose": "Pharmacist disposal record; signed receipt on release at discharge",
+      "purpose": "Record disposal by a Texas-registered pharmacist and release to discharged residents",
       "policy_ids": [
-        "HCS-01",
-        "ADM-06",
-        "HCS-10"
+        "CC-02"
       ]
     },
     {
-      "name": "RN HMA Assessment and RN Delegation Records",
-      "purpose": "Documents RN assessment and delegation, with 6-month reassessments for residents with Alzheimer's",
+      "name": "Accident/Injury/Acute Illness Report",
+      "purpose": "Separate report with physician and family notification and final disposition",
       "policy_ids": [
-        "HCS-04",
-        "HCS-02",
-        "HCS-06"
+        "CC-03",
+        "ABU-03"
       ]
     },
     {
-      "name": "Accident/Injury/Illness Incident Report (with final disposition)",
-      "purpose": "Separate report required by §553.261(b)(1)(C)",
+      "name": "Weekly Activity Calendar and Participation Log",
+      "purpose": "Document at least weekly activity program",
       "policy_ids": [
-        "SAF-02",
-        "HCS-05",
-        "HCS-07",
-        "HCS-10"
+        "CC-04",
+        "CAL-02"
       ]
     },
     {
-      "name": "Abuse/Neglect/Exploitation Report and 5-Day Written Investigation Report",
-      "purpose": "Oral report followed by written report to the HHSC state office",
+      "name": "Menu Plan and Variation Record",
+      "purpose": "Weekly menus and 30-day records",
       "policy_ids": [
-        "SAF-01",
-        "REC-02"
+        "CC-05"
+      ]
+    },
+    {
+      "name": "Infection Surveillance Log and Rapid Flu Test Record",
+      "purpose": "Track key infectious agents, flu testing and reportable diseases",
+      "policy_ids": [
+        "CC-06",
+        "CC-07"
+      ]
+    },
+    {
+      "name": "Restraint Authorization and Emergency Restraint Report",
+      "purpose": "Physician authorization, 24-hr notification and post-restraint follow-up",
+      "policy_ids": [
+        "CC-08"
+      ]
+    },
+    {
+      "name": "RN Health Maintenance Activity Assessment and Written Agreement",
+      "purpose": "Document RN assessment and resident agreement for HMAs",
+      "policy_ids": [
+        "HMA-01"
+      ]
+    },
+    {
+      "name": "Guardianship Document Request and Follow-Up Log",
+      "purpose": "Document requests at admission and annually with 30-day follow-up",
+      "policy_ids": [
+        "REC-01"
+      ]
+    },
+    {
+      "name": "HHSC Form 3100 / Form 0066 / Form 0067 – Electronic Monitoring",
+      "purpose": "AEM notice, request and roommate consent",
+      "policy_ids": [
+        "RTS-02"
+      ]
+    },
+    {
+      "name": "Grievance/Complaint Log",
+      "purpose": "Record complaints, investigation and response",
+      "policy_ids": [
+        "RTS-03",
+        "GOV-02"
+      ]
+    },
+    {
+      "name": "Resident Funds Ledger and Quarterly Accounting",
+      "purpose": "Record funds handled and provide quarterly accounting",
+      "policy_ids": [
+        "RTS-04",
+        "MED-01"
+      ]
+    },
+    {
+      "name": "Ombudsman Visit Log",
+      "purpose": "Record ombudsman access",
+      "policy_ids": [
+        "OMB-01"
+      ]
+    },
+    {
+      "name": "Required Postings Checklist",
+      "purpose": "Verify all §553.271 postings monthly",
+      "policy_ids": [
+        "POST-01"
+      ]
+    },
+    {
+      "name": "Abuse/Neglect/Exploitation Report and 5-Day Investigation Report",
+      "purpose": "Record the HHSC call, law enforcement report and written investigation",
+      "policy_ids": [
+        "ABU-01",
+        "ABU-02"
+      ]
+    },
+    {
+      "name": "Elopement/Missing Resident Report",
+      "purpose": "Document search, notifications and review",
+      "policy_ids": [
+        "ABU-03"
+      ]
+    },
+    {
+      "name": "Emergency Risk Assessment and Plan Review Record",
+      "purpose": "Document risk assessment and annual review",
+      "policy_ids": [
+        "EMG-01",
+        "EMG-02"
+      ]
+    },
+    {
+      "name": "Emergency Drill Record",
+      "purpose": "Document annual unannounced drill and training",
+      "policy_ids": [
+        "EMG-02",
+        "SAF-01"
+      ]
+    },
+    {
+      "name": "Evacuation Destination Acknowledgments and Current Resident List",
+      "purpose": "Written acknowledgment from receiving facility and alternate, plus resident list",
+      "policy_ids": [
+        "EMG-05",
+        "EMG-06"
+      ]
+    },
+    {
+      "name": "HHSC Form 3707 – Fire Report",
+      "purpose": "Report fires within 15 days",
+      "policy_ids": [
+        "EMG-08"
+      ]
+    },
+    {
+      "name": "HHSC Form 3613-A – Provider Investigation Report",
+      "purpose": "Report disaster-related death, serious injury or threat within 5 working days",
+      "policy_ids": [
+        "EMG-08"
+      ]
+    },
+    {
+      "name": "STAR+PLUS Admission and Change-in-Condition Notice to MCO",
+      "purpose": "3-day health assessment, next-business-day MCO change reports",
+      "policy_ids": [
+        "MED-01",
+        "ADM-03"
       ]
     }
-  ]
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "Licensing Standards for Assisted Living Facilities, 26 TAC Chapter 553 (Subchapters B, D Div. 2, E, F). Used as the fallback because no single policy-review form exists.",
+        "form_number": "None. Regulation sections that enumerate required written policies, plans and procedures.",
+        "issuer": "Texas Health and Human Services Commission (HHSC), Long-term Care Regulation",
+        "version": "Current codified chapter. §553.259 and §553.23 were read on the Cornell LII mirror of the TAC (§553.259 shows amendment eff. 12/6/2022). Text for the other sections was read from a third-party reproduction of Chapter 553 (CHA Seminars, 164 pp.), which says it only approximates the rule. Verify against the official TAC. A Dec. 22, 2023 Texas Register proposal would renumber sections, for example §553.275 to §553.295. Confirm current numbering before the manual is finalized.",
+        "url": "https://www.law.cornell.edu/regulations/texas/title-26/part-1/chapter-553",
+        "how_used": "Source of every item in required_items. Items keep the rule's own numbering, for example 553.259(c)(4). Only policy, plan, procedure and program content is listed. Application forms, fees, ownership, fire-marshal papers, licenses and physical-plant construction standards are excluded."
+      },
+      {
+        "title": "Assisted Living Facilities Checklist (ALF Health Checklist)",
+        "form_number": "Provider Resource 2382 (December 2024)",
+        "issuer": "Texas HHSC Long-term Care Regulation",
+        "version": "December 2024",
+        "url": "https://www.hhs.texas.gov/sites/default/files/documents/alf-health-checklist.pdf",
+        "how_used": "This is the surveyor's compliance checklist that mirrors Chapter 553, and it is the closest official 'checklist'. Fetching the PDF failed, so it was not itemized. Use it as a cross-check against the items below. The HHSC ALF page also lists PR 2383 (Alzheimer's certification checklist) and the PR 2384-2389 LSC checklists."
+      },
+      {
+        "title": "Initial license application rules (§553.19, §553.23, §553.25(d), §553.29(f))",
+        "form_number": "Online application through TULIP. No fillable policy checklist found.",
+        "issuer": "Texas HHSC Licensing and Credentialing, Long-term Care Regulation",
+        "version": "§553.19 and §553.23 adopted eff. 8/31/2021",
+        "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-553-23",
+        "how_used": "These rules show when policies are reviewed: at the on-site health inspection, or by upload for good-standing applicants. They do not list policy content."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "553.25(d)(1)(A)",
+        "text": "Applicant (good-standing applicant requesting a license before the health inspection) must submit via the online portal: the applicant's policies and procedures; with evidence of compliance with §553.257(b) (Human Resources) and documentation that employees have the credentials in §553.253.",
+        "cite": "26 TAC §553.25(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.29(f)(1)",
+        "text": "Applicant requesting Alzheimer's certification before the health inspection must submit for approval the applicant's policies and procedures required by Subchapter F, and documentation of compliance with Subchapter F and §553.257(b).",
+        "cite": "26 TAC §553.29(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(c)",
+        "text": "Fire Safety Plan: an ALF must establish a fire safety plan for the protection of all persons in the facility in the event of fire; in effect at all times; written copies available to all supervisory personnel; copy readily available within the facility.",
+        "cite": "26 TAC §553.104(c)(1), (2), (7)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(c)(3)",
+        "text": "The fire safety plan addresses: (A) evacuation to an area of refuge; (B) evacuation from the building when necessary; (C) special staff actions, including fire protection procedures necessary to ensure the safety of any resident.",
+        "cite": "26 TAC §553.104(c)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(c)(4)-(8)",
+        "text": "Large Type B ALF plan includes the NFPA 101 'Procedure in Case of Fire' provisions (§19.7.2 existing / §18.7.2 new); plan reviewed at least annually and revised; employees instructed on duties at least annually and when revised; plan reflects current evacuation capabilities of residents.",
+        "cite": "26 TAC §553.104(c)(4)-(8)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(f)",
+        "text": "Smoking Policies: an ALF must establish and enforce policies regarding smoking, even if the policy is that smoking will not be permitted. The policy must also address e-cigarettes and vaping devices. If smoking is permitted: designate smoking areas for residents and staff, and provide ashtrays of noncombustible material and safe design.",
+        "cite": "26 TAC §553.104(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(g)",
+        "text": "Fire Alarm System: establish a program to inspect, test, and maintain the fire alarm system per NFPA 72 (and NFPA 720 where CO detection is provided), executed at least every six months through a contract with a State Fire Marshal-registered company; onsite documentation.",
+        "cite": "26 TAC §553.104(g)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(h)",
+        "text": "Fire Sprinkler System (if equipped): establish a program to inspect, test, and maintain per NFPA 25, executed at least every six months; onsite documentation.",
+        "cite": "26 TAC §553.104(h)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.104(n)(2)",
+        "text": "Oxygen: adopt, implement, and enforce procedures for resident use, storage, and handling of oxygen cylinders and liquid oxygen containers in the possession and under the control of residents, to ensure the safety of all residents.",
+        "cite": "26 TAC §553.104(n)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.253(a)",
+        "text": "Manager: designate in writing a manager with authority over the operation; manager qualifications, 24-hr management course, 12 hrs annual continuing education, 40 hrs/week on duty; designate in writing an employee competent and authorized to act in the manager's absence.",
+        "cite": "26 TAC §553.253(a)(1)-(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.253(c)",
+        "text": "Staffing: develop and implement staffing policies which require staffing ratios based upon the needs of residents as identified in service plans; disclose the normal 24-hr staffing pattern to prospective residents and post it monthly; sufficient staff for items (A)-(F); night-shift staffing by Type A/Type B and facility size.",
+        "cite": "26 TAC §553.253(c)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.253(d)(1)",
+        "text": "Orientation: all staff complete 4 hrs before assuming job responsibilities, covering at minimum: (A) reporting of abuse and neglect; (B) confidentiality of resident information; (C) universal precautions; (D) conditions about which they should notify the facility manager; (E) residents' rights; (F) emergency and evacuation procedures.",
+        "cite": "26 TAC §553.253(d)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.253(d)(2)",
+        "text": "Attendants: 16 hrs on-the-job supervision and training within the first 16 hrs following orientation, including (A) assistance with ADLs; (B) residents' health conditions; (C) safety measures to prevent accidents and injuries; (D) emergency first aid procedures; (E) managing disruptive behavior; (F) behavior management; (G) fall prevention.",
+        "cite": "26 TAC §553.253(d)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.253(d)(3)-(4)",
+        "text": "Direct care staff: 6 hrs annual education, including 1 hr fall prevention and 1 hr behavior management (competency-based; addresses unique needs of the facility). Facilities employing licensed nurses, CNAs or certified medication aides: annual in-service training appropriate to job responsibilities (topics A-F).",
+        "cite": "26 TAC §553.253(d)(3), (4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.254",
+        "text": "Alzheimer's training for staff providing personal care to residents with Alzheimer's or related disorders in a non-certified facility: manager 4 hrs plus 2 hrs annual CE; personal care staff 4 hrs plus 2 hrs CE; non-direct-service staff training; competency-based evaluation; training certificates and records.",
+        "cite": "26 TAC §553.254",
+        "doc": 0
+      },
+      {
+        "item_id": "553.255(a)",
+        "text": "All Staff Policy: a facility must adopt, implement, and enforce a written policy that (1) requires a facility employee who provides direct care to a resident with Alzheimer's disease or a related disorder to successfully complete training in the provision of care to such residents and (2) ensures the care and services provided meet the specific identified needs of the resident relating to the diagnosis.",
+        "cite": "26 TAC §553.255(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.255(b)",
+        "text": "Training under (a)(1) must include information about: (1) symptoms of dementia; (2) stages of Alzheimer's disease; (3) person-centered behavioral interventions; (4) communication with a resident with Alzheimer's disease or a related disorder.",
+        "cite": "26 TAC §553.255(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.257(a)",
+        "text": "Personnel Records: keep current and complete personnel records including (1) criminal history check; (2) annual Employee Misconduct Registry check; (3) annual Nurse Aide Registry check; (4) initial TB screening; (5) compliance with or exemption from the facility vaccination policy; (6) signed statement acknowledging criminal liability for failure to report abuse, neglect, and exploitation; (7) signed disclosure statement (HSC §250.006 convictions; lived in another state in past five years).",
+        "cite": "26 TAC §553.257(a)(1)-(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.257(b)",
+        "text": "Investigation of Facility Employees: comply with HSC Ch. 250; search EMR and NAR before hire and at least every 12 months, keep results in the personnel file; do not hire or continue to employ persons listed as unemployable or barred by HSC §250.006; give EMR notification per §561.3; name-based criminal history check in prior states of residence (no direct resident contact pending results); suspend employees found by HHSC to have engaged in reportable conduct while appeals are pending.",
+        "cite": "26 TAC §553.257(b)(1)-(9)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(a)(1)",
+        "text": "A facility must not admit or retain a resident whose needs cannot be met by the facility and who cannot secure the necessary services from an outside resource; additional services require written concurrence of the resident, physician, or legal representative.",
+        "cite": "26 TAC §553.259(a)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(a)(2)",
+        "text": "There must be a written admission agreement between the facility and the resident specifying such details as services to be provided and the charges for the services; statement if services/supplies could be a Medicare benefit.",
+        "cite": "26 TAC §553.259(a)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(a)(3)-(4)",
+        "text": "Share disclosure statement, rate schedule, and service plan with outside resources providing additional services; Memory Care Disclosure Statement (Form 3650) if the facility advertises memory care, and disclose whether Alzheimer's certified (Form 3641 if certified).",
+        "cite": "26 TAC §553.259(a)(3), (4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(a)(5)-(6)",
+        "text": "Health examination by a physician within 30 days before or 14 days after admission; secure at admission the identifying information in items (A)-(K) (name, SSN, usual residence, sex, marital status, DOB, place of birth, occupation, emergency notification contacts and physician, pharmacy preference, Medicaid/Medicare number).",
+        "cite": "26 TAC §553.259(a)(5), (6)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(b)",
+        "text": "Resident Assessment and Service Plan: within 14 days of admission, a comprehensive assessment (items A-T, e.g., location admitted from, primary language, sleep-cycle issues, behavioral symptoms, psychosocial issues, dementia history, ADL patterns, cognitive skills, communication, physical functioning, continence, nutrition, oral/dental, diagnoses, medications, special treatments, hospital admissions, preventive health needs) and an individual service plan; service plan signed by resident or responsible person and updated annually and on significant change; respite and emergency admission provisions.",
+        "cite": "26 TAC §553.259(b)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(c)(1)-(3)",
+        "text": "Before admitting, explain and provide the disclosure statement and document receipt; provide the Residents' Bill of Rights; provide the resident's immediate family, and document receipt of, the HHSC abuse/neglect/exploitation hotline number.",
+        "cite": "26 TAC §553.259(c)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(c)(4)",
+        "text": "The facility must have written policies regarding residents accepted, services provided, charges, refunds, responsibilities of facility and residents, privileges of residents, and other rules and regulations.",
+        "cite": "26 TAC §553.259(c)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(c)(5)-(7)",
+        "text": "Make resident policies available to staff and to residents or responsible parties at admission, with documented notice of changes before the effective date; before or upon admission notify resident/representative of HHSC rules and facility policies on restraint and seclusion; give a written copy of the emergency preparedness plan or an evacuation summary.",
+        "cite": "26 TAC §553.259(c)(5)-(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(d)",
+        "text": "Advance Directives: maintain written policies regarding implementation of advance directives, including a clear and precise statement of any procedure the facility is unwilling or unable to provide or withhold; give written notice to residents at admission (order of preference for incapacitated residents).",
+        "cite": "26 TAC §553.259(d)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.259(e)",
+        "text": "Inappropriate Placement / evacuation waiver: facility procedures for aging in place and inappropriate placement (Forms 1124, 1125, 1126; detailed emergency plan; evacuation waiver request within 10 working days); disclosure statement must notify resident of the waiver process and the facility's policies and procedures for aging in place; 30-day discharge if not obtained.",
+        "cite": "26 TAC §553.259(e)(1)-(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(a)",
+        "text": "Medications: administration per physician's orders by authorized persons (licensed, medication aide, or RN-delegated employee); dispensing through pharmacy; medication profile record contents (name, strength, dosage, amount received, directions, route, Rx number, pharmacy, date issued); supervision limited to listed tasks; monthly counseling for residents who self-administer; immediate reporting of unusual reactions; written record of missed doses.",
+        "cite": "26 TAC §553.261(a)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(a)(5)",
+        "text": "Storage: locked area for all medications; each resident's medication stored separately; locked refrigerator storage; poisons and 'external use only' medications stored separately; if controlled drugs are stored, facility policies and procedures must address the prevention of the diversion of the controlled drugs.",
+        "cite": "26 TAC §553.261(a)(5)(A)-(E)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(a)(6)",
+        "text": "Disposal: discontinued, deceased-resident and expired medications kept separate and disposed of by a Texas-registered pharmacist; needles and syringes per 25 TAC §§1.131-1.137; release of medications to discharged residents on signed receipt.",
+        "cite": "26 TAC §553.261(a)(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(b)",
+        "text": "Accident, Injury, or Acute Illness: arrange emergency care or transfer; immediately notify physician and next of kin/responsible party/placing agency; describe and document on a separate report with final disposition; stock first aid supplies for burns, cuts, and poisoning in a single location.",
+        "cite": "26 TAC §553.261(b)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(c)",
+        "text": "Healthcare Professional: coordination of services within scope of practice; facility must not provide ongoing services comparable to a nursing facility; residents may contract with a HCSSA or independent professional.",
+        "cite": "26 TAC §553.261(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(d)",
+        "text": "Activities Program: the facility must provide an activity or social program at least weekly for the residents.",
+        "cite": "26 TAC §553.261(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(e)",
+        "text": "Dietary Services: person designated responsible for food service; at least three meals daily with no more than a 16-hr span between evening meal and breakfast; menus planned one week in advance, followed, variations documented, records kept 30 days; therapeutic diets per physician order (calculated by a dietitian where required); four-day staple and one-day perishable supplies; food sources, storage, temperature, handwashing, sanitation, and employee-illness requirements (items 1-18).",
+        "cite": "26 TAC §553.261(e)(1)-(18)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(f)(1)",
+        "text": "Infection Prevention and Control: each facility must establish, implement, enforce, and maintain an infection prevention and control policy and procedure designed to provide a safe, sanitary, and comfortable environment and help prevent the development and transmission of disease and infection.",
+        "cite": "26 TAC §553.261(f)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(f)(3)-(4)",
+        "text": "Report residents with reportable diseases to the local health authority; written policies for control of communicable disease among employees and residents addressing tuberculosis (TB) screening and a safe and sanitary environment; exclude infected employees from food handling or direct care; employee TB screening within two weeks of employment and annually; resident TB screening consistent with CDC guidelines.",
+        "cite": "26 TAC §553.261(f)(3), (4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(f)(5)",
+        "text": "Written policies and procedures for: (A) monitoring key infectious agents, including multidrug-resistant organisms; (B) wearing personal protective equipment and cleaning hands; (C) cleaning and disinfecting environmental surfaces; (D) using universal precautions for blood and bodily fluids; (E) removing soiled items from the environment at least once daily.",
+        "cite": "26 TAC §553.261(f)(5)(A)-(E)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(f)(6)",
+        "text": "Written policy and procedures for making a rapid influenza diagnostic test available to a resident exhibiting flu-like symptoms.",
+        "cite": "26 TAC §553.261(f)(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(f)(9)",
+        "text": "Vaccine-preventable disease policy (HSC Ch. 224): written policy that MUST (i) require employees/contractors providing direct care to receive specified vaccines based on risk; (ii) specify the vaccines; (iii) include verification procedures; (iv) include exemption procedures for CDC contraindications/precautions; (v) include procedures protecting residents from exempt staff; (vi) prohibit discrimination/retaliation against exempt staff; (vii) require records of compliance or exemption; (viii) include disciplinary actions. The policy MAY include conscience exemptions and restrict contact during a public health disaster.",
+        "cite": "26 TAC §553.261(f)(9)(A)-(B)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(g)",
+        "text": "Restraints and Seclusion: all restraints for behavioral management, staff convenience, or discipline are prohibited and seclusion is prohibited; restraint only if physician-authorized in writing (circumstances and duration) or necessary in an emergency; behavioral-emergency definition; prohibited restraint types; acceptable restraint hold; post-restraint physician appointment and 24-hr notification; no retaliation for reporting misuse.",
+        "cite": "26 TAC §553.261(g)(1)-(8)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.261(h)",
+        "text": "Wheelchair Self-Release Seat Belts: facility must allow use if the four conditions (A)-(D) are met; restraint-free facilities must give residents a written statement; circumstances when the facility need not continue to allow use.",
+        "cite": "26 TAC §553.261(h)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.263",
+        "text": "Health Maintenance Activities (only if the facility allows personal care staff to perform HMAs without delegation): RN assessment per 22 TAC §225.6, documented conditions (stable and predictable; resident able to direct; written agreement), and reassessment at least annually (every six months for Alzheimer's residents); otherwise RN delegation under 22 TAC Ch. 225.",
+        "cite": "26 TAC §553.263(a)-(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.265(a)-(b)",
+        "text": "Resident Records: treated as confidential and safeguarded from unauthorized use, loss, or destruction; contents (A)-(H); available to residents, legal representatives, and HHSC; simple financial record of charges and of any personal finances entrusted to the facility; receipts upon request.",
+        "cite": "26 TAC §553.265(a), (b)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.265(c)",
+        "text": "Guardianship Record Requirements: request the current court order and letters of guardianship at admission, when a guardian is appointed, and at each annual assessment; at least one follow-up request within 30 days; keep documentation and copies in the resident's record.",
+        "cite": "26 TAC §553.265(c)(1)-(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.267(a)",
+        "text": "Residents' Bill of Rights: provide a copy to each resident and post it (in each resident's primary language); each resident's rights (3)(A)-(BB), including freedom from abuse/restraint, complaint rights, mail, visitation, financial management, records confidentiality, physician choice, service-plan participation, refusal of treatment, phone and privacy, personal property, Medicare/Medicaid notice by day 30, transfer/discharge limits and 30-day written notice contents, ombudsman access, advance directive.",
+        "cite": "26 TAC §553.267(a)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.267(b)-(c)",
+        "text": "Providers' Bill of Rights posted in a prominent place with rights (A)-(J); access to residents for HHSC and local authority employees.",
+        "cite": "26 TAC §553.267(b), (c)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.267(d)",
+        "text": "Authorized Electronic Monitoring (AEM): permit AEM; do not refuse admission or discharge because of an AEM request; Form 3100 on admission, Form 0066 request, Form 0067 roommate consent; notice at room entrance; 8.5 x 11 'Electronic Monitoring' notice at main entrance; reasonable physical accommodation; abuse/neglect reporting for recordings.",
+        "cite": "26 TAC §553.267(d)(1)-(10)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.269",
+        "text": "Ombudsman access: allow the State Ombudsman, certified ombudsmen and interns immediate, private, unimpeded access to the facility, residents, resident-representative contact information, and records as specified.",
+        "cite": "26 TAC §553.269(a)-(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.271",
+        "text": "Postings: license; HHSC complaint-procedure sign; inspection-report availability notice; most recent inspection report; Residents' Bill of Rights; Providers' Bill of Rights; local and State Ombudsman telephone numbers (800-252-2412); normal 24-hr staffing patterns; abuse/neglect/exploitation hotline sign (800-458-9858).",
+        "cite": "26 TAC §553.271(1)-(9)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.273(a)-(c)",
+        "text": "Abuse, Neglect or Exploitation: staff who have cause to believe a resident has been or may be adversely affected must report to HHSC (800-458-9858 / TxAbuseHotline.org) and local law enforcement; report must include (1)-(5) (resident name, age, address; responsible person; nature and extent of condition; basis of knowledge; other relevant information).",
+        "cite": "26 TAC §553.273(a), (c)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.273(b)",
+        "text": "An ALF must follow its internal policies regarding the prevention, detection, and reporting of abuse, neglect, or exploitation.",
+        "cite": "26 TAC §553.273(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.273(d)-(f)",
+        "text": "Immediately make an oral report to HHSC, investigate the allegation, and send a written report of the investigation to HHSC state office no later than the fifth calendar day after the oral report; no retaliation for good-faith complaints; require staff, as a condition of employment, to sign a statement of possible criminal liability for failure to report.",
+        "cite": "26 TAC §553.273(d)-(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(b)",
+        "text": "Risk assessment: conduct and document a risk assessment for internal and external emergencies or disasters relevant to the facility's operations and location (e.g., fire/explosion; power, telecommunication or water outage; wildfire; hazardous materials; active shooter/bomb threat; flood; hurricane/severe weather; epidemic/pandemic; cyber-attack; loss of all or part of the facility).",
+        "cite": "26 TAC §553.275(b)(1)-(10)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(c)",
+        "text": "Written emergency preparedness and response plan based on the risk assessment, addressing the eight core functions: Direction and Control; Warning; Communication; Sheltering Arrangements; Evacuation; Transportation; Health and Medical Needs; Resource Management. The plan must document EMC contact information, include a process for communication with the EMC, and the location of a current resident list identifying residents with Alzheimer's/related disorders, evacuation waivers, and mobility or special needs; notify the EMC of the plan.",
+        "cite": "26 TAC §553.275(c)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(d)",
+        "text": "Plan maintenance: current printed copy in a central location accessible to staff, residents and representatives; review at least annually and after events, with updates within 30 days of shortcomings, drills, or policy/rule changes; document reviews; written copy or evacuation summary to residents/representatives; notify residents how to register with 2-1-1 Texas; register as a provider with 2-1-1 Texas.",
+        "cite": "26 TAC §553.275(d)(1)-(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(e)",
+        "text": "Core Function One, Direction and Control: designate the Emergency Preparedness Coordinator (EPC) and an alternate EPC; assign responsibilities to staff by function or position and describe how each staff member understands their role.",
+        "cite": "26 TAC §553.275(e)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(f)",
+        "text": "Core Function Two, Warning: procedures for notifying the EPC of a disaster; who the EPC will notify (including off hours, weekends, holidays); procedure for keeping persons in the facility informed; procedures for monitoring local news and weather.",
+        "cite": "26 TAC §553.275(f)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(g)",
+        "text": "Core Function Three, Communication: primary and alternate modes of communication; when to call 911; location of contact lists (representatives and emergency contacts, receiving facilities with written acknowledgements, HCSSA/professionals, staff, resident population); public status communication; procedure for notifying staff, residents, representatives, emergency contacts, HCSSAs, receiving facilities, drivers, and the EMC.",
+        "cite": "26 TAC §553.275(g)(1)-(5)(A)-(H)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(h)",
+        "text": "Core Function Four, Sheltering Arrangements: procedure for deciding to remain in the facility (access to medication, records, equipment, water and food including special diets; safe power and temperatures between 68 and 82 degrees F; sheltering staff); notify the HHSC regional office and EMC after deciding to remain.",
+        "cite": "26 TAC §553.275(h)(1)-(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(i)",
+        "text": "Core Function Five, Evacuation: evacuation destinations and routes with a map; decision procedure with contingencies and a plan for pets/service animals; documented acknowledgment from at least one receiving facility/destination and one alternate; procedures and responsible staff (D)(i)-(x) for notification of HHSC and EMC, staff accompaniment, resident accounting and tracking, release of resident information, re-entry determination, return of residents.",
+        "cite": "26 TAC §553.275(i)(1)-(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(j)",
+        "text": "Core Function Six, Transportation: arrangements for sufficient vehicles; staff designated to drive and communication methods; procedures for safely transporting residents, staff and others; safe transport of and timely access to oxygen, medications, records, food, water, equipment, and supplies.",
+        "cite": "26 TAC §553.275(j)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(k)",
+        "text": "Core Function Seven, Health and Medical Needs: identify special services residents use (dialysis, oxygen, hospice); procedures to enable continued services; procedures to notify HCSSAs and independent professionals of an evacuation.",
+        "cite": "26 TAC §553.275(k)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(l)",
+        "text": "Core Function Eight, Resource Management: plan for obtaining, transporting and storing medications, records, food, water, equipment and supplies; staff assigned by position/function; procedure to keep medications secure and at proper temperature; safeguards for confidentiality, security, and integrity of resident records.",
+        "cite": "26 TAC §553.275(l)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(m)",
+        "text": "Receiving Facility (only if the facility will act as one): plan must include procedures for accommodating temporary emergency placement from another ALF, subject to conditions (1)-(5) (capacity limits, safety, ability to meet needs, log, continuity-of-care items).",
+        "cite": "26 TAC §553.275(m)(1)-(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(n)",
+        "text": "Plan training: annual staff training; train staff on responsibilities before assuming duties and when responsibilities change; at least one unannounced annual drill; offer and document training to residents, representatives and emergency contacts; document compliance.",
+        "cite": "26 TAC §553.275(n)(1)-(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.275(o)-(p)",
+        "text": "Self-reported incidents: report fires (call 800-458-9858; Form 3707 within 15 days); report death, serious injury or threat from a disaster (call immediately; Provider Investigation Report Form 3613-A within five working days). Emergency Response System: administrator and designee enroll and respond in the format established by HHSC.",
+        "cite": "26 TAC §553.275(o), (p)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.301",
+        "text": "Certified Alzheimer's facility: manager/unit supervisor qualifications (age 21 and education/experience options) and six hours annual continuing education on dementia care.",
+        "cite": "26 TAC §553.301(a), (b)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.303",
+        "text": "Alzheimer's staff training: 4 hrs dementia-specific orientation (causes/progression/management; managing dysfunctional behavior; safety risks); attendants 16 hrs on-the-job training (ADLs; emergency and evacuation procedures specific to dementia population; managing dysfunctional behavior; behavior management); attendants 12 hrs annual in-service on Alzheimer's.",
+        "cite": "26 TAC §553.303(a)-(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.305",
+        "text": "Staffing: employ sufficient staff to meet the needs of Alzheimer's residents; in large facilities or units with 17 or more residents, two staff members immediately available when residents are present.",
+        "cite": "26 TAC §553.305",
+        "doc": 0
+      },
+      {
+        "item_id": "553.307",
+        "text": "Admission procedures, assessment and service plan: use Form 3641; establish pre-admission procedures (application process, interviews, home visits) to ensure appropriate placement; give Form 3641 to any inquirer; comprehensive assessment within 14 days and annually; individualized service plan within 14 days, updated annually and on significant change.",
+        "cite": "26 TAC §553.307(a)-(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "553.309",
+        "text": "Activities program: planned and structured program with a balanced mixture of cognitive, recreational and ADL activities; individualized; daily offerings and minimum structured hours; employee responsible for activities (activity director for 20 hrs weekly in facilities of 17 or more residents); monthly schedule; six hours annual continuing education; special equipment as appropriate.",
+        "cite": "26 TAC §553.309(a)-(i)",
+        "doc": 0
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "Subchapter B - Licensing (§553.25(d) / §553.29(f): policies and procedures submitted by good-standing applicants)",
+        "Subchapter D, Div. 2 - Safety Operations (§553.104: fire safety plan, smoking policy, alarm/sprinkler programs, oxygen procedures)",
+        "Subchapter E - §553.253 Employee Qualifications and Training",
+        "Subchapter E - §553.254 / §553.255 Alzheimer's staff training and all-staff policy",
+        "Subchapter E - §553.257 Human Resources",
+        "Subchapter E - §553.259 Admission Policies and Procedures",
+        "Subchapter E - §553.261 Coordination of Care (medications, accident/injury, activities, dietary, infection control, restraints and seclusion, seat belts)",
+        "Subchapter E - §553.263 Health Maintenance Activities",
+        "Subchapter E - §553.265 Resident Records and Retention",
+        "Subchapter E - §553.267 Rights (including Authorized Electronic Monitoring)",
+        "Subchapter E - §553.269 Ombudsman Access",
+        "Subchapter E - §553.271 Postings",
+        "Subchapter E - §553.273 Abuse, Neglect or Exploitation",
+        "Subchapter E - §553.275 Emergency Preparedness and Response",
+        "Subchapter F - Certified Alzheimer's ALFs (§553.301-§553.309), only if certified or advertising specialized dementia care"
+      ]
+    },
+    "notes": "Texas HHSC publishes no single policy-review form for ALF initial licensing. <cite index=\"24-2\">HHSC's ALF page lists an ALF Health Checklist (PR 2382) among its resources.</cite> <cite index=\"23-4\">The checklist items represent 26 TAC Chapter 553.</cite> I could not fetch that PDF, so the items above come from the Chapter 553 sections that require written policies, plans or procedures. How policies are reviewed: an applicant files through the TULIP online portal, and HHSC then conducts an LSC inspection. After the facility has admitted one to three residents, the applicant notifies HHSC that it is ready for the on-site health inspection, which tests compliance with the Subchapter E operating and resident-care standards (§553.23(f)). The manual is reviewed against those standards at that inspection. A good-standing applicant (six years of Type A/B operation, no harm or sanction history) can instead request a license before the health inspection. That applicant must upload the policies and procedures plus evidence of §553.257(b) compliance and staff credentials (§553.25(d)). <cite index=\"7-3\">A good-standing Alzheimer's-certification applicant must submit its Subchapter F policies via the online portal.</cite> Suggested organization: one manual tab per section in the order of 'sections' above, with the Rule cite at the top of each policy so a surveyor can trace it. Include the HHSC forms the rules require (3647 disclosure statement, 3650 and 3641 memory-care and Alzheimer's disclosure statements, 3100/0066/0067 for electronic monitoring, 3707 fire report, 3613-A investigation report, 4719 fire drill report). Use the current HHSC versions of these forms. Caveats: (1) Text for sections other than §553.19, §553.23 and §553.259 was read from a third-party reproduction that says it approximates the rule. Verify wording and numbering against the official TAC. (2) A Dec. 2023 Texas Register proposal would renumber sections (for example §553.275 to §553.295), so confirm the in-force numbering. (3) Items marked conditional (§553.263 HMA, §553.275(m) receiving facility, Subchapter F, §553.104(h) sprinklers) apply only if the facility does those things. (4) Excluded from the list: physical-plant construction standards, license fees, ownership and controlling-person disclosures, fire-authority documentation (§553.19(c)), and pre-licensure training certificates. Contacts: LTCR Licensing 512-438-2630 (LTC_ALF_ICF_Licensing@hhs.texas.gov); rules and policy questions 512-438-3161 (LTCRPolicy@hhs.texas.gov)."
+  },
+  "plan_version": 2
 }

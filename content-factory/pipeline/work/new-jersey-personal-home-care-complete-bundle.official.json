@@ -1,0 +1,624 @@
+{
+  "documents": [
+    {
+      "title": "Best Practices for Health Care Service Firms (advisory only)",
+      "form_number": "None. It has no form number, and the document says it is advisory and non-binding.",
+      "issuer": "NJ Office of the Attorney General, Division of Consumer Affairs (Regulated Business Section / Board of Nursing)",
+      "version": "April 15, 2014 (the version posted on the Division's site)",
+      "url": "https://www.njconsumeraffairs.gov/nur/Documents/Best-Practices-for-Health-Care-Service-Firms.pdf",
+      "how_used": "This is the only official Division document I found that lists the policy content a home care HCSF should have in writing. I used it as the main source for required_items. It is aspirational: where it conflicts with or exceeds N.J.S.A. 34:8-43 et seq. or N.J.A.C. 13:45B-13.1 et seq., the statute and rules control. Its fetched text appears to end after the Service Agreement Policy sentence."
+    },
+    {
+      "title": "N.J.A.C. 13:45B-13.7 Information for patient/employers",
+      "form_number": "N/A",
+      "issuer": "NJ Division of Consumer Affairs (codified rule)",
+      "version": "Current text via Cornell LII. The rule is new rule R.2008 d.155, effective 6/16/2008.",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-45B-13-7",
+      "how_used": "These are binding operational rules that the written policies should reflect: ID tags and delivery of the Consumer Guide."
+    },
+    {
+      "title": "N.J.A.C. 13:45B-14.7 Homemaker-home health aides and agencies",
+      "form_number": "N/A",
+      "issuer": "NJ Division of Consumer Affairs (codified rule)",
+      "version": "Current text via Cornell LII. The last note is an administrative correction at 47 N.J.R. 830(a).",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-45B-14-7",
+      "how_used": "These are binding rules on CHHA placement and delegation. They should be reflected in the delegation and personnel policies."
+    },
+    {
+      "title": "N.J.A.C. 13:45B-13.6 Prohibited acts (and 13:45B-13.3 Initial registration requirements, reviewed but excluded)",
+      "form_number": "N/A",
+      "issuer": "NJ Division of Consumer Affairs (codified rule)",
+      "version": "Current text via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-45B-13-6",
+      "how_used": "Policies should not conflict with these prohibitions. N.J.A.C. 13:45B-13.3 (https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-45B-13-3) lists only application paperwork (registration form, criminal-history certifications, bond, other-state licenses). Under the exclusion rules, none of its items were extracted as policy content."
+    }
+  ],
+  "required_items": [
+    {
+      "item_id": "II/Intake",
+      "text": "Intake interview and initial assessment: the HCSF, by or through its DON/HCSS, assigns a nurse, office manager or other responsible staff member to conduct an intake interview with the patient and/or family/significant-other.",
+      "cite": "Best Practices §II, Intake Interview and Initial Assessment",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake",
+      "text": "For patients discharged from a health care facility, the DON/HCSS or RN on call takes responsibility for delegating care during the first 24 to 48 hours, pending the designated RN's in-person nursing assessment.",
+      "cite": "Best Practices §II, Intake Interview and Initial Assessment",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake",
+      "text": "For all other assignments, an RN should conduct an in-person nursing assessment of each patient before care starts, to establish a baseline of physical and functional status and the level of services needed.",
+      "cite": "Best Practices §II, Intake Interview and Initial Assessment",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 1",
+      "text": "Full name of patient",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 1",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 2",
+      "text": "Date of birth",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 2",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 3",
+      "text": "Gender",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 3",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 4",
+      "text": "Primary Care Provider and/or other health care professional contact information, including name and phone number",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 4",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 5",
+      "text": "Past medical history, if known",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 5",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 6",
+      "text": "Nursing and medical diagnosis(es) or problem(s), if known",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 6",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 7",
+      "text": "List of medications, if known",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 7",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 8",
+      "text": "Functional status, if known",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 8",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 9",
+      "text": "Family/Significant-Other contact information, including name, phone number and relationship to the patient",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 9",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 10",
+      "text": "Identification of services in place, additional services needed, and collateral contacts, if applicable",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 10",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Intake Documentation 11",
+      "text": "Name, date and signature of person conducting intake. If history, diagnoses, medications and functional status are not known, the documentation should reflect an attempt to obtain them.",
+      "cite": "Best Practices §II, Required Intake Interview Documentation 11",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 1",
+      "text": "Vital signs, including temperature, pulse, respiration, blood pressure, and a pain assessment. This assessment is done by the DON/HCSS or an assigned Nurse Supervisor, to determine tasks to delegate to an assigned CHHA, before service starts (or within 24 to 48 hours for facility discharges).",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 1",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 2",
+      "text": "Past medical history",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 2",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 3",
+      "text": "Nursing and medical diagnosis(es) or problem(s)",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 3",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 4",
+      "text": "List of medications",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 4",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 5",
+      "text": "Functional status",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 5",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 6",
+      "text": "Psycho-social review relevant to the Plan of Care",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 6",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 7",
+      "text": "A systems review (neurologic, musculo-skeletal, integumentary, cardiovascular, pulmonary, gastro-intestinal, genito-urinary)",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 7",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 8",
+      "text": "Nutritional status, including diet",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 8",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 9",
+      "text": "Home safety review, including fall risk assessment",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 9",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 10",
+      "text": "Emergency plan",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 10",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 11",
+      "text": "Advance directives",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 11",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 12",
+      "text": "Primary Care Provider's Certification of Need for Services, if applicable",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 12",
+      "doc": 0
+    },
+    {
+      "item_id": "II/In-Person Assessment 13",
+      "text": "Date and signature of the Nurse Supervisor conducting the assessment",
+      "cite": "Best Practices §II, Required In-Person Assessment Documentation 13",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 1",
+      "text": "Days and hours of service to be provided to the patient. The Plan of Care is developed by the DON/HCSS or assigned Nurse Supervisor from the in-person assessment, before service starts (or within 24 to 48 hours for facility discharges).",
+      "cite": "Best Practices §II, Plan of Care 1",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 2",
+      "text": "Nursing and medical diagnosis(es) or problem(s)",
+      "cite": "Best Practices §II, Plan of Care 2",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 3",
+      "text": "Tasks to be performed by employees and licensure/registration status of the assigned employees – RNs, LPNs, CHHAs, unlicensed assistive personnel, and therapists",
+      "cite": "Best Practices §II, Plan of Care 3",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 4",
+      "text": "The frequency at which the tasks are to be performed",
+      "cite": "Best Practices §II, Plan of Care 4",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 5",
+      "text": "Short-term and long-term goals for patient care and discharge",
+      "cite": "Best Practices §II, Plan of Care 5",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 6",
+      "text": "Specific changes in patient status that need to be reported to the Nurse Supervisor",
+      "cite": "Best Practices §II, Plan of Care 6",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 7",
+      "text": "Date and signature of the nurse who assessed the patient and developed or modified the Plan of Care",
+      "cite": "Best Practices §II, Plan of Care 7",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 8",
+      "text": "Date and signature of the patient and/or family/significant-other",
+      "cite": "Best Practices §II, Plan of Care 8",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 9",
+      "text": "Date and signature of the employee who is assigned at the start of service",
+      "cite": "Best Practices §II, Plan of Care 9",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Plan of Care 10",
+      "text": "Date and signature of the employee who is assigned at reassessment and whenever there are changes in the Plan of Care. A copy of the Plan of Care is kept in the office and at the patient's residence, and is available to the patient, family/significant others and agency employees.",
+      "cite": "Best Practices §II, Plan of Care 10 and following paragraph",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Competency Evaluation Prior to Start",
+      "text": "Before services start in a new patient's home, assigned CHHAs receive an in-person description and/or demonstration of the delegated tasks from the RN, regardless of experience level. The RN assures the CHHA has the requisite skills and may refuse to delegate to a CHHA who lacks the competencies. A CHHA has a duty to refuse a delegation he or she cannot competently carry out.",
+      "cite": "Best Practices §II, Competency Evaluation of Assigned CHHAs Prior to the Start of Services",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Weekly CHHA Activity Records 1",
+      "text": "Date and time of each patient assignment. The CHHA prepares and files a weekly activity sheet with the HCSF.",
+      "cite": "Best Practices §II, Weekly CHHA Activity Records 1",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Weekly CHHA Activity Records 2",
+      "text": "Documentation of the activities performed, as well as those activities identified in the Plan of Care that were not performed and the reasons why",
+      "cite": "Best Practices §II, Weekly CHHA Activity Records 2",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Weekly CHHA Activity Records 3",
+      "text": "Any change in the patient's condition that was reported to the Nursing Supervisor and documented by both the CHHA and nurse",
+      "cite": "Best Practices §II, Weekly CHHA Activity Records 3",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Weekly CHHA Activity Records 4",
+      "text": "Date and signature of the CHHA",
+      "cite": "Best Practices §II, Weekly CHHA Activity Records 4",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Weekly CHHA Activity Records 5",
+      "text": "Date and signature of patient, family member, significant other or designated party. Records are kept with the patient's medical record in the office for a minimum of 7 years for an adult and 21 years for a pediatric patient, or as required by law.",
+      "cite": "Best Practices §II, Weekly CHHA Activity Records 5 and retention paragraph",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Periodic Review",
+      "text": "A Nurse Supervisor evaluates care records regularly and contacts the patient and/or significant other at least every 30 days to determine whether the Plan of Care still meets the patient's needs. The clinical record reflects this evaluation.",
+      "cite": "Best Practices §II, Periodic Patient Review and Re-Evaluation",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Periodic Review",
+      "text": "A Nurse Supervisor conducts an in-person re-evaluation every 60 days (or 2 months), or more often if the patient's condition warrants. More frequent re-evaluation also applies after an interruption of service, a hospitalization or facility stay, or a change in condition or functional status, or if consistent with a service agreement.",
+      "cite": "Best Practices §II, Periodic Patient Review and Re-Evaluation",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Periodic Review Changes 1-7",
+      "text": "If the nurse changes the plan of care, the documentation reflects the reasons, based on review of: (1) nursing and medical diagnosis(es) or problem(s); (2) changes in vital signs, including temperature, pulse, respiration, blood pressure and a pain assessment; (3) changes in functional status; (4) psycho-social review relevant to the Plan of Care; (5) nutritional status, including diet; (6) home safety review, including fall risk assessment; (7) the emergency plan.",
+      "cite": "Best Practices §II, Periodic Patient Review, list 1-7",
+      "doc": 0
+    },
+    {
+      "item_id": "II/Periodic Review Documentation 1-4",
+      "text": "The re-evaluation documentation also includes: (1) name of any employees present, their licensure status, and the skill(s) observed; (2) confirmation that the plan of care has been reviewed with the CHHA; (3) any communication with patient, family, significant other or designated party regarding complaints, problems, etc.; (4) date and signature of the Nurse Supervisor.",
+      "cite": "Best Practices §II, Periodic Patient Review, documentation list 1-4",
+      "doc": 0
+    },
+    {
+      "item_id": "II/CHHA Clinical Performance Documentation 1-6",
+      "text": "When the Nurse Supervisor directly observes a CHHA's skills, the CHHA's employee file reflects: (1) the skills directly observed; (2) an evaluation of how well those skills were performed; (3) any demonstrations/instructions provided by the Nurse Supervisor, if applicable; (4) the date of the observation; (5) the signature of the employee being evaluated; (6) the signature of the Nurse Supervisor.",
+      "cite": "Best Practices §II, Documentation Requirement Relating to the Clinical Performance of the CHHA 1-6",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 1",
+      "text": "Applicant's name (including any nicknames), address, telephone number and e-mail address, if available. Every applicant for employment involving health care services completes a written application.",
+      "cite": "Best Practices §III, Employment Application 1",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 2",
+      "text": "Applicant's New Jersey license or certificate number, as applicable, the type of license, the licensing authority and the expiration date of the license",
+      "cite": "Best Practices §III, Employment Application 2",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 3",
+      "text": "Applicant's date of birth",
+      "cite": "Best Practices §III, Employment Application 3",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 4",
+      "text": "Applicant's Social Security number",
+      "cite": "Best Practices §III, Employment Application 4",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 5",
+      "text": "Names, addresses and telephone numbers of all employers during at least the year preceding the application, including (a) names of supervisors, (b) dates of employment, (c) work experience, (d) reasons for leaving each employer",
+      "cite": "Best Practices §III, Employment Application 5(a)-(d)",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 6",
+      "text": "Education and training, including the dates of training, the location where it was obtained, any degrees or certificates received, including attainment of training in CPR, and the dates of issue and expiration, if applicable",
+      "cite": "Best Practices §III, Employment Application 6",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 7",
+      "text": "Date and signature of applicant",
+      "cite": "Best Practices §III, Employment Application 7",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Employment Application 8",
+      "text": "Authorization to conduct a criminal background check",
+      "cite": "Best Practices §III, Employment Application 8",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Interview Documentation",
+      "text": "Every applicant for employment is interviewed. The HCSF maintains documentation of the interview, including the name and title of the interviewer and the date of the interview.",
+      "cite": "Best Practices §III, Interview Documentation",
+      "doc": 0
+    },
+    {
+      "item_id": "III/References",
+      "text": "Obtain written and/or appropriately documented verbal references from at least two individuals. At least one must be (1) an employer, including an immediate past employer, or (2) an educator, including an instructor from a CHHA training program, if applicable. References do not include family members or friends.",
+      "cite": "Best Practices §III, References",
+      "doc": 0
+    },
+    {
+      "item_id": "III/References Documentation 1-5",
+      "text": "Applicant file documentation includes: (1) name and relationship to the applicant of the person giving the reference; (2) dates of the applicant's employment; (3) content of the reference, including the reasons for leaving employment; (4) for written references, the signature and title of the reference and date signed; (5) for verbal references, the signature of the HCSF staff member who obtained the reference and date of the call. Pre-written letters of recommendation are acceptable if verified by the HCSF.",
+      "cite": "Best Practices §III, References, list 1-5",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Verification of Credentials",
+      "text": "Before referral or placement of a licensed, certified or registered individual, and after personal examination of the original or other reliable verification source, maintain a copy of every employee's current license, registration or certificate, plus a copy of the Division of Consumer Affairs online verification printout confirming current status.",
+      "cite": "Best Practices §III, Verification of Credentials and Content of Personnel Record",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 1",
+      "text": "Health attestation form, reflecting the results of Mantoux tuberculin skin test as well as rubella and rubeola immunization or serologic evidence of immunity",
+      "cite": "Best Practices §III, Personnel Record 1",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 2",
+      "text": "Clinical competency documentation",
+      "cite": "Best Practices §III, Personnel Record 2",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 3",
+      "text": "Performance evaluations",
+      "cite": "Best Practices §III, Personnel Record 3",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 4",
+      "text": "Clinical supervision documentation",
+      "cite": "Best Practices §III, Personnel Record 4",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 5",
+      "text": "In-service attendance records",
+      "cite": "Best Practices §III, Personnel Record 5",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 6",
+      "text": "Malpractice insurance policy number, if applicable to the individual",
+      "cite": "Best Practices §III, Personnel Record 6",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 7",
+      "text": "Date of hire",
+      "cite": "Best Practices §III, Personnel Record 7",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 8",
+      "text": "Annual verification of licensure status as reflected by the NJ Division of Consumer Affairs' online verification page printout. The agency establishes the yearly date for credentials verification.",
+      "cite": "Best Practices §III, Personnel Record 8",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Personnel Record 9",
+      "text": "A photograph of the employee, with the face clearly visible like those required for a passport, matching the photograph used for the employee's identification badge",
+      "cite": "Best Practices §III, Personnel Record 9",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Agency Orientation",
+      "text": "Provide an orientation program quarterly to all newly hired CHHAs within three months of employment, or sooner based on the CHHA's documented level of expertise.",
+      "cite": "Best Practices §III, Agency Orientation",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Agency Orientation Topics 1-13",
+      "text": "Orientation covers at minimum: (1) infection control; (2) blood-borne pathogens; (3) child abuse; (4) elder abuse; (5) domestic violence; (6) pain management; (7) patient rights; (8) HIPAA; (9) corporate compliance; (10) ethical considerations in home care delivery, including receipt of gifts and money from clients and other financial transactions; (11) employee safety; (12) emergency procedures; (13) agency administrative and clinical policies and procedures.",
+      "cite": "Best Practices §III, Agency Orientation topics 1-13",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Agency Orientation Documentation 1-4",
+      "text": "Orientation documentation includes: (1) outline of topics covered; (2) length of time for each of the mandatory in-service topics; (3) date and signature of instructor; (4) name, date and signature of employees on an agency sign-in sheet. Attendance records are maintained and may be electronic if readily retrievable and printable.",
+      "cite": "Best Practices §III, Agency Orientation documentation 1-4",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Agency Mandatory In-Service 1-13",
+      "text": "Provide an in-service program at least once each year (or over the course of a year) for all CHHAs, covering at minimum: (1) blood-borne pathogens; (2) infection control; (3) standard precautions; (4) child abuse; (5) elder abuse; (6) domestic violence; (7) pain management; (8) workforce protection; (9) employee safety issues; (10) back safety; (11) how to handle needle sticks; (12) fraud and abuse prevention; (13) corporate compliance. An HCSF may accept another HCSF's documentation that a CHHA met some or all of these topics. Attendance records are maintained.",
+      "cite": "Best Practices §III, Agency Mandatory In-Service 1-13",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Clinical Competency First Assignment 1(a)-(h)",
+      "text": "All CHHAs undergo clinical competency testing by a Nurse Supervisor before or on the first date of assignment. This includes direct observation of delegated personal care services related to: (a) the musculo-skeletal system; (b) the integumentary system; (c) the upper and lower gastrointestinal system; (d) the urinary system; (e) the cardiovascular and respiratory systems (vital signs, antiembolic stockings, oxygen assistance, positioning); (f) the neurological system (cognitive impairment, seizure disorder, post-stroke care, rehabilitation or restorative care); (g) the endocrine system (foot care, skin care and nutrition for a client with diabetes); (h) the promotion of sleep. If direct observation is impractical or intrusive, the Nurse Supervisor may ask the CHHA to describe how the task would be performed.",
+      "cite": "Best Practices §III, Clinical Competency: Prior to or on the date of the first Assignment, 1(a)-(h)",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Clinical Competency First Assignment 2(a)-(g)",
+      "text": "Written testing, oral testing or direct observation of the CHHA's knowledge and communication skills in: (a) observation, reporting and documentation of patient status and care furnished; (b) basic infection control procedures; (c) basic elements of body mechanics and functioning, and changes in body function that must be reported to the Nurse Supervisor; (d) maintenance of a clean, safe and healthy environment; (e) recognizing emergencies and knowledge of emergency procedures; (f) physical, emotional and developmental needs of and ways to work with the populations served, including respect for the patient and the patient's privacy and property; (g) adequate nutrition and fluid intake.",
+      "cite": "Best Practices §III, Clinical Competency: Prior to or on the date of the first Assignment, 2(a)-(g)",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Clinical Competency Throughout Year",
+      "text": "The clinical competency of every CHHA is tested or assessed throughout the year, through direct observation of skills with assigned patients and/or written or oral testing as in items 1 and 2 above.",
+      "cite": "Best Practices §III, Clinical Competency: Testing or assessment throughout the year",
+      "doc": 0
+    },
+    {
+      "item_id": "III/Clinical Competency Recordkeeping 1-4",
+      "text": "Competency documentation in the employee file includes: (1) name of the CHHA; (2) clinical skills tested, and the date and location of testing; (3) an evaluation of the CHHA's competency; (4) date and signature of the Nurse Supervisor performing the testing. At minimum, an assessment of competency is recorded by the end of each year of employment. Records may be electronic.",
+      "cite": "Best Practices §III, Clinical Competency: Recordkeeping 1-4",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 1",
+      "text": "Policies and procedures relating to assignment of individuals, for the appropriate level of care, authorized to provide required service, assuring that Certified Nurse Assistants (CNAs) and unlicensed assistive personnel are not assigned to perform in-home personal care services.",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 1",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 2",
+      "text": "The requirement for licensed and certified personnel to provide proof of New Jersey licensure or certification (out-of-state certifications are not valid for New Jersey in-home personal care).",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 2",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 3",
+      "text": "Reporting of patient complaints to the agency",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 3",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 4",
+      "text": "Agency's response to alleged reports of misconduct, violation of laws/regulations and unethical practices",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 4",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 5",
+      "text": "Confidentiality requirements",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 5",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 6",
+      "text": "Protection for those reporting unethical, fraudulent or illegal activity (\"whistle-blower\" protection)",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 6",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Corporate Compliance Policy 7",
+      "text": "Reporting of safety concerns and violations of law to licensing and/or regulatory agencies, as required by law",
+      "cite": "Best Practices §IV, Corporate Compliance Policy 7",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Clinical On-Call Policy",
+      "text": "A procedure by which an RN, LPN, CHHA or other clinical staff can reach an RN for clinical questions at all times, in no less than one hour, with an RN on call during all hours of service.",
+      "cite": "Best Practices §IV, Clinical On-Call Policy",
+      "doc": 0
+    },
+    {
+      "item_id": "IV/Service Agreement Policy",
+      "text": "Patients and family/significant others are provided with full and truthful disclosure of all information concerning fees and billing policies.",
+      "cite": "Best Practices §IV, Service Agreement Policy",
+      "doc": 0
+    },
+    {
+      "item_id": "13:45B-13.7(a)",
+      "text": "Every certified homemaker-home health aide or health care professional regulated by the Division wears an identification tag at all times while providing care. The tag shows first name or initial, full surname, the term for the level of licensure or certification, and a photograph. Letters are of equal size, no smaller than one-quarter inch, and the tag is at least as large as any other identification worn.",
+      "cite": "N.J.A.C. 13:45B-13.7(a)",
+      "doc": 1
+    },
+    {
+      "item_id": "13:45B-13.7(b)",
+      "text": "Every health care service firm provides patient/employers with a copy of the Consumer Guide to Homemaker-Home Health Aides published by the NJ Board of Nursing.",
+      "cite": "N.J.A.C. 13:45B-13.7(b)",
+      "doc": 1
+    },
+    {
+      "item_id": "13:45B-13.7(c)",
+      "text": "The Consumer Guide is provided at least 24 hours before services are provided.",
+      "cite": "N.J.A.C. 13:45B-13.7(c)",
+      "doc": 1
+    },
+    {
+      "item_id": "13:45B-13.7(d)",
+      "text": "A patient/employer may waive the 24-hour timing in writing. The firm keeps the waiver for at least two years and still provides the information before services begin.",
+      "cite": "N.J.A.C. 13:45B-13.7(d)",
+      "doc": 1
+    },
+    {
+      "item_id": "13:45B-14.7(a)",
+      "text": "To place certified homemaker-home health aides, an agency regulated by the Division must be licensed as a health care service firm.",
+      "cite": "N.J.A.C. 13:45B-14.7(a)",
+      "doc": 2
+    },
+    {
+      "item_id": "13:45B-14.7(b)",
+      "text": "A health care service firm only refers or places actively certified homemaker-home health aides who are employed by the agency.",
+      "cite": "N.J.A.C. 13:45B-14.7(b)",
+      "doc": 2
+    },
+    {
+      "item_id": "13:45B-14.7(c)",
+      "text": "A homemaker-home health aide employed by an HCSF only performs tasks delegated by, or directed by, the health care practitioner supervisor.",
+      "cite": "N.J.A.C. 13:45B-14.7(c)",
+      "doc": 2
+    },
+    {
+      "item_id": "13:45B-14.7(d)",
+      "text": "The health care practitioner supervisor ensures the aide demonstrates competence to perform the client care that is delegated.",
+      "cite": "N.J.A.C. 13:45B-14.7(d)",
+      "doc": 2
+    },
+    {
+      "item_id": "13:45B-14.7(e)",
+      "text": "The health care practitioner supervisor documents in the patient's record every task delegated to a homemaker-home health aide.",
+      "cite": "N.J.A.C. 13:45B-14.7(e)",
+      "doc": 2
+    },
+    {
+      "item_id": "13:45B-13.6(a)1-4",
+      "text": "Prohibited acts: (1) recruiting, advertising or contracting for health care services without first obtaining registration; (2) charging a fee or liquidated damages to employees (this requires an employment agency license under N.J.A.C. 13:45B-2); (3) preventing employees by contract from working for others (the same licensing consequence applies if a fee is charged); (4) knowingly sending staff to a facility where a strike or lockout is in progress, to replace strikers.",
+      "cite": "N.J.A.C. 13:45B-13.6(a)1-4",
+      "doc": 3
+    }
+  ],
+  "structure": {
+    "use_as_categories": true,
+    "sections": [
+      "I. Definitions (reference only; no policy items)",
+      "II. Clinical Policies",
+      "III. Personnel Policies",
+      "IV. Administrative Policies"
+    ]
+  },
+  "notes": "No single official Division checklist or form lists the written policies for an HCSF. The binding rules (N.J.A.C. 13:45B-13.3 and 13.5) cover only application paperwork, which was excluded. The Division's FAQ (HCSF-FAQ-07242025.pdf) also lists only application items: registration form, fee, formation documents, criminal-history certifications, $1M liability insurance, bond, practitioner-supervisor designation, and out-of-state licenses. The only official source that enumerates policy content is the Division's advisory 'Best Practices for Health Care Service Firms' (April 15, 2014). It says it is non-binding and that the statute and rules control, even where it uses 'shall'. Organize the manual in its order: II Clinical, III Personnel, IV Administrative, with the binding rule items (13:45B-13.6, 13.7, 14.7) cross-referenced in the matching policies. Registration is submitted online through the NJ Regulated Business Licensure Portal, and policies are not part of that submission. Keep the manual available for the Division's inspection and for the accrediting body, since HCSFs must obtain DHS-recognized accreditation within 12 months of registration. I did not fetch the NJ DHS-recognized accreditation standards or the Medicaid (PCA, MLTSS, PPP) manuals, so any added requirements from those sources are not captured here. Registration timing and financial reporting are in flux under P.L. 2026, c.45, and the Division says rule updates are pending. The 13:45B-13.3, 13:45B-14.7, 13:45B-13.6 and 13:45B-13.7 text came from Cornell LII mirrors, not the NJ Administrative Code directly. The Division's Subchapter 14 PDF could not be fetched. The Best Practices item IDs use my own section/heading plus the document's list number, because the document numbers each list separately and has no global item numbers."
+}

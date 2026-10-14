@@ -435,474 +435,1610 @@
   ],
   "policies": [
     {
-      "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Organization, Governing Body and Administrator Responsibilities",
+      "id": "ALC-01",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Services Available in the Community (Personal Services, Assisted Living Care, Memory Care, Proxy Caregivers)",
+      "covers": [
+        "ALC .07(2)(a)"
+      ],
       "citations": [
         "C6",
-        "C35",
+        "C16",
+        "C9",
+        "C18",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Community provides assisted living care, including protective care and watchful oversight (111-8-63-.17(1)).",
+        "Services and marketing must match the license, the licensed residential care profile and the rules. Only a licensed ALC may hold itself out as offering assisted living care (.10).",
+        "Periodic or short-term medical and nursing services are not community services; the resident purchases them. Care planning, training, medication administration and competency checks are excepted (.17(11)).",
+        "No memory care center may operate without a current DCH certificate, and the profile must carry the written memory care description (.19).",
+        "List any designated proxy caregiver services (Ch. 111-8-100) here. Describe only services the permit allows."
+      ]
+    },
+    {
+      "id": "ALC-02",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Staffing Plan and Ratios That Rise With Assisted Self-Preservation Needs",
+      "covers": [
+        "ALC .07(2)(b)"
+      ],
+      "citations": [
+        "C6",
+        "C8",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "At least 2 trained direct care staff on site 24 hours a day whenever residents are present, with at least 1 on each occupied floor (111-8-63-.09(4), (18)).",
+        "Monthly average ratios for minimal-need residents: 1 awake direct care staff per 15 residents in waking hours and 1 per 20 in non-waking hours. Ratios increase as the number of assisted-self-preservation residents increases.",
+        "RN or LPN on site 8 hrs/week (1-30 residents), 16 (31-60), 24 (61-90), 40 (more than 90) (.09(18)).",
+        "Staffing plans and schedules are kept 1 year (.09(21)). A new hire still inside the 60-day training window does not count toward the 2 fully trained staff.",
+        "The plan must also cover relief staff and absences of regularly scheduled staff."
+      ]
+    },
+    {
+      "id": "ALC-03",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Admissions, Discharges, Immediate Transfers and Refunds",
+      "covers": [
+        "ALC .07(2)(c)",
+        "ALC .07(2)(d)"
+      ],
+      "citations": [
+        "C6",
+        "C14",
+        "C15",
+        "C28",
+        "C25"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Admission profile (.15(1)): age 18+; no active TB; no need for continuous medical or nursing care; no need for physical or chemical restraints, isolation or confinement; able to take part in transfers and in social and leisure activities.",
+        "Do not admit or retain a resident who needs more care than the community is authorized or able to provide (.07(2)(c)).",
+        "Give 30 days' written notice of discharge or transfer unless an immediate transfer is required (.29(1)). The administrator contacts the representative or legal surrogate.",
+        "The admission agreement states the refund policy on death, transfer or discharge (.16). Write the refund calculation method and timeline into this policy.",
+        "Immediate-transfer triggers and steps follow .28; the body text of .28 was not retrieved, so confirm it before finalizing."
+      ]
+    },
+    {
+      "id": "ALC-04",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Staff Training and Ongoing Evaluation (Including Memory Care and Proxy Caregiver Training)",
+      "covers": [
+        "ALC .07(2)(e)"
+      ],
+      "citations": [
+        "C6",
+        "C8",
+        "C39"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "All staff are trained within 60 days of hire. Hands-on staff also complete first aid and CPR with return demonstration within 60 days (.09(2)-(3)).",
+        "Hands-on staff, including the administrator, complete 24 CE hours in year one and 16 hours per year after (.09(5)-(6)).",
+        "Each employee receives a copy of the Long-Term Care Facility Resident Abuse Reporting Act during initial training (.09(2)(a)). Keep training records (.09(7)).",
+        "Memory care (O.C.G.A. 31-7-12.4): 4 hrs dementia orientation for all staff within 30 days. Direct care staff need 16 hrs of dementia training within 30 days of working independently, then 8 hrs per year.",
+        "Proxy caregivers are trained under Ch. 111-8-100. Add a written annual performance evaluation for every employee."
+      ]
+    },
+    {
+      "id": "ALC-05",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "House Rules and Their Enforcement",
+      "covers": [
+        "ALC .07(2)(f)"
+      ],
+      "citations": [
+        "C6",
+        "C24",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "House rules are written, given to residents and representatives, and applied without punishment or harassment of anyone enforcing rights (.25).",
+        "Rules may not restrict free access to common areas or lock a resident into or out of the bedroom (.17(7)).",
+        "No more than 2 residents may share a bedroom; married residents may share a room (.25).",
+        "Set rules for smoking, visitors, pets and alcohol here so they do not conflict with resident rights or fire safety.",
+        "The community must not allow other businesses to intrude on residents' quiet enjoyment (.06)."
+      ]
+    },
+    {
+      "id": "ALC-06",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Protecting Resident Rights",
+      "covers": [
+        "ALC .07(2)(g)"
+      ],
+      "citations": [
+        "C6",
+        "C24",
+        "C23"
+      ],
+      "federal": [
+        "42 CFR 441.301(c) (HCBS settings, if Medicaid waiver residents are served)"
+      ],
+      "state_specifics": [
+        "Rights may be waived only by the resident, representative or legal surrogate as the rules allow. Care must be adequate and appropriate (.25).",
+        "Rights to vote, choose activities and schedules, and have private communication without staff censorship. Staff knock before entering a room.",
+        "No coercion to assign money, valuables or property to the community.",
+        "Signed Resident's Rights form kept in the resident file (.24).",
+        "Residents may self-discharge on 30 days' written notice if there is no court commitment or authorized representative (.25(u))."
+      ]
+    },
+    {
+      "id": "ALC-07",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Medication Management, Procurement, Certified Medication Aides and Professional Oversight",
+      "covers": [
+        "ALC .07(2)(h)"
+      ],
+      "citations": [
+        "C6",
+        "C19",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Only certified medication aides (CMAs) administer medications. Check the Georgia CMA Registry and run skills competency checks (111-8-63-.20).",
+        "An RN or pharmacist does quarterly random observations and a pharmacist does quarterly drug regimen reviews. An RN, pharmacist or physician does annual competency reviews.",
+        "Orders are required for all medications, including OTC. New prescriptions and the MAR are updated within 48 hours, and a MAR is kept daily.",
+        "Store medications under lock and key in original containers. Controlled substances go in a locked cabinet or box of substantial construction with a daily-updated log, and duplicate keys stay on site. Dispose per FDA/EPA guidance.",
+        "Residents able to self-administer may keep medications securely. Staff assistance is limited to the listed tasks, and EpiPen use needs a written protocol and a 911 call. Liquid morphine is limited to 50 ml per hospice resident."
+      ]
+    },
+    {
+      "id": "ALC-08",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Health and Hygiene: Infection Control, Work and Return-to-Work, Foodborne Illness, Reportable Diseases",
+      "covers": [
+        "ALC .07(2)(i)"
+      ],
+      "citations": [
+        "C6",
+        "C8",
+        "C14",
+        "C20"
+      ],
+      "federal": [
+        "OSHA 29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "TB screening and physical exam within 12 months before any employee provides care (111-8-63-.09(10)). No admission of a resident with active TB (.15(1)).",
+        "Rule .23 (infection control, sanitation, supplies) body text was not retrieved. Confirm its requirements before finalizing.",
+        "Write exclusion and return-to-work criteria for ill staff (vomiting, diarrhea, fever, respiratory illness, skin infections).",
+        "Foodborne illness controls: perishables at or below 41 degrees F (.21).",
+        "Reportable diseases are reported to the local health district per Georgia Department of Public Health requirements."
+      ]
+    },
+    {
+      "id": "ALC-09",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Investigation and Reporting of Abuse, Neglect, Exploitation, Wandering, Accidents, Injuries and Changes in Condition",
+      "covers": [
+        "ALC .07(2)(j)"
+      ],
+      "citations": [
+        "C6",
+        "C29",
+        "C25",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report to DCH within 24 hours of an incident or of reasonable cause to believe one occurred: unanticipated or accidental death, serious injury needing medical attention, rape, assault, battery, abuse, neglect or exploitation, external disaster, or an owner, director or employee acquiring a criminal record (111-8-63-.30).",
+        "Wandering or missing resident: call police within 30 minutes of actual knowledge and report the start and end of the Mattie's Call to DCH within 30 minutes of law enforcement contact (.30(1)).",
+        "The administrator or on-site manager starts an immediate investigation of the cause of an accident, injury or death. Report to the representative or legal surrogate (.26).",
+        "Keep copies in the resident file and in a central quality-assurance file (.26).",
+        "Report contents: community and administrator names, incident and discovery dates, incident type and brief description, and immediate corrective or preventive action."
+      ]
+    },
+    {
+      "id": "ALC-10",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Staff Discipline for Conduct Inconsistent With Community Policies",
+      "covers": [
+        "ALC .07(2)(k)"
+      ],
+      "citations": [
+        "C6",
+        "C8",
+        "C24",
+        "C29"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Staff may not be impaired on duty (111-8-63-.09(17)). Write the discipline steps for suspected impairment.",
+        "Staff may not coerce residents to assign money, valuables or property (.25).",
+        "Remove staff from resident contact pending investigation of any abuse, neglect or exploitation allegation.",
+        "An employee acquiring a criminal record is reported to DCH within 24 hours (.30).",
+        "Document progressive discipline and keep it in the personnel file (kept 3 years after departure, .09)."
+      ]
+    },
+    {
+      "id": "ALC-11",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Emergency Preparedness, Drills and Evacuation",
+      "covers": [
+        "ALC .07(2)(l)"
+      ],
+      "citations": [
+        "C6",
+        "C13",
+        "C12",
+        "C49"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Comply with Ch. 111-8-16 (Disaster Preparedness Plans) (111-8-63-.14(1)). The plan is accessible to staff, residents and families.",
+        "The plan names the staff positions responsible for implementing it and for obtaining emergency medical attention.",
+        "Post evacuation maps with marked escape routes on each floor. Keep a clear emergency route through common areas.",
+        "If an emergency forces relocation, give timely notice of the new address to residents, family contacts, representatives and DCH.",
+        "The State Fire Marshal report must show no violations and state the capacity load. Fire drill frequency and records follow Rule .13 and Fire Marshal requirements; confirm against current text."
+      ]
+    },
+    {
+      "id": "ALC-12",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Quality Assurance Review and Resident/Family Feedback",
+      "covers": [
+        "ALC .07(2)(m)"
+      ],
+      "citations": [
+        "C6",
+        "C25",
+        "C24",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep the central quality-assurance file with investigations of accidents, injuries and deaths (111-8-63-.26).",
+        "Review incident trends, inspection findings and plans of correction on a set schedule.",
+        "Obtain resident and family feedback (surveys, council meetings) and record the action taken.",
+        "Inspection report disputes and plans of correction are due within 10 days of receipt (.10).",
+        "Keep the licensed residential care profile accurate."
+      ]
+    },
+    {
+      "id": "ALC-13",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Use of Volunteers and Proxy Caregivers",
+      "covers": [
+        "ALC .07(2)(n)",
+        "ALC .07(2)(o)"
+      ],
+      "citations": [
+        "C6",
         "C3",
         "C8"
       ],
       "federal": [],
       "state_specifics": [
-        "The governing body (owner, board, partnership, corporation, LLC governing body) is legally responsible for operation. For an LLC or corporation, the governing body authorizes the license application, signs the statement of responsibility and the entity is the licensee (Rule .03(d)).",
-        "The administrator is designated by the governing body. The administrator may also be the on-site manager and responsible staff person except during their own absence (Rule .03(c), (cc), (nn)). The on-site manager and responsible staff persons must be 21+ (Rule .09(1)).",
-        "Policies must support dignity, respect, choice, independence and privacy, and cover the topics in Rule .07(2): services, staffing plan scaled to assisted-self-preservation residents, admissions/discharges/immediate transfers, refunds, staff training and evaluation, house rules, and investigation and reporting.",
-        "PCH: the governing body keeps DCH current on name, email, addresses and phones for the governing body and administrator, and ensures staff deliver DCH notices to it (111-8-62-.07(2)). Use pchprogram.hfrd@dch.ga.gov for administrator contact updates.",
-        "Assign one named owner or administrator for each recurring duty (permit renewal, training calendar, TB and physical tracking, quarterly pharmacist review, inspection response)."
+        "Volunteers receive orientation on resident rights and basic safety precautions before contact with residents.",
+        "Volunteers are not counted toward staffing minimums and do not perform hands-on care or medication tasks.",
+        "State whether proxy caregivers are permitted. If so, set the oversight required under Ch. 111-8-100 and the Rule .17(8) options.",
+        "Proxy caregivers are trained under Ch. 111-8-100. Only CMAs may administer medications for the community (.09(8)).",
+        "Define proxy caregiver per Rule .03 and keep a roster of designated proxies."
+      ]
+    },
+    {
+      "id": "ALC-14",
+      "category": "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p)",
+      "title": "Safety and Security Precautions Against Harm by Other Residents, Proxy Caregivers and Outside Individuals",
+      "covers": [
+        "ALC .07(2)(p)"
+      ],
+      "citations": [
+        "C6",
+        "C14",
+        "C24",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Before admission, the administrator or on-site manager documents a National Sex Offender Registry inquiry or fingerprint check (111-8-63-.15(2)).",
+        "Document added safety measures for registered sex offenders or violent offenders.",
+        "Visitor, vendor and contractor sign-in, and screening for outside individuals who routinely come into the community (hospice, home health, proxy caregivers).",
+        "Staff wear ID badges (.09(22)). Residents keep private communication and room privacy (.25).",
+        "Use a resident-to-resident incident protocol: separate, assess, notify, report and revise the care plan."
+      ]
+    },
+    {
+      "id": "PCH-01",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Services Available in the Home (Personal Services, Memory Care, Proxy Caregivers)",
+      "covers": [
+        "PCH .07(3)(a)"
+      ],
+      "citations": [
+        "C35",
+        "C33",
+        "C2",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A PCH may not provide assisted living care unless it holds an ALC license (Ch. 111-8-62).",
+        "No memory care center may operate without a current DCH certificate (111-8-62-.05); fee $200 per year.",
+        "List personal services, meals, laundry and supervision actually provided, and any designated proxy caregiver services (Ch. 111-8-100).",
+        "Services and marketing must match the PCH permit.",
+        "Check this text against current Ch. 111-8-62 before finalizing. The ALC rule 111-8-63-.17 is a close analog."
+      ]
+    },
+    {
+      "id": "PCH-02",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Admissions, Discharges, Immediate Transfers and Refunds",
+      "covers": [
+        "PCH .07(3)(b)",
+        "PCH .07(3)(c)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C14",
+        "C15",
+        "C28"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Do not admit or retain residents who need more care than the home is authorized or able to provide (.07(3)(b)).",
+        "Refunds on transfer or discharge are written into this policy and the admission agreement (.07(3)(c)).",
+        "The ALC rule gives 30 days' written notice of discharge or transfer unless an immediate transfer is required (111-8-63-.29); confirm the PCH rule matches.",
+        "The ALC admission profile (age 18+, no active TB, no continuous nursing need, no restraint need) is a model; confirm the PCH criteria.",
+        "Change-of-ownership or closure: at least 30 days' written notice to DCH and residents (60 days for impending bankruptcy or eviction)."
+      ]
+    },
+    {
+      "id": "PCH-03",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Staff Training and Ongoing Evaluation (Including Memory Care and Proxy Caregivers)",
+      "covers": [
+        "PCH .07(3)(d)"
+      ],
+      "citations": [
+        "C35",
+        "C37",
+        "C39"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "New staff complete work-related training, including emergency first aid and CPR certification, within the first 60 days (111-8-62-.09).",
+        "On-site managers and responsible staff are 21+. Anyone under 18 works only under direct line-of-sight supervision.",
+        "Memory care (O.C.G.A. 31-7-12.4): 4 hrs dementia orientation for all staff within 30 days. Direct care staff need 16 hrs within 30 days of independent work, then 8 hrs per year.",
+        "Proxy caregivers need training under Ch. 111-8-100.",
+        "Keep training records and an annual written staff evaluation."
+      ]
+    },
+    {
+      "id": "PCH-04",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "House Rules and Their Enforcement",
+      "covers": [
+        "PCH .07(3)(e)"
+      ],
+      "citations": [
+        "C35",
+        "C2"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "House rules are written, given to residents at admission and enforced without retaliation.",
+        "Cover smoking, visitors, pets and alcohol. Rules may not override resident rights.",
+        "The ALC rule bars locking residents in or out of bedrooms and restricting common areas (111-8-63-.17(7)); apply the same standard and confirm in 111-8-62.",
+        "No more than 2 residents per bedroom in the ALC rule; confirm the PCH rule.",
+        "Residents sign an acknowledgment of the house rules."
+      ]
+    },
+    {
+      "id": "PCH-05",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Protecting Resident Rights",
+      "covers": [
+        "PCH .07(3)(f)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C24",
+        "C38"
+      ],
+      "federal": [
+        "42 CFR 441.301(c) (HCBS settings, if Medicaid waiver residents are served)"
+      ],
+      "state_specifics": [
+        "The governing body must adopt rights policies (111-8-62-.07).",
+        "No member of the governing body, administration or staff, or their family, may serve as a resident's legal surrogate (111-8-62-.03).",
+        "Post the assigned ombudsman's name, address and phone in a common area (ALC analog 111-8-63-.25(v)).",
+        "No punishment or harassment for enforcing rights. Free, private communication.",
+        "Keep the signed Resident's Rights form in the resident file."
+      ]
+    },
+    {
+      "id": "PCH-06",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Medication Management, Procurement and Professional Oversight",
+      "covers": [
+        "PCH .07(3)(g)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The governing body must adopt medication management policies (111-8-62-.07).",
+        "Follow the ALC standard (111-8-63-.20) where the PCH rule mirrors it, and confirm each paragraph in Ch. 111-8-62: orders for all medications including OTC; locked storage; daily MAR.",
+        "Controlled substances in a locked box with a daily-updated log. Disposal per FDA/EPA guidance.",
+        "Name who may assist or administer medications and the professional (RN or pharmacist) overseeing them.",
+        "Residents able to self-administer do so with secure storage."
+      ]
+    },
+    {
+      "id": "PCH-07",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Health and Hygiene: Infection Control, Work and Return-to-Work, Foodborne Illness, Reportable Diseases",
+      "covers": [
+        "PCH .07(3)(h)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C8"
+      ],
+      "federal": [
+        "OSHA 29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "TB screening and physical for employees within 12 months before providing care (ALC analog 111-8-63-.09(10)); confirm the PCH paragraph.",
+        "Write staff exclusion and return-to-work criteria for infectious illness.",
+        "Foodborne illness response: keep perishables at or below 41 degrees F (ALC .21 analog), and isolate and report outbreaks.",
+        "Reportable diseases go to the local health district per Georgia Department of Public Health requirements.",
+        "Hand hygiene, standard precautions, sharps, laundry and housekeeping procedures."
+      ]
+    },
+    {
+      "id": "PCH-08",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Investigation and Reporting of Abuse, Neglect, Exploitation, Wandering, Accidents, Injuries and Changes in Condition",
+      "covers": [
+        "PCH .07(3)(i)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C29",
+        "C25"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Use the ALC reporting standard as the model and confirm the PCH paragraphs: serious incidents to DCH within 24 hours (111-8-63-.30).",
+        "Missing resident: call police within 30 minutes and report the start and end of the Mattie's Call to DCH within 30 minutes.",
+        "Start an immediate investigation of the cause of any accident, injury or death. Notify the representative or legal surrogate.",
+        "Keep copies in the resident file and a central QA file.",
+        "Report abuse, neglect and exploitation under the Long-Term Care Facility Resident Abuse Reporting Act."
+      ]
+    },
+    {
+      "id": "PCH-09",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Staff Discipline for Conduct Inconsistent With Home Policies",
+      "covers": [
+        "PCH .07(3)(j)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Write progressive discipline steps and document them in the personnel file.",
+        "No impairment on duty (ALC analog 111-8-63-.09(17)).",
+        "Immediate removal from resident contact pending investigation of abuse, neglect or exploitation.",
+        "Staff may not coerce residents to assign money or property.",
+        "An employee, owner or director acquiring a criminal record is reported to DCH within 24 hours (ALC analog .30)."
+      ]
+    },
+    {
+      "id": "PCH-10",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Emergency Preparedness, Drills and Evacuation",
+      "covers": [
+        "PCH .07(3)(k)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C13",
+        "C49"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written disaster plan under Ch. 111-8-16, accessible to staff, residents and families. It names the responsible staff positions.",
+        "Post evacuation maps showing escape routes on each floor.",
+        "Document fire and evacuation drills per Fire Marshal and DCH requirements; confirm the frequency in current Ch. 111-8-62.",
+        "Notify residents, families, representatives and DCH of the relocation address if an emergency forces relocation.",
+        "Keep an emergency contact list and resident information for transport."
+      ]
+    },
+    {
+      "id": "PCH-11",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Quality Assurance and Peer Review Using Serious Incident Reports and Feedback",
+      "covers": [
+        "PCH .07(3)(l)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C25"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Review serious-incident reports and investigations on a set schedule and record corrective action.",
+        "Collect resident and family feedback and use it to improve care.",
+        "Keep the central quality-assurance file (ALC analog 111-8-63-.26).",
+        "Use peer review of care practices (medication errors, falls, discharges) and document findings.",
+        "Review inspection results and plans of correction."
+      ]
+    },
+    {
+      "id": "PCH-12",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Volunteers With Unsupervised Access and Proxy Caregivers",
+      "covers": [
+        "PCH .07(3)(m)",
+        "PCH .07(3)(n)"
+      ],
+      "citations": [
+        "C35",
+        "C2"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Volunteers with unsupervised access to residents receive orientation on resident rights and basic safety precautions.",
+        "Volunteers do not count toward staffing or perform medication tasks.",
+        "State whether proxy caregivers are used and set the oversight required under Ch. 111-8-100.",
+        "Keep a roster of volunteers and designated proxy caregivers.",
+        "Check the background-check requirement for volunteers with unsupervised access against Ch. 111-8-12."
+      ]
+    },
+    {
+      "id": "PCH-13",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Safety and Security Precautions Against Harm by Other Residents, Proxy Caregivers and Outside Individuals",
+      "covers": [
+        "PCH .07(3)(o)"
+      ],
+      "citations": [
+        "C35",
+        "C2",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Before admission, document a National Sex Offender Registry inquiry or fingerprint check (ALC analog 111-8-63-.15(2)); confirm the PCH paragraph.",
+        "Document added safety measures for registered sex offenders or violent offenders.",
+        "Visitor and vendor sign-in. Screen outside individuals who routinely come into the home, such as hospice and home health staff.",
+        "Staff wear ID badges (ALC analog .09(22)).",
+        "Resident-to-resident incident protocol: separate, assess, notify, report and revise the care plan."
+      ]
+    },
+    {
+      "id": "PCH-14",
+      "category": "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p)",
+      "title": "Staffing Plan Based on Resident Needs and Coverage for Absences",
+      "covers": [
+        "PCH .07(3)(p)"
+      ],
+      "citations": [
+        "C35",
+        "C53",
+        "C37",
+        "C36"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Planning ratio from third-party-hosted rule text: 1 awake direct care staff per 15 residents in waking hours and per 25 in non-waking hours. Verify against current Ch. 111-8-62 with DCH before finalizing.",
+        "The plan reflects the specific needs of residents and names backup and on-call staff for absences of regularly scheduled staff.",
+        "An owner-administrator who is off duty cannot be counted as the awake overnight staff.",
+        "Managers and responsible staff are 21+. Hands-on staff are 18+ (under 18 only with line-of-sight supervision).",
+        "Keep schedules and the staffing plan on file for inspection."
+      ]
+    },
+    {
+      "id": "GOV-01",
+      "category": "Governance, Licensure and Inspections",
+      "title": "Licensure, Permit Posting, Licensed Capacity, Inspections and Change of Ownership",
+      "covers": [],
+      "citations": [
+        "C5",
+        "C34",
+        "C9",
+        "C48",
+        "C53",
+        "C49"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A valid DCH permit is required before admitting any resident. Display it conspicuously. It is not transferable and is invalid on a move or ownership change. Never exceed the licensed capacity on the permit (111-8-63-.06; 111-8-62-.06).",
+        "Disclose the ALC classification in marketing. Fees: $300 application (non-refundable); annual license $350 (PCH 2-24 beds), $750 (ALC 25-50), $1,500 (ALC 51+); $200 memory care; $150 late fee at 60 days past due; $50 permit replacement.",
+        "Inspections are unannounced. Policies must be available for review (DCH checklist). Disputes and written plans of correction are due within 10 days of receipt (111-8-63-.10).",
+        "Display the most recent inspection report and plan of correction. If the community has a website, link the previous 18 months of reports (.10).",
+        "Change of ownership: at least 30 days' written notice to DCH and residents (60 days for impending bankruptcy or eviction); the new owner needs a new permit."
       ]
     },
     {
       "id": "GOV-02",
-      "category": "Governance and Administration",
-      "title": "Licensure, Permit Posting and Regulatory Compliance",
-      "citations": [
-        "C4",
-        "C5",
-        "C33",
-        "C34",
-        "C48",
-        "C49",
-        "C53",
-        "C30",
-        "C31",
-        "C32",
-        "C46"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "No resident may be admitted before DCH issues a current permit. ALC permit is for assisted living care (63-.06(1)). PCH may not operate or admit without a current permit (62-.05(10)). No memory care center without a current certificate (62-.05(11); 63-.10(10)).",
-        "Display the permit conspicuously where residents and visitors see it (63-.06(2); 62-.06(2)). Never exceed the licensed capacity printed on the permit (63-.06(6); 62-.06(3)). A separate permit is needed for each premises (63-.06(5)).",
-        "The permit is non-transferable and is invalid and must be returned on a move to an unlicensed location, change of ownership, or suspension or revocation (63-.06(3)-(4)). PCH: give at least 30 days written notice to DCH and residents before a change of ownership (60 days for impending bankruptcy or eviction) (per research, C53).",
-        "Fees (DCH schedule, Oct 2024): $300 non-refundable application; annual license $350 (PCH 2-24 beds), $750 (ALC 25-50), $1,500 (ALC 51+); $200 memory care certificate; $150 late fee at 60 days past due; $50 permit replacement. Re-confirm against the current schedule.",
-        "Initial ALC application attachments: OHP Letter of Determination; Fire Marshal report (no violations, capacity load, within 12 months); electrician form (6 months); water test if private supply (6 months); GCHEXS letters for administrator and 10%+ owners (12 months); CPA going-concern affidavit; floor plan and photos; ownership or lease proof (63-.05; C49). Filed through the GAHLES portal.",
-        "Maintain a variances/waivers and deemed-status log (63-.31, .32); read the full text of these rules before relying on them.",
-        "DCH contact: Personal Care Home Team pchprogram.hfrd@dch.ga.gov; DCH (404) 656-4507; 2 Martin Luther King Jr. Dr. SE, East Tower, Atlanta 30334."
-      ]
-    },
-    {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review and Document Control",
+      "category": "Governance, Licensure and Inspections",
+      "title": "Governing Body, Administrator Qualifications, DCH Contact Information and Document Control",
+      "covers": [],
       "citations": [
         "C6",
-        "C8",
-        "C49",
-        "C9"
+        "C35",
+        "C36",
+        "C52",
+        "C33"
       ],
       "federal": [],
       "state_specifics": [
-        "Policies and procedures must be available for review at DCH's unannounced inspections (C49) and records must be open to DCH (63-.10(1)).",
-        "Rule .09 was amended effective May 21, 2025 (ratios, medical alert systems). DCH proposed further PCH amendments in Feb 2025 with final adoption unverified. Review policy text against the Secretary of State rules site each quarter.",
-        "Version-control each policy with an effective date, approver and revision history. The annual review cycle is a facility standard, not a rule requirement.",
-        "Policies required by name in the rules: medical alert system policy (63-.09(23)(d)); medication policy (63-.20(7)(a)); refund policy; discharge and transfer procedure in the admission agreement (63-.29(1)); proxy caregiver policy if used."
-      ]
-    },
-    {
-      "id": "GOV-04",
-      "category": "Governance and Administration",
-      "title": "Quality Assurance and Performance Improvement",
-      "citations": [
-        "C25",
-        "C19",
-        "C8",
-        "C29"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Rule .26(3) requires accident, injury and death investigation reports to be kept in a central file for quality assurance review. Build the QA program around that file.",
-        "Required monitoring inputs: quarterly RN or pharmacist random medication-administration observations and quarterly pharmacist drug regimen reviews (63-.20(5)(c)-(d)); monthly average staffing calculations documented on DCH forms (63-.09(18)); medical alert system documentation review (63-.09(23)(d)(iv)).",
-        "Track serious incidents reported to DCH within 24 hours (63-.30(2)); inspection findings and plans of correction (63-.10).",
-        "No separate rule-mandated QAPI committee was found in the retrieved text; the committee structure and meeting frequency are facility standards."
-      ]
-    },
-    {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
-      "title": "Corporate Compliance, Fraud and Billing Integrity",
-      "citations": [
-        "C50",
-        "C51",
-        "C49"
-      ],
-      "federal": [
-        "31 U.S.C. 3729-3733 (False Claims Act)",
-        "42 U.S.C. 1320a-7b(b) (Anti-Kickback)",
-        "42 U.S.C. 1320a-7 (exclusion)",
-        "42 CFR 455.104-455.106 (Medicaid provider disclosures)",
-        "42 U.S.C. 1396b(l) (EVV)"
-      ],
-      "state_specifics": [
-        "Applies if the home enrolls as a Medicaid Alternative Living Services provider. GAMMIS enrollment is required before billing; retroactive enrollment is not permitted and providers who had not revalidated by July 1, 2026 are suspended (per research).",
-        "EVV: if personal support services (HCPCS T1019) are billed, use the Netsmart Mobile Caregiver+ system; claims with dates of service on or after Sept 14, 2026 must go through EVV. Confirm with DCH whether the ALS placement service itself is subject to EVV.",
-        "Screen owners, administrators and staff against the OIG exclusion list and Georgia Medicaid sanction lists monthly (facility standard).",
-        "Disclose all owners with 10%+ interest to DCH (63-.05(6)) and report any criminal record acquired by an owner, director or employee to DCH (63-.30(2)(e)).",
-        "The ALS room-and-board payment ($768/month effective 1/1/2026, secondary source) is paid by the resident; the waiver does not pay room and board. Verify the current ALS rate and billing rules with the DCH Medicaid provider manual."
-      ]
-    },
-    {
-      "id": "GOV-06",
-      "category": "Governance and Administration",
-      "title": "Licensed Residential Care Profile, Marketing and Licensure-Classification Accuracy",
-      "citations": [
-        "C9",
-        "C5",
-        "C18"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Keep an accurate, current licensed residential care profile on file with DCH once the electronic system is available (63-.10(6)).",
-        "Services provided must match the profile, the license and the rules. Marketing must match the licensure classification, the profile and the rules, and must disclose ALC classification (63-.10(7)-(8); 63-.06(8)).",
-        "Only a licensed ALC may hold itself out as offering assisted living care (63-.10(9)). A PCH-only permit does not allow assisted living care. Do not advertise memory care until DCH issues the certificate (63-.10(10)).",
-        "If the home charges more for dementia care or advertises specialized dementia care, it is a memory care center (63-.03(z); 63-.19(1)). The profile must carry the 12-element memory care description.",
-        "No other business may operate on the premises in a way that intrudes on residents' quiet enjoyment (63-.06(9))."
-      ]
-    },
-    {
-      "id": "GOV-07",
-      "category": "Governance and Administration",
-      "title": "DCH Inspections, Inspection Reports and Plans of Correction",
-      "citations": [
-        "C9",
-        "C49",
-        "C32"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Make records available to properly identified DCH representatives at any time (63-.10(1)); inspections are unannounced (C49).",
-        "Disagreement with an inspection report must be submitted in writing with evidence within 10 days of receipt. A written plan of correction with date-certain actions is due within 10 days of receipt (63-.10(2)-(3)). If DCH provides a website, also file the plan electronically within 10 days (63-.10(4)).",
-        "Display the most recent inspection report and plan of correction where residents and visitors see information. If the community has a website, post a prominent link to all reports and plans from the previous 18 months (63-.10(4)).",
-        "Enforcement is under 63-.33 and Ch. 111-8-25. Read the full text of .33 before writing sanction-response procedures."
-      ]
-    },
-    {
-      "id": "GOV-08",
-      "category": "Governance and Administration",
-      "title": "Medicaid Waiver (CCSP / SOURCE Alternative Living Services) Participation and HCBS Settings Compliance",
-      "citations": [
-        "C51",
-        "C50",
-        "C16"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4) (HCBS settings)",
-        "42 CFR 441.301(c)(1)-(3) (person-centered plan)"
-      ],
-      "state_specifics": [
-        "Waiver residents enter through an assessment requested from the local Area Agency on Aging, statewide line 866-552-4464 (866-55-AGING). The screening determines eligibility and urgency. DFCS determines financial eligibility and keeps the waiting list (per research).",
-        "Alternative Living Services covers 24-hour personal care supervision in licensed personal care homes. The waiver does not pay room and board. The resident pays $768/month and keeps $226 of the $994 SSI benefit (effective 1/1/2026, secondary sources; verify).",
-        "Georgia's Elderly and Disabled Waiver (CMS 0112.R08.00) expires 11/08/2027. Do not rely on Medicaid revenue in budgets.",
-        "HCBS settings requirements (privacy, choice, visitors, lockable doors where applicable, freedom from restraint) must be reconciled with ALC rules: staff knock before entering (63-.25(1)(d)), no locking a resident into or out of the bedroom (63-.17(7)), free communication (63-.25(1)(e)).",
-        "Obtain the current Medicaid ALS provider manual and per-diem rate from GAMMIS; neither was verified."
+        "The governing body oversees compliance with Ch. 111-8-62 or 111-8-63, 111-8-25 and 111-8-100. It keeps DCH supplied with current names, emails and phones. PCH program contact: pchprogram.hfrd@dch.ga.gov.",
+        "PCH under 25 beds: administrator needs an associate's degree, or a GED/high school diploma plus 2 years of PCH or healthcare experience, and must be 21+ (111-8-62-.08).",
+        "25+ beds (ALC or PCH): a Board of Long-Term Care Facility Administrators license within 60 days of hire. Board phone 404-424-9966. Biennial license expires Dec 31 of odd-numbered years.",
+        "Initial 25+ bed applications need a CPA financial stability affidavit (going concern 2 years) and disclosure of owners with 10%+ and the registered agent.",
+        "Review the manual at least annually. Keep a revision log and a dated approval signature from the governing body."
       ]
     },
     {
       "id": "RR-01",
       "category": "Resident Rights",
-      "title": "Resident Rights and Responsibilities",
+      "title": "Grievances, Complaints and Ombudsman Access",
+      "covers": [],
       "citations": [
         "C24",
-        "C23",
-        "C8",
-        "C38"
+        "C15"
       ],
-      "federal": [
-        "42 U.S.C. 3058g (Older Americans Act ombudsman)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Rights cannot be waived except by the resident or the resident's representative or legal surrogate as the rules allow (63-.25(1)).",
-        "Rights include: voting and constitutional rights; choosing activities and schedules; interacting with the wider community; privacy in the room with staff knocking first; free, private communication without censorship; married couples may share a room (no more than two residents per bedroom); freedom from coercion to assign money, valuables or property; no punishment or harassment for enforcing rights (63-.25).",
-        "A signed copy of the Resident's Rights form goes in each resident file (63-.23(2)(k) / .24(2)(k)). Residents may self-discharge on 30 days written notice if no court commitment or authorized representative applies (63-.25(u)).",
-        "All staff are trained on residents' rights within 60 days of hire (63-.09(2)(a), (3)(d)).",
-        "No member of the governing body, administration or staff, or their family, may serve as a resident's legal surrogate (62-.03(q))."
+        "The admission agreement describes the complaint process (111-8-63-.16).",
+        "Post the assigned ombudsman's name, address and phone in a common area. Residents have access to the State Long-Term Care Ombudsman Program (.25(v)).",
+        "No punishment or harassment of any resident or staff who raises a complaint or enforces rights.",
+        "Log each grievance, the investigation, the response date and the resolution.",
+        "Tell residents they may complain to DCH."
       ]
     },
     {
       "id": "RR-02",
       "category": "Resident Rights",
-      "title": "Grievances, Complaints and Resident Feedback",
+      "title": "Admission Agreement, Fees, Rate Increases and Deposits",
+      "covers": [],
       "citations": [
         "C15",
-        "C24",
-        "C9"
+        "C6"
       ],
       "federal": [],
       "state_specifics": [
-        "The admission agreement must describe how the community responds to formal complaints and how a resident or representative files one (63-.16(1)(d)).",
-        "No retaliation against a resident for enforcing rights (63-.25(1)(b)).",
-        "The rule title includes obtaining feedback (63-.25); read the feedback paragraphs on the SOS site before finalizing any resident council or survey procedure.",
-        "Give residents the name, address and phone of the assigned long-term care ombudsman (posted in a common area, 63-.25(v)), and tell them they may also complain to DCH HFRD.",
-        "Log each complaint, the investigation, the response and the date of response; keep it in the QA file."
+        "Plain-language agreement consistent with the licensed residential care profile. It states all fees and what they cover (111-8-63-.16).",
+        "Written notice at least 30 days before any personal-service charge increase and at least 60 days before any room-and-board increase.",
+        "The agreement includes continuous assessment and referral or transfer on change of condition, a complaint process, transportation terms with emergency transport available at all times, and a refund policy on death, transfer or discharge.",
+        "Have a Georgia attorney review the agreement.",
+        "Obtain signatures from the resident or representative and place the agreement in the resident file."
       ]
     },
     {
       "id": "RR-03",
       "category": "Resident Rights",
-      "title": "Ombudsman Access",
+      "title": "Resident Funds, Valuables and Personal Property",
+      "covers": [],
       "citations": [
-        "C24",
-        "C41"
+        "C23",
+        "C24"
       ],
-      "federal": [
-        "42 U.S.C. 3058g",
-        "45 CFR Part 1324"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Residents have the right to access the State Long-Term Care Ombudsman Program (O.C.G.A. 31-8-50 et seq.).",
-        "Post the name, address and telephone number of the ombudsman assigned to the community in a common area (63-.25(v)).",
-        "Statewide AAA line is 866-552-4464; confirm the regional ombudsman's direct contact before posting.",
-        "Staff must not impede ombudsman visits or private conversations with residents (consistent with 63-.25(1)(e))."
+        "Keep a record of monetary transactions with itemized receipts (111-8-63-.24).",
+        "Give a receipt for valuables held in safekeeping. Keep an inventory of personal valuables in the file.",
+        "No coercion to assign money, valuables or property to the community (.25).",
+        "Keep resident funds separate from operating funds.",
+        "Quarterly reconciliation signed by the administrator."
       ]
     },
     {
       "id": "RR-04",
       "category": "Resident Rights",
-      "title": "Admission Agreement, Fees, Rate Increases, Deposits and Refunds",
+      "title": "Advance Directives, Legal Surrogates and Powers of Attorney",
+      "covers": [],
       "citations": [
-        "C15",
-        "C6",
-        "C24"
+        "C23",
+        "C25",
+        "C38"
       ],
       "federal": [],
       "state_specifics": [
-        "Agreement must be in plain, understandable language and consistent with the licensed residential care profile (63-.16(1)).",
-        "It must list all fees and charges (daily, weekly or monthly), what is covered, and any additional-fee services.",
-        "Written notice at least 30 days before any increase in personal-service charges and at least 60 days before any increase in room-and-board charges (63-.16(1)(b)).",
-        "Include the refund policy for death, transfer or discharge (63-.16(1)(f); 63-.07(2)(d)).",
-        "Include continuous-assessment and referral/transfer provisions, the complaint process, and transportation provisions with emergency transport available at all times (63-.16(1)(c)-(e)).",
-        "Include the written discharge/transfer procedure and 30-day notice (63-.29(1)) and the resident's 30-day self-discharge right (63-.25(u)).",
-        "Read the remainder of 63-.16 (paragraph (1)(g) and later) before finalizing deposit and fee clauses; those paragraphs were truncated in the retrieved text."
+        "Keep a living will, DPOA-HC or Georgia advance directive, and signed end-of-life medical orders, in the file. Make forms available at admission (111-8-63-.24).",
+        "Valid DNR: honor it in good faith. Health care agent: call the agent. Otherwise call EMS and start CPR (.26).",
+        "No member of the governing body, administration or staff, or their family, may be a resident's legal surrogate (111-8-62-.03).",
+        "Keep a copy of any power of attorney in the resident file.",
+        "Train staff to find the code status quickly."
       ]
     },
     {
       "id": "RR-05",
       "category": "Resident Rights",
-      "title": "Resident Funds and Personal Property",
+      "title": "Privacy, Confidentiality and HIPAA",
+      "covers": [],
       "citations": [
         "C23",
-        "C24",
-        "C38"
+        "C24"
       ],
-      "federal": [],
+      "federal": [
+        "45 CFR 160",
+        "45 CFR 164"
+      ],
       "state_specifics": [
-        "Keep a record of all monetary transactions made for a resident, with itemized receipts for every disbursement and deposit (63-.24(2)(g)).",
-        "Keep a record of monies and valuables held for safekeeping; give a receipt at admission and whenever the resident entrusts more property (63-.24(2)(h)).",
-        "Keep an inventory of valuable personal items, updated at any time on request (63-.24(2)(j)).",
-        "Keep copies of any POA or court or SSA document designating a financial manager (63-.24(2)(m)).",
-        "Residents must be free from coercion to assign money, valuables or benefits to the community other than payment for services (63-.25(1)). Staff and their families cannot be legal surrogates (62-.03(q)).",
-        "Waiver residents keep $226 of the $994 SSI benefit for personal needs after the $768 room-and-board payment (2026, secondary source)."
+        "Resident files are confidential and disclosed only to the resident, representative or legal surrogate, DCH agents and those with written authorization (111-8-63-.24).",
+        "Residents and representatives may inspect and copy the file.",
+        "Staff knock before entering resident rooms. Private communication is protected (.25).",
+        "If the community is a HIPAA covered entity (for example, bills Medicaid electronically), designate a privacy officer, issue a notice of privacy practices and sign business associate agreements.",
+        "Photographs, social media and marketing use require written consent."
       ]
     },
     {
       "id": "RR-06",
       "category": "Resident Rights",
-      "title": "Advance Directives, DNR Orders and End-of-Life Wishes",
-      "citations": [
-        "C23",
-        "C25",
-        "C42"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Keep a copy of any living will or DPOA-HC executed before 2007, or an executed Georgia advance directive for health care, in the resident file; the forms must be made available at admission and remain available on request (63-.24(2)(n)).",
-        "Keep signed medical orders affecting end-of-life care (for example DNR) in the file (63-.24(2)(o)).",
-        "Unresponsive-resident protocol (63-.26(2)): hospice plan, then health care agent, then DNR honored in good faith, then EMS and CPR unless clearly futile and no physician, authorized RN or PA is on site.",
-        "Train every direct-care staff member in CPR with return demonstration within 60 days (63-.09(3)(b))."
-      ]
-    },
-    {
-      "id": "RR-07",
-      "category": "Resident Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
-      "citations": [
-        "C23",
-        "C8",
-        "C24"
-      ],
-      "federal": [
-        "45 CFR 160",
-        "45 CFR 164 Subparts A, C, E (164.520, 164.530)"
-      ],
-      "state_specifics": [
-        "Personal information in the resident file is confidential. Disclose it only to the resident, the representative or legal surrogate, an authorized DCH agent, and anyone with the resident's, representative's or surrogate's written authorization (63-.24(1)).",
-        "The file must be available for inspection and copying by the resident, representative or surrogate and by DCH on request (63-.24(1)).",
-        "Personnel files are kept confidential but open to DCH (63-.09(15)); staff health information is retained in a retrievable format for DCH (63-.09(10)).",
-        "The incident report to DCH is filed in confidence (63-.30(3)).",
-        "HIPAA applies if the home is a covered entity (for example, it bills Medicaid electronically for waiver services). Determine status and apply 45 CFR 164 if so."
-      ]
-    },
-    {
-      "id": "RR-08",
-      "category": "Resident Rights",
       "title": "Nondiscrimination, Disability Access and Language Access",
+      "covers": [],
       "citations": [
-        "C14",
-        "C19",
+        "C15",
         "C24"
       ],
       "federal": [
-        "Title VI, 42 U.S.C. 2000d; 45 CFR Part 80",
-        "Section 504, 29 U.S.C. 794 (if federal financial assistance)",
-        "ADA Title III, 42 U.S.C. 12181 et seq.",
-        "Fair Housing Act, 42 U.S.C. 3601 et seq.",
-        "45 CFR Part 92 (Section 1557)"
+        "ADA, 42 U.S.C. 12101 et seq.",
+        "Title VI, 42 U.S.C. 2000d"
       ],
       "state_specifics": [
-        "Admission decisions must follow the objective criteria in 63-.15(1): age 18+, no active TB, no continuous nursing need, no restraint or confinement for behavioral control, able to participate in transfers and activities.",
-        "Staff assisting with self-administered medications must be proficient in English and able to read, write and follow written instructions in English (63-.20(2)(b)); plan interpreter and translated-form access for residents with limited English proficiency.",
-        "Provide reasonable accommodations and communication aids for residents with disabilities.",
-        "A resident cannot be punished for enforcing rights (63-.25(1)(b))."
+        "Admission is based on the admission profile and the community's ability to meet needs, not race, national origin, religion, sex or disability.",
+        "Provide interpreters and translated key documents for limited-English-proficient residents. The admission agreement is in plain language (111-8-63-.16).",
+        "Reasonable accommodations and service-animal handling under ADA.",
+        "Residents may choose activities and schedules (.25).",
+        "Post a nondiscrimination notice."
       ]
     },
     {
       "id": "ADM-01",
       "category": "Admission, Retention and Discharge",
-      "title": "Pre-Admission Screening and Admission Criteria",
+      "title": "Pre-Admission Screening, Admission Criteria and Retention Limits",
+      "covers": [],
       "citations": [
         "C14",
         "C6",
-        "C4"
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "Admit only adults 18+ who: do not have active TB; do not need continuous medical or nursing care and treatment; do not need physical or chemical restraints, isolation or confinement for behavioral control; can actively participate in transfers; and can take part in the community's social and leisure activities (63-.15(1)).",
-        "The administrator or on-site manager must evaluate and document whether the community can meet the applicant's needs (63-.15(2)). The evaluation includes a National Sex Offender Registry inquiry or fingerprint records check; for a registered sex offender or violent offender, document added safety measures such as monitoring, room and roommate selection and staff in-service (63-.15(2)(c)-(d)).",
-        "A physician examination on forms made available by DCH is referenced in 63-.15(2); read the complete paragraph before setting content and timing.",
-        "Do not admit anyone the community is not authorized or capable of serving (63-.07(2)(c)). Do not admit above licensed capacity (63-.06(6)).",
-        "A memory care center may admit only after the certificate is current (63-.10(10))."
+        "Applicant must be 18+, free of active TB, not need continuous medical or nursing care, not need restraints, isolation or confinement for behavior, and be able to participate in transfers and in social and leisure activities (111-8-63-.15(1)).",
+        "The administrator or on-site manager documents the evaluation, including a National Sex Offender Registry inquiry or fingerprint check and added safety measures where needed (.15(2)).",
+        "A physician examination on DCH forms is part of the admission packet (.15).",
+        "Admission and retention decisions must not exceed what the community is authorized or able to provide (.07(2)(c)).",
+        "Do not exceed the licensed capacity."
       ]
     },
     {
       "id": "ADM-02",
       "category": "Admission, Retention and Discharge",
-      "title": "Resident Assessment and Reassessment",
+      "title": "Resident Assessment, Reassessment and Care Plan",
+      "covers": [],
       "citations": [
         "C16",
-        "C18",
-        "C14"
+        "C18"
       ],
       "federal": [],
       "state_specifics": [
-        "Complete an assessment of care needs covering family supports, ADL function, physical care needs, medical information, cognitive and behavioral impairments and personal preferences (63-.17(2)).",
-        "Reassess when needs change substantially, and on assignment to a memory care center (63-.17(3)(g)). The memory care profile must state the criteria that trigger reassessment before the customary quarterly review (63-.19(1)(a)5).",
-        "An RN or LPN must be on site 8 h/wk (1-30 residents), 16 (31-60), 24 (61-90) or 40 (over 90) to support resident oversight (63-.09(18)(c)); use those hours for assessments.",
-        "Increase staffing as the number of residents needing assisted self-preservation rises (63-.07(2)(b))."
+        "Needs assessment covers family supports, ADL function, physical care, medical information, cognitive and behavioral impairments and preferences (111-8-63-.17(2)).",
+        "Written care plan within 14 days of admission, updated at least annually, when needs change substantially, and on assignment to a memory care center (.17(3)).",
+        "Memory care centers reassess at triggers before the customary quarterly review (.19).",
+        "Assistive devices need a physician/NP/PA order, a written care plan and resident consent (.03).",
+        "The resident or representative takes part in and signs the plan."
       ]
     },
     {
       "id": "ADM-03",
       "category": "Admission, Retention and Discharge",
-      "title": "Written Service / Care Plan",
-      "citations": [
-        "C16",
-        "C23"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(1)-(2) (person-centered plan for waiver residents)"
-      ],
-      "state_specifics": [
-        "Develop an individual written care plan within 14 days of admission, using admission and move-in adjustment information; staff must use it as the guide to care (63-.17(3)).",
-        "Required content: care and social needs with service frequency; resident preferences; specific behaviors and interventions; any physician, NP or PA order for assistive devices; staff primarily responsible; evidence of family involvement when appropriate; evidence of update at least annually, more often on substantial change or memory care assignment.",
-        "File the care plan in the resident file (63-.24)."
-      ]
-    },
-    {
-      "id": "ADM-04",
-      "category": "Admission, Retention and Discharge",
-      "title": "Retention Limits and Conditions the Community Cannot Serve",
-      "citations": [
-        "C14",
-        "C16",
-        "C3",
-        "C6"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Do not retain residents who need more care than the community is authorized or capable of providing (63-.07(2)(c)).",
-        "Residents who need continuous medical or nursing care and treatment, or physical or chemical restraints, isolation or confinement for behavioral control, do not meet the admission profile (63-.15(1)(b)).",
-        "Limited nursing services means nursing care within the direct care staff person's scope that can be completed within seven days or intermittently (63-.03(v)). Complex care (IV medications, central lines, complex wound care) falls outside health maintenance activities (63-.03(r)).",
-        "Periodic or short-term medical and nursing services must be purchased by the resident from outside providers, not provided as community services (63-.17(11)); outside home health or hospice staff do not count toward staffing ratios (63-.09(18)(a)).",
-        "Record the retention decision, the representative's notice and the referral steps (63-.16(1)(c))."
-      ]
-    },
-    {
-      "id": "ADM-05",
-      "category": "Admission, Retention and Discharge",
       "title": "Discharge, Transfer and Relocation Notice",
+      "covers": [],
       "citations": [
         "C28",
         "C24",
-        "C15",
-        "C13"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4) (HCBS settings, for waiver residents)"
-      ],
-      "state_specifics": [
-        "Every admission agreement must contain a written discharge and transfer procedure (63-.29(1)).",
-        "Contact the representative or legal surrogate when a discharge or transfer is needed; give 30 days written notice of intent to discharge or transfer unless an immediate transfer is required (63-.29(1)).",
-        "A resident may self-discharge on 30 days written notice if there is no court commitment or authorized representative (63-.25(u)).",
-        "Refunds follow the admission agreement refund policy (63-.16(1)(f)).",
-        "In an emergency relocation, give timely notice of the new address to residents, family contacts, representatives and DCH (63-.14(4)).",
-        "Read the later paragraphs of 63-.29 (not retrieved) for notice content and any appeal or placement-help obligations."
-      ]
-    },
-    {
-      "id": "ADM-06",
-      "category": "Admission, Retention and Discharge",
-      "title": "Immediate Transfers of Residents",
-      "citations": [
-        "C27",
-        "C6",
         "C25"
       ],
       "federal": [],
       "state_specifics": [
-        "Rule 63-.28 (Immediate Transfers of Residents) exists; body text was not retrieved. Read it and enter the triggers and documentation before publishing.",
-        "Policies must cover immediate transfers so that the community does not keep residents beyond its capability (63-.07(2)(c)).",
-        "Emergency actions on a sudden change follow 63-.26(1)-(2); notify the representative or legal surrogate immediately."
+        "Give 30 days' written notice of intent to discharge or transfer unless an immediate transfer is required (111-8-63-.29(1)).",
+        "The administrator or on-site manager contacts the representative or legal surrogate when discharge or transfer is needed.",
+        "A resident without a court commitment or authorized representative may self-discharge on 30 days' written notice (.25(u)).",
+        "Provide a written discharge procedure in every admission agreement.",
+        "Refund or settlement per the admission agreement. Include the transfer of medications, records and personal property."
       ]
     },
     {
       "id": "HLT-01",
       "category": "Health and Care Services",
-      "title": "Medication Management, Storage and Disposal",
+      "title": "Change of Condition, Physician Notification and Hospital Transfer",
+      "covers": [],
       "citations": [
-        "C19"
+        "C25",
+        "C29"
       ],
-      "federal": [
-        "21 CFR Part 1300-1321 (controlled substances), as applicable",
-        "29 CFR 1910.1030 (sharps)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "A physician order with clear instructions is required for every medication, including OTC, before staff assist or administer (63-.20(10)).",
-        "Store medications under lock and key at all times, whether held by the resident or the community, except where a resident must keep a medication on their person for frequent or emergency use. Keep controlled substances in a locked cabinet or box of substantial construction, with a log updated daily (63-.20(12)).",
-        "Keep duplicate keys on site; keep medications in original labeled containers; use unit or multi-unit dose packaging (63-.20(12)(a)-(c)).",
-        "Obtain new prescriptions within 48 hours of notice (sooner if the prescriber says so) and update the MAR within 48 hours; obtain refills so doses are not interrupted (63-.20(11)).",
-        "Dispose of unused medications using current FDA or EPA guidance (63-.20(12)(d)). A pharmacist removes expired, discontinued or deteriorated drugs and those of former residents during the quarterly review (63-.20(5)(d)2).",
-        "Keep medication reference information (descriptions, dosing, side effects, contraindications) available to staff (63-.20(9)(a)).",
-        "Liquid morphine on site is limited to 50 ml per hospice patient with an order (63-.20(12)(e))."
+        "On an accident or sudden adverse change, act immediately, notify the representative or legal surrogate, and record the change and response in the file (111-8-63-.26).",
+        "Unresponsive resident: hospice enrollee, call hospice first. Valid DNR, honor it. Health care agent, call the agent. Otherwise call EMS and start CPR unless clearly futile and no physician, RN or PA is on site.",
+        "Staff have ready access to emergency numbers and resident information, including during transport.",
+        "Serious injury requiring medical attention is reported to DCH within 24 hours (.30).",
+        "The agreement provides for continuous assessment and referral or transfer on change of condition."
       ]
     },
     {
       "id": "HLT-02",
       "category": "Health and Care Services",
-      "title": "Medication Administration and Staff Authorization (Certified Medication Aides)",
+      "title": "Dementia and Memory Care (Certified Memory Care Centers)",
+      "covers": [],
       "citations": [
-        "C19",
-        "C8",
-        "C47"
+        "C18",
+        "C39",
+        "C33",
+        "C48"
       ],
       "federal": [],
       "state_specifics": [
-        "Self-administering residents may keep and self-administer medications securely (63-.20(1)). Staff assistance with self-administration is limited to the tasks listed in 63-.20(2)(a), for unit or multi-dose packaged medications only; EpiPen assistance needs a written protocol including a 911 call after use.",
-        "Only certified medication aides (CMAs) may administer medications on the community's behalf (63-.20(4); 63-.09(8)).",
-        "Before a CMA administers medications, check that the aide is in good standing on the Georgia Certified Medication Aide Registry with no termination for cause related to medication tasks (63-.20(5)(a)).",
-        "Competency: skills checklist at hire for CMAs certified more than 1 year; quarterly random observations by an RN or pharmacist; annual comprehensive skills review by a Georgia-licensed RN, pharmacist or physician (63-.20(5)(b), (c), (f)). Quarterly pharmacist drug regimen review (63-.20(5)(d)).",
-        "CMA authorized tasks (unit or multidose packaging only): oral, tube, ophthalmic, topical, otic, nasal, vaginal and rectal medications; insulin, epinephrine and B12 under physician direction and protocol; metered-dose inhalers; finger-stick glucose testing; physician-ordered commercial enema; assisting self-administration; liquid morphine for hospice patients under a hospice physician's written order (63-.20(5)(e)).",
-        "Non-CMA unlicensed staff who assist with self-administration need documented medication training on the topics in 63-.20(7) and competency checklists at hire and annually (63-.20(8))."
+        "No memory care center operates without a current DCH certificate; $200 per year. The ALC packet requires a current ALC permit first.",
+        "The profile carries the written 12-element description (philosophy, staffing, admission criteria, reassessment, environment and security, activities, fees, discharge, emergencies, family involvement) (111-8-63-.19).",
+        "Staffing: 1 dementia-trained direct care staff per 12 residents in waking hours and per 15 in non-waking hours (monthly average). RN/LPN hours: 8/wk (1-12 residents), 16 (13-30), 24 (31-40), 40 (more than 40).",
+        "Training (O.C.G.A. 31-7-12.4): 4 hrs orientation within 30 days. Direct care staff need 16 hrs within 30 days, then 8 hrs per year. Keep agendas, instructor qualifications and rosters.",
+        "No chemical or physical restraints for behavior control."
+      ]
+    },
+    {
+      "id": "HLT-03",
+      "category": "Health and Care Services",
+      "title": "Falls Prevention and Skin Integrity",
+      "covers": [],
+      "citations": [
+        "C3",
+        "C16",
+        "C25"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Injury includes pressure ulcers not properly cared for (111-8-63-.03). Treat them as reportable.",
+        "Fall risk screening at admission and after any fall or condition change. Update the care plan (.17(3)).",
+        "Serious fall injury requiring medical attention is reported to DCH within 24 hours and investigated immediately (.26, .30).",
+        "Assistive devices need an order, a care plan and consent (.03).",
+        "Limited nursing services (care completed within 7 days or intermittently) are provided only as the rules allow."
+      ]
+    },
+    {
+      "id": "HLT-04",
+      "category": "Health and Care Services",
+      "title": "Hospice, Home Health, Nursing Services and Death of a Resident",
+      "covers": [],
+      "citations": [
+        "C16",
+        "C19",
+        "C25",
+        "C29",
+        "C15"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Periodic or short-term nursing and medical services are purchased by the resident, not provided as community services (111-8-63-.17(11)).",
+        "Hospice enrollee: call hospice first when the resident is unresponsive (.26). Liquid morphine limited to 50 ml per hospice resident (.20).",
+        "An accidental or unanticipated death not tied to the natural course of illness is reported to DCH within 24 hours and investigated immediately (.26, .30).",
+        "Refund on death is handled per the admission agreement (.16).",
+        "Rule .27 (Death of a Resident) body text was not retrieved. Confirm notice and release procedures before finalizing."
+      ]
+    },
+    {
+      "id": "SAF-01",
+      "category": "Safety and Protection",
+      "title": "Elopement, Missing Resident and Mattie's Call",
+      "covers": [],
+      "citations": [
+        "C29",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Call local police within 30 minutes of actual knowledge that a resident is missing (Mattie's Call Act).",
+        "Report the start and end of a Mattie's Call to DCH within 30 minutes of the contact with law enforcement (111-8-63-.30(1)).",
+        "Elopement-risk identification, door alarms and search procedures: Rule .18 body text was not retrieved. Review it before finalizing.",
+        "Do not lock residents into or out of rooms or restrict common areas (.17(7)).",
+        "Keep a current photo and description for each at-risk resident."
+      ]
+    },
+    {
+      "id": "SAF-02",
+      "category": "Safety and Protection",
+      "title": "Restraints and Restrictive Practices",
+      "covers": [],
+      "citations": [
+        "C3",
+        "C14",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Do not admit or retain residents who need physical or chemical restraints, isolation or confinement for behavioral control (111-8-63-.15(1)).",
+        "Rule .03 counts bedrails, wheelchair safety bars, tight tucking and mitts as restraints. Alarm wristbands do not count.",
+        "Do not lock a resident into or out of the bedroom (.17(7)).",
+        "Assistive devices need an order, a written care plan and resident consent (.03).",
+        "Staff training on alternatives to restraint."
+      ]
+    },
+    {
+      "id": "SAF-03",
+      "category": "Safety and Protection",
+      "title": "Fire Safety, Physical Plant Safety and Electrical Compliance",
+      "covers": [],
+      "citations": [
+        "C12",
+        "C13",
+        "C49"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "State Fire Marshal report with no violations and the capacity load, dated within 12 months of application.",
+        "Electrical compliance form signed by a Georgia-licensed electrician, dated within 6 months of application.",
+        "Keep the interior and exterior clean, in good repair and free of unsafe conditions. Keep entrances, exits, sidewalks and escape routes clear (111-8-63-.13).",
+        "Name and house number visible from the street (.13).",
+        "Maintain a drill and fire equipment inspection log."
+      ]
+    },
+    {
+      "id": "DL-01",
+      "category": "Daily Living",
+      "title": "Food Service, Menus and Therapeutic Diets",
+      "covers": [],
+      "citations": [
+        "C20"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "At least 3 regularly scheduled well-balanced meals a day, 7 days a week, plus therapeutic diets as ordered (111-8-63-.21).",
+        "No more than 14 hours between the evening and morning meals. Offer at least one nutritious snack daily.",
+        "Menus dated and planned at least 1 week ahead for regular and therapeutic diets. Post or make them easily available and encourage resident input.",
+        "Hold perishables at or below 41 degrees F.",
+        "Food must be clean, wholesome and safe. Keep menus as served for the period the current rule requires (a third-party copy says 30 days)."
+      ]
+    },
+    {
+      "id": "DL-02",
+      "category": "Daily Living",
+      "title": "Activities, Social Programming and Transportation",
+      "covers": [],
+      "citations": [
+        "C16",
+        "C15",
+        "C24"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Provide daily social activities (111-8-63-.17(4)).",
+        "Residents choose activities and schedules (.25).",
+        "The admission agreement sets transportation provisions, with emergency transport available at all times (.16).",
+        "Memory care activity program described in the profile (.19).",
+        "Keep an activity calendar and participation log."
+      ]
+    },
+    {
+      "id": "DL-03",
+      "category": "Daily Living",
+      "title": "Housekeeping, Laundry, Furnishings and Maintenance",
+      "covers": [],
+      "citations": [
+        "C11",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Furnishings kept intact and functional. Name plate outside each room unless declined (111-8-63-.12).",
+        "Individual bed at least 36 x 72 inches. Mattress at least 5 inches thick (4 if synthetic). No cots, roll-aways, double-decks, stacked bunks, hide-a-beds or studio couches.",
+        "Closet or wardrobe and reading-adequate lighting in each room.",
+        "Linens for residents needing linen service: at least 2 sheets, pillow, pillowcase, blanket, bedspread, towels and washcloth.",
+        "Interior and exterior kept clean and in good repair (.13). Indoor temperature standards are in Rule .22 (body text not retrieved)."
+      ]
+    },
+    {
+      "id": "STF-01",
+      "category": "Staffing and Personnel",
+      "title": "Background Checks, Registries and Fingerprint Determinations",
+      "covers": [],
+      "citations": [
+        "C8",
+        "C49",
+        "C29",
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Criminal background checks under Ch. 111-8-12 (111-8-63-.09(11)-(13)). GCHEXS fingerprint check for administrators and owners with 10%+; determination letter dated within 12 months.",
+        "The administrator needs a satisfactory determination before serving. GCHEXS support: 404-463-7154, gchexs.user@dch.ga.gov.",
+        "Check the Georgia Certified Medication Aide Registry for CMAs (.20).",
+        "An owner, director or employee acquiring a criminal record is reported to DCH within 24 hours (.30).",
+        "Document the check, the date and the outcome in the personnel file."
+      ]
+    },
+    {
+      "id": "STF-02",
+      "category": "Staffing and Personnel",
+      "title": "Hiring, Orientation, Employee Health and Personnel Records",
+      "covers": [],
+      "citations": [
+        "C8",
+        "C37",
+        "C36"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Obtain employment history (111-8-63-.09(14)-(15)). Keep personnel files for 3 years after departure.",
+        "TB screening and physical within 12 months before providing care (.09(10)).",
+        "Ages: on-site manager and responsible staff 21+; no hands-on staff under 18 without line-of-sight supervision (.09(1)).",
+        "Orientation and training within 60 days; track CE hours (24 in year one, 16 per year after).",
+        "Staff wear ID badges (.09(22)). Keep staffing plans and schedules 1 year (.09(21))."
+      ]
+    },
+    {
+      "id": "REC-01",
+      "category": "Records",
+      "title": "Resident Records and Retention",
+      "covers": [],
+      "citations": [
+        "C23",
+        "C25"
+      ],
+      "federal": [
+        "45 CFR 164.530"
+      ],
+      "state_specifics": [
+        "The administrator or on-site manager keeps an individual file for each resident (111-8-63-.24).",
+        "Contents: identification; physician, hospital and pharmacy of choice; monetary transactions with itemized receipts; valuables receipts and inventory; health information; signed Resident's Rights form; signed admission agreement; powers of attorney; advance directives; signed end-of-life medical orders.",
+        "Files are available for inspection by DCH, and for inspection and copying by the resident or representative.",
+        "Investigation copies go in the resident file and the central QA file (.26).",
+        "Set a record retention period with counsel; no resident-file retention period was confirmed in the retrieved text."
+      ]
+    },
+    {
+      "id": "REC-02",
+      "category": "Records",
+      "title": "Required Reports to DCH",
+      "covers": [],
+      "citations": [
+        "C29",
+        "C9",
+        "C35"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Within 24 hours: unanticipated or accidental death, serious injury needing medical attention, rape, assault, battery, abuse, neglect or exploitation, external disaster affecting safe operation, an owner, director or employee acquiring a criminal record (111-8-63-.30).",
+        "Within 30 minutes: Mattie's Call start and end.",
+        "Plan of correction within 10 days of receipt of the inspection report (.10).",
+        "Keep DCH supplied with current contacts (pchprogram.hfrd@dch.ga.gov) and keep the residential care profile accurate.",
+        "Report contents: names, dates, incident type and description, immediate action."
+      ]
+    },
+    {
+      "id": "MCD-01",
+      "category": "Medicaid Waiver Participation",
+      "title": "Medicaid Elderly and Disabled Waiver (CCSP/SOURCE ALS), EVV and Billing Integrity",
+      "covers": [],
+      "citations": [
+        "C51",
+        "C50"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)",
+        "42 U.S.C. 1396b(l)"
+      ],
+      "state_specifics": [
+        "Alternative Living Services covers 24-hour supervision in licensed PCHs. Waivers do not pay room and board. Secondary sources give a resident room-and-board payment of $768/month and $226 personal needs, effective 1/1/2026; confirm with DHS.",
+        "Enroll through GAMMIS before billing. Retroactive enrollment is not permitted, and revalidation is required.",
+        "EVV: Netsmart Mobile Caregiver+; personal support services under HCPCS T1019; applicable claims with dates of service on or after Sept 14, 2026 must use EVV. Whether it applies to the ALS service itself is unverified, so confirm with DCH.",
+        "Waiver entry starts with an Area Agency on Aging assessment (866-552-4464). DFCS determines financial eligibility.",
+        "CMS lists the waiver as expiring 11/08/2027. Bill only for documented services and keep records for audits."
       ]
     }
-  ]
+  ],
+  "forms": [
+    {
+      "name": "Resident's Rights Acknowledgment",
+      "purpose": "Signed Resident's Rights form kept in the resident file",
+      "policy_ids": [
+        "ALC-06",
+        "PCH-05",
+        "RR-01"
+      ]
+    },
+    {
+      "name": "Admission Agreement and Rate/Fee Schedule",
+      "purpose": "Plain-language agreement stating fees, refunds, transportation and the complaint process",
+      "policy_ids": [
+        "RR-02",
+        "ALC-03",
+        "PCH-02"
+      ]
+    },
+    {
+      "name": "Rate Increase Notice (30-day personal services / 60-day room and board)",
+      "purpose": "Written notice of fee increases",
+      "policy_ids": [
+        "RR-02"
+      ]
+    },
+    {
+      "name": "Pre-Admission Screening and Sex Offender Registry Check",
+      "purpose": "Document evaluation against admission criteria",
+      "policy_ids": [
+        "ADM-01",
+        "ALC-14",
+        "PCH-13"
+      ]
+    },
+    {
+      "name": "Physician Examination/Report (DCH form)",
+      "purpose": "Medical clearance, TB status and orders at admission",
+      "policy_ids": [
+        "ADM-01"
+      ]
+    },
+    {
+      "name": "Resident Needs Assessment and Reassessment",
+      "purpose": "ADL, cognitive, behavioral and preference assessment",
+      "policy_ids": [
+        "ADM-02"
+      ]
+    },
+    {
+      "name": "Written Care Plan (within 14 days, annual update)",
+      "purpose": "Individual service plan",
+      "policy_ids": [
+        "ADM-02",
+        "HLT-03"
+      ]
+    },
+    {
+      "name": "Medication Administration Record (MAR) and Controlled Substance Log",
+      "purpose": "Daily medication documentation and count",
+      "policy_ids": [
+        "ALC-07",
+        "PCH-06"
+      ]
+    },
+    {
+      "name": "CMA Registry Check and Competency Checklist",
+      "purpose": "Medication aide verification, quarterly observation and annual review",
+      "policy_ids": [
+        "ALC-07",
+        "STF-01"
+      ]
+    },
+    {
+      "name": "Pharmacist Quarterly Drug Regimen Review",
+      "purpose": "Document pharmacist review",
+      "policy_ids": [
+        "ALC-07",
+        "PCH-06"
+      ]
+    },
+    {
+      "name": "Incident/Accident Investigation Report",
+      "purpose": "Immediate investigation and QA file entry",
+      "policy_ids": [
+        "ALC-09",
+        "PCH-08",
+        "HLT-01"
+      ]
+    },
+    {
+      "name": "DCH 24-Hour Serious Incident Report",
+      "purpose": "Report required content to DCH",
+      "policy_ids": [
+        "REC-02",
+        "ALC-09",
+        "PCH-08"
+      ]
+    },
+    {
+      "name": "Missing Resident / Mattie's Call Log",
+      "purpose": "Time-stamped police and DCH notifications",
+      "policy_ids": [
+        "SAF-01"
+      ]
+    },
+    {
+      "name": "Change of Condition Notification Record",
+      "purpose": "Notify the representative, physician and hospice",
+      "policy_ids": [
+        "HLT-01"
+      ]
+    },
+    {
+      "name": "Grievance/Complaint Form and Log",
+      "purpose": "Record and resolve complaints",
+      "policy_ids": [
+        "RR-01",
+        "ALC-12"
+      ]
+    },
+    {
+      "name": "Resident Funds Ledger and Valuables Receipt",
+      "purpose": "Itemized transactions and safekeeping",
+      "policy_ids": [
+        "RR-03"
+      ]
+    },
+    {
+      "name": "Advance Directive / DNR Verification Sheet",
+      "purpose": "Code status check at admission and in emergencies",
+      "policy_ids": [
+        "RR-04",
+        "HLT-01"
+      ]
+    },
+    {
+      "name": "30-Day Discharge/Transfer Notice and Refund Calculation",
+      "purpose": "Notice and refund documentation",
+      "policy_ids": [
+        "ADM-03",
+        "ALC-03",
+        "PCH-02"
+      ]
+    },
+    {
+      "name": "Disaster Plan and Evacuation Maps",
+      "purpose": "Per-floor evacuation maps, responsibilities and relocation contacts",
+      "policy_ids": [
+        "ALC-11",
+        "PCH-10"
+      ]
+    },
+    {
+      "name": "Fire Drill and Equipment Inspection Log",
+      "purpose": "Drill and inspection records",
+      "policy_ids": [
+        "SAF-03",
+        "ALC-11",
+        "PCH-10"
+      ]
+    },
+    {
+      "name": "Staffing Plan and Daily Schedule",
+      "purpose": "Ratios, per-floor coverage, RN/LPN hours and absence coverage",
+      "policy_ids": [
+        "ALC-02",
+        "PCH-14",
+        "STF-02"
+      ]
+    },
+    {
+      "name": "Staff Training and CE Record",
+      "purpose": "60-day training, CPR, 24/16 CE hours, dementia training",
+      "policy_ids": [
+        "ALC-04",
+        "PCH-03",
+        "HLT-02"
+      ]
+    },
+    {
+      "name": "Personnel File Checklist (history, GCHEXS, TB/physical)",
+      "purpose": "Hiring and health documentation",
+      "policy_ids": [
+        "STF-01",
+        "STF-02"
+      ]
+    },
+    {
+      "name": "Staff Disciplinary Action Form",
+      "purpose": "Document progressive discipline",
+      "policy_ids": [
+        "ALC-10",
+        "PCH-09"
+      ]
+    },
+    {
+      "name": "Volunteer/Proxy Caregiver Orientation and Roster",
+      "purpose": "Rights and safety orientation",
+      "policy_ids": [
+        "ALC-13",
+        "PCH-12"
+      ]
+    },
+    {
+      "name": "Visitor and Vendor Sign-In",
+      "purpose": "Security for outside individuals",
+      "policy_ids": [
+        "ALC-14",
+        "PCH-13"
+      ]
+    },
+    {
+      "name": "Dated Menu and Therapeutic Diet Order Sheet",
+      "purpose": "Weekly menus and diet orders",
+      "policy_ids": [
+        "DL-01"
+      ]
+    },
+    {
+      "name": "Resident/Family Feedback Survey and QA Meeting Minutes",
+      "purpose": "QA review and feedback",
+      "policy_ids": [
+        "ALC-12",
+        "PCH-11"
+      ]
+    },
+    {
+      "name": "Inspection Plan of Correction Tracker",
+      "purpose": "10-day dispute and correction tracking",
+      "policy_ids": [
+        "GOV-01",
+        "ALC-12"
+      ]
+    },
+    {
+      "name": "Memory Care Profile Description and Certificate File",
+      "purpose": "12-element profile and DCH certificate",
+      "policy_ids": [
+        "HLT-02",
+        "ALC-01"
+      ]
+    },
+    {
+      "name": "Waiver Admission and EVV Visit Documentation",
+      "purpose": "Medicaid waiver enrollment and visit records",
+      "policy_ids": [
+        "MCD-01"
+      ]
+    }
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "Rule 111-8-63-.07 Owner Governance, paragraph (2). This is the list of required policies and procedures for Assisted Living Communities (25+ residents).",
+        "form_number": "Ga. Comp. R. & Regs. 111-8-63-.07(2)",
+        "issuer": "Georgia Department of Community Health, Healthcare Facility Regulation Division (HFRD). Published by the Georgia Secretary of State, Rules & Regulations.",
+        "version": "Current text posted at rules.sos.ga.gov (Subject 111-8-63), fetched 10/14/2026. The page shows no effective date for .07.",
+        "url": "https://rules.sos.ga.gov/gac/111-8-63",
+        "how_used": "Main source for ALC policy content. .07(2) says the governing body must implement policies, procedures and practices that support dignity, respect, choice, independence and privacy in a safe environment. It also says the policies must, at a minimum, give direction to staff and residents on items (a) through (p). Georgia has no separate DCH policy checklist form, so this regulation section is the list."
+      },
+      {
+        "title": "Rule 111-8-62-.07 Governing Body, paragraph (3). This is the list of required policies and procedures for Personal Care Homes (2–24 beds).",
+        "form_number": "Ga. Comp. R. & Regs. 111-8-62-.07(3)",
+        "issuer": "Georgia Department of Community Health, Healthcare Facility Regulation Division (HFRD). Published by the Georgia Secretary of State, Rules & Regulations.",
+        "version": "Current text posted at rules.sos.ga.gov (Subject 111-8-62), fetched 10/14/2026. The page shows no effective date for .07.",
+        "url": "https://rules.sos.ga.gov/gac/111-8-62",
+        "how_used": "Main source for PCH policy content. .07(3) uses the same introductory language as the ALC rule and lists items (a) through (p). The PCH list is not identical to the ALC list: it has no separate rule items for ALC refunds order, staffing ratios for assisted self-preservation, or the ALC sub-list order. See the item text for the differences."
+      },
+      {
+        "title": "Assisted Living Community Application Checklist (DCH HFRD), including the Affidavit of Compliance for Ch. 111-8-63",
+        "form_number": "No form number. The packet contains the ALC Application Checklist, the Affidavit of Compliance and the Affidavit of Financial Stability.",
+        "issuer": "Georgia DCH, Healthcare Facility Regulation Division",
+        "version": "Undated checklist. The Affidavit of Compliance is signed by Commissioner Dean Burke. Fetched 10/14/2026.",
+        "url": "https://dch.georgia.gov/document/document/assisted-living-community-application-packet-0/download",
+        "how_used": "This is the document the state uses at application. It does not list policy topics. Its 15 'Initial' items are all application paperwork and are excluded. It says all policies and procedures must be established under the regulations and be readily available on request. The notarized Affidavit of Compliance (Ch. 111-8-63) attests that the applicant has developed the mandated policies and procedures and will implement them immediately on licensure. The policy content is therefore taken from .07(2)."
+      },
+      {
+        "title": "Personal Care Home Application Checklist (DCH HFRD), including the Affidavit of Compliance for Ch. 111-8-62",
+        "form_number": "No form number. The packet contains the PCH Application Checklist and the Affidavit of Compliance (select Personal Care Homes).",
+        "issuer": "Georgia DCH, Healthcare Facility Regulation Division",
+        "version": "Undated checklist, fetched 10/14/2026.",
+        "url": "https://dch.georgia.gov/document/document/personal-care-home-application-packet/download",
+        "how_used": "Same use as the ALC checklist. Its 14 'Initial' items are paperwork only and are excluded. It says policies and procedures must be established and readily available on request. The policy content is taken from 111-8-62-.07(3)."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "ALC .07(2)(a)",
+        "text": "the services available in the assisted living community, including, personal services, assisted living care, memory care services and any other specialized services such as memory care centers and designated proxy caregivers;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(b)",
+        "text": "the staffing plan that the community utilizes to ensure that staffing ratios increase proportionally as the number of residents who require assisted self-preservation increases;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(c)",
+        "text": "admissions, discharges and immediate transfers which ensure that the community does not admit or retain residents who need more care that the assisted living community is authorized or capable of providing;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(d)",
+        "text": "refunds when a resident is transferred or discharged;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(e)",
+        "text": "training and ongoing evaluation of staff, including specialized training if designated proxy caregivers are provided or memory care is offered;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(f)",
+        "text": "house rules and their enforcement;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(g)",
+        "text": "protecting the rights of the residents as set forth in these rules;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(g)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(h)",
+        "text": "medication management, procurement, the use of certified medication aides and professional oversight provided for such services;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(h)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(i)",
+        "text": "health and hygiene issues for residents and staff relating to infection control, work policies and return to work policies, food borne illnesses and reportable diseases;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(i)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(j)",
+        "text": "the investigation and reporting of abuse, neglect, exploitation of residents, residents' wandering away from the community, accidents, injuries and changes in residents' conditions to required parties;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(j)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(k)",
+        "text": "discipline procedures for handling acts committed by staff which are inconsistent with the policies of the assisted living community;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(k)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(l)",
+        "text": "emergency preparedness, drills and evacuation requirements;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(l)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(m)",
+        "text": "quality assurance review mechanisms, including resident and family feedback to determine opportunities for improving care;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(m)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(n)",
+        "text": "the use of volunteers and their orientation regarding resident's rights and basic safety precautions;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(n)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(o)",
+        "text": "the specific use of proxy caregivers allowed within the community and the oversight of proxy caregivers the community requires or provides in accordance with Georgia law, these rules and the rules for proxy caregivers, Chapter 111-8-100; and",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(o)",
+        "doc": 0
+      },
+      {
+        "item_id": "ALC .07(2)(p)",
+        "text": "the safety and security precautions that will be employed by the assisted living community to protect residents from harm by other residents, designated proxy caregivers, and other individuals, not employed by the community who routinely come into the community.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-63-.07(2)(p)",
+        "doc": 0
+      },
+      {
+        "item_id": "PCH .07(3)(a)",
+        "text": "The services available in the home, including, personal services, memory care services/centers and any other specialized services such as designated proxy caregivers.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(a)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(b)",
+        "text": "Admissions, discharges and immediate transfers which ensure that the home does not admit or retain residents who need more care than the home is authorized or capable of providing.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(b)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(c)",
+        "text": "Refunds when a resident is transferred or discharged.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(c)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(d)",
+        "text": "Training and ongoing evaluation of staff, including specialized training if designated proxy caregivers are provided or memory care is offered.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(d)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(e)",
+        "text": "House rules and their enforcement.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(e)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(f)",
+        "text": "Protecting the rights of the residents as set forth in these rules;",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(f)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(g)",
+        "text": "Medication management, procurement and the professional oversight provided for such services.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(g)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(h)",
+        "text": "Health and hygiene issues for residents and staff relating to infection control, work policies and return to work policies, food borne illnesses and reportable diseases.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(h)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(i)",
+        "text": "The investigation and reporting of abuse, neglect, exploitation of residents, residents' wandering away from the community, accidents, injuries and changes in residents' conditions to required parties.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(i)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(j)",
+        "text": "Discipline procedures for handling conduct which is inconsistent with the policies of the home committed by staff.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(j)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(k)",
+        "text": "Emergency preparedness, drills and evacuation requirements.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(k)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(l)",
+        "text": "Quality assurance and peer review mechanisms to determine opportunities for improving care utilizing information acquired from reports and investigations of serious incidents, including resident and family feedback.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(l)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(m)",
+        "text": "The use of volunteers, who have unsupervised access to the residents and their orientation regarding resident's rights and basic safety precautions.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(m)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(n)",
+        "text": "The specific use of proxy caregivers allowed within the home and the oversight of proxy caregivers the home requires or provides in accordance with Georgia law, these rules and the rules for proxy caregivers, Chapter 111-8-100.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(n)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(o)",
+        "text": "The safety and security precautions that will be employed by the home to protect residents from harm by other residents, designated proxy caregivers and other individuals, not employed by the home who routinely come into the home.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(o)",
+        "doc": 1
+      },
+      {
+        "item_id": "PCH .07(3)(p)",
+        "text": "The staffing plan which takes into account the specific needs of the residents and also includes arrangements for staffing in the absence of regularly scheduled staff.",
+        "cite": "Ga. Comp. R. & Regs. 111-8-62-.07(3)(p)",
+        "doc": 1
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "ALC: Rule 111-8-63-.07(2), policies and procedures (a) through (p), in the rule's order",
+        "PCH: Rule 111-8-62-.07(3), policies and procedures (a) through (p), in the rule's order"
+      ]
+    },
+    "notes": "No single DCH policy-review form exists for Georgia ALCs or PCHs, so the rule sections above are used instead. The rule lists the topics only as lettered paragraphs with no headings, so use the lettered items as the manual's categories. Section names are not invented. Use the ALC list for 25+ beds (Ch. 111-8-63) and the PCH list for 2–24 beds (Ch. 111-8-62). The two lists differ in order and wording: the ALC list adds the certified medication aide reference in (h) and orders its staffing-ratio item as (b), while the PCH list puts the staffing plan last as (p). Both rules say the lists are a 'minimum', so they are not exhaustive. Other sections of Chapters 111-8-62 and 111-8-63 contain further written-policy or program requirements, such as resident rights, memory care and staff training. I did not read those sections in this pass, so I did not list them. Check them before finalizing a manual. Submission and review: the HFRD checklists do not ask for the policies manual to be uploaded in the GAHLES portal. Their 'Initial' items are application paperwork only (14 for PCH, 15 for ALC). Instead, the applicant signs a notarized Affidavit of Compliance for the applicable chapter (111-8-63 or 111-8-62). It attests that the policies and procedures have been developed and will be implemented immediately once licensed. DCH says licensed facilities face unannounced periodic inspections where the policies must be 'readily available' for review for sufficiency and compliance. Deficient policies may bring sanctions under Ga. Comp. R. & Regs. 111-8-25. The checklists also say all policies and procedures must be established and readily available upon request. The manual should therefore be organized item by item so each lettered paragraph can be found quickly during a survey. Fetched 10/14/2026. The checklist pages carry no revision dates, so re-check the DCH page before relying on them. The fetched PCH rule text was cut off partway through .08, which does not affect .07(3)."
+  },
+  "plan_version": 2
 }

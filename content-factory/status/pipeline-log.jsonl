@@ -760,3 +760,426 @@
 {"t": "2026-10-14T20:21:07Z", "slug": "california-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0652, "stop": "end_turn"}
 {"t": "2026-10-14T20:21:10Z", "stage": "manual", "slug": "california-assisted-living-facilities-complete-bundle", "status": "done", "usd": 8.0733, "policies": 55, "citations": 31, "unresolved": 0}
 {"t": "2026-10-14T20:21:10Z", "stage": "manuals:end", "spent_total": 136.9936}
+{"t": "2026-10-14T20:23:01Z", "stage": "manuals:start", "bundles": ["california-personal-home-care-complete-bundle", "california-residential-care-dd-complete-bundle", "florida-assisted-living-facilities-complete-bundle", "florida-personal-home-care-complete-bundle", "florida-residential-care-dd-complete-bundle", "georgia-assisted-living-facilities-complete-bundle", "georgia-personal-home-care-complete-bundle", "georgia-residential-care-dd-complete-bundle", "illinois-assisted-living-facilities-complete-bundle", "illinois-personal-home-care-complete-bundle", "illinois-residential-care-dd-complete-bundle", "maryland-assisted-living-facilities-complete-bundle", "maryland-personal-home-care-complete-bundle", "new-jersey-assisted-living-facilities-complete-bundle", "new-jersey-personal-home-care-complete-bundle", "new-jersey-residential-care-dd-complete-bundle", "new-york-assisted-living-facilities-complete-bundle", "new-york-personal-home-care-complete-bundle", "new-york-residential-care-dd-complete-bundle", "north-carolina-assisted-living-facilities-complete-bundle", "north-carolina-personal-home-care-complete-bundle", "north-carolina-residential-care-dd-complete-bundle", "ohio-assisted-living-facilities-complete-bundle", "ohio-personal-home-care-complete-bundle", "ohio-residential-care-dd-complete-bundle", "pennsylvania-assisted-living-facilities-complete-bundle", "pennsylvania-personal-home-care-complete-bundle", "pennsylvania-residential-care-dd-complete-bundle", "texas-assisted-living-facilities-complete-bundle", "texas-personal-home-care-complete-bundle", "texas-residential-care-dd-complete-bundle", "virginia-assisted-living-facilities-complete-bundle", "virginia-personal-home-care-complete-bundle", "virginia-residential-care-dd-complete-bundle"], "spent_so_far": 136.9936}
+{"t": "2026-10-14T20:23:05Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.0197, "stop": "tool_use"}
+{"t": "2026-10-14T20:23:05Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M0:official", "retry": "bad JSON: no JSON in response"}
+{"t": "2026-10-14T20:23:06Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.0353, "stop": "tool_use"}
+{"t": "2026-10-14T20:23:06Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M0:official", "retry": "bad JSON: no JSON in response"}
+{"t": "2026-10-14T20:23:08Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M0:official:retry", "model": "claude-sonnet-5-5", "usd": 0.025, "stop": "tool_use"}
+{"t": "2026-10-14T20:23:08Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M0:official", "fallback": "no JSON in response"}
+{"t": "2026-10-14T20:23:25Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M0:official-offline", "model": "claude-sonnet-5-5", "usd": 0.0521, "stop": "end_turn"}
+{"t": "2026-10-14T20:23:29Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.3249, "stop": "end_turn"}
+{"t": "2026-10-14T20:24:05Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M0:official:retry", "model": "claude-sonnet-5-5", "usd": 0.2879, "stop": "end_turn"}
+{"t": "2026-10-14T20:24:16Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.2935, "stop": "end_turn"}
+{"t": "2026-10-14T20:25:16Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2284, "stop": "end_turn"}
+{"t": "2026-10-14T20:25:33Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2713, "stop": "end_turn"}
+{"t": "2026-10-14T20:25:53Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2489, "stop": "end_turn"}
+{"t": "2026-10-14T20:26:52Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3368, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:00Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1703, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:12Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1867, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:18Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2043, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:21Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1765, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:21Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1765, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:22Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1511, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:42Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1722, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:44Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.178, "stop": "end_turn"}
+{"t": "2026-10-14T20:27:46Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2253, "stop": "end_turn"}
+{"t": "2026-10-14T20:28:40Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1477, "stop": "end_turn"}
+{"t": "2026-10-14T20:28:45Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1854, "stop": "end_turn"}
+{"t": "2026-10-14T20:28:46Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1925, "stop": "end_turn"}
+{"t": "2026-10-14T20:28:50Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1638, "stop": "end_turn"}
+{"t": "2026-10-14T20:28:55Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.195, "stop": "end_turn"}
+{"t": "2026-10-14T20:29:01Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1412, "stop": "end_turn"}
+{"t": "2026-10-14T20:29:16Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1709, "stop": "end_turn"}
+{"t": "2026-10-14T20:29:20Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1907, "stop": "end_turn"}
+{"t": "2026-10-14T20:29:24Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1888, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:03Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2211, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:07Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2131, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:20Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2324, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:23Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1464, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:31Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1722, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:32Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1726, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:39Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1902, "stop": "end_turn"}
+{"t": "2026-10-14T20:30:47Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.189, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:07Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0699, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:08Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1735, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:12Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1727, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:13Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2047, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:14Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1825, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:45Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1383, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:46Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0559, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:55Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.17, "stop": "end_turn"}
+{"t": "2026-10-14T20:31:56Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1761, "stop": "end_turn"}
+{"t": "2026-10-14T20:32:06Z", "slug": "california-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0914, "stop": "end_turn"}
+{"t": "2026-10-14T20:32:11Z", "stage": "manual", "slug": "california-personal-home-care-complete-bundle", "status": "done", "usd": 4.2772, "policies": 55, "citations": 28, "unresolved": 0}
+{"t": "2026-10-14T20:32:18Z", "slug": "california-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.068, "stop": "end_turn"}
+{"t": "2026-10-14T20:32:21Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1801, "stop": "end_turn"}
+{"t": "2026-10-14T20:32:21Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1683, "stop": "end_turn"}
+{"t": "2026-10-14T20:32:23Z", "stage": "manual", "slug": "california-residential-care-dd-complete-bundle", "status": "done", "usd": 3.0182, "policies": 52, "citations": 34, "unresolved": 0}
+{"t": "2026-10-14T20:32:31Z", "slug": "florida-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0774, "stop": "end_turn"}
+{"t": "2026-10-14T20:32:36Z", "stage": "manual", "slug": "florida-assisted-living-facilities-complete-bundle", "status": "done", "usd": 4.9349, "policies": 55, "citations": 35, "unresolved": 0}
+{"t": "2026-10-14T20:32:41Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1936, "stop": "end_turn"}
+{"t": "2026-10-14T20:33:11Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.2843, "stop": "end_turn"}
+{"t": "2026-10-14T20:33:19Z", "slug": "florida-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0826, "stop": "end_turn"}
+{"t": "2026-10-14T20:33:24Z", "stage": "manual", "slug": "florida-personal-home-care-complete-bundle", "status": "done", "usd": 5.5981, "policies": 54, "citations": 30, "unresolved": 0}
+{"t": "2026-10-14T20:34:23Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.5141, "stop": "end_turn"}
+{"t": "2026-10-14T20:34:29Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.4779, "stop": "end_turn"}
+{"t": "2026-10-14T20:35:11Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 1.4719, "stop": "end_turn"}
+{"t": "2026-10-14T20:36:37Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3136, "stop": "end_turn"}
+{"t": "2026-10-14T20:36:53Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.4316, "stop": "end_turn"}
+{"t": "2026-10-14T20:37:04Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3611, "stop": "end_turn"}
+{"t": "2026-10-14T20:37:17Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2862, "stop": "end_turn"}
+{"t": "2026-10-14T20:38:09Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1618, "stop": "end_turn"}
+{"t": "2026-10-14T20:38:13Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1679, "stop": "end_turn"}
+{"t": "2026-10-14T20:38:29Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1869, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:00Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1659, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:02Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1947, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:06Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1967, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:09Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1948, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:10Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2241, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:12Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2323, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:14Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2116, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:19Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1954, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:32Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2639, "stop": "end_turn"}
+{"t": "2026-10-14T20:39:57Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1806, "stop": "end_turn"}
+{"t": "2026-10-14T20:40:01Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1755, "stop": "end_turn"}
+{"t": "2026-10-14T20:40:15Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1683, "stop": "end_turn"}
+{"t": "2026-10-14T20:40:43Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1653, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:02Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1874, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:05Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1923, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:15Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1976, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:20Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2189, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:26Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1828, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:27Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2137, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:34Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1572, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:37Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1655, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:40Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.229, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:44Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2391, "stop": "end_turn"}
+{"t": "2026-10-14T20:41:57Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1692, "stop": "end_turn"}
+{"t": "2026-10-14T20:42:07Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0557, "stop": "end_turn"}
+{"t": "2026-10-14T20:42:23Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1644, "stop": "end_turn"}
+{"t": "2026-10-14T20:42:42Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1328, "stop": "end_turn"}
+{"t": "2026-10-14T20:42:48Z", "slug": "georgia-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0895, "stop": "end_turn"}
+{"t": "2026-10-14T20:42:54Z", "stage": "manual", "slug": "georgia-personal-home-care-complete-bundle", "status": "done", "usd": 7.3835, "policies": 55, "citations": 35, "unresolved": 0}
+{"t": "2026-10-14T20:42:59Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1934, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:07Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1987, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:13Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1783, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:25Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2088, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:36Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2021, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:36Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1909, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:42Z", "slug": "florida-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0758, "stop": "end_turn"}
+{"t": "2026-10-14T20:43:47Z", "stage": "manual", "slug": "florida-residential-care-dd-complete-bundle", "status": "done", "usd": 7.0497, "policies": 51, "citations": 27, "unresolved": 0}
+{"t": "2026-10-14T20:44:04Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2187, "stop": "end_turn"}
+{"t": "2026-10-14T20:44:11Z", "slug": "georgia-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0887, "stop": "end_turn"}
+{"t": "2026-10-14T20:44:16Z", "stage": "manual", "slug": "georgia-assisted-living-facilities-complete-bundle", "status": "done", "usd": 14.0382, "policies": 54, "citations": 36, "unresolved": 0}
+{"t": "2026-10-14T20:44:26Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.4369, "stop": "end_turn"}
+{"t": "2026-10-14T20:44:47Z", "slug": "georgia-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0989, "stop": "end_turn"}
+{"t": "2026-10-14T20:44:52Z", "stage": "manual", "slug": "georgia-residential-care-dd-complete-bundle", "status": "done", "usd": 10.0973, "policies": 54, "citations": 37, "unresolved": 0}
+{"t": "2026-10-14T20:45:00Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.4926, "stop": "end_turn"}
+{"t": "2026-10-14T20:45:29Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.1799, "stop": "end_turn"}
+{"t": "2026-10-14T20:45:34Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.3789, "stop": "end_turn"}
+{"t": "2026-10-14T20:46:50Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2604, "stop": "end_turn"}
+{"t": "2026-10-14T20:46:53Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3294, "stop": "end_turn"}
+{"t": "2026-10-14T20:48:11Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3297, "stop": "end_turn"}
+{"t": "2026-10-14T20:48:25Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1638, "stop": "end_turn"}
+{"t": "2026-10-14T20:48:27Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3736, "stop": "end_turn"}
+{"t": "2026-10-14T20:48:38Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1783, "stop": "end_turn"}
+{"t": "2026-10-14T20:48:43Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1762, "stop": "end_turn"}
+{"t": "2026-10-14T20:48:55Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1998, "stop": "end_turn"}
+{"t": "2026-10-14T20:49:02Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2078, "stop": "end_turn"}
+{"t": "2026-10-14T20:49:14Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2402, "stop": "end_turn"}
+{"t": "2026-10-14T20:49:51Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1709, "stop": "end_turn"}
+{"t": "2026-10-14T20:49:52Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1574, "stop": "end_turn"}
+{"t": "2026-10-14T20:49:59Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1534, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:03Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1643, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:12Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1977, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:37Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1819, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:38Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1856, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:39Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2192, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:40Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.22, "stop": "end_turn"}
+{"t": "2026-10-14T20:50:53Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1894, "stop": "end_turn"}
+{"t": "2026-10-14T20:51:03Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1751, "stop": "end_turn"}
+{"t": "2026-10-14T20:51:15Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2079, "stop": "end_turn"}
+{"t": "2026-10-14T20:51:28Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1505, "stop": "end_turn"}
+{"t": "2026-10-14T20:51:37Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1719, "stop": "end_turn"}
+{"t": "2026-10-14T20:51:46Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1923, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:10Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1828, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:15Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2214, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:24Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1725, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:40Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1851, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:41Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1495, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:48Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2058, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:53Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2139, "stop": "end_turn"}
+{"t": "2026-10-14T20:52:53Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1917, "stop": "end_turn"}
+{"t": "2026-10-14T20:53:07Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1636, "stop": "end_turn"}
+{"t": "2026-10-14T20:53:24Z", "slug": "illinois-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0615, "stop": "end_turn"}
+{"t": "2026-10-14T20:53:29Z", "stage": "manual", "slug": "illinois-assisted-living-facilities-complete-bundle", "status": "done", "usd": 11.3, "policies": 53, "citations": 16, "unresolved": 0}
+{"t": "2026-10-14T20:53:33Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1551, "stop": "end_turn"}
+{"t": "2026-10-14T20:53:45Z", "slug": "illinois-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.085, "stop": "end_turn"}
+{"t": "2026-10-14T20:53:47Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2012, "stop": "end_turn"}
+{"t": "2026-10-14T20:53:50Z", "stage": "manual", "slug": "illinois-personal-home-care-complete-bundle", "status": "done", "usd": 8.3775, "policies": 54, "citations": 40, "unresolved": 0}
+{"t": "2026-10-14T20:54:03Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1689, "stop": "end_turn"}
+{"t": "2026-10-14T20:54:05Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.1955, "stop": "end_turn"}
+{"t": "2026-10-14T20:54:08Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0597, "stop": "end_turn"}
+{"t": "2026-10-14T20:54:19Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1972, "stop": "end_turn"}
+{"t": "2026-10-14T20:54:45Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1845, "stop": "end_turn"}
+{"t": "2026-10-14T20:54:49Z", "slug": "maryland-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0919, "stop": "end_turn"}
+{"t": "2026-10-14T20:54:54Z", "stage": "manual", "slug": "maryland-assisted-living-facilities-complete-bundle", "status": "done", "usd": 4.6508, "policies": 55, "citations": 50, "unresolved": 0}
+{"t": "2026-10-14T20:54:59Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0625, "stop": "end_turn"}
+{"t": "2026-10-14T20:55:03Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.211, "stop": "end_turn"}
+{"t": "2026-10-14T20:55:31Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.9422, "stop": "end_turn"}
+{"t": "2026-10-14T20:55:43Z", "slug": "illinois-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.086, "stop": "end_turn"}
+{"t": "2026-10-14T20:55:48Z", "stage": "manual", "slug": "illinois-residential-care-dd-complete-bundle", "status": "done", "usd": 7.5334, "policies": 55, "citations": 34, "unresolved": 0}
+{"t": "2026-10-14T20:55:52Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2479, "stop": "end_turn"}
+{"t": "2026-10-14T20:56:17Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.2949, "stop": "end_turn"}
+{"t": "2026-10-14T20:56:36Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.1872, "stop": "end_turn"}
+{"t": "2026-10-14T20:57:26Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1574, "stop": "end_turn"}
+{"t": "2026-10-14T20:57:48Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1907, "stop": "end_turn"}
+{"t": "2026-10-14T20:57:57Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2064, "stop": "end_turn"}
+{"t": "2026-10-14T20:58:15Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2812, "stop": "end_turn"}
+{"t": "2026-10-14T20:58:15Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3572, "stop": "end_turn"}
+{"t": "2026-10-14T20:58:30Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2716, "stop": "end_turn"}
+{"t": "2026-10-14T20:58:58Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1489, "stop": "end_turn"}
+{"t": "2026-10-14T20:59:42Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1842, "stop": "end_turn"}
+{"t": "2026-10-14T20:59:54Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.191, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:04Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1887, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:07Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2023, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:09Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1976, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:15Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1962, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:20Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1883, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:32Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1972, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:34Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2268, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:41Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2044, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:42Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2373, "stop": "end_turn"}
+{"t": "2026-10-14T21:00:58Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1944, "stop": "end_turn"}
+{"t": "2026-10-14T21:01:29Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1683, "stop": "end_turn"}
+{"t": "2026-10-14T21:01:34Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0634, "stop": "end_turn"}
+{"t": "2026-10-14T21:01:41Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1552, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:00Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1851, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:07Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1825, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:11Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2099, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:19Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1682, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:21Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1865, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:22Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.234, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:32Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1855, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:42Z", "slug": "maryland-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0727, "stop": "end_turn"}
+{"t": "2026-10-14T21:02:47Z", "stage": "manual", "slug": "maryland-personal-home-care-complete-bundle", "status": "done", "usd": 4.3653, "policies": 55, "citations": 35, "unresolved": 0}
+{"t": "2026-10-14T21:03:00Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2149, "stop": "end_turn"}
+{"t": "2026-10-14T21:03:03Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2249, "stop": "end_turn"}
+{"t": "2026-10-14T21:03:27Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.1443, "stop": "end_turn"}
+{"t": "2026-10-14T21:03:36Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1849, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:06Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1841, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:19Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.191, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:19Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2157, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:23Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1965, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:34Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1878, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:49Z", "slug": "new-jersey-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0669, "stop": "end_turn"}
+{"t": "2026-10-14T21:04:54Z", "stage": "manual", "slug": "new-jersey-personal-home-care-complete-bundle", "status": "done", "usd": 6.8271, "policies": 54, "citations": 23, "unresolved": 0}
+{"t": "2026-10-14T21:04:59Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1908, "stop": "end_turn"}
+{"t": "2026-10-14T21:05:12Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2028, "stop": "end_turn"}
+{"t": "2026-10-14T21:05:34Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2822, "stop": "end_turn"}
+{"t": "2026-10-14T21:05:36Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0632, "stop": "end_turn"}
+{"t": "2026-10-14T21:05:50Z", "slug": "new-jersey-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0841, "stop": "end_turn"}
+{"t": "2026-10-14T21:05:55Z", "stage": "manual", "slug": "new-jersey-residential-care-dd-complete-bundle", "status": "done", "usd": 7.9592, "policies": 54, "citations": 26, "unresolved": 0}
+{"t": "2026-10-14T21:06:14Z", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0953, "stop": "end_turn"}
+{"t": "2026-10-14T21:06:20Z", "stage": "manual", "slug": "new-jersey-assisted-living-facilities-complete-bundle", "status": "done", "usd": 7.5332, "policies": 55, "citations": 48, "unresolved": 0}
+{"t": "2026-10-14T21:06:39Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3815, "stop": "end_turn"}
+{"t": "2026-10-14T21:06:57Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.3588, "stop": "end_turn"}
+{"t": "2026-10-14T21:07:12Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.7189, "stop": "max_tokens"}
+{"t": "2026-10-14T21:07:39Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.3637, "stop": "end_turn"}
+{"t": "2026-10-14T21:08:14Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1682, "stop": "end_turn"}
+{"t": "2026-10-14T21:08:23Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1705, "stop": "end_turn"}
+{"t": "2026-10-14T21:08:36Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1864, "stop": "end_turn"}
+{"t": "2026-10-14T21:09:31Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3307, "stop": "end_turn"}
+{"t": "2026-10-14T21:09:34Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3547, "stop": "end_turn"}
+{"t": "2026-10-14T21:10:12Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.6735, "stop": "end_turn"}
+{"t": "2026-10-14T21:10:12Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1903, "stop": "end_turn"}
+{"t": "2026-10-14T21:10:18Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1828, "stop": "end_turn"}
+{"t": "2026-10-14T21:10:47Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2049, "stop": "end_turn"}
+{"t": "2026-10-14T21:11:41Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2241, "stop": "end_turn"}
+{"t": "2026-10-14T21:11:44Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2203, "stop": "end_turn"}
+{"t": "2026-10-14T21:11:48Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2249, "stop": "end_turn"}
+{"t": "2026-10-14T21:11:53Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2201, "stop": "end_turn"}
+{"t": "2026-10-14T21:12:01Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1582, "stop": "end_turn"}
+{"t": "2026-10-14T21:12:03Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1697, "stop": "end_turn"}
+{"t": "2026-10-14T21:12:08Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.25, "stop": "end_turn"}
+{"t": "2026-10-14T21:12:12Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.254, "stop": "end_turn"}
+{"t": "2026-10-14T21:12:38Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1733, "stop": "end_turn"}
+{"t": "2026-10-14T21:12:57Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3549, "stop": "end_turn"}
+{"t": "2026-10-14T21:13:16Z", "slug": "new-york-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0776, "stop": "end_turn"}
+{"t": "2026-10-14T21:13:21Z", "stage": "manual", "slug": "new-york-assisted-living-facilities-complete-bundle", "status": "done", "usd": 4.5007, "policies": 53, "citations": 29, "unresolved": 0}
+{"t": "2026-10-14T21:13:29Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1932, "stop": "end_turn"}
+{"t": "2026-10-14T21:13:41Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1882, "stop": "end_turn"}
+{"t": "2026-10-14T21:14:00Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.1636, "stop": "end_turn"}
+{"t": "2026-10-14T21:14:14Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2299, "stop": "end_turn"}
+{"t": "2026-10-14T21:14:21Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2147, "stop": "end_turn"}
+{"t": "2026-10-14T21:14:29Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2501, "stop": "end_turn"}
+{"t": "2026-10-14T21:14:30Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2266, "stop": "end_turn"}
+{"t": "2026-10-14T21:15:09Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2032, "stop": "end_turn"}
+{"t": "2026-10-14T21:15:30Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.238, "stop": "end_turn"}
+{"t": "2026-10-14T21:15:31Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2349, "stop": "end_turn"}
+{"t": "2026-10-14T21:15:47Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2176, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:07Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 1.0189, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:14Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2484, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:17Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.197, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:20Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1956, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:23Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1907, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:45Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2069, "stop": "end_turn"}
+{"t": "2026-10-14T21:16:57Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0669, "stop": "end_turn"}
+{"t": "2026-10-14T21:17:00Z", "slug": "new-york-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0774, "stop": "end_turn"}
+{"t": "2026-10-14T21:17:05Z", "stage": "manual", "slug": "new-york-personal-home-care-complete-bundle", "status": "done", "usd": 5.4185, "policies": 54, "citations": 31, "unresolved": 0}
+{"t": "2026-10-14T21:17:06Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1643, "stop": "end_turn"}
+{"t": "2026-10-14T21:17:20Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.21, "stop": "end_turn"}
+{"t": "2026-10-14T21:17:42Z", "slug": "new-york-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0991, "stop": "end_turn"}
+{"t": "2026-10-14T21:17:44Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1985, "stop": "end_turn"}
+{"t": "2026-10-14T21:17:48Z", "stage": "manual", "slug": "new-york-residential-care-dd-complete-bundle", "status": "done", "usd": 10.2891, "policies": 55, "citations": 40, "unresolved": 0}
+{"t": "2026-10-14T21:18:09Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2858, "stop": "end_turn"}
+{"t": "2026-10-14T21:18:56Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1801, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:06Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1651, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:10Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.3376, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:11Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 1.1006, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:28Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1647, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:32Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0661, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:48Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1682, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:57Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1672, "stop": "end_turn"}
+{"t": "2026-10-14T21:19:59Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1801, "stop": "end_turn"}
+{"t": "2026-10-14T21:20:12Z", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0922, "stop": "end_turn"}
+{"t": "2026-10-14T21:20:17Z", "stage": "manual", "slug": "north-carolina-assisted-living-facilities-complete-bundle", "status": "done", "usd": 6.1655, "policies": 55, "citations": 47, "unresolved": 0}
+{"t": "2026-10-14T21:20:49Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.5241, "stop": "end_turn"}
+{"t": "2026-10-14T21:21:08Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.1838, "stop": "end_turn"}
+{"t": "2026-10-14T21:21:37Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1656, "stop": "end_turn"}
+{"t": "2026-10-14T21:21:52Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2009, "stop": "end_turn"}
+{"t": "2026-10-14T21:21:52Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1733, "stop": "end_turn"}
+{"t": "2026-10-14T21:22:00Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 3.8258, "stop": "end_turn"}
+{"t": "2026-10-14T21:22:30Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.4526, "stop": "end_turn"}
+{"t": "2026-10-14T21:23:19Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3336, "stop": "end_turn"}
+{"t": "2026-10-14T21:23:24Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1726, "stop": "end_turn"}
+{"t": "2026-10-14T21:23:34Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1671, "stop": "end_turn"}
+{"t": "2026-10-14T21:23:57Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.196, "stop": "end_turn"}
+{"t": "2026-10-14T21:24:31Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2699, "stop": "end_turn"}
+{"t": "2026-10-14T21:24:45Z", "slug": "north-carolina-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.1072, "stop": "max_tokens"}
+{"t": "2026-10-14T21:24:50Z", "stage": "manual", "slug": "north-carolina-personal-home-care-complete-bundle", "status": "done", "usd": 5.6698, "policies": 54, "citations": 52, "unresolved": 0}
+{"t": "2026-10-14T21:24:53Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1573, "stop": "end_turn"}
+{"t": "2026-10-14T21:25:16Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1842, "stop": "end_turn"}
+{"t": "2026-10-14T21:25:22Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1959, "stop": "end_turn"}
+{"t": "2026-10-14T21:26:09Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1579, "stop": "end_turn"}
+{"t": "2026-10-14T21:26:12Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.162, "stop": "end_turn"}
+{"t": "2026-10-14T21:26:19Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.3442, "stop": "end_turn"}
+{"t": "2026-10-14T21:26:20Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1705, "stop": "end_turn"}
+{"t": "2026-10-14T21:26:22Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.5018, "stop": "max_tokens"}
+{"t": "2026-10-14T21:26:40Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1745, "stop": "end_turn"}
+{"t": "2026-10-14T21:27:41Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2321, "stop": "end_turn"}
+{"t": "2026-10-14T21:27:44Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1539, "stop": "end_turn"}
+{"t": "2026-10-14T21:27:47Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.4843, "stop": "end_turn"}
+{"t": "2026-10-14T21:27:52Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2218, "stop": "end_turn"}
+{"t": "2026-10-14T21:27:55Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1671, "stop": "end_turn"}
+{"t": "2026-10-14T21:28:03Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1626, "stop": "end_turn"}
+{"t": "2026-10-14T21:28:04Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1769, "stop": "end_turn"}
+{"t": "2026-10-14T21:28:08Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.174, "stop": "end_turn"}
+{"t": "2026-10-14T21:28:14Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1871, "stop": "end_turn"}
+{"t": "2026-10-14T21:28:43Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2001, "stop": "end_turn"}
+{"t": "2026-10-14T21:29:09Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1442, "stop": "end_turn"}
+{"t": "2026-10-14T21:29:28Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1463, "stop": "end_turn"}
+{"t": "2026-10-14T21:29:44Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1638, "stop": "end_turn"}
+{"t": "2026-10-14T21:29:45Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1923, "stop": "end_turn"}
+{"t": "2026-10-14T21:29:46Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1858, "stop": "end_turn"}
+{"t": "2026-10-14T21:29:46Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M3:flagged", "count": 1}
+{"t": "2026-10-14T21:29:57Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1798, "stop": "end_turn"}
+{"t": "2026-10-14T21:30:21Z", "slug": "ohio-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.079, "stop": "end_turn"}
+{"t": "2026-10-14T21:30:25Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0652, "stop": "end_turn"}
+{"t": "2026-10-14T21:30:25Z", "stage": "manual", "slug": "ohio-personal-home-care-complete-bundle", "status": "done", "usd": 4.7864, "policies": 54, "citations": 42, "unresolved": 0}
+{"t": "2026-10-14T21:30:33Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2321, "stop": "end_turn"}
+{"t": "2026-10-14T21:30:41Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2364, "stop": "end_turn"}
+{"t": "2026-10-14T21:31:00Z", "slug": "ohio-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0835, "stop": "end_turn"}
+{"t": "2026-10-14T21:31:05Z", "stage": "manual", "slug": "ohio-assisted-living-facilities-complete-bundle", "status": "done", "usd": 5.7545, "policies": 54, "citations": 51, "unresolved": 0}
+{"t": "2026-10-14T21:31:19Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.2506, "stop": "end_turn"}
+{"t": "2026-10-14T21:31:20Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0655, "stop": "end_turn"}
+{"t": "2026-10-14T21:31:42Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.474, "stop": "end_turn"}
+{"t": "2026-10-14T21:32:11Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2121, "stop": "end_turn"}
+{"t": "2026-10-14T21:32:13Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1741, "stop": "end_turn"}
+{"t": "2026-10-14T21:32:28Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 2.4464, "stop": "end_turn"}
+{"t": "2026-10-14T21:33:06Z", "slug": "north-carolina-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.1069, "stop": "max_tokens"}
+{"t": "2026-10-14T21:33:11Z", "stage": "manual", "slug": "north-carolina-residential-care-dd-complete-bundle", "status": "done", "usd": 10.2517, "policies": 49, "citations": 48, "unresolved": 0}
+{"t": "2026-10-14T21:33:24Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1693, "stop": "end_turn"}
+{"t": "2026-10-14T21:33:26Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 2.6098, "stop": "end_turn"}
+{"t": "2026-10-14T21:33:28Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1742, "stop": "end_turn"}
+{"t": "2026-10-14T21:33:45Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.193, "stop": "end_turn"}
+{"t": "2026-10-14T21:34:56Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.9291, "stop": "end_turn"}
+{"t": "2026-10-14T21:35:10Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1771, "stop": "end_turn"}
+{"t": "2026-10-14T21:35:13Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 1.8771, "stop": "end_turn"}
+{"t": "2026-10-14T21:35:19Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1842, "stop": "end_turn"}
+{"t": "2026-10-14T21:35:40Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1856, "stop": "end_turn"}
+{"t": "2026-10-14T21:35:56Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3346, "stop": "end_turn"}
+{"t": "2026-10-14T21:36:41Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.5733, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:12Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2998, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:16Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1854, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:22Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2191, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:30Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1776, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:43Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1728, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:51Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1913, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:56Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0649, "stop": "end_turn"}
+{"t": "2026-10-14T21:37:59Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1951, "stop": "end_turn"}
+{"t": "2026-10-14T21:38:29Z", "slug": "ohio-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0799, "stop": "end_turn"}
+{"t": "2026-10-14T21:38:35Z", "stage": "manual", "slug": "ohio-residential-care-dd-complete-bundle", "status": "done", "usd": 6.0483, "policies": 55, "citations": 52, "unresolved": 0}
+{"t": "2026-10-14T21:38:36Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.149, "stop": "end_turn"}
+{"t": "2026-10-14T21:38:40Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2749, "stop": "end_turn"}
+{"t": "2026-10-14T21:38:46Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1664, "stop": "end_turn"}
+{"t": "2026-10-14T21:39:10Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1893, "stop": "end_turn"}
+{"t": "2026-10-14T21:39:32Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1561, "stop": "end_turn"}
+{"t": "2026-10-14T21:39:51Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1956, "stop": "end_turn"}
+{"t": "2026-10-14T21:39:57Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2109, "stop": "end_turn"}
+{"t": "2026-10-14T21:40:14Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1573, "stop": "end_turn"}
+{"t": "2026-10-14T21:40:24Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1544, "stop": "end_turn"}
+{"t": "2026-10-14T21:40:27Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1832, "stop": "end_turn"}
+{"t": "2026-10-14T21:40:27Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1638, "stop": "end_turn"}
+{"t": "2026-10-14T21:40:43Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1924, "stop": "end_turn"}
+{"t": "2026-10-14T21:40:57Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1724, "stop": "end_turn"}
+{"t": "2026-10-14T21:41:08Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1606, "stop": "end_turn"}
+{"t": "2026-10-14T21:41:40Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1376, "stop": "end_turn"}
+{"t": "2026-10-14T21:41:42Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0596, "stop": "end_turn"}
+{"t": "2026-10-14T21:41:49Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1918, "stop": "end_turn"}
+{"t": "2026-10-14T21:41:50Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 2.591, "stop": "end_turn"}
+{"t": "2026-10-14T21:41:56Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.194, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:06Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1571, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:13Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1774, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:19Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1514, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:29Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1917, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:45Z", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.1116, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:45Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1704, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:50Z", "stage": "manual", "slug": "pennsylvania-assisted-living-facilities-complete-bundle", "status": "done", "usd": 8.6326, "policies": 55, "citations": 64, "unresolved": 0}
+{"t": "2026-10-14T21:42:53Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0635, "stop": "end_turn"}
+{"t": "2026-10-14T21:42:53Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M3:flagged", "count": 1}
+{"t": "2026-10-14T21:43:21Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0487, "stop": "end_turn"}
+{"t": "2026-10-14T21:43:27Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1675, "stop": "end_turn"}
+{"t": "2026-10-14T21:43:56Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1581, "stop": "end_turn"}
+{"t": "2026-10-14T21:43:57Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.0506, "stop": "end_turn"}
+{"t": "2026-10-14T21:43:57Z", "slug": "pennsylvania-personal-home-care-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0849, "stop": "end_turn"}
+{"t": "2026-10-14T21:44:02Z", "stage": "manual", "slug": "pennsylvania-personal-home-care-complete-bundle", "status": "done", "usd": 7.7209, "policies": 55, "citations": 50, "unresolved": 0}
+{"t": "2026-10-14T21:44:05Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.0094, "stop": "tool_use"}
+{"t": "2026-10-14T21:44:05Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M0:official", "retry": "bad JSON: no JSON in response"}
+{"t": "2026-10-14T21:44:08Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M0:official:retry", "model": "claude-sonnet-5-5", "usd": 0.0098, "stop": "tool_use"}
+{"t": "2026-10-14T21:44:08Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M0:official", "fallback": "no JSON in response"}
+{"t": "2026-10-14T21:44:11Z", "slug": "texas-personal-home-care-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 0.4459, "stop": "end_turn"}
+{"t": "2026-10-14T21:44:25Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M0:official-offline", "model": "claude-sonnet-5-5", "usd": 0.0308, "stop": "end_turn"}
+{"t": "2026-10-14T21:44:30Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.3562, "stop": "end_turn"}
+{"t": "2026-10-14T21:44:36Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2217, "stop": "end_turn"}
+{"t": "2026-10-14T21:45:17Z", "slug": "pennsylvania-residential-care-dd-complete-bundle", "stage": "M4:front", "model": "claude-sonnet-5-5", "usd": 0.0899, "stop": "end_turn"}
+{"t": "2026-10-14T21:45:22Z", "stage": "manual", "slug": "pennsylvania-residential-care-dd-complete-bundle", "status": "done", "usd": 7.9867, "policies": 55, "citations": 59, "unresolved": 0}
+{"t": "2026-10-14T21:45:40Z", "slug": "texas-personal-home-care-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.5619, "stop": "end_turn"}
+{"t": "2026-10-14T21:46:02Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M1a:citations", "model": "claude-sonnet-5-5", "usd": 0.6212, "stop": "end_turn"}
+{"t": "2026-10-14T21:46:22Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1987, "stop": "end_turn"}
+{"t": "2026-10-14T21:46:25Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1936, "stop": "end_turn"}
+{"t": "2026-10-14T21:46:26Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.1906, "stop": "end_turn"}
+{"t": "2026-10-14T21:47:34Z", "slug": "texas-residential-care-dd-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2144, "stop": "end_turn"}
+{"t": "2026-10-14T21:47:58Z", "slug": "texas-personal-home-care-complete-bundle", "stage": "M1b:plan", "model": "claude-sonnet-5-5", "usd": 0.2989, "stop": "end_turn"}
+{"t": "2026-10-14T21:48:05Z", "slug": "virginia-assisted-living-facilities-complete-bundle", "stage": "M0:official", "model": "claude-sonnet-5-5", "usd": 1.2596, "stop": "end_turn"}
+{"t": "2026-10-14T21:48:17Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.188, "stop": "end_turn"}
+{"t": "2026-10-14T21:48:45Z", "stage": "manual", "slug": "virginia-assisted-living-facilities-complete-bundle", "status": "error: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2s9YoqFUqFi4irYFPfg'}", "trace": "12/site-packages/anthropic/lib/streaming/_messages.py\", line 138, in __stream__\n    for sse_event in self._raw_stream:\n                     ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 65, in __iter__\n    for item in self._iterator:\n                ^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 169, in __stream__\n    raise self._client._make_status_error(\nanthropic.APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2s9YoqFUqFi4irYFPfg'}\n"}
+{"t": "2026-10-14T21:48:45Z", "stage": "manual", "slug": "virginia-personal-home-care-complete-bundle", "status": "error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2sCTcsLPPoYQ2uPXxUd'}", "trace": "^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py\", line 1227, in request\n    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py\", line 1330, in _request\n    raise self._make_status_error_from_response(response) from None\nanthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2sCTcsLPPoYQ2uPXxUd'}\n"}
+{"t": "2026-10-14T21:48:45Z", "stage": "manual", "slug": "virginia-residential-care-dd-complete-bundle", "status": "error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2sCURk4h3abU1hxZQKV'}", "trace": "^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py\", line 1227, in request\n    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_base_client.py\", line 1330, in _request\n    raise self._make_status_error_from_response(response) from None\nanthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2sCURk4h3abU1hxZQKV'}\n"}
+{"t": "2026-10-14T21:48:45Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2191, "stop": "end_turn"}
+{"t": "2026-10-14T21:48:46Z", "slug": "texas-assisted-living-facilities-complete-bundle", "stage": "M2:write", "model": "claude-sonnet-5-5", "usd": 0.2279, "stop": "end_turn"}
+{"t": "2026-10-14T21:48:47Z", "stage": "manual", "slug": "texas-assisted-living-facilities-complete-bundle", "status": "error: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2sAQ7yPviNF99PYXWw5'}", "trace": "12/site-packages/anthropic/lib/streaming/_messages.py\", line 138, in __stream__\n    for sse_event in self._raw_stream:\n                     ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 65, in __iter__\n    for item in self._iterator:\n                ^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 169, in __stream__\n    raise self._client._make_status_error(\nanthropic.APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2sAQ7yPviNF99PYXWw5'}\n"}
+{"t": "2026-10-14T21:48:48Z", "stage": "manual", "slug": "texas-personal-home-care-complete-bundle", "status": "error: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2s8zxRRAtiffwuKRJsZ'}", "trace": "12/site-packages/anthropic/lib/streaming/_messages.py\", line 138, in __stream__\n    for sse_event in self._raw_stream:\n                     ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 65, in __iter__\n    for item in self._iterator:\n                ^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 169, in __stream__\n    raise self._client._make_status_error(\nanthropic.APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2s8zxRRAtiffwuKRJsZ'}\n"}
+{"t": "2026-10-14T21:48:50Z", "stage": "manual", "slug": "texas-residential-care-dd-complete-bundle", "status": "error: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2s7Fq4vtQp1Z5uEmTo5'}", "trace": "12/site-packages/anthropic/lib/streaming/_messages.py\", line 138, in __stream__\n    for sse_event in self._raw_stream:\n                     ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 65, in __iter__\n    for item in self._iterator:\n                ^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/anthropic/_streaming.py\", line 169, in __stream__\n    raise self._client._make_status_error(\nanthropic.APIStatusError: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2s7Fq4vtQp1Z5uEmTo5'}\n"}
+{"t": "2026-10-14T21:48:50Z", "stage": "manuals:end", "spent_total": 230.6542}

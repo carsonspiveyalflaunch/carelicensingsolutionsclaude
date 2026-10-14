@@ -355,761 +355,392 @@
   ],
   "policies": [
     {
-      "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Organization, Governing Body and Director/Manager Responsibilities",
-      "citations": [
-        "C2",
-        "C24",
-        "C16"
+      "id": "APP-01",
+      "category": "Subpart A – General Provisions: § 295.500 Application for License",
+      "title": "IDPH License Application, Standard vs. Floating Licensure, Renewal and Posting",
+      "covers": [
+        "295.500(b)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Illinois statute says 'director'; the rules say 'manager'. Use both terms and keep them consistent.",
-        "The establishment must be under a full-time director who is 21+ with a high school diploma or equivalent plus 2 years of qualifying management or progressive-responsibility experience (health care, housing with services, adult day care or similar services to the elderly). The statute also allows a hospitality-experience-plus-training route, or a college degree in health administration or an approved program completed within 6 months of hire (210 ILCS 9/35(a)(2)).",
-        "The director must complete at least 20 hours of training every 2 years as a licensure condition (210 ILCS 9/35).",
-        "Research states a shared housing manager may oversee up to 3 establishments within 30 minutes' drive and be immediately reachable, and that manager changes are reported to IDPH within 10 working days. Neither was pinpointed. Verify in 295.3010 and Part 295 text before publishing.",
-        "Name a qualified backup so the full-time director requirement is never unmet."
-      ]
-    },
-    {
-      "id": "GOV-02",
-      "category": "Governance and Administration",
-      "title": "Licensure, Posting and Regulatory Compliance",
       "citations": [
         "C9",
-        "C2",
-        "C10",
         "C11",
         "C12",
-        "C4",
+        "C10",
+        "C2",
         "C6"
       ],
       "federal": [],
       "state_specifics": [
-        "No person may establish, operate, maintain or offer an assisted living or shared housing establishment without an IDPH license (210 ILCS 9/25).",
-        "The license is valid for one year, names the physical location, and is issued only for the premises and persons named. It cannot be transferred or assigned (210 ILCS 9/35).",
-        "Renewal application and fee are filed 120-150 days before expiration. A 2-year renewal is discretionary and only if there was no Type 1 or Type 2 violation, no inspection with 10+ Type 3 violations, and no Section 75 admission/retention violation in the prior 24 months (210 ILCS 9/45).",
-        "Civil penalties: up to $5,000 per violation, each day separate; up to $3,000 per day for caring for a resident who exceeds the Act's care needs (210 ILCS 9/135). Correction to the research: the $3,000 figure is the care-needs penalty in 135(b), not an unlicensed-operation penalty. Confirm the penalty for unlicensed operation separately.",
-        "Initial fees: $2,000 + $20/unit (assisted living), $1,000 (shared housing), nonrefundable (295.500, per research). IDPH issues the regular license within 120 days of a complete application (295.600, per research).",
-        "The licensing application includes standard vs. floating licensure.",
-        "Track P.A. 104-0589 (effective 7/24/2026) and the pending Part 295 rulemaking in the Illinois Register.",
-        "Posting requirements for the license: not verified. Confirm in the rule text."
+        "No person may establish, operate, maintain or offer an establishment without an IDPH license (210 ILCS 9/25)",
+        "The application must state whether standard or floating licensure is requested. A floating-license application must comply with Section 32 of the Act and Section 295.1110",
+        "The nonrefundable fee is $2,000 + $20 per licensed unit (assisted living) or $1,000 (shared housing), paid with the application",
+        "IDPH issues a regular license within 120 days of a complete application. Licenses last one year, state the physical location and are not transferable",
+        "The renewal application is due 120-150 days before expiration. A 2-year renewal is available only with no Type 1 or Type 2 violation in 24 months, no inspection with 10 or more Type 3 violations, and no Section 75 admission or retention violation"
       ]
     },
     {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review and Document Control",
-      "citations": [
-        "C16",
-        "C6"
+      "id": "APP-02",
+      "category": "Subpart A – General Provisions: § 295.500 Application for License",
+      "title": "Service Delivery Contract Verification and Standard Contract Copy for IDPH",
+      "covers": [
+        "295.500(a)(5)",
+        "295.500(a)(12)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Annual review, plus a review trigger for every statutory or rule change. Immediate triggers: P.A. 104-0589 (effective 7/24/2026), which changes the assessment, director training, medication, dementia and penalty provisions.",
-        "Keep a version log. Each policy lists its Part 295 and Act citation.",
-        "Part 295 as published by LII shows amendments through 7/29/2024. Re-check ILGA/JCAR for later rulemaking before each annual review."
-      ]
-    },
-    {
-      "id": "GOV-04",
-      "category": "Governance and Administration",
-      "title": "Quality Improvement Program and Risk Management",
       "citations": [
-        "C21",
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "295.2060 requires a Quality Improvement Program; confirm the required elements, meeting frequency and documentation in the rule text.",
-        "The establishment contract must state that the establishment maintains a risk management process (295.2030(a)(18)).",
-        "Feed incident, grievance, fall, medication-error and infection data into the QI review."
-      ]
-    },
-    {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
-      "title": "Compliance, Fraud and Billing Integrity",
-      "citations": [
+        "C11",
         "C8",
-        "C15",
-        "C4"
-      ],
-      "federal": [
-        "42 CFR 441.301(c) (only if SLP-certified)"
-      ],
-      "state_specifics": [
-        "IDPH-licensed assisted living and shared housing are private pay. The contract must state that Medicaid (Article V or VI of the Illinois Public Aid Code) is not available for services in the establishment (295.2030(a)(16)).",
-        "Billing must match the contract's base rate, additional-service fee schedule and billing procedures (295.2030(a)(7)-(9), (14)).",
-        "Only if the operator separately obtains HFS Supportive Living certification, add an SLP addendum under 89 Ill. Adm. Code 146. This includes quarterly quality-metric reporting through the HFS portal (per research). Otherwise state that SLP does not apply.",
-        "No Medicare/Medicaid certification-based compliance program applies to the private-pay licensure program."
-      ]
-    },
-    {
-      "id": "GOV-06",
-      "category": "Governance and Administration",
-      "title": "Annual IDPH On-Site Review and Survey Readiness",
-      "citations": [
-        "C44",
-        "C8",
-        "C10"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Added policy. The contract must include an IDPH statement describing the annual on-site review process and which resident-file documents the reviewer examines (295.2030(a)(20), citing Section 90 of the Act).",
-        "Keep resident files, contracts, assessments, service plans, personnel files, training records and schedules survey-ready at all times.",
-        "Name one IDPH liaison and keep a log of survey correspondence, deficiency responses and deadlines.",
-        "Type 1/2/3 violation history affects 2-year renewal eligibility (210 ILCS 9/45). Run internal mock reviews."
-      ]
-    },
-    {
-      "id": "RR-01",
-      "category": "Resident Rights",
-      "title": "Resident Rights and Responsibilities",
-      "citations": [
-        "C35",
-        "C43",
-        "C8"
-      ],
-      "federal": [
-        "ADA",
-        "Title VI"
-      ],
-      "state_specifics": [
-        "Post and give residents the rights listed in Section 95 of the Act and 295.6000. The contract must list the Section 95 rights and state that contracting does not forfeit them (295.2030(a)(19)).",
-        "Pull the full rights list from the rule and statute text before drafting. It was not retrieved here.",
-        "Include resident responsibilities as stated in the contract (295.2030(a)(13), (b)(1))."
-      ]
-    },
-    {
-      "id": "RR-02",
-      "category": "Resident Rights",
-      "title": "Grievances and Complaints",
-      "citations": [
-        "C8",
-        "C35"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The contract must describe the establishment's complaint resolution process and give notice of the Department on Aging's Senior Helpline and the Long-Term Care Ombudsman Program (295.2030(a)(11)).",
-        "Add the IDPH complaint line and the Senior Helpline number to the form. Verify current numbers on IDPH and Department on Aging sites; they were not retrieved here.",
-        "Set response timeframes in the policy and log each grievance and outcome for QI review."
-      ]
-    },
-    {
-      "id": "RR-03",
-      "category": "Resident Rights",
-      "title": "Ombudsman Access",
-      "citations": [
-        "C8",
-        "C35"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Residents must be told in the contract that the Long-Term Care Ombudsman Program is available for complaint resolution (295.2030(a)(11)).",
-        "Post Ombudsman contact information. Verify the regional office and number with the Illinois Department on Aging.",
-        "Ombudsman access to residents: confirm the specific access rule in 295.6000 and Section 95."
-      ]
-    },
-    {
-      "id": "RR-04",
-      "category": "Resident Rights",
-      "title": "Establishment Contract, Fees, Deposits and Refunds",
-      "citations": [
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Title the document 'assisted living establishment contract' or 'shared housing establishment contract', in at least 12-point type.",
-        "Include the 20 mandatory elements in 295.2030(a). Include the (b) elements: fees, charges and deposits (including charges for absence days), the refund policy, and the emergency/relative notification policy.",
-        "Give 30 days' written notice before any change in a fee or charge. No 30-day notice is needed where the increase results from a documented service-plan change (295.2030(b)(4)).",
-        "Include the Medicaid-not-available statement (295.2030(a)(16)).",
-        "Give a copy to the resident or representative, and keep the signed contract on the premises for the residency (c)-(d).",
-        "Contracts may auto-renew yearly. Amendments must be written and signed by both parties (e). Termination by mutual agreement may be immediate (f)."
-      ]
-    },
-    {
-      "id": "RR-05",
-      "category": "Resident Rights",
-      "title": "Resident Funds and Personal Property",
-      "citations": [
-        "C35",
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The Part 295 rule text on handling resident funds and personal property was not retrieved. Confirm the requirements in 295.6000/Section 95 before finalizing.",
-        "Document any deposit and fee handling per the contract (295.2030(b)(2)-(3)).",
-        "Financial exploitation prevention applies (295.6010)."
-      ]
-    },
-    {
-      "id": "RR-06",
-      "category": "Resident Rights",
-      "title": "Advance Directives",
-      "citations": [
-        "C35"
-      ],
-      "federal": [
-        "45 CFR 164.530"
-      ],
-      "state_specifics": [
-        "Confirm in the rule text whether Part 295 mandates advance directive handling. It was not retrieved.",
-        "Ask about advance directives and POLST at pre-admission, record them in the file, and make them available to staff and emergency responders per the service plan.",
-        "Illinois statutes on health care powers of attorney and POLST were not verified here. Have counsel confirm before publishing."
-      ]
-    },
-    {
-      "id": "RR-07",
-      "category": "Resident Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
-      "citations": [
-        "C35",
-        "C1"
-      ],
-      "federal": [
-        "45 CFR 160",
-        "45 CFR 164.502",
-        "45 CFR 164.530"
-      ],
-      "state_specifics": [
-        "HIPAA applies only to the extent the establishment or its providers are covered entities. Have counsel determine this; many private-pay assisted living operators are not covered entities, but state confidentiality still applies.",
-        "Residents or representatives may obtain, on request, a copy of their latest assessment, any supplemental establishment assessment, and the service plan (210 ILCS 9/15)."
-      ]
-    },
-    {
-      "id": "RR-08",
-      "category": "Resident Rights",
-      "title": "Nondiscrimination and Language Access",
-      "citations": [
-        "C35",
         "C16"
       ],
-      "federal": [
-        "ADA",
-        "Title VI of the Civil Rights Act (42 USC 2000d)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "The Act's 55+ age rule (at least 80% of residents 55+) is a definitional rule. Apply it consistently in admission marketing and decisions.",
-        "Provide interpretation and translated key documents (contract, rights, grievance process) to residents with limited English proficiency.",
-        "State-level nondiscrimination language in Part 295/Section 95: not retrieved. Confirm."
+        "Each resident or resident's representative must sign an establishment contract that meets Section 295.2030",
+        "The application must verify that the establishment has entered or will enter into such a contract with each resident",
+        "A copy of the standard contract offered to residents is filed with the application",
+        "The signed contract is kept on the premises, and the administrator re-files the standard contract when IDPH rules change"
       ]
     },
     {
-      "id": "RR-09",
-      "category": "Resident Rights",
-      "title": "Resident's Representative",
+      "id": "RES-01",
+      "category": "Subpart B – Policies: § 295.2000 Residency Requirements",
+      "title": "Admission Eligibility: Who May and May Not Be Accepted (Functional and Behavioral Criteria)",
+      "covers": [
+        "295.2000(a)",
+        "295.2000(b)",
+        "295.2000(c)(1)",
+        "295.2000(c)(2)",
+        "295.2000(c)(3)",
+        "295.2000(c)(4)",
+        "295.2000(c)(5)"
+      ],
       "citations": [
-        "C37",
+        "C13",
+        "C42",
         "C5",
-        "C1",
-        "C8"
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "295.6030 governs the resident's representative; read the text before drafting.",
-        "The contract lists the resident's designated representative (295.2030(a)(12)). The representative takes part in service plan agreement (210 ILCS 9/15).",
-        "Dementia programs must ensure a resident's representative is designated (210 ILCS 9/150(f)(2))."
+        "Do not accept or retain anyone whose needs the establishment cannot provide or secure, whose needs are outside its license, or when staff lack the numbers or skill. Only adults are accepted",
+        "Do not accept anyone who poses a serious threat to self or others",
+        "Do not accept anyone who cannot communicate needs in any manner, unless a resident representative who lives in the establishment and had a prior relationship has been appointed to direct services",
+        "Do not accept anyone who needs total assistance with 2 or more ADLs, or more than one paid caregiver at a time for an ADL",
+        "Do not accept anyone who needs more than minimal assistance to reach a safe area in an emergency, meaning they cannot respond with or without assistance given staffing and construction"
       ]
     },
     {
-      "id": "RR-10",
-      "category": "Resident Rights",
-      "title": "Essential Support Persons",
-      "citations": [
-        "C23"
+      "id": "RES-02",
+      "category": "Subpart B – Policies: § 295.2000 Residency Requirements",
+      "title": "Admission Exclusions: Severe Mental Illness and Clinical Treatment Conditions",
+      "covers": [
+        "295.2000(c)(6)",
+        "295.2000(c)(7)",
+        "295.2000(c)(8)",
+        "295.2000(c)(9)",
+        "295.2000(c)(10)",
+        "295.2000(c)(11)",
+        "295.2000(c)(12)",
+        "295.2000(c)(13)",
+        "295.2000(h)"
       ],
-      "federal": [
-        "ADA"
-      ],
-      "state_specifics": [
-        "Added policy. 295.2080 governs essential support persons; the rule text was not retrieved. Obtain the designation process, access conditions (including during outbreaks or restrictions), and any documentation from the text before drafting.",
-        "Include the form for designating an essential support person."
-      ]
-    },
-    {
-      "id": "ADM-01",
-      "category": "Admission, Retention and Discharge",
-      "title": "Pre-Admission Screening and Admission Criteria",
       "citations": [
-        "C1",
-        "C5",
         "C13",
-        "C28",
-        "C6",
+        "C42",
+        "C5",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Severe mental illness is a DSM-5-TR major mental disorder with substantial disability expected to last at least one year. Alzheimer's and other organic dementias are excluded from this definition, and a diagnosis of depression alone does not bar residency",
+        "IV therapy or feedings, gastrostomy feedings, catheter insertion or sterile irrigation or replacement (routine urinary catheter maintenance is allowed), sterile wound care, and routine insulin injections are barred unless self-administered or given by a licensed health care professional",
+        "The licensed professional for these services may not be employed by the owner or operator, its parent, or any commonly owned entity or affiliate. The resident keeps the right to choose a provider",
+        "Do not accept anyone needing treatment of stage 3 or 4 decubitus ulcers or exfoliative dermatitis",
+        "Do not accept anyone needing 5 or more skilled nursing visits per week for 3 or more consecutive weeks, except a rehabilitative course certified temporary by a physician"
+      ]
+    },
+    {
+      "id": "RES-03",
+      "category": "Subpart B – Policies: § 295.2000 Residency Requirements",
+      "title": "Residency Exceptions (Hospice, Physical Disability) and Pre-Admission Vaccine Advice",
+      "covers": [
+        "295.2000(f)",
+        "295.2000(g)",
+        "295.2000(i)"
+      ],
+      "citations": [
+        "C13",
+        "C5",
         "C42"
       ],
       "federal": [],
       "state_specifics": [
-        "Before admission, a comprehensive assessment of physical, cognitive and psychosocial condition must be completed by a physician, PA or APRN. An RN or LPN cannot complete it (210 ILCS 9/15, as amended by P.A. 104-0589, effective 7/24/2026).",
-        "Reconcile the Physician's Assessment Form (Appendix A, version 3) and 295.4000 with the Act's PA/APRN language. Ask IDPH which form version to use.",
-        "Use a validated dementia-specific assessment tool for residents with cognitive impairment. IDPH rule must identify the standard. For dementia programs it must be approved by the physician, or a PA/APRN with geriatric dementia experience (210 ILCS 9/150(c), (g)).",
-        "Do not admit if the establishment cannot provide or secure appropriate care, the resident needs a service it is not licensed for or does not provide, or it lacks appropriately skilled staff (150(b); 295.2000).",
-        "Check Section 75 criteria (referenced in 150(e)) before every admission.",
-        "Confirm the at-least-80% age 55+ requirement before admission."
+        "Terminally ill residents may remain if they receive or qualify for hospice coordinated by a licensed hospice program or a licensed professional employed by a licensed home health agency, and the establishment and all parties agree",
+        "The (c)(3), (4), (5) and (9) exclusions do not apply to quadriplegic, paraplegic or neuro-muscular disease residents who can communicate, need no complex medical assistance, and whose needs the establishment can meet",
+        "An establishment that does not offer medication administration must advise each prospective resident before admission to consult a physician about pneumococcal pneumonia and/or influenza vaccination (Act Sec. 76)",
+        "Document the vaccine advice in the admission file"
       ]
     },
     {
-      "id": "ADM-02",
-      "category": "Admission, Retention and Discharge",
-      "title": "Resident Assessment and Reassessment",
-      "citations": [
-        "C1",
-        "C28",
-        "C5"
+      "id": "TERM-01",
+      "category": "Subpart B – Policies: § 295.2010 Termination of Residency",
+      "title": "Termination of Residency, Discharge and Relocation Notice",
+      "covers": [
+        "295.2000(d)",
+        "295.2000(e)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Comprehensive assessment at least annually, and upon a significant change in condition, including a diagnosis of Alzheimer's or a related dementia (210 ILCS 9/15).",
-        "IDPH may by rule require more frequent skin integrity and nutritional status assessments. Check 295.4000 and the current rule text.",
-        "For dementia programs, annual and change-of-condition assessments must be signed by a physician (210 ILCS 9/150(c)). A change may be identified by a family member, staff, or the resident's physician/PA/APRN."
-      ]
-    },
-    {
-      "id": "ADM-03",
-      "category": "Admission, Retention and Discharge",
-      "title": "Service Plan",
       "citations": [
-        "C1",
-        "C29",
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A written service plan is based on the assessment, the resident's interests, preferences, dislikes, and known triggers for behavior that endangers the resident or others. It is mutually agreed by the provider, the resident and the representative (210 ILCS 9/15).",
-        "Review at least annually, or sooner as condition, preferences or needs change. The service plan is the basis for the service delivery contract.",
-        "Give a copy to the resident or representative on request.",
-        "The plan may provide for disconnection or removal of any appliance (210 ILCS 9/15).",
-        "Services established in each service plan must be staffed (295.3000(h)(2))."
-      ]
-    },
-    {
-      "id": "ADM-04",
-      "category": "Admission, Retention and Discharge",
-      "title": "Retention Limits and Conditions the Establishment Cannot Serve",
-      "citations": [
+        "C17",
         "C13",
-        "C5",
         "C42",
         "C4"
       ],
       "federal": [],
       "state_specifics": [
-        "Do not retain a resident when care or appropriate staff cannot be provided or secured, or the needed service is not licensed or provided (210 ILCS 9/150(b); 295.2000).",
-        "Dementia programs: no one may remain if their condition has deteriorated so that residency is detrimental to them or others, or if they are dangerous and the danger cannot be eliminated (150(c)-(d)).",
-        "Caring for a resident who exceeds the care needs defined in the Act exposes the establishment to a penalty of up to $3,000 per day (210 ILCS 9/135(b)).",
-        "The Section 75 criteria must be pulled from the Act text. It was not retrieved here."
+        "Residency must be terminated under Section 295.2010 if the resident develops a condition listed in 295.2000(c), unless the hospice exception applies",
+        "Residency must be terminated under Section 295.2010 when available services no longer meet the resident's needs. IDPH may also require termination",
+        "Notice periods and grounds must be copied from the 295.2010 rule text before adoption (text not retrieved)",
+        "Caring for a resident who exceeds the Act's care needs can draw a civil penalty of up to $3,000 per day (210 ILCS 9/135)",
+        "Admission and termination criteria must also appear in the resident contract (295.2030(a))"
       ]
     },
     {
-      "id": "ADM-05",
-      "category": "Admission, Retention and Discharge",
-      "title": "Discharge, Transfer, Relocation and Closure Notice",
+      "id": "CLO-01",
+      "category": "Subpart B – Policies: § 295.2020 Notice of Closure",
+      "title": "Facility Closure Notice and Resident Relocation",
+      "covers": [],
       "citations": [
-        "C17",
         "C18",
-        "C8"
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "295.2010 (Termination of Residency) and 295.2020 (Notice of Closure) govern. Take notice periods, grounds and appeal procedures from the rule text, which was not retrieved.",
-        "The contract must describe admission and residency termination criteria and procedures (295.2030(a)(17)) and how the contract is terminated (a)(10).",
-        "Mutual-agreement termination may be immediate (295.2030(f)).",
-        "Notify the relative or other designated individual of termination of residency per the contract's notification policy (295.2030(b)(5))."
+        "Closure notice deadlines to IDPH and residents must be taken from the 295.2020 rule text (not retrieved)",
+        "Designate the administrator to lead relocation planning and notify representatives, the Ombudsman and IDPH",
+        "Keep resident records available after closure per the Records policy",
+        "Resident funds and deposits must be accounted for and refunded under the contract refund policy"
       ]
     },
     {
-      "id": "ADM-06",
-      "category": "Admission, Retention and Discharge",
-      "title": "Negotiated Risk Agreement",
-      "citations": [
-        "C22"
+      "id": "CON-01",
+      "category": "Subpart B – Policies: § 295.2030 Establishment Contracts",
+      "title": "Assisted Living / Shared Housing Establishment Contract: Required Form and Content",
+      "covers": [
+        "295.2030(a)",
+        "295.2030(a)(1)",
+        "295.2030(a)(4)",
+        "295.2030(a)(5)",
+        "295.2030(a)(6)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Added policy. 295.2070 governs negotiated risk agreements; the rule text was not retrieved. Take the required content and approval steps from the text, and have counsel review.",
-        "Use the agreement only for risks that do not make the resident ineligible under Section 75 or 150."
-      ]
-    },
-    {
-      "id": "HCS-01",
-      "category": "Health and Care Services",
-      "title": "Medication Management, Storage and Disposal",
-      "citations": [
-        "C3",
-        "C34"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Three levels of medication service are defined in the Act: medication reminders, supervision of self-administered medication, and medication administration (210 ILCS 9/70). Decide which the establishment offers. These are optional services.",
-        "Storage, labeling, disposal and record requirements are in 295.5000. Take the specifics from the text, which was not retrieved.",
-        "If residents cannot open containers, staff may open them for supervised self-administration (210 ILCS 9/70)."
-      ]
-    },
-    {
-      "id": "HCS-02",
-      "category": "Health and Care Services",
-      "title": "Medication Administration and Staff Authorization",
-      "citations": [
-        "C3",
-        "C34"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Medication administration (insulin and B-12 injections, oral medications, topical treatments, eye and ear drops, nitroglycerin patches, intramuscular injections) is performed by a licensed health care professional employed by the establishment (210 ILCS 9/70).",
-        "A certified medication aide may administer only under RN supervision and delegation per Nurse Practice Act Section 50-75. Excluded: Schedule II controlled substances and any subcutaneous, intramuscular, intradermal or IV medication.",
-        "Supervision of self-administered medication is under a licensed health care professional or, for a certified medication aide, under RN supervision and delegation.",
-        "Keep the authorized-staff list, credentials and delegation records on file."
-      ]
-    },
-    {
-      "id": "HCS-03",
-      "category": "Health and Care Services",
-      "title": "Nursing Services and Delegation",
-      "citations": [
-        "C3",
-        "C30"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Medication aide delegation requires RN supervision (210 ILCS 9/70, citing Nurse Practice Act 50-75).",
-        "Mandatory services are in 295.4020. Define which nursing tasks the establishment provides.",
-        "Verify state professional licenses for staff in licensed positions with the Illinois professional regulation agency before hire and file a copy (295.3000(n))."
-      ]
-    },
-    {
-      "id": "HCS-04",
-      "category": "Health and Care Services",
-      "title": "Change of Condition, Physician Notification and Hospital Transfer",
-      "citations": [
-        "C1",
-        "C20",
-        "C8"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "A significant change in condition triggers reassessment by a physician, PA or APRN (210 ILCS 9/15). For dementia residents the reassessment must be signed by a physician (210 ILCS 9/150(c)).",
-        "Notify the relative or designated person on a significant change in condition (295.2030(b)(5)).",
-        "Incident reporting timeframes: take from 295.2050 (text not retrieved)."
-      ]
-    },
-    {
-      "id": "HCS-05",
-      "category": "Health and Care Services",
-      "title": "Dementia and Memory Care",
-      "citations": [
-        "C5",
-        "C33",
-        "C2"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Alzheimer and dementia programs must also comply with all other provisions of the Act (210 ILCS 9/150(a)).",
-        "An establishment offering a special program or unit must: disclose per the Alzheimer's Disease and Related Dementias Special Care Disclosure Act to IDPH and to potential and actual residents; ensure a designated representative; adopt policies for continued safety of all residents including those who may wander or need help evacuating; coordinate communications with family; provide cognitive stimulation and activities; staff appropriately per rule; train the director and direct care staff in dementia care; and have emergency procedures and staffing patterns (150(f)).",
-        "The disclosure document is a licensure condition (210 ILCS 9/35(a)(7)).",
-        "Assessments use a validated dementia-specific tool. Annual and change-of-condition assessments are signed by a physician (150(c), (g)).",
-        "Staffing numbers and training content are 'as established by rule'. Take them from 295.4060, which was not retrieved.",
-        "Memory care is not a separate license category in the research reviewed."
-      ]
-    },
-    {
-      "id": "HCS-06",
-      "category": "Health and Care Services",
-      "title": "Falls Prevention",
-      "citations": [
-        "C29",
-        "C20"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "No Part 295 section specific to falls was identified. Falls are handled through the service plan (295.4010) and incident reporting (295.2050).",
-        "Track falls for QI (295.2060)."
-      ]
-    },
-    {
-      "id": "HCS-07",
-      "category": "Health and Care Services",
-      "title": "Skin Integrity",
-      "citations": [
-        "C1",
-        "C29"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "IDPH may by rule specify circumstances for more frequent skin integrity and nutritional status assessments (210 ILCS 9/15). Check the current rule text for the frequency before setting your own."
-      ]
-    },
-    {
-      "id": "HCS-08",
-      "category": "Health and Care Services",
-      "title": "Hospice and Home Health Coordination",
       "citations": [
         "C8",
-        "C3"
+        "C43",
+        "C44",
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "Residents may receive services from providers the establishment does not contract with. The contract must say so (295.2030(a)(15)).",
-        "The contract must describe the license status of all providers of health-related or supportive services arranged by the establishment (295.2030(a)(5)).",
-        "Services may be provided by third parties arranged with the resident's consent (210 ILCS 9/70).",
-        "Hospice care does not lift the Section 75/150 admission and retention limits. Re-check retention with each change in condition."
+        "The title must read \"assisted living establishment contract\" or \"shared housing establishment contract\", printed in at least 12-point type",
+        "The 20 required elements include the establishment name and street and mailing address, and the name and address of at least one natural person authorized to accept service for owners and the managing agent",
+        "The contract must describe the establishment's license status and that of every provider of health-related or supportive services arranged by the establishment",
+        "It must state the contract duration. Contracts may auto-renew yearly, and changes must be written and signed by both parties",
+        "It must include the Department on Aging Senior Helpline and Long-Term Care Ombudsman notice, a statement that Medicaid (Public Aid Code Articles V/VI) is not available, a risk management statement, the Section 95 rights list, and the IDPH annual on-site review statement"
       ]
     },
     {
-      "id": "HCS-09",
-      "category": "Health and Care Services",
-      "title": "Death of a Resident",
+      "id": "CON-02",
+      "category": "Subpart B – Policies: § 295.2030 Establishment Contracts",
+      "title": "Fees, Deposits, Refunds, Fee-Change Notice and Emergency Notification",
+      "covers": [
+        "295.2030(b)(1)",
+        "295.2030(b)(2)",
+        "295.2030(b)(3)",
+        "295.2030(b)(4)",
+        "295.2030(b)(5)"
+      ],
       "citations": [
         "C8",
-        "C20"
+        "C43"
       ],
       "federal": [],
       "state_specifics": [
-        "Notify the relative or other designated individual per the contract (295.2030(b)(5)).",
-        "Whether a death must be reported to IDPH, and any timing, are not verified. Check 295.2050.",
-        "Return personal property and refund fees per the contract's refund policy (295.2030(b)(3))."
+        "The contract states terms of occupancy, including resident responsibilities and obligations",
+        "It states the amount and purpose of every fee, charge and deposit, including any charge for days a resident is absent",
+        "It states the refund policy for fees, charges and deposits",
+        "Give at least 30 days' written notice before any fee or charge change. This is not required for an increase resulting from changed service needs documented in the service plan",
+        "It states the policy for notifying a relative or other designated person of an emergency, a significant change in condition, or termination of residency. A copy of the signed contract goes to the resident or representative"
       ]
     },
     {
-      "id": "HCS-10",
-      "category": "Health and Care Services",
-      "title": "Mandatory Services",
+      "id": "CON-03",
+      "category": "Subpart B – Policies: § 295.2030 Establishment Contracts",
+      "title": "Resident Funds and Personal Property",
+      "covers": [],
       "citations": [
-        "C30",
-        "C3",
-        "C7"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Added policy. 295.4020 lists the mandatory services; take the list from the rule text, which was not retrieved.",
-        "An establishment must provide all mandatory services and may provide optional ones (210 ILCS 9/70).",
-        "Staffing must cover mandatory services, service-plan services, environmental services, food service if offered, and emergency evacuation (295.3000(h))."
-      ]
-    },
-    {
-      "id": "SAF-01",
-      "category": "Safety and Protection",
-      "title": "Abuse, Neglect and Financial Exploitation Prevention and Reporting",
-      "citations": [
-        "C36",
-        "C14",
-        "C7"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "295.6010 governs prevention and reporting. Take reporting recipients, timeframes, training and investigation steps from the text, which was not retrieved.",
-        "Hiring bars: do not hire anyone with a Nurse Aide Registry finding of abuse, neglect or misappropriation of property (295.3000(m)). Also screen under the Health Care Worker Background Check Act.",
-        "The reporting channels likely include IDPH, the Department on Aging Adult Protective Services program, and law enforcement. Phone numbers and the governing statute (the Adult Protective Services Act) were not verified. Confirm before publishing."
-      ]
-    },
-    {
-      "id": "SAF-02",
-      "category": "Safety and Protection",
-      "title": "Incident and Accident Reporting",
-      "citations": [
-        "C20",
-        "C21"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "295.2050 governs. Take the list of reportable events, deadlines and report contents from the text, which was not retrieved.",
-        "Feed incident data into the Quality Improvement Program (295.2060)."
-      ]
-    },
-    {
-      "id": "SAF-03",
-      "category": "Safety and Protection",
-      "title": "Elopement and Missing Resident",
-      "citations": [
-        "C5",
-        "C3"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Dementia programs must have policies ensuring the safety of residents who may wander (210 ILCS 9/150(f)(3)(A)).",
-        "Document elopement risk in the assessment and service plan. Staffing must provide general supervision (295.3000(h)(3))."
-      ]
-    },
-    {
-      "id": "SAF-04",
-      "category": "Safety and Protection",
-      "title": "Restraints and Restrictive Practices",
-      "citations": [
+        "C8",
         "C35",
-        "C22"
+        "C43"
       ],
-      "federal": [
-        "ADA"
-      ],
+      "federal": [],
       "state_specifics": [
-        "No restraint-specific rule was retrieved. Confirm in 295.6000/Section 95 and Subpart D.",
-        "Dementia programs must use policies that protect resident safety (210 ILCS 9/150(f)(3)).",
-        "Residents may not be retained if dangerous to self or others and the establishment cannot eliminate the danger through appropriate treatment modalities (210 ILCS 9/150(d)). Prefer discharge planning over restrictive practices."
+        "Any resident funds handled by staff require a written authorization and a separate itemized ledger",
+        "Deposit and refund handling must follow the contract's stated refund policy",
+        "Contract fee schedules must be consistent with what is billed",
+        "Do not commingle resident funds with operating funds"
       ]
     },
     {
-      "id": "SAF-05",
-      "category": "Safety and Protection",
-      "title": "Emergency Preparedness and Disaster Plan",
+      "id": "DIS-01",
+      "category": "Subpart B – Policies: § 295.2040 Disaster Preparedness",
+      "title": "Written Disaster Plan: Relocation, Severe Weather and Power Outages",
+      "covers": [
+        "295.2040(b)(1)",
+        "295.2040(b)(1)(A)",
+        "295.2040(b)(1)(B)",
+        "295.2040(b)(1)(E)"
+      ],
       "citations": [
         "C19",
-        "C3",
-        "C5"
+        "C5",
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "295.2040 (Disaster Preparedness) governs. Take plan elements, review and drill frequencies from the text, which was not retrieved.",
-        "Staffing must cover evacuation of residents during emergencies (295.3000(h)(6)).",
-        "Dementia programs must have emergency procedures and staffing patterns (210 ILCS 9/150(f)(8)).",
-        "Residents who cannot move independently to safety require sufficient awake staff 24 hours a day (295.3000(j))."
+        "The plan must protect all persons by keeping them in place, moving them to areas of refuge, and evacuating the building when necessary",
+        "It must address residents' physical and cognitive needs and special staff response, and be revised whenever a resident with unusual needs is admitted",
+        "It must provide for temporary relocation of residents in any disaster requiring relocation",
+        "It must provide for moving residents to safe locations within the building for a National Weather Service tornado warning or severe thunderstorm warning",
+        "It must address power outages. Dementia programs must also have emergency procedures and staffing patterns (210 ILCS 9/150)"
       ]
     },
     {
-      "id": "SAF-06",
-      "category": "Safety and Protection",
-      "title": "Fire Safety, Evacuation and Drills",
+      "id": "DIS-02",
+      "category": "Subpart B – Policies: § 295.2040 Disaster Preparedness",
+      "title": "Heat, Cold and Temperature Extremes",
+      "covers": [
+        "295.2040(b)(1)(C)",
+        "295.2040(b)(1)(D)"
+      ],
       "citations": [
-        "C40",
-        "C3",
-        "C7"
+        "C19",
+        "C41",
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "IDPH Design and Construction performs the Life Safety Code survey before licensure (per research). Physical plant standards are in 295.9000 and the supplemental sections.",
-        "Evacuation capability: sufficient awake staff must be present for residents who cannot independently move to an area of safety (295.3000(j)).",
-        "Fire drill frequency, extinguisher and alarm testing: not retrieved. Take from 295.9000 and the Life Safety Code adopted by IDPH, and confirm with the local fire authority."
+        "Temporarily relocate residents whenever bedroom temperatures fall below 55°F for 12 hours or more due to a mechanical problem or power loss",
+        "When the heat index/apparent temperature (Section 295 Table A) exceeds 80°F in living, dining, activity or sleeping areas, provide for residents' health, safety, welfare and comfort",
+        "Monitor and log indoor temperatures and the heat index daily during hot weather",
+        "Table A (heat index) is part of the Subpart I appendices"
       ]
     },
     {
-      "id": "SAF-07",
-      "category": "Safety and Protection",
-      "title": "Infection Prevention and Control",
+      "id": "DIS-03",
+      "category": "Subpart B – Policies: § 295.2040 Disaster Preparedness",
+      "title": "Emergency Drills and Written Drill Evaluations",
+      "covers": [
+        "295.2040(h)"
+      ],
       "citations": [
-        "C31",
-        "C32"
+        "C19",
+        "C16"
       ],
-      "federal": [
-        "29 CFR 1910.1030"
-      ],
+      "federal": [],
       "state_specifics": [
-        "295.4040 requires communicable disease policies. Take required contents from the text, which was not retrieved.",
-        "OSHA bloodborne pathogens standard applies to employee exposure.",
-        "Outbreak reporting to the local health department and IDPH: not verified. Confirm requirements."
+        "A written evaluation of each drill goes to the establishment manager",
+        "Keep each drill evaluation for one year from the date of the drill",
+        "Drill frequencies and evaluation content must be taken from the 295.2040 text (not retrieved in full)",
+        "Use the same drill records for survey review"
       ]
     },
     {
-      "id": "SAF-08",
-      "category": "Safety and Protection",
-      "title": "Smoking, Visitors and Pets",
+      "id": "INC-01",
+      "category": "Subpart B – Policies: § 295.2050 Incident and Accident Reporting",
+      "title": "Serious Incident and Accident Reporting to IDPH",
+      "covers": [
+        "295.2050(a)",
+        "295.2050(b)",
+        "295.2050(c)"
+      ],
+      "citations": [
+        "C20",
+        "C4",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report any serious incident or accident to IDPH. \"Serious\" means any incident or accident that causes physical or emotional harm or injury to a resident",
+        "A change in condition due to health or medical decline is not a reportable incident or accident",
+        "Report within 24 hours to the IDPH Division of Assisted Living by email at DPH.LTCAL@illinois.gov, or as the Department requests",
+        "Keep a copy of the report for one year after the incident or accident",
+        "Notify the resident's representative or designated relative per the contract notification policy"
+      ]
+    },
+    {
+      "id": "QI-01",
+      "category": "Subpart B – Policies: § 295.2060 Quality Improvement Program",
+      "title": "Quality Improvement Program",
+      "covers": [
+        "295.500(a)(8)",
+        "295.2060(a)",
+        "295.2060(b)"
+      ],
+      "citations": [
+        "C21",
+        "C11",
+        "C16"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The program covers oversight and monitoring, resident satisfaction, and ongoing quality improvement with implementation of any improvement plan",
+        "The process must benchmark performance, be customer-centered, data-driven and focused on resident satisfaction",
+        "A system must detect issues and problems, expedite action and resolve problems",
+        "Proof of an ongoing program is part of the license application (295.500(a)(8))",
+        "Minute QI meetings, track incidents, grievances and satisfaction surveys, and keep the records survey-ready"
+      ]
+    },
+    {
+      "id": "NRA-01",
+      "category": "Subpart B – Policies: § 295.2070 Negotiated Risk Agreement",
+      "title": "Negotiated Risk Agreements",
+      "covers": [],
+      "citations": [
+        "C22",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Required content must be taken from the 295.2070 text (not retrieved)",
+        "Use only with the resident or representative's informed agreement",
+        "Document the risk, the resident's choice and the mitigation plan",
+        "Reference the agreement in the service plan and the risk management statement in the contract"
+      ]
+    },
+    {
+      "id": "ESP-01",
+      "category": "Subpart B – Policies: § 295.2080 Essential Support Persons",
+      "title": "Essential Support Persons and Resident Access",
+      "covers": [],
       "citations": [
         "C23",
         "C35"
       ],
       "federal": [],
       "state_specifics": [
-        "Visitor access is subject to resident rights and the essential support person rule (295.2080, 295.6000).",
-        "No pet or smoking rule was retrieved. Check Subpart I (295.9040) and local ordinances. Illinois' smoke-free statute was not verified here."
+        "The rule governs essential support persons (visitation and access). Detailed terms must be taken from the 295.2080 text (not retrieved)",
+        "Residents may designate an essential support person",
+        "Record the designation in the resident file",
+        "Visiting restrictions must not override resident rights"
       ]
     },
     {
-      "id": "SAF-09",
-      "category": "Safety and Protection",
-      "title": "Communicable Disease Reporting and Tuberculin Screening Procedures",
-      "citations": [
-        "C31",
-        "C32",
-        "C7"
+      "id": "PER-01",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Staffing Sufficiency, Supervision and Personnel Schedules",
+      "covers": [
+        "295.3000(a)",
+        "295.3000(h)",
+        "295.3000(i)",
+        "295.3000(j)"
       ],
-      "federal": [
-        "29 CFR 1910.1030"
-      ],
-      "state_specifics": [
-        "Added policy. 295.4040 (Communicable Disease Policies) and 295.4050 (Tuberculin Skin Test Procedures) both apply; take the content from the rule text, which was not retrieved.",
-        "Employees must have documentation of freedom from pulmonary tuberculosis in their file (295.3000(e)(2)(A))."
-      ]
-    },
-    {
-      "id": "SAF-10",
-      "category": "Safety and Protection",
-      "title": "Physical Environment, Heat Safety and Maintenance",
-      "citations": [
-        "C41",
-        "C40"
-      ],
-      "federal": [
-        "ADA"
-      ],
-      "state_specifics": [
-        "Added policy. 295.9040 (Environmental Requirements) with Table A (Heat Index Table/Apparent Temperature) indicates heat-related environmental rules. Take the temperature thresholds and required actions from the text, which was not retrieved.",
-        "Units, furnishings and supplemental physical plant standards: 295.9005, 295.9010 (assisted living), 295.9020 (shared housing), 295.9030."
-      ]
-    },
-    {
-      "id": "DL-01",
-      "category": "Daily Living",
-      "title": "Food Service and Therapeutic Diets",
-      "citations": [
-        "C39",
-        "C30",
-        "C7"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Subpart H (295.8000) governs food service. Take menu, sanitation, diet and meal-time requirements from the text, which was not retrieved.",
-        "Food service employees need an initial health evaluation (295.3030).",
-        "Where the establishment provides food service, staffing must cover it (295.3000(h)(4))."
-      ]
-    },
-    {
-      "id": "DL-02",
-      "category": "Daily Living",
-      "title": "Activities and Social Programming",
-      "citations": [
-        "C30",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Dementia programs must provide cognitive stimulation and activities to maximize functioning (210 ILCS 9/150(f)(5)).",
-        "Check 295.4020 for any activity requirements in mandatory services."
-      ]
-    },
-    {
-      "id": "DL-03",
-      "category": "Daily Living",
-      "title": "Housekeeping, Laundry and Maintenance",
-      "citations": [
-        "C30",
-        "C7",
-        "C40"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Staffing must cover environmental services (295.3000(h)(5)).",
-        "Physical plant and environmental standards are in Subpart I."
-      ]
-    },
-    {
-      "id": "DL-04",
-      "category": "Daily Living",
-      "title": "Transportation",
-      "citations": [
-        "C7",
-        "C8"
-      ],
-      "federal": [
-        "ADA"
-      ],
-      "state_specifics": [
-        "Transportation is an optional service. List it with its fee schedule in the contract (295.2030(a)(8)-(9)).",
-        "Shared housing staff may leave the site briefly for a resident's emergency room trip or errands, but must arrange for monitoring resident safety per the service plan (295.3000(k))."
-      ]
-    },
-    {
-      "id": "STF-01",
-      "category": "Staffing and Personnel",
-      "title": "Staffing Levels, 24-Hour Coverage and Supervision",
       "citations": [
         "C7",
         "C2",
@@ -1117,57 +748,211 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Assisted living: at least one staff member awake, on duty and on site 24 hours a day (295.3000(l)).",
-        "Shared housing: at least one staff member on site at all times, with brief absences allowed for ER trips or errands if resident safety monitoring is arranged (295.3000(k)). The awake-overnight rule does not apply to shared housing by default. Residents who cannot independently reach safety require sufficient awake staff 24 hours a day (295.3000(j)).",
-        "At least one direct care staff person with current adult CPR certification (including a demonstrated skills check) on duty at all times (295.3000(b)).",
-        "The personnel schedule shows date, scheduled hours, and each employee's name and position, reflects actual hours worked, and is kept at least 12 months after the last scheduled date (295.3000(i)).",
-        "Staffing must meet the 24-hour scheduled and unscheduled needs of residents and cover the items in 295.3000(h). No fixed staff-to-resident ratio was found in the retrieved text.",
-        "Dementia programs: staffing 'as established by rule' (210 ILCS 9/150(f)(6)); check 295.4060."
+        "Staff must be sufficient in number, qualifications, skills, education and experience to meet 24-hour scheduled and unscheduled needs, and must take part in ongoing training",
+        "Staffing must cover mandatory services, service plan services, general supervision and crisis intervention, food service, environmental services, evacuation and optional services",
+        "The personnel schedule shows date, scheduled hours, and name and position of each employee, reflects actual hours worked, and is kept 12 months after the last date on the schedule",
+        "If residents cannot independently move to safety, enough staff must be present and awake to move them to a safe area 24 hours a day",
+        "Review staffing against resident acuity at each assessment"
       ]
     },
     {
-      "id": "STF-02",
-      "category": "Staffing and Personnel",
-      "title": "Background Checks and Employee Registries",
+      "id": "PER-02",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "24-Hour On-Site Coverage and CPR-Certified Direct Care Staff",
+      "covers": [
+        "295.3000(b)",
+        "295.3000(k)",
+        "295.3000(l)"
+      ],
       "citations": [
-        "C14",
-        "C27",
         "C7",
         "C2"
       ],
       "federal": [],
       "state_specifics": [
-        "Check every applicant on the Nurse Aide Registry before hiring. Do not hire anyone with a finding of abuse, neglect or misappropriation of property (295.3000(m)).",
-        "All employees subject to the Health Care Worker Background Check Act must meet it. This is a license-issuance condition (210 ILCS 9/35(a)(4)). Fingerprints are collected electronically and sent to the Illinois State Police within 10 working days (225 ILCS 46, per research).",
-        "File documentation of Background Check Act compliance and the Nurse Aide Registry check in each direct care employee's file (295.3000(f)(3)-(4)).",
-        "Procedures are in 295.3040 (rule text not retrieved)."
+        "Assisted living: at least one staff member awake, on duty and on site 24 hours a day",
+        "Shared housing: at least one staff member on site at all times. The only exception is a brief absence (emergency room or grocery trip), with arrangements to monitor resident safety per the service delivery plan",
+        "At least one direct care staff person with current adult CPR certification, including a demonstrated skills check, is on duty at all times",
+        "Track CPR expirations and schedule so every shift has a certified person"
       ]
     },
     {
-      "id": "STF-03",
-      "category": "Staffing and Personnel",
-      "title": "Hiring, Orientation and Ongoing Training",
+      "id": "PER-03",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Job Descriptions, Minimum Age, Employee Files and Personnel Record Retention",
+      "covers": [
+        "295.3000(c)",
+        "295.3000(d)",
+        "295.3000(e)",
+        "295.3000(f)",
+        "295.3000(g)"
+      ],
+      "citations": [
+        "C7",
+        "C14"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Direct care staff must be 16 or older on the start date",
+        "Job descriptions state minimum education and experience",
+        "Every file holds name, date of birth, home address, SSN and phone; documentation of freedom from pulmonary TB, orientation and ongoing training; and start and end dates",
+        "Direct care files also hold CPR certification if applicable, initial health evaluation, Background Check Act compliance, and the Nurse Aide Registry check",
+        "Keep records throughout employment and at least 12 months after the last date of employment, unless law requires longer"
+      ]
+    },
+    {
+      "id": "PER-04",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Nurse Aide Registry, Health Care Worker Background Checks and License Verification",
+      "covers": [
+        "295.3000(m)",
+        "295.3000(n)"
+      ],
+      "citations": [
+        "C7",
+        "C14",
+        "C27",
+        "C2"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Check all applicants on the Nurse Aide Registry before hiring. Do not hire anyone with a finding of abuse, neglect or misappropriation of property",
+        "Before hiring into a position requiring a State professional license, contact the Illinois Department of Professional Regulation to verify an active license, and file a copy of the verification",
+        "Employees with resident contact must meet the Health Care Worker Background Check Act",
+        "Fingerprints are collected electronically and sent to Illinois State Police within 10 working days",
+        "Licensure approval requires covered employees to meet the Act (295.600)"
+      ]
+    },
+    {
+      "id": "PER-05",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Manager / Director Qualifications, Training and Manager Changes",
+      "covers": [],
+      "citations": [
+        "C2",
+        "C24",
+        "C7",
+        "C6"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A full-time director/manager must be 21 or older with a high school diploma or equivalent plus qualifying experience (210 ILCS 9/35(a)(2))",
+        "As a condition of licensure the director must complete at least 20 hours of training every 2 years (210 ILCS 9/35)",
+        "A shared housing manager may oversee up to three establishments within 30 minutes' drive who are immediately reachable. Pinpoint this in 295.3010 before adoption",
+        "Report a manager change to IDPH within 10 working days. Pinpoint this in 295.3010",
+        "P.A. 104-0589 amended Section 35, so check the current director-qualification text"
+      ]
+    },
+    {
+      "id": "PER-06",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Employee Orientation and Ongoing Training",
+      "covers": [],
       "citations": [
         "C25",
         "C7",
-        "C2",
+        "C5",
+        "C2"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Staff must take part in ongoing training to serve the resident population (295.3000(a))",
+        "Orientation and in-service topics and hours must be taken from the 295.3020 text (not retrieved)",
+        "Document orientation and ongoing training in each employee file",
+        "The director and direct care staff in dementia programs must receive dementia training (210 ILCS 9/150)",
+        "Include bloodborne pathogen training (OSHA) for staff with exposure risk"
+      ]
+    },
+    {
+      "id": "PER-07",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Employee Health Evaluation and TB Screening",
+      "covers": [],
+      "citations": [
+        "C26",
+        "C32",
+        "C7",
+        "C31"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Direct care and food service employees need an initial health evaluation (295.3030). Timing and content come from the rule text (not retrieved)",
+        "Every employee file must document freedom from pulmonary TB (295.3000(e))",
+        "TB skin test steps and timing come from the 295.4050 text (not retrieved)",
+        "Exclude ill employees per the communicable disease policy"
+      ]
+    },
+    {
+      "id": "PER-08",
+      "category": "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+      "title": "Staff Conduct and Professional Boundaries",
+      "covers": [],
+      "citations": [
+        "C36",
+        "C35",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Prohibit abuse, neglect, exploitation and misappropriation of resident property. Violations are reported per the abuse reporting policy",
+        "Staff may not accept gifts, loans or financial transactions from residents",
+        "Anyone with a Nurse Aide Registry finding of abuse, neglect or misappropriation cannot be employed",
+        "Staff sign a code of conduct at hire"
+      ]
+    },
+    {
+      "id": "CARE-01",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Pre-Admission Comprehensive Assessment, Reassessment and Service Plan",
+      "covers": [],
+      "citations": [
+        "C1",
+        "C6",
+        "C28",
+        "C29",
         "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "Job descriptions define minimum education and experience (295.3000(d)). Direct care staff must be 16+ at the start of employment (295.3000(c)).",
-        "Orientation and ongoing training are documented in each file (295.3000(e)(2)(B)-(C)). Orientation content and hours: take from 295.3020, which was not retrieved.",
-        "Staff must take part in ongoing training for the resident population (210 ILCS 9/35(a)(3)).",
-        "Dementia programs: the director and direct care staff must complete dementia and cognitive deficit training, with content set by rule (210 ILCS 9/150(f)(7)).",
-        "Verify professional licenses for positions requiring them (295.3000(n))."
+        "Before admission, a comprehensive assessment of physical, cognitive and psychosocial condition must be completed by a physician, PA or APRN (210 ILCS 9/15 as amended by P.A. 104-0589, effective 7/24/2026)",
+        "Repeat at least annually and on a significant change in condition, including a diagnosis of Alzheimer's or related dementia",
+        "IDPH may require more frequent skin-integrity and nutrition assessments by rule",
+        "The service plan is mutually agreed by the provider, resident and representative, and reviewed at least annually or when needs change",
+        "On request, give the resident or representative a copy of the latest assessment, any supplemental establishment assessment, and the service plan. Reconcile the 'physician' wording of 295.4000 with the Act"
       ]
     },
     {
-      "id": "STF-04",
-      "category": "Staffing and Personnel",
-      "title": "Employee Health and TB Screening",
+      "id": "CARE-02",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Mandatory and Optional Services Offered",
+      "covers": [
+        "295.500(a)(10)"
+      ],
       "citations": [
-        "C26",
+        "C30",
+        "C11",
+        "C3",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "List all mandatory services from 295.4020 (rule text not retrieved)",
+        "List each optional service the establishment offers, such as medication administration, with its fee",
+        "The list goes to IDPH with the license application and into the contract",
+        "Services may be provided directly or arranged with the resident's consent (210 ILCS 9/70)"
+      ]
+    },
+    {
+      "id": "CARE-03",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Communicable Disease, TB and Infection Prevention and Control",
+      "covers": [],
+      "citations": [
+        "C31",
         "C32",
         "C7"
       ],
@@ -1175,345 +960,1110 @@
         "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "Each direct care employee's file contains documentation of an initial health evaluation (295.3000(f)(2)).",
-        "Each employee's file contains documentation of freedom from pulmonary tuberculosis (295.3000(e)(2)(A)). Procedures: 295.3030 and 295.4050 (text not retrieved).",
-        "Keep employee health records for employment plus at least 12 months (295.3000(g))."
+        "Written communicable disease policies are required (295.4040). Content comes from the rule text (not retrieved)",
+        "TB skin test procedures follow 295.4050 (not retrieved)",
+        "Offer pneumococcal and influenza vaccine advice per 295.2000(i) if medication administration is not offered",
+        "Follow the OSHA bloodborne pathogens standard for exposure control",
+        "Report communicable disease outbreaks as required by public health rules"
       ]
     },
     {
-      "id": "STF-05",
-      "category": "Staffing and Personnel",
-      "title": "Personnel Records",
+      "id": "CARE-04",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Alzheimer's Disease and Dementia Care Programs",
+      "covers": [],
       "citations": [
-        "C7"
+        "C5",
+        "C33",
+        "C2",
+        "C1"
       ],
       "federal": [],
       "state_specifics": [
-        "Every employee file has: name, date of birth, home address, Social Security number and phone number; documentation of freedom from pulmonary TB, orientation and ongoing training; and start and end dates (295.3000(e)).",
-        "Direct care files add: current CPR certification where applicable, initial health evaluation, Background Check Act compliance, and the Nurse Aide Registry check (295.3000(f)).",
-        "Keep records throughout employment and at least 12 months after the last date of employment or service, longer if state or federal law requires (295.3000(g)).",
-        "Licensed staff: place a copy of the license verification in the file (295.3000(n))."
+        "An applicant must file the Alzheimer's/dementia special care disclosure document (210 ILCS 9/35(a)(7))",
+        "Assessments must use an IDPH-identified validated dementia-specific tool, approved by the physician or a PA/APRN with geriatric dementia experience, before acceptance, annually and on change in condition",
+        "Annual and change-of-condition dementia assessments must be signed by a physician",
+        "A special dementia program must disclose to IDPH and residents, ensure a designated representative, adopt wandering and evacuation safety policies, coordinate family communication, provide cognitive stimulation and activities, staff appropriately and train staff",
+        "Rule-level staffing and training numbers come from 295.4060 (not retrieved)"
       ]
     },
     {
-      "id": "STF-06",
-      "category": "Staffing and Personnel",
-      "title": "Staff Conduct and Professional Boundaries",
+      "id": "CARE-05",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Change of Condition, Physician Notification and Hospital Transfer",
+      "covers": [],
+      "citations": [
+        "C1",
+        "C20",
+        "C8",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A significant change in condition triggers a reassessment and service plan review (210 ILCS 9/15)",
+        "A health or medical decline alone is not a reportable incident (295.2050(a)), but any resulting serious harm is",
+        "Notify the representative or designated person per the contract policy",
+        "Re-evaluate against the 295.2000(c) exclusion criteria after any change",
+        "Document each notification in the resident record"
+      ]
+    },
+    {
+      "id": "CARE-06",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Falls Prevention and Skin Integrity",
+      "covers": [],
+      "citations": [
+        "C1",
+        "C20",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "IDPH may set more frequent skin-integrity and nutrition assessments by rule (210 ILCS 9/15)",
+        "Do not retain residents needing treatment of stage 3 or 4 decubitus ulcers (295.2000(c)(12))",
+        "A fall causing injury is a serious incident reportable within 24 hours",
+        "Include fall and skin risk in the service plan"
+      ]
+    },
+    {
+      "id": "CARE-07",
+      "category": "Subpart D – Resident Care and Services (§ 295.4000–295.4060)",
+      "title": "Hospice and Home Health Coordination; Death of a Resident",
+      "covers": [],
+      "citations": [
+        "C13",
+        "C1",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A terminally ill resident may stay if hospice is coordinated by a licensed hospice or licensed home-health professional and all parties agree (295.2000(f))",
+        "Revise the service plan with the hospice plan of care",
+        "Follow the contract notification policy on a resident's death",
+        "Resident funds, deposits and refunds are settled per the contract refund policy"
+      ]
+    },
+    {
+      "id": "MED-01",
+      "category": "Subpart E – Medications (§ 295.5000)",
+      "title": "Medication Reminders, Self-Administration Supervision, Administration, Storage and Disposal",
+      "covers": [],
+      "citations": [
+        "C3",
+        "C34",
+        "C6"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The Act defines medication reminders, supervision of self-administered medication and medication administration (210 ILCS 9/70)",
+        "Medication administration is by a licensed health care professional employed by the establishment",
+        "Storage and procedural requirements come from 295.5000 (not retrieved)",
+        "Describe the service level offered in the contract and service plan",
+        "P.A. 104-0589 amended Section 70, so review the current text"
+      ]
+    },
+    {
+      "id": "MED-02",
+      "category": "Subpart E – Medications (§ 295.5000)",
+      "title": "Certified Medication Aides and RN Delegation",
+      "covers": [],
+      "citations": [
+        "C3",
+        "C34"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A certified medication aide may administer medication under RN supervision and delegation per Nurse Practice Act Sec. 50-75",
+        "Excluded: Schedule II controlled substances and any subcutaneous, intramuscular, intradermal or IV medication",
+        "Supervision of self-administered medication is under a licensed professional, or under RN delegation for a certified medication aide",
+        "Verify each license and certification before assigning duties"
+      ]
+    },
+    {
+      "id": "RTS-01",
+      "category": "Subpart F – Resident Rights (§ 295.6000–295.6030)",
+      "title": "Resident Rights and Responsibilities",
+      "covers": [],
+      "citations": [
+        "C35",
+        "C43",
+        "C8"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)"
+      ],
+      "state_specifics": [
+        "The contract must list the Section 95 rights and state that signing does not forfeit them",
+        "Full rights text comes from 295.6000 and Section 95 (not retrieved)",
+        "Post and distribute rights at admission and keep a signed acknowledgment",
+        "Train staff on rights at orientation"
+      ]
+    },
+    {
+      "id": "RTS-02",
+      "category": "Subpart F – Resident Rights (§ 295.6000–295.6030)",
+      "title": "Abuse, Neglect and Financial Exploitation Prevention and Reporting",
+      "covers": [],
       "citations": [
         "C36",
-        "C7"
+        "C7",
+        "C14",
+        "C4"
       ],
       "federal": [],
       "state_specifics": [
-        "No Part 295 provision on staff conduct was retrieved. Tie this policy to the abuse, neglect and financial exploitation prevention rules (295.6010) and to employee exclusion for Registry findings (295.3000(m)).",
-        "Employee Assistance Programs are addressed in 295.3050. Text not retrieved."
+        "Reporting recipients, time frames and training come from 295.6010 (not retrieved)",
+        "Do not hire anyone with a Registry finding of abuse, neglect or misappropriation",
+        "Report serious harm to IDPH within 24 hours at DPH.LTCAL@illinois.gov",
+        "Protect residents from retaliation",
+        "Civil penalties up to $5,000 per violation per day"
       ]
     },
     {
-      "id": "STF-07",
-      "category": "Staffing and Personnel",
-      "title": "Director/Manager Qualifications, Training and Coverage",
+      "id": "RTS-03",
+      "category": "Subpart F – Resident Rights (§ 295.6000–295.6030)",
+      "title": "Resident's Representative and Advance Directives",
+      "covers": [],
       "citations": [
-        "C2",
-        "C24",
-        "C5"
+        "C37",
+        "C13",
+        "C8"
       ],
       "federal": [],
       "state_specifics": [
-        "Added policy. Statutory director qualifications are in 210 ILCS 9/35(a)(2); manager qualifications are in 295.3010 (text not retrieved).",
-        "The director must complete at least 20 hours of training every 2 years as a condition of licensure (210 ILCS 9/35).",
-        "Dementia programs: the director or administrator must complete dementia and cognitive deficit training per rule (210 ILCS 9/150(f)(7)).",
-        "Keep training certificates, qualification evidence and the named backup in the director's file."
+        "Representative rules come from 295.6030 (not retrieved)",
+        "A representative may sign the contract",
+        "A resident who cannot communicate needs requires an appointed representative who lives in the establishment with a prior relationship (295.2000(c)(2))",
+        "Keep advance directives in the resident record and note them in the service plan"
+      ]
+    },
+    {
+      "id": "RTS-04",
+      "category": "Subpart F – Resident Rights (§ 295.6000–295.6030)",
+      "title": "Grievances, Complaints and Ombudsman Access",
+      "covers": [],
+      "citations": [
+        "C8",
+        "C35",
+        "C43"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The contract must describe the complaint process and give notice of the Department on Aging Senior Helpline and the Long-Term Care Ombudsman Program",
+        "Give the Ombudsman access to residents",
+        "Log every grievance and its resolution and feed it to the QI program",
+        "No retaliation against a complainant"
+      ]
+    },
+    {
+      "id": "RTS-05",
+      "category": "Subpart F – Resident Rights (§ 295.6000–295.6030)",
+      "title": "Privacy, Confidentiality and HIPAA",
+      "covers": [],
+      "citations": [
+        "C35",
+        "C38"
+      ],
+      "federal": [
+        "45 CFR Parts 160 and 164"
+      ],
+      "state_specifics": [
+        "Restrict access to resident records to authorized staff",
+        "Release information only with authorization or as law permits",
+        "Apply HIPAA where the establishment is a covered entity, and confirm status",
+        "Report breaches per policy"
+      ]
+    },
+    {
+      "id": "RTS-06",
+      "category": "Subpart F – Resident Rights (§ 295.6000–295.6030)",
+      "title": "Nondiscrimination and Language Access",
+      "covers": [],
+      "citations": [
+        "C35",
+        "C43"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)",
+        "Title VI (42 USC 2000d)"
+      ],
+      "state_specifics": [
+        "Provide reasonable accommodations for disabilities",
+        "Provide interpreters or translated materials as needed",
+        "Admission decisions rest on the 295.2000 criteria, not protected characteristics",
+        "Title VI applies if federal funds (for example, SLP Medicaid) are received"
       ]
     },
     {
       "id": "REC-01",
-      "category": "Records",
+      "category": "Subpart G – Resident and Establishment Records (§ 295.7000–295.7010)",
       "title": "Resident Records and Retention",
+      "covers": [],
       "citations": [
         "C38",
         "C1",
-        "C8"
+        "C8",
+        "C44"
       ],
       "federal": [
-        "45 CFR 164.530"
+        "45 CFR Parts 160 and 164"
       ],
       "state_specifics": [
-        "Subpart G (295.7000-295.7010) governs resident and establishment records. Take the required contents and retention periods from the rule text, which was not retrieved.",
-        "The signed contract is maintained on the premises for the whole residency (295.2030(d)).",
-        "Resident file includes the comprehensive assessment, supplemental assessments, service plan and signed contract (210 ILCS 9/15; 295.2030). The IDPH on-site review examines specified file documents (295.2030(a)(20))."
+        "Retention periods come from 295.7000-7010 (not retrieved)",
+        "Keep the signed contract on premises",
+        "Keep assessments, service plans and the documents the annual on-site reviewer examines (295.2030(a)(20))",
+        "Keep incident reports one year and drill evaluations one year"
       ]
     },
     {
       "id": "REC-02",
-      "category": "Records",
-      "title": "Required Reports to the State",
+      "category": "Subpart G – Resident and Establishment Records (§ 295.7000–295.7010)",
+      "title": "Required Reports to IDPH and Annual On-Site Review",
+      "covers": [],
       "citations": [
-        "C10",
         "C20",
-        "C24",
-        "C2"
+        "C44",
+        "C10",
+        "C8"
       ],
       "federal": [],
       "state_specifics": [
-        "Annual license renewal application with fee, filed 120-150 days before expiration (210 ILCS 9/45).",
-        "Incident and accident reports per 295.2050 (text not retrieved).",
-        "Dementia disclosure document to IDPH if offering a special program (210 ILCS 9/35(a)(7); 150(f)(1)).",
-        "Manager changes to IDPH within 10 working days (per research; section not pinpointed, check 295.3010 and the Part).",
-        "Health Care Worker Background Check submissions to Illinois State Police within 10 working days (225 ILCS 46, per research).",
-        "If SLP-certified: quarterly quality-metric reporting through the HFS SLP portal (per research)."
+        "Serious incidents are reported within 24 hours by email to DPH.LTCAL@illinois.gov",
+        "The contract includes an IDPH statement on the annual on-site review process",
+        "Renewal is filed 120-150 days before expiration",
+        "Report manager changes within 10 working days (confirm in 295.3010)"
+      ]
+    },
+    {
+      "id": "FOOD-01",
+      "category": "Subpart H – Food Service (§ 295.8000)",
+      "title": "Food Service and Therapeutic Diets",
+      "covers": [],
+      "citations": [
+        "C39",
+        "C1",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Menu, diet and sanitation requirements come from 295.8000 (not retrieved)",
+        "Staffing must cover food service if provided (295.3000(h))",
+        "Food service employees need an initial health evaluation (295.3030)",
+        "IDPH may require periodic nutrition assessments"
+      ]
+    },
+    {
+      "id": "PP-01",
+      "category": "Subpart I – Physical Plant and Environmental Requirements (§ 295.9000–295.9040)",
+      "title": "Physical Plant, Units, Furnishings and Construction Plan Review",
+      "covers": [],
+      "citations": [
+        "C40",
+        "C16"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)"
+      ],
+      "state_specifics": [
+        "Standards are in 295.9000, 9005 (Units), 9010 (assisted living), 9020 (shared housing) and 9030 (Furnishings)",
+        "New construction or major alteration requires IDPH-approved drawings before work begins",
+        "IDPH gives a completeness notice within 10 working days and approves or disapproves within 45 calendar days",
+        "IDPH Design and Construction performs the pre-licensure survey"
+      ]
+    },
+    {
+      "id": "PP-02",
+      "category": "Subpart I – Physical Plant and Environmental Requirements (§ 295.9000–295.9040)",
+      "title": "Environmental Requirements, Housekeeping, Laundry and Maintenance",
+      "covers": [],
+      "citations": [
+        "C41",
+        "C7"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Environmental standards come from 295.9040 (not retrieved)",
+        "Heat index monitoring is tied to Table A",
+        "Staffing must cover environmental services (295.3000(h)(5))",
+        "Keep a preventive maintenance log"
+      ]
+    },
+    {
+      "id": "PP-03",
+      "category": "Subpart I – Physical Plant and Environmental Requirements (§ 295.9000–295.9040)",
+      "title": "Fire Safety, Life Safety Code and Evacuation",
+      "covers": [],
+      "citations": [
+        "C40",
+        "C19",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "IDPH Design and Construction conducts the Life Safety Code survey before licensure",
+        "Staffing must cover evacuation of residents (295.3000(h)(6))",
+        "Sufficient awake staff must be present to move impaired residents to safety",
+        "Test and document fire systems and keep tags current. Confirm the system requirements with IDPH and the local fire authority"
+      ]
+    },
+    {
+      "id": "GOV-01",
+      "category": "Governance and Administration",
+      "title": "Governing Body, Administrator Responsibilities and Policy Review",
+      "covers": [],
+      "citations": [
+        "C2",
+        "C16",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The licensee is responsible for compliance with the Act and Part 295",
+        "A full-time director/manager is required",
+        "Review policies annually and when rules change, including after P.A. 104-0589",
+        "Keep a version log"
+      ]
+    },
+    {
+      "id": "GOV-02",
+      "category": "Governance and Administration",
+      "title": "Regulatory Compliance, Surveys, Civil Penalties and Corporate Compliance",
+      "covers": [],
+      "citations": [
+        "C4",
+        "C10",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Civil penalty up to $5,000 per violation, each day a separate violation",
+        "Up to $3,000 per day for caring for a resident who exceeds the Act's care needs",
+        "Repeated technical infractions within a calendar year can become a Type 3 violation",
+        "Type 1/2 and Type 3 violation history affects 2-year renewal eligibility",
+        "Billing and fee practices must match the contract"
+      ]
+    },
+    {
+      "id": "GOV-03",
+      "category": "Governance and Administration",
+      "title": "Supportive Living Program Participation (if applicable)",
+      "covers": [],
+      "citations": [
+        "C15",
+        "C8"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Medicaid does not pay in IDPH-licensed assisted living or shared housing; the contract must say so",
+        "Applies only if HFS separately approves and certifies the site under 89 Ill. Adm. Code 146",
+        "HFS contact: 1-844-528-8444, HFS.SLF@illinois.gov",
+        "Omit this policy for private-pay-only operations"
+      ]
+    },
+    {
+      "id": "SAF-01",
+      "category": "Safety and Protection",
+      "title": "Elopement and Missing Resident",
+      "covers": [],
+      "citations": [
+        "C5",
+        "C19",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Dementia programs must adopt wandering and evacuation safety policies (210 ILCS 9/150)",
+        "Missing resident events with harm are serious incidents reportable within 24 hours",
+        "Staff must be awake and able to supervise at all times",
+        "Run a missing resident drill"
+      ]
+    },
+    {
+      "id": "SAF-02",
+      "category": "Safety and Protection",
+      "title": "Restraints and Restrictive Practices",
+      "covers": [],
+      "citations": [
+        "C35",
+        "C36",
+        "C43"
+      ],
+      "federal": [
+        "ADA (42 USC 12101 et seq.)"
+      ],
+      "state_specifics": [
+        "Resident rights (Section 95 and 295.6000) govern freedom from restraint; confirm the exact rule text",
+        "Do not restrain for staff convenience",
+        "Use of restraint harming a resident may be abuse",
+        "Document any resident-specific safety measure in a negotiated risk agreement or service plan"
+      ]
+    },
+    {
+      "id": "DL-01",
+      "category": "Daily Living",
+      "title": "Activities and Social Programming",
+      "covers": [],
+      "citations": [
+        "C5",
+        "C30"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Dementia programs must provide cognitive stimulation and activities (210 ILCS 9/150)",
+        "Offer activities suited to resident interests and abilities",
+        "Record optional activities and fees in the contract",
+        "Review participation in the QI program"
+      ]
+    },
+    {
+      "id": "DL-02",
+      "category": "Daily Living",
+      "title": "Transportation, Smoking, Visitors and Pets",
+      "covers": [],
+      "citations": [
+        "C23",
+        "C35",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Transportation arrangements and fees must be stated in the contract",
+        "Smoking rules must be written and shared at admission",
+        "Visiting is subject to resident rights and the essential support person rule",
+        "Pet rules are set by the establishment and must be disclosed in the contract",
+        "Shared housing staff absences for transport need safety coverage (295.3000(k))"
       ]
     }
   ],
   "forms": [
     {
-      "name": "Assisted Living / Shared Housing Establishment Contract (12-point type) with 295.2030 checklist",
-      "purpose": "Contract containing the 20 mandatory elements, Medicaid-not-available statement, Section 95 rights list, and IDPH annual on-site review statement",
+      "name": "License Application and Renewal Checklist",
+      "purpose": "Track 295.500 application items, fee, standard/floating election and the 120-150 day renewal window",
       "policy_ids": [
-        "RR-04",
-        "RR-01",
-        "GOV-06",
-        "GOV-05"
-      ]
-    },
-    {
-      "name": "30-Day Fee Change Notice",
-      "purpose": "Written notice before any fee or charge change (exception for documented service-plan changes)",
-      "policy_ids": [
-        "RR-04"
-      ]
-    },
-    {
-      "name": "Physician's Assessment Form (IDPH Appendix A, version 3) / current IDPH assessment form",
-      "purpose": "Pre-admission, annual and change-of-condition comprehensive assessment by a physician, PA or APRN (confirm current form with IDPH)",
-      "policy_ids": [
-        "ADM-01",
-        "ADM-02"
-      ]
-    },
-    {
-      "name": "Dementia-Specific Assessment Record and Physician Sign-Off",
-      "purpose": "Validated dementia-specific assessment; physician signature for annual and change-of-condition assessments",
-      "policy_ids": [
-        "HCS-05",
-        "ADM-02"
-      ]
-    },
-    {
-      "name": "Service Plan",
-      "purpose": "Written plan reflecting preferences, triggers and services, agreed by provider, resident and representative; annual review",
-      "policy_ids": [
-        "ADM-03",
-        "HCS-07"
-      ]
-    },
-    {
-      "name": "Negotiated Risk Agreement",
-      "purpose": "Documents a negotiated risk per 295.2070",
-      "policy_ids": [
-        "ADM-06"
-      ]
-    },
-    {
-      "name": "Resident's Representative Designation",
-      "purpose": "Records the designated representative",
-      "policy_ids": [
-        "RR-09",
-        "HCS-05"
-      ]
-    },
-    {
-      "name": "Essential Support Person Designation",
-      "purpose": "Records the designation and access terms per 295.2080",
-      "policy_ids": [
-        "RR-10",
-        "SAF-08"
-      ]
-    },
-    {
-      "name": "Alzheimer's/Dementia Special Care Disclosure Document",
-      "purpose": "Disclosure to IDPH and to prospective and actual residents",
-      "policy_ids": [
-        "HCS-05",
-        "GOV-02",
-        "REC-02"
-      ]
-    },
-    {
-      "name": "Discharge/Termination and Closure Notice",
-      "purpose": "Notice of termination of residency or establishment closure per 295.2010 and 295.2020",
-      "policy_ids": [
-        "ADM-05"
-      ]
-    },
-    {
-      "name": "Grievance/Complaint Log and Form",
-      "purpose": "Records complaints, response and resolution; lists Senior Helpline and Ombudsman",
-      "policy_ids": [
-        "RR-02",
-        "RR-03",
-        "GOV-04"
-      ]
-    },
-    {
-      "name": "Incident/Accident Report",
-      "purpose": "Reports and tracks incidents per 295.2050",
-      "policy_ids": [
-        "SAF-02",
-        "HCS-04",
-        "HCS-06",
-        "REC-02"
-      ]
-    },
-    {
-      "name": "Abuse, Neglect and Exploitation Report and Investigation Form",
-      "purpose": "Documents suspected abuse reports and follow-up",
-      "policy_ids": [
-        "SAF-01",
-        "STF-06"
-      ]
-    },
-    {
-      "name": "Medication Service Election and Authorization Record",
-      "purpose": "Records whether the resident gets reminders, supervision of self-administration or administration, and who may perform each",
-      "policy_ids": [
-        "HCS-01",
-        "HCS-02"
-      ]
-    },
-    {
-      "name": "Medication Administration Record (MAR) / Self-Administration Documentation",
-      "purpose": "Documents doses given, taken or refused",
-      "policy_ids": [
-        "HCS-01",
-        "HCS-02"
-      ]
-    },
-    {
-      "name": "RN Delegation and Medication Aide Certification Record",
-      "purpose": "Records RN delegation and supervision of certified medication aides",
-      "policy_ids": [
-        "HCS-02",
-        "HCS-03"
-      ]
-    },
-    {
-      "name": "Employee File Checklist",
-      "purpose": "Verifies all 295.3000(e)-(f) contents and retention",
-      "policy_ids": [
-        "STF-05",
-        "STF-03",
-        "STF-04"
-      ]
-    },
-    {
-      "name": "Nurse Aide Registry Verification",
-      "purpose": "Dated pre-hire registry check",
-      "policy_ids": [
-        "STF-02"
-      ]
-    },
-    {
-      "name": "Health Care Worker Background Check Tracking Log",
-      "purpose": "Tracks fingerprint submission within 10 working days and results",
-      "policy_ids": [
-        "STF-02",
-        "REC-02"
-      ]
-    },
-    {
-      "name": "Professional License Verification",
-      "purpose": "Verifies active license before employing a licensed professional",
-      "policy_ids": [
-        "STF-03",
-        "HCS-03"
-      ]
-    },
-    {
-      "name": "CPR Certification Tracker",
-      "purpose": "Ensures a CPR-certified direct care staff person is on every shift",
-      "policy_ids": [
-        "STF-01",
-        "STF-03"
-      ]
-    },
-    {
-      "name": "Personnel Schedule (Actual Hours Worked)",
-      "purpose": "Shows date, hours, name and position; kept 12 months",
-      "policy_ids": [
-        "STF-01"
-      ]
-    },
-    {
-      "name": "Employee Initial Health Evaluation and TB Documentation",
-      "purpose": "Documents the initial health evaluation and TB freedom",
-      "policy_ids": [
-        "STF-04",
-        "SAF-09"
-      ]
-    },
-    {
-      "name": "Director Training Log (20 hours per 2 years)",
-      "purpose": "Tracks licensure-condition training",
-      "policy_ids": [
-        "STF-07",
-        "GOV-01"
-      ]
-    },
-    {
-      "name": "Orientation and In-Service Training Sign-In and Curriculum Record",
-      "purpose": "Documents orientation and ongoing training, including dementia training",
-      "policy_ids": [
-        "STF-03",
-        "HCS-05"
-      ]
-    },
-    {
-      "name": "Disaster/Emergency Plan and Drill Log",
-      "purpose": "Documents the disaster plan and drills per 295.2040",
-      "policy_ids": [
-        "SAF-05",
-        "SAF-06"
-      ]
-    },
-    {
-      "name": "License Renewal Calendar (120-150 day window)",
-      "purpose": "Tracks renewal filing and 2-year renewal eligibility",
-      "policy_ids": [
-        "GOV-02",
-        "REC-02"
-      ]
-    },
-    {
-      "name": "Quality Improvement Meeting Minutes and Action Log",
-      "purpose": "Documents the QI program and risk management process",
-      "policy_ids": [
-        "GOV-04",
-        "GOV-06"
-      ]
-    },
-    {
-      "name": "IDPH Survey Correspondence and Deficiency Response Log",
-      "purpose": "Tracks survey findings and corrections",
-      "policy_ids": [
-        "GOV-06",
+        "APP-01",
         "GOV-02"
       ]
     },
     {
-      "name": "Policy Review and Revision Log",
-      "purpose": "Version control and regulatory-change log (P.A. 104-0589)",
+      "name": "Standard Establishment Contract (Assisted Living / Shared Housing)",
+      "purpose": "Contract meeting 295.2030, including Medicaid statement, rights list and IDPH on-site review statement",
       "policy_ids": [
-        "GOV-03"
+        "APP-02",
+        "CON-01",
+        "CON-02"
+      ]
+    },
+    {
+      "name": "Contract Compliance Checklist",
+      "purpose": "Verify all 295.2030(a) and (b) elements before filing",
+      "policy_ids": [
+        "APP-02",
+        "CON-01",
+        "CON-02"
+      ]
+    },
+    {
+      "name": "Fee Change 30-Day Written Notice",
+      "purpose": "Notice of fee or charge change",
+      "policy_ids": [
+        "CON-02"
+      ]
+    },
+    {
+      "name": "Admission Eligibility Screening Checklist (295.2000)",
+      "purpose": "Screen each applicant against the residency criteria",
+      "policy_ids": [
+        "RES-01",
+        "RES-02",
+        "RES-03"
+      ]
+    },
+    {
+      "name": "Pneumococcal/Influenza Vaccine Advice Acknowledgment",
+      "purpose": "Document pre-admission advice under 295.2000(i)",
+      "policy_ids": [
+        "RES-03"
+      ]
+    },
+    {
+      "name": "Termination of Residency Notice",
+      "purpose": "Notice of termination per 295.2010",
+      "policy_ids": [
+        "TERM-01"
+      ]
+    },
+    {
+      "name": "Closure Notification and Relocation Plan",
+      "purpose": "Notice and relocation planning",
+      "policy_ids": [
+        "CLO-01"
+      ]
+    },
+    {
+      "name": "Written Disaster Plan and Resident Special-Needs Addendum",
+      "purpose": "Plan revised when residents with unusual needs are admitted",
+      "policy_ids": [
+        "DIS-01",
+        "DIS-02"
+      ]
+    },
+    {
+      "name": "Temperature and Heat Index Log",
+      "purpose": "Monitor 55°F and 80°F thresholds",
+      "policy_ids": [
+        "DIS-02"
+      ]
+    },
+    {
+      "name": "Drill Record and Written Drill Evaluation",
+      "purpose": "Evaluation to manager, kept one year",
+      "policy_ids": [
+        "DIS-03",
+        "PP-03"
+      ]
+    },
+    {
+      "name": "Serious Incident / Accident Report",
+      "purpose": "24-hour IDPH report; copy kept one year",
+      "policy_ids": [
+        "INC-01",
+        "REC-02"
+      ]
+    },
+    {
+      "name": "QI Meeting Minutes and Resident Satisfaction Survey",
+      "purpose": "Evidence of ongoing QI program",
+      "policy_ids": [
+        "QI-01"
+      ]
+    },
+    {
+      "name": "Negotiated Risk Agreement",
+      "purpose": "Document informed resident risk choices",
+      "policy_ids": [
+        "NRA-01"
+      ]
+    },
+    {
+      "name": "Essential Support Person Designation",
+      "purpose": "Record designation",
+      "policy_ids": [
+        "ESP-01"
+      ]
+    },
+    {
+      "name": "Personnel Schedule (actual hours worked)",
+      "purpose": "Retain 12 months after last schedule date",
+      "policy_ids": [
+        "PER-01",
+        "PER-02"
+      ]
+    },
+    {
+      "name": "Employee File Checklist",
+      "purpose": "Verify 295.3000(e) and (f) items",
+      "policy_ids": [
+        "PER-03"
+      ]
+    },
+    {
+      "name": "Nurse Aide Registry Check Log and License Verification",
+      "purpose": "Pre-hire checks",
+      "policy_ids": [
+        "PER-04"
+      ]
+    },
+    {
+      "name": "Background Check Tracking (fingerprint submission within 10 working days)",
+      "purpose": "Health Care Worker Background Check Act tracking",
+      "policy_ids": [
+        "PER-04"
+      ]
+    },
+    {
+      "name": "CPR Certification Tracker",
+      "purpose": "Track adult CPR certification and shift coverage",
+      "policy_ids": [
+        "PER-02"
+      ]
+    },
+    {
+      "name": "Orientation and In-Service Training Record",
+      "purpose": "Document training",
+      "policy_ids": [
+        "PER-06"
+      ]
+    },
+    {
+      "name": "Initial Health Evaluation and TB Documentation",
+      "purpose": "Employee health file items",
+      "policy_ids": [
+        "PER-07",
+        "CARE-03"
+      ]
+    },
+    {
+      "name": "Physician's Assessment Form (Appendix A) / Comprehensive Assessment",
+      "purpose": "Pre-admission and annual assessment by physician, PA or APRN",
+      "policy_ids": [
+        "CARE-01",
+        "CARE-04"
+      ]
+    },
+    {
+      "name": "Service Plan",
+      "purpose": "Mutually agreed plan reviewed at least annually",
+      "policy_ids": [
+        "CARE-01",
+        "CARE-02"
+      ]
+    },
+    {
+      "name": "Medication Administration Record and Delegation Log",
+      "purpose": "Medication administration and RN delegation",
+      "policy_ids": [
+        "MED-01",
+        "MED-02"
       ]
     },
     {
       "name": "Resident Rights Acknowledgment",
-      "purpose": "Documents that rights and the complaint process were given",
+      "purpose": "Signed rights notice",
       "policy_ids": [
-        "RR-01",
-        "RR-02"
+        "RTS-01",
+        "RTS-04"
+      ]
+    },
+    {
+      "name": "Grievance and Complaint Log",
+      "purpose": "Track complaints and resolution",
+      "policy_ids": [
+        "RTS-04",
+        "QI-01"
+      ]
+    },
+    {
+      "name": "Abuse/Neglect Allegation Report and Investigation",
+      "purpose": "Document reporting and investigation",
+      "policy_ids": [
+        "RTS-02"
+      ]
+    },
+    {
+      "name": "Alzheimer's/Dementia Special Care Disclosure",
+      "purpose": "Disclosure to IDPH and residents",
+      "policy_ids": [
+        "CARE-04"
       ]
     }
-  ]
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "Assisted Living and Shared Housing Establishment Code (Part 295), Subpart B – Policies (§§ 295.2000–295.2080), with the policy-content sections of Subparts A and C",
+        "form_number": "None. IDPH publishes no policy checklist, plan-of-operation form or provider-manual checklist for this license. The regulation sections are used instead.",
+        "issuer": "Illinois Department of Public Health (IDPH), Division of Assisted Living",
+        "version": "77 Ill. Adm. Code 295 as amended through 48 Ill. Reg. 12026, eff. 7/29/2024. § 295.500 was last amended at 47 Ill. Reg. 13264, eff. 8/30/2023. § 295.3000 was last amended in 2004.",
+        "url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=07700295",
+        "how_used": "<cite index=\"1-1\">IDPH's Assisted Living page lists only a complaint form, involuntary-termination forms and a Life Safety Code inspection request.</cite> I found no policy-review checklist or application packet on it. Items below come from the Part 295 sections that list required written policies and plans. I fetched § 295.500, § 295.2000 and § 295.3000 in full. § 295.2030, § 295.2040, § 295.2050 and § 295.2060 came from search excerpts, so they are partial or condensed. Cornell LII mirrors: https://www.law.cornell.edu/regulations/illinois/title-77/part-295/subpart-B and https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-77-SS-295.3000"
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "295.500(a)(5)",
+        "text": "Verification that the establishment has entered or will enter into a service delivery contract as provided in Section 295.2030 with each resident or resident's representative.",
+        "cite": "77 Ill. Adm. Code 295.500(a)(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.500(a)(8)",
+        "text": "Proof of an ongoing quality improvement program in accordance with Section 295.2060.",
+        "cite": "77 Ill. Adm. Code 295.500(a)(8)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.500(a)(10)",
+        "text": "Information about the mandatory and optional services to be provided at the establishment.",
+        "cite": "77 Ill. Adm. Code 295.500(a)(10)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.500(a)(12)",
+        "text": "A copy of the standard contract offered to residents.",
+        "cite": "77 Ill. Adm. Code 295.500(a)(12)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.500(b)",
+        "text": "The application shall indicate a request for either standard licensure or floating licensure. A floating-license application shall comply with Section 32 of the Act and Section 295.1110.",
+        "cite": "77 Ill. Adm. Code 295.500(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(a)",
+        "text": "No individual shall be accepted for residency or remain in residence if the establishment cannot provide or secure appropriate services. The same applies if the individual needs a level or type of service the establishment is not licensed for or does not provide, or if it lacks staff appropriate in numbers and skill.",
+        "cite": "77 Ill. Adm. Code 295.2000(a); Act Sec. 75(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(b)",
+        "text": "Only adults may be accepted for residency.",
+        "cite": "77 Ill. Adm. Code 295.2000(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(1)",
+        "text": "Not accepted if the person poses a serious threat to themselves or others.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(2)",
+        "text": "Not accepted if the person cannot communicate their needs in any manner and no resident representative residing in the establishment, with a prior relationship to the person, has been appointed to direct services.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(3)",
+        "text": "Not accepted if the person requires total assistance with 2 or more activities of daily living.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(4)",
+        "text": "Not accepted if the person requires the assistance of more than one paid caregiver at any given time with an activity of daily living.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(5)",
+        "text": "Not accepted if the person requires more than minimal assistance in moving to a safe area in an emergency. Minimal assistance means the resident can respond, with or without assistance, to protect themselves given the staffing and construction of the building.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(6)",
+        "text": "Not accepted if the person has a severe mental illness as defined in the Section (DSM-5-TR major mental disorder with substantial disability expected to last at least one year). Alzheimer's disease and other dementias based on organic or physical disorders are excluded from this definition. A diagnosis of depression alone does not bar residency unless the resident is substantially disabled in the listed areas.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(7)",
+        "text": "Not accepted if the person requires intravenous therapy or feedings, unless self-administered or administered by a qualified, licensed health care professional.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(8)",
+        "text": "Not accepted if the person requires gastrostomy feedings, unless self-administered or administered by a licensed health care professional.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(8)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(9)",
+        "text": "Not accepted if the person requires insertion, sterile irrigation and replacement of a catheter, except routine maintenance of urinary catheters, unless care is self-administered or administered by a licensed health care professional.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(9)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(10)",
+        "text": "Not accepted if the person requires sterile wound care, unless self-administered or administered by a licensed health care professional.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(10)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(11)",
+        "text": "Not accepted if the person is a diabetic requiring routine insulin injections, unless self-administered or administered by a licensed health care professional.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(11)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(12)",
+        "text": "Not accepted if the person requires treatment of stage 3 or stage 4 decubitus ulcers or exfoliative dermatitis.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(12)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(c)(13)",
+        "text": "Not accepted if the person requires 5 or more skilled nursing visits per week for conditions other than those in (c)(12), for 3 consecutive weeks or more. The exception is a course of treatment expected to extend beyond 3 weeks for rehabilitative purposes and certified as temporary by a physician.",
+        "cite": "77 Ill. Adm. Code 295.2000(c)(13)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(d)",
+        "text": "A resident with a condition listed in subsection (c) shall have residency terminated in accordance with Section 295.2010.",
+        "cite": "77 Ill. Adm. Code 295.2000(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(e)",
+        "text": "Residency shall be terminated in accordance with Section 295.2010 when services available in the establishment are no longer adequate to meet the resident's needs. This does not limit the Department's authority to require termination of residency.",
+        "cite": "77 Ill. Adm. Code 295.2000(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(f)",
+        "text": "Subsection (d) does not apply to terminally ill residents who receive or would qualify for hospice care coordinated by a licensed hospice program or by a licensed health care professional employed by a licensed home health agency, when the establishment and all parties agree to continued residency.",
+        "cite": "77 Ill. Adm. Code 295.2000(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(g)",
+        "text": "Subsections (c)(3), (4), (5) and (9) do not apply to quadriplegic or paraplegic individuals, or those with neuro-muscular diseases or other chronic conditions. This holds if the individual can communicate their needs, does not need assistance with complex medical problems, and the establishment can accommodate their needs.",
+        "cite": "77 Ill. Adm. Code 295.2000(g)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(h)",
+        "text": "For (c)(7)–(10), the licensed health care professional may not be employed by the owner or operator, its parent entity, or any entity with common ownership, including affiliates. Nothing limits a resident's right to choose their health care provider.",
+        "cite": "77 Ill. Adm. Code 295.2000(h)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2000(i)",
+        "text": "Before admission to an establishment that does not provide medication administration as an optional service, the establishment shall advise the prospective resident to consult a physician about pneumococcal pneumonia and/or influenza vaccination.",
+        "cite": "77 Ill. Adm. Code 295.2000(i); Act Sec. 76",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(a)",
+        "text": "The contract must be entitled \"assisted living establishment contract\" or \"shared housing establishment contract\" as applicable. It must be printed in no less than 12 point type and include at least the listed elements (a)(1)–(6) in the body or in supporting documents or attachments. The excerpt I retrieved showed (a)(1), (a)(4), (a)(5) and (a)(6).",
+        "cite": "77 Ill. Adm. Code 295.2030(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(a)(1)",
+        "text": "The name, street address and mailing address of the establishment.",
+        "cite": "77 Ill. Adm. Code 295.2030(a)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(a)(4)",
+        "text": "The name and address of at least one natural person authorized to accept service on behalf of the owners and managing agent.",
+        "cite": "77 Ill. Adm. Code 295.2030(a)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(a)(5)",
+        "text": "A statement describing the establishment's license status and the license status of all providers of health-related or supportive services to a resident under arrangement with the establishment.",
+        "cite": "77 Ill. Adm. Code 295.2030(a)(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(a)(6)",
+        "text": "The duration of the contract.",
+        "cite": "77 Ill. Adm. Code 295.2030(a)(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(b)(1)",
+        "text": "<cite index=\"46-4\">Terms of occupancy, including resident responsibilities and obligations.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2030(b)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(b)(2)",
+        "text": "<cite index=\"46-4\">The amount and purpose of any fee, charge and deposit, including any fee or charge for days a resident is absent.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2030(b)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(b)(3)",
+        "text": "<cite index=\"46-4\">The establishment's policy for refunding fees, charges or deposits.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2030(b)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(b)(4)",
+        "text": "<cite index=\"46-4,46-5\">The establishment's responsibility to give at least 30 days written notice before any change in a fee or charge. A licensee need not give 30 days notice of an increase for a resident whose service needs change, as documented in the service plan.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2030(b)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2030(b)(5)",
+        "text": "<cite index=\"46-5\">The establishment's policy concerning notification of a relative or other individual in an emergency, significant change in the resident's condition, or termination of residency.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2030(b)(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(b)(1)",
+        "text": "<cite index=\"16-5\">Have a written plan for protection of all persons in the event of disasters, for keeping persons in place, for evacuating persons to areas of refuge, and for evacuating persons from the building when necessary.</cite> <cite index=\"16-6,16-7\">The plan shall address the physical and cognitive needs of residents and include special staff response, including procedures needed to ensure the safety of any resident. It shall be amended or revised whenever a resident with unusual needs is admitted.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2040(b)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(b)(1)(A)",
+        "text": "<cite index=\"18-6\">Provide for the temporary relocation of residents for any disaster requiring relocation.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2040(b)(1)(A)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(b)(1)(B)",
+        "text": "<cite index=\"18-6\">Provide for the movement of residents to safe locations within the establishment in the event of a tornado warning or severe thunderstorm warning issued by the National Weather Service.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2040(b)(1)(B)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(b)(1)(C)",
+        "text": "<cite index=\"16-8\">Provide for the temporary relocation of residents any time the temperature in residents' bedrooms falls below 55°F for 12 hours or more because of a mechanical problem or loss of power.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2040(b)(1)(C)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(b)(1)(D)",
+        "text": "<cite index=\"16-8\">Provide for the health, safety, welfare and comfort of all residents when the heat index/apparent temperature (Section 295.Table A) inside living, dining, activities or sleeping areas exceeds 80°F.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2040(b)(1)(D)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(b)(1)(E)",
+        "text": "<cite index=\"16-8\">Address power outages.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2040(b)(1)(E)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2040(h)",
+        "text": "<cite index=\"16-8\">A written evaluation of each drill shall be submitted to the establishment manager and maintained for one year from the date of the drill.</cite> The evaluation content list was cut off in the excerpt I retrieved.",
+        "cite": "77 Ill. Adm. Code 295.2040(h)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2050(a)",
+        "text": "<cite index=\"27-2,27-3\">An establishment shall report to the Department any serious incident or accident. \"Serious\" means any incident or accident that causes physical or emotional harm or injury to a resident.</cite> <cite index=\"27-4\">A change in a resident's condition due to health or medical decline is not a reportable incident or accident.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2050(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2050(b)",
+        "text": "<cite index=\"27-5\">The report shall be made to the IDPH Division of Assisted Living by email at DPH.LTCAL@illinois.gov, or as the Department requests, within 24 hours after the incident or accident.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2050(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2050(c)",
+        "text": "<cite index=\"27-6\">A copy of the report shall be maintained by the establishment for one year after the date of the incident or accident.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2050(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2060(a)",
+        "text": "<cite index=\"60-3,60-4\">The establishment shall establish an effective quality improvement program covering oversight and monitoring, resident satisfaction, and ongoing quality improvement and implementation of any plan for improved quality services. The process must benchmark performance, be customer centered, be data driven, and focus on resident satisfaction.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2060(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.2060(b)",
+        "text": "<cite index=\"60-6\">A system shall be in place to facilitate the detection of issues and problems, to expedite the implementation of action, and to resolve problems.</cite>",
+        "cite": "77 Ill. Adm. Code 295.2060(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(a)",
+        "text": "The establishment shall have staff sufficient in number, with qualifications, adequate skills, education and experience, to meet the 24-hour scheduled and unscheduled needs of residents. Staff shall take part in ongoing training to serve the resident population.",
+        "cite": "77 Ill. Adm. Code 295.3000(a); Act Sec. 35(a)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(b)",
+        "text": "At least one direct care staff person with current adult CPR certification, including a demonstration of ability, shall be on duty at all times.",
+        "cite": "77 Ill. Adm. Code 295.3000(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(c)",
+        "text": "At the starting date of employment, each direct care staff member shall be 16 years of age or older.",
+        "cite": "77 Ill. Adm. Code 295.3000(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(d)",
+        "text": "Job descriptions shall define the minimum education and experience requirements for staff.",
+        "cite": "77 Ill. Adm. Code 295.3000(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(e)",
+        "text": "A file shall be maintained for each employee containing: (1) name, date of birth, home address, Social Security number and telephone number; (2) documentation of (A) freedom from pulmonary tuberculosis, (B) employee orientation and (C) ongoing training; and (3) starting and ending dates of employment.",
+        "cite": "77 Ill. Adm. Code 295.3000(e)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(f)",
+        "text": "The file for each direct care employee shall also contain documentation of: (1) current CPR certification, if applicable; (2) initial health evaluation; (3) compliance with the Health Care Worker Background Check Act; and (4) that the employer checked the employee's status with the Nurse Aide Registry.",
+        "cite": "77 Ill. Adm. Code 295.3000(f)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(g)",
+        "text": "Records required by this Section shall be maintained throughout employment or service and for at least 12 months after the last date of employment or service, unless State or federal law requires longer.",
+        "cite": "77 Ill. Adm. Code 295.3000(g)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(h)",
+        "text": "Sufficient personnel to provide for the current resident population: (1) all mandatory services; (2) services in each resident's service plan; (3) service to meet each resident's needs, including 24-hour scheduled and unscheduled needs, general supervision and the ability to intervene in a crisis; (4) food services, if provided; (5) environmental services; (6) evacuation of residents during emergencies; and (7) any optional services stated in the service plan.",
+        "cite": "77 Ill. Adm. Code 295.3000(h)(1)-(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(i)",
+        "text": "The personnel schedule shall: (1) indicate date, scheduled work hours, and name and position of each employee assigned; (2) reflect actual work hours; and (3) be maintained and available on request for at least 12 months after the last date on the schedule.",
+        "cite": "77 Ill. Adm. Code 295.3000(i)(1)-(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(j)",
+        "text": "If the establishment accepts individuals with impairments that prevent them from independently moving to an area of safety, sufficient staff must be present and awake to enable these residents to move to a safe area 24 hours per day.",
+        "cite": "77 Ill. Adm. Code 295.3000(j)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(k)",
+        "text": "Shared housing establishments shall have at least one staff member on site at all times. The only exceptions are brief absences, such as an emergency room trip or grocery trip. In those cases, arrangements shall be made to monitor resident safety in accordance with the service delivery plan.",
+        "cite": "77 Ill. Adm. Code 295.3000(k)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(l)",
+        "text": "Assisted living establishments shall have at least one staff member awake, on duty and on site 24 hours per day.",
+        "cite": "77 Ill. Adm. Code 295.3000(l)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(m)",
+        "text": "The establishment shall check all applicants with the Nurse Aide Registry before hiring. It is prohibited from hiring anyone with a finding of abuse, neglect or misappropriation of property on the Registry.",
+        "cite": "77 Ill. Adm. Code 295.3000(m)",
+        "doc": 0
+      },
+      {
+        "item_id": "295.3000(n)",
+        "text": "Before employing anyone in a position that requires a State professional license, the establishment shall contact the Illinois Department of Professional Regulation to verify the license is active. A copy of the verification goes in the personnel file.",
+        "cite": "77 Ill. Adm. Code 295.3000(n)",
+        "doc": 0
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "Subpart A – General Provisions: § 295.500 Application for License (policy/program-content items only)",
+        "Subpart B – Policies: § 295.2000 Residency Requirements",
+        "Subpart B – Policies: § 295.2010 Termination of Residency (not retrieved)",
+        "Subpart B – Policies: § 295.2020 Notice of Closure (not retrieved)",
+        "Subpart B – Policies: § 295.2030 Establishment Contracts",
+        "Subpart B – Policies: § 295.2040 Disaster Preparedness",
+        "Subpart B – Policies: § 295.2050 Incident and Accident Reporting",
+        "Subpart B – Policies: § 295.2060 Quality Improvement Program",
+        "Subpart B – Policies: § 295.2070 Negotiated Risk Agreement (not retrieved)",
+        "Subpart B – Policies: § 295.2080 Essential Support Persons (not retrieved)",
+        "Subpart C – Personnel: § 295.3000 Personnel Requirements, Qualifications and Training",
+        "Subparts D–I (not retrieved): Resident Care and Services (§ 295.4000–295.4060), Medications (§ 295.5000), Resident Rights (§ 295.6000–295.6030), Records (§ 295.7000–295.7010), Food Service (§ 295.8000), Physical Plant (§ 295.9000–295.9040)"
+      ]
+    },
+    "notes": "No single IDPH document exists. IDPH publishes no policy checklist or provider-manual packet for this license, and the application is submitted on Department-provided forms under § 295.500. The list above is therefore built from the regulation sections that require written policies and plans, and it is incomplete. Retrieved in full: § 295.500(a), § 295.2000 and § 295.3000. Retrieved only as search excerpts: § 295.2030 (items (a)(2), (a)(3) and any items past (b)(5) were not shown), § 295.2040 (a partial list of plan elements; (b)(2) onward and the drill-evaluation contents were not shown), § 295.2050 and § 295.2060 (subsections (c) and (d) of § 295.2060 are evidentiary and violation-citation rules, not policy content, so I left them out). Not retrieved at all: §§ 295.2010, 295.2020, 295.2070 and 295.2080, § 295.3010–3050 (including training), Subpart D (including infection control, § 295.4045, which the excerpt shows requiring written policies for investigating, controlling, preventing and testing for infections), Subpart E (medications), Subpart F (resident rights), Subpart G (records), Subpart H (food service/menus) and § 295.2060's cross-references. Fetch those on ilga.gov or law.cornell.edu before relying on this list. Items are paraphrased in part and may not match the rule text word for word, so verify against the official text. ILGA's EntirePart page was blocked during retrieval, and the Cornell LII mirrors were used for the full texts. The Act was amended by Public Act 104-0589 (effective 7/24/2026), and I did not review it for changes to these items. Expected organization: the rules do not prescribe a manual format. A practical manual follows the Part 295 section order above, with one policy per rule section and the rule citation printed on each policy. At the application stage, the proof of the quality improvement program (§ 295.500(a)(8)), the service and contract documents (§ 295.500(a)(10) and (12)) and the disaster plan are the policy-type items the Department checks. Medicaid payment is a separate track. The HFS Supportive Living Program (89 Ill. Adm. Code 146) has its own application and was not reviewed here."
+  },
+  "plan_version": 2
 }

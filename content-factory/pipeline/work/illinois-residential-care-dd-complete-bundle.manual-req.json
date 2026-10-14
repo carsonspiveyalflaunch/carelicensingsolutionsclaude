@@ -324,392 +324,1150 @@
   "policies": [
     {
       "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Organization, Governing Body and Authorized CILA Agency Representative Responsibilities",
+      "category": "a) Governing body",
+      "title": "Governing Body Authority and Responsibilities",
+      "covers": [
+        "115.320(a)(1)"
+      ],
       "citations": [
-        "C4",
         "C18",
-        "C22"
+        "C4",
+        "C22",
+        "C42"
       ],
       "federal": [],
       "state_specifics": [
-        "Corporate, association or local-government providers need a governing body with authority over the agency and all its programs, services, facilities and residences (115.320(a)(1)).",
-        "Provide a way for individuals, guardians and representatives to give input to the governing body (115.320(a)(2)).",
-        "The governing body appoints the Authorized CILA Agency Representative, who has overall fiscal and programmatic responsibility (115.120). That person signs and dates the license and renewal applications (115.410(a)(4)).",
-        "Keep an organizational chart, staffing patterns and staff qualifications (submitted with the application, 115.410(a)(3)(E)).",
-        "Maximum 8 individuals per CILA site.",
-        "Rule 115 contains no licensure staff ratio. Staffing is driven by Personal Plans and Implementation Strategies."
+        "The governing body holds authority and responsibility for the organization, management, control and operation of the CILA agency and all programs, services, facilities and residences.",
+        "It appoints the Authorized CILA Agency Representative, who receives critical-incident trends (see CI-01).",
+        "It approves the policy manual, the QA plan (QA-01) and the annual review of rights-restricting policies.",
+        "Sole-proprietor or owner-operated agencies document who exercises these functions. The rule text covers corporations, associations and local governments."
       ]
     },
     {
       "id": "GOV-02",
-      "category": "Governance and Administration",
-      "title": "Licensure, Site Certification and Provider Agreements (BALC / DDD)",
-      "citations": [
-        "C1",
-        "C2",
-        "C17",
-        "C22",
-        "C31",
-        "C38",
-        "C33"
+      "category": "a) Governing body",
+      "title": "Input from Individuals, Guardians and Representatives to the Governing Body",
+      "covers": [
+        "115.320(a)(2)"
       ],
-      "federal": [
-        "42 CFR 441.301(c)(4)"
-      ],
-      "state_specifics": [
-        "BALC licenses the agency and certifies each site. BALC contact: 401 S. Clinton, 7th Floor, Chicago, IL 60607; 312-814-5310; DHS.BALC@illinois.gov (confirm email spelling).",
-        "Application fee is $200 and nonrefundable (statutory cap per 210 ILCS 135/4).",
-        "Renewal application is due at least 120 days before the license expires, after Department notice (115.410(c)).",
-        "Notify BALC and DDD within 60 business days of any ownership change (115.410(d)).",
-        "The agency must be operational within 18 months or the process is treated as abandoned (115.410(e)).",
-        "Provisional license is for up to one year, one site, up to 8 people. BALC inspects a new site before occupancy, within 15 working days of receiving fire clearances and documents. BALC makes an unannounced visit within a year of first admission and a site visit within six months, and a passing agency gets a 3-year permanent license. HB5471 would shorten the term and its status is unverified.",
-        "DDD enrollment steps wait for BALC's provisional license notice. IMPACT enrollment is required before Medicaid reimbursement.",
-        "Proximity limits and the 25% building cap (115.310) apply to every new site. File any proximity waiver before leasing, buying or taking possession."
-      ]
-    },
-    {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review and Document Control",
-      "citations": [
-        "C22",
-        "C42",
-        "C16",
-        "C14"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Policies and procedures are part of the license application (115.410(a)(3)(D)). Failing the BALC policy review bars reapplying for one calendar year (IDHS New Provider Guidance).",
-        "Review the disaster preparedness plan at least annually and revise as needed (115.300(c)(8)).",
-        "Keep admission policies in writing and available for review.",
-        "Keep a copy of the restraint policy (115.245).",
-        "Reflect the amended Part 115 effective 5/31/2023, including person-centered planning and conflict-free case management. Do not rely on older BALC templates.",
-        "Keep a version log with approver, date and next review date."
-      ]
-    },
-    {
-      "id": "GOV-04",
-      "category": "Governance and Administration",
-      "title": "Quality Improvement, Data Review and Mortality Review",
-      "citations": [
-        "C20",
-        "C4",
-        "C14"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Follow the monitoring and evaluation requirements of 115.325 (text to be pinned).",
-        "Review at least quarterly: critical incidents (including CIRAS entries), injuries, peer-to-peer aggression, restraint use, unscheduled hospitalizations, missing-person events, rights complaints and survey findings.",
-        "Every death gets an internal mortality review. Deaths are critical incidents (115.120). No Part 115 mortality-review procedure was located, so this is agency practice.",
-        "Refer restraint use and behavior modifications to the Behavior Management/Human Rights Committee (115.245).",
-        "Document corrective actions and track them to closure. Keep deficiency corrections available for BALC/DDD."
-      ]
-    },
-    {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
-      "title": "Medicaid Compliance, Billing and Service Documentation",
-      "citations": [
-        "C33",
-        "C38",
-        "C5",
-        "C36",
-        "C37",
-        "C39",
-        "C32"
-      ],
-      "federal": [
-        "42 USC 1396b(l) (EVV, only if applicable)",
-        "42 CFR 441.301(c)"
-      ],
-      "state_specifics": [
-        "CILA services are paid under waiver IL.0350.R05.04 (HFS Medicaid agency, IDHS-DDD operating agency) through IMPACT. Bill only services identified in the individual's Personal Plan.",
-        "CILA rates are individually determined (program codes 60D for 24-hour/host family, 61H for intermittent). Get each person's rate letter before admission.",
-        "The CILA rate does not include day program costs. Day programs are billed separately (115.200).",
-        "Documentation must support each billed day and show services delivered per the Implementation Strategy.",
-        "EVV: required for IMPACT providers billing personal care or home health care. Whether 60D/61H claims are covered is unverified, so ask DDD in writing. If covered, quarterly compliance must stay above 75% from 4/1/2026.",
-        "Keep the wage pass-through certification and payroll records for each DDD rate increase.",
-        "Medicaid does not pay room and board, so residents pay it from income such as SSI."
-      ]
-    },
-    {
-      "id": "GOV-06",
-      "category": "Governance and Administration",
-      "title": "Agency Closure, Independent Monitors and Receiverships",
-      "citations": [
-        "C4",
-        "C21"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The Department may assign an Independent Monitor (not Department or State staff) when the agency operates without a license or the license is suspended, revoked or not renewed. Other triggers: notice to end or not renew the DDD agreement, a closure without adequate transition arrangements at least 30 days beforehand, an emergency threat to health or safety the agency cannot or will not fix, or termination from Medicaid (115.120).",
-        "A court-appointed Receiver takes custody of an unlicensed or sanctioned agency and cannot be an owner or affiliate (115.120).",
-        "Closure plan: notify BALC/DDD, ISC agencies, individuals and guardians; arrange transition at least 30 days before closure; transfer records under the Confidentiality Act.",
-        "Cooperate with monitors, who observe operations, advise on compliance and report to the Department.",
-        "Section 115.326 text was not retrieved; pull it before finalizing."
-      ]
-    },
-    {
-      "id": "IR-01",
-      "category": "Individual Rights",
-      "title": "Individual Rights and HCBS Settings Requirements",
-      "citations": [
-        "C15",
-        "C28",
-        "C5",
-        "C32",
-        "C22"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)",
-        "42 CFR 441.301(c)(2)(i)"
-      ],
-      "state_specifics": [
-        "Share and explain the current Rights of Individuals form (IL 462-1201) with the individual and guardian at entry and annually. Document that it was done.",
-        "Rights follow Chapter II of the Mental Health and DD Code. Seclusion is not permitted.",
-        "Right to remain in the CILA unless the person voluntarily withdraws or meets the 115.215 termination criteria.",
-        "Right to contact GAC, Equip for Equality, the DHS OIG, the Department and the agency human rights committee. Staff offer help and give each person the address and telephone number of GAC, OIG, the Department and Equip for Equality (confirm current numbers before posting).",
-        "Right to choose private physicians and professionals, documented in the plan.",
-        "The setting supports community integration, control of personal resources, privacy, dignity and respect, and freedom from coercion. It must not be an institutional-type setting (441.301(c)(5)(v)). Provider-owned or controlled sites meet 441.301(c)(4)(vi)(A)-(E): residency agreement, privacy and lockable bedroom doors, control of schedule and access to food, visitors at any time, and physical accessibility."
-      ]
-    },
-    {
-      "id": "IR-02",
-      "category": "Individual Rights",
-      "title": "Rights Restrictions, Modifications and Due Process",
-      "citations": [
-        "C15",
-        "C14",
-        "C12",
-        "C32"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(F)"
-      ],
-      "state_specifics": [
-        "Restrictions are allowed only as an individualized modification in the Personal Plan and Implementation Strategy. The strategy states periods of time and activity restrictions at home and the locations and time frames for community access (115.230).",
-        "Include an assurance that interventions and supports will cause no harm.",
-        "Restrictive behavior supports need Behavior Management/Human Rights Committee approval (115.245).",
-        "Restrictions may not be used for staff convenience or staffing concerns (115.230).",
-        "Seclusion, time-out and aversive procedures are prohibited (115.250).",
-        "Document informed consent from the individual or guardian, review the restriction on a set schedule, and give the individual a way to contest it (grievance, ISC, GAC/Equip for Equality)."
-      ]
-    },
-    {
-      "id": "IR-03",
-      "category": "Individual Rights",
-      "title": "Grievances and Complaints",
       "citations": [
         "C18",
-        "C15"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(2)"
-      ],
-      "state_specifics": [
-        "Each agency must have and use a process for reporting and handling complaints in addition to the abuse/neglect/exploitation process (115.320).",
-        "Give individuals and guardians the contact details for GAC, OIG, DHS and Equip for Equality (115.250).",
-        "Provide for individual/guardian input to the governing body (115.320(a)(2)).",
-        "Written procedure: how to file (oral or written, with staff help), who investigates, response timeframe (agency-set), written outcome, and no retaliation.",
-        "Complaints alleging abuse, neglect or exploitation go through BSP-03 instead."
-      ]
-    },
-    {
-      "id": "IR-04",
-      "category": "Individual Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
-      "citations": [
-        "C27",
-        "C15",
-        "C4"
-      ],
-      "federal": [
-        "45 CFR 160",
-        "45 CFR 164.502",
-        "45 CFR 164.520",
-        "45 CFR 164.530",
-        "45 CFR 164.400-414"
-      ],
-      "state_specifics": [
-        "The Mental Health and DD Confidentiality Act (740 ILCS 110) governs records. Informed consent covers releases of information (115.120). Rule 115 requires certification of compliance with the Act (115.410).",
-        "Publish and give a notice of privacy practices. Keep a release log and disclosure accounting.",
-        "Breach notification procedure under the HIPAA Breach Notification Rule.",
-        "Respect each person's privacy in bedroom and bath. Electronic monitoring only under 210 ILCS 165 (see IR-09).",
-        "Staff confidentiality agreement at hire. Records stored securely; electronic records allowed for Personal Plans and Implementation Strategies kept at the residence."
-      ]
-    },
-    {
-      "id": "IR-05",
-      "category": "Individual Rights",
-      "title": "Personal Funds, Personal Resources and Property",
-      "citations": [
-        "C5",
-        "C4",
-        "C24"
-      ],
-      "federal": [
-        "20 CFR 416.635",
-        "20 CFR 416.665",
-        "42 CFR 441.301(c)(4)"
-      ],
-      "state_specifics": [
-        "Individuals must be able to control their personal resources (115.200; 115.120 community integration).",
-        "Financial exploitation is defined in Part 50 and is a critical incident (115.120).",
-        "Keep a separate account or ledger per individual with no commingling. Reconcile monthly, with receipts and two-person count for cash.",
-        "Use a written room-and-board agreement. Medicaid does not pay room and board, and residents typically pay from income such as SSI. Confirm any permitted charge with DDD/BALC.",
-        "If the agency is a representative payee, follow SSA duties on use of benefits and annual accounting.",
-        "Inventory personal property and replace or reimburse for loss or damage caused by staff.",
-        "No staff borrowing, gifts or personal transactions with individuals."
-      ]
-    },
-    {
-      "id": "IR-06",
-      "category": "Individual Rights",
-      "title": "Informed Consent, Guardianship and Decision-Making Support",
-      "citations": [
-        "C4",
-        "C5",
-        "C7"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(1)"
-      ],
-      "state_specifics": [
-        "Informed consent means permission freely given after full disclosure of benefits and liabilities, including releases of information (115.120).",
-        "Written informed consent to participate in a CILA is obtained and documented in the record (115.200).",
-        "Guardian means the court-appointed plenary or limited guardian. A limited guardian's authority is only as the order allows (115.120). A guardian never serves as the individual's host family caregiver (host family rule).",
-        "Coercion is defined and prohibited (115.120).",
-        "Support individuals to make their own decisions in the planning process."
-      ]
-    },
-    {
-      "id": "IR-07",
-      "category": "Individual Rights",
-      "title": "Nondiscrimination and Communication Access",
-      "citations": [
-        "C7",
-        "C5",
-        "C32"
-      ],
-      "federal": [
-        "42 USC 12101 et seq. (ADA)",
-        "29 USC 794 (Section 504)",
-        "42 USC 2000d (Title VI)"
-      ],
-      "state_specifics": [
-        "No otherwise qualified individual may be denied placement solely on diagnosis (115.210).",
-        "Communal areas must meet ADA standards. Sites must have capacity for wheelchair or mobility device users before placement is offered (115.200).",
-        "Provide interpreters, translated rights materials and accessible formats at no cost.",
-        "Reasonable accommodation requests are logged and answered in writing.",
-        "Admission decisions are based on the person's needs and the home's capacity, not on discriminatory factors."
-      ]
-    },
-    {
-      "id": "IR-08",
-      "category": "Individual Rights",
-      "title": "Sexual Health, Relationships and Consent",
-      "citations": [
-        "C10",
-        "C15"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Support each individual's right to sexual health and healthy sexual practices and to be free from sexual exploitation and abuse (115.220).",
-        "The individual is assessed on decision-making capacity to give consent to sexual activity (115.220).",
-        "Sexual abuse allegations go through BSP-03/BSP-04.",
-        "Guidance for staff on privacy, education and boundaries; document supports in the Implementation Strategy."
-      ]
-    },
-    {
-      "id": "IR-09",
-      "category": "Individual Rights",
-      "title": "Authorized Electronic Monitoring in Individual Bedrooms",
-      "citations": [
-        "C30",
-        "C4"
-      ],
-      "federal": [
-        "45 CFR 164.530 (as applicable)"
-      ],
-      "state_specifics": [
-        "Authorized electronic monitoring is placement of a device in an individual's room under the Authorized Electronic Monitoring in CILAs and DD Facilities Act (210 ILCS 165) (115.120).",
-        "Cover who may request monitoring, consent and notice, roommate consent, and posting. Pull the Act's text before writing the procedure, as it was not retrieved.",
-        "Agency-installed cameras or recording in bedrooms or baths outside the Act are prohibited. Monitoring is never a substitute for required staffing or supervision.",
-        "Footage is handled as confidential record information."
-      ]
-    },
-    {
-      "id": "PCS-01",
-      "category": "Person-Centered Services",
-      "title": "Referral, Admission and Transition In",
-      "citations": [
-        "C7",
-        "C12",
-        "C41",
-        "C35",
-        "C16",
-        "C15",
-        "C17"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(4)(vi)(A)"
-      ],
-      "state_specifics": [
-        "Eligibility: at least 18 with a developmental disability and need for CILA services. Age waiver may be requested for 17.5 to under 18 (115.210). No denial solely on diagnosis. Written admission policies available for review.",
-        "Referrals come through the ISC agency. The ISC completes Discovery and the Personal Plan within 30 calendar days after waiver services start. The provider signature page is due to the ISC within 10 calendar days of receiving the Personal Plan.",
-        "At entry: obtain written informed consent, prior service history and the Personal Plan (Part 115 record requirements). Share and explain the Rights form (IL 462-1201), and offer a residency agreement for provider-owned sites. Document that rights were explained.",
-        "The individual or guardian actively participates in choosing the CILA and a home from those available to the general public (115.200).",
-        "Confirm the site is certified and accessible before offering placement. Train new individuals within 30 days of move-in on fire, severe weather, missing persons, emergencies, poison control and death (115.300).",
-        "Obtain the individual's rate letter before accepting an admission. Crisis admissions (homelessness, abuse, neglect) go through the ISC crisis process."
-      ]
-    },
-    {
-      "id": "PCS-02",
-      "category": "Person-Centered Services",
-      "title": "Person-Centered Planning, Personal Plan and Implementation Strategy",
-      "citations": [
-        "C12",
-        "C26",
-        "C35",
-        "C36",
-        "C10",
         "C5"
       ],
       "federal": [
         "42 CFR 441.301(c)(1)-(3)"
       ],
       "state_specifics": [
-        "The ISC develops the Personal Plan. The agency's QIDP signs the Provider Signature Page and the agency writes the Implementation Strategy on Form IL462-4470 within 20 calendar days of that signature.",
-        "The strategy covers only the Personal Plan areas the agency agreed to support. It is signed by the individual and guardian. The 115.120 definition lists the ISC as a signer, but DDD guidance says the ISC does not sign or approve it. Confirm current practice with BALC/DDD.",
-        "Give copies of the strategy and updates to the individual and guardian (and ISC). It becomes part of the record, and current copies are kept at the residence.",
-        "The QIDP reviews the strategy at least monthly and documents the review. Update at least annually or on change of status or request.",
-        "The QIDP convenes the Provider Support Team (QIDP, DSP, nurse/other professionals as needed) with the individual, guardian and an ISC representative.",
-        "Bill only for services identified in the Personal Plan. Notify the ISC when a service change is needed."
+        "The policy states the mechanism that carries input from individuals served, guardians and representatives to the governing body (e.g., a standing agenda item, annual survey, or seat on the board or HRC).",
+        "Input and the governing body's response are logged and kept for BALC review.",
+        "Offer accessible formats and supports so individuals can take part."
       ]
     },
     {
-      "id": "PCS-03",
-      "category": "Person-Centered Services",
-      "title": "Assessments, Health Risk Screening and Requests for Additional Supports",
+      "id": "GOV-03",
+      "category": "a) Governing body",
+      "title": "Organization, Organizational Chart, Staffing Patterns, Qualifications and Policy Manual Control",
+      "covers": [
+        "115.410(a)(3)(D)",
+        "115.410(a)(3)(E)"
+      ],
       "citations": [
+        "C22",
+        "C42",
+        "C3",
+        "C4"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The license application requires agency policies and procedures, an organizational chart, staffing patterns and staff qualifications.",
+        "Use Part 115 defined terms (Personal Plan, Implementation Strategy, DSP, QIDP, continuous supervision).",
+        "Version-control the manual with an annual review. The effective date and approver are recorded.",
+        "Confirm current QIDP, administrator and director qualifications with BALC before naming anyone."
+      ]
+    },
+    {
+      "id": "STF-01",
+      "category": "b) Staffing",
+      "title": "Staff Licensure and Certification; Supervision of Paraprofessional, Contractual and Volunteer Workers",
+      "covers": [
+        "115.320(b)(1)",
+        "115.320(b)(2)"
+      ],
+      "citations": [
+        "C18",
+        "C29"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Employees must hold the licenses or certifications Illinois law requires, and the credential is verified at hire. RN licenses are verified on the IDFPR site.",
+        "Paraprofessional, non-professional contractual workers and volunteers in direct service are supervised by professional employees.",
+        "Keep a roster showing each non-professional worker's supervising professional."
+      ]
+    },
+    {
+      "id": "STF-02",
+      "category": "b) Staffing",
+      "title": "Pre-Employment and Annual Registry Checks",
+      "covers": [
+        "115.320(b)(3)",
+        "115.320(b)(4)",
+        "115.320(b)(5)",
+        "115.320(b)(6)"
+      ],
+      "citations": [
+        "C18",
+        "C29",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Before any employment, including contractors, volunteers and practitioners with care responsibility: DPH Health Care Worker Registry, DCFS State Central Register/CANTS, Illinois Sex Offender Registry and HFS Sanctions List.",
+        "Results must be received before the first day of employment. The inquiry may not be dated more than 30 calendar days before the first day.",
+        "Registry findings of abuse, egregious neglect, a sex offense or a disqualifying conviction with no waiver bar employment. If the HFS Sanctions List shows an exclusion, confirm status with HFS OIG.",
+        "Repeat all four checks annually so each person is checked every 365 days: on the hire anniversary, at the performance-evaluation date, or on a written schedule.",
+        "A person newly placed on a registry or list is terminated. Staff also receive a criminal background check before hire and annually."
+      ]
+    },
+    {
+      "id": "STF-03",
+      "category": "b) Staffing",
+      "title": "Health Care Worker Background Check Act Compliance and Waivers",
+      "covers": [
+        "115.320(b)(7)",
+        "115.320(b)(8)",
+        "115.320(b)(9)"
+      ],
+      "citations": [
+        "C18",
+        "C29",
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The agency complies with 225 ILCS 46 and never knowingly hires or retains a person outside the Act.",
+        "A person on the Health Care Worker Registry may request a waiver on the DPH-prescribed form.",
+        "A waiver of a CANTS indication is requested under Department-published guidelines.",
+        "115.321 (waiver of the prohibition against employment): pull the verbatim text before finalizing the procedure."
+      ]
+    },
+    {
+      "id": "STF-04",
+      "category": "b) Staffing",
+      "title": "Staffing Patterns, Continuous Supervision and Awake Overnight Staff",
+      "covers": [],
+      "citations": [
+        "C4",
+        "C12",
+        "C42",
+        "C22"
+      ],
+      "federal": [
+        "29 CFR 552 (FLSA, home care)"
+      ],
+      "state_specifics": [
+        "Continuous supervision or support means staff are physically on-site all hours individuals are present, unless the Personal Plan and Implementation Strategy say otherwise.",
+        "No licensure ratio was found in Part 115. Staffing levels come from each individual's Personal Plan and the DDD rate letter, so do not state a ratio as a rule.",
+        "Awake overnight status is a DDD rate-funding definition. Record each home's overnight model in the Implementation Strategy.",
+        "Individuals needing continuous supervision may be alone or in the community independently only as 115.230 allows, based on need and preference and not staff convenience. 115.580 applies to host family settings only."
+      ]
+    },
+    {
+      "id": "STF-05",
+      "category": "b) Staffing",
+      "title": "Personnel Records and Employee Health and TB Screening",
+      "covers": [],
+      "citations": [
+        "C18",
+        "C31",
+        "C42"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Each file holds the credential verification, dated registry results, annual recheck dates, training and competence documentation, and the DSP/First Aid/CPR/OIG Rule 50 expiry dates.",
+        "Training must be available to BALC and DDD for review.",
+        "No TB-screening rule was retrieved from Part 115. Confirm current IDPH and BALC requirements before setting the screening schedule.",
+        "Employee medical information is kept in a file separate from the personnel file."
+      ]
+    },
+    {
+      "id": "STF-06",
+      "category": "b) Staffing",
+      "title": "Staff Conduct and Professional Boundaries",
+      "covers": [],
+      "citations": [
+        "C15",
+        "C24",
+        "C10"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Staff are prohibited from abuse, neglect, exploitation, coercion, aversive procedures and misuse of individuals' funds or property.",
+        "Staff must report suspected abuse, neglect or exploitation under GPR-05.",
+        "Staff conduct involving gifts, loans, social media, dating or sexual contact with individuals is addressed, consistent with the sexual-exploitation protections in 115.220.",
+        "Violations lead to discipline and, where Part 50 or registry rules apply, reporting."
+      ]
+    },
+    {
+      "id": "GPR-01",
+      "category": "c) General program requirements",
+      "title": "Cumulative Case Records, Personal Plan and Implementation Strategy",
+      "covers": [
+        "115.320(c)(1)"
+      ],
+      "citations": [
+        "C18",
+        "C12",
+        "C26",
+        "C42"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(2)"
+      ],
+      "state_specifics": [
+        "A cumulative case record with a Personal Plan and Implementation Strategy is maintained for each individual.",
+        "Current Personal Plans and Implementation Strategies are kept at the residence.",
+        "Implementation Strategy is on Form IL462-4470 (see PCS-01 for timelines)."
+      ]
+    },
+    {
+      "id": "GPR-02",
+      "category": "c) General program requirements",
+      "title": "Human Rights Committee",
+      "covers": [
+        "115.320(c)(2)(A)",
+        "115.320(c)(2)(B)",
+        "115.320(c)(2)(C)"
+      ],
+      "citations": [
+        "C18",
+        "C15",
+        "C28",
+        "C14"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)(F)"
+      ],
+      "state_specifics": [
+        "At least 5 members. At least one is a person served and/or a family member or guardian. At least one-third are not former employees, former individuals or guardians, vendors, or employees of other CILA/DD providers.",
+        "Members are not shared with the Behavior Management Committee, except a physician, APRN, RN, or nurse practitioner/physician assistant.",
+        "Annual review of policies that could restrict rights. Review of any practice restricting a specific individual's rights at least every six months.",
+        "Informs the agency of rights complaints, deficiencies and corrective actions, and includes individuals, guardians and natural supports in meetings about their services.",
+        "Minutes record attendance, each individual's decision, justification and intended outcome. When a restrictive intervention is approved, the next review date is recorded."
+      ]
+    },
+    {
+      "id": "GPR-03",
+      "category": "c) General program requirements",
+      "title": "Behavior Management Committee and Positive Behavior Support",
+      "covers": [
+        "115.320(c)(2)(D)",
+        "115.320(c)(2)(E)"
+      ],
+      "citations": [
+        "C18",
+        "C14",
+        "C15",
+        "C8"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Required when the program uses behavioral interventions under 115.214. At least 5 members.",
+        "Approves behavior interventions before use and reviews them at least every six months. Reviews all behavior strategies at least annually and determines whether a rights restriction exists. Plans with a restriction also go to the Human Rights Committee.",
+        "Members include persons qualified to evaluate interventions. A licensed professional qualified to evaluate drug use is a member when drugs manage behavior. At least one member is from outside the agency.",
+        "Minutes record attendance and decisions. The committee seeks input from individuals, guardians and natural supports.",
+        "Behavior strategies emphasize positive supports and never use seclusion, time-out or aversive procedures."
+      ]
+    },
+    {
+      "id": "GPR-04",
+      "category": "c) General program requirements",
+      "title": "Restraint, Seclusion, Time-Out and Aversive Procedures",
+      "covers": [],
+      "citations": [
+        "C14",
+        "C15",
+        "C4",
+        "C28"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)(F)"
+      ],
+      "state_specifics": [
+        "Prone, supine and mechanical restraint are prohibited. Any use is reported in CIRAS and to the DHS Office of the Inspector General.",
+        "Other restraint only with an immediate threat of serious physical harm, less restrictive measures proven ineffective, and a Personal Plan modification approved by the individual or guardian and the Provider Support Team.",
+        "It also requires Behavior Management/Human Rights Committee approval, a plan to reduce and eliminate it, staff trained in the specific restraint, and documented absence of medical or psychological contraindication.",
+        "Seclusion, time-out and aversive procedures are prohibited.",
+        "Staff involved in restraint not in the Personal Plan may be required to complete remediation training. The agency keeps its restraint policy on file."
+      ]
+    },
+    {
+      "id": "GPR-05",
+      "category": "c) General program requirements",
+      "title": "Abuse, Neglect and Exploitation Prevention, Reporting and Handling Process",
+      "covers": [
+        "115.320(c)(3)(A)"
+      ],
+      "citations": [
+        "C18",
+        "C24",
+        "C4",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The agency has and uses a process for reporting and handling abuse, neglect and exploitation under applicable standards, regulations and laws (59 Ill. Adm. Code 50 definitions).",
+        "Notify the individual allegedly abused, neglected or exploited, and their guardian or parent, within 24 hours after receiving the allegation.",
+        "Report to OIG within 4 hours of discovery (see CI-02).",
+        "Staff complete OIG Rule 50 training at orientation and every two years."
+      ]
+    },
+    {
+      "id": "GPR-06",
+      "category": "c) General program requirements",
+      "title": "Rights Complaints and Grievances",
+      "covers": [
+        "115.320(c)(3)(B)"
+      ],
+      "citations": [
+        "C18",
+        "C15",
+        "C28"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "The agency has and uses a process for reporting and handling complaints about individual rights, in addition to abuse/neglect reporting.",
+        "Share and explain the Rights of Individuals form (IL 462-1201) with the individual and/or guardian at entry and annually.",
+        "Give each person the address and phone of the Guardianship and Advocacy Commission, DHS OIG, DHS and Equip for Equality, and offer help contacting them.",
+        "Rights complaints go to the Human Rights Committee (GPR-02). No retaliation."
+      ]
+    },
+    {
+      "id": "GPR-07",
+      "category": "c) General program requirements",
+      "title": "Nondiscrimination, Admission Policies and Procedures, Referral and Respite",
+      "covers": [
+        "115.320(c)(4)(A)",
+        "115.320(c)(4)(B)"
+      ],
+      "citations": [
+        "C18",
+        "C7",
+        "C6",
+        "C41"
+      ],
+      "federal": [
+        "Title VI, 42 USC 2000d",
+        "ADA, 42 USC 12101 et seq."
+      ],
+      "state_specifics": [
+        "No discrimination in admission or services on race, color, sex, religion (creed), gender identity, gender expression, age, national origin (ancestry), ethnicity, disability, marital status, sexual orientation or military status.",
+        "Admission policies and procedures are in writing and available for review.",
+        "Eligibility: at least 18 (age waiver request possible at 17.5+) with a developmental disability, needing CILA services and a supervised living arrangement. No otherwise qualified person is denied solely on diagnosis, and lack of capacity for a disability does not make a person ineligible.",
+        "Respite: a physician statement of no contagious disease, plus documentation that the person will not jeopardize others' health or safety. Respite over two weeks needs Department approval before the first two weeks end, and only in emergencies.",
+        "Referrals come through ISC agencies. Crisis transitions follow the ISC Crisis Transition Plan and Funding Request."
+      ]
+    },
+    {
+      "id": "GPR-08",
+      "category": "c) General program requirements",
+      "title": "Life Safety, Code Compliance, Residential Environment and Siting",
+      "covers": [
+        "115.320(c)(5)"
+      ],
+      "citations": [
+        "C18",
+        "C16",
+        "C17",
+        "C5",
+        "C22"
+      ],
+      "federal": [
+        "ADA, 42 USC 12101 et seq.",
+        "42 CFR 441.301(c)(4)(vi)(A)-(E)"
+      ],
+      "state_specifics": [
+        "All program facilities comply with State licensure requirements and local ordinances on fire, building, zoning, sanitation, health and safety.",
+        "BALC inspects a new agency-owned or leased site before occupancy. OSFM fire clearance is part of the process.",
+        "Siting: no adjacent, across, diagonal or behind sites of the same provider without a waiver, filed before leasing, buying or taking possession. No site in a building giving inpatient institutional treatment. Department-funded provider-controlled CILAs may be no more than 25% of units in a building.",
+        "Communal areas meet ADA standards. Keep copies of local and State health, sanitation and environment inspections at the site."
+      ]
+    },
+    {
+      "id": "GPR-09",
+      "category": "c) General program requirements",
+      "title": "Visits by Protection and Advocacy Groups",
+      "covers": [
+        "115.320(c)(6)"
+      ],
+      "citations": [
+        "C18",
+        "C15"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Department-authorized individual protection and advocacy interest groups may visit provider-owned or controlled living arrangements, with the consent of the individual or guardian.",
+        "Staff record the visit and the consent, and never refuse or discourage a visit the individual has agreed to.",
+        "Respect each person's privacy during the visit."
+      ]
+    },
+    {
+      "id": "GPR-10",
+      "category": "c) General program requirements",
+      "title": "Remote Monitoring and Supports; Authorized Electronic Monitoring",
+      "covers": [
+        "115.320(c)(7)"
+      ],
+      "citations": [
+        "C18",
+        "C30",
+        "C4"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)(F)",
+        "45 CFR 164.530"
+      ],
+      "state_specifics": [
+        "Applies only if the agency offers remote monitoring and supports under 305 ILCS 5/12-21.21, as DDD determines. Otherwise the policy states the agency does not offer it.",
+        "Each use rests on an assessment that identifies the risks bearing on whether remote supports suit the individual.",
+        "Authorized electronic monitoring (a device in an individual's room) follows 210 ILCS 165, not this process. Document consent and privacy protections.",
+        "Any monitoring is a Personal Plan modification where it restricts privacy, with HRC review (GPR-02)."
+      ]
+    },
+    {
+      "id": "TRN-01",
+      "category": "d) Training",
+      "title": "Direct Support Professional Orientation, Competency, Written Training Plan and Ongoing Development",
+      "covers": [
+        "115.320(d)(1)",
+        "115.320(d)(2)",
+        "115.320(d)(3)",
+        "115.320(d)(4)"
+      ],
+      "citations": [
+        "C18",
+        "C31",
+        "C42"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "DSPs and others with direct care responsibility (including paraprofessionals, contractual workers and volunteers) demonstrate competence in the (d)(1) training areas during orientation.",
+        "Staff with no direct-service experience receive training and demonstrate competence before unsupervised responsibility, unless trained employees are on site for on-the-job training. Enough staff are trained to cover absences.",
+        "Anyone giving direct care more than 20% of the time is trained as a DSP. First aid/CPR and OIG Rule 50 training renew every two years.",
+        "Written training plan lists the training offered, the methods, and how competency is determined. An employee development plan covers ongoing training after orientation.",
+        "All training is documented and readily available to BALC and DDD. DDD approves the agency's DSP and QIDP training programs after IMPACT enrollment."
+      ]
+    },
+    {
+      "id": "TRN-02",
+      "category": "d) Training",
+      "title": "CPR, First Aid, Choking Response, Safety, Disaster, Fire and Hot Water Temperature Training",
+      "covers": [
+        "115.320(d)(1)(A)",
+        "115.320(d)(1)(C)",
+        "115.320(d)(1)(L)"
+      ],
+      "citations": [
+        "C18",
+        "C16",
+        "C31"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "CPR, back blows/abdominal thrusts and first aid. Renew every two years.",
+        "Safety and disaster procedures, public health emergencies, fire procedures and use of fire extinguishers.",
+        "Techniques for monitoring and regulating hot water temperature before and during use for hand-washing, hair-washing, bathing and showering. Water should be between 100 and 110 degrees.",
+        "New individuals are trained on emergency procedures within 30 days of moving in (115.300)."
+      ]
+    },
+    {
+      "id": "TRN-03",
+      "category": "d) Training",
+      "title": "Habilitation, Personal Plan, Implementation Strategy, Documentation and Disability-Specific Training",
+      "covers": [
+        "115.320(d)(1)(B)",
+        "115.320(d)(1)(F)",
+        "115.320(d)(1)(G)",
+        "115.320(d)(1)(J)",
+        "115.320(d)(1)(K)"
+      ],
+      "citations": [
+        "C18",
+        "C12",
+        "C26",
+        "C42"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(2)"
+      ],
+      "state_specifics": [
+        "Concepts of habilitation and rehabilitation, including behavior intervention and management, age appropriateness and psycho-social rehabilitation, as the individuals served need.",
+        "Purpose and content of the Personal Plan. Development and implementation of an Implementation Strategy (IL462-4470).",
+        "Documentation and recordkeeping for the Personal Plan and Implementation Strategy.",
+        "Other training specific to the type of disability or treatment techniques used for individuals living in the CILA, geared to carrying out Personal Plan outcomes."
+      ]
+    },
+    {
+      "id": "TRN-04",
+      "category": "d) Training",
+      "title": "Abuse, Neglect, Exploitation, Coercion, Critical Incident, Rights and Confidentiality Training",
+      "covers": [
+        "115.320(d)(1)(D)",
+        "115.320(d)(1)(E)"
+      ],
+      "citations": [
+        "C18",
+        "C24",
+        "C15",
+        "C27",
+        "C31"
+      ],
+      "federal": [
+        "45 CFR 164.530"
+      ],
+      "state_specifics": [
+        "Abuse, neglect, exploitation, coercion and critical incident prevention, handling and reporting to the DHS OIG under 59 Ill. Adm. Code 50.",
+        "Individual rights under 115.250 and confidentiality under the Mental Health and Developmental Disabilities Confidentiality Act (740 ILCS 110).",
+        "OIG Rule 50 training renews every two years.",
+        "Competence is shown by test, observation or scenario and recorded in the personnel file."
+      ]
+    },
+    {
+      "id": "TRN-05",
+      "category": "d) Training",
+      "title": "Medication and AIMS Training; Nurse-Trainer Certification of Direct Care Staff",
+      "covers": [
+        "115.320(d)(1)(H)",
+        "115.320(d)(1)(I)",
+        "115.320(d)(1)(M)"
+      ],
+      "citations": [
+        "C18",
+        "C13",
+        "C25",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Type, dosage, characteristics, effects and side effects of prescribed medications, with enough trained staff to cover expected and unexpected absences.",
+        "Observation with the AIMS (Abnormal Involuntary Movement Skills) for tardive dyskinesia.",
+        "Before supervising self-administration or administering medication, unlicensed direct care staff meet 59 Ill. Adm. Code 116.40(c), including a Department-approved program taught by a CILA agency Nurse-Trainer.",
+        "Staff are re-evaluated by a Nurse-Trainer at least annually, or sooner at the RN's discretion, with retraining as needed.",
+        "The Nurse-Trainer RN holds an unencumbered Illinois license and completes the DHS/DDD RN trainer webinars. Pull Part 116 text and the current course requirements before finalizing."
+      ]
+    },
+    {
+      "id": "VOL-01",
+      "category": "e) Volunteer training",
+      "title": "Volunteer Orientation, Training and Supervision",
+      "covers": [
+        "115.320(e)"
+      ],
+      "citations": [
+        "C18",
+        "C4"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Orientation and training specific to the volunteer's duties, with supervision as necessary.",
+        "Volunteers with responsibility for the care of individuals complete and demonstrate competency in all (d) training areas.",
+        "Volunteers are registry-checked before starting (STF-02) and are never left unsupervised with individuals unless trained and checked.",
+        "Track volunteer hours and training in a volunteer file."
+      ]
+    },
+    {
+      "id": "QA-01",
+      "category": "f) Quality assurance",
+      "title": "Written Quality Assurance Plan, Data Review and Mortality Review",
+      "covers": [
+        "115.320(f)(1)"
+      ],
+      "citations": [
+        "C18",
+        "C20",
+        "C42"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A written QA plan and ongoing activities review and evaluate services to individuals and program operation, and resolve identified problems.",
+        "The QA program is the basis for determining that individuals receive appropriate services consistent with their Personal Plans and Implementation Strategies.",
+        "Inputs: critical incident trends, rights complaints, medication errors, record audits, individual and guardian feedback and death reviews.",
+        "Results go to the governing body (GOV-01). 115.325 (Monitoring and Evaluation): pull the verbatim text before finalizing."
+      ]
+    },
+    {
+      "id": "QA-02",
+      "category": "f) Quality assurance",
+      "title": "Correction of Deficiencies and Withdrawal of CILA Certification",
+      "covers": [
+        "115.320(f)(2)"
+      ],
+      "citations": [
+        "C18",
+        "C22",
+        "C21",
+        "C15"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "If a certified CILA stops meeting standards, correct the deficiencies within 30 days.",
+        "If they cannot be corrected in 30 days, withdraw certification of that CILA program and notify the Department.",
+        "The agency stays responsible for affected individuals until they have transitioned to other settings.",
+        "Record each corrective action and its completion date. Use it for mock inspections ahead of BALC visits."
+      ]
+    },
+    {
+      "id": "CI-01",
+      "category": "g) Critical incidents",
+      "title": "Critical Incident Handling, Investigation, Tracking and Analysis",
+      "covers": [
+        "115.320(g)(1)"
+      ],
+      "citations": [
+        "C18",
+        "C4",
+        "C24"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written procedures for handling, investigating, reporting, tracking and analyzing critical incidents through the management structure, up to and including the Authorized CILA Agency Representative.",
+        "Employees demonstrate knowledge of the procedures and follow them.",
+        "Critical incident categories follow the 115.120 definition, which includes abuse, neglect and exploitation as defined in Part 50.",
+        "Trend analysis feeds the QA plan (QA-01) and the Human Rights Committee."
+      ]
+    },
+    {
+      "id": "CI-02",
+      "category": "g) Critical incidents",
+      "title": "Reporting to Law Enforcement, DHS OIG and CIRAS",
+      "covers": [
+        "115.320(g)(2)",
+        "115.320(g)(3)",
+        "115.320(g)(4)"
+      ],
+      "citations": [
+        "C18",
+        "C24",
+        "C14",
+        "C4"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report any incident subject to the Criminal Code of 2012 (720 ILCS 5) to local law enforcement within 24 hours of occurrence.",
+        "Report suspected abuse, neglect or exploitation to the DHS Office of Inspector General within 4 hours of discovery. Post the current OIG hotline number at each site and confirm it before printing.",
+        "Report all other critical incidents electronically to DDD through CIRAS. Incidents are those listed under Critical Incidents in 115.120.",
+        "Notify the guardian or parent of an abuse/neglect allegation within 24 hours (GPR-05).",
+        "Any restraint use is reported in CIRAS and to OIG."
+      ]
+    },
+    {
+      "id": "CI-03",
+      "category": "g) Critical incidents",
+      "title": "Missing Person and Elopement",
+      "covers": [],
+      "citations": [
+        "C16",
+        "C18",
+        "C4",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Staff and individuals are trained on how to react to a missing person (115.300).",
+        "Each individual's risk and supervision level is set in the Personal Plan and Implementation Strategy. Independent time follows 115.230.",
+        "Immediate search, then law enforcement notice and guardian notice. Report to CIRAS as a critical incident and to OIG if neglect is suspected.",
+        "Keep a current photo and description in each record."
+      ]
+    },
+    {
+      "id": "CI-04",
+      "category": "g) Critical incidents",
+      "title": "Death of an Individual",
+      "covers": [],
+      "citations": [
+        "C16",
+        "C4",
+        "C18",
+        "C24"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Staff are trained on how to respond to a death (115.300).",
+        "Call 911 and begin CPR unless a valid directive says otherwise. Then notify the guardian or emergency contact and the physician.",
+        "Report the death in CIRAS and notify OIG when abuse or neglect is suspected. Preserve the scene and records.",
+        "Complete a mortality review feeding the QA plan (QA-01)."
+      ]
+    },
+    {
+      "id": "REC-01",
+      "category": "h) Individuals' records",
+      "title": "Record Confidentiality and Safekeeping",
+      "covers": [
+        "115.320(h)(1)"
+      ],
+      "citations": [
+        "C18",
+        "C27",
+        "C15"
+      ],
+      "federal": [
+        "45 CFR 164.530"
+      ],
+      "state_specifics": [
+        "Confidentiality follows the Mental Health and Developmental Disabilities Confidentiality Act (740 ILCS 110).",
+        "Safeguard all records against loss or destruction with locked storage and access-controlled electronic systems.",
+        "Releases of information require valid consent. A copy of each authorization is kept in the record.",
+        "Staff receive confidentiality training at orientation."
+      ]
+    },
+    {
+      "id": "REC-02",
+      "category": "h) Individuals' records",
+      "title": "Chronological Record Standards and Electronic Signatures",
+      "covers": [
+        "115.320(h)(2)",
+        "115.320(h)(5)"
+      ],
+      "citations": [
+        "C18",
+        "C42"
+      ],
+      "federal": [
+        "45 CFR 164.312"
+      ],
+      "state_specifics": [
+        "A chronological record for each individual is accessible at the program site. Entries are legible, dated and signed with title. Corrections are initialed and the original stays legible. Symbols and abbreviations use an agency-wide legend.",
+        "Electronic signatures need an adopted policy, a unique identifier from a confidential access code, written confidentiality and sole-user certifications, and periodic monitoring with corrective action.",
+        "Verification: required fields are completed, corrections are made by separate authenticated entries, the user can verify the document, and records are sampled periodically. Each generated report is separately authenticated."
+      ]
+    },
+    {
+      "id": "REC-03",
+      "category": "h) Individuals' records",
+      "title": "Record Contents at Entry and During Service",
+      "covers": [
+        "115.320(h)(3)",
+        "115.320(h)(4)"
+      ],
+      "citations": [
+        "C18",
+        "C12",
+        "C42",
+        "C11"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "At entry: identifying information, guardianship order, guardian or emergency contact, language and preferred communication mode, medications, reactions and allergies, physical and dental exams and medical history, consent to emergency medical services, and releases of information.",
+        "During service: written informed consent to participate in a CILA, prior service history, Personal Plan and Implementation Strategy, assessments and reassessments, approvals for special procedures and their results, and monthly QIDP-signed and dated progress documentation.",
+        "Keep all items updated as necessary.",
+        "Assessments follow 115.225. Verify the subsection against the official text."
+      ]
+    },
+    {
+      "id": "REC-04",
+      "category": "h) Individuals' records",
+      "title": "Record Retention, Access and Required Reports to the State",
+      "covers": [],
+      "citations": [
+        "C42",
+        "C18",
+        "C22",
+        "C37"
+      ],
+      "federal": [
+        "45 CFR 164.530(j)"
+      ],
+      "state_specifics": [
+        "Record retention period: confirm with BALC/DDD and the waiver document before setting it. No period was verified here.",
+        "Records are available to BALC and DDD on request.",
+        "Required reports: CIRAS incidents, OIG reports, restraint reports, ownership change notice within 60 business days, renewal application at least 120 days before expiry, and the annual rights-restriction and health-risk reviews.",
+        "Keep a calendar of recurring State report due dates."
+      ]
+    },
+    {
+      "id": "FIN-01",
+      "category": "i) Financial and operational requirements",
+      "title": "Department Contractual and Financial Requirements, Medicaid Billing and Documentation, EVV and Wage Pass-Through",
+      "covers": [
+        "115.320(i)"
+      ],
+      "citations": [
+        "C18",
+        "C33",
+        "C38",
+        "C37",
+        "C39",
+        "C36"
+      ],
+      "federal": [
+        "42 USC 1396b(l)",
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "The agency complies with Department rules on its contractual and financial relationship with the Department.",
+        "Bill only services identified in the Personal Plan, and notify the ISC if a service change is needed.",
+        "Enrollment and billing run through IMPACT, and enrollment must be complete before federal reimbursement.",
+        "EVV: from April 1, 2026, quarterly compliance must stay above 75% where EVV applies. Whether 60D/61H CILA claims are covered is unverified, so confirm with DDD.",
+        "Certify to DDD that wage increases are passed through to direct care staff."
+      ]
+    },
+    {
+      "id": "FIN-02",
+      "category": "i) Financial and operational requirements",
+      "title": "Licensure, Certification and Provider Agreements",
+      "covers": [],
+      "citations": [
+        "C1",
+        "C2",
+        "C22",
+        "C31",
+        "C33"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "BALC license first (provisional up to 1 year for one site, up to 8 people), then IMPACT/DDD enrollment. A CILA serves 8 or fewer individuals.",
+        "Pass the BALC site visit within six months of first admission to convert to a permanent license. An unannounced visit occurs within the first year of the first admission.",
+        "The agency must be operational within 18 months or the application is treated as abandoned.",
+        "File the renewal application at least 120 days before expiry, after Department notice.",
+        "Notify BALC and DDD within 60 business days of any ownership change."
+      ]
+    },
+    {
+      "id": "FIN-03",
+      "category": "i) Financial and operational requirements",
+      "title": "Personal Funds and Property Management",
+      "covers": [],
+      "citations": [
+        "C5",
+        "C15",
+        "C32"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "CILA settings support individuals' control of their own personal resources.",
+        "Keep individuals' funds in separate accounts from agency funds, with a ledger, receipts and monthly reconciliation.",
+        "Charges for room and board need a written agreement. Verify the permitted amount with DDD or BALC.",
+        "Report suspected misuse as financial exploitation under GPR-05."
+      ]
+    },
+    {
+      "id": "RTS-01",
+      "category": "Individual Rights",
+      "title": "Individual Rights and HCBS Settings Requirements",
+      "covers": [],
+      "citations": [
+        "C15",
+        "C5",
+        "C28",
+        "C32",
+        "C22"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)-(5)"
+      ],
+      "state_specifics": [
+        "Provide and explain Rights of Individuals (IL 462-1201) at entry and annually.",
+        "Rights follow Chapter II of the Mental Health and DD Code. Seclusion is not permitted.",
+        "Individuals have the right to remain in the CILA unless they voluntarily withdraw or meet the termination criteria.",
+        "Individuals may use private physicians and professionals of their choice, documented in the plan.",
+        "Provider-owned or controlled sites meet 42 CFR 441.301(c)(4)(vi)(A)-(E)."
+      ]
+    },
+    {
+      "id": "RTS-02",
+      "category": "Individual Rights",
+      "title": "Rights Restrictions and Due Process",
+      "covers": [],
+      "citations": [
+        "C14",
+        "C15",
+        "C32",
+        "C18"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)(F)"
+      ],
+      "state_specifics": [
+        "Any restriction is a documented modification in the Personal Plan, based on a specific assessed need.",
+        "The record shows less intrusive methods tried, a time limit, a data-based review, and informed consent from the individual or guardian.",
+        "The Human Rights Committee reviews restrictions affecting a specific individual at least every six months (GPR-02).",
+        "The individual and guardian are told how to appeal and who to contact (GAC, Equip for Equality, OIG, DHS)."
+      ]
+    },
+    {
+      "id": "RTS-03",
+      "category": "Individual Rights",
+      "title": "Informed Consent, Decision-Making Support and Sexual Health",
+      "covers": [],
+      "citations": [
+        "C4",
+        "C5",
+        "C10",
+        "C18"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Informed consent to participate in a CILA is documented in the record.",
+        "Informed consent includes consent to release of information. Use plain language and the individual's preferred communication mode.",
+        "Provider Support Team supports the individual's right to sexual health and freedom from sexual exploitation, including a decision-making capacity assessment for consent to sexual activity.",
+        "Where there is a guardian, the guardian's authority is documented. Guardian decisions never override the individual's rights beyond the court order."
+      ]
+    },
+    {
+      "id": "RTS-04",
+      "category": "Individual Rights",
+      "title": "Nondiscrimination and Communication Access",
+      "covers": [],
+      "citations": [
+        "C5",
+        "C7",
+        "C18"
+      ],
+      "federal": [
+        "ADA, 42 USC 12101 et seq.",
+        "Title VI, 42 USC 2000d",
+        "Section 504, 29 USC 794"
+      ],
+      "state_specifics": [
+        "Nondiscrimination categories follow 115.320(c)(4)(A) (see GPR-07).",
+        "Provide interpreters, translated materials and assistive communication supports at no cost.",
+        "Communal areas meet ADA accessibility standards.",
+        "Record each individual's preferred communication mode in the entry record."
+      ]
+    },
+    {
+      "id": "RTS-05",
+      "category": "Individual Rights",
+      "title": "Privacy, Confidentiality and HIPAA",
+      "covers": [],
+      "citations": [
+        "C27",
+        "C5",
+        "C15",
+        "C30"
+      ],
+      "federal": [
+        "45 CFR 160",
+        "45 CFR 164"
+      ],
+      "state_specifics": [
+        "Illinois' Mental Health and DD Confidentiality Act (740 ILCS 110) and HIPAA both apply. Apply whichever is more protective.",
+        "CILA settings protect privacy, dignity and respect (115.200). Individuals have privacy in sleeping and bathing areas and control of their own mail and phone.",
+        "Authorized electronic monitoring follows 210 ILCS 165.",
+        "Provide a Notice of Privacy Practices. Breaches are investigated and reported under HIPAA."
+      ]
+    },
+    {
+      "id": "PCS-01",
+      "category": "Person-Centered Services",
+      "title": "Person-Centered Planning, Personal Plan and Implementation Strategy",
+      "covers": [],
+      "citations": [
+        "C12",
+        "C26",
+        "C35",
+        "C36",
+        "C41",
+        "C32"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(1)-(3)"
+      ],
+      "state_specifics": [
+        "Provider signature page returns to the ISC within 10 calendar days of receiving the Personal Plan.",
+        "Develop the Implementation Strategy on Form IL462-4470 within 20 calendar days of the QIDP's dated signature. The individual and guardian sign it. The ISC does not sign or approve it.",
+        "Give the individual, guardian and ISC a copy of the strategy and every update.",
+        "The QIDP reviews the strategy at least monthly and documents the review.",
+        "The ISC has 30 calendar days after services begin to complete Discovery and develop the Personal Plan."
+      ]
+    },
+    {
+      "id": "PCS-02",
+      "category": "Person-Centered Services",
+      "title": "Provider Support Team, Assessments and Requests for Additional Supports",
+      "covers": [],
+      "citations": [
+        "C10",
         "C11",
         "C8",
         "C12"
       ],
       "federal": [],
       "state_specifics": [
-        "Assess each individual on entry and at least annually. Health screening uses the Department's web-based tool, with a paper request allowed with justification (confirm the subsection in 115.225).",
-        "Identified risks must appear in the Implementation Strategy.",
-        "The team may request additional staff resources or supports. The Department responds within ten business days of receipt (115.214).",
-        "Non-base support hours are professionally reassessed at least annually and results reported to the Department (115.214).",
-        "For intermittent supports, the ISC and CILA agency submit a CILA rate determination packet to the Department (115.230)."
+        "The Provider Support Team includes a QIDP and a DSP, plus a nurse or other professionals as needed. It is available 24 hours.",
+        "Assessments inform the Personal Plan and Implementation Strategy. 115.225 text and the health-risk screening requirement should be pinned before finalizing.",
+        "Team requests for additional staff resources go to the Department, which responds no later than ten business days after receipt.",
+        "Need for non-base support hours is professionally reviewed at least annually and reported to the Department."
+      ]
+    },
+    {
+      "id": "PCS-03",
+      "category": "Person-Centered Services",
+      "title": "Implementation of Supports and Daily Documentation",
+      "covers": [],
+      "citations": [
+        "C12",
+        "C10",
+        "C18",
+        "C36"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(2)"
+      ],
+      "state_specifics": [
+        "Staff carry out the Implementation Strategy outcomes and record daily activity, as the strategy specifies.",
+        "The QIDP signs and dates monthly progress documentation toward Personal Plan outcomes.",
+        "Provider support includes ADL help, assistive devices, crisis problem-solving and advocacy.",
+        "Services billed must match services in the Personal Plan."
       ]
     },
     {
       "id": "PCS-04",
       "category": "Person-Centered Services",
-      "title": "Implementation of Supports and Daily Documentation",
+      "title": "Community Integration and Employment Choice",
+      "covers": [],
+      "citations": [
+        "C5",
+        "C4",
+        "C32"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(i)-(ii)"
+      ],
+      "state_specifics": [
+        "CILA settings support integration and full community access.",
+        "The CILA rate excludes day programs, which are billed separately.",
+        "Document each person's choices about work, day program, activities and community access in the Personal Plan.",
+        "Describe the supports to help individuals take part in community supports."
+      ]
+    },
+    {
+      "id": "PCS-05",
+      "category": "Person-Centered Services",
+      "title": "Transition, Discharge and Termination of Services",
+      "covers": [],
+      "citations": [
+        "C9",
+        "C15",
+        "C12",
+        "C41"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(1)"
+      ],
+      "state_specifics": [
+        "Individuals may remain in the CILA unless they voluntarily withdraw or meet the 115.215 termination criteria. 115.215 text was not retrieved, so pull it verbatim before finalizing this policy.",
+        "Involve the individual, guardian, ISC and Provider Support Team in any transition. Give written notice and a transition plan.",
+        "The agency stays responsible for affected individuals until they transition to another setting (see QA-02).",
+        "Return funds and property at discharge with a signed inventory."
+      ]
+    },
+    {
+      "id": "HLT-01",
+      "category": "Health and Wellness",
+      "title": "Medication Administration, Medical Services and Staff Certification",
+      "covers": [],
+      "citations": [
+        "C13",
+        "C25",
+        "C10",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A licensed physician (MD/DO) is responsible for medical services, including prescribing, and examines the individual before psychotropics start.",
+        "AIMS screening is done at least every six months for individuals on psychotropic medications.",
+        "A physician reviews medications and sees the individual at least every six months, or more often if a psychiatrist requires.",
+        "Only staff who completed the Nurse-Trainer program under 59 Ill. Adm. Code 116 administer or supervise self-administration (TRN-05).",
+        "The agency certifies compliance with the Mental Health and DD Administrative Act and Part 116."
+      ]
+    },
+    {
+      "id": "HLT-02",
+      "category": "Health and Wellness",
+      "title": "Nursing Oversight and Health Care Coordination",
+      "covers": [],
+      "citations": [
+        "C31",
+        "C10",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The agency has an RN with a current unencumbered Illinois license who completes the DHS/DDD RN trainer webinars.",
+        "The RN trains and evaluates direct care staff on medications and reviews health records.",
+        "Coordinate physician, dental and specialist care with the Provider Support Team.",
+        "Staff help individuals access medication information and observe and report effects and side effects."
+      ]
+    },
+    {
+      "id": "HLT-03",
+      "category": "Health and Wellness",
+      "title": "Health Monitoring, Seizures, Choking Risk, Change of Condition and Emergency Medical Care",
+      "covers": [],
+      "citations": [
+        "C10",
+        "C16",
+        "C42",
+        "C18"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Staff are trained on how to react to psychiatric and medical emergencies, poison control and deaths (115.300).",
+        "A phone is operational and the poison control number is posted. Obtain consent to emergency medical services at entry.",
+        "Document individual seizure and choking risk plans in the record. Staff are trained on them.",
+        "Notify the guardian, RN and physician of a change of condition. Report any critical incident under CI-02."
+      ]
+    },
+    {
+      "id": "ENV-01",
+      "category": "Home Environment and Safety",
+      "title": "Emergency Preparedness and Fire Drills",
+      "covers": [],
+      "citations": [
+        "C16",
+        "C42"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a disaster preparedness plan covering disasters and public health crises, reviewed annually.",
+        "Evacuation drills include actual evacuation to safe areas. Record corrective actions for drill or inspection deficiencies.",
+        "At least one approved fire extinguisher with an annual inspection tag. Red Cross-standard first aid kits are checked quarterly and restocked.",
+        "Fire and disaster training records are available at the site to DDD and BALC. New individuals are trained within 30 days of moving in."
+      ]
+    },
+    {
+      "id": "ENV-02",
+      "category": "Home Environment and Safety",
+      "title": "Infection Prevention and Control",
+      "covers": [],
+      "citations": [
+        "C16",
+        "C6",
+        "C42"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Cover public health crises in the disaster plan (115.300).",
+        "Respite requires a physician statement of no contagious disease.",
+        "Standard precautions and hand hygiene. Bloodborne pathogens training and exposure control under OSHA.",
+        "Keep local and State health and sanitation inspection copies at the site."
+      ]
+    },
+    {
+      "id": "ENV-03",
+      "category": "Home Environment and Safety",
+      "title": "Food, Nutrition and Modified Diets",
+      "covers": [],
       "citations": [
         "C10",
         "C12",
@@ -717,177 +1475,754 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Provide care and supervision based on assessed needs, and be available 24 hours (115.220).",
-        "Document daily support delivered against each Implementation Strategy outcome. Notes are dated and signed.",
-        "Document the QIDP monthly review. Record contents must include consent, prior service history, Personal Plan and Implementation Strategy (Part 115 record rules).",
-        "Report changes in functional status to the QIDP, who updates the strategy.",
-        "Keep current copies of Personal Plans and Implementation Strategies at the residence (digital or paper)."
+        "Dietary needs and modified diets are written in the Implementation Strategy, with physician or dietitian orders.",
+        "Individuals choose meals and have access to food, consistent with HCBS settings rules.",
+        "Choking-risk textures and aspiration precautions are posted for staff.",
+        "Any food restriction is a rights modification (RTS-02)."
       ]
     },
     {
-      "id": "PCS-05",
-      "category": "Person-Centered Services",
-      "title": "Community Integration and Employment Choice",
+      "id": "ENV-04",
+      "category": "Home Environment and Safety",
+      "title": "Transportation and Vehicle Safety",
+      "covers": [],
       "citations": [
-        "C4",
+        "C42",
         "C5",
-        "C10"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(2)(i)",
-        "42 CFR 441.301(c)(4)"
-      ],
-      "state_specifics": [
-        "Community integration means opportunities to seek competitive integrated employment, engage in community life, and control personal resources (115.120).",
-        "Support time out of the home in non-disability-specific activities of the person's choice, such as worship, recreation, education, library, shopping and holidays. Support communication by phone, electronic media and mail, and vacations.",
-        "Day program authorizations are billed separately from the CILA rate (115.200). Staff must still cover the home when individuals miss day programming.",
-        "Offer employment exploration at least annually through the ISC planning process. Record choices in the Personal Plan.",
-        "Support relationships with non-paid community members (115.220)."
-      ]
-    },
-    {
-      "id": "PCS-06",
-      "category": "Person-Centered Services",
-      "title": "Time Alone and Independent Community Access",
-      "citations": [
-        "C12",
-        "C4"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Someone needing continuous supervision may stay alone or go into the community independently only under specific circumstances (115.230).",
-        "The provider support team assesses ability and desire. The decision is based on need and preference, not staff convenience.",
-        "The Implementation Strategy states times, locations and time frames. Continuous supervision ranges from line of sight to present and accessible, as the strategy specifies (115.120).",
-        "Include an emergency plan and a way for the person to reach staff."
-      ]
-    },
-    {
-      "id": "PCS-07",
-      "category": "Person-Centered Services",
-      "title": "Respite Services (if offered)",
-      "citations": [
-        "C6"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Before respite, require a physician statement that the individual has no contagious disease (115.205).",
-        "Document that the respite guest will not jeopardize the health and safety of other residents.",
-        "Respite lasting more than two weeks requires Department approval before the first two weeks end, and only in emergencies.",
-        "Adopt this policy only if the agency will offer respite; otherwise note it as not offered."
-      ]
-    },
-    {
-      "id": "PCS-08",
-      "category": "Person-Centered Services",
-      "title": "Transition, Discharge and Termination of Services",
-      "citations": [
-        "C9",
-        "C15",
-        "C4"
-      ],
-      "federal": [
-        "42 CFR 441.301(c)(2)"
-      ],
-      "state_specifics": [
-        "Individuals may remain in the CILA unless they voluntarily withdraw or meet the 115.215 criteria (115.250). Pull the 115.215 criteria and procedure verbatim before finalizing.",
-        "Termination is never a punitive response to behavior or a way to avoid staffing needs. Coordinate with the ISC, QIDP, individual and guardian, and document the team recommendation.",
-        "Give the person and guardian written notice and the rights/contact information for GAC, OIG and Equip for Equality (115.250).",
-        "Transfer records only with a signed release (Confidentiality Act). Plan the transition and follow up after the move.",
-        "Agency closure is handled under GOV-06."
-      ]
-    },
-    {
-      "id": "HW-01",
-      "category": "Health and Wellness",
-      "title": "Medication Administration and Staff Certification",
-      "citations": [
-        "C13",
-        "C25",
-        "C10",
-        "C31"
-      ],
-      "federal": [
-        "45 CFR 164.530"
-      ],
-      "state_specifics": [
-        "A licensed physician (MD/DO) is responsible for medical services including prescribing (115.240).",
-        "A physician examines the individual before psychotropics start. AIMS screening at least every six months for individuals on psychotropics. Physician reviews medications and sees the individual at least every six months (115.240).",
-        "Medications are provided or supervised under the Administrative Act and 59 Ill. Adm. Code 116 (Part 116 text to be pinned).",
-        "Staff help individuals access medication information, including observing and reporting effects and side effects (115.220).",
-        "Staff certification: confirm the current DHS-approved medication administration course and passing score with BALC before staff administer. Older hour counts were from an outdated BALC document.",
-        "Use an MAR, error/incident reporting to the RN and QIDP, secure storage and a controlled-substance count."
-      ]
-    },
-    {
-      "id": "HW-02",
-      "category": "Health and Wellness",
-      "title": "Nursing Oversight and Health Care Coordination",
-      "citations": [
-        "C31",
-        "C10",
-        "C4",
-        "C13"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "The agency must have an RN with an unencumbered Illinois license who completes the DHS/DDD RN trainer webinars (IDHS New Provider Guidance). Verify the license on the IDFPR site before hire.",
-        "A nurse is part of the Provider Support Team when necessary (115.220). DSPs work under QIDP, nurse or other authorized higher-level supervision (115.120).",
-        "The RN trains and oversees medication staff, reviews health risk screening, and coordinates physician visits (at least every six months, 115.240).",
-        "The agency is licensed or certified as required by Illinois law for health professionals (115.320(b)(1))."
-      ]
-    },
-    {
-      "id": "HW-03",
-      "category": "Health and Wellness",
-      "title": "Health Monitoring, Seizures and Choking Risk",
-      "citations": [
-        "C11",
-        "C12",
-        "C10",
-        "C31"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Health risks identified in screening and the Personal Plan must be addressed in the Implementation Strategy (115.120 Implementation Strategy; PCS-03).",
-        "Write individual seizure, choking, dysphagia and aspiration protocols from the RN and physician orders, and train all staff on them before working alone.",
-        "Staff keep first aid/CPR current and renew every two years (IDHS New Provider Guidance).",
-        "Document vital signs, weights and medical appointments, and share health information with the ISC and physician as the plan requires."
-      ]
-    },
-    {
-      "id": "HW-04",
-      "category": "Health and Wellness",
-      "title": "Change of Condition and Emergency Medical Care",
-      "citations": [
-        "C4",
-        "C16",
-        "C14"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Medical emergencies, unscheduled hospitalizations, injuries of known or unknown origin and law enforcement or fire department involvement are critical incidents (115.120) and are reported through CIRAS.",
-        "Staff and individuals must know how to respond to medical and psychiatric emergencies and poison control (115.300(c)(8)).",
-        "Post an accessible telephone with the site number and nearest poison control center (115.300(c)(8)(F)).",
-        "Call 911 first for life-threatening events, then notify the RN, QIDP, guardian and ISC. Send a face sheet, medication list and Personal Plan summary with the person.",
-        "Record the change of condition and update the Implementation Strategy."
-      ]
-    },
-    {
-      "id": "HW-05",
-      "category": "Health and Wellness",
-      "title": "Death of an Individual",
-      "citations": [
-        "C4",
-        "C24",
         "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "Deaths are critical incidents. Deaths reportable under Part 50 go to the OIG, and those not otherwise reportable still go through the critical incident process (115.120).",
-        "Staff are trained on responding to a death (115.300(c)(8)(C)).",
-        "Procedure: emergency response, 911 and law enforcement/coroner as required, immediate notice to guardian/next of kin, ISC, QIDP and administrator, and incident entry in CIRAS. Preserve records and the scene.",
-        "Do not release belongings or funds except under written authorization and law. Follow IR-05 for funds."
+        "Drivers hold a valid license. The agency checks driving records.",
+        "Confirm any BALC requirement for agency vehicles and insurance. No agency insurance minimum was located in Part 115.",
+        "Maintain vehicles and keep first aid kits and emergency contacts in them.",
+        "Wheelchair securement and seat-belt use are required. Accessible transportation is provided as the Personal Plan requires."
       ]
     }
-  ]
+  ],
+  "forms": [
+    {
+      "name": "Rights of Individuals (IL 462-1201) Acknowledgment",
+      "purpose": "Record that the form was shared and explained at entry and annually, with GAC, OIG, DHS and Equip for Equality contacts given.",
+      "policy_ids": [
+        "GPR-06",
+        "RTS-01"
+      ]
+    },
+    {
+      "name": "Implementation Strategy (IL462-4470) Tracking Sheet",
+      "purpose": "Track the 10-day provider signature, 20-day strategy, signatures, copies given and monthly QIDP review.",
+      "policy_ids": [
+        "PCS-01",
+        "GPR-01"
+      ]
+    },
+    {
+      "name": "Governing Body Input Log",
+      "purpose": "Document input from individuals, guardians and representatives to the governing body and the response.",
+      "policy_ids": [
+        "GOV-02",
+        "GOV-01"
+      ]
+    },
+    {
+      "name": "Organizational Chart, Staffing Pattern and Qualifications Worksheet",
+      "purpose": "Support the license application and annual review of roles, qualifications and staffing patterns.",
+      "policy_ids": [
+        "GOV-03",
+        "STF-04"
+      ]
+    },
+    {
+      "name": "Policy Review and Version Log",
+      "purpose": "Record annual review, changes, approver and effective date.",
+      "policy_ids": [
+        "GOV-03"
+      ]
+    },
+    {
+      "name": "Pre-Employment Registry Check Log",
+      "purpose": "Record dates and results for the DPH HCW Registry, DCFS SCR/CANTS, Sex Offender Registry and HFS Sanctions List, with a 30-day inquiry window check.",
+      "policy_ids": [
+        "STF-02"
+      ]
+    },
+    {
+      "name": "Annual Registry Recheck Tracker",
+      "purpose": "Schedule and record 365-day rechecks and actions taken on new findings.",
+      "policy_ids": [
+        "STF-02"
+      ]
+    },
+    {
+      "name": "Credential and Waiver Tracker",
+      "purpose": "Track license/certification verification and HCW Registry and CANTS waiver requests.",
+      "policy_ids": [
+        "STF-01",
+        "STF-03"
+      ]
+    },
+    {
+      "name": "Employee Health and TB Screening Record",
+      "purpose": "Record screening dates and results pending confirmation of current requirements.",
+      "policy_ids": [
+        "STF-05"
+      ]
+    },
+    {
+      "name": "Staff Conduct and Boundaries Acknowledgment",
+      "purpose": "Staff sign that they understand the conduct, reporting and boundaries rules.",
+      "policy_ids": [
+        "STF-06"
+      ]
+    },
+    {
+      "name": "Human Rights Committee Roster and Minutes",
+      "purpose": "Record composition (5+ members, one-third independent), attendance, individual decisions, justification, outcomes and next review dates.",
+      "policy_ids": [
+        "GPR-02"
+      ]
+    },
+    {
+      "name": "Behavior Management Committee Minutes and Intervention Approval",
+      "purpose": "Record approval, six-month and annual reviews, rights-restriction determination and outside-member input.",
+      "policy_ids": [
+        "GPR-03"
+      ]
+    },
+    {
+      "name": "Rights Restriction/Modification Form",
+      "purpose": "Document the assessed need, less intrusive methods tried, consent, time limit and review dates.",
+      "policy_ids": [
+        "RTS-02",
+        "GPR-04"
+      ]
+    },
+    {
+      "name": "Restraint Use Report",
+      "purpose": "Document any restraint use, with CIRAS and OIG reporting confirmation.",
+      "policy_ids": [
+        "GPR-04",
+        "CI-02"
+      ]
+    },
+    {
+      "name": "Abuse/Neglect/Exploitation Allegation and Guardian Notice Form",
+      "purpose": "Document discovery time, OIG report within 4 hours, and notice to the individual and guardian within 24 hours.",
+      "policy_ids": [
+        "GPR-05",
+        "CI-02"
+      ]
+    },
+    {
+      "name": "Rights Complaint Form and Log",
+      "purpose": "Record complaints, response, HRC review and outcome.",
+      "policy_ids": [
+        "GPR-06"
+      ]
+    },
+    {
+      "name": "Admission Policy, Referral and Eligibility Checklist",
+      "purpose": "Document written admission criteria, nondiscrimination statement and eligibility verification.",
+      "policy_ids": [
+        "GPR-07"
+      ]
+    },
+    {
+      "name": "Respite Physician Statement and Safety Documentation",
+      "purpose": "Document no contagious disease, no jeopardy to others, and the two-week limit.",
+      "policy_ids": [
+        "GPR-07"
+      ]
+    },
+    {
+      "name": "Site Compliance and Inspection File Index",
+      "purpose": "Index fire, building, zoning, sanitation and health clearances and local inspection copies.",
+      "policy_ids": [
+        "GPR-08",
+        "ENV-01"
+      ]
+    },
+    {
+      "name": "Protection and Advocacy Visit Log",
+      "purpose": "Record visits and the individual or guardian consent.",
+      "policy_ids": [
+        "GPR-09"
+      ]
+    },
+    {
+      "name": "Remote Monitoring Assessment and Consent",
+      "purpose": "Document the risk assessment, consent and privacy safeguards for remote supports or electronic monitoring.",
+      "policy_ids": [
+        "GPR-10"
+      ]
+    },
+    {
+      "name": "Training Plan and Competency Record",
+      "purpose": "Document the written training plan, training dates, competency method and results for each (d)(1) area.",
+      "policy_ids": [
+        "TRN-01",
+        "TRN-02",
+        "TRN-03",
+        "TRN-04"
+      ]
+    },
+    {
+      "name": "Hot Water Temperature Log",
+      "purpose": "Record water temperature checks against the 100-110 degree range.",
+      "policy_ids": [
+        "TRN-02",
+        "GPR-08"
+      ]
+    },
+    {
+      "name": "Medication Administration Competency and Nurse-Trainer Re-evaluation Record",
+      "purpose": "Record Part 116 certification, annual re-evaluation and retraining.",
+      "policy_ids": [
+        "TRN-05",
+        "HLT-01"
+      ]
+    },
+    {
+      "name": "AIMS Screening Record",
+      "purpose": "Document AIMS screening at least every six months for individuals on psychotropics.",
+      "policy_ids": [
+        "HLT-01",
+        "TRN-05"
+      ]
+    },
+    {
+      "name": "Volunteer Application, Training and Supervision Record",
+      "purpose": "Document volunteer registry checks, training in (d) areas and supervisor.",
+      "policy_ids": [
+        "VOL-01"
+      ]
+    },
+    {
+      "name": "Quality Assurance Plan and Annual Review",
+      "purpose": "Document QA activities, audits, findings and corrective actions.",
+      "policy_ids": [
+        "QA-01",
+        "QA-02"
+      ]
+    },
+    {
+      "name": "Deficiency Correction and Certification Withdrawal Record",
+      "purpose": "Track the 30-day correction period, withdrawal and notice to the Department.",
+      "policy_ids": [
+        "QA-02"
+      ]
+    },
+    {
+      "name": "Critical Incident Report",
+      "purpose": "Record incident details, notifications, CIRAS entry, law enforcement report within 24 hours and management review.",
+      "policy_ids": [
+        "CI-01",
+        "CI-02",
+        "CI-03",
+        "CI-04"
+      ]
+    },
+    {
+      "name": "Missing Person Response Checklist",
+      "purpose": "Step-by-step search, notification and reporting record.",
+      "policy_ids": [
+        "CI-03"
+      ]
+    },
+    {
+      "name": "Death Notification and Mortality Review Form",
+      "purpose": "Document notifications, reports and review of a death.",
+      "policy_ids": [
+        "CI-04",
+        "QA-01"
+      ]
+    },
+    {
+      "name": "Record Access and Release of Information Authorization",
+      "purpose": "Document consent to release records under the Confidentiality Act and HIPAA.",
+      "policy_ids": [
+        "REC-01",
+        "RTS-05"
+      ]
+    },
+    {
+      "name": "Chronological Record Abbreviation Legend and Electronic Signature Certification",
+      "purpose": "Standard legend and user certification of confidential identifier use.",
+      "policy_ids": [
+        "REC-02"
+      ]
+    },
+    {
+      "name": "Individual Record Entry Checklist",
+      "purpose": "Verify entry items (h)(3)(A)-(H) and in-service items (h)(4)(A)-(F).",
+      "policy_ids": [
+        "REC-03",
+        "GPR-01"
+      ]
+    },
+    {
+      "name": "Monthly QIDP Progress Note",
+      "purpose": "QIDP-signed, dated monthly documentation of progress toward Personal Plan outcomes.",
+      "policy_ids": [
+        "REC-03",
+        "PCS-03"
+      ]
+    },
+    {
+      "name": "State Reporting Calendar",
+      "purpose": "Track CIRAS, OIG, renewal (120 days), ownership change (60 business days) and annual review dates.",
+      "policy_ids": [
+        "REC-04",
+        "FIN-02"
+      ]
+    },
+    {
+      "name": "Wage Pass-Through Certification Worksheet",
+      "purpose": "Support DDD certification that wage increases go to direct care staff.",
+      "policy_ids": [
+        "FIN-01"
+      ]
+    },
+    {
+      "name": "Personal Funds Ledger and Monthly Reconciliation",
+      "purpose": "Track individuals' funds, receipts and balances.",
+      "policy_ids": [
+        "FIN-03"
+      ]
+    },
+    {
+      "name": "Fire and Evacuation Drill Log",
+      "purpose": "Record drills, actual evacuation, time and corrective actions.",
+      "policy_ids": [
+        "ENV-01"
+      ]
+    },
+    {
+      "name": "Sexual Health Decision-Making Capacity Assessment",
+      "purpose": "Document capacity assessment for consent to sexual activity.",
+      "policy_ids": [
+        "RTS-03"
+      ]
+    },
+    {
+      "name": "Provider Support Team Meeting and Additional Support Request Form",
+      "purpose": "Document team meetings and requests to the Department for additional supports.",
+      "policy_ids": [
+        "PCS-02"
+      ]
+    },
+    {
+      "name": "Transition/Discharge Plan and Notice",
+      "purpose": "Document termination criteria, notices, transition plan and return of funds and property.",
+      "policy_ids": [
+        "PCS-05"
+      ]
+    },
+    {
+      "name": "Vehicle Safety and Driver Check Form",
+      "purpose": "Record driver license verification and vehicle inspection.",
+      "policy_ids": [
+        "ENV-04"
+      ]
+    },
+    {
+      "name": "Modified Diet and Choking Risk Plan",
+      "purpose": "Document diet orders, textures and precautions.",
+      "policy_ids": [
+        "ENV-03",
+        "HLT-03"
+      ]
+    }
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "59 Ill. Adm. Code 115.320 Administrative Requirements (Subpart C)",
+        "form_number": "59 Ill. Adm. Code 115.320 (no BALC form number found)",
+        "issuer": "Illinois Department of Human Services (rule published by JCAR/ILGA); enforced by DHS BALC and DDD",
+        "version": "Amended at 47 Ill. Reg. 8485, effective May 31, 2023 (current text as fetched)",
+        "url": "https://www.ilga.gov/ftp/JCAR/AdminCode/059/059001150C03200R.html",
+        "how_used": "Main source. I found no public BALC policy checklist, and the BALC application packet is released only after New Provider Orientation. This is the Part 115 section that lists the written policies, plans and processes a CILA agency must have. Items are listed in the section's own lettering, e.g. c(3)(A) and d(1)(C)."
+      },
+      {
+        "title": "59 Ill. Adm. Code 115.410 License Application",
+        "form_number": "59 Ill. Adm. Code 115.410(a)(3) (the application itself is issued by BALC on request)",
+        "issuer": "Illinois Department of Human Services, Bureau of Accreditation, Licensure and Certification",
+        "version": "Amended at 47 Ill. Reg. 8485, effective May 31, 2023",
+        "url": "https://www.ilga.gov/ftp/JCAR/AdminCode/059/059001150D04100R.html",
+        "how_used": "Confirms that the license application requests the agency's policies and procedures and its organizational chart, staffing patterns and staff qualifications."
+      },
+      {
+        "title": "New Provider Guidance - Steps For CILA",
+        "form_number": "n/a (web guidance page)",
+        "issuer": "IDHS Division of Developmental Disabilities / BALC",
+        "version": "Undated web page, footer © 2023 (fetched Oct 2026)",
+        "url": "https://www.dhs.state.il.us/page.aspx?item=105282",
+        "how_used": "Describes the review sequence. After the initial interview, the applicant submits policies and procedures, a projected two-year budget, sample case files and sample implementation strategies. Only the policies and procedures are policy content. The budget and case-file samples are excluded."
+      },
+      {
+        "title": "Community Integrated Living Arrangement (CILA) – How do I apply for a CILA License?",
+        "form_number": "n/a (web page)",
+        "issuer": "IDHS Division of Developmental Disabilities / BALC",
+        "version": "Web page, footer © 2023 (fetched Oct 2026)",
+        "url": "https://www.dhs.state.il.us/page.aspx?item=47487",
+        "how_used": "Gives the application path: attend New Provider Orientation, then request the CILA licensure application from BALC. It also says DSP and QIDP training programs go to DDD for approval after enrollment."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "115.410(a)(3)(D)",
+        "text": "Policies and procedures of the agency",
+        "cite": "59 Ill. Adm. Code 115.410(a)(3)(D)",
+        "doc": 1
+      },
+      {
+        "item_id": "115.410(a)(3)(E)",
+        "text": "Organizational chart, staffing patterns, and staff qualifications for the agency",
+        "cite": "59 Ill. Adm. Code 115.410(a)(3)(E)",
+        "doc": 1
+      },
+      {
+        "item_id": "115.320(a)(1)",
+        "text": "Governing body: each CILA provider owned or operated by any corporation, association, or unit of local government shall have a governing body in which is vested authority and responsibility for the organization, management, control, and operation of the CILA agency and all programs, services, facilities, and residences it administers.",
+        "cite": "59 Ill. Adm. Code 115.320(a)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(a)(2)",
+        "text": "Each CILA provider shall have provisions for obtaining input from individuals served, guardians and/or individual's representatives to the governing body.",
+        "cite": "59 Ill. Adm. Code 115.320(a)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(1)",
+        "text": "Staffing: Mental health and developmental disabilities employees shall be licensed or certified as required by Illinois laws.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(2)",
+        "text": "When paraprofessional, non-professional contractual workers or volunteers are used in direct services, they shall be supervised in the provision of services by professional employees.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(3)",
+        "text": "A CILA provider shall not employ an individual (including contractual workers, volunteers, or practitioners who have the responsibility of caring for individuals) in any capacity, until the provider has conducted these registry checks: (A) DPH Health Care Worker Registry; (B) DCFS State Central Register/CANTS; (C) Illinois Sex Offender Registry; (D) HFS Sanctions List (HFS OIG).",
+        "cite": "59 Ill. Adm. Code 115.320(b)(3)(A)-(D)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(4)",
+        "text": "A CILA provider shall not employ an individual in any capacity until it has inquired of and received the results from the applicable registry or list. Inquiries shall not occur more than 30 calendar days prior to the first day of employment.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(5)",
+        "text": "If the DPH, DCFS, or Illinois Sex Offender registries show a finding of physical or sexual abuse or egregious neglect, a substantiated case of child abuse or neglect, a sex offense, or a disqualifying criminal conviction with no waiver, the provider shall not employ that person in any capacity. If the HFS Sanctions List shows the person has been excluded from the Illinois Medical Assistance Program, the provider shall confirm that person's status with the HFS OIG.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(6)",
+        "text": "CILA providers shall make annual inquiries to the DPH, DCFS, and Illinois Sex Offender registries and the HFS Sanctions List for each current employee, volunteer, contractual worker, subcontractor, or licensed practitioner. A person whose name has been placed on the registry or list must be terminated. The provider must establish a schedule that results in completion of checks every full year (365 calendar days), by (A) repeating the check on the anniversary of hiring, (B) repeating it when the annual performance evaluation is due, or (C) creating a specific schedule of checks.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(6)(A)-(C)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(7)",
+        "text": "The CILA provider must comply with the Health Care Worker Background Check Act [225 ILCS 46]. A CILA provider shall not knowingly hire or retain any person outside of the provisions of the Act.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(8)",
+        "text": "A person listed on the Health Care Worker Registry may request a waiver of the prohibition against employment by completing an application on a form prescribed by DPH in accordance with the Health Care Worker Background Check Act.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(8)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(b)(9)",
+        "text": "A waiver of an indication on the CANTS Register may be requested by completing an application per the guidelines issued and published by the Department.",
+        "cite": "59 Ill. Adm. Code 115.320(b)(9)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(1)",
+        "text": "Recordkeeping: Cumulative case records including a Personal Plan and Implementation Strategy shall be maintained for each individual.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(2)(A)",
+        "text": "Behavior management and human rights review: Each CILA agency is required to have a Human Rights Committee that will establish or ensure a process for the periodic review of human rights issues involved in the individual's services and supports. A program that uses behavioral interventions as specified in Section 115.214 shall also establish a Behavior Management Committee. Each Committee must have at least five members, and members shall not be shared between committees except a physician, APRN, registered professional nurse, or nurse practitioner/physician assistant.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(2)(A)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(2)(B)",
+        "text": "The Human Rights Committee shall: (i) review at least annually the CILA provider policies, procedures and practices which have the potential to restrict the rights of individuals; (ii) review at least every six months practices which restrict a specific individual's rights; (iii) inform the CILA agency of any complaints involving an individual's rights, deficiencies, and any corrective actions; (iv) ensure that individuals, guardians, and natural supports as desired are included in meetings about their services and supports; (v) maintain minutes, including attendance and a record of decisions made per individual, with justification and intended outcomes. When restrictive interventions are approved, the minutes must include the next review date.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(2)(B)(i)-(v)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(2)(C)",
+        "text": "The Human Rights Committee shall include: (i) at least 5 members; (ii) at least one person receiving services from the agency and/or the individual's family member or guardian; (iii) at least one-third of the members who are not former employees of the CILA provider, individuals or guardians of individuals formerly served by the provider, a vendor providing products or services to the provider, or employees from other CILA providers or DD programs.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(2)(C)(i)-(iii)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(2)(D)",
+        "text": "A Behavior Management Committee shall: (i) approve behavior interventions prior to implementation and review them at least every six months; (ii) review all behavior strategies at least annually and determine if a rights restriction exists. Plans with a rights restriction must also be reviewed by the Human Rights Committee; (iii) maintain minutes, including attendance and a record of decisions made; (iv) seek input from individuals, guardians, and natural supports as desired.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(2)(D)(i)-(iv)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(2)(E)",
+        "text": "A Behavior Management Committee shall be comprised as follows: (i) members shall include persons qualified to evaluate the appropriateness of proposed behavior management interventions; (ii) when drugs to manage behavior are used, a licensed professional qualified to evaluate their use shall be a member; (iii) at least one member shall be from outside the CILA agency.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(2)(E)(i)-(iii)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(3)(A)",
+        "text": "Abuse, neglect, and exploitation: Each CILA agency shall have and use a process for reporting and handling instances of abuse, neglect, and exploitation in accordance with applicable standards, regulations and laws. It shall include notification of the individual allegedly abused, neglected, or exploited and their guardian or parent of the allegation within 24 hours after receiving the allegation.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(3)(A)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(3)(B)",
+        "text": "In addition to abuse, neglect, and exploitation, each CILA agency shall have and use a process for reporting and handling complaints regarding individual rights. The agency shall share a copy of the Rights of Individuals form [IL 462-1201] with the individual and/or guardian when an individual enters the CILA program (see Section 115.250(a)).",
+        "cite": "59 Ill. Adm. Code 115.320(c)(3)(B)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(4)(A)",
+        "text": "Admission requirements: CILA agencies shall not discriminate in the admission to and provision of needed services on the basis of race, color, sex, religion (creed), gender identity, gender expression, age, national origin (ancestry), ethnicity, disability, marital status, sexual orientation or military status in any of their activities or operations.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(4)(A)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(4)(B)",
+        "text": "Admission policies and procedures shall be set forth in writing and be available for review.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(4)(B)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(5)",
+        "text": "Compliance with life safety standards and requirements: All program facilities shall be in compliance with applicable State licensure requirements and local ordinances with regard to fire, building, zoning, sanitation, health, and safety requirements.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(5)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(6)",
+        "text": "Visits to programs: The CILA agency shall ensure that Department-authorized individual protection and advocacy interest groups shall be permitted, with the consent of the individual or guardian, to visit provider-owned or controlled living arrangements.",
+        "cite": "59 Ill. Adm. Code 115.320(c)(6)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(c)(7)",
+        "text": "Remote Monitoring and Supports: CILA agencies may provide remote monitoring and support services pursuant to 305 ILCS 5/12-21.21, as determined by DDD. Remote supports and services must be based on an assessment which shall, at a minimum, identify risks important in considering whether remote monitoring and supports are appropriate for the individual. (Applies only if the agency offers this service.)",
+        "cite": "59 Ill. Adm. Code 115.320(c)(7)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)",
+        "text": "Training: Direct service professionals and any other persons (paraprofessional, contractual workers, or volunteers) with responsibility for direct care shall demonstrate competence in the training areas listed in (d)(1)(A) through (M) as part of an orientation program. Anyone without previous experience in direct service shall receive training and demonstrate competence prior to unsupervised responsibility for direct service unless trained employees are on site and available for on-the-job training. Training and competence must be documented in employee records.",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(A)",
+        "text": "Cardiopulmonary resuscitation (CPR), back blows/abdominal thrusts, and first aid;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(A)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(B)",
+        "text": "Concepts of habilitation and rehabilitation including behavior intervention and management, age appropriateness and psycho-social rehabilitation depending on the needs of the individuals served or to be served;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(B)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(C)",
+        "text": "Safety and disaster procedures; public health emergencies; and fire procedures and the use of fire equipment such as a fire extinguisher;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(C)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(D)",
+        "text": "Abuse, neglect, exploitation, coercion and critical incident prevention, handling and reporting to the DHS OIG (pursuant to 59 Ill. Adm. Code 50);",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(D)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(E)",
+        "text": "Individual rights in accordance with Section 115.250 and maintaining confidentiality in accordance with the Mental Health and Developmental Disabilities Confidentiality Act [740 ILCS 100];",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(E)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(F)",
+        "text": "The purpose and content of the Personal Plan pursuant to 42 CFR 441.301(c)(2);",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(F)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(G)",
+        "text": "Development and implementation of an Implementation Strategy;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(G)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(H)",
+        "text": "The type, dosage, characteristics, effects, and side effects of medications prescribed for individuals. The CILA agency shall ensure that there is sufficient training in this area to provide coverage during expected and unexpected absences of caregivers by others who have been determined competent;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(H)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(I)",
+        "text": "Observation, using the AIMS (Abnormal Involuntary Movement Skills), of involuntary muscular movement, which may be indicative of tardive dyskinesia;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(I)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(J)",
+        "text": "Documentation and recordkeeping requirements with reference to the Personal Plan and Implementation Strategy;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(J)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(K)",
+        "text": "Other training which relates specifically to the type of disability or treatment and intervention techniques being used specific to individuals living in CILAs, geared toward assisting employees to execute outcomes stated in the Personal Plans and Implementation Strategies;",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(K)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(L)",
+        "text": "The techniques associated with monitoring and regulating hot water temperatures prior to and during an individual's use to ensure safe hand-washing, hair-washing, bathing, and showering procedures. Water temperatures should be between 100 and 110 degrees to ensure safety; and",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(L)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(1)(M)",
+        "text": "In CILA programs for individuals with developmental disabilities, all unlicensed, direct care employees, prior to assuming responsibility for supervising self-administration of medication or for administering medications, shall meet criteria in 59 Ill. Adm. Code 116.40(c), including successful completion of a Department-approved training program provided by a CILA agency Nurse-Trainer. Authorized direct care staff shall be re-evaluated by a Nurse-Trainer at least annually or more frequently at the discretion of the registered professional nurse. Any retraining shall be to the extent necessary to ensure competency (see 59 Ill. Adm. Code 116.40).",
+        "cite": "59 Ill. Adm. Code 115.320(d)(1)(M)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(2)",
+        "text": "After completion of training specified in subsection (d)(1), each direct service employee shall participate in ongoing employee development activities as outlined in the CILA agency's employee development plan.",
+        "cite": "59 Ill. Adm. Code 115.320(d)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(3)",
+        "text": "All training shall be documented and shall be readily available for review by BALC and DDD.",
+        "cite": "59 Ill. Adm. Code 115.320(d)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(d)(4)",
+        "text": "The CILA agency shall implement a written training plan which lists training to be offered to meet the requirements of this Part, the methods used for completion of any required training, and the process used to determine competency.",
+        "cite": "59 Ill. Adm. Code 115.320(d)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(e)",
+        "text": "Volunteer training: The CILA agency shall provide an orientation and training program for volunteers specific to volunteer duties and shall provide supervision as necessary. Volunteers with responsibility for care of individuals served must complete and demonstrate competency in the training areas specified in subsection (d).",
+        "cite": "59 Ill. Adm. Code 115.320(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(f)(1)",
+        "text": "Quality assurance: There shall be a written quality assurance plan and ongoing activities designed to review and evaluate services to individuals and operation of programs and to resolve identified problems.",
+        "cite": "59 Ill. Adm. Code 115.320(f)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(f)(2)",
+        "text": "The CILA agency's quality assurance program shall be the basis for determining under its license that individuals are receiving appropriate community-based services consistent with their Personal Plans and Implementation Strategies and that all programs and services are supervised by the agency and comply with this Part. (A) If a certified CILA does not continue to meet standards, the agency shall correct deficiencies within 30 days. (B) If deficiencies cannot be corrected within 30 days, the agency shall withdraw certification of the CILA program in question and notify the Department, and remains responsible for the affected individuals until they have transitioned to other settings.",
+        "cite": "59 Ill. Adm. Code 115.320(f)(2)(A)-(B)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(g)(1)",
+        "text": "Critical incidents: The CILA agency shall have written policies and procedures for handling, investigating, reporting, tracking, and analyzing critical incidents through the agency's management structure, up to and including the authorized CILA agency representative. The agency shall ensure that employees demonstrate their knowledge of, and follow, such policies and procedures.",
+        "cite": "59 Ill. Adm. Code 115.320(g)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(g)(2)",
+        "text": "Within 24 hours of occurrence the CILA agency shall report any incident which is subject to the Criminal Code of 2012 [720 ILCS 5] to the local law enforcement agencies.",
+        "cite": "59 Ill. Adm. Code 115.320(g)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(g)(3)",
+        "text": "The CILA agency shall ensure that suspected instances of abuse, neglect or exploitation against individuals in programs licensed by the Department are reported to the Office of Inspector General within four hours of discovery.",
+        "cite": "59 Ill. Adm. Code 115.320(g)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(g)(4)",
+        "text": "Incidents other than those required to be reported to the Office of Inspector General shall be electronically reported to DDD through its Critical Incident Reporting and Analysis System (CIRAS). Incidents to be reported are specified in Section 115.120 under Critical Incidents.",
+        "cite": "59 Ill. Adm. Code 115.320(g)(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(h)(1)",
+        "text": "Individuals' records: The CILA agency shall ensure the confidentiality of individuals' records in accordance with the Act and shall ensure safekeeping of all records against loss or destruction.",
+        "cite": "59 Ill. Adm. Code 115.320(h)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(h)(2)",
+        "text": "The CILA agency shall maintain a chronological record for each individual, accessible at the program site. (A) Each entry shall be legible, dated and authenticated by the signature and title of the person making the entry. (B) Corrections shall be initialed and made so the original incorrect entry stays legible. (C) When symbols or abbreviations are used, the agency shall provide a legend, standardized throughout the agency.",
+        "cite": "59 Ill. Adm. Code 115.320(h)(2)(A)-(C)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(h)(3)",
+        "text": "On an individual's entry into the CILA agency, the following shall be obtained, recorded, and updated as necessary: (A) identifying information; (B) court-appointed guardianship order, if applicable; (C) name, address and telephone number of the legal guardian or emergency contact; (D) language spoken or understood, including preferred mode of communication; (E) prescribed medications, reactions and side effects, allergies; (F) physical and dental examinations and medical history; (G) consent to receive emergency medical services; (H) copies of the authorization for release of information.",
+        "cite": "59 Ill. Adm. Code 115.320(h)(3)(A)-(H)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(h)(4)",
+        "text": "The following shall be entered in the individual's record during the period of service: (A) written informed consent by the individual or guardian to participate in a CILA; (B) prior service history; (C) Personal Plan and Implementation Strategy (Section 115.230); (D) assessments and reassessments (Section 115.225); (E) documentation of approval to use special procedures and the results of their use; (F) monthly documentation of progress towards Personal Plan outcomes, signed and dated by the QIDP.",
+        "cite": "59 Ill. Adm. Code 115.320(h)(4)(A)-(F)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(h)(5)",
+        "text": "Electronic signature or computer-generated signature codes are acceptable as authentication of record content. (A) The agency must adopt a policy that permits authentication by electronic or computer-generated signature. (B) The policy shall include safeguards to ensure confidentiality of the codes: (i) unique identifier per user generated through a confidential access code; (ii) written certification that each identifier is kept strictly confidential, with a commitment to terminate use of a misused identifier; (iii) written user certification that the user is the only person with access to the identifier; (iv) periodic monitoring of identifier use with corrective action, with the monitoring process described in the policy. (C) A verification process shall ensure the content of authenticated entries is accurate: (i) required completion of designated fields, with corrections made by separate subsequent authenticated entries; (ii) opportunity for the user to verify the document and signature; (iii) periodic sampling of system-generated records. (D) Each report generated by a user must be separately authenticated.",
+        "cite": "59 Ill. Adm. Code 115.320(h)(5)(A)-(D)",
+        "doc": 0
+      },
+      {
+        "item_id": "115.320(i)",
+        "text": "Financial and operational requirements: Agencies licensed to provide CILA services shall comply with Department rules regulating their contractual and financial relationship with the Department.",
+        "cite": "59 Ill. Adm. Code 115.320(i)",
+        "doc": 0
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "a) Governing body",
+        "b) Staffing",
+        "c) General program requirements (1 Recordkeeping; 2 Behavior management and human rights review; 3 Abuse, neglect, and exploitation; 4 Admission requirements; 5 Compliance with life safety standards and requirements; 6 Visits to programs; 7 Remote Monitoring and Supports)",
+        "d) Training",
+        "e) Volunteer training",
+        "f) Quality assurance",
+        "g) Critical incidents",
+        "h) Individuals' records",
+        "i) Financial and operational requirements"
+      ]
+    },
+    "notes": "No public BALC policy checklist or form was found. BALC releases the CILA licensure application only after New Provider Orientation, so it could not be reviewed. The items above come from the rule sections that list the written policies and plans a CILA agency must have, mainly 115.320, with 115.410(a)(3)(D)-(E) showing the application requests agency policies and procedures plus an organizational chart, staffing patterns and staff qualifications. Submission sequence from the DHS 'Steps for CILA' page: (1) attend New Provider Orientation; (2) request the application from BALC (DHS.BALC@illinois.gov, 312-814-5310); (3) submit the application with the $200 nonrefundable fee and fingerprint background checks; (4) pass the initial BALC interview; (5) submit policies and procedures, a projected two-year budget, sample case files and sample implementation strategies (budget and case files are not policy content, so they are excluded here); (6) if the policies are approved, receive a provisional license. BALC works with the applicant on revisions. If the interview or the policies fail, the applicant cannot reapply for one calendar year. After a first admission, BALC does a site visit within six months and, if the agency passes, issues a 3-year permanent license. The reviewer expects the manual to track the 115.320 lettering. Other Part 115 sections also require written content and should be cross-referenced in the manual. These were not fetched in full because ilga.gov blocked some pages: 115.200 (principles, critical incidents), 115.214 (behavioral interventions), 115.225 (assessments), 115.230 (Personal Plan and Implementation Strategy), 115.240 (medical services and medications), 115.250 (individual rights and confidentiality, the Rights of Individuals form IL 462-1201), 115.300 (environmental management, including life safety and a written policy on food dates), 115.310 (geographic location), and the termination criteria section. DSP and QIDP training programs go separately to DDD's Bureau of Quality Management for approval after enrollment, and the implementation strategy must be approved before billing. Confirm the current BALC packet and checklist directly with BALC."
+  },
+  "plan_version": 2
 }

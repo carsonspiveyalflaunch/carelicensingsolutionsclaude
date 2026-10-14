@@ -483,96 +483,1188 @@
   ],
   "policies": [
     {
-      "id": "GOV-01",
-      "category": "Governance and Administration",
-      "title": "Organization, Governance and Residence Administration (Program Director)",
-      "citations": [
-        "C3",
-        "C5",
-        "C6",
-        "C7",
-        "C17"
+      "id": "ADM-01",
+      "category": "Admission (686.6(a)(2)(i))",
+      "title": "Referral, Need Determination and Admission Decision",
+      "covers": [
+        "686.6(a)(2)",
+        "686.6(a)(2)(i)",
+        "686.6(a)(2)(i)(a)",
+        "686.6(a)(2)(i)(b)",
+        "686.6(a)(2)(i)(c)"
       ],
-      "federal": [],
-      "state_specifics": [
-        "An IRA must meet 14 NYCRR 686.1-686.5, 686.9, 686.15(a)(1)-(3) and 686.16 (686.16(a)(4)). Draft the governance content from the text of 686.5, which was not fetched.",
-        "686.6 Administration is not in the 686.16(a)(4) list. Confirm applicability before citing it.",
-        "'Operator' for background checks means any natural person with an ownership interest. Owners with regular and substantial contact need a 633.22 check, and so does any new owner after a change in ownership.",
-        "The board training in 633.8(b)(5) applies only to not-for-profit corporations. It does not apply to an LLC.",
-        "Designate the Authorized Party for criminal history checks and register the name, position and contact information with the Justice Center (633.22(c)(1)).",
-        "VERIFY: no OPWDD program director or manager qualification standard was found in the reviewed rules. Obtain OPWDD's written position."
-      ]
-    },
-    {
-      "id": "GOV-02",
-      "category": "Governance and Administration",
-      "title": "Operating Certificate, Waiver Enrollment and Provider Agreements",
       "citations": [
-        "C1",
-        "C2",
-        "C3",
-        "C4",
-        "C10",
-        "C43",
-        "C52",
-        "C53",
-        "C54",
-        "C55"
+        "C41",
+        "C42",
+        "C59",
+        "C7",
+        "C12"
       ],
       "federal": [
         "42 CFR 441.301(c)"
       ],
       "state_specifics": [
-        "Class: IRA (supervised or supportive), certified by OPWDD under 14 NYCRR 619.2 and 686.16. Use the OMR 248 application. Listed processing is 90 to 120 days. The certificate is triennial, with a maximum term of 3 years. Denials are based on the inspection outcome.",
-        "Post the operating certificate and calendar renewal 6 to 12 months before expiry.",
-        "Size tiers: 8 or fewer persons use the 635-7.1(h)(1)(ii) building code (NYC: 635-7.1(i)(1)(ii)) plus 635-7.4(b)(3). 9+ persons must meet 635-7.1, 7.2 and 7.3. If residents cannot evacuate in 3 minutes or less, 635-7.2(a)(1)(iii) also applies.",
-        "MHL 41.34 site selection applies to 4-14 bed IRAs with onsite supervision and 1-3 bed IRAs with 24-hour supervision (686.16(a)(7)).",
-        "Waiver residential habilitation requires OPWDD and DOH approval plus Medicaid enrollment. Community residence enrollment is filed under category of service 0269. Waiver enrollment requires an IRS SS-4 letter and Provider Compliance Program certification.",
-        "OPWDD main office: 44 Holland Avenue, Albany NY 12229-0001, (866) 946-9733. The DQI area offices handle survey and deficiency disputes. The North Area (Schenectady) number is (518) 388-1441. OPWDD publishes a deficiency dispute process effective 4/1/2024.",
-        "NYC sites: confirm with DOB whether the 1994 notice (TPPN 9/94) still ties the Certificate of Occupancy to the IRA license."
+        "Care managers must confirm OPWDD eligibility and a residential request before referral (14 NYCRR 636-3.5). Ask for this documentation with every referral.",
+        "The DDRO Director must approve every placement before admission, using the Request for Approval to Fill a Residential Opportunity.",
+        "OPWDD assigns Emergency Need, Substantial Need or Current Need. Report each vacancy promptly so Emergency Need is considered first (24-ADM-03).",
+        "The need determination covers the applicant's need for service, the ability to meet ongoing needs, and family intactness and geographic proximity.",
+        "Staff and the applicant take part in the determination, including the final admission decision. Written admission procedures are required."
       ]
     },
     {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review, Document Control and Regulation-Mandated Policy Inventory",
+      "id": "ADM-02",
+      "category": "Admission (686.6(a)(2)(i))",
+      "title": "Admission Criteria and Pre-Admission Review",
+      "covers": [
+        "686.6(a)(2)(i)(d)",
+        "686.6(a)(2)(i)(e)"
+      ],
       "citations": [
-        "C12",
-        "C14",
-        "C16",
-        "C17",
-        "C33"
+        "C7",
+        "C41",
+        "C59"
       ],
       "federal": [],
       "state_specifics": [
-        "Regulations require the agency to have its own written policies for: reporting and investigating incidents (624.5(a)); medication (633.17(a)(5)); criminal history checks and provisional staff (633.22(c)(2)); personal funds (633.15(a)(3)); rights notification (633.4(a)(8)); and the definition of sensitive situations (624.4).",
-        "Keep a policy-to-citation matrix and a log of regulatory changes. Watch the pending Part 633 changes to 633.9 and 633.15 (OPWDD memo, Sept 2026).",
-        "Staff must be kept apprised of current policies on protection from abuse (633.8(a)(4))."
+        "Admission criteria must be written in functional terms.",
+        "Before admission, review a medical/physical examination dated within 90 days before the review.",
+        "Before admission, also review assessment(s) of strengths, needs, interests and living skills completed within 90 days before the review.",
+        "Document the review in the admission file before requesting DDRO approval."
       ]
     },
     {
-      "id": "GOV-04",
-      "category": "Governance and Administration",
-      "title": "Quality Improvement, Data Review and Mortality Review",
+      "id": "ADM-03",
+      "category": "Admission (686.6(a)(2)(i))",
+      "title": "Voluntary Admission, Nondiscrimination and Written Disclosure of Charges",
+      "covers": [
+        "686.6(a)(2)(i)(f)",
+        "686.6(a)(2)(i)(g)",
+        "686.6(a)(2)(i)(h)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C48"
+      ],
+      "federal": [
+        "ADA",
+        "Title VI of the Civil Rights Act"
+      ],
+      "state_specifics": [
+        "No person is admitted over his or her objection except by court order.",
+        "No person is excluded for race, religion, color, age, gender, national origin or inability to pay. Written admission criteria may limit age range, level of disability or gender only when necessitated by the facility's overall objective.",
+        "Before admission, and again as changes occur, give the applicant (or parent, guardian or correspondent) written notice of charges and of the supplies and services provided, unless a capable adult objects to notice to others.",
+        "The charge notice must be consistent with 635.9 (maximum cost of care tied to SSI Level II minus the SSL 131-o personal allowance) and 633.4(a)(4)(xv).",
+        "Give the rights and conduct rules at or before admission, in the person's primary language."
+      ]
+    },
+    {
+      "id": "DIS-01",
+      "category": "Discharge (686.6(a)(2)(ii))",
+      "title": "Discharge Criteria and Avoiding Precipitous Discharge",
+      "covers": [
+        "686.6(a)(2)(ii)",
+        "686.6(a)(2)(ii)(a)",
+        "686.6(a)(2)(ii)(b)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C39",
+        "C41"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Written discharge criteria are required.",
+        "Make and document reasonable efforts to meet the person's needs before a more restrictive placement is sought or discharge is contemplated. Weigh the needs of other residents and the facility's available resources.",
+        "Individuals may request an alternative residence (633.4(a)(4)).",
+        "Report vacancies created by discharge to OPWDD promptly (24-ADM-03)."
+      ]
+    },
+    {
+      "id": "DIS-02",
+      "category": "Discharge (686.6(a)(2)(ii))",
+      "title": "Discharge Procedures, Freedom to Leave and Discharge Planning",
+      "covers": [
+        "686.6(a)(2)(ii)(c)",
+        "686.6(a)(2)(ii)(d)",
+        "686.6(a)(2)(ii)(e)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C18",
+        "C39"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written procedures are required for being discharged, including discharge against the recommendation of the program planning team.",
+        "No overt or covert physical or psychological pressure may be used to stop a person who wants to leave.",
+        "Those responsible for program planning take part in designing the discharge plan and coordinating services.",
+        "The person may object to a discharge or placement decision through the 633.12 objection process (pull the text for timelines)."
+      ]
+    },
+    {
+      "id": "APP-01",
+      "category": "Review and appeal procedures (686.6(a)(2)(iii))",
+      "title": "Review and Appeal of Plans of Services and Placement Decisions",
+      "covers": [
+        "686.6(a)(2)(iii)",
+        "686.6(b)(3)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C18",
+        "C39"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Individuals, parents, guardians and correspondents may appeal the plan of services and placement decisions.",
+        "Individuals have the right to participate in their plan, object and appeal (633.4(a)(4)).",
+        "Objections go through the 633.12 process. Insert the timelines from the regulation text.",
+        "Give appeal information at or before admission and after any change, in the primary language (633.4(a)(8)).",
+        "Appeal procedures must conform to the Commissioner's regulations."
+      ]
+    },
+    {
+      "id": "APP-02",
+      "category": "Review and appeal procedures (686.6(a)(2)(iii))",
+      "title": "Grievances and Complaints",
+      "covers": [
+        "686.6(a)(2)(iii)",
+        "686.6(b)(3)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C35",
+        "C36"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Individuals may file grievances without reprisal (633.4(a)(4)).",
+        "Tell individuals the complaint contacts on admission and whenever they change (633.4(a)(12)).",
+        "Allegations of abuse or neglect are not grievances. Send them to the VPCR hotline 1-855-373-2122 (24 hours; Relay: dial 711 and give the number).",
+        "Provide interpreters at no charge (633.4(a)(15))."
+      ]
+    },
+    {
+      "id": "COM-01",
+      "category": "Community involvement (686.6(a)(2)(iv))",
+      "title": "Community Involvement, Integration and Employment Choice",
+      "covers": [
+        "686.6(a)(2)(iv)",
+        "686.6(b)(3)"
+      ],
+      "citations": [
+        "C7",
+        "C39",
+        "C40",
+        "C12"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Give staff and individuals direction on activities that promote and nurture the residence's involvement with its neighborhood and community.",
+        "The person-centered plan documents that the individual chose the residence and which alternatives were considered (636-1).",
+        "Services are delivered in integrated settings that do not isolate individuals (636-2; confirm against codified text).",
+        "Any limit on community access is a rights modification that needs a documented assessed need (636-1.4)."
+      ]
+    },
+    {
+      "id": "DEC-01",
+      "category": "Individual decision-making and involvement (686.6(a)(2)(v))",
+      "title": "Individual Participation in Day-to-Day Decisions",
+      "covers": [
+        "686.6(a)(2)(v)",
+        "686.6(b)(3)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C39",
+        "C51"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Define how individuals, within their capability, contribute to day-to-day decisions (menus, schedules, house activities, décor).",
+        "Individuals have access to food at any time. Any restriction is justified under 636-1.4 through person-centered planning.",
+        "Record individual and staff involvement in neighborhood and community activities.",
+        "Rights are never limited for staff convenience, as a threat, as retribution or for discipline (633.4(a)(7))."
+      ]
+    },
+    {
+      "id": "DEC-02",
+      "category": "Individual decision-making and involvement (686.6(a)(2)(v))",
+      "title": "Informed Consent, Health Care Proxy and Decision-Making Support",
+      "covers": [
+        "686.6(a)(2)(v)"
+      ],
+      "citations": [
+        "C12",
+        "C22",
+        "C20",
+        "C15",
+        "C30"
+      ],
+      "federal": [
+        "45 CFR 164.508"
+      ],
+      "state_specifics": [
+        "Individuals have the right to choose their physician and dentist and to use a health care proxy (633.4(a)(4), (a)(11)).",
+        "Follow the 633.20 health care proxy and 633.18 DNR procedures. Pull the section text before finalizing.",
+        "Behavior interventions with restrictions need informed consent and review under 633.16 (Informed Consent Committee).",
+        "Capable adults decide for themselves. Involve guardians or correspondents as the person's status requires."
+      ]
+    },
+    {
+      "id": "REC-01",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Plans of Services: Development, Implementation and Daily Documentation",
+      "covers": [
+        "686.6(a)(2)(vi)",
+        "686.6(a)(2)(vi)(a)"
+      ],
+      "citations": [
+        "C7",
+        "C39",
+        "C12",
+        "C45",
+        "C47"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Each person has a written individualized plan with the right to participate, object and appeal (633.4).",
+        "The plan is updated when ineffective and on reassessment of functional need (636-1).",
+        "Include each person's protective oversight plan and a current fire-evacuation evaluation in the plan (686.16(b)).",
+        "Daily service notes must support the rate code billed. OMIG disallows claims where documentation does not match the code."
+      ]
+    },
+    {
+      "id": "REC-02",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Personal Funds and Financial Records",
+      "covers": [
+        "686.6(a)(2)(vi)(b)"
+      ],
+      "citations": [
+        "C14",
+        "C48",
+        "C49",
+        "C56",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written procedures must address security, staff accountability, paper and electronic recordkeeping, usage and monitoring of personal allowance (633.15). Records are kept 4 years.",
+        "Track each person's funds separately. Keep them locked with limited access. Keep a ledger of all receipts, disbursements and cash balance. Treat prepaid cards as cash.",
+        "Cash above the cap needs a documented specific purpose and is limited to 14 days.",
+        "Maximum monthly cost of care is the Level II SSI combined payment level minus the SSL 131-o minimum personal allowance (635.9).",
+        "OPWDD is amending 633.9 and 633.15 (representative payee rules). Check the adopted text before finalizing."
+      ]
+    },
+    {
+      "id": "REC-03",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Confidentiality and Protection of Individuals' Records (Privacy and HIPAA)",
+      "covers": [
+        "686.6(a)(2)(vi)(c)"
+      ],
+      "citations": [
+        "C12",
+        "C21",
+        "C7"
+      ],
+      "federal": [
+        "45 CFR 160",
+        "45 CFR 164.530"
+      ],
+      "state_specifics": [
+        "Individuals have the right to confidentiality (633.4(a)(4)).",
+        "Written requests for clinical record access follow MHL 33.16. A denial can be reviewed by the OPWDD Clinical Record Access Review Committee (633.4(a)(10)).",
+        "HIV-related information is confidential under 633.19, PHL Article 27-F and 10 NYCRR Part 63.",
+        "Jonathan's Law governs notice and access to incident information for families."
+      ]
+    },
+    {
+      "id": "REC-04",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Statistical Information and Required Reports to the State",
+      "covers": [
+        "686.6(a)(2)(vi)(d)"
+      ],
+      "citations": [
+        "C7",
+        "C33",
+        "C32",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Name who coordinates, collects, releases and tracks statistical information.",
+        "Enter reportable incidents and serious notable occurrences in OPWDD's incident system and update at least monthly until closure (624.5).",
+        "Keep a log of minor notable occurrences.",
+        "Confirm the 686.14 recordkeeping requirements apply before relying on them."
+      ]
+    },
+    {
+      "id": "REC-05",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Incidents, Allegations of Abuse, Notable Occurrences and Investigations",
+      "covers": [
+        "686.6(a)(2)(vi)(e)"
+      ],
+      "citations": [
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C60",
+        "C58"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report reasonable cause to suspect a reportable incident immediately to the Justice Center VPCR hotline at 1-855-373-2122 (24 hours; Relay: dial 711 and give the number).",
+        "Reporting may be delayed for safety or to call 911, but the VPCR report must be made within 24 hours of discovery.",
+        "Serious notable occurrences (every death, and sensitive situations as defined by agency policy) and reportable incidents go to the CEO or designee and to OPWDD immediately. Minor notable occurrences go to the CEO or designee within 48 hours (624.5).",
+        "An investigation continues to a substantiated or unsubstantiated finding even if the employee leaves. All employees, interns, volunteers, consultants and contractors must report.",
+        "Follow Jonathan's Law notice to families. Pull the notice timeframes from 624.5."
+      ]
+    },
+    {
+      "id": "REC-06",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Abuse, Neglect and Exploitation Prevention and Mandated Reporting",
+      "covers": [
+        "686.6(a)(2)(vi)(e)"
+      ],
+      "citations": [
+        "C13",
+        "C36",
+        "C35",
+        "C60",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Employees and volunteers are mandated reporters.",
+        "Train within 3 months of hire and annually on abuse prevention, identification and reporting and on laws and policies (633.8(b)).",
+        "Deliberate inappropriate use of restraints is abuse/neglect. Inappropriate use of restraints is a significant incident.",
+        "Individuals have the right to freedom from abuse, corporal punishment, and unnecessary restraint or medication (633.4(a)(4)).",
+        "Self-protection training goes to individuals identified by the program planning team (633.8)."
+      ]
+    },
+    {
+      "id": "REC-07",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Medication Administration, Staff Certification and Self-Administration Training",
+      "covers": [
+        "686.6(a)(2)(vi)(f)"
+      ],
+      "citations": [
+        "C16",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Only staff with direct care duties who have completed the OPWDD-approved course and practicum and are certified or recertified within the year may administer (633.17(a)(14)). Track current certification status.",
+        "Medical or nursing supervision is required. The program planning team evaluates self-administration within 3 months of admission, with RN, physician or PA input, and reviews it at least annually.",
+        "Keep a separate administration record per person (medication, dose, route, date/time, staff signature). An RN, physician, PA or pharmacist reviews the regimen annually.",
+        "Lock storage. Double-lock controlled substances (non-supportive). Use a separate locked container in a food refrigerator.",
+        "OTC medication needs practitioner approval at least annually and is limited to 2 days without practitioner direction. Suspend medication on a significant adverse reaction and notify the practitioner immediately."
+      ]
+    },
+    {
+      "id": "REC-08",
+      "category": "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+      "title": "Individual Records, Retention and Access",
+      "covers": [
+        "686.6(a)(2)(vi)(c)"
+      ],
+      "citations": [
+        "C9",
+        "C12",
+        "C47"
+      ],
+      "federal": [
+        "45 CFR 164.524"
+      ],
+      "state_specifics": [
+        "Specify the contents of each individual's record: admission review, plan, notes, health, rights modifications and funds ledger.",
+        "Retention periods: personal funds records 4 years. Confirm the OPWDD and OMIG retention period for other records. It was not verified.",
+        "Individuals may request access in writing (633.4(a)(10)).",
+        "Confirm that 686.14 applies before citing it."
+      ]
+    },
+    {
+      "id": "EMR-01",
+      "category": "Emergencies, evacuation and disasters (686.6(a)(2)(vii))",
+      "title": "Medical Emergencies and Change of Condition",
+      "covers": [
+        "686.6(a)(2)(vii)"
+      ],
+      "citations": [
+        "C29",
+        "C30",
+        "C16",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Define the staff actions for a medical emergency and how staff are familiarized with them.",
+        "Notify the practitioner immediately of a significant adverse medication reaction (633.17).",
+        "Treatment beyond first aid by a physician, dentist, PA or NP is at least a minor notable occurrence (624.4).",
+        "Health care proxy and DNR orders are handled under 633.20 and 633.18."
+      ]
+    },
+    {
+      "id": "EMR-02",
+      "category": "Emergencies, evacuation and disasters (686.6(a)(2)(vii))",
+      "title": "Emergency Preparedness, Disasters, Fire Drills and Evacuation",
+      "covers": [
+        "686.6(a)(2)(vii)",
+        "686.6(b)(3)"
+      ],
       "citations": [
         "C3",
+        "C10",
+        "C11",
+        "C50",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Evacuation procedures must meet the special needs of persons with developmental disabilities. Record each person's evacuation ability.",
+        "Occupants who cannot evacuate in 3 minutes or less trigger 635-7.2(a)(1)(iii).",
+        "For 9+ beds, test heat and smoke alarms quarterly (635-7.3(e)(i)(1)). For 8 or fewer beds, fire alarms must be audible in sleeping areas with doors closed (686.16(b)).",
+        "Evacuation and fire drill minimum frequencies come from OPWDD ADM #2012-02. Insert the numbers from the ADM text.",
+        "Homes certified under the Health Care chapters of the Life Safety Code cannot use defend-in-place for non-fire evacuations."
+      ]
+    },
+    {
+      "id": "EMR-03",
+      "category": "Emergencies, evacuation and disasters (686.6(a)(2)(vii))",
+      "title": "Death of an Individual",
+      "covers": [],
+      "citations": [
+        "C32",
+        "C33",
+        "C35",
+        "C58"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Every death of a resident of an OPWDD-certified residence is a serious notable occurrence, regardless of cause (624.4).",
+        "If the death is also a reportable incident, report it both ways.",
+        "Notify the CEO or designee and OPWDD immediately (624.5).",
+        "Notify the family or correspondent under Jonathan's Law and the individual's wishes or health care proxy. Pull the notice timeframes."
+      ]
+    },
+    {
+      "id": "HS-01",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Health and Safety Program",
+      "covers": [
+        "686.6(a)(2)(viii)",
+        "686.6(b)(3)"
+      ],
+      "citations": [
+        "C7",
+        "C12",
+        "C10",
+        "C23"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Individuals have the right to a safe and sanitary environment (633.4(a)(4)).",
+        "Define a smoking policy under 633.23 (pull the text).",
+        "Cover hazard reporting, hazardous materials, safe storage and staff health and safety training.",
+        "Review the plan after incidents and during quality improvement."
+      ]
+    },
+    {
+      "id": "HS-02",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Nursing Oversight and Health Care Coordination",
+      "covers": [
+        "686.6(a)(2)(viii)"
+      ],
+      "citations": [
+        "C16",
+        "C29",
+        "C30"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Medical or nursing supervision of medication-administering staff is required (633.17(a)(15)).",
+        "An RN, physician, PA or pharmacist performs the annual medication regimen review.",
+        "Required nursing hours were not verified. Set the nursing plan from individual needs and confirm with the regional office.",
+        "Coordinate routine and specialty care and follow up on practitioner orders."
+      ]
+    },
+    {
+      "id": "HS-03",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Health Monitoring, Seizures and Choking Risk",
+      "covers": [
+        "686.6(a)(2)(viii)"
+      ],
+      "citations": [
+        "C34",
+        "C32",
+        "C35",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Choking with a known risk is a significant incident under current 624.3 categories. Pull the 624.3 text before finalizing.",
+        "Write individual seizure and choking protocols into the plan.",
+        "Treatment beyond first aid by a physician, dentist, PA or NP is a minor notable occurrence (624.4).",
+        "Supervisors with oversight responsibility need first-aid training (686.16(b))."
+      ]
+    },
+    {
+      "id": "HS-04",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Infection Prevention and Control",
+      "covers": [
+        "686.6(a)(2)(viii)"
+      ],
+      "citations": [
+        "C13",
+        "C21",
+        "C19"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Train staff on preventing and managing significant-risk body substance exposure (633.8(a)(1)(viii)-(ix)).",
+        "HIV information is confidential (633.19, PHL Article 27-F).",
+        "Employee TB control follows 633.14. Pull the text for screening schedules.",
+        "Follow the OSHA bloodborne pathogens standard."
+      ]
+    },
+    {
+      "id": "HS-05",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Food, Nutrition and Modified Diets",
+      "covers": [
+        "686.6(a)(2)(viii)"
+      ],
+      "citations": [
+        "C51",
+        "C12",
+        "C48"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)"
+      ],
+      "state_specifics": [
+        "Individuals have a right to a balanced diet (633.4(a)(4)).",
+        "Individuals have access to food at any time. Any restriction is justified under 636-1.4 and documented in the plan.",
+        "Supervised IRAs provide the required supplies and services under 635.9.",
+        "Document modified diets, choking risk and practitioner orders in the plan."
+      ]
+    },
+    {
+      "id": "HS-06",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Transportation and Vehicle Safety",
+      "covers": [
+        "686.6(a)(2)(viii)"
+      ],
+      "citations": [
+        "C17",
+        "C13",
+        "C12"
+      ],
+      "federal": [
+        "ADA"
+      ],
+      "state_specifics": [
+        "Drivers and escorts are presumed to have regular and substantial unsupervised contact and need criminal history checks (633.22(d)(2)).",
+        "Confirm insurance and driver requirements with OPWDD. No specific standard was found.",
+        "Include safety procedures in staff training (633.8).",
+        "Accessible transport must meet each person's mobility needs."
+      ]
+    },
+    {
+      "id": "HS-07",
+      "category": "Health and safety (686.6(a)(2)(viii))",
+      "title": "Residential Environment and Accessibility",
+      "covers": [
+        "686.6(a)(2)(viii)"
+      ],
+      "citations": [
+        "C3",
+        "C10",
+        "C11",
+        "C54",
+        "C55",
+        "C40"
+      ],
+      "federal": [
+        "ADA"
+      ],
+      "state_specifics": [
+        "Eight or fewer residents follow the 635-7.1(h)(1)(ii) building code (NYC: 635-7.1(i)(1)(ii)) and 635-7.4(b)(3). Nine or more follow 635-7.1, 7.2 and 7.3.",
+        "Uniform Code enforcement for OPWDD IRAs runs through 635-7.4(a)(3).",
+        "Site selection under MHL 41.34 applies to 4-14 bed IRAs with onsite supervision.",
+        "In NYC, confirm the status of the 1994 DOB notice (TPPN #9/94) on the Certificate of Occupancy.",
+        "HCBS settings must be physically accessible (636-2; confirm against codified text)."
+      ]
+    },
+    {
+      "id": "PER-01",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Recruitment, Hiring, Residence Manager Qualifications and Job Performance Evaluation",
+      "covers": [
+        "686.6(a)(2)(ix)",
+        "686.6(a)(2)(ix)(a)",
+        "686.6(b)(1)"
+      ],
+      "citations": [
+        "C7",
+        "C25",
+        "C26",
+        "C17"
+      ],
+      "federal": [
+        "Title VII of the Civil Rights Act",
+        "ADA"
+      ],
+      "state_specifics": [
+        "Residence manager: written criteria require at least a high school diploma or equivalent and at least 1 year of experience working with persons with developmental disabilities.",
+        "Policy covers the hiring process, qualifications, education and skills required, job descriptions, duties and responsibilities, and performance evaluations.",
+        "Review applicant backgrounds under 633.5 and 633.24 (pull the texts).",
+        "Supervisory requirements follow 633.6."
+      ]
+    },
+    {
+      "id": "PER-02",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Direct Support Professional Orientation, Training and In-Service",
+      "covers": [
+        "686.6(a)(2)(ix)",
+        "686.6(a)(2)(ix)(b)"
+      ],
+      "citations": [
+        "C13",
+        "C16",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Within 3 months of hire or start of volunteering, train on human growth and development, characteristics of persons served, positive relationships, abuse prevention and reporting, incident reporting, and safety and security including fire safety (633.8(b)(1)).",
+        "Retrain annually on the same core topics (633.8(b)(2)).",
+        "Keep a training-monitoring mechanism with current records (633.8(b)(3)). Coordinate development with individual and staff needs and use community training resources.",
+        "Medication staff complete the OPWDD-approved course and practicum (633.17).",
+        "The 633.27 training flexibility is listed as expired. Plan on full training."
+      ]
+    },
+    {
+      "id": "PER-03",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Staff Concerns Without Threat of Job Loss and Nondiscrimination in Employment",
+      "covers": [
+        "686.6(a)(2)(ix)",
+        "686.6(a)(2)(ix)(c)",
+        "686.6(a)(2)(ix)(d)"
+      ],
+      "citations": [
+        "C7",
+        "C33",
+        "C36"
+      ],
+      "federal": [
+        "Title VII of the Civil Rights Act",
+        "ADA"
+      ],
+      "state_specifics": [
+        "Provide a means for staff to raise matters of concern without threat of job loss.",
+        "Prohibit discrimination in hiring and promotion based on race, religion, color, gender, national origin, age or disability.",
+        "Staff may report abuse or neglect directly to the VPCR hotline at 1-855-373-2122.",
+        "Staff are notified that every reportable incident is investigated (624.5)."
+      ]
+    },
+    {
+      "id": "PER-04",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Criminal History Checks, Background Checks and Employee Registries",
+      "covers": [
+        "686.6(a)(2)(ix)",
+        "686.6(a)(2)(ix)(a)"
+      ],
+      "citations": [
+        "C17",
+        "C37",
+        "C38",
+        "C60",
+        "C24"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Designate Authorized Parties and submit their name, position and contact information to the Justice Center (633.22(c)(1)).",
+        "Checks are required for prospective employees and operators with regular and substantial unsupervised contact (633.22(d)(2)). This includes direct care staff, supervisors, drivers, escorts and clinicians. Also check on change of ownership.",
+        "Provisional staff may work only without unsupervised physical contact, with monitoring by a trained employee and an attestation (633.22(f)).",
+        "Fingerprinting is through IdentoGO. Requests go through OPWDD (MHL 16.34).",
+        "A final Category 2 finding is not an automatic bar but must be weighed. Document the decision."
+      ]
+    },
+    {
+      "id": "PER-05",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Employee Health and TB Screening",
+      "covers": [
+        "686.6(a)(2)(ix)"
+      ],
+      "citations": [
+        "C19",
+        "C13"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Follow 14 NYCRR 633.14 TB control procedures. Pull the text for who is screened and the schedule.",
+        "Keep health records in a confidential file separate from the personnel file.",
+        "Cover exposure follow-up under the HIV and body-substance training (633.8(a)(1)(viii)-(ix))."
+      ]
+    },
+    {
+      "id": "PER-06",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Personnel Records",
+      "covers": [
+        "686.6(a)(2)(ix)",
+        "686.6(a)(2)(ix)(a)"
+      ],
+      "citations": [
+        "C13",
+        "C16",
+        "C17"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Each file holds the job description, qualifications, evaluations, criminal history check outcome, medication certification and training records.",
+        "Training records must be current and available (633.8(b)(3)).",
+        "Keep medication certification dates current (633.17).",
+        "Confirm the retention period with OPWDD. It was not verified."
+      ]
+    },
+    {
+      "id": "PER-07",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Staff Conduct and Professional Boundaries",
+      "covers": [
+        "686.6(a)(2)(ix)"
+      ],
+      "citations": [
+        "C27",
+        "C12",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Follow 633.7 on conduct of employees, volunteers, family care providers and custodians (pull the text).",
+        "Rights may not be limited for staff convenience or as discipline (633.4(a)(7)).",
+        "Cover theft and financial exploitation reporting (624.4 thresholds) and personal funds handling (633.15).",
+        "Include boundaries with individuals' funds, property and relationships."
+      ]
+    },
+    {
+      "id": "PER-08",
+      "category": "Personnel (686.6(a)(2)(ix))",
+      "title": "Staffing Plan, Schedule and Supervision Coverage",
+      "covers": [
+        "686.6(a)(2)(ix)"
+      ],
+      "citations": [
+        "C5",
+        "C2",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a written staffing plan based on number of individuals, level of functioning and need, support staff needs and physical plant demands (686.9(a)).",
+        "In a supervised residence, staff must be available whenever individuals are present. Less intensive coverage is allowed only on a documented individual assessment in the plan of services.",
+        "Keep a written staffing schedule at the site showing supervision available or on call 24 hours a day.",
+        "686.9 sets no numeric ratio and no awake-overnight rule. Volunteers may not substitute for paid personnel."
+      ]
+    },
+    {
+      "id": "POL-01",
+      "category": "Policy approval process and governing body role (686.6(a)(2)(x))",
+      "title": "Organization, Governing Body and Program Director Responsibilities",
+      "covers": [
+        "686.6(a)(2)(x)"
+      ],
+      "citations": [
+        "C6",
+        "C7",
+        "C1"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Define the governing body's role in approving policies.",
+        "Pull the 686.5 governance text before drafting. It applies to IRAs through 686.16(a)(4).",
+        "Name the person responsible for the residence (residence manager) and the executive."
+      ]
+    },
+    {
+      "id": "POL-02",
+      "category": "Policy approval process and governing body role (686.6(a)(2)(x))",
+      "title": "Policy Review, Approval and Document Control",
+      "covers": [
+        "686.6(a)(2)",
+        "686.6(a)(2)(x)"
+      ],
+      "citations": [
+        "C7",
+        "C6"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Describe the approval process and the governing body's role.",
+        "Policies cover admission, discharge, appeals, community involvement, decision-making, records, incidents and abuse, medication, emergencies, health and safety, and personnel (686.6(a)(2)).",
+        "Review annually and after regulatory changes. Part 633 may change: OPWDD is amending 633.9 and 633.15.",
+        "Keep version dates and approval signatures."
+      ]
+    },
+    {
+      "id": "POL-03",
+      "category": "Policy approval process and governing body role (686.6(a)(2)(x))",
+      "title": "Policy and Procedure Manual: Contents and Public Availability",
+      "covers": [
+        "686.6(a)(3)",
+        "686.6(b)(3)"
+      ],
+      "citations": [
+        "C7",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The manual is a public document. Make it available to individuals, parents, guardians, correspondents, staff and others.",
+        "The manual must contain: admission and discharge; administration of records; emergencies and disasters; health and safety; personnel; review and appeal procedures; community involvement; and individuals' involvement in residence activities.",
+        "Keep a copy at the site.",
+        "Provide rights and conduct rules in the person's primary language (633.4(a)(8))."
+      ]
+    },
+    {
+      "id": "IRA-01",
+      "category": "IRA site-specific protective oversight plan and evacuation plan (686.16)",
+      "title": "Site-Specific Protective Oversight Plan",
+      "covers": [
+        "686.16(a)(5)",
+        "686.16(a)(6)",
+        "686.16(a)(6)(i)",
+        "686.16(a)(6)(ii)",
+        "686.16(a)(6)(iii)",
+        "686.16(a)(6)(iv)"
+      ],
+      "citations": [
+        "C3",
+        "C2"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Provide protective oversight appropriate to each person's needs (686.16(a)(5)).",
+        "Write a site-specific plan covering: assessment of each person's supervision need (staff and/or technology); trained substitutes; supervisor qualifications and training; and periodic review of continuing need.",
+        "The plan is a condition of the IRA operating certificate (OMR 248).",
+        "Revise the plan when residents' needs or staffing patterns change."
+      ]
+    },
+    {
+      "id": "IRA-02",
+      "category": "IRA site-specific protective oversight plan and evacuation plan (686.16)",
+      "title": "Individual Protective Oversight Assessment and Annual Review",
+      "covers": [
+        "686.16(a)(6)(i)",
+        "686.16(a)(6)(iv)",
+        "686.16(b)(3)"
+      ],
+      "citations": [
+        "C3",
+        "C39"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Each person has a plan for protective oversight based on analysis of need.",
+        "Review and revise it periodically and at least annually, and integrate it with the person's other services and ISP.",
+        "Include a current fire-evacuation evaluation in each ISP (8 or fewer beds).",
+        "Document any less intensive coverage as an individual assessment in the plan of services (686.9(a)(4))."
+      ]
+    },
+    {
+      "id": "IRA-03",
+      "category": "IRA site-specific protective oversight plan and evacuation plan (686.16)",
+      "title": "Supervisor and Substitute Qualifications, Training and First Aid",
+      "covers": [
+        "686.16(a)(6)(ii)",
+        "686.16(a)(6)(iii)",
+        "686.16(b)(4)"
+      ],
+      "citations": [
+        "C3",
+        "C5",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Use appropriately trained substitute personnel when primary assigned staff are unavailable.",
+        "Set qualifications and training for those responsible for supervision. Supervisors need training suited to residents' needs, including first aid.",
+        "Parties with supervision responsibility must know each person's protective oversight plan. The plan must be implemented as written in the ISP.",
+        "Volunteers may not substitute for paid personnel (686.9(a)(3))."
+      ]
+    },
+    {
+      "id": "IRA-04",
+      "category": "IRA site-specific protective oversight plan and evacuation plan (686.16)",
+      "title": "Facility Evacuation Plan, Staff and Resident Training and Evaluation",
+      "covers": [
+        "686.16(b)(1)"
+      ],
+      "citations": [
+        "C3",
+        "C50",
+        "C11"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "OPWDD verifies that the IRA has implemented a facility evacuation plan.",
+        "OPWDD verifies that staff and residents are trained and evaluated on performing the plan.",
+        "Occupants unable to evacuate in 3 minutes or less trigger 635-7.2(a)(1)(iii).",
+        "Run drills at the frequency set by ADM #2012-02. Keep drill logs."
+      ]
+    },
+    {
+      "id": "SUP-01",
+      "category": "Supportive CR/IRA additions (686.8)",
+      "title": "Supportive IRA Referral, Intake and Supervision-Need Assessment",
+      "covers": [
+        "686.8(a)(4)",
+        "686.8(a)(5)"
+      ],
+      "citations": [
+        "C2",
+        "C41",
+        "C59",
+        "C46"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Use only if the residence is certified as a supportive IRA. Staff there are typically not onsite at all times.",
+        "The intake policy must address how the agency assesses and meets the applicant's need for supervision and set the admission criteria listed in 686.8(b)(1). Pull that text.",
+        "DDRO approval and CRO admission rules (636-3) still apply.",
+        "ADM #2002-01 documentation guidance and its 11-day minimum are status-unverified. Confirm before use."
+      ]
+    },
+    {
+      "id": "SUP-02",
+      "category": "Supportive CR/IRA additions (686.8)",
+      "title": "Supportive IRA Discharge Criteria",
+      "covers": [
+        "686.8(a)(7)"
+      ],
+      "citations": [
+        "C2",
+        "C41"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Discharge criteria describe the level of independent functioning that would permit independent living and the activities that promote independence.",
+        "Criteria describe problem circumstances or declining function that might lead to a more restrictive program.",
+        "Discharge is only to a setting that can better meet the person's needs and is actually available at the projected discharge date."
+      ]
+    },
+    {
+      "id": "SUP-03",
+      "category": "Supportive CR/IRA additions (686.8)",
+      "title": "Supportive IRA Visitation, Emergency Contacts and Evacuation Training",
+      "covers": [
+        "686.8(a)(12)"
+      ],
+      "citations": [
+        "C2",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A trained person must be available to visit residents in the absence of the assigned case manager.",
+        "Residents are informed whom to call in an emergency or unusual or unsettling circumstance.",
+        "All occupants are trained to evacuate in emergencies.",
+        "Add any other information specific to supportive operations."
+      ]
+    },
+    {
+      "id": "RIT-01",
+      "category": "Individual Rights",
+      "title": "Individual Rights and HCBS Settings Requirements",
+      "covers": [],
+      "citations": [
+        "C12",
+        "C39",
+        "C40",
+        "C51"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Give the 633.4(a)(4) rights at or before admission and after changes, in the primary language.",
+        "Advise staff of individuals' rights (633.4(a)(6)).",
+        "Rights include visitors, communication, privacy, personal storage, own clothing, religion, voting and gender expression.",
+        "Individuals have access to food at any time."
+      ]
+    },
+    {
+      "id": "RIT-02",
+      "category": "Individual Rights",
+      "title": "Rights Restrictions, Modifications and Due Process",
+      "covers": [],
+      "citations": [
+        "C12",
+        "C39",
+        "C15"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)(vi)(F)"
+      ],
+      "state_specifics": [
+        "Limitations must be documented, individual, time-limited and for clinical purposes only (633.4(a)(3)).",
+        "A modification of HCBS rights needs a specific assessed need and justification in the person-centered plan (636-1.4).",
+        "Rights are never limited for staff convenience, as a threat, as retribution or for discipline (633.4(a)(7)).",
+        "The person may object under 633.12."
+      ]
+    },
+    {
+      "id": "RIT-03",
+      "category": "Individual Rights",
+      "title": "Nondiscrimination and Communication Access",
+      "covers": [],
+      "citations": [
+        "C12"
+      ],
+      "federal": [
+        "ADA",
+        "Title VI of the Civil Rights Act"
+      ],
+      "state_specifics": [
+        "Provide language access and interpreters at no charge (633.4(a)(15)).",
+        "Provide rights and conduct rules in the primary language.",
+        "Provide accommodations for individuals with communication or sensory needs."
+      ]
+    },
+    {
+      "id": "BEH-01",
+      "category": "Behavior Support and Protection",
+      "title": "Positive Behavior Support",
+      "covers": [],
+      "citations": [
+        "C15",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Follow 633.16 on behavior support: functional behavior assessment, a behavior support plan as part of the plan of services, and Level 1 and 2 Behavioral Intervention Specialist qualifications.",
+        "Review plans through the behavior plan/human rights committee.",
+        "Plans must not include aversive conditioning."
+      ]
+    },
+    {
+      "id": "BEH-02",
+      "category": "Behavior Support and Protection",
+      "title": "Restrictive Interventions, Restraint and Seclusion",
+      "covers": [],
+      "citations": [
+        "C15",
+        "C35",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Restrictive/intrusive interventions under 633.16 include restrictive physical intervention, exclusionary time-out, mechanical restraining devices, and behavior medication without a co-occurring psychiatric diagnosis.",
+        "Individuals have the right to freedom from unnecessary mechanical restraint (633.4).",
+        "Deliberate inappropriate use of restraints is abuse/neglect. Inappropriate use is a significant incident. Report both to VPCR at 1-855-373-2122.",
+        "Pull the 633.16(d)-(j) operative subdivisions before finalizing."
+      ]
+    },
+    {
+      "id": "BEH-03",
+      "category": "Behavior Support and Protection",
+      "title": "Missing Person and Elopement",
+      "covers": [],
+      "citations": [
+        "C34",
         "C32",
         "C33",
         "C35"
       ],
       "federal": [],
       "state_specifics": [
-        "Review incident data entered in IRMA. Updates are due at least monthly until each incident or serious notable occurrence is closed (624.5).",
-        "Every death of a person living in a certified residence is a serious notable occurrence and must be reviewed. Review it with the incident record.",
-        "Protective oversight plans must be reviewed at least annually and revised as needed (686.16(b)(3)).",
-        "VERIFY: no OPWDD mortality-review rule was retrieved. Confirm OPWDD's current mortality review expectations for voluntary providers before finalizing.",
-        "Track corrective action plans to closure, and train staff on trends (633.8(b)(2))."
+        "Missing person is a significant incident under current 624.3 categories. Pull the text.",
+        "Report reportable incidents immediately to the CEO or designee and OPWDD (624.5).",
+        "Include each individual's elopement risk and supervision level in the protective oversight plan."
       ]
     },
     {
-      "id": "GOV-05",
-      "category": "Governance and Administration",
+      "id": "GOV-01",
+      "category": "Governance and Compliance",
+      "title": "Licensure, Certification, Provider Agreements and Temporary Use Beds",
+      "covers": [],
+      "citations": [
+        "C1",
+        "C52",
+        "C53",
+        "C4",
+        "C55"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The IRA operating certificate (OMR 248) is triennial, with a maximum term of 3 years. Calendar renewal.",
+        "Medicaid and waiver enrollment needs an IRS SS-4 letter and a certified Provider Compliance Program. Community residence enrollment is under category of service 0269.",
+        "IRAs of 4+ beds may designate temporary use beds, which count toward certified capacity (686.15).",
+        "Notify OPWDD of changes in ownership. A criminal history check is also required (633.22)."
+      ]
+    },
+    {
+      "id": "GOV-02",
+      "category": "Governance and Compliance",
+      "title": "Quality Improvement, Data Review and Mortality Review",
+      "covers": [],
+      "citations": [
+        "C32",
+        "C33",
+        "C58",
+        "C47"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Review incidents, notable occurrences and deaths at least quarterly.",
+        "Do internal quarterly samples of claims and documentation as part of the Provider Compliance Program.",
+        "Track the deficiency dispute process from OPWDD Division of Quality Improvement (effective 4/1/2024)."
+      ]
+    },
+    {
+      "id": "GOV-03",
+      "category": "Governance and Compliance",
       "title": "Medicaid Compliance, Billing and Service Documentation",
+      "covers": [],
       "citations": [
         "C43",
         "C44",
@@ -582,8 +1674,568 @@
         "C53"
       ],
       "federal": [
+        "42 USC 1396b(l)",
         "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "Bill supervised IRA residential habilitation daily. Rate codes are service day, therapeutic/non-medical leave day and retainer/medical leave day.",
+        "A claim is disallowed if documentation does not match the code (OMIG).",
+        "Retainer days are capped at 14 per person per rate year (ADM #2014-01). Confirm it is still in effect.",
+        "The provider has one provider-wide rate (10 NYCRR 86-10.3).",
+        "EVV applicability was not confirmed. Ask OPWDD."
       ]
     }
-  ]
+  ],
+  "forms": [
+    {
+      "name": "Request for Approval to Fill a Residential Opportunity (OPWDD)",
+      "purpose": "Obtain DDRO Director approval before any admission.",
+      "policy_ids": [
+        "ADM-01"
+      ]
+    },
+    {
+      "name": "Vacancy Report Log",
+      "purpose": "Track vacancy reports to OPWDD and responses.",
+      "policy_ids": [
+        "ADM-01",
+        "DIS-01"
+      ]
+    },
+    {
+      "name": "Pre-Admission Review Checklist",
+      "purpose": "Document the 90-day medical exam and assessment review and the admission decision.",
+      "policy_ids": [
+        "ADM-01",
+        "ADM-02"
+      ]
+    },
+    {
+      "name": "Admission Agreement and Written Disclosure of Charges and Services",
+      "purpose": "Disclose charges and supplies and services provided before admission.",
+      "policy_ids": [
+        "ADM-03"
+      ]
+    },
+    {
+      "name": "Rights and Conduct Rules Acknowledgment",
+      "purpose": "Show rights were given at or before admission in the primary language.",
+      "policy_ids": [
+        "ADM-03",
+        "RIT-01"
+      ]
+    },
+    {
+      "name": "Discharge Planning Checklist",
+      "purpose": "Document discharge criteria, efforts to avoid precipitous discharge and planning participants.",
+      "policy_ids": [
+        "DIS-01",
+        "DIS-02",
+        "SUP-02"
+      ]
+    },
+    {
+      "name": "Appeal / Objection Request Form",
+      "purpose": "Record appeals of plans and placement decisions and objections.",
+      "policy_ids": [
+        "APP-01"
+      ]
+    },
+    {
+      "name": "Grievance Form and Log",
+      "purpose": "Record grievances and resolutions without reprisal.",
+      "policy_ids": [
+        "APP-02"
+      ]
+    },
+    {
+      "name": "Community Activity Log",
+      "purpose": "Record community and neighborhood involvement.",
+      "policy_ids": [
+        "COM-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "name": "Rights Modification Documentation",
+      "purpose": "Document assessed need, justification and review for any rights restriction.",
+      "policy_ids": [
+        "RIT-02",
+        "DEC-01"
+      ]
+    },
+    {
+      "name": "Individual Daily Service Note and Rate-Code Day Tracker",
+      "purpose": "Support daily billing and the service, leave and retainer day codes.",
+      "policy_ids": [
+        "REC-01",
+        "GOV-03"
+      ]
+    },
+    {
+      "name": "Personal Allowance Ledger",
+      "purpose": "Track each person's receipts, disbursements and cash balance.",
+      "policy_ids": [
+        "REC-02"
+      ]
+    },
+    {
+      "name": "Incident and Notable Occurrence Report",
+      "purpose": "Record reportable incidents, serious and minor notable occurrences, and notifications.",
+      "policy_ids": [
+        "REC-04",
+        "REC-05",
+        "EMR-03"
+      ]
+    },
+    {
+      "name": "Medication Administration Record",
+      "purpose": "Separate administration record per person.",
+      "policy_ids": [
+        "REC-07"
+      ]
+    },
+    {
+      "name": "Medication Self-Administration Evaluation and Annual Regimen Review",
+      "purpose": "Document program planning team evaluation and annual review.",
+      "policy_ids": [
+        "REC-07",
+        "HS-02"
+      ]
+    },
+    {
+      "name": "Medication Staff Certification Tracker",
+      "purpose": "Track current certification status of medication staff.",
+      "policy_ids": [
+        "REC-07",
+        "PER-02"
+      ]
+    },
+    {
+      "name": "Fire and Evacuation Drill Log",
+      "purpose": "Record drills and each person's evacuation performance.",
+      "policy_ids": [
+        "EMR-02",
+        "IRA-04"
+      ]
+    },
+    {
+      "name": "Site-Specific Protective Oversight Plan",
+      "purpose": "Document the site plan under 686.16(a)(6).",
+      "policy_ids": [
+        "IRA-01",
+        "IRA-03"
+      ]
+    },
+    {
+      "name": "Individual Protective Oversight Plan and Annual Review",
+      "purpose": "Assess and review each person's supervision need at least annually.",
+      "policy_ids": [
+        "IRA-02"
+      ]
+    },
+    {
+      "name": "Staffing Schedule and Coverage Record",
+      "purpose": "Show supervision available 24 hours a day.",
+      "policy_ids": [
+        "PER-08",
+        "IRA-03"
+      ]
+    },
+    {
+      "name": "Criminal History Check Log and Authorized Party Designation",
+      "purpose": "Track checks, provisional status and Justice Center designations.",
+      "policy_ids": [
+        "PER-04"
+      ]
+    },
+    {
+      "name": "Training Matrix and Attendance Records",
+      "purpose": "Track 3-month and annual training under 633.8.",
+      "policy_ids": [
+        "PER-02",
+        "PER-06"
+      ]
+    },
+    {
+      "name": "Staff Concern Reporting Form",
+      "purpose": "Let staff raise concerns without threat of job loss.",
+      "policy_ids": [
+        "PER-03"
+      ]
+    },
+    {
+      "name": "Personnel File Checklist",
+      "purpose": "Verify required file contents.",
+      "policy_ids": [
+        "PER-01",
+        "PER-06"
+      ]
+    },
+    {
+      "name": "Policy Approval Record",
+      "purpose": "Show governing body approval and review dates.",
+      "policy_ids": [
+        "POL-01",
+        "POL-02"
+      ]
+    },
+    {
+      "name": "Supportive IRA Visitation and Emergency Contact Record",
+      "purpose": "Record visits and emergency contact information for supportive IRA residents.",
+      "policy_ids": [
+        "SUP-01",
+        "SUP-03"
+      ]
+    }
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "14 NYCRR § 686.6 - Administration (policy/procedure manual content required of each community residence)",
+        "form_number": "None. No OPWDD policy checklist form was found; 14 NYCRR 686.6 is the section that lists the required written policies.",
+        "issuer": "NYS Office for People With Developmental Disabilities (OPWDD), 14 NYCRR Part 686 (text via Cornell LII)",
+        "version": "Amended NYS Register 9/21/2016 (eff. 9/21/2016); the current LII text shows no later amendment",
+        "url": "https://www.law.cornell.edu/regulations/new-york/14-NYCRR-686.6",
+        "how_used": "Primary source for the policy and procedure manual. Section 686.6(a)(2) says each community residence must develop and implement policies/procedures addressing the listed topics 'at a minimum'. Section 686.6(b)(3) lists the manual contents OPWDD surveys for."
+      },
+      {
+        "title": "14 NYCRR § 686.16 - Certification of the facility class known as individualized residential alternative (site-specific protective oversight plan; evacuation plan)",
+        "form_number": "None",
+        "issuer": "OPWDD, 14 NYCRR Part 686 (text via Justia)",
+        "version": "Justia text current through NYS Register 47, No. 25 (June 25, 2025)",
+        "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-686/section-686-16",
+        "how_used": "IRA-specific written plan requirements. It requires a site-specific written protective oversight plan, and OPWDD verifies a facility evacuation plan."
+      },
+      {
+        "title": "14 NYCRR § 686.8 - Program for supportive community residences (supportive CR/IRA policy additions)",
+        "form_number": "None",
+        "issuer": "OPWDD, 14 NYCRR Part 686 (text via Justia)",
+        "version": "Justia text current through NYS Register 47, No. 25 (June 25, 2025)",
+        "url": "https://regulations.justia.com/states/new-york/title-14/chapter-xiv/part-686/section-686-8",
+        "how_used": "Applies only to supportive community residences. It adds referral/intake/admission and discharge-criteria policies, and extra items for the manual required by 686.6(a)(2)."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "686.6(a)(2)",
+        "text": "Each community residence shall develop and implement policies/procedures which address, at a minimum:",
+        "cite": "14 NYCRR 686.6(a)(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)",
+        "text": "Admission, including at least:",
+        "cite": "14 NYCRR 686.6(a)(2)(i)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(a)",
+        "text": "The process to determine an applicant's need for service, the ability of the facility to meet the ongoing needs of the individual, and consideration of the relevance of the family intactness and geographic proximity of the family.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(b)",
+        "text": "The requirement that staff and the applicant participate in the above process, including the final determination as to the applicant's admission.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(c)",
+        "text": "The procedures for obtaining admission.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(d)",
+        "text": "The applicant criteria, in functional terms for admission.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(e)",
+        "text": "The requirement that, to determine that an applicant meets the criteria prior to admission, it is necessary that the following information be reviewed: (1) the results of a medical/physical examination conducted within 90 days prior to the review; and (2) an assessment or assessments of an applicant's strengths, needs, interests and living skills completed within 90 days prior to the review.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(e)(1)-(2)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(f)",
+        "text": "The requirement that, no person shall be admitted over his or her objection, except by a court order.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(g)",
+        "text": "The requirement that no person shall be excluded from a residence on the basis of race, religion, color, age, gender, national origin, or inability to pay for services. This shall not preclude a facility from establishing specific admission criteria that limit the range of the age or level of disability of the individuals, or their gender when necessitated by the overall objective of the facility.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(g)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(i)(h)",
+        "text": "The requirement that each applicant, or parent, guardian or correspondent as available, is informed in writing prior to admission and as changes occur of any charges (see section 686.12) and the supplies and services provided by the facility (see section 686.13), unless the applicant is a capable adult and objects to such notification to others.",
+        "cite": "14 NYCRR 686.6(a)(2)(i)(h)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ii)",
+        "text": "Discharge, including at least:",
+        "cite": "14 NYCRR 686.6(a)(2)(ii)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ii)(a)",
+        "text": "The criteria for discharge of individuals.",
+        "cite": "14 NYCRR 686.6(a)(2)(ii)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ii)(b)",
+        "text": "The requirement that, to avoid precipitous discharge, reasonable efforts are made on the part of the community residence to meet the needs of a person before a more restrictive placement is sought and/or discharge is contemplated, taking into consideration the needs of the other individuals in the facility and the facility's available resources.",
+        "cite": "14 NYCRR 686.6(a)(2)(ii)(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ii)(c)",
+        "text": "The procedures for being discharged, including the procedures governing discharge of a person against the recommendations of the program planning team.",
+        "cite": "14 NYCRR 686.6(a)(2)(ii)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ii)(d)",
+        "text": "The requirement that no overt or covert physical or psychological pressure shall be applied to prevent a person who desires to leave from doing so.",
+        "cite": "14 NYCRR 686.6(a)(2)(ii)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ii)(e)",
+        "text": "The requirement that those responsible for program planning participate in designing plans and the coordination of services for a person in the process of being discharged from the residence.",
+        "cite": "14 NYCRR 686.6(a)(2)(ii)(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(iii)",
+        "text": "Review and appeal procedures available to individuals and their parents, guardians, or correspondents, including but not limited to appeal of the plan of services and placement decisions, which are in conformance with the regulations of the commissioner.",
+        "cite": "14 NYCRR 686.6(a)(2)(iii)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(iv)",
+        "text": "Community involvement, providing direction to staff and individuals as to the type of activities that will promote and nurture the involvement of the community residence with the neighborhood and community.",
+        "cite": "14 NYCRR 686.6(a)(2)(iv)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(v)",
+        "text": "The means whereby individuals, in accordance with their capability, contribute to the decisionmaking process relative to the day-to-day activities at the community residence, and individual/staff involvement in neighborhood/community activities.",
+        "cite": "14 NYCRR 686.6(a)(2)(v)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)",
+        "text": "Requirements for the administration of the following:",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)(a)",
+        "text": "plans of services;",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)(b)",
+        "text": "person's financial records;",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)(c)",
+        "text": "confidentiality and protection of individuals' records;",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)(d)",
+        "text": "coordination, collection, release and tracking of statistical information;",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)(e)",
+        "text": "incidents and allegations of abuse; and",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)(e)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vi)(f)",
+        "text": "medication administration, the current certification status of community residence staff to administer medications, and the self-administration of medication training program for individuals.",
+        "cite": "14 NYCRR 686.6(a)(2)(vi)(f)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(vii)",
+        "text": "Medical emergencies, other potential emergencies, evacuation procedures to meet the special needs of persons with developmental disabilities, and disasters; the necessary staff actions associated with these situations; and the means to familiarize staff with these policies and procedures.",
+        "cite": "14 NYCRR 686.6(a)(2)(vii)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(viii)",
+        "text": "Health and safety issues.",
+        "cite": "14 NYCRR 686.6(a)(2)(viii)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ix)",
+        "text": "Personnel policies/procedures addressing at least:",
+        "cite": "14 NYCRR 686.6(a)(2)(ix)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ix)(a)",
+        "text": "the recruitment and hiring process; qualifications, education and skills required; job descriptions; description of duties and responsibilities; and job performance evaluations;",
+        "cite": "14 NYCRR 686.6(a)(2)(ix)(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ix)(b)",
+        "text": "staff training programs which include at a minimum: (1) coordination of staff development and training that is consistent with individuals' and staff needs and agency/facility policies; (2) orientation procedures; (3) in-service training; and (4) the use of community training resources;",
+        "cite": "14 NYCRR 686.6(a)(2)(ix)(b)(1)-(4)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ix)(c)",
+        "text": "the means whereby matters of concern to staff can be made known without threat of job loss; and",
+        "cite": "14 NYCRR 686.6(a)(2)(ix)(c)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(ix)(d)",
+        "text": "the prohibition of discrimination in hiring and promotion based on race, religion, color, gender, national origin, age or disability.",
+        "cite": "14 NYCRR 686.6(a)(2)(ix)(d)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(2)(x)",
+        "text": "The approval process for policies/procedures, which includes a description of the role of the governing body in this process.",
+        "cite": "14 NYCRR 686.6(a)(2)(x)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(a)(3)",
+        "text": "The agency/facility policy/procedure manual is a public document and, as such, shall be available to individuals, parents, guardians, correspondents, staff and others.",
+        "cite": "14 NYCRR 686.6(a)(3)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(b)(3)",
+        "text": "A written policy/procedure manual(s) exists with contents addressing the following areas: (i) admission and discharge of individuals; (ii) administration of records; (iii) emergencies and disasters; (iv) health and safety issues; (v) personnel; (vi) review and appeal procedures for concerns of individuals and their correspondents; (vii) community involvement of staff and individuals; and (viii) individuals' involvement in community residence activities.",
+        "cite": "14 NYCRR 686.6(b)(3)(i)-(viii)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.6(b)(1)",
+        "text": "The agency/facility has written criteria for a residence manager which mandate that the person in the position has, at a minimum, been awarded a high school diploma or its equivalent and has at least one year of experience working with persons with developmental disabilities.",
+        "cite": "14 NYCRR 686.6(b)(1)",
+        "doc": 0
+      },
+      {
+        "item_id": "686.16(a)(6)",
+        "text": "A facility receiving an operating certificate as an individualized residential alternative, shall develop a site specific written plan for protective oversight. The plan shall include provisions for ensuring:",
+        "cite": "14 NYCRR 686.16(a)(6)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(a)(6)(i)",
+        "text": "The assessment of each person's need for the amount and type of supervision necessary including both staff and/or technology as appropriate to the person and circumstance.",
+        "cite": "14 NYCRR 686.16(a)(6)(i)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(a)(6)(ii)",
+        "text": "The use of appropriately trained substitute personnel when the primary assigned personnel are unavailable.",
+        "cite": "14 NYCRR 686.16(a)(6)(ii)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(a)(6)(iii)",
+        "text": "The establishment of qualifications and training requirements of those responsible for supervision.",
+        "cite": "14 NYCRR 686.16(a)(6)(iii)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(a)(6)(iv)",
+        "text": "The establishment of a process whereby the person's continuing need for the originally recommended amount and type of protective oversight can be periodically reviewed, and modified as necessary.",
+        "cite": "14 NYCRR 686.16(a)(6)(iv)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(a)(5)",
+        "text": "Each facility in this class shall ensure the provision of, or provide as its minimum responsibility, protective oversight (see glossary) appropriate to the person's needs.",
+        "cite": "14 NYCRR 686.16(a)(5)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(b)(1)",
+        "text": "OPWDD shall verify that each individualized residential alternative has implemented a facility evacuation plan. OPWDD shall verify that staff and persons residing in the facility are trained and evaluated regarding their performance of said plan.",
+        "cite": "14 NYCRR 686.16(b)(1)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(b)(3)",
+        "text": "OPWDD shall verify that each person has a plan for protective oversight, based on an analysis of the person's need for same, and that such need has periodically, but at least annually, been reviewed, revised as appropriate, and integrated, as appropriate, with other services received.",
+        "cite": "14 NYCRR 686.16(b)(3)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.16(b)(4)",
+        "text": "OPWDD shall verify that persons living in the facility are receiving appropriate protective oversight in accordance with the following: (i) any parties with supervision responsibilities have received training appropriate to the protective oversight needs of the persons in the facility including, but not limited to, first aid; (ii) any parties with supervision responsibilities are aware of the specifics of each person's plan for protective oversight; and (iii) each person's plan for protective oversight is being implemented as specified in the person's individualized service plan.",
+        "cite": "14 NYCRR 686.16(b)(4)(i)-(iii)",
+        "doc": 1
+      },
+      {
+        "item_id": "686.8(a)(4)",
+        "text": "The agency/facility shall develop policies/procedures governing referral, intake and admission. (Supportive community residences)",
+        "cite": "14 NYCRR 686.8(a)(4)",
+        "doc": 2
+      },
+      {
+        "item_id": "686.8(a)(5)",
+        "text": "These policies and procedures shall specifically address how the agency/facility will assess and meet the applicant's need for supervision in the supportive community residence, and shall include criteria justifying admission as listed in paragraph (b)(1) of this section.",
+        "cite": "14 NYCRR 686.8(a)(5)",
+        "doc": 2
+      },
+      {
+        "item_id": "686.8(a)(7)",
+        "text": "There shall be discharge criteria which: (i) describe the level of independent functioning that would appropriately permit a person to live independently; and identify those activities and experiences which would promote such increased independence; (ii) describe potential problem circumstances or degenerating person functioning level which might result in discharge to a more restrictive program; and (iii) preclude discharge except to a setting which can more appropriately meet the person's needs and such a setting is actually available at the time of projected discharge.",
+        "cite": "14 NYCRR 686.8(a)(7)(i)-(iii)",
+        "doc": 2
+      },
+      {
+        "item_id": "686.8(a)(12)",
+        "text": "The policy and procedure manual, as required in section 686.6(a)(2) of this Part shall also incorporate: (i) the requirement that a trained person shall be available to make visitations to a person in a supportive community residence in the absence of the assigned case manager; (ii) the requirement that a person shall be informed of the persons to call in the event of an emergency or other unusual or unsettling circumstances; (iii) the requirement that all occupants of a supportive community residence shall be trained to evacuate the facility in emergency situations; and (iv) any other necessary information specific to the operation of a supportive community residence.",
+        "cite": "14 NYCRR 686.8(a)(12)(i)-(iv)",
+        "doc": 2
+      }
+    ],
+    "structure": {
+      "use_as_categories": true,
+      "sections": [
+        "Admission (686.6(a)(2)(i))",
+        "Discharge (686.6(a)(2)(ii))",
+        "Review and appeal procedures (686.6(a)(2)(iii))",
+        "Community involvement (686.6(a)(2)(iv))",
+        "Individual decision-making and involvement (686.6(a)(2)(v))",
+        "Administration of records, incidents/abuse and medication (686.6(a)(2)(vi))",
+        "Emergencies, evacuation and disasters (686.6(a)(2)(vii))",
+        "Health and safety (686.6(a)(2)(viii))",
+        "Personnel (686.6(a)(2)(ix))",
+        "Policy approval process and governing body role (686.6(a)(2)(x))",
+        "IRA site-specific protective oversight plan and evacuation plan (686.16)",
+        "Supportive CR/IRA additions (686.8)"
+      ]
+    },
+    "notes": "No single OPWDD policy checklist or form was found, so the required items come from regulation sections that list required written policies. The IRA Operating Certificate Application (OMR 248, cited in your source list) could not be retrieved: the businessexpress.ny.gov page returned a permission error, and searches did not surface the form. If you can get OMR 248 from OPWDD, check it against this list. (1) The manual is the agency's policy/procedure manual under 686.6(a)(2). OPWDD's stated intent in 686.2(b) is that the policies reflect compliance with Part 686 and become part of the agency's/facility's manual(s). The manual is a public document, so it must be available to individuals, parents, guardians, correspondents, staff and others (686.6(a)(3)). (2) 686.16(a)(4) lists the Part 686 sections an IRA must meet and does not name 686.6 or 686.8. 686.6(a)(2) applies to 'each community residence', and 14 NYCRR 619.2 treats IRAs as a community residence type. I therefore treated 686.6 as applicable, but confirm this with the OPWDD regional office. 686.8 items apply only to supportive residences. (3) Some items cover residence-manager qualifications, in 686.6(b)(1), and the protective oversight plan for each person, in 686.16(b)(3)-(4). Those are written criteria or plans OPWDD verifies at survey, not manual topics. The 686.16(b)(2) fire-evacuation evaluation in each person's ISP and the 686.16(b)(5) fire-alarm audibility check are survey checks, not manual items, so they are not listed. (4) 686.6(a)(2)(vi) and the Part 633 sections in your regulation list (633.8 training, 633.15 personal funds, 633.17 medication, 633.22 criminal history checks) set the substance that those policies must follow. They do not themselves list required policy topics, so they are not itemized here. (5) The only sections of 686.6, 686.8 and 686.16 retrieved were the ones above. Justia's 686.8 and 686.16 text is current through June 2025, and Justia carries a disclaimer that it may not be the latest version. Verify against the official NYCRR (Department of State) text before submission. Organize the manual by the headings above, using the regulation's own numbering as a crosswalk, so reviewers can map each policy to its citation. Submission format and review procedures are 'prescribed by OPWDD' through the certification and application process under 14 NYCRR Part 619 (see 686.2(d)). Confirm the current submission method with the OPWDD regional office or Division of Quality Improvement."
+  },
+  "plan_version": 2
 }

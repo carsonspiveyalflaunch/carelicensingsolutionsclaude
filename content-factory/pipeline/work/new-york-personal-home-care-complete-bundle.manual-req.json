@@ -285,173 +285,333 @@
     {
       "id": "GOV-01",
       "category": "Governance and Administration",
-      "title": "Governing Authority, Operator and RN Director of Patient Services Responsibilities",
+      "title": "Governing Authority, Administrator and RN Director Responsibilities",
+      "covers": [
+        "WS-GA.1",
+        "WS-GA.2",
+        "WS-GA.3",
+        "WS-GA.4",
+        "WS-GA.5",
+        "WS-GA.6",
+        "WS-GA.8",
+        "WS-GA.9",
+        "WS-GA.10"
+      ],
       "citations": [
         "C7",
-        "C35"
+        "C10"
       ],
       "federal": [],
       "state_specifics": [
-        "The governing authority (operator) manages the agency and ensures compliance with all federal, state and local law, §766.9(a)-(b).",
-        "It must employ at least one licensed, currently registered RN responsible for directing and supervising all patient care, §766.9(h). The RN's qualifications are set by the agency for the duties assigned.",
-        "It must employ or contract for enough staff, and keep an office with access to records and prompt phone contact, §766.9(f)-(g).",
-        "Part 766 sets no administrator credential. At least one principal must show health care experience per the application.",
-        "Policies are adopted and amended by the governing authority, §766.9(d), and a surveyor will review this manual."
+        "The governing authority is responsible for operation and compliance with all laws (766.9(a)-(b)).",
+        "It adopts and amends all policies and adopts the budget.",
+        "It keeps a current written emergency plan and orients all employees to it (766.9(c)).",
+        "It provides an adequately sized office with access to patient records and prompt phone contact (766.9(f)).",
+        "It employs at least one licensed, registered RN to direct and supervise all patient care (766.9(h))."
       ]
     },
     {
       "id": "GOV-02",
       "category": "Governance and Administration",
-      "title": "Licensure, Counties Served, Annual Registration and Public Information",
+      "title": "Licensure, Service Area, Public Information and Advertising",
+      "covers": [
+        "WS-GA.7"
+      ],
       "citations": [
+        "C7",
         "C18",
         "C19",
-        "C23",
-        "C7",
-        "C10"
+        "C23"
       ],
       "federal": [],
       "state_specifics": [
-        "Serve only in counties named on the license. Adding a county, service or site needs an administrative amendment: regional office or homecareapplications@health.ny.gov. New counties remain subject to the public-need rule.",
-        "Annual registration under PHL §3605-b: $500 per month late penalty, and missing two periods can lead to revocation.",
-        "Make public the services, geographic area, charges and payment mechanisms, §766.9(e).",
-        "Keep the license, organizational documents and a current patient roster and personnel list at the principal NYS office, §766.12(a)(1).",
-        "The license is not transferable. A change of ownership needs a new CON application."
+        "A license is required for nursing, home health aide or personal care services (PHL §3605).",
+        "Serve only the counties named on the license. Adding counties is a license amendment and is subject to the public-need rule.",
+        "Make public the services, service area, charges and accepted payers (agency brochure) (766.9(e)).",
+        "Annual registration is required under PHL §3605-b. The late penalty is $500/month, and missing two periods can lead to revocation.",
+        "Initial applicants commit to serve hard-to-reach groups (10 NYCRR 765-1.16(e))."
       ]
     },
     {
       "id": "GOV-03",
       "category": "Governance and Administration",
-      "title": "Policy Review and Document Control",
+      "title": "Policy Manual Format, Index, Document Control and Required Program Materials",
+      "covers": [
+        "A-1",
+        "A-2",
+        "A-3",
+        "A-4",
+        "A-5",
+        "A-6",
+        "A-7"
+      ],
       "citations": [
-        "C9",
         "C2",
-        "C7",
-        "C10"
+        "C31",
+        "C35",
+        "C7"
       ],
       "federal": [],
       "state_specifics": [
-        "Personnel policies are reviewed at least annually and revised as necessary, §766.11(a).",
-        "Service policies are reviewed and revised as necessary, §766.2(a)(1).",
-        "The HPN coverage policy is reviewed at least annually, §766.9(o).",
-        "The QI committee reviews service policies and recommends changes; the governing authority adopts them, §766.9(l)(1).",
-        "Keep the current policy set at the principal office and every branch, §766.12(a)(1)(vii), (a)(2)(i). Keep governing-authority and committee minutes 3 years, §766.12(a)(3)(i)."
+        "Every policy carries: agency name as on the PHHPC approval, discrete number, title, purpose, policy and revision dates, 'page x of y', authority, application, responsible party, terminology, cross-references.",
+        "Every policy has a step-by-step procedure: overview, skills and materials, logical sequence of steps, examples where useful.",
+        "The index lists policy name, number, initial/revision date and the regulation cited.",
+        "Keep a job description and a policy for each approved service: Nursing, Personal Care Aide and any other service PHHPC approved (e.g., Home Health Aide).",
+        "Submit the manual to the regional office after contingent approval. It must be accepted before the pre-opening survey. Policies are reviewed at least annually (766.11(a)) and revised as necessary (766.2(a)(1))."
       ]
     },
     {
       "id": "GOV-04",
       "category": "Governance and Administration",
-      "title": "Quality Improvement Program and QI Committee",
+      "title": "Quality Assurance and Performance Improvement (QI Committee)",
+      "covers": [
+        "WS-GA.19",
+        "WS-GA.20",
+        "WS-GA.21",
+        "WS-GA.22",
+        "WS-GA.23",
+        "WS-GA.24",
+        "WS-GA.25",
+        "WS-GA.26",
+        "WS-GA.27",
+        "WS-GA.28"
+      ],
       "citations": [
         "C7",
         "C2"
       ],
       "federal": [],
       "state_specifics": [
-        "QI committee: a consumer plus appropriate health professionals, meeting at least four times a year, §766.9(l).",
-        "Each meeting reviews policies and a clinical record review. Records are randomly selected from current patients and patients discharged in the past 3 months, plus all cases with patient complaints.",
-        "A written summary of findings goes to the governing authority for action. Keep minutes 3 years.",
-        "Quality is every staff member's responsibility at all times, §766.9(k).",
-        "Any service the agency has not previously provided in homes goes to the QI committee before routine provision, §766.2(a)(7)."
+        "A continuous QI program covers all staff and all services (766.9(k)).",
+        "The QI committee includes a consumer and health professionals and meets at least 4 times a year (766.9(l)).",
+        "Each meeting reviews policies, a random sample of current patients' records, records of patients discharged in the prior 3 months, and all complaint cases.",
+        "The committee sends a written summary of findings to the governing authority.",
+        "Any new nursing or therapeutic service goes to the QI committee first (766.2(a)(7))."
       ]
     },
     {
       "id": "GOV-05",
       "category": "Governance and Administration",
       "title": "Corporate Compliance, Fraud and Billing Integrity",
+      "covers": [],
       "citations": [
         "C26",
+        "C22",
         "C12",
-        "C33",
-        "C10"
+        "C28"
       ],
       "federal": [
         "42 USC 1396b(l)",
-        "31 USC 3729-3733 (False Claims Act)"
+        "31 USC 3729"
       ],
       "state_specifics": [
-        "The practitioner order is subject to 18 NYCRR Parts 515-518 (OMIG sanctions and overpayment recovery), §505.14(b)(2)(ii)(i).",
-        "Bill only authorized services actually delivered. Support claims with EVV data, timesheets and documented RN supervisory visits.",
-        "Keep patient-care financial records 3 years, §766.12(a)(3)(ii). Keep wage parity records 10 years.",
-        "Whether Part 521 requires a formal compliance program for your billing volume is unverified; confirm with counsel or OMIG. Adopt a written compliance program regardless.",
-        "Management or franchise arrangements cannot transfer control of billing or books and records, §766.9(m)-(n)."
+        "Bill only for services delivered, authorized and documented (EVV record, aide activity sheet, RN supervisory report).",
+        "Medicaid compliance-program applicability under SSL §363-d/18 NYCRR Part 521 has not been verified. Confirm with counsel or OMIG; the policy is written either way.",
+        "Name a compliance officer, with training, a reporting hotline and a non-retaliation rule.",
+        "Cost reports are filed within 90 days of DOH notice, with a 30-day correction window (PHL §3612).",
+        "Overpayments are reported and returned. OMIG may disallow claims that lack a documented RN supervisory visit."
       ]
     },
     {
       "id": "GOV-06",
       "category": "Governance and Administration",
-      "title": "Management Contracts, Franchise Agreements and Contracted Services",
+      "title": "Contracts and Services by Arrangement",
+      "covers": [
+        "WS-CON.1",
+        "WS-CON.2",
+        "WS-CON.3",
+        "WS-CON.4",
+        "WS-CON.5",
+        "WS-CON.6"
+      ],
       "citations": [
-        "C7",
-        "C8"
+        "C8",
+        "C9",
+        "C7"
       ],
       "federal": [],
       "state_specifics": [
-        "A management contract or franchise agreement takes effect only with prior written consent of the commissioner. Submit the proposal at least 60 days before the effective date, §766.9(m)(4), (n)(2).",
-        "The governing authority must keep control of hire/fire of the administrator, books and records, assets and liabilities, and independent adoption of policies, §766.9(m)(2)(iii), (n)(3).",
-        "Terminating a management contract for cause: not more than 60 days' notice, with written notice to DOH and a continuation plan, §766.9(m)(6).",
-        "Services by arrangement require a written contract. Contract personnel must meet §766.11 requirements. The agency remains responsible for service adequacy, §766.10(b)-(d).",
-        "Nurses or therapists under contract coordinate with agency care planning and supervision, §766.10(e)."
+        "Services by arrangement need a written contract (766.10(b)).",
+        "Each contract states the services, how they are supervised and evaluated, charges and financial arrangements, a 'notwithstanding' clause, and indemnification between agency and contractor.",
+        "Contract personnel must meet all 766.11 personnel requirements (766.10(c)).",
+        "The agency remains responsible for the adequacy of contracted services (766.10(d)).",
+        "Management and franchise contracts need prior written commissioner consent, submitted at least 60 days ahead (766.9(m)-(n)). Confirm the full text of 766.10."
       ]
     },
     {
       "id": "GOV-07",
       "category": "Governance and Administration",
-      "title": "Health Provider Network (HPN) Accounts, 24/7 Emergency Contacts and Coverage",
+      "title": "Health Commerce System (HCS) Account and Communication Directory",
+      "covers": [
+        "WS-HCS.1",
+        "WS-HCS.2",
+        "WS-HCS.3",
+        "WS-HCS.4",
+        "WS-HCS.5",
+        "WS-HCS.6",
+        "WS-HCS.7",
+        "WS-HCS.8"
+      ],
       "citations": [
         "C7",
-        "C30"
+        "C30",
+        "C16"
       ],
       "federal": [],
       "state_specifics": [
-        "Obtain HPN accounts and keep them current, with designated HPN coordinator(s) and enough staff users for rapid response to DOH requests, §766.9(o)(1)-(2).",
-        "List 24-hour, seven-day-a-week emergency contacts in the HPN communications directory, §766.9(o).",
-        "Update the directory when personnel roles change and at least monthly, §766.9(o)(4).",
-        "Maintain a written HPN coverage policy consistent with hours of operation and review it at least annually.",
-        "Weekly HERDS census submission: window opens Tuesday 8:00 a.m. and closes Thursday 2:00 p.m.; contact hcstatrpts@health.ny.gov."
+        "Obtain an HCS account for each agency operated (766.9(o)).",
+        "Access HCS daily, with coverage throughout operating hours and enough staff to answer DOH requests quickly.",
+        "Keep the 24/7 facility contact and Office of the Administrator current. Update the directory at least monthly.",
+        "The written HPN coverage policy is reviewed at least annually.",
+        "Assign these roles: Administrator; Director of Patient Services; Emergency Response Coordinator; HCS Coordinator; CHRC Authorized Person; Home Care Registry Updater and Viewer (at least two registry designees under Part 403)."
+      ]
+    },
+    {
+      "id": "GOV-08",
+      "category": "Governance and Administration",
+      "title": "Change of Ownership, Transfer of Interests and Management Changes",
+      "covers": [
+        "WS-COO.1",
+        "WS-COO.2",
+        "WS-COO.3",
+        "WS-COO.4"
+      ],
+      "citations": [
+        "C23",
+        "C18",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A license is not transferable. A change of ownership needs a new application and PHHPC approval before it takes effect.",
+        "Define a change of ownership: transfer of interests, stock or membership interests, or acquisition of control.",
+        "Notify DOH before the change and file the application electronically (NYSE-CON).",
+        "Management contracts need commissioner approval 60 days ahead (766.9(m)).",
+        "Failure to disclose a change can void an approval."
+      ]
+    },
+    {
+      "id": "GOV-09",
+      "category": "Governance and Administration",
+      "title": "Amendment of the License (Counties, Services, Sites)",
+      "covers": [
+        "WS-AMD.1",
+        "WS-AMD.2",
+        "WS-AMD.3"
+      ],
+      "citations": [
+        "C23",
+        "C18",
+        "C35"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "An amendment includes adding a county, adding a service or changing or adding a site or office location.",
+        "Obtain DOH approval before acting. Contact the regional office or homecareapplications@health.ny.gov.",
+        "Submit the application materials DOH requires for each type of amendment.",
+        "New counties are still subject to the public-need rule (10 NYCRR 765-1.16).",
+        "Update the P&P manual, the HCS directory and the agency brochure after each approved amendment."
       ]
     },
     {
       "id": "CR-01",
       "category": "Client Rights",
-      "title": "Patient Rights and Responsibilities",
+      "title": "Patient Rights and Responsibilities (Notice, Documentation and Exercise of Rights)",
+      "covers": [
+        "WS-PR.1",
+        "WS-PR.2",
+        "WS-PR.3",
+        "WS-PR.7",
+        "WS-PR.8",
+        "WS-PR.9",
+        "WS-PR.10",
+        "WS-PR.11",
+        "WS-PR.12",
+        "WS-PR.13",
+        "WS-PR.14",
+        "WS-PR.15",
+        "WS-PR.16",
+        "WS-PR.17",
+        "766.1(a)",
+        "WS-ADM.6"
+      ],
       "citations": [
         "C1",
-        "C6"
+        "C6",
+        "C7"
       ],
       "federal": [
-        "42 USC 1396a(a)(3) (Medicaid fair hearing rights)"
+        "45 CFR 164.520",
+        "42 CFR 441.301(c)"
       ],
       "state_specifics": [
-        "Give rights in writing before care starts and document it in the clinical record, §766.1(a)(1); §766.6(a)(9).",
-        "Rights are listed at §766.1(a)(1)-(12): service information, care-plan participation, refusal, complaints without reprisal, dignity, privacy.",
-        "All staff providing care must know the rights and promote them, §766.1(b). A legal representative exercises rights for patients lacking capacity, §766.1(c).",
-        "Medicaid MLTC members also have fair hearing and plan appeal rights under their plan's notices. Provide those notices when authorization changes occur."
+        "Give rights in writing and explain them verbally before care starts. Document receipt in the clinical record (766.1(a)(1); 766.6(a)(9)).",
+        "Tell the patient what services will be provided, when and how, and the name, title and function of who will provide them. Give notice of any change in services or plan of care (766.1(a)(4)).",
+        "Patient rights: take part in care planning, refuse care, complain free of reprisal, dignity and respect, privacy and confidentiality of records, and refuse release of records to outside agencies.",
+        "Patients may complain to DOH. Include the DOH complaint hotline number on the rights notice.",
+        "A legally authorized representative exercises the rights if the patient lacks capacity (766.1(c)). All care staff are trained on the rights (766.1(b))."
       ]
     },
     {
       "id": "CR-02",
       "category": "Client Rights",
-      "title": "Patient Complaints and Appeals",
+      "title": "Service Agreement, Statement of Services, Charges and Payer Liability",
+      "covers": [
+        "WS-PR.4",
+        "WS-PR.5",
+        "WS-PR.6",
+        "WS-ADM.5"
+      ],
       "citations": [
-        "C7",
         "C1",
-        "C10"
+        "C7"
       ],
       "federal": [],
       "state_specifics": [
-        "Keep a complaint log with dates received and resolved, §766.9(j)(1).",
-        "Written response to every written complaint (and oral complaints if requested), explaining findings and decisions to date, within 15 days of receipt, §766.9(j)(2)(i).",
-        "Advise the complainant of the right to appeal. The appeal is reviewed by a member or committee of the governing authority within 30 days of receipt, §766.9(j)(3).",
-        "Notify the patient or designee that they may complain to the DOH Office of Health Systems Management, §766.1(a)(9); §766.9(j)(4). DOH home care complaint hotline number: confirm the current number before printing in the manual (not verified here).",
-        "Complaints include lack of respect for property by anyone serving on the agency's behalf, §766.1(a)(9). Complaints are free from interference, coercion, discrimination or reprisal, §766.1(a)(8).",
-        "Complaint cases are reviewed by the QI committee, §766.9(l)(2)(ii). Retain complaint records 3 years from resolution, §766.12(a)(3)(iv)."
+        "Before care starts, give a written statement of services and charges (766.1(a)(2)).",
+        "Before care, tell the patient how much third-party payers (Medicaid, MLTC plans, insurance) are expected to pay and how much the patient must pay (766.1(a)(3)).",
+        "Give notice of any change in charges or coverage within 30 calendar days of the agency learning of it, orally and in writing (766.1(a)(3)(i)-(ii)).",
+        "Make charges and accepted payment sources public (766.9(e)).",
+        "The patient or representative signs the service agreement and the informed consent."
       ]
     },
     {
       "id": "CR-03",
       "category": "Client Rights",
+      "title": "Grievances and Complaints",
+      "covers": [
+        "WS-PR.18",
+        "WS-PR.19",
+        "WS-GA.12",
+        "WS-GA.13",
+        "WS-GA.14",
+        "WS-GA.15",
+        "WS-GA.16",
+        "WS-GA.17",
+        "WS-GA.18"
+      ],
+      "citations": [
+        "C7",
+        "C1",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a complaint log. Document receipt, investigation and resolution of every complaint (766.9(j)).",
+        "Give a written response to written complaints, and to oral complaints on request, within 15 days of the investigation findings.",
+        "Advise the complainant of the right to appeal. A governing-authority member or committee reviews the appeal and notifies the complainant within 30 days.",
+        "Advise the complainant of the right to complain to DOH. Print the DOH home care complaint hotline number on every notice; confirm the current number with DOH before printing (historically 1-800-628-5972).",
+        "Send all complaints to the QI committee. Retain complaint records 3 years after resolution (766.12(a)(3))."
+      ]
+    },
+    {
+      "id": "CR-04",
+      "category": "Client Rights",
       "title": "Privacy, Confidentiality and HIPAA",
+      "covers": [
+        "WS-PR.15",
+        "WS-PR.16"
+      ],
       "citations": [
         "C1",
         "C6",
@@ -459,193 +619,315 @@
       ],
       "federal": [
         "45 CFR 160",
-        "45 CFR 164.502",
-        "45 CFR 164.520",
-        "45 CFR 164.524",
-        "45 CFR 164.530",
-        "45 CFR 164.400-414 (breach notification)"
+        "45 CFR 164"
       ],
       "state_specifics": [
-        "Patients may refuse release of records to anyone outside the agency, except on transfer to a health care facility, as required by law, or under a third-party payment contract, §766.1(a)(11).",
-        "Written policies must safeguard records against loss or unauthorized access and govern use, removal and release, §766.6(e).",
-        "Electronic records must be secure from unwarranted access and printable on request for the agency and DOH, §766.12(b).",
-        "Employee health records are kept apart from the personnel file and treated with the same confidentiality as patient records, §766.11(g).",
-        "Criminal history results may be used solely for authorized purposes under Exec. Law §845-b and PHL art. 28-E, §402.6(b)(3)-(4)."
-      ]
-    },
-    {
-      "id": "CR-04",
-      "category": "Client Rights",
-      "title": "Client Property, Gifts and Financial Exploitation Prevention",
-      "citations": [
-        "C1",
-        "C6",
-        "C12"
-      ],
-      "federal": [
-        "42 CFR 455.12-455.23 (Medicaid program integrity)"
-      ],
-      "state_specifics": [
-        "Complaints about disrespect for the patient's property are covered by the complaint procedure, §766.1(a)(9); §766.9(j).",
-        "Patients must be treated with respect and recognition of dignity and individuality, §766.1(a)(10).",
-        "Level I tasks include shopping, payment of bills and essential errands, §505.14(a)(5)(i)(a)(6),(8). Require receipts and a documented record of any client funds handled.",
-        "Document accidents and incidents, including alleged theft, in the patient record, §766.6(a)(8).",
-        "Gift, loan and money-handling rules are agency-adopted standards. No specific Part 766 section on gifts was located."
+        "Patients have the right to privacy and confidential treatment of their records (766.1(a)(11)).",
+        "Release records to outside parties only with patient authorization or as law permits, and tell the patient they may refuse release.",
+        "Electronic records must be secure and confidential (766.12(b)).",
+        "Provide a HIPAA Notice of Privacy Practices.",
+        "Train all staff at hire and yearly. Report breaches under HIPAA."
       ]
     },
     {
       "id": "CR-05",
       "category": "Client Rights",
-      "title": "Nondiscrimination and Language Access",
+      "title": "Client Property, Gifts and Financial Exploitation Prevention",
+      "covers": [],
       "citations": [
         "C1",
-        "C31"
+        "C9",
+        "C7"
       ],
-      "federal": [
-        "Title VI, 42 USC 2000d; 45 CFR 80",
-        "ADA, 42 USC 12101 et seq.",
-        "45 CFR 92 (Section 1557)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Patients have the right to be treated with consideration, respect and full recognition of dignity and individuality, §766.1(a)(10).",
-        "Provide rights information orally and in writing, including payment information, §766.1(a)(3)(ii). Offer it in the patient's language.",
-        "Under 18 NYCRR 505.14(b)(2)(iii)(a)(3), the district or MMCO must consider the individual's preferences and social and cultural considerations in care planning.",
-        "Every initial LHCSA applicant must commit to serve people who have trouble getting care because of minority status, age, case complexity, payment source or location, §765-1.16(e)."
+        "Caregivers may not accept gifts, loans, bequests or money from clients or families.",
+        "Caregivers may not handle client cash, cards or bank accounts beyond documented, authorized errands with receipts.",
+        "Caregivers may not borrow from clients or sell them anything, or use client property.",
+        "Caregivers report any suspected exploitation to the RN director immediately."
       ]
     },
     {
       "id": "CR-06",
       "category": "Client Rights",
-      "title": "Service Agreement, Rates and Billing Disclosure",
+      "title": "Nondiscrimination and Language Access",
+      "covers": [
+        "WS-ADM.2"
+      ],
       "citations": [
         "C1",
         "C7"
       ],
       "federal": [
-        "42 CFR 447.15 (Medicaid payment in full)"
+        "Title VI of the Civil Rights Act (42 USC 2000d)",
+        "ADA (42 USC 12101 et seq.)"
       ],
       "state_specifics": [
-        "Before care starts, give a statement of available services and related charges, §766.1(a)(2).",
-        "Before care starts, explain the extent to which payment is expected from third-party payers and the extent the patient may have to pay, orally and in writing, §766.1(a)(3), (a)(3)(ii).",
-        "Report any change in this information within 30 calendar days of learning of it, §766.1(a)(3)(i).",
-        "Make charges and payment mechanisms available to the public, §766.9(e).",
-        "Medicaid/MLTC patients: do not charge for services the plan authorizes. Document the plan's authorization (level, amount, frequency, duration) in the service agreement."
+        "Accept patients without discrimination on race, color, national origin, disability, age, sex, religion or payer source.",
+        "Provide interpreters and translated rights notices at no charge.",
+        "Make reasonable accommodations for disability.",
+        "Record the language preference in the intake record."
       ]
     },
     {
       "id": "SVC-01",
       "category": "Services",
-      "title": "Scope of Services: What Personal Care Aides May and May Not Do",
+      "title": "Personal Care Aide Duties, Scope of Tasks and What Caregivers May and May Not Do",
+      "covers": [
+        "WS-PCA.1",
+        "WS-PCA.2",
+        "WS-PCA.3"
+      ],
       "citations": [
-        "C12",
         "C11",
-        "C2"
+        "C12",
+        "C5",
+        "C1"
       ],
       "federal": [],
       "state_specifics": [
-        "Level I (nutritional and environmental support only), §505.14(a)(5)(i)(a): making/changing beds; dusting and vacuuming rooms the patient uses; light cleaning of kitchen, bedroom and bathroom; dishwashing; listing needed supplies; shopping if no other arrangements; laundry including ironing and mending; bill payment and essential errands; meal preparation including simple modified diets.",
-        "Level II adds personal care functions, §505.14(a)(5)(ii)(a): bathing; dressing; grooming; toileting; walking; transferring; turning and positioning; modified-diet meals (low sugar, fat, salt, residue); feeding; patient self-administration support; routine skin care; use of medical equipment (walkers, wheelchairs); changing simple dressings.",
-        "Supervision and cueing are not standalone services, §505.14(a)(5)(iii).",
-        "Advanced home health aide tasks are not offered unless the license and RN supervision under §766.5(e) are in place. Patients may refuse AHHA tasks, in which case an RN does them, §766.1(a)(12).",
-        "Any nursing or therapeutic procedure new to the agency requires QI committee review first, §766.2(a)(7).",
-        "Level I authorization may not exceed 8 hours per week, §505.14(a)(5)(i)(b)."
+        "Level I covers nutritional and environmental support tasks only, authorized for no more than 8 hours a week (18 NYCRR 505.14(a)(5)(i)).",
+        "Level II adds personal care functions such as bathing, toileting, dressing and feeding, plus medication prompting and assistance but not administration (505.14(a)(5)(ii)).",
+        "Aides work only from the written plan of care and aide care plan, under an order from an authorized practitioner. The Medicaid order must come from a qualified independent practitioner.",
+        "Aides may not perform nursing tasks or injections.",
+        "Aides may refuse advanced home health aide tasks (766.1(a)(12))."
       ]
     },
     {
       "id": "SVC-02",
       "category": "Services",
-      "title": "Patient Intake, Acceptance Criteria and RN Determination",
+      "title": "Admission Criteria, Acceptance of Patients and Informed Consent",
+      "covers": [
+        "WS-ADM.1",
+        "WS-ADM.2",
+        "WS-ADM.3",
+        "WS-ADM.4",
+        "WS-ADM.7",
+        "WS-GA.11"
+      ],
       "citations": [
         "C3",
         "C7",
-        "C12",
-        "C29"
+        "C1"
       ],
-      "federal": [
-        "42 CFR 438.208 (MLTC care coordination)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Accept and retain only patients whose needs can be safely met, per written criteria, §766.9(i).",
-        "An RN, or an individual directly supervised by an RN, must determine before acceptance that the agency can safely and adequately meet the patient's needs, §766.3(a).",
-        "Medicaid personal care requires a stable medical condition and self-direction, unless the §505.14(a)(3)(ii) exceptions are met (a responsible person assumes decision-making).",
-        "Medicaid personal care requires meeting the minimum needs requirements (see SVC-04). If a referral does not meet them, decline and refer back to the plan.",
-        "Document the rights notice and charge disclosure before the first visit (see CR-01, CR-06)."
+        "The governing authority sets written admission criteria (766.9(i)).",
+        "Accept a patient only after an RN, or a person directly supervised by an RN, determines the agency can safely and adequately meet the assessed needs (766.3(a)).",
+        "Accept patients without discrimination.",
+        "Obtain informed consent and give the rights notice and charges statement before the first service.",
+        "Decline or refer out when needs exceed agency capacity or staffing."
       ]
     },
     {
       "id": "SVC-03",
       "category": "Services",
-      "title": "Medicaid Independent Assessment, Practitioner Order and Reassessment",
+      "title": "Client Intake, Medicaid Eligibility, Independent Assessment and Minimum Needs",
+      "covers": [],
       "citations": [
         "C12",
-        "C34"
+        "C29",
+        "C34",
+        "C3"
       ],
-      "federal": [],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
       "state_specifics": [
-        "Initial independent assessment by a DOH-designated entity, performed by a NYS RN with at least 2 years of recent home health care experience, §505.14(b)(2)(i).",
-        "Independent medical exam and practitioner order (physician, PA, specialist assistant or NP). The examiner must be independent, with no prior provider-patient relationship, §505.14(b)(2)(ii).",
-        "The district or MMCO (the plan) reviews the assessment and order, then authorizes services and develops the plan of care, §505.14(b)(2)(iii).",
-        "Plans record the level, amount, frequency and duration of authorized services and send notice to the enrollee (DOH MMC guidance).",
-        "Routine reassessments are annual per DOH's response in the rulemaking. Authorizations should not exceed 12 months (fact-checked research). Do not start or continue services without a current authorization from the plan."
+        "Medicaid personal care requires an independent RN assessment, an independent medical exam and a practitioner order. Plan development is by the district or the MLTC plan/MMCO (18 NYCRR 505.14(b)).",
+        "Minimum needs: for adults 21+, limited assistance with more than two ADLs, or more than one ADL with supervision for dementia/Alzheimer's.",
+        "Minimum needs apply to assessments and reassessments on or after 9/1/2025.",
+        "The plan authorizes level, amount, frequency and duration. Staff only to those hours.",
+        "Private-pay intake follows the RN assessment under SVC-05."
       ]
     },
     {
       "id": "SVC-04",
       "category": "Services",
-      "title": "Minimum Needs Requirements and Level I/Level II Authorization Limits",
+      "title": "Nursing Services (RN Responsibilities and Standards of Practice)",
+      "covers": [
+        "WS-NUR.1",
+        "WS-NUR.2",
+        "WS-NUR.3",
+        "WS-NUR.4",
+        "WS-NUR.5",
+        "WS-NUR.10",
+        "WS-NUR.11",
+        "WS-NUR.12",
+        "WS-NUR.13",
+        "WS-NUR.14"
+      ],
       "citations": [
-        "C12",
-        "C29"
+        "C3",
+        "C5",
+        "C6",
+        "C7",
+        "C2"
       ],
       "federal": [],
       "state_specifics": [
-        "Minimum needs, §505.14(a)(3)(iv): for diagnosed dementia or Alzheimer's, at least supervision with more than one ADL; all others, at least limited assistance with physical maneuvering with more than two ADLs.",
-        "Applies to PCS/CDPAS applicants 21+ and to Medicaid recipients 18+ seeking MLTC or MAP enrollment, at initial assessments and reassessments on or after 9/1/2025 (DOH page).",
-        "Level I: no more than 8 hours/week, §505.14(a)(5)(i)(b).",
-        "More than 12 hours/day on average (including continuous and live-in) requires added plan documentation, §505.14(a)(5)(ii)(b) and (b)(2)(v).",
-        "Do not schedule beyond the plan's authorization. Refer reauthorization questions to the care manager."
+        "Nursing practice follows the NY Nurse Practice Act, scope of practice and standards of practice. The RN director directs and supervises all patient care (766.9(h)).",
+        "Nursing services require orders from an authorized practitioner.",
+        "Name who provides nursing services: the RN director or staff RNs.",
+        "The RN coordinates services with the practitioner, MLTC care manager and other providers. Hold clinical conferences and document them.",
+        "Record progress notes after each visit or phone contact (766.6(a)). Start discharge planning before discharge (766.2(a)(8))."
       ]
     },
     {
       "id": "SVC-05",
       "category": "Services",
-      "title": "Live-in 24-Hour and Continuous Personal Care Services",
+      "title": "RN Assessment, Reassessment, Patient/Caregiver Education and Medications and Treatments",
+      "covers": [
+        "WS-NUR.6",
+        "WS-NUR.7",
+        "WS-NUR.8"
+      ],
       "citations": [
-        "C12",
-        "C21"
+        "C3",
+        "C6",
+        "C12"
       ],
-      "federal": [
-        "29 CFR 552 (FLSA home care)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Continuous PCS: uninterrupted care by more than one aide for more than 16 hours in a calendar day, for patients with frequent need (toileting, walking, transferring, turning/positioning or feeding) such that a live-in aide would be unlikely to get 5 hours of uninterrupted sleep, §505.14(a)(2).",
-        "Live-in 24-hour PCS: one aide, for patients whose need is sufficiently infrequent that the aide would likely get 5 hours of uninterrupted sleep in an 8-hour sleep period, §505.14(a)(4).",
-        "The patient's home must have sleeping accommodations for the live-in aide (see the amended §505.14(b)(2)(v) text).",
-        "Staff live-in aides to meet minimum wage and wage parity rules; see PER-06 and PER-11."
+        "An RN does the initial assessment before services start (766.3(b)) and reassesses at least every 6 months and on any change in condition.",
+        "Document medications and treatments in the plan of care. Reconcile them at each assessment.",
+        "Teach the patient and caregiver and document the teaching.",
+        "Medicaid clients get an annual independent assessment and practitioner order (18 NYCRR 505.14(b))."
       ]
     },
     {
       "id": "SVC-06",
       "category": "Services",
       "title": "Plan of Care and Plan Updates",
+      "covers": [
+        "WS-POC.1",
+        "WS-POC.2",
+        "WS-POC.3",
+        "WS-POC.4",
+        "WS-POC.5",
+        "WS-POC.6",
+        "WS-POC.7",
+        "WS-POC.8",
+        "WS-POC.9",
+        "WS-POC.10",
+        "WS-POC.11",
+        "WS-POC.12",
+        "WS-POC.13",
+        "WS-POC.14",
+        "WS-POC.15",
+        "WS-POC.16"
+      ],
       "citations": [
         "C3",
         "C5",
-        "C6"
+        "C6",
+        "C34"
       ],
       "federal": [],
       "state_specifics": [
-        "The plan is built on a professional assessment and lists diagnosis, prognosis, mental status, frequency of each service, medications, treatments, diet regimens, functional limitations and rehabilitation potential, §766.3(b).",
-        "Review and revise as often as needed, and at least every 6 months, documenting each review, §766.3(d)(1).",
-        "Promptly alert the authorized practitioner and other affected providers to significant changes in condition, §766.3(d)(2). Report plan changes to the payer authorizing services, §766.5(b)(4).",
-        "Patients take part in planning and are advised in advance of plan changes, §766.1(a)(5).",
-        "The plan sits in the patient record, §766.6(a)(4)."
+        "Build a plan for every patient from the RN's assessment (766.3(b)).",
+        "The plan covers: pertinent diagnosis and prognosis, any need for palliative care, mental and emotional status, frequency of each service, medications, treatments, diet, functional limitations and rehabilitation potential. Include therapy orders and the frequency and duration of all ordered services if applicable.",
+        "Review and revise the plan as often as needed and at least every 6 months. Document each review in the clinical record (766.3(d)(1)).",
+        "Promptly alert the authorized practitioner to significant changes (766.3(d)(2)).",
+        "For MLTC clients, the plan records the level, amount, frequency and duration the plan authorized."
       ]
     },
     {
       "id": "SVC-07",
       "category": "Services",
-      "title": "Supervision of Aides and RN Supervisory Visits",
+      "title": "Medical Orders",
+      "covers": [
+        "WS-MO.1",
+        "WS-MO.2",
+        "WS-MO.3",
+        "WS-MO.4",
+        "WS-MO.5",
+        "WS-MO.6",
+        "WS-MO.7",
+        "WS-MO.8",
+        "WS-MO.9",
+        "WS-MO.10"
+      ],
+      "citations": [
+        "C3",
+        "C4",
+        "C2",
+        "C12"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Obtain an order from the patient's authorized practitioner for every patient. Authorized practitioners are an MD, DO, podiatrist, licensed midwife or nurse practitioner. Confirm the full text of 766.4 before finalizing.",
+        "Review and revise orders as needs change and at least every 6 months.",
+        "Orders reference diagnoses, medications, treatments, prognosis, palliative-care needs and other pertinent information.",
+        "The practitioner authenticates orders and changes, including telephone/verbal orders, within 12 months.",
+        "Verbal orders are taken only by an RN, read back, written and signed. Discharge needs 48 hours' notice to the practitioner (766.2(a)(9))."
+      ]
+    },
+    {
+      "id": "SVC-08",
+      "category": "Services",
+      "title": "Aide Care Plan, Orientation to the Care Plan, Communication of Changes and Task Documentation",
+      "covers": [
+        "WS-PCA.5",
+        "WS-PCA.6",
+        "WS-PCA.7",
+        "WS-PCA.8"
+      ],
+      "citations": [
+        "C5",
+        "C6",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The RN prepares a written aide care plan from the plan of care. Before the first visit, the RN orients the aide to it.",
+        "The aide records tasks on the aide activity sheet at every visit. Sheets go in the clinical record (766.6(a)).",
+        "Aides report changes in condition, adverse reactions and problems with the home to the RN right away (766.5(b)).",
+        "The RN follows up on reported changes and notifies the practitioner. Aides may never change the care plan."
+      ]
+    },
+    {
+      "id": "SVC-09",
+      "category": "Services",
+      "title": "Clinical Supervision of All Services and Paraprofessional Staff",
+      "covers": [
+        "WS-CS.1",
+        "WS-CS.2",
+        "WS-CS.3",
+        "WS-CS.4",
+        "WS-CS.5",
+        "WS-CS.6",
+        "WS-CS.7",
+        "WS-CS.8",
+        "WS-NUR.9"
+      ],
+      "citations": [
+        "C5",
+        "C7",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "The governing authority ensures enough trained supervisory staff (766.5(a)).",
+        "Supervision includes case review, in-home visits to direct and evaluate care, clinical consultation and consultation on policy.",
+        "Evidence of supervision: services delivered at planned times and frequencies; assignment by licensure, training and demonstrated skill; prompt charting and reporting of changes; plans revised as needed.",
+        "Aides are supervised 'as appropriate' by an RN (766.5(c)). Supervisory visit frequency is in SVC-10.",
+        "Provide clinical consultation, orientation and training for staff."
+      ]
+    },
+    {
+      "id": "SVC-10",
+      "category": "Services",
+      "title": "RN In-Home Supervisory Visits of Aides",
+      "covers": [
+        "WS-RNS.1",
+        "WS-RNS.2",
+        "WS-RNS.3",
+        "WS-RNS.4",
+        "WS-RNS.5",
+        "WS-RNS.6",
+        "WS-PCA.4"
+      ],
       "citations": [
         "C5",
         "C14",
@@ -654,248 +936,242 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Aides are supervised \"as appropriate\" by an RN, §766.5(c). Professional in-home supervision takes place at the initial service visit, or on a change in personnel, if the aide lacks documented training and experience for the tasks, §766.5(d)(1).",
-        "Supervise in the home when the patient's condition changes, to evaluate and revise the plan, §766.5(d)(2). Instruct aides on what to observe and report, §766.5(d)(3).",
-        "Medicaid supervisory visits: the traditional frequency is every 90 days. OMIG audit guidance notes some counties require every six months, particularly for Level I; later DOH rulemaking leaves frequency to the district or MMCO, §505.14(f)(3)(vi). State the frequency on the plan of care and confirm in each MLTC contract.",
-        "Only an RN may make the visit, and the aide should be present. Write a report for each visit and file it in the record, §766.6(a)(6). OMIG disallows claims without documentation.",
-        "Annual performance assessment of every aide includes at least one in-home observation, §766.11(k)."
+        "The RN supervisor makes an in-home visit at the initial aide service visit, or on a change in aide when the aide lacks documented training and experience in the tasks. The RN demonstrates and instructs, with return demonstration (766.5(d)(1)).",
+        "Visit at least every 6 months, and whenever the patient's condition, needs or environment change (766.5(d)(2)).",
+        "Medicaid personal care: RN supervisory visit at least every 90 days (18 NYCRR 505.14(f)). The local district or MLTC contract may set the frequency, so state it on the plan of care. Confirm the current (f) text.",
+        "Instruct the aide on required observations and review written reports (766.5(d)(3)).",
+        "Write a report of every supervisory visit with the aide present. OMIG guidance disallows claims with no RN visit within 120 days before the date of service."
       ]
     },
     {
-      "id": "SVC-08",
+      "id": "SVC-11",
       "category": "Services",
       "title": "Medication Assistance and Self-Administration Support",
+      "covers": [],
       "citations": [
         "C12",
         "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "Personal care aides may support the patient's own administration of medication, §505.14(a)(5)(ii)(a)(10): prompting the patient as to time; identifying the medication; bringing the medication and supplies; opening the container; positioning the patient; disposing of used supplies; storing the medication properly.",
-        "Aides do not administer medication. Medication administration by an advanced home health aide requires an RN comprehensive medication review and direct RN supervision, §766.5(e)(v), and is outside this manual unless the agency adds AHHA services.",
-        "Aides report medication problems to the supervising RN and record them in observation notes, §766.6(a)(7)."
-      ]
-    },
-    {
-      "id": "SVC-09",
-      "category": "Services",
-      "title": "Scheduling, Missed Visits and Continuity of Care",
-      "citations": [
-        "C2",
-        "C5",
-        "C7"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "To the extent possible, the same personnel serve the same patient, §766.2(a)(3).",
-        "Supervision is adequate when staff provide services at the times and frequencies in the plan of care, §766.5(b)(1). Document missed visits and make-up or backup coverage.",
-        "Staff are assigned according to licensure, training, orientation and demonstrated skills, §766.5(b)(2).",
-        "The emergency plan must keep patient health needs met during disruptions, §766.9(c). Maintain 24/7 contacts, §766.9(o).",
-        "Notify the plan or care manager when authorized hours are not delivered."
-      ]
-    },
-    {
-      "id": "SVC-10",
-      "category": "Services",
-      "title": "Electronic Visit Verification and Timekeeping",
-      "citations": [
-        "C28",
-        "C9",
-        "C10"
-      ],
-      "federal": [
-        "42 USC 1396b(l) (21st Century Cures Act)",
-        "29 CFR 516, 29 CFR 552 (FLSA recordkeeping)"
-      ],
-      "state_specifics": [
-        "EVV is required for Medicaid personal care since 1/1/2021 (choice model: the agency chooses its vendor). Data goes to the NYS EVV Data Aggregator.",
-        "EVV captures date, location, service type, people, and start and end times.",
-        "Time and payment records are kept for all personnel, §766.11(h).",
-        "Reconcile EVV against authorizations before billing. Keep an EVV exceptions log."
-      ]
-    },
-    {
-      "id": "SVC-11",
-      "category": "Services",
-      "title": "Change in Client Condition and Emergencies in the Home",
-      "citations": [
-        "C5",
-        "C3",
-        "C6"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Changes in condition, adverse reactions and problems with informal supports or the home must be charted promptly and reported to supervisory staff, §766.5(b)(3).",
-        "An RN evaluates in the home and initiates plan revisions, §766.5(d)(2). Promptly alert the authorized practitioner, §766.3(d)(2).",
-        "Document accidents and incidents, §766.6(a)(8).",
-        "Aides call 911 for life-threatening emergencies, then notify the RN. This is agency procedure rather than a named Part 766 rule."
+        "Level II aides may prompt and assist with self-administered medication but may not administer it (18 NYCRR 505.14(a)(5)(ii)(a)(10)).",
+        "The RN documents medications in the plan of care.",
+        "Aides record each assistance. They report missed doses, refusals and adverse reactions to the RN at once.",
+        "Aides never inject, adjust doses, or set up or fill medication organizers beyond what the RN has assessed and the plan permits."
       ]
     },
     {
       "id": "SVC-12",
       "category": "Services",
-      "title": "Discharge, Transfer and Discontinuation of Services",
+      "title": "Scheduling, Missed Visits and Continuity of Care",
+      "covers": [],
       "citations": [
         "C2",
-        "C6"
+        "C5",
+        "C7"
       ],
-      "federal": [
-        "42 CFR 438.404 (MLTC notices)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Start a discharge plan before discharge, §766.2(a)(8).",
-        "Discharge only after notifying the authorized practitioner and consulting the patient and professional staff involved in the plan of care, at least 48 hours before discharge, §766.2(a)(9).",
-        "The discharge summary includes planning, notice to the practitioner, reasons and date, summary of care, status at discharge, remaining needs, self-management ability and referrals, §766.6(a)(10).",
-        "For MLTC members, coordinate with the plan, which holds the authorization and member notice responsibilities."
+        "Schedule the same personnel for the same patient where possible (766.2(a)(3)).",
+        "Deliver services at the planned times and frequencies (766.5(b)).",
+        "Log every missed or late visit. The scheduler arranges coverage and tells the RN and the client.",
+        "Tell the MLTC plan about repeated missed visits.",
+        "24/7 coverage and the emergency plan keep care going during disruptions (766.9(c), (o))."
       ]
     },
     {
       "id": "SVC-13",
       "category": "Services",
-      "title": "Coordination with Medicaid Programs, MLTC Plans and Payers",
+      "title": "Electronic Visit Verification and Timekeeping",
+      "covers": [],
       "citations": [
-        "C12",
-        "C27",
-        "C34",
-        "C29"
+        "C28",
+        "C9"
       ],
       "federal": [
-        "42 CFR 438 (managed care)"
+        "42 USC 1396b(l)"
       ],
       "state_specifics": [
-        "Medicaid personal care is authorized by the local district or MMCO. The plan must record level, amount, frequency and duration, §505.14(b)(2)(iii); DOH MMC guidance.",
-        "Plans may contract with 1 LHCSA per 100 enrollees downstate or per 60 rest of state, with at least two LHCSAs per county accepting new enrollees. Contract exceptions: LHCSAExceptions@health.ny.gov.",
-        "Get the rate, billing codes and units, authorization process and wage pass-through in writing in each MLTC contract.",
-        "CDPAP: PPL is the Statewide Fiscal Intermediary and LHCSAs no longer serve as CDPAP FIs. Refer patients who want CDPAP to the plan or care manager.",
-        "The district or MMCO decides whether CDPAP, personal emergency response, shared aide or other services are more appropriate, §505.14(b)(2)(iii)(a)."
+        "EVV is required for Medicaid personal care since 1/1/2021. The agency selects its own vendor (choice model); data goes to the NYS EVV Data Aggregator.",
+        "EVV captures date, location, service, people and start and end times.",
+        "Resolve EVV exceptions within the agency's set time. The scheduler documents manual edits with the reason.",
+        "Keep time and payment records (766.11(h))."
       ]
     },
     {
       "id": "SVC-14",
       "category": "Services",
-      "title": "Introduction of New Services and Procedures (QI Committee Review)",
+      "title": "Change in Client Condition and Emergencies in the Home",
+      "covers": [
+        "WS-CR.16"
+      ],
       "citations": [
-        "C2",
-        "C7"
+        "C3",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "Any nursing or therapeutic service, procedure or treatment not previously provided in homes by the agency is first reviewed by the QI committee, §766.2(a)(7).",
-        "If a patient needs it urgently, it may be implemented before QI review if medical consultation on safety and appropriateness was obtained and staff are trained for that specific service.",
-        "Adding services or counties to the license is a separate DOH amendment (see GOV-02)."
+        "Aides report changes right away to the RN. Call 911 first in a life-threatening emergency.",
+        "The RN promptly alerts the authorized practitioner and affected providers (766.3(d)(2)) and documents it.",
+        "The RN makes an in-home visit to evaluate and revise the plan after a change (766.5(d)(2)).",
+        "Complete an incident report if the event involves injury or harm (see SAF-02)."
+      ]
+    },
+    {
+      "id": "SVC-15",
+      "category": "Services",
+      "title": "Discharge Planning, Transfer and Discontinuation of Services",
+      "covers": [
+        "WS-DIS.1",
+        "WS-DIS.2",
+        "WS-DIS.3",
+        "WS-DIS.4",
+        "WS-DIS.5"
+      ],
+      "citations": [
+        "C2",
+        "C6",
+        "C1"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Start the discharge plan before discharge (766.2(a)(8)). Aim for a safe, timely and appropriate discharge or transfer.",
+        "Notify the authorized practitioner at least 48 hours before discharge (766.2(a)(9)).",
+        "Consult the patient or caregiver and other professional staff about the discharge plan.",
+        "Write a discharge summary for the clinical record (766.6(a)(10)).",
+        "For Medicaid clients, notify the MLTC plan or district."
+      ]
+    },
+    {
+      "id": "SVC-16",
+      "category": "Services",
+      "title": "Palliative Care and Life-Limiting Illness",
+      "covers": [
+        "WS-PAL.1",
+        "WS-PAL.2",
+        "WS-PAL.3"
+      ],
+      "citations": [
+        "C3",
+        "C1"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Give patients with life-limiting conditions access to information and counseling.",
+        "Give access to palliative care consultation and services, including pain management, by referral.",
+        "Identify palliative care needs in the plan of care.",
+        "For patients who lack capacity, a legally authorized representative or health care proxy receives the information and decides (766.1(c))."
+      ]
+    },
+    {
+      "id": "SVC-17",
+      "category": "Services",
+      "title": "Coordination with Medicaid Programs, MLTC Plans and Payers",
+      "covers": [],
+      "citations": [
+        "C27",
+        "C34",
+        "C12",
+        "C29",
+        "C20",
+        "C21"
+      ],
+      "federal": [
+        "42 USC 1396b(l)"
+      ],
+      "state_specifics": [
+        "MLTC plans authorize services, so the plan of care must match the authorization.",
+        "Plans may contract with 1 LHCSA per 100 enrollees downstate or per 60 rest of state. Exceptions: LHCSAExceptions@health.ny.gov.",
+        "CDPAP is handled by the Statewide Fiscal Intermediary, not the LHCSA.",
+        "Get rates, wage pass-through and billing terms in writing in each plan contract.",
+        "Medicaid-funded care downstate must meet wage parity (PHL §3614-c)."
       ]
     },
     {
       "id": "SAF-01",
       "category": "Safety and Protection",
       "title": "Abuse, Neglect and Exploitation Prevention and Reporting",
+      "covers": [],
       "citations": [
         "C1",
-        "C6",
-        "C7",
+        "C9",
         "C15"
       ],
-      "federal": [
-        "42 CFR 455.12-455.23",
-        "45 CFR 164.512(c)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "No section of Part 766 was located that prescribes an abuse-reporting procedure or deadline for LHCSAs. The policy is agency-adopted under §766.9(b), (d).",
-        "Pre-hire protections: a criminal history record check (§402.6), Home Care Registry check and reference verification (§766.11(f)).",
-        "Patients may complain without reprisal and are told how to reach DOH, §766.1(a)(8)-(9).",
-        "Document allegations and incidents in the record, §766.6(a)(8).",
-        "Before finalizing, have counsel confirm any NY mandated-reporter duties and the Adult Protective Services referral process. These were not verified here."
+        "Patients have the right to be free from mistreatment and to be treated with dignity (766.1(a)(10)).",
+        "All staff report suspected abuse, neglect or exploitation to the RN director at once. Call 911 if the client is in immediate danger.",
+        "The RN director reports to Adult Protective Services and law enforcement as required. Add the specific statutory reporting citations after counsel review.",
+        "Prohibit retaliation. Run the criminal history check and Registry check before hire.",
+        "Document in the incident record and the QI report."
       ]
     },
     {
       "id": "SAF-02",
       "category": "Safety and Protection",
-      "title": "Incident and Accident Reporting",
+      "title": "Incident Reporting",
+      "covers": [
+        "WS-CR.13"
+      ],
       "citations": [
         "C6",
         "C7",
-        "C5"
+        "C10"
       ],
       "federal": [],
       "state_specifics": [
-        "Document accidents and incidents in the patient record, §766.6(a)(8). Report changes in condition and problems to supervisory staff, §766.5(b)(3).",
-        "Review incident patterns through the QI committee, §766.9(l).",
-        "Use the 24/7 HPN contacts for DOH alerts, §766.9(o).",
-        "No Part 766 deadline for reporting incidents to DOH was located. Set an agency timeline (e.g., supervisor notice the same day) and confirm any MLTC contract reporting rules."
+        "Record accidents and incidents in the clinical record (766.6(a)(8)).",
+        "Staff report any incident to the RN director immediately, and the director files a written report within the agency's set time.",
+        "Notify the practitioner, family, MLTC plan and DOH as required.",
+        "Send incidents to the QI committee for review."
       ]
     },
     {
       "id": "SAF-03",
       "category": "Safety and Protection",
       "title": "Infection Prevention and Control",
+      "covers": [
+        "WS-IC.1",
+        "WS-IC.2",
+        "WS-IC.3",
+        "WS-IC.4",
+        "WS-IC.5",
+        "WS-IC.6",
+        "WS-IC.7"
+      ],
       "citations": [
-        "C9",
         "C2",
-        "C24"
+        "C9",
+        "C25"
       ],
       "federal": [
-        "29 CFR 1910.1030 (bloodborne pathogens)"
+        "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "Written procedures for storage, cleaning and disinfection of supplies, equipment and appliances, §766.2(a)(5).",
-        "Staff TB assessment and test before employment and annually; written policy on follow-up of positive results, §766.11(d)(4).",
-        "Annual influenza vaccination documentation, or a surgical or procedure mask during flu season for those not vaccinated, §766.11(d)(6) (cross-reference to 10 NYCRR §2.59).",
-        "Measles and rubella immunity records, §766.11(d)(1)-(2). Medical exemption statements are kept in the personnel record, §766.11(d)(3)."
+        "Apply Standard/Universal Precautions with every client.",
+        "Teach handwashing and supply-bag technique to nurses (nursing bag) and aides (aide bag technique).",
+        "Follow written procedures for storage, cleaning and disinfection of supplies and equipment (766.2(a)(5)).",
+        "Report communicable disease as required.",
+        "Occupational exposure control is in SAF-04."
       ]
     },
     {
       "id": "SAF-04",
       "category": "Safety and Protection",
-      "title": "Client Emergency and Disaster Plans",
-      "citations": [
-        "C7",
-        "C5"
+      "title": "HIV and Bloodborne Pathogens Exposure Control",
+      "covers": [
+        "WS-HIV.1",
+        "WS-HIV.2",
+        "WS-HIV.3",
+        "WS-HIV.4",
+        "WS-HIV.5",
+        "WS-HIV.6",
+        "WS-HIV.7",
+        "WS-HIV.8",
+        "WS-HIV.9",
+        "WS-HIV.10",
+        "WS-HIV.11"
       ],
-      "federal": [],
-      "state_specifics": [
-        "Plan for each patient's continued care during emergencies that interfere with service delivery, §766.9(c).",
-        "RN identifies patients with high need for uninterrupted care. Document the emergency contact and plan for each patient in the record.",
-        "Staff are oriented to their responsibilities in the emergency plan, §766.9(c).",
-        "Use HPN alerts and 24/7 contacts to receive DOH emergency communications, §766.9(o)."
-      ]
-    },
-    {
-      "id": "SAF-05",
-      "category": "Safety and Protection",
-      "title": "Agency Emergency Plan and Continuity of Operations",
-      "citations": [
-        "C7",
-        "C10"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Keep a current written emergency plan with procedures to ensure patients' health care needs continue to be met in emergencies that interfere with service delivery, §766.9(c).",
-        "Orient all employees to the plan, §766.9(c).",
-        "Keep records and the office accessible so professional staff can reach patient records, §766.9(f); back up electronic records securely, §766.12(b).",
-        "If the agency closes, arrange for records and notify DOH in writing where they are stored, §766.6(d)."
-      ]
-    },
-    {
-      "id": "SAF-06",
-      "category": "Safety and Protection",
-      "title": "Caregiver Safety in the Home and Workplace Violence",
-      "citations": [
-        "C5",
-        "C9"
-      ],
-      "federal": [
-        "OSHA General Duty Clause, 29 USC 654"
-      ],
-      "state_specifics": [
-        "Supervisory staff review problems with the home environment and informal supports, §766.5(b)(3).",
-        "PPE appropriate to tasks is provided, §766.11(l)(1)(iv).",
-        "No Part 766 section on workplace violence was located. Adopt an agency policy for unsafe homes, aggression and the right to leave and report."
-      ]
-    },
-    {
-      "id": "SAF-07",
-      "category": "Safety and Protection",
-      "title": "Bloodborne Pathogen and Significant-Risk Body Substance Exposure Program",
       "citations": [
         "C9",
         "C25"
@@ -904,524 +1180,2214 @@
         "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "Program required by §766.11(l): protective barriers, safe practices with contaminated equipment, training at hire and yearly, PPE, and monitoring.",
-        "Exposure management procedure: report to a designated person; evaluate and follow up the exposure, including source assessment, counseling and voluntary testing, and medical follow-up for the exposed person, §766.11(l)(2).",
-        "Disclosure of source HIV status needs express written consent or court order. Keep exposure reports confidential, §766.11(l)(2)(ii)(b), (iii)."
+        "Program covers barriers, training at hire and yearly, PPE, monitoring and an exposure-management procedure (766.11(l)).",
+        "Designate a person to receive exposure reports. Investigate every exposure.",
+        "Offer post-exposure testing, counseling and appropriate medical follow-up.",
+        "Keep HIV information confidential and disclose it only as law allows.",
+        "Monitor the prevention program. Definitions in 10 NYCRR 63.1/63.9 were not fetched, so confirm them."
+      ]
+    },
+    {
+      "id": "SAF-05",
+      "category": "Safety and Protection",
+      "title": "Emergency Preparedness Plan, Patient Roster and Classification Levels",
+      "covers": [
+        "WS-EP.1",
+        "WS-EP.2",
+        "WS-EP.13",
+        "WS-EP.15",
+        "WS-EP.16"
+      ],
+      "citations": [
+        "C7",
+        "C35"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a current written emergency plan and orient every employee to it (766.9(c)).",
+        "Address each type of emergency that could affect care (severe weather, power loss, pandemic, loss of facility).",
+        "Keep a patient roster: name, address, phone, emergency contact and health care proxy, classification level, Transportation Assistance Level, and ventilator or electricity dependence.",
+        "Assign each patient a classification level and Transportation Assistance Level at admission and review them at reassessment.",
+        "Verify patient contact information on a set schedule."
+      ]
+    },
+    {
+      "id": "SAF-06",
+      "category": "Safety and Protection",
+      "title": "Emergency Communications, Call-Down, Community Partners, Drills and Staff Training",
+      "covers": [
+        "WS-EP.3",
+        "WS-EP.4",
+        "WS-EP.5",
+        "WS-EP.6",
+        "WS-EP.7",
+        "WS-EP.8",
+        "WS-EP.9",
+        "WS-EP.10",
+        "WS-EP.11",
+        "WS-EP.12",
+        "WS-EP.14"
+      ],
+      "citations": [
+        "C7",
+        "C30"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Keep a staff call-down list and update it on a set schedule.",
+        "Have an alternate communication method if phones or internet are down.",
+        "Keep a contact list of the local health department, emergency management, EMS and law enforcement. Say how the agency answers their requests for information.",
+        "Take part in agency or community drills and exercises. Respond to DOH home care emergency response surveys through HCS.",
+        "Train staff on the plan at orientation and yearly, and after any revision. Staff know what to do when a patient refuses mandatory evacuation."
+      ]
+    },
+    {
+      "id": "SAF-07",
+      "category": "Safety and Protection",
+      "title": "Caregiver Safety in the Home and Workplace Violence",
+      "covers": [],
+      "citations": [
+        "C9",
+        "C5"
+      ],
+      "federal": [
+        "OSHA General Duty Clause (29 USC 654)"
+      ],
+      "state_specifics": [
+        "The RN checks the home environment at assessment and reports unsafe conditions (766.5(b)).",
+        "Staff may leave an unsafe situation and must report it to the RN director.",
+        "Provide training on violence prevention, ergonomics, and safe lifting and transfers.",
+        "Staff carry agency ID (766.2(a)(4))."
       ]
     },
     {
       "id": "SAF-08",
       "category": "Safety and Protection",
-      "title": "Errands, Escort and Client Transportation",
+      "title": "Transporting Clients",
+      "covers": [],
       "citations": [
-        "C12"
+        "C2",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "Level I includes shopping if no other arrangements are possible and essential errands, §505.14(a)(5)(i)(a)(6),(8). Level II includes walking within and outside the home, §505.14(a)(5)(ii)(a)(5).",
-        "No Part 766 rule on driving patients was located. If aides drive, the agency sets vehicle, insurance, license and mileage-reimbursement standards (agency policy).",
-        "Escort and errands are performed only as listed in the authorized plan of care."
+        "Aides transport clients only if the plan of care authorizes it.",
+        "Use a valid license, insurance and a safe vehicle, with seatbelts and child/adaptive restraints.",
+        "Aides do not transport clients in their own vehicles unless the agency's insurance covers it.",
+        "Report accidents as incidents (SAF-02).",
+        "Mileage reimbursement follows wage policy."
       ]
     },
     {
       "id": "PER-01",
       "category": "Personnel",
-      "title": "Caregiver Qualifications, Training Credentials and Certification",
+      "title": "Personnel Policies, Qualifications, Job Descriptions and Performance Evaluations",
+      "covers": [
+        "WS-PERS.1",
+        "WS-PERS.2",
+        "WS-PERS.4",
+        "WS-PERS.5",
+        "WS-PERS.6",
+        "WS-PERS.7",
+        "WS-PERS.8"
+      ],
       "citations": [
         "C9",
-        "C11",
-        "C13",
-        "C32"
+        "C11"
       ],
       "federal": [],
       "state_specifics": [
-        "Aides must meet the §700.2 qualifications, §766.11(b)(1).",
-        "Medicaid personal care aides need a DOH-approved HHA program or the 40-hour PCA basic training, completed within 3 months of hire and before service per the research checklist, §505.14(e).",
-        "Before assigning, review the training source and the Home Care Registry aide profile (DAL DHCBS 20-05).",
-        "HHAs need an approved basic program or equivalency exam. A written job description with education and experience is required for each position, §766.11(j).",
-        "Staff are assigned by licensure, training and demonstrated skills, §766.5(b)(2)."
+        "Review personnel policies at least annually (766.11(a)).",
+        "Verify identity before hire. Verify employment history and references before patient contact. Verify licenses and credentials (766.11(e)-(f)).",
+        "Obtain a signed and dated application. Keep a written job description for each position (766.11(j)).",
+        "Do an annual performance assessment that includes at least one in-home observation visit where applicable (766.11(k)).",
+        "Employ at least one RN. All staff must be qualified for their assigned duties."
       ]
     },
     {
       "id": "PER-02",
       "category": "Personnel",
-      "title": "Background Checks, Identity and Reference Verification",
+      "title": "Caregiver Qualifications, Training Verification and Certification",
+      "covers": [],
       "citations": [
-        "C9",
-        "C15",
-        "C16"
+        "C11",
+        "C13",
+        "C32",
+        "C17",
+        "C9"
       ],
-      "federal": [
-        "42 USC 1320a-7 (exclusion screening)"
-      ],
+      "federal": [],
       "state_specifics": [
-        "Request a criminal history record check for each prospective employee, §402.6(a); §766.11(f)(2).",
-        "An authorized person signs the DOH form and sends it with two sets of fingerprints within 10 business days of taking the prints, §402.6(b).",
-        "The applicant shows two forms of ID, one government-issued with signature, and at least one with photo, §402.6(c)(1).",
-        "Resubmit within 14 days of notice of rejected prints, §402.6(c)(3). Temporary approval pending results needs the §402.4 supervision, §402.6(d).",
-        "Verify identity before retention, §766.11(e). Before patient contact, verify employment history and references (or recommendations from unrelated persons for those not previously employed), §766.11(f)(1).",
-        "Check the Home Care Registry for the aide's profile. Screen against the OMIG exclusion list (agency practice)."
+        "A personal care aide needs a DOH-approved HHA program or the 40-hour PCA basic training (18 NYCRR 505.14(e)), finished within 3 months of hire per the research summary.",
+        "HHAs complete a basic HHA program or an approved equivalency exam (10 NYCRR 700.2).",
+        "Before assigning an aide, check the training materials against a DOH- or SED-approved program (DAL DHCBS 20-05) and review the Registry aide profile.",
+        "Meet the 766.11(b) qualification requirement.",
+        "Keep the certificate and verification in the personnel record."
       ]
     },
     {
       "id": "PER-03",
       "category": "Personnel",
+      "title": "Home Care Worker Registry",
+      "covers": [
+        "WS-HCR.1",
+        "WS-HCR.2",
+        "WS-HCR.3",
+        "WS-HCR.4",
+        "WS-HCR.5",
+        "WS-HCR.6"
+      ],
+      "citations": [
+        "C16",
+        "C17",
+        "C9",
+        "C31"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Designate at least two individuals to access and enter registry data (Part 403.3(a)).",
+        "For aides trained on or after 9/25/2009, access the Registry before assignment. No services until posted.",
+        "Post employment information within 10 business days of the start date (403.5(a)(6)).",
+        "Update within 10 business days for worker-requested corrections and on termination.",
+        "Keep written policies implementing Part 403 (403.3(b))."
+      ]
+    },
+    {
+      "id": "PER-04",
+      "category": "Personnel",
+      "title": "Criminal History Record Check (CHRC) and Background Checks",
+      "covers": [
+        "WS-CHRC.1",
+        "WS-CHRC.2",
+        "WS-CHRC.3",
+        "WS-CHRC.4",
+        "WS-CHRC.5",
+        "WS-CHRC.6",
+        "WS-CHRC.7",
+        "WS-CHRC.8",
+        "WS-CHRC.9",
+        "WS-CHRC.10",
+        "WS-PERS.3"
+      ],
+      "citations": [
+        "C15",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Request a CHRC for every prospective employee covered by Part 402. Designate authorized persons.",
+        "An authorized person signs the DOH form, and the form and two sets of fingerprints go to DOH within 10 business days of taking the prints.",
+        "The applicant shows two IDs, one government-issued with signature and one with photo. Resubmit within 14 days after rejected prints.",
+        "Temporary approval is allowed pending results, with §402.4 supervision, and the supervision is documented.",
+        "Handle Hold in Abeyance, Pending and Final Determination letters under written procedure. Report terminations to DOH. Keep CHRC records confidential and separate."
+      ]
+    },
+    {
+      "id": "PER-05",
+      "category": "Personnel",
       "title": "Orientation, Competency Evaluation and Annual In-Service Training",
+      "covers": [
+        "WS-OT.1",
+        "WS-OT.2",
+        "WS-OT.3",
+        "WS-OT.4",
+        "WS-OT.5",
+        "WS-OT.6",
+        "WS-OT.7",
+        "WS-PCA.9"
+      ],
       "citations": [
         "C9",
         "C13",
         "C5"
       ],
       "federal": [
-        "29 CFR 1910.1030(g)(2) (bloodborne pathogen training)"
+        "45 CFR 164.530",
+        "29 CFR 1910.1030"
       ],
       "state_specifics": [
-        "All personnel receive orientation to agency policies and procedures, plus in-service education, §766.11(i).",
-        "Minimum in-service per year: HHAs 12 hours, PCAs 6 hours, AHHAs 18 hours (with medication management, infection control and injection safety), §766.11(i)(1)-(3).",
-        "Medicaid personal care adds 3 hours semiannually, §505.14(e) (per the research).",
-        "Bloodborne pathogen training at hire and yearly, §766.11(l)(1)(iii).",
-        "RN demonstrates tasks and gets return demonstration at the initial visit if the aide lacks documented training for them, §766.5(d)(1)."
-      ]
-    },
-    {
-      "id": "PER-04",
-      "category": "Personnel",
-      "title": "Employee Health, Immunization and TB Screening",
-      "citations": [
-        "C9",
-        "C24"
-      ],
-      "federal": [
-        "29 CFR 1910.1030(f) (hepatitis B)",
-        "ADA, 42 USC 12112(d)"
-      ],
-      "state_specifics": [
-        "Health status assessed and documented before patient care duties. No one assumes duties with a health impairment that is a risk to patients or interferes with duties, including habituation or addiction to drugs or alcohol that may alter behavior, §766.11(c).",
-        "Rubella certificate; measles immunity (born on or after 1/1/1957); medical exemption statement if applicable, §766.11(d)(1)-(3).",
-        "TB: initial individual risk assessment, symptom evaluation and TB test (skin test or FDA-approved blood assay) before employment, then annual assessments including education and risk assessment. Written follow-up policy for positive results, §766.11(d)(4).",
-        "Annual health status assessment, §766.11(d)(5).",
-        "Influenza vaccination or mask during influenza season, §766.11(d)(6).",
-        "Health records are kept apart from the personnel file and confidential, §766.11(g)."
-      ]
-    },
-    {
-      "id": "PER-05",
-      "category": "Personnel",
-      "title": "Personnel Records",
-      "citations": [
-        "C9",
-        "C10"
-      ],
-      "federal": [
-        "8 CFR 274a.2 (Form I-9)",
-        "29 CFR 516 (FLSA records)"
-      ],
-      "state_specifics": [
-        "Content: verification of employment history and qualifications, signed and dated application, licenses and registrations, health and physical records (kept separate), performance evaluations, dates of employment and separation, §766.11(g).",
-        "Time and payment records, §766.11(h).",
-        "Retain personnel records 3 years from termination or resignation, §766.12(a)(3)(iii).",
-        "Keep a current listing of all personnel at the principal office and each branch, §766.12(a)(1)(ix), (a)(2)(ii)."
+        "Orientation covers agency policies, HIV and bloodborne pathogen exposure plan, infection control and universal precautions, protective equipment, HIV confidentiality, HIPAA and the emergency plan.",
+        "In-service is at least 6 hours a year for PCAs and 12 for HHAs (766.11(i)).",
+        "Medicaid personal care adds 3 hours semiannually (18 NYCRR 505.14(e), per research summary).",
+        "Bloodborne pathogen training at hire and yearly (766.11(l)).",
+        "Document attendance and a competency check."
       ]
     },
     {
       "id": "PER-06",
       "category": "Personnel",
-      "title": "Wage, Hour and Overtime Compliance",
+      "title": "Employee Health and TB Screening",
+      "covers": [
+        "WS-PH.1",
+        "WS-PH.2",
+        "WS-PH.3",
+        "WS-PH.4"
+      ],
       "citations": [
-        "C21",
-        "C9",
-        "C10"
+        "C9"
       ],
       "federal": [
-        "29 USC 201 et seq. (FLSA)",
-        "29 CFR 552 (home care)",
-        "29 CFR 516 (recordkeeping)"
+        "ADA"
       ],
       "state_specifics": [
-        "Home care aide minimum wage (PHL §3614-f): $19.65 NYC/Long Island/Westchester and $18.65 rest of state from 1/1/2026; $20.00 and $19.00 from 1/1/2027.",
-        "The general NY minimum wage is lower ($17.00/$16.00), but home care aides must be paid the PHL §3614-f minimum (NY DOL).",
-        "Keep time and payment records for all personnel, §766.11(h).",
-        "Overtime and live-in aide pay rules (federal FLSA, 29 CFR 552) apply. State-specific 24-hour/13-hour rules were not verified here; confirm with counsel."
+        "Assess health status before an employee assumes patient care duties (766.11(c)) and annually.",
+        "Obtain a statement that the person is free from impairment (including habituation or addiction to drugs or alcohol) that risks patients or interferes with duties.",
+        "Document rubella immunity, measles immunity if born on or after 1/1/1957, and influenza vaccination status.",
+        "TB risk assessment, symptom evaluation and TB test (skin test or blood assay) before employment and annually.",
+        "Keep health records separate and confidential (766.11(g))."
       ]
     },
     {
       "id": "PER-07",
       "category": "Personnel",
+      "title": "Influenza Vaccination and Mask Requirement",
+      "covers": [
+        "WS-FLU.1",
+        "WS-FLU.2",
+        "WS-FLU.3",
+        "WS-FLU.4"
+      ],
+      "citations": [
+        "C9",
+        "C24"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Influenza season is as determined by the Commissioner.",
+        "Document the vaccination status of all personnel (766.11(d)).",
+        "Unvaccinated personnel with direct patient contact wear a surgical or procedure mask during flu season, with education and supervision.",
+        "The text of 10 NYCRR 2.59 was not fetched. Confirm it before quoting."
+      ]
+    },
+    {
+      "id": "PER-08",
+      "category": "Personnel",
+      "title": "Personnel Records",
+      "covers": [],
+      "citations": [
+        "C9",
+        "C10"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Each file holds verifications, licenses, evaluations, employment dates and time and payment records (766.11(g)-(h)).",
+        "Keep health records separate and confidential.",
+        "Keep personnel records 3 years after separation (766.12(a)(3)).",
+        "Keep a listing of all personnel at the principal office."
+      ]
+    },
+    {
+      "id": "PER-09",
+      "category": "Personnel",
+      "title": "Wage, Hour and Overtime Compliance",
+      "covers": [],
+      "citations": [
+        "C21",
+        "C20"
+      ],
+      "federal": [
+        "FLSA 29 CFR 552"
+      ],
+      "state_specifics": [
+        "Home care aide minimum wage (PHL §3614-f) is $19.65 NYC/Long Island/Westchester and $18.65 rest of state as of 1/1/2026. It rises to $20.00/$19.00 on 1/1/2027.",
+        "Wage parity (PHL §3614-c) applies to Medicaid work in NYC, Nassau, Suffolk and Westchester. The benefit portion is $2.54 NYC or $1.67 elsewhere, with an annual certification and audited statement.",
+        "Keep wage parity records 10 years.",
+        "Pay overtime and travel time as required under FLSA home care rules."
+      ]
+    },
+    {
+      "id": "PER-10",
+      "category": "Personnel",
       "title": "Staff Conduct and Professional Boundaries",
+      "covers": [],
       "citations": [
         "C1",
         "C9"
       ],
       "federal": [],
       "state_specifics": [
-        "All staff must be aware of patient rights and protect and promote them, §766.1(b).",
-        "Patients are treated with consideration, respect and full recognition of dignity and individuality, §766.1(a)(10).",
-        "Keep records confidential and release them only as policy allows, §766.6(e).",
-        "Annual performance assessment covers conduct, §766.11(k).",
-        "Staff conduct standards (gifts, social media, personal relationships) are agency-adopted."
-      ]
-    },
-    {
-      "id": "PER-08",
-      "category": "Personnel",
-      "title": "Caregiver Photo Identification and Badges",
-      "citations": [
-        "C2"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Caregivers in homes display proper and current identification with name, title, current photograph and the name of the agency, §766.2(a)(4).",
-        "The ID is returned to the agency on termination of employment, §766.2(a)(4).",
-        "Replace expired or altered ID promptly. Keep an ID issue and return log."
-      ]
-    },
-    {
-      "id": "PER-09",
-      "category": "Personnel",
-      "title": "Home Care Worker Registry Entry and Maintenance",
-      "citations": [
-        "C16",
-        "C17",
-        "C9",
-        "C32"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Ensure the PHL §3613(3)(a)-(f) information is in the registry, §766.11(b)(2).",
-        "Designate at least two staff to access and enter registry data and give DOH their names and contact information, §403.3(a).",
-        "Update the registry with employment information including start date within 10 business days after the aide begins services, §403.5(a)(6) (as cited in DAL 19-21).",
-        "Aides trained in a state-approved program on or after 9/25/2009 may not provide services until posted in the registry, §403.5.",
-        "Keep a written Part 403 policy, §403.3(b). Check the registry aide profile at hire (DAL DHCBS 20-05)."
-      ]
-    },
-    {
-      "id": "PER-10",
-      "category": "Personnel",
-      "title": "Job Descriptions and Annual Performance Evaluation",
-      "citations": [
-        "C9",
-        "C5"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Current written job description for each position stating responsibilities and education/experience requirements, §766.11(j).",
-        "Annual assessment of the performance and effectiveness of all personnel, including at least one in-home visit to observe performance where applicable, §766.11(k).",
-        "Keep evaluations in the personnel record, §766.11(g)."
-      ]
-    },
-    {
-      "id": "PER-11",
-      "category": "Personnel",
-      "title": "Home Care Aide Minimum Wage and Wage Parity (Downstate Medicaid)",
-      "citations": [
-        "C21",
-        "C20",
-        "C10"
-      ],
-      "federal": [
-        "29 CFR 552"
-      ],
-      "state_specifics": [
-        "Home care aide minimum wage, PHL §3614-f: $19.65 (NYC, Long Island, Westchester) / $18.65 (rest of state) in 2026; $20.00 / $19.00 from 1/1/2027. It applies to all payers.",
-        "Wage parity, PHL §3614-c: for Medicaid work in NYC, Nassau, Suffolk and Westchester, add a benefit portion of $2.54 (NYC) or $1.67 (Nassau/Suffolk/Westchester). Total compensation in 2026: $22.19 (NYC) / $21.32 (Nassau/Suffolk/Westchester).",
-        "File an annual certification with an independently audited statement. Keep records 10 years.",
-        "Check each January whether MLTC contracts pass the wage increase through."
+        "Treat clients with respect and dignity (766.1(a)(10)).",
+        "Keep client information confidential.",
+        "Staff may not accept gifts, loans or financial involvement with clients.",
+        "Staff do not use client phones, cars or property, and keep personal relationships with clients professional.",
+        "Violations lead to discipline and may be reported."
       ]
     },
     {
       "id": "REC-01",
       "category": "Records",
-      "title": "Patient Records and Retention",
+      "title": "Patient Care Clinical Record",
+      "covers": [
+        "WS-CR.1",
+        "WS-CR.2",
+        "WS-CR.3",
+        "WS-CR.4",
+        "WS-CR.5",
+        "WS-CR.6",
+        "WS-CR.7",
+        "WS-CR.8",
+        "WS-CR.9",
+        "WS-CR.10",
+        "WS-CR.11",
+        "WS-CR.12",
+        "WS-CR.13",
+        "WS-CR.14",
+        "WS-CR.15",
+        "WS-CR.16"
+      ],
       "citations": [
         "C6",
-        "C10"
+        "C10",
+        "C1"
       ],
       "federal": [
-        "45 CFR 164.316(b)(2) (6-year documentation retention)"
+        "45 CFR 164.530"
       ],
       "state_specifics": [
-        "Contents, §766.6(a): identifying data; medical orders; nursing assessments; plan of care; signed and dated progress notes after each visit or phone contact; RN supervisory reports; aide observations and activity sheets; accident/incident documentation; rights-receipt documentation; discharge summary.",
-        "Retain at least 6 years after discharge, kept securely and available to DOH, §766.6(b). For minors: 6 years after discharge or 3 years after age 18, whichever is longer, §766.6(c).",
-        "If the agency closes, make effective storage and access arrangements and notify DOH in writing, §766.6(d).",
-        "Written policies safeguard records and govern use, removal and release, §766.6(e). Electronic records must be secure and printable, §766.12(b)."
+        "Each patient has a confidential record (766.6(a)).",
+        "Contents: identifying data, medical orders, nursing assessments, plan of care, signed and dated progress notes, RN supervisory reports, aide observations and activity sheets, accident/incident documentation, rights receipt, discharge summary.",
+        "Notify the practitioner of changes in condition and document it.",
+        "Safeguard records against loss or unauthorized access, and govern use, removal and release (766.6(e)).",
+        "Electronic records must be secure, confidential and printable on request (766.12(b))."
       ]
     },
     {
       "id": "REC-02",
       "category": "Records",
-      "title": "Required Reports to the State",
-      "citations": [
-        "C10",
-        "C19",
-        "C22",
-        "C30",
-        "C7"
+      "title": "Client Records Retention and Agency Closure",
+      "covers": [
+        "WS-CR.17",
+        "WS-CR.18",
+        "WS-CR.19",
+        "WS-CR.20"
       ],
-      "federal": [],
+      "citations": [
+        "C6",
+        "C10"
+      ],
+      "federal": [
+        "45 CFR 164.530(j)"
+      ],
       "state_specifics": [
-        "Annual statistical summaries of services and reimbursement on DOH forms; annual ownership list (for-profit stockholders; not-for-profit directors/officers), §766.12(c).",
-        "Annual registration (PHL §3605-b). Cost reports when DOH requires them (PHL §3612), within 90 days of notice with a 30-day correction window.",
-        "Weekly HERDS survey with patient census by licensed county: window opens Tuesday 8:00 a.m. and closes Thursday 2:00 p.m.; hcstatrpts@health.ny.gov.",
-        "Wage parity annual certification and audited statement (PHL §3614-c).",
-        "Management contract or franchise proposals to DOH 60 days before effective date, §766.9(m)-(n).",
-        "Failure by a supervising RN to meet the AHHA supervision rules must be reported to DOH, §766.5(g) (only if AHHAs are used)."
+        "Keep patient records at least 6 years after discharge (766.6(b)).",
+        "For minors, keep until 6 years after discharge or 3 years after age 18, whichever is longer (766.6(c)).",
+        "If the agency closes, the governing authority arranges storage and access (766.6(d)).",
+        "Tell DOH in writing where the records are kept."
       ]
     },
     {
       "id": "REC-03",
       "category": "Records",
-      "title": "Agency Records on File, Branch Offices and Retention Schedule",
+      "title": "Agency Records and Reports Retention",
+      "covers": [
+        "WS-REC.1",
+        "WS-REC.2",
+        "WS-REC.3",
+        "WS-REC.4"
+      ],
       "citations": [
         "C10",
-        "C6"
+        "C7"
       ],
       "federal": [],
       "state_specifics": [
-        "At the principal NYS office: license; certificate of incorporation or partnership agreement; assumed-name certificate; patient-care contracts; governing-authority and QA bylaws; current operating policies; current patient roster; list of all personnel, §766.12(a)(1).",
-        "At each branch: policies, personnel list and the patient roster with patient records, §766.12(a)(2).",
-        "Minimum retention: governing-authority and committee minutes 3 years from meeting; patient-care financial records 3 years; personnel records 3 years from separation; complaint records 3 years from resolution; patient care records per §766.6, §766.12(a)(3).",
-        "Hard copy or electronic. Electronic records must be secure, confidential and immediately available as hard copy to the agency and DOH, §766.12(b)."
+        "Keep at the principal office: license, certificate of incorporation or articles, partnership agreement, assumed-name certificate, patient-care contracts, governing-authority and QA bylaws, current policies, current patient roster, personnel list (766.12(a)(1)).",
+        "Keep governing authority and committee minutes, patient-care financial records, complaints/grievances and personnel records at least 3 years (see retention rules in 766.12(a)(3)).",
+        "Records may be hard copy or electronic, secured, and available to DOH on request.",
+        "Each year give DOH statistical summaries, plus ownership, shareholder, director and officer lists, and any SEC documents, if applicable (766.12(c))."
+      ]
+    },
+    {
+      "id": "REC-04",
+      "category": "Records",
+      "title": "Required Reports to the State",
+      "covers": [
+        "WS-GA.6"
+      ],
+      "citations": [
+        "C10",
+        "C19",
+        "C22",
+        "C30",
+        "C20"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Submit all records and reports DOH requires promptly (766.12(a)).",
+        "Weekly HERDS survey with census by licensed county: opens Tuesday 8:00 a.m., closes Thursday 2:00 p.m. (hcstatrpts@health.ny.gov).",
+        "Annual registration (PHL §3605-b). Cost reports when DOH requires them (PHL §3612).",
+        "Annual wage parity certification and audited statement if downstate Medicaid work applies.",
+        "Annual statistical and ownership reports (766.12(c))."
       ]
     }
   ],
   "forms": [
     {
-      "name": "Patient Rights Notice and Acknowledgment",
-      "purpose": "Written rights given before care begins, signed and filed in the record; includes DOH complaint contact.",
+      "name": "Patient Bill of Rights and Acknowledgment of Receipt",
+      "purpose": "Written and verbal notice of rights, signed and filed in the clinical record; includes DOH complaint hotline",
       "policy_ids": [
         "CR-01",
-        "CR-02"
+        "CR-03",
+        "REC-01"
       ]
     },
     {
-      "name": "Statement of Services, Charges and Payer Disclosure",
-      "purpose": "Available services, charges, expected third-party payment and patient liability, given orally and in writing; change notice within 30 days.",
-      "policy_ids": [
-        "CR-06",
-        "GOV-02"
-      ]
-    },
-    {
-      "name": "Complaint Log",
-      "purpose": "Dates received and resolved for every complaint.",
+      "name": "Statement of Services, Charges and Payer Responsibility",
+      "purpose": "Services, charges, third-party payments and patient liability; change notices within 30 days",
       "policy_ids": [
         "CR-02",
-        "GOV-04"
+        "SVC-02"
       ]
     },
     {
-      "name": "Complaint Response and Appeal Letters",
-      "purpose": "Written response within 15 days, appeal rights, and the governing-authority appeal review within 30 days.",
-      "policy_ids": [
-        "CR-02"
-      ]
-    },
-    {
-      "name": "RN Intake Assessment and Acceptance Determination",
-      "purpose": "RN determination that the agency can safely meet the patient's needs, per written admission criteria.",
+      "name": "Admission Packet / Start-of-Care Agreement and Informed Consent",
+      "purpose": "Admission criteria check, consent, rights, charges, privacy notice",
       "policy_ids": [
         "SVC-02",
-        "SVC-06"
+        "CR-02",
+        "CR-04"
       ]
     },
     {
-      "name": "Medicaid Authorization Verification Checklist",
-      "purpose": "Confirms independent assessment, practitioner order, minimum-needs finding, plan authorization and Level I/II or 24-hour status.",
+      "name": "RN Initial Assessment and Reassessment",
+      "purpose": "Assessment before acceptance and at least every 6 months",
       "policy_ids": [
-        "SVC-03",
         "SVC-04",
         "SVC-05",
-        "SVC-13"
+        "SVC-06"
       ]
     },
     {
-      "name": "Plan of Care (with 6-month review)",
-      "purpose": "Individualized plan with services, frequency, medications, diet and limitations; documented reviews.",
+      "name": "Plan of Care",
+      "purpose": "Diagnosis, prognosis, services, frequency, medications, treatments, diet, limitations, palliative needs",
       "policy_ids": [
         "SVC-06"
       ]
     },
     {
-      "name": "Aide Task Sheet / Activity Record",
-      "purpose": "Aide's daily record of tasks and observations reported to the RN.",
+      "name": "Aide Care Plan",
+      "purpose": "Task list for the aide from the plan of care",
       "policy_ids": [
-        "SVC-01",
-        "SVC-07",
-        "SVC-10"
+        "SVC-08",
+        "SVC-01"
       ]
     },
     {
-      "name": "RN Supervisory Visit Report",
-      "purpose": "Report of each supervisory visit, showing aide present, findings and actions; frequency per plan or contract.",
+      "name": "Aide Activity Sheet",
+      "purpose": "Task and visit documentation by the aide",
+      "policy_ids": [
+        "SVC-08",
+        "REC-01"
+      ]
+    },
+    {
+      "name": "Authorized Practitioner Order and Authentication Log",
+      "purpose": "Initial, changed and verbal orders; authentication within 12 months",
       "policy_ids": [
         "SVC-07"
       ]
     },
     {
-      "name": "Change-in-Condition Report",
-      "purpose": "Aide or RN report of changes, adverse reactions and home/informal-support problems, with practitioner notification.",
+      "name": "RN Supervisory Visit Report",
+      "purpose": "Documents in-home supervision at the required frequency",
       "policy_ids": [
-        "SVC-11",
-        "SVC-06"
+        "SVC-10",
+        "SVC-09"
+      ]
+    },
+    {
+      "name": "Complaint Log and Written Response / Appeal Form",
+      "purpose": "Receipt, investigation, 15-day response, 30-day appeal",
+      "policy_ids": [
+        "CR-03"
       ]
     },
     {
       "name": "Incident / Accident Report",
-      "purpose": "Documentation of accidents and incidents in the patient record, with QI review.",
+      "purpose": "Incident documentation for the clinical record and QI",
       "policy_ids": [
         "SAF-02",
-        "SAF-01"
+        "SVC-14"
       ]
     },
     {
-      "name": "Discharge Plan, 48-Hour Notice and Discharge Summary",
-      "purpose": "Discharge planning, practitioner notice, and summary elements.",
+      "name": "QI Committee Minutes and Written Summary to Governing Authority",
+      "purpose": "Quarterly review of policies, records and complaints",
+      "policy_ids": [
+        "GOV-04"
+      ]
+    },
+    {
+      "name": "Discharge Plan, 48-Hour Practitioner Notice and Discharge Summary",
+      "purpose": "Safe discharge and transfer",
+      "policy_ids": [
+        "SVC-15"
+      ]
+    },
+    {
+      "name": "Missed Visit and Coverage Log",
+      "purpose": "Track missed visits and replacement coverage",
       "policy_ids": [
         "SVC-12"
       ]
     },
     {
-      "name": "Missed Visit and Coverage Log",
-      "purpose": "Missed visits, reason, backup coverage and plan notification.",
+      "name": "Medication Assistance Record",
+      "purpose": "Prompting and assistance log",
       "policy_ids": [
-        "SVC-09",
-        "SVC-10"
+        "SVC-11"
       ]
     },
     {
-      "name": "EVV Exception and Reconciliation Log",
-      "purpose": "EVV exceptions, edits and reconciliation to authorizations before billing.",
-      "policy_ids": [
-        "SVC-10",
-        "GOV-05"
-      ]
-    },
-    {
-      "name": "Patient Emergency Plan",
-      "purpose": "Per-patient emergency contacts and continuity plan.",
-      "policy_ids": [
-        "SAF-04"
-      ]
-    },
-    {
-      "name": "Agency Emergency Plan and Employee Orientation Record",
-      "purpose": "Written plan and proof that all employees were oriented.",
-      "policy_ids": [
-        "SAF-05"
-      ]
-    },
-    {
-      "name": "HPN Coverage Policy and Directory Update Log",
-      "purpose": "24/7 contact designations, annual review and monthly updates.",
-      "policy_ids": [
-        "GOV-07"
-      ]
-    },
-    {
-      "name": "Exposure Incident Report and Follow-up Record",
-      "purpose": "Reporting and follow-up of bloodborne pathogen exposures; confidential.",
-      "policy_ids": [
-        "SAF-07",
-        "SAF-03"
-      ]
-    },
-    {
-      "name": "Employment Application and Verification Checklist",
-      "purpose": "ID, employment history, references, qualifications and training source, and registry profile check.",
-      "policy_ids": [
-        "PER-01",
-        "PER-02",
-        "PER-05",
-        "PER-09"
-      ]
-    },
-    {
-      "name": "Criminal History Record Check Tracking Form",
-      "purpose": "Tracks DOH form, two fingerprint sets, 10-business-day submission, two IDs, temporary approval supervision and rejected-print resubmission.",
-      "policy_ids": [
-        "PER-02"
-      ]
-    },
-    {
-      "name": "Employee Health Packet",
-      "purpose": "Health assessment, rubella and measles immunity, TB assessment/test and annual follow-up, flu vaccine or mask log; stored separately.",
-      "policy_ids": [
-        "PER-04",
-        "SAF-03"
-      ]
-    },
-    {
-      "name": "Home Care Registry Entry Log",
-      "purpose": "Date each aide was entered or updated, start-date update within 10 business days, and designated registry users.",
-      "policy_ids": [
-        "PER-09",
-        "PER-01"
-      ]
-    },
-    {
-      "name": "Orientation and In-Service Attendance Log",
-      "purpose": "Hours per aide against 12/6/18-hour minimums plus Medicaid semiannual hours.",
-      "policy_ids": [
-        "PER-03",
-        "PER-01"
-      ]
-    },
-    {
-      "name": "Job Descriptions and Annual Performance Evaluation (with in-home observation)",
-      "purpose": "Position descriptions and the annual evaluation.",
-      "policy_ids": [
-        "PER-10",
-        "PER-07"
-      ]
-    },
-    {
-      "name": "Caregiver ID Badge Issue and Return Log",
-      "purpose": "Photo ID issued and returned.",
-      "policy_ids": [
-        "PER-08"
-      ]
-    },
-    {
-      "name": "Wage Parity Certification and Audit File",
-      "purpose": "Annual certification and independently audited statement for downstate Medicaid work.",
-      "policy_ids": [
-        "PER-11",
-        "PER-06",
-        "REC-02"
-      ]
-    },
-    {
-      "name": "QI Committee Minutes and Record Review Tool",
-      "purpose": "Quarterly meeting minutes, random sample of current and 3-month discharged records, complaint cases, and written summary to the governing authority.",
-      "policy_ids": [
-        "GOV-04",
-        "GOV-03"
-      ]
-    },
-    {
-      "name": "Management / Franchise Agreement Submission Checklist",
-      "purpose": "60-day advance submission to DOH and retained-control checklist.",
+      "name": "Contract Template Checklist",
+      "purpose": "Required elements of contracts for services",
       "policy_ids": [
         "GOV-06"
       ]
     },
     {
-      "name": "Annual Reports Calendar",
-      "purpose": "Annual registration, statistical summary, ownership list, cost report, HERDS weekly submission.",
+      "name": "HCS Role Assignment and Directory Update Log",
+      "purpose": "HCS roles, 24/7 contact, monthly directory update",
       "policy_ids": [
-        "REC-02",
-        "GOV-02",
         "GOV-07"
       ]
     },
     {
-      "name": "Record Retention and Closure Plan",
-      "purpose": "Retention schedule and the plan to store records and notify DOH if the agency closes.",
+      "name": "Change of Ownership / License Amendment Checklist",
+      "purpose": "Approvals and filings",
       "policy_ids": [
-        "REC-01",
-        "REC-03",
+        "GOV-08",
+        "GOV-09"
+      ]
+    },
+    {
+      "name": "Emergency Patient Roster with Classification and Transportation Assistance Levels",
+      "purpose": "Roster for emergencies",
+      "policy_ids": [
         "SAF-05"
       ]
+    },
+    {
+      "name": "Staff Call-Down List and Emergency Drill Record",
+      "purpose": "Staff contact and drill documentation",
+      "policy_ids": [
+        "SAF-06"
+      ]
+    },
+    {
+      "name": "Personnel Application, Verification and Reference Checklist",
+      "purpose": "Identity, history, references, licenses",
+      "policy_ids": [
+        "PER-01",
+        "PER-02"
+      ]
+    },
+    {
+      "name": "Job Descriptions and Annual Performance Evaluation",
+      "purpose": "Per position, with in-home observation",
+      "policy_ids": [
+        "PER-01"
+      ]
+    },
+    {
+      "name": "Home Care Registry Entry and Update Log",
+      "purpose": "Registry access and 10-business-day postings",
+      "policy_ids": [
+        "PER-03"
+      ]
+    },
+    {
+      "name": "CHRC Tracking Log and Temporary Employee Supervision Record",
+      "purpose": "Fingerprint submissions and supervision",
+      "policy_ids": [
+        "PER-04"
+      ]
+    },
+    {
+      "name": "Employee Health Assessment, TB Screening and Immunization Record",
+      "purpose": "Pre-hire and annual health requirements, impairment statement",
+      "policy_ids": [
+        "PER-06"
+      ]
+    },
+    {
+      "name": "Influenza Vaccination / Mask Declination Form",
+      "purpose": "Flu status and masking",
+      "policy_ids": [
+        "PER-07"
+      ]
+    },
+    {
+      "name": "Bloodborne Pathogen Exposure Report and Follow-Up",
+      "purpose": "Exposure investigation and follow-up",
+      "policy_ids": [
+        "SAF-04"
+      ]
+    },
+    {
+      "name": "Orientation Checklist and In-Service Attendance Log",
+      "purpose": "Orientation topics and yearly in-service hours",
+      "policy_ids": [
+        "PER-05"
+      ]
+    },
+    {
+      "name": "Records Retention Schedule",
+      "purpose": "Retention periods and locations",
+      "policy_ids": [
+        "REC-02",
+        "REC-03"
+      ]
+    },
+    {
+      "name": "Annual Reports Calendar (Registration, HERDS, Cost Report, Wage Parity)",
+      "purpose": "Track state reporting deadlines",
+      "policy_ids": [
+        "REC-04",
+        "GOV-02"
+      ]
     }
-  ]
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "LHCSA Applicant Worksheet",
+        "form_number": "None printed on the form (Division of Home and Community Based Services, 'FINAL: December 2016')",
+        "issuer": "NYS Department of Health, Division of Home and Community Based Services",
+        "version": "FINAL: December 2016. This is the version posted on the DOH 'Guidance Documents for LHCSA Applicants' page. I did not find a newer one.",
+        "url": "https://healthweb-back.health.ny.gov/facilities/home_care/docs/lhcsa_applicant_worksheet.pdf",
+        "how_used": "Primary checklist (doc 0). DOH says applicants 'should use this form as a guide to assess the completeness of the Policy and Procedure Manual', and that it 'must be submitted with the Policy and Procedure Manual'. A policy must be submitted for each service requested. The form has no item numbers, so the item_ids below are positional: a section code plus the order of the bullets in the document. Only sections that apply to a personal-care LHCSA are listed. Nursing is included because Review Tool Part A marks it as required for every LHCSA. Personal Care Aide is included. The Home Health Aide, therapy, social work, nutrition, homemaker, housekeeper, physician and medical-supply sections apply only if the agency is approved for those services, so I left them out."
+      },
+      {
+        "title": "NYSDOH LHCSA P & P Review Tool PART A (Initial Review Tool)",
+        "form_number": "Review Tool Part A",
+        "issuer": "NYS Department of Health, Division of Home and Community Based Services",
+        "version": "Revised 1-17-17",
+        "url": "https://healthweb-back.health.ny.gov/facilities/home_care/docs/lhcsa_pp_review_tool_part_a.pdf",
+        "how_used": "Doc 1. This is the DOH initial-review checklist. It sets the minimum list of policies, the per-policy format elements, the per-service job description and P&P requirement, and the program materials that must come with the manual. Items are numbered A-1, A-2, and so on, in the document's order. The document itself has no numbering."
+      },
+      {
+        "title": "NYSDOH LHCSA P & P Manual Review Tool PART B (regulation crosswalk)",
+        "form_number": "Review Tool Part B",
+        "issuer": "NYS Department of Health, Division of Home and Community Based Services",
+        "version": "FINAL: January 2017 (distributed 1-5-17)",
+        "url": "https://www.health.ny.gov/facilities/home_care/docs/lhcsa_pp_review_tool_part_b.pdf",
+        "how_used": "Doc 2. The regional-office surveyor uses this tool. It copies the text of 10 NYCRR Parts 765, 766, 402 and 403 and grades each policy's statement, procedure and overall acceptability. The item_ids use the document's own regulation numbering. Only provisions that require written policies, procedures or plans, or that the agency must address in its policies, are listed. Text is condensed with '…'."
+      },
+      {
+        "title": "Guidance for Developing Policies and Procedures for a Licensed Home Care Services Agency (LHCSA)",
+        "form_number": "None (Attachments A–D)",
+        "issuer": "NYS Department of Health, Office of Primary Care and Health Systems Management, Division of Home and Community Based Services",
+        "version": "FINAL: December 2016",
+        "url": "https://www.health.ny.gov/facilities/home_care/docs/guidance_writing_policy_procedure.pdf",
+        "how_used": "Doc 3. This sets the submission rules and the required format of each policy. Those are summarised in 'notes' and in the G items. Attachment B is the sample index with a regulatory crosswalk. Attachment C lists the materials due before the pre-opening survey."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "WS-PR.1",
+        "text": "Patient Rights policy/procedure – refers to: written and verbal notification of the patient's rights",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.2",
+        "text": "documentation of providing patient rights",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.3",
+        "text": "Advising or informing the patient of: the services the agency provides",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.4",
+        "text": "the cost of the services",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.5",
+        "text": "their responsibility for payment after insurance (third party payers)",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.6",
+        "text": "any changes to services in 30 calendar days from the date of change",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.7",
+        "text": "services, and when and how services are to be provided",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.8",
+        "text": "the right to participate in planning their care",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.9",
+        "text": "the name, title and functions of who will provide services",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.10",
+        "text": "any changes to their plan of care",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.11",
+        "text": "Patient's right to: refuse care and treatment",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.12",
+        "text": "voice complaints and grievances",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.13",
+        "text": "contact the NYS Department of Health to voice complaints and grievances",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.14",
+        "text": "be treated with consideration, respect and dignity",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.15",
+        "text": "privacy, including confidential treatment of his/her patient records",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.16",
+        "text": "refuse the release of their records to any outside agency",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.17",
+        "text": "have a legal representative if the patient lacks capacity",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.18",
+        "text": "The policy provides the: procedure to voice complaints and grievances",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PR.19",
+        "text": "NYS Department of Health complaint hotline number",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.1",
+        "text": "Nursing policy/procedure (required service) – includes: Responsibilities of nursing staff consistent with Nursing Practice standards",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.2",
+        "text": "the need for physician's orders",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.3",
+        "text": "who will provide the nursing services",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.4",
+        "text": "References: scope of practice",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.5",
+        "text": "standards of practice",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.6",
+        "text": "assessments (initial, reassessment)",
+        "cite": "Applicant Worksheet p.1",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.7",
+        "text": "patient/caregiver education",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.8",
+        "text": "medications and treatments",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.9",
+        "text": "supervision of aides",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.10",
+        "text": "coordination of services",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.11",
+        "text": "clinical conferencing",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.12",
+        "text": "clinical documentation",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.13",
+        "text": "the plan of care",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-NUR.14",
+        "text": "discharge planning",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.1",
+        "text": "Personal Care Aide (PCA) policy/procedure – references: the duties and responsibilities of the PCA",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.2",
+        "text": "scope of task",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.3",
+        "text": "the need for a physician's order",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.4",
+        "text": "who will supervise the PCA including frequency",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.5",
+        "text": "orientation to the care plan",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.6",
+        "text": "the aide care plan",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.7",
+        "text": "communication process for changes in patient condition",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.8",
+        "text": "documentation of tasks",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PCA.9",
+        "text": "6 hours of in-service training yearly",
+        "cite": "Applicant Worksheet p.2",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.1",
+        "text": "Admissions policy/procedure – references: admission criteria",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.2",
+        "text": "that patients are accepted without discrimination",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.3",
+        "text": "patient acceptance is based on the agency's ability to provide care consistent with patient's assessed needs",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.4",
+        "text": "patient needs can be met safely and adequately by the agency",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.5",
+        "text": "the notification/explanation of costs, insurance, and expectation of payment",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.6",
+        "text": "written notification of patient rights",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-ADM.7",
+        "text": "informed consent",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-DIS.1",
+        "text": "Discharge Planning policy/procedure – references the: need to initiate discharge planning prior to discharge",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-DIS.2",
+        "text": "need for a safe, timely and appropriate discharge or transfer",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-DIS.3",
+        "text": "notification to the authorized practitioner at least 48 hours prior to discharge",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-DIS.4",
+        "text": "consultation with the patient/caregiver of the discharge plan",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-DIS.5",
+        "text": "consultation with other professional staff of the discharge plan",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.1",
+        "text": "Plan of Care policy/procedure – the plan of care is: based on the RN initial assessment",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.2",
+        "text": "established for each patient",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.3",
+        "text": "based on assessed identified patient's needs",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.4",
+        "text": "reviewed and revised as frequently as necessary to reflect changes in patient condition",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.5",
+        "text": "needed to be reviewed and revised at least every 6 months",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.6",
+        "text": "needed to be documented in the clinical record",
+        "cite": "Applicant Worksheet p.5",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.7",
+        "text": "The plan of care must include: a pertinent diagnosis and prognosis",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.8",
+        "text": "any identified need for palliative care",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.9",
+        "text": "the patient's mental/emotional status",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.10",
+        "text": "the frequency of each service to be provided",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.11",
+        "text": "medications",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.12",
+        "text": "treatments",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.13",
+        "text": "diet regimens",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.14",
+        "text": "functional limitations and rehabilitation potential",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.15",
+        "text": "orders for therapy services including specific procedures and modalities if needed",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-POC.16",
+        "text": "the frequency and duration of all services ordered",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.1",
+        "text": "Medical Orders policy/procedure – states: an order from the patient's authorized practitioner will be obtained for all patients",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.2",
+        "text": "who is an authorized practitioner (medical doctor, doctor of Osteopathy, doctor of Podiatry, licensed midwife or nurse practitioner)",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.3",
+        "text": "orders are to be reviewed and revised as the needs of the patient change",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.4",
+        "text": "the orders will be reviewed and revised at a minimum every 6 months",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.5",
+        "text": "all orders are to reference all diagnoses, medications, treatments, prognoses, need for palliative care, any other pertinent information relevant to the patient's plan of care",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.6",
+        "text": "all orders are to be authenticated by the authorized practitioner within 12 months",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.7",
+        "text": "changes in medical orders, including telephone orders, are to be authenticated by the authorized practitioner within 12 months",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.8",
+        "text": "References: how orders will be obtained",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.9",
+        "text": "discharge planning",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-MO.10",
+        "text": "verbal orders",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.1",
+        "text": "Clinical Supervision policy/procedure – references: the supervision of all services",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.2",
+        "text": "the supervision of paraprofessional staff",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.3",
+        "text": "that the agency shall employ sufficient numbers of supervisory staff to ensure quality patient care services are provided",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.4",
+        "text": "that staff are routinely supervised to ensure care is provided according to the plan of care",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.5",
+        "text": "that supervision will include in-home visits and the frequency of supervisory visits",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.6",
+        "text": "that all staff will be assigned according to their licensure, discipline, training, orientation and demonstrated skills",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.7",
+        "text": "that plans of care must be revised as needed",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CS.8",
+        "text": "clinical consultation, orientation, and training for staff",
+        "cite": "Applicant Worksheet p.6",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-RNS.1",
+        "text": "RN Supervision policy/procedure – states that: the RN supervisor will conduct in-home visits on the initial aide service visit",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-RNS.2",
+        "text": "the supervisor will demonstrate to and instruct the aide in the treatments/services to be provided",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-RNS.3",
+        "text": "the RN supervisor will conduct in-home visits minimally every 6 months",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-RNS.4",
+        "text": "the RN supervisor will conduct in-home visits for a change in patient condition, needs or environment",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-RNS.5",
+        "text": "the supervisor will instruct and review written reports",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-RNS.6",
+        "text": "all supervision will be recorded in writing",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.1",
+        "text": "Patient Care Clinical Record policy/procedure – references: HIPPA [sic]",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.2",
+        "text": "confidentiality",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.3",
+        "text": "Safeguards against loss or unauthorized use",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.4",
+        "text": "use, removal and release of information",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.5",
+        "text": "Part of the patient care record: identifying patient data",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.6",
+        "text": "medical orders",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.7",
+        "text": "nursing assessments",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.8",
+        "text": "plan of care",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.9",
+        "text": "signed/dated progress notes for each visit or phone contact by professional staff",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.10",
+        "text": "supervisory reports",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.11",
+        "text": "observations and reports made to RNs, LPNs, or therapists",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.12",
+        "text": "aide activity sheets",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.13",
+        "text": "documentation of accidents/incidents",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.14",
+        "text": "documentation of the patient's receipt of his/her Bill of Rights",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.15",
+        "text": "discharge planning/discharge summary",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.16",
+        "text": "notification to authorized practitioner of changes in patient condition",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.17",
+        "text": "The policy states that: the record is to be kept for 6 years after discharge",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.18",
+        "text": "the record is to be kept for 6 years if a minor or 3 years after they reach age 18",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.19",
+        "text": "if the agency discontinues operation, records are to be maintained, stored and access available",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CR.20",
+        "text": "DOH will be informed of where the records are kept if the agency discontinues operation",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.1",
+        "text": "Governing Authority (GA) policy/procedure – states that the GA: is responsible for management and operation of the agency",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.2",
+        "text": "will ensure compliance with all applicable Federal, State and local statutes, rules and regulations",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.3",
+        "text": "is responsible for adopting a budget",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.4",
+        "text": "will adopt and approve amendments to written policies regarding management and operation of the agency and all services provided",
+        "cite": "Applicant Worksheet p.7",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.5",
+        "text": "will ensure the development of a written emergency plan",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.6",
+        "text": "will ensure prompt submission of all records and reports required by the DOH",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.7",
+        "text": "will make available to the public: information concerning services offered (agency brochure); geographic area servicing; fees for services; accepted insurances/payments",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.8",
+        "text": "will maintain office facilities of sufficient size to conduct efficient business",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.9",
+        "text": "will employ or contract for sufficient staff to conduct business and ensure quality of care provided",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.10",
+        "text": "will employ a registered nurse to be responsible for direction/supervision of all patient care services and health care activities of the agency",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.11",
+        "text": "will only accept patients whom the agency can provide safe and adequate services",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.12",
+        "text": "will ensure the development and implementation of a patient complaint or grievance procedure",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.13",
+        "text": "will maintain a record of complaints/concerns/grievances",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.14",
+        "text": "will document receipt, investigation and the resolution of complaints",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.15",
+        "text": "will provide a written response to all written complaints and to oral complaints, if requested, within 15 days of investigation findings",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.16",
+        "text": "advise the complainant of the right to appeal",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.17",
+        "text": "will review the appeal and notify the complainant within 30 days of the appeal",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.18",
+        "text": "will be advised of the right to complain to the DOH",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.19",
+        "text": "will establish a quality assessment and improvement program that involves all staff and the plan includes all aspects of care delivered",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.20",
+        "text": "will appoint a Quality Improvement (QI) Committee that includes a consumer",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.21",
+        "text": "will ensure continuous QI activities for all programs and services the agency provides",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.22",
+        "text": "will assure the QI committee will meet at least 4 times a year",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.23",
+        "text": "QI committee's activities are to: establish and oversee standards of care",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.24",
+        "text": "review policies pertaining to health care services",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.25",
+        "text": "conduct clinical record review of current patients",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.26",
+        "text": "conduct clinical record review of discharged patients",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.27",
+        "text": "review all complaints/grievances",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-GA.28",
+        "text": "prepare and submit a written summary of findings to the GA",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PAL.1",
+        "text": "Palliative Care policy/procedure – references: access to information and counseling appropriate to patients with life limiting conditions and illnesses",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PAL.2",
+        "text": "access to palliative care consultation and services including pain management",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PAL.3",
+        "text": "patients who lack capacity to make decisions",
+        "cite": "Applicant Worksheet p.8",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CON.1",
+        "text": "Contracts policy/procedure – the GA or operator is responsible for ensuring that the written contract includes: the services to be provided",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CON.2",
+        "text": "how the services will be supervised and evaluated",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CON.3",
+        "text": "charges and other financial arrangements",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CON.4",
+        "text": "has a 'notwithstanding clause'",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CON.5",
+        "text": "provisions for indemnification between the agency and the contract providers",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CON.6",
+        "text": "that contract staff meet all personnel requirements",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.1",
+        "text": "Health Commerce System (HCS) policy/procedure – states that: the agency is to obtain an HCS account for each agency operated",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.2",
+        "text": "a sufficient number of knowledgeable staff will be available to maintain and keep current the account",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.3",
+        "text": "the system will be accessed daily",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.4",
+        "text": "the agency will have consistent coverage within the agency's hours of operation",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.5",
+        "text": "the agency will have sufficient staff to ensure rapid response to requests for information from the State or local DOH",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.6",
+        "text": "information will be current for the 24/7 Facility Contact and Office of the Administrator",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.7",
+        "text": "the agency's communication directory will be kept current and updated",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCS.8",
+        "text": "the agency will assign the following roles: Administrator; Director, Home Care Patient Services; Emergency Response Coordinator; HCS Coordinator; Criminal History Record Check Authorized Person (if providing aide services); Home Care Registry Agency Updater (if providing aide services); Home Care Registry Agency Viewer (if providing aide services)",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.1",
+        "text": "Emergency Preparedness Plan policy/procedure – the plan addresses: types of emergencies that could impact patient care",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.2",
+        "text": "maintaining a patient roster capturing: patient name, address and telephone number; emergency contact telephone number of family, caregiver and/or Healthcare Proxy; patient classification levels; Transportation Assistance Levels (TALs); identification of patients dependent on ventilator or electricity for health care needs",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.3",
+        "text": "a 'Call Down' list of current staff and how that list will be kept current",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.4",
+        "text": "a procedure for communications if telephone/computer network become unavailable",
+        "cite": "Applicant Worksheet p.9",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.5",
+        "text": "a contact list of community partners including: local health department; local emergency management; emergency medical services; local law enforcement",
+        "cite": "Applicant Worksheet pp.9-10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.6",
+        "text": "a procedure for how the agency will respond to requests for information by community partners",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.7",
+        "text": "a procedure for participation in agency specific or community wide disaster drills and exercises",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.8",
+        "text": "a procedure staff should employ when a patient refuses mandatory evacuation",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.9",
+        "text": "Emergency Preparedness policies address: communications with the DOH through the HCS",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.10",
+        "text": "responding to home care emergency response surveys",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.11",
+        "text": "in-service of staff to the emergency preparedness plan at orientation and yearly (also with any revisions to the plan)",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.12",
+        "text": "emergency response drills",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.13",
+        "text": "a procedure to ensure patient contact information is current",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.14",
+        "text": "alternate communications if telephones/internet unavailable",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.15",
+        "text": "patient classification levels",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-EP.16",
+        "text": "Transportation Assistance Levels",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.1",
+        "text": "Personnel policy/procedure – references: qualifications for all staff",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.2",
+        "text": "verification of credentials",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.3",
+        "text": "background checks of paraprofessional staff",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.4",
+        "text": "employment verification/references (2)",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.5",
+        "text": "personal identification",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.6",
+        "text": "a signed and dated application",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.7",
+        "text": "job descriptions for each position",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PERS.8",
+        "text": "performance evaluations and frequency",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PH.1",
+        "text": "Personnel Health Requirements policy/procedure – references: pre-employment and annual health assessments",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PH.2",
+        "text": "that the health status of all new personnel is assessed and documented prior to assuming patient care duties",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PH.3",
+        "text": "the requirement that a statement asserting that the prospective employee is \"free from impairment which is of potential risk to the patient or might interfere with the performance of his/her duties, including habituation or addiction to depressants, stimulants, narcotics, alcohol or drugs or substance which may alter the individual's behavior\"",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-PH.4",
+        "text": "documentation of the following tests, examinations and immunizations pertaining to: rubella; measles (born on or after January 1, 1957); influenza; tuberculin skin test or blood assay level; annual health assessment",
+        "cite": "Applicant Worksheet p.10",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.1",
+        "text": "Orientation and Training policy/procedure – references training on: agency policy and procedures",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.2",
+        "text": "HIV and blood-borne pathogens exposure plan",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.3",
+        "text": "Infection Control, Universal Precautions, and use of protective equipment",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.4",
+        "text": "HIV confidentiality and disclosure",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.5",
+        "text": "yearly mandatory in-servicing",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.6",
+        "text": "HIPPA [sic]",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-OT.7",
+        "text": "personal care aides must participate in 6 hours of in-service per year (home health aides, if approved: 12 hours)",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-FLU.1",
+        "text": "Influenza Vaccination policy/procedure – references: the influenza season as determined by the Commissioner",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-FLU.2",
+        "text": "the documentation of vaccination status of all personnel",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-FLU.3",
+        "text": "procedures for unvaccinated personnel with direct patient contact including supervision",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-FLU.4",
+        "text": "education and wearing of a surgical/procedure mask for all unvaccinated personnel with direct patient contact",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.1",
+        "text": "HIV / Blood Borne Pathogens policy/procedure – references: implementation and enforcement for the prevention of HIV or other blood borne pathogens transmission",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.2",
+        "text": "Universal Precautions",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.3",
+        "text": "yearly mandatory in-servicing",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.4",
+        "text": "post-exposure testing",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.5",
+        "text": "post-exposure counseling",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.6",
+        "text": "confidentiality",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.7",
+        "text": "personal protective equipment",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.8",
+        "text": "a designated person to be reported to for exposure",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.9",
+        "text": "appropriate medical follow-up for an exposed individual",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.10",
+        "text": "system for monitoring prevention programs",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HIV.11",
+        "text": "investigation of exposure",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.1",
+        "text": "Criminal History Record Check (CHRC) policy/procedure – references: the designation of CHRC authorized persons",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.2",
+        "text": "confidentiality",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.3",
+        "text": "who is subject to a CHRC",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.4",
+        "text": "employee rights including informed consent",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.5",
+        "text": "process for requesting and obtaining fingerprints including timeframes",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.6",
+        "text": "supervision of temporary personnel awaiting determinations",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.7",
+        "text": "documentation of supervision",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.8",
+        "text": "procedures for Hold in Abeyance, Pending or Final Determination letters",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.9",
+        "text": "process for reporting terminations and separations to the Department",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-CHRC.10",
+        "text": "retention, confidentiality, and separation of personnel records",
+        "cite": "Applicant Worksheet p.11",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCR.1",
+        "text": "Home Care Registry (HCR) policy/procedure – includes that: the HCR must be accessed for any worker who began their training on or after September 25, 2009",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCR.2",
+        "text": "a worker may not begin to provide services until the HCR been [sic] accessed",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCR.3",
+        "text": "a worker may not begin to provide services until their information has been posted to the HCR",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCR.4",
+        "text": "the worker's information must be posted with [sic] 10 business days of starting employment with the agency",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCR.5",
+        "text": "the agency must update the registry within 10 business days with any corrections requested by the worker",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-HCR.6",
+        "text": "the agency must update the registry within 10 business days of the worker's termination",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-REC.1",
+        "text": "Records and/or Reports policy/procedure – references: record/report retention including retention time frames; where the records will be retained; what records and reports will be retained",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-REC.2",
+        "text": "records/reports to be retained: license issued by the Department; certificate of incorporation (if applicable); partnership agreement (if applicable); certificate of doing business under an assumed name (if applicable); contracts/agreements related to patient care; rules and bylaws of the governing authority; operating policies and procedures; current patient roster; listing of all personnel",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-REC.3",
+        "text": "Records to be maintained and made available to DOH upon request: governing authority meeting minutes; committee meeting minutes; records of all financial transactions related to patient care; personnel records; patient clinical records; grievances/complaints; all records related to patient care/services which must be retained for 3 years, will be maintained in hard copy or electronic form, and will be secured",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-REC.4",
+        "text": "The agency will make available to the Department annually: statistical summaries; list of stockholders and shareholders of the corporation (if applicable); list of directors, officers and/or corporate members (if applicable); documents related to Securities and Exchange Commission (if applicable)",
+        "cite": "Applicant Worksheet p.12",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.1",
+        "text": "Infection Control policy/procedure – references: Universal Precautions/Standard Precautions",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.2",
+        "text": "a procedure preventing the spread of infection",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.3",
+        "text": "handwashing",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.4",
+        "text": "nursing bag management and technique",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.5",
+        "text": "home health aide bag technique",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.6",
+        "text": "reporting of communicable disease",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-IC.7",
+        "text": "occupational exposure control",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-COO.1",
+        "text": "Change of Ownership policy/procedure – references: what constitutes a change of ownership/transfer of interests/stock/acquisition",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-COO.2",
+        "text": "notification to the Department",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-COO.3",
+        "text": "submission of application to the Department",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-COO.4",
+        "text": "approval by the Public Health and Health Planning Council",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-AMD.1",
+        "text": "Amendment of the License policy/procedure – references: what constitutes an amendment (for example: adding a service or change in location)",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-AMD.2",
+        "text": "notification to and approval by the Department",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "WS-AMD.3",
+        "text": "submitting required materials to the Department as applicable",
+        "cite": "Applicant Worksheet p.13",
+        "doc": 0
+      },
+      {
+        "item_id": "A-1",
+        "text": "Policy and Procedure Manual with Index/Table of Contents: listing of all agency policies, including Policy Name, Policy Number and Initial/Revision Date; Index/TOC cross references corresponding regulations; manual paginated correctly; correct agency name used throughout the manual",
+        "cite": "Review Tool Part A p.4",
+        "doc": 1
+      },
+      {
+        "item_id": "A-2",
+        "text": "A job description and a policy and procedure (P & P) for each service requested and approved by PHHPC. Listed: Nursing (marked 'X' as approved by PHHPC), Home Health Aide, Personal Care Aide, Physical Therapy, Occupational Therapy, Respiratory Therapy, Speech/Language Pathology, Audiology, Medical Social Work, Physician Services, Nutrition, Homemaker, Housekeeper, Medical Supply Equipment/Appliances",
+        "cite": "Review Tool Part A p.4",
+        "doc": 1
+      },
+      {
+        "item_id": "A-3",
+        "text": "At a minimum a policy/procedure for: Patient Rights; Complaint Procedure; Admission; Discharge/Discharge Planning; Plan of Care; Assessment; Medical Orders; Clinical Supervision; Clinical Records",
+        "cite": "Review Tool Part A p.4",
+        "doc": 1
+      },
+      {
+        "item_id": "A-4",
+        "text": "At a minimum a policy/procedure for (continued): Quality Assurance and Quality Improvement Program; Contract Procedure; Health Commerce System; Personnel; Criminal History Record Check (if providing aide services); Home Care Registry (if providing aide services); Infection Control/Blood borne Pathogen; Change of Ownership/Amendment of License; Governing Authority; Emergency Preparedness; Others as applicable",
+        "cite": "Review Tool Part A p.5",
+        "doc": 1
+      },
+      {
+        "item_id": "A-5",
+        "text": "Program materials the agency must have submitted: Emergency Preparedness Plan; Admission packet/Start of Care packet; Agency brochure; Patient 'Bill of Rights'; Clinical record forms (Assessment/Reassessment, Plan of Care, Physician Orders, Aide Activity Sheet (if applicable), 'Aide Care Plan' (if applicable)); Personnel record forms. (Part A also lists the Federal Tax ID number, QI Committee member names and titles, and ALP forms; those are administrative and not policy content.)",
+        "cite": "Review Tool Part A p.5",
+        "doc": 1
+      },
+      {
+        "item_id": "A-6",
+        "text": "Required elements of EACH policy: Agency Name (as on the PHHPC-approved application); Policy number (discretely numbered); Title; Policy Statement/Purpose; Date (policy date and revision date); Page Number (e.g., 1 of 4 pages); Authority (statute, regulation and policy); Application (who or what the policy applies to); Responsible Party (title, position or department including contact information); Terminology (terms unique to the policy defined); Cross reference to other agency policies",
+        "cite": "Review Tool Part A p.2",
+        "doc": 1
+      },
+      {
+        "item_id": "A-7",
+        "text": "Procedure (each policy includes a step-by-step procedure): 1. An overview of the procedure, if appropriate. 2. Identification of any necessary skills and/or materials needed. 3. A logical sequence of steps and sub-steps in the order they should occur. 4. Use of diagrams, illustrations or examples, if appropriate.",
+        "cite": "Review Tool Part A pp.2-3",
+        "doc": 1
+      },
+      {
+        "item_id": "766.1(a)"
+      }
+    ]
+  },
+  "plan_version": 2
 }

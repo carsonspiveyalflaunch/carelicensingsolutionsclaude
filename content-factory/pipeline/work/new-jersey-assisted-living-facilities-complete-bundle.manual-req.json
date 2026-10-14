@@ -517,7 +517,11 @@
     {
       "id": "GOV-01",
       "category": "Governance and Administration",
-      "title": "Organization, Licensee/Governing Body and Administrator Responsibilities",
+      "title": "Organization, Governing Body, Administrator Responsibilities and Organizational Chart",
+      "covers": [
+        "5.7(a)",
+        "5.7(a)1"
+      ],
       "citations": [
         "C1",
         "C23",
@@ -527,19 +531,41 @@
       ],
       "federal": [],
       "state_specifics": [
-        "Manual must include an organizational chart showing lines of authority, responsibility and accountability for administration and resident care (5.7(a)1), and a description of the services the ALR/CPCH/ALP can provide (5.7(a)2).",
-        "Administrator: age 21+, HS diploma/equivalent, and a current NJ nursing home administrator license or NJ assisted living administrator certification. A qualified owner may serve.",
-        "Certification lasts 3 years. Renewal requires 30 CE hours on assisted living topics earned within the certificate period, plus a background check. DOH certification office: 609-633-9706.",
-        "Certificate can be revoked, suspended or restricted for improper practice, including a finding of abuse, neglect or misappropriation (3.5).",
-        "Termination of the administrator must be phoned immediately to the Division at (609) 633-9034 (after hours (609) 392-2020), with written confirmation within 72 hours naming the replacement and his or her qualifications (5.10(a)1).",
-        "DOH Affidavit of Compliance (form AAS-24) lists designation of an administrator and alternate in writing. Designate and document an alternate.",
-        "Which rule subchapters apply: ALR 8:36-1 through 21; CPCH adds Subchapter 22; ALP adds Subchapter 23. Cite the scope subsection of Subchapter 1 after pulling the text."
+        "Organizational chart shows lines of authority, responsibility and accountability for administration and resident care (5.7(a)1).",
+        "Administrator: age 21+, HS diploma or equivalent, and a current NJ nursing home administrator license or NJ assisted living administrator certification. A qualified owner may serve.",
+        "Termination of the administrator is reportable to DOH immediately by phone, with the replacement's name and qualifications and written confirmation within 72 hours (5.10).",
+        "An administrator certificate may be revoked, suspended or restricted after a finding of abuse, neglect or misappropriation (8:36-3.5).",
+        "DOH contacts: CN&L Program (609) 292-6552; Division of Health Facility Survey and Field Operations (800) 792-9770."
       ]
     },
     {
       "id": "GOV-02",
       "category": "Governance and Administration",
-      "title": "Licensure, Posting and Regulatory Compliance",
+      "title": "Description of Services the Facility Is Capable of Providing",
+      "covers": [
+        "5.7(a)2"
+      ],
+      "citations": [
+        "C1",
+        "C7",
+        "C41"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Manual must describe services the ALR/CPCH/ALP can provide: personal care, nursing, pharmacy, dining, activities, recreation and social work (5.1(b)).",
+        "State the license type (ALR: apartment-style housing and congregate dining; CPCH: room and board, units of no more than 2 residents).",
+        "Describe capability for nursing-home-level residents and the retention limits in 5.1(d).",
+        "Describe medication services: supervised self-administration and administration by trained, supervised staff.",
+        "Keep consistent with the admission agreement and any advertising (2.10)."
+      ]
+    },
+    {
+      "id": "GOV-03",
+      "category": "Governance and Administration",
+      "title": "Licensure, Posting, Advertising, Waivers, Surrender of License and Change of Ownership",
+      "covers": [
+        "5.7(a)"
+      ],
       "citations": [
         "C17",
         "C19",
@@ -548,266 +574,1566 @@
         "C22",
         "C25",
         "C16",
-        "C18",
-        "C15",
-        "C30"
+        "C18"
       ],
       "federal": [],
       "state_specifics": [
-        "License precedes admission: no resident may be admitted until the facility holds DOH written approval or a license (2.4(c)). Operating without a license is penalized under N.J.S.A. 26:2H-14 and N.J.A.C. 8:43E-1.",
-        "Only licensed ALRs and CPCHs may advertise or describe themselves as providing assisted living (2.10). Marketing review before release.",
-        "Conspicuously post the notice that required information is available during business hours, including the DOH toll-free hotline, county agency numbers and State LTC Ombudsman number (5.11(a)6). ALPs post at each site and the main office (23.6).",
-        "Fees (nonrefundable): $1,500 + $15/bed for the initial license and each annual renewal; $1,500 biennial inspection fee, charged in the inspection year with that year's annual fee; $1,500 transfer of ownership; $375 relocation. ALP: $1,125 initial and $750 biennial.",
-        "Local zoning, fire, health and building approvals and a certificate of occupancy or certificate of continued occupancy must be on file with the CN&L Program (2.4(b)6). Keep them current.",
-        "Waiver of any rule: written request to the Director of the CN&L Program (2.7). 20% nursing-home-level commitment within 36 months of licensure (2.2).",
-        "Voluntary surrender, revocation, non-renewal or suspension: notify residents, physicians and guarantors at least 30 days ahead and return the license within 7 working days (2.6).",
-        "Transfer of ownership: new owner applies BEFORE the transfer. Required documents are due within 5 working days after closing (5.3).",
-        "Chapter 8:36 was readopted with technical changes (expires 2028), and DOH is developing a major revision. Calendar quarterly rule-status checks. A CPCH deemed-status amendment (PRN 2026-003) is proposed and adoption is unconfirmed.",
-        "Contacts: CN&L Program (609) 292-6552, PO Box 358, Trenton 08625-0358; Division of Health Facility Survey and Field Operations, PO Box 367, Trenton 08625-0358."
-      ]
-    },
-    {
-      "id": "GOV-03",
-      "category": "Governance and Administration",
-      "title": "Policy Review and Document Control",
-      "citations": [
-        "C1",
-        "C2"
-      ],
-      "federal": [],
-      "state_specifics": [
-        "Policy and procedure manual(s) must be reviewed at least annually, and each review documented (5.7(a)).",
-        "Manual must be available in the facility to DOH representatives at all times.",
-        "Resident care policies are reviewed at the intervals specified in the policies, and each review documented (6.1(a)).",
-        "A policy must state how the manuals are made available to residents, guardians, designated responsible individuals, prospective applicants and referring agencies (5.7(b)).",
-        "Keep dated revision history and staff acknowledgment of policy changes."
+        "No admission before written DOH approval or a license; penalties under N.J.S.A. 26:2H-14 and N.J.A.C. 8:43E-1.",
+        "Only licensed ALRs and CPCHs may advertise or offer assisted living services (2.10).",
+        "Fees (nonrefundable): $1,500 + $15 per bed annually; $1,500 biennial inspection; $1,500 transfer of ownership; $375 relocation.",
+        "Waivers: apply in writing to the Director of the CN&L Program (2.7). Surrender: 30 days' notice to residents, physicians and payment guarantors; return license within 7 working days (2.6).",
+        "Ownership transfer: the new owner applies to CN&L before transfer; follow-up documents are due within 5 working days after closing (5.3). Post the 5.11 notice, including the DOH hotline and Ombudsman number."
       ]
     },
     {
       "id": "GOV-04",
       "category": "Governance and Administration",
-      "title": "Quality Assurance and Performance Improvement",
-      "citations": [
-        "C48",
-        "C17",
-        "C7"
+      "title": "Licensure Application Narratives: Design, Neighborhood Integration, Waivers and Nursing-Home-Level Access",
+      "covers": [
+        "2.2(e)4",
+        "2.2(e)5",
+        "2.2(e)6",
+        "2.2(f)"
       ],
-      "federal": [],
+      "citations": [
+        "C17",
+        "C18",
+        "C21"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
       "state_specifics": [
-        "Subchapter 21 of 8:36 requires a quality improvement program. Pull section text (21.1-21.3) to fix required elements and cadence.",
-        "Track and report at least: reportable events, elopements, falls with injury, medication errors, grievances, infections, and discharges.",
-        "Track licensing commitments: 20% nursing-home-level residents within 36 months (2.2), 10% Medicaid-eligible occupancy within 3 years (5.1(h)), and 5% SSI recipients for a CPCH (22.7).",
-        "Report QI results to the governing body at least annually alongside the policy review."
+        "Evaluate any waivers sought under 2.7 (2.2(e)4).",
+        "Describe how the architecture promotes privacy, choice, independence, dignity and a home-like environment (2.2(e)5).",
+        "Describe how the physical plant serves residents with reduced mobility, incontinence and dementia (2.2(e)6).",
+        "If plans are required under 2.3, describe how the location promotes physical integration or social connection with existing services and amenities (2.2(f)).",
+        "Plans go to the DCA Health Care Plan Review Unit before construction; the application includes the Unit's written final release."
       ]
     },
     {
       "id": "GOV-05",
       "category": "Governance and Administration",
-      "title": "Corporate Compliance, Fraud and Billing Integrity",
+      "title": "Policy and Procedure Manual: Annual Review, Availability and Document Control",
+      "covers": [
+        "5.7(a)",
+        "5.7(b)",
+        "23.4"
+      ],
+      "citations": [
+        "C1",
+        "C2",
+        "C30"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Manual is developed, implemented and reviewed at least annually. Each review is documented (name, date, changes).",
+        "Manual is available in the facility to DOH representatives at all times.",
+        "Written procedure for making manuals available to residents, guardians, designated responsible individuals, prospective applicants and referring agencies (5.7(b)).",
+        "Resident care policies (6.1) are reviewed at the intervals the policies specify, and each review is documented.",
+        "ALP: manual available at every ALP site, the provider main office and to DOH (23.4)."
+      ]
+    },
+    {
+      "id": "GOV-06",
+      "category": "Governance and Administration",
+      "title": "Quality Improvement and Performance Review",
+      "covers": [],
+      "citations": [
+        "C48",
+        "C13"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Subchapter 21 sets standards for quality improvement programs. Pull the section-level text before citing 21.1-21.3.",
+        "Track incidents, reportable events, falls, infections, grievances and elopements, and review them at least quarterly.",
+        "Track progress on the 20% nursing-home-level and 10% Medicaid-eligible commitments.",
+        "Document corrective actions after each DOH survey."
+      ]
+    },
+    {
+      "id": "GOV-07",
+      "category": "Governance and Administration",
+      "title": "Corporate Compliance, Fraud and Billing Integrity (NJ FamilyCare / MLTSS)",
+      "covers": [],
       "citations": [
         "C40",
         "C7"
       ],
       "federal": [
         "42 USC 1320a-7b(b)",
-        "31 USC 3729-3733"
+        "31 USC 3729"
       ],
       "state_specifics": [
-        "No 8:36 section governs billing integrity. Requirements come from the MLTSS plan contracts and Medicaid rules, so confirm them in provider agreements.",
-        "Medicaid per diem (SFY2026 base): $91.10 ALR, $81.10 CPCH, $79.10 ALP per NJ FamilyCare beneficiary per day. Tier add-ons depend on yearly average Medicaid census from paid claims against total licensed beds (P.L. 2023, c.80).",
-        "Medicaid does not pay room and board. DMAHS 2026 standards for an ALR resident: room $996.40/month, personal needs maintenance $147.65/month (verify).",
-        "Bill only for services actually delivered per the service plan. Keep claim support in the resident record.",
-        "Whether EVV applies to ALR-based MLTSS services is unconfirmed. Get the answer from each MLTSS plan in writing and document it here.",
-        "Designate a compliance officer, hotline and non-retaliation process."
+        "Bill NJ FamilyCare/MLTSS plans only for services actually delivered and documented in the service plan.",
+        "Medicaid does not pay room and board; resident cost share is billed per the plan and county determination.",
+        "Per diem tier add-ons are measured from yearly paid claims against total licensed beds. Do not budget them until confirmed in writing by DMAHS.",
+        "Designate a compliance contact and keep a hotline or reporting channel with a non-retaliation statement."
       ]
     },
     {
       "id": "RR-01",
       "category": "Resident Rights",
-      "title": "Resident Rights and Responsibilities",
+      "title": "Resident Rights and Responsibilities (Posting and Distribution)",
+      "covers": [
+        "4.1(a)",
+        "4.1(a)37"
+      ],
       "citations": [
         "C3",
+        "C25",
         "C2"
       ],
-      "federal": [],
+      "federal": [
+        "42 CFR 441.301(c)",
+        "42 USC 12101"
+      ],
       "state_specifics": [
-        "Post and distribute the statement of resident rights to all residents of ALRs, CPCHs and ALPs (4.1(a)).",
-        "Rights include confidential treatment of information (#27); 30-day written notice of facility-initiated transfer or discharge except in an emergency (#37); and freedom to complain without threat, punishment, interference, discharge or reprisal (#40).",
-        "Rights also include freedom from chemical and physical restraints and from physical and mental abuse and neglect. The NJ Ombudsman's rights summary confirms these. Verify numbering (#16, #17) against the official 4.1 text before citing items.",
-        "Reproduce the full numbered rights list from the official 4.1(a) text. Only items 27, 37 and 40 were retrieved in this review.",
-        "Distribute copies to each resident and guardian at admission and keep the signed acknowledgment in the record."
+        "Post and distribute the DOH statement of resident rights (4.1(a)) to all residents of the ALR, CPCH or ALP.",
+        "Rights include confidential treatment of information and freedom from chemical and physical restraints and from abuse and neglect.",
+        "Give a copy at admission and document receipt.",
+        "Conspicuously post the 5.11 notice (DOH hotline, county agency numbers, Ombudsman).",
+        "For MLTSS residents, apply HCBS settings protections (privacy, choice, lockable unit door)."
       ]
     },
     {
       "id": "RR-02",
       "category": "Resident Rights",
-      "title": "Grievances and Complaints",
+      "title": "Grievances, Complaints and Ombudsman Access",
+      "covers": [
+        "4.1(a)40"
+      ],
       "citations": [
         "C3",
         "C25",
+        "C42",
         "C1"
       ],
       "federal": [],
       "state_specifics": [
-        "Residents may complain to the administrator and staff, government agencies, and anyone else without fear of interference, discharge or reprisal (4.1(a)40).",
-        "Give each resident, guardian and family member the names, addresses and phone numbers of agencies to complain to, including DOH and the State LTC Ombudsman. Post the same information conspicuously.",
-        "DOH complaint hotline: 1-800-792-9770. State LTC Ombudsman: 1-877-582-6995.",
-        "Set internal timeframes (acknowledge, investigate, respond) in this policy. The rules retrieved do not fix them.",
-        "Keep a grievance log reviewed in QI."
+        "Residents may complain to the administrator, staff, government agencies and anyone else without threat, interference, discharge or reprisal.",
+        "Give each resident, guardian and family member the names, addresses and phone numbers of DOH and the State LTC Ombudsman, and post them conspicuously.",
+        "DOH Complaints Program: 1-800-792-9770. State LTC Ombudsman: 1-877-582-6995.",
+        "Allow Ombudsman access to residents and records as the law provides.",
+        "Log each grievance, investigation, response and outcome."
       ]
     },
     {
       "id": "RR-03",
       "category": "Resident Rights",
-      "title": "Ombudsman Access",
+      "title": "Admission Agreement, Fees, Deposits, Refunds and Notice of Charge Changes",
+      "covers": [
+        "2.2(c)",
+        "2.2(c)1",
+        "2.2(c)2",
+        "2.2(c)3",
+        "2.2(c)4"
+      ],
       "citations": [
-        "C3",
-        "C25",
-        "C42",
-        "C9"
+        "C17",
+        "C7",
+        "C6",
+        "C55",
+        "C5"
       ],
       "federal": [],
       "state_specifics": [
-        "State LTC Ombudsman phone 1-877-582-6995 (5.7(a)4). Post the Ombudsman's phone number with the DOH hotline (5.11(a)6).",
-        "Every 30-day discharge or transfer notice must include the Ombudsman's name, address and phone number (4.1(a)37, 5.14).",
-        "Allow Ombudsman representatives access to residents and records per N.J.S.A. 52:27G (pull statute text before writing visit rules).",
-        "Ombudsman findings of abuse, neglect or misappropriation by a PCA or medication aide feed the DOH registry process (9.1(m), 9.2(i))."
+        "Send the ALR/CPCH admission agreement to the CN&L Program for review at application. It must not violate the chapter, CON conditions or State/Federal law.",
+        "Agreement lists charges for room, board, all levels of service and care, and additional services (6.2; section text to be confirmed).",
+        "Agreement states how and when residents are notified of charge changes and their right to request written justification of an increase.",
+        "Agreement states the right to appeal involuntary discharge (5.14(b)) and the 5.1(d) discharge criteria, how discharge is implemented, which staff take part and the extent of resident participation.",
+        "Agreement states whether the facility retains residents with 5.1(d) characteristics, to what extent and at what added cost (5.1(e)). Counsel reviews deposit and refund terms."
       ]
     },
     {
       "id": "RR-04",
       "category": "Resident Rights",
-      "title": "Admission Agreement, Fees, Deposits and Refunds",
+      "title": "Resident Funds, Personal Needs Allowance and Personal Property",
+      "covers": [],
       "citations": [
-        "C17",
-        "C7",
-        "C5",
-        "C55",
-        "C58"
+        "C56",
+        "C3"
       ],
       "federal": [],
       "state_specifics": [
-        "The admission agreement is reviewed by the CN&L Program at licensure. It must not violate 8:36, CON conditions or State/Federal law (2.2(c)). Resubmit when materially changed.",
-        "The agreement must state whether the facility will or will not retain residents with any 5.1(d) characteristic, to what extent, and at what additional cost (5.1(e)).",
-        "The agreement should contain the fee schedule and the policies for fees, deposits and refunds, and the 20% nursing-home-level statement (2018 text). Confirm 2.2(c)1-4 content against the current code.",
-        "Admission interview must cover policies, business hours, fee schedule, services, resident rights and admission/discharge criteria, with documentation in the record (5.13(a)).",
-        "Full disclosure of costs of services (subchapter 6, 6.2 per older compilation). Verify section text.",
-        "Medicaid residents: Medicaid pays care services, not room and board. Explain the resident's cost share and personal needs allowance in writing."
+        "Written personal needs allowance policy (6.3; confirm section text).",
+        "Resident funds are held only with written consent, kept separate from facility funds, with receipts and a quarterly statement.",
+        "MLTSS residents: DMAHS 2026 figures are room $996.40/month and personal needs $147.65/month (effective 1/1/2026). Verify before billing.",
+        "Inventory of personal property at admission and discharge."
       ]
     },
     {
       "id": "RR-05",
       "category": "Resident Rights",
-      "title": "Resident Funds and Personal Property",
+      "title": "Advance Directives and Resident Choice",
+      "covers": [],
       "citations": [
         "C3",
-        "C56"
+        "C26"
       ],
-      "federal": [],
+      "federal": [
+        "45 CFR 164.502(g)"
+      ],
       "state_specifics": [
-        "Residents may have daily access during specified hours to money and property deposited with the facility, and may delegate that access in writing (rights list #21 per 2017 compilation). Verify numbering.",
-        "Keep a record of each account showing opening and closing balances and all deposits and withdrawals backed by receipts (2018 compilation text). Confirm against the official text.",
-        "A personal needs allowance policy is required (subchapter 6, 6.3 per older compilation). DMAHS 2026 personal needs maintenance for an ALR MLTSS resident is $147.65/month (verify).",
-        "Never co-mingle resident funds with operating funds. Provide statements to the resident or guardian."
+        "Ask about advance directives and health care representatives at admission and record the response.",
+        "Honor valid directives; staff do not witness or draft them.",
+        "Place a copy in the record and give it to EMS or the hospital at transfer.",
+        "Have counsel confirm the NJ advance directive statute text before finalizing."
       ]
     },
     {
       "id": "RR-06",
       "category": "Resident Rights",
-      "title": "Advance Directives",
-      "citations": [],
-      "federal": [],
+      "title": "Privacy, Confidentiality, Release of Records and HIPAA",
+      "covers": [
+        "5.7(a)5"
+      ],
+      "citations": [
+        "C1",
+        "C3"
+      ],
+      "federal": [
+        "45 CFR 164.530",
+        "45 CFR 164.524",
+        "45 CFR 164.520"
+      ],
       "state_specifics": [
-        "No 8:36 section on advance directives was retrieved. Check the rights list in 4.1(a) and the NJ Advance Directives for Health Care Act (N.J.S.A. 26:2H-53 et seq.) and POLST law, which were not verified in this review.",
-        "Ask about advance directives at admission, record them in the chart, and give copies to the hospital on transfer.",
-        "Do not make admission contingent on having or lacking a directive.",
-        "Residents' right to refuse treatment and to participate in decisions is in the rights list. Cross-reference RR-01."
+        "Confidential treatment of resident information is a resident right (4.1(a)27).",
+        "Procedures for examination of records by the resident and other authorized persons.",
+        "Release of records outside the facility only as the resident consents or as required by law or a third-party payor.",
+        "Notice of privacy practices and a designated privacy officer.",
+        "Records are kept secure, and access is limited by role."
       ]
     },
     {
       "id": "RR-07",
       "category": "Resident Rights",
-      "title": "Privacy, Confidentiality and HIPAA",
-      "citations": [
-        "C3",
-        "C1",
-        "C46"
-      ],
-      "federal": [
-        "45 CFR 160",
-        "45 CFR 164"
-      ],
-      "state_specifics": [
-        "Resident information may not be released outside the facility without the resident's approval, unless the resident transfers to another health care facility, or release is required by law, a third-party payment contract or DOH (4.1(a)27).",
-        "Manual must contain procedures for confidentiality, for examination of records by the resident and other authorized persons, and for release outside the facility as consented to or required by law or third-party payor (5.7(a)5).",
-        "Resident Records subchapter 15 includes a confidentiality section (15.3). Pull its text to cite it.",
-        "HIPAA applies because the facility bills Medicaid MLTSS plans electronically. Include Notice of Privacy Practices, minimum necessary, breach notification and business associate agreements."
-      ]
-    },
-    {
-      "id": "RR-08",
-      "category": "Resident Rights",
-      "title": "Nondiscrimination and Language Access",
+      "title": "Nondiscrimination, Language Access and Interpretation Services",
+      "covers": [],
       "citations": [
         "C61",
-        "C5",
         "C3"
       ],
       "federal": [
-        "42 USC 2000d",
-        "45 CFR 92",
-        "42 USC 12182",
-        "42 USC 3604"
+        "Title VI, 42 USC 2000d",
+        "42 USC 12101 (ADA)",
+        "45 CFR 92"
       ],
       "state_specifics": [
-        "Interpretation services is a separate 8:36 section (5.16). Text not retrieved, so pull it before finalizing.",
-        "Denial of admission: written reason, signed by the administrator, within 15 days of a written request after a written application (5.13(d)).",
-        "Title VI and Section 1557 apply as the facility receives Medicaid funds. Post a nondiscrimination notice and provide interpreters and translated key documents.",
-        "ADA Title III and the Fair Housing Act (assisted living apartments are dwellings) cover reasonable accommodations and modifications.",
-        "Document accommodation requests and responses."
+        "Interpretation services are provided as 8:36-5.16 requires (confirm section text).",
+        "Admission decisions are based on the admission criteria and the facility's capability, not on protected status.",
+        "Provide reasonable accommodations and auxiliary aids, and post nondiscrimination and language-assistance notices.",
+        "Document each interpreter use."
       ]
     },
     {
-      "id": "ARD-01",
+      "id": "ADM-01",
       "category": "Admission, Retention and Discharge",
-      "title": "Pre-Admission Screening and Admission Criteria",
+      "title": "Pre-Admission Screening, Admission Interview and Denial of Admission",
+      "covers": [],
       "citations": [
         "C5",
         "C26",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Within 30 days before admission, a physician, APN or PA states in writing that the resident is appropriate for this level of care (7.2(a)).",
+        "The administrator or designee interviews the resident, and family or guardian if the resident agrees, at or before admission. Document the interview in the record (5.13(a)).",
+        "Emergency-contact information is voluntary, and admission cannot be denied for declining it.",
+        "If an applicant's behavior is dangerous to self or others and proper care is not possible, the attending or on-call physician decides on placement. Mental health screening follows N.J.S.A. 30:4-27.1 and N.J.A.C. 10:31.",
+        "A denied applicant who requests it in writing receives a signed written reason within 15 days."
+      ]
+    },
+    {
+      "id": "ADM-02",
+      "category": "Admission, Retention and Discharge",
+      "title": "Nursing-Home-Level Access, Medicaid-Eligible Occupancy and CPCH SSI Commitments",
+      "covers": [
+        "2.2(e)7"
+      ],
+      "citations": [
+        "C17",
+        "C7",
+        "C21",
+        "C29",
+        "C40"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Within 36 months of licensure, at least 20% of residents have nursing-home-level needs, computed on resident days per calendar year.",
+        "ALR/CPCH licensed on or after 9/1/2001: at least 10% Medicaid-eligible occupancy within 3 years, then maintained. Added beds must be 10% Medicaid-occupied. Fewer than 10 beds: reserve at least one.",
+        "The Commissioner may waive or reduce the Medicaid requirement (apply under 2.7).",
+        "CPCH only: at least 5% of residents SSI-eligible each year, at least half of them former psychiatric patients. Report to CN&L by April 15.",
+        "Track the percentages monthly and keep admissions and acuity records for survey."
+      ]
+    },
+    {
+      "id": "ADM-03",
+      "category": "Admission, Retention and Discharge",
+      "title": "Resident Assessment and Reassessment",
+      "covers": [],
+      "citations": [
+        "C26",
+        "C27",
+        "C28"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "An RN does the initial assessment upon admission (7.1(a)).",
+        "If needs are identified, an RN completes the health care assessment within 14 days of admission using the DOH instrument or an equivalent.",
+        "Assessment covers ADLs, cognition, communication/hearing, vision, physical functioning, continence, psychosocial well-being, mood and behavior, and activity patterns.",
+        "Reassess on any change of condition. Confirm the periodic reassessment interval against 7.1(b)-(f) text, which was not retrieved.",
+        "MLTSS: coordinate with the plan care manager on level-of-care and assessment documents."
+      ]
+    },
+    {
+      "id": "ADM-04",
+      "category": "Admission, Retention and Discharge",
+      "title": "Health Service Plan / Care Plan and Managed Risk Agreements",
+      "covers": [],
+      "citations": [
+        "C26",
+        "C27",
+        "C28",
+        "C63"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)"
+      ],
+      "state_specifics": [
+        "A written health service plan is developed from the RN assessment (7.2(e)).",
+        "Each resident has an RN assessment and care plan (8.2).",
+        "Resident and representative take part in planning, and the resident's choices are documented.",
+        "When a resident's choice poses a high probability of risk, seek to negotiate a managed risk agreement (5.18; confirm text).",
+        "Service plan lists the services, the staff responsible and the review dates."
+      ]
+    },
+    {
+      "id": "ADM-05",
+      "category": "Admission, Retention and Discharge",
+      "title": "Retention Limits and Conditions the Facility Cannot Serve",
+      "covers": [
+        "2.2(c)4"
+      ],
+      "citations": [
+        "C7",
+        "C17",
+        "C5"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "A resident may, but need not, be moved if the record documents one of the 8 characteristics in 5.1(d): 24/7 nursing supervision; bedridden over 14 days; totally dependent in 4+ ADLs; severe cognitive decline; stage 3/4 or multiple stage 2 pressure sores; needs more than assistance with transfer; danger to self or others; unstable condition.",
+        "A single stage 2 pressure sore must be retained with a plan of care.",
+        "Residents needing specialized long-term care must be transferred (5.1(f)).",
+        "The admission agreement states retention, extent and added cost (5.1(e)).",
+        "Infirmary transfer requires consent and is generally limited to one week (5.13(e))."
+      ]
+    },
+    {
+      "id": "ADM-06",
+      "category": "Admission, Retention and Discharge",
+      "title": "Involuntary Discharge, Transfer and Relocation Notice",
+      "covers": [
+        "4.1(a)37"
+      ],
+      "citations": [
+        "C6",
+        "C3",
+        "C7",
+        "C20"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written notice from the administrator to the resident and to the family, guardian or designee at least 30 days in advance, stating the reason and the right to appeal. Keep a copy in the record.",
+        "Discharge only on grounds stated in the policies, of which the resident was told in advance.",
+        "Notice includes the Ombudsman's name, address and phone. It goes to the guardian, or to the family with the resident's consent.",
+        "The 30-day notice does not apply to 5.1(d) reasons. Emergency transfer for life safety is allowed without 30 days' notice, and DOH is notified.",
+        "If the license is surrendered, revoked or not renewed, give 30 days' notice to residents, physicians and guarantors (2.6)."
+      ]
+    },
+    {
+      "id": "ADM-07",
+      "category": "Admission, Retention and Discharge",
+      "title": "NJ FamilyCare MLTSS Participation, Per Diem and Room-and-Board Billing",
+      "covers": [],
+      "citations": [
+        "C40",
+        "C7"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)",
+        "42 USC 1396b(l)"
+      ],
+      "state_specifics": [
+        "SFY2026 base per diem: $91.10 ALR, $81.10 CPCH, $79.10 ALP. SFY2027 rates and CMS approval were not checked.",
+        "Tier add-ons by yearly average Medicaid census: $10 at 15% to under 30%; $15 at 30% to under 50%; $30 at 50% to under 70%; $35 at 70% or more.",
+        "Medicaid does not pay room and board. Verify the 2026 DMAHS standards of $996.40 room and $147.65 personal needs.",
+        "MLTSS eligibility: nursing-home level of care, resource and income limits. Refer families to the county agency or a benefits specialist.",
+        "Confirm in writing with DMAHS and each plan whether EVV applies to ALR-based services."
+      ]
+    },
+    {
+      "id": "ALP-01",
+      "category": "Assisted Living Program (ALP) (only if licensed as an ALP)",
+      "title": "Assisted Living Program Contracts, Manual, Notices and Reporting",
+      "covers": [
+        "23.4",
+        "23.2",
+        "2.2(l)2"
+      ],
+      "citations": [
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C17",
+        "C1"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "ALP services are delivered only inside a licensed ALR, CPCH or publicly subsidized housing.",
+        "The ALR/CPCH and the licensed program keep written contracts detailing all policies, procedures and services (23.2). A written contract with the subsidized housing unit goes in the application (2.2(l)1).",
+        "Provider-resident agreement for each site is submitted with the application and addresses 23.3(d) (2.2(l)2).",
+        "Manual follows 5.7 and is available at every ALP site, the main office and to DOH (23.4).",
+        "Post the 23.6 notice at each site and the main office. Notify family or guardian of serious events (23.8). Report events to DOH under 23.17(b)."
+      ]
+    },
+    {
+      "id": "HLT-01",
+      "category": "Health and Care Services",
+      "title": "Resident Care Policies and Procedures Index and Review",
+      "covers": [
+        "6.1(a)"
+      ],
+      "citations": [
+        "C2",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written resident care policies are established, implemented and reviewed at the intervals the policies set. Each review is documented.",
+        "6.1(a) lists items 1-11; only item 8 (smoking control) was retrieved. Pull items 1-7 and 9-11 from the official code and map each to a policy before use.",
+        "Cross-reference each 6.1 item to the policy that covers it.",
+        "Staff sign the policy acknowledgement at orientation and after each revision."
+      ]
+    },
+    {
+      "id": "HLT-02",
+      "category": "Health and Care Services",
+      "title": "Medication Management, Storage, Disposal and Theft Reporting",
+      "covers": [
+        "11.7(l)"
+      ],
+      "citations": [
+        "C11"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "The administrator provides safe storage for medications that are not self-administered (a locked medication cart is acceptable).",
+        "Store per manufacturer or pharmacy directions in original, labeled containers. Label generic substitutes per N.J.A.C. 8:71.",
+        "Needles and syringes: store, use and dispose per N.J.S.A. 26:2H-5.10 et seq., N.J.A.C. 8:43E-7, N.J.A.C. 7:26-3A and 29 CFR 1910.1030, with a purchase, storage and disposal record.",
+        "Controlled dangerous substances follow N.J.S.A. 24:21-1 et seq.",
+        "Report theft of Scheduled or Controlled Substances to the NJ Dept. of Law and Public Safety, Enforcement Bureau of Professional Boards, (973) 648-4742, and/or other authorities with jurisdiction."
+      ]
+    },
+    {
+      "id": "HLT-03",
+      "category": "Health and Care Services",
+      "title": "Medication Administration, Self-Administration and Staff Authorization",
+      "covers": [],
+      "citations": [
+        "C7",
+        "C10"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Supervise self-administration, and have trained, supervised staff administer medications (5.1(c)).",
+        "Certified medication aide: DOH-approved course and exam. Renewal every 2 years with at least 10 CE hours (5 on fundamentals, 5 on drug use in the elderly).",
+        "A finding of abuse, neglect, misappropriation, negligence or incompetence can lead to the medication aide abuse registry. DOH gives at least 30 days to request a hearing.",
+        "Keep the CMA certificate and CE records in the personnel file."
+      ]
+    },
+    {
+      "id": "HLT-04",
+      "category": "Health and Care Services",
+      "title": "Nursing Services, RN Availability and Delegation",
+      "covers": [],
+      "citations": [
+        "C28",
         "C7",
         "C41"
       ],
       "federal": [],
       "state_specifics": [
-        "Within 30 days before admission, a physician, APN or PA states in writing that the resident is appropriate for this level of care (7.2(a)).",
-        "Admission interview with the resident (and family/guardian if the resident agrees) covering the topics in 5.13(a), documented in the record.",
-        "Emergency-contact information is voluntary and cannot be a reason to deny admission (5.13(b)).",
-        "If an applicant is denied after a written application, give the signed written reason within 15 days of a written request (5.13(d)).",
-        "If behavior shows danger to self or others and the facility cannot care for the resident, the physician decides placement and mental health screening starts under N.J.S.A. 30:4-27.1 et seq. and N.J.A.C. 10:31 (5.13(c)).",
-        "Admission criteria must match the CON commitments: 20% nursing-home-level within 36 months, 10% Medicaid-eligible within 3 years. Apply criteria without discriminating by payer in a way that defeats those commitments.",
-        "Do not accept anyone before the license or written DOH approval (2.4(c)). Waitlist only."
+        "At least one RN available at all times, and each resident has an RN assessment and care plan (8.2). Confirm with DOH what 'available' means for coverage and response time.",
+        "Services follow the Nurse Practice Act and N.J.A.C. 13:37. 'Licensed nurse' means an RN or PN licensed under N.J.A.C. 13:37.",
+        "Facility must be capable of nursing services, including for nursing-home-level residents (5.1(d)).",
+        "Define which tasks may be delegated and to whom, with RN supervision."
       ]
     },
     {
-      "id": "ARD-02",
-      "category": "Admission, Retention and Discharge",
-      "title": "Resident Assessment and Reassessment",
+      "id": "HLT-05",
+      "category": "Health and Care Services",
+      "title": "Change of Condition, Physician Notification and Hospital Transfer",
+      "covers": [],
       "citations": [
-        "C27",
+        "C60",
+        "C7",
         "C26",
-        "C28"
+        "C62"
       ],
       "federal": [],
       "state_specifics": [
-        "Upon admission, each resident receives an initial assessment by a registered professional nurse (7.1(a)). DOH surveyors cite missing initial RN assessments.",
-        "If the initial assessment shows health care needs, an RN completes the health care assessment within 14 days of admission, using the DOH instrument or an equivalent (7.2(c)).",
-        "The RN assessment must cover ADLs, cognitive patterns, communication/hearing, vision, physical functioning, continence, psychosocial well-being, mood and behavior, and activity patterns (7.2(d)).",
-        "Reassessment: an HHS compendium reports quarterly and with a change in condition. Confirm the interval in 7.3-7.5 text before publishing.",
-        "The RN must be available at all times (8.2, per research)."
+        "Notify the physician promptly of an acute change; unstable condition is a 5.1(d) retention characteristic.",
+        "Notify family, guardian or designee with the resident's consent (5.15; confirm text).",
+        "Call 911 first for emergencies. Send the face sheet, medication list, directives and contacts with the resident.",
+        "Keep referral and transfer agreements current (5.17; confirm text).",
+        "Document the event and file an incident report if 5.10 applies."
       ]
     },
     {
-      "id": "ARD-03"
+      "id": "HLT-06",
+      "category": "Health and Care Services",
+      "title": "Dementia and Memory Care",
+      "covers": [
+        "19.3(a)"
+      ],
+      "citations": [
+        "C14",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "If the facility advertises or holds itself out as having an Alzheimer's or dementia program, train all licensed and unlicensed direct-care staff in specialized care (N.J.S.A. 26:2M-7.2).",
+        "Copies of the mandatory training program are available in writing from the Division of Health Facility Survey and Field Operations.",
+        "Document curriculum, dates and attendance.",
+        "Severe cognitive decline is a 5.1(d) characteristic. Danger to self or others requires the 5.13(c) process."
+      ]
+    },
+    {
+      "id": "HLT-07",
+      "category": "Health and Care Services",
+      "title": "Falls Prevention and Post-Fall Response",
+      "covers": [],
+      "citations": [
+        "C26",
+        "C7",
+        "C60"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Fall risk is assessed using the physical functioning and cognition domains of the RN assessment (7.2(d)).",
+        "Interventions go into the health service plan.",
+        "Post-fall: assess, notify physician and family as needed, and document.",
+        "Serious injury triggers incident and family notification (5.15; confirm text)."
+      ]
+    },
+    {
+      "id": "HLT-08",
+      "category": "Health and Care Services",
+      "title": "Skin Integrity and Pressure Injury Management",
+      "covers": [],
+      "citations": [
+        "C7",
+        "C26"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Stage 3 or 4, or multiple stage 2, pressure sores are a 5.1(d) characteristic permitting transfer.",
+        "A single stage 2 sore must be retained with a plan of care.",
+        "RN documents the skin assessment at admission and when the condition changes.",
+        "Include turning, positioning and nutrition measures in the service plan."
+      ]
+    },
+    {
+      "id": "HLT-09",
+      "category": "Health and Care Services",
+      "title": "Hospice and Home Health Coordination",
+      "covers": [],
+      "citations": [
+        "C7",
+        "C58",
+        "C62"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written agreements with outside providers (5.9; confirm text).",
+        "Retention of residents with 5.1(d) characteristics must be documented in the record.",
+        "Coordinate the hospice or home health care plan with the facility service plan. Define who gives which care.",
+        "The admission agreement states whether hospice residents are retained and at what cost."
+      ]
+    },
+    {
+      "id": "HLT-10",
+      "category": "Health and Care Services",
+      "title": "Death of a Resident and Prompt Notification",
+      "covers": [
+        "5.7(a)8"
+      ],
+      "citations": [
+        "C1",
+        "C47",
+        "C46"
+      ],
+      "federal": [
+        "45 CFR 164.510(b)"
+      ],
+      "state_specifics": [
+        "Staff responsibilities for prompt notification of a resident's death as required by N.J.S.A. 26:2H-5e and N.J.A.C. 8:36-15.7(a).",
+        "Notify physician, family or designee and others as directed.",
+        "Complete the record of death (15.7). Confirm section text.",
+        "Release of remains and belongings follows the resident's documented wishes and legal requirements."
+      ]
+    },
+    {
+      "id": "HLT-11",
+      "category": "Health and Care Services",
+      "title": "Social Work Services and Respite Care (if offered)",
+      "covers": [],
+      "citations": [
+        "C50",
+        "C52",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Facility must be capable of social work services (5.1(b)). Subchapter 13 sets social worker qualifications and requirements.",
+        "Respite care applies only if offered. Subchapter 20 covers purpose and scope, policies and procedures, and staffing.",
+        "Respite residents get the same assessment, service plan and rights as other residents.",
+        "Pull section-level text before citing subchapters 13 and 20 in the final manual."
+      ]
+    },
+    {
+      "id": "SAF-01",
+      "category": "Safety and Protection",
+      "title": "Abuse, Neglect and Exploitation Prevention and Reporting",
+      "covers": [
+        "5.7(a)4"
+      ],
+      "citations": [
+        "C1",
+        "C42",
+        "C4",
+        "C9",
+        "C10",
+        "C24",
+        "C33"
+      ],
+      "federal": [
+        "45 CFR 164.512(c)"
+      ],
+      "state_specifics": [
+        "Report all alleged and suspected resident abuse or exploitation to the DOH Complaints Program at 1-800-792-9770.",
+        "If the resident is 60 or older, also notify the State LTC Ombudsman at 1-877-582-6995.",
+        "Suspected abuse reported to the Ombudsman is also a reportable event: call DOH (609) 633-9034 immediately, or (609) 392-2020 after hours, with written confirmation within 72 hours.",
+        "Findings of abuse, neglect or misappropriation can lead to the PCA or medication aide abuse registry and to action against an administrator certificate.",
+        "Staff training and non-retaliation protection; apply the 'immediately' standard to every report."
+      ]
+    },
+    {
+      "id": "SAF-02",
+      "category": "Safety and Protection",
+      "title": "Incident, Accident and Reportable Events Reporting",
+      "covers": [
+        "5.10(a)"
+      ],
+      "citations": [
+        "C4",
+        "C32",
+        "C33",
+        "C60"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Notify the Division of Health Facility Survey and Field Operations immediately at (609) 633-9034, or (609) 392-2020 after hours, then confirm in writing within 72 hours.",
+        "Reportable under 5.10: termination of the administrator (with replacement's name and qualifications), any elopements, and suspected abuse or exploitation reported to the Ombudsman.",
+        "ALP also reports reportable infections and diseases under N.J.A.C. 8:57 (23.17(b)).",
+        "With consent, notify family or guardian of serious accidents, criminal acts or incidents causing serious harm, or the resident's arrest. Notify CN&L in writing as well (23.8; ALR counterpart 5.15, confirm).",
+        "Post the numbers and train every shift lead."
+      ]
+    },
+    {
+      "id": "SAF-03",
+      "category": "Safety and Protection",
+      "title": "Elopement and Missing Resident",
+      "covers": [],
+      "citations": [
+        "C4",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Any elopement is reportable to DOH immediately by phone, with written confirmation within 72 hours.",
+        "Missing-resident search procedure, call to 911 and notification of family or guardian.",
+        "Identify residents at risk through the assessment. Include them in the service plan.",
+        "Review the incident and revise the plan afterward."
+      ]
+    },
+    {
+      "id": "SAF-04",
+      "category": "Safety and Protection",
+      "title": "Restraints and Restrictive Practices",
+      "covers": [],
+      "citations": [
+        "C48",
+        "C3"
+      ],
+      "federal": [
+        "42 CFR 441.301(c)(4)"
+      ],
+      "state_specifics": [
+        "Freedom from chemical and physical restraints is a resident right (4.1(a)).",
+        "Subchapter 21 sets standards for the use of restraints. Pull the section text before final.",
+        "Seclusion and punitive restrictions are prohibited.",
+        "Document any permitted use, the physician order, monitoring and alternatives tried."
+      ]
+    },
+    {
+      "id": "SAF-05",
+      "category": "Safety and Protection",
+      "title": "Emergency Preparedness, Disaster Plan and Emergency Medical Services",
+      "covers": [
+        "14.2"
+      ],
+      "citations": [
+        "C43",
+        "C44",
+        "C45",
+        "C18"
+      ],
+      "federal": [
+        "29 CFR 1910.38"
+      ],
+      "state_specifics": [
+        "Written plans for medical emergencies, power failures, fire and natural disasters (14.2). The text was paraphrased from a third-party source, so verify it against the official code.",
+        "Plans are filed with DOH, and DOH is notified of changes.",
+        "Procedures specify who is notified, how notification is verified, equipment and alarm locations, evacuation routes and procedures, re-entry and recovery, fire drill frequency, staff tasks, and medications and records to take.",
+        "Secondary source only: a CPR/Heimlich-trained employee and an AED with a trained employee at all times. Confirm against 14.1."
+      ]
+    },
+    {
+      "id": "SAF-06",
+      "category": "Safety and Protection",
+      "title": "Fire Safety, Evacuation and Drills",
+      "covers": [],
+      "citations": [
+        "C45",
+        "C35",
+        "C44",
+        "C19"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Fire extinguishers comply with NFPA 10 (2002 edition) (16.15).",
+        "Drill frequency and content (14.3): pull the code text before finalizing.",
+        "Local fire approval and a certificate of occupancy or continued occupancy are required for licensure.",
+        "Keep alarm, sprinkler and extinguisher inspection records."
+      ]
+    },
+    {
+      "id": "SAF-07",
+      "category": "Safety and Protection",
+      "title": "Infection Prevention and Control, Immunizations and Resident Needle/Syringe Disposal",
+      "covers": [
+        "18.3(a)",
+        "18.3(a)8"
+      ],
+      "citations": [
+        "C12",
+        "C13",
+        "C11"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Written infection prevention and control policies (18.3(a)); items 1-7 were not retrieved and must be pulled from the code.",
+        "Needles and syringes used by residents in home self-care are disposed of per N.J.S.A. 2C:36-6.1 and N.J.A.C. 8:43E-7 (18.3(a)8).",
+        "Influenza vaccination documented annually, completed by November 30. Residents admitted after that, up to February 1, are vaccinated before or on admission unless they refuse.",
+        "Pneumococcal vaccination for residents 65 and older per ACIP, documented or provided unless refused.",
+        "Exposure control plan under 29 CFR 1910.1030."
+      ]
+    },
+    {
+      "id": "SAF-08",
+      "category": "Safety and Protection",
+      "title": "Smoking Control, Visitors and Pets",
+      "covers": [
+        "6.1(a)8"
+      ],
+      "citations": [
+        "C2",
+        "C36",
+        "C3"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Control of smoking per N.J.S.A. 26:3D-55 et seq. and N.J.A.C. 8:6 (6.1(a)8).",
+        "If pets are allowed, provide safeguards to prevent interference in residents' lives (17.3(b)7). DOH has pet-facilitated therapy guidelines.",
+        "Visitor policy respects resident rights and privacy.",
+        "Post designated smoking areas, if any."
+      ]
+    },
+    {
+      "id": "SAF-09",
+      "category": "Safety and Protection",
+      "title": "Security Policies and Procedures",
+      "covers": [
+        "5.7(a)3"
+      ],
+      "citations": [
+        "C1",
+        "C41"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Written procedures for maintaining security, including entry control, visitor sign-in and key control.",
+        "Each unit has a lockable entrance door (ALR/CPCH).",
+        "Night-time rounds and staff awareness of exits.",
+        "Coordinate with the elopement and emergency policies."
+      ]
+    },
+    {
+      "id": "DL-01",
+      "category": "Daily Living",
+      "title": "Food Service, Dining and Therapeutic Diets",
+      "covers": [],
+      "citations": [
+        "C34",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Nutrients and calories for each resident follow the Food and Nutrition Board Dietary Reference Intake tables, adjusted for age, sex, weight, activity and therapeutic needs (10.5(c)6).",
+        "Subchapter 10 sets dietitian qualifications and a designated food services coordinator.",
+        "Congregate dining is required for an ALR (dining services).",
+        "Therapeutic diets are ordered by a physician and recorded in the service plan."
+      ]
+    },
+    {
+      "id": "DL-02",
+      "category": "Daily Living",
+      "title": "Activities, Social Programming and Social Isolation Prevention",
+      "covers": [],
+      "citations": [
+        "C49",
+        "C64",
+        "C7"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Facility must be capable of activities, recreation and social work services (5.1(b)). Subchapter 12 (12.1) governs resident activities.",
+        "Subchapter 13A (Social Isolation Prevention) is listed in the table of contents. Its text was not retrieved, so pull it before drafting.",
+        "Offer activities matched to resident interests and abilities, including residents with dementia.",
+        "Record participation."
+      ]
+    },
+    {
+      "id": "DL-03",
+      "category": "Daily Living",
+      "title": "Housekeeping, Laundry, Pest Control and Maintenance",
+      "covers": [],
+      "citations": [
+        "C51"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Subchapter 17 (17.1-17.8) covers housekeeping, laundry, pest control, resident environment, waste removal, sanitation, and heating and air conditioning.",
+        "Written housekeeping work plan with trained staff.",
+        "Regulated medical waste and sharps handling.",
+        "Maintain a work-order log."
+      ]
+    },
+    {
+      "id": "DL-04",
+      "category": "Daily Living",
+      "title": "Resident Transportation",
+      "covers": [],
+      "citations": [
+        "C57",
+        "C7"
+      ],
+      "federal": [
+        "42 USC 12101"
+      ],
+      "state_specifics": [
+        "Transportation policy per 5.8 (confirm text).",
+        "Written plan for emergency transport.",
+        "Staff drivers: license, vehicle insurance and training. Wheelchair securement.",
+        "Say in the admission agreement which transportation is included and which costs extra."
+      ]
+    },
+    {
+      "id": "STF-01",
+      "category": "Staffing and Personnel",
+      "title": "Staffing Levels, Supervision and Wage Compliance",
+      "covers": [],
+      "citations": [
+        "C8",
+        "C54",
+        "C39",
+        "C28"
+      ],
+      "federal": [
+        "29 CFR 552"
+      ],
+      "state_specifics": [
+        "At least one awake PCA and one additional employee on the premises at all times (9.3).",
+        "With more than one free-standing building with residents, at least one PCA in each building, and both PCAs awake.",
+        "These levels are minimums only. Staffing must be sufficient in number and training based on an assessment of resident acuity.",
+        "At least one RN available at all times (8.2).",
+        "NJ minimum wage is $15.92/hour from 1/1/2026. Check the 2027 rate when NJDOL publishes it. Overtime and companionship-exemption rules follow FLSA home care rules."
+      ]
+    },
+    {
+      "id": "STF-02",
+      "category": "Staffing and Personnel",
+      "title": "Background Checks, Registries and Staff Certification Verification",
+      "covers": [],
+      "citations": [
+        "C37",
+        "C38",
+        "C9",
+        "C10",
+        "C23"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "PCA certification requires a criminal history background check under N.J.A.C. 8:43I. Certification is valid 2 years, and renewal requires an updated check (N.J.S.A. 26:2H-83 et seq.).",
+        "Administrator certification and recertification also require a background check.",
+        "Check the PCA and medication aide abuse registries before hire.",
+        "Keep proof of certification in the personnel file. Do not schedule anyone before screening is complete."
+      ]
+    },
+    {
+      "id": "STF-03",
+      "category": "Staffing and Personnel",
+      "title": "Hiring, Orientation and Ongoing Training",
+      "covers": [],
+      "citations": [
+        "C9",
+        "C53",
+        "C14",
+        "C10"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "PCA: DOH-approved nurse aide course plus NJ Nurse Aide Certification Exam, or DOH-approved PCA course and competency evaluation.",
+        "Each PCA and direct caregiver receives orientation before or on employment and ongoing in-service on assisted living concepts (9.1).",
+        "Other in-service topics under 5.5 (emergency plans, infection control, rights, abuse and neglect, dementia): confirm against the code.",
+        "Dementia training is required if a dementia program is advertised.",
+        "Document orientation and in-service in the personnel file."
+      ]
+    },
+    {
+      "id": "STF-04",
+      "category": "Staffing and Personnel",
+      "title": "Employee Health, Physical Examinations, Immunizations and Tuberculosis Screening",
+      "covers": [
+        "5.7(a)7"
+      ],
+      "citations": [
+        "C1"
+      ],
+      "federal": [
+        "29 CFR 1910.1030"
+      ],
+      "state_specifics": [
+        "Specify content and frequency of physical examinations, immunizations and tuberculin testing on employment and afterward.",
+        "Applies to employees and to individuals giving direct resident care through contractual arrangements or written agreement.",
+        "Offer hepatitis B vaccination to employees with occupational exposure.",
+        "Records of physical examinations go in the personnel file."
+      ]
+    },
+    {
+      "id": "STF-05",
+      "category": "Staffing and Personnel",
+      "title": "Personnel Records",
+      "covers": [
+        "5.7(a)6"
+      ],
+      "citations": [
+        "C1",
+        "C9"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Each employee file includes name, previous employment, educational background, credentials, license number with effective and expiration dates, certification, and verification of credentials.",
+        "Also records of physical examinations, job description, records of orientation and inservice education, and job performance evaluation.",
+        "Include background check and registry results, PCA/CMA certificate dates and CE.",
+        "Keep files secure and available to DOH."
+      ]
+    },
+    {
+      "id": "STF-06",
+      "category": "Staffing and Personnel",
+      "title": "Staff Conduct and Professional Boundaries",
+      "covers": [],
+      "citations": [
+        "C9",
+        "C24",
+        "C1"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Prohibit abuse, neglect and misappropriation. A finding can lead to registry entry or action on an administrator certificate.",
+        "No borrowing from, gifts from, or financial dealings with residents.",
+        "Confidentiality of resident information.",
+        "Mandatory reporting of suspected abuse by all staff."
+      ]
+    },
+    {
+      "id": "STF-07",
+      "category": "Staffing and Personnel",
+      "title": "Administrator Qualifications, Certification Renewal and Continuity",
+      "covers": [],
+      "citations": [
+        "C23",
+        "C24",
+        "C4"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Age 21+, HS diploma or equivalent, and a current NJ nursing home administrator license or NJ assisted living administrator certification.",
+        "Candidates sit the competency exam within 2 years of the training course and complete a criminal background check.",
+        "The certificate runs 3 years. Renewal requires at least 30 CE hours earned within the period, plus a background check.",
+        "Report administrator termination to DOH immediately, with the replacement's qualifications (5.10).",
+        "DOH Certified Assisted Living Administrators office: 609-633-9706."
+      ]
+    },
+    {
+      "id": "REC-01",
+      "category": "Records",
+      "title": "Resident Records, Confidentiality and Retention",
+      "covers": [],
+      "citations": [
+        "C46",
+        "C59",
+        "C47",
+        "C1"
+      ],
+      "federal": [
+        "45 CFR 164.530(j)",
+        "45 CFR 164.316"
+      ],
+      "state_specifics": [
+        "Subchapter 15 covers health record, availability, confidentiality, retention, register, individual records and record of death.",
+        "A DOH deficiency text quotes a 10-year retention period after discharge. Confirm the period and section number in the code before adopting.",
+        "Each record holds the admission interview, physician statement, RN assessment, health service plan, notices and incident reports.",
+        "Records are available to DOH on request."
+      ]
+    },
+    {
+      "id": "REC-02",
+      "category": "Records",
+      "title": "Required Reports and Submissions to the State",
+      "covers": [],
+      "citations": [
+        "C15",
+        "C4",
+        "C16",
+        "C29",
+        "C18"
+      ],
+      "federal": [],
+      "state_specifics": [
+        "Report resident days for the prior calendar year to the CN&L Program by April 15 each year.",
+        "On request, submit required documents in writing to the Director of CN&L, and utilization, demographic, cost, charge and staffing data.",
+        "Reportable events: immediate phone report, written confirmation within 72 hours.",
+        "Emergency plans filed with DOH, and DOH notified of changes.",
+        "CPCH: report SSI-eligible percentage by April 15."
+      ]
     }
-  ]
+  ],
+  "forms": [
+    {
+      "name": "Organizational Chart and Lines of Authority",
+      "purpose": "Documents authority, responsibility and accountability for administration and resident care",
+      "policy_ids": [
+        "GOV-01"
+      ]
+    },
+    {
+      "name": "Description of Services Statement",
+      "purpose": "Lists services the facility is capable of providing, for the manual and referral agencies",
+      "policy_ids": [
+        "GOV-02",
+        "ADM-05"
+      ]
+    },
+    {
+      "name": "Annual Policy and Procedure Manual Review Log",
+      "purpose": "Documents each annual review and revision",
+      "policy_ids": [
+        "GOV-05",
+        "HLT-01"
+      ]
+    },
+    {
+      "name": "Manual Availability Notice and Request Log",
+      "purpose": "Records how manuals are made available to residents, guardians, applicants and referring agencies",
+      "policy_ids": [
+        "GOV-05"
+      ]
+    },
+    {
+      "name": "Waiver Request to CN&L Director",
+      "purpose": "Written request for a waiver, including the Medicaid occupancy waiver",
+      "policy_ids": [
+        "GOV-03",
+        "GOV-04",
+        "ADM-02"
+      ]
+    },
+    {
+      "name": "Resident Rights Statement Acknowledgement",
+      "purpose": "Documents posting and distribution of the statement of resident rights",
+      "policy_ids": [
+        "RR-01",
+        "RR-02"
+      ]
+    },
+    {
+      "name": "Grievance and Complaint Log",
+      "purpose": "Records complaints, investigation, response and agency contacts given",
+      "policy_ids": [
+        "RR-02",
+        "GOV-06"
+      ]
+    },
+    {
+      "name": "Admission Agreement",
+      "purpose": "Charges, services, charge-change notice, discharge appeal rights and 5.1(d) criteria",
+      "policy_ids": [
+        "RR-03",
+        "ADM-05",
+        "ADM-06"
+      ]
+    },
+    {
+      "name": "Resident Funds and Personal Needs Account Ledger",
+      "purpose": "Tracks resident funds and quarterly statements",
+      "policy_ids": [
+        "RR-04"
+      ]
+    },
+    {
+      "name": "Authorization for Release of Resident Information",
+      "purpose": "Resident consent for release of records outside the facility",
+      "policy_ids": [
+        "RR-06",
+        "REC-01"
+      ]
+    },
+    {
+      "name": "Admission Interview Checklist",
+      "purpose": "Documents the 5.13(a) interview topics",
+      "policy_ids": [
+        "ADM-01"
+      ]
+    },
+    {
+      "name": "Physician/APN/PA Appropriateness Statement",
+      "purpose": "Written statement within 30 days before admission",
+      "policy_ids": [
+        "ADM-01"
+      ]
+    },
+    {
+      "name": "Denial of Admission Notice",
+      "purpose": "Signed written reason within 15 days on written request",
+      "policy_ids": [
+        "ADM-01"
+      ]
+    },
+    {
+      "name": "RN Health Care Assessment",
+      "purpose": "Assessment within 14 days using the DOH instrument or equivalent",
+      "policy_ids": [
+        "ADM-03",
+        "ADM-04"
+      ]
+    },
+    {
+      "name": "Health Service Plan and Managed Risk Agreement",
+      "purpose": "Individual care plan and agreement on risky resident choices",
+      "policy_ids": [
+        "ADM-04"
+      ]
+    },
+    {
+      "name": "30-Day Discharge/Transfer Notice",
+      "purpose": "Notice with reason, appeal right and Ombudsman contact",
+      "policy_ids": [
+        "ADM-06",
+        "RR-01"
+      ]
+    },
+    {
+      "name": "Nursing-Home-Level and Medicaid Occupancy Tracker",
+      "purpose": "Tracks 20% and 10% commitments by resident days",
+      "policy_ids": [
+        "ADM-02",
+        "REC-02"
+      ]
+    },
+    {
+      "name": "Medication Administration Record and Controlled Substance Count Sheet",
+      "purpose": "Documents medications given and controlled substance counts",
+      "policy_ids": [
+        "HLT-02",
+        "HLT-03"
+      ]
+    },
+    {
+      "name": "Medication Theft Report",
+      "purpose": "Report to Enforcement Bureau of Professional Boards at (973) 648-4742",
+      "policy_ids": [
+        "HLT-02"
+      ]
+    },
+    {
+      "name": "Incident and Reportable Event Report",
+      "purpose": "Documents events, DOH phone report and 72-hour written confirmation",
+      "policy_ids": [
+        "SAF-02",
+        "SAF-01",
+        "SAF-03"
+      ]
+    },
+    {
+      "name": "Abuse/Neglect/Exploitation Report",
+      "purpose": "Documents reports to DOH (1-800-792-9770) and the Ombudsman (1-877-582-6995)",
+      "policy_ids": [
+        "SAF-01"
+      ]
+    },
+    {
+      "name": "Emergency Plan and Drill Record",
+      "purpose": "Documents emergency plans filed with DOH and drills",
+      "policy_ids": [
+        "SAF-05",
+        "SAF-06"
+      ]
+    },
+    {
+      "name": "Resident Immunization Record (Influenza/Pneumococcal)",
+      "purpose": "Documents vaccination, refusal or contraindication",
+      "policy_ids": [
+        "SAF-07"
+      ]
+    },
+    {
+      "name": "Staff Training and In-Service Attendance Record",
+      "purpose": "Documents orientation, in-service and dementia training",
+      "policy_ids": [
+        "STF-03",
+        "HLT-06"
+      ]
+    },
+    {
+      "name": "Employee Health and TB Screening Record",
+      "purpose": "Physical, immunization and tuberculin testing content and dates",
+      "policy_ids": [
+        "STF-04"
+      ]
+    },
+    {
+      "name": "Personnel File Checklist",
+      "purpose": "Covers each 5.7(a)6 element, credentials, background check and registry results",
+      "policy_ids": [
+        "STF-05",
+        "STF-02"
+      ]
+    },
+    {
+      "name": "Notice of Death Notification Log",
+      "purpose": "Documents prompt notification of a resident's death and the record of death",
+      "policy_ids": [
+        "HLT-10",
+        "REC-01"
+      ]
+    },
+    {
+      "name": "Annual Resident-Days Report",
+      "purpose": "Report due April 15 to the CN&L Program",
+      "policy_ids": [
+        "REC-02",
+        "ADM-02"
+      ]
+    },
+    {
+      "name": "ALP Provider-Resident Contract and Site Notice",
+      "purpose": "ALP contract, site posting and notifications",
+      "policy_ids": [
+        "ALP-01"
+      ]
+    }
+  ],
+  "official": {
+    "documents": [
+      {
+        "title": "N.J.A.C. 8:36 – Standards for Licensure of Assisted Living Residences, Comprehensive Personal Care Homes, and Assisted Living Programs (sections that list required written policies and procedures: 2.2, 4.1, 5.7, 5.10, 6.1, 11.7, 14.2, 18.3, 19.3, 23.4)",
+        "form_number": "None. I found no single DOH policy checklist form, so the regulation sections are used instead.",
+        "issuer": "NJ Department of Health (Certificate of Need and Licensing Program; Division of Health Facility Survey and Field Operations)",
+        "version": "Current codified text as shown on Cornell LII. §§ 2.2 and 5.7 show 'Amended by 54 N.J.R. 54(a), effective 1/3/2022'. Chapter readopted with technical changes and now expires 2028. I did not verify whether the 2026 proposal (PRN 2026-003) was adopted.",
+        "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-5-7",
+        "how_used": "Primary source for the policy and procedure manual list in § 5.7(a)(1)-(8) and (b), which applies to ALRs, CPCHs and ALPs. Also used for the admission agreement in § 2.2(c), the application narratives in § 2.2(e)-(f) and (l), and §§ 6.1, 14.2, 18.3 and 23.4, which require other written policies."
+      },
+      {
+        "title": "N.J.A.C. 8:36-2.2 Application for licensure (current text)",
+        "form_number": "None. The license application forms themselves are prescribed by the Department and are excluded here.",
+        "issuer": "NJ Department of Health",
+        "version": "Amended by 54 N.J.R. 54(a), effective 1/3/2022",
+        "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-36-2-2",
+        "how_used": "Lists the admission agreement content and the application narratives that are policy or program content. Fee, track record, physical plant and bed-count items are excluded."
+      },
+      {
+        "title": "Notice of Readoption with Technical Changes, N.J.A.C. 8:36 (NJ DOH)",
+        "form_number": "None",
+        "issuer": "NJ Department of Health, Certificate of Need and Licensing Division",
+        "version": "Readoption 2021; technical changes 2022; new expiration 2028",
+        "url": "https://web.doh.nj.gov/apps2/documents/bc/notice_of_readoption_standards_for_licensure_of_assisted_living_residneces_etc_836.pdf",
+        "how_used": "Official DOH PDF giving the chapter's subchapter structure. It also gives the revised text of § 5.7(a)(4), § 6.1(a)(8), § 4.1(a)(37) and (40), § 11.7(l), § 18.3(a)(8), § 19.3(a) and § 5.10(a). It contains only the technical changes, not the full chapter."
+      },
+      {
+        "title": "AAS-24 Affidavit of Compliance, Assisted Living Residences, Comprehensive Personal Care Homes and Assisted Living Programs",
+        "form_number": "AAS-24",
+        "issuer": "NJ Department of Health, Division of Health Facility Survey and Field Operations",
+        "version": "Undated. I saw only a search excerpt and could not fetch the full form.",
+        "url": "https://www.nj.gov/health/forms/aas-24.dot",
+        "how_used": "Supporting source only. It lists the N.J.A.C. 8:36 mandatory standards the administrator attests to, including '6.1 (a) 1-11 Written resident care policies and procedures'. No items are drawn from it."
+      }
+    ],
+    "required_items": [
+      {
+        "item_id": "5.7(a)",
+        "text": "A policy and procedure manual(s) for the organization and operation of the facility or program shall be developed, implemented, and reviewed at least annually. Each review of the manual(s) shall be documented, and the manual(s) shall be available in the facility or program to representatives of the Department at all times. The manual(s) shall include at least the following:",
+        "cite": "N.J.A.C. 8:36-5.7(a)",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)1",
+        "text": "An organizational chart delineating the lines of authority, responsibility, and accountability for the administration and resident care services of the facility or program;",
+        "cite": "N.J.A.C. 8:36-5.7(a)1",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)2",
+        "text": "A description of the services which the assisted living residence, comprehensive personal care home or assisted living program is capable of providing;",
+        "cite": "N.J.A.C. 8:36-5.7(a)2",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)3",
+        "text": "Policies and procedures for maintaining security;",
+        "cite": "N.J.A.C. 8:36-5.7(a)3",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)4",
+        "text": "Policies and procedures for reporting all alleged and/or suspected cases of resident abuse or exploitation to the Complaints Program of the Division of Health Facility Survey and Field Operations at 1-800-792-9770. If the resident is 60 years of age or older, the State Long-Term Care Ombudsman shall also be notified, in compliance with N.J.S.A. 52:27G-7.1 et seq., at 1-877-582-6995;",
+        "cite": "N.J.A.C. 8:36-5.7(a)4",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)5",
+        "text": "Policies and procedures for maintaining confidentiality of resident records, including policies and procedures for examination of resident records by the resident and other authorized persons and for release of resident records to any individual outside the facility or program, as consented to by the resident or as required by law or third-party payor;",
+        "cite": "N.J.A.C. 8:36-5.7(a)5",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)6",
+        "text": "Policies and procedures for the maintenance of personnel records for each employee, including at least his or her name, previous employment, educational background, credentials, license number with effective date and date of expiration (if applicable), certification (if applicable), verification of credentials, records of physical examinations, job description, records of orientation and inservice education, and evaluation of job performance;",
+        "cite": "N.J.A.C. 8:36-5.7(a)6",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)7",
+        "text": "Policies and procedures, including content and frequency, for physical examinations and immunizations and tuberculin testing upon employment and subsequently for employees and individuals providing direct resident care services in the facility through contractual arrangements or written agreement; and",
+        "cite": "N.J.A.C. 8:36-5.7(a)7",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(a)8",
+        "text": "Policies and procedures delineating the responsibilities of the facility's staff in making prompt notification regarding the death of a resident as required by N.J.S.A. 26:2H-5e and N.J.A.C. 8:36-15.7(a).",
+        "cite": "N.J.A.C. 8:36-5.7(a)8",
+        "doc": 0
+      },
+      {
+        "item_id": "5.7(b)",
+        "text": "The facility shall have a policy and procedure that addresses how policy and procedure manuals will be made available to residents, guardians, designated responsible individuals, prospective applicants, and referring agencies.",
+        "cite": "N.J.A.C. 8:36-5.7(b)",
+        "doc": 0
+      },
+      {
+        "item_id": "23.4",
+        "text": "A policy and procedure manual(s) for the organization and operation of the assisted living program shall be developed, implemented and reviewed in accordance with the provisions of N.J.A.C. 8:36-5.7. The manual(s) shall be available in all assisted living program sites, the assisted living program provider main office, and to representatives of the Department. (Assisted living programs only.)",
+        "cite": "N.J.A.C. 8:36-23.4",
+        "doc": 0
+      },
+      {
+        "item_id": "6.1(a)",
+        "text": "Written resident care policies and procedures shall be established, implemented, and reviewed at intervals specified in the policies and procedures. Each review of the policies and procedures shall be documented. Policies and procedures shall include, but not be limited to, the following: 1.-11. [I could not retrieve the full text of items 1-7 and 9-11; see notes. The readoption notice confirms only item 8, below.]",
+        "cite": "N.J.A.C. 8:36-6.1(a) (items 1-11)",
+        "doc": 0
+      },
+      {
+        "item_id": "6.1(a)8",
+        "text": "The control of smoking in the facility, in accordance with N.J.S.A. 26:3D-55 et seq. and N.J.A.C. 8:6;",
+        "cite": "N.J.A.C. 8:36-6.1(a)8",
+        "doc": 2
+      },
+      {
+        "item_id": "2.2(c)",
+        "text": "A copy of the assisted living residence or comprehensive personal care home admission agreement or other document stating the scope of a facility's services shall be forwarded to the Director of the Certificate of Need and Licensing Program for review when application for licensure is made. [Does not apply to a CCRC's continuing care agreement.] The admission agreement shall include, but not be limited to, the following:",
+        "cite": "N.J.A.C. 8:36-2.2(c)",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(c)1",
+        "text": "Proposed charges for room, board and all levels of service and care and for all additional services and care not included in the standard package of rates in accordance with N.J.A.C. 8:36-6.2;",
+        "cite": "N.J.A.C. 8:36-2.2(c)1",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(c)2",
+        "text": "Specification of how and when the resident will be notified of any change in charges, and a statement that each resident has the right to request written justification of any increase in charges in accordance with N.J.A.C. 8:36-6.2;",
+        "cite": "N.J.A.C. 8:36-2.2(c)2",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(c)3",
+        "text": "A statement that each resident has the right to appeal an involuntary discharge as specified at N.J.A.C. 8:36-5.14(b); and",
+        "cite": "N.J.A.C. 8:36-2.2(c)3",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(c)4",
+        "text": "Specification of the criteria identified at N.J.A.C. 8:36-5.1(d) which will be used to discharge residents and an explanation of how the discharge process will be implemented, including which facility staff will participate and the extent of resident participation.",
+        "cite": "N.J.A.C. 8:36-2.2(c)4",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(e)4",
+        "text": "An evaluation of any requested waivers to licensing requirements that are sought in accordance with N.J.A.C. 8:36-2.7;",
+        "cite": "N.J.A.C. 8:36-2.2(e)4",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(e)5",
+        "text": "A description of how the architectural design will promote the essential values of assisted living, including privacy, choice, independence, dignity and a home-like environment;",
+        "cite": "N.J.A.C. 8:36-2.2(e)5",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(e)6",
+        "text": "A description of how the physical plant will facilitate the care of residents with common long-term care problems, such as reduced mobility, incontinence and dementia; and",
+        "cite": "N.J.A.C. 8:36-2.2(e)6",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(e)7",
+        "text": "A statement of the proposed licensed operator's commitment to assuring access to assisted living for individuals with nursing home level of care needs, as defined in N.J.A.C. 8:36-1.3. This statement shall indicate that within 36 months after licensure, at least 20 percent of the facility's residents shall be individuals with nursing home-level of care needs. This percentage shall be computed based on the number of resident days per calendar year and may include direct admissions as well as maintained residents with nursing home-level of care needs.",
+        "cite": "N.J.A.C. 8:36-2.2(e)7",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(f)",
+        "text": "If an applicant is required to submit plans under N.J.A.C. 8:36-2.3, the applicant shall submit a description of how the location of the proposed facility will promote the physical integration or social connection of the residents into a neighborhood, center or other area with existing services or amenities.",
+        "cite": "N.J.A.C. 8:36-2.2(f)",
+        "doc": 1
+      },
+      {
+        "item_id": "2.2(l)2",
+        "text": "For assisted living programs, the application shall include a copy of the written agreement or contract between the program provider and residents that will be used at each program site, including clearly addressing N.J.A.C. 8:36-23.3(d). [Also 2.2(l)1: a copy of the written contract between the program provider and the publicly subsidized housing unit in accordance with N.J.A.C. 8:36-23.2(c).]",
+        "cite": "N.J.A.C. 8:36-2.2(l)1-2",
+        "doc": 1
+      },
+      {
+        "item_id": "4.1(a)",
+        "text": "Each assisted living provider shall post and distribute a statement of resident rights for all residents of assisted living residences, comprehensive personal care homes, and assisted living programs. [Items 1-42 are the rights listed in the rule. Two items are quoted below.]",
+        "cite": "N.J.A.C. 8:36-4.1(a)",
+        "doc": 2
+      },
+      {
+        "item_id": "4.1(a)37",
+        "text": "The right to receive written notice at least 30 days in advance when the facility requests the resident's transfer or discharge, except in an emergency. This written notice shall include the name, address, and telephone number of the Long-Term Care Ombudsman, and shall also be provided to the resident's legally appointed guardian, if applicable, or, with the resident's consent, to the resident's family, 30 days in advance;",
+        "cite": "N.J.A.C. 8:36-4.1(a)37",
+        "doc": 2
+      },
+      {
+        "item_id": "4.1(a)40",
+        "text": "The right to voice complaints without being threatened or punished. Each resident is entitled to complain and present his or her grievances to the administrator and staff, to government agencies, and to anyone else without fear of interference, discharge, or reprisal. The facility shall provide each resident and his or her legally appointed guardian, if applicable, and the resident's family member with the names, addresses, and telephone numbers of the government agencies to which a resident can complain and ask questions, including the Department and the State Long-Term Care Ombudsman. These names, addresses, and telephone numbers shall also be posted in a conspicuous place in the facility;",
+        "cite": "N.J.A.C. 8:36-4.1(a)40",
+        "doc": 2
+      },
+      {
+        "item_id": "5.10(a)",
+        "text": "The facility shall notify the Division of Health Facility Survey and Field Operations immediately by telephone at (609) 633-9034 or (609) 392-2020 if after business hours, followed within 72 hours by written confirmation, of the following: [items 1-3; item 3 is any suspected cases of resident abuse or exploitation which have been reported to the State Long-Term Care Ombudsman]. (Assisted living programs: see 23.17(b).)",
+        "cite": "N.J.A.C. 8:36-5.10(a); 23.17(b)",
+        "doc": 2
+      },
+      {
+        "item_id": "11.7(l)",
+        "text": "Any theft of Scheduled or Controlled Substances shall be reported to the New Jersey Department of Law and Public Safety, Enforcement Bureau of Professional Boards at (973) 648-4742, and/or to any other municipal, county, State, or Federal authority having jurisdiction over theft of such substances.",
+        "cite": "N.J.A.C. 8:36-11.7(l)",
+        "doc": 2
+      },
+      {
+        "item_id": "14.2",
+        "text": "The facility shall develop written emergency plans, policies, and procedures which shall include plans and procedures to be followed in case of medical emergencies, power failures, fire, and natural disasters. The emergency plans shall be filed with the Department and the Department shall be notified when the plans are changed. Procedures for emergencies shall specify persons to be notified, process of notification and verification of notification, locations of emergency equipment and alarm signals, evacuation routes, procedures for evacuating residents, procedures for reentry and recovery, frequency of fire drills, tasks and responsibilities assigned to all personnel, and shall specify medications and records to be taken from the facility upon evacuation and to be returned following the emergency. [Paraphrased from a third-party transcription (alfboss.com). Subsection letters were not captured. Verify against the official text.]",
+        "cite": "N.J.A.C. 8:36-14.2",
+        "doc": 0
+      },
+      {
+        "item_id": "18.3(a)",
+        "text": "Written policies and procedures shall be established and implemented regarding infection prevention and control, including, but not limited to, policies and procedures for the following: 1.-7. [not retrieved; see notes]",
+        "cite": "N.J.A.C. 8:36-18.3(a)",
+        "doc": 2
+      },
+      {
+        "item_id": "18.3(a)8",
+        "text": "Needles and syringes used by residents as part of home self-care shall be disposed of in accordance with N.J.S.A. 2C:36-6.1 and N.J.A.C. 8:43E-7, and amendments thereto.",
+        "cite": "N.J.A.C. 8:36-18.3(a)8",
+        "doc": 2
+      },
+      {
+        "item_id": "19.3(a)",
+        "text": "A facility that advertises or holds itself out as having an Alzheimer's disease or dementia program shall provide training in specialized care of residents who are diagnosed by a physician as having Alzheimer's disease or dementia to all licensed and unlicensed staff who provide direct care to residents with Alzheimer's or dementia, in accordance with N.J.S.A. 26:2M-7.2. (Applies only to facilities that advertise such a program.)",
+        "cite": "N.J.A.C. 8:36-19.3(a)",
+        "doc": 2
+      },
+      {
+        "item_id": "23.2",
+        "text": "The assisted living residence and/or the comprehensive personal care home shall establish and maintain written contracts detailing all policies, procedures, and services to be provided by the licensed facility and the licensed program. (Assisted living programs only.)",
+        "cite": "N.J.A.C. 8:36-23.2",
+        "doc": 0
+      }
+    ],
+    "structure": {
+      "use_as_categories": false,
+      "sections": [
+        "8:36-2.2 Application for licensure (admission agreement; application narratives)",
+        "8:36-4.1 Posting and distribution of statement of resident rights",
+        "8:36-5.7 Policy and procedure manual (items (a)1-8 and (b))",
+        "8:36-5.10 Reportable events",
+        "8:36-6.1 Resident care policies and procedures",
+        "8:36-11.7 Storage and control of medications (theft reporting)",
+        "8:36-14.2 Emergency plans and procedures",
+        "8:36-18.3 General infection control policies and procedures",
+        "8:36-19.3 Staff training program for Alzheimer's disease and dementia (if advertised)",
+        "8:36-23.2 and 23.4 Assisted living program provider requirements and policy and procedure manual (ALP only)"
+      ]
+    },
+    "notes": "I found no single NJ DOH policy-review checklist or application packet for this license. The required content comes from the N.J.A.C. 8:36 sections listed above. Reviewers should treat § 5.7(a)(1)-(8) and (b) as the core manual list. It applies to ALRs, CPCHs and ALPs, and the manual may be one document or several. The manual must be developed, implemented and reviewed at least annually. Each review must be documented, and the manual must be available at the facility or program for Department representatives at all times. An ALP must also keep it at every program site and at the provider's main office (§ 23.4). The Department states the manual should be available to residents, guardians and referring agencies under a written policy (§ 5.7(b)). With the license application, the ALR or CPCH admission agreement goes to the Director of the Certificate of Need and Licensing Program for review (§ 2.2(c)). An ALP submits its resident agreement and its contract with the publicly subsidized housing unit (§ 2.2(l)). Written emergency plans must be filed with the Department, and the Department must be told when they change (§ 14.2, per a secondary source). A preliminary conference with the CN&L Program is optional (§ 2.2(n)). Survey by the Division of Health Facility Survey and Field Operations follows application approval and precedes licensure and admission of residents (§ 2.4). The Department publishes an Affidavit of Compliance (AAS-24) that cites the chapter's mandatory standards, including § 6.1(a)(1)-(11). Gaps and cautions: (1) I could not retrieve the verbatim lists in § 6.1(a)(1)-(7) and (9)-(11) or § 18.3(a)(1)-(7). Pull them from the Cornell LII pages for N.J.A.C. 8:36-6.1 and 8:36-18.3 before using them. (2) The § 14.2 text is from a non-official transcription and should be checked against the official text. (3) I did not review §§ 7.1, 10.x, 11.x, 20.x or 21.x for further written-policy requirements, such as respite care policies, restraint policy, quality improvement and dining. A complete checklist should add them. (4) Excluded as non-policy content: fees, track-record evaluation, physical plant and bed-count description (§ 2.2(e)1-3), plan review, certificate of occupancy, and local approvals. (5) The 2026 proposed rule changes to §§ 1.3 and 2.4 (CPCH deemed status) have not been verified as adopted."
+  },
+  "plan_version": 2
 }

@@ -1,0 +1,651 @@
+{
+  "documents": [
+    {
+      "title": "Adult Care Home Initial Licensure: Policy & Procedure Review",
+      "form_number": "DHSR/AC 4649",
+      "issuer": "NC DHHS, Division of Health Service Regulation, Adult Care Licensure Section",
+      "version": "Rev. 04-2014 (the version currently posted on the ACLS Forms and Applications page)",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/pdf/polprocrev.pdf",
+      "how_used": "Desk-review checklist the ACLS Licensure Consultant uses for an initial 10A NCAC 13F Adult Care Home (7+ beds). It ends with 'Desk review completed. Required policies and procedures have been verified.' Items from this form are doc 0."
+    },
+    {
+      "title": "Family Care Home Initial Licensure: Policy and Procedure Checklist",
+      "form_number": "DHSR/AC 4648",
+      "issuer": "NC DHHS, Division of Health Service Regulation, Adult Care Licensure Section",
+      "version": "Rev. 04-2014 (the version currently posted on the ACLS Forms and Applications page)",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/pdf/polprocrevfch.pdf",
+      "how_used": "Desk-review checklist for an initial 10A NCAC 13G Family Care Home (2-6 beds). It has the same layout as DHSR/AC 4649, with 13G rule cites. Items from this form are doc 1."
+    },
+    {
+      "title": "License a Family Care Home (2-6 Beds) – Procedures, step 2 'Compilation of Records' (County DSS)",
+      "form_number": "n/a (web procedure page)",
+      "issuer": "NC DHSR Adult Care Licensure Section",
+      "version": "Page last modified November 20, 2025",
+      "url": "https://info.ncdhhs.gov/dhsr/acls/flofch.html",
+      "how_used": "Describes what the county adult home specialist assesses in the FCH applicant's operational plan. It supplements the AC 4648 checklist. Items from this page are doc 2."
+    }
+  ],
+  "required_items": [
+    {
+      "item_id": "1",
+      "text": "Medications (see form 'Guidelines for the Development of Medication Administration Policies and Procedures')",
+      "cite": "10A NCAC 13F .1001/.1002/.1003/.1004/.1005/.1006/.1007/.1008/.1009/.1010",
+      "doc": 0
+    },
+    {
+      "item_id": "2a",
+      "text": "Use of physical restraints and alternatives: Use of alternatives/other interventions to be attempted prior to use of physical restraints",
+      "cite": "10A NCAC 13F .1211(2)/.0506/.1501",
+      "doc": 0
+    },
+    {
+      "item_id": "2b",
+      "text": "Use of physical restraints and alternatives: Process for obtaining required orders, consents and documentation or physical restraints [sic]",
+      "cite": "10A NCAC 13F .1211(2)/.0506/.1501",
+      "doc": 0
+    },
+    {
+      "item_id": "2c",
+      "text": "Use of physical restraints and alternatives: Assessment and care planning of residents with physical restraints",
+      "cite": "10A NCAC 13F .1211(2)/.0506/.1501",
+      "doc": 0
+    },
+    {
+      "item_id": "2d",
+      "text": "Use of physical restraints and alternatives: If facility is 'restraint free', must include facility's plan to manage and supervise resident's behaviors, including what alternatives will be used, assessment of resident, communication with doctor/RP, and discharge planning if necessary.",
+      "cite": "10A NCAC 13F .1211(2)/.0506/.1501",
+      "doc": 0
+    },
+    {
+      "item_id": "3a",
+      "text": "Accidents and Incidents: Procedure for handling accidents and incidents, and follow-up care",
+      "cite": "10A NCAC 13F .1211(8)(3)/.0901/.1212",
+      "doc": 0
+    },
+    {
+      "item_id": "3b",
+      "text": "Accidents and Incidents: Reporting/notification of accidents/incidents to Administrator, DSS, DHSR, family/RP",
+      "cite": "10A NCAC 13F .1211(8)(3)/.0901/.1212",
+      "doc": 0
+    },
+    {
+      "item_id": "3c",
+      "text": "Accidents and Incidents: Management of physical aggression or assault by residents toward residents/staff/others",
+      "cite": "10A NCAC 13F .1211(8)(3)/.0901/.1212",
+      "doc": 0
+    },
+    {
+      "item_id": "3d",
+      "text": "Accidents and Incidents: Policy on Abuse, Neglect and Misappropriation of Resident Property and notification of appropriate entities, including reporting to the Health Care Personnel Registry",
+      "cite": "10A NCAC 13F .1211(8)(3)/.0901/.1212",
+      "doc": 0
+    },
+    {
+      "item_id": "4a",
+      "text": "Missing Residents: Search procedures",
+      "cite": "10A NCAC 13F .1211(6)",
+      "doc": 0
+    },
+    {
+      "item_id": "4b",
+      "text": "Missing Residents: Reporting procedures",
+      "cite": "10A NCAC 13F .1211(6)",
+      "doc": 0
+    },
+    {
+      "item_id": "5a",
+      "text": "Identification and Supervision of Wandering Residents: Reporting disoriented or wandering behavior to administration/SIC",
+      "cite": "10A NCAC 13F .1211(7)/.0305(h)(4)/.0901",
+      "doc": 0
+    },
+    {
+      "item_id": "5b",
+      "text": "Identification and Supervision of Wandering Residents: Identification and assessment of changes in behavior (i.e. wandering, increased confusion, etc.)",
+      "cite": "10A NCAC 13F .1211(7)/.0305(h)(4)/.0901",
+      "doc": 0
+    },
+    {
+      "item_id": "5c",
+      "text": "Identification and Supervision of Wandering Residents: Facility's plan for supervision of disoriented or wandering residents",
+      "cite": "10A NCAC 13F .1211(7)/.0305(h)(4)/.0901",
+      "doc": 0
+    },
+    {
+      "item_id": "5d",
+      "text": "Identification and Supervision of Wandering Residents: Door alarms or other monitoring devices (operation and maintenance of)",
+      "cite": "10A NCAC 13F .1211(7)/.0305(h)(4)/.0901",
+      "doc": 0
+    },
+    {
+      "item_id": "6a",
+      "text": "Fire Safety and Emergency Procedures: Copy of written fire evacuation plan, including where it will be posted in facility",
+      "cite": "10A NCAC 13F .1211(3)/.0309",
+      "doc": 0
+    },
+    {
+      "item_id": "6b",
+      "text": "Fire Safety and Emergency Procedures: Plan for fire drills/rehearsals and documentation of",
+      "cite": "10A NCAC 13F .1211(3)/.0309",
+      "doc": 0
+    },
+    {
+      "item_id": "6c",
+      "text": "Fire Safety and Emergency Procedures: Copy of written disaster plan (address minimum of fire, tornado, hurricane, and power outage, including plans for special needs sheltering during disasters). Applicants are highly recommended to use the North Carolina Risk Management Portal Licensed Care Facility Risk Management Plan template (https://rmp.nc.gov/portal/#).",
+      "cite": "10A NCAC 13F .1211(3)/.0309",
+      "doc": 0
+    },
+    {
+      "item_id": "7a",
+      "text": "Infection Control Procedures in Accordance with CDC Guidelines and Session Law 2011-99: Proper disposal of single-use equipment used to puncture skin, mucous membranes, and other tissues, and proper disinfection of reusable resident care items that are used for multiple residents.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7b",
+      "text": "Infection Control: Sanitation of rooms and equipment, including cleaning procedures, agents, and schedules.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7c",
+      "text": "Infection Control: Accessibility of infection control devices and supplies. (Where located for staff to easily access)",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7d",
+      "text": "Infection Control: Blood and bodily fluid precautions.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7e",
+      "text": "Infection Control: Procedures to be followed when adult care home staff is exposed to blood or other body fluids of another person in a manner that poses a significant risk of transmission of HIV, hepatitis B, hepatitis C, or other bloodborne pathogens.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7f",
+      "text": "Infection Control: Procedures to prohibit adult care home staff with exudative lesions or weeping dermatitis from engaging in direct resident care that involves the potential for contact between the resident, equipment, or devices and the lesion or dermatitis until the condition resolves.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7g",
+      "text": "Infection Control: Procedure for monitoring compliance with the facility's infection control policy.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7h",
+      "text": "Infection Control: Designated on-site staff member who is knowledgeable about the federal Centers for Disease Control and Prevention guidelines on infection control to direct the facility's infection control activities and ensure that all adult care staff is trained in the facility's infection control policy.",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7i",
+      "text": "Infection Control: Procedure for reporting suspected communicable disease outbreaks to the local health department and who is responsible for doing so",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7j",
+      "text": "Infection Control: Definition of and use of Standard Precautions",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7k",
+      "text": "Infection Control: Policy on hand-washing, instructions for staff (how and when to handwash)",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7l",
+      "text": "Infection Control: Policy on use of gloves, instructions for staff (when to use and how to properly remove)",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "7m",
+      "text": "Infection Control: Explain policy and process for completing two-step TB testing of residents and staff (see rule .0405)",
+      "cite": "10A NCAC 13F .1211(4); .0405",
+      "doc": 0
+    },
+    {
+      "item_id": "7n",
+      "text": "Infection Control: COVID-19 Protocols",
+      "cite": "10A NCAC 13F .1211(4)",
+      "doc": 0
+    },
+    {
+      "item_id": "8a",
+      "text": "Handling of Resident Grievances: Procedure for residents or family member to file a grievance",
+      "cite": "10A NCAC 13F .1211(9)/.0704",
+      "doc": 0
+    },
+    {
+      "item_id": "8b",
+      "text": "Handling of Resident Grievances: Procedure for follow-up of resident/family grievances by facility",
+      "cite": "10A NCAC 13F .1211(9)/.0704",
+      "doc": 0
+    },
+    {
+      "item_id": "8c",
+      "text": "Handling of Resident Grievances: Procedure for documentation of grievances and follow-up of grievances",
+      "cite": "10A NCAC 13F .1211(9)/.0704",
+      "doc": 0
+    },
+    {
+      "item_id": "8d",
+      "text": "Handling of Resident Grievances: Contact information (names/phone numbers) for outside resources for resident/family if grievances are not resolved",
+      "cite": "10A NCAC 13F .1211(9)/.0704",
+      "doc": 0
+    },
+    {
+      "item_id": "9",
+      "text": "Refund Policy",
+      "cite": "10A NCAC 13F .1211(5)/.1104/.1105",
+      "doc": 0
+    },
+    {
+      "item_id": "10",
+      "text": "Visitation in Facility & Sign Out Log",
+      "cite": "10A NCAC 13F .1211(10)/.0906",
+      "doc": 0
+    },
+    {
+      "item_id": "11a",
+      "text": "Smoking: Designated areas outside of the building/No smoking inside facility",
+      "cite": "10A NCAC 13F .1211(11)/.0704(2)",
+      "doc": 0
+    },
+    {
+      "item_id": "11b",
+      "text": "Smoking: Plan for on-going assessment and increased supervision of residents who smoke, if needed",
+      "cite": "10A NCAC 13F .1211(11)/.0704(2)",
+      "doc": 0
+    },
+    {
+      "item_id": "11c",
+      "text": "Smoking: What are consequences of non-compliance with smoking policies?",
+      "cite": "10A NCAC 13F .1211(11)/.0704(2)",
+      "doc": 0
+    },
+    {
+      "item_id": "12a",
+      "text": "Alcohol Use: Assessment of resident and communication with doctor regarding alcohol consumption",
+      "cite": "10A NCAC 13F .1211(11)/.0704(2)",
+      "doc": 0
+    },
+    {
+      "item_id": "12b",
+      "text": "Alcohol Use: Safekeeping and monitoring of alcohol with physician's order",
+      "cite": "10A NCAC 13F .1211(11)/.0704(2)",
+      "doc": 0
+    },
+    {
+      "item_id": "12c",
+      "text": "Alcohol Use: What are consequences of non-compliance with alcohol and substance abuse policies?",
+      "cite": "10A NCAC 13F .1211(11)/.0704(2)",
+      "doc": 0
+    },
+    {
+      "item_id": "13",
+      "text": "Activities Program: Sample calendar (meets hour requirements/times listed, variety of activities and outings). Calendar must contain beginning and end times of activities.",
+      "cite": "10A NCAC 13F .0905(c)(2)(d)",
+      "doc": 0
+    },
+    {
+      "item_id": "14",
+      "text": "Nutrition and Food Service: Sample menu for one month. Menu must include portion sizes (Ex. 1 cup of green beans). If the facility accommodates therapeutic diets, must submit therapeutic diet menus developed by a Registered Dietician, including their signature and RD number on each menu.",
+      "cite": "10A NCAC 13F .0509/.0904(c)(d)",
+      "doc": 0
+    },
+    {
+      "item_id": "15",
+      "text": "Resident Contract: Submit a copy of the resident contract to be used upon admission to the home. Contract must include all areas listed in the rule.",
+      "cite": "10A NCAC 13F .0704",
+      "doc": 0
+    },
+    {
+      "item_id": "1",
+      "text": "Medications (see form 'Guidelines for the Development of Medication Administration Policies and Procedures')",
+      "cite": "10A NCAC 13G .1001/1002/1003/1004/1005/1006/1007/1008/1009/1010",
+      "doc": 1
+    },
+    {
+      "item_id": "2a",
+      "text": "Use of physical restraints and alternatives: Use of alternatives/other interventions to be attempted prior to use of physical restraints",
+      "cite": "10A NCAC 13G .0506/1301",
+      "doc": 1
+    },
+    {
+      "item_id": "2b",
+      "text": "Use of physical restraints and alternatives: Process for obtaining required orders, consents and documentation for physical restraints",
+      "cite": "10A NCAC 13G .0506/1301",
+      "doc": 1
+    },
+    {
+      "item_id": "2c",
+      "text": "Use of physical restraints and alternatives: Assessment and care planning of residents with physical restraints",
+      "cite": "10A NCAC 13G .0506/1301",
+      "doc": 1
+    },
+    {
+      "item_id": "2d",
+      "text": "Use of physical restraints and alternatives: If facility is 'restraint free', must include facility's plan to manage and supervise resident's behaviors, including what alternatives will be used, assessment of resident, communication with doctor/RP, and discharge planning if necessary.",
+      "cite": "10A NCAC 13G .0506/1301",
+      "doc": 1
+    },
+    {
+      "item_id": "3a",
+      "text": "Accidents and Incidents: Procedure for handling accidents and incidents, and follow-up care of the resident",
+      "cite": "10A NCAC 13G .0901/1213",
+      "doc": 1
+    },
+    {
+      "item_id": "3b",
+      "text": "Accidents and Incidents: Reporting/notification of accidents/incidents to Administrator, DSS, DHSR, family/RP",
+      "cite": "10A NCAC 13G .0901/1213",
+      "doc": 1
+    },
+    {
+      "item_id": "3c",
+      "text": "Accidents and Incidents: Management of physical aggression or assault by residents toward residents/staff/others",
+      "cite": "10A NCAC 13G .0901/1213",
+      "doc": 1
+    },
+    {
+      "item_id": "3d",
+      "text": "Accidents and Incidents: Policy on Abuse, Neglect and Misappropriation of Resident Property and notification of appropriate entities, including reporting to the Health Care Personnel Registry",
+      "cite": "10A NCAC 13G .0901/1213",
+      "doc": 1
+    },
+    {
+      "item_id": "4a",
+      "text": "Missing Residents: Search procedures",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "4b",
+      "text": "Missing Residents: Reporting procedures",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "5a",
+      "text": "Identification and Supervision of Wandering Residents: Reporting disoriented or wandering behavior to administration/SIC",
+      "cite": "10A NCAC 13G .0312/0901",
+      "doc": 1
+    },
+    {
+      "item_id": "5b",
+      "text": "Identification and Supervision of Wandering Residents: Identification and assessment of changes in behavior (i.e. wandering, increased confusion, etc.)",
+      "cite": "10A NCAC 13G .0312/0901",
+      "doc": 1
+    },
+    {
+      "item_id": "5c",
+      "text": "Identification and Supervision of Wandering Residents: Facility's plan for supervision of disoriented or wandering residents",
+      "cite": "10A NCAC 13G .0312/0901",
+      "doc": 1
+    },
+    {
+      "item_id": "5d",
+      "text": "Identification and Supervision of Wandering Residents: Door alarms or other monitoring devices (operation and maintenance of)",
+      "cite": "10A NCAC 13G .0312/0901",
+      "doc": 1
+    },
+    {
+      "item_id": "6a",
+      "text": "Fire Safety and Emergency Procedures: Copy of written fire evacuation plan, including where it will be posted in facility",
+      "cite": "10A NCAC 13G .0316",
+      "doc": 1
+    },
+    {
+      "item_id": "6b",
+      "text": "Fire Safety and Emergency Procedures: Plan for fire drills/rehearsals and documentation of",
+      "cite": "10A NCAC 13G .0316",
+      "doc": 1
+    },
+    {
+      "item_id": "6c",
+      "text": "Fire Safety and Emergency Procedures: Copy of written disaster plan (address minimum of fire, tornado, hurricane, and power outage), including plans for special needs sheltering and transportation during disasters. Applicants are highly recommended to use the North Carolina Risk Management Portal Licensed Care Facility Risk Management Plan template (https://rmp.nc.gov/portal/#).",
+      "cite": "10A NCAC 13G .0316",
+      "doc": 1
+    },
+    {
+      "item_id": "7a",
+      "text": "Infection Control Procedures in Accordance with CDC Guidelines and Session Law 2011-99: Proper disposal of single-use equipment used to puncture skin, mucous membranes, and other tissues, and proper disinfection of reusable resident care items that are used for multiple residents.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7b",
+      "text": "Infection Control: Sanitation of rooms and equipment, including cleaning procedures, agents, and schedules.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7c",
+      "text": "Infection Control: Accessibility of infection control devices and supplies. (Where located for staff to easily access)",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7d",
+      "text": "Infection Control: Blood and bodily fluid precautions.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7e",
+      "text": "Infection Control: Procedures to be followed when adult care home staff is exposed to blood or other body fluids of another person in a manner that poses a significant risk of transmission of HIV, hepatitis B, hepatitis C, or other bloodborne pathogens.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7f",
+      "text": "Infection Control: Procedures to prohibit adult care home staff with exudative lesions or weeping dermatitis from engaging in direct resident care that involves the potential for contact between the resident, equipment, or devices and the lesion or dermatitis until the condition resolves.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7g",
+      "text": "Infection Control: Procedure for monitoring compliance with the facility's infection control policy.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7h",
+      "text": "Infection Control: Designated on-site staff member who is knowledgeable about the federal Centers for Disease Control and Prevention guidelines on infection control to direct the facility's infection control activities and ensure that all adult care staff is trained in the facility's infection control policy.",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7i",
+      "text": "Infection Control: Procedure for reporting suspected communicable disease outbreaks to the local health department and who is responsible for doing so",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7j",
+      "text": "Infection Control: Definition of and use of Standard Precautions",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7k",
+      "text": "Infection Control: Policy on handwashing, instructions for staff (how and when to handwash)",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7l",
+      "text": "Infection Control: Policy on use of gloves, instructions for staff (when to use and how to properly remove)",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "7m",
+      "text": "Infection Control: Explain policy and process for completing two-step TB testing of residents and staff (see rule .0405)",
+      "cite": "10A NCAC 13G .1211; .0405",
+      "doc": 1
+    },
+    {
+      "item_id": "7n",
+      "text": "Infection Control: COVID-19 Protocols",
+      "cite": "10A NCAC 13G .1211",
+      "doc": 1
+    },
+    {
+      "item_id": "8a",
+      "text": "Handling of Resident Grievances: Procedure for residents or family member to file a grievance",
+      "cite": "10A NCAC 13G .0704",
+      "doc": 1
+    },
+    {
+      "item_id": "8b",
+      "text": "Handling of Resident Grievances: Procedure for follow-up of resident/family grievances by facility",
+      "cite": "10A NCAC 13G .0704",
+      "doc": 1
+    },
+    {
+      "item_id": "8c",
+      "text": "Handling of Resident Grievances: Procedure for documentation of grievances and follow-up of grievances",
+      "cite": "10A NCAC 13G .0704",
+      "doc": 1
+    },
+    {
+      "item_id": "8d",
+      "text": "Handling of Resident Grievances: Contact information (names/phone numbers) for outside resources for resident/family if grievances are not resolved",
+      "cite": "10A NCAC 13G .0704",
+      "doc": 1
+    },
+    {
+      "item_id": "9",
+      "text": "Refund Policy",
+      "cite": "10A NCAC 13G .1104/.1105",
+      "doc": 1
+    },
+    {
+      "item_id": "10",
+      "text": "Visitation in Facility & Sign Out Log",
+      "cite": "10A NCAC 13G .0906",
+      "doc": 1
+    },
+    {
+      "item_id": "11a",
+      "text": "Smoking: Designated areas outside of the building/No smoking inside facility",
+      "cite": "10A NCAC 13G .0704(2)",
+      "doc": 1
+    },
+    {
+      "item_id": "11b",
+      "text": "Smoking: Plan for on-going assessment and increased supervision of residents who smoke, if needed",
+      "cite": "10A NCAC 13G .0704(2)",
+      "doc": 1
+    },
+    {
+      "item_id": "11c",
+      "text": "Smoking: What are consequences of non-compliance with smoking policies?",
+      "cite": "10A NCAC 13G .0704(2)",
+      "doc": 1
+    },
+    {
+      "item_id": "12a",
+      "text": "Alcohol Use: Assessment of resident and communication with doctor regarding alcohol consumption",
+      "cite": "10A NCAC 13G .0704(2)",
+      "doc": 1
+    },
+    {
+      "item_id": "12b",
+      "text": "Alcohol Use: Safekeeping and monitoring of alcohol with physician's order",
+      "cite": "10A NCAC 13G .0704(2)",
+      "doc": 1
+    },
+    {
+      "item_id": "12c",
+      "text": "Alcohol Use: What are consequences of non-compliance with alcohol and substance abuse policies?",
+      "cite": "10A NCAC 13G .0704(2)",
+      "doc": 1
+    },
+    {
+      "item_id": "13",
+      "text": "Activities Program: Sample calendar (meets hour requirements/times listed, variety of activities and outings). Calendar must contain beginning and end times of activities.",
+      "cite": "10A NCAC 13G .0905(c)(2)(d)",
+      "doc": 1
+    },
+    {
+      "item_id": "14",
+      "text": "Nutrition and Food Service: Sample menu for one month. Menu must include portion sizes (Ex. 1 cup of green beans). If the facility accommodates therapeutic diets, must submit therapeutic diet menus developed by a Registered Dietician, including their signature and RD number on each menu.",
+      "cite": "10A NCAC 13G .0509/.0904(c)(d)",
+      "doc": 1
+    },
+    {
+      "item_id": "15",
+      "text": "Resident Contract: Submit a copy of the resident contract to be used upon admission to the home. Contract must include all areas listed in the rule.",
+      "cite": "10A NCAC 13G .0704",
+      "doc": 1
+    },
+    {
+      "item_id": "FCH-2.b(i)",
+      "text": "County adult home specialist assesses the applicant's operational plan, with specific emphasis on staffing patterns and the responsibility of each staff member",
+      "cite": "License a Family Care Home, Procedures step 2.b",
+      "doc": 2
+    },
+    {
+      "item_id": "FCH-2.b(ii)",
+      "text": "Implementation of the family care home Residents' Bill of Rights",
+      "cite": "License a Family Care Home, Procedures step 2.b",
+      "doc": 2
+    },
+    {
+      "item_id": "FCH-2.b(iii)",
+      "text": "The admission and discharge policies",
+      "cite": "License a Family Care Home, Procedures step 2.b",
+      "doc": 2
+    },
+    {
+      "item_id": "FCH-2.b(iv)",
+      "text": "The services and accommodation requirements",
+      "cite": "License a Family Care Home, Procedures step 2.b",
+      "doc": 2
+    },
+    {
+      "item_id": "FCH-2.b(v)",
+      "text": "Life safety requirements",
+      "cite": "License a Family Care Home, Procedures step 2.b",
+      "doc": 2
+    },
+    {
+      "item_id": "FCH-2.b(vi)",
+      "text": "Other policies and procedures of the home",
+      "cite": "License a Family Care Home, Procedures step 2.b",
+      "doc": 2
+    }
+  ],
+  "structure": {
+    "use_as_categories": true,
+    "sections": [
+      "Medications",
+      "Use of physical restraints and alternatives",
+      "Accidents and Incidents",
+      "Missing Residents",
+      "Identification and Supervision of Wandering Residents",
+      "Fire Safety and Emergency Procedures",
+      "Infection Control Procedures in Accordance with CDC Guidelines and Session Law 2011-99",
+      "Handling of Resident Grievances",
+      "Refund Policy",
+      "Visitation in Facility & Sign Out Log",
+      "Smoking",
+      "Alcohol Use",
+      "Activities Program",
+      "Nutrition and Food Service",
+      "Resident Contract"
+    ]
+  },
+  "notes": "NC has no single plan-of-operation form. The reviewing documents are two near-identical ACLS desk-review checklists (DHSR/AC 4649 for ACH, DHSR/AC 4648 for FCH, both Rev. 04-2014). The ACLS Licensure Consultant works through each section, checks it off on a blank line, and signs 'Desk review completed. Required policies and procedures have been verified.' The forms do not number their items. Section order is the form's order. The item_ids (1-15, with sub-letters a, b, c... for the checkbox lines) are only ordinal labels I added, and the rule cites are the forms' own.\n\nProcess: for the ACH, the Construction Section notifies ACLS of the new project, and ACLS then contacts the applicant for 'the application, policies and procedures.' For the FCH, once ACLS receives the packet from the county adult home specialist, it 'sends a letter to the applicant requesting submission of certain records, policies and procedures for review.' The county adult home specialist also meets the applicant to review the operational plan. The DSS specialist's emphasis areas are doc 2 above. The policies are not submitted with the license application or fee.\n\nSubmission: organize the manual in the checklist's section order so each checkbox can be located. Include actual documents where the form asks for them: the fire evacuation plan, the disaster plan, a one-month sample menu with portion sizes (RD-signed therapeutic menus if used), an activity calendar with start and end times, and the resident contract. Medications are covered by the separate optional DHSR Form AC 4640 'Guidelines for the Development of Medication Administration Policies and Procedures', which I did not fetch, so I did not list its content. ACLS also posts an optional Template Infection Prevention & Control Policies and Procedures for ACHs and FCHs (DOCX) on its Forms page, which I did not fetch. The AC 4649/4648 forms are dated 2014 even though the rules were readopted effective 9/1/2024, so the rule cites may have been renumbered. Confirm the current rule numbers with ACLS (919-855-3765) before citing them."
+}
