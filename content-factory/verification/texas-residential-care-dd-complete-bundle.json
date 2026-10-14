@@ -1,0 +1,125 @@
+{
+  "bundle_slug": "texas-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Strong bundle. Every HCS SL/RSS per diem, bill code, attendant/other-direct/indirect component, host home, nursing, behavioral support, ISS, respite, CFC, supported employment and non-state ICF/IID small-facility rate matches the HHSC PFD sheets (9/1/2025 HCS and ICF; 1/1/2025 HCS). 9/1/2025 is still the latest posted HCS rate sheet. The $13.00 wage and 15% residential PTB match IL 2025-17 (Rider 23); ACRE ending matches IL 2025-21. All O*NET/BLS 2025 Texas wages check out (aide median $11.65 / 75th $13.23; DFW $12.93 / $14.51; Austin $13.64; RN $46.14; LVN $29.92; SCSM $76,520; med sec $42,910). Zillow ZORI Aug 2026 (Dallas $2,371, Houston $2,242, Austin $2,312, San Antonio $1,845), the CY2026 Medicaid fee ($750, 90 FR 55738), TWC 2.70%/$9,000, the franchise no-tax-due threshold of $2,650,000, the SOS Form 205 fee of $300, SSI $994 and the interest list data (135,497; 483 enrolled; 128,110; 9,225 added/1,835 removed; 199,471 unduplicated) all verified. Rule citations (26 TAC 263.5, 263.106, 263.502, 263.601, 565.3, 565.7, 565.9, 565.13, 565.23, 565.27, 565.41, 565.43, 52.27-52.41, 52.103(g); 1 TAC 354.4005) say what the bundle claims, and the contacts (512-438-3161, LTCRPolicy, four-person residence email, 1-800-458-9858, IDD Ombudsman, CAPM fax/mail code) match HHSC documents. Recomputing the model reproduces every figure (hcs6_rss +$7,126, BE 0.885; hcs4_rss +$2,989, BE 0.902; hcs4_rss_lowlon +$2,544; hcs3_homes -$1,712; rss4_single -$1,924; sl3_single -$3,720) and the narrative sensitivities ($14.51 -> -$4,240; $15.00 -> -$6,586; owner PM +$10,450; full SSI +$5,130; no nursing +$1,700). Staffing meets the 263.5 rules for every RSS configuration (>=730 awake hours per home). No critical issues. Main fixes: the break-even DSP wage is about $13.62, not $13.40; HHSC has published exact FY2026 cost limits (IL 2025-21), so that not_claimed item should become a claim; the 3-person SL staffing depends on an unsourced 'residents away ~130 h/month' assumption; and there are a few source-id, URL and wording fixes.",
+  "verified_count": 86,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "sections.financial_narrative (Sensitivities paragraph)",
+      "current": "any DSP wage above roughly $13.40 erases the margin at current rates",
+      "correct": "any DSP wage above roughly $13.60 erases the margin at current rates",
+      "evidence": "Recomputed with generators/model.py: at a $13.40 wage the hcs4_rss default is still +$1,074/month. Each $1/hour raises costs about $4,790/month ((4,240+2,989)/1.51), so break-even is $13.00 + 2,989/4,790 ≈ $13.62.",
+      "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-hcs-rates.pdf",
+      "fix": "Replace '$13.40' with '$13.60' (break-even DSP wage ≈ $13.62 for the default four-home configuration)."
+    },
+    {
+      "severity": "major",
+      "json_path": "not_claimed[4]",
+      "current": "Exact final HCS individual cost limit dollar amounts for FY2026 — HHSC set the method (210% of annualized ICF/IID cost by LON) [S6]; secondary estimates exist but were not verified against an HHSC publication.",
+      "correct": "HCS cost limits effective Sept. 1, 2025: LON 1/5/8 $169,182 (was $167,468); LON 6 $211,822 (was $168,615); LON 9 $392,318 (was $305,877) [S5]",
+      "evidence": "IL 2025-21, p.5: 'Intermittent (LON 1), Limited (LON 5), and Extensive (LON 8) — The amount is going from $167,468 to $169,182 ... Pervasive (LON 6): ... $168,615 to $211,822 ... Pervasive plus (LON 9): ... $305,877 to $392,318', each 210% of the annualized non-state small ICF/IID rate as of 9/1/2025. Check: $220.72 × 365 × 2.1 = $169,182.",
+      "source_url": "https://www.hhs.texas.gov/sites/default/files/documents/il2025-21.pdf",
+      "fix": "Remove this not_claimed item. Add the three cost-limit amounts to key_numbers (source S5, as_of 2025-09-01) and to sections.reimbursement 'Payment limits' in place of 'below that kind of limit'."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[id=sl3_single].staffing[0].notes / amount 637",
+      "current": "637 h/month ... covers one staff member present whenever residents are home (24 h × 30.42 days minus ~130 weekday hours when residents attend individualized skills and socialization or work)",
+      "correct": null,
+      "evidence": "26 TAC §263.5(20) requires SL staff to be 'present in the residence and ... able to respond to the needs of individuals during normal sleeping hours'. The ~130 h/month that residents are assumed to be away (ISS or work) has no source. If residents are home all day, one-person coverage is 730 h. Recomputed sl3_single at 730 h: −$5,135/month (vs −$3,720), break-even occupancy 122%.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-5",
+      "fix": "Label the ~130 h/month away from home 'operator estimate — verify locally (depends on residents' ISS/employment schedules)'. Add to financial_narrative: 'If residents are home all day (730 h), the 3-person SL home loses about $5,135/month.'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[*].staffing (program manager, office coordinator, RN) vs opex Lease (Dallas)",
+      "current": "Rent is priced at Dallas ZORI ($2,371/$2,850), but leadership and RN wages are Texas statewide medians ($76,520; $42,910; $46.14)",
+      "correct": "DFW medians: social & community service managers $80,480; medical secretaries $45,630; RN $101,420/yr ($48.76/h)",
+      "evidence": "SCHEMA lesson: keep leadership and field wages in the same geography. O*NET/BLS 2025 Dallas-Fort Worth-Arlington: 11-9151 median $80,480; 43-6013 $45,630; 29-1141 $101,420. Recomputed with DFW leadership/RN wages: hcs4_rss +$2,224 (vs +$2,989); hcs6_rss +$6,111 (vs +$7,126).",
+      "source_url": "https://www.onetonline.org/link/localwages/11-9151.00?st=TX",
+      "fix": "Either switch the leadership/RN wages to DFW or add to financial_narrative: 'At Dallas-Fort Worth leadership and RN wages, the default earns about $2,220/month.'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.payroll_burden.notes",
+      "current": "Employer FICA 7.65% + Texas SUTA 2.70% on the first $9,000 for new employers + FUTA ≈ 8.5% of DSP payroll",
+      "correct": "≈ 8.7% for a full-time DSP at $13.00 (FICA 7.65% + SUTA $243 + FUTA $42 on $27,040); higher for part-time or high-turnover staff earning under $9,000/year (up to 10.95%)",
+      "evidence": "TWC: '2026 ... entry-level rate is 2.70%'; taxable wage base $9,000. 2.7% × $9,000 = $243 plus FUTA 0.6% × $7,000 = $42, which is 1.05% of $27,040.",
+      "source_url": "https://www.twc.texas.gov/programs/unemployment-tax/tax-rates",
+      "fix": "Change '≈ 8.5%' to '≈ 8.7% for a full-time DSP (more with part-time or turnover)'. The model total of 17% can stay."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.market_conditions (Rates paragraph)",
+      "current": "raised SL/RSS base rates by about 10–23% over the January 2025 base",
+      "correct": "about 10–22% (LON 1 +10.3%, LON 5 +11.8%, LON 8 +13.6%, LON 6 +16.1%, LON 9 +22.0%)",
+      "evidence": "Jan 2025 base $149.08/$158.00/$171.04/$192.80/$280.24 vs 9/1/2025 $164.46/$176.62/$194.31/$223.81/$341.83.",
+      "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/1-1-2025-hcs-rates.pdf",
+      "fix": "Replace '10–23%' with '10–22%'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[2].source_id",
+      "current": "S3 (for 'attendant rate enhancement program ended')",
+      "correct": "S3 for the Jan 2025 base rates; S5 for ACRE ending",
+      "evidence": "The 1/1/2025 rate sheet does not say ACRE ended. IL 2025-21: 'the ACRE program will be discontinued effective Sept. 1, 2025'.",
+      "source_url": "https://www.hhs.texas.gov/sites/default/files/documents/il2025-21.pdf",
+      "fix": "Cite S5 for the ACRE-ended clause (e.g., value text '... attendant rate enhancement (ACRE) ended 9/1/2025 [S5]')."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[0].source_id",
+      "current": "S23 (phone 512-438-3234)",
+      "correct": "S24",
+      "evidence": "The How-to-Apply PDF (S23, rev. 06/2026) lists the email, fax 512-206-3916 and mail code but no phone. The HCS provider page (S24) says: 'Contracting information: 512-438-3234 / email IDD Waiver Contract Enrollment'.",
+      "source_url": "https://www.hhs.texas.gov/providers/long-term-care-providers/home-community-based-services",
+      "fix": "Set source_id to S24 for the phone, or add S24 alongside S23."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[id=S27].url",
+      "current": "https://www.hhs.texas.gov/node/17512",
+      "correct": "https://fhb.hhs.texas.gov/forms/3000-3999/form-3691-a-service-area-designation-hcs-txhml-cds-tas",
+      "evidence": "node/17512 returns HTTP 404. The live Form 3691-A page states: 'You must serve all counties served by each local service area selected' and that a non-owner certifier 'must be named on a current Form 2031'.",
+      "source_url": "https://fhb.hhs.texas.gov/forms/3000-3999/form-3691-a-service-area-designation-hcs-txhml-cds-tas",
+      "fix": "Replace the S27 URL with the fhb.hhs.texas.gov Form 3691-A page."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[45].instructions",
+      "current": "DPS criminal history (HSC §250.006 bars), sex offender registry, Employee Misconduct Registry and Nurse Aide Registry before hire and every 12 months; HHS-OIG and Texas OIG exclusion lists before hire and every month.",
+      "correct": "DPS criminal history (HSC §250.006 bars; no registered sex offenders) before hire; Employee Misconduct Registry and Nurse Aide Registry before hire and every 12 months; HHS-OIG and Texas OIG exclusion lists before hire and every month.",
+      "evidence": "26 TAC §565.9(b)(3)-(6): DPS criminal history 'before hiring'; EMR/NAR 'before hire ... and every 12 months thereafter'; LEIE lists 'every month thereafter'. No annual DPS re-check is required.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-9",
+      "fix": "Reword as in 'correct' so the 12-month repeat applies only to EMR/NAR."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[1].email; contacts[1].contact",
+      "current": "hcspolicy@hhsc.state.tx.us",
+      "correct": "HCSPolicy@hhs.texas.gov",
+      "evidence": "IL 2025-21 (Aug 2025): 'questions about cost limit changes can be sent to HCSPolicy@hhs.texas.gov'. The July 2026 LTCR webinar also lists HCSPolicy@hhs.texas.gov. The HCS page mailto still uses the legacy hhsc.state.tx.us domain.",
+      "source_url": "https://www.hhs.texas.gov/sites/default/files/documents/il2025-21.pdf",
+      "fix": "Use HCSPolicy@hhs.texas.gov (optionally note the legacy alias)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex[Annual fire marshal inspection].notes and the same line in configuration overrides",
+      "current": "$25/month per four-person home (0) is an operator estimate ...",
+      "correct": null,
+      "evidence": "Formatting artifact: '(0)', '(1)', '(2)', '(4)', '(6)' are home counts placed in parentheses that read as amounts.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-23",
+      "fix": "Reword to '$25/month × N four-person homes = $X — operator estimate of local fees, verify locally' (N = 0/1/2/4/6)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "startup_costs[Texas Medicaid (TMHP/PEMS) enrollment application fee]",
+      "current": "$0–$750; applies only to institutional provider types",
+      "correct": null,
+      "evidence": "The CY2026 fee of $750 is verified (90 FR 55738: '$749.71 ... rounded ... $750'). No TMHP or HHSC document was found that says whether HCS program providers are classed as institutional for the fee.",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "fix": "unverifiable — keep it in not_claimed as now (the $0–$750 range is appropriate)."
+    }
+  ]
+}

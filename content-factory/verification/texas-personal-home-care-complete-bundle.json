@@ -1,0 +1,107 @@
+{
+ "bundle_slug": "texas-personal-home-care-complete-bundle",
+ "checked_at": "2026-10-13",
+ "summary": "Strong research file. All five financial-model results reproduce exactly (private40 +$14,533 at 0.539 break-even; private20 +$5,363; mixed60 +$3,025; medicaid100 -$19,143; medicaid250 -$24,058), as do every sensitivity figure in the financial narrative and the ~$86/client-month Medicaid contribution. Verified against primary sources: the STAR+PLUS PAS/CFC/respite rates and $3.71/$0.69 split and the $13.00/14% PTB note (HHSC PFD 9/1/2025 sheet); all BLS OEWS 2025 wages (Texas and Houston, four occupations, via O*NET); CareScout 2025 Texas $30/hour, rank 43, 44 h/week; Houston Class B $23.23/sq ft gross (Lee & Associates Q2 2026); the $2,625 initial and three-year renewal fees (§558.3); the 45+45-day time frames (§558.31); the six-month Form 2020 survey request (§558.521); PAS-only administrator and supervisor qualifications (§558.244(a)(3), §558.404(g)); 8+16-hour administrator training (§558.259); renewal 45-day rule (§558.17); the 30-day cure rule; the PHC/CAS rules in Ch. 277 and 40 TAC §48.2918; the franchise tax $2.65M threshold and 50% Medicaid exclusion for HCSSAs; TWC 2.70% on $9,000; IRS 72.5 cents; SOS Form 205 $300; Census QuickFacts; the 198,000 interest-list figure; SPA TX-25-0005; the Aug. 2026 and Sept. 2026 Texas Register proposals; DOL travel-time guidance; the EVV deny/recoup language. Staffing satisfies Chapter 558 (no ratios; qualified administrator, alternate and supervisor). Rent is fixed and sized per configuration. Texas preempts local minimum wages, so no metro adjustment is needed. No critical issues. Main gap: the PHC/CAS/FC rate sheet the file says could not be retrieved is published ($17.13 non-priority / $17.31 priority per hour). Remaining items are citation and wording fixes. HHSC hhs.texas.gov pages (S1, S23, S24, S51, S62) block automated fetches (HTTP 403), so they were checked only through the underlying rules and search snippets. The 512-438-3550 phone number matched the HHSC 'What is PHC?' page in search results.",
+ "verified_count": 76,
+ "issues": [
+  {
+   "severity": "major",
+   "json_path": "not_claimed[0]",
+   "current": "The current HHSC fee-for-service hourly rates for Primary Home Care, Community Attendant Services and Family Care ... the PFD rate sheet could not be retrieved.",
+   "correct": "PHC, CAS and FC agency PAS effective 9/1/2025: non-priority (Level 1) $17.13/hour (attendant $14.82 + service support $2.31); priority (Level 2) $17.31/hour (+$0.18 priority). Same rates for SRO.",
+   "evidence": "HHSC PFD 'Primary Home Care, Community Attendant Services, Family Care Payment Rates Effective September 1, 2025': 'PAS - LEVEL 1 - NON-PRIORITY - NEW 7 17 G0702 $14.82 $2.31 $17.13 1 hour'; 'PAS - LEVEL 2 - PRIORITY - NEW ... G0701 $14.82 $2.31 $0.18 $17.31 1 hour'; CAS G0743/G0742 and FC G0741/G0740 identical. Note on sheet: rates 'support average attendant hourly wage of $13.00 per hour, and 14% payroll taxes and benefits'. The sheet is linked from pfd.hhs.texas.gov/long-term-services-supports/primary-home-care-phc.",
+   "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-phc-rates.pdf",
+   "fix": "Delete not_claimed[0]. Add a source (e.g. S67) 'Primary Home Care, Community Attendant Services, Family Care Payment Rates Effective September 1, 2025', HHSC Provider Finance Department, url https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-phc-rates.pdf, type official."
+  },
+  {
+   "severity": "major",
+   "json_path": "rates",
+   "current": "rates[] contains STAR+PLUS and private-pay rates only; no PHC/CAS/FC rate",
+   "correct": [
+    {
+     "payer": "HHSC fee-for-service (PHC/CAS/FC)",
+     "code": "G0702 (PHC); G0743 (CAS); G0741 (FC)",
+     "service": "Personal attendant services, non-priority (Level 1)",
+     "rate": 17.13,
+     "unit": "per hour",
+     "effective": "2025-09-01",
+     "notes": "$14.82 attendant + $2.31 service support. Bill in quarter hours (26 TAC §277.89).",
+     "source_id": "S67"
+    },
+    {
+     "payer": "HHSC fee-for-service (PHC/CAS/FC)",
+     "code": "G0701 (PHC); G0742 (CAS); G0740 (FC)",
+     "service": "Personal attendant services, priority (Level 2)",
+     "rate": 17.31,
+     "unit": "per hour",
+     "effective": "2025-09-01",
+     "notes": "$14.82 attendant + $2.31 service support + $0.18 priority.",
+     "source_id": "S67"
+    }
+   ],
+   "evidence": "Same PFD PHC/CAS/FC rate sheet as above.",
+   "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-phc-rates.pdf",
+   "fix": "Append the two rate objects shown in 'correct' to rates[] (with the new S67 source)."
+  },
+  {
+   "severity": "major",
+   "json_path": "sections.reimbursement",
+   "current": "The current PHC/CAS/FC dollar rate could not be retrieved for this report; get it from the HHSC Provider Finance Department before you bid on volume.",
+   "correct": "PHC, CAS and FC pay $17.13 per hour for non-priority clients and $17.31 for priority clients ($14.82 attendant + $2.31 service support, + $0.18 priority), effective 9/1/2025 — slightly below the $17.60 STAR+PLUS PAS rate.",
+   "evidence": "PFD PHC/CAS/FC rate sheet effective 9/1/2025 (G0702 $17.13; G0701 $17.31).",
+   "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-phc-rates.pdf",
+   "fix": "Replace that sentence with the 'correct' text citing [S67]. Also update sections.recommendations item 4 ('Consider the HHSC PHC/CAS/FC contract only after confirming the current hourly rate [S23]') to state the $17.13/$17.31 rate [S67], and add the PHC rates to checklist[43] ('Confirm the rates you'll be paid') and checklist[46] instructions."
+  },
+  {
+   "severity": "minor",
+   "json_path": "key_numbers[1]",
+   "current": {
+    "value": "Up to 45 days to find the application complete, then up to 45 days to issue (26 TAC §558.31); deficiencies must be answered within 30 days",
+    "source_id": "S4"
+   },
+   "correct": {
+    "value": "Up to 45 days to find the application complete, then up to 45 days to issue (26 TAC §558.31); missing information must be submitted within 30 days of HHSC's notice or HHSC may deny the application (§558.12)",
+    "source_id": "S4; new source for 26 TAC §558.12"
+   },
+   "evidence": "The 30-day cure period is in 26 TAC §558.12, not §558.31: 'The applicant must submit to HHSC, through the online portal, the additional information requested to complete the application by no later than 30 days after the date of the notice... If an applicant fails to submit the required information ... within 30 days ... HHSC considers the application incomplete and may deny the application.' §558.31 contains only the two 45-day time frames.",
+   "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-12",
+   "fix": "Add a source for 26 TAC §558.12 (url above) and cite it for the 30-day rule in key_numbers[1], checklist[27].cite ('26 TAC §558.12; §558.31') and sections.licensing_pathway Step 4; change 'or the application is denied' to 'or HHSC may deny the application (and keep the fee)'."
+  },
+  {
+   "severity": "minor",
+   "json_path": "checklist[27].instructions",
+   "current": "HHSC has up to 45 days to find the application complete; incomplete applications must be cured within 30 days or are denied.",
+   "correct": "HHSC has up to 45 days to find the application complete. If HHSC sends a notice of missing information, submit it within 30 days; otherwise HHSC may deny the application and does not refund the fee.",
+   "evidence": "26 TAC §558.12: '...HHSC considers the application incomplete and may deny the application. If HHSC denies the application, HHSC does not refund the license fee.' HHSC sends only one deficiency notice.",
+   "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-558-12",
+   "fix": "Replace instructions with the 'correct' text; cite '26 TAC §558.12(b); §558.31'."
+  },
+  {
+   "severity": "minor",
+   "json_path": "checklist[3].instructions",
+   "current": "Set up the franchise tax account; file the annual report even when no tax is due (threshold $2.65M for 2026–2027).",
+   "correct": "Set up the franchise tax account. At or below the $2.65M no-tax-due threshold (2026–2027 reports) no franchise tax report is due, but you must still file the Public Information Report (or Ownership Information Report) by May 15 each year.",
+   "evidence": "Texas Comptroller franchise tax page: for report years 2024 and later, entities at or below the threshold 'file your ... Public Information Report or Ownership Report if you are at or below the no tax due threshold'; No Tax Due Threshold 2026 and 2027 = $2,650,000; annual report due May 15.",
+   "source_url": "https://comptroller.texas.gov/taxes/franchise/",
+   "fix": "Replace instructions with the 'correct' text (source S38). The opex note for the franchise tax line already says this correctly."
+  },
+  {
+   "severity": "minor",
+   "json_path": "key_numbers[0].value",
+   "current": "$2,625 initial; $2,625 per three-year renewal ($1,750 two-year)",
+   "correct": "$2,625 initial; $2,625 per three-year renewal ($1,750 two-year renewal under current rule; the Sept. 18, 2026 proposed amendments would delete the two-year option)",
+   "evidence": "Texas Register 9/18/2026 proposed §558.3: '(2) renewal license fee for a three-year license--$2,625; [(3) renewal license fee for a two-year license--$1,750;]' (bracketed = deleted). Initial and three-year fees unchanged. Earliest adoption Oct. 18, 2026.",
+   "source_url": "https://www.sos.state.tx.us/texreg/archive/September182026/Proposed%20Rules/26.HEALTH%20AND%20HUMAN%20SERVICES.html",
+   "fix": "Append the parenthetical about the proposed deletion, citing S2; S14."
+  },
+  {
+   "severity": "minor",
+   "json_path": "sources[S30].title",
+   "current": "Home Health and Personal Care Aides (31-1120 combined) — Texas wages ... url .../31-1122.00?st=TX",
+   "correct": "Personal Care Aides (O*NET 31-1122.00; BLS OEWS 2025 data reported for SOC 31-1120 Home Health and Personal Care Aides) — Texas wages",
+   "evidence": "The cited O*NET page is titled 'Texas Wages: 31-1122.00 - Personal Care Aides', source 'Bureau of Labor Statistics 2025 wage data'. All figures match: Texas $21,980/$22,820/$24,230/$27,520/$31,560; Houston $22,240/$22,710/$23,440/$27,780/$31,920; DFW median $26,900; Austin $28,370; San Antonio $25,960.",
+   "source_url": "https://www.onetonline.org/link/localwages/31-1122.00?st=TX",
+   "fix": "Retitle the source as shown so the occupation label matches the page; no number changes."
+  }
+ ]
+}

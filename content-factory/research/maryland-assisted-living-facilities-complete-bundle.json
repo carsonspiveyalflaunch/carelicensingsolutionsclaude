@@ -1,0 +1,2573 @@
+{
+  "bundle_slug": "maryland-assisted-living-facilities-complete-bundle",
+  "state": "Maryland",
+  "state_code": "MD",
+  "program": "Assisted Living Facilities",
+  "state_program_name": "Assisted Living Program (Level 1, 2 or 3) licensed by MDH Office of Health Care Quality under HG §19-1801 et seq. and COMAR 10.07.14; Medicaid via the Home and Community-Based Options (Community Options) Waiver",
+  "as_of": "2026-10",
+  "report_title": "Maryland Assisted Living Program — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "COMAR 10.07.14 — Assisted Living Programs (chapter index; revised effective April 28, 2025)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/title-10/part-1/subtitle-07/chapter-10.07.14",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "COMAR 10.07.14.05 — Levels of Care (Level 1 low, Level 2 moderate, Level 3 high)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-05",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "COMAR 10.07.14.07 — Licensing Procedure (application contents, business plan and 1-year budget, provisional license, 180-day closure)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-07",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "COMAR 10.07.14.14 — Staffing Plan (24-hour on-site staff, awake overnight staff, on-site nursing)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-14",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "COMAR 10.07.14.15 — Assisted Living Manager (licensure, qualifications, Level 3 education/experience, duties)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-15",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "COMAR 10.07.14.16 — 80-Hour Assisted Living Manager Training Course (20 hours CE every 2 years; $10,000 penalty)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-16",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "COMAR 10.07.14.17 — 80-hour Assisted Living Manager Basic Training Course content",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-17",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "COMAR 10.07.14.19 — Other Staff Qualifications and training (first aid, CPR, 6-hour/2-hour cognitive impairment training)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-19",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "COMAR 10.07.14.21 — Delegating Nurse (signed RN agreement, Board of Nursing course, on-site every 45 days)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-21",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "COMAR 10.07.14.31 — Medication Management and Administration (CMT requirement, 6-month pharmacist review, 45-day RN review)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-31",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "COMAR 10.07.14.22 — Preadmission Requirements (Resident Assessment Tool within 30 days; 6-month review)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-22",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "COMAR 10.07.14.12 — Compliance Monitoring (annual on-site survey, up to 18 months if clean)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-12",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "COMAR 10.07.14.08 — Changes Affecting the License (beds, level, ownership, closure, SDAT good standing)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-08",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "COMAR 10.07.14.47 — Emergency Preparedness (NFPA 101, extinguishers, emergency plan, generator at 50+ residents)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-47",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "COMAR 10.07.14.50 — Resident's Room and Furnishings (max 2 per room; 80/120 sq ft)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-50",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "COMAR 10.07.14.51 — Bathrooms for Residents (1 toilet and 1 sink per 4; 1 tub/shower per 8)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-51",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "COMAR 10.07.14.49 — Common Use Areas (35 sq ft per bed; 17+ beds public restrooms and COMAR 10.15.03 food service)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-49",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "COMAR 10.07.14.30 — Services (3 meals + snacks; dietitian/nutritionist menu review before licensure and every 3 years)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-30",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "COMAR 10.07.14.39 — Protection of a Resident's Personal Funds (bond/letter of credit/net assets equal to average balance)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-39",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "COMAR 10.07.14.23 — Admission Requirements (who may not be admitted)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-23",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "COMAR 10.07.14.18 — Alternate Assisted Living Manager",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-18",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "COMAR 10.07.14.13 — Administration (quality assurance plan; ALM–delegating nurse meeting every 6 months)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-13",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "COMAR 10.07.14.32 — Alzheimer's Special Care Unit",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-32",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "COMAR 10.07.14.43 — Water Supply (hot water 100–120°F at fixtures, anti-scald valves)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-43",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Assisted Living Programs — OHCQ program page (COMAR 10.07.14 revised effective April 28, 2025; Assisted Living Team contacts)",
+      "publisher": "Maryland Department of Health, Office of Health Care Quality",
+      "url": "https://health.maryland.gov/ohcq/Pages/Assisted-Living-Programs.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Application for Assisted Living Program License (form dated 04.13.2026) — 'There is no fee to apply'; Steps One–Three",
+      "publisher": "MDH Office of Health Care Quality",
+      "url": "https://health.maryland.gov/ohcq/docs/Applications/APPLICATION_AL-License-04.13.2026-A.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Assisted Living Manager Training Course — approved vendors, 20-hour refresher, vendor policy (June 2026)",
+      "publisher": "MDH Office of Health Care Quality",
+      "url": "https://health.maryland.gov/ohcq/Pages/Assisted-Living-Manager-Training-Course.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "Assisted Living Managers — licensure required effective July 1, 2026; $100 application + $200 license fee; CHRC",
+      "publisher": "Maryland State Board of Long-Term Care Administrators",
+      "url": "https://health.maryland.gov/bonha/Pages/Assisted-Living-Managers.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "Fiscal and Policy Note, SB 613 (2024) — ALM licensure delayed to July 1, 2026; 1,721 programs (June 2023), 77% with 9 or fewer beds",
+      "publisher": "Maryland Department of Legislative Services",
+      "url": "https://mgaleg.maryland.gov/2024RS/fnotes/bil_0003/sb0613.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "Health-General §19-1807 — Assisted living manager training (80 hours with exam; 20 hours CE every 2 years)",
+      "publisher": "Maryland General Assembly",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=19-1807&enactments=false",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Health-General §19-1801 — Definition of assisted living program",
+      "publisher": "Maryland General Assembly",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=19-1801&enactments=false",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "OHCQ presentation to the MHCC Assisted Living Workgroup (Dec. 5, 2022) — 1,699 programs, 25,391 beds, counts by bed size and county",
+      "publisher": "Maryland Health Care Commission / OHCQ",
+      "url": "https://www.mhcc.maryland.gov/sites/default/files/2025-01/al_wkgrp_OHCQ_reg_oversight.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "House Health Committee Briefing: Nursing Home Inspections & Unlicensed Assisted Living Facilities (Feb. 5, 2026) — 1,617 licensed ALPs",
+      "publisher": "Maryland Department of Health / OHCQ",
+      "url": "https://mgaleg.maryland.gov/meeting_material/2026/hlt%20-%20134147734057168826%20-%20Briefing%20Materials.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "PT 04-25: Fiscal Year 2025 Rates for HCBOW and ICS (effective July 1, 2024) — W0226–W0229, W0221",
+      "publisher": "Maryland Medicaid, Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/Transmittals_FY2025/PT%2004-25%20Fiscal%20Year%202025%20Rates%20for%20HCBOW%20and%20ICS.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "COMAR 10.09.54.22 — Home and Community-Based Options Waiver payment procedures (rates; payment = lesser of customary charge or rate)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-22",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "COMAR 10.09.54.03 — Waiver eligibility and cost of care (room and board charge not exceeding $420/month)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-03",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "COMAR 10.09.54.05 — Requirements for assisted living waiver providers (1 staff per 8 residents in daytime; quarterly case manager visits)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-05",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "COMAR 10.09.54.13 — Covered assisted living services (excludes room and board)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-13",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "Analysis of the FY 2026 Maryland Executive Budget — M00Q01 Medical Care Programs Administration (LTSS rate history; proposed 1% FY26 increase)",
+      "publisher": "Maryland Department of Legislative Services",
+      "url": "https://mgaleg.maryland.gov/pubs/budgetfiscal/2026fy-budget-docs-operating-M00Q01-MDH-Medical-Care-Programs-Administration.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "Analysis of the FY 2027 Maryland Executive Budget — M00Q01 Medical Care Programs Administration ('level rates for long-term services and supports providers')",
+      "publisher": "Maryland Department of Legislative Services",
+      "url": "https://mgaleg.maryland.gov/pubs/budgetfiscal/2027fy-budget-docs-operating-M00Q01-MDH-Medical-Care-Programs-Administration.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "Analysis of the FY 2027 Maryland Executive Budget — M00 MDH Overview (Community Options Waiver registry 23,461; 6,348 slots, 4,253 filled, FY2025)",
+      "publisher": "Maryland Department of Legislative Services",
+      "url": "https://mgaleg.maryland.gov/pubs/budgetfiscal/2027fy-budget-docs-operating-M00-MDH-Overview.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "PT 70-26: FY2026 Case Management Rates for Medical Day Care Services ($23.2645 per 15 minutes, March 2026)",
+      "publisher": "Maryland Medicaid",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT70-26_FY26_Case_Management_Rates_for_MDC_Services.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "PT 29-27: Assisted Living Provider Billing System Transition to LTSSMaryland (effective Oct. 1, 2026)",
+      "publisher": "Maryland Medicaid",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT29-27_Assisted_Living_Provider_Billing_System_Transition.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "PT 36-27: MPRIME Launch — Day One Provider Actions and Enrollment Policy Updates (Oct. 2026; SDAT number required)",
+      "publisher": "Maryland Medicaid, Office of Medicaid Provider Services",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT36-27_MPRIME_Launch_Day_One_Provider_Actions_and_Enrollment_Policy_Updates.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "Home and Community-Based Options Waiver (Community Options) — eligibility, registry via Maryland Access Point 844-627-5465",
+      "publisher": "Maryland Medicaid",
+      "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-options-waiver.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Senior Assisted Living Subsidy Program — maximum $1,056/month, age 62+, income ≤60% of State median",
+      "publisher": "Maryland Department of Aging",
+      "url": "https://aging.maryland.gov/Pages/senior-assisted-living-subsidy-program.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "Cost of Care Survey 2025 — Median Cost Data Tables (Maryland assisted living $7,173/month, $86,070/year; U.S. $6,200/month; private one-bedroom)",
+      "publisher": "CareScout",
+      "url": "https://assets.carescout.com/x/8fcb50422f/282102.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "Senior Housing Occupancy Climbs in Second Quarter 2026 (assisted living 88.4%, 31 primary markets)",
+      "publisher": "NIC",
+      "url": "https://www.nic.org/blog/senior-housing-occupancy-climbs-in-second-quarter-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Occupational Employment and Wage Statistics, May 2025, Maryland (31-1120, 31-1131, 29-1141, 29-2061, 11-9111, 11-9151, 35-2012, 35-2021, 37-2012, 39-9099, 43-6014, 49-9071)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://data.bls.gov/oes/#/area/2400000",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "OEWS May 2025 state data file (state_M2025_dl.xlsx)",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/oes/special-requests/oesm25st.zip",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Maryland Minimum Wage and Overtime Law facts ($15.00 State; Montgomery County $18.00/$16.50/$15.95 and Howard County $16.00 as of July 1, 2026)",
+      "publisher": "Maryland Department of Labor",
+      "url": "https://www.labor.maryland.gov/labor/wages/wagehrfacts.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "Unemployment Insurance tax rates (2026 new employer rate 1.0%–2.6%; $8,500 wage base; Table A)",
+      "publisher": "Maryland Department of Labor",
+      "url": "https://www.labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Social Security & Medicare tax rates (employer 7.65%)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/progdata/taxRates.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "Corporations & Associations §1-203 — SDAT fees (LLC articles $100; LLC annual report $300; certificate of status $20)",
+      "publisher": "Maryland General Assembly",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gca&section=1-203&enactments=false",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "Form 1 Annual Report & Business Personal Property Return manual (LLC $300; due April 15)",
+      "publisher": "Maryland State Department of Assessments and Taxation",
+      "url": "https://dat.maryland.gov/SDAT%20Forms/PPR_Forms/2024_Form_1_Manual.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "HUD FY2027 Small Area Fair Market Rent — ZIP 21234 Parkville (Baltimore-Columbia-Towson MSA): 3BR $2,480, 4BR $2,750",
+      "publisher": "HUD data via FairMarketRentMap",
+      "url": "https://fairmarketrentmap.com/zip/21234",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "HUD FY2027 Small Area Fair Market Rent — ZIP 20774 Upper Marlboro (Washington DC HMFA): 3BR $3,440, 4BR $4,050",
+      "publisher": "HUD data via FairMarketRentMap",
+      "url": "https://fairmarketrentmap.com/zip/20774",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "How to Become a Medication Technician (20-hour Board-approved course; assisted living setting; 2-year renewal with 100 practice hours)",
+      "publisher": "Maryland Board of Nursing",
+      "url": "https://health.maryland.gov/mbon/Pages/medtech-become-medtech.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "RN Case Manager/Delegating Nurse Training Program in Assisted Living (NRN-500, 16 hours, $298 in-county)",
+      "publisher": "Anne Arundel Community College",
+      "url": "https://www.aacc.edu/programs-and-courses/job-training/healthcare-professions/delegating-nurse",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S60",
+      "title": "Assisted Living Manager (80 hours, $1,209; OHCQ-approved coursework)",
+      "publisher": "Carroll Community College",
+      "url": "https://carrollcc.edu/?p=1085",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S61",
+      "title": "Medicare and Medicaid Programs; CY 2026 provider enrollment application fee ($750) — Federal Register Vol. 90 No. 230",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S62",
+      "title": "SSI Federal Payment Amounts for 2026 ($994 individual)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/cola/SSIamts.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S63",
+      "title": "2016 Fee Reduction Summary (former assisted living license fees $50–$375/year, COMAR 10.07.14.07 as of 8/29/2016)",
+      "publisher": "MDH Office of Health Care Quality",
+      "url": "https://health.maryland.gov/ohcq/SiteAssets/Pages/home/2016%20Fee%20Reduction%20Summary.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S64",
+      "title": "Get an employer identification number",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S65",
+      "title": "COMAR 10.07.14.02 — Definitions (certified medication technician; delegation of nursing tasks; Resident Assessment Tool)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-02",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S66",
+      "title": "Topic no. 759, Form 940 — Employer's Annual Federal Unemployment (FUTA) Tax Return (6.0% on first $7,000; up to 5.4% credit)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/taxtopics/tc759",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S67",
+      "title": "COMAR 10.07.14.04 — License Required (license by number of beds and level of care)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-04",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S68",
+      "title": "COMAR 10.07.14.09 — Licensure Standards Waiver (45-day written decision)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-09",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S69",
+      "title": "SDAT 2024 Form 1 Manual — Business Personal Property Return required when total original cost of personal property is $20,000 or more",
+      "publisher": "Maryland State Department of Assessments and Taxation",
+      "url": "https://dat.maryland.gov/SDAT%20Forms/PPR_Forms/2024_Form_1_Manual.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S70",
+      "title": "Baltimore County tax rates — personal property $2.75 per $100 of assessed value",
+      "publisher": "Baltimore County Government",
+      "url": "https://baltimorecountymd.gov/departments/budfin/taxpayer-services/tax-rates",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S71",
+      "title": "SB 613 (2024) enacted text — Health Occ. §9-3A-01(b)(2): interim ALM provisional period up to 90 days, extendable up to 30 days",
+      "publisher": "Maryland General Assembly",
+      "url": "https://mgaleg.maryland.gov/2024RS/bills/sb/sb0613t.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S72",
+      "title": "MDH report on personal care aide rates (JCR, July 2025) — FY2026 LTSS 'service rates will remain unchanged and will not receive an increase'",
+      "publisher": "Maryland Department of Health",
+      "url": "https://health.maryland.gov/mmcp/Documents/RSApersonalcareaideratesJCRfinal7-25.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S73",
+      "title": "COMAR 10.07.14.27 — Resident agreement financial terms (at least 45 calendar days notice of rate increase)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-27",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S74",
+      "title": "COMAR 10.07.14.61 — Criminal Penalties (unlicensed operation; 30-day compliance notice)",
+      "publisher": "Code of Maryland Regulations via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-61",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Licensed assisted living programs in Maryland",
+      "value": "1,617",
+      "source_id": "S33",
+      "as_of": "Feb. 2026"
+    },
+    {
+      "metric": "Programs with 16 or fewer beds / 6 or fewer beds",
+      "value": "1,507 of 1,699 (89%) / 897 (53%); 25,391 total beds",
+      "source_id": "S32",
+      "as_of": "OHCQ directory, Dec. 2022 presentation"
+    },
+    {
+      "metric": "OHCQ license application fee",
+      "value": "$0 — 'There is no fee to apply for a license'",
+      "source_id": "S26",
+      "as_of": "Form dated 04.13.2026"
+    },
+    {
+      "metric": "Levels of care",
+      "value": "Level 1 (low), Level 2 (moderate), Level 3 (high); license is issued for a bed count and a level",
+      "source_id": "S2",
+      "as_of": "COMAR 10.07.14.05, eff. 4/28/2025"
+    },
+    {
+      "metric": "Assisted living manager (ALM) license",
+      "value": "Required from July 1, 2026 (Board of LTC Administrators); $100 application + $200 license",
+      "source_id": "S28",
+      "as_of": "2026"
+    },
+    {
+      "metric": "ALM training",
+      "value": "80-hour OHCQ-approved course with exam; 20 hours CE every 2 years; up to $10,000 penalty",
+      "source_id": "S30",
+      "as_of": "HG §19-1807"
+    },
+    {
+      "metric": "Delegating nurse",
+      "value": "Signed RN agreement; Board of Nursing course; on site to observe each resident at least every 45 days",
+      "source_id": "S9",
+      "as_of": "COMAR 10.07.14.21"
+    },
+    {
+      "metric": "CO Waiver assisted living rates (W0226 / W0227)",
+      "value": "$90.74/day Level II; $114.51/day Level III (no medical day care)",
+      "source_id": "S34",
+      "as_of": "Eff. July 1, 2024; no later HCBOW rate transmittal found"
+    },
+    {
+      "metric": "Room & board a waiver resident may be charged",
+      "value": "Up to $420/month (waiver pays services only)",
+      "source_id": "S36",
+      "as_of": "COMAR 10.09.54.03D"
+    },
+    {
+      "metric": "Community Options Waiver registry",
+      "value": "23,461 people waiting; 6,348 slots, 4,253 filled",
+      "source_id": "S41",
+      "as_of": "June 30, 2025 (FY2025)"
+    },
+    {
+      "metric": "Private-pay assisted living median (Maryland)",
+      "value": "$7,173/month (private one-bedroom); U.S. $6,200",
+      "source_id": "S47",
+      "as_of": "CareScout 2025"
+    },
+    {
+      "metric": "Wages",
+      "value": "State minimum $15.00 (Montgomery Co. large employers $18.00); MD median aide $18.29, nursing assistant $20.79, RN $47.98",
+      "source_id": "S49",
+      "as_of": "BLS May 2025; MD DOL July 2026"
+    }
+  ],
+  "not_claimed": [
+    "A numeric staff-to-resident ratio under the licensing rule. COMAR 10.07.14.14 requires 'sufficient' staff, a staff member present whenever a resident is in the building, and awake overnight staff when the Resident Assessment Tool triggers it, but sets no ratio [S4]. The only ratio found is the CO Waiver provider rule of 1 staff per 8 residents in daytime [S37].",
+    "A current OHCQ annual or biennial license fee. The 2016 fee table ($50–$375/year by size) [S63] no longer appears in the April 2025 rule, and the 2026 application says there is no fee to apply [S26]. Confirm with OHCQ whether any renewal fee applies.",
+    "That the FY2025 CO Waiver rates are still in force through FY2027 is inferred, not published as a rate table: no FY2026 or FY2027 HCBOW rate transmittal exists in MDH's transmittal library, MDH states FY2026 LTSS service rates 'will remain unchanged' [S72], the FY2027 budget provides 'level rates' for LTSS providers [S40], and the FY2026 case-management rate equals the FY2025 rate [S42]. Confirm the rate with MDH Office of Long Term Services and Supports before billing.",
+    "That the $420/month room-and-board limit in COMAR 10.09.54.03D [S36] has not been changed by a waiver amendment. Confirm the current limit with MDH.",
+    "Maryland-specific or small-home occupancy rates. The 88.4% NIC figure is for professionally managed communities in 31 primary U.S. markets [S48].",
+    "Private-pay prices for 4–16 bed homes. CareScout's $7,173 Maryland median is for a private one-bedroom in an assisted living community [S47]; the $6,100 small-home price is an operator assumption.",
+    "Rent for 8-, 16- and 40-bed properties. HUD FMRs stop at 4 bedrooms; larger-property rents are operator estimates.",
+    "Insurance premiums and a workers' compensation class rate. No liability-insurance minimum exists in COMAR 10.07.14; premiums and the 4% comp rate are operator estimates.",
+    "OHCQ processing time. No published service standard exists; the rule only says incomplete applications may be closed after 180 days [S3].",
+    "Whether a specific county or city requires a separate local license, rental license or fee. COMAR 10.07.14.07B(4) allows OHCQ to request local items such as a rental license or food service permit [S3]; requirements vary by jurisdiction.",
+    "Sprinkler requirements for a particular building. COMAR 10.07.14.47 requires NFPA 101 (including Chapter 24 for one- and two-family dwellings) and local fire codes [S14]; the local fire authority decides what a given building needs.",
+    "Named competitors, market shares or county-level demand forecasts. No public source.",
+    "Operating-cost lines marked 'Operator estimate' (food, utilities, supplies, software, accounting, marketing, training, delegating nurse hours, furnishings, renovations, deposits) are planning placeholders, not sourced figures.",
+    "CO Waiver respite limits (e.g., a 14-day cap per occurrence or a bar on same-day billing with assisted living services). The cited rule COMAR 10.09.54.22 [S35] does not contain them; confirm respite limits with MDH OLTSS."
+  ],
+  "regulators": [
+    {
+      "name": "Maryland Department of Health, Office of Health Care Quality (OHCQ) — Assisted Living Team",
+      "role": "Licenses, surveys and investigates assisted living programs under COMAR 10.07.14; approves ALM training vendors and Alzheimer's units",
+      "url": "https://health.maryland.gov/ohcq/Pages/Assisted-Living-Programs.aspx",
+      "phone": "(410) 402-8217 / (800) 492-6005; fax (410) 402-8211",
+      "email": "",
+      "source_id": "S25"
+    },
+    {
+      "name": "Maryland State Board of Long-Term Care Administrators",
+      "role": "Licenses assisted living managers (required from July 1, 2026)",
+      "url": "https://health.maryland.gov/bonha/Pages/Assisted-Living-Managers.aspx",
+      "phone": "(410) 767-6500 / 1-877-463-3464 (MDH main)",
+      "email": "",
+      "source_id": "S28"
+    },
+    {
+      "name": "Maryland Board of Nursing",
+      "role": "Certifies medication technicians; approves the delegating nurse course; regulates nurse delegation (COMAR 10.27.11)",
+      "url": "https://health.maryland.gov/mbon/Pages/medtech-become-medtech.aspx",
+      "phone": "",
+      "email": "",
+      "source_id": "S58"
+    },
+    {
+      "name": "Maryland Medicaid — Office of Long Term Services and Supports",
+      "role": "Runs the Home and Community-Based Options (Community Options) Waiver and sets assisted living waiver rates",
+      "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-options-waiver.aspx",
+      "phone": "410-767-1739",
+      "email": "",
+      "source_id": "S45"
+    },
+    {
+      "name": "Maryland Medicaid — Office of Medicaid Provider Services (MPRIME)",
+      "role": "Medicaid provider enrollment and revalidation (MPRIME live Oct. 13, 2026)",
+      "url": "https://www.mprime.health.maryland.gov",
+      "phone": "1-844-463-7768",
+      "email": "mdh.mprimegolive@maryland.gov",
+      "source_id": "S44"
+    },
+    {
+      "name": "Maryland Department of Aging",
+      "role": "Senior Assisted Living Subsidy program; Maryland Access Point (waiver registry intake)",
+      "url": "https://aging.maryland.gov/Pages/senior-assisted-living-subsidy-program.aspx",
+      "phone": "844-627-5465 (Maryland Access Point)",
+      "email": "",
+      "source_id": "S46"
+    },
+    {
+      "name": "Maryland State Department of Assessments and Taxation (SDAT)",
+      "role": "Entity formation, annual report, good standing (license and Medicaid condition)",
+      "url": "https://dat.maryland.gov",
+      "phone": "",
+      "email": "",
+      "source_id": "S54"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "Health-General §§19-1801 et seq.",
+      "title": "Assisted Living Programs statute (definition, levels, manager training, penalties)",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=19-1801&enactments=false",
+      "source_id": "S31"
+    },
+    {
+      "cite": "HG §19-1807",
+      "title": "Assisted living manager 80-hour training and 20-hour CE",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=19-1807&enactments=false",
+      "source_id": "S30"
+    },
+    {
+      "cite": "Health Occupations §9-3A-01",
+      "title": "Assisted living manager licensure by the Board of Long-Term Care Administrators (effective July 1, 2026 per SB 613 of 2024)",
+      "url": "https://mgaleg.maryland.gov/2024RS/fnotes/bil_0003/sb0613.pdf",
+      "source_id": "S29"
+    },
+    {
+      "cite": "COMAR 10.07.14 (eff. 4/28/2025)",
+      "title": "Assisted Living Programs — licensing, staffing, services, physical plant, sanctions",
+      "url": "https://www.law.cornell.edu/regulations/maryland/title-10/part-1/subtitle-07/chapter-10.07.14",
+      "source_id": "S1"
+    },
+    {
+      "cite": "COMAR 10.07.14.05",
+      "title": "Levels of care",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-05",
+      "source_id": "S2"
+    },
+    {
+      "cite": "COMAR 10.07.14.07",
+      "title": "Licensing procedure",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-07",
+      "source_id": "S3"
+    },
+    {
+      "cite": "COMAR 10.07.14.14",
+      "title": "Staffing plan, awake overnight staff, on-site nursing",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-14",
+      "source_id": "S4"
+    },
+    {
+      "cite": "COMAR 10.07.14.15–.18",
+      "title": "Assisted living manager, 80-hour course, alternate manager",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-15",
+      "source_id": "S5"
+    },
+    {
+      "cite": "COMAR 10.07.14.19",
+      "title": "Other staff qualifications and training",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-19",
+      "source_id": "S8"
+    },
+    {
+      "cite": "COMAR 10.07.14.21",
+      "title": "Delegating nurse",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-21",
+      "source_id": "S9"
+    },
+    {
+      "cite": "COMAR 10.07.14.22",
+      "title": "Preadmission requirements and Resident Assessment Tool",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-22",
+      "source_id": "S11"
+    },
+    {
+      "cite": "COMAR 10.07.14.31",
+      "title": "Medication management and administration",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-31",
+      "source_id": "S10"
+    },
+    {
+      "cite": "COMAR 10.07.14.47",
+      "title": "Emergency preparedness and fire safety",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-47",
+      "source_id": "S14"
+    },
+    {
+      "cite": "COMAR 10.07.14.49–.51",
+      "title": "Common areas, resident rooms, bathrooms",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-50",
+      "source_id": "S15"
+    },
+    {
+      "cite": "COMAR 10.09.54",
+      "title": "Home and Community-Based Options Waiver (eligibility, provider requirements, rates)",
+      "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-05",
+      "source_id": "S37"
+    },
+    {
+      "cite": "Corps. & Ass'ns §1-203",
+      "title": "SDAT filing fees",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gca&section=1-203&enactments=false",
+      "source_id": "S54"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Maryland Medicaid — CO Waiver",
+      "code": "W0226",
+      "service": "Assisted living Level II, no medical day care",
+      "rate": 90.74,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Services only; room and board excluded [S38]. Medicaid reduces its payment by the resident's available income, which the resident pays to you [S36]. No later rate transmittal found. FY2026 rates unchanged [S72]; FY2027 held level [S40].",
+      "source_id": "S34"
+    },
+    {
+      "payer": "Maryland Medicaid — CO Waiver",
+      "code": "W0227",
+      "service": "Assisted living Level III, no medical day care",
+      "rate": 114.51,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Requires a Level 3 license. Used in the model's mixed configurations.",
+      "source_id": "S34"
+    },
+    {
+      "payer": "Maryland Medicaid — CO Waiver",
+      "code": "W0228",
+      "service": "Assisted living Level II, with medical day care",
+      "rate": 68.09,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Lower rate on days the resident attends medical day care.",
+      "source_id": "S34"
+    },
+    {
+      "payer": "Maryland Medicaid — CO Waiver",
+      "code": "W0229",
+      "service": "Assisted living Level III, with medical day care",
+      "rate": 85.86,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "",
+      "source_id": "S34"
+    },
+    {
+      "payer": "Maryland Medicaid — CO Waiver",
+      "code": "W0221",
+      "service": "Respite care provided in an assisted living facility",
+      "rate": 114.51,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Respite rate shown for context only; it is not used in the model.",
+      "source_id": "S34"
+    },
+    {
+      "payer": "Waiver resident",
+      "code": "",
+      "service": "Room and board charge to a waiver participant (maximum)",
+      "rate": 420,
+      "unit": "per month",
+      "effective": "2014-04-28 (rule date)",
+      "notes": "COMAR 10.09.54.03D(1)(a). Confirm current limit with MDH.",
+      "source_id": "S36"
+    },
+    {
+      "payer": "Maryland Department of Aging — SALS",
+      "code": "",
+      "service": "Senior Assisted Living Subsidy, maximum paid to provider",
+      "rate": 1056,
+      "unit": "per month",
+      "effective": "current (MDoA page)",
+      "notes": "Covers the gap between resident income (after a $130 personal allowance) and the approved fee; facility needs a service agreement with the local Area Agency on Aging.",
+      "source_id": "S46"
+    },
+    {
+      "payer": "Private pay",
+      "code": "",
+      "service": "Assisted living, Maryland median (private one-bedroom), 2025",
+      "rate": 7173,
+      "unit": "per month",
+      "effective": "2025",
+      "notes": "$86,070/year. U.S. median $6,200/month. Measures community units, not shared rooms in small homes.",
+      "source_id": "S47"
+    },
+    {
+      "payer": "Maryland Medicaid — CO Waiver",
+      "code": "W0199",
+      "service": "Case management (ongoing) — paid to the case management agency, not the assisted living program",
+      "rate": 23.2645,
+      "unit": "per 15 minutes",
+      "effective": "2024-07-01",
+      "notes": "Shown for context; same amount used for MDC case management in March 2026 [S42].",
+      "source_id": "S34"
+    }
+  ],
+  "sections": {
+    "executive_summary": "Maryland calls assisted living an **Assisted Living Program (ALP)**. It is licensed by the Maryland Department of Health's **Office of Health Care Quality (OHCQ)** under Health-General §19-1801 et seq. and **COMAR 10.07.14**, which was rewritten effective **April 28, 2025** [S31][S1][S25]. Each license names a bed count and one of three levels of care: **Level 1 (low), Level 2 (moderate) or Level 3 (high)** [S67][S2]. The same license covers a 4-bed house and a 150-unit community.\n\n**The market is made of small homes.** OHCQ counted **1,699 programs with 25,391 beds**; **1,507 (89%) had 16 or fewer beds** and **897 had 6 or fewer** [S32]. A 2024 legislative note put 77% of programs at 9 or fewer beds [S29]. OHCQ reported **1,617 licensed programs in February 2026** [S33]. Small homes cluster in Baltimore City (395 of 402 programs at 16 beds or fewer) and Prince George's County (294 of 304) [S32].\n\n**There is no OHCQ application fee**, but two people requirements have tightened. From **July 1, 2026, every assisted living manager must hold a license** from the Board of Long-Term Care Administrators ($100 application + $200 license) [S28][S29]. The manager must also complete an **80-hour approved course with an exam**, plus 20 hours of CE every two years [S30][S6]. Every program also needs a **delegating nurse**: an RN under contract who has taken the Board of Nursing course and observes every resident on site **at least every 45 days** [S9].\n\n**Revenue is mostly private pay.** CareScout's 2025 Maryland median is **$7,173/month** for a private one-bedroom in an assisted living community [S47]. Medicaid pays through the **Home and Community-Based Options Waiver (Community Options, or CO, Waiver)** at **$90.74/day (Level II) or $114.51/day (Level III)** for services only [S34][S38]. The resident may be charged no more than **$420/month for room and board** [S36]. Demand for waiver beds is large: **23,461 people were on the CO Waiver registry** in June 2025 [S41].\n\n**Bottom line from the P&L.** At 90% occupancy, a 4-bed home loses money because one paid caregiver must be present around the clock. An 8-bed home roughly breaks even. A **16-bed Level 3 home is clearly profitable** (about +$27,600/month), and stays below the 17-bed line where extra building and food-service rules start. A 40-bed facility is the most profitable but needs far more capital. Each waiver resident brings in about $3,900/month, compared with $6,100 for a modeled private-pay resident. Waiver beds work as a minority share in a 16-bed home, but not in an 8-bed home. See Section 8.",
+    "service_model": "### Who is served\nAn assisted living program provides housing and supportive services, supervision, personalized help, and health-related services to people who need help with daily activities [S31]. Programs may not admit anyone who, at admission, would need more than intermittent nursing care, stage 3–4 wound care, ventilator care, or skilled monitoring of an unstable condition. The exception is a resident whose needs are met through a licensed hospice [S20].\n\n### Levels of care (COMAR 10.07.14.05)\nThe applicant picks one level and must show staff able to deliver it [S2]:\n- **Level 1 (low):** occasional supervision, set-up or reminders with two or more ADLs; help taking medication; occasional, uncomplicated behavior support.\n- **Level 2 (moderate):** substantial help with two or more ADLs, or minimal help with any number; may administer medication and monitor effects; frequent behaviors.\n- **Level 3 (high):** comprehensive help with any number of ADL deficits; complex medication regimens; nursing overview; chronic behaviors needing intensive supervision.\n\nA program may serve its licensed level and any lower level. Serving a resident above the level needs a written resident-specific waiver from OHCQ [S67]. **CO Waiver assisted living rates exist only for Level II and Level III** [S34]. Confirm with MDH OLTSS whether a Level 1-licensed program can enroll. The model assumes Level 3, which most operators choose so residents can age in place.\n\n### Regulatory framework\n- **OHCQ** licenses and surveys programs at least once a year. OHCQ can stretch the interval to 18 months for a clean program [S12].\n- **Board of Long-Term Care Administrators** licenses assisted living managers (ALMs) from July 1, 2026 [S28].\n- **Board of Nursing** certifies medication technicians (CMTs) and approves the delegating nurse course [S58][S59].\n- **Maryland Medicaid (Office of Long Term Services and Supports)** enrolls CO Waiver providers and sets rates [S45].\n- An **Alzheimer's Special Care Unit** needs OHCQ's written approval of a disclosure form before it opens, and always needs awake overnight staff [S23][S4][S26].\n\n### Physical standards that shape small homes\n- No more than **two residents per room**, with at least **80 sq ft (single)** or **120 sq ft (double)** of functional space [S15].\n- At least **one toilet and one sink per 4 occupants**, and one tub or shower per 8 [S16].\n- At least **35 sq ft of common space per licensed bed** [S17].\n- Hot water blended to **100–120°F** at fixtures [S24].\n- Compliance with **NFPA 101**, including Chapter 24 for one- and two-family dwellings [S14].\n\n**At 17 or more beds**, the program also needs:\n- corridor assist rails and public restrooms;\n- COMAR 10.15.03 food-service compliance and a food service permit;\n- a State Engineer site-plan review [S17][S26].\n\nAn emergency generator is required only at **50 or more residents** [S14].",
+    "licensing_pathway": "OHCQ licensing has **three steps**, set out on the April 2026 application [S26]. **There is no fee to apply** [S26].\n\n**Before you apply**\n1. Form a Maryland entity with SDAT: $100 for LLC articles; $20 certificate of status [S54]. OHCQ requires an official letter of good standing [S26].\n2. Secure the building by deed or lease (OHCQ must see proof of control) [S3]. If it is in an HOA, condominium or co-op, get the community's written approval [S26].\n3. Confirm zoning or use-and-occupancy with the county or city [S3][S26].\n4. Hire or become a **licensed ALM**. Required from July 1, 2026: $100 application + $200 license fee, State and FBI criminal history check, about 10 business days after a complete file [S28]. The ALM needs an **80-hour course with exam** (one approved vendor charges $1,209) [S30][S60]. A **Level 3** ALM also needs a 4-year degree, or 2 years of health care experience plus ALM experience or the 80-hour course [S5]. Name an **alternate ALM**: age 21+, with 2 years of health experience [S21].\n5. Sign a **delegating nurse** agreement with an RN who completed the Board of Nursing course (e.g., a 16-hour, $298 course) [S9][S59].\n\n**Step One — application and attachments.** Submit the typed application online through OHCQ's \"Submit a License Application\" link [S26]. Include:\n- proof of control of the building;\n- HOA approval, if applicable;\n- **a business plan and a 1-year operating budget**;\n- the SDAT good-standing letter;\n- the Alzheimer's unit disclosure form, if applicable [S26][S3].\n\nDo not start Step Two until OHCQ says Step One is complete [S26].\n\n**Step Two — additional documents** [S26]:\n- **Site plan.** Under 17 beds, a scaled sketch is enough. 17+ beds need an approved State Engineer plan review (667-203-9124).\n- **Use and occupancy permit** or zoning approval.\n- **Fire inspection report.** In Baltimore City and Baltimore County, programs of 1–16 beds submit the local health department environmental report instead.\n- **Food service permit** (17+ beds only).\n- **Uniform Disclosure Statement** and resident agreement.\n- **Workers' compensation** declaration page, or a certificate of compliance/exemption.\n\n**Step Three — on-site survey** [S26]. The surveyor tours the building, interviews staff and reviews:\n- background checks for owners, managers, staff and household members;\n- ALM, alternate ALM and delegating nurse credentials;\n- 12 required policies (e.g., abuse, emergency plan, quality assurance, complaints);\n- a **4-week menu reviewed by a licensed dietitian or nutritionist** [S26][S18].\n\nIf deficiencies are cited, you have **10 business days** to submit a plan of correction [S26]. OHCQ may approve unconditionally, approve with conditions (including a required management firm for up to 24 months), or deny [S3]. It may also issue a **provisional license** while non-hazardous deficiencies are corrected [S3]. **You may not operate until a license or provisional license is issued** [S3]. An incomplete application may be closed after **180 days** [S3]. OHCQ publishes no processing time.\n\n**After licensure**\n- Post the license in a common area [S67].\n- Stay in good standing with SDAT. OHCQ may void the license 60 days after notice of non-compliance [S13].\n- Report building, fire or sanitary code citations to OHCQ within 7 days [S13].\n- Give **60 days' notice** (49 or fewer beds) before a change of ownership, relocation or closure [S13].\n\n| Cost item | Amount | Source |\n|---|---|---|\n| OHCQ application | $0 | [S26] |\n| LLC articles / certificate of status | $100 / $20 | [S54] |\n| SDAT annual report | $300/year | [S54] |\n| ALM license | $100 + $200 | [S28] |\n| ALM 80-hour course | about $1,209 | [S60] |\n| Delegating nurse course | about $298 | [S59] |",
+    "reimbursement": "### 1. Private pay (the main payer)\nMost Maryland residents pay privately. CareScout's 2025 median is **$7,173/month** ($86,070/year), compared with $6,200 nationally [S47]. That figure is for a **private one-bedroom unit in an assisted living community**. Shared rooms in small homes usually sell for less, so the model prices 4–16 bed homes at **$6,100/month**. That price is an operator assumption about 15% below the median; set yours from local comparables. Rate increases need **45 days' written notice** in the resident agreement unless a change in the resident's medical condition requires it (COMAR 10.07.14.27A(2)(e)) [S73].\n\n### 2. Medicaid: Home and Community-Based Options Waiver (CO Waiver)\nMaryland Medicaid pays assisted living under a **1915(c) waiver**, fee-for-service. It is not paid through HealthChoice managed care.\n\n**Who qualifies.** Participants must:\n- be 18 or older and need a **nursing facility level of care**;\n- have income no higher than **300% of the SSI benefit** (300% × $994 = $2,982/month in 2026) and assets of no more than $2,000–$2,500 [S45][S36][S62].\n\n**How you get paid.**\n- Medicaid pays a **daily service rate**: **W0226 Level II $90.74; W0227 Level III $114.51**. Lower W0228/W0229 rates apply on medical day care days [S34].\n- Rates are effective **July 1, 2024**. No later rate transmittal exists. MDH kept FY2026 LTSS rates unchanged [S72], the FY2027 budget holds LTSS rates level [S40], and the FY2026 case-management rate matches FY2025 [S42]. Confirm with MDH before billing.\n- Waiver payments **exclude room and board** [S38]. The resident pays room and board, **capped at $420/month** [S36]. The resident keeps a personal needs allowance.\n- Any income left over is the resident's \"cost of care.\" The resident pays it **directly to you**, and Medicaid reduces its payment by the same amount [S36]. Your total is therefore about **$114.51 × 30.42 + $420 ≈ $3,903/month** at Level III, or about **$3,180** at Level II.\n- Medicaid pays the lesser of your customary charge or the rate [S35].\n- Since **October 1, 2026**, assisted living claims go through **LTSSMaryland**, not eMedicaid. The billing week runs Thursday–Wednesday, with weekly direct deposit [S43].\n\n**Extra provider rules for waiver beds** [S37]:\n- at least **1 staff per 8 residents during daytime hours**;\n- a manager who is a physician, RN, LPN, or has 3 years of direct-care experience;\n- an alternate manager;\n- quarterly case-manager visits, and notice to the case manager within 1 working day of a significant change.\n\nYou may limit waiver residents to approved designated units [S37]. Bed-hold charges may not exceed the waiver per diem [S37].\n\n### 3. Senior Assisted Living Subsidy (SALS)\nThe Maryland Department of Aging subsidy pays **up to $1,056/month** directly to the provider. It covers residents aged 62+ with income at or below 60% of the State median, and assets up to $19,000 (single). The facility must have a service agreement with the local Area Agency on Aging [S46]. SALS can make a moderate-income resident affordable without the waiver's $420 room-and-board limit.\n\n### 4. Other payers\nLong-term care insurance and VA Aid & Attendance pay residents, not providers. Medicare does not pay for assisted living.",
+    "demand": "**Aging and waiting lists.** The clearest public demand signal is the **CO Waiver registry: 23,461 people at the end of FY2025**, up 5% (1,112 people) from FY2024 [S41]. In FY2025 the waiver was authorized for **6,348 participants, but only 4,253 slots were filled**. Another 750 were reserved and 1,345 were unfilled [S41]. Registry growth limits how fast waiver residents arrive. Unfilled slots mean MDH is short on processing capacity, not on demand. A nursing-home resident whose stay Medicaid has paid for 30+ days can apply **without waiting on the registry** [S45]. That makes nursing-home transitions the fastest waiver referral source.\n\n**Supply by county.** OHCQ's directory showed the most programs in Baltimore City (402), Prince George's (304), Baltimore County (263) and Montgomery (238) [S32]. Montgomery had the most beds (4,961) and the most large facilities (40 over 16 beds) [S32]. Small homes are dense in Baltimore City and Prince George's, where competition for the same referrals is highest [S32].\n\n**Unlicensed competition.** OHCQ receives 8–10 complaints a month about unlicensed homes. It found 13 unlicensed programs in FY2025 and 10 in July–December 2025 [S33]. A licensed home can market its OHCQ license and survey record against them.\n\n**Referral sources:**\n- hospital and nursing-home discharge planners;\n- CO Waiver case managers (they visit waiver residents quarterly) [S37];\n- Maryland Access Point (844-627-5465), the waiver registry's front door [S45];\n- local Area Agencies on Aging, which run SALS [S46];\n- hospice agencies (hospice residents may be admitted above normal limits) [S20];\n- placement agencies.\n\nOperators must give prospective residents the **Uniform Disclosure Statement** as part of marketing [S1].",
+    "operations": "### Staffing rules (COMAR 10.07.14.14)\nThe rule sets **no numeric ratio** [S4]. Instead, the program must:\n- write a staffing plan based on residents' needs, with enough staff for scheduled and unscheduled needs 24 hours a day;\n- have **a staff member present whenever a resident is in the building**, or is expected back;\n- provide **awake overnight staff** when a resident's Resident Assessment Tool triggers it. OHCQ may waive this for an approved electronic monitoring system, but never on an Alzheimer's unit;\n- keep a dated staffing schedule on site for 18 months [S4].\n\nCO Waiver homes must also keep **1 staff per 8 residents in daytime** [S37]. Every model in Section 8 staffs one person awake 24/7, which also covers the awake-overnight triggers.\n\n### Required roles\n- **Licensed ALM** (on site or on call), plus an **alternate ALM** [S5][S21][S28].\n- **Delegating nurse (RN)** [S9]:\n  - signed agreement, and completion of the Board of Nursing course;\n  - on site to observe each resident **at least every 45 days**;\n  - on call at all times (or a qualified alternate);\n  - issues nursing orders and reviews the ALM's assessments.\n- **ALM and delegating nurse meet every 6 months** to review resident changes and pharmacy findings [S22].\n- **Medication technicians.** Unlicensed staff who administer medications must finish the Board of Nursing **20-hour CMT course** and be certified [S10][S58][S65]. CMTs renew every 2 years, with 100 practice hours and a 4-hour clinical update [S58].\n- **Pharmacist review** at least every 6 months for any resident on **9 or more medications** [S10].\n- **On-site nursing** is required only when the delegating nurse or a practitioner orders it [S4].\n\n### Staff qualifications and training (COMAR 10.07.14.19) [S8]\n- **Age:** direct-care staff must be 18+ (16–17 only if a CNA or in CNA training).\n- **Health:** TB screening and MMR/varicella immunity.\n- **Background check** completed within 30 days before hire.\n- **Annual training** in fire and life safety, infection control, food safety and disaster plans.\n- **First aid** every 2 years; enough CPR-trained staff for 24-hour coverage.\n- **6 hours of cognitive impairment / mental health / behavioral training** within 120 days for personal-care staff (2 hours for others), then 2 hours (or 1 hour) every year.\n- Non-CNA personal-care staff must show competence to the delegating nurse. They may work up to 10 days accompanied while doing so.\n\n### Resident processes\n- **Before admission:** complete the Resident Assessment Tool within 30 days before admission [S11].\n- **Service plan:** write it within 30 days of admission; review assessments and plans every 6 months [S11][S1].\n- **Meals:** three meals and snacks daily from a dietitian-reviewed 4-week menu. Re-review every 3 years [S18].\n- **Resident funds:** if you manage residents' money, carry a bond, letter of credit or net assets equal to the average monthly balance [S19].\n\n### Systems\n- Maryland has no EVV requirement for assisted living.\n- **Waiver billing runs through LTSSMaryland** (helpdesk 1-855-463-5877) [S43].\n- **Medicaid enrollment moved to MPRIME on October 13, 2026.** An SDAT number in good standing is mandatory [S44].\n- An eMAR system is an operator choice, budgeted in the P&L.",
+    "market_conditions": "**Supply.** Licensed program counts went from 1,369 in FY2011 to 1,672 in FY2021 [S32]; 1,721 were reported in June 2023 [S29] and 1,617 in February 2026 [S33]. Between FY2011 and FY2021, OHCQ recorded 33–252 closures and 109–218 initial surveys a year [S32]. Turnover is high, so new homes keep entering and leaving.\n\n**Pricing.**\n- CareScout 2025 puts Maryland assisted living at **$7,173/month**, 16% above the U.S. median of $6,200 [S47].\n- The CO Waiver Level III service rate of $114.51/day plus $420 room and board totals about **$3,903/month**, or 54% of the private median [S34][S36].\n- SALS can add up to $1,056/month for moderate-income seniors [S46].\n\n**Wages (BLS May 2025, Maryland) [S49][S50]:**\n\n| Role | Median hourly |\n|---|---|\n| Home health & personal care aides | $18.29 |\n| Nursing assistants (CMT proxy) | $20.79 |\n| Registered nurses | $47.98 |\n| LPNs | $35.89 |\n| Cooks, institution | $19.89 |\n| Housekeepers | $17.07 |\n\nManager pay benchmarks: medical and health services managers, 10th percentile $77,560 and 25th $101,200; social and community service managers, 10th percentile $58,050 and 25th $71,720 [S49].\n\nThe **State minimum wage is $15.00**. **Montgomery County** requires $18.00 for employers with 51+ workers, $16.50 for 11–50 and $15.95 for 10 or fewer, and **Howard County** $16.00, all as of July 1, 2026 [S51]. Every modeled direct-care wage ($18.29–$20.79) is above all of these. Montgomery rates rise each July with CPI [S51].\n\n**Rent.** HUD FY2027 Small Area FMRs for a 4-bedroom home:\n- **$2,750** in Parkville (Baltimore County) [S56];\n- **$4,050** in Upper Marlboro (Prince George's) [S57].\n\nDC-suburb homes cost about 47% more to lease.\n\n**Policy trends.**\n- Rewritten rules (April 2025) [S25].\n- Manager licensure (July 2026) [S28].\n- A 2026 interagency workgroup on unlicensed programs [S33].\n- No LTSS rate increase in FY2026 [S72] or FY2027 (level rates) [S40].",
+    "financial_narrative": "### How the P&L is built\nRevenue per resident × occupied residents, minus staffing (with payroll burden) and operating costs. Default occupancy is 90% [S48]. Ramp-up is an operator planning assumption: 4- and 8-bed homes start at 1 resident and add 1 a month, the 16-bed home adds 2 a month, and the 40-bed facility starts at 4 and adds 3 a month.\n\n**Revenue.**\n- Small homes are priced at **$6,100/month**, an operator assumption about 15% below CareScout's $7,173 Maryland median [S47].\n- The 40-bed facility uses the full median.\n- Waiver residents bring **$114.51 × 30.42 + $420 = $3,903/month** (Level III) [S34][S36].\n\n**Staffing.**\n- Every configuration keeps a staff member present 24/7 [S4].\n- Medication staff are paid the Maryland nursing-assistant median ($20.79) as a CMT proxy; other aides $18.29 [S49].\n- The delegating nurse is modeled at the $47.98 RN median: 3–8 fixed hours a month plus 1.5 hours per resident (operator estimate — verify locally) [S9].\n- ALM pay uses Maryland BLS manager percentiles. The 4-bed ALM is half-time.\n\n**Burden.** 8.3% payroll taxes [S53][S66][S52], plus 4% workers' comp and 5% benefits (both estimates).\n\n**Operating costs.**\n- **Rent is fixed:** 4 beds $2,750 (HUD) [S56]; 8 beds $4,125; 16 beds $8,000; 40 beds $20,000. The last three are operator estimates.\n- **Fixed utility base:** $100 per licensed bed.\n- **Per-resident costs:** food, supplies, insurance, pharmacist reviews, repairs and activities.\n- **Fixed overhead:** software, accounting, marketing, training and the $300 SDAT annual report [S54]. There is **no OHCQ license fee** [S26].\n- **County business personal property tax:** businesses with $20,000+ of furnishings and equipment must file SDAT Form 1 and pay county tax (e.g., Baltimore County $2.75 per $100 of assessed value) [S69][S70]. Modeled at $10 (4 beds), $40 (8 beds), $85 (16 beds) and $230 (40 beds) a month — operator estimate, verify with your county.\n\n### Results at 90% occupancy (monthly, approximate)\n| Configuration | Revenue | Staffing + burden | Opex | Net |\n|---|---|---|---|---|\n| 4-bed private pay | $21,960 | $21,110 | $6,680 | about –$5,800 |\n| 8-bed private pay | $43,920 | $29,530 | $10,810 | about +$3,600 |\n| 8-bed, 3 waiver residents | $37,990 | $29,530 | $10,810 | about –$2,300 |\n| 16-bed private pay | $87,840 | $39,520 | $20,720 | about +$27,600 |\n| 16-bed, 25% waiver | $79,930 | $39,520 | $20,720 | about +$19,700 |\n| 40-bed private pay | $258,230 | $97,590 | $51,550 | about +$109,100 |\n\n### Key drivers and sensitivity\n- **Size.** 24-hour presence costs about $17,800/month including burden at any size. Spread over 3.6 residents (4 beds) it sinks the model; over 14.4 residents (16 beds) it is affordable.\n  - At 90% occupancy the 4-bed home needs **about $7,700/month** per resident to break even with a half-time paid ALM.\n  - With the **owner as ALM** it needs about $6,900; the loss at $6,100 shrinks to about –$3,000.\n  - An owner-ALM lifts the 8-bed home to about +$9,300 (break-even about $4,800/month at 90% occupancy, versus about $5,600 with a paid ALM).\n- **Private-pay price.** At $5,500/month the 16-bed home earns about +$19,000 and the 8-bed home about –$700. At the $7,173 median the 16-bed home earns about +$43,000.\n- **Waiver share.** Each waiver resident brings about $2,200/month less than a $6,100 private-pay resident. In the 16-bed home, full cost per resident is about $4,180, so waiver beds are below full cost but well above the roughly $730 a month of variable cost per resident. They help fill empty beds but cannot carry a home alone.\n- **Wages.** Adding $2/hour to every aide and CMT (e.g., a tight local labor market) cuts the 16-bed result to about +$24,700 and the 8-bed result to about +$1,300.\n\nThe generator calculates break-even from these inputs.",
+    "risks": "- **Medicaid rates are flat.** CO Waiver assisted living rates have not risen since July 1, 2024, MDH kept FY2026 LTSS rates unchanged [S72], and the FY2027 budget holds them level [S34][S40]. DLS recommended cutting HCBS rates 2% in FY2026 [S39]. Wages keep rising, so waiver margins shrink each year.\n- **Room-and-board cap.** Waiver residents can be charged only up to $420/month for room and board [S36], far below the cost of housing and food. Confirm the current figure with MDH.\n- **Waiver enrollment delays.** 23,461 people are on the registry and a third of authorized slots went unfilled in FY2025 [S41]. A resident you accept may wait months for waiver approval.\n- **People licensure.** From July 1, 2026, running a program without a licensed ALM exposes you to Board action. Losing your ALM means an interim provisional license lasting at most 90 days, extendable by 30 for good cause (Health Occ. §9-3A-01(b)(2)) [S71]. Failing to employ a qualified ALM can bring a civil money penalty up to $10,000 [S6].\n- **Delegating nurse dependency.** If the RN contract ends, the program must notify OHCQ and still cover the 45-day visits [S9][S5]. Contract RN rates often exceed the BLS median used here.\n- **Small-home economics.** Homes of 4–8 beds depend on owner labor and high occupancy. Two vacancies in an 8-bed home erase its profit.\n- **Survey and enforcement.** OHCQ surveys every 12–18 months [S12]. The most-cited deficiency in FY2021 was staff qualifications [S32]. A suspension or revocation bars owners and managers from another license for 10 years [S3].\n- **Local costs.** Montgomery County minimum wages rise each July [S51]. DC-suburb rents run about 47% above Baltimore County [S56][S57]. Local fire authorities may require sprinklers or other upgrades [S14].\n- **Billing transitions.** Waiver billing moved to LTSSMaryland on Oct. 1, 2026 [S43], and enrollment moved to MPRIME on Oct. 13, 2026. Any lapse in SDAT good standing now suspends Medicaid payments automatically [S44].",
+    "recommendations": "1. **Size for 16 beds if you can.** At 9–16 beds the 24-hour staffing cost is spread across enough residents to profit. Staying at 16 avoids the 17-bed requirements: State Engineer plan review, food service permit, public restrooms and assist rails [S17][S26]. The 16-bed private-pay model earns about +$27,600/month at 90% occupancy.\n2. **If you start with 4–8 beds, plan to work in the home.** Serve as the licensed ALM yourself, and cover shifts or live in. With you as the ALM, break-even at 90% occupancy is about $6,900/month (4 beds) and about $4,800/month (8 beds); with a paid ALM it is about $7,700 (4 beds) and about $5,600 (8 beds). Price above those levels, and add a second home later.\n3. **License at Level 3.** It lets residents age in place, and it is required to bill the waiver's higher rate ($114.51/day) [S2][S34].\n4. **Get the people requirements done first.**\n   - Enroll the ALM in an approved 80-hour course and apply for the Board license ($300) [S60][S28].\n   - Sign a delegating nurse agreement [S9].\n   - Put every medication-passing staff member through the 20-hour CMT course [S58].\n5. **Use the CO Waiver for a minority of beds** (about 25% in a 16-bed home). Enroll in MPRIME after licensure [S44], and set up LTSSMaryland billing [S43]. Build referrals with case managers and nursing-home discharge planners, since nursing-home residents can skip the registry [S45]. For moderate-income seniors, sign an AAA service agreement to accept **SALS** (up to $1,056/month) [S46].\n6. **Budget conservatively.** Use local private-pay comparables rather than the $7,173 community median [S47]. Use your county's actual rent [S56][S57]. Carry a working-capital reserve for the ramp-up and send OHCQ the required 1-year budget [S3].\n7. **Build survey readiness into operations.** Keep the 12 required policies, staff training proof, 45-day RN notes, 6-month assessment reviews and pharmacist reviews current [S26][S8][S9][S10][S11]. The goal is clean surveys and the 18-month survey interval [S12]."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide level of care and bed count",
+      "instructions": "Choose Level 1, 2 or 3 and a size. Level 3 allows aging in place and the higher waiver rate. Staying at 16 beds or fewer avoids the 17-bed requirements (State Engineer plan review, food service permit, public restrooms, assist rails). The license names both bed count and level.",
+      "cite": "COMAR 10.07.14.04D, .05G",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a Maryland LLC (or other entity) with SDAT",
+      "instructions": "File Articles of Organization through Maryland Business Express ($100). The entity name must match the OHCQ application exactly.",
+      "cite": "Corps. & Ass'ns §1-203",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN",
+      "instructions": "Free online from the IRS, issued the same day. Needed for payroll, banking, OHCQ and Medicaid.",
+      "cite": "IRC §6109",
+      "source_id": "S64"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Order an SDAT certificate of status (good standing letter)",
+      "instructions": "Order it from SDAT Business Express ($20 certificate fee). OHCQ requires an official letter of good standing with Step One.",
+      "cite": "Corps. & Ass'ns §1-203; OHCQ application",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Calendar the SDAT annual report",
+      "instructions": "$300, due April 15 every year. Losing good standing can void the license 60 days after notice, and since Oct. 13, 2026 it automatically suspends Medicaid enrollment.",
+      "cite": "Corps. & Ass'ns §1-203; COMAR 10.07.14.08H",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register for Maryland payroll withholding and unemployment insurance",
+      "instructions": "New employers pay UI on the first $8,500 per worker at a 1.0%–2.6% rate (Table A for 2026).",
+      "cite": "MD Labor & Employment Art.",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Buy workers' compensation coverage (or get a certificate of compliance/exemption)",
+      "instructions": "OHCQ requires the declaration page in Step Two. Questions: Maryland Workers' Compensation Commission, 410-864-5293.",
+      "cite": "OHCQ application Step Two",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Buy general and professional liability insurance",
+      "instructions": "COMAR 10.07.14 sets no minimum, but landlords, lenders and payers usually require it. Get at least three quotes.",
+      "cite": "—",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Write the business plan and 1-year operating budget",
+      "instructions": "Required to show financial and administrative ability to operate. Use this bundle's P&L, including the ramp-up deficit.",
+      "cite": "COMAR 10.07.14.07B(2)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Secure the property by deed or lease",
+      "instructions": "OHCQ needs proof the building is owned, leased or otherwise under your control. Budget rent from local comparables (HUD FY2027 4BR: $2,750 in Parkville; $4,050 in Upper Marlboro).",
+      "cite": "COMAR 10.07.14.07A(3)(f)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Check HOA/condo/co-op restrictions",
+      "instructions": "If the property is in a common ownership community, get all required written approvals and attach them to Step One.",
+      "cite": "OHCQ application Section C",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Confirm zoning and obtain the use and occupancy permit",
+      "instructions": "Ask the county or city zoning office whether the address is allowed for an assisted living program of your size. OHCQ requires a U&O permit or zoning approval in Step Two.",
+      "cite": "COMAR 10.07.14.07A(3)(h); OHCQ Step Two",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Measure resident rooms",
+      "instructions": "No more than 2 residents per room. At least 80 sq ft of functional space (single) or 120 sq ft (double), excluding closets, bathrooms and door swings. Latching doors, window shades, closet space.",
+      "cite": "COMAR 10.07.14.50A",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Verify bathroom ratios",
+      "instructions": "At least 1 toilet and 1 hand sink per 4 occupants (plus one per resident floor at 9+), and 1 tub/shower per 8, each with privacy latches.",
+      "cite": "COMAR 10.07.14.51",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Verify common space",
+      "instructions": "At least 35 sq ft of usable multipurpose space per licensed bed. At 17+ beds, add public restrooms and meet COMAR 10.15.03 food service rules.",
+      "cite": "COMAR 10.07.14.49",
+      "source_id": "S17"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Install anti-scald controls",
+      "instructions": "Blend resident hot water to 100–120°F at the fixture with point-of-use or thermostatic mixing valves.",
+      "cite": "COMAR 10.07.14.43C",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "CRITICAL",
+      "task": "Bring the building to NFPA 101 and local fire code",
+      "instructions": "Includes Chapter 24 for one- or two-family dwellings. Install extinguishers on each floor and in kitchens/laundry/furnace rooms, serviced yearly by a State Fire Marshal licensee. Ask the fire authority about sprinklers and alarms early.",
+      "cite": "COMAR 10.07.14.47A–B",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Get the fire inspection report",
+      "instructions": "Required in Step Two. Programs of 1–16 beds in Baltimore City (410-396-4428) or Baltimore County (410-887-2243) submit the health department environmental report instead.",
+      "cite": "OHCQ application Step Two",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "17+ beds only: State Engineer site plan review and food service permit",
+      "instructions": "Request plan review from a Maryland State Engineer (667-203-9124) and a food service permit from the local health department. Install assist rails on both sides of resident corridors.",
+      "cite": "OHCQ Step Two; COMAR 10.07.14.46B, .49",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "MEDIUM",
+      "task": "50+ residents only: emergency generator",
+      "instructions": "On-premises generator with automatic transfer, tested under load. Exempt only via an enclosed corridor to a building that has one.",
+      "cite": "COMAR 10.07.14.47F",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 2 — PROPERTY, ZONING & PHYSICAL PLANT",
+      "priority": "HIGH",
+      "task": "Furnish each resident room",
+      "instructions": "Unless the resident brings furniture: a bed (no rollaway or cot), plus the items listed in the rule.",
+      "cite": "COMAR 10.07.14.50B",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "CRITICAL",
+      "task": "Choose the assisted living manager (ALM)",
+      "instructions": "Age 21+, high school diploma, and the knowledge areas in the rule. For Level 3: a 4-year degree, or 2 years in health care plus 1 year as ALM, or 2 years in health care plus the 80-hour course. Needs a current background check, TB screening, MMR/varicella immunity, first aid and CPR.",
+      "cite": "COMAR 10.07.14.15A",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "CRITICAL",
+      "task": "Complete the 80-hour ALM training course and exam",
+      "instructions": "Use an OHCQ-approved vendor (list on OHCQ's ALM Training Course page; Carroll CC charges $1,209). Delivered in person or virtually.",
+      "cite": "HG §19-1807; COMAR 10.07.14.16–.17",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "CRITICAL",
+      "task": "License the ALM with the Board of Long-Term Care Administrators",
+      "instructions": "Required since July 1, 2026. Apply online: $100 application + $200 license, card payment. A State and FBI criminal history check is required. About 10 business days after a complete file.",
+      "cite": "Health Occ. §9-3A-01; COMAR 10.07.14.15A(1)",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "CRITICAL",
+      "task": "Designate an alternate ALM",
+      "instructions": "Age 21+, 2 years of health-related experience, and the staff qualifications in .19B(1)–(7). Must be able to take over when the ALM is unavailable.",
+      "cite": "COMAR 10.07.14.18",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "CRITICAL",
+      "task": "Sign a delegating nurse (RN) agreement",
+      "instructions": "Current Maryland RN license, plus completion of the Board of Nursing assisted living delegating nurse course (e.g., AACC NRN-500, 16 hrs, $298). Duties: on site to observe each resident every 45 days, on call at all times (or an alternate), nursing orders, review of assessments. Put the RN's name and license number on the application.",
+      "cite": "COMAR 10.07.14.21",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "HIGH",
+      "task": "Arrange a consultant pharmacist",
+      "instructions": "On-site review every 6 months for any resident on 9 or more medications, documented in the chart and reviewed in QA.",
+      "cite": "COMAR 10.07.14.31I",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "HIGH",
+      "task": "Engage a licensed dietitian or nutritionist",
+      "instructions": "Must review the 4-week regular menu before initial licensure and at least every 3 years. Written documentation is reviewed at the survey.",
+      "cite": "COMAR 10.07.14.30A(2); OHCQ Step Three",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 3 — KEY PERSONNEL & CREDENTIALS",
+      "priority": "HIGH",
+      "task": "Run background checks for owners, managers, staff and household members",
+      "instructions": "Criminal history records check or background check. For staff, completed within 30 days before employment. Documentation is reviewed at the survey.",
+      "cite": "COMAR 10.07.14.07A(3)(d), .19B(2)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Write the 12 required policies and procedures",
+      "instructions": "Bed and room assignment; change in accommodation; transfer; discharge; resident termination request; documentation; complaint and grievance; adult medical day care; abuse, neglect and financial exploitation; smoking; emergency and disaster plan; quality assurance plan.",
+      "cite": "OHCQ application Step Three",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Complete the Uniform Disclosure Statement",
+      "instructions": "On the OHCQ form. Give it free to anyone who asks and include it in marketing materials. Amend within 30 days of any service change.",
+      "cite": "COMAR 10.07.14.10",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Draft the resident agreement",
+      "instructions": "Use the OHCQ sample template. Include the required non-financial and financial terms, including at least 45 days' notice of rate increases.",
+      "cite": "COMAR 10.07.14.26–.27; 10.07.14.27A(2)(e)",
+      "source_id": "S73"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Build the Assisted Living Emergency Preparedness Packet",
+      "instructions": "Evacuation, sheltering in place, family and staff notification, 72 hours of essential supplies, and a resident tracking system.",
+      "cite": "COMAR 10.07.14.47C",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Write the quality assurance plan",
+      "instructions": "Include an annual TB risk assessment, and documented ALM–delegating nurse meetings every 6 months.",
+      "cite": "COMAR 10.07.14.13A",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Set up resident assessment and service-plan workflow",
+      "instructions": "Resident Assessment Tool within 30 days before admission; service plan within 30 days after; 6-month reviews; new assessment within 48 hours when the RN requires it.",
+      "cite": "COMAR 10.07.14.22, .28",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Decide whether you will hold resident funds",
+      "instructions": "If yes, get a written request, use an interest-bearing account for $300+, and carry a bond, letter of credit or net assets equal to the average monthly balance.",
+      "cite": "COMAR 10.07.14.39",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Alzheimer's unit only: prepare the disclosure form",
+      "instructions": "Submit the Alzheimer's Special Care Unit Disclosure Form and get OHCQ's written approval before operating. Awake overnight staff are mandatory.",
+      "cite": "COMAR 10.07.14.32, .14E(4)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — POLICIES, RESIDENT DOCUMENTS & SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Choose eMAR/documentation software",
+      "instructions": "Not required by rule, but it supports medication records, 45-day RN notes and survey readiness.",
+      "cite": "COMAR 10.07.14.29, .31",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 5 — OHCQ APPLICATION (STEPS ONE & TWO)",
+      "priority": "CRITICAL",
+      "task": "Submit Step One online",
+      "instructions": "Typed application via OHCQ's 'Submit a License Application' link, with proof of property control, HOA approval (if any), business plan and 1-year budget, SDAT good-standing letter, and the ASCU form if applicable. No fee.",
+      "cite": "COMAR 10.07.14.07; OHCQ application",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 5 — OHCQ APPLICATION (STEPS ONE & TWO)",
+      "priority": "HIGH",
+      "task": "Answer OHCQ's completeness review",
+      "instructions": "Do not start Step Two until OHCQ says Step One is complete. Incomplete applications may be closed after 180 days.",
+      "cite": "COMAR 10.07.14.07H",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 5 — OHCQ APPLICATION (STEPS ONE & TWO)",
+      "priority": "CRITICAL",
+      "task": "Submit Step Two documents",
+      "instructions": "Site plan (sketch under 17 beds), U&O or zoning approval, fire inspection or environmental report, food service permit (17+), Uniform Disclosure Statement, resident agreement, workers' comp proof.",
+      "cite": "OHCQ application Step Two",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 5 — OHCQ APPLICATION (STEPS ONE & TWO)",
+      "priority": "MEDIUM",
+      "task": "Request any needed licensure-standards waivers",
+      "instructions": "Written request citing the regulation, the hardship and why residents are not harmed. OHCQ decides within 45 days of a complete request.",
+      "cite": "COMAR 10.07.14.09",
+      "source_id": "S68"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "CRITICAL",
+      "task": "Write the staffing plan and schedule",
+      "instructions": "Staff present whenever residents are in the building; awake overnight staff when the Resident Assessment Tool triggers it; relief staff available. Keep schedules for 18 months.",
+      "cite": "COMAR 10.07.14.14, .19E",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "CRITICAL",
+      "task": "Certify medication technicians",
+      "instructions": "Every unlicensed staff member who administers medications must complete the Board-approved 20-hour course taught by an approved RN, and be certified. Keep proof in personnel files.",
+      "cite": "COMAR 10.07.14.31A–B",
+      "source_id": "S58"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "HIGH",
+      "task": "Train all staff before opening",
+      "instructions": "Fire and life safety (including extinguishers), infection control, food safety, disaster plan, first aid; enough CPR-certified staff for 24/7 coverage. Keep proof of training with date, content, trainer and signatures.",
+      "cite": "COMAR 10.07.14.19B, D, F",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "HIGH",
+      "task": "Schedule cognitive impairment and mental health training",
+      "instructions": "6 hours within 120 days for personal-care staff (2 hours for others), then 2 hours (or 1) every year.",
+      "cite": "COMAR 10.07.14.19H",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "HIGH",
+      "task": "Document delegating nurse competency checks",
+      "instructions": "Non-CNA personal-care staff must show competence to the RN before working alone (up to 10 days accompanied).",
+      "cite": "COMAR 10.07.14.19C",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "HIGH",
+      "task": "Complete staff health screening",
+      "instructions": "TB screening and MMR/varicella immunity for all staff; influenza and COVID-19 vaccines advised and documented.",
+      "cite": "COMAR 10.07.14.19B(1); .15C(2)(m)–(n)",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — STAFFING, TRAINING & PRE-SURVEY READINESS",
+      "priority": "MEDIUM",
+      "task": "Prepare the 4-week menu, posting and food storage",
+      "instructions": "3 meals and snacks daily; menus written a week ahead, posted and kept 6 months.",
+      "cite": "COMAR 10.07.14.30A",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 7 — OHCQ ON-SITE SURVEY & LICENSE",
+      "priority": "CRITICAL",
+      "task": "Host the OHCQ on-site survey",
+      "instructions": "Building tour, staff interviews, record review: background checks, ALM/alternate/RN credentials, policies, dietitian-reviewed menu.",
+      "cite": "OHCQ application Step Three",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 7 — OHCQ ON-SITE SURVEY & LICENSE",
+      "priority": "CRITICAL",
+      "task": "Submit a plan of correction within 10 business days if cited",
+      "instructions": "OHCQ issues the license after accepting it. It may issue a provisional license for non-hazardous deficiencies.",
+      "cite": "OHCQ Step Three; COMAR 10.07.14.07G",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 7 — OHCQ ON-SITE SURVEY & LICENSE",
+      "priority": "CRITICAL",
+      "task": "Do not admit residents before the license is issued",
+      "instructions": "Operating without a license or provisional license is prohibited. Knowingly operating an unlicensed program is a felony (criminal fines and imprisonment). Where residents were not harmed, OHCQ gives 30 days' written notice to come into compliance.",
+      "cite": "COMAR 10.07.14.07F(3); 10.07.14.61",
+      "source_id": "S74"
+    },
+    {
+      "phase": "PHASE 7 — OHCQ ON-SITE SURVEY & LICENSE",
+      "priority": "HIGH",
+      "task": "Post the license",
+      "instructions": "Display it in a common-use area. Display the ALM's Board license verification too.",
+      "cite": "COMAR 10.07.14.04G",
+      "source_id": "S67"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID CO WAIVER & SUBSIDY ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Decide whether to accept CO Waiver residents",
+      "instructions": "Waiver rates: Level II $90.74/day, Level III $114.51/day (services only), plus room and board of up to $420/month. Waiver rates exist only for Level II and Level III; confirm with MDH OLTSS whether a Level 1-licensed program can enroll. You may limit waiver residents to approved designated units.",
+      "cite": "COMAR 10.09.54.03D; PT 04-25",
+      "source_id": "S34"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID CO WAIVER & SUBSIDY ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Meet waiver provider standards",
+      "instructions": "At least 1 staff per 8 residents in daytime; a manager who is a physician, RN, LPN or has 3 years of direct care; an alternate manager; insurance if transporting; cooperation with quarterly case-manager visits.",
+      "cite": "COMAR 10.09.54.05A",
+      "source_id": "S37"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID CO WAIVER & SUBSIDY ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Enroll as a Medicaid provider in MPRIME",
+      "instructions": "MPRIME replaced ePREP on Oct. 13, 2026. An SDAT number in good standing is mandatory. Upload your OHCQ license. Check whether the federal $750 CY2026 application fee applies to your provider type.",
+      "cite": "PT 36-27",
+      "source_id": "S44"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID CO WAIVER & SUBSIDY ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Set up LTSSMaryland billing",
+      "instructions": "Assisted living claims moved to LTSSMaryland on Oct. 1, 2026. Create an Admin Provider account, verify locations, attend training. Helpdesk: 1-855-463-5877.",
+      "cite": "PT 29-27",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID CO WAIVER & SUBSIDY ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Sign a SALS service agreement with the local Area Agency on Aging",
+      "instructions": "Lets moderate-income residents aged 62+ receive up to $1,056/month paid to you.",
+      "cite": "MDoA SALS",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 8 — MEDICAID CO WAIVER & SUBSIDY ENROLLMENT",
+      "priority": "MEDIUM",
+      "task": "Build waiver referral relationships",
+      "instructions": "Nursing-home residents with 30+ Medicaid-paid days can apply without the registry. Others call Maryland Access Point (844-627-5465).",
+      "cite": "MDH CO Waiver page",
+      "source_id": "S45"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Prepare for annual OHCQ surveys",
+      "instructions": "At least annual (up to 18 months if no open plan of correction, complaints, CMPs or sanctions).",
+      "cite": "COMAR 10.07.14.12D",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Keep the delegating nurse schedule",
+      "instructions": "On-site observation of each resident every 45 days, 6-month assessment reviews and the semiannual ALM meeting.",
+      "cite": "COMAR 10.07.14.21C, .13A(2)(b)",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Renew credentials on time",
+      "instructions": "ALM: 20 hours CE every 2 years. CMTs: every 2 years with 100 practice hours and a 4-hour update. First aid/CPR: every 2 years.",
+      "cite": "HG §19-1807(b); MBON",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "HIGH",
+      "task": "Report changes to OHCQ",
+      "instructions": "Notify immediately of application changes; send code citations within 7 days; get OHCQ approval before adding beds or raising the level; give 60 days' notice (49 or fewer beds) of ownership change, relocation or closure.",
+      "cite": "COMAR 10.07.14.08",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Run pharmacist and dietitian reviews",
+      "instructions": "Pharmacist every 6 months for residents on 9+ medications; dietitian menu review every 3 years or after substantive changes.",
+      "cite": "COMAR 10.07.14.31I, .30A(2)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE",
+      "priority": "MEDIUM",
+      "task": "Keep the Uniform Disclosure Statement current",
+      "instructions": "File an amended statement within 30 days of any change in services.",
+      "cite": "COMAR 10.07.14.10A",
+      "source_id": "S26"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "OHCQ Assisted Living Team",
+      "role": "Licensing applications, surveys, complaints, Alzheimer's unit approval",
+      "contact": "(410) 402-8217 / (800) 492-6005 / fax (410) 402-8211 / 7120 Samuel Morse Drive, Second Floor, Columbia, MD 21046-3422"
+    },
+    {
+      "name": "OHCQ ALM training vendor approval (Chief Nursing Officer)",
+      "role": "80-hour and 20-hour ALM course vendor questions",
+      "contact": "(410) 402-8217 / health.maryland.gov/ohcq/Pages/Assisted-Living-Manager-Training-Course.aspx"
+    },
+    {
+      "name": "Maryland State Board of Long-Term Care Administrators",
+      "role": "ALM licensure",
+      "contact": "health.maryland.gov/bonha/Pages/Assisted-Living-Managers.aspx / MDH (410) 767-6500 or 1-877-463-3464"
+    },
+    {
+      "name": "Maryland Board of Nursing",
+      "role": "CMT certification; delegating nurse course approval",
+      "contact": "health.maryland.gov/mbon"
+    },
+    {
+      "name": "Maryland State Engineer (plan review, 17+ beds)",
+      "role": "Physical site plan review",
+      "contact": "667-203-9124"
+    },
+    {
+      "name": "Baltimore City Health Department / Baltimore County Department of Health",
+      "role": "Environmental report for 1–16 bed programs",
+      "contact": "410-396-4428 / 410-887-2243"
+    },
+    {
+      "name": "Maryland Workers' Compensation Commission",
+      "role": "Coverage and exemption questions",
+      "contact": "410-864-5293 / wccinsur@wcc.state.md.us"
+    },
+    {
+      "name": "MDH Office of Long Term Services and Supports",
+      "role": "CO Waiver program questions",
+      "contact": "410-767-1739"
+    },
+    {
+      "name": "Maryland Medicaid Provider Services (MPRIME)",
+      "role": "Provider enrollment",
+      "contact": "1-844-463-7768 / mdh.mprimegolive@maryland.gov / www.mprime.health.maryland.gov"
+    },
+    {
+      "name": "LTSSMaryland Technical Helpdesk",
+      "role": "Assisted living waiver billing portal",
+      "contact": "1-855-463-5877 / mdh.ltsshelpdesk@maryland.gov"
+    },
+    {
+      "name": "Division of Provider Integrity, Claims and Compliance (Lisa Toland, Chief)",
+      "role": "Waiver billing and rate questions",
+      "contact": "410-767-5792 / lisa.toland@maryland.gov"
+    },
+    {
+      "name": "Maryland Access Point",
+      "role": "CO Waiver registry intake for prospective residents",
+      "contact": "844-627-5465"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.85,
+      "optimistic": 0.95,
+      "rationale": "NIC MAP reports assisted living occupancy of 88.4% across the 31 primary U.S. markets in 2Q 2026 [S48]. No Maryland-only occupancy figure is published free of charge, and the NIC figure covers professionally managed communities, not 4–16 bed homes. The 90% default is an operator stabilization target, 1.6 points above the sourced NIC figure; the 85% conservative case sits below it.",
+      "source_id": "S48"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "al4_private",
+        "label": "4-bed Level 3 home, 100% private pay",
+        "capacity": 4,
+        "notes": "The smallest common Maryland model. Twenty-four-hour presence by one paid caregiver is the dominant cost, so the home loses money unless the owner works shifts or lives in. Operator pricing assumption: about 15% below the CareScout 2025 Maryland median of $7,173/month [S47], because CareScout measures a private one-bedroom unit in an assisted living community, while small homes often sell shared or smaller rooms. Price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive, Level 3 home)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6100.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S47"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff, CMT-certified (1 awake on duty 24/7)",
+            "wage_hourly": 20.79,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "COMAR 10.07.14.14D(2); .31A",
+            "notes": "A staff member must be present whenever a resident is in the home [S4]; unlicensed staff who give medications must be Board-certified medication technicians [S10]. Wage is the MD median for nursing assistants (31-1131), used as a proxy for CMT-certified aides; above the $15.00 state minimum and Montgomery County's $18.00 large-employer rate."
+          },
+          {
+            "role": "Assisted living manager (licensed ALM, 0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 29025,
+            "wage_source_id": "S49",
+            "cite": "COMAR 10.07.14.15; Health Occ. §9-3A-01",
+            "notes": "Half-time ALM at the MD 10th-percentile wage for social and community service managers (11-9151, $58,050/yr) [S49]. Many 4-bed owners serve as ALM themselves; then this line is the owner's pay."
+          },
+          {
+            "role": "Delegating nurse (RN) — fixed oversight, on-call, 6-month ALM meeting (3 hrs/month)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 3,
+            "cite": "COMAR 10.07.14.21; .13A(2)(b)",
+            "notes": "Every program must have a signed agreement with an RN delegating nurse who completed the Board of Nursing course [S9]. Hours are an operator estimate — verify locally. Contract RNs often bill above the $47.98 BLS median."
+          },
+          {
+            "role": "Delegating nurse (RN) — 45-day on-site resident reviews, assessments, service plans (per resident)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "COMAR 10.07.14.21C(1); .22C; .31K",
+            "notes": "RN must observe each resident on site at least every 45 days and review assessments every 6 months. 1.5 hrs/resident/month is an operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator planning assumption."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 2750.0,
+            "basis": "fixed",
+            "notes": "HUD FY2027 Small Area FMR for a 4-bedroom home in ZIP 21234 (Parkville, Baltimore County) = $2,750 [S56]. DC-suburb ZIPs run higher (ZIP 20774: $4,050 [S57]).",
+            "source_id": "S56"
+          },
+          {
+            "item": "Utilities base load (fixed, $100 per licensed bed)",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "4 licensed beds × $100. Operator estimate — verify locally."
+          }
+        ]
+      },
+      {
+        "id": "al8_private",
+        "label": "8-bed Level 3 home, 100% private pay",
+        "capacity": 8,
+        "notes": "A larger single-family home with some double rooms (120 sq ft minimum per double; no more than two per room) [S15]. Operator pricing assumption: about 15% below the CareScout 2025 Maryland median of $7,173/month [S47], because CareScout measures a private one-bedroom unit in an assisted living community, while small homes often sell shared or smaller rooms. Price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive, Level 3 home)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6100.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S47"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff, CMT-certified (1 awake on duty 24/7)",
+            "wage_hourly": 20.79,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "COMAR 10.07.14.14D; .31A",
+            "notes": "Covers 24-hour presence, medication passes and the awake-overnight requirement when the Resident Assessment Tool triggers it [S4]."
+          },
+          {
+            "role": "Second caregiver, day shift (8 hrs/day)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 243.3,
+            "cite": "COMAR 10.07.14.14B",
+            "notes": "Staffing plan must meet residents' scheduled and unscheduled needs [S4]. MD median home health and personal care aide wage (31-1120) [S49]."
+          },
+          {
+            "role": "Assisted living manager (licensed ALM)",
+            "basis": "annual_salary",
+            "amount": 58050,
+            "wage_source_id": "S49",
+            "cite": "COMAR 10.07.14.15; Health Occ. §9-3A-01",
+            "notes": "Full-time ALM at the MD 10th-percentile wage for social and community service managers (11-9151) [S49]. Owner-ALM can replace this line."
+          },
+          {
+            "role": "Delegating nurse (RN) — fixed oversight, on-call, 6-month ALM meeting (4 hrs/month)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 4,
+            "cite": "COMAR 10.07.14.21; .13A(2)(b)",
+            "notes": "Every program must have a signed agreement with an RN delegating nurse who completed the Board of Nursing course [S9]. Hours are an operator estimate — verify locally. Contract RNs often bill above the $47.98 BLS median."
+          },
+          {
+            "role": "Delegating nurse (RN) — 45-day on-site resident reviews, assessments, service plans (per resident)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "COMAR 10.07.14.21C(1); .22C; .31K",
+            "notes": "RN must observe each resident on site at least every 45 days and review assessments every 6 months. 1.5 hrs/resident/month is an operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator planning assumption."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 4125.0,
+            "basis": "fixed",
+            "notes": "1.5 × the HUD FY2027 4-bedroom SAFMR for ZIP 21234 ($2,750) [S56] for a 5–6 bedroom home. The scaling is an operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, $100 per licensed bed)",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "8 licensed beds × $100. Operator estimate — verify locally."
+          },
+          {
+            "item": "Business personal property tax (county, on furnishings/equipment)",
+            "basis": "fixed",
+            "source_id": "S69",
+            "monthly": 40.0,
+            "notes": "County business personal property tax on furnishings/equipment [S69][S70]; about $5 per licensed bed per month — operator estimate, verify with your county."
+          }
+        ]
+      },
+      {
+        "id": "al8_mixed",
+        "label": "8-bed Level 3 home, 5 private pay + 3 CO Waiver residents",
+        "capacity": 8,
+        "notes": "Same home and staffing as the 8-bed private model, with 3 of 8 residents (37.5%) on the Home and Community-Based Options Waiver at the Level III rate plus the $420 room-and-board maximum. Waiver residents need a Level 2 or 3 license and a Medicaid provider number. Operator pricing assumption: about 15% below the CareScout 2025 Maryland median of $7,173/month [S47], because CareScout measures a private one-bedroom unit in an assisted living community, while small homes often sell shared or smaller rooms. Price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive, Level 3 home)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6100.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.625,
+            "source_id": "S47"
+          },
+          {
+            "name": "CO Waiver assisted living services, Level III, no medical day care (gross per diem; resident's available income is deducted by Medicaid and paid to you as cost of care)",
+            "payer": "Maryland Medicaid — Home and Community-Based Options Waiver",
+            "code": "W0227",
+            "rate": 114.51,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.375,
+            "source_id": "S34"
+          },
+          {
+            "name": "Room & board paid by waiver resident (regulatory maximum)",
+            "payer": "Resident (waiver participant)",
+            "code": "",
+            "rate": 420.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.375,
+            "source_id": "S36"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct care staff, CMT-certified (1 awake on duty 24/7)",
+            "wage_hourly": 20.79,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "COMAR 10.07.14.14D; .31A",
+            "notes": "Covers 24-hour presence, medication passes and the awake-overnight requirement when the Resident Assessment Tool triggers it [S4]."
+          },
+          {
+            "role": "Second caregiver, day shift (8 hrs/day)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 243.3,
+            "cite": "COMAR 10.07.14.14B",
+            "notes": "Staffing plan must meet residents' scheduled and unscheduled needs [S4]. MD median home health and personal care aide wage (31-1120) [S49]."
+          },
+          {
+            "role": "Assisted living manager (licensed ALM)",
+            "basis": "annual_salary",
+            "amount": 58050,
+            "wage_source_id": "S49",
+            "cite": "COMAR 10.07.14.15; Health Occ. §9-3A-01",
+            "notes": "Full-time ALM at the MD 10th-percentile wage for social and community service managers (11-9151) [S49]. Owner-ALM can replace this line."
+          },
+          {
+            "role": "Delegating nurse (RN) — fixed oversight, on-call, 6-month ALM meeting (4 hrs/month)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 4,
+            "cite": "COMAR 10.07.14.21; .13A(2)(b)",
+            "notes": "Every program must have a signed agreement with an RN delegating nurse who completed the Board of Nursing course [S9]. Hours are an operator estimate — verify locally. Contract RNs often bill above the $47.98 BLS median."
+          },
+          {
+            "role": "Delegating nurse (RN) — 45-day on-site resident reviews, assessments, service plans (per resident)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "COMAR 10.07.14.21C(1); .22C; .31K",
+            "notes": "RN must observe each resident on site at least every 45 days and review assessments every 6 months. 1.5 hrs/resident/month is an operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator planning assumption."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 4125.0,
+            "basis": "fixed",
+            "notes": "1.5 × the HUD FY2027 4-bedroom SAFMR for ZIP 21234 ($2,750) [S56]. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, $100 per licensed bed)",
+            "monthly": 800.0,
+            "basis": "fixed",
+            "notes": "8 licensed beds × $100. Operator estimate — verify locally."
+          },
+          {
+            "item": "Business personal property tax (county, on furnishings/equipment)",
+            "basis": "fixed",
+            "source_id": "S69",
+            "monthly": 40.0,
+            "notes": "County business personal property tax on furnishings/equipment [S69][S70]; about $5 per licensed bed per month — operator estimate, verify with your county."
+          }
+        ]
+      },
+      {
+        "id": "al16_private",
+        "label": "16-bed Level 3 home (under the 17-bed threshold), 100% private pay",
+        "capacity": 16,
+        "notes": "The expert pick. At 16 beds the program stays below the 17-bed line that triggers a State Engineer plan review, a local food service permit, public restrooms, corridor assist rails and the COMAR 10.15.03 food rules [S17][S26]. Operator pricing assumption: about 15% below the CareScout 2025 Maryland median of $7,173/month [S47], because CareScout measures a private one-bedroom unit in an assisted living community, while small homes often sell shared or smaller rooms. Price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive, Level 3 home)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6100.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S47"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Med tech / CMT, one on every shift 24/7",
+            "wage_hourly": 20.79,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "COMAR 10.07.14.31A; .14D",
+            "notes": "MD median nursing assistant wage (31-1131) as a CMT proxy [S49]."
+          },
+          {
+            "role": "Caregivers: 2nd staff on day and evening shifts (16 hrs/day)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "COMAR 10.07.14.14B",
+            "notes": "Gives 2 staff on day and evening shifts and 1 awake overnight. Meets the CO Waiver rule of at least 1 staff per 8 residents during the day [S37]."
+          },
+          {
+            "role": "Cook / housekeeper (0.75 FTE)",
+            "wage_hourly": 17.07,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 130,
+            "cite": "COMAR 10.07.14.30A",
+            "notes": "MD median maids and housekeeping cleaners (37-2012) [S49]."
+          },
+          {
+            "role": "Assisted living manager (licensed ALM)",
+            "basis": "annual_salary",
+            "amount": 71720,
+            "wage_source_id": "S49",
+            "cite": "COMAR 10.07.14.15; Health Occ. §9-3A-01",
+            "notes": "Full-time ALM at the MD 25th-percentile wage for social and community service managers (11-9151) [S49]."
+          },
+          {
+            "role": "Delegating nurse (RN) — fixed oversight, on-call, 6-month ALM meeting (8 hrs/month)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "cite": "COMAR 10.07.14.21; .13A(2)(b)",
+            "notes": "Every program must have a signed agreement with an RN delegating nurse who completed the Board of Nursing course [S9]. Hours are an operator estimate — verify locally. Contract RNs often bill above the $47.98 BLS median."
+          },
+          {
+            "role": "Delegating nurse (RN) — 45-day on-site resident reviews, assessments, service plans (per resident)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "COMAR 10.07.14.21C(1); .22C; .31K",
+            "notes": "RN must observe each resident on site at least every 45 days and review assessments every 6 months. 1.5 hrs/resident/month is an operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption: larger homes admit more residents per month. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 8000.0,
+            "basis": "fixed",
+            "notes": "$500 per licensed bed × 16. No HUD benchmark exists for a 16-bed building. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, $100 per licensed bed)",
+            "monthly": 1600.0,
+            "basis": "fixed",
+            "notes": "16 licensed beds × $100. Operator estimate — verify locally."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CE, CPR/first aid, CMT renewals and background checks",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "source_id": "S8",
+            "notes": "Operator estimate scaled for ~12 staff."
+          },
+          {
+            "item": "Business personal property tax (county, on furnishings/equipment)",
+            "basis": "fixed",
+            "source_id": "S69",
+            "monthly": 85.0,
+            "notes": "County business personal property tax on furnishings/equipment [S69][S70]; about $5 per licensed bed per month — operator estimate, verify with your county."
+          }
+        ]
+      },
+      {
+        "id": "al16_mixed",
+        "label": "16-bed Level 3 home, 75% private pay / 25% CO Waiver",
+        "capacity": 16,
+        "notes": "Same home and staffing as the 16-bed private model, with a quarter of residents on the CO Waiver (Level III + $420 room and board). Operator pricing assumption: about 15% below the CareScout 2025 Maryland median of $7,173/month [S47], because CareScout measures a private one-bedroom unit in an assisted living community, while small homes often sell shared or smaller rooms. Price from local comparables.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive, Level 3 home)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 6100.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.75,
+            "source_id": "S47"
+          },
+          {
+            "name": "CO Waiver assisted living services, Level III, no medical day care (gross per diem; resident's available income is deducted by Medicaid and paid to you as cost of care)",
+            "payer": "Maryland Medicaid — Home and Community-Based Options Waiver",
+            "code": "W0227",
+            "rate": 114.51,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.25,
+            "source_id": "S34"
+          },
+          {
+            "name": "Room & board paid by waiver resident (regulatory maximum)",
+            "payer": "Resident (waiver participant)",
+            "code": "",
+            "rate": 420.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 0.25,
+            "source_id": "S36"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Med tech / CMT, one on every shift 24/7",
+            "wage_hourly": 20.79,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 730,
+            "cite": "COMAR 10.07.14.31A; .14D",
+            "notes": "MD median nursing assistant wage (31-1131) as a CMT proxy [S49]."
+          },
+          {
+            "role": "Caregivers: 2nd staff on day and evening shifts (16 hrs/day)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 486.7,
+            "cite": "COMAR 10.07.14.14B",
+            "notes": "Gives 2 staff on day and evening shifts and 1 awake overnight. Meets the CO Waiver rule of at least 1 staff per 8 residents during the day [S37]."
+          },
+          {
+            "role": "Cook / housekeeper (0.75 FTE)",
+            "wage_hourly": 17.07,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 130,
+            "cite": "COMAR 10.07.14.30A",
+            "notes": "MD median maids and housekeeping cleaners (37-2012) [S49]."
+          },
+          {
+            "role": "Assisted living manager (licensed ALM)",
+            "basis": "annual_salary",
+            "amount": 71720,
+            "wage_source_id": "S49",
+            "cite": "COMAR 10.07.14.15; Health Occ. §9-3A-01",
+            "notes": "Full-time ALM at the MD 25th-percentile wage for social and community service managers (11-9151) [S49]."
+          },
+          {
+            "role": "Delegating nurse (RN) — fixed oversight, on-call, 6-month ALM meeting (8 hrs/month)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 8,
+            "cite": "COMAR 10.07.14.21; .13A(2)(b)",
+            "notes": "Every program must have a signed agreement with an RN delegating nurse who completed the Board of Nursing course [S9]. Hours are an operator estimate — verify locally. Contract RNs often bill above the $47.98 BLS median."
+          },
+          {
+            "role": "Delegating nurse (RN) — 45-day on-site resident reviews, assessments, service plans (per resident)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_client_month",
+            "amount": 1.5,
+            "cite": "COMAR 10.07.14.21C(1); .22C; .31K",
+            "notes": "RN must observe each resident on site at least every 45 days and review assessments every 6 months. 1.5 hrs/resident/month is an operator estimate — verify locally."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2,
+          "note": "Operator planning assumption."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 8000.0,
+            "basis": "fixed",
+            "notes": "$500 per licensed bed × 16. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, $100 per licensed bed)",
+            "monthly": 1600.0,
+            "basis": "fixed",
+            "notes": "16 licensed beds × $100. Operator estimate — verify locally."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 300.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CE, CPR/first aid, CMT renewals and background checks",
+            "monthly": 250.0,
+            "basis": "fixed",
+            "source_id": "S8",
+            "notes": "Operator estimate scaled for ~12 staff."
+          },
+          {
+            "item": "Business personal property tax (county, on furnishings/equipment)",
+            "basis": "fixed",
+            "source_id": "S69",
+            "monthly": 85.0,
+            "notes": "County business personal property tax on furnishings/equipment [S69][S70]; about $5 per licensed bed per month — operator estimate, verify with your county."
+          }
+        ]
+      },
+      {
+        "id": "al40_private",
+        "label": "40-bed Level 3 assisted living facility, 100% private pay",
+        "capacity": 40,
+        "notes": "Purpose-built or converted building. 17+ beds add a State Engineer plan review, food service permit, public restrooms and assist rails [S17][S26]. A generator is required only at 50+ residents [S14]. Uses the CareScout 2025 Maryland median of $7,173/month, which measures a private one-bedroom unit in an assisted living community [S47]. Lease is an operator estimate. Waiver participation would require about +486.7 caregiver hours/month at $18.29 (about $10,400/month with burden) to meet the CO Waiver 1:8 daytime ratio [S37][S49]; not modeled because this configuration is 100% private pay.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay monthly fee (all-inclusive, private room)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 7173.0,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S47"
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Med techs / CMTs (2 day + 1 evening + 1 night = 32 hrs/day)",
+            "wage_hourly": 20.79,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 973.4,
+            "cite": "COMAR 10.07.14.31A",
+            "notes": "MD median nursing assistant wage (31-1131) [S49]."
+          },
+          {
+            "role": "Caregivers (2 day + 2 evening + 1 night awake = 40 hrs/day)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 1216.8,
+            "cite": "COMAR 10.07.14.14B, E",
+            "notes": "Together with med techs: 4 staff days, 3 evenings, 2 awake overnight. This is below the CO Waiver minimum of 1 staff per 8 residents during daytime hours [S37] (40 beds need 5 on duty all daytime hours), which does not matter for a private-pay-only building. To accept waiver residents, add a fifth staff member on day and evening shifts."
+          },
+          {
+            "role": "LPN, on-site nursing (40 hrs/week)",
+            "wage_hourly": 35.89,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "cite": "COMAR 10.07.14.14G",
+            "notes": "Operator choice; on-site nursing is required only when a nursing or clinical order calls for it [S4]."
+          },
+          {
+            "role": "Delegating nurse (RN, 20 hrs/week)",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "cite": "COMAR 10.07.14.21",
+            "notes": "Covers 45-day on-site reviews for 40 residents. Operator estimate — verify locally."
+          },
+          {
+            "role": "Cook (1.5 FTE)",
+            "wage_hourly": 19.89,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "cite": "COMAR 10.07.14.30A",
+            "notes": "MD median institutional cook (35-2012) [S49]."
+          },
+          {
+            "role": "Dietary aide (1 FTE)",
+            "wage_hourly": 17.07,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "MD median food preparation worker (35-2021) [S49]."
+          },
+          {
+            "role": "Housekeeping / laundry (1.5 FTE)",
+            "wage_hourly": 17.07,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 260,
+            "cite": "COMAR 10.07.14.55",
+            "notes": "MD median maids and housekeeping cleaners (37-2012) [S49]."
+          },
+          {
+            "role": "Maintenance (0.5 FTE)",
+            "wage_hourly": 24.76,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 86.7,
+            "notes": "MD median general maintenance and repair worker (49-9071) [S49]."
+          },
+          {
+            "role": "Activities coordinator (1 FTE)",
+            "wage_hourly": 18.0,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "Operator choice. MD median personal care and service workers, all other (39-9099) [S49]."
+          },
+          {
+            "role": "Business office / admissions assistant (1 FTE)",
+            "wage_hourly": 23.41,
+            "wage_source_id": "S49",
+            "basis": "hours_per_month",
+            "amount": 173.3,
+            "notes": "MD median secretaries and administrative assistants (43-6014) [S49]."
+          },
+          {
+            "role": "Assisted living manager (licensed ALM)",
+            "basis": "annual_salary",
+            "amount": 101200,
+            "wage_source_id": "S49",
+            "cite": "COMAR 10.07.14.15; Health Occ. §9-3A-01",
+            "notes": "Full-time ALM / executive director at the MD 25th-percentile wage for medical and health services managers (11-9111) [S49]. A Level 3 ALM needs a degree or 2 years' health care experience plus the 80-hour course or ALM experience [S5]."
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 3,
+          "note": "Operator planning assumption: larger buildings admit more residents per month. Verify against your referral pipeline."
+        },
+        "opex_overrides": [
+          {
+            "item": "Lease / occupancy (fixed, sized to licensed beds)",
+            "monthly": 20000.0,
+            "basis": "fixed",
+            "notes": "$500 per licensed bed × 40. Operator estimate — verify locally."
+          },
+          {
+            "item": "Utilities base load (fixed, $100 per licensed bed)",
+            "monthly": 4000.0,
+            "basis": "fixed",
+            "notes": "40 licensed beds × $100. Operator estimate — verify locally."
+          },
+          {
+            "item": "eMAR / care documentation software",
+            "monthly": 600.0,
+            "basis": "fixed",
+            "notes": "Operator estimate for a 40-bed building."
+          },
+          {
+            "item": "Accounting, payroll service & legal",
+            "monthly": 1000.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Marketing & referral development",
+            "monthly": 1500.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Phone, internet & IT",
+            "monthly": 400.0,
+            "basis": "fixed",
+            "notes": "Operator estimate."
+          },
+          {
+            "item": "Training, CE, CPR/first aid, CMT renewals and background checks",
+            "monthly": 500.0,
+            "basis": "fixed",
+            "source_id": "S8",
+            "notes": "Operator estimate scaled for ~35 staff."
+          },
+          {
+            "item": "Food service permit and local health department fees (17+ beds)",
+            "monthly": 50.0,
+            "basis": "fixed",
+            "source_id": "S17",
+            "notes": "17+ beds must meet COMAR 10.15.03 food service rules and hold a local food service permit [S17][S26]. Fee varies by county — operator estimate."
+          },
+          {
+            "item": "Business personal property tax (county, on furnishings/equipment)",
+            "basis": "fixed",
+            "source_id": "S69",
+            "monthly": 230.0,
+            "notes": "County business personal property tax on furnishings/equipment [S69][S70]; about $5 per licensed bed per month — operator estimate, verify with your county."
+          }
+        ]
+      }
+    ],
+    "default_configuration": "al16_private",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.083,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.05,
+      "notes": "Employer FICA 7.65% [S53]. FUTA 0.6% net on the first $7,000 [S66] and Maryland UI at the 2.6% top new-employer rate on the first $8,500 [S52] add about 0.7% of an aide's pay, so taxes total about 8.3%. Workers' compensation coverage (or a certificate of compliance/exemption) must be shown to OHCQ [S26]. The 4% comp rate and 5% benefits allowance are operator estimates — get a carrier quote.",
+      "source_id": "S53"
+    },
+    "opex": [
+      {
+        "item": "Lease / occupancy (fixed, sized to licensed beds)",
+        "monthly": 2750.0,
+        "basis": "fixed",
+        "source_id": "S56",
+        "notes": "Fixed rent owed from day one regardless of census. Base = HUD FY2027 Small Area FMR, 4-bedroom, ZIP 21234 Parkville (Baltimore County) $2,750 [S56]. Washington-suburb ZIPs are about 47% higher (ZIP 20774: $4,050 [S57]). Each configuration sets its own amount; 8-, 16- and 40-bed amounts are operator estimates — verify locally."
+      },
+      {
+        "item": "Utilities base load (fixed, $100 per licensed bed)",
+        "monthly": 400.0,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally. Sized per configuration."
+      },
+      {
+        "item": "Utilities — per-resident portion",
+        "monthly": 60.0,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Food (3 meals + snacks daily per COMAR 10.07.14.30A)",
+        "monthly": 330.0,
+        "basis": "per_client",
+        "source_id": "S18",
+        "notes": "Rule requires 3 meals in a common dining area and snacks between meals [S18]. About $10.85 per resident-day — operator estimate."
+      },
+      {
+        "item": "Household, hygiene and personal care supplies",
+        "monthly": 60.0,
+        "basis": "per_client",
+        "source_id": "S38",
+        "notes": "CO Waiver assisted living must include soap, tissue, toothpaste, shampoo and similar items [S38]. Operator estimate."
+      },
+      {
+        "item": "General & professional liability insurance",
+        "monthly": 100.0,
+        "basis": "per_client",
+        "notes": "COMAR 10.07.14 sets no liability-insurance minimum; landlords, lenders and Medicaid contracts usually require it. Premium is an operator estimate — get quotes."
+      },
+      {
+        "item": "Pharmacist medication reviews (residents on 9+ medications, every 6 months)",
+        "monthly": 15.0,
+        "basis": "per_client",
+        "source_id": "S10",
+        "notes": "Required by COMAR 10.07.14.31I [S10]. Cost is an operator estimate."
+      },
+      {
+        "item": "Repairs & maintenance",
+        "monthly": 50.0,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Activities & recreation",
+        "monthly": 30.0,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "eMAR / care documentation software",
+        "monthly": 200.0,
+        "basis": "fixed",
+        "notes": "Operator estimate. Maryland has no EVV requirement for assisted living billing; Medicaid billing moved to LTSSMaryland on Oct 1, 2026 [S43]."
+      },
+      {
+        "item": "Accounting, payroll service & legal",
+        "monthly": 350.0,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing & referral development",
+        "monthly": 300.0,
+        "basis": "fixed",
+        "notes": "Operator estimate. Referral agencies usually charge a placement fee per move-in, which is not modeled."
+      },
+      {
+        "item": "Phone, internet & IT",
+        "monthly": 150.0,
+        "basis": "fixed",
+        "notes": "Operator estimate. COMAR 10.07.14.56 requires a common-use resident telephone (private-phone capability in every room at 17+ beds)."
+      },
+      {
+        "item": "Training, CE, CPR/first aid, CMT renewals and background checks",
+        "monthly": 150.0,
+        "basis": "fixed",
+        "source_id": "S8",
+        "notes": "Initial and annual fire, infection control, food safety and disaster training; first aid every 2 years; 6 hours of dementia/mental health training in the first 120 days and 2 hours yearly [S8]; ALM 20 hours of CE every 2 years [S6]. Operator estimate."
+      },
+      {
+        "item": "Fire extinguisher service and life-safety testing",
+        "monthly": 25.0,
+        "basis": "fixed",
+        "source_id": "S14",
+        "notes": "Extinguishers must be serviced yearly by a State Fire Marshal licensee [S14]. Operator estimate."
+      },
+      {
+        "item": "SDAT annual report ($300 ÷ 12)",
+        "monthly": 25.0,
+        "basis": "fixed",
+        "source_id": "S54",
+        "notes": "Maryland LLC annual report fee $300, due April 15 [S54][S55]. Good standing with SDAT is a license condition [S13] and, from Oct 13, 2026, a Medicaid enrollment condition [S44]."
+      },
+      {
+        "item": "OHCQ license fee",
+        "monthly": 0.0,
+        "basis": "fixed",
+        "source_id": "S26",
+        "notes": "The current OHCQ application states there is no fee to apply for an assisted living license [S26], and the April 2025 rule has no license-fee section [S1]."
+      },
+      {
+        "item": "Business personal property tax (county, on furnishings/equipment)",
+        "basis": "fixed",
+        "source_id": "S69",
+        "monthly": 10.0,
+        "notes": "Businesses with $20,000+ of personal property must file SDAT Form 1 and pay county personal property tax [S69] (e.g., Baltimore County $2.75 per $100 of assessed value [S70]). A 4-bed home may fall under the $20,000 threshold; $10/month is a conservative placeholder. Sized per configuration (about $5 per licensed bed per month at 8+ beds) — operator estimate, verify with your county."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Maryland LLC Articles of Organization ($100) + certificate of status for the OHCQ good-standing letter ($20)",
+        "low": 120,
+        "high": 120,
+        "source_id": "S54"
+      },
+      {
+        "item": "OHCQ assisted living license application",
+        "low": 0,
+        "high": 0,
+        "source_id": "S26",
+        "notes": "No fee to apply [S26]."
+      },
+      {
+        "item": "80-hour ALM training course (OHCQ-approved vendor)",
+        "low": 1209,
+        "high": 1209,
+        "source_id": "S60",
+        "notes": "Carroll Community College price, excluding books, testing and licensing fees [S60]. Other vendors vary."
+      },
+      {
+        "item": "ALM license — Board of Long-Term Care Administrators ($100 application + $200 license) + State/FBI CHRC",
+        "low": 350,
+        "high": 400,
+        "source_id": "S28",
+        "notes": "$300 Board fees [S28]; fingerprinting cost is an operator estimate."
+      },
+      {
+        "item": "Delegating nurse 16-hour Board of Nursing course (if your RN lacks it)",
+        "low": 0,
+        "high": 298,
+        "source_id": "S59"
+      },
+      {
+        "item": "CMT 20-hour course for medication staff",
+        "low": 1500,
+        "high": 9000,
+        "source_id": "S58",
+        "notes": "Course length from the Board of Nursing [S58]; tuition (~$300–$450 per person) and head count are operator estimates."
+      },
+      {
+        "item": "State/FBI background checks for owners, managers, staff and household members",
+        "low": 400,
+        "high": 2500,
+        "source_id": "S3",
+        "notes": "Required by COMAR 10.07.14.07A(3)(d) [S3]. Vendor fees are operator estimates."
+      },
+      {
+        "item": "Dietitian/nutritionist review of the 4-week menu before licensure",
+        "low": 200,
+        "high": 600,
+        "source_id": "S18",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Policies & procedures, resident agreement, Uniform Disclosure Statement, emergency packet",
+        "low": 2000,
+        "high": 8000,
+        "source_id": "S26",
+        "notes": "Operator estimate (template or consultant cost)."
+      },
+      {
+        "item": "Furnishings per COMAR 10.07.14.50B + common areas",
+        "low": 8000,
+        "high": 100000,
+        "source_id": "S15",
+        "notes": "Operator estimate of about $2,000–2,500 per bed."
+      },
+      {
+        "item": "Fire/life-safety upgrades (NFPA 101, alarms, extinguishers; sprinklers if the fire authority requires them)",
+        "low": 3000,
+        "high": 150000,
+        "source_id": "S14",
+        "notes": "Operator estimate — depends on building and local fire authority."
+      },
+      {
+        "item": "Accessibility and plumbing (anti-scald mixing valves 100–120°F, grab bars, toilet/sink ratios 1:4)",
+        "low": 2000,
+        "high": 40000,
+        "source_id": "S24",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Lease deposit + first month",
+        "low": 5500,
+        "high": 40000,
+        "notes": "Two months of the modeled lease."
+      },
+      {
+        "item": "State Engineer site plan review and local food service permit (17+ beds)",
+        "low": 1000,
+        "high": 5000,
+        "source_id": "S26",
+        "notes": "Required only at 17+ beds [S26]. Cost is an operator estimate.",
+        "min_capacity": 17
+      },
+      {
+        "item": "Maryland Medicaid enrollment application fee (only if assessed for your provider type)",
+        "low": 0,
+        "high": 750,
+        "source_id": "S61",
+        "notes": "Federal CY2026 application fee is $750 [S61]; confirm in MPRIME whether it applies to assisted living waiver providers. Not needed for private-pay-only homes."
+      },
+      {
+        "item": "Working capital reserve through ramp-up (about 3–6 months of expenses)",
+        "low": 40000,
+        "high": 500000,
+        "category": "working_capital",
+        "notes": "Operator estimate. OHCQ requires a business plan and 1-year operating budget showing financial ability to operate [S3]."
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "The old checklist told applicants to pay an annual OHCQ license fee of $50 (1–4 beds), $100 (5–15) or $200 (16+). The current OHCQ application states 'There is no fee to apply for a license' [S26], and the April 2025 rule has no fee section. The old figures do not even match the 2016 table ($50/$75/$125… per year) [S63].",
+    "The old checklist did not mention that, since July 1, 2026, every assisted living manager must be licensed by the Board of Long-Term Care Administrators ($100 + $200) [S28], or that the 80-hour course and exam now apply regardless of home size [S30][S6].",
+    "The old checklist omitted the delegating nurse (mandatory RN agreement, Board of Nursing course, 45-day on-site visits) [S9] and the CMT requirement for staff who give medications [S10]. These are two of the largest recurring compliance costs.",
+    "The old checklist said a '$50,000 surety bond' is required if handling resident funds. The rule requires a bond, letter of credit or net assets equal to the average monthly balance of resident funds held [S19].",
+    "Many old citations pointed to the wrong COMAR sections. For example, .21 (Delegating Nurse) was cited for zoning and physical plant; .09 (Licensure Standards Waiver) for background checks; .27 for Alzheimer's units (correct: .32); and 42 CFR §483.40, a nursing-home rule [S1].",
+    "The old checklist had applicants get the fire inspection and zoning approval before submitting the application. OHCQ's three-step process asks for those in Step Two, after OHCQ reviews Step One [S26].",
+    "The old checklist said OHCQ requires general liability insurance with a $1M minimum and OHCQ as certificate holder. COMAR 10.07.14 sets no liability-insurance requirement; only workers' compensation proof is required [S26][S3].",
+    "The old checklist promised 8–10 weeks of processing and a 'Montgomery County $60/bed' local fee. No source supports either figure; OHCQ publishes no processing time [S3]."
+  ],
+  "verification_log": [
+    {
+      "issue": "S49 URL (bls.gov/oes/current/oes_md.htm) no longer shows wage figures.",
+      "change": "Updated S49 URL to the data.bls.gov OES Maryland area view; all wage values were confirmed via the BLS API and are unchanged."
+    },
+    {
+      "issue": "al40 caregiver note claimed staffing exceeds the CO Waiver 1:8 daytime ratio; 4 day staff for 40 beds is below it (COMAR 10.09.54.05A(4)).",
+      "change": "Rewrote the note to say the plan is below 1:8, irrelevant for private pay, and that waiver participation needs a 5th staff member on days/evenings (~+486.7 hrs/month, ~$10,400 with burden) added to al40 notes. Model unchanged (100% private pay)."
+    },
+    {
+      "issue": "Missing mandatory cost: county business personal property tax on furnishings/equipment (SDAT Form 1, $20,000+ threshold).",
+      "change": "Added fixed opex line (S69/S70): 4 beds $10, 8 beds $40, 16 beds $85, 40 beds $230 per month via opex_overrides; narrative sentence added and results table recomputed."
+    },
+    {
+      "issue": "rates[4] (W0221 respite) note claimed a 14-day limit and no same-day billing, not found in S35.",
+      "change": "Removed the claim from the note and added it to not_claimed."
+    },
+    {
+      "issue": "OHCQ contact address was MDH headquarters (201 W. Preston St.).",
+      "change": "Replaced with the OHCQ address from the OHCQ home page: 7120 Samuel Morse Drive, Second Floor, Columbia, MD 21046-3422."
+    },
+    {
+      "issue": "checklist[51] said unlicensed operators face civil money penalties; COMAR 10.07.14.61 makes knowing unlicensed operation a felony (CMPs apply to advertising/referrals).",
+      "change": "Replaced instructions with the felony + 30-day compliance-notice wording; cited new source S74 (COMAR 10.07.14.61)."
+    },
+    {
+      "issue": "Recommendation 2 mixed assumptions: $6,900 (4-bed) was owner-ALM break-even but $5,600 (8-bed) was paid-ALM break-even.",
+      "change": "Restated both: owner-ALM ~$6,900 (4 beds) / ~$4,800 (8 beds); paid ALM ~$7,700 / ~$5,600 (recomputed with model.py). Same split added to financial_narrative."
+    },
+    {
+      "issue": "Narrative results table and sensitivities needed updating after adding the personal property tax line.",
+      "change": "Recomputed with model.py: opex columns +$10/$40/$85/$230; 16-bed private +$27,600, 16-bed mixed +$19,700, 40-bed +$109,100; $7,173 sensitivity +$43,000; +$2/hr sensitivity +$24,700. Executive summary and recommendations updated."
+    },
+    {
+      "issue": "Interim ALM 90/30-day provisional period cited to S28/S29, which do not contain it.",
+      "change": "Added S71 (SB 613 enacted text, Health Occ. §9-3A-01(b)(2)) and cited it instead."
+    },
+    {
+      "issue": "\"No LTSS rate increase in FY2026–FY2027\" cited only S40, which covers FY2027.",
+      "change": "Added S72 (MDH JCR personal care rates report, July 2025) for FY2026; updated market_conditions, risks, reimbursement, rates[0].notes and not_claimed[2]."
+    },
+    {
+      "issue": "\"A Level 1 license cannot bill the waiver\" is an inference from the rate table, not a rule; checklist[53] cited .05C.",
+      "change": "Softened wording in service_model and checklist[53] to \"confirm with MDH OLTSS\"; removed .05C from the checklist cite."
+    },
+    {
+      "issue": "45-day rate-increase notice cited to S1 (chapter index only).",
+      "change": "Added S73 (COMAR 10.07.14.27) and cited it in reimbursement and checklist[31]."
+    }
+  ]
+}

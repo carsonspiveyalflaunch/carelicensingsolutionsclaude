@@ -1,0 +1,1983 @@
+{
+  "bundle_slug": "maryland-personal-home-care-complete-bundle",
+  "state": "Maryland",
+  "state_code": "MD",
+  "program": "Personal Home Care (non-medical home care)",
+  "state_program_name": "Residential Service Agency (RSA) licensed by OHCQ under COMAR 10.07.05; Medicaid personal assistance under Community First Choice (COMAR 10.09.84) and CPAS (COMAR 10.09.20), provider type 76",
+  "as_of": "2026-10",
+  "report_title": "Maryland Personal Home Care (Residential Service Agency) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Residential Service Agencies — licensing page (initial license, change of ownership 45-day notice, outside trainer approval, Health-General §19-4A-11 worker-classification certification, OHCQ phone numbers)",
+      "publisher": "Maryland Department of Health, Office of Health Care Quality",
+      "url": "https://health.maryland.gov/ohcq/Pages/Residential-Service-Agencies.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "RSA License Application (rev. 06/26/2026): 'There is no fee to apply for a license'; required attachments; 180-day hold before administrative closure",
+      "publisher": "MDH Office of Health Care Quality",
+      "url": "https://health.maryland.gov/ohcq/docs/Applications/APPLICATION_RSA-License-06.26.2026-A.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "COMAR 10.07.05.04 Licensing Procedures ($1,000 nonrefundable fee for a 3-year license; $1,000 renewal; 3-year term; provisional licenses; optional pre-licensure inspection)",
+      "publisher": "Library of Maryland Regulations (Division of State Documents)",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.04",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "COMAR 10.07.05.02 Definitions (residential service agency, home health care, certified care, ADLs/IADLs)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.02",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "COMAR 10.07.05.10 Employee, Independent Contractor, and Contractual Employee Requirements (screening, criminal history check, certified caregiver rules)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.10",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "COMAR 10.07.05.11 Training (minimum training content incl. CPR, infection control, abuse prevention; outside trainers need OHCQ approval)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.11",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "COMAR 10.07.05.12 Services Provided (RN assessment, plan of care, RN on-site supervision every 45 days / 3 months / 4 months, 24/7 on-call with 1-hour response)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.12",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "COMAR 10.09.84.24 Payment Procedures (telephonic timekeeping system required for personal assistance; 15-minute units up to 12 hours/day, daily rate above; lesser of usual-and-customary or fee schedule; 3% annual increase subject to the State budget)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.24",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "PT 03-25: Fiscal Year 2025 Rates for Community First Choice and Community Personal Assistance Services (effective July 1, 2024)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/Transmittals_FY2025/PT%2003-25%20Fiscal%20Year%202025%20Rates%20for%20CFC%20and%20CPAS.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "Community First Choice Billing Manual (July 1, 2019): personal assistance documented and paid through ISAS, a phone-based electronic system that generates claims; claims must be submitted within 12 months of the date of service",
+      "publisher": "Maryland Department of Health",
+      "url": "https://dhmh.maryland.gov/mmcp/longtermcare/SiteAssets/Pages/CFC-Provider-Information/CFC%20Billing%20Manual%20%207.1.19.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "COMAR 10.09.84.06 Specific Conditions for Provider Participation — Personal Assistance (RSA license, employed RN, monthly participant signature, criminal history checks, 45-day notices)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.06",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "PT 16-27: Updates for the Home and Community-Based Services Cost Survey (due December 31, 2026; payment suspension from January 1, 2027 for non-filers)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT16-27_Updates_for_the_Home_and_Community-Based_Services_Cost_Survey.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "Interested Parties Advisory Group meeting slides, June 29, 2026 ('no rate updates for personal care … since the last meeting'; access-to-care metrics due July 9, 2027)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/IPAG-Meeting-Slides-%20June-29-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "Maryland HCBS Comparative Rate Analysis, 6/11/2026 (rates as of 7/1/2025 with hourly equivalents; CY2025 claims and beneficiaries by code)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/Payment-Rate-Transparency-Comparative-Rate-Analysis-HCBS.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "Analysis of the FY 2027 Maryland Executive Budget — M00Q01 Medical Care Programs Administration ('level rates for long-term services and supports providers'; CFC $607 million)",
+      "publisher": "Maryland Department of Legislative Services",
+      "url": "https://mgaleg.maryland.gov/pubs/budgetfiscal/2027fy-budget-docs-operating-M00Q01-MDH-Medical-Care-Programs-Administration.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "Home Health and Personal Care Aides (31-1120 combined occupation) — Maryland wages, BLS OEWS May 2025 (MD 25th pct $17.06; median $18.29; 75th pct $20.74; Baltimore median $18.10; Washington MSA median $18.52)",
+      "publisher": "U.S. Dept. of Labor O*NET OnLine (BLS OEWS May 2025 data)",
+      "url": "https://www.onetonline.org/link/localwages/31-1122.00?st=MD",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "Registered Nurses (29-1141) — Maryland wages, BLS OEWS May 2025 (MD median $47.98 / $99,790)",
+      "publisher": "U.S. Dept. of Labor O*NET OnLine (BLS OEWS May 2025 data)",
+      "url": "https://www.onetonline.org/link/localwages/29-1141.00?st=MD",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "First-Line Supervisors of Office and Administrative Support Workers (43-1011) — Maryland wages, BLS OEWS May 2025 (MD median $35.64 / $74,140)",
+      "publisher": "U.S. Dept. of Labor O*NET OnLine (BLS OEWS May 2025 data)",
+      "url": "https://www.onetonline.org/link/localwages/43-1011.00?st=MD",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "Medical Secretaries and Administrative Assistants (43-6013) — Maryland wages, BLS OEWS May 2025 (MD median $23.00 / $47,850)",
+      "publisher": "U.S. Dept. of Labor O*NET OnLine (BLS OEWS May 2025 data)",
+      "url": "https://www.onetonline.org/link/localwages/43-6013.00?st=MD",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "CareScout Cost of Care Survey 2025 — Ranked Median Costs by State (Maryland non-medical in-home care $35/hour median; private duty nurse $85/hour)",
+      "publisher": "Genworth / CareScout",
+      "url": "https://pro.genworth.com/riiproweb/productinfo/pdf/298701.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "Maryland Minimum Wage and Overtime Law ($15.00 state minimum; Montgomery County from July 1, 2026: $18.00 large / $16.50 mid-size, which also covers home care providers with 11+ employees receiving at least 75% of gross revenue from Medicaid / $15.95 small; Howard County $16.00)",
+      "publisher": "Maryland Department of Labor, Employment Standards Service",
+      "url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "Community First Choice Program and Community Options Waiver Financial and Registry Data (2026 Joint Chairmen's Report, transmitted August 24, 2026)",
+      "publisher": "Maryland Department of Health",
+      "url": "https://health.maryland.gov/mmcp/Documents/CFCcommunityoptionswaiverJCRfinal8-26.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "Baltimore Commercial Real Estate Market Report, Q1 2026 (office asking rents averaging about $26.78/sq ft full-service)",
+      "publisher": "TenantBase",
+      "url": "https://www.tenantbase.com/baltimore/q1-2026/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Topic No. 751 Social Security and Medicare Withholding Rates",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/taxtopics/tc751",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Unemployment Insurance tax rates (new employers 1.0%–2.6%; taxable wage base first $8,500; Table A in effect for 2026)",
+      "publisher": "Maryland Department of Labor, Division of Unemployment Insurance",
+      "url": "https://www.labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Questions and Answers for Employers ('every employer … with one or more employees is required by law to provide workers' compensation coverage')",
+      "publisher": "Maryland Workers' Compensation Commission",
+      "url": "https://www.wcc.state.md.us/PDF/Publications/QandA_Emplr.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Maryland Healthy Working Families Act — Earned Sick and Safe Leave FAQs (1 hour per 30 worked; paid for employers with 15+ employees; 40-hour annual accrual)",
+      "publisher": "Maryland Department of Labor",
+      "url": "https://labor.maryland.gov/paidleave/paidleavefaqs.shtml",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "FAMLI FAQs — Contributions (April 2026): 0.9% total rate from January 1, 2027; employer may withhold up to half; employers under 15 employees remit only 50%",
+      "publisher": "Maryland Department of Labor, FAMLI Division",
+      "url": "https://paidleave.maryland.gov/files/famli-faqs-contributions-april-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "SDAT Fee Schedule (Articles of Organization, domestic LLC $100; $50 expedite)",
+      "publisher": "Maryland State Department of Assessments and Taxation",
+      "url": "https://dat.maryland.gov/businesses/Documents/FEES.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "2024 Form 1 Annual Report and Business Personal Property Return manual (domestic LLC filing fee $300; due April 15) — per 2024 Form 1; confirm current fee",
+      "publisher": "Maryland State Department of Assessments and Taxation",
+      "url": "https://dat.maryland.gov/SDAT%20Forms/PPR_Forms/2024_Form_1_Manual.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "IRS sets 2026 business standard mileage rate at 72.5 cents per mile",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/newsroom/irs-sets-2026-business-standard-mileage-rate-at-725-cents-per-mile-up-25-cents",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Provider Enrollment Application Fee Amount for CY 2026 ($750), 90 FR 55738 (Dec. 3, 2025)",
+      "publisher": "Federal Register / CMS",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Analysis of the FY 2026 Maryland Executive Budget — M00Q01 (LTSS rate history FY2017–2026; 1% FY2026 increase proposed and recommended for deletion)",
+      "publisher": "Maryland Department of Legislative Services",
+      "url": "https://mgaleg.maryland.gov/pubs/budgetfiscal/2026fy-budget-docs-operating-M00Q01-MDH-Medical-Care-Programs-Administration.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "Medical and Health Services Managers (11-9111) — Maryland wages, BLS OEWS May 2025 (MD 25th pct $48.66 / $101,200; median $131,810)",
+      "publisher": "U.S. Dept. of Labor O*NET OnLine (BLS OEWS May 2025 data)",
+      "url": "https://www.onetonline.org/link/localwages/11-9111.00?st=MD",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "COMAR 10.09.84.04 Participant Eligibility (institutional level of care, Medicaid eligibility, reside at home, plan of service names the agency)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.04",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "COMAR 10.09.84.14 Covered Services — Personal Assistance",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.14",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "COMAR 10.09.84.12 Nurse Monitoring providers (designated by the Department under §1915(b)(4))",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.12",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "PT 13-27: Residential Service Agencies Provider Compliance Audits (August 10, 2026)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT13-27_Residential_Service_Agencies_Provider_Compliance_Audits.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "PT 36-27: MPRIME Launch — Day One Provider Actions and Enrollment Policy Updates (go-live Oct 13, 2026; backdates for complete applications by Dec 31, 2026; SDAT good-standing requirement; license uploads by March 31, 2027)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT36-27_MPRIME_Launch_Day_One_Provider_Actions_and_Enrollment_Policy_Updates.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "PT 59-26: Provider Enrollment Portal Transition (ePREP holds; Community Options Program PT 76 listed as high/moderate risk)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT59-26_Provider_Enrollment_Portal_Transition.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "PT 28-27: Final ePREP Access Deadline and MPRIME Launch Updates (September 16, 2026)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT28-27_Final_ePREP_Access_Deadline_and_MPRIME_Launch_Updates.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Residential Agency (RSA) Provider Listing — Active RSAs (Medicaid personal assistance providers by county; 1,195 distinct provider numbers in the May 2026 file)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/Residential-Agency-RSA-%20Provider-Listing.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Report on Medical Assistance Program — Personal Care Aides — Wage Reports (HB 189/SB 371 of 2024; RSA annual wage reports to Dept. of Labor by Sept. 1; federal 80% direct-care compensation standard)",
+      "publisher": "Maryland Department of Health (Dec. 17, 2024)",
+      "url": "https://health.maryland.gov/mmcp/Documents/JCRs/2024/personalcareaidesfinalruleJCRfinal10-24.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "HR 1 Update — Community Options Advisory Council, April 28, 2026 (immigrant eligibility changes Oct 1, 2026; shortened retroactive coverage Jan 1, 2027)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/CO-Advisory-Council_HR1-Update.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "CPAS, CFC and CO Services (PT 76) Provider Information ('no longer accepting provider applications to become an Independent Personal Assistance provider'; ISAS)",
+      "publisher": "MDH Medicaid — Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Pages/CFC-Provider-Information.aspx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "ISAS Provider Enrollment information session, March 11, 2020 (ISAS help desk, clock-in number, landline/OTP verification, admin/billing roles, missing-time policy: 4-request limit, 2 business days after month-end, Thursday–Wednesday workweek, weekly payment)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/siteassets/pages/cfc-provider-information/provider%20enrollment%20info%20session%2020200311.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "COMAR 10.07.05.08 Administration (governing authority; required policies and procedures)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.08",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "COMAR 10.07.05.16 Client's Rights and Responsibilities (cost estimates, itemized bills, 24/7 phone, OHCQ complaint access)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.16",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "COMAR 10.09.20.05 CPAS — Specific Conditions for Provider Participation — Personal Assistance",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.20.05",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "PT 33-27: Replacement of Personal Emergency Response Systems (Maryland Access Point 1-844-MAP-LINK; OLTSS 410-767-1739)",
+      "publisher": "Maryland Medical Assistance Program (MDH)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT33-27_Replacement_of_Personal_Emergency_Response_Systems.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "SOP — Standardized Times for Assistance with ADLs, IADLs and Delegated Nursing Tasks (rev. April 29, 2025)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/SOP_Standardized-Times-I_ADLs.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "IPAG Meeting Minutes, June 29, 2026 (RSA patient care aide survey posted but unverified; worker-organization statement on paid sick leave)",
+      "publisher": "MDH Office of Long Term Services and Supports",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/IPAG-Meeting-Minutes-June-29-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Get an Employer Identification Number (EIN)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "NPPES — National Plan and Provider Enumeration System (NPI application)",
+      "publisher": "CMS",
+      "url": "https://nppes.cms.hhs.gov/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "42 U.S.C. §1396b(l) — electronic visit verification requirement for Medicaid personal care services (21st Century Cures Act)",
+      "publisher": "U.S. Code (via Cornell LII)",
+      "url": "https://www.law.cornell.edu/uscode/text/42/1396b",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "COMAR 10.09.84.20 Covered Services — Nurse Monitoring (contact every 6 months; in-person visit every 12 months)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.20",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "COMAR 10.09.84.23 Limitations (service budget per assessed need; no escort/travel expenses; no housekeeping unrelated to ADLs)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.23",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "Table 2a/2b — Labor market and workforce data for HCBS occupations (aides per 1,000 residents, Maryland vs. neighbors, BLS May 2024)",
+      "publisher": "MDH Office of Long Term Services and Supports / Hilltop Institute",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Documents/Data_IPAG-Wage-and-Utilization-6-2026_table2.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "COMAR 10.09.84.05 Conditions for Participation — general (incident and complaint reporting within 24 hours; records kept 6 years from date of service; monthly Medicaid eligibility verification; 24-month prohibition after sanctions)",
+      "publisher": "Library of Maryland Regulations",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.05",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "Medicaid personal assistance rate — CFC W5519 / CPAS W5527",
+      "value": "$6.3962 per 15-minute unit ($25.58/hour); unchanged on July 1, 2025 and level in the FY 2027 budget",
+      "source_id": "S9; S14; S15",
+      "as_of": "2024-07-01 (still current 2026)"
+    },
+    {
+      "metric": "Shared-attendant and daily personal assistance rates",
+      "value": "Shared attendant $4.2597 per 15 min (W5521/W5528); daily rate for >12 hours/day $329.84 (W5532)",
+      "source_id": "S9",
+      "as_of": "2024-07-01"
+    },
+    {
+      "metric": "RSA license fee and term",
+      "value": "$1,000 nonrefundable for a 3-year license; $1,000 per 3-year renewal (COMAR 10.07.05.04). OHCQ's 06/26/2026 application states 'There is no fee to apply' — confirm when the fee is billed",
+      "source_id": "S3; S2",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Electronic visit verification",
+      "value": "Mandatory state telephonic system (ISAS) for CFC/CPAS/CO: aides clock in/out by phone (or OTP device); ISAS generates the claims; a 4-request missing-time limit per MDH's 2020 ISAS training (confirm current policy with the ISAS Help Desk)",
+      "source_id": "S8; S10; S46",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Community First Choice users per month",
+      "value": "18,443 (July 2025) to 19,107 (February 2026); about $53–58 million paid per full month",
+      "source_id": "S22",
+      "as_of": "FY2026"
+    },
+    {
+      "metric": "Beneficiaries billed under W5519 (CFC personal assistance) in CY 2025",
+      "value": "16,543 people; 3,031,968 paid claims",
+      "source_id": "S14",
+      "as_of": "CY2025"
+    },
+    {
+      "metric": "Community Options waiver registry",
+      "value": "20,778 registrants on June 30, 2026 (13,493 aged 65+); about 700 invitations sent per month",
+      "source_id": "S22",
+      "as_of": "2026-06-30"
+    },
+    {
+      "metric": "Medicaid-enrolled RSAs on the state's provider listing",
+      "value": "1,195 distinct provider numbers (Prince George's 374, Baltimore County 323, Montgomery 152)",
+      "source_id": "S42",
+      "as_of": "2026-05"
+    },
+    {
+      "metric": "Minimum wage floors that bind home care pay",
+      "value": "Maryland $15.00; Howard County $16.00; Montgomery County $16.50 for home care employers with 11+ employees that receive at least 75% of gross revenue from Medicaid (otherwise $18.00 at 51+ employees, $16.50 at 11–50, $15.95 at 10 or fewer) from July 1, 2026",
+      "source_id": "S21",
+      "as_of": "2026-07-01"
+    },
+    {
+      "metric": "Maryland home health and personal care aide wages (BLS OEWS)",
+      "value": "25th pct $17.06; median $18.29; 75th pct $20.74 per hour",
+      "source_id": "S16",
+      "as_of": "May 2025"
+    },
+    {
+      "metric": "Private-pay benchmark — non-medical in-home care",
+      "value": "$35/hour Maryland median (CareScout 2025)",
+      "source_id": "S20",
+      "as_of": "2025"
+    },
+    {
+      "metric": "Medicaid enrollment system",
+      "value": "MPRIME went live October 13, 2026; new applicants who file a complete application by December 31, 2026 can be backdated (to July 1 for high/moderate-risk types or license date, whichever is later)",
+      "source_id": "S39",
+      "as_of": "2026-10"
+    }
+  ],
+  "not_claimed": [
+    "The total number of OHCQ-licensed Residential Service Agencies (Medicaid and private-pay combined). No current official count was found; the 1,195 figure [S42] is only the RSAs on the Medicaid personal assistance provider listing.",
+    "Market shares, named competitors, or referral volumes for any county. The provider listing names agencies but says nothing about size or volume.",
+    "A FY 2027 (July 1, 2026) rate change for CFC/CPAS personal assistance. None was found: the June 2026 IPAG slides report no personal care rate updates [S13] and the FY 2027 budget analysis describes level LTSS rates [S15]. COMAR 10.09.84.24F(2)'s 3% annual increase is 'subject to the limitations of the State budget' [S8], and it has not been funded since FY 2025.",
+    "Whether Maryland charges the $750 federal application fee [S32] to new PT 76 (CFC/CPAS/CO) enrollees. It was not confirmed; the startup range shows $0–$750.",
+    "Whether OHCQ currently bills the $1,000 COMAR license fee at issuance, given that the 2026 application says no fee is due with the application [S2][S3].",
+    "Any vendor or per-user fee for ISAS. None is stated in the state's ISAS materials [S10][S46]; the model carries $0 for Medicaid EVV.",
+    "Average authorized personal assistance hours per participant. Maryland does not publish it. The model uses 100 hours a month for Medicaid clients (operator assumption); FY 2026 total CFC spending per user (about $3,000 a month, all CFC services combined) [S22] implies at most about 119 hours if every dollar were personal assistance.",
+    "Private-pay hours per client (modeled at 60 hours/month) and the share of authorized hours actually delivered (modeled at 90%). Both are operator assumptions; Maryland's first access-to-care metrics are due by July 9, 2027 [S13].",
+    "Liability insurance minimums. COMAR 10.07.05 requires proof of workers' compensation only [S3]; liability premiums in the model are operator estimates.",
+    "Workers' compensation premium rates for home care class codes in Maryland. Coverage is mandatory [S26]; the 4% rate is an operator estimate.",
+    "Average PCA wages reported by Maryland RSAs in the 2025 Department of Labor survey. The raw responses were posted but are unverified and inconsistent [S52], so BLS OEWS wages are used instead.",
+    "Medicaid managed care rates. CFC/CPAS personal assistance is paid fee-for-service through ISAS/MMIS [S8][S10]; no MCO contract is needed for these services.",
+    "Long-term care insurance and VA Homemaker/Home Health Aide payment rates. These are negotiated or locally set and were not verified; they are discussed but not modeled.",
+    "Break-even census or break-even month beyond what the P&L generator calculates from the inputs.",
+    "Office rent from an official source. The $26.78/sq ft figure is a secondary, AI-synthesized market summary [S23]; verify with a local broker.",
+    "The current ISAS Policy Guide. The Policy Guide 2.0 link on the MDH site returns 404; ISAS missing-time limits (4 requests, 2 business days) and the Thursday–Wednesday billing week come from MDH's March 2020 ISAS training [S46] and should be confirmed with the ISAS Help Desk. A claim that ISAS bills nightly or that unauthorized phone numbers trigger investigation could not be confirmed and was removed."
+  ],
+  "regulators": [
+    {
+      "name": "Maryland Department of Health — Office of Health Care Quality (OHCQ), RSA Team",
+      "role": "Licenses Residential Service Agencies under COMAR 10.07.05; complaint investigations and inspections; approves outside trainers; worker-classification certification",
+      "url": "https://health.maryland.gov/ohcq/Pages/Residential-Service-Agencies.aspx",
+      "phone": "410-402-8040; complaints 800-492-6005",
+      "email": "Contact form linked from the RSA page",
+      "source_id": "S1"
+    },
+    {
+      "name": "Maryland Department of Health — Office of Long Term Services and Supports (OLTSS)",
+      "role": "Runs Community First Choice, CPAS and the Community Options waiver; plans of service, ISAS, rates, HCBS Cost Survey",
+      "url": "https://health.maryland.gov/mmcp/longtermcare/Pages/Home.aspx",
+      "phone": "410-767-1739",
+      "email": "mdh.cfcprovidersrsas@maryland.gov (RSA compliance questions)",
+      "source_id": "S38"
+    },
+    {
+      "name": "Maryland Medicaid — Office of Medicaid Provider Services (MPRIME enrollment)",
+      "role": "Provider enrollment (PT 76), revalidation, license uploads, SDAT good-standing checks",
+      "url": "https://www.mprime.health.maryland.gov",
+      "phone": "1-844-463-7768",
+      "email": "mdh.mprimegolive@maryland.gov",
+      "source_id": "S39"
+    },
+    {
+      "name": "Maryland Department of Health — Division of Provider Integrity, Claims and Compliance (DPICC)",
+      "role": "RSA provider compliance audits, plans of correction, payment withholds",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT13-27_Residential_Service_Agencies_Provider_Compliance_Audits.pdf",
+      "phone": "",
+      "email": "mdh.cfcprovidersrsas@maryland.gov",
+      "source_id": "S38"
+    },
+    {
+      "name": "Maryland Department of Labor",
+      "role": "Minimum wage, sick and safe leave, unemployment insurance, FAMLI, and the RSA annual personal care aide wage report (HB 189 of 2024)",
+      "url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml",
+      "phone": "",
+      "email": "",
+      "source_id": "S21"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "COMAR 10.07.05",
+      "title": "Residential Service Agencies (licensing, administration, screening, training, RN supervision, client rights)",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.04",
+      "source_id": "S3"
+    },
+    {
+      "cite": "COMAR 10.07.05.12",
+      "title": "Services Provided — RN assessment, supervision intervals, on-call",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.12",
+      "source_id": "S7"
+    },
+    {
+      "cite": "COMAR 10.09.84",
+      "title": "Community First Choice (provider conditions .05–.06, covered services .14, limitations .23, payment .24)",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.06",
+      "source_id": "S11"
+    },
+    {
+      "cite": "COMAR 10.09.20",
+      "title": "Community Personal Assistance Services (CPAS)",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.09.20.05",
+      "source_id": "S49"
+    },
+    {
+      "cite": "COMAR 10.09.36",
+      "title": "General Medical Assistance Provider Participation Criteria (sanctions at .08; referenced by PT 13-27)",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT13-27_Residential_Service_Agencies_Provider_Compliance_Audits.pdf",
+      "source_id": "S38"
+    },
+    {
+      "cite": "Health-General §19-4A-11",
+      "title": "RSA worker-classification certification for personal care aides (condition of licensure)",
+      "url": "https://health.maryland.gov/ohcq/Pages/Residential-Service-Agencies.aspx",
+      "source_id": "S1"
+    },
+    {
+      "cite": "Health-General Title 19, Subtitle 19",
+      "title": "Criminal history records checks for direct service workers (cited in COMAR 10.07.05.10 and 10.09.84.06)",
+      "url": "https://regs.maryland.gov/us/md/exec/comar/10.07.05.10",
+      "source_id": "S5"
+    },
+    {
+      "cite": "42 U.S.C. §1396b(l)",
+      "title": "Federal EVV requirement for Medicaid personal care services",
+      "url": "https://www.law.cornell.edu/uscode/text/42/1396b",
+      "source_id": "S55"
+    },
+    {
+      "cite": "42 CFR 441.302(k); 42 CFR 447.203",
+      "title": "Ensuring Access to Medicaid Services rule — payment adequacy (80% direct-care compensation) and rate transparency",
+      "url": "https://health.maryland.gov/mmcp/Documents/JCRs/2024/personalcareaidesfinalruleJCRfinal10-24.pdf",
+      "source_id": "S43"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Maryland Medicaid — Community First Choice",
+      "code": "W5519",
+      "service": "Personal Assistance Services (agency)",
+      "rate": 6.3962,
+      "unit": "per 15 minutes",
+      "effective": "2024-07-01",
+      "notes": "$25.58/hour. Same rate on the 7/1/2025 rate disclosure [S14]; FY 2027 budget level [S15]. Billed only through ISAS telephonic timekeeping; payment is the lesser of your usual-and-customary charge or the fee schedule (COMAR 10.09.84.24D).",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — Community First Choice",
+      "code": "W5521",
+      "service": "Personal Assistance Services — shared attendant",
+      "rate": 4.2597,
+      "unit": "per 15 minutes",
+      "effective": "2024-07-01",
+      "notes": "$17.04/hour per participant.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — Community First Choice",
+      "code": "W5532",
+      "service": "Personal Assistance Services — daily (more than 12 hours/day)",
+      "rate": 329.84,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "Paid when the participant needs more than 12 hours a day (COMAR 10.09.84.24E). Only 10 beneficiaries billed it in CY 2025 [S14].",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — Community First Choice",
+      "code": "W5533",
+      "service": "Personal Assistance Services — shared daily",
+      "rate": 219.89,
+      "unit": "per day",
+      "effective": "2024-07-01",
+      "notes": "",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — CPAS",
+      "code": "W5527",
+      "service": "Personal Assistance Services (CPAS)",
+      "rate": 6.3962,
+      "unit": "per 15 minutes",
+      "effective": "2024-07-01",
+      "notes": "1,033 beneficiaries in CY 2025 [S14].",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — CPAS",
+      "code": "W5528",
+      "service": "Personal Assistance Services — shared attendant (CPAS)",
+      "rate": 4.2597,
+      "unit": "per 15 minutes",
+      "effective": "2024-07-01",
+      "notes": "",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — CFC/CPAS",
+      "code": "W5522 / W5529",
+      "service": "Nurse Monitoring",
+      "rate": 31.5348,
+      "unit": "per 15 minutes",
+      "effective": "2024-07-01",
+      "notes": "Reference only. Nurse monitoring providers are designated by the Department under §1915(b)(4) (COMAR 10.09.84.12) [S37]; an RSA's own RN assessment and supervision is not separately billable. Nurse monitors contact participants at least every 6 months with an in-person visit every 12 months [S56].",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Maryland Medicaid — CFC",
+      "code": "W5511",
+      "service": "PERS monthly monitoring (reference)",
+      "rate": 49.23,
+      "unit": "per month",
+      "effective": "2024-07-01",
+      "notes": "Separate PERS vendor service; not modeled.",
+      "source_id": "S9"
+    },
+    {
+      "payer": "Private pay (benchmark)",
+      "code": "",
+      "service": "Non-medical in-home care, Maryland median",
+      "rate": 35.0,
+      "unit": "per hour",
+      "effective": "2025",
+      "notes": "CareScout 2025 survey median of agency hourly rates. Not a regulated rate; your price must be set locally.",
+      "source_id": "S20"
+    }
+  ],
+  "sections": {
+    "executive_summary": "Maryland does not issue a separate \"non-medical home care\" license. Any business that employs or contracts with workers to provide a home health care service, including personal care aide help with activities of daily living, to an unrelated sick or disabled person for pay is a **Residential Service Agency (RSA)**. RSAs are licensed by the Maryland Department of Health's Office of Health Care Quality (OHCQ) under **COMAR 10.07.05** [S1][S4]. The same license is the entry ticket to Medicaid. Personal assistance under **Community First Choice (CFC)** and **Community Personal Assistance Services (CPAS)** may only be delivered by a licensed RSA that employs a registered nurse and enrolls with Medicaid as provider type 76 [S11][S49][S40]. Community Options waiver participants get their personal assistance through CFC [S51].\n\n**The opportunity is real but the Medicaid margin is thin.** CFC served 18,400–19,100 people a month in FY 2026, at roughly $53–58 million in claims per full month [S22]. In CY 2025, 16,543 people were billed under the main personal assistance code, W5519 [S14]. The Community Options waiver registry still held 20,778 people on June 30, 2026 [S22]. On the price side, the agency rate has been **$6.3962 per 15 minutes ($25.58/hour)** since July 1, 2024. The state did not raise it in FY 2026 or FY 2027 [S9][S14][S15]. At Maryland's 25th-percentile aide wage of $17.06 [S16] plus payroll burden, about 83% of every Medicaid dollar goes to the aide. That leaves roughly $314 per client per month to cover the RN, office, insurance and owner pay. The market is also crowded: the state's Medicaid RSA listing shows 1,195 provider numbers, concentrated in Prince George's (374), Baltimore County (323) and Montgomery (152) [S42].\n\n**What works in the model:** a mixed agency that uses Medicaid for volume and private pay for margin. Maryland's median private-pay rate for non-medical in-home care is $35/hour [S20], which leaves about $616 per private client per month after costs. At 90% of target census:\n\n- A **100-client mixed agency (60% Medicaid / 40% private pay)** nets about **$11,800 a month (5.5% margin)**.\n- A **60-client mixed agency (70/30)** nets about **$3,600 a month (2.8%)**.\n- **Medicaid-only agencies** lose money at 30 and 60 clients and barely break even at 100.\n\nSection 8 shows how sensitive these results are to aide wages. In Montgomery County, a mixed agency with 51+ employees and under 75% Medicaid revenue must pay at least $18.00 an hour, which cuts the 100-client result to about $5,500 a month [S21].\n\n**Timing matters in late 2026.** Medicaid moved provider enrollment to the new **MPRIME** system on October 13, 2026. Complete new applications filed by December 31, 2026 can be backdated [S39]. Every Medicaid HCBS provider must file the annual HCBS Cost Survey or face payment suspension [S12], and the state has begun formal RSA compliance audits [S38].",
+    "service_model": "### Who is served and what the service is\n\"Personal home care\" in Maryland means hands-on help with **activities of daily living** (bathing, dressing, eating, mobility, toileting) and **instrumental activities** (meals, light housekeeping, shopping, errands) in the client's own home [S4]. Under CFC, personal assistance also covers delegated nursing tasks, help with self-administered medication, and tasks requiring judgment to protect the participant from harm [S36]. It excludes housekeeping unrelated to the participant, the cost of food, and escort or travel expenses [S57].\n\n### The license: Residential Service Agency\nCOMAR defines an RSA as any non-governmental business that employs or contracts with individuals to provide at least one home health care service, for pay, to an unrelated sick or disabled person in that person's residence [S4]. Licensed home health agencies, hospices, hospitals and Medicaid personal care providers under the older programs are excluded [S4]. On the application, the applicant checks the services it will offer: nursing, home health aide, therapies, medical social services, dietary services, or durable medical equipment [S2].\n\nWorkforce rules follow the client's needs:\n- An agency may send a **non-certified aide** only when the client does not need ADL help, when the supervising nurse judges there are no predictable adverse health consequences, or when the client signs a waiver of skilled services [S5].\n- A **certified caregiver** (CNA or certified medication technician) is required when a client needs a certified caregiver for ADLs or needs medication administered [S5].\n- Under CFC, an aide who administers medication must be a CMT, and one who performs other delegated nursing tasks must also be a CNA [S11].\n\n### Payers and how money flows\n1. **Private pay** (self-pay families and long-term care insurance reimbursement to the family). Rates are set by the agency. COMAR requires a written cost estimate, a statement of what the client will owe, and itemized bills on request [S48].\n2. **Maryland Medicaid, fee-for-service:**\n   - **CFC** (COMAR 10.09.84). Participants must meet an institutional level of care, be Medicaid-eligible and live at home [S35].\n   - **CPAS** (COMAR 10.09.20), a separate state plan personal assistance program with the same agency conditions [S49].\n   - **Community Options waiver** members, who receive personal assistance through CFC.\n\n   A supports planner builds a plan of service that names the provider agency. OLTSS sets a service budget based on assessed need [S35][S57]. Aides clock in and out through **ISAS**, the state's telephonic EVV system. ISAS turns verified time into electronic claims automatically [S8][S10]; agencies are paid weekly [S46]. Payment goes directly from the Department to the agency under the published fee schedule [S8].\n3. **Other payers** (VA community care, county programs, LTC insurance). These were not verified and are not modeled.\n\n### Oversight structure\n- **OHCQ** licenses RSAs, investigates complaints and may inspect announced or unannounced [S1][S3].\n- **OLTSS and DPICC** oversee Medicaid participation. They use a progressive process: desk review and site visit, plan of correction, then suspension and payment withholds [S38].\n- **Federal law** requires EVV for Medicaid personal care [S55]. Maryland meets that requirement with ISAS.",
+    "licensing_pathway": "### Track 1 — Business formation\n1. **Form the entity.** File LLC Articles of Organization with SDAT: $100, plus $50 to expedite [S29]. Get an EIN [S53] and an organizational NPI [S54].\n2. **Keep the SDAT number in good standing.** From October 13, 2026, Medicaid will not accept an MPRIME application without an SDAT ID in good standing. MPRIME automatically suspends providers that fall out of good standing [S39]. The LLC annual report and personal property return costs $300 a year (per the 2024 Form 1 manual; confirm the current fee) and is due April 15 [S30].\n3. **Get workers' compensation insurance** before hiring. It is mandatory for any Maryland employer with one or more employees [S26]. OHCQ requires proof with the license application [S2].\n\n### Track 2 — OHCQ Residential Service Agency license\n1. **Prepare the package.** The application (rev. 06/26/2026) requires [S2]:\n   - a business plan with a 1-year operating budget, a marketing plan naming the populations served, and a detailed description of services;\n   - an organizational chart;\n   - policies and procedures under COMAR 10.07.05.08B (administration, personnel, patient care, informed consent, environment and safety) [S47];\n   - an SDAT letter of good standing;\n   - workers' compensation documentation.\n\n   COMAR also requires ownership disclosure for owners of 25% or more, prior license history, criminal-charge disclosures, and proof the applicant is 21 or older [S3].\n2. **Complete the worker-classification certification.** Under Health-General §19-4A-11, a person with authority over pay or employment practices must read the RSA-PCA Guidance Document and submit the online RSA Certification form. This is required both to obtain and to keep the license [S1][S2].\n3. **Submit online.** Use OHCQ's \"Submit a License Application\" Smartsheet link. Handwritten applications are returned [S2].\n4. **Fee.** COMAR 10.07.05.04 sets a nonrefundable **$1,000 fee for a 3-year license** and a $1,000 renewal fee [S3]. The current application says \"There is no fee to apply\" [S2]. Budget the $1,000 and confirm with OHCQ whether it is billed at issuance.\n5. **Review.** OHCQ may inspect before deciding [S3]. It may approve, approve with conditions (such as a required management firm for up to 24 months, or a license term under 1 year), or deny [S3]. Neither COMAR nor the application sets a processing deadline. OHCQ holds an incomplete application for **180 days** and then closes it administratively [S2]. A license runs **3 years** from issuance [S3].\n6. **Later changes.** Change of ownership requires 45 days' written notice and a new license application [S1]. Additional services, address, name and branch changes each have their own OHCQ forms [S1].\n\n### Track 3 — Medicaid enrollment (only if serving CFC/CPAS)\n1. **Enroll in MPRIME** as provider type 76 (Community Options / CFC / CPAS). PT 76 is a **high/moderate-risk** provider type [S40]. Federal screening rules for those risk levels include site visits and, for high-risk types, fingerprinting of owners; confirm with MDH which applies. New applications have been on hold since July 1, 2026. MPRIME opened October 13, 2026. A complete application filed by **December 31, 2026** can be backdated to the later of July 1, 2026 or the license issue date [S39].\n2. **Application fee.** The CY 2026 federal application fee is $750 [S32]. Whether Maryland collects it for PT 76 was not confirmed.\n3. **Meet the conditions of participation:**\n   - \"be licensed as a Residential Service Agency under COMAR 10.07.05 to provide Level Two or Level Three home care services\" [S11]. COMAR 10.07.05 no longer defines levels; confirm with OLTSS which services must be checked on the OHCQ application (home health aide at minimum);\n   - **employ an RN** who assesses each new participant, helps write worker instructions, delegates nursing tasks and trains aides;\n   - run criminal history checks on all direct service workers, including nurses;\n   - collect the participant's signature on services rendered at least monthly;\n   - give 45 days' notice before closure, a sale or a move [S11].\n\n   No provider or principal may have had a license action, Medicaid sanction or termination in the prior 24 months [S59][S38].\n4. **Register for ISAS.** Set up agency administrator and billing roles and train aides on clock-in and clock-out [S46]. ISAS is the only way to bill personal assistance [S8].\n5. **Get referrals.** Participants choose their agency during plan-of-service development with their supports planner. The agency must sign the plan of service [S35].",
+    "reimbursement": "### Medicaid (CFC and CPAS): one statewide fee schedule\n| Code | Service | Rate | Effective |\n|---|---|---|---|\n| W5519 (CFC) / W5527 (CPAS) | Personal assistance, agency | **$6.3962 per 15 min ($25.58/hr)** | July 1, 2024 |\n| W5521 / W5528 | Shared attendant | $4.2597 per 15 min | July 1, 2024 |\n| W5532 | Daily rate (>12 hrs/day) | $329.84 per day | July 1, 2024 |\n\nSources: [S9][S14].\n\n**Rate trend.** The FY 2025 schedule raised rates 3% on July 1, 2024 [S9]. The FY 2026 budget proposed a further 1% LTSS increase, and the Department of Legislative Services recommended deleting it [S33]. The state's July 1, 2025 rate disclosure still lists $6.3962 [S14]. The FY 2027 budget \"provides level rates for long-term services and supports providers\" [S15]. As of June 29, 2026, MDH reported no personal care rate updates [S13]. COMAR still calls for 3% annual increases, but only \"subject to the limitations of the State budget\" [S8]. **Plan on $6.3962 with no automatic raise.**\n\n**Billing mechanics** [S8][S10][S46]:\n- Units are 15 minutes for up to 12 hours a day. Above 12 hours, the daily rate applies.\n- Time is captured only through ISAS phone clock-in/out, verified by the participant's landline or a one-time-password device. ISAS generates the claims from verified clock-in data, and agencies are paid weekly [S46].\n- ISAS automatically cuts hours above the plan-of-service authorization, and those hours are not paid.\n- MDH's 2020 ISAS training sets a limit of 4 missing-time requests, due within 2 business days after month-end, and a Thursday–Wednesday billing week [S46]. Confirm the current limit and how it is counted with the ISAS Help Desk.\n- Claims must be submitted within 12 months of the date of service [S10].\n- Medicaid pays the lesser of the fee schedule or your usual-and-customary charge to the public. Do not post a private rate below $25.58/hour if you bill Medicaid.\n\n**What is not billable.** The RSA's own RN assessments, supervision visits, and on-call work are overhead built into the rate. Nurse Monitoring (W5522, $31.5348 per 15 min) is a separate service. Its providers are designated by the Department under §1915(b)(4) [S37][S9].\n\n**Rate pressure ahead.** Under HB 1142 and the federal Access Rule, MDH started the **HCBS Cost Survey** on July 1, 2026 to build a cost-based rate method [S12][S13]. Under the federal payment-adequacy rule, providers must spend at least 80% of Medicaid payments on direct-care worker compensation. MDH's 2024 report says compliance is enforced from July 9, 2030, with small-provider and hardship exemptions possible [S43]. At $17.06/hour plus burden, the modeled agency spends about 83%.\n\n### Private pay\nMaryland's 2025 median for non-medical in-home care is **$35/hour** [S20]. That is a statewide median of agency hourly rates, not a price ceiling. Montgomery County and other high-income areas generally support higher rates, but no county figure was verified. Private clients often buy short shifts. The model assumes 60 hours a month per private client (operator assumption — verify locally).\n\n### Other payers (not modeled)\nLong-term care insurance usually reimburses the policyholder, so the agency bills the family. VA Homemaker/Home Health Aide care is purchased through VA community care contracts. Neither rate was verified, so both are listed as not claimed.",
+    "demand": "### Medicaid volume\n- **CFC users:** 18,443 in July 2025, rising to 19,107 in February 2026. Total CFC cost ran about $53.6–57.7 million in each full month [S22].\n- **Personal assistance specifically:** 16,543 beneficiaries billed under W5519 and 1,033 under CPAS W5527 in CY 2025 [S14].\n- **Community Options waiver:** 3,879–3,944 enrollees a month in FY 2026 (July 2025–March 2026; 4,562 filled slots, preliminary) against 4,941 budgeted slots. CMS approved 7,500 slots beginning January 1, 2027, but the FY 2027 budget funds 4,988 [S22].\n- **Registry:** 20,778 people on June 30, 2026, down 9.9% from 23,060 a year earlier. Of these, 13,493 are 65+, about 53% have active Medicaid, and about 805 new registrants join each month. MDH sends about 700 invitations a month, but only 26% apply and 13% of applications ended in enrollment in FY 2026 [S22]. For a provider, the CFC state plan program is the more reliable volume source than waiver slots.\n\n### Referral sources\nCFC/CO applicants enter through **Maryland Access Point** (1-844-MAP-LINK) [S50]. Participants pick their personal assistance agency with their **supports planner**, and the plan of service names that agency [S35]. Practical referral channels are:\n- supports planning agencies and local MAP sites;\n- hospital and nursing-facility discharge planners (CFC also covers transitions from institutions) [S35];\n- area agencies on aging;\n- for private pay: physicians, elder-law attorneys, senior living communities and online search.\n\n### Supply and competition\nThe state's Medicaid RSA listing (May 2026) shows **1,195 distinct provider numbers**. The heaviest counts are Prince George's (374), Baltimore County (323), Montgomery (152), Baltimore City (about 90), Anne Arundel (70) and Howard (58). Western Maryland and the Eastern Shore have only single digits per county [S42]. A new Medicaid agency in Prince George's or Baltimore County competes with hundreds of others for the same supports-planner referrals. Rural counties have fewer competitors but also fewer participants and longer drive times.\n\n### Workforce supply\nIn 2024 Maryland had 6.15 home health and personal care aides per 1,000 residents, against 12.03 nationally, 7.00 in Virginia and 18.55 in Pennsylvania (MDH/Hilltop analysis of BLS data) [S58]. A thin aide pool means recruiting, not client demand, is often what limits growth.",
+    "operations": "### Required staffing (no fixed ratios)\nCOMAR 10.07.05 sets **no client-to-aide or client-to-RN ratio**. The duties drive the staffing:\n- **Registered nurse.** Assesses each new client who needs skilled services or ADL help, helps write the plan of care, decides whether a CNA is needed, and trains aides [S7]. The RN supervises **on site at least every 45 days** if staff administer medications, **every 3 months** if staff assist with self-administration, and **every 4 months** otherwise [S7]. CFC/CPAS also require the agency to *employ* an RN for participant assessments and delegation [S11][S49].\n- **Reassessment timing.** Plans of care are reassessed at least annually, on request, and within 48 hours of certain skilled needs or a significant change in condition. When the RN documents that 48 hours is not needed, the deadline becomes 7 days [S7].\n- **24/7 on-call.** Clients must be able to reach the agency at any time, with a response within 1 hour, and the agency keeps a log of calls [S7].\n- **Governing authority.** It meets at least annually with management and keeps minutes [S47].\n\n### Hiring and screening\nBefore an aide is referred to a client, the agency must complete [S5]:\n- a State criminal history check (or private background check) under Health-General Title 19, Subtitle 19;\n- license or certification verification;\n- TB and health screening;\n- reference and employment-history checks;\n- I-9 and identity checks;\n- an in-person interview;\n- a skills demonstration.\n\nThe agency must report possible nursing-practice violations to the Board of Nursing and OHCQ immediately [S5].\n\n### Training\nMinimum aide training covers [S6]:\n- personal care skills with supervised practice;\n- when to call the RN;\n- record keeping;\n- ethics and confidentiality;\n- **CPR**;\n- standard infection-control precautions;\n- abuse and neglect prevention.\n\nOutside trainers must have OHCQ approval in writing before they train [S6][S1].\n\n### Required systems\n- **ISAS (EVV).** Mandatory for CFC/CPAS/CO personal assistance. Up to 5 admin and 5 billing users per agency. Aides cannot log into the portal [S10][S46]. Verify each visit from the participant's primary landline or an OTP device; an aide's phone number should never be the same as the client's [S46].\n- **LTSSMaryland provider portal.** Used for reports and service corrections [S46].\n- **Private-pay scheduling, EVV and billing software.** Optional, but needed to meet COMAR's itemized-billing and records rules [S48].\n- **Medicaid documentation.** Keep records for 6 years and verify eligibility monthly [S59][S49].\n- **Annual HCBS Cost Survey.** The FY 2026 survey is due **December 31, 2026**. Non-filers face payment suspension from January 1, 2027 [S12].\n- **RSA wage report.** Each RSA files an annual personal care aide wage report with the Department of Labor by September 1 (HB 189 of 2024) [S43].\n- **Incident reporting.** Report incidents within 24 hours and submit a written report within 7 days. Report suspected abuse to the local department of social services immediately [S59][S11].\n\n### Employment law costs built into the model\n- **Overtime** after 40 hours [S21].\n- **Earned sick and safe leave** at 1 hour per 30 worked, paid at 15+ employees [S27].\n- **Workers' compensation** (mandatory) [S26].\n- **UI tax** of 1.0–2.6% on the first $8,500 of each worker's wages for new employers [S25].\n- **FAMLI** at a 0.9% total rate from January 1, 2027. Employers may withhold up to half from employees, and employers with fewer than 15 employees remit only 50% of the rate [S28].",
+    "market_conditions": "### Wages (BLS OEWS May 2025)\n| Role | Maryland 25th pct | Median | Source |\n|---|---|---|---|\n| Home health & personal care aides | $17.06 | $18.29 | [S16] |\n| Registered nurses | $40.26 | $47.98 | [S17] |\n| Office supervisors (director proxy) | $28.21 | $35.64 ($74,140) | [S18] |\n| Medical secretaries (scheduler/billing) | $20.84 | $23.00 ($47,850) | [S19] |\n| Medical & health services managers | $48.66 ($101,200) | $63.37 | [S34] |\n\nAide pay in the Baltimore and Washington metro areas is close to the state figure (medians $18.10 and $18.52) [S16]. Maryland's 10th-percentile aide wage, $15.16, sits just above the **$15.00 state minimum wage** [S21].\n\n**Local minimums** (from July 1, 2026) [S21]:\n- **Howard County:** $16.00.\n- **Montgomery County:** $18.00 for large employers, $16.50 for mid-size employers, $15.95 for small employers. A home care provider with 11+ employees falls in the $16.50 mid-size tier only if it receives at least 75% of its gross revenue from state and federal Medicaid programs.\n- The modeled Medicaid aide wage of $17.06 clears every floor except Montgomery County for agencies under 75% Medicaid revenue with 51+ employees. The Medicaid-only configurations qualify for $16.50. The mixed configurations do not: the default 100-client mixed agency earns about 65% of revenue from Medicaid and the 60-client mixed agency about 74%. A mixed or private-pay Montgomery agency with 51+ employees must pay at least $18.00 to all aides.\n\n### Pricing\n- **Medicaid:** $25.58/hour, unchanged since July 2024 [S9][S14][S15].\n- **Private pay:** $35/hour state median [S20].\n\nThe roughly $9.40/hour gap between the two is why the profitable configurations all carry private-pay clients.\n\n### Supply\n1,195 Medicaid RSA provider numbers are concentrated in the central and Capital-region counties [S42]. No official count of all licensed RSAs, Medicaid and private, was found.\n\n### Trends to watch\n1. **Rate setting may change.** MDH is collecting cost data to move to a cost-based method; results go to the IPAG in 2027 [S12][S13].\n2. **Program integrity is tightening.** RSA compliance audits began in 2026 (non-responders are suspended after three outreach attempts) [S38]. MPRIME checks SDAT standing automatically, and organizational licenses must be uploaded by March 31, 2027 [S39].\n3. **Federal H.R. 1 changes.** Immigrant eligibility narrows October 1, 2026, and retroactive coverage shrinks to 1–2 months from January 1, 2027 [S44]. Most CFC participants are older adults or people with disabilities, so the expansion-adult work requirements matter less for this market. Shorter retroactive coverage does raise the risk of serving clients before eligibility is confirmed.",
+    "financial_narrative": "### How the P&L is built\nThe unit is one **active client**. Capacity is the census the office team is sized for. The 90% default occupancy is the share of that census actually billing its authorized hours in a month (operator assumption).\n\n**Revenue per client per month:**\n- **Medicaid client:** 100 authorized hours = 400 units × $6.3962 = **$2,558.48** [S9]. Maryland does not publish average authorized hours, so the 100 hours is an operator assumption. FY 2026 CFC spending averaged about $3,000 per user per month across all CFC services [S22], which caps personal assistance at about 119 hours.\n- **Private-pay client:** 60 hours × $35 = **$2,100** [S20]. The hours are an operator assumption.\n\n**Direct labor** scales with census. Aides are paid for 105 hours per 100 billed, allowing 5% for travel between clients and in-service time (operator estimate):\n- Medicaid aides: Maryland 25th percentile, **$17.06** [S16].\n- Private-pay aides: median, **$18.29** [S16].\n- RN: **1.0 hour per client per month** at $47.98 [S17]. This covers COMAR supervision visits every 3–4 months, new-client assessments, delegation and documentation [S7]. The hours are an operator estimate.\n\n**Payroll burden is 19%:**\n- employer FICA 7.65% [S24];\n- Maryland UI and FUTA, about 1.35% (new-employer UI is 1.0–2.6% on the first $8,500 [S25]);\n- workers' compensation, 4% (mandatory [S26]; the rate is an operator estimate);\n- sick and safe leave, about 3.3% [S27];\n- FAMLI employer share, 0.45% from 2027 [S28];\n- other benefits, about 2% (operator estimate).\n\n**Fixed costs:**\n- A salaried director, using Maryland's median office supervisor wage of **$74,140** as a proxy [S18], or a **$101,200** administrator at 100 clients [S34]. COMAR sets no administrator credential.\n- A scheduler/ISAS billing coordinator at $47,850 per FTE [S19].\n- An 800 sq ft office (1,200 sq ft at 100 clients) at $26.78/sq ft/yr (secondary source [S23]).\n- The RSA license, $1,000 per 3 years [S3], and the SDAT annual report, $300 [S30].\n- A 24/7 on-call stipend (COMAR 10.07.05.12G [S7]).\n- Insurance, software, accounting (including the HCBS Cost Survey [S12]), marketing and utilities, all labeled operator estimates.\n\n**Per-client costs:** aide mileage between clients at the 2026 IRS rate [S31], plus training, background checks and supplies (operator estimates).\n\n### Per-client economics\n- **Medicaid client:** aide labor plus burden ($2,131.65) takes 83% of revenue. After the RN ($57.10) and per-client costs ($55.38), **$314 a month** is left toward overhead.\n- **Private-pay client:** aide labor plus burden is $1,371.21, leaving **$616 a month**.\n\n### Results at 90% of target census\n| Configuration | Net / month | Margin | Break-even clients |\n|---|---|---|---|\n| 100 clients, 60% Medicaid / 40% private | **+$11,806** | 5.5% | 63 |\n| 60 clients, 70% Medicaid / 30% private | **+$3,632** | 2.8% | 45 |\n| 100 clients, Medicaid only | +$2,035 | 0.9% | 84 |\n| 30 clients, private only | +$178 | 0.3% | 27 |\n| 60 clients, Medicaid only | −$810 | −0.6% | 57 |\n| 30 clients, Medicaid only | −$6,775 | −9.8% | 49 |\n\nAt 80% census, the 100-client mixed agency still makes about $7,450 a month and the 60-client mixed agency about $1,200. The Medicaid-only 100-client agency turns negative (−$1,108).\n\n### Sensitivity\n- **Aide wage.** This is the decisive input. If Medicaid aides must be paid the state median of **$18.29** instead of $17.06:\n  - the 100-client mixed agency falls to +$3,507 (1.6%);\n  - the 60-client mixed agency falls to −$2,178;\n  - the 100-client Medicaid-only agency falls to −$11,797.\n\n  The 60-client mixed agency breaks even at a Medicaid aide wage of about **$17.83**.\n- **Montgomery County wage floor.** The $16.50 tier applies only if at least 75% of gross revenue comes from Medicaid [S21]. A mixed agency like the default (about 65% Medicaid revenue) with 51+ employees must pay $18.00 in Montgomery County. At $18.00 for Medicaid aides:\n  - the 100-client mixed agency nets about **+$5,464** a month (2.6%, break-even 75 clients; about +$1,817 at 80% census);\n  - the 60-client mixed agency nets about **−$808** (break-even 56.5 clients).\n\n  The Medicaid-only configurations qualify for $16.50 and are unaffected.\n- **Medicaid rate.** The 60-client Medicaid-only agency breaks even at about **$6.43 per 15 minutes**, about 0.6% above today's rate.\n- **Private price.** If private pay brings $32/hour instead of $35, the 60-client mixed agency drops to +$716 and the 30-client private agency to −$4,682.\n- **RN time.** At 1.5 RN hours per client per month, the 100-client mixed agency earns +$9,237.\n- **Workers' comp.** At a 7% premium, the 100-client mixed agency earns +$7,038.\n\n### Cash needs\nStartup costs run about $14,000–$35,000, depending on size. The real cash need is the ramp-up loss while census builds. The P&L generator computes this from the ramp. At the modeled ramp it is roughly $114,000 for the 60-client mixed agency and $188,000 for the 100-client mixed agency, before startup costs.",
+    "risks": "1. **Flat Medicaid rate and rising wages.** The CFC/CPAS rate has been $6.3962 since July 2024 and was held level for FY 2027 [S9][S15]. Every $1/hour of aide pay costs a Medicaid agency about $125 per 100-hour client per month after burden. At the state median aide wage ($18.29), every Medicaid-heavy configuration loses money [S16].\n2. **Local minimum wages.** Montgomery County's minimum rises each July 1 with CPI-W. The $16.50 tier (from July 1, 2026) applies to home care providers with 11+ employees only if at least 75% of gross revenue comes from Medicaid; other employers with 51+ employees pay $18.00 [S21]. Howard County is $16.00 [S21]. A mixed agency like the default (about 65% Medicaid revenue) with 51+ employees must pay $18.00 in Montgomery County. At $18.00 for Medicaid aides, the 100-client mixed agency nets about +$5,464 a month (2.6%, break-even 75 clients; about +$1,817 at 80% census) and the 60-client mixed agency about −$808 (break-even 56.5 clients).\n3. **ISAS billing leakage.** Hours above the plan of service are cut automatically and not paid. MDH's 2020 ISAS training limits missing-time requests to 4 (confirm the current rule with the ISAS Help Desk) [S46], and claims must be submitted within 12 months of service [S10]. Weak clock-in discipline turns directly into unpaid payroll.\n4. **Compliance and suspension risk.** Payment can be suspended for:\n   - missing the HCBS Cost Survey (deadline December 31, 2026) [S12];\n   - not answering an RSA audit (suspension after three outreach attempts) [S38];\n   - letting SDAT good standing lapse [S39];\n   - not uploading a current license in MPRIME by March 31, 2027 [S39].\n\n   A sanction also bars the owners from participating for 24 months [S59][S38].\n5. **Saturated central-county markets.** Prince George's and Baltimore County together list about 700 Medicaid RSAs [S42]. Referrals depend on supports planners and participant choice, so a new agency must differentiate on reliability and language capacity.\n6. **Workforce scarcity and turnover.** Maryland has about half the national aide density [S58]. A worker-organization member told the IPAG that only about 14% of RSAs report providing paid sick leave, but the underlying survey is unverified [S52]. Paid sick leave is mandatory at 15+ employees [S27].\n7. **Federal policy changes.** H.R. 1 narrows Medicaid eligibility for some immigrants (October 1, 2026) and shortens retroactive coverage (January 1, 2027) [S44]. The federal 80% direct-care spending standard (enforced from July 2030 per MDH) limits how much of the rate can go to overhead [S43].\n8. **Enrollment timing.** New Medicaid applications were held from July 1 to October 13, 2026. The MPRIME backdate applies only to complete applications filed by December 31, 2026 [S39].\n9. **Unverified operator assumptions.** The 100 Medicaid and 60 private hours per client, 90% delivery, 5% non-billable aide time, 1.0 RN hour per client, insurance and the workers' comp rate are all operator estimates. See the sensitivity results in Section 8.",
+    "recommendations": "1. **Build a mixed-payer agency from day one.** Medicaid CFC/CPAS gives volume and steady referrals. Private pay at around $35/hour [S20] produces most of the margin. Target at least 30% private-pay clients, and aim for about 100 active clients by year two. That is the only modeled size with a comfortable cushion: +$11,800 a month at 90% census, and still positive at 80%.\n2. **Sequence the licenses to catch the MPRIME backdate.** Form the LLC and get SDAT good standing, then obtain workers' comp [S26][S29]. File the OHCQ RSA application with complete policies [S2], and complete the worker-classification certification [S1]. Once the license issues, file a complete MPRIME PT 76 application. If the license issues in 2026, file by **December 31, 2026** to get the backdate [S39].\n3. **Hire or contract the RN early.** The RN must be employed for CFC/CPAS [S11] and drives client onboarding (assessments and plans of care) [S7]. A part-time RN at about 1 hour per client per month is enough at small scale.\n4. **Engineer ISAS compliance.** Train every aide on clock-in and clock-out before the first shift [S46]. Have the coordinator review exceptions daily, and match schedules to plan-of-service hours [S10]. Unbilled hours are the fastest way to lose the thin Medicaid margin.\n5. **Pay competitively but deliberately.** At $25.58/hour, a Medicaid aide wage above about $17.80 erases the 60-client mixed model's profit. Pay private-pay aides more, since private revenue supports it. Use shared-attendant authorizations ($4.2597 per 15 minutes per participant [S9]) where two participants share a home.\n6. **Pick geography on purpose.** Central counties have the most participants and the most competitors [S42]. Under-served counties may offer easier supports-planner relationships but longer drive times. Check Montgomery and Howard wage floors before choosing [S21]. In Montgomery County, the $16.50 home care tier requires at least 75% of gross revenue from Medicaid; a mixed agency with 51+ employees below that share pays $18.00, which roughly halves the 100-client mixed result and puts the 60-client mixed agency at a loss [S21].\n7. **Calendar the compliance deadlines.**\n   - HCBS Cost Survey: December 31 each year [S12].\n   - RSA wage report to the Department of Labor: September 1 [S43].\n   - SDAT annual report: April 15 [S30].\n   - RSA license renewal: every 3 years [S3].\n   - MPRIME license upload: by March 31, 2027 [S39].\n   - FAMLI contributions: from January 1, 2027 [S28].\n8. **Capitalize for the ramp.** Plan roughly $130,000–$225,000 of total cash (startup plus ramp-up losses), depending on target size."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a Maryland LLC (or corporation) with SDAT",
+      "instructions": "File Articles of Organization through Maryland Business Express. Fee $100 for a domestic LLC, plus $50 to expedite (7–10 business days). Non-expedited filings can take 4–6 weeks.",
+      "cite": "SDAT fee schedule",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm the SDAT ID is in good standing and get a good-standing letter",
+      "instructions": "OHCQ requires an SDAT letter of good standing with the RSA application. From Oct 13, 2026, Medicaid's MPRIME rejects applications without an SDAT ID in good standing and auto-suspends providers that lose it.",
+      "cite": "RSA application; PT 36-27",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN from the IRS",
+      "instructions": "Free online and issued immediately. Needed for payroll, banking, SDAT, NPI and MPRIME.",
+      "cite": "IRC §6109",
+      "source_id": "S53"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Obtain an organizational (Type 2) NPI",
+      "instructions": "Apply free in NPPES. Required for Medicaid enrollment as PT 76.",
+      "cite": "NPPES",
+      "source_id": "S54"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Buy workers' compensation insurance before hiring anyone",
+      "instructions": "Mandatory for every Maryland employer with one or more employees. Use any licensed carrier, including Chesapeake Employers' Insurance Company, Maryland's insurer of guaranteed market. The declaration page is an attachment to the RSA application.",
+      "cite": "MD WCC; COMAR 10.07.05.04A(2)(j)",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register for Maryland unemployment insurance and state withholding",
+      "instructions": "New employers pay UI at 1.0%–2.6% on the first $8,500 per employee (2026, Table A).",
+      "cite": "MD Labor UI",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with the FAMLI program and set up payroll deductions for Jan 1, 2027",
+      "instructions": "Total rate 0.9% of wages. Employers may withhold up to half; employers under 15 employees remit only 50% of the rate.",
+      "cite": "FAMLI FAQs (Apr 2026)",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Set the minimum pay floor for your county",
+      "instructions": "State $15.00; Howard County $16.00; Montgomery County $16.50 for home care providers with 11+ employees that receive at least 75% of gross revenue from Medicaid; otherwise $18.00 (51+ employees), $16.50 (11–50), $15.95 (10 or fewer), all from July 1, 2026. A mixed Medicaid/private agency under 75% Medicaid revenue with 51+ employees pays $18.00. Overtime after 40 hours.",
+      "cite": "MD Labor wage & hour",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Bind general/professional liability, non-owned auto and crime/fidelity coverage",
+      "instructions": "COMAR 10.07.05 sets no liability minimum. Get broker quotes; private clients and referral partners often ask for certificates.",
+      "cite": "COMAR 10.07.05.04",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Lease a small office (≈800 sq ft)",
+      "instructions": "Baltimore asking rents average about $26.78/sq ft/yr full-service (secondary source; verify). COMAR requires personnel records to be kept in the agency's business office.",
+      "cite": "COMAR 10.07.05.10C",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Confirm your services fit the RSA definition and choose services on the application",
+      "instructions": "RSA = business employing/contracting workers to provide at least one home health care service (e.g., home health aide/personal care) to an unrelated sick or disabled person at home. Check the services you will offer (e.g., home health aide; nursing if you will provide skilled nursing).",
+      "cite": "COMAR 10.07.05.02B(25)",
+      "source_id": "S4"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Download the current RSA License Application (rev. 06/26/2026)",
+      "instructions": "From the OHCQ RSA page. Type the form; handwritten applications are returned.",
+      "cite": "OHCQ RSA application",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Write the business plan",
+      "instructions": "Must include a 1-year operating budget, a marketing plan naming the populations served, and a detailed description of services.",
+      "cite": "COMAR 10.07.05.04A(2)(h)",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Prepare the policies and procedures manual (COMAR 10.07.05.08B)",
+      "instructions": "Cover administration (scope, admission criteria, pre-admission assessment, billing, QA, clinical management); personnel (job descriptions, skill assessments, health requirements); patient care (medication, monitoring frequency); informed consent; environment and safety (infection control, emergency procedures).",
+      "cite": "COMAR 10.07.05.08B",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "HIGH",
+      "task": "Prepare the organizational chart and governing authority structure",
+      "instructions": "The governing authority must meet at least annually with management and keep minutes.",
+      "cite": "COMAR 10.07.05.08A",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Prepare ownership and history disclosures",
+      "instructions": "Identify every owner with 25% or more; disclose prior license denials, suspensions or revocations, criminal charges, and Medicare/Medicaid violations; applicant must be 21+. A suspension or revocation bars ownership for 10 years.",
+      "cite": "COMAR 10.07.05.04A(2), B",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Complete the RSA worker-classification certification (Health-General §19-4A-11)",
+      "instructions": "The person who controls pay and employment practices reads the RSA-PCA Guidance Document and submits the online RSA Certification form. Required to get and keep the license. Classify aides as W-2 employees unless counsel advises otherwise.",
+      "cite": "Health-General §19-4A-11",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "CRITICAL",
+      "task": "Submit the application through OHCQ's 'Submit a License Application' Smartsheet form",
+      "instructions": "Upload all attachments. OHCQ holds an incomplete application for 180 days from first receipt, then closes it.",
+      "cite": "OHCQ RSA application",
+      "source_id": "S2"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "HIGH",
+      "task": "Budget the $1,000 three-year license fee",
+      "instructions": "COMAR 10.07.05.04A(2)(k) sets a nonrefundable $1,000 fee for a 3-year license. The 2026 application says no fee is due to apply; confirm with OHCQ whether the fee is billed at issuance.",
+      "cite": "COMAR 10.07.05.04",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "HIGH",
+      "task": "Prepare for a possible pre-licensure inspection",
+      "instructions": "OHCQ may make an announced or unannounced on-site inspection before deciding. Each additional pre-licensure visit caused by noncompliance costs $250.",
+      "cite": "COMAR 10.07.05.04D, K",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 2 — OHCQ RESIDENTIAL SERVICE AGENCY LICENSE",
+      "priority": "MEDIUM",
+      "task": "Respond to any conditional approval terms",
+      "instructions": "The Secretary may approve conditionally, e.g., requiring an approved management firm (max 24 months) or a license term under 1 year.",
+      "cite": "COMAR 10.07.05.04E–F",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "CRITICAL",
+      "task": "Hire or contract a Maryland-licensed RN (employ the RN if you will serve CFC/CPAS)",
+      "instructions": "The RN assesses new clients who need ADL help, develops the plan of care, decides whether a CNA is needed, and trains aides. CFC/CPAS require the agency to employ the RN.",
+      "cite": "COMAR 10.07.05.12B; 10.09.84.06A(2)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "CRITICAL",
+      "task": "Build the RN supervision schedule",
+      "instructions": "On-site supervision at least every 45 days if staff administer medication, every 3 months if staff assist with self-administration, every 4 months otherwise. Document every visit.",
+      "cite": "COMAR 10.07.05.12E",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "CRITICAL",
+      "task": "Set up 24/7 on-call with a 1-hour response and a call log",
+      "instructions": "Give clients written on-call procedures and the phone number.",
+      "cite": "COMAR 10.07.05.12G",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "CRITICAL",
+      "task": "Implement the aide screening process",
+      "instructions": "State criminal history (or private) check, license/certification verification, TB and health screen, references, employment history, I-9, identity, in-person interview, skills demonstration before the first client.",
+      "cite": "COMAR 10.07.05.10B",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "CRITICAL",
+      "task": "Decide which clients need certified aides (CNA/CMT)",
+      "instructions": "Certified caregivers are required for clients who need a certified caregiver for ADLs or medication administration. Non-certified aides only where COMAR allows (no ADL need, RN judgment, or a signed waiver of skilled services). Under CFC, aides administering medication must be CMTs, and those doing other delegated tasks must be CNAs.",
+      "cite": "COMAR 10.07.05.10D–E; 10.09.84.06B",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "CRITICAL",
+      "task": "Build the aide training program",
+      "instructions": "Personal care skills with supervised practice, when to call the RN, record keeping, ethics and confidentiality, CPR, infection control, abuse and neglect prevention. Keep training records in each personnel file.",
+      "cite": "COMAR 10.07.05.11C",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "MEDIUM",
+      "task": "If using an outside trainer, confirm OHCQ approval first",
+      "instructions": "Outside trainers must be approved in writing by OHCQ before training (Outside Trainer checklist and Smartsheet form).",
+      "cite": "COMAR 10.07.05.11B",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "HIGH",
+      "task": "Create client rights packet and intake forms",
+      "instructions": "Cost estimate, statement of private-pay responsibility, itemized billing on request, caregiver and supervisor names, 24/7 number, subcontract disclosure, rights, OHCQ/APS complaint access, advance directive information. Include the OHCQ hotline 800-492-6005.",
+      "cite": "COMAR 10.07.05.16; OHCQ RSA page",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "HIGH",
+      "task": "Create informed-consent and waiver-of-skilled-services forms",
+      "instructions": "Needed when a capable client declines recommended certified or skilled care.",
+      "cite": "COMAR 10.07.05.12D",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "HIGH",
+      "task": "Write the earned sick and safe leave policy",
+      "instructions": "1 hour per 30 hours worked (or front-load), 40-hour annual accrual, 64-hour cap. Paid at 15+ employees, unpaid below.",
+      "cite": "Healthy Working Families Act",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 3 — POLICIES, STAFFING & OPERATIONAL READINESS",
+      "priority": "MEDIUM",
+      "task": "Set up private-pay scheduling/billing software and price list",
+      "instructions": "Posted private rates should not be below the Medicaid rate if you bill Medicaid (Medicaid pays the lesser of usual-and-customary or the fee schedule). Maryland median private rate is $35/hour.",
+      "cite": "COMAR 10.09.84.24D",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "CRITICAL",
+      "task": "Create an MPRIME account and file a PT 76 application (Community Options / CFC / CPAS)",
+      "instructions": "MPRIME launched Oct 13, 2026 at www.mprime.health.maryland.gov. ePREP logins do not transfer. File a complete application by Dec 31, 2026 to be backdated to the later of July 1, 2026 or your license date.",
+      "cite": "PT 36-27",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "HIGH",
+      "task": "Prepare for high/moderate-risk screening",
+      "instructions": "PT 76 is a high/moderate-risk provider type. Expect enhanced screening of owners and a possible site visit; confirm requirements with Provider Services (1-844-463-7768).",
+      "cite": "PT 59-26",
+      "source_id": "S40"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "MEDIUM",
+      "task": "Budget for a possible $750 enrollment application fee",
+      "instructions": "The CY 2026 federal fee is $750. Ask MPRIME support whether it applies to PT 76.",
+      "cite": "90 FR 55738",
+      "source_id": "S32"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "CRITICAL",
+      "task": "Confirm owners and principals meet the 24-month clean-history rule",
+      "instructions": "No license suspension or revocation, Medicaid suspension or sanction, disciplinary action, health and safety deficiency citation, or agreement termination in the past 24 months.",
+      "cite": "COMAR 10.09.84.05B",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "CRITICAL",
+      "task": "Sign the provider agreement and meet CFC/CPAS conditions",
+      "instructions": "RSA license 'to provide Level Two or Level Three home care services' (COMAR 10.07.05 no longer defines levels; confirm with OLTSS which services to check on the OHCQ application, home health aide at minimum); employed RN; aides accept instruction from the participant, nurse monitor, physician or MDH; monthly participant signature verifying services; 45-day notice of closure, sale or move; criminal checks on all direct workers.",
+      "cite": "COMAR 10.09.84.06; 10.09.20.05",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "CRITICAL",
+      "task": "Register the agency in ISAS and set up admin and billing users",
+      "instructions": "Call the ISAS Help Desk (1-855-463-5877, from 2020 training; confirm current). Up to 5 admin and 5 billing roles. Aides cannot log into the portal.",
+      "cite": "ISAS enrollment session",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "CRITICAL",
+      "task": "Train every aide on ISAS clock-in and clock-out",
+      "instructions": "Call at the start and end of every shift. Visits are verified by the participant's primary landline or an OTP device; the aide's phone number must never match the client's. Clocking in and out is the only way to bill personal assistance.",
+      "cite": "COMAR 10.09.84.24A; ISAS provider training (2020)",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "HIGH",
+      "task": "Set up the missing-time and exception workflow",
+      "instructions": "Per MDH's 2020 ISAS training: a limit of 4 missing-time requests, each with a detailed reason, due within 2 business days after month end; hours above the plan of service are reduced automatically and unpaid; billing week runs Thursday to Wednesday. Confirm current policy with the ISAS Help Desk (855-463-5877).",
+      "cite": "ISAS provider training (March 2020)",
+      "source_id": "S46"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "HIGH",
+      "task": "Verify each participant's Medicaid eligibility monthly",
+      "instructions": "Required at the start of every month services are provided.",
+      "cite": "COMAR 10.09.84.05A(9)",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 4 — MEDICAID (CFC / CPAS) ENROLLMENT & ISAS",
+      "priority": "HIGH",
+      "task": "Set up incident reporting",
+      "instructions": "Report incidents and complaints within 24 hours and submit the written form within 7 days. Report suspected abuse or neglect to the local department of social services immediately.",
+      "cite": "COMAR 10.09.84.05A(3)",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 5 — LAUNCH & FIRST CLIENTS",
+      "priority": "HIGH",
+      "task": "Introduce the agency to supports planning agencies and MAP sites",
+      "instructions": "Participants choose their personal assistance agency during plan-of-service development, and the plan must name and be signed by your agency. MAP: 1-844-MAP-LINK.",
+      "cite": "COMAR 10.09.84.04B; PT 33-27",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 5 — LAUNCH & FIRST CLIENTS",
+      "priority": "HIGH",
+      "task": "Market to discharge planners and private-pay referral sources",
+      "instructions": "CFC covers participants transitioning from institutions. Private-pay referrals come from physicians, senior communities and elder-law attorneys.",
+      "cite": "COMAR 10.09.84.04",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 5 — LAUNCH & FIRST CLIENTS",
+      "priority": "CRITICAL",
+      "task": "RN assessment and plan of care before services",
+      "instructions": "Assess before services start (within 48 hours for listed skilled needs). The plan states services, frequency, who provides them, goals and safety measures.",
+      "cite": "COMAR 10.07.05.12C",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 5 — LAUNCH & FIRST CLIENTS",
+      "priority": "HIGH",
+      "task": "Match schedules to authorized plan-of-service hours",
+      "instructions": "Do not schedule more hours than authorized. Use shared-attendant codes (W5521/W5528, $4.2597/15 min) when two participants share an aide.",
+      "cite": "PT 03-25; ISAS Policy Guide",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 5 — LAUNCH & FIRST CLIENTS",
+      "priority": "HIGH",
+      "task": "Bill private clients with itemized statements",
+      "instructions": "Itemized bills with dates and unit charges on request; written cost estimate up front.",
+      "cite": "COMAR 10.07.05.16C",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 5 — LAUNCH & FIRST CLIENTS",
+      "priority": "MEDIUM",
+      "task": "Track ramp-up cash daily",
+      "instructions": "Aides are paid before cash arrives. Keep a payroll float (see the P&L ramp-up deficit).",
+      "cite": "Operator practice — see P&L ramp",
+      "source_id": ""
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "CRITICAL",
+      "task": "File the annual HCBS Cost Survey",
+      "instructions": "Required for every Medicaid-enrolled HCBS provider that billed in the reporting year. The FY 2026 survey is due Dec 31, 2026. Non-filers are suspended from Jan 1, 2027 until filed.",
+      "cite": "PT 16-27",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "CRITICAL",
+      "task": "Upload your RSA license to MPRIME before March 31, 2027 and after every renewal",
+      "instructions": "Expired licenses on file trigger automatic suspension (Status 54) from April 1, 2027.",
+      "cite": "PT 36-27",
+      "source_id": "S39"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "CRITICAL",
+      "task": "Renew the RSA license every 3 years",
+      "instructions": "Renewal application, $1,000 fee, changed policies (complaints, client evaluation), current professional licenses of all employees, annual data collection survey.",
+      "cite": "COMAR 10.07.05.04I",
+      "source_id": "S3"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "HIGH",
+      "task": "File the annual RSA personal care aide wage report with the Department of Labor",
+      "instructions": "By September 1 each year: average, highest and lowest PCA wage rates (HB 189/SB 371 of 2024).",
+      "cite": "HB 189 (2024)",
+      "source_id": "S43"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "HIGH",
+      "task": "File the SDAT annual report and personal property return",
+      "instructions": "$300 for an LLC, due April 15. Lapses suspend Medicaid participation through MPRIME's SDAT interface. Fee per the 2024 Form 1 manual ($300); confirm the current fee with SDAT.",
+      "cite": "SDAT Form 1; PT 36-27",
+      "source_id": "S30"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "HIGH",
+      "task": "Respond to RSA compliance audits within deadlines",
+      "instructions": "Non-responders are suspended after three outreach attempts. Respond to a plan of correction within 15 calendar days. Repeat findings within 6 months can bring sanctions.",
+      "cite": "PT 13-27",
+      "source_id": "S38"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "HIGH",
+      "task": "Keep Medicaid service records for 6 years",
+      "instructions": "Dates and hours of services, monthly participant signatures, ISAS records.",
+      "cite": "COMAR 10.09.84.05A(6)",
+      "source_id": "S59"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "HIGH",
+      "task": "Give 45 days' notice before any change of ownership, location, name, tax ID or closure",
+      "instructions": "Notify OHCQ (new owner applies for a new license) and Medicaid; include the client transition plan.",
+      "cite": "OHCQ RSA page; COMAR 10.09.84.06A(5)",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "MEDIUM",
+      "task": "Hold annual governing-authority meeting with minutes",
+      "instructions": "Review policies with management at least annually.",
+      "cite": "COMAR 10.07.05.08A",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "MEDIUM",
+      "task": "Reassess each client at least annually and on significant change",
+      "instructions": "Within 48 hours for listed skilled changes, or within 7 days if the RN documents that 48 hours is not needed.",
+      "cite": "COMAR 10.07.05.12C",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "MEDIUM",
+      "task": "Re-check local minimum wages every July 1",
+      "instructions": "Montgomery County rates change each July 1 with CPI-W.",
+      "cite": "MD Labor wage & hour",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 6 — ONGOING COMPLIANCE & RENEWALS",
+      "priority": "MEDIUM",
+      "task": "Monitor direct-care spending share against the federal 80% standard",
+      "instructions": "MDH's cost survey will measure the share of Medicaid payments spent on direct-care worker pay. Federal compliance applies from July 9, 2030 per MDH's 2024 report.",
+      "cite": "42 CFR 441.302(k)",
+      "source_id": "S43"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "OHCQ RSA Team",
+      "role": "RSA license applications, changes, outside-trainer approval",
+      "contact": "410-402-8040 / RSA page: health.maryland.gov/ohcq/Pages/Residential-Service-Agencies.aspx"
+    },
+    {
+      "name": "OHCQ complaint hotline",
+      "role": "Number every RSA must give clients",
+      "contact": "800-492-6005"
+    },
+    {
+      "name": "MPRIME / Provider Services Call Center",
+      "role": "Medicaid enrollment (PT 76), revalidation, license uploads",
+      "contact": "1-844-463-7768 / mdh.mprimegolive@maryland.gov / www.mprime.health.maryland.gov"
+    },
+    {
+      "name": "OLTSS — CFC providers / RSA compliance",
+      "role": "CFC/CPAS provider questions and audits",
+      "contact": "mdh.cfcprovidersrsas@maryland.gov; OLTSS 410-767-1739"
+    },
+    {
+      "name": "ISAS Help Desk",
+      "role": "ISAS agency registration, clock-in issues",
+      "contact": "1-855-463-5877 / ISASHelpDesk@ltssmaryland.org (from 2020 training — confirm current)"
+    },
+    {
+      "name": "Maryland Access Point (MAP)",
+      "role": "Entry point for CFC/CO applicants (referral source)",
+      "contact": "1-844-MAP-LINK (1-844-627-5465)"
+    },
+    {
+      "name": "HCBS Cost Survey support (Myers and Stauffer)",
+      "role": "Annual Medicaid HCBS Cost Survey",
+      "contact": "mdhcostsurvey@mslc.com"
+    },
+    {
+      "name": "Maryland Department of Labor — Employment Standards",
+      "role": "Minimum wage, sick and safe leave",
+      "contact": "labor.maryland.gov/labor/wages"
+    },
+    {
+      "name": "Maryland FAMLI Division",
+      "role": "Paid family and medical leave contributions (from Jan 1, 2027)",
+      "contact": "paidleave.maryland.gov"
+    },
+    {
+      "name": "SDAT — Maryland Business Express",
+      "role": "LLC formation, annual report, good standing",
+      "contact": "dat.maryland.gov"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "client",
+    "occupancy": {
+      "default": 0.9,
+      "conservative": 0.8,
+      "optimistic": 1.0,
+      "rationale": "Home care has no beds. Capacity is the client census the office team is sized for; occupancy is the share of that census actually receiving and billing its authorized hours in a month (hospital stays, missed or unstaffed shifts, ISAS exceptions). The 90% default (80% conservative, 100% optimistic) is an operator assumption — verify locally. Maryland's first report on the share of authorized hours actually delivered is due by July 9, 2027 [S13].",
+      "source_id": "S13"
+    },
+    "ramp": {
+      "start_clients": 2,
+      "add_per_month": 3
+    },
+    "configurations": [
+      {
+        "id": "med30",
+        "label": "Medicaid-only RSA, 30 CFC/CPAS clients",
+        "capacity": 30,
+        "notes": "Typical first-year Medicaid personal assistance agency: one director, a half-time scheduler/billing coordinator and an RN at about 1 hour per client per month. Shown to illustrate that the flat Medicaid rate cannot carry fixed overhead at this size.",
+        "revenue_lines": [
+          {
+            "name": "CFC/CPAS Personal Assistance Services (100 authorized hours a month)",
+            "payer": "Maryland Medicaid FFS (CFC/CPAS)",
+            "code": "W5519 / W5527",
+            "rate": 6.3962,
+            "unit": "per 15 minutes",
+            "units_per_client_month": 400,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "Rate effective July 1, 2024, unchanged through FY 2027 [S14][S15]. 100 authorized hours/month is an operator assumption — verify against your participants' plans of service."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides — Medicaid clients (105 paid hours per 100 billed: 5% travel/in-service time)",
+            "wage_hourly": 17.06,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 105.0,
+            "cite": "COMAR 10.09.84.06; COMAR 10.07.05.10–.11",
+            "notes": "Maryland 25th-percentile Home Health and Personal Care Aide wage (BLS OEWS May 2025, combined 31-1120 occupation). Above the $15.00 state minimum, Howard County's $16.00 and Montgomery County's $16.50 tier for home care employers with 11+ employees that receive at least 75% of gross revenue from Medicaid, which this Medicaid-only configuration meets [S21]. The 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Registered nurse — assessments, plans of care, delegation, on-site supervision visits",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S17",
+            "basis": "hours_per_client_month",
+            "amount": 1.0,
+            "cite": "COMAR 10.07.05.12B, .12E; COMAR 10.09.84.06A(2)",
+            "notes": "Maryland median RN wage (BLS OEWS May 2025). RN assesses each new client needing ADL help and supervises on site at least every 4 months (3 months if aides assist with self-administered medication; 45 days if aides administer medication). 1.0 hour per client per month is an operator estimate — verify locally."
+          },
+          {
+            "role": "Agency director / owner-operator (salaried)",
+            "basis": "annual_salary",
+            "amount": 74140,
+            "wage_source_id": "S18",
+            "cite": "COMAR 10.07.05.08",
+            "notes": "Maryland median First-Line Supervisors of Office and Administrative Support Workers wage $74,140 (BLS OEWS May 2025), used as a proxy for a small-agency director. COMAR 10.07.05 sets no administrator credential. An owner who draws no salary improves results by this amount but should still budget it."
+          },
+          {
+            "role": "Scheduler / intake / ISAS billing coordinator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 23925,
+            "wage_source_id": "S19",
+            "cite": "COMAR 10.09.84.24A",
+            "notes": "Maryland median Medical Secretaries and Administrative Assistants wage $47,850 (BLS OEWS May 2025). Schedules, ISAS exceptions and missing-time requests, monthly eligibility checks, private-pay invoicing."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Marketing and referral development",
+            "monthly": 600,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 3
+        }
+      },
+      {
+        "id": "med60",
+        "label": "Medicaid-only RSA, 60 CFC/CPAS clients",
+        "capacity": 60,
+        "notes": "Same director, full-time scheduler/billing coordinator. Roughly break-even.",
+        "revenue_lines": [
+          {
+            "name": "CFC/CPAS Personal Assistance Services (100 authorized hours a month)",
+            "payer": "Maryland Medicaid FFS (CFC/CPAS)",
+            "code": "W5519 / W5527",
+            "rate": 6.3962,
+            "unit": "per 15 minutes",
+            "units_per_client_month": 400,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "Rate effective July 1, 2024, unchanged through FY 2027 [S14][S15]. 100 authorized hours/month is an operator assumption — verify against your participants' plans of service."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides — Medicaid clients (105 paid hours per 100 billed: 5% travel/in-service time)",
+            "wage_hourly": 17.06,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 105.0,
+            "cite": "COMAR 10.09.84.06; COMAR 10.07.05.10–.11",
+            "notes": "Maryland 25th-percentile Home Health and Personal Care Aide wage (BLS OEWS May 2025, combined 31-1120 occupation). Above the $15.00 state minimum, Howard County's $16.00 and Montgomery County's $16.50 tier for home care employers with 11+ employees that receive at least 75% of gross revenue from Medicaid, which this Medicaid-only configuration meets [S21]. The 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Registered nurse — assessments, plans of care, delegation, on-site supervision visits",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S17",
+            "basis": "hours_per_client_month",
+            "amount": 1.0,
+            "cite": "COMAR 10.07.05.12B, .12E; COMAR 10.09.84.06A(2)",
+            "notes": "Maryland median RN wage (BLS OEWS May 2025). RN assesses each new client needing ADL help and supervises on site at least every 4 months (3 months if aides assist with self-administered medication; 45 days if aides administer medication). 1.0 hour per client per month is an operator estimate — verify locally."
+          },
+          {
+            "role": "Agency director / owner-operator (salaried)",
+            "basis": "annual_salary",
+            "amount": 74140,
+            "wage_source_id": "S18",
+            "cite": "COMAR 10.07.05.08",
+            "notes": "Maryland median First-Line Supervisors of Office and Administrative Support Workers wage $74,140 (BLS OEWS May 2025), used as a proxy for a small-agency director. COMAR 10.07.05 sets no administrator credential. An owner who draws no salary improves results by this amount but should still budget it."
+          },
+          {
+            "role": "Scheduler / intake / ISAS billing coordinator (1.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 47850,
+            "wage_source_id": "S19",
+            "cite": "COMAR 10.09.84.24A",
+            "notes": "Maryland median Medical Secretaries and Administrative Assistants wage $47,850 (BLS OEWS May 2025). Schedules, ISAS exceptions and missing-time requests, monthly eligibility checks, private-pay invoicing."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Marketing and referral development",
+            "monthly": 750,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 4
+        }
+      },
+      {
+        "id": "mix60",
+        "label": "Mixed RSA, 60 clients (70% Medicaid CFC/CPAS / 30% private pay)",
+        "capacity": 60,
+        "notes": "Medicaid base for volume plus a private-pay book for margin. A realistic year-two milestone.",
+        "revenue_lines": [
+          {
+            "name": "CFC/CPAS Personal Assistance Services (100 authorized hours a month)",
+            "payer": "Maryland Medicaid FFS (CFC/CPAS)",
+            "code": "W5519 / W5527",
+            "rate": 6.3962,
+            "unit": "per 15 minutes",
+            "units_per_client_month": 400,
+            "share_of_clients": 0.7,
+            "source_id": "S9",
+            "notes": "Rate effective July 1, 2024, unchanged through FY 2027 [S14][S15]. 100 authorized hours/month is an operator assumption — verify against your participants' plans of service."
+          },
+          {
+            "name": "Private-pay non-medical in-home care (60 hours a month)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 0.3,
+            "source_id": "S20",
+            "notes": "CareScout 2025 Maryland median agency rate for non-medical in-home care (statewide median; local prices vary). 60 hours/month is an operator assumption."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides — Medicaid clients (105 paid hours per 100 billed: 5% travel/in-service time)",
+            "wage_hourly": 17.06,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 73.5,
+            "cite": "COMAR 10.09.84.06; COMAR 10.07.05.10–.11",
+            "notes": "Maryland 25th-percentile Home Health and Personal Care Aide wage (BLS OEWS May 2025, combined 31-1120 occupation). Above the $15.00 state minimum, Howard County's $16.00 and Montgomery County's $16.50 tier, which applies to home care employers with 11+ employees only if at least 75% of gross revenue comes from Medicaid [S21]. This mixed configuration earns under 75% of revenue from Medicaid, so in Montgomery County with 51+ employees it does not qualify and must pay at least $18.00 (see the Section 8 sensitivity). The 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Personal care aides — private-pay clients (63 paid hours per 60 billed)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 18.9,
+            "cite": "COMAR 10.07.05.10–.11",
+            "notes": "Maryland median Home Health and Personal Care Aide wage (BLS OEWS May 2025). 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Registered nurse — assessments, plans of care, delegation, on-site supervision visits",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S17",
+            "basis": "hours_per_client_month",
+            "amount": 1.0,
+            "cite": "COMAR 10.07.05.12B, .12E; COMAR 10.09.84.06A(2)",
+            "notes": "Maryland median RN wage (BLS OEWS May 2025). RN assesses each new client needing ADL help and supervises on site at least every 4 months (3 months if aides assist with self-administered medication; 45 days if aides administer medication). 1.0 hour per client per month is an operator estimate — verify locally."
+          },
+          {
+            "role": "Agency director / owner-operator (salaried)",
+            "basis": "annual_salary",
+            "amount": 74140,
+            "wage_source_id": "S18",
+            "cite": "COMAR 10.07.05.08",
+            "notes": "Maryland median First-Line Supervisors of Office and Administrative Support Workers wage $74,140 (BLS OEWS May 2025), used as a proxy for a small-agency director. COMAR 10.07.05 sets no administrator credential. An owner who draws no salary improves results by this amount but should still budget it."
+          },
+          {
+            "role": "Scheduler / intake / ISAS billing coordinator (1.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 47850,
+            "wage_source_id": "S19",
+            "cite": "COMAR 10.09.84.24A",
+            "notes": "Maryland median Medical Secretaries and Administrative Assistants wage $47,850 (BLS OEWS May 2025). Schedules, ISAS exceptions and missing-time requests, monthly eligibility checks, private-pay invoicing."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1200,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 4
+        }
+      },
+      {
+        "id": "pp30",
+        "label": "Private-pay-only home care agency, 30 clients",
+        "capacity": 30,
+        "notes": "No Medicaid enrollment; heavier marketing. Still needs an RSA license and RN oversight for clients who need ADL help.",
+        "revenue_lines": [
+          {
+            "name": "Private-pay non-medical in-home care (60 hours a month)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 1.0,
+            "source_id": "S20",
+            "notes": "CareScout 2025 Maryland median agency rate for non-medical in-home care (statewide median; local prices vary). 60 hours/month is an operator assumption."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides — private-pay clients (63 paid hours per 60 billed)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 63.0,
+            "cite": "COMAR 10.07.05.10–.11",
+            "notes": "Maryland median Home Health and Personal Care Aide wage (BLS OEWS May 2025). 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Registered nurse — assessments, plans of care, delegation, on-site supervision visits",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S17",
+            "basis": "hours_per_client_month",
+            "amount": 1.0,
+            "cite": "COMAR 10.07.05.12B, .12E; COMAR 10.09.84.06A(2)",
+            "notes": "Maryland median RN wage (BLS OEWS May 2025). RN assesses each new client needing ADL help and supervises on site at least every 4 months (3 months if aides assist with self-administered medication; 45 days if aides administer medication). 1.0 hour per client per month is an operator estimate — verify locally."
+          },
+          {
+            "role": "Agency director / owner-operator (salaried)",
+            "basis": "annual_salary",
+            "amount": 74140,
+            "wage_source_id": "S18",
+            "cite": "COMAR 10.07.05.08",
+            "notes": "Maryland median First-Line Supervisors of Office and Administrative Support Workers wage $74,140 (BLS OEWS May 2025), used as a proxy for a small-agency director. COMAR 10.07.05 sets no administrator credential. An owner who draws no salary improves results by this amount but should still budget it."
+          },
+          {
+            "role": "Scheduler / intake / ISAS billing coordinator (0.5 FTE)",
+            "basis": "annual_salary",
+            "amount": 23925,
+            "wage_source_id": "S19",
+            "cite": "COMAR 10.09.84.24A",
+            "notes": "Maryland median Medical Secretaries and Administrative Assistants wage $47,850 (BLS OEWS May 2025). Schedules, ISAS exceptions and missing-time requests, monthly eligibility checks, private-pay invoicing."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Marketing and referral development",
+            "monthly": 1800,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 2,
+          "add_per_month": 2
+        }
+      },
+      {
+        "id": "mix100",
+        "label": "Mixed RSA, 100 clients (60% Medicaid / 40% private pay)",
+        "capacity": 100,
+        "notes": "Mature agency with an administrator and two schedulers; the configuration an experienced Maryland operator would target.",
+        "revenue_lines": [
+          {
+            "name": "CFC/CPAS Personal Assistance Services (100 authorized hours a month)",
+            "payer": "Maryland Medicaid FFS (CFC/CPAS)",
+            "code": "W5519 / W5527",
+            "rate": 6.3962,
+            "unit": "per 15 minutes",
+            "units_per_client_month": 400,
+            "share_of_clients": 0.6,
+            "source_id": "S9",
+            "notes": "Rate effective July 1, 2024, unchanged through FY 2027 [S14][S15]. 100 authorized hours/month is an operator assumption — verify against your participants' plans of service."
+          },
+          {
+            "name": "Private-pay non-medical in-home care (60 hours a month)",
+            "payer": "Private pay",
+            "code": "",
+            "rate": 35.0,
+            "unit": "per hour",
+            "units_per_client_month": 60,
+            "share_of_clients": 0.4,
+            "source_id": "S20",
+            "notes": "CareScout 2025 Maryland median agency rate for non-medical in-home care (statewide median; local prices vary). 60 hours/month is an operator assumption."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides — Medicaid clients (105 paid hours per 100 billed: 5% travel/in-service time)",
+            "wage_hourly": 17.06,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 63.0,
+            "cite": "COMAR 10.09.84.06; COMAR 10.07.05.10–.11",
+            "notes": "Maryland 25th-percentile Home Health and Personal Care Aide wage (BLS OEWS May 2025, combined 31-1120 occupation). Above the $15.00 state minimum, Howard County's $16.00 and Montgomery County's $16.50 tier, which applies to home care employers with 11+ employees only if at least 75% of gross revenue comes from Medicaid [S21]. This mixed configuration earns under 75% of revenue from Medicaid, so in Montgomery County with 51+ employees it does not qualify and must pay at least $18.00 (see the Section 8 sensitivity). The 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Personal care aides — private-pay clients (63 paid hours per 60 billed)",
+            "wage_hourly": 18.29,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 25.2,
+            "cite": "COMAR 10.07.05.10–.11",
+            "notes": "Maryland median Home Health and Personal Care Aide wage (BLS OEWS May 2025). 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Registered nurse — assessments, plans of care, delegation, on-site supervision visits",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S17",
+            "basis": "hours_per_client_month",
+            "amount": 1.0,
+            "cite": "COMAR 10.07.05.12B, .12E; COMAR 10.09.84.06A(2)",
+            "notes": "Maryland median RN wage (BLS OEWS May 2025). RN assesses each new client needing ADL help and supervises on site at least every 4 months (3 months if aides assist with self-administered medication; 45 days if aides administer medication). 1.0 hour per client per month is an operator estimate — verify locally."
+          },
+          {
+            "role": "Agency administrator (salaried)",
+            "basis": "annual_salary",
+            "amount": 101200,
+            "wage_source_id": "S34",
+            "cite": "COMAR 10.07.05.08",
+            "notes": "Maryland 25th-percentile Medical and Health Services Managers wage $101,200 (BLS OEWS May 2025). COMAR 10.07.05 sets no administrator credential."
+          },
+          {
+            "role": "Scheduler / intake / ISAS billing coordinator (2.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 95700,
+            "wage_source_id": "S19",
+            "cite": "COMAR 10.09.84.24A",
+            "notes": "Maryland median Medical Secretaries and Administrative Assistants wage $47,850 (BLS OEWS May 2025). Schedules, ISAS exceptions and missing-time requests, monthly eligibility checks, private-pay invoicing."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease ($26.78/sq ft/yr full-service, Baltimore)",
+            "monthly": 2678.0,
+            "notes": "1,200 sq ft × $26.78/sq ft/yr ÷ 12 (overrides the 800 sq ft base). Secondary source; verify locally.",
+            "source_id": "S23"
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 2000,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 5
+        }
+      },
+      {
+        "id": "med100",
+        "label": "Medicaid-only RSA, 100 CFC/CPAS clients",
+        "capacity": 100,
+        "notes": "Volume Medicaid agency; profitable only at high delivery rates and low aide wages.",
+        "revenue_lines": [
+          {
+            "name": "CFC/CPAS Personal Assistance Services (100 authorized hours a month)",
+            "payer": "Maryland Medicaid FFS (CFC/CPAS)",
+            "code": "W5519 / W5527",
+            "rate": 6.3962,
+            "unit": "per 15 minutes",
+            "units_per_client_month": 400,
+            "share_of_clients": 1.0,
+            "source_id": "S9",
+            "notes": "Rate effective July 1, 2024, unchanged through FY 2027 [S14][S15]. 100 authorized hours/month is an operator assumption — verify against your participants' plans of service."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Personal care aides — Medicaid clients (105 paid hours per 100 billed: 5% travel/in-service time)",
+            "wage_hourly": 17.06,
+            "wage_source_id": "S16",
+            "basis": "hours_per_client_month",
+            "amount": 105.0,
+            "cite": "COMAR 10.09.84.06; COMAR 10.07.05.10–.11",
+            "notes": "Maryland 25th-percentile Home Health and Personal Care Aide wage (BLS OEWS May 2025, combined 31-1120 occupation). Above the $15.00 state minimum, Howard County's $16.00 and Montgomery County's $16.50 tier for home care employers with 11+ employees that receive at least 75% of gross revenue from Medicaid, which this Medicaid-only configuration meets [S21]. The 5% non-billable time is an operator estimate — verify locally."
+          },
+          {
+            "role": "Registered nurse — assessments, plans of care, delegation, on-site supervision visits",
+            "wage_hourly": 47.98,
+            "wage_source_id": "S17",
+            "basis": "hours_per_client_month",
+            "amount": 1.0,
+            "cite": "COMAR 10.07.05.12B, .12E; COMAR 10.09.84.06A(2)",
+            "notes": "Maryland median RN wage (BLS OEWS May 2025). RN assesses each new client needing ADL help and supervises on site at least every 4 months (3 months if aides assist with self-administered medication; 45 days if aides administer medication). 1.0 hour per client per month is an operator estimate — verify locally."
+          },
+          {
+            "role": "Agency administrator (salaried)",
+            "basis": "annual_salary",
+            "amount": 101200,
+            "wage_source_id": "S34",
+            "cite": "COMAR 10.07.05.08",
+            "notes": "Maryland 25th-percentile Medical and Health Services Managers wage $101,200 (BLS OEWS May 2025). COMAR 10.07.05 sets no administrator credential."
+          },
+          {
+            "role": "Scheduler / intake / ISAS billing coordinator (2.0 FTE)",
+            "basis": "annual_salary",
+            "amount": 95700,
+            "wage_source_id": "S19",
+            "cite": "COMAR 10.09.84.24A",
+            "notes": "Maryland median Medical Secretaries and Administrative Assistants wage $47,850 (BLS OEWS May 2025). Schedules, ISAS exceptions and missing-time requests, monthly eligibility checks, private-pay invoicing."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Office lease ($26.78/sq ft/yr full-service, Baltimore)",
+            "monthly": 2678.0,
+            "notes": "1,200 sq ft × $26.78/sq ft/yr ÷ 12 (overrides the 800 sq ft base). Secondary source; verify locally.",
+            "source_id": "S23"
+          },
+          {
+            "item": "Marketing and referral development",
+            "monthly": 900,
+            "notes": "Operator estimate."
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 5
+        }
+      }
+    ],
+    "default_configuration": "mix100",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.09,
+      "workers_comp_pct": 0.04,
+      "benefits_pct": 0.06,
+      "notes": "Payroll tax 9.0% = employer FICA 7.65% [S24] + Maryland UI (new employers 1.0%–2.6% on the first $8,500 per employee [S25], roughly 0.6%–1% of an aide's annual pay) + FUTA. Workers' compensation is mandatory for any Maryland employer with one or more employees [S26]; the 4% premium rate is an operator estimate — get quotes. Benefits 6% = earned sick and safe leave (1 hour per 30 worked ≈ 3.3%; paid at 15+ employees) [S27] + FAMLI employer share up to 0.45% from January 1, 2027 [S28] + about 2% other (operator estimate).",
+      "source_id": "S24"
+    },
+    "opex": [
+      {
+        "item": "Office lease ($26.78/sq ft/yr full-service, Baltimore)",
+        "monthly": 1785.33,
+        "basis": "fixed",
+        "notes": "Base: 800 sq ft × $26.78/sq ft/yr ÷ 12. Average Baltimore asking rent from a secondary, AI-synthesized market summary; verify with a local broker.",
+        "source_id": "S23"
+      },
+      {
+        "item": "RSA license fee ($1,000 per 3-year license, amortized)",
+        "monthly": 27.78,
+        "basis": "fixed",
+        "notes": "COMAR 10.07.05.04I(2). OHCQ's 2026 application says no fee is due to apply; budgeted until OHCQ confirms.",
+        "source_id": "S3"
+      },
+      {
+        "item": "SDAT annual report ($300 per year for an LLC)",
+        "monthly": 25,
+        "basis": "fixed",
+        "notes": "Due April 15 each year.",
+        "source_id": "S30"
+      },
+      {
+        "item": "General/professional liability, non-owned auto and crime/fidelity insurance",
+        "monthly": 900,
+        "basis": "fixed",
+        "notes": "Operator estimate. COMAR 10.07.05 requires workers' compensation proof but sets no liability minimum; get broker quotes."
+      },
+      {
+        "item": "Home care scheduling/HR software (private-pay billing; ISAS covers Medicaid EVV)",
+        "monthly": 250,
+        "basis": "fixed",
+        "notes": "Operator estimate. ISAS, the state's telephonic EVV/billing system, is required for CFC/CPAS [S8][S10]; no ISAS provider fee is stated in state materials."
+      },
+      {
+        "item": "Accounting, payroll service, legal and HCBS Cost Survey preparation",
+        "monthly": 900,
+        "basis": "fixed",
+        "notes": "Operator estimate. The annual Medicaid HCBS Cost Survey is mandatory; non-filers face payment suspension [S12]."
+      },
+      {
+        "item": "Marketing and referral development",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "Operator estimate; overridden per configuration."
+      },
+      {
+        "item": "Phones, internet, utilities and IT",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "Operator estimate — verify locally."
+      },
+      {
+        "item": "24/7 on-call coverage stipend",
+        "monthly": 500,
+        "basis": "fixed",
+        "notes": "COMAR 10.07.05.12G requires 24/7 client access with a response within 1 hour. Stipend amount is an operator estimate.",
+        "cite": "COMAR 10.07.05.12G"
+      },
+      {
+        "item": "Office supplies and postage",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Aide training, CPR certification and in-service (turnover-driven)",
+        "monthly": 12,
+        "basis": "per_client",
+        "notes": "Operator estimate. COMAR 10.07.05.11C requires training including CPR, infection control and abuse prevention.",
+        "cite": "COMAR 10.07.05.11"
+      },
+      {
+        "item": "Criminal background checks for new aides (CJIS fingerprinting)",
+        "monthly": 8,
+        "basis": "per_client",
+        "notes": "Operator estimate. Required by COMAR 10.07.05.10B and 10.09.84.06A(11).",
+        "cite": "COMAR 10.07.05.10B"
+      },
+      {
+        "item": "Aide mileage between clients (about 35 miles a month × $0.725)",
+        "monthly": 25.38,
+        "basis": "per_client",
+        "notes": "2026 IRS rate [S31]; miles are an operator estimate. CFC does not pay escort or travel expenses (COMAR 10.09.84.23C).",
+        "source_id": "S31"
+      },
+      {
+        "item": "Gloves, PPE and incidental supplies",
+        "monthly": 10,
+        "basis": "per_client",
+        "notes": "Operator estimate."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Maryland LLC Articles of Organization (SDAT)",
+        "low": 100,
+        "high": 100,
+        "source_id": "S29"
+      },
+      {
+        "item": "RSA license fee (3-year)",
+        "low": 1000,
+        "high": 1000,
+        "notes": "COMAR 10.07.05.04A(2)(k). OHCQ's 06/26/2026 application says no fee is due to apply; confirm whether the $1,000 is billed at issuance.",
+        "source_id": "S3"
+      },
+      {
+        "item": "Medicaid provider enrollment application fee (if charged for PT 76; CY 2026)",
+        "low": 0,
+        "high": 750,
+        "notes": "CMS set $750 for CY 2026; whether Maryland collects it from PT 76 enrollees was not confirmed — ask MPRIME support.",
+        "source_id": "S32"
+      },
+      {
+        "item": "Policies and procedures manual (COMAR 10.07.05.08B) and business plan",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office deposit and first month's rent",
+        "low": 3570,
+        "high": 5356,
+        "notes": "2 × monthly lease for 800–1,200 sq ft at $26.78/sq ft/yr.",
+        "source_id": "S23"
+      },
+      {
+        "item": "Furniture, computers, phones",
+        "low": 3000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability + workers' compensation)",
+        "low": 2000,
+        "high": 4500,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Owner/manager background checks, CPR and initial training setup",
+        "low": 500,
+        "high": 1500,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Launch marketing",
+        "low": 2000,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Payroll float (aides paid before Medicaid/private-pay cash arrives)",
+        "low": 15000,
+        "high": 60000,
+        "notes": "Advisory; replaced in totals by the modeled ramp-up deficit. Operator estimate.",
+        "category": "working_capital"
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "No previous Maryland Personal Home Care market research report or licensing checklist was found in the Drive asset folder (read-only search for Maryland / home care / Residential Service Agency, October 13, 2026). Nothing could be carried over, and every figure here was researched fresh.",
+    "The only Maryland checklists in Drive are DDA (Developmental Disabilities Administration) provider applications under COMAR 10.22, for Supported Living and Personal Supports. Do not reuse them for this bundle. Non-medical home care and CFC/CPAS personal assistance need an OHCQ Residential Service Agency license (COMAR 10.07.05) plus Medicaid PT 76 enrollment (COMAR 10.09.84.06 / 10.09.20.05), not DDA approval.",
+    "Any material that still points applicants to ePREP is out of date. Maryland Medicaid replaced ePREP with MPRIME on October 13, 2026, and ePREP documents became inaccessible October 1, 2026 [S39][S41].",
+    "Any template that assumes the CFC rate rises 3% each July is wrong for FY 2026 and FY 2027. The rate has been $6.3962 per 15 minutes since July 1, 2024 [S9][S14][S15].",
+    "Any material describing an 'Independent Personal Assistance provider' route for a start-up is out of date. CFC/CPAS no longer accept those applications [S45]; personal assistance must go through a licensed RSA."
+  ],
+  "verification_log": [
+    {
+      "issue": "CRITICAL: Montgomery County $16.50 home care tier requires >=75% of gross revenue from Medicaid; mixed configs (mix100 ~65%, mix60 ~74%) owe $18.00 at 51+ employees.",
+      "change": "Added the 75% test and recomputed $18.00 results (mix100 +$5,464, 2.6%, break-even 75 clients, +$1,817 at 80%; mix60 -$808, break-even 56.5) to market_conditions, risks #2, financial_narrative sensitivity, recommendations #6 and executive_summary. Model kept at statewide $17.06 wage; Montgomery result shown as a sensitivity."
+    },
+    {
+      "issue": "MAJOR: key_numbers, checklist minimum-wage task and Medicaid aide staffing notes omitted the 75%-of-gross-revenue condition.",
+      "change": "Added the condition to key_numbers[8], checklist 'Set the minimum pay floor for your county', S21 title and staffing notes; mix60/mix100 notes state they do not qualify at 51+ employees."
+    },
+    {
+      "issue": "Minor: lease opex item labeled 800 sq ft while 100-client overrides carry 1,200 sq ft.",
+      "change": "Renamed base and both overrides to 'Office lease ($26.78/sq ft/yr full-service, Baltimore)'; square footage moved to notes. Amounts unchanged."
+    },
+    {
+      "issue": "Minor: S10 (ISAS Policy Guide 2.0) URL returns 404; missing-time limit and Thursday–Wednesday workweek not confirmed from a live source.",
+      "change": "Repointed S10 to the live CFC Billing Manual (12-month claim rule, ISAS generates claims). Missing-time/workweek facts re-sourced to S46 (live MDH 2020 ISAS training, which states them) and labeled 'confirm current policy with the ISAS Help Desk'. Removed unconfirmed 'nightly claims' and 'unauthorized numbers trigger investigation'; added not_claimed line."
+    },
+    {
+      "issue": "Minor: checklist items citing COMAR 10.09.84.05 pointed to S38/S11 (10.09.84.06 page).",
+      "change": "Added S59 (COMAR 10.09.84.05) and used it on the four checklist items and alongside S11/S38 in operations, licensing_pathway and risks."
+    },
+    {
+      "issue": "Minor: CFC/CPAS condition paraphrased as 'licensed as an RSA'.",
+      "change": "Quoted COMAR 10.09.84.06A(1) ('Level Two or Level Three home care services') in licensing_pathway Track 3 and the checklist, with a note to confirm services with OLTSS."
+    },
+    {
+      "issue": "Minor: Community Options FY 2026 enrollee range low end wrong (3,896).",
+      "change": "Changed to 3,879–3,944 a month with 4,562 filled slots (preliminary) against 4,941 budgeted [S22]."
+    },
+    {
+      "issue": "Minor: S30 SDAT Form 1 manual is the 2024 edition; 2026 fee not separately confirmed (2025/2026 manuals not found at SDAT URL pattern).",
+      "change": "Kept $300 and labeled 'per 2024 Form 1 — confirm current fee' in S30, licensing_pathway and the checklist."
+    }
+  ]
+}

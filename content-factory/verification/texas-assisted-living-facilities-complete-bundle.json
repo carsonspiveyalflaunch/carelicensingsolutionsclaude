@@ -1,0 +1,80 @@
+{
+  "bundle_slug": "texas-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Most material claims verify against primary sources: CareScout 2025 TX AL median $5,666 (private one-bedroom), all six BLS OEWS 2025 Texas wages (O*NET), §553.47 fees ($300+$15/bed, cap $2,250, late fee, $15/bed capacity, $300 Alzheimer's), §553.21/§553.23 timelines (30-day review, 30-day issuance, 120-day denials, 1-3 residents after LSC), §553.253 staffing (Type B awake night staff regardless of size, attendant always present, manager 40 hrs, training hours), §553.5 types, §553.225 sprinkler/alarm rules, §553.17 floodplain and 5-year look-back, HRC §§123.004/.006/.008, STAR+PLUS Handbook §7200 setting rules, room & board $994-$85=$909, TWC 2.70%/$9,000, franchise threshold $2.65M, NIC 88.4%, HUD SAFMR $3,190, Census, NCAL fact sheet, all HHSC phone numbers/emails/regional directors, medication aide permit details, proposed rule 25R031, and the $13.00 attendant wage. Model recompute matches the narrative (40-unit +$59,004; 16-bed private +$24,655; 16-bed mixed +$8,121; 6-bed private +$2,480; 6-bed mixed -$3,031). Main problems: (1) the 40-unit apartment building's rent is a per-bed house rent and is understated by ~$41k/month, which cuts the top-ranked configuration from +$59k to ~+$17.9k/month and changes the ranking; (2) the 6-bed homes have no nurse even though PL 2023-22 requires a nurse for medication administration; (3) STAR+PLUS levels are described as RUG-based though the 9/1/2025 T2031 codes come from PDPM and phase in at ISP renewal. The S20 STAR+PLUS rate PDF could not be retrieved (HTTP 403), so the 18 T2031 amounts remain unverified, not disproven.",
+  "verified_count": 118,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "financial_model.configurations[id=typeB40_mixed].opex_overrides[item=Lease / occupancy (fixed, sized to licensed beds)].monthly",
+      "current": 24460.0,
+      "correct": 65600.0,
+      "evidence": "The 40-unit lease is the Dallas 4-bedroom HOUSE SAFMR ($3,190) x1.15 / 6 beds = $611.50, multiplied by 40. But this configuration is explicitly built with STAR+PLUS 'apartment' units, which the STAR+PLUS Handbook §7200 says need 'a private bath and cooking facilities, including a kitchen with a sink, refrigerator' and at least 220 sq ft single occupancy. A unit with its own bath and kitchen is at minimum a studio apartment; the same cited source page (S41, ZIP 75287) lists the FY2027 studio SAFMR at $1,640/month, so 40 units = $65,600/month before any common areas (dining, kitchen, activity space, offices). Recomputing the model with $65,600 drops typeB40_mixed from +$59,004/month to +$17,864/month at 88% (conservative 80%: +$3,789; break-even occupancy 0.545 -> 0.778) and it falls from #1 to #2 behind typeB16_private. The executive summary's '$59,000/month' headline and the financial_narrative results table are therefore overstated.",
+      "source_url": "https://fairmarketrentmap.com/zip/75287",
+      "fix": "Set the typeB40_mixed lease override to at least 65600 (40 x FY2027 studio SAFMR $1,640 for ZIP 75287 [S41]; also cite STAR+PLUS Handbook §7200 [S21] for the private bath/kitchen unit requirement), label it an operator estimate floor that excludes common areas, update startup 'Lease deposit + first month' high to 131200, and update executive_summary, financial_narrative results table and sensitivity to the recomputed values (~+$17,900/month at 88%, ~+$3,800 at 80%, break-even ~78%)."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[id=typeB6_private|typeB6_mixed].staffing",
+      "current": "Attendant 24/7 + manager only; no licensed nurse or RN line",
+      "correct": "Add an on-call/consulting nurse line, e.g. LVN 17.3 hrs/month (4 hrs/week) at $29.92 [S32], operator estimate",
+      "evidence": "HHSC's April 17, 2024 ALF webinar (PL 2023-22) says only a 'Licensed nurse employed/contracted by the ALF', a permitted medication aide who 'acts under authority of a nurse on duty or on call by the facility', or an 'ALF attendant to whom an RN has delegated medication administration' may administer medications. The 16- and 40-bed configs include an LVN for this reason, but the 6-bed configs have no nurse at all, so they cannot legally administer medications to residents who need it. Adding 4 hrs/week LVN cuts typeB6_private from +$2,480 to +$1,876 at 88% and to -$486 at 80% (break-even 0.796 -> 0.816); typeB6_mixed from -$3,031 to -$3,635.",
+      "source_url": "https://www.hhs.texas.gov/sites/default/files/documents/alf-provider-with-ltcr-webinar-april-17-2024.pdf",
+      "fix": "Add to both 6-bed configurations: {\"role\": \"LVN/RN on call - medication aide supervision or RN delegation, service plan reviews (4 hrs/week)\", \"basis\": \"hours_per_month\", \"amount\": 17.3, \"wage_hourly\": 29.92, \"wage_source_id\": \"S32\", \"cite\": \"PL 2023-22\", \"notes\": \"Hours are an operator estimate - verify locally.\"} (or state that the home will only admit residents who self-administer), and update the 6-bed figures in executive_summary, financial_narrative, risks and corrections_vs_previous."
+    },
+    {
+      "severity": "major",
+      "json_path": "rates[payer=STAR+PLUS MCO].notes; sections.reimbursement (step 2 'six levels tied to the member's RUG/HCBS group')",
+      "current": "Levels map to RUG/HCBS groups listed on the rate sheet",
+      "correct": "T2031 levels come from the PDPM-based methodology that replaced RUG-III on 9/1/2025; providers keep billing the old RUG-III codes for a member until that member's ISP renews, then switch to T2031",
+      "evidence": "UnitedHealthcare provider notice: assisted living claims for STAR+PLUS members must switch to HCPCS T2031 and modifiers following Texas's move 'from the RUG-III payment model to the patient-driven payment model (PDPM)'. The methodology changed Sept. 1, 2025, but providers 'keep using the current RUG-III codes until a member's individual service plan (ISP) renews'; claims with the wrong codes are denied.",
+      "source_url": "https://ams-gateway.uhcprovider.com/en/resource-library/news/2025/tx-medicaid-changes-star-plus-billing-codes.html",
+      "fix": "Replace 'RUG/HCBS group' with 'PDPM-based level (replaced RUG-III 9/1/2025)' in the T2031 rate notes and the reimbursement section, and add a checklist/billing note that T2031 codes apply only from each member's next ISP renewal on or after 9/1/2025 (cite the UHC notice or HHSC's provider guide as a new source)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[source_id=S20] (all T2031, S5151, S5140 values and the $37.52 attendant component)",
+      "current": "18 T2031 values $44.82-$74.04/day, respite $43.97-$61.05, AFC $19.19-$67.20, attendant cost $37.52",
+      "correct": null,
+      "evidence": "S20 (pfd.hhs.texas.gov 9-1-2025 STAR+PLUS rates PDF) returned HTTP 403/Access Denied to every retrieval method available to the verifier, and the Wayback copy was blocked. The $13.00 attendant base wage behind the 9/1/2025 rates IS confirmed (TAHP summary of the 7/16/2025 HHSC rate hearing: Rider 23 raised the attendant base wage 'from $10.60/hr to $13/hr'; Community First notice confirms STAR+PLUS HCBS assisted living was included). The internal averages are arithmetically correct ($53.44 and $70.47). Note the PFD STAR+PLUS index page (pfd.hhs.texas.gov/node/266) still labels Jan 1, 2024 as current, so the sheet is only reachable by direct link.",
+      "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-star-plus-rates.pdf",
+      "fix": "unverifiable from the verifier environment (HTTP 403) - open S20 in a browser and confirm the 18 T2031 values, respite and AFC values and the $37.52 attendant component; keep them if they match. Consider citing the rate hearing summary (https://tahp.org/wp-content/uploads/2025/07/2025.7.16_Rate-Hearing_Attendant-Services-in-CLASS-CFC-DAHS-DBMD-Primary-Home-Care-Community-Attendant-Services-and-More-Effective-9_1_25.pdf) for the $13.00 wage."
+    },
+    {
+      "severity": "minor",
+      "json_path": "contacts[name=HHSC Interest List line].contact",
+      "current": "1-877-438-5658 (STAR+PLUS HCBS additions also 1-855-937-2372)",
+      "correct": "1-877-438-5658",
+      "evidence": "The cited interest list page (S25) gives 1-877-438-5658 for waiver programs other than HCS/TxHmL; it does not list 1-855-937-2372.",
+      "source_url": "https://hhs.texas.gov/node/1890",
+      "fix": "Remove '(STAR+PLUS HCBS additions also 1-855-937-2372)' or add a source that lists it; otherwise unverifiable."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[task=Furnish resident rooms and common areas].source_id",
+      "current": "S52",
+      "correct": null,
+      "evidence": "S52 is the Subchapter D section list (construction rules); it does not contain the $2,000-per-bed furnishing figure, which the instructions themselves call an operator estimate.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/title-26/part-1/chapter-553/subchapter-D",
+      "fix": "Set source_id to null/empty (operator estimate) for this checklist item."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[metric=Wages (BLS OEWS 2025, Texas)].source_id",
+      "current": "S30; S31; S32",
+      "correct": "S30",
+      "evidence": "A single source_id field holds three IDs; the values themselves are verified (O*NET/BLS 2025 Texas: PCA median $24,230/yr = $11.65, 75th $27,520 = $13.23; nursing assistant median $37,500 = $18.03; LVN median $62,240 = $29.92).",
+      "source_url": "https://www.onetonline.org/link/localwages/31-1122.00?st=TX",
+      "fix": "Split into separate key_numbers rows (one per occupation with its own source_id) or keep S30 and move the others to notes, if the generator expects a single ID."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[task=Consider an Expedited LSC inspection]",
+      "current": "HHSC inspects within 15 business days ... cite 26 TAC §553.47(g)",
+      "correct": "Rule §553.47(g): inspection no later than the 15th day after HHSC receives the request; HHSC web page says 15 business days",
+      "evidence": "Cornell text of §553.47(g): the expedited LSC inspection 'must occur no later than the 15th day after HHSC receives the request'; HHSC's How to Become an ALF Provider page says 'within 15 business days'. The fee amount is in a graphic in the rule and is not stated in the bundle.",
+      "source_url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-553-47",
+      "fix": "Write: 'The rule says no later than the 15th day after HHSC receives the request (§553.47(g)); HHSC's web page says 15 business days. Check the current fee in §553.47(g) before requesting.'"
+    }
+  ]
+}

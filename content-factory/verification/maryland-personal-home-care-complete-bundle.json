@@ -1,0 +1,80 @@
+{
+  "bundle_slug": "maryland-personal-home-care-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Strong, well-sourced file. All CFC/CPAS rates (PT 03-25, rate disclosure, FY2027 'level rates'), all six BLS OEWS May 2025 Maryland wages, CareScout $35/hr, COMAR 10.07.05 fees/terms/RN supervision/on-call, COMAR 10.09.84 provider conditions, MPRIME dates/phone, UI/FAMLI/mileage/CMS fee/SDAT fees and the OHCQ, OLTSS and MPRIME phone numbers were verified against primary sources. The model recomputes exactly as the narrative states (mix100 +$11,806 at 0.629 break-even occupancy; mix60 +$3,632; med100 +$2,035; pp30 +$178; med60 -$810; med30 -$6,775), and the sensitivity, startup and ramp figures match. One critical error: the Montgomery County wage exception for Medicaid-funded home care requires at least 75% of gross revenue from Medicaid, so the mixed configurations (default mix100 is ~65% Medicaid revenue; mix60 ~74%) owe the $18.00 large-employer minimum there, which roughly halves the default result. The other issues are a dead ISAS URL, a mislabeled lease override, source_id mismatches and small wording points.",
+  "verified_count": 64,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "sections.financial_narrative; sections.risks[2]; sections.market_conditions (Local minimums); sections.recommendations[6]",
+      "current": "Montgomery County: 'Medicaid-funded home care employers with 11+ employees fall in the $16.50 mid-size tier... The modeled Medicaid aide wage of $17.06 clears every floor. A private-pay Montgomery agency with 51+ employees... must pay at least $18.00.'",
+      "correct": "The mid-size ($16.50) tier applies to a home care provider with 11+ employees only if it 'receives at least 75% of gross revenues through state and federal Medicaid programs.' The default mix100 (60% Medicaid clients) earns about 64.6% of revenue from Medicaid ($1,535 of $2,375 per client-month) and mix60 about 74.0% ($1,791 of $2,421), so in Montgomery County a mixed agency with 51+ employees must pay at least $18.00 to all aides. Recomputed at $18.00 for Medicaid aides: mix100 = +$5,464/month (2.6% margin, break-even 75 clients / 0.75 occupancy; +$1,817 at 80% census); mix60 = -$808/month (break-even 56.5 clients). Medicaid-only configs (100% Medicaid revenue) do qualify for $16.50.",
+      "evidence": "Maryland Department of Labor wage page: Montgomery County from July 1, 2026 — large (51+) $18.00, mid-sized (11-50) $16.50, small $15.95; 'Certain non-profits and Medicaid-funded home care providers are subject to the mid-sized rate even if they employ more than 51 employees... must have 11 or more employees and... receives at least 75% of gross revenues through state and federal Medicaid programs.' Recomputed with generators/model.py by setting the $17.06 Medicaid-aide wage to $18.00 in mix60/mix100.",
+      "source_url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml",
+      "fix": "In market_conditions, risks #2, the Montgomery bullet and the financial_narrative sensitivity add: 'The $16.50 tier applies only if at least 75% of gross revenue comes from Medicaid. A mixed agency like the default (about 65% Medicaid revenue) with 51+ employees must pay $18.00 in Montgomery County; at $18.00 the 100-client mixed agency nets about +$5,464 a month (2.6%, break-even 75 clients) and the 60-client mixed agency about -$808.' Replace 'The modeled Medicaid aide wage of $17.06 clears every floor' with 'clears every floor except Montgomery County for agencies under 75% Medicaid revenue with 51+ employees.' In recommendations #6 add the 75% test."
+    },
+    {
+      "severity": "major",
+      "json_path": "key_numbers[8].value; checklist[7].instructions (Set the minimum pay floor for your county); financial_model.configurations[*].staffing[Personal care aides — Medicaid clients].notes",
+      "current": "Montgomery County $16.50 for Medicaid-funded home care employers with 11+ employees",
+      "correct": "Montgomery County $16.50 for home care employers with 11+ employees that receive at least 75% of gross revenue from Medicaid (otherwise $18.00 at 51+ employees, $16.50 at 11-50, $15.95 at 10 or fewer)",
+      "evidence": "Maryland Department of Labor: provider must have 11 or more employees and 'receives at least 75% of gross revenues through state and federal Medicaid programs.'",
+      "source_url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml",
+      "fix": "Add the 75%-of-gross-revenue condition to key_numbers[8], the checklist minimum-wage task, and the staffing note in mix60/mix100 (state that those configs do not qualify at 51+ employees)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex[0].item and configurations[mix100|med100].opex_overrides[0].item",
+      "current": "Office lease (800 sq ft at $26.78/sq ft/yr full-service, Baltimore) — override amount $2,678 is for 1,200 sq ft",
+      "correct": "Office lease ($26.78/sq ft/yr full-service, Baltimore)",
+      "evidence": "Override monthly 2678.0 = 1,200 × 26.78 ÷ 12, but the item label still says 800 sq ft. Overrides match by exact item name (generators/model.py opex_for), so the label must be changed in both base and override together. Rent figure verified: TenantBase Q1 2026 'averaging approximately $26.78 per SF on a full-service basis' (secondary).",
+      "source_url": "https://www.tenantbase.com/baltimore/q1-2026/",
+      "fix": "Rename the item in opex[0] and in both overrides to 'Office lease ($26.78/sq ft/yr full-service, Baltimore)' and put the square footage (800 vs 1,200) in notes."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S10].url",
+      "current": "https://health.maryland.gov/mmcp/longtermcare/Resource%20Guide/05.%20ISAS/ISAS%20Policy%20and%20Reference%20Guides/ISAS%20Policy%20Guide%202.0-%2010-11-18.pdf",
+      "correct": null,
+      "evidence": "URL returns HTTP 404 (also the ISAS '4 Missing Time Limit Reduction' memo URL returns 404). The 12-month claim limit is confirmed by the CFC Billing Manual ('Claims must be submitted within 12 months of the date of service'); the 4 missing-time requests per aide and the Thursday-Wednesday workweek could not be confirmed from a live official document.",
+      "source_url": "https://dhmh.maryland.gov/mmcp/longtermcare/SiteAssets/Pages/CFC-Provider-Information/CFC%20Billing%20Manual%20%207.1.19.pdf",
+      "fix": "Replace S10 with a live ISAS policy source (or the CFC Billing Manual for the 12-month rule). Mark '4 missing-time requests per month, due within 2 business days' and 'workweek Thursday to Wednesday' as unverifiable unless a live source is found (move to not_claimed or soften to 'per ISAS policy — confirm with the ISAS Help Desk')."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[COMAR 10.09.84.05B / 05A(9) / 05A(3) / 05A(6) items].source_id",
+      "current": "S38 / S11 (S11 is the COMAR 10.09.84.06 page)",
+      "correct": "A source pointing to https://regs.maryland.gov/us/md/exec/comar/10.09.84.05",
+      "evidence": "COMAR 10.09.84.05 contains the cited text: A(3)(a) 'Reporting incidents and complaints within 24 hours'; A(6) records 'for a period of 6 years from the date of service'; A(9) 'verify Medicaid eligibility at the beginning of each month'; B 24-month prohibition. These are not in .06.",
+      "source_url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.05",
+      "fix": "Add a source S59 'COMAR 10.09.84.05 Conditions for Participation (general)' with this URL and use it as source_id on the four checklist items that cite 10.09.84.05; also cite it alongside S11 in operations (records/eligibility/incidents)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.licensing_pathway Track 3 step 3; checklist (Sign the provider agreement and meet CFC/CPAS conditions)",
+      "current": "be licensed as an RSA",
+      "correct": "be licensed as a Residential Service Agency under COMAR 10.07.05 'to provide Level Two or Level Three home care services'",
+      "evidence": "COMAR 10.09.84.06A(1) text: 'Be licensed as a Residential Service Agency under COMAR 10.07.05 to provide Level Two or Level Three home care services;' — COMAR 10.07.05.02 no longer defines service levels.",
+      "source_url": "https://regs.maryland.gov/us/md/exec/comar/10.09.84.06",
+      "fix": "Quote the rule text and add: 'COMAR 10.07.05 no longer defines levels; confirm with OLTSS which services must be checked on the OHCQ application (home health aide at minimum).'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.demand (Community Options waiver bullet)",
+      "current": "3,896–3,944 enrollees in FY 2026",
+      "correct": "3,879–3,944 enrollees in FY 2026 (July 2025–March 2026); 4,562 filled slots (preliminary, through March 31, 2026)",
+      "evidence": "JCR Table 1 FY 2026 enrollees: July 3,879 ... November 3,944 ... March 3,896. Table 5: FY2026 budgeted 4,941, filled 4,562*.",
+      "source_url": "https://health.maryland.gov/mmcp/Documents/CFCcommunityoptionswaiverJCRfinal8-26.pdf",
+      "fix": "Change to '3,879–3,944 enrollees a month in FY 2026 (4,562 filled slots, preliminary) against 4,941 budgeted slots'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S30]",
+      "current": "2024 Form 1 Annual Report manual (domestic LLC $300; due April 15)",
+      "correct": null,
+      "evidence": "The 2024 manual confirms $300 and April 15 for a domestic LLC, but it is two filing years old; the 2026 fee was not separately confirmed.",
+      "source_url": "https://dat.maryland.gov/SDAT%20Forms/PPR_Forms/2024_Form_1_Manual.pdf",
+      "fix": "Replace with the current-year (2026) Form 1 instructions if available; otherwise keep and label 'per 2024 Form 1 — confirm current fee'."
+    }
+  ]
+}

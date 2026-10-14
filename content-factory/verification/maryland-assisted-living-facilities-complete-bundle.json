@@ -1,0 +1,107 @@
+{
+  "bundle_slug": "maryland-assisted-living-facilities-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Strong bundle. Model recomputed exactly as narrated (al40 +$109,319 / BE 48.1%; al16_private +$27,678 / 57.8%; al16_mixed +$19,771; al8_private +$3,622; al8_mixed -$2,309; al4 -$5,824), and every sensitivity figure in financial_narrative reproduced (4-bed BE ~$7,700, owner-ALM ~$6,900/-$2,987, 8-bed owner-ALM +$9,296, $5,500 -> +$19,038/-$698, $7,173 -> +$43,130, +$2/hr -> +$24,824/+$1,338). All 13 BLS OEWS May 2025 Maryland wages verified via the BLS API (18.29, 20.79, 47.98, 35.89, 58,050, 71,720, 77,560, 101,200, 19.89, 17.07, 17.07, 18.00, 23.41, 24.76); all are above the $15.00 state minimum and the Montgomery ($18.00/$16.50/$15.95) and Howard ($16.00) July 2026 rates. Verified: CareScout $7,173/$86,070/US $6,200 (private one-bedroom); NIC 88.4%; HUD FY2027 SAFMR 21234 $2,480/$2,750 and 20774 $3,440/$4,050; PT 04-25 waiver rates W0221/W0226-W0229 and W0199; $420 room & board cap; 1:8 daytime waiver ratio; SALS $1,056/62+/60% SMI/$130/$19,000; registry 23,461 (+1,112, 5%), 6,348/4,253/750/1,345; 1,617 / 1,699 / 25,391 / 1,507 / 897 and county counts; 1,721 and 77%; OHCQ $0 application, 3 steps, 180-day closure, 10-business-day POC; ALM $100+$200, July 1 2026, 10 business days; SDAT $100/$300/$20; MD UI 1.0-2.6% on $8,500; $750 CY2026 fee; Carroll $1,209; AACC NRN-500 $298; CMT 20 hrs / 100 hrs / 4-hr update; COMAR .12, .14, .15, .19, .21, .31, .47, .49, .07, .08 claims; MPRIME Oct 13 2026, SDAT auto-suspension, phone/email; LTSSMaryland Oct 1 2026, Thu-Wed week, helpdesk and Toland contacts; OHCQ AL team phones. No critical issues. One major: the 40-bed staffing note claims it exceeds the CO Waiver 1:8 daytime ratio, which it does not. Remaining issues are minor citation/wording fixes and one small missing mandatory tax (business personal property tax).",
+  "verified_count": 114,
+  "issues": [
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[5].staffing[1].notes",
+      "current": "Together with med techs: 4 staff days, 3 evenings, 2 awake overnight. Above the CO Waiver 1:8 daytime minimum [S37].",
+      "correct": "Together with med techs: 4 staff days, 3 evenings, 2 awake overnight. This is below the CO Waiver minimum of 1 staff per 8 residents during daytime hours [S37] (40 beds need 5 on duty all daytime hours), which does not matter for a private-pay-only building. To accept waiver residents, add a fifth staff member on day and evening shifts.",
+      "evidence": "COMAR 10.09.54.05A(4): provider must 'have at least one staff person per eight residents on duty at all times during daytime hours.' The al40 config puts 2 CMT + 2 caregivers = 4 direct-care staff on days (1:10 at 40 beds, 1:9 at 36 residents) and 3 on evenings. The 40-hr/week LPN is weekdays only, so weekends and evenings fall below 1:8. A customer adding waiver beds to this staffing plan would be out of compliance.",
+      "source_url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-05",
+      "fix": "Replace the note with the corrected text. Optionally add to al40 notes: 'Waiver participation requires about +486.7 caregiver hours/month at $18.29 (~$10,400/month with burden).' Model profitability is unchanged because al40 is 100% private pay."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.recommendations (item 2)",
+      "current": "Serve as the licensed ALM yourself... Price at or above about $6,900/month (4 beds) or $5,600/month (8 beds) at 90% occupancy",
+      "correct": "Owner-ALM break-even at 90% occupancy: about $6,900/month (4 beds) and about $4,800/month (8 beds). With a paid ALM: about $7,700 (4 beds) and about $5,600 (8 beds).",
+      "evidence": "Recomputed with generators/model.py. al8_private with the ALM line removed earns +$9,296 at $6,100 and +$5,696 at $5,600, so owner-ALM break-even is about $6,100 - 9,296/7.2 = ~$4,810. $5,600 is the break-even with a paid ALM ($6,100 - 3,622/7.2 = ~$5,597). The 4-bed figure ($6,900) is owner-ALM, so the two numbers in the sentence use different assumptions.",
+      "source_url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-15",
+      "fix": "Change '$5,600/month (8 beds)' to '$4,800/month (8 beds)', or keep $5,600 and label it 'with a paid ALM'."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.opex",
+      "current": null,
+      "correct": {"item": "Business personal property tax (county, on furnishings/equipment)", "monthly": 85, "basis": "fixed", "notes": "Businesses with $20,000+ of personal property must report it on SDAT Form 1 and pay county personal property tax (e.g., Baltimore County $2.75 per $100 of assessed value; Baltimore City is higher). About $36,000 of furnishings in a 16-bed home is roughly $990/yr. Scale by beds (~$5/licensed bed/month). Homes under $20,000 of property may file no Section V."},
+      "evidence": "SDAT Form 1 manual: a business that owns, leases or uses personal property must complete the Business Personal Property Return if total original cost is $20,000 or more. Baltimore County: 'Personal Property—$2.75 per $100 of assessed value.' The bundle budgets $8,000-$100,000 of furnishings but has no line for this tax. Small amount: about -$85/month at 16 beds and -$230/month at 40 beds.",
+      "source_url": "https://dat.maryland.gov/SDAT%20Forms/PPR_Forms/2024_Form_1_Manual.pdf ; https://baltimorecountymd.gov/departments/budfin/taxpayer-services/tax-rates",
+      "fix": "Add a fixed opex line sized per configuration with opex_overrides: 4 beds $0-20 (likely under the $20,000 threshold), 8 beds $40, 16 beds $85, 40 beds $230. Add one sentence to financial_narrative."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.risks (People licensure bullet)",
+      "current": "Losing your ALM means an interim provisional license lasting at most 90 days, extendable by 30 [S28][S29].",
+      "correct": "Same claim, cited to SB 613 (2024) / Health Occ. §9-3A-01(b)(2): an alternate may act as interim ALM on filing a provisional license application for up to 90 days, which the Board may extend by up to 30 days for good cause.",
+      "evidence": "Neither S28 (Board ALM page) nor S29 (fiscal note) mentions the 90/30-day provisional period. The bill text does: '§ 9-3A-01(b)(2)(i) ... a period not to exceed 90 days'; '(iv) may extend the initial provisional period for a further period of not more than 30 days.'",
+      "source_url": "https://mgaleg.maryland.gov/2024RS/bills/sb/sb0613t.pdf",
+      "fix": "Add a source (SB 613 enacted text, Health Occ. §9-3A-01(b)(2)) and cite it in place of [S28][S29] for this sentence."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.market_conditions (Policy trends) and sections.risks (Medicaid rates are flat)",
+      "current": "No LTSS rate increase in FY2026–FY2027 [S40].",
+      "correct": "No LTSS rate increase in FY2026 (MDH: 'Service rates will remain unchanged and will not receive an increase') or FY2027 ('level rates') [new source][S40].",
+      "evidence": "S40 covers only FY2027 ('The fiscal 2027 budget provides level rates for long-term services and supports providers'). S39 shows only a proposed 1% FY2026 increase that DLS recommended deleting. The MDH JCR report on personal care rates (July 2025) says for FY2026 LTSS: 'Service rates will remain unchanged and will not receive an increase.' This also strengthens rates[].notes and not_claimed[2], which currently rest on inference.",
+      "source_url": "https://health.maryland.gov/mmcp/Documents/RSApersonalcareaideratesJCRfinal7-25.pdf",
+      "fix": "Add the MDH JCR report as a source and cite it for FY2026. Update rates[0].notes to read 'FY2026 rates unchanged [new]; FY2027 held level [S40].'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[51].instructions",
+      "current": "Operating without a license or provisional license is prohibited. Unlicensed operators get 30 days to comply and face civil money penalties.",
+      "correct": "Operating without a license or provisional license is prohibited. Knowingly operating an unlicensed program is a felony (criminal fines and imprisonment). Where residents were not harmed, OHCQ gives 30 days' written notice to come into compliance.",
+      "evidence": "COMAR 10.07.14.61 is titled 'Criminal Penalties'. Under A(1)-(2) operating an unlicensed program is a felony, and A(6)(a) gives the 30-day compliance notice. Civil money penalties in .61 apply to advertising unlicensed services (B(3), up to $10,000) and to referrals to unlicensed programs (C(2)).",
+      "source_url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-61",
+      "fix": "Replace the instructions with the corrected text."
+    },
+    {
+      "severity": "minor",
+      "json_path": "contacts[0].contact",
+      "current": "(410) 402-8217 / (800) 492-6005 / fax (410) 402-8211 / 201 W. Preston St., Baltimore, MD 21201",
+      "correct": "(410) 402-8217 / (800) 492-6005 / fax (410) 402-8211 / 7120 Samuel Morse Drive, Second Floor, Columbia, MD 21046-3422",
+      "evidence": "201 W. Preston St. is MDH headquarters (the page footer address). The OHCQ home page gives OHCQ's address as '7120 Samuel Morse Drive, Second Floor, Columbia, MD 21046-3422'. The phone and fax numbers verified on the AL Programs page.",
+      "source_url": "https://health.maryland.gov/ohcq/Pages/Home.aspx",
+      "fix": "Replace the address."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S49].url",
+      "current": "https://www.bls.gov/oes/current/oes_md.htm",
+      "correct": "https://data.bls.gov/oes/#/area/2400000 (or cite BLS series OEUS2400000000000{SOC}{datatype}, e.g. OEUS240000000000031113108 = $20.79)",
+      "evidence": "The cited page is now a navigation page with no occupation wage figures (WebFetch found no wage data). Every value was confirmed through the BLS public API for area 2400000, May 2025: 31-1120 $18.29; 31-1131 $20.79; 29-1141 $47.98; 29-2061 $35.89; 11-9151 10th $58,050 / 25th $71,720; 11-9111 10th $77,560 / 25th $101,200; 35-2012 $19.89; 35-2021 $17.07; 37-2012 $17.07; 39-9099 $18.00; 43-6014 $23.41; 49-9071 $24.76.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUS240000000000031113108",
+      "fix": "Update the S49 URL to the data.bls.gov OES Maryland area view. No values change."
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[4].notes",
+      "current": "Limited to 14 days per occurrence; not billable on the same day as assisted living services [S35].",
+      "correct": null,
+      "evidence": "COMAR 10.09.54.22 (S35) as published on LII contains the 'lesser of' rule and older FY2023 rates. It does not mention a respite limit, a 14-day cap or same-day billing.",
+      "source_url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-22",
+      "fix": "Unverifiable from the cited source. Find the provision (likely the waiver application/Appendix C or COMAR 10.09.54.14) and cite it, or delete the sentence and move it to not_claimed."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.service_model (Levels of care) and checklist[53].instructions",
+      "current": "CO Waiver rates exist only for Level II and Level III [S34], so a Level 1 license cannot bill the waiver. / 'A Level 1 license cannot bill.' (cite COMAR 10.09.54.03D, .05C)",
+      "correct": "CO Waiver assisted living rates exist only for Level II and Level III [S34]. Confirm with MDH OLTSS whether a Level 1-licensed program can enroll.",
+      "evidence": "COMAR 10.09.54.05 requires only that the provider be licensed under COMAR 10.07.14, and .05C covers designated units, not license level. Neither .13 nor .22 addresses license level. The 'cannot bill' conclusion is an inference from the rate table, not a quoted rule.",
+      "source_url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-09-54-05",
+      "fix": "Unverifiable as a rule. Soften the wording as shown and remove '.05C' from the checklist cite, or cite the waiver application's provider qualification if found."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.reimbursement (Private pay paragraph)",
+      "current": "Rate increases need 45 days' written notice in the resident agreement unless a change in the resident's condition requires it [S1].",
+      "correct": "Same text, cited to COMAR 10.07.14.27A(2)(e).",
+      "evidence": "COMAR 10.07.14.27A(2)(e): the resident agreement must provide 'at least 45 calendar days notice of any rate increase', except 'if necessitated by a change in the resident's medical condition.' S1 is only the chapter index.",
+      "source_url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-07-14-27",
+      "fix": "Add a source for COMAR 10.07.14.27 and cite it here and in checklist[31]."
+    }
+  ]
+}

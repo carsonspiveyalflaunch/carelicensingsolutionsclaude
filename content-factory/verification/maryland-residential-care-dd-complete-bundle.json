@@ -1,0 +1,116 @@
+{
+  "bundle_slug": "maryland-residential-care-dd-complete-bundle",
+  "checked_at": "2026-10-13",
+  "summary": "Independent check of the Maryland CL-Group Home bundle. Every W5600/W5601/W5602/W1999/W2000/W5804 rate (standard and differential, Oct 1 2026 chart and the proposed -2% July 1 2026 file) matches the DDA xlsx files exactly. The Brick hours (43.14 per day for 4 people, 28.5 for 3) match the FY2024 Brick workbook. All BLS OEWS May 2025 wages match (checked through the BLS API): Baltimore 21-1093 25th percentile $19.57, 11-9151 median $40.75, 29-1141 mean $47.64; DC 21-1093 25th percentile $20.74, 11-9151 median $48.67, RN mean $50.28; MD 43-3031 mean $26.90, MD 21-1093 25th percentile $20.30 and median $22.70. These also match: COMAR 10.22.02.02/.03/.05/.06/.08/.09/.11/.12 and 10.22.08.04, the SDAT fees, the CMS CY2026 $750 fee, MD UI, the minimum wages, USDA food costs, HUD SAFMRs, DLS budget figures, MPRIME dates, DDA regional office contacts and the application instructions. The model recompute reproduces the file (gh4_ros +$4,652, BE 0.809; gh4x2 +$7,452; dedicated +$9,681; geo +$5,554; cut +$3,734; gh3 -$142), and so do the narrative sensitivity numbers ($22.70 wage -> -$132; no room and board -> +$1,592). One CRITICAL modeling error: the W5600 rate is set by the number of people actually living in the home, so a vacancy in a 4-bed home drops the remaining residents to the 3-person rate ($355.23). The model bills $403.30 on every occupied bed-day. Corrected at 90% occupancy, the base home falls to about +$2,897, two homes to about +$3,944, the geo home to about +$3,623, and the 3-person home rises to about +$2,101, because its vacancies bill the higher 2-person rate. That reverses the 'design for four, 3-person breaks even' recommendation. Major issues: DSP paid training time is missing; the Nursing Support Services revenue rests on a 2018 webinar and is assumed for every resident; Maryland FAMLI employer contributions (0.45% from Jan 1 2027) are not in the payroll burden. The rest are minor wording and citation fixes.",
+  "verified_count": 94,
+  "issues": [
+    {
+      "severity": "critical",
+      "json_path": "financial_model.configurations[*].revenue_lines[code=W5600].rate (all six configurations) + occupancy",
+      "current": "W5600 billed at the full-house rate ($403.30 4-person ROS, $443.63 geo, $395.23 cut, $355.23 3-person) on every occupied bed-day at 90%/80% occupancy",
+      "correct": "Blended rate reflecting the step-down when a bed is vacant (single-vacancy assumption, fraction of time with one vacancy = (1-occ)*capacity): 90% occupancy -> gh4_ros/gh4x2/dedicated $387.28, geo $426.00, cut $379.53, gh3 $382.53 (vacancy pays the 2-person rate $478.09); 80% occupancy -> $367.25 / geo $403.97 / cut $359.90 / gh3 $416.66. Recomputed default nets: dedicated +$7,926, gh4x2 +$3,944, geo +$3,623, gh4_ros +$2,897, gh3 +$2,101, cut +$2,014. Conservative (80%) nets: dedicated +$506, gh3 +$952, geo -$3,910, gh4_ros -$3,964, cut -$4,710, gh4x2 -$9,780.",
+      "evidence": "MDH/DDA 'Provider Portal Residential Services 2023 Billing Update': 'agencies must indicate the Number of People Authorized for residential services to drive the billing rate' and 'Number of People Authorized refers to the total number of people living in the home that have active CP or SF enrollment ... and are present on the date of service or have retainer days available if they are out that day of service (max 18 days per calendar year).' The DDA Residential Rate Discrepancy Report corrects claims 'billed at the incorrect rate' to match the 'number of participants billed at a site'. The rate chart (S3) has separate per-person rates by home size: 4 w/ overnight $403.30, 3 w/ overnight $355.23, 2 w/ overnight $478.09.",
+      "source_url": "https://content.govdelivery.com/attachments/MDDHMH/2023/01/27/file_attachments/2393265/Provider%20Portal%20Residential%20Services%202023%20Billing%20Update%20(1.27.2023).pdf",
+      "fix": "Replace each W5600 revenue line rate with the occupancy-blended effective rate above (or add model support for a rate-by-census step), keep the full rate only in the optimistic case, and add the rule to occupancy.rationale and the risks: 'A vacancy drops every remaining resident to the smaller-home rate (4->3 person: $403.30->$355.23), so one empty bed costs about 36% of the home's W5600 revenue, not 25%.' Then regenerate the financial_narrative table, executive_summary figures and recommendations #4/#8. The 3-person home is no longer the worst case, and the 4-bed single home breaks even at about 84%, not 81%."
+    },
+    {
+      "severity": "major",
+      "json_path": "sections.executive_summary / sections.financial_narrative / sections.recommendations[4,7,8] / sections.risks",
+      "current": "'single 4-person home nets about +$4,652/month (break-even about 81%)... Two homes +$7,452... A 3-person home roughly breaks even (-$142)'; recommendation 4 'Design for four... A 3-person home roughly breaks even'",
+      "correct": "After the vacancy rate-step fix: 4-person home about +$2,897 (BE about 84%), two homes about +$3,944, geo home about +$3,623, 3-person home about +$2,101, dedicated-hours home about +$7,926, -2% case about +$2,014 (before the other fixes below)",
+      "evidence": "Recomputed with generators/model.py, applying the blended W5600 rates from the critical issue. In a 3-person home a vacancy bills the remaining two at $478.09, which is higher than the 3-person rate.",
+      "source_url": "https://health.maryland.gov/dda/Documents/FY2027%20LTSS%20Rate%20Chart%20100126.xlsx",
+      "fix": "Regenerate all narrative figures from the corrected model. Rewrite recommendation 4: a 3-person home is not penalized by vacancies the way a 4-person home is. Present it as the lower-risk option and the 4-person home as higher-upside but vacancy-sensitive."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[*].staffing[role='Direct support professionals...'].amount (1312 / 2624 / 867)",
+      "current": "DSP paid hours = exactly the Brick coverage hours (1,312/month for 4 people); the only non-coverage paid time is the 4% sick-leave allowance",
+      "correct": "Add at least compensable required training time: DDA's FY2025 GL analysis puts CL/Supported Living training at 0.016 of wages (27.3 hrs per FTE per year) -> 1,333 / 2,666 / 881 hrs. Results: gh4_ros +$4,173 (vs +$4,652), gh4x2 +$6,495, geo +$5,046, dedicated +$9,122, gh3 -$458, before the critical fix. DDA's GL also shows residential non-billable time (PTO/admin) of 1.15 (about 245 hrs per FTE per year). At a 10% uplift net of sick leave, gh4_ros falls to +$1,661 and gh4x2 to +$1,470.",
+      "evidence": "Rate Review Advisory Group (Apr 20, 2026) slides: 'Training Time Factor: Captures unbillable DSP time spent in training'. Table: 'R2-5, R7-8 Community Living and Supported Living 0.016 / 27.3' annual training hours per FTE. Productivity: 'R0-5, R7-8, S6 Residential minus Shared Living plus Respite - Day 1.15 / 245' hours. Required pre-service and 3-month training (COMAR 10.22.02.11C-D) and CPR/CMT renewals are paid work time.",
+      "source_url": "https://health.maryland.gov/dda/Documents/Rate%20Review%20Advisory%20Group%20Session%20Presentation%20-%20April%2020,2026.pdf",
+      "fix": "Multiply the DSP coverage hours by 1.016 (training) in every configuration, and also the 60.84 dedicated DSP hours in gh4_ros_dedicated. Add a sensitivity paragraph to financial_narrative giving the result at DDA's GL residential productivity factor (1.15) as 'if you offer PTO and holidays'."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.configurations[*].revenue_lines[code=W5804]; checklist[57]; sections.reimbursement ('DDA has said nursing is not included in the residential rate [S29]')",
+      "current": "Every resident is assumed to bill 8 standalone W5804 units/month ($246). The only support is a 2018 Q&A webinar (S29), and checklist item 57 says 'Nursing is billed separately'.",
+      "correct": null,
+      "evidence": "The current CL-GH definition (S8, CMS submission July 1 2026) says: 'E. This service includes Nursing Support Services based on assessed need. The scope of the Nursing Support Services is defined under the stand-alone service' and 'G.2 ... provided in combination with, and incidental to ... b. Delegated nursing tasks or other Nursing Support Services'. It adds: 'K. In the event that additional Nursing Support Services Delegation training supports are needed as indicated in the Health Risk Screening Tool because of a change in the participant's health status or after discharge from a hospital or skilled nursing facility, the request is reviewed by DDA's Regional Office and additional standalone Nursing Support Services hours can be authorized.' The Brick CL-GH rate is built only on DSP wages (no nursing component), so the 2018 statement may still describe practice, but the 2026 text does not confirm routine standalone billing for every resident. Without W5804: gh4_ros +$4,165, gh4x2 +$6,479, gh3 -$506.",
+      "source_url": "https://health.maryland.gov/dda/Documents/CMS%20Submission%20-%20%20Community%20Living%20%E2%80%93%20Group%20Home%20Amendment%20%234%202026%20-%20Proposal%20-%20July%201%2C%202026%20(Black%20and%20White).docx.pdf",
+      "fix": "unverifiable whether standalone W5804 is routinely billable for every CL-GH resident. Cite S8 E, G.2.b and K alongside S29. Add 'routine standalone NSS billing per resident' to not_claimed. Either set the W5804 share_of_clients to a conservative value (e.g., 0.25 for residents with a qualifying HRST event) or keep it and show the result without NSS in the narrative (base home -$487/month). Reword checklist 57 to 'Ask DDA whether NSS hours will be authorized separately for each resident'."
+    },
+    {
+      "severity": "major",
+      "json_path": "financial_model.payroll_burden.payroll_tax_pct",
+      "current": 0.085,
+      "correct": 0.0895,
+      "evidence": "Maryland Department of Labor, FAMLI: 'This rate will apply to wages paid from January 1, 2027 through December 31, 2027.' 'MD Labor set the initial contribution rate at 0.9% of wages up to the Social Security wage cap.' 'The contribution amount is split equally between employers and employees (0.45% each).' 'Employers with fewer than 15 total employees ... are only responsible for remitting 50% of the contribution rate' (that is, the employee share only). A 24/7 home with about 8 DSP FTEs plus a director and RN typically has 15+ headcount, which the model already assumes by applying paid sick leave at 15+. Recomputed: gh4_ros +$4,518, gh4x2 +$7,174 (before the other fixes).",
+      "source_url": "https://paidleave.maryland.gov/employers/make-contributions/",
+      "fix": "Add 0.45% employer FAMLI (wages paid from Jan 1 2027) to payroll_tax_pct (0.085 -> 0.0895) and cite the MD Labor FAMLI page in payroll_burden.notes. Add 'Register for Maryland FAMLI contributions (Jan 1 2027)' to the checklist."
+    },
+    {
+      "severity": "minor",
+      "json_path": "financial_model.configurations[*].staffing[role='Direct support professionals...'].notes",
+      "current": "'Wage = BLS 21-1093 Social & Human Service Assistants 25th percentile — the occupation DDA's rate model uses.'",
+      "correct": "DDA's Brick builds CL-GH rates on 21-1093 at the 50th percentile (statewide base $16.50 inflated 18.38% to a funded $19.53/hr). The model's $19.57 (Baltimore 25th percentile, BLS May 2025, verified) is about equal to the Brick-funded wage.",
+      "evidence": "FY2024 Brick Components workbook, 'Rest of State - Brick Dev' tab, Community Living/Group Home rows: Source Selection '21-1093: Social and Human Service Assistants', Percentile 0.5, Base BLS 16.4969, Inflation 0.18383, BLS Wage 19.5295. Sections.reimbursement already correctly says 'at the median'.",
+      "source_url": "https://health.maryland.gov/dda/Documents/FY2024%20Brick%20Components.xlsx",
+      "fix": "Change the note to: 'Wage = BLS 21-1093 Baltimore MSA 25th percentile ($19.57, May 2025). DDA's Brick uses the same occupation at the median and funds $19.53/hr (FY2024 Brick).'"
+    },
+    {
+      "severity": "minor",
+      "json_path": "rates[code=W5604].rate",
+      "current": 0,
+      "correct": null,
+      "evidence": "The Oct 1 2026 chart lists W5604 as 'See Tab', but the CL Rates tab has no retainer column (only Standard, Differential, Trial Experience). Retainer days count the absent resident in 'Number of People Authorized' (2023 Residential Billing Update), so the home keeps its size rate.",
+      "source_url": "https://health.maryland.gov/dda/Documents/FY2027%20LTSS%20Rate%20Chart%20100126.xlsx",
+      "fix": "Do not publish $0. Set rate to null with the note 'no separate amount on the CL Rates tab; retainer days keep the absent resident counted toward the home-size rate (max 18 days/yr) — confirm the per-day amount with DDA'. Move the per-day amount to not_claimed (unverifiable)."
+    },
+    {
+      "severity": "minor",
+      "json_path": "key_numbers[metric='Maryland minimum wage'] / checklist[65] / sections.market_conditions",
+      "current": "$15.00/hr (Montgomery Co. $18.00 for 51+ employees; Howard Co. $16.00, July 1, 2026)",
+      "correct": "$15.00/hr state; Montgomery Co. $18.00 (51+ employees), $16.50 (11-50, and certain nonprofits and Medicaid-funded home care providers regardless of size), $15.95 (10 or fewer); Howard Co. $16.00 (July 1, 2026); Prince George's Co. $15.30 (July 1, 2026)",
+      "evidence": "Maryland Wage and Hour facts page lists the Montgomery tiers, including '**Certain non-profit organizations and Medicaid-funded home care providers are subject to the mid-sized rate even if they employ more than 51 employees', Howard '$16.00', and a third county rate 'As of July 1, 2026, all employers (regardless of size) must pay at least $15.30 per hour' in the Howard/Montgomery/Prince George's section.",
+      "source_url": "https://labor.maryland.gov/labor/wages/wagehrfacts.shtml",
+      "fix": "Add the Prince George's $15.30 rate and the Montgomery mid-size/nonprofit tier to key_numbers, checklist 65 and market_conditions. The model wages ($19.57 and $20.74) are above every local minimum, so the results do not change."
+    },
+    {
+      "severity": "minor",
+      "json_path": "checklist[72] / rates[code=W1999].notes / sections.reimbursement (dedicated-hours sharing: 'fewer than 30 hrs of day services')",
+      "current": "Sharing allowed for residents receiving fewer than 30 hours of day services",
+      "correct": null,
+      "evidence": "The amendment text (S8, B&W) reads 'receive receives less than 30 40 hours of meaningful day services', a tracked change between 30 and 40. DDA Budget FAQs (S6) describe current policy as 'fewer than 30 hours'. The black-and-white extraction does not show which number is struck.",
+      "source_url": "https://health.maryland.gov/dda/Documents/CMS%20Submission%20-%20%20Community%20Living%20%E2%80%93%20Group%20Home%20Amendment%20%234%202026%20-%20Proposal%20-%20July%201%2C%202026%20(Black%20and%20White).docx.pdf",
+      "fix": "Check the color version of the CL-GH amendment. If the proposal changes 30 to 40, state 'fewer than 30 hours today; 40 proposed in Amendment #4, pending CMS'. Otherwise leave as is."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sections.licensing_pathway Step 5 ('Medicaid's moratoria cover only certain behavioral health provider types [S53]')",
+      "current": "Cites a Dec 26, 2024 press release (pause 'extended to July 2025') as if current",
+      "correct": null,
+      "evidence": "S53 is dated December 26, 2024 and describes a pause extended to July 2025. The current enrollment constraint is the MPRIME application hold (July 1 for high/moderate-risk, Aug 1 for limited-risk provider types) described in PT 36-27 (S31).",
+      "source_url": "https://health.maryland.gov/mmcp/provider/Documents/transmittals/PT36-27_MPRIME_Launch_Day_One_Provider_Actions_and_Enrollment_Policy_Updates.pdf",
+      "fix": "Replace with: 'No DDA application window. Medicaid new-enrollment applications were on hold from July 1/Aug 1 2026 until MPRIME launched Oct 13, 2026 [S31].' Mark the current moratorium status as unverifiable or drop S53."
+    },
+    {
+      "severity": "minor",
+      "json_path": "sources[S36,S37,S38].url",
+      "current": "https://www.bls.gov/oes/current/oes_md.htm, oes_12580.htm, oes_47900.htm",
+      "correct": "Cite the OEWS series IDs (e.g., OEUM001258000000021109307 = $19.57; OEUM004790000000021109307 = $20.74; OEUS240000000000043303103 = $26.90)",
+      "evidence": "All wage values were confirmed through the BLS public API (year 2025). The cited 'current' URLs return 403 to scripts, and when fetched they render an OEWS download index without the occupation values.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "fix": "Keep the values. Add the series IDs to each source title, or link the dated May 2025 area tables, so the URL contains the claim."
+    },
+    {
+      "severity": "minor",
+      "json_path": "regulators[OHCQ].phone / checklist[42] / sections.licensing_pathway Step 6",
+      "current": "410-402-8100 / 877-402-8220 presented as the licensing contact",
+      "correct": "Same numbers, labeled as the OHCQ Developmental Disabilities complaint line (fax 410-402-8056)",
+      "evidence": "OHCQ DD page: 'Developmental Disabilities Complaint Phone (410) 402-8100 | (877) 402-8220 | TTY (800) 735-2258 Fax (410) 402-8056'.",
+      "source_url": "https://health.maryland.gov/ohcq/Pages/Developmental-Disabilities.aspx",
+      "fix": "Label the number as 'OHCQ DD main/complaint line' and tell readers to ask for the DD licensing team."
+    }
+  ]
+}

@@ -1,0 +1,2847 @@
+{
+  "bundle_slug": "texas-residential-care-dd-complete-bundle",
+  "state": "Texas",
+  "state_code": "TX",
+  "program": "Residential Care (DD)",
+  "state_program_name": "Home and Community-based Services (HCS) waiver — Supervised Living and Residential Support Services in three- and four-person residences",
+  "as_of": "2026-10",
+  "report_title": "Texas HCS Supervised Living & Residential Support (DD Group Homes) — Provider Market Research Report",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "HCS Waiver Program Payment Rates Effective September 1, 2025 (Supervised Living / Residential Support by LON, host home, nursing, ISS, respite; 1 day = 18 hours; $13.00 attendant wage, 15% PTB)",
+      "publisher": "HHSC Provider Finance Department",
+      "url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-hcs-rates.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S2",
+      "title": "Home and Community-based Services (HCS) — payment rate history and rate rules (latest posted rate sheet: Sept. 1, 2025)",
+      "publisher": "HHSC Provider Finance Department",
+      "url": "https://pfd.hhs.texas.gov/long-term-services-supports/home-and-community-based-services-hcs",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S3",
+      "title": "HCS Waiver Program Payment Rates Effective January 1, 2025 (prior SL/RSS base rates; rate enhancement add-ons listed separately)",
+      "publisher": "HHSC Provider Finance Department",
+      "url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/1-1-2025-hcs-rates.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S4",
+      "title": "Information Letter No. 2025-17 — Payment Rate Actions for Attendant Services, effective Sept. 1, 2025 (GAA Rider 23: $13.00 average attendant wage; 15% PTB residential)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/il2025-17.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S5",
+      "title": "Information Letter No. 2025-21 — IPC Revision Process to Update Attendant Rates in the HCS Program (ACRE discontinued; IPCs in TMHP LTC Online Portal)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/il2025-21.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S6",
+      "title": "HCS, TxHmL, LIDDA Attendant Rate and Cost Limit Revisions Webinar (July 22, 2025) — HCS cost limits set at 210% of ICF/IID annualized cost by LON",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/attendant-rate-cost-limit.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S7",
+      "title": "26 TAC §263.5 — Description of HCS Program Services (supervised living, residential support, host home/companion care, nursing)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-5",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S8",
+      "title": "26 TAC §565.3 — Definitions (three-person residence, four-person residence, program provider, LIDDA, LON)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-3",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S9",
+      "title": "26 TAC §263.106 — LON Assignment (ICAP service levels; LON 1, 5, 8, 6, 9 criteria)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-106",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S10",
+      "title": "26 TAC §565.7 — Staff Member and Service Provider Requirements (program manager 3 years' experience; training before service and every 12 months)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-7",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S11",
+      "title": "26 TAC §565.9 — Program Provider Requirements (criminal history, EMR/NAR annually, LEIE monthly, drivers)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-9",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S12",
+      "title": "26 TAC §565.13 — Nursing (RN nursing assessment, delegation, unlicensed medication administration)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-13",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S13",
+      "title": "26 TAC §565.23 — Residential Requirements (fire safety, drills, medication storage, four-person residence fire inspection)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-23",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S14",
+      "title": "26 TAC §565.27 — Finances and Rent (room and board must be collected and limited to actual cost; residential agreement)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-27",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S15",
+      "title": "26 TAC §565.41 — HHSC Surveys of a Program Provider (initial certification survey within 120 days of first enrollment; annual residential visits)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-41",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S16",
+      "title": "26 TAC §565.43 — HHSC Approval of Four Person Residences (decision within 14 days)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-43",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S17",
+      "title": "26 TAC §52.27 — Provisional Contract",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-27",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S18",
+      "title": "26 TAC §52.29 — Provisional Contract Application Process (one opportunity to correct; 30 days)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-29",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S19",
+      "title": "26 TAC §52.31 — Additional Provisional Contract Application Requirements (HCS: provider applicant training, 85% competency exam)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-31",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S20",
+      "title": "26 TAC §52.33 — License, Certification, Accreditation, and Other Requirements (no license listed for HCS)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-33",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S21",
+      "title": "26 TAC §52.39 — Provisional Contract Application Approval (contract placed on choice list; one extension of up to 1 year)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-39",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S22",
+      "title": "26 TAC §52.41 — Standard Contract",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-41",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S23",
+      "title": "How to Apply to Be a Medicaid Waiver Program Contractor (revised 06/2026): TMHP enrollment first, PAT ≥85%, CAMP portal, 30-day suspense letter, no HCSSA license for HCS",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/how-to-apply-medicaid-waiver-program-contractor.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S24",
+      "title": "Home and Community-based Services (HCS) — provider page (rules, contacts: HCS policy email, contracting 512-438-3234, IDD Waiver Contract Enrollment)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/providers/long-term-care-providers/home-community-based-services",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S25",
+      "title": "Starting Jan. 2023: New Application Process for the HCS and TxHmL Waivers Contractors (PAT on HHS Learning Portal; TMHP PEMS)",
+      "publisher": "HHSC GovDelivery bulletin",
+      "url": "https://content.govdelivery.com/accounts/TXHHSC/bulletins/33fcd26",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S26",
+      "title": "Texas Home Living (TxHmL) Program open enrollment — year-round, noncompetitive; application forms (2031, 3681, 3691-A, 5871, 5873)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/node/3083",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S27",
+      "title": "Form 3691-A Instructions — Service Area Designation (must serve all counties in each waiver contract area selected)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://fhb.hhs.texas.gov/forms/3000-3999/form-3691-a-service-area-designation-hcs-txhml-cds-tas",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S28",
+      "title": "26 TAC §263.601 — Program Provider Reimbursement (no payment while inpatient in hospital/NF/ICF; claims per §52.121)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-601",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S29",
+      "title": "26 TAC §263.502 — Requirements for Program Provider Owned or Controlled Residential Settings (HCBS settings: bedroom locks, roommate choice, visitors, food access)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-502",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S30",
+      "title": "26 TAC §263.103 — HCS Interest List (maintained by LIDDAs, first-come first-served)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-103",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S31",
+      "title": "Interest List Data with Times and Dispositions, FY 26–27 to date through Aug. 31, 2026 (HCS: 135,497 on list; 483 enrolled closures; time on list)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/interest-list-data-aug-2026.xlsx",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S32",
+      "title": "Interest List Reduction (how releases work; LIDDA contact for HCS)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/about/records-statistics/interest-list-reduction",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S33",
+      "title": "Advocates, lawmakers want to fix long waits Texans with disabilities face for Medicaid services (May 6, 2026)",
+      "publisher": "Texas Public Radio",
+      "url": "https://www.tpr.org/news/2026-05-06/advocates-lawmakers-want-to-fix-long-waits-texans-with-disabilities-face-for-medicaid-services",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S34",
+      "title": "HCS/TxHmL Interest List Slot Release Plan (Feb. 16, 2026): 284 HCS slots released Sept. 2025; 105 more (15/month) for the rest of FY2026",
+      "publisher": "Twogether Consulting",
+      "url": "https://twogetherconsulting.com/hcs-txhml-interest-list-slot-release-plan/",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S35",
+      "title": "1 TAC §354.4005 — Personal Care Services that Require the Use of EVV (HCS: CFC PAS/HAB, in-home respite, in-home ISS in own/family home)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-354-4005",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S36",
+      "title": "Programs, Services and Service Delivery Options Required to Use EVV (HHSC, Sept. 26, 2023; SL/RSS in 3- and 4-bed homes excluded from own-home EVV)",
+      "publisher": "HHSC document hosted by Community Health Choice",
+      "url": "https://provider.communityhealthchoice.org/wp-content/uploads/sites/2/2023/09/Programs_Services_and_Service_Delivery_Options_Required_to_Use_EVV.pdf",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S37",
+      "title": "Non-State Operated ICF/IID Payment Rates Effective September 1, 2025 (small/medium/large by LON)",
+      "publisher": "HHSC Provider Finance Department",
+      "url": "https://pfd.hhs.texas.gov/sites/default/files/documents/long-term-svcs/2025/9-1-2025-icf-rates.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S38",
+      "title": "26 TAC §261.206 — ICF/IID Application Process (applications only when beds are available; new facility capacity ≤6)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-261-206",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S39",
+      "title": "26 TAC §261.220 — ICF/IID Medicaid Bed Reallocation (≤6 reallocated beds per facility; Form 3642)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-261-220",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S40",
+      "title": "Home Health and Personal Care Aides (31-1120 combined; page 31-1122) — Texas wages (median $11.65; 75th pct $13.23; Dallas-Fort Worth median $12.93, 75th $14.51)",
+      "publisher": "O*NET OnLine / U.S. Bureau of Labor Statistics (OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/31-1122.00?st=TX",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S41",
+      "title": "Social and Community Service Managers (11-9151) — Texas wages (median $36.79/h, $76,520/yr; Dallas-Fort Worth median $80,480/yr)",
+      "publisher": "O*NET OnLine / U.S. Bureau of Labor Statistics (OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/11-9151.00?st=TX",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S42",
+      "title": "Registered Nurses (29-1141) — Texas wages (median $46.14/h; Dallas-Fort Worth median $48.76/h, $101,420/yr)",
+      "publisher": "O*NET OnLine / U.S. Bureau of Labor Statistics (OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/29-1141.00?st=TX",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S43",
+      "title": "Licensed Practical and Licensed Vocational Nurses (29-2061) — Texas wages (median $29.92/h)",
+      "publisher": "O*NET OnLine / U.S. Bureau of Labor Statistics (OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/29-2061.00?st=TX",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S44",
+      "title": "Medical Secretaries and Administrative Assistants (43-6013) — Texas wages (median $20.63/h, $42,910/yr; Dallas-Fort Worth median $45,630/yr)",
+      "publisher": "O*NET OnLine / U.S. Bureau of Labor Statistics (OEWS May 2025)",
+      "url": "https://www.onetonline.org/link/localwages/43-6013.00?st=TX",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S45",
+      "title": "29 U.S.C. §206 — Federal minimum wage ($7.25/hour)",
+      "publisher": "U.S. Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/uscode/text/29/206",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S46",
+      "title": "Texas Labor Code §62.051 — Texas minimum wage equals the federal minimum wage",
+      "publisher": "Texas statutes via Public.Law",
+      "url": "https://texas.public.law/statutes/tex._labor_code_section_62.051",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S47",
+      "title": "Texas Labor Code §406.002 — Workers' compensation coverage is elective",
+      "publisher": "Texas statutes via Public.Law",
+      "url": "https://texas.public.law/statutes/tex._labor_code_section_406.002",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S48",
+      "title": "Unemployment Tax Rates (2026 new-employer rate 2.70%; $9,000 taxable wage base)",
+      "publisher": "Texas Workforce Commission",
+      "url": "https://www.twc.texas.gov/programs/unemployment-tax/tax-rates",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S49",
+      "title": "Topic No. 751 — Social Security and Medicare Withholding Rates (employer 7.65%)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/taxtopics/tc751",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S50",
+      "title": "Form 205 Certificate of Formation — Limited Liability Company (filing fee $300)",
+      "publisher": "Texas Secretary of State",
+      "url": "https://www.sos.state.tx.us/corp/forms/205_boc.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S51",
+      "title": "Get an Employer Identification Number (EIN)",
+      "publisher": "Internal Revenue Service",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S52",
+      "title": "Franchise Tax — no tax due threshold $2,650,000 for 2026 and 2027 reports",
+      "publisher": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov/taxes/franchise/",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S53",
+      "title": "Zillow Observed Rent Index (ZORI), single-family residences, smoothed, by metro — Aug. 2026: Dallas $2,371; Houston $2,242; Austin $2,312; San Antonio $1,845",
+      "publisher": "Zillow Research",
+      "url": "https://files.zillowstatic.com/research/public_csvs/zori/Metro_zori_uc_sfr_sm_month.csv",
+      "type": "secondary",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S54",
+      "title": "SSI Federal Payment Amounts for 2026 ($994/month individual)",
+      "publisher": "Social Security Administration",
+      "url": "https://www.ssa.gov/oact/cola/SSI.html",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S55",
+      "title": "Provider Enrollment Application Fee Amount for CY 2026 ($750), 90 FR 55738 (Dec. 3, 2025)",
+      "publisher": "CMS / Federal Register",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-12-03/html/2025-21877.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S56",
+      "title": "Texas Human Resources Code Chapter 123 — Community Homes for Disabled Persons Location Act (≤6 residents + 2 supervisors; ½-mile spacing between community homes)",
+      "publisher": "Texas Legislature",
+      "url": "https://statutes.capitol.texas.gov/Docs/HR/htm/HR.123.htm",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S57",
+      "title": "LTCR HCS & TxHmL IDD/PI Quarterly Webinar, July 27, 2026 (LTCR Policy email/phone; rule chapters 263/565; billing requirements; ISS)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/hcs-txhml-quarterly-webinar-july-2026.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S58",
+      "title": "HCS and TxHmL Transformation — LTCR (four-person residence approval email; IDD Ombudsman contacts)",
+      "publisher": "Texas Health and Human Services Commission (HHSC)",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/doing-business-with-hhs/providers/long-term-care/hcs/hcs-txhml-transformation-webinar.pdf",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S59",
+      "title": "42 CFR §441.301(c) — HCBS settings requirements (1915(c) waivers)",
+      "publisher": "eCFR",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S60",
+      "title": "26 TAC §262.4 — Description of the TxHmL Program (serves individuals living in their own or family homes)",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-262-4",
+      "type": "official",
+      "accessed": "2026-10-13"
+    },
+    {
+      "id": "S61",
+      "title": "26 TAC §263.701 — Process for Individual to Transfer to a Different Program Provider or FMSA",
+      "publisher": "Texas Administrative Code via Cornell LII",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-701",
+      "type": "official",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "key_numbers": [
+    {
+      "metric": "HCS Supervised Living / Residential Support per diem (same for both), LON 1 → LON 9",
+      "value": "$164.46 / $176.62 (LON 5) / $194.31 (LON 8) / $223.81 (LON 6) / $341.83 (LON 9); 1 day = 18 hours",
+      "source_id": "S1",
+      "as_of": "2025-09-01"
+    },
+    {
+      "metric": "Wage and benefit load built into the attendant component",
+      "value": "$13.00 average hourly wage + 15% payroll taxes and benefits (residential)",
+      "source_id": "S4",
+      "as_of": "2025-09-01"
+    },
+    {
+      "metric": "Increase vs January 2025 base rates",
+      "value": "LON 1 +10.3% ($149.08 → $164.46); LON 9 +22.0% ($280.24 → $341.83); attendant rate enhancement (ACRE) ended 9/1/2025 [S5]",
+      "as_of": "2025-09-01",
+      "source_ids": [
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "metric": "HCS individual cost limits (210% of annualized non-state small ICF/IID rate)",
+      "value": "LON 1/5/8 $169,182; LON 6 $211,822; LON 9 $392,318 per year (was $167,468 / $168,615 / $305,877)",
+      "source_id": "S5",
+      "as_of": "2025-09-01"
+    },
+    {
+      "metric": "Home size",
+      "value": "Three-person residence (1–3) or four-person residence (1–4; with four residents, at least one receives RSS); provider leases or owns",
+      "source_id": "S8",
+      "as_of": "2026"
+    },
+    {
+      "metric": "License and contract prerequisites",
+      "value": "No facility license — HHSC contract + certification; no HCSSA license needed for HCS [S23]. Texas Medicaid (TMHP) enrollment first; PAT competency exam score ≥85%; 3-year-experience program manager [S19]",
+      "as_of": "2026",
+      "source_ids": [
+        "S19",
+        "S23"
+      ]
+    },
+    {
+      "metric": "Enrollment window / moratorium",
+      "value": "Continuous online application (CAMP portal); no HCS contract moratorium found; one 30-day correction opportunity",
+      "source_id": "S23",
+      "as_of": "2026-06"
+    },
+    {
+      "metric": "Initial certification survey",
+      "value": "Unannounced, within 120 days after HHSC approves your first individual's enrollment; certification ≤365 days",
+      "source_id": "S15",
+      "as_of": "2026"
+    },
+    {
+      "metric": "Four-person residence approval",
+      "value": "Fire marshal inspection (annual) + HHSC written approval within 14 days",
+      "source_id": "S16",
+      "as_of": "2026"
+    },
+    {
+      "metric": "People on HCS interest list",
+      "value": "135,497 (Aug. 31, 2026); 483 enrolled from the list Sept. 2025–Aug. 2026",
+      "source_id": "S31",
+      "as_of": "2026-08-31"
+    },
+    {
+      "metric": "Texas home health & personal care aide wage (BLS May 2025)",
+      "value": "Median $11.65; 75th percentile $13.23; DFW 75th percentile $14.51",
+      "source_id": "S40",
+      "as_of": "2025-05"
+    },
+    {
+      "metric": "SSI federal benefit (typical room-and-board source)",
+      "value": "$994/month (2026)",
+      "source_id": "S54",
+      "as_of": "2026"
+    }
+  ],
+  "not_claimed": [
+    "Statewide count of HCS program providers or SL/RSS homes, market shares or named competitors — no current official count was found. The prior report's \"over 300 providers\", \"~10,114 clients in group homes\" and \"43% closed homes\" figures are unsourced and removed.",
+    "A published HHSC processing time for HCS provisional contract applications or TMHP enrollment — none found.",
+    "A minimum general/professional liability insurance limit for HCS providers — none found in 26 TAC Ch. 263, 565 or 52. Premiums in the model are operator estimates.",
+    "Whether the federal Medicaid application fee ($750 in CY 2026) applies to HCS program provider enrollment — confirm with TMHP; the startup range shows $0–$750.",
+    "The number of HCS slots funded for the 2026–27 biennium — only a secondary source (284 released Sept. 2025 plus 105 planned for FY2026) was found [S34].",
+    "Any date or design for moving HCS into managed care — not verified; HCS is fee-for-service under current rules.",
+    "The 93% default occupancy (88% conservative, 97% optimistic) and the fill rates in the ramp — operator assumptions, not sourced statistics.",
+    "The $850/month room-and-board collection, the ~20% four-bedroom rent premium over the Zillow single-family index, and every opex line marked 'operator estimate' (utilities, maintenance, vehicles, insurance, software, training, accounting, marketing, food, fire-inspection fees) — verify locally and get quotes.",
+    "Billable RN hours per resident (2 h/month) and non-billable RN time (0.5 h) — operator estimates; nursing is billable only when on the IPC.",
+    "Workers' comp (2.5%) and benefits (6%) burden percentages — operator estimates; workers' comp is elective in Texas [S47].",
+    "Whether a specific HCS home qualifies as a 'community home' under Human Resources Code Ch. 123 (and so is subject to its half-mile spacing rule) — depends on the entity and local application; confirm with the city.",
+    "The prior report's claims that minors cannot be placed in HCS four-person homes without a court order and that a failed PAT triggers a six-month wait — not verified in rule or HHSC guidance; removed.",
+    "Break-even census or break-even month — the P&L generator calculates these from the inputs."
+  ],
+  "regulators": [
+    {
+      "name": "HHSC Contract Administration and Provider Monitoring (CAPM) — IDD Waiver Contract Enrollment",
+      "role": "Accepts and reviews HCS/TxHmL provisional contract applications (CAMP portal), issues contracts, PAT exam requests",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/how-to-apply-medicaid-waiver-program-contractor.pdf",
+      "phone": "512-438-3234",
+      "email": "IDDWaiverContractEnrollment@hhs.texas.gov",
+      "source_id": "S24",
+      "source_ids": [
+        "S24",
+        "S23"
+      ]
+    },
+    {
+      "name": "HHSC Medicaid & CHIP Services — HCS program policy",
+      "role": "HCS program rules (26 TAC Ch. 263), billing requirements, waiver amendments, handbook",
+      "url": "https://www.hhs.texas.gov/providers/long-term-care-providers/home-community-based-services",
+      "phone": "",
+      "email": "HCSPolicy@hhs.texas.gov",
+      "source_id": "S24"
+    },
+    {
+      "name": "HHSC Long-term Care Regulation (LTCR) — HCS/TxHmL Policy and Rules and Survey Operations",
+      "role": "Certification standards (26 TAC Ch. 565), initial/recertification surveys, residential visits, four-person residence approvals",
+      "url": "https://www.hhs.texas.gov/sites/default/files/documents/hcs-txhml-quarterly-webinar-july-2026.pdf",
+      "phone": "512-438-3161",
+      "email": "LTCRPolicy@hhs.texas.gov; HCSFourPersonResidenceRequests@hhs.texas.gov",
+      "source_id": "S57"
+    },
+    {
+      "name": "HHSC Provider Finance Department",
+      "role": "Sets HCS and ICF/IID payment rates; cost reporting (STEPS)",
+      "url": "https://pfd.hhs.texas.gov/long-term-services-supports/home-and-community-based-services-hcs",
+      "phone": "",
+      "email": "",
+      "source_id": "S2"
+    },
+    {
+      "name": "Texas Medicaid & Healthcare Partnership (TMHP)",
+      "role": "Medicaid provider enrollment (PEMS); IPCs and claims through the LTC Online Portal",
+      "url": "https://www.tmhp.com/programs/1915c-waiver-programs",
+      "phone": "",
+      "email": "",
+      "source_id": "S23"
+    },
+    {
+      "name": "Local Intellectual and Developmental Disability Authorities (LIDDAs)",
+      "role": "HCS interest list, eligibility/enrollment, service coordination, provider choice list",
+      "url": "https://www.hhs.texas.gov/about/records-statistics/interest-list-reduction",
+      "phone": "",
+      "email": "",
+      "source_id": "S30"
+    },
+    {
+      "name": "Local fire marshal / Texas State Fire Marshal's Office",
+      "role": "Inspection before RSS in a four-person residence and annually",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-23",
+      "phone": "",
+      "email": "",
+      "source_id": "S13"
+    },
+    {
+      "name": "Centers for Medicare & Medicaid Services (CMS)",
+      "role": "Approves the HCS 1915(c) waiver and amendments; HCBS settings rule",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "phone": "",
+      "email": "",
+      "source_id": "S59"
+    }
+  ],
+  "regulations": [
+    {
+      "cite": "26 TAC Chapter 263",
+      "title": "HCS Program and Community First Choice — program rules (services, eligibility, LON, IPC, settings, reimbursement)",
+      "url": "https://law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-5",
+      "source_id": "S7"
+    },
+    {
+      "cite": "26 TAC §263.106",
+      "title": "LON assignment",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-106",
+      "source_id": "S9"
+    },
+    {
+      "cite": "26 TAC §263.502",
+      "title": "Provider owned or controlled residential settings",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-502",
+      "source_id": "S29"
+    },
+    {
+      "cite": "26 TAC §263.601",
+      "title": "Program provider reimbursement",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-263-601",
+      "source_id": "S28"
+    },
+    {
+      "cite": "26 TAC Chapter 565",
+      "title": "HCS Program and CFC certification standards",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-3",
+      "source_id": "S8"
+    },
+    {
+      "cite": "26 TAC §565.7 / §565.9",
+      "title": "Staff and program provider requirements",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-7",
+      "source_id": "S10"
+    },
+    {
+      "cite": "26 TAC §565.13",
+      "title": "Nursing",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-13",
+      "source_id": "S12"
+    },
+    {
+      "cite": "26 TAC §565.23",
+      "title": "Residential requirements",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-23",
+      "source_id": "S13"
+    },
+    {
+      "cite": "26 TAC §565.27",
+      "title": "Finances and rent (room and board)",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-27",
+      "source_id": "S14"
+    },
+    {
+      "cite": "26 TAC §565.41 / §565.43",
+      "title": "HHSC surveys; four-person residence approval",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-565-41",
+      "source_id": "S15"
+    },
+    {
+      "cite": "26 TAC Chapter 52, Subchapter B (§§52.27–52.41)",
+      "title": "Contracting for Community Services — provisional and standard contracts",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-52-29",
+      "source_id": "S18"
+    },
+    {
+      "cite": "1 TAC §354.4005",
+      "title": "Services that require EVV",
+      "url": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-354-4005",
+      "source_id": "S35"
+    },
+    {
+      "cite": "26 TAC §§261.206, 261.220",
+      "title": "ICF/IID enrollment and Medicaid bed reallocation (alternative model)",
+      "url": "https://www.law.cornell.edu/regulations/texas/26-Tex-Admin-Code-SS-261-220",
+      "source_id": "S39"
+    },
+    {
+      "cite": "42 CFR §441.301(c)",
+      "title": "HCBS settings requirements",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-441/subpart-G/section-441.301",
+      "source_id": "S59"
+    },
+    {
+      "cite": "Tex. Hum. Res. Code Ch. 123",
+      "title": "Community Homes for Disabled Persons Location Act",
+      "url": "https://statutes.capitol.texas.gov/Docs/HR/htm/HR.123.htm",
+      "source_id": "S56"
+    }
+  ],
+  "rates": [
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0166 (svc 47)",
+      "service": "Supervised Living, LON 1 (Intermittent)",
+      "rate": 164.46,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Same rate as RSS. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0167 (svc 47)",
+      "service": "Supervised Living, LON 5 (Limited)",
+      "rate": 176.62,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Same rate as RSS. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0169 (svc 47)",
+      "service": "Supervised Living, LON 8 (Extensive)",
+      "rate": 194.31,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Same rate as RSS. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0168 (svc 47)",
+      "service": "Supervised Living, LON 6 (Pervasive)",
+      "rate": 223.81,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Same rate as RSS. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0170 (svc 47)",
+      "service": "Supervised Living, LON 9 (Pervasive+)",
+      "rate": 341.83,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Same rate as RSS. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0149 (svc 46)",
+      "service": "Residential Support Services, LON 1 (Intermittent)",
+      "rate": 164.46,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Staff present and awake whenever an individual is present. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0150 (svc 46)",
+      "service": "Residential Support Services, LON 5 (Limited)",
+      "rate": 176.62,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Staff present and awake whenever an individual is present. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0152 (svc 46)",
+      "service": "Residential Support Services, LON 8 (Extensive)",
+      "rate": 194.31,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Staff present and awake whenever an individual is present. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0151 (svc 46)",
+      "service": "Residential Support Services, LON 6 (Pervasive)",
+      "rate": 223.81,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Staff present and awake whenever an individual is present. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0153 (svc 46)",
+      "service": "Residential Support Services, LON 9 (Pervasive+)",
+      "rate": 341.83,
+      "unit": "per day (18 hours)",
+      "effective": "2025-09-01",
+      "notes": "Staff present and awake whenever an individual is present. Excludes room and board.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0122 (svc 18A)",
+      "service": "Host Home/Companion Care, LON 1",
+      "rate": 72.56,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Caregiver's or individual's home, not provider-owned.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0123 (svc 18A)",
+      "service": "Host Home/Companion Care, LON 5",
+      "rate": 76.14,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Caregiver's or individual's home, not provider-owned.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0125 (svc 18A)",
+      "service": "Host Home/Companion Care, LON 8",
+      "rate": 94.07,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Caregiver's or individual's home, not provider-owned.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0124 (svc 18A)",
+      "service": "Host Home/Companion Care, LON 6",
+      "rate": 119.18,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Caregiver's or individual's home, not provider-owned.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0126 (svc 18A)",
+      "service": "Host Home/Companion Care, LON 9",
+      "rate": 147.84,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Caregiver's or individual's home, not provider-owned.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "G2292 (svc 13B)",
+      "service": "Nursing — RN (other residential types)",
+      "rate": 43.39,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "Specialized RN (trach/vent) $49.90.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "G2290 (svc 13A)",
+      "service": "Nursing — LVN (other residential types)",
+      "rate": 29.69,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "Specialized LVN $34.14.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0133 (svc 43A)",
+      "service": "Behavioral Support",
+      "rate": 79.53,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0978 (svc 23)",
+      "service": "Individualized Skills and Socialization, off-site, LON 1",
+      "rate": 10.73,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "Off-site LON 8/6 $16.80; LON 9 $26.41.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0855 (svc 11X)",
+      "service": "Out-of-home respite where SL or RSS is provided",
+      "rate": 23.42,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0354 (svc 10CFC)",
+      "service": "CFC PAS/HAB",
+      "rate": 19.85,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "EVV service; not used in SL/RSS homes.",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — HCS waiver",
+      "code": "M0154 (svc 37)",
+      "service": "Supported Employment",
+      "rate": 34.59,
+      "unit": "per hour",
+      "effective": "2025-09-01",
+      "notes": "",
+      "source_id": "S1"
+    },
+    {
+      "payer": "Texas Medicaid — ICF/IID (alternative model)",
+      "code": "F0205",
+      "service": "Non-state ICF/IID, small facility, LON 1",
+      "rate": 173.61,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Separate certification; new beds only via HHSC allocation/reallocation (≤6 per facility).",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Texas Medicaid — ICF/IID (alternative model)",
+      "code": "F0206",
+      "service": "Non-state ICF/IID, small facility, LON 5",
+      "rate": 191.88,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Separate certification; new beds only via HHSC allocation/reallocation (≤6 per facility).",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Texas Medicaid — ICF/IID (alternative model)",
+      "code": "F0208",
+      "service": "Non-state ICF/IID, small facility, LON 8",
+      "rate": 220.72,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Separate certification; new beds only via HHSC allocation/reallocation (≤6 per facility).",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Texas Medicaid — ICF/IID (alternative model)",
+      "code": "F0207",
+      "service": "Non-state ICF/IID, small facility, LON 6",
+      "rate": 276.35,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Separate certification; new beds only via HHSC allocation/reallocation (≤6 per facility).",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Texas Medicaid — ICF/IID (alternative model)",
+      "code": "F0209",
+      "service": "Non-state ICF/IID, small facility, LON 9",
+      "rate": 511.83,
+      "unit": "per day",
+      "effective": "2025-09-01",
+      "notes": "Separate certification; new beds only via HHSC allocation/reallocation (≤6 per facility).",
+      "source_id": "S37"
+    },
+    {
+      "payer": "Resident (room and board)",
+      "code": "",
+      "service": "SSI federal benefit rate (individual), the usual source of room-and-board payments",
+      "rate": 994,
+      "unit": "per month",
+      "effective": "2026-01-01",
+      "notes": "Room and board is capped at actual cost (26 TAC §565.27).",
+      "source_id": "S54"
+    }
+  ],
+  "sections": {
+    "executive_summary": "Texas does not license \"DD group homes.\" The small residential model for people with intellectual and developmental disabilities is **supervised living (SL)** and **residential support services (RSS)** under the **Home and Community-based Services (HCS) 1915(c) waiver**, delivered by an HHSC-contracted *program provider* in a home the provider leases or owns with **no more than three or four residents** [S7][S8]. There is no facility license: HHSC states you do not need an HCSSA license to get an HCS contract [S23], and 26 TAC §52.33 lists no license for HCS [S20]. Instead you need (1) Texas Medicaid enrollment through TMHP, (2) a passing score of at least 85% on HHSC's Provider Applicant Training (PAT) exam, (3) an HHSC provisional HCS contract, and (4) an initial certification survey that HHSC conducts within 120 days after your first individual enrolls [S23][S19][S15].\n\n**Money flows fee-for-service from HHSC through TMHP** at a statewide daily rate set by each person's level of need (LON). Since September 1, 2025, SL and RSS pay the same per diem: **$164.46 (LON 1), $176.62 (LON 5), $194.31 (LON 8), $223.81 (LON 6) and $341.83 (LON 9)**, where one billable day is 18 hours [S1]. These rates fold in the legislature's Rider 23 increase (built on a $13.00 average attendant wage plus 15% payroll taxes and benefits) and replaced the old attendant rate enhancement program [S1][S4][S5]. Room and board is not in the rate; the provider must collect it from the resident, capped at actual cost [S14].\n\n**Demand is enormous but slot-limited.** HHSC counted **135,497 people on the HCS interest list on August 31, 2026**, with some waiting 17–19 years, and only 483 people were enrolled from the list in the first year of the 2026–27 biennium [S31]. A new provider does not get a referral pipeline from HHSC: individuals and families choose a provider from the LIDDA's choice list, so new homes fill from new enrollments, crisis/diversion slots and transfers from other providers [S21][S30].\n\n**The economics are thin.** Using the 9/1/2025 rates, staffing set at the hours HHSC's attendant cost component funds, Texas BLS wages and full overhead, a single 3- or 4-person home loses money once a paid program manager is included. Four RSS homes with residents at LON 5/8/6 earn about **$3,000 a month (2.8%)** at 93% occupancy and six homes about **$7,100 (4.5%)**. The business works at scale, with higher-need residents, tight occupancy and an owner who fills the program manager role. No HCS contract moratorium was found; HHSC's June 2026 instructions describe a continuous online application [S23].",
+    "service_model": "**Who is served.** HCS serves people with an intellectual disability or related condition who meet the ICF/IID level of care and come off the HCS interest list or through a reserved slot. HHSC assigns each person an **LON** from the ICAP service-level score: LON 1 intermittent (ICAP 7–9), LON 5 limited (4–6), LON 8 extensive (2–3), LON 6 pervasive (1). LON 9 (pervasive plus) requires documented, life-threatening behavior needing a dedicated staff member at least 16 waking hours a day [S9]. LON 1, 5 or 8 can be raised one level for dangerous behavior or high medical need with documentation [S9].\n\n**The residential options (26 TAC §263.5)** [S7]:\n\n- **Supervised living** — in a three- or four-person residence, staff are *present and able to respond* during normal sleeping hours (overnight staff may sleep).\n- **Residential support** — in a three- or four-person residence, staff are *present and awake* whenever an individual is present.\n- **Host home/companion care** — the caregiver lives with the individual in a home the caregiver or individual owns or leases (not the program provider). It pays far less ($72.56–$147.84/day by LON) [S1].\n\n**Home size rules (26 TAC §565.3).** A *three-person residence* is leased or owned by the program provider and serves one to three people receiving SL, RSS, similar non-HCS services or respite. A *four-person residence* serves up to four, and **if four people live there, at least one must receive residential support** [S8]. Only service providers and their spouses may live there besides the residents [S8]. Before providing RSS in a four-person residence you need a fire marshal inspection and written HHSC approval [S13][S16].\n\n**Settings rule.** Provider-controlled homes must meet the federal HCBS settings rule [S59] as written into 26 TAC §263.502: privacy, a lockable bedroom door, the option not to share a bedroom and choice of roommate, freedom to decorate, control of one's schedule, access to food at any time, visitors at any time, and physical accessibility. Any restriction must go through the service coordinator and the person-directed plan [S29].\n\n**Regulatory structure.** HHSC Medicaid & CHIP Services writes the program rules (26 TAC Ch. 263) and billing requirements; HHSC Long-term Care Regulation (LTCR) enforces the certification standards (26 TAC Ch. 565) through surveys [S57]; HHSC Contract Administration and Provider Monitoring handles contracts under 26 TAC Ch. 52 [S23]; HHSC Provider Finance sets rates [S2]; and **LIDDAs** (local IDD authorities) keep the interest list, do service coordination and present provider choice [S30][S8].\n\n**Alternatives.** *Texas Home Living (TxHmL)* serves people living in their own or family homes, so it is not a group-home pathway [S60]. An HCS standard contractor can add a TxHmL contract without retaking the PAT [S19]. *ICF/IID* is a separately certified facility model with higher small-facility rates ($173.61 LON 1 to $511.83 LON 9 per day) [S37], but new ICF/IID capacity is available only when HHSC has beds to allocate or reallocate, at no more than six beds per facility [S38][S39].",
+    "licensing_pathway": "There is no facility license for HCS. The pathway is an HHSC **contract**, then **certification** by survey.\n\n**Step 1 — Entity and IDs.** Form a Texas entity (LLC: Form 205, $300) [S50], get an EIN [S51] and an organizational NPI, and register with the Comptroller [S52].\n\n**Step 2 — Program manager.** You must employ or contract with a person who oversees HCS services and has at least three years of paid experience planning and providing HCS-type services to people with IDD (verified by employer statements), equivalent agency-verified experience, or three years on a microboard [S10]. HHSC's application requires the program manager's resume and reference letters [S26].\n\n**Step 3 — Texas Medicaid enrollment first.** Enroll through TMHP's Provider Enrollment and Management System (PEMS). HHSC denies a contract application from anyone not already enrolled [S23][S25].\n\n**Step 4 — Provider Applicant Training (PAT).** Complete the PAT on the HHS Learning Portal and score at least 85% on the competency exam; an application without the passing certificate is not accepted [S23][S19][S25]. You request the exam from HHSC CAPM Operations [S23]. An entity that already holds a standard HCS contract in another service area is exempt [S19].\n\n**Step 5 — Apply for a provisional contract.** Every new contractor, and every existing contractor entering a new service area, starts with a provisional contract [S17]. Apply online through HHSC's CAMP portal, or use the Form 5873 checklist and submit by email, fax or mail to HHSC Contract Administration and Provider Monitoring [S23]. The packet includes the Community Services Contract Application (Form 3681), Governing Authority Resolution (Form 2031), Service Area Designation (Form 3691-A), Disclosure of Ownership (Forms 5871/5871-S), entity documents, NPI and EIN proof, the program manager's resume and references, and DPS criminal history request receipts for each controlling person [S26][S18]. On Form 3691-A you choose waiver contract areas, and **you must serve every county in each area you select** [S27]. If HHSC finds errors, you get a suspense letter and **one** chance to correct within **30 days** [S23][S18].\n\n**Step 6 — Contract award and choice list.** If approved, HHSC signs a provisional contract and **places you on the choice list** for that service area [S21]. A provisional contract can be extended once for up to a year, and HHSC may later offer a standard contract [S21][S22]. HHSC publishes no processing-time standard for HCS contract applications.\n\n**Step 7 — Residences.** Lease or buy homes that meet 26 TAC §565.23: two means of escape from the home and from each bedroom (one if sprinklered), smoke alarms in and outside every bedroom, extinguishers on each level, hot water at or below 120°F unless every resident passes a skills assessment, and secure medication storage [S13]. For a **four-person RSS home**, get a local (or State) fire marshal inspection, then submit HHSC's four-person approval request; HHSC answers within **14 calendar days** [S13][S16]. The inspection must be renewed **annually** [S13]. Approval requests go to HCSFourPersonResidenceRequests@hhs.texas.gov [S58].\n\n**Step 8 — First enrollment and initial certification survey.** When an individual chooses you, the LIDDA, individual and provider complete the person-directed plan and individual plan of care (IPC); billing requires an authorized IPC, a current ID/RC assessment and an LOC determination [S28]. HHSC LTCR conducts an **unannounced initial certification survey within 120 calendar days** after HHSC approves the first individual's enrollment or transfer to you. Certification then lasts no more than 365 days, and every SL/RSS home gets at least one unannounced residential visit a year [S15].",
+    "reimbursement": "**Payer and flow.** HCS is a 1915(c) waiver paid fee-for-service. HHSC pays SL and RSS by the individual's LON at the published rate [S28]. Providers submit IPCs and claims through TMHP's LTC Online Portal [S5]. Rates are statewide, with no regional adjustment in the rate sheet [S1].\n\n**SL and RSS per diem, effective September 1, 2025** (service codes 47 = SL, 46 = RSS; 1 day = 18 hours) [S1]:\n\n| LON | SL bill code | RSS bill code | Rate/day |\n|---|---|---|---|\n| 1 Intermittent | M0166 | M0149 | $164.46 |\n| 5 Limited | M0167 | M0150 | $176.62 |\n| 8 Extensive | M0169 | M0152 | $194.31 |\n| 6 Pervasive | M0168 | M0151 | $223.81 |\n| 9 Pervasive+ | M0170 | M0153 | $341.83 |\n\nEach rate breaks into an attendant component (e.g., $118.40 at LON 8), other direct care ($10.40) and indirect care ($65.51) [S1]. HHSC built the attendant piece on a **$13.00 average hourly wage plus 15% payroll taxes and benefits** for residential settings [S1][S4]. Before September 2025, base rates were lower (LON 1 $149.08, LON 8 $171.04) and an optional attendant compensation rate enhancement (ACRE) was paid on top [S3]. Rider 23 ended ACRE and raised the base rates [S4][S5].\n\n**Other HCS services a residential provider often bills** [S1]: RN nursing $43.39/hour and LVN $29.69/hour; behavioral support $79.53/hour; individualized skills and socialization (the former day habilitation) off-site $10.73–$26.41/hour by LON; out-of-home respite where SL/RSS is provided $23.42/hour; CFC PAS/HAB $19.85/hour (in-home settings). Note that the nursing rate is **below** the Texas median RN wage of $46.14/hour [S42], so nursing is a compliance cost more than a profit center.\n\n**Room and board.** The per diem excludes room and board. The provider **must** collect a monthly room and board charge from each resident, limited to rent (or the ownership costs the rule allows), shared furniture, appliances, utilities, maintenance, internet and food, divided equitably. It cannot exceed that cost, cannot rise when a housemate moves out, and needs a written residential agreement [S14]. Most residents live on SSI ($994/month in 2026) [S54], which in practice caps what can be collected.\n\n**Payment limits.** No payment is made for days an individual is a hospital, nursing facility or ICF/IID inpatient, or for periods without an authorized IPC, current ID/RC assessment and LOC [S28]. Each person's total HCS plan is subject to a cost limit set at 210% of the annualized ICF/IID cost of care for the matching LON [S6]. Effective September 1, 2025 the limits are **$169,182** for LON 1, 5 and 8 (was $167,468), **$211,822** for LON 6 (was $168,615) and **$392,318** for LON 9 (was $305,877) [S5]. A full year of SL/RSS alone ($60,028 at LON 1 to $124,768 at LON 9) is below these limits, but large add-on service plans can hit them.\n\n**EVV.** Supervised living and residential support are **not** EVV services. In HCS, EVV covers CFC PAS/HAB, in-home respite and in-home ISS for people in their own or family home [S35], and nursing/therapies delivered in the own or family home [S36].",
+    "demand": "**The interest list.** HHSC's August 2026 interest-list report counted **135,497 people on the HCS interest list on August 31, 2026**, up from 128,110 at the end of the prior biennium (9,225 added, 1,835 removed) [S31]. About 6% have waited less than a year, and some have waited 17–19 years [S31]. Across all six HHSC waiver interest lists, the unduplicated count was 199,471 people [S31]. People are added through their LIDDA and released first-come, first-served as funding allows [S30][S32].\n\n**Actual enrollments are small.** Between September 1, 2025 and August 31, 2026, 483 HCS interest-list releases closed as \"enrolled\" (61% of 793 HCS closures) [S31]. A secondary source reports that HHSC released 284 HCS slots in September 2025 and planned 105 more (15 a month) for the rest of FY2026 [S34]. Crisis, Promoting Independence (institutional diversion/transition) and Money Follows the Person slots are released separately and are not counted in the interest-list report [S31][S34]. Lawmakers held hearings in 2026 on restructuring the waiver interest lists; no enacted change was found [S33].\n\n**How individuals reach your home.** Once a person is released and found eligible, the LIDDA service coordinator presents the choice list of contracted providers in the area; your provisional contract puts you on that list [S21]. Not every enrollee wants a group home: HCS also funds people in their own or family homes and host homes [S7][S24]. The realistic sources for a new provider's residents are:\n\n- **New enrollments** choosing residential services (small in number; see above).\n- **Transfers** from other HCS providers. Individuals may move to a different program provider through HHSC's transfer process (26 TAC §263.701) [S61].\n- **Institutional transitions** (state supported living centers, nursing facilities) through Promoting Independence slots [S31].\n\n**Where to look.** Demand follows population and the LIDDA areas. Contact the LIDDA for each county in your service area; Form 3691-A requires you to serve every county in the waiver contract areas you choose [S27]. Count local competition from the LIDDA's choice list. HHSC publishes no statewide count of HCS homes or providers that was found for this report.",
+    "operations": "**Staffing rules.** Texas sets **no numeric staff-to-resident ratio** for SL or RSS. The standards are functional: RSS staff must be present and awake whenever an individual is present; SL staff must be present and able to respond during sleeping hours [S7]; and the program provider must ensure continuous availability of trained, qualified service providers to meet each person's needs [S11]. A LON 9 resident needs a staff member dedicated to that person for at least 16 waking hours a day [S9]. HHSC's rates fund staffing through the attendant component. At LON 8 that is $118.40 per resident-day, or about 32 staff hours a day for a four-person home at HHSC's $14.95 loaded hourly cost [S1].\n\n**Required roles.**\n\n- **Program manager** with three years' verified IDD service experience [S10].\n- **Registered nurse.** An RN must do a nursing assessment before unlicensed staff perform nursing tasks, develop the nursing part of the implementation plan, and delegate and supervise tasks. Unlicensed staff may give oral, topical and inhaled medications for stable conditions after RN assessment and training, with at least an annual RN/LVN review [S12]. Staff who give medications must be trained and delegated by an RN [S13].\n- **Direct support staff.** They must meet the HCS billing-requirement qualifications, be trained on each individual's needs before working with them and at least every 12 months, and show observed competency [S10].\n\n**Screening.** Before hire: a DPS criminal history check (no one with a Health and Safety Code §250.006 barring conviction or a sex-offender registration), the Employee Misconduct Registry and Nurse Aide Registry (then every 12 months), and the federal and Texas OIG exclusion lists (then **monthly**) [S11]. Only staff with a valid driver's license and insurance may transport individuals [S11].\n\n**Home operations.** Fire drills at least every 90 days and four a year, two during sleeping hours; every staff member drills within 90 days of hire and yearly; individualized emergency plans kept in the home; infection control and medication-storage policies [S13]. Four-person homes need an annual fire inspection [S13].\n\n**Money and rights.** Room and board must follow the 26 TAC §565.27 cost formula, with written agreement to every charge. If the resident asks, the provider manages personal funds at no charge, in a separate account with detailed records [S14]. Settings-rule protections apply in every home [S29].\n\n**Systems.** Claims and IPCs go through TMHP's LTC Online Portal [S5]. HHSC requires contractors to subscribe to GovDelivery for information letters and provider alerts (26 TAC §52.103(g)) [S24]. HHSC does not mandate a specific records system, and SL/RSS are outside EVV [S35]. Providers register and file cost reports through HHSC's State of Texas Electronic Provider System (STEPS) [S24].",
+    "market_conditions": "**Rates.** The September 1, 2025 increase raised SL/RSS base rates by about 10–22% over the January 2025 base (LON 1 $149.08 → $164.46; LON 6 $192.80 → $223.81), but it replaced the separate attendant rate enhancement add-on, so the net gain differs by provider [S1][S3][S5]. The rate is statewide; urban providers pay metro rents and wages from the same rate [S1].\n\n**Wages.** HHSC's rate assumes $13.00/hour for attendants [S1]. BLS May 2025 data for Texas home health and personal care aides show a **median of $11.65 and a 75th percentile of $13.23**. In Dallas-Fort Worth the median is $12.93 and the 75th percentile $14.51; Austin's median is $13.64 [S40]. Texas's minimum wage is the federal $7.25 [S45][S46], so the floor is not the constraint; competition for workers is. Texas RN median $46.14/hour, LVN $29.92 [S42][S43]; social and community service managers $76,520/year [S41].\n\n**Housing.** Zillow's single-family rent index for August 2026 was $2,371/month in Dallas, $2,312 in Austin, $2,242 in Houston and $1,845 in San Antonio [S53]. Those are typical rents for all single-family sizes; a four-bedroom house usually costs more. Rent recovery is limited by the room-and-board cap and residents' SSI [S14][S54].\n\n**Supply.** HHSC does not publish a statewide count of HCS program providers or SL/RSS homes that this research could find, so no market-share or competitor figures are given. The LIDDA's choice list for each service area is the practical source.\n\n**Policy direction.** HHSC is reviewing the IDD services continuum and how interest lists are managed, according to 2026 legislative testimony [S33]. HCS remains fee-for-service as of the current rules [S28]. Watch HHSC information letters (GovDelivery) for rate actions each September [S24].",
+    "financial_narrative": "**How the model works.** Revenue per resident = the 9/1/2025 SL/RSS per diem for each LON in the mix × 30.42 days [S1], plus a room-and-board collection of **$850/month** and **2 billable RN hours** ($43.39/hour) [S1][S14]. The $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI $994) [S54]; it is below each home's actual room-and-board cost, so it complies with 26 TAC §565.27 [S14]. **Direct support hours are set equal to the staff hours HHSC's attendant cost component funds** for that LON mix (attendant $/day × residents ÷ $14.95 loaded hourly cost × 30.42) [S1]: 637 h/month for a 3-person SL home (LON 1/5/8), 1,070 h for a 4-person RSS home at LON 8/6, 1,023 h for RSS at LON 5/8/6, and 792 h at LON 1/5. Direct support staff are paid HHSC's $13.00 assumption, close to the Texas 75th percentile for aides ($13.23) [S40]. Every configuration carries a paid program manager (Texas median $76,520 × FTE) [S41][S10], a billing/office coordinator [S44], and an RN at 2.5 hours per resident per month [S42][S12]. Payroll burden is 17%: employer FICA 7.65% [S49] plus Texas SUTA (2.70% new-employer rate on $9,000) and FUTA ≈ 8.7% for a full-time DSP, more with part-time staff or turnover [S48], workers' comp 2.5% (elective in Texas [S47]; operator estimate), benefits 6% (operator estimate). Rent, utilities, vehicles and insurance are **fixed per home**. Default occupancy is 93% (88% conservative, 97% optimistic), an operator assumption that reflects vacancy between residents and unpaid hospital days [S28].\n\n**Results at 93% occupancy (monthly).**\n\n- **One 3-person SL home:** revenue $17,759, expenses $21,479, **−$3,720**. Break-even would require more than 100% occupancy. Its 637 staff hours assume residents are away about 130 hours a month at ISS or work (operator estimate — verify locally); if residents are home all day (730 h), the 3-person SL home loses about **$5,135/month**.\n- **One 4-person RSS home (LON 8/6):** revenue $27,143, expenses $29,066, **−$1,924**. If the owner is the program manager and takes no salary, it turns to about **+$1,807**.\n- **Three homes (11 residents):** **−$1,712**.\n- **Four RSS homes, LON 5/8/6 (16 residents) — default:** revenue $105,633, expenses $102,644, **+$2,989 (2.8%)**, about $35,900 a year. Break-even occupancy is about 90%. At 88% occupancy it loses about $2,260/month.\n- **Four RSS homes, LON 1/5:** **+$2,544 (2.8%)**. Lower rates are offset by fewer funded staff hours, but only if staffing really is held to that level.\n- **Six RSS homes (24 residents):** **+$7,126 (4.5%)**, break-even occupancy about 88.5%.\n\n**Sensitivities (four-home default).** At the Dallas-Fort Worth 75th-percentile aide wage of **$14.51**, the default loses about **$4,240/month**, and at **$15.00** about **$6,590**. In other words, any DSP wage above roughly $13.60 erases the margin at current rates (break-even ≈ $13.62/hour for the four-home default) [S1][S40]. Collecting the full $994 SSI as room and board (only where actual cost supports it) raises the result to about **+$5,130**. If no nursing hours are billable, it falls to about **+$1,700**. With an owner-operator program manager it rises to about **+$10,450**. Program manager, office and RN wages use Texas statewide medians while rent uses Dallas; at Dallas-Fort Worth leadership and RN wages (manager $80,480, medical secretary $45,630, RN $48.76/hour) [S41][S44][S42], the default earns about **$2,220/month** and six homes about **$6,110**.\n\n**Ramp and cash.** The workbook staffs every home from month 1 while residents arrive (one a month for single homes; two a month for multi-home agencies). The modeled ramp-up deficit is therefore an upper bound for an operator who opens homes one at a time. No configuration pays back startup and ramp costs within 36 months at these margins.\n\n**Bottom line.** At Texas's current rates, the profitable model is a **multi-home RSS agency (four or more homes) serving LON 8/6 residents at 93%+ occupancy, with direct support wages near $13 and an owner who carries the program manager role early.** A single home is a stepping stone that the owner must subsidize.",
+    "risks": "- **Wage risk (largest).** The rate funds about $13.00/hour [S1]. In Dallas-Fort Worth, the 75th percentile for aides is $14.51 [S40]. Paying that wipes out the default margin (about −$4,240/month). Urban operators must recruit at the rate's wage or accept losses.\n- **Slot-limited referrals.** Only 483 HCS enrollments came off the interest list in FY2026's first year [S31]. A provisional contract puts you on a choice list, not in a pipeline [S21]. Each empty bed costs about $5,400–$6,800 a month in per diem, and fixed costs stay.\n- **Occupancy math in small homes.** One vacancy in a 3-person home is 33% of revenue. Hospital days are unpaid [S28]. The default four-home model breaks even at about 90% occupancy.\n- **Room-and-board cap.** You cannot charge more than actual cost, cannot raise the charge when a housemate leaves [S14], and residents on SSI have $994/month [S54].\n- **Certification and survey risk.** An unannounced initial survey within 120 days of the first enrollment, annual residential visits [S15], and corrective action or contract consequences for findings [S15]. Non-compliance with 26 TAC Ch. 565 can end the contract.\n- **Application risk.** Applying before TMHP enrollment or without a passing PAT certificate means denial or rejection. Only one 30-day correction opportunity is allowed [S23][S18].\n- **Service-area obligation.** You must serve every county in each waiver contract area you select [S27].\n- **Four-person homes.** RSS in a four-person home requires a prior fire inspection and HHSC approval, renewed annually [S13][S16]. Local fire authorities may refuse to inspect, which forces the HHSC Architectural Unit route (Forms 5604/5606) [S13].\n- **Policy risk.** Rates change by legislative appropriation each biennium [S4]. Legislators are discussing restructuring IDD waivers and interest lists [S33].\n- **Local land use.** Texas Human Resources Code Ch. 123 limits \"community homes\" to six residents plus two supervisors and requires half-mile spacing between community homes [S56]. Confirm with the city how it applies to your address and entity.",
+    "recommendations": "1. **Plan for four or more homes from day one.** Single homes do not cover a paid program manager at current rates. Budget for the owner to serve as program manager (with the required three years' experience [S10]) until the agency reaches three or four homes.\n2. **Target RSS in four-person homes and higher LON residents (8 and 6),** where per diems are $194.31–$223.81 [S1]. Get the fire inspection and HHSC four-person approval before the first RSS resident moves in [S13][S16].\n3. **Hold staffing to what the rate funds and document it.** Build schedules from each resident's IPC and the attendant hours the LON pays for (about 1,023 h/month for a LON 5/8/6 four-person home) [S1]. Request LON increases when behavior or medical criteria are met and documented [S9].\n4. **Sequence the paperwork:** entity → NPI/EIN → TMHP enrollment → PAT (85%+) → CAMP application with every Form 5873 item → correct within 30 days [S23][S18][S19]. Pick service areas you can really serve, since every county is required [S27].\n5. **Build the referral base before the contract lands.** Meet each LIDDA's service coordination team, learn its choice-list process, and position your homes for transfers and Promoting Independence transitions as well as new enrollments [S21][S31].\n6. **Price room and board correctly** with the §565.27 formula and keep the worksheet for surveyors. Keep rent per home affordable relative to SSI [S14][S54].\n7. **Be survey-ready by the first enrollment.** The initial certification survey comes within 120 days [S15]. Have RN assessments, delegation records, training files, fire-drill logs and settings-rule documentation in place [S12][S13][S29].\n8. **Control wages and turnover.** Recruit at or near $13–$13.50, use the HCS billing-requirement qualifications as the hiring screen, and track the monthly OIG exclusion checks [S1][S11].\n9. **Keep 6+ months of fixed costs in reserve.** Payback is not reached within 36 months in the model."
+  },
+  "checklist": [
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Confirm the right pathway: HCS program provider contract (not an assisted living or HCSSA license)",
+      "instructions": "HCS supervised living and residential support are delivered under an HHSC contract and certified under 26 TAC Ch. 565. HHSC states no HCSSA license is needed for HCS, and 26 TAC §52.33 lists no license for HCS. Do not apply for an assisted living facility (26 TAC Ch. 553) license for an HCS home.",
+      "cite": "26 TAC §52.33; HHSC How to Apply (06/2026)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Form a Texas legal entity",
+      "instructions": "File a Certificate of Formation with the Texas Secretary of State (SOSDirect). An LLC uses Form 205, fee $300. Online filings usually take a few business days.",
+      "cite": "SOS Form 205",
+      "source_id": "S50"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain an EIN",
+      "instructions": "Apply free at irs.gov; issued immediately. HHSC requires proof (IRS CP-575 or 147C letter) in the contract packet.",
+      "cite": "IRC §6109",
+      "source_id": "S51"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "CRITICAL",
+      "task": "Obtain a Type 2 (organizational) NPI",
+      "instructions": "Apply through NPPES. HHSC requires the NPI assignment letter or NPPES email matching the legal entity name.",
+      "cite": "HHSC TxHmL/HCS application documents",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with the Texas Comptroller and plan franchise tax filings",
+      "instructions": "Franchise tax reports are due May 15. Entities at or below $2,650,000 revenue owe no tax for 2026–2027 reports but must still file.",
+      "cite": "Tex. Tax Code Ch. 171",
+      "source_id": "S52"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "File an Assumed Name Certificate if you will operate under a DBA",
+      "instructions": "HHSC asks for the assumed name certificate when applicable.",
+      "cite": "Tex. Bus. & Com. Code Ch. 71",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "HIGH",
+      "task": "Register with TWC for state unemployment tax",
+      "instructions": "New employers pay 2.70% on the first $9,000 of each employee's wages (2026).",
+      "cite": "Tex. Labor Code Ch. 204",
+      "source_id": "S48"
+    },
+    {
+      "phase": "PHASE 1 — BUSINESS FORMATION & LEGAL SETUP",
+      "priority": "MEDIUM",
+      "task": "Open a business bank account and set up accounting",
+      "instructions": "Separate operating funds from residents' personal funds; any resident funds you manage must never be commingled.",
+      "cite": "26 TAC §565.27(e)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "CRITICAL",
+      "task": "Secure a qualified program manager",
+      "instructions": "The person overseeing HCS services needs 3+ years of paid experience planning and providing HCS-type services to people with IDD (written employer statements), equivalent agency-verified experience, or 3 years on a microboard.",
+      "cite": "26 TAC §565.7(a)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "CRITICAL",
+      "task": "Collect the program manager's resume and three signed reference letters",
+      "instructions": "The references must verify the qualifying experience. They are part of the application packet.",
+      "cite": "HHSC application documents",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "CRITICAL",
+      "task": "Request and complete the Provider Applicant Training (PAT)",
+      "instructions": "Request the exam from HHSC CAPM Operations and take the PAT on the HHS Learning Portal. Do not take it unless you are applying for an HCS/TxHmL contract.",
+      "cite": "26 TAC §52.31(c)",
+      "source_id": "S25"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "CRITICAL",
+      "task": "Pass the PAT competency exam with 85% or higher and save the certificate",
+      "instructions": "An application without a passing certificate is not accepted. Exempt only if you already hold a standard HCS contract in another service area.",
+      "cite": "26 TAC §52.31(c)-(d)",
+      "source_id": "S19"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "HIGH",
+      "task": "Choose service (waiver contract) areas",
+      "instructions": "On Form 3691-A you must serve every county in each local service area you select. Pick areas where you can staff homes and reach LIDDAs.",
+      "cite": "Form 3691-A instructions",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "HIGH",
+      "task": "Study the HCS rules and billing requirements",
+      "instructions": "Read 26 TAC Ch. 263 (program rules), Ch. 565 (certification standards), Ch. 52 (contracting) and the HCS Billing Requirements and Handbook.",
+      "cite": "26 TAC Ch. 263, 565, 52",
+      "source_id": "S57"
+    },
+    {
+      "phase": "PHASE 2 — PROGRAM MANAGER, PAT & READINESS",
+      "priority": "HIGH",
+      "task": "Subscribe to HHSC GovDelivery (information letters, provider alerts, HCS)",
+      "instructions": "Required of contractors under 26 TAC §52.103(g). Rate and policy changes are announced this way.",
+      "cite": "26 TAC §52.103(g)",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 3 — TEXAS MEDICAID (TMHP) ENROLLMENT",
+      "priority": "CRITICAL",
+      "task": "Enroll in Texas Medicaid through TMHP PEMS before applying for the contract",
+      "instructions": "HHSC denies HCS contract applications from applicants not already enrolled in Texas Medicaid.",
+      "cite": "HHSC How to Apply (06/2026)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 3 — TEXAS MEDICAID (TMHP) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Confirm whether a Medicaid application fee applies",
+      "instructions": "The federal enrollment fee is $750 in CY 2026 and applies only to institutional provider types. TMHP tells you whether it applies to your enrollment.",
+      "cite": "42 CFR §455.460; 90 FR 55738",
+      "source_id": "S55"
+    },
+    {
+      "phase": "PHASE 3 — TEXAS MEDICAID (TMHP) ENROLLMENT",
+      "priority": "HIGH",
+      "task": "Disclose all owners, controlling persons and managing employees",
+      "instructions": "Ownership and control disclosures must match across TMHP and the HHSC packet (Forms 5871/5871-S). Missing a controlling person is a common reason for delay.",
+      "cite": "HHSC application documents",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Request DPS criminal history records for every controlling person",
+      "instructions": "Include the DPS acknowledgment for each controlling person in the packet.",
+      "cite": "26 TAC §52.29(a)(3)(B)(iv)",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Complete Form 3681 (Community Services Contract Application)",
+      "instructions": "Part of the provisional contract packet.",
+      "cite": "26 TAC §52.29",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Complete Form 2031 (Governing Authority Resolution)",
+      "instructions": "It names who may sign for the entity; a representative signing Form 3691-A must be named on a current Form 2031.",
+      "cite": "HHSC forms",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Complete Form 3691-A (Service Area Designation) for HCS",
+      "instructions": "One contract type per form. Check every county in the areas chosen.",
+      "cite": "Form 3691-A",
+      "source_id": "S27"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Complete Forms 5871 / 5871-S (Disclosure of Ownership and Control)",
+      "instructions": "Must match TMHP disclosures.",
+      "cite": "1 TAC Ch. 371 Subch. E",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Assemble entity documents and IDs",
+      "instructions": "Certificate of formation, company agreement/amendments, assumed name certificate, NPI letter, EIN proof.",
+      "cite": "HHSC application documents",
+      "source_id": "S26"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Run the packet against the Form 5873 checklist",
+      "instructions": "Form 5873 is HHSC's final checklist for waiver contract packets.",
+      "cite": "HHSC How to Apply (06/2026)",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Submit through the CAMP portal (or email/fax/mail to HHSC CAPM)",
+      "instructions": "Online: CAMP portal. Alternatives: IDDWaiverContractEnrollment@hhs.texas.gov, fax 512-206-3916, or HHSC CAPM, Mail Code W-359, P.O. Box 149030, Austin, TX 78714-9030.",
+      "cite": "26 TAC §52.29",
+      "source_id": "S23"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "CRITICAL",
+      "task": "Answer any suspense letter within 30 days",
+      "instructions": "HHSC gives one opportunity to supply missing or corrected documents, due within 30 days of its letter. A late or incomplete response leads to denial.",
+      "cite": "26 TAC §52.29(c)-(d)",
+      "source_id": "S18"
+    },
+    {
+      "phase": "PHASE 4 — HCS PROVISIONAL CONTRACT APPLICATION (HHSC)",
+      "priority": "HIGH",
+      "task": "Receive the provisional contract and confirm you are on the choice list",
+      "instructions": "On approval HHSC signs a provisional contract and places it on the choice list for the program and area. A provisional contract can be extended once, for up to one year.",
+      "cite": "26 TAC §52.39",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "CRITICAL",
+      "task": "Write HCS policies and procedures",
+      "instructions": "Cover rights, abuse/neglect/exploitation reporting, restraint and behavior support, infection control, medication administration and storage, emergency plans, transportation (licensed and insured drivers only), conflicts of interest and financial impropriety, personal funds, and advance directives.",
+      "cite": "26 TAC §565.9, §565.23, §565.27-.39",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Adopt a room-and-board formula and residential agreement",
+      "instructions": "Charge only actual rent/allowed ownership cost, shared furnishings, utilities, maintenance, internet and food, divided equitably. Get a written residential agreement before a resident selects the home. Document the calculation.",
+      "cite": "26 TAC §565.27(a)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Adopt HCBS settings-rule protections",
+      "instructions": "Lockable bedroom doors (keys only to resident, roommate and designated staff), roommate choice, decorating, schedule control, food access at any time, visitors at any time, accessibility.",
+      "cite": "26 TAC §263.502; 42 CFR §441.301(c)",
+      "source_id": "S29"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Buy liability, auto and (optional) workers' comp insurance",
+      "instructions": "No minimum liability limit was found in 26 TAC Ch. 263/565; get quotes. Workers' comp is elective in Texas, but non-subscribers lose common-law defenses.",
+      "cite": "Tex. Labor Code §406.002",
+      "source_id": "S47"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "HIGH",
+      "task": "Set up TMHP LTC Online Portal access for IPCs and claims",
+      "instructions": "IPCs and revisions are submitted in the TMHP Long-Term Care Online Portal.",
+      "cite": "HHSC IL 2025-21",
+      "source_id": "S5"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Register in HHSC STEPS for cost reporting",
+      "instructions": "HCS providers register and submit cost reports through the State of Texas Electronic Provider System.",
+      "cite": "HHSC HCS provider page",
+      "source_id": "S24"
+    },
+    {
+      "phase": "PHASE 5 — POLICIES, INSURANCE & SYSTEMS",
+      "priority": "MEDIUM",
+      "task": "Choose records and scheduling software",
+      "instructions": "No specific system is mandated. SL/RSS are not EVV services, but CFC PAS/HAB, in-home respite and in-home nursing in own/family homes are.",
+      "cite": "1 TAC §354.4005",
+      "source_id": "S35"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "CRITICAL",
+      "task": "Decide home type: three-person (SL or RSS) or four-person (RSS required if four live there)",
+      "instructions": "A four-person residence with four residents must include at least one person receiving residential support. Only staff and their spouses may live there besides residents.",
+      "cite": "26 TAC §565.3",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "CRITICAL",
+      "task": "Lease or buy the residence in the provider's name",
+      "instructions": "Three- and four-person residences must be leased or owned by the program provider.",
+      "cite": "26 TAC §565.3",
+      "source_id": "S8"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "HIGH",
+      "task": "Check local land-use rules for small group homes",
+      "instructions": "Human Resources Code Ch. 123 limits community homes to 6 residents + 2 supervisors with half-mile spacing between community homes; confirm with the city how it applies to your home.",
+      "cite": "Tex. Hum. Res. Code Ch. 123",
+      "source_id": "S56"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "CRITICAL",
+      "task": "Meet fire-safety requirements",
+      "instructions": "Two means of escape from the home and from each bedroom (one if sprinklered and maintained), working smoke alarms in each bedroom and outside bedrooms, extinguishers on each level, unobstructed exterior doors.",
+      "cite": "26 TAC §565.23(d)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "HIGH",
+      "task": "Meet home-condition requirements",
+      "instructions": "Hot water ≤120°F unless every resident passes a skills assessment; clean, pest-free, working appliances and HVAC; mattresses off the floor; chemicals stored securely.",
+      "cite": "26 TAC §565.23(b)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "CRITICAL",
+      "task": "Four-person RSS homes: get the fire marshal inspection",
+      "instructions": "Obtain an inspection by the local fire marshal (or State Fire Marshal's Office) and correct cited items before providing RSS. If both refuse, request an HHSC Architectural Unit inspection with Forms 5604/5606.",
+      "cite": "26 TAC §565.23(i)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "CRITICAL",
+      "task": "Four-person RSS homes: obtain HHSC written approval",
+      "instructions": "Submit the address/county, RSS intent certification, fire certification and occupancy certification. HHSC answers within 14 calendar days. Email: HCSFourPersonResidenceRequests@hhs.texas.gov.",
+      "cite": "26 TAC §565.43",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "HIGH",
+      "task": "Furnish and equip the home",
+      "instructions": "Shared furniture, appliances and housewares can later be recovered through the room charge. Bedroom locks must not be at the resident's expense.",
+      "cite": "26 TAC §565.27(a)(1)(B); §565.23(b)(13)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 6 — RESIDENCE SELECTION & SETUP",
+      "priority": "MEDIUM",
+      "task": "Write individualized emergency plans for each home",
+      "instructions": "Address location-relevant emergencies and each resident's needs; post emergency numbers.",
+      "cite": "26 TAC §565.23(f)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Contract or hire a registered nurse",
+      "instructions": "An RN performs nursing assessments, writes the nursing part of the implementation plan, and delegates and supervises nursing tasks and medication administration.",
+      "cite": "26 TAC §565.13",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Screen every hire",
+      "instructions": "DPS criminal history (HSC §250.006 bars; no registered sex offenders) before hire; Employee Misconduct Registry and Nurse Aide Registry before hire and every 12 months; HHS-OIG and Texas OIG exclusion lists before hire and every month.",
+      "cite": "26 TAC §565.9(b)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "CRITICAL",
+      "task": "Train direct support staff before they work with each individual",
+      "instructions": "Training specific to each person's needs before service and at least every 12 months, with observed competency; Person-Centered Planning course within 90 days where required.",
+      "cite": "26 TAC §565.7(b)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "HIGH",
+      "task": "Confirm staff meet HCS billing-requirement qualifications",
+      "instructions": "Residential service providers must meet the criteria in the HCS Billing Requirements and waiver Appendix C.",
+      "cite": "26 TAC §565.7(b)(1)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "HIGH",
+      "task": "Delegate and train medication administration",
+      "instructions": "Staff administering medications must be trained and delegated by an RN; unlicensed administration of oral/topical/inhaled meds requires RN assessment and annual RN/LVN review.",
+      "cite": "26 TAC §565.23(h); §565.13(a)(2)(K)",
+      "source_id": "S12"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "HIGH",
+      "task": "Build the staffing schedule from the IPC and LON",
+      "instructions": "RSS: staff present and awake whenever an individual is home. SL: staff present and able to respond during sleep hours. LON 9: dedicated staff 16+ waking hours a day.",
+      "cite": "26 TAC §263.5; §263.106(j)",
+      "source_id": "S7"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Set wages against the rate assumption",
+      "instructions": "HHSC's 9/1/2025 rates assume a $13.00 average attendant wage with 15% PTB. Texas aide median is $11.65, 75th percentile $13.23.",
+      "cite": "HHSC rate sheet 9/1/2025",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 7 — STAFFING, SCREENING & TRAINING",
+      "priority": "MEDIUM",
+      "task": "Fire drills from day one",
+      "instructions": "Each staff member drills within 90 days of hire. Each home: one drill every 90 days, four a year, two during sleeping hours.",
+      "cite": "26 TAC §565.23(e)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 8 — FIRST ENROLLMENT, BILLING & INITIAL CERTIFICATION SURVEY",
+      "priority": "CRITICAL",
+      "task": "Introduce your agency to each LIDDA in your service areas",
+      "instructions": "Individuals pick providers from the LIDDA choice list. Ask how the LIDDA presents choices and handles transfers and Promoting Independence placements.",
+      "cite": "26 TAC §52.39; §263.103",
+      "source_id": "S21"
+    },
+    {
+      "phase": "PHASE 8 — FIRST ENROLLMENT, BILLING & INITIAL CERTIFICATION SURVEY",
+      "priority": "CRITICAL",
+      "task": "Complete the person-directed plan, IPC and implementation plan for each new resident",
+      "instructions": "No payment is made without an authorized IPC, current ID/RC assessment and LOC determination.",
+      "cite": "26 TAC §263.601(5)",
+      "source_id": "S28"
+    },
+    {
+      "phase": "PHASE 8 — FIRST ENROLLMENT, BILLING & INITIAL CERTIFICATION SURVEY",
+      "priority": "HIGH",
+      "task": "Submit LON requests and supporting documentation",
+      "instructions": "Program providers enter the ID/RC assessment in the HHSC system before it expires. Document dangerous-behavior or medical-need increases.",
+      "cite": "26 TAC §263.106",
+      "source_id": "S9"
+    },
+    {
+      "phase": "PHASE 8 — FIRST ENROLLMENT, BILLING & INITIAL CERTIFICATION SURVEY",
+      "priority": "HIGH",
+      "task": "Bill per diems at the correct LON and service code",
+      "instructions": "SL code 47 (M0166–M0170), RSS code 46 (M0149–M0153); 1 day = 18 hours. Do not bill hospital/NF/ICF inpatient days.",
+      "cite": "HHSC rate sheet; 26 TAC §263.601",
+      "source_id": "S1"
+    },
+    {
+      "phase": "PHASE 8 — FIRST ENROLLMENT, BILLING & INITIAL CERTIFICATION SURVEY",
+      "priority": "CRITICAL",
+      "task": "Prepare for the unannounced initial certification survey",
+      "instructions": "HHSC conducts it within 120 calendar days after it approves your first individual's enrollment or transfer. Have records, RN assessments, training files, drills, rights and finance documentation ready.",
+      "cite": "26 TAC §565.41(c)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 8 — FIRST ENROLLMENT, BILLING & INITIAL CERTIFICATION SURVEY",
+      "priority": "HIGH",
+      "task": "Collect room and board per the formula and keep resident agreements",
+      "instructions": "Written agreement to every charge before it is assessed; manage personal funds free of charge on request, in a separate account.",
+      "cite": "26 TAC §565.27(b)-(e)",
+      "source_id": "S14"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Maintain annual certification",
+      "instructions": "Certification periods last no more than 365 days, with recertification surveys.",
+      "cite": "26 TAC §565.41(f)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Expect annual unannounced residential visits to every SL/RSS home",
+      "instructions": "HHSC may require on-the-spot corrections or written safety plans.",
+      "cite": "26 TAC §565.41(k)-(l)",
+      "source_id": "S15"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Renew four-person residence fire certification every year",
+      "instructions": "Keep the latest inspection in the home.",
+      "cite": "26 TAC §565.23(i)(3)",
+      "source_id": "S13"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "HIGH",
+      "task": "Run monthly exclusion checks and annual registry checks",
+      "instructions": "LEIE and Texas OIG monthly; EMR and NAR every 12 months.",
+      "cite": "26 TAC §565.9(b)",
+      "source_id": "S11"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Annual staff retraining on each individual's needs",
+      "instructions": "Required at least every 12 months.",
+      "cite": "26 TAC §565.7(b)",
+      "source_id": "S10"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Track September rate actions and cost limits",
+      "instructions": "Rates change with appropriations; HCS cost limits are tied to 210% of ICF/IID annualized cost by LON.",
+      "cite": "HHSC IL 2025-17; HHSC cost limit webinar",
+      "source_id": "S6"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Plan the move from provisional to standard contract",
+      "instructions": "HHSC may offer a standard contract during a provisional term; respond per HHSC instructions or face an application denial period.",
+      "cite": "26 TAC §52.41",
+      "source_id": "S22"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Add homes in sequence",
+      "instructions": "Staff each home as it fills; four-person homes each need a fire inspection and HHSC approval before RSS.",
+      "cite": "26 TAC §565.43",
+      "source_id": "S16"
+    },
+    {
+      "phase": "PHASE 9 — ONGOING COMPLIANCE & GROWTH",
+      "priority": "MEDIUM",
+      "task": "Consider adding TxHmL",
+      "instructions": "A standard HCS contractor can apply for TxHmL without retaking the PAT. TxHmL serves people in their own or family homes.",
+      "cite": "26 TAC §52.31(e); §262.4",
+      "source_id": "S19"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "HHSC IDD Waiver Contract Enrollment (CAPM)",
+      "role": "HCS contract applications, PAT exam requests",
+      "contact": "512-438-3234 / IDDWaiverContractEnrollment@hhs.texas.gov / fax 512-206-3916 / HHSC CAPM, Mail Code W-359, P.O. Box 149030, Austin, TX 78714-9030"
+    },
+    {
+      "name": "HHSC HCS Program Policy",
+      "role": "Program rules, billing requirements",
+      "contact": "HCSPolicy@hhs.texas.gov"
+    },
+    {
+      "name": "HHSC LTCR Policy and Rules",
+      "role": "Certification standards (26 TAC Ch. 565), survey questions",
+      "contact": "512-438-3161 / LTCRPolicy@hhs.texas.gov"
+    },
+    {
+      "name": "HHSC LTCR — four-person residence approvals",
+      "role": "Submit §565.43 approval requests",
+      "contact": "HCSFourPersonResidenceRequests@hhs.texas.gov"
+    },
+    {
+      "name": "HHSC LTCR Joint Training",
+      "role": "Provider training",
+      "contact": "LTCRJointTraining@hhs.texas.gov"
+    },
+    {
+      "name": "HHSC Complaint and Incident Intake",
+      "role": "Reporting complaints/incidents",
+      "contact": "1-800-458-9858"
+    },
+    {
+      "name": "HHSC IDD Ombudsman",
+      "role": "Concerns about IDD services",
+      "contact": "800-252-8154 / OmbudsmanIDD@hhsc.state.tx.us"
+    },
+    {
+      "name": "TMHP",
+      "role": "Medicaid enrollment (PEMS), LTC Online Portal",
+      "contact": "tmhp.com"
+    },
+    {
+      "name": "Your LIDDA",
+      "role": "Interest list, service coordination, provider choice list",
+      "contact": "hhs.texas.gov/contact (local authority search)"
+    },
+    {
+      "name": "Texas Secretary of State",
+      "role": "Entity formation (Form 205)",
+      "contact": "sos.state.tx.us / SOSDirect"
+    },
+    {
+      "name": "Texas Comptroller",
+      "role": "Franchise tax",
+      "contact": "comptroller.texas.gov"
+    },
+    {
+      "name": "Texas Workforce Commission",
+      "role": "Unemployment tax",
+      "contact": "twc.texas.gov"
+    }
+  ],
+  "financial_model": {
+    "capacity_unit": "resident",
+    "occupancy": {
+      "default": 0.93,
+      "conservative": 0.88,
+      "optimistic": 0.97,
+      "rationale": "Share of licensed beds billed each day. HCS pays SL/RSS only for days the resident is in service, not for hospital, nursing facility or ICF/IID inpatient days [S28], and empty beds between residents earn nothing. 93% default (88% conservative, 97% optimistic) is an operator assumption — verify locally; it is not a sourced statistic.",
+      "source_id": "S28"
+    },
+    "ramp": {
+      "start_clients": 1,
+      "add_per_month": 1
+    },
+    "configurations": [
+      {
+        "id": "sl3_single",
+        "label": "One 3-person Supervised Living home (LON 1/5/8 mix)",
+        "capacity": 3,
+        "notes": "Smallest entry model. The program manager and office costs sit on only three residents, so it does not cover overhead at real rates.",
+        "revenue_lines": [
+          {
+            "name": "HCS Supervised Living per diem, LON 1 Intermittent",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0166 (service code 47)",
+            "rate": 164.46,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3333,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Supervised Living per diem, LON 5 Limited",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0167 (service code 47)",
+            "rate": 176.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3333,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Supervised Living per diem, LON 8 Extensive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0169 (service code 47)",
+            "rate": 194.31,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.3333,
+            "source_id": "S1"
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through, capped at actual cost)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "26 TAC §565.27 requires the provider to collect room and board, limited to actual rent/ownership cost, shared household costs, utilities and food divided among residents [S14]. $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI federal benefit $994/month [S54]) while keeping spending money; it is below the modeled actual cost per resident, so it stays under the cap. Verify each resident's income."
+          },
+          {
+            "name": "HCS nursing billed — RN (nursing, other residential types)",
+            "payer": "Texas Medicaid (HCS waiver)",
+            "code": "G2292 (service code 13B)",
+            "rate": 43.39,
+            "unit": "per hour",
+            "units_per_client_month": 2,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Billable only when nursing is on the individual's IPC. 2 hours per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (residential service providers) — coverage hours",
+            "wage_hourly": 13.0,
+            "wage_source_id": "S1",
+            "basis": "hours_per_month",
+            "amount": 637,
+            "cite": "26 TAC §263.5(20)-(21)",
+            "notes": "637 h/month = the staff hours funded by the HHSC 9/1/2025 attendant cost component for an equal LON 1/5/8 mix ($104.35/day × 3 residents ÷ $14.95 loaded hour [$13.00 × 1.15] × 30.42) [S1]. That covers one staff member present whenever residents are home (24 h × 30.42 days minus ~130 weekday hours when residents attend individualized skills and socialization or work — the ~130 h/month away from home is an operator estimate — verify locally; it depends on residents' ISS/employment schedules. If residents are home all day, one-person coverage is 730 h/month and the home loses about $5,135/month); overnight staff may sleep but must be present and able to respond (supervised living). Verify against each person's IPC. Wage = the $13.00 average attendant wage HHSC built into the 9/1/2025 rates [S1][S4]; BLS May 2025 Texas home health & personal care aides: median $11.65, 75th percentile $13.23 [S40]; Texas minimum wage $7.25 [S46]."
+          },
+          {
+            "role": "Program manager (oversees HCS services; 3 years' IDD experience required)",
+            "basis": "annual_salary",
+            "amount": 38260,
+            "wage_source_id": "S41",
+            "cite": "26 TAC §565.7(a)",
+            "notes": "0.5 FTE × Texas median social and community service manager wage $76,520 (BLS May 2025) [S41]."
+          },
+          {
+            "role": "Billing / IPC and office coordinator",
+            "basis": "annual_salary",
+            "amount": 10728,
+            "wage_source_id": "S44",
+            "cite": "",
+            "notes": "0.25 FTE × Texas median medical secretary/administrative assistant wage $42,910 (BLS May 2025) [S44]. Handles TMHP LTC Online Portal claims, IPC data and records."
+          },
+          {
+            "role": "Registered nurse (nursing assessments, delegation, medication oversight)",
+            "wage_hourly": 46.14,
+            "wage_source_id": "S42",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "26 TAC §565.13; §565.23(h)(4)",
+            "notes": "Texas median RN $46.14 (BLS May 2025) [S42]. 2.5 h per resident per month (2 billable + 0.5 non-billable delegation/supervision) is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 2371,
+            "basis": "fixed",
+            "notes": "One 3-bedroom+ single-family house. Zillow Observed Rent Index (single-family, all sizes), Dallas metro, Aug 2026: $2,371/month [S53]; Houston $2,242. Rent is fixed whether beds are full or not.",
+            "source_id": "S53"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$400 per home × 1 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+          },
+          {
+            "item": "Annual fire marshal inspection — four-person residences",
+            "monthly": 0,
+            "basis": "fixed",
+            "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 0 four-person homes = $0 — operator estimate of local fees, verify locally.",
+            "cite": "26 TAC §565.23(i)"
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one new resident per month through LIDDA enrollments and provider transfers. Slower filling is common for a new contract; each month of delay adds roughly a month of fixed cost."
+        }
+      },
+      {
+        "id": "rss4_single",
+        "label": "One 4-person Residential Support home (LON 8/6 mix)",
+        "capacity": 4,
+        "notes": "Most common single-home start. Close to break-even before agency overhead is shared across more homes.",
+        "revenue_lines": [
+          {
+            "name": "HCS Residential Support per diem, LON 8 Extensive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0152 (service code 46)",
+            "rate": 194.31,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 6 Pervasive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0151 (service code 46)",
+            "rate": 223.81,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S1"
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through, capped at actual cost)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "26 TAC §565.27 requires the provider to collect room and board, limited to actual rent/ownership cost, shared household costs, utilities and food divided among residents [S14]. $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI federal benefit $994/month [S54]) while keeping spending money; it is below the modeled actual cost per resident, so it stays under the cap. Verify each resident's income."
+          },
+          {
+            "name": "HCS nursing billed — RN (nursing, other residential types)",
+            "payer": "Texas Medicaid (HCS waiver)",
+            "code": "G2292 (service code 13B)",
+            "rate": 43.39,
+            "unit": "per hour",
+            "units_per_client_month": 2,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Billable only when nursing is on the individual's IPC. 2 hours per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (residential service providers) — coverage hours",
+            "wage_hourly": 13.0,
+            "wage_source_id": "S1",
+            "basis": "hours_per_month",
+            "amount": 1070,
+            "cite": "26 TAC §263.5(20)-(21)",
+            "notes": "1,070 h/month = the staff hours funded by the HHSC 9/1/2025 attendant cost component for a LON 8/6 mix ($131.49/day × 4 residents ÷ $14.95 loaded hour × 30.42) [S1]. Enough for one awake staff overnight (243 h) plus two awake staff for waking hours when residents are home (~714 h) with ~110 h left for outings, appointments and training. Residential support requires staff present and awake whenever an individual is present [S7]. Wage = the $13.00 average attendant wage HHSC built into the 9/1/2025 rates [S1][S4]; BLS May 2025 Texas home health & personal care aides: median $11.65, 75th percentile $13.23 [S40]; Texas minimum wage $7.25 [S46]."
+          },
+          {
+            "role": "Program manager (oversees HCS services; 3 years' IDD experience required)",
+            "basis": "annual_salary",
+            "amount": 38260,
+            "wage_source_id": "S41",
+            "cite": "26 TAC §565.7(a)",
+            "notes": "0.5 FTE × Texas median social and community service manager wage $76,520 (BLS May 2025) [S41]."
+          },
+          {
+            "role": "Billing / IPC and office coordinator",
+            "basis": "annual_salary",
+            "amount": 10728,
+            "wage_source_id": "S44",
+            "cite": "",
+            "notes": "0.25 FTE × Texas median medical secretary/administrative assistant wage $42,910 (BLS May 2025) [S44]. Handles TMHP LTC Online Portal claims, IPC data and records."
+          },
+          {
+            "role": "Registered nurse (nursing assessments, delegation, medication oversight)",
+            "wage_hourly": 46.14,
+            "wage_source_id": "S42",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "26 TAC §565.13; §565.23(h)(4)",
+            "notes": "Texas median RN $46.14 (BLS May 2025) [S42]. 2.5 h per resident per month (2 billable + 0.5 non-billable delegation/supervision) is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 2850,
+            "basis": "fixed",
+            "notes": "One 4-bedroom single-family house at $2,850/month = Dallas single-family ZORI $2,371 [S53] plus ~20% for a fourth bedroom (premium is an operator estimate — verify locally).",
+            "source_id": "S53"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 400,
+            "basis": "fixed",
+            "notes": "$400 per home × 1 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 200,
+            "basis": "fixed",
+            "notes": "$200 per home × 1 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 1; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 350,
+            "basis": "fixed",
+            "notes": "$350 per home × 1 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "$150 per home × 1 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+          },
+          {
+            "item": "Annual fire marshal inspection — four-person residences",
+            "monthly": 25,
+            "basis": "fixed",
+            "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 1 four-person home = $25 — operator estimate of local fees, verify locally.",
+            "cite": "26 TAC §565.23(i)"
+          }
+        ],
+        "ramp": {
+          "start_clients": 1,
+          "add_per_month": 1,
+          "note": "Operator estimate: one new resident per month."
+        }
+      },
+      {
+        "id": "hcs3_homes",
+        "label": "Three homes — two 4-person RSS + one 3-person SL (11 residents, LON 5/8/6 mix)",
+        "capacity": 11,
+        "notes": "Agency overhead (full-time program manager) spread over three homes.",
+        "revenue_lines": [
+          {
+            "name": "HCS Residential Support per diem, LON 5 Limited",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0150 (service code 46)",
+            "rate": 176.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.1818,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 6 Pervasive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0151 (service code 46)",
+            "rate": 223.81,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.2727,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 8 Extensive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0152 (service code 46)",
+            "rate": 194.31,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.2727,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Supervised Living per diem, LON 1 Intermittent",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0166 (service code 47)",
+            "rate": 164.46,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.0909,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Supervised Living per diem, LON 5 Limited",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0167 (service code 47)",
+            "rate": 176.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.0909,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Supervised Living per diem, LON 8 Extensive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0169 (service code 47)",
+            "rate": 194.31,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.0909,
+            "source_id": "S1"
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through, capped at actual cost)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "26 TAC §565.27 requires the provider to collect room and board, limited to actual rent/ownership cost, shared household costs, utilities and food divided among residents [S14]. $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI federal benefit $994/month [S54]) while keeping spending money; it is below the modeled actual cost per resident, so it stays under the cap. Verify each resident's income."
+          },
+          {
+            "name": "HCS nursing billed — RN (nursing, other residential types)",
+            "payer": "Texas Medicaid (HCS waiver)",
+            "code": "G2292 (service code 13B)",
+            "rate": 43.39,
+            "unit": "per hour",
+            "units_per_client_month": 2,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Billable only when nursing is on the individual's IPC. 2 hours per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (residential service providers) — coverage hours",
+            "wage_hourly": 13.0,
+            "wage_source_id": "S1",
+            "basis": "hours_per_month",
+            "amount": 2661,
+            "cite": "26 TAC §263.5(20)-(21)",
+            "notes": "2 RSS homes × 1,012 h + 1 SL home × 637 h, each equal to the staff hours funded by the HHSC 9/1/2025 attendant cost component for that LON mix (attendant $/day × residents ÷ $14.95 loaded hour × 30.42) [S1]. Wage = the $13.00 average attendant wage HHSC built into the 9/1/2025 rates [S1][S4]; BLS May 2025 Texas home health & personal care aides: median $11.65, 75th percentile $13.23 [S40]; Texas minimum wage $7.25 [S46]."
+          },
+          {
+            "role": "Program manager (oversees HCS services; 3 years' IDD experience required)",
+            "basis": "annual_salary",
+            "amount": 76520,
+            "wage_source_id": "S41",
+            "cite": "26 TAC §565.7(a)",
+            "notes": "1 FTE × Texas median social and community service manager wage $76,520 (BLS May 2025) [S41]."
+          },
+          {
+            "role": "Billing / IPC and office coordinator",
+            "basis": "annual_salary",
+            "amount": 32182,
+            "wage_source_id": "S44",
+            "cite": "",
+            "notes": "0.75 FTE × Texas median medical secretary/administrative assistant wage $42,910 (BLS May 2025) [S44]. Handles TMHP LTC Online Portal claims, IPC data and records."
+          },
+          {
+            "role": "Registered nurse (nursing assessments, delegation, medication oversight)",
+            "wage_hourly": 46.14,
+            "wage_source_id": "S42",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "26 TAC §565.13; §565.23(h)(4)",
+            "notes": "Texas median RN $46.14 (BLS May 2025) [S42]. 2.5 h per resident per month (2 billable + 0.5 non-billable delegation/supervision) is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 8071,
+            "basis": "fixed",
+            "notes": "Two 4-bedroom houses at $2,850 + one 3-bedroom at $2,371 (Dallas ZORI basis [S53]; 4-bedroom premium is an operator estimate).",
+            "source_id": "S53"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$400 per home × 3 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$200 per home × 3 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$150 per home × 3 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 3; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 1050,
+            "basis": "fixed",
+            "notes": "$350 per home × 3 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 450,
+            "basis": "fixed",
+            "notes": "$150 per home × 3 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+          },
+          {
+            "item": "Annual fire marshal inspection — four-person residences",
+            "monthly": 50,
+            "basis": "fixed",
+            "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 2 four-person homes = $50 — operator estimate of local fees, verify locally.",
+            "cite": "26 TAC §565.23(i)"
+          }
+        ],
+        "ramp": {
+          "start_clients": 3,
+          "add_per_month": 2,
+          "note": "Operator estimate. The workbook staffs every home from month 1; an operator who opens homes one at a time (staff hired as each home fills) needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "hcs4_rss",
+        "label": "Four 4-person RSS homes (16 residents, LON 5/8/6 mix)",
+        "capacity": 16,
+        "notes": "The configuration an experienced Texas HCS operator would target: four RSS homes, residents with extensive/pervasive needs, one program manager and one office coordinator.",
+        "revenue_lines": [
+          {
+            "name": "HCS Residential Support per diem, LON 5 Limited",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0150 (service code 46)",
+            "rate": 176.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.2,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 8 Extensive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0152 (service code 46)",
+            "rate": 194.31,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.4,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 6 Pervasive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0151 (service code 46)",
+            "rate": 223.81,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.4,
+            "source_id": "S1"
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through, capped at actual cost)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "26 TAC §565.27 requires the provider to collect room and board, limited to actual rent/ownership cost, shared household costs, utilities and food divided among residents [S14]. $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI federal benefit $994/month [S54]) while keeping spending money; it is below the modeled actual cost per resident, so it stays under the cap. Verify each resident's income."
+          },
+          {
+            "name": "HCS nursing billed — RN (nursing, other residential types)",
+            "payer": "Texas Medicaid (HCS waiver)",
+            "code": "G2292 (service code 13B)",
+            "rate": 43.39,
+            "unit": "per hour",
+            "units_per_client_month": 2,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Billable only when nursing is on the individual's IPC. 2 hours per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (residential service providers) — coverage hours",
+            "wage_hourly": 13.0,
+            "wage_source_id": "S1",
+            "basis": "hours_per_month",
+            "amount": 4092,
+            "cite": "26 TAC §263.5(20)-(21)",
+            "notes": "4 RSS homes × 1,023 h = staff hours funded by the HHSC 9/1/2025 attendant cost component for a 20% LON 5 / 40% LON 8 / 40% LON 6 mix ($125.73/day × 4 ÷ $14.95 × 30.42) [S1]. Enough for one awake staff overnight plus two awake staff for most waking hours when residents are home. Wage = the $13.00 average attendant wage HHSC built into the 9/1/2025 rates [S1][S4]; BLS May 2025 Texas home health & personal care aides: median $11.65, 75th percentile $13.23 [S40]; Texas minimum wage $7.25 [S46]."
+          },
+          {
+            "role": "Program manager (oversees HCS services; 3 years' IDD experience required)",
+            "basis": "annual_salary",
+            "amount": 76520,
+            "wage_source_id": "S41",
+            "cite": "26 TAC §565.7(a)",
+            "notes": "1 FTE × Texas median social and community service manager wage $76,520 (BLS May 2025) [S41]."
+          },
+          {
+            "role": "Billing / IPC and office coordinator",
+            "basis": "annual_salary",
+            "amount": 42910,
+            "wage_source_id": "S44",
+            "cite": "",
+            "notes": "1 FTE × Texas median medical secretary/administrative assistant wage $42,910 (BLS May 2025) [S44]. Handles TMHP LTC Online Portal claims, IPC data and records."
+          },
+          {
+            "role": "Registered nurse (nursing assessments, delegation, medication oversight)",
+            "wage_hourly": 46.14,
+            "wage_source_id": "S42",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "26 TAC §565.13; §565.23(h)(4)",
+            "notes": "Texas median RN $46.14 (BLS May 2025) [S42]. 2.5 h per resident per month (2 billable + 0.5 non-billable delegation/supervision) is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 11400,
+            "basis": "fixed",
+            "notes": "Four 4-bedroom houses at $2,850 each (Dallas ZORI $2,371 [S53] + ~20% four-bedroom premium, operator estimate).",
+            "source_id": "S53"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "$400 per home × 4 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "$200 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 4; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 1400,
+            "basis": "fixed",
+            "notes": "$350 per home × 4 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+          },
+          {
+            "item": "Annual fire marshal inspection — four-person residences",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 4 four-person homes = $100 — operator estimate of local fees, verify locally.",
+            "cite": "26 TAC §565.23(i)"
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The workbook staffs all four homes from month 1; opening homes one at a time (staff hired as each home fills) needs less cash than the modeled ramp-up deficit."
+        }
+      },
+      {
+        "id": "hcs4_rss_lowlon",
+        "label": "Four 4-person RSS homes, low-need residents (LON 1/5 mix)",
+        "capacity": 16,
+        "notes": "Same footprint with intermittent/limited-need residents. Shows how sensitive margins are to LON.",
+        "revenue_lines": [
+          {
+            "name": "HCS Residential Support per diem, LON 1 Intermittent",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0149 (service code 46)",
+            "rate": 164.46,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 5 Limited",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0150 (service code 46)",
+            "rate": 176.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.5,
+            "source_id": "S1"
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through, capped at actual cost)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "26 TAC §565.27 requires the provider to collect room and board, limited to actual rent/ownership cost, shared household costs, utilities and food divided among residents [S14]. $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI federal benefit $994/month [S54]) while keeping spending money; it is below the modeled actual cost per resident, so it stays under the cap. Verify each resident's income."
+          },
+          {
+            "name": "HCS nursing billed — RN (nursing, other residential types)",
+            "payer": "Texas Medicaid (HCS waiver)",
+            "code": "G2292 (service code 13B)",
+            "rate": 43.39,
+            "unit": "per hour",
+            "units_per_client_month": 2,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Billable only when nursing is on the individual's IPC. 2 hours per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (residential service providers) — coverage hours",
+            "wage_hourly": 13.0,
+            "wage_source_id": "S1",
+            "basis": "hours_per_month",
+            "amount": 3168,
+            "cite": "26 TAC §263.5(20)-(21)",
+            "notes": "4 RSS homes × 792 h = staff hours funded by the HHSC attendant cost component for a LON 1/5 mix ($97.33/day × 4 ÷ $14.95 × 30.42) [S1]. Covers one awake staff whenever residents are home plus a second staff about 6 h/day. Wage = the $13.00 average attendant wage HHSC built into the 9/1/2025 rates [S1][S4]; BLS May 2025 Texas home health & personal care aides: median $11.65, 75th percentile $13.23 [S40]; Texas minimum wage $7.25 [S46]."
+          },
+          {
+            "role": "Program manager (oversees HCS services; 3 years' IDD experience required)",
+            "basis": "annual_salary",
+            "amount": 76520,
+            "wage_source_id": "S41",
+            "cite": "26 TAC §565.7(a)",
+            "notes": "1 FTE × Texas median social and community service manager wage $76,520 (BLS May 2025) [S41]."
+          },
+          {
+            "role": "Billing / IPC and office coordinator",
+            "basis": "annual_salary",
+            "amount": 42910,
+            "wage_source_id": "S44",
+            "cite": "",
+            "notes": "1 FTE × Texas median medical secretary/administrative assistant wage $42,910 (BLS May 2025) [S44]. Handles TMHP LTC Online Portal claims, IPC data and records."
+          },
+          {
+            "role": "Registered nurse (nursing assessments, delegation, medication oversight)",
+            "wage_hourly": 46.14,
+            "wage_source_id": "S42",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "26 TAC §565.13; §565.23(h)(4)",
+            "notes": "Texas median RN $46.14 (BLS May 2025) [S42]. 2.5 h per resident per month (2 billable + 0.5 non-billable delegation/supervision) is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 11400,
+            "basis": "fixed",
+            "notes": "Four 4-bedroom houses at $2,850 each (Dallas ZORI $2,371 [S53] + ~20% four-bedroom premium, operator estimate).",
+            "source_id": "S53"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 1600,
+            "basis": "fixed",
+            "notes": "$400 per home × 4 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 800,
+            "basis": "fixed",
+            "notes": "$200 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+            "monthly": 3200,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 4; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 1400,
+            "basis": "fixed",
+            "notes": "$350 per home × 4 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 600,
+            "basis": "fixed",
+            "notes": "$150 per home × 4 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+          },
+          {
+            "item": "Annual fire marshal inspection — four-person residences",
+            "monthly": 100,
+            "basis": "fixed",
+            "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 4 four-person homes = $100 — operator estimate of local fees, verify locally.",
+            "cite": "26 TAC §565.23(i)"
+          }
+        ],
+        "ramp": {
+          "start_clients": 4,
+          "add_per_month": 2,
+          "note": "Operator estimate. The workbook staffs all four homes from month 1; opening homes one at a time needs less cash than the modeled deficit."
+        }
+      },
+      {
+        "id": "hcs6_rss",
+        "label": "Six 4-person RSS homes (24 residents, LON 5/8/6 mix)",
+        "capacity": 24,
+        "notes": "Growth stage: one program manager plus a half-time assistant coordinator, one office coordinator. Shows the scale effect.",
+        "revenue_lines": [
+          {
+            "name": "HCS Residential Support per diem, LON 5 Limited",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0150 (service code 46)",
+            "rate": 176.62,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.2,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 8 Extensive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0152 (service code 46)",
+            "rate": 194.31,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.4,
+            "source_id": "S1"
+          },
+          {
+            "name": "HCS Residential Support per diem, LON 6 Pervasive",
+            "payer": "Texas Medicaid (HCS waiver, FFS via TMHP)",
+            "code": "M0151 (service code 46)",
+            "rate": 223.81,
+            "unit": "per day",
+            "units_per_client_month": 30.42,
+            "share_of_clients": 0.4,
+            "source_id": "S1"
+          },
+          {
+            "name": "Room and board collected from the resident (pass-through, capped at actual cost)",
+            "payer": "Resident (SSI/SSDI/earnings)",
+            "code": "",
+            "rate": 850,
+            "unit": "per month",
+            "units_per_client_month": 1,
+            "share_of_clients": 1.0,
+            "source_id": "S14",
+            "notes": "26 TAC §565.27 requires the provider to collect room and board, limited to actual rent/ownership cost, shared household costs, utilities and food divided among residents [S14]. $850 is an operator estimate of what an SSI-only resident can pay (2026 SSI federal benefit $994/month [S54]) while keeping spending money; it is below the modeled actual cost per resident, so it stays under the cap. Verify each resident's income."
+          },
+          {
+            "name": "HCS nursing billed — RN (nursing, other residential types)",
+            "payer": "Texas Medicaid (HCS waiver)",
+            "code": "G2292 (service code 13B)",
+            "rate": 43.39,
+            "unit": "per hour",
+            "units_per_client_month": 2,
+            "share_of_clients": 1.0,
+            "source_id": "S1",
+            "notes": "Billable only when nursing is on the individual's IPC. 2 hours per resident per month is an operator estimate — verify locally."
+          }
+        ],
+        "staffing": [
+          {
+            "role": "Direct support staff (residential service providers) — coverage hours",
+            "wage_hourly": 13.0,
+            "wage_source_id": "S1",
+            "basis": "hours_per_month",
+            "amount": 6138,
+            "cite": "26 TAC §263.5(20)-(21)",
+            "notes": "6 RSS homes × 1,023 h = staff hours funded by the HHSC 9/1/2025 attendant cost component for a 20% LON 5 / 40% LON 8 / 40% LON 6 mix [S1]. Wage = the $13.00 average attendant wage HHSC built into the 9/1/2025 rates [S1][S4]; BLS May 2025 Texas home health & personal care aides: median $11.65, 75th percentile $13.23 [S40]; Texas minimum wage $7.25 [S46]."
+          },
+          {
+            "role": "Program manager (oversees HCS services; 3 years' IDD experience required)",
+            "basis": "annual_salary",
+            "amount": 114780,
+            "wage_source_id": "S41",
+            "cite": "26 TAC §565.7(a)",
+            "notes": "1.5 FTE × Texas median social and community service manager wage $76,520 (BLS May 2025) [S41]."
+          },
+          {
+            "role": "Billing / IPC and office coordinator",
+            "basis": "annual_salary",
+            "amount": 42910,
+            "wage_source_id": "S44",
+            "cite": "",
+            "notes": "1 FTE × Texas median medical secretary/administrative assistant wage $42,910 (BLS May 2025) [S44]. Handles TMHP LTC Online Portal claims, IPC data and records."
+          },
+          {
+            "role": "Registered nurse (nursing assessments, delegation, medication oversight)",
+            "wage_hourly": 46.14,
+            "wage_source_id": "S42",
+            "basis": "hours_per_client_month",
+            "amount": 2.5,
+            "cite": "26 TAC §565.13; §565.23(h)(4)",
+            "notes": "Texas median RN $46.14 (BLS May 2025) [S42]. 2.5 h per resident per month (2 billable + 0.5 non-billable delegation/supervision) is an operator estimate — verify locally."
+          }
+        ],
+        "opex_overrides": [
+          {
+            "item": "Lease — residences",
+            "monthly": 17100,
+            "basis": "fixed",
+            "notes": "Six 4-bedroom houses at $2,850 each (Dallas ZORI $2,371 [S53] + ~20% four-bedroom premium, operator estimate).",
+            "source_id": "S53"
+          },
+          {
+            "item": "Utilities (electric, gas, water, trash)",
+            "monthly": 2400,
+            "basis": "fixed",
+            "notes": "$400 per home × 6 — operator estimate, verify locally."
+          },
+          {
+            "item": "Home maintenance, pest control, lawn, repairs",
+            "monthly": 1200,
+            "basis": "fixed",
+            "notes": "$200 per home × 6 — operator estimate."
+          },
+          {
+            "item": "Internet, landline and staff phones",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$150 per home × 6 — operator estimate."
+          },
+          {
+            "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+            "monthly": 4800,
+            "basis": "fixed",
+            "notes": "One vehicle per home × 6; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+          },
+          {
+            "item": "General and professional liability insurance",
+            "monthly": 2100,
+            "basis": "fixed",
+            "notes": "$350 per home × 6 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+          },
+          {
+            "item": "Training, CPR/first aid, background and registry checks",
+            "monthly": 900,
+            "basis": "fixed",
+            "notes": "$150 per home × 6 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+          },
+          {
+            "item": "Annual fire marshal inspection — four-person residences",
+            "monthly": 150,
+            "basis": "fixed",
+            "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 6 four-person homes = $150 — operator estimate of local fees, verify locally.",
+            "cite": "26 TAC §565.23(i)"
+          }
+        ],
+        "ramp": {
+          "start_clients": 8,
+          "add_per_month": 2,
+          "note": "Operator estimate; assumes growth from an operating agency that already serves several residents."
+        }
+      }
+    ],
+    "default_configuration": "hcs4_rss",
+    "payroll_burden": {
+      "payroll_tax_pct": 0.085,
+      "workers_comp_pct": 0.025,
+      "benefits_pct": 0.06,
+      "notes": "Employer FICA 7.65% [S49] + Texas SUTA 2.70% on the first $9,000 for new employers [S48] + FUTA ≈ 8.7% for a full-time DSP at $13.00 (FICA 7.65% + SUTA $243 + FUTA $42 on $27,040); more with part-time staff or turnover (up to 10.95% for staff earning under $9,000/year). The model uses 8.5% for payroll taxes within a 17% total burden. Workers' comp is elective in Texas [S47]; 2.5% is an operator estimate. Benefits 6% is an operator estimate. HHSC's rate assumes 15% total PTB for residential attendants [S1]; the model's 17% is slightly higher.",
+      "source_id": "S49"
+    },
+    "opex": [
+      {
+        "item": "Lease — residences",
+        "monthly": 2371,
+        "basis": "fixed",
+        "notes": "Base case: one 3-bedroom+ single-family house. Zillow Observed Rent Index (single-family), Dallas metro, Aug 2026: $2,371/month [S53]. Each configuration overrides this line for its number of homes. Rent is fixed whether beds are full or not.",
+        "source_id": "S53"
+      },
+      {
+        "item": "Utilities (electric, gas, water, trash)",
+        "monthly": 400,
+        "basis": "fixed",
+        "notes": "$400 per home × 1 — operator estimate, verify locally."
+      },
+      {
+        "item": "Home maintenance, pest control, lawn, repairs",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "$200 per home × 1 — operator estimate."
+      },
+      {
+        "item": "Internet, landline and staff phones",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "$150 per home × 1 — operator estimate."
+      },
+      {
+        "item": "Agency vehicle (payment or lease, auto insurance, fuel)",
+        "monthly": 800,
+        "basis": "fixed",
+        "notes": "One vehicle per home × 1; $800/month is an operator estimate. 26 TAC §565.9(c) allows only staff with a valid driver's license and insurance to transport individuals [S11]."
+      },
+      {
+        "item": "General and professional liability insurance",
+        "monthly": 350,
+        "basis": "fixed",
+        "notes": "$350 per home × 1 — operator estimate; no minimum was found in 26 TAC Ch. 263 or 565. Get quotes."
+      },
+      {
+        "item": "Training, CPR/first aid, background and registry checks",
+        "monthly": 150,
+        "basis": "fixed",
+        "notes": "$150 per home × 1 — operator estimate. Checks required by 26 TAC §565.9(b) [S11]."
+      },
+      {
+        "item": "Annual fire marshal inspection — four-person residences",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "Required before RSS starts and annually for each four-person residence (26 TAC §565.23(i)) [S13]; $25/month × 0 four-person homes = $0 — operator estimate of local fees, verify locally.",
+        "cite": "26 TAC §565.23(i)"
+      },
+      {
+        "item": "Accounting, payroll service and legal",
+        "monthly": 600,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Office, postage and supplies (home or small office)",
+        "monthly": 300,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Marketing and LIDDA / family outreach",
+        "monthly": 200,
+        "basis": "fixed",
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Texas franchise tax",
+        "monthly": 0,
+        "basis": "fixed",
+        "notes": "$0 tax due: revenue is below the $2,650,000 no-tax-due threshold for 2026 and 2027 reports; a report is still filed.",
+        "source_id": "S52"
+      },
+      {
+        "item": "Food (board) and household supplies",
+        "monthly": 360,
+        "basis": "per_client",
+        "notes": "$300 food + $60 household supplies per resident — operator estimate. Food cost is recovered through the board charge."
+      },
+      {
+        "item": "Records / EHR / billing software",
+        "monthly": 40,
+        "basis": "per_client",
+        "notes": "Operator estimate — get vendor quotes. HCS does not mandate a specific records system; SL/RSS are not EVV services [S35]."
+      }
+    ],
+    "startup_costs": [
+      {
+        "item": "Texas LLC Certificate of Formation (Form 205)",
+        "low": 300,
+        "high": 300,
+        "source_id": "S50"
+      },
+      {
+        "item": "Texas Medicaid (TMHP/PEMS) enrollment application fee",
+        "low": 0,
+        "high": 750,
+        "source_id": "S55",
+        "notes": "The federal application fee ($750 in CY 2026) applies only to provider types classified as institutional; TMHP tells you at enrollment whether it applies. Confirm before budgeting."
+      },
+      {
+        "item": "Fingerprint-based criminal history checks for owners and controlling persons",
+        "low": 100,
+        "high": 300,
+        "notes": "Operator estimate (vendor fingerprint fees vary). 26 TAC §52.29(a)(3)(B)(iv) requires DPS acknowledgment of the criminal history request for each controlling person.",
+        "source_id": "S18"
+      },
+      {
+        "item": "Policies and procedures manual (26 TAC Ch. 263/565, 52)",
+        "low": 2000,
+        "high": 8000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Lease deposits and first month's rent — residences",
+        "low": 4742,
+        "high": 34200,
+        "source_id": "S53",
+        "notes": "Deposit + first month: 1 home at $2,371 (low) to 6 homes at $2,850 (high). ZORI basis; 4-bedroom premium is an operator estimate."
+      },
+      {
+        "item": "Furniture, beds, appliances and housewares",
+        "low": 6000,
+        "high": 36000,
+        "notes": "$6,000 per home — operator estimate. Shared furniture and housewares can later be recovered through the room charge (26 TAC §565.27(a)(1)(B)) [S14]."
+      },
+      {
+        "item": "Safety items: smoke alarms in and outside bedrooms, extinguishers on each level, bedroom locks, hot-water control",
+        "low": 1000,
+        "high": 6000,
+        "notes": "$1,000 per home — operator estimate. Requirements in 26 TAC §565.23(b),(d) and §263.502 [S13][S29].",
+        "source_id": "S13"
+      },
+      {
+        "item": "Fire marshal inspection(s) before RSS in a four-person residence",
+        "low": 0,
+        "high": 900,
+        "notes": "Required for each four-person residence (26 TAC §565.23(i)); local fees vary — operator estimate, verify locally.",
+        "source_id": "S13"
+      },
+      {
+        "item": "Vehicle down payment(s)",
+        "low": 3000,
+        "high": 18000,
+        "notes": "$3,000 per home — operator estimate."
+      },
+      {
+        "item": "Insurance down payments (liability, auto, optional workers' comp)",
+        "low": 1500,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Computers, phones and records/billing software setup",
+        "low": 2000,
+        "high": 6000,
+        "notes": "Operator estimate."
+      },
+      {
+        "item": "Pre-opening hiring and training of direct support staff",
+        "low": 3000,
+        "high": 15000,
+        "notes": "Staff must be trained on each individual's needs before providing services (26 TAC §565.7(b)) [S10]. Operator estimate."
+      },
+      {
+        "item": "Pre-revenue overhead: program manager and office costs from contract approval to first enrollment (about 3 months)",
+        "low": 15000,
+        "high": 45000,
+        "category": "working_capital",
+        "notes": "Operator estimate. HCS pays nothing until an individual chooses you and an IPC is authorized; the generator replaces this advisory line with the modeled ramp-up deficit."
+      }
+    ]
+  },
+  "corrections_vs_previous": [
+    "Old report quoted September 2024 SL/RSS rates (LON 1 $149.08 … LON 9 $280.24) and described an optional rate enhancement program. Current rates (effective Sept. 1, 2025) are LON 1 $164.46, LON 5 $176.62, LON 8 $194.31, LON 6 $223.81, LON 9 $341.83, and the attendant compensation rate enhancement ended on Sept. 1, 2025 (HHSC rate sheet; IL 2025-21).",
+    "Old report said the rate assumes about $10.60/hour for DSPs. The 9/1/2025 rates are built on a $13.00 average attendant wage plus 15% payroll taxes and benefits (HHSC rate sheet; IL 2025-17).",
+    "Old licensing checklist routed applicants through Assisted Living Facility licensure (26 TAC Ch. 553, Type A/B, TULIP, $125 + $5/bed fee, 24-hour ALF manager course, ALF pre-licensure survey). HCS needs no facility license: the path is TMHP enrollment → PAT ≥85% → HHSC provisional contract (26 TAC Ch. 52) → initial certification survey within 120 days of the first enrollment (26 TAC §565.41); HHSC says no HCSSA license is needed.",
+    "Old report cited a federal Medicaid enrollment fee of ~$600 that 'would apply' to HCS agencies. The CY 2026 fee is $750 and applies only to institutional provider types; confirm with TMHP.",
+    "Old report put the HCS interest list at 'over 100,000' with 10–15-year waits. HHSC counted 135,497 on Aug. 31, 2026, with waits up to 17–19 years, and only 483 enrollments from the list in the first year of the biennium.",
+    "Old report presented the half-mile spacing rule as applying to every HCS home. It comes from Human Resources Code Ch. 123 for entities qualifying as 'community homes' and is not an HCS certification standard; confirm locally.",
+    "Old report's statements that minors cannot be placed in HCS four-person homes without a court order and that failing the PAT forces a six-month wait could not be verified and were removed.",
+    "Old report's unsourced market figures (~10,114 HCS group-home clients, 300+ providers, 43% of providers closing homes, ~139 Austin contracts) were removed.",
+    "Old report did not mention that four-person RSS homes need a fire marshal inspection and HHSC written approval before RSS begins and an annual re-inspection (26 TAC §§565.23(i), 565.43).",
+    "Old report did not state that room and board must be collected separately and capped at actual cost (26 TAC §565.27), which drives how rent is recovered."
+  ],
+  "verification_log": [
+    {
+      "issue": "Break-even DSP wage stated as ~$13.40; recomputed model gives ≈$13.62 (at $13.40 the default still nets ~+$1,074).",
+      "change": "Financial narrative now says ~$13.60 (break-even ≈ $13.62/hour)."
+    },
+    {
+      "issue": "not_claimed said exact FY2026 HCS cost limits were unverified; HHSC IL 2025-21 publishes them.",
+      "change": "Removed the not_claimed item; added the three cost limits to key_numbers (S5, 2025-09-01) and to the reimbursement 'Payment limits' paragraph. Merged 'Facility license required' into 'License and contract prerequisites' to keep key_numbers at 12 rows."
+    },
+    {
+      "issue": "sl3_single 637 h coverage relies on an unsourced ~130 h/month residents-away assumption.",
+      "change": "Labeled it 'operator estimate — verify locally' in the staffing note and added the 730 h sensitivity (−$5,135/month) to the financial narrative."
+    },
+    {
+      "issue": "Leadership/RN wages are Texas statewide medians while rent is Dallas ZORI (geography mismatch).",
+      "change": "Kept statewide inputs; added DFW sensitivity to the financial narrative (default ≈ +$2,220/month, six homes ≈ +$6,110) and DFW medians to S41/S42/S44 source titles."
+    },
+    {
+      "issue": "Payroll tax described as ≈8.5%; for a full-time $13.00 DSP it is ≈8.7% (more with turnover).",
+      "change": "Reworded payroll_burden notes and the financial narrative; model 17% total burden unchanged per finding."
+    },
+    {
+      "issue": "SL/RSS increase stated as 10–23%; actual LON 1–9 increases are 10.3%–22.0%.",
+      "change": "Changed to 10–22% in market_conditions."
+    },
+    {
+      "issue": "ACRE-ended clause in key_numbers cited S3 (1/1/2025 rate sheet), which does not say so.",
+      "change": "Cited S5 (IL 2025-21) inline and set source_ids to [S3, S5]."
+    },
+    {
+      "issue": "CAPM phone 512-438-3234 cited to S23, which lists no phone.",
+      "change": "regulators[0] now cites S24 (HCS provider page) with S23 kept alongside."
+    },
+    {
+      "issue": "S27 URL (hhs.texas.gov/node/17512) returns 404.",
+      "change": "Replaced with the live Form 3691-A page on fhb.hhs.texas.gov."
+    },
+    {
+      "issue": "Checklist implied annual DPS/sex offender re-checks; 26 TAC §565.9(b) requires DPS only before hire.",
+      "change": "Reworded so the 12-month repeat applies only to EMR/NAR."
+    },
+    {
+      "issue": "HCS policy email used legacy hcspolicy@hhsc.state.tx.us.",
+      "change": "Replaced with HCSPolicy@hhs.texas.gov (2 occurrences, regulators and contacts)."
+    },
+    {
+      "issue": "Fire marshal inspection notes showed home counts in parentheses that read as amounts (e.g. '(4)').",
+      "change": "Reworded to '$25/month × N four-person homes = $X — operator estimate of local fees, verify locally' in base opex and every configuration override."
+    },
+    {
+      "issue": "Whether the $750 federal application fee applies to HCS providers is unverifiable.",
+      "change": "No change; it stays in not_claimed and the startup range remains $0–$750."
+    },
+    {
+      "issue": "A blank line split the SL/RSS rate table in the reimbursement section.",
+      "change": "Removed the blank line so the table renders as one table."
+    }
+  ]
+}
