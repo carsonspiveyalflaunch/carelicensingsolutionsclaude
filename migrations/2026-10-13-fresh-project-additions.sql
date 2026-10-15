@@ -45,7 +45,7 @@ create policy "Owners can read their product files" on storage.objects
       where up.user_id = auth.uid()
         and up.is_active = true
         and (up.expires_at is null or up.expires_at > now())
-        and p.product_slug = (storage.foldername(name))[1]
+        and p.product_slug = (storage.foldername(storage.objects.name))[1]
     )
   );
 

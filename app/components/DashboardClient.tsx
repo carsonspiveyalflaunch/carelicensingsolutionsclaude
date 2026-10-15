@@ -21,6 +21,20 @@ import { useAuth } from "./AuthContext";
 import { supabase } from "../../utils/supabase";
 import { normalizeBundleFileLabel } from "@/lib/bundles";
 
+// Seeded placeholder lists (no url/path) must not hide the real files in storage.
+function hasUsableFiles(files: unknown): files is any[] {
+  return Array.isArray(files) && files.some((f: any) => f && (f.url || f.path));
+}
+
+function fileKind(file: any): string {
+  const name = String(file?.name || file?.path || "").toLowerCase();
+  if (name.endsWith(".pdf")) return "PDF";
+  if (name.endsWith(".docx") || name.endsWith(".doc")) return "Word";
+  if (name.endsWith(".xlsx") || name.endsWith(".xls")) return "Excel";
+  const type = String(file?.type || "");
+  return type && !type.includes("/") ? type : "Download";
+}
+
 interface DashboardClientProps {
   user: any;
   profile: any;
@@ -69,10 +83,7 @@ export default function DashboardClient({
 
       const bundlesNeedingFiles = activeBundles.filter((bundle) => {
         const metadataFiles = bundle.products?.metadata?.files;
-        return (
-          (!Array.isArray(metadataFiles) || metadataFiles.length === 0) &&
-          !!bundle.products?.product_slug
-        );
+        return !hasUsableFiles(metadataFiles) && !!bundle.products?.product_slug;
       });
 
       if (bundlesNeedingFiles.length === 0) {
@@ -195,10 +206,7 @@ export default function DashboardClient({
       activeBundles.map((bundle) => {
         const metadataFiles = bundle.products?.metadata?.files;
         const storedFiles = bundleFilesMap[bundle.id] || [];
-        const allFiles =
-          Array.isArray(metadataFiles) && metadataFiles.length > 0
-            ? metadataFiles
-            : storedFiles;
+        const allFiles = hasUsableFiles(metadataFiles) ? metadataFiles : storedFiles;
 
         // Don't filter here - filtering happens in the render section based on purchased_items
         return {
@@ -494,7 +502,12 @@ export default function DashboardClient({
                                   const fileSize = file.size
                                     ? `${(file.size / 1024).toFixed(1)} KB`
                                     : null;
-                                  const fileType = file.type || "Download";
+                                  const fileType = fileKind(file);
+                                  const isEditableManual =
+                                    fileLabel === "Policy & Procedure Manual" && fileType === "Word";
+                                  const displayLabel = isEditableManual
+                                    ? "Policy & Procedure Manual (Editable)"
+                                    : fileLabel;
 
                                   // Check if this file was purchased
                                   // If no purchased_items (complete bundle), all files are purchased
@@ -522,7 +535,7 @@ export default function DashboardClient({
                                       >
                                         <div className="min-w-0">
                                           <p className="font-semibold text-slate-950 capitalize">
-                                            {fileLabel}
+                                            {displayLabel}
                                           </p>
                                           <p className="text-xs text-emerald-600 font-medium mt-1">✓ Purchased</p>
                                         </div>
@@ -541,7 +554,7 @@ export default function DashboardClient({
                                       >
                                         <div className="min-w-0">
                                           <p className="font-semibold text-slate-600 capitalize">
-                                            {fileLabel}
+                                            {displayLabel}
                                           </p>
                                           <p className="text-xs text-red-500 font-medium mt-1">✗ You didn't purchase this file</p>
                                         </div>
