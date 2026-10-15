@@ -9,6 +9,8 @@ import { states as SHOP_STATES } from "@/app/data/shopData";
 const STATE_CODES: Record<string, string> = Object.fromEntries(SHOP_STATES.map((s) => [s.name, s.code]));
 import {
   PROGRAMS,
+  RESOURCE_LABEL,
+  bundleSlug,
   RESOURCE_TITLE,
   STATES,
   classifyPath,
@@ -36,6 +38,10 @@ export default function BulkImportPanel() {
   const [skipped, setSkipped] = useState<{ path: string; reason: string }[]>([]);
   const [status, setStatus] = useState<Status>("idle");
   const [done, setDone] = useState(0);
+  const [kept, setKept] = useState(0);
+  const [existingFiles, setExistingFiles] = useState<Record<string, string[]>>({});
+  const [checking, setChecking] = useState(false);
+  const [checkError, setCheckError] = useState("");
   const [failed, setFailed] = useState<{ item: PlannedUpload; error: string }[]>([]);
   const [runCount, setRunCount] = useState(0);
 
@@ -55,16 +61,36 @@ export default function BulkImportPanel() {
       for (const program of PROGRAMS.filter((p) => offered.includes(p))) {
         total += 1;
         const have = byBundle.get(`${state}|${program}`) || new Set<Resource>();
-        const missing = RESOURCES.filter((r) => !have.has(r));
+        const onSite = existingFiles[bundleSlug(state, program)] || [];
+        const missing = RESOURCES.filter(
+          (r) => !have.has(r) && !onSite.some((name) => name.startsWith(RESOURCE_LABEL[r])),
+        );
         if (missing.length === 0) complete += 1;
         else gaps.push({ state, program, missing: missing.map((r) => RESOURCE_TITLE[r]) });
       }
     }
     return { complete, gaps, total };
-  }, [plan]);
+  }, [plan, existingFiles]);
 
-  const onPick = (list: FileList | null) => {
+  const onPick = async (list: FileList | null) => {
     if (!list || list.length === 0) return;
+    setStatus("idle");
+    setChecking(true);
+    // Files already on the site (e.g. the verified 2026 rebuild) are never replaced:
+    // if a bundle already has a file of a given type, the older copy is skipped.
+    let existing: Record<string, string[]> = {};
+    try {
+      const res = await adminFetch("/api/admin/bundles/existing-files");
+      if (!res.ok) throw new Error();
+      existing = (await res.json()).existing || {};
+    } catch {
+      setChecking(false);
+      setCheckError("Could not check which files are already on the site, so nothing was planned. Try again.");
+      return;
+    }
+    setCheckError("");
+    setChecking(false);
+    setExistingFiles(existing);
     const map = new Map<string, File>();
     const skips: { path: string; reason: string }[] = [];
     const classified = [];
@@ -77,9 +103,13 @@ export default function BulkImportPanel() {
     }
     filesByPath.current = map;
     // Skip bundles this state doesn't sell (e.g. the P&L copy for programs a state lacks).
-    setPlan(
-      planUploads(classified).filter((p) => programsForState(STATE_CODES[p.state]).includes(p.program)),
+    const planned = planUploads(classified).filter((p) =>
+      programsForState(STATE_CODES[p.state]).includes(p.program),
     );
+    const alreadyThere = (p: PlannedUpload) =>
+      (existing[p.bundleSlug] || []).some((name) => name.startsWith(RESOURCE_LABEL[p.resource]));
+    setKept(planned.filter(alreadyThere).length);
+    setPlan(planned.filter((p) => !alreadyThere(p)));
     setSkipped(skips);
     setFailed([]);
     setDone(0);
@@ -154,13 +184,15 @@ export default function BulkImportPanel() {
         />
         <button
           type="button"
-          disabled={status === "uploading"}
+          disabled={status === "uploading" || checking}
           onClick={() => inputRef.current?.click()}
           className="mt-4 inline-flex items-center gap-2 rounded-md bg-emerald-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-emerald-800 disabled:opacity-50"
         >
           <FolderUp className="h-4 w-4" />
           {status === "idle" ? "Choose folder" : "Choose a different folder"}
         </button>
+        {checking && <p className="mt-3 text-sm text-slate-600">Checking which files are already on the site…</p>}
+        {checkError && <p className="mt-3 text-sm text-red-700">{checkError}</p>}
       </div>
 
       {status !== "idle" && (
@@ -181,6 +213,12 @@ export default function BulkImportPanel() {
               <p className="text-xs font-medium uppercase tracking-wide text-amber-800">Files skipped</p>
             </div>
           </div>
+          {kept > 0 && (
+            <p className="text-sm text-slate-700">
+              <span className="font-semibold">{kept.toLocaleString()}</span> files left out because those bundles
+              already have that file on the site (newer versions are never replaced).
+            </p>
+          )}
 
           {status === "ready" && (
             <button
