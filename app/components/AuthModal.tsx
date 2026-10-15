@@ -244,6 +244,12 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           </button>
         </div>
 
+        <div className="mt-3 text-center">
+          <a href="/access" className="text-sm text-slate-600 underline hover:text-slate-900">
+            Bought a bundle? Email me a login link instead
+          </a>
+        </div>
+
         
       </div>
     </div>

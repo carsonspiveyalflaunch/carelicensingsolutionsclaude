@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import AccessForm from '../access/AccessForm';
 import { useSearchParams } from 'next/navigation';
 import { CheckCircle, Loader } from 'lucide-react';
 import Link from 'next/link';
@@ -204,20 +205,14 @@ export default function CheckoutSuccessClient() {
           </div>
 
           {showAuthPrompt && !user && (
-            <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 mb-8">
-              <h3 className="font-semibold text-blue-900 mb-2 text-lg">Create Your Account</h3>
-              <p className="text-blue-800 mb-4">
-                Sign up now to access your purchased products and unlock exclusive dashboard features!
+            <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 mb-8 text-left">
+              <h3 className="font-semibold text-blue-900 mb-2 text-lg">Check your email for your downloads</h3>
+              <p className="text-blue-800">
+                We just emailed you a one-click login link to your downloads, no password needed. It can take a
+                minute to arrive; check your spam folder too.
               </p>
-              <button
-                onClick={() => openAuthModal()}
-                className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition"
-              >
-                Create Account / Sign In
-              </button>
-              <p className="text-sm text-gray-600 mt-4">
-                You can also browse our shop or contact support if you have any questions.
-              </p>
+              <p className="text-sm text-blue-900 font-semibold mt-4">Didn&apos;t get it? Send it again:</p>
+              <AccessForm />
             </div>
           )}
 
@@ -240,8 +235,8 @@ export default function CheckoutSuccessClient() {
 
           <div className="mt-8 text-sm text-gray-500">
             <p>
-              A confirmation email has been sent to your email address.
-              If you have any questions, please contact our support team.
+              Your login link was sent to the email you used at checkout. You can get a new one anytime at{' '}
+              <Link href="/access" className="underline">carelicensingsolution.com/access</Link>.
             </p>
           </div>
           </div>

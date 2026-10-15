@@ -36,6 +36,20 @@ export default function DashboardPage() {
           throw new Error('Supabase client not configured.');
         }
 
+        // Link any purchases made with this email (e.g. guest checkout) first.
+        try {
+          const { data: sess } = await supabase.auth.getSession();
+          const token = sess?.session?.access_token;
+          if (token) {
+            await fetch('/api/claim-purchases', {
+              method: 'POST',
+              headers: { Authorization: `Bearer ${token}` },
+            });
+          }
+        } catch (claimError) {
+          console.error('Claiming purchases failed:', claimError);
+        }
+
         const { data: userProductsData, error: userProductsError } = await supabase
           .from('user_products')
           .select(`

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { resolveProductForItem } from '@/lib/resolve-product';
 import Stripe from "stripe";
+import { deliverAccess } from "@/lib/purchase-access";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 
 const stripe = process.env.STRIPE_SECRET_KEY
@@ -204,9 +205,10 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       purchaseData.user_id = userId;
     }
 
+    // The success page may have recorded this session first; update that row.
     const { data: purchase, error: purchaseError } = await supabase
       .from('purchases')
-      .upsert(purchaseData)
+      .upsert(purchaseData, { onConflict: 'stripe_session_id' })
       .select()
       .single();
 
@@ -283,6 +285,17 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
             updated_at: new Date().toISOString(),
           })
           .eq('id', userId);
+      }
+    }
+
+    // Guest or not: create/confirm the buyer's account, attach this purchase,
+    // and email a one-click login link to their downloads.
+    if (!isCourseEnrollment && courseEmail) {
+      try {
+        const delivery = await deliverAccess(supabase, courseEmail, session.customer_details?.name || undefined);
+        console.log(`📧 Access delivery for ${purchase.id}:`, delivery.reason);
+      } catch (deliveryError) {
+        console.error('Access delivery failed:', deliveryError);
       }
     }
 
