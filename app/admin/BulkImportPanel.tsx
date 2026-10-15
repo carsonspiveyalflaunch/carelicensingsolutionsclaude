@@ -2,6 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import { FolderUp, CheckCircle2, AlertTriangle, Loader2, RotateCcw } from "lucide-react";
+import { unzip } from "fflate";
 import { adminFetch } from "@/utils/admin-fetch";
 import { programsForState } from "@/app/data/programAvailability";
 import { states as SHOP_STATES } from "@/app/data/shopData";
@@ -25,6 +26,29 @@ type Status = "idle" | "ready" | "uploading" | "done";
 const CONCURRENCY = 4;
 const RESOURCES: Resource[] = ["policy", "licensing", "market", "pnl"];
 
+// Google Drive splits big downloads into several zips; each is unpacked in the browser
+// and only PDF/Excel files are kept (everything else is skipped by the classifier anyway).
+function filesFromZip(zip: File): Promise<{ path: string; file: File }[]> {
+  return zip.arrayBuffer().then(
+    (buf) =>
+      new Promise((resolve, reject) => {
+        unzip(
+          new Uint8Array(buf),
+          { filter: (f) => !f.name.endsWith("/") && !f.name.includes("__MACOSX") && /\.(pdf|xlsx|xls)$/i.test(f.name) },
+          (err, entries) => {
+            if (err) return reject(err);
+            resolve(
+              Object.entries(entries).map(([path, data]) => {
+                const name = path.split("/").pop() || path;
+                return { path, file: new File([data as BlobPart], name, { type: contentTypeFor(name) }) };
+              }),
+            );
+          },
+        );
+      }),
+  );
+}
+
 function fileFromInput(file: File, name: string): File {
   // Some browsers leave .xlsx with an empty MIME type; the upload route rejects those.
   const type = file.type || contentTypeFor(name);
@@ -34,6 +58,8 @@ function fileFromInput(file: File, name: string): File {
 export default function BulkImportPanel() {
   const inputRef = useRef<HTMLInputElement>(null);
   const filesByPath = useRef<Map<string, File>>(new Map());
+  const zipRef = useRef<HTMLInputElement>(null);
+  const [unzipping, setUnzipping] = useState(false);
   const [plan, setPlan] = useState<PlannedUpload[]>([]);
   const [skipped, setSkipped] = useState<{ path: string; reason: string }[]>([]);
   const [status, setStatus] = useState<Status>("idle");
@@ -72,8 +98,8 @@ export default function BulkImportPanel() {
     return { complete, gaps, total };
   }, [plan, existingFiles]);
 
-  const onPick = async (list: FileList | null) => {
-    if (!list || list.length === 0) return;
+  const onPick = async (list: { path: string; file: File }[]) => {
+    if (list.length === 0) return;
     setStatus("idle");
     setChecking(true);
     // Files already on the site (e.g. the verified 2026 rebuild) are never replaced:
@@ -94,8 +120,7 @@ export default function BulkImportPanel() {
     const map = new Map<string, File>();
     const skips: { path: string; reason: string }[] = [];
     const classified = [];
-    for (const file of Array.from(list)) {
-      const path = (file as any).webkitRelativePath || file.name;
+    for (const { path, file } of list) {
       map.set(path, file);
       const c = classifyPath(path);
       if (c.targets.length === 0) skips.push({ path, reason: c.skipReason || "Not matched" });
@@ -167,10 +192,11 @@ export default function BulkImportPanel() {
       <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-slate-950">Import bundle files</h2>
         <p className="mt-2 text-sm text-slate-600">
-          Pick the unzipped Care Licensing Solutions folder from Google Drive. Every policy manual,
+          Pick the Care Licensing Solutions folder (or its .zip files) from Google Drive. Every policy manual,
           licensing checklist, market research report and P&amp;L template is matched to its state
-          and program bundle automatically. Review the summary, then start the upload. Running it
-          again replaces files instead of duplicating them.
+          and program bundle automatically. Review the summary, then start the upload. You can also pick
+          the .zip files Google Drive gives you (select all of them at once). Files a bundle already has on the
+          site are never replaced, so newer versions stay put.
         </p>
         <input
           ref={inputRef}
@@ -180,7 +206,36 @@ export default function BulkImportPanel() {
           // @ts-expect-error: directory picking is supported by every current browser
           webkitdirectory=""
           directory=""
-          onChange={(e) => onPick(e.target.files)}
+          onChange={(e) =>
+            onPick(
+              Array.from(e.target.files || []).map((file) => ({
+                path: file.webkitRelativePath || file.name,
+                file,
+              })),
+            )
+          }
+        />
+        <input
+          ref={zipRef}
+          type="file"
+          multiple
+          accept=".zip,application/zip"
+          className="hidden"
+          onChange={async (e) => {
+            const zips = Array.from(e.target.files || []);
+            e.target.value = "";
+            if (zips.length === 0) return;
+            setUnzipping(true);
+            setCheckError("");
+            try {
+              const all = (await Promise.all(zips.map(filesFromZip))).flat();
+              setUnzipping(false);
+              await onPick(all);
+            } catch {
+              setUnzipping(false);
+              setCheckError("Could not open one of those zip files. Re-download it and try again.");
+            }
+          }}
         />
         <button
           type="button"
@@ -191,6 +246,16 @@ export default function BulkImportPanel() {
           <FolderUp className="h-4 w-4" />
           {status === "idle" ? "Choose folder" : "Choose a different folder"}
         </button>
+        <button
+          type="button"
+          disabled={status === "uploading" || checking || unzipping}
+          onClick={() => zipRef.current?.click()}
+          className="mt-4 ml-3 inline-flex items-center gap-2 rounded-md border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50 disabled:opacity-50"
+        >
+          <FolderUp className="h-4 w-4" />
+          Choose .zip files
+        </button>
+        {unzipping && <p className="mt-3 text-sm text-slate-600">Opening zip files…</p>}
         {checking && <p className="mt-3 text-sm text-slate-600">Checking which files are already on the site…</p>}
         {checkError && <p className="mt-3 text-sm text-red-700">{checkError}</p>}
       </div>
