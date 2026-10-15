@@ -151,7 +151,7 @@ states.forEach((s) => {
       title: `${s.name} ${program} Complete Bundle`,
       description: "Everything you need in one complete package",
       tags: [s.name, program],
-      price: 1297,
+      price: 997,
       format: "PDF Format",
       download: true,
       flag: s.flag,

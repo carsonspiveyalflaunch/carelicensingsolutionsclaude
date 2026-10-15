@@ -92,7 +92,7 @@ export async function POST(request: NextRequest) {
     }
 
     const discountAmount = (subtotal * discountPercent) / 100;
-    const taxRate = 0.08; // 8% tax
+    const taxRate = 0; // No sales tax on digital products
     const taxAmount = (subtotal - discountAmount) * taxRate;
     const total = subtotal - discountAmount + taxAmount;
 
@@ -123,21 +123,6 @@ export async function POST(request: NextRequest) {
       },
       quantity: item.quantity || 1,
     }));
-
-    // Add tax as a separate line item if needed
-    if (taxAmount > 0) {
-      lineItems.push({
-        price_data: {
-          currency: 'usd',
-          product_data: {
-            name: 'Tax (8%)',
-            description: 'Sales tax',
-          },
-          unit_amount: Math.round(taxAmount * 100),
-        },
-        quantity: 1,
-      });
-    }
 
     // Apply discount if any
     const discounts = discountPercent > 0 ? [{

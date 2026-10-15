@@ -66,8 +66,7 @@ ${items.map((item) => `- ${item.name}: $${item.price.toFixed(2)}`).join("\n")}
 
 PRICING:
 Subtotal: $${subtotal.toFixed(2)}
-${discount > 0 ? `Discount: -$${discount.toFixed(2)}\n` : ""}Tax (8%): $${tax.toFixed(2)}
----
+${discount > 0 ? `Discount: -$${discount.toFixed(2)}\n` : ""}${tax > 0 ? `Tax: $${tax.toFixed(2)}\n` : ""}---
 TOTAL: $${total.toFixed(2)}
 
 DOWNLOADS:
@@ -203,12 +202,14 @@ Thank you for your purchase!
                 <span>-${discount.toFixed(2)}</span>
               </div>
             )}
+            {tax > 0 && (
             <div className="flex justify-between mb-2 text-xs md:text-sm">
-              <span className="text-gray-600">Tax (8%)</span>
+              <span className="text-gray-600">Tax</span>
               <span className="text-black font-semibold">
                 ${tax.toFixed(2)}
               </span>
             </div>
+            )}
             <div className="flex justify-between border-t pt-2 md:pt-3">
               <span className="text-black font-bold text-base md:text-lg">Total</span>
               <span className="text-black font-bold text-base md:text-lg">

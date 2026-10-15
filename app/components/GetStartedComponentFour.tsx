@@ -21,7 +21,7 @@ export default function GetStartedComponentFour({
 
   // Calculate totals from cart items
   const subtotal = items.reduce((sum, item) => sum + item.price * (item.quantity || 1), 0);
-  const taxRate = 0.08; // 8% tax
+  const taxRate = 0; // No sales tax on digital products
   const taxAmount = subtotal * taxRate;
   const total = subtotal + taxAmount;
   return (
@@ -84,13 +84,9 @@ export default function GetStartedComponentFour({
                   </button>
                 </div>
               </div>
-              <div className="flex justify-between mb-2 text-sm md:text-base">
+              <div className="flex justify-between mb-4 text-sm md:text-base">
                 <span className="text-gray-700">Subtotal</span>
                 <span className="font-semibold text-gray-700">${subtotal.toFixed(2)}</span>
-              </div>
-              <div className="flex justify-between mb-4 text-sm md:text-base">
-                <span className="text-gray-700">Tax (8%)</span>
-                <span className="font-semibold text-gray-700">${taxAmount.toFixed(2)}</span>
               </div>
               <div className="flex justify-between text-base md:text-lg font-bold mb-4">
                 <span className="text-gray-700">Total</span>

@@ -304,7 +304,7 @@ export default function CheckoutClient() {
     0,
   );
   const discountAmount = (subtotal * discountPercent) / 100;
-  const taxRate = 0.08; // 8% tax
+  const taxRate = 0; // No sales tax on digital products
   const taxAmount = (subtotal - discountAmount) * taxRate;
   const total = subtotal - discountAmount + taxAmount;
 
@@ -377,12 +377,6 @@ export default function CheckoutClient() {
               </span>
             </div>
           )}
-          <div className="flex justify-between mb-2 text-xs md:text-sm">
-            <span className="text-gray-600">Tax (8%)</span>
-            <span className="font-semibold text-black">
-              ${taxAmount.toFixed(2)}
-            </span>
-          </div>
           <div className="flex justify-between border-t pt-2 md:pt-3">
             <span className="font-bold text-base md:text-lg text-gray-600">Total</span>
             <span className="font-bold text-base md:text-lg text-black">
