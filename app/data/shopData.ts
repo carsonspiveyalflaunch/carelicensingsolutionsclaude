@@ -83,7 +83,6 @@ export const programCategories = [
   "Personal Home Care",
   "Residential Care (DD)",
   "Residential Treatment (Children)",
-  "Intermediate Care Facilities",
   "Ambulatory Surgical Centers",
 ];
 

@@ -13,7 +13,6 @@ import {
   Activity,
   Heart,
   Shield,
-  Building2,
   Syringe,
   ArrowRight,
 } from "lucide-react";
@@ -36,7 +35,6 @@ const programs: { title: string; slug: string; icon: any }[] = [
   { title: "Personal Home Care", slug: programCards.find(p => p.title === "Personal Home Care")?.slug || "", icon: Activity },
   { title: "Residential Care (DD)", slug: programCards.find(p => p.title === "Residential Care (DD)")?.slug || "", icon: Heart },
   { title: "Residential Treatment (Children)", slug: programCards.find(p => p.title === "Residential Treatment (Children)")?.slug || "", icon: Shield },
-  { title: "Intermediate Care Facilities", slug: programCards.find(p => p.title === "Intermediate Care Facilities")?.slug || "", icon: Building2 },
   { title: "Ambulatory Surgical Centers", slug: programCards.find(p => p.title === "Ambulatory Surgical Centers")?.slug || "", icon: Syringe },
 ];
 

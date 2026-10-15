@@ -25,7 +25,6 @@ export const PROGRAMS = [
   'Personal Home Care',
   'Residential Care (DD)',
   'Residential Treatment (Children)',
-  'Intermediate Care Facilities',
   'Ambulatory Surgical Centers',
 ] as const;
 export type Program = (typeof PROGRAMS)[number];
@@ -93,7 +92,7 @@ export function classifyProgram(raw: string): Program | null {
   if (!n) return null;
 
   if (/ambulatory|surg/.test(n)) return 'Ambulatory Surgical Centers';
-  if (/intermediate care/.test(n)) return 'Intermediate Care Facilities';
+  if (/intermediate care/.test(n)) return null; // ICF/IID no longer sold
   if (/residential treatment|\brtf\b|childrens rtf/.test(n)) return 'Residential Treatment (Children)';
   if (/group homes? for children|children group ?home|dd children group ?home/.test(n)) return 'Group Homes for Children';
   if (/hospice/.test(n)) return 'Hospice Programs';

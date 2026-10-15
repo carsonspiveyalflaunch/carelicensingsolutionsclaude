@@ -117,10 +117,6 @@ export default function GetStartedSteps() {
         desc: "Licensed residential treatment for children services",
       },
       {
-        key: "Intermediate Care Facilities",
-        desc: "Licensed intermediate care facility services",
-      },
-      {
         key: "Ambulatory Surgical Centers",
         desc: "Licensed ambulatory surgical center services",
       },
