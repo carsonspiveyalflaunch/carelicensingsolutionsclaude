@@ -247,10 +247,13 @@ export function planUploads(classified: Classified[]): PlannedUpload[] {
       const key = `${slug}|${t.resource}`;
       const n = (counts.get(key) || 0) + 1;
       counts.set(key, n);
+      // One file per resource per bundle: extra copies in the export would show
+      // buyers the same item twice, so only the first (by path) is kept.
+      if (n > 1) continue;
       plan.push({
         path: c.path,
         bundleSlug: slug,
-        label: n === 1 ? RESOURCE_LABEL[t.resource] : `${RESOURCE_LABEL[t.resource]}-${n}`,
+        label: RESOURCE_LABEL[t.resource],
         state: t.state,
         program: t.program,
         resource: t.resource,

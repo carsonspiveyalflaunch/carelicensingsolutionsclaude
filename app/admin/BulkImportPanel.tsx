@@ -59,6 +59,28 @@ export default function BulkImportPanel() {
   const inputRef = useRef<HTMLInputElement>(null);
   const filesByPath = useRef<Map<string, File>>(new Map());
   const zipRef = useRef<HTMLInputElement>(null);
+  const [cleaning, setCleaning] = useState(false);
+  const [cleanResult, setCleanResult] = useState("");
+
+  // Deletes numbered extra copies (e.g. "...-2.pdf") where the main file exists.
+  const removeDuplicates = async () => {
+    setCleaning(true);
+    setCleanResult("");
+    try {
+      const res = await adminFetch("/api/admin/bundles/remove-duplicates", { method: "POST" });
+      const body = await res.json().catch(() => ({}));
+      setCleanResult(
+        res.ok
+          ? body.removed > 0
+            ? `Removed ${body.removed} duplicate files. Each bundle now has one copy of each file.`
+            : "No duplicates found."
+          : body.error || `Cleanup failed (${res.status})`,
+      );
+    } catch {
+      setCleanResult("Cleanup failed. Try again.");
+    }
+    setCleaning(false);
+  };
   const [unzipping, setUnzipping] = useState(false);
   const [plan, setPlan] = useState<PlannedUpload[]>([]);
   const [skipped, setSkipped] = useState<{ path: string; reason: string }[]>([]);
@@ -255,6 +277,15 @@ export default function BulkImportPanel() {
           <FolderUp className="h-4 w-4" />
           Choose .zip files
         </button>
+        <button
+          type="button"
+          disabled={status === "uploading" || cleaning}
+          onClick={removeDuplicates}
+          className="mt-4 ml-3 inline-flex items-center gap-2 rounded-md border border-red-200 px-4 py-2.5 text-sm font-semibold text-red-800 hover:bg-red-50 disabled:opacity-50"
+        >
+          {cleaning ? "Removing duplicates…" : "Remove duplicate copies"}
+        </button>
+        {cleanResult && <p className="mt-3 text-sm text-slate-700">{cleanResult}</p>}
         {unzipping && <p className="mt-3 text-sm text-slate-600">Opening zip files…</p>}
         {checking && <p className="mt-3 text-sm text-slate-600">Checking which files are already on the site…</p>}
         {checkError && <p className="mt-3 text-sm text-red-700">{checkError}</p>}
