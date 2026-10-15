@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { FolderUp, Loader2 } from "lucide-react";
+import { unzipSync } from "fflate";
 import { adminFetch } from "@/utils/admin-fetch";
 
 // Uploads verified bundle folders straight from the admin's computer, so the paid files never
@@ -30,10 +31,12 @@ const TARGETS: { match: RegExp; label: string; type: string }[] = [
 type Planned = { slug: string; files: { file: File; label: string; type: string }[] };
 type Result = { ok: boolean; message: string };
 
-function planFrom(list: FileList): Planned[] {
+type Picked = { path: string; file: File };
+
+function planFrom(list: Picked[]): Planned[] {
   const bySlug = new Map<string, Planned>();
-  for (const file of Array.from(list)) {
-    const parts = (file.webkitRelativePath || file.name).split("/");
+  for (const { path, file } of list) {
+    const parts = path.split("/");
     const slug = parts.slice(0, -1).reverse().find((p: string) => /^[a-z0-9-]+-complete-bundle$/.test(p));
     const target = TARGETS.find((t) => t.match.test(file.name));
     if (!slug || !target) continue;
@@ -44,8 +47,22 @@ function planFrom(list: FileList): Planned[] {
   return [...bySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
+// Unpacks a .zip of bundle folders in the browser; only bundle files are kept.
+async function filesFromZip(zip: File): Promise<Picked[]> {
+  const entries = unzipSync(new Uint8Array(await zip.arrayBuffer()), {
+    filter: (f) => !f.name.endsWith("/") && !f.name.includes("__MACOSX") && TARGETS.some((t) => t.match.test(f.name)),
+  });
+  return Object.entries(entries).map(([path, data]) => {
+    const name = path.split("/").pop() || path;
+    const type = TARGETS.find((t) => t.match.test(name))?.type || "";
+    return { path, file: new File([data as BlobPart], name, { type }) };
+  });
+}
+
 export default function VerifiedFolderUpload() {
   const inputRef = useRef<HTMLInputElement>(null);
+  const zipRef = useRef<HTMLInputElement>(null);
+  const [reading, setReading] = useState(false);
   const [plan, setPlan] = useState<Planned[]>([]);
   const [running, setRunning] = useState(false);
   const [results, setResults] = useState<Record<string, Result>>({});
@@ -82,7 +99,7 @@ export default function VerifiedFolderUpload() {
     <div className="mt-5 border-t border-slate-100 pt-5">
       <h3 className="text-sm font-semibold text-slate-900">Upload from your computer</h3>
       <p className="mt-1 text-sm text-slate-600">
-        Choose the folder that holds the <code>…-complete-bundle</code> folders. Files go straight to storage and
+        Choose the bundles .zip file (or the unzipped folder that holds the <code>…-complete-bundle</code> folders). Files go straight to storage and
         replace the older files for each bundle.
       </p>
       <input
@@ -95,10 +112,39 @@ export default function VerifiedFolderUpload() {
         webkitdirectory=""
         onChange={(e) => {
           setResults({});
-          setPlan(e.target.files ? planFrom(e.target.files) : []);
+          setPlan(planFrom(Array.from(e.target.files || []).map((f) => ({ path: f.webkitRelativePath || f.name, file: f }))));
+        }}
+      />
+      <input
+        ref={zipRef}
+        type="file"
+        accept=".zip,application/zip"
+        className="hidden"
+        aria-label="Verified bundles zip"
+        onChange={async (e) => {
+          const zip = e.target.files?.[0];
+          e.target.value = "";
+          if (!zip) return;
+          setResults({});
+          setReading(true);
+          try {
+            setPlan(planFrom(await filesFromZip(zip)));
+          } catch {
+            setPlan([]);
+            setResults({ zip: { ok: false, message: "Could not read that zip file." } });
+          }
+          setReading(false);
         }}
       />
       <div className="mt-3 flex flex-wrap items-center gap-3">
+        <button
+          type="button"
+          disabled={running || reading}
+          onClick={() => zipRef.current?.click()}
+          className="inline-flex items-center gap-2 rounded-md border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 disabled:opacity-50"
+        >
+          {reading ? <Loader2 className="h-4 w-4 animate-spin" /> : <FolderUp className="h-4 w-4" />} Choose bundles .zip
+        </button>
         <button
           type="button"
           disabled={running}
@@ -118,7 +164,8 @@ export default function VerifiedFolderUpload() {
             Upload {plan.length} bundles ({plan.reduce((n, b) => n + b.files.length, 0)} files)
           </button>
         )}
-        {(done > 0 || failed > 0) && (
+        {results.zip && !results.zip.ok && <span className="text-sm text-red-700">{results.zip.message}</span>}
+        {(done > 0 || failed > 0) && !results.zip && (
           <span className="text-sm text-slate-700">
             {done} uploaded{failed > 0 && <span className="text-red-700"> · {failed} failed</span>}
           </span>
