@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { CheckCircle, Loader } from 'lucide-react';
 import Link from 'next/link';
+import { SKOOL_COMMUNITY_URL } from "@/lib/community";
 import { useAuth } from '../components/AuthContext';
 import { useAuthModal } from '../components/AuthModalContext';
 import AuthModal from '../components/AuthModal';
@@ -185,6 +186,22 @@ export default function CheckoutSuccessClient() {
               </div>
             </div>
           )}
+
+          <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6 mb-8 text-left">
+            <h3 className="font-semibold text-emerald-900 text-lg">Your community access is included</h3>
+            <p className="text-emerald-900/80 mt-1 mb-4">
+              Join the Care Licensing Solutions community on Skool to ask questions, get updates and connect with other
+              owners going through licensing.
+            </p>
+            <a
+              href={SKOOL_COMMUNITY_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-3 px-6 rounded-lg transition"
+            >
+              Join the Community
+            </a>
+          </div>
 
           {showAuthPrompt && !user && (
             <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 mb-8">

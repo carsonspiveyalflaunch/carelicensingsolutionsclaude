@@ -20,6 +20,7 @@ import Swal from "sweetalert2";
 import { useAuth } from "./AuthContext";
 import { supabase } from "../../utils/supabase";
 import { normalizeBundleFileLabel } from "@/lib/bundles";
+import { SKOOL_COMMUNITY_URL } from "@/lib/community";
 
 // Seeded placeholder lists (no url/path) must not hide the real files in storage.
 function hasUsableFiles(files: unknown): files is any[] {
@@ -322,6 +323,17 @@ export default function DashboardClient({
                 Your purchased bundles and secure downloads are ready.
                 Everything you own is organized in one modern command center.
               </p>
+              {activeBundles.length > 0 && (
+                <a
+                  href={SKOOL_COMMUNITY_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-emerald-900 transition hover:bg-emerald-50"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  Join your Skool community
+                </a>
+              )}
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">

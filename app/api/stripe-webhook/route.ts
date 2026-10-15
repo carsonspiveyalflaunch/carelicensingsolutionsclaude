@@ -322,6 +322,19 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       course_email: courseEmail,
     });
 
+    // Every bundle buyer also gets the Skool community (same Zapier hook the course uses).
+    const boughtBundle = enrichedItems.some((item) => String(item.product_slug || '').endsWith('-complete-bundle'));
+    if (boughtBundle && !isCourseEnrollment && courseEmail) {
+      await sendSkoolInvite({
+        event: 'bundle_purchase_send_skool_invite',
+        customer_email: courseEmail,
+        customer_name: session.customer_details?.name || `${customerInfo.firstName || ''} ${customerInfo.lastName || ''}`.trim(),
+        bundles: enrichedItems.map((item) => item.name).filter(Boolean).join(', '),
+        purchase_id: purchase.id,
+        purchase_date: new Date().toISOString(),
+      });
+    }
+
     // Handle course enrollment specific automations
     if (isCourseEnrollment) {
       console.log(`🎓 Course Enrollment Detected for ${courseEmail}`);
@@ -417,6 +430,24 @@ async function handlePaymentFailed(paymentIntent: Stripe.PaymentIntent, supabase
     .from('purchases')
     .update({ status: 'failed' })
     .eq('stripe_payment_intent_id', paymentIntent.id);
+}
+
+async function sendSkoolInvite(payload: Record<string, unknown>) {
+  const url = process.env.SKOOL_INVITE_WEBHOOK_URL;
+  if (!url) {
+    console.log('SKOOL_INVITE_WEBHOOK_URL not set; skipping Skool invite');
+    return;
+  }
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    console.log(`Skool invite hook responded ${res.status}`);
+  } catch (error) {
+    console.error('Skool invite hook failed:', error);
+  }
 }
 
 async function sendToZapier(data: any) {
