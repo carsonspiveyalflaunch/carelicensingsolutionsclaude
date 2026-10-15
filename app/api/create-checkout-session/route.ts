@@ -167,7 +167,7 @@ export async function POST(request: NextRequest) {
       success_url: successUrl || `${process.env.NEXT_PUBLIC_SITE_URL}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: cancelUrl || `${process.env.NEXT_PUBLIC_SITE_URL}/checkout`,
       // Stripe rejects promotion codes alongside an applied discount.
-      ...(discounts ? {} : { allow_promotion_codes: true }),
+      ...(discounts.length ? {} : { allow_promotion_codes: true }),
     });
 
     return NextResponse.json({
