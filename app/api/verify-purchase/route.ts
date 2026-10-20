@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 import { resolveProductForItem } from "@/lib/resolve-product";
+import { readItemsMetadata } from "@/lib/stripe-items";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -188,7 +189,7 @@ export async function GET(request: NextRequest) {
       }
 
       const customerInfo = sessionCustomerInfo;
-      const items = JSON.parse(session.metadata?.items || '[]');
+      const items = readItemsMetadata(session.metadata);
 
       // Build purchased_items map directly from items
       for (const item of items) {
