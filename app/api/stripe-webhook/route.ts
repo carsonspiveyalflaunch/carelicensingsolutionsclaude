@@ -3,6 +3,7 @@ import { resolveProductForItem } from '@/lib/resolve-product';
 import Stripe from "stripe";
 import { deliverAccess } from "@/lib/purchase-access";
 import { readItemsMetadata } from "@/lib/stripe-items";
+import { orderTotals, buyerName } from "@/lib/stripe-order";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 
 const stripe = process.env.STRIPE_SECRET_KEY
@@ -93,11 +94,12 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     
     console.log('  - isGuestCheckout:', isGuestCheckout);
 
-    const discountCode = session.metadata?.discount_code || '';
     const discountPercent = parseFloat(session.metadata?.discount_percent || '0');
     const taxAmount = parseFloat(session.metadata?.tax_amount || '0');
     const subtotal = parseFloat(session.metadata?.subtotal || '0');
-    const total = parseFloat(session.metadata?.total || '0');
+    const paid = await orderTotals(stripe, session);
+    const total = paid.total;
+    const discountCode = paid.discountCode;
     const customerInfo = JSON.parse(session.metadata?.customer_info || '{}');
     const items = readItemsMetadata(session.metadata);
     const courseEmail = session.customer_details?.email || session.metadata?.customer_email || customerInfo.email;
@@ -189,12 +191,12 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       stripe_payment_intent_id: session.payment_intent as string,
       amount: total,
       discount_code: discountCode,
-      discount_amount: (subtotal * discountPercent) / 100,
+      discount_amount: paid.discountAmount,
       tax_amount: taxAmount,
       status: 'completed',
       metadata: {
         customer_email: courseEmail,
-        customer_name: session.customer_details?.name || `${session.customer_details?.name || ''}`.trim() || 'Course Enrollee',
+        customer_name: buyerName(session, customerInfo, courseEmail),
         customer_info: customerInfo,
         items: enrichedItems,
         stripe_session: session,
@@ -316,7 +318,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       customer_email: courseEmail,
       customer_first_name: session.customer_details?.name?.split(' ')[0] || customerInfo.firstName || null,
       customer_last_name: session.customer_details?.name?.split(' ').slice(1).join(' ') || customerInfo.lastName || null,
-      customer_name: session.customer_details?.name || `${customerInfo.firstName || ''} ${customerInfo.lastName || ''}`.trim(),
+      customer_name: buyerName(session, customerInfo, courseEmail),
       products: enrichedItems,
       skool_course_ids: skoolCourseIds,
       skool_course_ids_string: skoolCourseIds.join(', '),
@@ -337,12 +339,17 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     });
 
     // Every bundle buyer also gets the Skool community (same Zapier hook the course uses).
-    const boughtBundle = enrichedItems.some((item) => String(item.product_slug || '').endsWith('-complete-bundle'));
+    // Single resources (purchased_item) carry their bundle's slug, so exclude them explicitly.
+    const boughtBundle = enrichedItems.some((item: any) => {
+      if (item.purchased_item) return false;
+      const slug = String(item.product_slug || '');
+      return slug.endsWith('-complete-bundle') || slug.startsWith('bundle-');
+    });
     if (boughtBundle && !isCourseEnrollment && courseEmail) {
       await sendSkoolInvite({
         event: 'bundle_purchase_send_skool_invite',
         customer_email: courseEmail,
-        customer_name: session.customer_details?.name || `${customerInfo.firstName || ''} ${customerInfo.lastName || ''}`.trim(),
+        customer_name: buyerName(session, customerInfo, courseEmail),
         bundles: enrichedItems.map((item) => item.name).filter(Boolean).join(', '),
         purchase_id: purchase.id,
         purchase_date: new Date().toISOString(),
@@ -358,7 +365,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
         user_id: userId,
         purchase_id: purchase.id,
         customer_email: courseEmail,
-        customer_name: session.customer_details?.name || `${customerInfo.firstName || ''} ${customerInfo.lastName || ''}`.trim(),
+        customer_name: buyerName(session, customerInfo, courseEmail),
         course_type: session.metadata?.course_type || 'operational-success-academy',
         amount: total,
         stripe_session_id: session.id,

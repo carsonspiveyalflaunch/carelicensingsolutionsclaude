@@ -3,6 +3,7 @@ import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 import { resolveProductForItem } from "@/lib/resolve-product";
 import { readItemsMetadata } from "@/lib/stripe-items";
+import { orderTotals, buyerName } from "@/lib/stripe-order";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -206,8 +207,9 @@ export async function GET(request: NextRequest) {
       const discountPercent = parseFloat(session.metadata?.discount_percent || '0');
       const taxAmount = parseFloat(session.metadata?.tax_amount || '0');
       const subtotal = parseFloat(session.metadata?.subtotal || '0');
-      const total = parseFloat(session.metadata?.total || '0');
-      const discountCode = session.metadata?.discount_code || '';
+      const paid = await orderTotals(stripe, session);
+      const total = paid.total;
+      const discountCode = paid.discountCode;
       const courseEmail = session.customer_details?.email || session.metadata?.customer_email || customerInfo.email;
 
       const purchaseData: any = {
@@ -215,11 +217,12 @@ export async function GET(request: NextRequest) {
         stripe_payment_intent_id: session.payment_intent as string,
         amount: total,
         discount_code: discountCode,
-        discount_amount: (subtotal * discountPercent) / 100,
+        discount_amount: paid.discountAmount,
         tax_amount: taxAmount,
         status: 'completed',
         metadata: {
           customer_email: courseEmail,
+          customer_name: buyerName(session, customerInfo, courseEmail),
           customer_info: customerInfo,
           items,
           stripe_session: session,
@@ -360,6 +363,12 @@ export async function GET(request: NextRequest) {
       status: purchase.status,
       created_at: purchase.created_at,
       products: purchase.user_products?.map((up: any) => up.products) || [],
+      // Skool community comes with bundles and the course, not single resources.
+      includes_community: (Array.isArray(purchase.metadata?.items) ? purchase.metadata.items : []).some((item: any) => {
+        if (item?.purchased_item) return false;
+        const slug = String(item?.product_slug || '');
+        return slug.endsWith('-complete-bundle') || slug.startsWith('bundle-') || slug.startsWith('course-');
+      }),
     });
   } catch (error: any) {
     console.error("Purchase verification failed:", error);

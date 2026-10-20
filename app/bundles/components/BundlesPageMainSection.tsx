@@ -122,15 +122,10 @@ export default function BundlesPageMainSection() {
 
   return (
     <>
-      {/* Countdown Banner */}
+      {/* Delivery banner */}
       <div className="w-full bg-green-700 text-white pb-4 pt-20 text-center text-sm font-semibold flex items-center justify-center gap-3">
         <Clock size={20} className="shrink-0" />
-        <span>SPECIAL BUNDLE PRICING EXPIRES IN:</span>
-        <div className="flex items-center gap-1 font-mono text-lg">
-          <span className="bg-green-800 px-2 py-1 rounded">{String(timeLeft.minutes).padStart(2, "0")}</span>
-          <span>:</span>
-          <span className="bg-green-800 px-2 py-1 rounded">{String(timeLeft.seconds).padStart(2, "0")}</span>
-        </div>
+        <span>INSTANT DIGITAL DOWNLOAD · LIFETIME ACCESS</span>
       </div>
 
       {/* Main Content */}

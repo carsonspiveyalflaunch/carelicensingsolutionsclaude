@@ -13,19 +13,9 @@ export default function ReviewBar() {
         </p>
 
         {/* Right Review Section */}
-        <div className="flex items-center gap-3">
-          {/* Stars */}
-          <div className="flex items-center gap-1 text-[#C9A441]">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} size={16} fill="#C9A441" stroke="#C9A441" />
-            ))}
-          </div>
-
-          {/* Rating */}
-          <span className="font-semibold text-gray-800">4.9/5</span>
-
-          {/* Reviews */}
-          <span className="text-gray-600">from 847 reviews</span>
+        <div className="flex items-center gap-2 text-gray-700">
+          <Star size={16} fill="#C9A441" stroke="#C9A441" />
+          <span className="font-medium">Instant download · Lifetime access</span>
         </div>
       </div>
     </div>
