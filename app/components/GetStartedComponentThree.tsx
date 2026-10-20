@@ -193,14 +193,36 @@ export default function GetStartedComponentThree({
                 </ul>
               </div>
               <div className="flex flex-col items-center gap-2 min-w-0 w-full lg:min-w-55 lg:w-auto">
+                {completeBundle?.price ? (
+                  <div className="text-3xl font-bold text-[#417a5a]">${Number(completeBundle.price).toFixed(0)}</div>
+                ) : null}
                 <p className="text-[#417a5a] text-xs md:text-sm text-center">Everything you need in one complete package</p>
+                {completeBundle?.product_slug && completeBundle?.price ? (
+                  <button
+                    className="mt-1 bg-[#417a5a] hover:bg-[#356549] text-white font-semibold px-4 py-3 rounded-xl shadow-sm w-full text-sm md:text-base transition-colors disabled:opacity-60"
+                    disabled={buyLoading}
+                    onClick={() =>
+                      buyNow({
+                        id: completeBundle.product_slug,
+                        name: `${stateNames[selectedState]} ${selectedType} Bundle`,
+                        price: Number(completeBundle.price),
+                        type: selectedType,
+                        state: selectedState,
+                        quantity: 1,
+                        product_id: completeBundle.id,
+                        product_slug: completeBundle.product_slug,
+                      })
+                    }
+                  >
+                    {buyLoading ? "Processing…" : `Buy the Bundle - $${Number(completeBundle.price).toFixed(0)}`}
+                  </button>
+                ) : null}
                 <button
                   className="mt-2 bg-white border border-[#e6d7b0] cursor-pointer transition-colors duration-300 hover:bg-[#e6d7b0] text-[#7a5a41] font-semibold px-4 py-2 md:px-6 md:py-2 rounded-xl shadow-sm w-full text-sm md:text-base"
                   onClick={() => setBundleModalOpen(true)}
                 >
                   See What's Included
                 </button>
-                <div className="text-xs text-[#417a5a]">127 purchased this month</div>
               </div>
             </div>
             {/* Individual Bundles */}

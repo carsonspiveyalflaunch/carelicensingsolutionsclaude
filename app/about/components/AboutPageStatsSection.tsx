@@ -26,12 +26,6 @@ const stats = [
     label: "Years of Experience",
     color: "text-green-700",
   },
-  {
-    icon: Heart,
-    headline: "4.9/5",
-    label: "Customer Satisfaction",
-    color: "text-green-700",
-  },
 ];
 
 export default function AboutPageStatsSection() {
@@ -63,7 +57,7 @@ export default function AboutPageStatsSection() {
   return (
     <section ref={sectionRef} className="py-8 bg-gray-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-10">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
           {stats.map((stat, idx) => {
             const Icon = stat.icon;
             return (

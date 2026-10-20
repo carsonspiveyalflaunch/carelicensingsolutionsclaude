@@ -160,10 +160,7 @@ export default function CompareModal({
 
         <div className="bg-green-700 text-white rounded-t-2xl px-6 py-3 flex items-center justify-between">
           <span className="font-semibold text-sm tracking-wide flex md:flex-row flex-col items-center gap-2">
-            SPECIAL BUNDLE PRICING EXPIRES IN :
-            <span className="font-mono">
-              {minutes} : {seconds}
-            </span>
+            INSTANT DIGITAL DOWNLOAD · LIFETIME ACCESS
           </span>
         </div>
 
@@ -383,7 +380,7 @@ export default function CompareModal({
             )}
           </button>
           <p className="text-xs text-gray-500 text-center">
-            {saveAmount > 0 && oldPrice ? `Save ${Math.round((saveAmount / oldPrice) * 100)}%` : ''} - This offer expires when the timer hits zero
+            {saveAmount > 0 && oldPrice ? `Save ${Math.round((saveAmount / oldPrice) * 100)}% vs. buying each resource separately` : 'Instant access after checkout'}
           </p>
           {/* <button
             onClick={handleAddSampleOnly}

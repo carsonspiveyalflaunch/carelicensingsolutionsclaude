@@ -146,10 +146,7 @@ export default function BundleModal({
         {/* Header */}
         <div className="bg-green-700 text-white rounded-t-2xl px-6 py-3 flex items-center justify-between">
           <span className="font-semibold text-sm tracking-wide flex md:flex-row flex-col items-center gap-2">
-            SPECIAL BUNDLE PRICING EXPIRES IN :
-            <span className="font-mono">
-              {minutes} : {seconds}
-            </span>
+            INSTANT DIGITAL DOWNLOAD · LIFETIME ACCESS
           </span>
         </div>
         {/* Content */}
@@ -330,7 +327,7 @@ export default function BundleModal({
             )}
           </button>
           <p className="text-xs text-gray-500 text-center">
-            Save 56% - This offer expires when the timer hits zero
+            Instant access after checkout. Download everything from your dashboard.
           </p>
           <button
             onClick={onClose}

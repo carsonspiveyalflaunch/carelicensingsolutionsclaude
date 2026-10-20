@@ -3,6 +3,7 @@ import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 import { PricingError, resolveCartItems } from "@/lib/pricing";
 import { packItemsMetadata } from "@/lib/stripe-items";
+import { findCoveredAssets } from "@/lib/cart-rules";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -68,6 +69,15 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: err.message }, { status: 400 });
       }
       throw err;
+    }
+
+    // A bundle already includes its own single resources (same state + program).
+    const covered = findCoveredAssets(items);
+    if (covered.length) {
+      return NextResponse.json(
+        { error: `${covered.map((c: any) => c.name).join(', ')} is already included in the bundle in your cart. Remove it to continue.` },
+        { status: 400 }
+      );
     }
 
     // Calculate totals

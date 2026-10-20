@@ -188,6 +188,7 @@ export default function CheckoutSuccessClient() {
             </div>
           )}
 
+          {purchaseData?.includes_community !== false && (
           <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6 mb-8 text-left">
             <h3 className="font-semibold text-emerald-900 text-lg">Your community access is included</h3>
             <p className="text-emerald-900/80 mt-1 mb-4">
@@ -203,6 +204,7 @@ export default function CheckoutSuccessClient() {
               Join the Community
             </a>
           </div>
+          )}
 
           {showAuthPrompt && !user && (
             <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 mb-8 text-left">

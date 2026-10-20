@@ -3,6 +3,7 @@ import React, { createContext, useContext, useState, useEffect, useRef, ReactNod
 import { useToast } from "./SimpleToast";
 import { useAuth } from "./AuthContext";
 import { useAuthModal } from "./AuthModalContext";
+import { assetBelongsToBundle, isBundle } from "@/lib/cart-rules";
 
 export type CartItem = {
   id: string;
@@ -76,8 +77,21 @@ export function CartProvider({ children }: { children: ReactNode }) {
       }
 
       const addedItem = { ...item, id: itemId, quantity: 1 };
+
+      // A single resource is already inside the bundle for the same state + program.
+      const coveringBundle = prev.find((b) => assetBelongsToBundle(addedItem, b));
+      if (coveringBundle) {
+        toast.show(`${addedItem.name} is already included in your ${coveringBundle.name}.`);
+        return prev;
+      }
+
+      // Adding the bundle replaces single resources it already includes.
+      const covered = isBundle(addedItem) ? prev.filter((a) => assetBelongsToBundle(a, addedItem)) : [];
+      if (covered.length) {
+        toast.show(`The bundle includes ${covered.map((c) => c.name).join(", ")}, so we removed them from your cart.`);
+      }
       setLastAdded(addedItem.name);
-      return [...prev, addedItem];
+      return [...prev.filter((a) => !covered.includes(a)), addedItem];
     });
   }
   React.useEffect(() => {

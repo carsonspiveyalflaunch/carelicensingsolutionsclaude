@@ -155,19 +155,9 @@ const CoursePageHeroSection = () => {
             </a>
           </div>
 
-          <div className="flex items-center gap-3">
-            {/* Stars */}
-            <div className="flex items-center gap-1 text-[#ffcd42]">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={16} fill="#ffcd42" stroke="#ffcd42" />
-              ))}
-            </div>
-
-            {/* Rating */}
-            <span className="font-semibold text-white">4.9/5</span>
-
-            {/* Reviews */}
-            <span className="text-gray-200">from 847 reviews</span>
+          <div className="flex items-center gap-2 text-gray-200">
+            <Star size={16} fill="#ffcd42" stroke="#ffcd42" />
+            <span>11 modules · Instant access · Learn at your own pace</span>
           </div>
         </div>
 
