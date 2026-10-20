@@ -2,14 +2,11 @@
 import { CartProvider } from "./cart-context";
 import React from "react";
 import { ToastProvider } from "./SimpleToast";
-import dynamic from "next/dynamic";
 import { AuthModalProvider } from "./AuthModalContext";
 import { PendingPurchaseProvider } from "./PendingPurchaseContext";
-
-const AuthProvider = dynamic(() => import("./AuthContext").then(mod => ({ default: mod.AuthProvider })), {
-  ssr: false,
-  loading: () => null
-});
+// Rendered on the server too, so search engines and first paint get the real page.
+// (It was client-only before, which made every page an empty shell to crawlers.)
+import { AuthProvider } from "./AuthContext";
 
 export default function AppProviders({ children }: { children: React.ReactNode }) {
   return (
