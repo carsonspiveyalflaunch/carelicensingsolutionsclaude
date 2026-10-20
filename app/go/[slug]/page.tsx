@@ -7,6 +7,8 @@ import BuyButton from "./BuyButton";
 import { createServerSupabaseClient } from "@/utils/supabase-server";
 import { PROGRAM_HEADLINE, parseGoSlug } from "@/lib/go-links";
 import { pageMeta, SITE_URL, SITE_NAME } from "@/lib/seo";
+import { guidesForBundle } from "@/lib/guides";
+import Link from "next/link";
 
 export const revalidate = 300;
 
@@ -66,6 +68,7 @@ export default async function GoPage({
   const { bundle, files } = loaded;
   const { state, program, price } = bundle;
   const what = PROGRAM_HEADLINE[program] || program;
+  const guides = guidesForBundle(slug);
 
   const discountCode = code && CODE_PERCENT[code.toUpperCase()] ? code.toUpperCase() : undefined;
   const pct = discountCode ? CODE_PERCENT[discountCode] : 0;
@@ -210,6 +213,20 @@ export default async function GoPage({
             </div>
           </div>
         </section>
+        {guides.length ? (
+          <section className="bg-white py-12">
+            <div className="mx-auto max-w-3xl px-4">
+              <h2 className="text-xl font-bold text-slate-900">Read the free {state} guide first</h2>
+              <ul className="mt-3 space-y-2">
+                {guides.map((g) => (
+                  <li key={g.slug}>
+                    <Link href={`/guides/${g.slug}`} className="text-emerald-800 hover:underline">{g.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ) : null}
       </main>
       <Footer />
     </>
