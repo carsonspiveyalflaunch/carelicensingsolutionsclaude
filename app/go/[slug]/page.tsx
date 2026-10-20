@@ -8,6 +8,8 @@ import { createServerSupabaseClient } from "@/utils/supabase-server";
 import { PROGRAM_HEADLINE, parseGoSlug } from "@/lib/go-links";
 import { pageMeta, SITE_URL, SITE_NAME } from "@/lib/seo";
 import { guidesForBundle } from "@/lib/guides";
+import { isCompleteBundle } from "@/lib/bundle-files";
+import { normalizeBundleFileLabel } from "@/lib/bundles";
 import Link from "next/link";
 
 export const revalidate = 300;
@@ -45,11 +47,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!loaded) return { title: "Bundle not found | Care Licensing Solutions" };
   const { state, program } = loaded.bundle;
   const what = PROGRAM_HEADLINE[program] || program;
-  return pageMeta(
+  const complete = isCompleteBundle(loaded.files.map((f) => ({ label: normalizeBundleFileLabel(f) })));
+  const meta = pageMeta(
     `/go/${slug}`,
     `How to Open ${what} in ${state} | Licensing Bundle`,
     `Everything you need to license and launch ${what} in ${state}: market research, pro forma P&L, licensing checklist and policy manual. Instant download.`,
   );
+  return complete ? meta : { ...meta, robots: { index: false, follow: true } };
 }
 
 const money = (n: number) => `$${n.toLocaleString("en-US", { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 })}`;
@@ -69,6 +73,8 @@ export default async function GoPage({
   const { state, program, price } = bundle;
   const what = PROGRAM_HEADLINE[program] || program;
   const guides = guidesForBundle(slug);
+  const complete = isCompleteBundle(files.map((f) => ({ label: normalizeBundleFileLabel(f) })));
+  const resourcesHref = `/get-started?state=${bundle.code}&type=${encodeURIComponent(program)}`;
 
   const discountCode = code && CODE_PERCENT[code.toUpperCase()] ? code.toUpperCase() : undefined;
   const pct = discountCode ? CODE_PERCENT[discountCode] : 0;
@@ -112,7 +118,7 @@ export default async function GoPage({
         "@type": "Offer",
         price: price.toFixed(2),
         priceCurrency: "USD",
-        availability: "https://schema.org/InStock",
+        availability: complete ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
         url: `${SITE_URL}/go/${slug}`,
       },
     },
@@ -150,6 +156,7 @@ export default async function GoPage({
                   <Clock className="h-4 w-4" /> Launch price: {pct}% off applied at checkout
                 </p>
               )}
+              {complete ? (
               <BuyButton
                 productSlug={bundle.product_slug}
                 name={bundle.name}
@@ -158,6 +165,15 @@ export default async function GoPage({
                 cancelPath={`/go/${slug}${discountCode ? `?code=${discountCode}` : ""}`}
                 label={cta}
               />
+              ) : (
+                <div className="rounded-xl bg-amber-50 px-5 py-4 text-amber-900">
+                  <p className="font-semibold">This bundle is being finalized.</p>
+                  <p className="mt-1 text-sm">
+                    Some of its resources are available individually now.{" "}
+                    <a href={resourcesHref} className="font-semibold underline">See what&apos;s available</a>
+                  </p>
+                </div>
+              )}
               <p className="mt-3 text-sm text-slate-300">
                 {pct > 0 && <span className="mr-2 line-through">{money(price)}</span>}
                 One-time payment · Instant download · Secure checkout by Stripe
@@ -196,6 +212,7 @@ export default async function GoPage({
             </div>
 
             <div className="mx-auto mt-12 max-w-md text-center">
+              {complete ? (
               <BuyButton
                 productSlug={bundle.product_slug}
                 name={bundle.name}
@@ -204,6 +221,15 @@ export default async function GoPage({
                 cancelPath={`/go/${slug}${discountCode ? `?code=${discountCode}` : ""}`}
                 label={cta}
               />
+              ) : (
+                <div className="rounded-xl bg-amber-50 px-5 py-4 text-amber-900">
+                  <p className="font-semibold">This bundle is being finalized.</p>
+                  <p className="mt-1 text-sm">
+                    Some of its resources are available individually now.{" "}
+                    <a href={resourcesHref} className="font-semibold underline">See what&apos;s available</a>
+                  </p>
+                </div>
+              )}
               <p className="mt-3 text-sm text-slate-500">
                 Questions?{" "}
                 <a href="/contact" className="font-medium text-emerald-700 underline">

@@ -193,11 +193,16 @@ export default function GetStartedComponentThree({
                 </ul>
               </div>
               <div className="flex flex-col items-center gap-2 min-w-0 w-full lg:min-w-55 lg:w-auto">
-                {completeBundle?.price ? (
+                {completeBundle?.price && completeBundle?.metadata?.complete !== false ? (
                   <div className="text-3xl font-bold text-[#417a5a]">${Number(completeBundle.price).toFixed(0)}</div>
                 ) : null}
                 <p className="text-[#417a5a] text-xs md:text-sm text-center">Everything you need in one complete package</p>
-                {completeBundle?.product_slug && completeBundle?.price ? (
+                {completeBundle?.metadata?.complete === false ? (
+                  <p className="mt-1 rounded-xl bg-amber-50 px-4 py-3 text-center text-sm text-amber-900">
+                    The full bundle for this program is being finalized. The resources below are available now.
+                  </p>
+                ) : null}
+                {completeBundle?.product_slug && completeBundle?.price && completeBundle?.metadata?.complete !== false ? (
                   <button
                     className="mt-1 bg-[#417a5a] hover:bg-[#356549] text-white font-semibold px-4 py-3 rounded-xl shadow-sm w-full text-sm md:text-base transition-colors disabled:opacity-60"
                     disabled={buyLoading}
@@ -217,12 +222,14 @@ export default function GetStartedComponentThree({
                     {buyLoading ? "Processing…" : `Buy the Bundle - $${Number(completeBundle.price).toFixed(0)}`}
                   </button>
                 ) : null}
+                {completeBundle?.metadata?.complete !== false ? (
                 <button
                   className="mt-2 bg-white border border-[#e6d7b0] cursor-pointer transition-colors duration-300 hover:bg-[#e6d7b0] text-[#7a5a41] font-semibold px-4 py-2 md:px-6 md:py-2 rounded-xl shadow-sm w-full text-sm md:text-base"
                   onClick={() => setBundleModalOpen(true)}
                 >
                   See What's Included
                 </button>
+                ) : null}
               </div>
             </div>
             {/* Individual Bundles */}
