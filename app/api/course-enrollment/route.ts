@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
+import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -39,6 +40,7 @@ export async function POST(request: NextRequest) {
         },
       ],
       mode: 'payment',
+      custom_text: { submit: { message: CHECKOUT_AGREEMENT_TEXT } },
       metadata: {
         course_type: 'operational-success-academy',
         enrollment_type: 'course',

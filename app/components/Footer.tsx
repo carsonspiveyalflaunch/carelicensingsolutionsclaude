@@ -106,8 +106,15 @@ export default function Footer() {
           <div className="footer-col space-y-3">
             <h4 className="font-semibold text-base">Legal</h4>
             <ul className="space-y-2">
-              <li className={linkClass}>Terms of Service</li>
-              <li className={linkClass}>Privacy Policy</li>
+              {[
+                { label: "Terms of Service", href: "/terms" },
+                { label: "Refund Policy", href: "/refund-policy" },
+                { label: "Privacy Policy", href: "/privacy" },
+              ].map((link) => (
+                <li key={link.label} className={linkClass}>
+                  <a href={link.href}>{link.label}</a>
+                </li>
+              ))}
             </ul>
           </div>
 
