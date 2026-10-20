@@ -6,6 +6,7 @@ import AccessForm from "./AccessForm";
 export const metadata: Metadata = {
   title: "Get your downloads | Care Licensing Solutions",
   description: "Bought a bundle? Enter your email and we'll send a one-click login link to your downloads.",
+  robots: { index: false, follow: false },
 };
 
 export default function AccessPage() {

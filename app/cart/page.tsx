@@ -1,6 +1,9 @@
 import CartClient from "../components/CartClient";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { PRIVATE_PAGE } from "@/lib/seo";
+
+export const metadata = PRIVATE_PAGE;
 
 export default function CartPage() {
   return (

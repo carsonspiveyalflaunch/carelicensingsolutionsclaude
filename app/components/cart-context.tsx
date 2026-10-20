@@ -37,17 +37,8 @@ export function useCart() {
 }
 
 export function CartProvider({ children }: { children: ReactNode }) {
-  const [items, setItems] = useState<CartItem[]>(() => {
-    if (typeof window === "undefined") return [];
-    try {
-      const stored = window.localStorage.getItem("cart-items");
-      if (!stored) return [];
-      const parsed = JSON.parse(stored);
-      return Array.isArray(parsed) ? parsed : [];
-    } catch {
-      return [];
-    }
-  });
+  // Start empty so server and browser render the same HTML; the saved cart loads right after.
+  const [items, setItems] = useState<CartItem[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [lastAdded, setLastAdded] = useState<string | null>(null);
   const isHydrated = useRef(false);
@@ -55,17 +46,30 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const { user, loading: authLoading } = useAuth();
   const { openAuthModal } = useAuthModal();
 
-  // Hydration marker for localStorage saves
+  // Load the saved cart once in the browser.
   useEffect(() => {
+    try {
+      const stored = window.localStorage.getItem("cart-items");
+      const parsed = stored ? JSON.parse(stored) : [];
+      if (Array.isArray(parsed) && parsed.length) {
+        setItems((current) => (current.length ? current : parsed));
+      }
+    } catch {
+      // Ignore unreadable storage; the cart just starts empty.
+    }
     isHydrated.current = true;
     setLoaded(true);
   }, []);
 
-  // Save cart to localStorage whenever it changes after hydration
+  // Save cart whenever it changes, but only after the saved cart has loaded.
   useEffect(() => {
-    if (!isHydrated.current) return;
-    window.localStorage.setItem("cart-items", JSON.stringify(items));
-  }, [items]);
+    if (!loaded) return;
+    try {
+      window.localStorage.setItem("cart-items", JSON.stringify(items));
+    } catch {
+      // Storage can be blocked (private mode); the cart still works for this visit.
+    }
+  }, [items, loaded]);
 
   function addItem(item: CartItem) {
     setItems((prev) => {

@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import BuyButton from "./BuyButton";
 import { createServerSupabaseClient } from "@/utils/supabase-server";
 import { PROGRAM_HEADLINE, parseGoSlug } from "@/lib/go-links";
+import { pageMeta, SITE_URL, SITE_NAME } from "@/lib/seo";
 
 export const revalidate = 300;
 
@@ -42,10 +43,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!loaded) return { title: "Bundle not found | Care Licensing Solutions" };
   const { state, program } = loaded.bundle;
   const what = PROGRAM_HEADLINE[program] || program;
-  return {
-    title: `How to Open ${what} in ${state} | Licensing Bundle`,
-    description: `Everything you need to license and launch ${what} in ${state}: market research, pro forma P&L, licensing checklist and policy manual. Instant download.`,
-  };
+  return pageMeta(
+    `/go/${slug}`,
+    `How to Open ${what} in ${state} | Licensing Bundle`,
+    `Everything you need to license and launch ${what} in ${state}: market research, pro forma P&L, licensing checklist and policy manual. Instant download.`,
+  );
 }
 
 const money = (n: number) => `$${n.toLocaleString("en-US", { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 })}`;
@@ -95,8 +97,36 @@ export default async function GoPage({
 
   const cta = pct ? `Get the ${state} Bundle for ${money(finalPrice)}` : `Get the ${state} Bundle — ${money(price)}`;
 
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: `${state} ${program} Licensing Bundle`,
+      description: `Market research report, pro forma P&L, licensing checklist and policy & procedure manual for opening ${what} in ${state}.`,
+      brand: { "@type": "Brand", name: SITE_NAME },
+      url: `${SITE_URL}/go/${slug}`,
+      offers: {
+        "@type": "Offer",
+        price: price.toFixed(2),
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+        url: `${SITE_URL}/go/${slug}`,
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "States", item: `${SITE_URL}/states` },
+        { "@type": "ListItem", position: 3, name: `${state} ${program}`, item: `${SITE_URL}/go/${slug}` },
+      ],
+    },
+  ];
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header />
       <main className="bg-white">
         <section className="bg-gradient-to-br from-emerald-950 to-slate-950 px-4 py-14 text-white sm:py-20">
