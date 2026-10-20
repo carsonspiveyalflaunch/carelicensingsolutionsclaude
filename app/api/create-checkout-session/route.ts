@@ -3,7 +3,8 @@ import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 import { PricingError, resolveCartItems } from "@/lib/pricing";
 import { packItemsMetadata } from "@/lib/stripe-items";
-import { findCoveredAssets } from "@/lib/cart-rules";
+import { findCoveredAssets, isSingleAsset } from "@/lib/cart-rules";
+import { listBundleAssets, isCompleteBundle } from "@/lib/bundle-files";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -69,6 +70,22 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: err.message }, { status: 400 });
       }
       throw err;
+    }
+
+    // Only sell what can be delivered: a resource needs its file, a bundle needs all four.
+    for (const item of items) {
+      const slug = [item.product_slug, item.id].find((v) => typeof v === "string" && v.endsWith("-complete-bundle")) || "";
+      if (!slug.endsWith("-complete-bundle")) continue;
+      const assets = await listBundleAssets(supabase, slug);
+      const missing = isSingleAsset(item)
+        ? !assets.some((a) => a.label === item.purchased_item)
+        : !isCompleteBundle(assets);
+      if (missing) {
+        return NextResponse.json(
+          { error: `"${item.name}" isn't available right now. Please remove it from your cart to continue.` },
+          { status: 400 }
+        );
+      }
     }
 
     // A bundle already includes its own single resources (same state + program).

@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { createServerSupabaseClient, isSupabaseConfigured } from '@/utils/supabase-server';
 import { states } from '@/app/data/shopData';
 import { normalizeBundleFileLabel } from '@/lib/bundles';
+import { listBundleAssets, isCompleteBundle } from '@/lib/bundle-files';
 
 const DEFAULT_STORAGE_BUCKET = process.env.SUPABASE_STORAGE_BUCKET || 'bundle-files';
 
@@ -172,12 +173,11 @@ async function fetchProductsWithMetadata(supabase: any, includeFiles = false) {
       ? { ...derivedMetadata, ...normalizedMetadata, ...explicitMetadata }
       : { ...derivedMetadata, ...explicitMetadata };
 
-    // Hydrate files for complete bundles too
+    // Complete bundles: list only the files that really exist in storage.
     if (includeFiles && mergedMetadata.productLabel === 'Complete Bundle' && product.product_slug) {
-      const storageFiles = await listStorageFilesForBundle(supabase, product.product_slug);
-      if (storageFiles.length > 0) {
-        mergedMetadata.files = storageFiles;
-      }
+      const assets = await listBundleAssets(supabase, product.product_slug);
+      mergedMetadata.files = assets;
+      mergedMetadata.complete = isCompleteBundle(assets);
     }
 
     return {
@@ -211,17 +211,15 @@ async function fetchIndividualBundlesForState(
     .replace(/[^a-z0-9-]/g, '');
   const normalizedProgram = program?.trim();
 
+  // Always list what's really in storage (the catalog's own file list can be a placeholder).
   const hydrateProductWithStorageFiles = async (product: any) => {
     const metadata = parseJsonField(product.metadata);
-    if (Array.isArray(metadata?.files) && metadata.files.length > 0) {
-      return product;
-    }
     if (!product.product_slug) {
       return null;
     }
 
-    const storageFiles = await listStorageFilesForBundle(supabase, product.product_slug);
-    if (storageFiles.length === 0) {
+    const assets = await listBundleAssets(supabase, product.product_slug);
+    if (assets.length === 0) {
       return null;
     }
 
@@ -229,7 +227,8 @@ async function fetchIndividualBundlesForState(
       ...product,
       metadata: {
         ...metadata,
-        files: storageFiles,
+        files: assets,
+        complete: isCompleteBundle(assets),
       },
     };
   };
