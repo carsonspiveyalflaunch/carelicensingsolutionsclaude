@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 import { PricingError, resolveCartItems } from "@/lib/pricing";
+import { packItemsMetadata } from "@/lib/stripe-items";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -140,7 +141,7 @@ export async function POST(request: NextRequest) {
       customer_info: JSON.stringify(customerInfo),
       customer_first_name: customerInfo.firstName || '',
       customer_last_name: customerInfo.lastName || '',
-      items: JSON.stringify(items.map((item: any) => ({
+      ...packItemsMetadata(items.map((item: any) => ({
         product_slug: item.product_slug || item.id || null,
         name: item.name,
         price: item.price,

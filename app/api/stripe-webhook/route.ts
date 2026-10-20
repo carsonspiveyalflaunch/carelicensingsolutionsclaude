@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { resolveProductForItem } from '@/lib/resolve-product';
 import Stripe from "stripe";
 import { deliverAccess } from "@/lib/purchase-access";
+import { readItemsMetadata } from "@/lib/stripe-items";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 
 const stripe = process.env.STRIPE_SECRET_KEY
@@ -98,7 +99,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     const subtotal = parseFloat(session.metadata?.subtotal || '0');
     const total = parseFloat(session.metadata?.total || '0');
     const customerInfo = JSON.parse(session.metadata?.customer_info || '{}');
-    const items = JSON.parse(session.metadata?.items || '[]');
+    const items = readItemsMetadata(session.metadata);
     const courseEmail = session.customer_details?.email || session.metadata?.customer_email || customerInfo.email;
 
     console.log(`📦 Processing checkout for ${isCourseEnrollment ? 'course' : `user ${userId}`} with ${items.length} item(s):`, items);
