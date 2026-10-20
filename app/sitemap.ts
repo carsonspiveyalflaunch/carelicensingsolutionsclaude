@@ -2,10 +2,11 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/seo";
 import { goSlug } from "@/lib/go-links";
 import { createServerSupabaseClient } from "@/utils/supabase-server";
+import { allGuides, isThin } from "@/lib/guides";
 
 export const revalidate = 3600;
 
-const STATIC_PAGES = ["/", "/get-started", "/states", "/bundles", "/shop", "/course", "/about", "/contact"];
+const STATIC_PAGES = ["/", "/get-started", "/states", "/guides", "/bundles", "/shop", "/course", "/about", "/contact"];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
@@ -39,6 +40,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   } catch (err) {
     console.error("sitemap: could not load bundles", err);
+  }
+  // Licensing guides (thin ones stay out until they're expanded).
+  for (const g of allGuides()) {
+    if (isThin(g)) continue;
+    pages.push({
+      url: `${SITE_URL}/guides/${g.slug}`,
+      lastModified: new Date(g.modified),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    });
   }
   return pages;
 }
