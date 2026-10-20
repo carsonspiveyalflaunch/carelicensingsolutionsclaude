@@ -140,7 +140,8 @@ export async function GET(request: NextRequest) {
 
       const session = await stripe.checkout.sessions.retrieve(sessionId);
 
-      if (!session || session.payment_status !== 'paid') {
+      // 100%-off orders complete as 'no_payment_required' and must unlock too.
+      if (!session || session.status !== 'complete' || !['paid', 'no_payment_required'].includes(session.payment_status)) {
         return NextResponse.json(
           { error: "Purchase not found" },
           { status: 404 }
