@@ -6,7 +6,7 @@ import { allGuides, isThin } from "@/lib/guides";
 
 export const revalidate = 3600;
 
-const STATIC_PAGES = ["/", "/get-started", "/states", "/guides", "/bundles", "/shop", "/course", "/about", "/contact"];
+const STATIC_PAGES = ["/", "/get-started", "/states", "/guides", "/bundles", "/shop", "/course", "/about", "/contact", "/terms", "/refund-policy", "/privacy"];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();

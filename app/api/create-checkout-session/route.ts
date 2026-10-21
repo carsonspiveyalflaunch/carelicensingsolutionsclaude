@@ -5,6 +5,7 @@ import { PricingError, resolveCartItems } from "@/lib/pricing";
 import { packItemsMetadata } from "@/lib/stripe-items";
 import { findCoveredAssets, isSingleAsset } from "@/lib/cart-rules";
 import { listBundleAssets, isCompleteBundle } from "@/lib/bundle-files";
+import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -190,6 +191,7 @@ export async function POST(request: NextRequest) {
       line_items: lineItems,
       discounts,
       mode: 'payment',
+      custom_text: { submit: { message: CHECKOUT_AGREEMENT_TEXT } },
       customer_email: customerEmail,
       metadata,
       success_url: successUrl || `${process.env.NEXT_PUBLIC_SITE_URL}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
