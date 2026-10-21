@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { resolveProductForItem } from '@/lib/resolve-product';
 import Stripe from "stripe";
 import { deliverAccess } from "@/lib/purchase-access";
+import { tagBuyerInGhl } from "@/lib/ghl";
 import { readItemsMetadata } from "@/lib/stripe-items";
 import { orderTotals, buyerName } from "@/lib/stripe-order";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
@@ -300,6 +301,20 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       } catch (deliveryError) {
         console.error('Access delivery failed:', deliveryError);
       }
+    }
+
+    // Tell GHL this person bought, so sales emails/texts stop for them.
+    if (courseEmail) {
+      const slugs = enrichedItems.map((item: any) => item?.product_slug).filter(Boolean) as string[];
+      const boughtBundle = slugs.some((s) => s.endsWith('-complete-bundle'));
+      const tags = ['cls-purchased', boughtBundle ? 'cls-bought-bundle' : isCourseEnrollment ? 'cls-bought-course' : 'cls-bought-asset'];
+      const ghl = await tagBuyerInGhl({
+        email: courseEmail,
+        name: session.customer_details?.name || null,
+        phone: session.customer_details?.phone || null,
+        tags,
+      });
+      console.log('GHL buyer tag:', ghl.reason);
     }
 
     if (isCourseEnrollment && discountCode.startsWith('CLS-')) {

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
+import { CHECKOUT_PAYMENT_METHODS } from "@/lib/pay-later";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -24,7 +25,7 @@ export async function POST(request: NextRequest) {
 
     // Create checkout session for course enrollment
     const session = await stripe.checkout.sessions.create({
-      payment_method_types: ['card'],
+      payment_method_types: CHECKOUT_PAYMENT_METHODS,
       line_items: [
         {
           price_data: {
