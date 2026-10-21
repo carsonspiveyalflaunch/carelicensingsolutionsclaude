@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import useBuyNow from "./useBuyNow";
+import BundleValueStack from "./BundleValueStack";
 import {
   Gift,
   BadgePercent,
@@ -226,87 +227,8 @@ export default function BundleModal({
                   <span className="text-gray-500 text-sm mt-2">Pricing unavailable</span>
                 )}
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                {/* What's Included */}
-                <div>
-                  <div className="font-bold text-gray-900 mb-2">
-                    What's Included:
-                  </div>
-                  <ul className="flex flex-col gap-2">
-                    {items.map((item, idx) => (
-                      <li
-                        key={item.label}
-                        className="flex items-start text-green-900 text-sm"
-                      >
-                        <CheckCircle2
-                          size={16}
-                          className="text-green-600 mr-2 mt-0.5 shrink-0"
-                        />{" "}
-                        {item.label}
-                        {/* <span className="ml-auto font-semibold">
-                          ${item.price}
-                        </span> */}
-                      </li>
-                    ))}
-                    {/* Course at half price row */}
-                    <li className="flex items-center mt-2 bg-yellow-100 rounded-lg px-3 py-2 text-yellow-900 font-semibold text-sm gap-1">
-                      <div className="flex items-start gap-1">
-                        <CheckCircle2
-                          size={16}
-                          className="text-yellow-700 shrink-0"
-                        />
-                        <span>11-Module Operational Success Course</span>
-                      </div>
-                      <span className="ml-auto line-through text-gray-400 text-xs">
-                        $697
-                      </span>
-                      {/* <span className="ml-2 text-yellow-900 font-bold text-xs">
-                        ${coursePrice}
-                      </span> */}
-                    </li>
-                  </ul>
-                </div>
-                {/* Free Bonuses */}
-                <div>
-                  <div className="font-bold text-gray-900 mb-2">
-                    FREE Bonuses:
-                  </div>
-                  <ul className="flex flex-col gap-2">
-                    {bonuses.map((bonus) => (
-                      <li
-                        key={bonus}
-                        className="flex items-center text-yellow-900 text-sm"
-                      >
-                        <Gift size={16} className="mr-2 text-yellow-900" />{" "}
-                        {bonus}
-                      </li>
-                    ))}
-                  </ul>
-                  {/* Course at half price box */}
-                  {coursePrice !== undefined && (
-                    <div className="mt-4 bg-yellow-200 rounded-lg px-3 py-2 text-yellow-900 text-sm font-semibold flex flex-col items-center gap-2">
-                      <div>
-                        <BsLightning
-                          size={16}
-                          className="text-yellow-900 inline"
-                        />
-                        Course at{" "}
-                        <span className="font-bold text-yellow-800">
-                          HALF PRICE
-                        </span>
-                      </div>
-                      <span className="">
-                        $697 →{" "}
-                        <span className="text-green-700 font-bold">
-                          ${coursePrice.toFixed(2)}
-                        </span>{" "}
-                        <span className="text-xs text-gray-500">
-                          (Save $400!)
-                        </span>
-                      </span>
-                    </div>
-                  )}
-                </div>
+              <div className="mt-4">
+                <BundleValueStack compact stateName={state} price={price} />
               </div>
             </div>
           </div>

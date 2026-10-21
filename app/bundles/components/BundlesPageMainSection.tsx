@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useCart } from "../../components/cart-context";
 import useBuyNow from "../../components/useBuyNow";
 import { programsForState } from "../../data/programAvailability";
+import BundleValueStack from "../../components/BundleValueStack";
 
 const stateNames: { [abbr: string]: string } = {
   AL: "Alabama",
@@ -241,98 +242,8 @@ export default function BundlesPageMainSection() {
             {/* Divider */}
             <div className="border-t-2 border-yellow-200 mb-6"></div>
 
-            {/* Two Column Content */}
-            <div className="grid md:grid-cols-2 gap-8 mb-8 pb-8 border-b-2 border-yellow-200">
-              {/* Left Column - What's Included */}
-              <div>
-                <h4 className="font-bold text-gray-900 mb-4 text-sm">What's Included:</h4>
-                <div className="space-y-3">
-                  <div className="flex justify-between items-start">
-                    <span className="flex items-start gap-2">
-                      <Check size={18} className="text-green-700 shrink-0 mt-0.5" />
-                      <span className="text-gray-800 text-sm font-medium">
-                        Market Research Report
-                      </span>
-                    </span>
-                    <span className="text-gray-600 font-semibold text-sm ml-2">$397</span>
-                  </div>
-                  <div className="flex justify-between items-start">
-                    <span className="flex items-start gap-2">
-                      <Check size={18} className="text-green-700 shrink-0 mt-0.5" />
-                      <span className="text-gray-800 text-sm font-medium">
-                        Policy & Procedure Manual
-                      </span>
-                    </span>
-                    <span className="text-gray-600 font-semibold text-sm ml-2">$497</span>
-                  </div>
-                  <div className="flex justify-between items-start">
-                    <span className="flex items-start gap-2">
-                      <Check size={18} className="text-green-700 shrink-0 mt-0.5" />
-                      <span className="text-gray-800 text-sm font-medium">
-                        Pro Forma P&L Template
-                      </span>
-                    </span>
-                    <span className="text-gray-600 font-semibold text-sm ml-2">$297</span>
-                  </div>
-                  <div className="flex justify-between items-start">
-                    <span className="flex items-start gap-2">
-                      <Check size={18} className="text-green-700 shrink-0 mt-0.5" />
-                      <span className="text-gray-800 text-sm font-medium">Licensing Checklist</span>
-                    </span>
-                    <span className="text-gray-600 font-semibold text-sm ml-2">$397</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Column - Free Bonuses */}
-              <div>
-                <h4 className="inline-flex items-center gap-1 font-bold text-gray-900 mb-4 text-sm">
-                  <Gift size={16} className="text-green-700 shrink-0" /> FREE Bonuses:
-                </h4>
-                <div className="space-y-3">
-                  <div className="flex items-start gap-2">
-                    <Check size={18} className="text-green-700 shrink-0 mt-0.5" />
-                    <span className="text-gray-800 text-sm font-medium">
-                      Private Community Access
-                    </span>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <Check size={18} className="text-green-700 shrink-0 mt-0.5" />
-                    <span className="text-gray-800 text-sm font-medium">
-                      Free Updates When Laws Change
-                    </span>
-                  </div>
-
-                  {/* Course Highlight Box */}
-                  <div className="bg-white border-2 border-green-300 rounded-lg p-3 mt-4">
-                    <div className="flex items-start justify-between">
-                      <div>
-                        <div className="flex items-center gap-1 mb-1">
-                          <BookOpen size={16} className="text-green-700 shrink-0" />
-                          <span className="font-bold text-gray-900 text-sm">Course at HALF PRICE</span>
-                        </div>
-                        <div className="text-xs text-gray-700">
-                          <span className="line-through text-gray-400">$697</span>
-                          <span className="ml-2">→</span>
-                          <span className="ml-2 font-bold text-green-700">$297</span>
-                        </div>
-                        <div className="text-xs text-gray-600 mt-0.5">Save $400</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Add-on Section - Course at Bottom */}
-            <div className="flex justify-between items-center mb-8 pb-8 border-b-2 border-yellow-200">
-              <p className="text-sm text-gray-800 font-medium">
-                11-Module Operational Success Course
-              </p>
-              <div className="text-right">
-                <span className="line-through text-gray-400 text-sm mr-2">$697</span>
-                <span className="font-bold text-green-700">$297</span>
-              </div>
+            <div className="mb-8">
+              <BundleValueStack stateName={stateNames[selectedState]} price={997} />
             </div>
 
             {/* CTA Button */}

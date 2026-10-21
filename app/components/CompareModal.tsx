@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import useBuyNow from "./useBuyNow";
+import BundleValueStack from "./BundleValueStack";
 import {
   Gift,
   Star,
@@ -281,83 +282,8 @@ export default function CompareModal({
                   )}
                 </div>
 
-                <div className="grid grid-cols-1 gap-4 mt-4">
-                  <div>
-                    <div className="font-bold text-gray-900 mb-2">
-                      What's Included:
-                    </div>
-                    <ul className="flex flex-col gap-2">
-                      <li className="flex items-start text-green-900 text-sm">
-                        <CheckCircle2
-                          size={16}
-                          className="text-green-600 mr-2 mt-0.5 shrink-0"
-                        />
-                        Market Research Report
-                      </li>
-                      <li className="flex items-start text-green-900 text-sm">
-                        <CheckCircle2
-                          size={16}
-                          className="text-green-600 mr-2 mt-0.5 shrink-0"
-                        />
-                        Policy & Procedure Manual
-                      </li>
-                      <li className="flex items-start text-green-900 text-sm">
-                        <CheckCircle2
-                          size={16}
-                          className="text-green-600 mr-2 mt-0.5 shrink-0"
-                        />
-                        Pro Forma P&L Template
-                      </li>
-                      <li className="flex items-start text-green-900 text-sm">
-                        <CheckCircle2
-                          size={16}
-                          className="text-green-600 mr-2 mt-0.5 shrink-0"
-                        />
-                        Licensing Checklist
-                      </li>
-                      <li className="flex items-start text-green-900 text-sm">
-                        <CheckCircle2
-                          size={16}
-                          className="text-green-600 mr-2 mt-0.5 shrink-0"
-                        />
-                        11-Module Operational Success Course
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 mb-2">
-                      FREE Bonuses:
-                    </div>
-                    <ul className="flex flex-col gap-2">
-                      <li className="flex items-center text-yellow-900 text-sm">
-                        <Gift size={16} className="mr-2 text-yellow-900" />
-                        Private Community Access
-                      </li>
-                      <li className="flex items-center text-yellow-900 text-sm">
-                        <Gift size={16} className="mr-2 text-yellow-900" />
-                        Free Updates When Laws Change
-                      </li>
-                    </ul>
-                    <div className="mt-4 bg-yellow-200 rounded-lg px-3 py-2 text-yellow-900 text-sm font-semibold flex flex-col items-center gap-2">
-                      <div>
-                        <BsLightning
-                          size={16}
-                          className="text-yellow-900 inline"
-                        />
-                        Course at{" "}
-                        <span className="font-bold text-yellow-800">
-                          HALF PRICE
-                        </span>
-                      </div>
-                      <span>
-                        $697 →{" "}
-                        <span className="text-green-700 font-bold">$397</span>{" "}
-                        <span className="text-xs text-gray-500">
-                          (Save $300!)
-                        </span>
-                      </span>
-                    </div>
-                  </div>
+                <div className="mt-4">
+                  <BundleValueStack compact stateName={state} price={bundlePrice} />
                 </div>
               </div>
             </div>
