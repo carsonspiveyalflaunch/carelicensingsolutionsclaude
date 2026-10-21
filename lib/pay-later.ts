@@ -1,6 +1,7 @@
 /**
- * Buy-now-pay-later at checkout. Turn on only AFTER Klarna, Affirm and
- * Afterpay are activated in the Stripe dashboard (Settings → Payment methods);
+ * Buy-now-pay-later at checkout (Afterpay: 4 interest-free payments). Turn on
+ * only while Afterpay is enabled in the Stripe dashboard (Settings → Payment methods).
+ * Klarna and Affirm are marked "Ineligible" for this account, so they are not requested;
  * Stripe rejects checkout sessions that request a method that isn't active.
  * Vercel env: NEXT_PUBLIC_PAY_LATER=1
  */
@@ -8,8 +9,8 @@ export const PAY_LATER_ENABLED = process.env.NEXT_PUBLIC_PAY_LATER === "1";
 
 // All of these settle immediately (no delayed "processing" payments), so the
 // webhook can grant file access on checkout.session.completed as it does today.
-export const CHECKOUT_PAYMENT_METHODS: ("card" | "klarna" | "affirm" | "afterpay_clearpay")[] = PAY_LATER_ENABLED
-  ? ["card", "klarna", "affirm", "afterpay_clearpay"]
+export const CHECKOUT_PAYMENT_METHODS: ("card" | "afterpay_clearpay")[] = PAY_LATER_ENABLED
+  ? ["card", "afterpay_clearpay"]
   : ["card"];
 
 /** Each of 4 interest-free payments, rounded to cents. */

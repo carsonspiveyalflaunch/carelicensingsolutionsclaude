@@ -184,7 +184,7 @@ export default async function GoPage({
               </p>
               {PAY_LATER_ENABLED && complete && (
                 <p className="mt-2 text-sm text-emerald-200">
-                  Or 4 interest-free payments of {payIn4(finalPrice)} with Klarna or Afterpay, or monthly with Affirm.
+                  Or 4 interest-free payments of {payIn4(finalPrice)} with Afterpay.
                   <span className="block text-xs text-slate-400">Subject to approval at checkout.</span>
                 </p>
               )}
