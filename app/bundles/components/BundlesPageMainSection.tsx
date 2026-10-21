@@ -7,6 +7,7 @@ import { useCart } from "../../components/cart-context";
 import useBuyNow from "../../components/useBuyNow";
 import { programsForState } from "../../data/programAvailability";
 import BundleValueStack from "../../components/BundleValueStack";
+import BundlePreviews from "../../components/BundlePreviews";
 
 const stateNames: { [abbr: string]: string } = {
   AL: "Alabama",
@@ -241,6 +242,10 @@ export default function BundlesPageMainSection() {
 
             {/* Divider */}
             <div className="border-t-2 border-yellow-200 mb-6"></div>
+
+            <div className="mb-8">
+              <BundlePreviews stateName={stateNames[selectedState]} program={selectedType} />
+            </div>
 
             <div className="mb-8">
               <BundleValueStack stateName={stateNames[selectedState]} price={997} />
