@@ -4,6 +4,8 @@ import { useToast } from "./SimpleToast";
 import { programTypeIcons } from "./lucide-icons";
 import { FileText, Award, Users, Loader } from "lucide-react";
 import BundleModal from "./BundleModal";
+import BundlePreviews from "./BundlePreviews";
+import { assetPreview, bundleSlugFor } from "@/lib/previews";
 import CompareModal from "./CompareModal";
 import DetailsModal from "./DetailsModal";
 import React from "react";
@@ -232,6 +234,16 @@ export default function GetStartedComponentThree({
                 ) : null}
               </div>
             </div>
+            {/* Real sample pages from this bundle */}
+            {!loadingBundles && completeBundle?.metadata?.complete !== false ? (
+              <div className="mb-8 rounded-xl border border-[#eaffea] bg-white p-4 shadow-sm md:p-6">
+                <BundlePreviews
+                  productSlug={completeBundle?.product_slug}
+                  stateName={stateNames[selectedState]}
+                  program={selectedType}
+                />
+              </div>
+            ) : null}
             {/* Individual Bundles */}
             <div className="w-full mb-6">
               <h3 className="text-lg md:text-xl font-bold text-[#417a5a] mb-4">Individual State Resources</h3>
@@ -291,6 +303,15 @@ export default function GetStartedComponentThree({
 
                     return (
                       <div key={itemId} className={`bg-white border ${isSelected ? 'border-[#417a5a] ring-2 ring-[#417a5a]' : 'border-[#eaffea]'} rounded-xl p-4 md:p-6 shadow-sm`}>
+                        {(() => {
+                          const thumb = assetPreview(completeBundle?.product_slug || bundleSlugFor(stateNames[selectedState] || "", selectedType), resource.label);
+                          return thumb ? (
+                            <a href={thumb.src} target="_blank" rel="noopener noreferrer" className="-mx-4 -mt-4 mb-4 block overflow-hidden rounded-t-xl border-b border-[#eaffea] bg-slate-50 md:-mx-6 md:-mt-6">
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img src={thumb.src} alt={`${resource.label} sample page`} loading="lazy" className="h-40 w-full object-cover object-top transition duration-300 hover:scale-[1.02]" />
+                            </a>
+                          ) : null;
+                        })()}
                         <div className="flex items-center gap-2 mb-2">
                           <span className="capitalize font-semibold text-[#417a5a] text-sm md:text-base">{resource.label}</span>
                         </div>
