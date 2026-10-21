@@ -14,6 +14,8 @@ import Link from "next/link";
 import { promoPercent, promoDeadline } from "@/lib/promos";
 import { PAY_LATER_ENABLED, payIn4, walkthroughEmbedUrl } from "@/lib/pay-later";
 import { previewsFor } from "@/lib/previews";
+import { COURSE_PRICE_DOLLARS, COURSE_TITLE, COURSE_DETAIL, SINGLE_ASSET_SLUGS, COMMUNITY_EXTRAS } from "@/lib/value-stack";
+import { Gift } from "lucide-react";
 
 export const revalidate = 300;
 
@@ -21,6 +23,15 @@ const BUCKET = process.env.SUPABASE_STORAGE_BUCKET || "bundle-files";
 
 
 type Bundle = { product_slug: string; name: string; price: number; state: string; code: string; program: string };
+
+async function loadAssetPrices(): Promise<Record<string, number>> {
+  const supabase = createServerSupabaseClient();
+  const { data } = await supabase
+    .from("products")
+    .select("product_slug, price")
+    .in("product_slug", Object.values(SINGLE_ASSET_SLUGS));
+  return Object.fromEntries((data || []).map((r: { product_slug: string; price: number | string }) => [r.product_slug, Number(r.price)]));
+}
 
 async function loadBundle(slug: string): Promise<{ bundle: Bundle; files: string[] } | null> {
   const parsed = parseGoSlug(slug);
@@ -82,6 +93,7 @@ export default async function GoPage({
   const deadline = promoDeadline(discountCode);
   const finalPrice = Math.round(price * (100 - pct)) / 100;
   const previews = previewsFor(bundle.product_slug);
+  const assetPrices = await loadAssetPrices();
   const videoUrl = walkthroughEmbedUrl();
 
   const has = (prefix: string) => files.some((f) => f.startsWith(prefix));
@@ -107,6 +119,21 @@ export default async function GoPage({
       body: `Written for ${state} requirements. Add your agency name and you have the manual surveyors ask to see.`,
     },
   ].filter(Boolean) as { icon: typeof FileText; title: string; body: string }[];
+
+  const priceOf = (key: keyof typeof SINGLE_ASSET_SLUGS) => assetPrices[SINGLE_ASSET_SLUGS[key]] || 0;
+  const assetValue: Record<string, number> = {
+    [`${state} Market Research Report`]: priceOf("report"),
+    "Pro Forma P&L (Excel)": priceOf("pnl"),
+    [`${state} Licensing Checklist`]: priceOf("checklist"),
+    "Policy & Procedure Manual (PDF + editable Word)": priceOf("manual"),
+  };
+  const stack = [
+    ...items.map((it) => ({ title: it.title, detail: "", value: assetValue[it.title] || 0, bonus: false })),
+    { title: COURSE_TITLE, detail: COURSE_DETAIL, value: COURSE_PRICE_DOLLARS, bonus: true },
+    ...COMMUNITY_EXTRAS.map((x) => ({ title: x.title, detail: x.detail, value: 0, bonus: true })),
+  ];
+  const totalValue = stack.reduce((sum, x) => sum + x.value, 0);
+  const youPay = pct ? finalPrice : price;
 
   const cta = pct ? `Get the ${state} Bundle for ${money(finalPrice)}` : `Get the ${state} Bundle — ${money(price)}`;
 
@@ -238,6 +265,56 @@ export default async function GoPage({
                       <figcaption className="border-t border-slate-100 px-4 py-3 text-sm font-medium text-slate-700">{p.label}</figcaption>
                     </figure>
                   ))}
+                </div>
+              </div>
+            )}
+
+            {complete && (
+              <div className="mt-12 overflow-hidden rounded-2xl border-2 border-emerald-700">
+                <div className="bg-emerald-700 px-5 py-4 text-white">
+                  <h2 className="text-xl font-bold">Everything you get today</h2>
+                  <p className="text-sm text-emerald-100">Your {state} bundle plus the full ALF Launch program, free with your purchase.</p>
+                </div>
+                <ul className="divide-y divide-slate-200">
+                  {stack.map((x) => (
+                    <li key={x.title} className="flex items-start justify-between gap-4 px-5 py-4">
+                      <div className="flex gap-3">
+                        {x.bonus ? <Gift className="mt-0.5 h-5 w-5 shrink-0 text-amber-600" /> : <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-700" />}
+                        <div>
+                          <p className="font-semibold text-slate-900">
+                            {x.bonus && <span className="mr-2 rounded bg-amber-100 px-1.5 py-0.5 text-xs font-bold uppercase text-amber-800">Bonus</span>}
+                            {x.title}
+                          </p>
+                          {x.detail && <p className="mt-1 text-sm text-slate-600">{x.detail}</p>}
+                        </div>
+                      </div>
+                      <p className="shrink-0 text-right text-sm font-semibold text-slate-700">
+                        {x.value ? money(x.value) : "Included"}
+                        {x.value ? <span className="block text-xs font-normal text-slate-500">sold separately</span> : null}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+                <div className="bg-slate-50 px-5 py-5">
+                  <div className="flex items-baseline justify-between text-slate-700">
+                    <span>Total if bought separately</span>
+                    <span className="font-semibold line-through">{money(totalValue)}</span>
+                  </div>
+                  <div className="mt-1 flex items-baseline justify-between text-slate-950">
+                    <span className="text-lg font-bold">Your price today</span>
+                    <span className="text-2xl font-bold text-emerald-800">{money(youPay)}</span>
+                  </div>
+                  {deadline && <p className="mt-1 text-right text-sm font-medium text-amber-700">Launch price ends {deadline}</p>}
+                  <div className="mt-4">
+                    <BuyButton
+                      productSlug={bundle.product_slug}
+                      name={bundle.name}
+                      price={price}
+                      discountCode={discountCode}
+                      cancelPath={`/go/${slug}${discountCode ? `?code=${discountCode}` : ""}`}
+                      label={cta}
+                    />
+                  </div>
                 </div>
               </div>
             )}

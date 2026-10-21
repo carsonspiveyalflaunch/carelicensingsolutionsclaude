@@ -156,9 +156,9 @@ export async function sendAccessEmail(opts: {
 ${
   opts.includeSkool
     ? `<div style="background:#ecfdf5;border-radius:10px;padding:20px;margin:0 0 24px">
-<p style="font-weight:bold;font-size:16px;margin:0 0 6px">Your community access is included</p>
-<p style="font-size:15px;line-height:1.5;margin:0 0 12px">Join other owners licensing and launching their agencies. Ask questions and get answers.</p>
-<a href="${SKOOL_COMMUNITY_URL}" style="color:#047857;font-weight:bold">Join the community &rarr;</a></div>`
+<p style="font-weight:bold;font-size:16px;margin:0 0 6px">Your bonus: the full ALF Launch program</p>
+<p style="font-size:15px;line-height:1.5;margin:0 0 12px">Inside the community you get the Operational Success Academy (11 modules, 124 lessons), the market research library, weekly call recordings, and other owners licensing and launching their agencies.</p>
+<a href="${SKOOL_COMMUNITY_URL}/classroom" style="color:#047857;font-weight:bold">Join and start the course &rarr;</a></div>`
     : ""
 }
 <p style="font-size:13px;color:#94a3b8;margin:0">Questions? Reply through <a href="${SITE_URL}/contact" style="color:#94a3b8">${SITE_URL.replace(/^https?:\/\//, "")}/contact</a>.</p>
