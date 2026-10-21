@@ -6,6 +6,8 @@ import { packItemsMetadata } from "@/lib/stripe-items";
 import { findCoveredAssets, isSingleAsset } from "@/lib/cart-rules";
 import { listBundleAssets, isCompleteBundle } from "@/lib/bundle-files";
 import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
+import { promoPercent } from "@/lib/promos";
+import { CHECKOUT_PAYMENT_METHODS } from "@/lib/pay-later";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -187,7 +189,7 @@ export async function POST(request: NextRequest) {
     }
 
     const session = await stripe.checkout.sessions.create({
-      payment_method_types: ['card'],
+      payment_method_types: CHECKOUT_PAYMENT_METHODS,
       line_items: lineItems,
       discounts,
       mode: 'payment',
@@ -247,15 +249,7 @@ async function getValidQuickBooksCoupon(
 }
 
 function getDiscountPercent(code: string): number {
-  const validCodes: { [key: string]: number } = {
-    SAVE10: 10,
-    SAVE15: 15,
-    LAUNCH20: 20,
-    WELCOME5: 5,
-  };
-
-  if (!code) return 0;
-  return validCodes[code.toUpperCase()] || 0;
+  return promoPercent(code);
 }
 
 async function createOrGetCoupon(percent: number): Promise<string> {

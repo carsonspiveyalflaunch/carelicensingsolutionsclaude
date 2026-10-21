@@ -8,6 +8,7 @@ import CheckoutCustomerInfo from "./CheckoutCustomerInfo";
 import CheckoutPayment from "./CheckoutPayment";
 import CheckoutPaymentConfirmation from "./CheckoutPaymentConfirmation";
 import { useToast } from "./SimpleToast";
+import { promoPercent } from "@/lib/promos";
 
 function Stepper({ step }: { step: number }) {
   const steps = ["Cart", "Information", "Payment", "Confirmation"];
@@ -126,12 +127,6 @@ export default function CheckoutClient() {
 
   // Validate and apply discount code
   async function applyDiscountCode() {
-    const validCodes: { [key: string]: number } = {
-      SAVE10: 10,
-      SAVE15: 15,
-      LAUNCH20: 20,
-      WELCOME5: 5,
-    };
 
     if (!discountCode.trim()) {
       toast.show("Please enter a discount code");
@@ -164,10 +159,11 @@ export default function CheckoutClient() {
       return;
     }
 
-    if (validCodes[code]) {
-      setDiscountPercent(validCodes[code]);
+    const pct = promoPercent(code);
+    if (pct) {
+      setDiscountPercent(pct);
       setDiscountApplied(true);
-      toast.show(`Discount code applied! Save ${validCodes[code]}%`);
+      toast.show(`Discount code applied! Save ${pct}%`);
     } else {
       toast.show("Invalid discount code");
       setDiscountApplied(false);

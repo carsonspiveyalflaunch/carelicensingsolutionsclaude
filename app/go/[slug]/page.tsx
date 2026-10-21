@@ -11,13 +11,14 @@ import { guidesForBundle } from "@/lib/guides";
 import { isCompleteBundle } from "@/lib/bundle-files";
 import { normalizeBundleFileLabel } from "@/lib/bundles";
 import Link from "next/link";
+import { promoPercent, promoDeadline } from "@/lib/promos";
+import { PAY_LATER_ENABLED, payIn4, walkthroughEmbedUrl } from "@/lib/pay-later";
+import { previewsFor } from "@/lib/previews";
 
 export const revalidate = 300;
 
 const BUCKET = process.env.SUPABASE_STORAGE_BUCKET || "bundle-files";
 
-// Codes the checkout accepts (see getDiscountPercent in create-checkout-session).
-const CODE_PERCENT: Record<string, number> = { LAUNCH20: 20, SAVE15: 15, SAVE10: 10, WELCOME5: 5 };
 
 type Bundle = { product_slug: string; name: string; price: number; state: string; code: string; program: string };
 
@@ -76,9 +77,12 @@ export default async function GoPage({
   const complete = isCompleteBundle(files.map((f) => ({ label: normalizeBundleFileLabel(f) })));
   const resourcesHref = `/get-started?state=${bundle.code}&type=${encodeURIComponent(program)}`;
 
-  const discountCode = code && CODE_PERCENT[code.toUpperCase()] ? code.toUpperCase() : undefined;
-  const pct = discountCode ? CODE_PERCENT[discountCode] : 0;
+  const discountCode = code && promoPercent(code) ? code.toUpperCase() : undefined;
+  const pct = discountCode ? promoPercent(discountCode) : 0;
+  const deadline = promoDeadline(discountCode);
   const finalPrice = Math.round(price * (100 - pct)) / 100;
+  const previews = previewsFor(bundle.product_slug);
+  const videoUrl = walkthroughEmbedUrl();
 
   const has = (prefix: string) => files.some((f) => f.startsWith(prefix));
   const items = [
@@ -153,7 +157,7 @@ export default async function GoPage({
             <div className="mx-auto mt-8 max-w-md">
               {pct > 0 && (
                 <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-amber-400/15 px-4 py-1.5 text-sm font-semibold text-amber-300">
-                  <Clock className="h-4 w-4" /> Launch price: {pct}% off applied at checkout
+                  <Clock className="h-4 w-4" /> Launch price: {pct}% off{deadline ? ` — ends ${deadline}` : " applied at checkout"}
                 </p>
               )}
               {complete ? (
@@ -176,11 +180,34 @@ export default async function GoPage({
               )}
               <p className="mt-3 text-sm text-slate-300">
                 {pct > 0 && <span className="mr-2 line-through">{money(price)}</span>}
-                One-time payment · Instant download · Secure checkout by Stripe
+                {PAY_LATER_ENABLED ? "Pay in full or over time" : "One-time payment"} · Instant download · Secure checkout by Stripe
               </p>
+              {PAY_LATER_ENABLED && complete && (
+                <p className="mt-2 text-sm text-emerald-200">
+                  Or 4 interest-free payments of {payIn4(finalPrice)} with Klarna or Afterpay, or monthly with Affirm.
+                  <span className="block text-xs text-slate-400">Subject to approval at checkout.</span>
+                </p>
+              )}
             </div>
           </div>
         </section>
+
+        {videoUrl && (
+          <section className="bg-slate-50 px-4 py-12">
+            <div className="mx-auto max-w-3xl">
+              <h2 className="text-2xl font-bold text-slate-950">See what you get (2 minutes)</h2>
+              <div className="mt-5 aspect-video overflow-hidden rounded-xl border border-slate-200 bg-black shadow-sm">
+                <iframe
+                  src={videoUrl}
+                  title="Walkthrough of the licensing bundle"
+                  className="h-full w-full"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </section>
+        )}
 
         <section className="px-4 py-14">
           <div className="mx-auto max-w-3xl">
@@ -196,6 +223,24 @@ export default async function GoPage({
                 </div>
               ))}
             </div>
+
+            {previews.length > 0 && (
+              <div className="mt-12">
+                <h2 className="text-2xl font-bold text-slate-950">Look inside the {state} bundle</h2>
+                <p className="mt-2 text-slate-600">Real pages from the files you download, not mockups.</p>
+                <div className="mt-6 grid gap-5 sm:grid-cols-2">
+                  {previews.map((p) => (
+                    <figure key={p.src} className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+                      <a href={p.src} target="_blank" rel="noopener noreferrer" className="block bg-slate-50">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={p.src} alt={`${state} ${p.label}`} loading="lazy" className="h-64 w-full object-cover object-top" />
+                      </a>
+                      <figcaption className="border-t border-slate-100 px-4 py-3 text-sm font-medium text-slate-700">{p.label}</figcaption>
+                    </figure>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               {[
