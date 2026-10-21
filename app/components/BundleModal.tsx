@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import useBuyNow from "./useBuyNow";
 import BundleValueStack from "./BundleValueStack";
+import BundlePreviews from "./BundlePreviews";
 import {
   Gift,
   BadgePercent,
@@ -229,6 +230,9 @@ export default function BundleModal({
               </div>
               <div className="mt-4">
                 <BundleValueStack compact stateName={state} price={price} />
+              </div>
+              <div className="mt-4">
+                <BundlePreviews compact stateName={state} program={program} />
               </div>
             </div>
           </div>
