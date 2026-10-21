@@ -4,6 +4,7 @@ import { CheckCircle2, FileSpreadsheet, FileText, ShieldCheck, Download, Clock }
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BuyButton from "./BuyButton";
+import BundlePreviews from "../../components/BundlePreviews";
 import { createServerSupabaseClient } from "@/utils/supabase-server";
 import { PROGRAM_HEADLINE, parseGoSlug } from "@/lib/go-links";
 import { pageMeta, SITE_URL, SITE_NAME } from "@/lib/seo";
@@ -253,19 +254,7 @@ export default async function GoPage({
 
             {previews.length > 0 && (
               <div className="mt-12">
-                <h2 className="text-2xl font-bold text-slate-950">Look inside the {state} bundle</h2>
-                <p className="mt-2 text-slate-600">Real pages from the files you download, not mockups.</p>
-                <div className="mt-6 grid gap-5 sm:grid-cols-2">
-                  {previews.map((p) => (
-                    <figure key={p.src} className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
-                      <a href={p.src} target="_blank" rel="noopener noreferrer" className="block bg-slate-50">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={p.src} alt={`${state} ${p.label}`} loading="lazy" className="h-64 w-full object-cover object-top" />
-                      </a>
-                      <figcaption className="border-t border-slate-100 px-4 py-3 text-sm font-medium text-slate-700">{p.label}</figcaption>
-                    </figure>
-                  ))}
-                </div>
+                <BundlePreviews productSlug={bundle.product_slug} stateName={state} />
               </div>
             )}
 
