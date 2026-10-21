@@ -16,11 +16,10 @@ export const SINGLE_ASSET_SLUGS = {
   manual: "policy-procedure-manual",
 } as const;
 
+/** Single-asset list prices (match the products table); used where the page can't query it. */
+export const ASSET_LIST_PRICES = { report: 397, pnl: 297, checklist: 397, manual: 497 } as const;
+
 export const COMMUNITY_EXTRAS = [
-  {
-    title: "Market research library",
-    detail: "19 lessons on Medicaid waiver (HCBS) services across states: rates, service definitions, licensing timelines and referral pipelines.",
-  },
   {
     title: "Weekly call recordings",
     detail: "Replays of our group calls, where owners work through real licensing and launch questions.",
