@@ -148,7 +148,7 @@ export async function POST(request: NextRequest) {
         currency: 'usd',
         product_data: {
           name: item.name,
-          description: item.description || `Product: ${item.name}`,
+          description: checkoutDescription(item),
         },
         unit_amount: Math.round(item.price * 100), // Convert to cents
       },
@@ -198,8 +198,13 @@ export async function POST(request: NextRequest) {
       metadata,
       success_url: successUrl || `${process.env.NEXT_PUBLIC_SITE_URL}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: cancelUrl || `${process.env.NEXT_PUBLIC_SITE_URL}/checkout`,
-      // Stripe rejects promotion codes alongside an applied discount.
-      ...(discounts.length ? {} : { allow_promotion_codes: true }),
+      // No "Add promotion code" box: an empty coupon field sends buyers off to hunt
+      // for a code and many never come back. Codes still work via ?code= on our pages.
+      // Abandoned-cart recovery: if the buyer typed an email and agreed to emails,
+      // Stripe can email them a link back to this checkout after it expires
+      // (also requires "Recover abandoned carts" to be on in Stripe → Settings → Checkout).
+      consent_collection: { promotions: 'auto' },
+      after_expiration: { recovery: { enabled: true, allow_promotion_codes: false } },
     });
 
     return NextResponse.json({
@@ -246,6 +251,15 @@ async function getValidQuickBooksCoupon(
   }
 
   return coupon;
+}
+
+// What the buyer reads under the item name on Stripe's payment page.
+function checkoutDescription(item: any): string {
+  const slug = [item.product_slug, item.id].find((v) => typeof v === 'string') || '';
+  if (slug.endsWith('-complete-bundle') && !isSingleAsset(item)) {
+    return 'Market research report, pro forma P&L (Excel), licensing checklist and 150+ page policy & procedure manual (Word + PDF). Instant download. Bonus: Operational Success Academy course, call recordings and owner community.';
+  }
+  return item.description || 'Instant download.';
 }
 
 function getDiscountPercent(code: string): number {
