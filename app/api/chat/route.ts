@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
     body: JSON.stringify({
       model: process.env.CHAT_MODEL || "anthropic/claude-sonnet-5.5",
       stream: true,
-      max_tokens: 800,
+      max_tokens: 2000,
       temperature: 0.6,
       messages: [{ role: "system", content: chatSystemPrompt() + context }, ...messages],
     }),
