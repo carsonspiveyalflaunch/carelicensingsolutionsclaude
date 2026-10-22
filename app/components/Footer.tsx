@@ -38,11 +38,27 @@ export default function Footer() {
     draw();
   }, []);
 
-  function subscribe() {
+  async function subscribe() {
     const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    setToast(valid ? "Subscribed successfully!" : "Please enter a valid email");
+    if (!valid) {
+      setToast("Please enter a valid email");
+      setTimeout(() => setToast(null), 2500);
+      return;
+    }
+    let ok = false;
+    try {
+      const res = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, source: "footer" }),
+      });
+      ok = res.ok;
+    } catch {
+      ok = false;
+    }
+    setToast(ok ? "Subscribed successfully!" : "Something went wrong. Please try again.");
     setTimeout(() => setToast(null), 2500);
-    if (valid) setEmail("");
+    if (ok) setEmail("");
   }
 
   const linkClass =

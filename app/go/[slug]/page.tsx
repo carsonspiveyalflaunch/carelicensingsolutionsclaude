@@ -4,6 +4,7 @@ import { CheckCircle2, FileSpreadsheet, FileText, ShieldCheck, Download, Clock }
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BuyButton from "./BuyButton";
+import LeadCapture from "./LeadCapture";
 import BundlePreviews from "../../components/BundlePreviews";
 import { createServerSupabaseClient } from "@/utils/supabase-server";
 import { PROGRAM_HEADLINE, parseGoSlug } from "@/lib/go-links";
@@ -341,6 +342,14 @@ export default async function GoPage({
                   </p>
                 </div>
               )}
+              <div className="mt-6">
+                <LeadCapture
+                  slug={slug}
+                  state={state}
+                  program={program}
+                  guideHref={guides[0] ? `/guides/${guides[0].slug}` : undefined}
+                />
+              </div>
               <p className="mt-3 text-sm text-slate-500">
                 Questions?{" "}
                 <a href="/contact" className="font-medium text-emerald-700 underline">
