@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      model: process.env.CHAT_MODEL || "anthropic/claude-sonnet-4",
+      model: process.env.CHAT_MODEL || "anthropic/claude-sonnet-5.5",
       stream: true,
       max_tokens: 500,
       temperature: 0.6,
