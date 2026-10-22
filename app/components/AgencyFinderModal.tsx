@@ -14,8 +14,31 @@ export default function AgencyFinderModal({
 }: AgencyFinderModalProps) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState("");
 
   if (!open) return null;
+
+  // Save the lead to GHL, then send them to the state/program picker.
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setError("Please enter a valid email");
+      return;
+    }
+    setSaving(true);
+    try {
+      await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, firstName: name, source: "agency-finder" }),
+      });
+    } catch {
+      // Don't block the visitor if saving fails; the server logs it.
+    }
+    window.location.href = "/get-started";
+  };
 
   return (
     <div
@@ -58,7 +81,7 @@ export default function AgencyFinderModal({
             budget, and goals.
           </p>
           {/* Form */}
-          <form className="w-full max-w-md flex flex-col gap-4 mb-4">
+          <form onSubmit={submit} className="w-full max-w-md flex flex-col gap-4 mb-4">
             <div>
               <label className="block text-start text-[#e6d98c] text-sm font-semibold mb-1">
                 Your Name
@@ -85,10 +108,12 @@ export default function AgencyFinderModal({
             </div>
             <button
               type="submit"
-              className="cursor-pointer w-full bg-[#e6d98c] hover:bg-[#ffe066] text-[#174a3c] font-bold py-3 rounded-lg mt-2 text-base transition flex items-center justify-center gap-2"
+              disabled={saving}
+              className="cursor-pointer w-full bg-[#e6d98c] hover:bg-[#ffe066] text-[#174a3c] font-bold py-3 rounded-lg mt-2 text-base transition flex items-center justify-center gap-2 disabled:opacity-70"
             >
-              Unlock the Agency Finder <ChevronRight size={16} />
+              {saving ? "Saving…" : "Unlock the Agency Finder"} <ChevronRight size={16} />
             </button>
+            {error && <p className="text-sm text-red-300 text-center">{error}</p>}
           </form>
           <p className="text-white/80 text-xs text-center mb-6">
             No spam. Unsubscribe anytime.

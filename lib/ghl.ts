@@ -8,6 +8,63 @@
 const API = "https://services.leadconnectorhq.com";
 const VERSION = "2021-07-28";
 
+// GHL custom field IDs in the ALF Launch sub-account (used by the CLS follow-up
+// workflow and the reply assistant: {{contact.bundle_link}} etc.).
+export const GHL_FIELDS = {
+  bundleLink: "d3rnxfMEsYNLr7o1nkC5",
+  stateName: "wpzqckQkQZx3cdR7uhFF",
+  stateCode: "dA8tqbem1qgd0n3eC3ll",
+  program: "JUxZeLyzAsipAqlLzKFB",
+  programPhrase: "RAhitXA54jDsdhclZSP1",
+} as const;
+
+/**
+ * Save a website lead to GHL: upsert by email (no duplicates), add tags, and
+ * fill the CLS custom fields when we know the state/program they were viewing.
+ */
+export async function saveLeadInGhl(opts: {
+  email: string;
+  firstName?: string | null;
+  phone?: string | null;
+  tags: string[];
+  customFields?: { id: string; value: string }[];
+}): Promise<{ ok: boolean; reason: string }> {
+  const token = process.env.GHL_PRIVATE_TOKEN;
+  const locationId = process.env.GHL_LOCATION_ID || "F5lkC7Gm4ls08iexDcUq";
+  if (!token) return { ok: false, reason: "no-token" };
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    Version: VERSION,
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  };
+  try {
+    const up = await fetch(`${API}/contacts/upsert`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({
+        locationId,
+        email: opts.email.trim().toLowerCase(),
+        source: "carelicensingsolution.com",
+        ...(opts.firstName ? { firstName: opts.firstName.trim() } : {}),
+        ...(opts.phone ? { phone: opts.phone } : {}),
+        ...(opts.customFields?.length ? { customFields: opts.customFields.map((f) => ({ id: f.id, field_value: f.value })) } : {}),
+      }),
+    });
+    const body = await up.json().catch(() => ({}));
+    const id = body?.contact?.id;
+    if (!up.ok || !id) return { ok: false, reason: `upsert-${up.status}` };
+    const tg = await fetch(`${API}/contacts/${id}/tags`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ tags: opts.tags }),
+    });
+    return { ok: tg.ok, reason: tg.ok ? "saved" : `tags-${tg.status}` };
+  } catch (e) {
+    return { ok: false, reason: e instanceof Error ? e.message : "error" };
+  }
+}
+
 export async function tagBuyerInGhl(opts: {
   email: string;
   name?: string | null;
