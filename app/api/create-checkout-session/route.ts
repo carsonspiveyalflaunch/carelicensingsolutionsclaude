@@ -203,8 +203,14 @@ export async function POST(request: NextRequest) {
       // Abandoned-cart recovery: if the buyer typed an email and agreed to emails,
       // Stripe can email them a link back to this checkout after it expires
       // (also requires "Recover abandoned carts" to be on in Stripe → Settings → Checkout).
-      consent_collection: { promotions: 'auto' },
-      after_expiration: { recovery: { enabled: true, allow_promotion_codes: false } },
+      // Off until the Stripe Checkout terms are accepted (Stripe → Settings → Checkout);
+      // Stripe rejects the whole session otherwise. Then set STRIPE_CHECKOUT_RECOVERY=1.
+      ...(process.env.STRIPE_CHECKOUT_RECOVERY === '1'
+        ? {
+            consent_collection: { promotions: 'auto' as const },
+            after_expiration: { recovery: { enabled: true, allow_promotion_codes: false } },
+          }
+        : {}),
     });
 
     return NextResponse.json({
