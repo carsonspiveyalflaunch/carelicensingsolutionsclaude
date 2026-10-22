@@ -3,7 +3,7 @@ import { chatSystemPrompt } from "@/lib/chat-prompt";
 
 // Site sales assistant. Streams an OpenAI-style SSE response from the Vercel AI
 // Gateway. Auth: AI_GATEWAY_API_KEY if set, otherwise the deployment's OIDC token.
-// Model: CHAT_MODEL (default anthropic/claude-sonnet-4).
+// Model: CHAT_MODEL (default anthropic/claude-sonnet-5.5).
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
     body: JSON.stringify({
       model: process.env.CHAT_MODEL || "anthropic/claude-sonnet-5.5",
       stream: true,
-      max_tokens: 500,
+      max_tokens: 800,
       temperature: 0.6,
       messages: [{ role: "system", content: chatSystemPrompt() + context }, ...messages],
     }),
