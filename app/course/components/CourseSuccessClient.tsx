@@ -6,6 +6,7 @@ import { CheckCircle, Loader, FileText, Users, BookOpen, Lock, Copy, Check } fro
 import Link from 'next/link';
 import { useAuth } from '@/app/components/AuthContext';
 import { useCart } from '@/app/components/cart-context';
+import { trackPurchase } from '@/lib/gads';
 
 const SKOOL_INVITE_LINK = "https://www.skool.com/carelicensingsolutions?invite=c486b98509704b52a9a0ba10e535c2ba";
 
@@ -71,6 +72,7 @@ export default function CourseSuccessClient() {
         if (response.ok) {
           // Enrollment is confirmed, so clear cart after a successful checkout.
           clearCart();
+          trackPurchase(data.purchase_id, Number(data.amount));
           setEnrollmentData(data);
           setLoading(false);
           return;
