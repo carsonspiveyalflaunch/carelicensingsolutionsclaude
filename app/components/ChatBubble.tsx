@@ -12,6 +12,9 @@ import { STATE_NAMES } from "@/lib/us-states";
 type Message = { role: "user" | "assistant"; content: string; quickReplies?: string[]; showStatePicker?: boolean };
 
 const STORAGE_KEY = "cls-chat-v1";
+const NUDGE_MS = 45_000;
+const NUDGE_TEXT = "Want me to text you that link so you don't lose it? Just drop your number here and I'll send it over. 📲";
+type Captured = { email?: string; phone?: string; name?: string };
 const TOOLTIP_KEY = "cls-chat-tooltip-v1";
 const HIDE_ON = ["/admin", "/dashboard", "/checkout"];
 const OPENING_REPLIES = ["I know my state", "Still exploring", "Already in process"];
@@ -42,18 +45,19 @@ function parseReply(text: string) {
   const state = /\[STATE_LOCKED:\s*([A-Z]{2})\]/.exec(text)?.[1] || null;
   const program = /\[PROGRAM_LOCKED:\s*([a-z-]+)\]/.exec(text)?.[1] || null;
   const email = /\[LEAD_CAPTURE:\s*([^\]\s]+)\]/.exec(text)?.[1] || null;
-  const phone = /\[PHONE_CAPTURE:\s*([^\]]+)\]/.exec(text)?.[1] || null;
+  const phone = /\[PHONE_CAPTURE:\s*([^\]]+)\]/.exec(text)?.[1]?.replace(/\D/g, "") || null;
+  const name = /\[NAME_CAPTURE:\s*([^\]]+)\]/.exec(text)?.[1]?.trim() || null;
   const showStatePicker = /\[STATE_PICKER\]/.test(text);
   const qr = /\[QUICK_REPLIES:\s*([^\]]+)\]/.exec(text);
   const quickReplies = qr ? qr[1].split("|").map((s) => s.trim()).filter(Boolean).slice(0, 4) : [];
   const clean = text
-    .replace(/\[(STATE_LOCKED|PROGRAM_LOCKED|LEAD_CAPTURE|PHONE_CAPTURE|QUICK_REPLIES)[^\]]*\]/g, "")
+    .replace(/\[(STATE_LOCKED|PROGRAM_LOCKED|LEAD_CAPTURE|PHONE_CAPTURE|NAME_CAPTURE|QUICK_REPLIES)[^\]]*\]/g, "")
     .replace(/\[STATE_PICKER\]/g, "")
     // Hide a half-streamed tag at the very end.
     .replace(/\[[A-Z_]*(:[^\]]*)?$/, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
-  return { clean, state, program, email, phone, showStatePicker, quickReplies };
+  return { clean, state, program, email, phone, name, showStatePicker, quickReplies };
 }
 
 function renderLine(text: string, onNav: (href: string) => void) {
@@ -159,25 +163,45 @@ export default function ChatBubble() {
   const [typing, setTyping] = useState(false);
   const [state, setState] = useState<string | null>(null);
   const [program, setProgram] = useState<string | null>(null);
-  const [leadSent, setLeadSent] = useState(false);
+  const [captured, setCaptured] = useState<Captured>({});
+  const [nudged, setNudged] = useState(false);
   const [tooltip, setTooltip] = useState(false);
+  const [tooltipText, setTooltipText] = useState<string | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   // Restore this tab's conversation.
   useEffect(() => {
-    const saved = store<{ messages: Message[]; state: string | null; program: string | null; leadSent: boolean }>(STORAGE_KEY);
+    const saved = store<{ messages: Message[]; state: string | null; program: string | null; captured?: Captured; nudged?: boolean }>(STORAGE_KEY);
     if (saved?.messages?.length) {
       setMessages(saved.messages);
       setState(saved.state);
       setProgram(saved.program);
-      setLeadSent(!!saved.leadSent);
+      setCaptured(saved.captured || {});
+      setNudged(!!saved.nudged);
     }
   }, []);
 
   useEffect(() => {
-    if (messages.length > 1) store(STORAGE_KEY, { messages, state, program, leadSent });
-  }, [messages, state, program, leadSent]);
+    if (messages.length > 1) store(STORAGE_KEY, { messages, state, program, captured, nudged });
+  }, [messages, state, program, captured, nudged]);
+
+  // Went quiet after getting a bundle link without leaving contact info:
+  // one friendly follow-up asking to text them the link.
+  useEffect(() => {
+    const last = messages[messages.length - 1];
+    if (nudged || loading || input || captured.phone || captured.email) return;
+    if (last?.role !== "assistant" || !/\]\((\/go\/|\/get-started)/.test(last.content)) return;
+    const t = setTimeout(() => {
+      setNudged(true);
+      setMessages((prev) => [...prev, { role: "assistant", content: NUDGE_TEXT }]);
+      if (!open) {
+        setTooltipText(NUDGE_TEXT);
+        setTooltip(true);
+      }
+    }, NUDGE_MS);
+    return () => clearTimeout(t);
+  }, [messages, nudged, loading, input, captured, open]);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -200,13 +224,22 @@ export default function ChatBubble() {
   const onNav = useCallback((href: string) => router.push(href), [router]);
 
   const saveLead = useCallback(
-    async (email: string, phone: string | null, st: string | null, prog: string | null) => {
+    async (c: Captured, st: string | null, prog: string | null, textLink: boolean, promo: string | null) => {
       const slug = st && prog && prog !== "other" ? `${st.toLowerCase()}-${prog}` : undefined;
       try {
         await fetch("/api/lead", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, phone: phone || undefined, source: "chat", slug, stateCode: st || undefined }),
+          body: JSON.stringify({
+            email: c.email,
+            phone: c.phone,
+            firstName: c.name,
+            source: "chat",
+            slug,
+            stateCode: st || undefined,
+            textLink,
+            promo: promo || undefined,
+          }),
         });
       } catch {}
     },
@@ -290,10 +323,20 @@ export default function ChatBubble() {
             },
           ];
         });
-        if (parsed.email && !leadSent) {
-          setLeadSent(true);
-          saveLead(parsed.email, parsed.phone, nextState, nextProgram);
-        }
+        // New contact info this turn → save/update the GHL contact. A newly given
+        // phone number means they asked for the link by text, so send it.
+        const next: Captured = {
+          email: parsed.email || captured.email,
+          phone: parsed.phone || captured.phone,
+          name: parsed.name || captured.name,
+        };
+        const newPhone = !!parsed.phone && parsed.phone !== captured.phone;
+        const newInfo = newPhone || (!!parsed.email && parsed.email !== captured.email) || (!!parsed.name && parsed.name !== captured.name && !!(next.email || next.phone));
+        if (newInfo && (next.email || next.phone)) {
+          setCaptured(next);
+          const promo = /code=LAUNCH20/.test([...history, { content: raw }].map((m) => m.content).join(" ")) ? "LAUNCH20" : null;
+          saveLead(next, nextState, nextProgram, newPhone, promo);
+        } else if (parsed.name) setCaptured(next);
       } catch (e) {
         setMessages((prev) => [
           ...prev,
@@ -304,7 +347,7 @@ export default function ChatBubble() {
         setLoading(false);
       }
     },
-    [input, loading, messages, pathname, state, program, leadSent, saveLead],
+    [input, loading, messages, pathname, state, program, captured, saveLead],
   );
 
   const reset = () => {
@@ -314,6 +357,8 @@ export default function ChatBubble() {
     setMessages([greeting()]);
     setState(null);
     setProgram(null);
+    setCaptured({});
+    setNudged(false);
   };
 
   if (HIDE_ON.some((p) => pathname.startsWith(p))) return null;
@@ -428,7 +473,7 @@ export default function ChatBubble() {
           <p className="flex items-center gap-1.5 text-sm font-bold text-slate-900">
             <img src="/carson-headshot.jpg" alt="" className="h-6 w-6 rounded-full object-cover" /> Free licensing help
           </p>
-          <p className="mt-0.5 text-xs text-slate-600">Ask about your state. Instant answers, no signup.</p>
+          <p className="mt-0.5 text-xs text-slate-600">{tooltipText || "Ask about your state. Instant answers, no signup."}</p>
         </button>
       )}
 
