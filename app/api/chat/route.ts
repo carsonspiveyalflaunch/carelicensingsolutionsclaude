@@ -1,5 +1,39 @@
 import { NextRequest, NextResponse } from "next/server";
 import { chatSystemPrompt } from "@/lib/chat-prompt";
+import { PROGRAM_ALIASES } from "@/lib/go-links";
+import { createServerSupabaseClient } from "@/utils/supabase-server";
+
+// Which bundle pages actually exist, per state, so the assistant never links a
+// program a state doesn't have. Cached in memory for 10 minutes.
+let catalog: { text: string; at: number } | null = null;
+async function bundleCatalog(): Promise<string> {
+  if (catalog && Date.now() - catalog.at < 10 * 60_000) return catalog.text;
+  try {
+    const supabase = createServerSupabaseClient();
+    const { data } = await supabase
+      .from("products")
+      .select("code, program")
+      .eq("type", "bundle")
+      .eq("is_active", true)
+      .like("product_slug", "%complete-bundle")
+      .limit(2000);
+    const byState: Record<string, Set<string>> = {};
+    for (const r of data || []) {
+      const alias = PROGRAM_ALIASES[r.program as string];
+      if (!alias || !r.code) continue;
+      (byState[r.code] ||= new Set()).add(alias);
+    }
+    const lines = Object.keys(byState).sort().map((c) => `${c}: ${[...byState[c]].join(", ")}`);
+    const text = lines.length
+      ? `\n\n## BUNDLE PAGES THAT EXIST (only link these; if their program isn't listed for their state, use /get-started?state=XX)\n${lines.join("\n")}`
+      : "";
+    catalog = { text, at: Date.now() };
+    return text;
+  } catch (e) {
+    console.error("Chat catalog load failed:", e);
+    return "";
+  }
+}
 
 // Site sales assistant. Streams an OpenAI-style SSE response from the Vercel AI
 // Gateway. Auth: AI_GATEWAY_API_KEY if set, otherwise the deployment's OIDC token.
@@ -45,7 +79,7 @@ export async function POST(req: NextRequest) {
       stream: true,
       max_tokens: 2000,
       temperature: 0.6,
-      messages: [{ role: "system", content: chatSystemPrompt() + context }, ...messages],
+      messages: [{ role: "system", content: chatSystemPrompt() + (await bundleCatalog()) + context }, ...messages],
     }),
   }).catch((e) => {
     console.error("Chat gateway fetch failed:", e);
