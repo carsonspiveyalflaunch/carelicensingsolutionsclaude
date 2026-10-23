@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Mail, Facebook, Youtube, Linkedin, Instagram } from "lucide-react";
 import LogoImg from "@/public/assets/images/logo-dark-bg.png";
 import Image from "next/image";
+import { trackLead } from "@/lib/gads";
 
 export default function Footer() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -58,7 +59,10 @@ export default function Footer() {
     }
     setToast(ok ? "Subscribed successfully!" : "Something went wrong. Please try again.");
     setTimeout(() => setToast(null), 2500);
-    if (ok) setEmail("");
+    if (ok) {
+      trackLead("footer");
+      setEmail("");
+    }
   }
 
   const linkClass =

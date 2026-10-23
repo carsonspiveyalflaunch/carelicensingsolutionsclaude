@@ -10,6 +10,7 @@ import { useAuth } from '../components/AuthContext';
 import { useAuthModal } from '../components/AuthModalContext';
 import AuthModal from '../components/AuthModal';
 import { useCart } from '../components/cart-context';
+import { trackPurchase } from '@/lib/gads';
 
 export default function CheckoutSuccessClient() {
   const searchParams = useSearchParams();
@@ -84,6 +85,7 @@ export default function CheckoutSuccessClient() {
         if (response.ok) {
           // Purchase is confirmed, so clear any remaining cart state.
           clearCart();
+          trackPurchase(data.purchase_id, Number(data.amount));
           setPurchaseData(data);
           // Show auth prompt if user is not authenticated (guest checkout)
           if (!user) {

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Loader2, Mail, CheckCircle2 } from "lucide-react";
+import { trackLead } from "@/lib/gads";
 
 type Props = { slug: string; state: string; program: string; guideHref?: string };
 
@@ -26,6 +27,7 @@ export default function LeadCapture({ slug, state, program, guideHref }: Props) 
       });
       const body = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(body.error || "Something went wrong");
+      trackLead("bundle-page");
       setStatus("done");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong");

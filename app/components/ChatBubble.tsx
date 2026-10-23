@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { MessageCircle, X, Send, User, Search, RotateCcw } from "lucide-react";
 import { STATE_NAMES } from "@/lib/us-states";
+import { trackLead } from "@/lib/gads";
 
 // Site sales assistant. Ported from the Lovable "Licensing Concierge":
 // streaming replies, quick-reply buttons, inline state picker, and hidden tags
@@ -227,7 +228,7 @@ export default function ChatBubble() {
     async (c: Captured, st: string | null, prog: string | null, textLink: boolean, promo: string | null) => {
       const slug = st && prog && prog !== "other" ? `${st.toLowerCase()}-${prog}` : undefined;
       try {
-        await fetch("/api/lead", {
+        const res = await fetch("/api/lead", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -241,6 +242,7 @@ export default function ChatBubble() {
             promo: promo || undefined,
           }),
         });
+        if (res.ok) trackLead("chat");
       } catch {}
     },
     [],

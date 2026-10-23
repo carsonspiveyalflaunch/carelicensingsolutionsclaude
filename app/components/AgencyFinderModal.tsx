@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { X, Wand2, ChevronRight } from "lucide-react";
+import { trackLead } from "@/lib/gads";
 
 interface AgencyFinderModalProps {
   open: boolean;
@@ -29,11 +30,12 @@ export default function AgencyFinderModal({
     }
     setSaving(true);
     try {
-      await fetch("/api/lead", {
+      const res = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, firstName: name, source: "agency-finder" }),
       });
+      if (res.ok) trackLead("agency-finder");
     } catch {
       // Don't block the visitor if saving fails; the server logs it.
     }
