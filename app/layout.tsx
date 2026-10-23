@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import Script from "next/script";
 import './globals.css';
 import AppProviders from "./components/AppProviders";
+import ChatBubble from "./components/ChatBubble";
 import { SITE_URL, SITE_NAME } from "@/lib/seo";
 
 const poppins = Poppins({
@@ -49,6 +50,7 @@ gtag('config', 'AW-18531893917');`}
         </Script>
         <AppProviders>
           <main>{children}</main>
+          <ChatBubble />
         </AppProviders>
       </body>
     </html>

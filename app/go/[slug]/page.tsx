@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { CheckCircle2, FileSpreadsheet, FileText, ShieldCheck, Download, Clock } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -81,8 +81,19 @@ export default async function GoPage({
 }) {
   const { slug } = await params;
   const { code } = await searchParams;
-  const loaded = await loadBundle(slug);
-  if (!loaded) notFound();
+  let loaded: Awaited<ReturnType<typeof loadBundle>> = null;
+  try {
+    loaded = await loadBundle(slug);
+  } catch (e) {
+    console.error("Bundle page load failed:", slug, e);
+  }
+  if (!loaded) {
+    // A link (chat assistant, ad, old text) pointed at a state + program we don't sell:
+    // send them to the bundle finder for that state instead of a dead 404.
+    const parsed = parseGoSlug(slug) || (/^[a-z]{2}-/.test(slug) ? { code: slug.slice(0, 2).toUpperCase() } : null);
+    if (parsed) redirect(`/get-started?state=${parsed.code}`);
+    notFound();
+  }
   const { bundle, files } = loaded;
   const { state, program, price } = bundle;
   const what = PROGRAM_HEADLINE[program] || program;
