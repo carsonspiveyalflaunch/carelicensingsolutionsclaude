@@ -8,8 +8,8 @@ const SOURCES = new Set(["footer", "agency-finder", "bundle-page", "chat"]);
 
 // Website email capture → GoHighLevel contact (ALF Launch sub-account).
 // Leads whose state + program we know (bundle page, or the chat assistant once
-// it has both) get the CLS fields + `cls-followup`, which starts the existing
-// CLS follow-up workflow and puts them under the GHL reply assistant.
+// it has both) get the CLS fields + `cls-nurture`, which starts the GHL
+// "CLS New Lead Nurture" workflow (email + text sequence until they buy or reply).
 export async function POST(req: NextRequest) {
   const body = await req.json().catch(() => ({}));
   const rawEmail = typeof body.email === "string" ? body.email.trim() : "";
@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
       { id: GHL_FIELDS.program, value: program },
       { id: GHL_FIELDS.programPhrase, value: (PROGRAM_HEADLINE[program] || program).toLowerCase() },
     );
-    tags.push("cls-followup");
+    tags.push("cls-nurture"); // starts the GHL "CLS New Lead Nurture" workflow
     textLink = {
       url: `${site}/go/${slug}?utm_source=sms&utm_campaign=chat${body.promo === "LAUNCH20" ? "&code=LAUNCH20" : ""}`,
       what: (PROGRAM_HEADLINE[program] || program).replace(/^an? /, ""),
