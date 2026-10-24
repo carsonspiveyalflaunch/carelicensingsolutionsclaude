@@ -79,11 +79,11 @@ const PNL = {
   product_label: "Pro Forma P&L Template",
 };
 
-function mockSupabase(rows: any[]) {
+function mockSupabase(rows: Record<string, unknown>[]) {
   return {
     from() {
-      const query: { eqs: [string, string][]; select: () => any; eq: (c: string, v: string) => any; limit: () => any; maybeSingle: () => Promise<{ data: any; error: null }> } = {
-        eqs: [],
+      const query = {
+        eqs: [] as [string, string][],
         select() {
           return query;
         },
@@ -107,7 +107,7 @@ function mockSupabase(rows: any[]) {
   };
 }
 
-function lineItem(item: any) {
+function lineItem(item: { name: string; price: number; quantity?: number }) {
   return {
     price_data: {
       currency: "usd",

@@ -6,7 +6,7 @@
  * charge and the name to show on Stripe. Prices are unchanged by the name fix.
  */
 
-import { checkoutDisplayName } from "./checkout-name";
+import { checkoutDisplayName, type CheckoutProduct } from "./checkout-name";
 import { resolveProductForItem } from "./resolve-product";
 
 export const COURSE_SLUG = 'course-operational-success-academy';
@@ -95,7 +95,7 @@ export async function resolveCartItems(supabase: any, items: any[]): Promise<any
   const resolved = [];
   for (const item of items) {
     const price = await resolveUnitPrice(supabase, item);
-    let product: any = null;
+    let product: CheckoutProduct | null = null;
     try {
       product = await resolveProductForItem(supabase, item);
     } catch {

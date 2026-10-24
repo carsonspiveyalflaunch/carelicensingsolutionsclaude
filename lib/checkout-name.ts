@@ -52,6 +52,15 @@ export type CheckoutProduct = {
   code?: string | null;
 };
 
+type CheckoutNameItem = {
+  id?: unknown;
+  name?: unknown;
+  product_slug?: unknown;
+  purchased_item?: unknown;
+  state?: unknown;
+  type?: unknown;
+};
+
 /** Empty when the string must never be shown on a payment page. */
 export function usableCheckoutName(value: unknown): string {
   if (typeof value !== "string") return "";
@@ -91,7 +100,7 @@ export function humanizeProductSlug(slug: string): string {
     .trim();
 }
 
-function slugOf(item: any, product: CheckoutProduct | null): string {
+function slugOf(item: CheckoutNameItem, product: CheckoutProduct | null): string {
   const candidates = [item?.product_slug, product?.product_slug, item?.id];
   for (const candidate of candidates) {
     if (typeof candidate !== "string") continue;
@@ -110,7 +119,7 @@ function bundleFromGenericId(id: string): { state: string; program: string } | n
   return { state, program };
 }
 
-function stateAndProgram(item: any, product: CheckoutProduct | null, slug: string): { state: string; program: string } {
+function stateAndProgram(item: CheckoutNameItem, product: CheckoutProduct | null, slug: string): { state: string; program: string } {
   const fromId =
     bundleFromGenericId(typeof item?.id === "string" ? item.id : "") ||
     bundleFromGenericId(slug);
@@ -130,7 +139,7 @@ function cap(name: string): string {
  * Human-readable Stripe product name for this cart line.
  * `product` is the catalog row for the slug being charged, when one exists.
  */
-export function checkoutDisplayName(item: any, product: CheckoutProduct | null): string {
+export function checkoutDisplayName(item: CheckoutNameItem, product: CheckoutProduct | null): string {
   const id = typeof item?.id === "string" ? item.id : "";
   if (id.endsWith("-sample")) {
     return cap(usableCheckoutName(item?.name) || "Sample Resource");
