@@ -16,6 +16,7 @@ import Link from "next/link";
 import { promoPercent, promoDeadline } from "@/lib/promos";
 import { PAY_LATER_ENABLED, payIn4, walkthroughEmbedUrl } from "@/lib/pay-later";
 import { previewsFor } from "@/lib/previews";
+import { checkoutDisplayName } from "@/lib/checkout-name";
 import { COURSE_PRICE_DOLLARS, COURSE_TITLE, COURSE_DETAIL, SINGLE_ASSET_SLUGS, COMMUNITY_EXTRAS } from "@/lib/value-stack";
 import { Gift } from "lucide-react";
 
@@ -96,6 +97,10 @@ export default async function GoPage({
   }
   const { bundle, files } = loaded;
   const { state, program, price } = bundle;
+  const productName = checkoutDisplayName(
+    { product_slug: bundle.product_slug, name: bundle.name },
+    bundle,
+  );
   const what = PROGRAM_HEADLINE[program] || program;
   const guides = guidesForBundle(slug);
   const complete = isCompleteBundle(files.map((f) => ({ label: normalizeBundleFileLabel(f) })));
@@ -203,7 +208,7 @@ export default async function GoPage({
               {complete ? (
               <BuyButton
                 productSlug={bundle.product_slug}
-                name={bundle.name}
+                name={productName}
                 price={price}
                 discountCode={discountCode}
                 cancelPath={`/go/${slug}${discountCode ? `?code=${discountCode}` : ""}`}
@@ -309,7 +314,7 @@ export default async function GoPage({
                   <div className="mt-4">
                     <BuyButton
                       productSlug={bundle.product_slug}
-                      name={bundle.name}
+                      name={productName}
                       price={price}
                       discountCode={discountCode}
                       cancelPath={`/go/${slug}${discountCode ? `?code=${discountCode}` : ""}`}
@@ -338,7 +343,7 @@ export default async function GoPage({
               {complete ? (
               <BuyButton
                 productSlug={bundle.product_slug}
-                name={bundle.name}
+                name={productName}
                 price={price}
                 discountCode={discountCode}
                 cancelPath={`/go/${slug}${discountCode ? `?code=${discountCode}` : ""}`}

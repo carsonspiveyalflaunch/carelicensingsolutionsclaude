@@ -1,10 +1,13 @@
 /**
- * Server-side source of truth for what a cart item costs.
+ * Server-side source of truth for what a cart item costs and what it is called.
  *
- * The browser sends a price with every cart item, but that value can be edited
- * by the customer, so checkout must never charge it. resolveCartItems() looks
- * each item up and returns the price to charge.
+ * The browser sends a price and a name with every cart item, but either value
+ * can be wrong. resolveCartItems() looks each item up and returns the price to
+ * charge and the name to show on Stripe. Prices are unchanged by the name fix.
  */
+
+import { checkoutDisplayName } from "./checkout-name";
+import { resolveProductForItem } from "./resolve-product";
 
 export const COURSE_SLUG = 'course-operational-success-academy';
 export const COURSE_PRICE = 697;
@@ -81,19 +84,26 @@ async function resolveUnitPrice(supabase: any, item: any): Promise<number> {
   // Generic bundle from the bundles page ("bundle-<state>-<type>").
   if (id.startsWith('bundle-')) return STANDARD_BUNDLE_PRICE;
 
-  throw new PricingError(`"${item?.name || id || 'Item'}" is not available for purchase`);
+  throw new PricingError(`"${checkoutDisplayName(item, null)}" is not available for purchase`);
 }
 
 /**
- * Returns the cart with every price and quantity replaced by trusted values.
- * Throws PricingError when an item cannot be priced.
+ * Returns the cart with every price, quantity, and display name replaced by
+ * trusted values. Throws PricingError when an item cannot be priced.
  */
 export async function resolveCartItems(supabase: any, items: any[]): Promise<any[]> {
   const resolved = [];
   for (const item of items) {
     const price = await resolveUnitPrice(supabase, item);
+    let product: any = null;
+    try {
+      product = await resolveProductForItem(supabase, item);
+    } catch {
+      product = null;
+    }
     resolved.push({
       ...item,
+      name: checkoutDisplayName(item, product),
       price,
       quantity: toQuantity(item?.quantity),
       purchased_item_price: item?.purchased_item ? price : item?.purchased_item_price ?? null,
