@@ -142,7 +142,8 @@ export async function POST(request: NextRequest) {
     }));
     console.log('💾 Items being stored in Stripe metadata:', JSON.stringify(metadataItems, null, 2));
 
-    // Create line items for Stripe
+    // Names were normalized in resolveCartItems. The browser string is not used:
+    // it has been "x", or a single-file label on a complete-bundle slug.
     const lineItems = items.map((item: any) => ({
       price_data: {
         currency: 'usd',

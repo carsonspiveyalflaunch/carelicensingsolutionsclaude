@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test:checkout-name": "node --experimental-strip-types --import ./lib/register-ts-ext.mjs --test lib/checkout-name.test.ts",
     "seed:products": "node seed-products.js",
     "seed:alabama": "node seed-alabama-bundle.js"
   },

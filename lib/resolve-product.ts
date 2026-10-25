@@ -11,7 +11,7 @@
  */
 
 const SELECT =
-  'id, product_slug, name, price, type, stripe_product_id, stripe_price_id, skool_group_id, skool_course_id, ghl_tag';
+  'id, product_slug, name, price, type, state, code, program, product_label, stripe_product_id, stripe_price_id, skool_group_id, skool_course_id, ghl_tag';
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
