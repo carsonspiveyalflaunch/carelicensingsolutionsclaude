@@ -6,7 +6,7 @@ import { allGuides, isThin } from "@/lib/guides";
 
 export const revalidate = 3600;
 
-const STATIC_PAGES = ["/", "/get-started", "/states", "/guides", "/bundles", "/shop", "/course", "/about", "/contact", "/terms", "/refund-policy", "/privacy"];
+const STATIC_PAGES = ["/", "/launch-kit", "/get-started", "/states", "/guides", "/bundles", "/shop", "/course", "/about", "/contact", "/terms", "/refund-policy", "/privacy"];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
@@ -14,7 +14,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${SITE_URL}${path === "/" ? "" : path}`,
     lastModified: now,
     changeFrequency: "weekly",
-    priority: path === "/" ? 1 : 0.7,
+    priority: path === "/" ? 1 : path === "/launch-kit" ? 0.9 : 0.7,
   }));
 
   // One landing page per live bundle: /go/<state code>-<program>
