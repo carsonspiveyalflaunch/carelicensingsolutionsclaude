@@ -9,7 +9,7 @@ import { pageMeta, SITE_NAME, SITE_URL } from "@/lib/seo";
 import { isTrustedCatalogName } from "@/lib/tracking-params";
 import { STANDARD_BUNDLE_PRICE } from "@/lib/pricing";
 
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = pageMeta(
   "/launch-kit",
@@ -19,17 +19,14 @@ export const metadata: Metadata = pageMeta(
 
 const SELECT = "id, product_slug, name, price, state, code, program";
 
-function catalogReader() {
-  if (isSupabaseConfigured()) return createServerSupabaseClient();
+function anonReader() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!url || !key) return null;
   return createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
 }
 
-async function loadLaunchKits(): Promise<LaunchKitProduct[]> {
-  const supabase = catalogReader();
-  if (!supabase) return [];
+async function queryLaunchKits(supabase: ReturnType<typeof createServerSupabaseClient>): Promise<LaunchKitProduct[]> {
   const { data, error } = await supabase
     .from("products")
     .select(SELECT)
@@ -62,6 +59,22 @@ async function loadLaunchKits(): Promise<LaunchKitProduct[]> {
   }
   kits.sort((a, b) => a.state.localeCompare(b.state) || a.program.localeCompare(b.program));
   return kits;
+}
+
+async function loadLaunchKits(): Promise<LaunchKitProduct[]> {
+  // Prefer the service role. Preview has had an unusable service-role value, and
+  // this catalog is publicly readable, so fall back to the anon key.
+  if (isSupabaseConfigured()) {
+    try {
+      const kits = await queryLaunchKits(createServerSupabaseClient());
+      if (kits.length) return kits;
+    } catch (err) {
+      console.error("Launch Kit service-role read failed:", err);
+    }
+  }
+  const anon = anonReader();
+  if (!anon) return [];
+  return queryLaunchKits(anon);
 }
 
 export default async function LaunchKitPage() {
