@@ -3,9 +3,11 @@
 import { useState } from "react";
 import { Loader2, Lock } from "lucide-react";
 import { trackBeginCheckout } from "@/lib/gads";
+import { cancelUrlWithTracking, isTrustedCatalogName, successUrlWithTracking } from "@/lib/tracking-params";
 
 type Props = {
   productSlug: string;
+  productId?: string;
   name: string;
   price: number;
   discountCode?: string;
@@ -15,22 +17,38 @@ type Props = {
 
 // Sends the buyer straight to Stripe's hosted checkout: no cart, no account first.
 // Price is resolved server-side from the products table; the client value is display-only.
-export default function BuyButton({ productSlug, name, price, discountCode, cancelPath, label }: Props) {
+// The API also replaces a bad client name. This button still refuses a blank or "x"
+// name so checkout never starts for a row that is not a real catalog product.
+export default function BuyButton({ productSlug, productId, name, price, discountCode, cancelPath, label }: Props) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   const buy = async () => {
     setLoading(true);
     setError("");
+    const catalogName = isTrustedCatalogName(name) ? name.trim() : "";
+    if (!productSlug || !catalogName) {
+      setError("This product isn't available right now");
+      setLoading(false);
+      return;
+    }
     try {
+      const successUrl = successUrlWithTracking(window.location.origin, window.location.search);
       const res = await fetch("/api/create-checkout-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          items: [{ product_slug: productSlug, name, price, quantity: 1 }],
+          items: [{
+            product_slug: productSlug,
+            product_id: productId || undefined,
+            name: catalogName,
+            price,
+            quantity: 1,
+          }],
           discountCode: discountCode || undefined,
           customerInfo: {},
-          cancelUrl: `${window.location.origin}${cancelPath}`,
+          cancelUrl: cancelUrlWithTracking(window.location.origin, cancelPath, window.location.search),
+          successUrl,
         }),
       });
       const body = await res.json().catch(() => ({}));
