@@ -3,6 +3,7 @@
 // Labels come from Google Ads → Goals → Conversions → (action) → Tag setup.
 const AW_ID = "AW-18531893917";
 const PURCHASE_LABEL = process.env.NEXT_PUBLIC_GADS_PURCHASE_LABEL || "";
+const BEGIN_CHECKOUT_LABEL = process.env.NEXT_PUBLIC_GADS_BEGIN_CHECKOUT_LABEL || "";
 const LEAD_LABEL = process.env.NEXT_PUBLIC_GADS_LEAD_LABEL || "";
 
 type Gtag = (...args: unknown[]) => void;
@@ -32,6 +33,30 @@ export function trackPurchase(orderId: string, value: number) {
     value,
     currency: "USD",
     transaction_id: orderId,
+  });
+}
+
+/**
+ * A Checkout Session exists and the browser is about to leave for Stripe.
+ *
+ * The Begin checkout action in Google Ads uses one fixed value (0) for every
+ * conversion, so the reported conversion value stays 0 either way. Callers
+ * still pass the cart total in USD when they have it: that is the amount the
+ * buyer is about to pay, and it stays correct if the action is later switched
+ * to "Use different values for each conversion." Omit `value` to send currency
+ * only. `0` is sent when the caller passes it (a free checkout still started).
+ *
+ * `transport_type: "beacon"` so the hit survives the immediate redirect.
+ * No-op when the label env is empty or gtag has not loaded.
+ */
+export function trackBeginCheckout(value?: number) {
+  const g = gtag();
+  if (!g || !BEGIN_CHECKOUT_LABEL) return;
+  g("event", "conversion", {
+    send_to: `${AW_ID}/${BEGIN_CHECKOUT_LABEL}`,
+    currency: "USD",
+    ...(typeof value === "number" && Number.isFinite(value) ? { value } : {}),
+    transport_type: "beacon",
   });
 }
 

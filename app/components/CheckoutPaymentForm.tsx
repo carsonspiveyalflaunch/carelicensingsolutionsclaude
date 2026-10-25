@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Lock, ChevronLeft, Loader } from "lucide-react";
 import { useAuth } from "../components/AuthContext";
+import { trackBeginCheckout } from "@/lib/gads";
 
 export default function CheckoutPaymentForm({
   total,
@@ -58,6 +59,7 @@ export default function CheckoutPaymentForm({
         throw new Error(data.error || "Failed to create checkout session");
       }
 
+      if (data.url) trackBeginCheckout(total);
       // Redirect to Stripe Checkout
       window.location.href = data.url;
     } catch (err: any) {
