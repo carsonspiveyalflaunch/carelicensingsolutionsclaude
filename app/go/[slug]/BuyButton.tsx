@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Loader2, Lock } from "lucide-react";
+import { trackBeginCheckout } from "@/lib/gads";
 
 type Props = {
   productSlug: string;
@@ -34,6 +35,7 @@ export default function BuyButton({ productSlug, name, price, discountCode, canc
       });
       const body = await res.json().catch(() => ({}));
       if (!res.ok || !body.url) throw new Error(body.error || "Checkout could not start");
+      trackBeginCheckout(price);
       window.location.href = body.url;
     } catch (e) {
       setError(e instanceof Error ? e.message : "Checkout could not start");

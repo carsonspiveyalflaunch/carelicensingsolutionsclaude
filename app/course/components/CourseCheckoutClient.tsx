@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { ArrowLeft, CheckCircle2, Copy, Check } from "lucide-react";
 import Link from "next/link";
 import Swal from "sweetalert2";
+import { trackBeginCheckout } from "@/lib/gads";
 
 const COURSE_PRICE = 697;
 const COURSE_NAME = "Care Licensing Solutions Operational Success Academy";
@@ -45,6 +46,7 @@ export default function CourseCheckoutClient() {
         throw new Error(data.error || "Failed to create checkout session");
       }
 
+      if (data.url) trackBeginCheckout(COURSE_PRICE);
       // Redirect to Stripe checkout
       window.location.href = data.url;
     } catch (error: any) {
