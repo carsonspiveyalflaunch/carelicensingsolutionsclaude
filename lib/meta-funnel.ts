@@ -11,7 +11,10 @@ export const MRR_PRICE_DOLLARS = 47;
 export const BUMP_PRICE_DOLLARS = 27;
 export const LAUNCH_KIT_PRICE_DOLLARS = 997;
 export const MRR_CREDIT_DOLLARS = 47;
-export const UPSELL_PRICE_DOLLARS = LAUNCH_KIT_PRICE_DOLLARS - MRR_CREDIT_DOLLARS;
+/** Funnel-only charge while the report credit is open. /launch-kit stays $997. */
+export const UPSELL_PRICE_DOLLARS = 647;
+/** $997 − $647. The $47 report credit is part of this offer. */
+export const UPSELL_SAVINGS_DOLLARS = LAUNCH_KIT_PRICE_DOLLARS - UPSELL_PRICE_DOLLARS;
 export const CREDIT_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 
 /** Meta content_ids. Front-end purchase uses mrr_47; the kit upsell uses launch_kit_997. */
@@ -23,6 +26,18 @@ export const CONTENT_LAUNCH_KIT = "launch_kit_997";
 export const MRR_PURCHASED_ITEM = "Market Research Report";
 export const BUMP_PURCHASED_ITEM = "Licensing Checklist";
 export const BUMP_DISPLAY_NAME = "Licensing Documentation Checklist";
+
+/** Proprietary name for the tripwire method. The file itself is the Market Research Report. */
+export const METHOD_NAME = "License-First Market Map";
+
+/** On-page reading guide delivered with the report. Not a separate priced file. */
+export const READ_REPORT_STEPS = [
+  { title: "Executive summary", body: "Start here. It is the short read on whether this state and program shows a real opening." },
+  { title: "Who pays", body: "Service model, regulatory class, and funding streams. This is the page that answers “where does the money come from?”" },
+  { title: "Licensing path", body: "The roadmap, application steps, and timelines for the program you picked." },
+  { title: "People and place", body: "Administrator, staff, training, facility, and equipment requirements." },
+  { title: "Rates and startup", body: "Reimbursement notes, competitive landscape, startup costs, and the phase-by-phase timeline." },
+] as const;
 
 export const MRR_BULLETS = [
   "Executive Summary with key market indicators and financial opportunity analysis",
@@ -85,7 +100,7 @@ export function creditExpiresIso(stripeCreatedSeconds: number): string {
   return new Date(creditExpiresAt(stripeCreatedSeconds * 1000)).toISOString();
 }
 
-/** $950 while the report credit is open, otherwise the $997 kit price. */
+/** $647 while the report credit is open, otherwise the $997 kit price. */
 export function upsellAmountCents(purchasedAtMs: number, now = Date.now()): number {
   const dollars = creditActive(purchasedAtMs, now) ? UPSELL_PRICE_DOLLARS : LAUNCH_KIT_PRICE_DOLLARS;
   return dollars * 100;

@@ -118,7 +118,7 @@ export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi
   return purchase;
 }
 
-/** True when the $950 kit was paid, and records a one-click PaymentIntent if Stripe already captured it. */
+/** True when the $647 kit was paid, and records a one-click PaymentIntent if Stripe already captured it. */
 export async function isUpsellComplete(
   stripe: Stripe,
   supabase: SupabaseClient,

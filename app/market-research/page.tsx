@@ -11,8 +11,8 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   ...pageMeta(
     "/market-research",
-    "State Market Research Report — $47 | Care Licensing Solutions",
-    "The state and program market research report for nurses and healthcare professionals. Demand, competition, reimbursement, and where to open. $47, instant download.",
+    "License-First Market Map — $47 | Care Licensing Solutions",
+    "For nurses and healthcare professionals. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
   ),
   robots: { index: false, follow: false },
 };

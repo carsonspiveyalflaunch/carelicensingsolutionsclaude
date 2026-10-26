@@ -10,7 +10,10 @@ import { ASSET_LIST_PRICES } from "@/lib/value-stack";
 import {
   BUMP_DISPLAY_NAME,
   BUMP_PRICE_DOLLARS,
+  METHOD_NAME,
+  MRR_CREDIT_DOLLARS,
   MRR_PRICE_DOLLARS,
+  UPSELL_PRICE_DOLLARS,
   checkoutHref,
   formatUsd,
   funnelContentIds,
@@ -123,12 +126,17 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
     <main className="bg-slate-50 px-4 pb-16 pt-28">
       <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[1fr_0.9fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-700">Checkout</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-700">{METHOD_NAME}</p>
           <h1 className="mt-2 text-3xl font-bold text-slate-950">Your Market Research Report</h1>
           <p className="mt-3 text-slate-600">
             {selected
               ? `${selected.state} ${selected.program}. You pay ${formatUsd(MRR_PRICE_DOLLARS)} today. The shop listing stays ${formatUsd(ASSET_LIST_PRICES.report)}.`
-              : "Choose the state and program. The price on this page is the $47 offer."}
+              : `Choose the state and program. The price on this page is the ${formatUsd(MRR_PRICE_DOLLARS)} offer.`}
+          </p>
+          <p className="mt-3 text-slate-600">
+            After payment you download the PDF and a short guide for which pages to read first. For 7 days your{" "}
+            {formatUsd(MRR_CREDIT_DOLLARS)} credit can be used on the Launch Kit at {formatUsd(UPSELL_PRICE_DOLLARS)}.
+            You can skip the kit.
           </p>
           <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
             <StateProgramSelect
@@ -175,7 +183,8 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
                   Add the {BUMP_DISPLAY_NAME} — {formatUsd(BUMP_PRICE_DOLLARS)}
                 </span>
                 <span className="mt-1 block text-sm text-slate-600">
-                  The forms, fees, inspections, and agency steps for this program, in order. Shop price {formatUsd(ASSET_LIST_PRICES.checklist)}. Optional.
+                  Order bump. Forms, fees, inspections, and agency steps for this program, in order. Shop price{" "}
+                  {formatUsd(ASSET_LIST_PRICES.checklist)}. Optional. Skip it and you still get the report.
                 </span>
               </span>
             </label>
@@ -199,7 +208,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
             <p className="mt-2 text-sm text-amber-800">That report isn&apos;t available yet. Choose another program.</p>
           )}
           {error && <p className="mt-2 text-sm text-red-700">{error}</p>}
-          <p className="mt-3 text-center text-sm text-slate-500">Stripe collects your email and card. Digital delivery, no appointment.</p>
+          <p className="mt-3 text-center text-sm text-slate-500">Stripe collects your email and card. Digital delivery. No call.</p>
         </div>
       </div>
     </main>
