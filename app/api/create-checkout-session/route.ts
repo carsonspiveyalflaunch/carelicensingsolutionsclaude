@@ -8,6 +8,8 @@ import { listBundleAssets, isCompleteBundle } from "@/lib/bundle-files";
 import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 import { promoPercent } from "@/lib/promos";
 import { CHECKOUT_PAYMENT_METHODS } from "@/lib/pay-later";
+import { createFrontEndCheckout, FunnelOrderError } from "@/lib/funnel-checkout";
+import { META_FUNNEL } from "@/lib/meta-funnel";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -46,6 +48,23 @@ export async function POST(request: NextRequest) {
       }
     }
 
+    const body = await request.json();
+    if (body?.funnel === META_FUNNEL) {
+      try {
+        const checkout = await createFrontEndCheckout(stripe, supabase, {
+          ...body,
+          userId,
+          requestOrigin: request.nextUrl.origin,
+        });
+        return NextResponse.json(checkout);
+      } catch (err) {
+        if (err instanceof FunnelOrderError) {
+          return NextResponse.json({ error: err.message }, { status: err.status });
+        }
+        throw err;
+      }
+    }
+
     const {
       items: requestedItems,
       successUrl,
@@ -53,7 +72,7 @@ export async function POST(request: NextRequest) {
       discountCode,
       customerEmail,
       customerInfo
-    } = await request.json();
+    } = body;
 
     console.log('📋 Checkout session request received with items:', JSON.stringify(requestedItems, null, 2));
 
