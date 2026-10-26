@@ -4,6 +4,8 @@ import Script from "next/script";
 import './globals.css';
 import AppProviders from "./components/AppProviders";
 import ChatBubble from "./components/ChatBubble";
+import MetaPixel from "./components/MetaPixel";
+import { metaPixelId } from "@/lib/meta-pixel";
 import { SITE_URL, SITE_NAME } from "@/lib/seo";
 
 const poppins = Poppins({
@@ -19,6 +21,8 @@ export const metadata: Metadata = {
     "State-specific licensing bundles for care businesses: market research, pro forma P&L, licensing checklist and policy & procedure manual. Instant download.",
   openGraph: { siteName: SITE_NAME, type: "website", locale: "en_US" },
 };
+
+const metaPixel = metaPixelId();
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
@@ -48,7 +52,35 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'AW-18531893917');`}
         </Script>
+        {metaPixel ? (
+          <Script id="meta-pixel" strategy="beforeInteractive">
+            {`!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '${metaPixel}');
+fbq('track', 'PageView');`}
+          </Script>
+        ) : null}
+        {metaPixel ? (
+          <noscript>
+            {/* Meta's required no-JS pixel. next/image cannot sit inside noscript. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              height="1"
+              width="1"
+              style={{ display: "none" }}
+              src={`https://www.facebook.com/tr?id=${metaPixel}&ev=PageView&noscript=1`}
+              alt=""
+            />
+          </noscript>
+        ) : null}
         <AppProviders>
+          <MetaPixel />
           <main>{children}</main>
           <ChatBubble />
         </AppProviders>

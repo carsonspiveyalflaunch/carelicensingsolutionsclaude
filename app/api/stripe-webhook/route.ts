@@ -6,6 +6,11 @@ import { tagBuyerInGhl } from "@/lib/ghl";
 import { readItemsMetadata } from "@/lib/stripe-items";
 import { orderTotals, buyerName } from "@/lib/stripe-order";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
+import { upsertProductAccess } from "@/lib/purchase-access";
+import { fulfillLaunchKitPaymentIntent } from "@/lib/funnel-fulfill";
+import { queueFrontPurchaseEmail } from "@/lib/funnel-checkout";
+import { queueFunnelEmail } from "@/lib/funnel-email";
+import { META_FUNNEL } from "@/lib/meta-funnel";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -57,6 +62,14 @@ export async function POST(request: NextRequest) {
       case 'checkout.session.completed':
         await handleCheckoutSessionCompleted(event.data.object as Stripe.Checkout.Session, supabase);
         break;
+
+      case 'payment_intent.succeeded': {
+        const pi = event.data.object as Stripe.PaymentIntent;
+        if (pi.metadata?.funnel === META_FUNNEL && pi.metadata?.upsell === 'launch_kit') {
+          await fulfillLaunchKitPaymentIntent(supabase, pi);
+        }
+        break;
+      }
 
       case 'payment_intent.payment_failed':
         await handlePaymentFailed(event.data.object as Stripe.PaymentIntent, supabase);
@@ -251,16 +264,12 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
         });
         
         // Create or update user_products entry with purchased_items
-        const { error: grantError } = await supabase
-          .from('user_products')
-          .upsert({
-            user_id: userId,
-            product_id: productId,
-            purchase_id: purchase.id,
-            granted_at: new Date().toISOString(),
-            is_active: true,
-            purchased_items: purchasedItems.length > 0 ? purchasedItems : null,
-          });
+        const grantError = await upsertProductAccess(supabase, {
+          userId,
+          productId,
+          purchaseId: purchase.id,
+          purchasedItems: purchasedItems.length > 0 ? purchasedItems : null,
+        });
 
         if (grantError) {
           console.error(`Failed to grant access to product ${productId}:`, grantError);
@@ -301,6 +310,20 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       } catch (deliveryError) {
         console.error('Access delivery failed:', deliveryError);
       }
+    }
+
+    if (session.metadata?.funnel === META_FUNNEL && session.metadata?.upsell === 'launch_kit') {
+      await queueFunnelEmail('meta_mrr_launch_kit_accepted', {
+        email: courseEmail,
+        name: session.customer_details?.name,
+        sessionId: session.metadata?.upsell_source_session || session.id,
+        state: session.metadata?.state,
+        program: session.metadata?.program,
+        amount: total,
+        creditExpiresAt: null,
+      });
+    } else if (session.metadata?.funnel === META_FUNNEL) {
+      await queueFrontPurchaseEmail(session);
     }
 
     // Tell GHL this person bought, so sales emails/texts stop for them.

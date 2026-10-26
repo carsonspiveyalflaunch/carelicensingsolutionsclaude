@@ -4,10 +4,45 @@
  */
 import { resolveProductForItem } from "@/lib/resolve-product";
 import { SKOOL_COMMUNITY_URL } from "@/lib/community";
+import { mergePurchasedItems } from "@/lib/purchased-items";
+
+export { mergePurchasedItems } from "@/lib/purchased-items";
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://carelicensingsolution.com").replace(/\/$/, "");
 
 const norm = (e: unknown) => String(e || "").trim().toLowerCase();
+
+/** Grant one product without narrowing a complete-bundle unlock. */
+export async function upsertProductAccess(
+  supabase: any,
+  args: { userId: string; productId: string; purchaseId: string; purchasedItems: string[] | null },
+) {
+  const { data: row, error: readError } = await supabase
+    .from("user_products")
+    .select("purchased_items")
+    .eq("user_id", args.userId)
+    .eq("product_id", args.productId)
+    .maybeSingle();
+  if (readError) console.error("upsertProductAccess read failed:", readError);
+
+  const purchased_items = mergePurchasedItems(
+    readError || !row ? undefined : (row.purchased_items as string[] | null),
+    args.purchasedItems,
+  );
+
+  const { error } = await supabase.from("user_products").upsert(
+    {
+      user_id: args.userId,
+      product_id: args.productId,
+      purchase_id: args.purchaseId,
+      granted_at: new Date().toISOString(),
+      is_active: true,
+      purchased_items,
+    },
+    { onConflict: "user_id,product_id" },
+  );
+  return error;
+}
 
 function purchaseEmail(p: any): string {
   return norm(p?.metadata?.customer_email || p?.metadata?.customer_info?.email);
@@ -33,17 +68,12 @@ export async function grantPurchase(supabase: any, userId: string, purchase: any
     if (item.purchased_item) byProduct[product.id].push(item.purchased_item);
   }
   for (const [productId, picked] of Object.entries(byProduct)) {
-    const { error } = await supabase.from("user_products").upsert(
-      {
-        user_id: userId,
-        product_id: productId,
-        purchase_id: purchase.id,
-        granted_at: new Date().toISOString(),
-        is_active: true,
-        purchased_items: picked.length ? picked : null,
-      },
-      { onConflict: "user_id,product_id" },
-    );
+    const error = await upsertProductAccess(supabase, {
+      userId,
+      productId,
+      purchaseId: purchase.id,
+      purchasedItems: picked.length ? picked : null,
+    });
     if (error) console.error(`grantPurchase failed for ${productId}:`, error);
   }
   return Object.keys(byProduct).length;

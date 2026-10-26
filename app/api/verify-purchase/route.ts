@@ -4,6 +4,7 @@ import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supaba
 import { resolveProductForItem } from "@/lib/resolve-product";
 import { readItemsMetadata } from "@/lib/stripe-items";
 import { orderTotals, buyerName } from "@/lib/stripe-order";
+import { upsertProductAccess } from "@/lib/purchase-access";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -49,13 +50,11 @@ async function grantAccessForPurchase(
       itemCount: productItems.length,
     });
 
-    const { error } = await supabase.from('user_products').upsert({
-      user_id: userId,
-      product_id: product.id,
-      purchase_id: purchaseId,
-      granted_at: new Date().toISOString(),
-      is_active: true,
-      purchased_items: purchasedItems.length > 0 ? purchasedItems : null,
+    const error = await upsertProductAccess(supabase, {
+      userId,
+      productId: product.id,
+      purchaseId,
+      purchasedItems: purchasedItems.length > 0 ? purchasedItems : null,
     });
 
     if (error) {
