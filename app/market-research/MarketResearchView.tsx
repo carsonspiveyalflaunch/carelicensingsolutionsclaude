@@ -236,7 +236,7 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
               ["What am I buying?", "The Market Research Report PDF for the state and program you pick. Same file as the shop listing."],
               ["Why is this $47?", "This page is a separate offer. The shop price does not change."],
               ["When do I get the file?", "On the thank-you page right after payment, and by email as a login link to your downloads."],
-              ["Can I add the other documents later?", "After checkout you can add the Launch Kit — pro forma, checklist, and policy manual — and the $47 comes off that price for 7 days."],
+              ["Can I add the other documents later?", "After checkout you can add the Launch Kit for $647. That is the $997 kit with your $47 report credit applied — about $350 off — for 7 days."],
             ].map(([question, answer]) => (
               <div key={question} className="rounded-xl border border-slate-200 bg-white p-5">
                 <dt className="font-semibold text-slate-950">{question}</dt>

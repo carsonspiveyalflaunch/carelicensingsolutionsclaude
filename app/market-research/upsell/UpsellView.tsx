@@ -9,6 +9,7 @@ import {
   LAUNCH_KIT_PRICE_DOLLARS,
   MRR_CREDIT_DOLLARS,
   UPSELL_PRICE_DOLLARS,
+  UPSELL_SAVINGS_DOLLARS,
   formatUsd,
   thankYouHref,
 } from "@/lib/meta-funnel";
@@ -112,7 +113,7 @@ export default function UpsellView() {
             {order.stateName && order.program ? `${order.stateName} ${order.program}. ` : ""}
             The kit is the report you just bought, plus the pro forma P&L, licensing checklist, and policy manual.
             {order.creditActive
-              ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} comes off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} price until ${new Date(order.creditExpiresAt).toLocaleDateString()}.`
+              ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied to the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off — until ${new Date(order.creditExpiresAt).toLocaleDateString()}. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}.`
               : " The report credit has ended."}
           </p>
         </div>
@@ -148,7 +149,7 @@ export default function UpsellView() {
             </p>
             <p className="mt-2 text-sm text-slate-600">
               {order.creditActive
-                ? `${formatUsd(MRR_CREDIT_DOLLARS)} report credit applied. Same download, no appointment.`
+                ? `${formatUsd(MRR_CREDIT_DOLLARS)} report credit applied. About ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. Same download, no appointment.`
                 : "Credit window closed. The Launch Kit page has the current price."}
             </p>
             {order.creditActive ? (

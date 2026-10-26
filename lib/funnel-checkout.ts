@@ -7,6 +7,7 @@ import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 import {
   BUMP_PURCHASED_ITEM,
   CONTENT_LAUNCH_KIT,
+  LAUNCH_KIT_PRICE_DOLLARS,
   META_FUNNEL,
   MRR_CREDIT_DOLLARS,
   MRR_PURCHASED_ITEM,
@@ -266,7 +267,7 @@ export async function createUpsellCheckout(
           unit_amount: price * 100,
           product_data: {
             name: item.name,
-            description: `Care Business Launch Kit. Your $${MRR_CREDIT_DOLLARS} report credit is applied.`,
+            description: `Care Business Launch Kit. The $${LAUNCH_KIT_PRICE_DOLLARS} kit with your $${MRR_CREDIT_DOLLARS} report credit applied. You pay $${UPSELL_PRICE_DOLLARS}.`,
           },
         },
       },

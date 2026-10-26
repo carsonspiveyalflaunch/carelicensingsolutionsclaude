@@ -8,8 +8,10 @@ import {
   CONTENT_LAUNCH_KIT,
   CONTENT_MRR,
   LAUNCH_KIT_PRICE_DOLLARS,
+  MRR_CREDIT_DOLLARS,
   MRR_PRICE_DOLLARS,
   UPSELL_PRICE_DOLLARS,
+  UPSELL_SAVINGS_DOLLARS,
   buildFunnelItems,
   buildLaunchKitItem,
   creditActive,
@@ -70,14 +72,18 @@ describe("meta funnel sku", () => {
     assert.match(items[0].name, /Texas Personal Home Care — Market Research Report/);
   });
 
-  it("sells the launch kit as the whole bundle at $950 inside the credit window", () => {
+  it("charges $647 for the launch kit inside the credit window and leaves the catalog at $997", () => {
     const boughtAt = Date.parse("2026-10-26T12:00:00.000Z");
+    assert.equal(LAUNCH_KIT_PRICE_DOLLARS, 997);
+    assert.equal(MRR_CREDIT_DOLLARS, 47);
+    assert.equal(UPSELL_PRICE_DOLLARS, 647);
+    assert.equal(UPSELL_SAVINGS_DOLLARS, 350);
     assert.equal(creditActive(boughtAt, boughtAt + 7 * 24 * 60 * 60 * 1000), true);
     assert.equal(creditActive(boughtAt, creditExpiresAt(boughtAt) + 1), false);
-    assert.equal(upsellAmountCents(boughtAt, boughtAt), UPSELL_PRICE_DOLLARS * 100);
+    assert.equal(upsellAmountCents(boughtAt, boughtAt), 64700);
     assert.equal(upsellAmountCents(boughtAt, creditExpiresAt(boughtAt) + 1), LAUNCH_KIT_PRICE_DOLLARS * 100);
     const kit = buildLaunchKitItem(BUNDLE, UPSELL_PRICE_DOLLARS);
-    assert.equal(kit.price, 950);
+    assert.equal(kit.price, 647);
     assert.equal("purchased_item" in kit, false);
     assert.equal(CONTENT_LAUNCH_KIT, "launch_kit_997");
   });

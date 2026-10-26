@@ -5,7 +5,7 @@
  *
  * Hooks:
  * - meta_mrr_purchased — front-end report (and optional checklist) paid
- * - meta_mrr_launch_kit_declined — buyer skipped the $950 kit; credit still open
+ * - meta_mrr_launch_kit_declined — buyer skipped the $647 kit; credit still open
  * - meta_mrr_launch_kit_accepted — buyer paid the kit upsell
  */
 export type FunnelEmailHook =

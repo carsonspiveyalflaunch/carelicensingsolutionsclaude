@@ -11,7 +11,10 @@ export const MRR_PRICE_DOLLARS = 47;
 export const BUMP_PRICE_DOLLARS = 27;
 export const LAUNCH_KIT_PRICE_DOLLARS = 997;
 export const MRR_CREDIT_DOLLARS = 47;
-export const UPSELL_PRICE_DOLLARS = LAUNCH_KIT_PRICE_DOLLARS - MRR_CREDIT_DOLLARS;
+/** Funnel-only charge while the report credit is open. /launch-kit stays $997. */
+export const UPSELL_PRICE_DOLLARS = 647;
+/** $997 − $647. The $47 report credit is part of this offer. */
+export const UPSELL_SAVINGS_DOLLARS = LAUNCH_KIT_PRICE_DOLLARS - UPSELL_PRICE_DOLLARS;
 export const CREDIT_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 
 /** Meta content_ids. Front-end purchase uses mrr_47; the kit upsell uses launch_kit_997. */
@@ -85,7 +88,7 @@ export function creditExpiresIso(stripeCreatedSeconds: number): string {
   return new Date(creditExpiresAt(stripeCreatedSeconds * 1000)).toISOString();
 }
 
-/** $950 while the report credit is open, otherwise the $997 kit price. */
+/** $647 while the report credit is open, otherwise the $997 kit price. */
 export function upsellAmountCents(purchasedAtMs: number, now = Date.now()): number {
   const dollars = creditActive(purchasedAtMs, now) ? UPSELL_PRICE_DOLLARS : LAUNCH_KIT_PRICE_DOLLARS;
   return dollars * 100;

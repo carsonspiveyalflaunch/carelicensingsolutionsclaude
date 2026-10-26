@@ -11,6 +11,7 @@ import {
   LAUNCH_KIT_PRICE_DOLLARS,
   MRR_CREDIT_DOLLARS,
   UPSELL_PRICE_DOLLARS,
+  UPSELL_SAVINGS_DOLLARS,
   formatUsd,
 } from "@/lib/meta-funnel";
 import { trackMetaPurchase } from "@/lib/meta-pixel";
@@ -186,7 +187,7 @@ export default function ThankYouView() {
             <p className="mt-2 text-slate-600">
               Add the pro forma, licensing checklist, and policy manual for this state.
               {order.creditActive
-                ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} credit makes the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit ${formatUsd(UPSELL_PRICE_DOLLARS)}.`
+                ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied to the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)} — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off.`
                 : ` The report credit has ended. The kit is on its own page at ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`}
             </p>
             {order.creditActive && (
