@@ -7,6 +7,7 @@ import BundleValueStack from "../../components/BundleValueStack";
 import { trackPurchase } from "@/lib/gads";
 import {
   LAUNCH_KIT_PRICE_DOLLARS,
+  METHOD_NAME,
   MRR_CREDIT_DOLLARS,
   UPSELL_PRICE_DOLLARS,
   UPSELL_SAVINGS_DOLLARS,
@@ -105,15 +106,16 @@ export default function UpsellView() {
     <main className="bg-white">
       <section className="bg-gradient-to-br from-emerald-950 to-slate-950 px-4 pb-16 pt-28 text-white sm:pt-32">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300">Your report is paid</p>
+          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300">Your {METHOD_NAME} is paid</p>
           <h1 className="mt-4 text-3xl font-bold leading-tight sm:text-5xl">
             Add the Care Business Launch Kit for {formatUsd(order.creditActive ? UPSELL_PRICE_DOLLARS : LAUNCH_KIT_PRICE_DOLLARS)}
           </h1>
           <p className="mt-5 text-lg text-slate-200">
             {order.stateName && order.program ? `${order.stateName} ${order.program}. ` : ""}
-            The kit is the report you just bought, plus the pro forma P&L, licensing checklist, and policy manual.
+            You have the market file. The kit adds the pro forma, the licensing checklist, the policy manual, and the
+            academy that ships with the {formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} bundle.
             {order.creditActive
-              ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied to the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off — until ${new Date(order.creditExpiresAt).toLocaleDateString()}. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}.`
+              ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off — until ${new Date(order.creditExpiresAt).toLocaleDateString()}. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}.`
               : " The report credit has ended."}
           </p>
         </div>
@@ -128,6 +130,7 @@ export default function UpsellView() {
                 "Pro Forma P&L in Excel",
                 "Licensing checklist for this state and program",
                 "Policy & procedure manual, PDF and editable Word",
+                "Operational Success Academy and the owner community included with the kit",
               ].map((line) => (
                 <li key={line} className="flex items-start gap-3">
                   <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-700" />

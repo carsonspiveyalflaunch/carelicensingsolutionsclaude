@@ -9,7 +9,9 @@ import { trackPurchase } from "@/lib/gads";
 import {
   CONTENT_LAUNCH_KIT,
   LAUNCH_KIT_PRICE_DOLLARS,
+  METHOD_NAME,
   MRR_CREDIT_DOLLARS,
+  READ_REPORT_STEPS,
   UPSELL_PRICE_DOLLARS,
   UPSELL_SAVINGS_DOLLARS,
   formatUsd,
@@ -142,12 +144,28 @@ export default function ThankYouView() {
       <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[1fr_0.9fr]">
         <section className="rounded-2xl bg-white p-6 shadow-sm sm:p-8">
           <CheckCircle2 className="h-12 w-12 text-emerald-700" />
-          <h1 className="mt-4 text-3xl font-bold text-slate-950">Your report is ready</h1>
+          <h1 className="mt-4 text-3xl font-bold text-slate-950">Your {METHOD_NAME} is ready</h1>
           <p className="mt-3 text-slate-600">
             {order.stateName && order.program ? `${order.stateName} ${order.program}. ` : ""}
-            Download it here. These links last about an hour. A login link
+            Download the PDF here. These links last about an hour. A login link
             {order.email ? ` is also on its way to ${order.email}` : " is also on its way to the email you used at checkout"}.
           </p>
+          <ol className="mt-6 space-y-3 rounded-xl bg-slate-50 p-4">
+            {READ_REPORT_STEPS.map((step, index) => (
+              <li key={step.title} className="flex gap-3 text-sm text-slate-700">
+                <span className="font-semibold text-emerald-800">{index + 1}.</span>
+                <span>
+                  <span className="font-semibold text-slate-950">{step.title}. </span>
+                  {step.body}
+                </span>
+              </li>
+            ))}
+          </ol>
+          {order.upsellTaken && (
+            <p className="mt-4 text-sm text-slate-600">
+              The Launch Kit files are in this download. After the report, open the checklist, then the pro forma, then the policy manual.
+            </p>
+          )}
           <div className="mt-6 space-y-3">
             {files.length ? (
               files.map((file) => (
@@ -182,10 +200,11 @@ export default function ThankYouView() {
 
         {showPitch && (
           <aside className="h-fit rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Optional next step</p>
-            <h2 className="mt-2 text-2xl font-bold text-slate-950">Launch Kit</h2>
+            <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Your next step</p>
+            <h2 className="mt-2 text-2xl font-bold text-slate-950">The report tells you if it is worth opening</h2>
             <p className="mt-2 text-slate-600">
-              Add the pro forma, licensing checklist, and policy manual for this state.
+              If the pages say yes, the Launch Kit is the pro forma, checklist, policy manual, and academy for this
+              state.
               {order.creditActive
                 ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied to the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)} — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off.`
                 : ` The report credit has ended. The kit is on its own page at ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`}

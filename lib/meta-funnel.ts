@@ -27,6 +27,18 @@ export const MRR_PURCHASED_ITEM = "Market Research Report";
 export const BUMP_PURCHASED_ITEM = "Licensing Checklist";
 export const BUMP_DISPLAY_NAME = "Licensing Documentation Checklist";
 
+/** Proprietary name for the tripwire method. The file itself is the Market Research Report. */
+export const METHOD_NAME = "License-First Market Map";
+
+/** On-page reading guide delivered with the report. Not a separate priced file. */
+export const READ_REPORT_STEPS = [
+  { title: "Executive summary", body: "Start here. It is the short read on whether this state and program shows a real opening." },
+  { title: "Who pays", body: "Service model, regulatory class, and funding streams. This is the page that answers “where does the money come from?”" },
+  { title: "Licensing path", body: "The roadmap, application steps, and timelines for the program you picked." },
+  { title: "People and place", body: "Administrator, staff, training, facility, and equipment requirements." },
+  { title: "Rates and startup", body: "Reimbursement notes, competitive landscape, startup costs, and the phase-by-phase timeline." },
+] as const;
+
 export const MRR_BULLETS = [
   "Executive Summary with key market indicators and financial opportunity analysis",
   "Complete service model breakdown with regulatory classifications and funding streams",
