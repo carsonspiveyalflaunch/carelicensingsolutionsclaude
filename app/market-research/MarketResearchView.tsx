@@ -26,40 +26,40 @@ const PRICE = formatUsd(MRR_PRICE_DOLLARS);
 
 const SAMPLE_COVERS = [
   {
-    src: "/previews/california-assisted-living-facilities-complete-bundle/report.webp",
-    alt: "Sample Market Research Report cover for California assisted living",
-    label: "Assisted living",
+    src: "/previews/florida-assisted-living-facilities-complete-bundle/report.webp",
+    alt: "Sample Market Research Report cover for Florida assisted living",
+    label: "Florida · Assisted living",
   },
   {
-    src: "/previews/california-personal-home-care-complete-bundle/report.webp",
-    alt: "Sample Market Research Report cover for California in-home care",
-    label: "In-home care",
+    src: "/previews/texas-personal-home-care-complete-bundle/report.webp",
+    alt: "Sample Market Research Report cover for Texas home care",
+    label: "Texas · Home care",
   },
   {
-    src: "/previews/california-residential-care-dd-complete-bundle/report.webp",
-    alt: "Sample Market Research Report cover for California residential care",
-    label: "Residential care",
+    src: "/previews/virginia-residential-care-dd-complete-bundle/report.webp",
+    alt: "Sample Market Research Report cover for Virginia residential care",
+    label: "Virginia · Residential",
   },
 ];
 
 const PROOF = [
   {
     quote:
-      "Now making $73,910/month — Care Licensing Solutions helped her navigate California Department of Developmental Services licensing with ease.",
-    name: "Luam M.",
-    role: "Supported Living · California",
+      "Landed 6 clients in just 2 months, now making $38,640/month with her day program — Care Licensing Solutions helped her navigate Virginia DBHDS licensing with confidence.",
+    name: "Gamuchirai G.",
+    role: "Community engagement · Virginia",
   },
   {
     quote:
       "Now making over $45,000/month with his group home — Care Licensing Solutions helped him navigate California licensing and launch with confidence.",
     name: "Brian S.",
-    role: "Group Home Owner · California",
+    role: "Group home · California",
   },
   {
     quote:
-      "Landed 6 clients in just 2 months, now making $38,640/month with her day program — Care Licensing Solutions helped her navigate Virginia DBHDS licensing with confidence.",
-    name: "Gamuchirai G.",
-    role: "Community Engagement Services · Virginia",
+      "Now making $73,910/month — Care Licensing Solutions helped her navigate California Department of Developmental Services licensing with ease.",
+    name: "Luam M.",
+    role: "Supported living · California",
   },
 ];
 
@@ -309,15 +309,16 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
       <section className="bg-gradient-to-b from-emerald-950 via-black to-black px-4 pb-16 pt-28 text-center sm:pb-20 sm:pt-32">
         <div className="mx-auto max-w-[720px]">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-400 sm:text-sm">
-            For nurses, CNAs, therapists, and healthcare pros
+            Nurses, CNAs, therapists, and healthcare pros · any state
           </p>
           <h1 className="mt-4 text-[2rem] font-black uppercase leading-[1.05] tracking-tight sm:text-6xl">
             The market comes before the building
           </h1>
           <div className="mx-auto mt-5 h-1 w-24 bg-emerald-500" />
           <p className="mx-auto mt-6 max-w-[640px] text-lg leading-relaxed text-white/90">
-            The {METHOD_NAME} is the Market Research Report for one state and one program. Who pays, the licensing
-            path, the staff you need, and a startup snapshot. 50–60 pages. You download it and decide what to build.
+            The {METHOD_NAME} is the Market Research Report for the state and program you pick. Home care, home
+            health, group homes, nursing agencies, assisted living, residential, supported living. Who pays, the
+            licensing path, the staff you need, and a startup snapshot. 50–60 pages.
           </p>
           <p className="mt-6 text-lg">
             <span className="mr-2 text-white/60 line-through">{SHOP}</span>
@@ -325,7 +326,7 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
           </p>
           <p className="mt-1 text-sm text-white/70">One-time. The shop listing stays {SHOP}.</p>
           <div className="mt-8">
-            <YellowCta href="#order" onClick={scrollToOrder} sub="Instant PDF · One state and one program">
+            <YellowCta href="#order" onClick={scrollToOrder} sub="Your state · Your program · Instant PDF">
               Get the report — {PRICE}
             </YellowCta>
           </div>
@@ -358,29 +359,29 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
             A message from Carson
           </h2>
           <p className="mt-3 text-center text-sm font-bold uppercase leading-snug tracking-wide text-emerald-700">
-            Licensed residential care and licensed in-home care support in California
+            200+ owners · Every state in the catalog · Multiple program types
           </p>
           <div className="mt-6 space-y-4 text-[17px] leading-8 text-neutral-800">
             <p>
-              I own licensed residential care and licensed in-home care support in California. I built ALF Launch. That
-              work became Care Licensing Solutions.
-            </p>
-            <p>
-              Nurses, CNAs, therapists, and other healthcare pros tell me the same thing. The extra shifts are costing
-              them a life. They want a care business with their name on it.
+              Nurses, CNAs, therapists, and other healthcare pros tell me the same thing, wherever they live. The extra
+              shifts are costing them a life. They want a care business with their name on it.
             </p>
             <p>
               The formula starts with the market. I call that file the {METHOD_NAME}. It is the Market Research Report
               for one state and one program: who pays, the licensing path, the staff you need, and a startup snapshot.
             </p>
             <p>
+              I own licensed residential care and licensed in-home support in California. That is where I learned the
+              work. The file you buy is for the state and program you pick.
+            </p>
+            <p>
               I used to charge about $6,000 for the full service foundation. The foundation of that work is this
               report. Today it is {PRICE}.
             </p>
             <p>
-              More than 200 owners nationwide have used these materials, across multiple program types. The expensive
-              mistake is still the order. A building, a logo, and a stack of forms, before anyone reads the market.
-              Read this first.
+              More than 200 owners nationwide have used these materials, across every state we publish and across
+              multiple program types. The expensive mistake is still the order. A building, a logo, and a stack of
+              forms, before anyone reads the market. Read this first.
             </p>
           </div>
         </article>
@@ -435,9 +436,9 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
               <div>
                 <h3 className="text-xl font-black uppercase tracking-tight text-emerald-400">Your state is specific</h3>
                 <p className="mt-2 text-[17px] leading-relaxed text-white/90">
-                  Home care, home health, group homes, assisted living, residential, and the other programs in the
-                  catalog each have their own report. If that PDF is not in the library yet, this page says so. You get
-                  the state and program you selected.
+                  Home care, home health, group homes, nursing agencies, assisted living, residential, supported
+                  living, and the other programs in the catalog each have their own report. If that PDF is not in the
+                  library yet, this page says so. You get the state and program you selected. Not a generic national file.
                 </p>
               </div>
             </div>
@@ -470,7 +471,7 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
             ))}
           </div>
           <p className="mt-3 text-center text-sm text-neutral-500">
-            Sample covers from California. The PDF you download is the state and program you pick.
+            Sample covers from different states and programs. The PDF you download is the state and program you pick.
           </p>
           <ul className="mt-8 space-y-4">
             {MRR_BULLETS.map((line) => (
@@ -503,12 +504,15 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
 
       <section className="bg-emerald-950 py-16 sm:py-20">
         <div className={WIDE}>
-          <h2 className="text-center text-3xl font-black uppercase leading-tight tracking-tight sm:text-4xl">
+          <p className="text-center text-xs font-bold uppercase tracking-[0.18em] text-emerald-400">
+            Across states and program types
+          </p>
+          <h2 className="mt-3 text-center text-3xl font-black uppercase leading-tight tracking-tight sm:text-4xl">
             Owners who launched with these materials
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-base leading-relaxed text-white/75">
-            These are care business owners. Their revenue is their business. It is not a promised result of this {PRICE}{" "}
-            PDF.
+            More than 200 owners nationwide. Supported living, group homes, and other programs, in more than one state.
+            Their revenue is their business. It is not a promised result of this {PRICE} PDF.
           </p>
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             {PROOF.map((item) => (
@@ -553,12 +557,13 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
               </h2>
               <div className="mt-5 space-y-4 text-[17px] leading-relaxed text-white/90">
                 <p>
-                  You are a nurse, a CNA, a therapist, or another healthcare professional. You want a licensed care
-                  business with your name on it.
+                  You are a nurse, a CNA, a therapist, or another healthcare professional, in whatever state you want to
+                  open. You want a licensed care business with your name on it.
                 </p>
                 <p>
-                  You will pick one state and one program. You will read who pays, what the license takes, who you have
-                  to hire, and what it costs to start.
+                  You will pick your state and one program — home care, home health, a group home, a nursing agency,
+                  assisted living, residential, supported living, or another file in the catalog. You will read who
+                  pays, what the license takes, who you have to hire, and what it costs to start.
                 </p>
                 <p>You want the research this company starts with, on paper, before you spend.</p>
               </div>
