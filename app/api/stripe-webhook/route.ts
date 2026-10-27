@@ -12,7 +12,8 @@ import { fulfillLaunchKitPaymentIntent } from "@/lib/funnel-fulfill";
 import { sendCheckoutBundleSkoolInvite } from "@/lib/skool-invite";
 import { queueFrontPurchaseEmail } from "@/lib/funnel-checkout";
 import { queueFunnelEmail } from "@/lib/funnel-email";
-import { META_FUNNEL } from "@/lib/meta-funnel";
+import { sendMetaCapiPurchase, splitPersonName } from "@/lib/meta-capi";
+import { CONTENT_LAUNCH_KIT, CONTENT_MRR, META_FUNNEL } from "@/lib/meta-funnel";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -330,6 +331,34 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       });
     } else if (session.metadata?.funnel === META_FUNNEL) {
       await queueFrontPurchaseEmail(session);
+    }
+
+    if (session.metadata?.funnel === META_FUNNEL) {
+      const kit = session.metadata?.upsell === 'launch_kit';
+      const contentIds = kit
+        ? [CONTENT_LAUNCH_KIT]
+        : String(session.metadata?.content_ids || CONTENT_MRR)
+            .split(',')
+            .map((id) => id.trim())
+            .filter(Boolean);
+      const person = splitPersonName(session.customer_details?.name || customerInfo.firstName);
+      try {
+        const capi = await sendMetaCapiPurchase({
+          eventId: session.id,
+          eventTime: session.created,
+          value: total,
+          currency: session.currency || 'usd',
+          contentIds: contentIds.length ? contentIds : [kit ? CONTENT_LAUNCH_KIT : CONTENT_MRR],
+          contentName: kit ? 'Care Business Launch Kit' : 'State Market Research Report',
+          email: courseEmail,
+          phone: session.customer_details?.phone || customerInfo.phone,
+          firstName: customerInfo.firstName || person.firstName,
+          lastName: customerInfo.lastName || person.lastName,
+        });
+        console.log('Meta CAPI purchase:', capi.reason, session.id);
+      } catch (capiError) {
+        console.error('Meta CAPI purchase failed:', capiError instanceof Error ? capiError.message : 'error');
+      }
     }
 
     // Tell GHL this person bought, so sales emails/texts stop for them.

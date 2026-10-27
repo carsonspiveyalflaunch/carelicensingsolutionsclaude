@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Montserrat } from "next/font/google";
 import MarketResearchView from "./MarketResearchView";
 import { loadCompleteBundles } from "@/lib/complete-bundles";
+import { filterFunnelReportChoices } from "@/lib/funnel-catalog";
 import { pageMeta } from "@/lib/seo";
 
 const display = Montserrat({
@@ -12,20 +13,37 @@ const display = Montserrat({
 
 export const dynamic = "force-dynamic";
 
+const marketResearchMeta = pageMeta(
+  "/market-research",
+  "License-First Market Map — $47 | Care Licensing Solutions",
+  "For nurses and healthcare professionals in any state. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
+);
+
 export const metadata: Metadata = {
-  ...pageMeta(
-    "/market-research",
-    "License-First Market Map — $47 | Care Licensing Solutions",
-    "For nurses and healthcare professionals in any state. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
-  ),
+  ...marketResearchMeta,
   robots: { index: false, follow: false },
+  openGraph: {
+    ...marketResearchMeta.openGraph,
+    images: [
+      {
+        url: "/market-research/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Care Licensing Solutions — License-First Market Map, $47",
+      },
+    ],
+  },
+  twitter: {
+    ...marketResearchMeta.twitter,
+    images: ["/market-research/opengraph-image.png"],
+  },
 };
 
 export default async function MarketResearchPage() {
   let choices: { code: string; state: string; program: string }[] = [];
   try {
     const bundles = await loadCompleteBundles();
-    choices = bundles.map(({ code, state, program }) => ({ code, state, program }));
+    choices = await filterFunnelReportChoices(bundles.map(({ code, state, program }) => ({ code, state, program })));
   } catch (err) {
     console.error("Market research catalog failed:", err);
   }

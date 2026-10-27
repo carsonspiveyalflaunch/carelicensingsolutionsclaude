@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Mail, Clock, HelpCircle, MapPin } from "lucide-react";
+import { LEGAL_EMAIL } from "@/lib/legal";
 
 interface FormData {
   firstName: string;
@@ -29,7 +30,9 @@ export default function ContactPageMain() {
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
+  const [company, setCompany] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [formError, setFormError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   const validateForm = (): boolean => {
@@ -91,11 +94,20 @@ export default function ContactPageMain() {
     }
 
     setIsLoading(true);
+    setFormError("");
+    setSubmitted(false);
     try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, company }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setFormError(body.error || `We couldn't send that message. Email ${LEGAL_EMAIL} and we'll help.`);
+        return;
+      }
 
-      // Reset form
       setFormData({
         firstName: "",
         lastName: "",
@@ -103,12 +115,10 @@ export default function ContactPageMain() {
         subject: "",
         message: "",
       });
+      setCompany("");
       setSubmitted(true);
-
-      // Hide success message after 5 seconds
-      setTimeout(() => setSubmitted(false), 5000);
-    } catch (error) {
-      console.error("Error submitting form:", error);
+    } catch {
+      setFormError(`We couldn't send that message. Email ${LEGAL_EMAIL} and we'll help.`);
     } finally {
       setIsLoading(false);
     }
@@ -140,10 +150,10 @@ export default function ContactPageMain() {
                     Get a response within 24 hours
                   </p>
                   <a
-                    href="mailto:support@carelicensingsolutions.com"
+                    href={`mailto:${LEGAL_EMAIL}`}
                     className="text-green-700 hover:text-green-800 font-semibold text-sm mt-2 inline-block"
                   >
-                    support@carelicensingsolutions.com
+                    {LEGAL_EMAIL}
                   </a>
                 </div>
               </div>
@@ -228,12 +238,28 @@ export default function ContactPageMain() {
               {submitted && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
                   <p className="text-green-800 font-medium">
-                    ✓ Thank you for your message! We'll get back to you soon.
+                    ✓ Thank you for your message! We&apos;ll get back to you soon.
                   </p>
+                </div>
+              )}
+              {formError && (
+                <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                  <p className="text-red-800 font-medium">{formError}</p>
                 </div>
               )}
 
               <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="absolute -left-[9999px] h-0 overflow-hidden" aria-hidden="true">
+                  <label htmlFor="company">Company</label>
+                  <input
+                    id="company"
+                    name="company"
+                    value={company}
+                    onChange={(e) => setCompany(e.target.value)}
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                </div>
                 {/* First Name & Last Name */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>

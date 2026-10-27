@@ -33,7 +33,7 @@ export default function BundleValueStack({
     <div className="overflow-hidden rounded-2xl border-2 border-emerald-700 bg-white text-left">
       <div className={`bg-emerald-700 text-white ${compact ? "px-3 py-2.5" : "px-5 py-4"}`}>
         <p className={`${compact ? "text-base" : "text-xl"} font-bold`}>Everything you get</p>
-        <p className="text-xs text-emerald-100 sm:text-sm">Your bundle plus the full ALF Launch program, free with your purchase.</p>
+        <p className="text-xs text-emerald-100 sm:text-sm">Your bundle plus the Operational Success Academy, free with your purchase.</p>
       </div>
       <ul className="divide-y divide-slate-200">
         {stack.map((x) => (

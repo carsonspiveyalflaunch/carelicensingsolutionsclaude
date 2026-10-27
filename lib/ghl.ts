@@ -34,6 +34,7 @@ export const GHL_FIELDS = {
 export async function saveLeadInGhl(opts: {
   email?: string | null;
   firstName?: string | null;
+  lastName?: string | null;
   phone?: string | null;
   tags: string[];
   customFields?: { id: string; value: string }[];
@@ -57,6 +58,7 @@ export async function saveLeadInGhl(opts: {
         ...(opts.email ? { email: opts.email.trim().toLowerCase() } : {}),
         source: "carelicensingsolution.com",
         ...(opts.firstName ? { firstName: opts.firstName.trim() } : {}),
+        ...(opts.lastName ? { lastName: opts.lastName.trim() } : {}),
         ...(opts.phone ? { phone: opts.phone } : {}),
         ...(opts.customFields?.length ? { customFields: opts.customFields.map((f) => ({ id: f.id, field_value: f.value })) } : {}),
       }),
@@ -70,6 +72,31 @@ export async function saveLeadInGhl(opts: {
       body: JSON.stringify({ tags: opts.tags }),
     });
     return { ok: tg.ok, reason: tg.ok ? "saved" : `tags-${tg.status}`, contactId: id };
+  } catch (e) {
+    return { ok: false, reason: e instanceof Error ? e.message : "error" };
+  }
+}
+
+/** Store a contact-form message on the GHL contact. A failed note does not undo the upsert. */
+export async function addContactNoteInGhl(contactId: string, body: string): Promise<{ ok: boolean; reason: string }> {
+  const creds = ghlCredentials();
+  if (!creds) return { ok: false, reason: "no-token" };
+  const note = body.trim().slice(0, 5000);
+  if (!contactId || !note) return { ok: false, reason: "no-note" };
+  try {
+    const res = await fetch(`${API}/contacts/${contactId}/notes`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${creds.token}`,
+        Version: VERSION,
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({ body: note }),
+    });
+    if (res.ok) return { ok: true, reason: "noted" };
+    const err = await res.text().catch(() => "");
+    return { ok: false, reason: `note-${res.status} ${err.slice(0, 180)}` };
   } catch (e) {
     return { ok: false, reason: e instanceof Error ? e.message : "error" };
   }

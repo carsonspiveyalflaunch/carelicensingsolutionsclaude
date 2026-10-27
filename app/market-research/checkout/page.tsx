@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import CheckoutView from "./CheckoutView";
 import { loadCompleteBundles } from "@/lib/complete-bundles";
+import { filterFunnelReportChoices } from "@/lib/funnel-catalog";
 import { PRIVATE_PAGE } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
@@ -13,7 +14,7 @@ export default async function MarketResearchCheckoutPage() {
   let choices: { code: string; state: string; program: string }[] = [];
   try {
     const bundles = await loadCompleteBundles();
-    choices = bundles.map(({ code, state, program }) => ({ code, state, program }));
+    choices = await filterFunnelReportChoices(bundles.map(({ code, state, program }) => ({ code, state, program })));
   } catch (err) {
     console.error("Market research checkout catalog failed:", err);
   }

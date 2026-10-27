@@ -108,10 +108,15 @@ export function upsellAmountCents(purchasedAtMs: number, now = Date.now()): numb
 /**
  * What the buyer pays for the Launch Kit on the post-pay thank-you offer.
  * The charge is the $647 OTO. This sentence does not restate the $997 catalog
- * price or the retired $950 / $847 credit math.
+ * price or explain the discount as a $47 credit worth about $350 off.
  */
 export function thankYouLaunchKitOffer(): string {
-  return `You pay ${formatUsd(UPSELL_PRICE_DOLLARS)} for the Launch Kit. Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off.`;
+  return `You pay ${formatUsd(UPSELL_PRICE_DOLLARS)} for the Launch Kit.`;
+}
+
+/** Upsell price line: the $997 kit is $647 for report buyers. The $47 report is included in that price. */
+export function reportBuyerKitPriceLine(): string {
+  return `The ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit is ${formatUsd(UPSELL_PRICE_DOLLARS)} for report buyers (includes your ${formatUsd(MRR_CREDIT_DOLLARS)} credit).`;
 }
 
 /** Stripe line the buyer sees when paying that same post-pay Launch Kit charge. */

@@ -186,7 +186,7 @@ export async function sendAccessEmail(opts: {
 ${
   opts.includeSkool
     ? `<div style="background:#ecfdf5;border-radius:10px;padding:20px;margin:0 0 24px">
-<p style="font-weight:bold;font-size:16px;margin:0 0 6px">Your bonus: the full ALF Launch program</p>
+<p style="font-weight:bold;font-size:16px;margin:0 0 6px">Your bonus: the Operational Success Academy</p>
 <p style="font-size:15px;line-height:1.5;margin:0 0 12px">Inside the community you get the Operational Success Academy (11 modules, 124 lessons), weekly call recordings, and other owners licensing and launching their agencies.</p>
 <a href="${SKOOL_COMMUNITY_URL}/classroom" style="color:#047857;font-weight:bold">Join and start the course &rarr;</a></div>`
     : ""
@@ -194,7 +194,7 @@ ${
 <p style="font-size:13px;color:#94a3b8;margin:0">Questions? Reply through <a href="${SITE_URL}/contact" style="color:#94a3b8">${SITE_URL.replace(/^https?:\/\//, "")}/contact</a>.</p>
 </td></tr></table></td></tr></table></body></html>`;
 
-  const text = `${first ? `${first}, your` : "Your"} files are ready.\n\n${list.map((n) => `- ${n}`).join("\n")}\n\nOpen your downloads (logs you in automatically): ${opts.link}\nIf the link expired, get a new one at ${SITE_URL}/access\n${opts.includeSkool ? `\nJoin the community: ${SKOOL_COMMUNITY_URL}\n` : ""}`;
+  const text = `${first ? `${first}, your` : "Your"} files are ready.\n\n${list.map((n) => `- ${n}`).join("\n")}\n\nOpen your downloads (logs you in automatically): ${opts.link}\nIf the link expired, get a new one at ${SITE_URL}/access\n${opts.includeSkool ? `\nYour bonus: the Operational Success Academy. Join the community: ${SKOOL_COMMUNITY_URL}\n` : ""}`;
 
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",

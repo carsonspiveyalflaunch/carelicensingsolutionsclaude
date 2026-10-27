@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/seo";
  * Licensing Solutions LLC") once confirmed.
  */
 export const LEGAL_ENTITY = "Care Licensing Solutions";
-export const LEGAL_EMAIL = "c.spivey@alflaunch.com";
+export const LEGAL_EMAIL = "support@carelicensingsolution.com";
 export const LEGAL_ADDRESS = "2404 Valley Mill Rd, El Cajon, CA 92020";
 export const LEGAL_PHONE = "(619) 834-9680";
 export const LEGAL_EFFECTIVE_DATE = "October 20, 2026";

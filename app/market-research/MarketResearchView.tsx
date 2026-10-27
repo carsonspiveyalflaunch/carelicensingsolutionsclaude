@@ -333,10 +333,13 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
         </div>
         {video ? (
           <div className="mx-auto mt-10 w-full max-w-3xl">
+            <h2 className="mb-4 text-center text-2xl font-black uppercase tracking-tight sm:text-3xl">
+              A message from Carson
+            </h2>
             <div className="overflow-hidden rounded-xl border border-white/10 bg-black">
               <iframe
                 src={video}
-                title="License-First Market Map walkthrough"
+                title="A message from Carson"
                 className="aspect-video w-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -356,7 +359,7 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
             className="mx-auto h-28 w-28 rounded-full object-cover"
           />
           <h2 className="mt-6 text-center text-3xl font-black uppercase leading-tight tracking-tight sm:text-4xl">
-            A message from Carson
+            The formula starts with the market
           </h2>
           <p className="mt-3 text-center text-sm font-bold uppercase leading-snug tracking-wide text-emerald-700">
             200+ owners · Every state in the catalog · Multiple program types

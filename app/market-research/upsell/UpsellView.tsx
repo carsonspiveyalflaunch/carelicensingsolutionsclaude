@@ -13,10 +13,9 @@ import { trackPurchase } from "@/lib/gads";
 import {
   LAUNCH_KIT_PRICE_DOLLARS,
   METHOD_NAME,
-  MRR_CREDIT_DOLLARS,
   UPSELL_PRICE_DOLLARS,
-  UPSELL_SAVINGS_DOLLARS,
   formatUsd,
+  reportBuyerKitPriceLine,
   thankYouHref,
 } from "@/lib/meta-funnel";
 import { trackMetaPurchase } from "@/lib/meta-pixel";
@@ -207,7 +206,7 @@ export default function UpsellView() {
             </ul>
             <p className="mt-6 text-sm text-emerald-100">
               {shown.creditActive
-                ? `Your ${formatUsd(MRR_CREDIT_DOLLARS)} credit is real, and it ends ${creditDate}. About ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}. After ${creditDate} the same download is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`
+                ? `${reportBuyerKitPriceLine()} This price ends ${creditDate}. After ${creditDate} the same download is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`
                 : `The 7-day credit window is closed. The kit is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} on the Launch Kit page.`}
             </p>
           </div>
@@ -412,7 +411,7 @@ export default function UpsellView() {
               )}
               . The public kit is {formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.
               {shown.creditActive
-                ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} credit makes it ${formatUsd(UPSELL_PRICE_DOLLARS)} until ${creditDate}. After that date the discount is gone. Declining keeps the map and leaves licensing, staffing, policies, and the open on you.`
+                ? ` ${reportBuyerKitPriceLine()} That price lasts until ${creditDate}. After that date the kit is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}. Declining keeps the map and leaves licensing, staffing, policies, and the open on you.`
                 : ` The credit window is closed. The kit is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}. The report still does not license, staff, or open the business.`}
             </p>
             <div className="mt-6">
@@ -465,7 +464,7 @@ function OfferCard({
       </p>
       <p className="mt-2 text-sm text-slate-600">
         {order.creditActive
-          ? `${formatUsd(MRR_CREDIT_DOLLARS)} report credit applied. About ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. Same download. Credit ends ${new Date(order.creditExpiresAt).toLocaleDateString()}.`
+          ? `${reportBuyerKitPriceLine()} Same download. This price ends ${new Date(order.creditExpiresAt).toLocaleDateString()}.`
           : "The 7-day credit is closed. The Launch Kit page has the current price."}
       </p>
       <ul className="mt-4 space-y-2 text-sm text-slate-700">
