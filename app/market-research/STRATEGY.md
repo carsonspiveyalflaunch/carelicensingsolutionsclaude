@@ -4,7 +4,7 @@ Care Licensing Solutions. Attractive character: practitioner who owns a licensed
 
 ## Visual system
 
-The unpaid `/market-research` page borrows long-form structure from pages like Wojo’s Newport Beach letter — hero, founder note, who it’s for, benefits, media, proof, one offer card, guarantee, dark FAQ, final CTA — and keeps the Care Licensing Solutions palette. Bands are black, emerald-950, white, and slate. CTAs, labels, checks, and highlighted phrases are emerald, not amber. It sells the $47 License-First Market Map only. The Launch Kit is not pitched on this page. Checkout, including the $27 checklist bump, and the post-purchase `/upsell` stay on the existing funnel.
+The unpaid `/market-research` page borrows long-form structure from pages like Wojo’s Newport Beach letter — hero, founder note, who it’s for, benefits, media, proof, one offer card, guarantee, dark FAQ, final CTA — and keeps the Care Licensing Solutions palette. Bands are black, emerald-950, white, and slate. CTAs, labels, checks, and highlighted phrases are emerald, not amber. Copy is national: nurses and healthcare pros in any state, any program in the catalog. Carson’s California licenses are one credibility line, not the frame of the page. Proof and sample covers span states and program types. It sells the $47 License-First Market Map only. The Launch Kit is not pitched on this page. Checkout, including the $27 checklist bump, and the post-purchase `/upsell` stay on the existing funnel.
 
 ## New opportunity
 

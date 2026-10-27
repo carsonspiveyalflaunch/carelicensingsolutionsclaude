@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ...pageMeta(
     "/market-research",
     "License-First Market Map — $47 | Care Licensing Solutions",
-    "For nurses and healthcare professionals. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
+    "For nurses and healthcare professionals in any state. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
   ),
   robots: { index: false, follow: false },
 };
