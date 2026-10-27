@@ -23,6 +23,14 @@ import {
   isFunnelSuccessUrl,
   launchKitHref,
 } from "@/lib/meta-funnel";
+import {
+  approximateFunnelDiscount,
+  couponRefFromPromo,
+  dollarsMetadata,
+  funnelDiscountSessionFields,
+  FunnelPromoError,
+  readFunnelPromo,
+} from "@/lib/funnel-promo";
 import { packItemsMetadata } from "@/lib/stripe-items";
 import { STATE_NAMES } from "@/lib/us-states";
 
@@ -93,6 +101,42 @@ function recoveryParams(): Pick<Stripe.Checkout.SessionCreateParams, "consent_co
   };
 }
 
+async function resolveServerPromo(
+  stripe: Stripe,
+  requested: string,
+  subtotalDollars: number,
+): Promise<{ id: string; code: string; percent: number; total: number; zeroDue: boolean }> {
+  const list = await stripe.promotionCodes.list({ code: requested, active: true, limit: 1 });
+  const promo = list.data.find((item) => item.active && item.code?.toUpperCase() === requested);
+  if (!promo) {
+    throw new FunnelOrderError("That promotion code isn't active.");
+  }
+  const couponRef = couponRefFromPromo(promo);
+  const couponId = typeof couponRef === "string" ? couponRef : couponRef?.id;
+  let percent = 0;
+  let total = subtotalDollars;
+  let known = false;
+  if (couponId && couponRef && typeof couponRef !== "string" && (couponRef.percent_off || couponRef.amount_off)) {
+    const approx = approximateFunnelDiscount(subtotalDollars, couponRef);
+    percent = approx.percent;
+    total = approx.total;
+    known = true;
+  } else if (couponId) {
+    const coupon = await stripe.coupons.retrieve(couponId);
+    const approx = approximateFunnelDiscount(subtotalDollars, coupon);
+    percent = approx.percent;
+    total = approx.total;
+    known = true;
+  }
+  return {
+    id: promo.id,
+    code: promo.code || requested,
+    percent,
+    total,
+    zeroDue: known && total <= 0,
+  };
+}
+
 export async function createFrontEndCheckout(
   stripe: Stripe,
   supabase: SupabaseClient,
@@ -100,6 +144,9 @@ export async function createFrontEndCheckout(
     state?: unknown;
     program?: unknown;
     type?: unknown;
+    promotionCode?: unknown;
+    promoCode?: unknown;
+    promo?: unknown;
     successUrl?: unknown;
     cancelUrl?: unknown;
     userId?: string | null;
@@ -110,6 +157,15 @@ export async function createFrontEndCheckout(
   const { bundle } = await resolveFunnelBundle(supabase, code, program);
   const items = buildFunnelItems(bundle);
   const total = funnelTotalDollars();
+  let requestedPromo: string | null;
+  try {
+    requestedPromo = readFunnelPromo(input);
+  } catch (err) {
+    if (err instanceof FunnelPromoError) throw new FunnelOrderError(err.message, err.status);
+    throw err;
+  }
+  const applied = requestedPromo ? await resolveServerPromo(stripe, requestedPromo, total) : null;
+  const charged = applied ? applied.total : total;
   const origins = allowedOrigins(input.requestOrigin);
   const successUrl =
     typeof input.successUrl === "string" && isFunnelSuccessUrl(input.successUrl, origins)
@@ -118,7 +174,7 @@ export async function createFrontEndCheckout(
   const cancelUrl =
     typeof input.cancelUrl === "string" && isFunnelCancelUrl(input.cancelUrl, origins)
       ? input.cancelUrl
-      : `${origins[0]}/market-research/checkout?state=${code}&type=${encodeURIComponent(program)}`;
+      : `${origins[0]}/market-research/checkout?state=${code}&type=${encodeURIComponent(program)}${applied ? `&promo=${encodeURIComponent(applied.code)}` : ""}`;
 
   const metadata: Record<string, string> = {
     funnel: META_FUNNEL,
@@ -126,11 +182,11 @@ export async function createFrontEndCheckout(
     program: bundle.program,
     state_name: bundle.state,
     content_ids: funnelContentIds().join(","),
-    discount_code: "",
-    discount_percent: "0",
+    discount_code: applied?.code || "",
+    discount_percent: applied ? String(applied.percent) : "0",
     tax_amount: "0",
     subtotal: String(total),
-    total: String(total),
+    total: dollarsMetadata(charged),
     customer_info: "{}",
     customer_first_name: "",
     customer_last_name: "",
@@ -153,9 +209,9 @@ export async function createFrontEndCheckout(
   const base: Stripe.Checkout.SessionCreateParams = {
     mode: "payment",
     line_items: lineItems,
-    // Promo box for codes such as CLSFREE1 (coupon CLS_SCREENSHOT_ONCE).
-    // Shop checkout leaves this off; this $47 session is the one that needs it.
-    allow_promotion_codes: true,
+    // No promo param: keep the customer "Add promotion code" box.
+    // A server-applied code uses discounts and must omit allow_promotion_codes.
+    ...funnelDiscountSessionFields(applied),
     custom_text: { submit: { message: CHECKOUT_AGREEMENT_TEXT } },
     metadata,
     success_url: successUrl,
@@ -163,28 +219,48 @@ export async function createFrontEndCheckout(
     ...recoveryParams(),
   };
 
+  // A 100% code has no PaymentIntent. payment_intent_data (and setup_future_usage)
+  // would force a card and block payment_status no_payment_required.
+  const zeroDue = applied?.zeroDue === true;
+  const sessionParams = (opts: { saveCard: boolean; paymentIntent: boolean; collectIfRequired: boolean }) => {
+    const fields: Stripe.Checkout.SessionCreateParams = { ...base, customer_creation: "always" };
+    if (!opts.collectIfRequired) delete fields.payment_method_collection;
+    if (opts.paymentIntent) {
+      fields.payment_intent_data = {
+        ...(opts.saveCard ? { setup_future_usage: "off_session" as const } : {}),
+        metadata: { funnel: META_FUNNEL, role: "front" },
+      };
+    }
+    return fields;
+  };
+
   let session: Stripe.Checkout.Session;
   try {
-    session = await stripe.checkout.sessions.create({
-      ...base,
-      customer_creation: "always",
-      payment_intent_data: {
-        setup_future_usage: "off_session",
-        metadata: { funnel: META_FUNNEL, role: "front" },
-      },
-    });
+    session = await stripe.checkout.sessions.create(
+      sessionParams({ saveCard: !zeroDue, paymentIntent: !zeroDue, collectIfRequired: true }),
+    );
   } catch (err) {
     const message = err instanceof Error ? err.message : "";
-    if (!/setup_future_usage|future usage|customer_creation/i.test(message)) throw err;
+    if (!/setup_future_usage|future usage|customer_creation|payment_method_collection|payment_intent_data/i.test(message)) throw err;
     console.warn("Funnel checkout retrying without saved card:", message);
-    session = await stripe.checkout.sessions.create({
-      ...base,
-      payment_intent_data: { metadata: { funnel: META_FUNNEL, role: "front" } },
-    });
+    session = await stripe.checkout.sessions.create(
+      sessionParams({
+        saveCard: false,
+        paymentIntent:
+          !zeroDue &&
+          !/(unknown parameter: payment_intent_data|cannot (provide|pass|include|set) payment_intent_data)/i.test(message),
+        collectIfRequired: !/payment_method_collection/i.test(message),
+      }),
+    );
   }
 
   if (!session.url) throw new FunnelOrderError("Checkout could not start.", 500);
-  return { url: session.url, sessionId: session.id, amount: total, contentIds: funnelContentIds() };
+  return {
+    url: session.url,
+    sessionId: session.id,
+    amount: applied ? charged : total,
+    contentIds: funnelContentIds(),
+  };
 }
 
 export async function loadPaidFunnelSession(stripe: Stripe, sessionId: string): Promise<Stripe.Checkout.Session> {

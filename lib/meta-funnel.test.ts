@@ -13,6 +13,7 @@ import {
   UPSELL_SAVINGS_DOLLARS,
   buildFunnelItems,
   buildLaunchKitItem,
+  checkoutHref,
   creditActive,
   creditExpiresAt,
   funnelContentIds,
@@ -92,6 +93,9 @@ describe("meta funnel sku", () => {
     assert.equal(isFunnelSuccessUrl("https://evil.example/market-research/upsell?session_id={CHECKOUT_SESSION_ID}", ["http://localhost:3000"]), false);
     assert.equal(isFunnelSuccessUrl("http://localhost:3000/checkout/success?session_id={CHECKOUT_SESSION_ID}", ["http://localhost:3000"]), false);
     assert.equal(isFunnelCancelUrl("http://localhost:3000/market-research/checkout?state=TX", ["http://localhost:3000"]), true);
+    const back = checkoutHref("AZ", "Residential Care (DD)", "?state=AZ&type=Residential+Care+%28DD%29&promo=CLSFREE1");
+    assert.match(back, /promo=CLSFREE1/);
+    assert.match(back, /state=AZ/);
   });
 });
 
