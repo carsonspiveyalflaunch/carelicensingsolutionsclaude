@@ -9,6 +9,7 @@ import { orderTotals, buyerName } from "@/lib/stripe-order";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
 import { upsertProductAccess } from "@/lib/purchase-access";
 import { fulfillLaunchKitPaymentIntent } from "@/lib/funnel-fulfill";
+import { sendCheckoutBundleSkoolInvite } from "@/lib/skool-invite";
 import { queueFrontPurchaseEmail } from "@/lib/funnel-checkout";
 import { queueFunnelEmail } from "@/lib/funnel-email";
 import { META_FUNNEL } from "@/lib/meta-funnel";
@@ -66,6 +67,10 @@ export async function POST(request: NextRequest) {
 
       case 'payment_intent.succeeded': {
         const pi = event.data.object as Stripe.PaymentIntent;
+        // One-click kit charges fulfill here, and that fulfillment sends the
+        // Skool invite. A Checkout-created kit PaymentIntent has no line items,
+        // so fulfillment returns before inviting and checkout.session.completed
+        // remains the sender. Both paths lock the invite on the PaymentIntent id.
         if (pi.metadata?.funnel === META_FUNNEL && pi.metadata?.upsell === 'launch_kit') {
           await fulfillLaunchKitPaymentIntent(supabase, pi);
         }
@@ -389,22 +394,18 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     });
 
     // Every bundle buyer also gets the Skool community (same Zapier hook the course uses).
-    // Single resources (purchased_item) carry their bundle's slug, so exclude them explicitly.
-    const boughtBundle = enrichedItems.some((item: any) => {
-      if (item.purchased_item) return false;
-      const slug = String(item.product_slug || '');
-      return slug.endsWith('-complete-bundle') || slug.startsWith('bundle-');
+    // Single resources (purchased_item) carry their bundle's slug, so they are excluded.
+    const paymentIntentId = typeof session.payment_intent === 'string'
+      ? session.payment_intent
+      : session.payment_intent?.id;
+    await sendCheckoutBundleSkoolInvite(supabase, {
+      items: enrichedItems,
+      isCourseEnrollment,
+      email: courseEmail,
+      customerName: buyerName(session, customerInfo, courseEmail),
+      paymentIntentId,
+      purchaseId: purchase.id,
     });
-    if (boughtBundle && !isCourseEnrollment && courseEmail) {
-      await sendSkoolInvite({
-        event: 'bundle_purchase_send_skool_invite',
-        customer_email: courseEmail,
-        customer_name: buyerName(session, customerInfo, courseEmail),
-        bundles: enrichedItems.map((item) => item.name).filter(Boolean).join(', '),
-        purchase_id: purchase.id,
-        purchase_date: new Date().toISOString(),
-      });
-    }
 
     // Handle course enrollment specific automations
     if (isCourseEnrollment) {
@@ -501,24 +502,6 @@ async function handlePaymentFailed(paymentIntent: Stripe.PaymentIntent, supabase
     .from('purchases')
     .update({ status: 'failed' })
     .eq('stripe_payment_intent_id', paymentIntent.id);
-}
-
-async function sendSkoolInvite(payload: Record<string, unknown>) {
-  const url = process.env.SKOOL_INVITE_WEBHOOK_URL;
-  if (!url) {
-    console.log('SKOOL_INVITE_WEBHOOK_URL not set; skipping Skool invite');
-    return;
-  }
-  try {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-    console.log(`Skool invite hook responded ${res.status}`);
-  } catch (error) {
-    console.error('Skool invite hook failed:', error);
-  }
 }
 
 async function sendToZapier(data: any) {

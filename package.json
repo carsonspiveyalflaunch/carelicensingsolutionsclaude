@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:checkout-name": "node --experimental-strip-types --import ./lib/register-ts-ext.mjs --test lib/checkout-name.test.ts lib/meta-funnel.test.ts lib/bundle-files.test.ts lib/ghl-funnel.test.ts lib/funnel-promo.test.ts",
+    "test:checkout-name": "node --experimental-strip-types --import ./lib/register-ts-ext.mjs --test lib/checkout-name.test.ts lib/meta-funnel.test.ts lib/bundle-files.test.ts lib/ghl-funnel.test.ts lib/funnel-promo.test.ts lib/skool-invite.test.ts",
     "seed:products": "node seed-products.js",
     "seed:alabama": "node seed-alabama-bundle.js"
   },
