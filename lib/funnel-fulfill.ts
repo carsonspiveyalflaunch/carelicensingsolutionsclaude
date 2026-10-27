@@ -6,6 +6,7 @@ import { syncFunnelBuyerInGhl } from "@/lib/ghl-funnel";
 import { META_FUNNEL, UPSELL_PRICE_DOLLARS, buildLaunchKitItem, creditExpiresIso } from "@/lib/meta-funnel";
 import { STATE_NAMES } from "@/lib/us-states";
 import { deliverAccess, grantPurchase } from "@/lib/purchase-access";
+import { sendLaunchKitSkoolInvite } from "@/lib/skool-invite";
 import { readItemsMetadata } from "@/lib/stripe-items";
 
 const UPSELL_CENTS = UPSELL_PRICE_DOLLARS * 100;
@@ -52,7 +53,13 @@ export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi
         return bundle ? [buildLaunchKitItem(bundle, UPSELL_PRICE_DOLLARS)] : [];
       })();
   if (!kitItems.length) {
-    console.error("Launch Kit PaymentIntent has no deliverable item", pi.id);
+    // Fallback Checkout puts the kit line items on the Checkout Session.
+    // Its PaymentIntent only carries funnel, upsell, and the source session,
+    // so there is nothing to fulfill here. checkout.session.completed sends
+    // the Skool invite for that purchase. Returning avoids a second purchase.
+    if (pi.metadata?.state || pi.metadata?.program) {
+      console.error("Launch Kit PaymentIntent has no deliverable item", pi.id);
+    }
     return null;
   }
 
@@ -128,6 +135,19 @@ export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi
       extraTags: ["cls-purchased", "cls-bought-bundle"],
     });
     console.log("GHL launch kit buyer:", ghl.reason);
+  }
+
+  // Same academy invite the Checkout bundle path sends. The lock is the
+  // PaymentIntent id, so this call and a later payment_intent.succeeded
+  // replay (or the Checkout handler, if it already sent) do not double-post.
+  if (purchase?.id) {
+    await sendLaunchKitSkoolInvite(supabase, {
+      items: kitItems,
+      email,
+      customerName: name,
+      paymentIntentId: pi.id,
+      purchaseId: purchase.id,
+    });
   }
 
   return purchase;
