@@ -8,24 +8,22 @@ import { checkoutDisplayName, type CheckoutProduct } from "./checkout-name";
 export const META_FUNNEL = "meta_mrr" as const;
 
 export const MRR_PRICE_DOLLARS = 47;
-export const BUMP_PRICE_DOLLARS = 27;
 export const LAUNCH_KIT_PRICE_DOLLARS = 997;
 export const MRR_CREDIT_DOLLARS = 47;
 /** Funnel-only charge while the report credit is open. /launch-kit stays $997. */
 export const UPSELL_PRICE_DOLLARS = 647;
-/** $997 − $647. The $47 report credit is part of this offer. */
+/** $997 − $647. The $47 report credit is part of this offer, shown only after payment. */
 export const UPSELL_SAVINGS_DOLLARS = LAUNCH_KIT_PRICE_DOLLARS - UPSELL_PRICE_DOLLARS;
 export const CREDIT_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 
 /** Meta content_ids. Front-end purchase uses mrr_47; the kit upsell uses launch_kit_997. */
 export const CONTENT_MRR = "mrr_47";
-export const CONTENT_BUMP = "checklist_27";
 export const CONTENT_LAUNCH_KIT = "launch_kit_997";
 
 /** File labels the dashboard and storage already use. Do not rename. */
 export const MRR_PURCHASED_ITEM = "Market Research Report";
+/** Bundle file delivered with the Launch Kit, not a checkout add-on. */
 export const BUMP_PURCHASED_ITEM = "Licensing Checklist";
-export const BUMP_DISPLAY_NAME = "Licensing Documentation Checklist";
 
 /** Proprietary name for the tripwire method. The file itself is the Market Research Report. */
 export const METHOD_NAME = "License-First Market Map";
@@ -80,12 +78,13 @@ export function formatUsd(amount: number): string {
   })}`;
 }
 
-export function funnelContentIds(bump: boolean): string[] {
-  return bump ? [CONTENT_MRR, CONTENT_BUMP] : [CONTENT_MRR];
+/** Front-end checkout is the $47 report only. The Launch Kit is a separate charge after payment. */
+export function funnelContentIds(): string[] {
+  return [CONTENT_MRR];
 }
 
-export function funnelTotalDollars(bump: boolean): number {
-  return MRR_PRICE_DOLLARS + (bump ? BUMP_PRICE_DOLLARS : 0);
+export function funnelTotalDollars(): number {
+  return MRR_PRICE_DOLLARS;
 }
 
 export function creditExpiresAt(purchasedAtMs: number): number {
@@ -106,23 +105,21 @@ export function upsellAmountCents(purchasedAtMs: number, now = Date.now()): numb
   return dollars * 100;
 }
 
-export function buildFunnelItems(bundle: FunnelBundle, bump: boolean): FunnelLineItem[] {
-  const nameFor = (purchasedItem: string) =>
-    checkoutDisplayName(
-      {
-        product_slug: bundle.product_slug,
-        purchased_item: purchasedItem,
-        state: bundle.code,
-        type: bundle.program,
-      },
-      bundle,
-    );
-
-  const items: FunnelLineItem[] = [
+/** One line: the $47 report. The how-to-read checklist is on-page copy, not a second SKU. */
+export function buildFunnelItems(bundle: FunnelBundle): FunnelLineItem[] {
+  return [
     {
       product_slug: bundle.product_slug,
       product_id: bundle.id,
-      name: nameFor(MRR_PURCHASED_ITEM),
+      name: checkoutDisplayName(
+        {
+          product_slug: bundle.product_slug,
+          purchased_item: MRR_PURCHASED_ITEM,
+          state: bundle.code,
+          type: bundle.program,
+        },
+        bundle,
+      ),
       price: MRR_PRICE_DOLLARS,
       quantity: 1,
       purchased_item: MRR_PURCHASED_ITEM,
@@ -131,22 +128,6 @@ export function buildFunnelItems(bundle: FunnelBundle, bump: boolean): FunnelLin
       type: bundle.program,
     },
   ];
-
-  if (bump) {
-    items.push({
-      product_slug: bundle.product_slug,
-      product_id: bundle.id,
-      name: nameFor(BUMP_PURCHASED_ITEM),
-      price: BUMP_PRICE_DOLLARS,
-      quantity: 1,
-      purchased_item: BUMP_PURCHASED_ITEM,
-      purchased_item_price: BUMP_PRICE_DOLLARS,
-      state: bundle.code,
-      type: bundle.program,
-    });
-  }
-
-  return items;
 }
 
 /** Full kit, no purchased_item, so delivery unlocks every file in the bundle. */

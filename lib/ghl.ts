@@ -1,12 +1,21 @@
 /**
  * Tag buyers in GoHighLevel so sales sequences stop for people who already bought.
- * Needs a GHL Private Integration token with contacts read/write scope:
- *   GHL_PRIVATE_TOKEN   (Vercel, sensitive)
- *   GHL_LOCATION_ID     (defaults to the ALF Launch sub-account)
- * Without a token this does nothing, so checkout is never affected.
+ * Needs a GHL Private Integration token with contacts.write:
+ *   GHL_API_KEY         (preferred name; Vercel, sensitive)
+ *   GHL_PRIVATE_TOKEN   (same token, accepted if GHL_API_KEY is unset)
+ *   GHL_LOCATION_ID     (defaults to the ALF Launch / CLS sub-account)
+ * Without a token this does nothing, so checkout and file delivery are never affected.
  */
 const API = "https://services.leadconnectorhq.com";
 const VERSION = "2021-07-28";
+const DEFAULT_LOCATION_ID = "F5lkC7Gm4ls08iexDcUq";
+
+export function ghlCredentials(): { token: string; locationId: string } | null {
+  const token = (process.env.GHL_API_KEY || process.env.GHL_PRIVATE_TOKEN || "").trim();
+  if (!token) return null;
+  const locationId = (process.env.GHL_LOCATION_ID || DEFAULT_LOCATION_ID).trim() || DEFAULT_LOCATION_ID;
+  return { token, locationId };
+}
 
 // GHL custom field IDs in the ALF Launch sub-account (used by the CLS follow-up
 // workflow and the reply assistant: {{contact.bundle_link}} etc.).
@@ -29,9 +38,9 @@ export async function saveLeadInGhl(opts: {
   tags: string[];
   customFields?: { id: string; value: string }[];
 }): Promise<{ ok: boolean; reason: string; contactId?: string }> {
-  const token = process.env.GHL_PRIVATE_TOKEN;
-  const locationId = process.env.GHL_LOCATION_ID || "F5lkC7Gm4ls08iexDcUq";
-  if (!token) return { ok: false, reason: "no-token" };
+  const creds = ghlCredentials();
+  if (!creds) return { ok: false, reason: "no-token" };
+  const { token, locationId } = creds;
   if (!opts.email && !opts.phone) return { ok: false, reason: "no-contact-info" };
   const headers = {
     Authorization: `Bearer ${token}`,
@@ -71,10 +80,11 @@ export async function tagBuyerInGhl(opts: {
   name?: string | null;
   phone?: string | null;
   tags: string[];
+  customFields?: { id: string; value: string }[];
 }): Promise<{ ok: boolean; reason: string }> {
-  const token = process.env.GHL_PRIVATE_TOKEN;
-  const locationId = process.env.GHL_LOCATION_ID || "F5lkC7Gm4ls08iexDcUq";
-  if (!token) return { ok: false, reason: "no-token" };
+  const creds = ghlCredentials();
+  if (!creds) return { ok: false, reason: "no-token" };
+  const { token, locationId } = creds;
   const headers = {
     Authorization: `Bearer ${token}`,
     Version: VERSION,
@@ -92,6 +102,9 @@ export async function tagBuyerInGhl(opts: {
         email: opts.email.trim().toLowerCase(),
         ...(opts.phone ? { phone: opts.phone } : {}),
         ...(firstName ? { firstName, lastName: rest.join(" ") || undefined } : {}),
+        ...(opts.customFields?.length
+          ? { customFields: opts.customFields.map((field) => ({ id: field.id, field_value: field.value })) }
+          : {}),
       }),
     });
     const body = await up.json().catch(() => ({}));
@@ -114,8 +127,9 @@ export async function tagBuyerInGhl(opts: {
  * visitor asks the site chat assistant to text them their bundle link.
  */
 export async function sendSmsInGhl(contactId: string, message: string): Promise<{ ok: boolean; reason: string }> {
-  const token = process.env.GHL_PRIVATE_TOKEN;
-  if (!token) return { ok: false, reason: "no-token" };
+  const creds = ghlCredentials();
+  if (!creds) return { ok: false, reason: "no-token" };
+  const { token } = creds;
   try {
     const res = await fetch(`${API}/conversations/messages`, {
       method: "POST",

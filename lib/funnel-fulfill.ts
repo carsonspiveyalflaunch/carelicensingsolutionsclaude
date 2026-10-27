@@ -2,7 +2,9 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import type Stripe from "stripe";
 import { findCompleteBundle } from "@/lib/complete-bundles";
 import { queueFunnelEmail } from "@/lib/funnel-email";
+import { syncFunnelBuyerInGhl } from "@/lib/ghl-funnel";
 import { META_FUNNEL, UPSELL_PRICE_DOLLARS, buildLaunchKitItem, creditExpiresIso } from "@/lib/meta-funnel";
+import { STATE_NAMES } from "@/lib/us-states";
 import { deliverAccess, grantPurchase } from "@/lib/purchase-access";
 import { readItemsMetadata } from "@/lib/stripe-items";
 
@@ -113,6 +115,19 @@ export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi
       amount: UPSELL_PRICE_DOLLARS,
       creditExpiresAt: sourceCreated ? creditExpiresIso(sourceCreated) : null,
     });
+  }
+
+  if (email) {
+    const ghl = await syncFunnelBuyerInGhl({
+      email,
+      name,
+      state: pi.metadata.state,
+      stateName: pi.metadata.state_name || STATE_NAMES[pi.metadata.state || ""] || "",
+      program: pi.metadata.program,
+      launchKit: true,
+      extraTags: ["cls-purchased", "cls-bought-bundle"],
+    });
+    console.log("GHL launch kit buyer:", ghl.reason);
   }
 
   return purchase;

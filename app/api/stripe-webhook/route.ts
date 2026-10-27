@@ -3,6 +3,7 @@ import { resolveProductForItem } from '@/lib/resolve-product';
 import Stripe from "stripe";
 import { deliverAccess } from "@/lib/purchase-access";
 import { tagBuyerInGhl } from "@/lib/ghl";
+import { syncFunnelBuyerInGhl } from "@/lib/ghl-funnel";
 import { readItemsMetadata } from "@/lib/stripe-items";
 import { orderTotals, buyerName } from "@/lib/stripe-order";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
@@ -327,16 +328,27 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     }
 
     // Tell GHL this person bought, so sales emails/texts stop for them.
+    // Market-research buyers are upserted on this same checkout.session.completed
+    // path. A missing GHL token is logged and does not stop file delivery.
     if (courseEmail) {
       const slugs = enrichedItems.map((item: any) => item?.product_slug).filter(Boolean) as string[];
       const boughtBundle = slugs.some((s) => s.endsWith('-complete-bundle'));
       const tags = ['cls-purchased', boughtBundle ? 'cls-bought-bundle' : isCourseEnrollment ? 'cls-bought-course' : 'cls-bought-asset'];
-      const ghl = await tagBuyerInGhl({
+      const buyer = {
         email: courseEmail,
         name: session.customer_details?.name || null,
         phone: session.customer_details?.phone || null,
-        tags,
-      });
+      };
+      const ghl = session.metadata?.funnel === META_FUNNEL
+        ? await syncFunnelBuyerInGhl({
+            ...buyer,
+            state: session.metadata?.state,
+            stateName: session.metadata?.state_name,
+            program: session.metadata?.program,
+            launchKit: session.metadata?.upsell === 'launch_kit',
+            extraTags: tags,
+          })
+        : await tagBuyerInGhl({ ...buyer, tags });
       console.log('GHL buyer tag:', ghl.reason);
     }
 

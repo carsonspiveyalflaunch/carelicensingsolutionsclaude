@@ -4,7 +4,7 @@
  * These sequence hooks are stubs until an ESP flow is connected.
  *
  * Hooks:
- * - meta_mrr_purchased — front-end report (and optional checklist) paid
+ * - meta_mrr_purchased — front-end $47 report paid
  * - meta_mrr_launch_kit_declined — buyer skipped the $647 kit; credit still open
  * - meta_mrr_launch_kit_accepted — buyer paid the kit upsell
  */
