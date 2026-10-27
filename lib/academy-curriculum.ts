@@ -57,7 +57,7 @@ export const ACADEMY_MODULES: AcademyModule[] = [
   },
   {
     id: 6,
-    title: "Licensing & Vendification",
+    title: "Licensing & Vendorization",
     videos: 9,
     duration: 100,
     resources: 14,

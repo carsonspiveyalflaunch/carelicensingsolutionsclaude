@@ -11,6 +11,8 @@ export type DocumentFeature = {
   items: string[];
   highlightBox: ReactNode;
   icon: LucideIcon;
+  /** Upsell-only lead. Hidden on the homepage grid. */
+  pitch?: string;
 };
 
 /** Homepage "See what's inside" copy for the four Launch Kit documents. */
@@ -24,20 +26,22 @@ export const LAUNCH_KIT_DOCUMENTS: DocumentFeature[] = [
     items: [
       "Executive Summary with key market indicators, wait lists, and funding commitments",
       "Service Model Definition covering official program name, waiver authority, and regulatory classification",
-      "Feasibility & Licensing pathway with phase-by-phase application process",
-      "Automated & Self-Requirement: including education, certification, and training mandates",
-      "Funding & Medicaid Method with reimbursement rates, billing policy, and MCO contracting",
-      "Referral & Placement Pipeline showing primary referral sources and introducing development partners",
-      "Program Design & Operations covering capacity planning, staffing structure, and service delivery",
-      "Market & System Trends with competitive analysis and workforce development insights",
-      "Target Cost Analysis with detailed financial projection and break-even modeling",
-      "Strategic Recommendations with implementation timeline",
+      "Feasibility and licensing pathway with the application, phase by phase",
+      "Administrator and staff requirements: education, certification, and training",
+      "Funding and Medicaid: reimbursement rates, billing rules, and MCO contracting",
+      "Referral and placement pipeline: who sends residents, and who to build with",
+      "Program design and operations: capacity, staffing, and how care is delivered",
+      "Market and system trends, competition, and the workforce",
+      "Startup cost analysis with the projection and the break-even",
+      "Recommendations and the order to move in",
     ],
+    pitch:
+      "This is the file you already own. It tells you whether the market can pay. It does not file the license, hire anyone, or open the door.",
     highlightBox: (
       <>
         <strong>Why it Matters</strong>
         <p className="mt-2">
-          This isn&apos;t a generic industry overview—it&apos;s state-specific, program-specific intelligence with current reimbursement rates, real agency contacts, and verified regulatory citations. You&apos;ll understand exactly what the opportunity looks like before you commit.
+          State-specific and program-specific: current rates, agency contacts, and the citations. You see the opening before you spend on a building.
         </p>
       </>
     ),
@@ -56,13 +60,15 @@ export const LAUNCH_KIT_DOCUMENTS: DocumentFeature[] = [
       "Physical Location & Readiness (site plan, safety, environmental health)",
       "Program & Service Delivery Systems (implementation plan, program model)",
       "Credentialing & Medicaid Enrollment (if applicable to your market)",
-      "Pre-Inspection Readiness (what surveyors look for)",
+      "Pre-inspection readiness: what surveyors look for",
     ],
+    pitch:
+      "A report with no checklist is how applications get sent back. Miss one filing and you wait. The map never puts the packet in order.",
     highlightBox: (
       <>
         <strong>Why it Matters</strong>
         <p className="mt-2">
-          This checklist approach gives you a single clear list of what to submit—each built for it by state. Every item is mapped to the actual regulation with reform numbers and agency contacts included. Work through it sequentially and your application is complete.
+          One list, built for your state. Every line maps to the regulation, with the citation and the agency contact. Work it in order and the application is complete.
         </p>
       </>
     ),
@@ -80,14 +86,16 @@ export const LAUNCH_KIT_DOCUMENTS: DocumentFeature[] = [
       "Service Delivery & Care Planning Protocols",
       "Health & Safety Procedures (infection control, emergency response, incident reporting)",
       "Medication & Records Management (documentation, performance management)",
-      "Customization to licensed-keeping standards",
-      "All policies based on state/regulatory template & program type",
+      "Written to your state's record-keeping rules",
+      "Policies matched to your state and program, ready for your agency name",
     ],
+    pitch:
+      "Surveyors ask for policies. Banks ask for policies. A market study is not a manual. This one is already written.",
     highlightBox: (
       <>
         <strong>Why it Matters</strong>
         <p className="mt-2">
-          Banks, investors, and regulators require policy manual before they’ll approve your licensure—and they always look for what’s listed in this box. This manual is built from actual approved applications, with the latest state-specific regulatory language, and ready to customize with your organization’s details.
+          Lenders and regulators expect a policy manual before they move a file. This one comes from approved applications, in your state&apos;s language, ready for your agency name.
         </p>
       </>
     ),
@@ -103,14 +111,16 @@ export const LAUNCH_KIT_DOCUMENTS: DocumentFeature[] = [
       "Monthly Operating Expense Projections (staffing, utilities, rent, supplies)",
       "Revenue Modeling by Payer Mix (Medicaid rates, private pay, Medicare if applicable)",
       "Variable & Fixed Cost Analysis (by line item)",
-      "Cash Flow & Breakeven Summary (monthly by position)",
-      "Customizable for your specific rates in your market",
+      "Cash flow and break-even, month by month",
+      "Built so you can drop in the rates for your market",
     ],
+    pitch:
+      "A lender does not fund a PDF of rates. They fund a model. The report has no pro forma. This spreadsheet is the one you hand them.",
     highlightBox: (
       <>
         <strong>Why it Matters</strong>
         <p className="mt-2">
-          This isn’t just a template with blank numbers. It’s built with the numbers that matter, for your state and your program. Plug in your assumptions and you have a presentation-ready financial model.
+          The numbers are for your state and your program. Change the assumptions and you have a model a lender can read.
         </p>
       </>
     ),
@@ -120,9 +130,11 @@ export const LAUNCH_KIT_DOCUMENTS: DocumentFeature[] = [
 export function DocumentFeatureCard({
   feature,
   defaultOpen = false,
+  showPitch = false,
 }: {
   feature: DocumentFeature;
   defaultOpen?: boolean;
+  showPitch?: boolean;
 }) {
   const [open, setOpen] = useState(defaultOpen);
   const Icon = feature.icon;
@@ -131,6 +143,9 @@ export function DocumentFeatureCard({
     <div className="bundle-card overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-md">
       <div className="border-t-4 border-[#2F5D46]" />
       <div className="p-6">
+        {showPitch && feature.pitch ? (
+          <p className="mb-4 text-sm font-semibold leading-relaxed text-slate-950">{feature.pitch}</p>
+        ) : null}
         <div className="flex items-start gap-4">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-neutral-900">
             <Icon className="text-white" size={22} />
@@ -176,11 +191,17 @@ export function DocumentFeatureCard({
   );
 }
 
-export function DocumentFeatureGrid({ defaultOpen = false }: { defaultOpen?: boolean }) {
+export function DocumentFeatureGrid({
+  defaultOpen = false,
+  showPitch = false,
+}: {
+  defaultOpen?: boolean;
+  showPitch?: boolean;
+}) {
   return (
     <div className="grid gap-8 md:grid-cols-2">
       {LAUNCH_KIT_DOCUMENTS.map((feature) => (
-        <DocumentFeatureCard key={feature.title} feature={feature} defaultOpen={defaultOpen} />
+        <DocumentFeatureCard key={feature.title} feature={feature} defaultOpen={defaultOpen} showPitch={showPitch} />
       ))}
     </div>
   );

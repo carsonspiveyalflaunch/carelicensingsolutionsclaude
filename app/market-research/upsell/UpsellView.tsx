@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { CheckCircle2, Loader2, Play } from "lucide-react";
 import AcademyModuleList from "../../components/AcademyModuleList";
@@ -71,23 +71,24 @@ export default function UpsellView() {
   const [order, setOrder] = useState<Order | null>(null);
   const [error, setError] = useState("");
   const [story, setStory] = useState<string | null>(null);
+  const [previewExpiry] = useState(() => new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString());
   const { accept, loading, error: payError } = useLaunchKitUpsell(sessionId);
+  const previewOrder = useMemo<Order | null>(() => {
+    if (!preview) return null;
+    return {
+      amount: 47,
+      contentIds: [],
+      stateName: "Arizona",
+      program: "Residential Care (DD)",
+      creditExpiresAt: previewExpiry,
+      creditActive: true,
+      upsellTaken: false,
+      launchKitUrl: "/launch-kit?state=AZ&type=Residential%20Care%20(DD)",
+    };
+  }, [preview, previewExpiry]);
 
   useEffect(() => {
-    if (preview) {
-      setOrder({
-        amount: 47,
-        contentIds: [],
-        stateName: "Arizona",
-        program: "Residential Care (DD)",
-        creditExpiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
-        creditActive: true,
-        upsellTaken: false,
-        launchKitUrl: "/launch-kit?state=AZ&type=Residential%20Care%20(DD)",
-      });
-      return;
-    }
-    if (!sessionId) return;
+    if (preview || !sessionId) return;
     let cancelled = false;
     fetch(`/api/funnel/order?session_id=${encodeURIComponent(sessionId)}`)
       .then(async (res) => {
@@ -109,6 +110,8 @@ export default function UpsellView() {
     };
   }, [preview, sessionId, router]);
 
+  const shown = previewOrder ?? order;
+
   useEffect(() => {
     if (preview || !sessionId) return;
     let cancelled = false;
@@ -124,13 +127,13 @@ export default function UpsellView() {
   }, [preview, sessionId]);
 
   useEffect(() => {
-    if (!order) return;
+    if (!shown) return;
     const previous = document.body.style.paddingBottom;
-    document.body.style.paddingBottom = "7.5rem";
+    document.body.style.paddingBottom = "9rem";
     return () => {
       document.body.style.paddingBottom = previous;
     };
-  }, [order]);
+  }, [shown]);
 
   const decline = () => {
     if (sessionId) {
@@ -151,7 +154,7 @@ export default function UpsellView() {
     );
   }
 
-  if (!order) {
+  if (!shown) {
     return (
       <main className="bg-slate-50 px-4 py-32 text-center text-slate-600">
         <Loader2 className="mx-auto h-8 w-8 animate-spin text-emerald-700" />
@@ -160,77 +163,143 @@ export default function UpsellView() {
     );
   }
 
-  const price = order.creditActive ? UPSELL_PRICE_DOLLARS : LAUNCH_KIT_PRICE_DOLLARS;
-  const pages = previewBundleFor(order.stateName, order.program);
-  const kitLabel = [order.stateName, order.program].filter(Boolean).join(" ");
+  const price = shown.creditActive ? UPSELL_PRICE_DOLLARS : LAUNCH_KIT_PRICE_DOLLARS;
+  const pages = previewBundleFor(shown.stateName, shown.program);
+  const kitLabel = [shown.stateName, shown.program].filter(Boolean).join(" ");
+  const creditDate = shown.creditExpiresAt ? new Date(shown.creditExpiresAt).toLocaleDateString() : "";
+  const place = shown.stateName || "your state";
   const sampleCaption = pages.usingPublishedSample
-    ? kitLabel
-      ? `These are real pages from the ${pages.sampleTitle} kit. Your ${kitLabel} download is this same set of documents, written for ${order.stateName || "your state"}.`
-      : `These are real pages from the ${pages.sampleTitle} kit: market research, pro forma P&L, licensing checklist, and the policy manual.`
-    : undefined;
+    ? `Example pages from a real kit. Yours is built for ${kitLabel || place}. The thumbnails are from a published ${pages.sampleTitle} kit so you can see the actual documents. The download is written for ${place}.`
+    : `These are pages from the ${kitLabel || "Launch Kit"}. Real paper. Click one.`;
 
   return (
     <main className="bg-white">
       <section className="bg-gradient-to-br from-emerald-950 to-slate-950 px-4 pb-16 pt-28 text-white sm:pt-32">
         <div className="mx-auto grid max-w-6xl items-start gap-10 lg:grid-cols-[1.15fr_0.85fr]">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300">Your {METHOD_NAME} is paid</p>
+            <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300">
+              {kitLabel ? `${kitLabel} is paid` : `Your ${METHOD_NAME} is paid`}
+            </p>
             <h1 className="mt-4 text-3xl font-bold leading-tight sm:text-5xl">
-              Add the Care Business Launch Kit for {formatUsd(price)}
+              You bought the map. You still can&apos;t open.
             </h1>
             <p className="mt-5 text-lg text-slate-200">
-              {kitLabel ? `${kitLabel}. ` : ""}
-              You have the market file. The kit adds the pro forma, the licensing checklist, the policy manual, and the
-              academy that ships with the {formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} bundle.
-              {order.creditActive
-                ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off — until ${new Date(order.creditExpiresAt).toLocaleDateString()}. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}.`
-                : " The report credit has ended."}
+              Good. That was the right first check. The {METHOD_NAME}
+              {kitLabel ? ` for ${kitLabel}` : ""} tells you whether this market can pay. It does not get you licensed.
+              It does not staff the shift. It does not write the policies a surveyor or a bank will ask for. It does not
+              hand a lender a P&amp;L. Leave with only the report and you own a PDF and a stall.
             </p>
-            <ul className="mt-6 flex flex-wrap gap-2">
-              {["Real report pages", "Pro forma P&L", "Licensing checklist", "Policy manual", "11 academy modules"].map((item) => (
-                <li key={item} className="rounded-full border border-emerald-700/60 bg-emerald-900/40 px-3 py-1 text-sm text-emerald-100">
-                  {item}
+            <ul className="mt-6 space-y-3 text-slate-100">
+              {[
+                ["No checklist", "One missed filing and the state sends the packet back."],
+                ["No policy manual", "Surveyors and banks do not take a market study as your policies."],
+                ["No pro forma", "You walk in with rates and no model a lender can underwrite."],
+                ["No academy", "You cold-start hiring, intake, billing, and the building alone."],
+              ].map(([title, body]) => (
+                <li key={title} className="flex items-start gap-3">
+                  <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-300" />
+                  <span>
+                    <span className="font-semibold text-white">{title}. </span>
+                    {body}
+                  </span>
                 </li>
               ))}
             </ul>
-            <a href="#kit-samples" className="mt-6 inline-block text-sm font-semibold text-emerald-300 underline">
-              See the pages and the academy
-            </a>
+            <p className="mt-6 text-sm text-emerald-100">
+              {shown.creditActive
+                ? `Your ${formatUsd(MRR_CREDIT_DOLLARS)} credit is real, and it ends ${creditDate}. About ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}. After ${creditDate} the same download is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`
+                : `The 7-day credit window is closed. The kit is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} on the Launch Kit page.`}
+            </p>
           </div>
-          <OfferCard order={order} price={price} accept={accept} loading={loading} payError={payError} onDecline={decline} />
+          <OfferCard order={shown} price={price} accept={accept} loading={loading} payError={payError} onDecline={decline} />
         </div>
       </section>
 
-      <section id="kit-samples" className="scroll-mt-24 bg-white px-4 py-14">
+      <section className="bg-white px-4 py-14">
         <div className="mx-auto max-w-5xl">
-          <BundlePreviews
-            productSlug={pages.productSlug}
-            stateName={pages.usingPublishedSample ? undefined : order.stateName}
-            title={pages.usingPublishedSample ? `Look inside the ${pages.sampleTitle} kit` : undefined}
-            caption={sampleCaption}
-          />
-          <div className="mt-14">
-            <h2 className="text-2xl font-bold text-slate-950 sm:text-3xl">See what&apos;s inside</h2>
-            <p className="mt-2 max-w-2xl text-slate-600">
-              Market research, the licensing checklist, the policy manual, and the pro forma — the same outlines as the public site, under the pages above.
-            </p>
-            <div className="mt-8">
-              <DocumentFeatureGrid defaultOpen />
+          <p className="text-sm font-bold uppercase tracking-widest text-emerald-700">Map vs build</p>
+          <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-4xl">The report alone is a half-finished buy</h2>
+          <p className="mt-4 max-w-3xl text-lg text-slate-700">
+            You did the part most people skip. You read the market before you signed a lease. That file is the map.
+            A map does not open the doors. The old way is a consultant, a guess, and a stalled application. The kit is
+            the build: the packet, the policies, the numbers, and the operators who already did it.
+          </p>
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            <div className="rounded-2xl border border-slate-300 bg-slate-950 p-6 text-white">
+              <p className="text-xs font-bold uppercase tracking-widest text-slate-400">The old way</p>
+              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-slate-200">
+                <li>Hand the launch to a consultant at $15,000–$25,000 and wait on their calendar.</li>
+                <li>Guess the packet. Eat a rejected application. Start the clock over.</li>
+                <li>Write the policy manual from a blank page. Months, if you finish it.</li>
+                <li>Ask a lender to fund a feeling. They will not.</li>
+              </ul>
+            </div>
+            <div className="rounded-2xl border-2 border-emerald-700 bg-emerald-50 p-6">
+              <p className="text-xs font-bold uppercase tracking-widest text-emerald-800">The kit — {formatUsd(price)}</p>
+              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-slate-800">
+                <li>Licensing checklist in filing order for {kitLabel || "your state and program"}.</li>
+                <li>Policy manual already written. PDF and editable Word. Put your agency name on it.</li>
+                <li>Pro forma a lender can read. Change the assumptions and see the profit.</li>
+                <li>11-module academy, weekly calls, and the people who finance, broker, insure, and keep the books.</li>
+              </ul>
             </div>
           </div>
-          <InlineOffer order={order} price={price} accept={accept} loading={loading} payError={payError} onDecline={decline} />
         </div>
       </section>
 
-      <section id="academy" className="scroll-mt-24 border-t border-slate-200 bg-slate-50 px-4 py-14">
+      <section id="kit-samples" className="scroll-mt-24 bg-slate-50 px-4 py-14">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-sm font-bold uppercase tracking-widest text-emerald-700">The documents</p>
+          <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-3xl">Stop picturing the kit. Look at the pages.</h2>
+          <p className="mt-3 max-w-3xl text-slate-700">
+            Four files decide whether you can license, borrow, and open. The report is one of them, and you already
+            have it. The checklist, the manual, and the pro forma are the ones that move a file. These are real pages,
+            not a mockup.
+          </p>
+          <div className="mt-8">
+            <BundlePreviews
+              productSlug={pages.productSlug}
+              stateName={pages.usingPublishedSample ? undefined : shown.stateName}
+              title={pages.usingPublishedSample ? "Example pages from a real kit" : undefined}
+              caption={sampleCaption}
+            />
+          </div>
+          <div className="mt-14">
+            <h2 className="text-2xl font-bold text-slate-950 sm:text-3xl">What each file actually does</h2>
+            <p className="mt-2 max-w-2xl text-slate-600">
+              Open every list. This is the inside of the download, written for {place}.
+            </p>
+            <div className="mt-8">
+              <DocumentFeatureGrid defaultOpen showPitch />
+            </div>
+          </div>
+          <InlineOffer
+            note={
+              shown.creditActive
+                ? `You just saw the pages. Decline and you keep the map and none of the build. Credit ends ${creditDate}. Then this kit is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`
+                : "You just saw the pages. The report is one file. The kit is the rest of the launch."
+            }
+            order={shown}
+            price={price}
+            accept={accept}
+            loading={loading}
+            payError={payError}
+            onDecline={decline}
+          />
+        </div>
+      </section>
+
+      <section id="academy" className="scroll-mt-24 border-t border-slate-200 bg-white px-4 py-14">
         <div className="mx-auto max-w-5xl">
           <div className="text-center">
             <span className="inline-block rounded-full bg-black px-4 py-1.5 text-xs font-bold text-green-300 sm:text-sm">
               {ACADEMY_TOTALS.modules} MODULES
             </span>
-            <h2 className="mt-4 text-2xl font-bold text-slate-950 sm:text-4xl">Operational Success Academy</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-slate-600">
-              {COURSE_DETAIL} Open any module and play a sample lesson.
+            <h2 className="mt-4 text-2xl font-bold text-slate-950 sm:text-4xl">This used to cost thousands. It still didn&apos;t include the files.</h2>
+            <p className="mx-auto mt-3 max-w-3xl text-slate-700">
+              {COURSE_DETAIL} People paid for the teaching and still wrote the manual themselves. Here the academy sits
+              on top of the checklist, the policies, and the pro forma. Open any module. Play the sample. Then decide
+              if you want to cold-start operations without it.
             </p>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-2 rounded-lg bg-white p-4 sm:grid-cols-4 sm:gap-4 sm:p-6">
@@ -249,7 +318,15 @@ export default function UpsellView() {
           <div className="mt-6 space-y-3">
             <AcademyModuleList />
           </div>
-          <InlineOffer order={order} price={price} accept={accept} loading={loading} payError={payError} onDecline={decline} />
+          <InlineOffer
+            note="Eleven modules. Sample every one. The network under them is lenders, brokers, tax, insurance, fractional HR, bookkeepers, and the software other owners run."
+            order={shown}
+            price={price}
+            accept={accept}
+            loading={loading}
+            payError={payError}
+            onDecline={decline}
+          />
         </div>
       </section>
 
@@ -265,11 +342,25 @@ export default function UpsellView() {
         </div>
       </section>
 
+      <section className="bg-white px-4 pb-4 pt-14">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="text-sm font-bold uppercase tracking-widest text-emerald-700">Who you can actually call</p>
+          <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-4xl">A PDF cannot introduce you</h2>
+          <p className="mt-4 text-lg text-slate-700">
+            The report names the market. The kit puts you in the room: specialty lenders, business brokers, tax
+            strategists, insurance agents, fractional HR, bookkeepers, and the software and systems other owners
+            already run. Weekly call recordings sit on top, owners working live licensing questions.
+          </p>
+        </div>
+      </section>
       <CourseCommunitySection animate={false} />
 
       <section className="bg-slate-50 px-4 py-14">
         <div className="mx-auto max-w-5xl">
-          <h2 className="text-2xl font-bold text-slate-950">Owners who launched with these materials</h2>
+          <h2 className="text-2xl font-bold text-slate-950">They did not stop at a market file</h2>
+          <p className="mt-2 max-w-2xl text-slate-600">
+            Same materials. They licensed and opened. The report was the start. The kit was the build.
+          </p>
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             {OWNER_STORIES.map((item) => (
               <figure key={item.name} className="flex flex-col rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
@@ -308,29 +399,38 @@ export default function UpsellView() {
       <section className="bg-white px-4 py-14">
         <div className="mx-auto grid max-w-6xl items-start gap-8 lg:grid-cols-[1.15fr_0.85fr]">
           <div>
-            <h2 className="text-2xl font-bold text-slate-950 sm:text-3xl">Everything you get</h2>
-            <p className="mt-2 text-slate-600">
+            <p className="text-sm font-bold uppercase tracking-widest text-emerald-700">Finish it</p>
+            <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-3xl">Leave half-done, or open.</h2>
+            <p className="mt-3 text-slate-700">
+              Bought apart, the files and the academy are{" "}
               {formatUsd(
                 ASSET_LIST_PRICES.report +
                   ASSET_LIST_PRICES.pnl +
                   ASSET_LIST_PRICES.checklist +
                   ASSET_LIST_PRICES.manual +
                   COURSE_PRICE_DOLLARS,
-              )}{" "}
-              if you bought the files and the academy separately.
-              {order.creditActive ? ` Your price on this page is ${formatUsd(UPSELL_PRICE_DOLLARS)}.` : ` The kit on its own is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`}
+              )}
+              . The public kit is {formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.
+              {shown.creditActive
+                ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} credit makes it ${formatUsd(UPSELL_PRICE_DOLLARS)} until ${creditDate}. After that date the discount is gone. Declining keeps the map and leaves licensing, staffing, policies, and the open on you.`
+                : ` The credit window is closed. The kit is ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}. The report still does not license, staff, or open the business.`}
             </p>
             <div className="mt-6">
-              <BundleValueStack stateName={order.stateName} price={price} />
+              <BundleValueStack stateName={shown.stateName} price={price} />
             </div>
           </div>
-          <OfferCard order={order} price={price} accept={accept} loading={loading} payError={payError} onDecline={decline} />
+          <OfferCard order={shown} price={price} accept={accept} loading={loading} payError={payError} onDecline={decline} />
         </div>
       </section>
 
       <div className="fixed inset-x-0 bottom-0 z-40 border-t border-slate-200 bg-white/95 px-4 py-3 pr-20 shadow-[0_-8px_24px_rgba(15,23,42,0.08)] backdrop-blur sm:pr-24">
         <div className="mx-auto flex max-w-3xl flex-col gap-1">
-          <AcceptControl order={order} price={price} accept={accept} loading={loading} />
+          {shown.creditActive && (
+            <p className="text-center text-xs font-semibold text-slate-800">
+              Credit ends {creditDate}. After that this kit is {formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.
+            </p>
+          )}
+          <AcceptControl order={shown} price={price} accept={accept} loading={loading} />
           <DeclineButton onDecline={decline} />
           {payError && <p className="text-center text-sm text-red-700">{payError}</p>}
         </div>
@@ -365,11 +465,15 @@ function OfferCard({
       </p>
       <p className="mt-2 text-sm text-slate-600">
         {order.creditActive
-          ? `${formatUsd(MRR_CREDIT_DOLLARS)} report credit applied. About ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. Same download, no appointment.`
-          : "Credit window closed. The Launch Kit page has the current price."}
+          ? `${formatUsd(MRR_CREDIT_DOLLARS)} report credit applied. About ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. Same download. Credit ends ${new Date(order.creditExpiresAt).toLocaleDateString()}.`
+          : "The 7-day credit is closed. The Launch Kit page has the current price."}
       </p>
       <ul className="mt-4 space-y-2 text-sm text-slate-700">
-        {["Market research report — already yours", "Pro forma, checklist, and policy manual", "Full academy, calls, and owner network"].map((line) => (
+        {[
+          "The report is already yours. It does not file the license.",
+          "Checklist, policy manual, and pro forma, or the launch stalls.",
+          "Academy, weekly calls, and the owner network.",
+        ].map((line) => (
           <li key={line} className="flex items-start gap-2">
             <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-700" />
             {line}
@@ -386,6 +490,7 @@ function OfferCard({
 }
 
 function InlineOffer({
+  note,
   order,
   price,
   accept,
@@ -393,6 +498,7 @@ function InlineOffer({
   payError,
   onDecline,
 }: {
+  note?: string;
   order: Order;
   price: number;
   accept: () => void;
@@ -401,7 +507,8 @@ function InlineOffer({
   onDecline: () => void;
 }) {
   return (
-    <div className="mx-auto mt-12 max-w-md text-center">
+    <div className="mx-auto mt-12 max-w-xl text-center">
+      {note ? <p className="mb-4 text-base font-semibold leading-relaxed text-slate-950">{note}</p> : null}
       <AcceptControl order={order} price={price} accept={accept} loading={loading} />
       <DeclineButton onDecline={onDecline} />
       {payError && <p className="mt-2 text-sm text-red-700">{payError}</p>}
