@@ -3,7 +3,8 @@ import type Stripe from "stripe";
 import { findCompleteBundle } from "@/lib/complete-bundles";
 import { queueFunnelEmail } from "@/lib/funnel-email";
 import { syncFunnelBuyerInGhl } from "@/lib/ghl-funnel";
-import { META_FUNNEL, UPSELL_PRICE_DOLLARS, buildLaunchKitItem, creditExpiresIso } from "@/lib/meta-funnel";
+import { sendMetaCapiPurchase, splitPersonName } from "@/lib/meta-capi";
+import { CONTENT_LAUNCH_KIT, META_FUNNEL, UPSELL_PRICE_DOLLARS, buildLaunchKitItem, creditExpiresIso } from "@/lib/meta-funnel";
 import { STATE_NAMES } from "@/lib/us-states";
 import { deliverAccess, grantPurchase } from "@/lib/purchase-access";
 import { sendLaunchKitSkoolInvite } from "@/lib/skool-invite";
@@ -23,6 +24,19 @@ export async function findCompletedUpsell(supabase: SupabaseClient, sourceSessio
     return null;
   }
   return data?.[0] || null;
+}
+
+/** event_id Meta should dedupe: PaymentIntent id for one-click, Checkout Session id for hosted kit checkout. */
+export function upsellPurchaseEventId(
+  row: { stripe_session_id?: string | null; stripe_payment_intent_id?: string | null } | null | undefined,
+): string {
+  if (!row) return "";
+  const sessionId = row.stripe_session_id || "";
+  const pi = row.stripe_payment_intent_id || "";
+  if (sessionId.startsWith("pi_") && /^pi_/.test(pi)) return pi;
+  if (/^cs_(test|live)_/.test(sessionId)) return sessionId;
+  if (/^pi_/.test(pi)) return pi;
+  return "";
 }
 
 async function bundleFromMetadata(supabase: SupabaseClient, metadata: Stripe.Metadata | null) {
@@ -148,6 +162,25 @@ export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi
       paymentIntentId: pi.id,
       purchaseId: purchase.id,
     });
+  }
+
+  const person = splitPersonName(name);
+  try {
+    const capi = await sendMetaCapiPurchase({
+      eventId: pi.id,
+      eventTime: pi.created,
+      value: pi.amount_received ? pi.amount_received / 100 : pi.amount / 100,
+      currency: pi.currency || "usd",
+      contentIds: [CONTENT_LAUNCH_KIT],
+      contentName: "Care Business Launch Kit",
+      email,
+      phone: pi.metadata.customer_phone || null,
+      firstName: person.firstName,
+      lastName: person.lastName,
+    });
+    console.log("Meta CAPI launch kit:", capi.reason, pi.id);
+  } catch (capiError) {
+    console.error("Meta CAPI launch kit failed:", capiError instanceof Error ? capiError.message : "error");
   }
 
   return purchase;

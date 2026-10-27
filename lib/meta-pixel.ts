@@ -80,11 +80,16 @@ export function trackMetaPurchase(orderId: string, value: number, contentIds: st
   const key = `meta-purchase-${orderId}-${contentIds.join("-")}`;
   if (!once(key)) return;
   whenFbq((pixel) =>
-    pixel("track", "Purchase", {
-      value,
-      currency: "USD",
-      content_ids: contentIds,
-      content_type: "product",
-    }),
+    pixel(
+      "track",
+      "Purchase",
+      {
+        value,
+        currency: "USD",
+        content_ids: contentIds,
+        content_type: "product",
+      },
+      { eventID: orderId },
+    ),
   );
 }

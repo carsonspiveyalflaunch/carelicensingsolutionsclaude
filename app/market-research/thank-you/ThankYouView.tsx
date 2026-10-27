@@ -28,6 +28,7 @@ type Order = {
   creditActive: boolean;
   upsellTaken: boolean;
   launchKitUrl: string;
+  kitEventId?: string;
 };
 
 type DownloadFile = { label: string; name: string; url: string };
@@ -88,7 +89,10 @@ export default function ThankYouView() {
         setFiles(nextFiles || []);
         trackMetaPurchase(sessionId, nextOrder.amount, nextOrder.contentIds);
         if (nextOrder.upsellTaken) {
-          trackMetaPurchase(`${sessionId}:${CONTENT_LAUNCH_KIT}`, UPSELL_PRICE_DOLLARS, [CONTENT_LAUNCH_KIT]);
+          const kitEventId = upsellPi || upsellSession || nextOrder.kitEventId || "";
+          if (kitEventId) {
+            trackMetaPurchase(kitEventId, UPSELL_PRICE_DOLLARS, [CONTENT_LAUNCH_KIT]);
+          }
           trackPurchase(`${sessionId}:${CONTENT_LAUNCH_KIT}`, UPSELL_PRICE_DOLLARS);
         }
       })

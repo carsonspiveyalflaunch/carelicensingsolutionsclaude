@@ -20,6 +20,7 @@ import {
   funnelTotalDollars,
   isFunnelCancelUrl,
   isFunnelSuccessUrl,
+  reportBuyerKitPriceLine,
   thankYouLaunchKitOffer,
   upsellAmountCents,
   upsellCheckoutDescription,
@@ -92,9 +93,15 @@ describe("meta funnel sku", () => {
   it("tells the thank-you buyer the Launch Kit charge is $647", () => {
     const offer = thankYouLaunchKitOffer();
     const checkout = upsellCheckoutDescription();
-    assert.equal(offer, "You pay $647 for the Launch Kit. Your $47 report credit is applied — about $350 off.");
+    assert.equal(offer, "You pay $647 for the Launch Kit.");
+    assert.match(offer, /You pay \$647/);
     assert.equal(checkout, "Care Business Launch Kit. You pay $647.");
     assert.doesNotMatch(`${offer} ${checkout}`, /847|950|997/);
+    assert.equal(
+      reportBuyerKitPriceLine(),
+      "The $997 kit is $647 for report buyers (includes your $47 credit).",
+    );
+    assert.doesNotMatch(reportBuyerKitPriceLine(), /\$350|350 off|about/);
   });
 
   it("only accepts funnel return urls on our origin", () => {

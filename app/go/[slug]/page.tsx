@@ -279,7 +279,7 @@ export default async function GoPage({
               <div className="mt-12 overflow-hidden rounded-2xl border-2 border-emerald-700">
                 <div className="bg-emerald-700 px-5 py-4 text-white">
                   <h2 className="text-xl font-bold">Everything you get today</h2>
-                  <p className="text-sm text-emerald-100">Your {state} bundle plus the full ALF Launch program, free with your purchase.</p>
+                  <p className="text-sm text-emerald-100">Your {state} bundle plus the Operational Success Academy, free with your purchase.</p>
                 </div>
                 <ul className="divide-y divide-slate-200">
                   {stack.map((x) => (
