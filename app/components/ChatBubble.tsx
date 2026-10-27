@@ -363,7 +363,8 @@ export default function ChatBubble() {
     setNudged(false);
   };
 
-  if (HIDE_ON.some((p) => pathname.startsWith(p))) return null;
+  // The $47 report page sells a download, not a consult. Keep the assistant off that URL only.
+  if (pathname === "/market-research" || HIDE_ON.some((p) => pathname.startsWith(p))) return null;
 
   return (
     <>

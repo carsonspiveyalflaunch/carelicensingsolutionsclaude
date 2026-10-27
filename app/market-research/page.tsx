@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { Montserrat } from "next/font/google";
 import MarketResearchView from "./MarketResearchView";
 import { loadCompleteBundles } from "@/lib/complete-bundles";
 import { pageMeta } from "@/lib/seo";
+
+const display = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const dynamic = "force-dynamic";
 
@@ -27,12 +31,10 @@ export default async function MarketResearchPage() {
   }
 
   return (
-    <>
-      <Header />
-      <Suspense fallback={<div className="bg-white px-4 py-32 text-center text-slate-600">Loading the report…</div>}>
+    <div className={`${display.className} bg-black text-white`}>
+      <Suspense fallback={<div className="px-4 py-32 text-center text-white/70">Loading the report…</div>}>
         <MarketResearchView choices={choices} />
       </Suspense>
-      <Footer />
-    </>
+    </div>
   );
 }
