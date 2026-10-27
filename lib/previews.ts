@@ -28,3 +28,46 @@ export function assetPreview(productSlug: string, assetLabel: string): Preview |
   if (!file) return null;
   return previewsFor(productSlug).find((p) => p.src.endsWith(`/${file}`)) || null;
 }
+
+/** The six page images the /go lightbox shows. A kit without the manual pages is not used as the sample. */
+const CORE_PREVIEW_FILES = ["manual-toc.webp", "manual-page.webp", "checklist.webp", "pnl.webp", "report.webp", "report-page.webp"];
+
+/** Full published kits used when the buyer's state has no complete preview set (Arizona, Texas, Virginia, …). */
+export const PUBLISHED_SAMPLE_SLUGS: Record<string, string> = {
+  "Assisted Living Facilities": "illinois-assisted-living-facilities-complete-bundle",
+  "Personal Home Care": "illinois-personal-home-care-complete-bundle",
+  "Residential Care (DD)": "illinois-residential-care-dd-complete-bundle",
+};
+
+function hasLaunchKitPages(list: Preview[]): boolean {
+  return CORE_PREVIEW_FILES.every((file) => list.some((preview) => preview.src.endsWith(`/${file}`)));
+}
+
+/**
+ * Page images for the post-pay upsell. Prefer the buyer's own bundle. Otherwise use the
+ * Illinois kit for the same program, which has the full six-page lightbox.
+ */
+export function previewBundleFor(stateName?: string, program?: string): {
+  productSlug: string;
+  stateName?: string;
+  usingPublishedSample: boolean;
+  sampleTitle: string;
+} {
+  const ownSlug = stateName && program ? bundleSlugFor(stateName, program) : "";
+  if (ownSlug && hasLaunchKitPages(previewsFor(ownSlug))) {
+    return {
+      productSlug: ownSlug,
+      stateName,
+      usingPublishedSample: false,
+      sampleTitle: [stateName, program].filter(Boolean).join(" "),
+    };
+  }
+  const known = program ? PUBLISHED_SAMPLE_SLUGS[program] : undefined;
+  const productSlug = known || PUBLISHED_SAMPLE_SLUGS["Assisted Living Facilities"];
+  const sampleProgram = known && program ? program : "Assisted Living Facilities";
+  return {
+    productSlug,
+    usingPublishedSample: true,
+    sampleTitle: `Illinois ${sampleProgram}`,
+  };
+}
