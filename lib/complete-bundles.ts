@@ -14,6 +14,21 @@ function anonReader() {
   return createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
 }
 
+/** Service role first, then the public anon key. A rejected service-role key must not hide the catalog. */
+export function catalogClients(): SupabaseClient[] {
+  const clients: SupabaseClient[] = [];
+  if (isSupabaseConfigured()) {
+    try {
+      clients.push(createServerSupabaseClient());
+    } catch (err) {
+      console.error("Complete bundle service-role client unavailable:", err);
+    }
+  }
+  const anon = anonReader();
+  if (anon) clients.push(anon);
+  return clients;
+}
+
 type ProductRow = {
   id?: string;
   name?: string;
