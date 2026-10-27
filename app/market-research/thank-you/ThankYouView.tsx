@@ -10,11 +10,10 @@ import {
   CONTENT_LAUNCH_KIT,
   LAUNCH_KIT_PRICE_DOLLARS,
   METHOD_NAME,
-  MRR_CREDIT_DOLLARS,
   READ_REPORT_STEPS,
   UPSELL_PRICE_DOLLARS,
-  UPSELL_SAVINGS_DOLLARS,
   formatUsd,
+  thankYouLaunchKitOffer,
 } from "@/lib/meta-funnel";
 import { trackMetaPurchase } from "@/lib/meta-pixel";
 import { useLaunchKitUpsell } from "../useLaunchKitUpsell";
@@ -206,7 +205,7 @@ export default function ThankYouView() {
               If the pages say yes, the Launch Kit is the pro forma, checklist, policy manual, and academy for this
               state.
               {order.creditActive
-                ? ` Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied to the ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)} kit. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)} — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off.`
+                ? ` ${thankYouLaunchKitOffer()}`
                 : ` The report credit has ended. The kit is on its own page at ${formatUsd(LAUNCH_KIT_PRICE_DOLLARS)}.`}
             </p>
             {order.creditActive && (
