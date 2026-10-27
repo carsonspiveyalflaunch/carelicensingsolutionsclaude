@@ -89,6 +89,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
       if (value) extra.set(key, value);
     }
     const tracking = extra.toString();
+    const promo = incoming.get("promo")?.trim() || "";
     const successUrl = `${window.location.origin}/market-research/upsell?session_id={CHECKOUT_SESSION_ID}${tracking ? `&${tracking}` : ""}`;
     try {
       const res = await fetch("/api/create-checkout-session", {
@@ -99,13 +100,19 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
           state: selected.code,
           program: selected.program,
           successUrl,
-          cancelUrl: cancelUrlWithTracking(window.location.origin, checkoutHref(selected.code, selected.program), window.location.search),
+          ...(promo ? { promotionCode: promo } : {}),
+          cancelUrl: cancelUrlWithTracking(
+            window.location.origin,
+            checkoutHref(selected.code, selected.program, window.location.search),
+            window.location.search,
+          ),
         }),
       });
       const body = await res.json().catch(() => ({}));
       if (!res.ok || !body.url) throw new Error(body.error || "Checkout could not start");
-      trackBeginCheckout(total);
-      trackMetaInitiateCheckout(total, funnelContentIds());
+      const charged = typeof body.amount === "number" ? body.amount : total;
+      trackBeginCheckout(charged);
+      trackMetaInitiateCheckout(charged, funnelContentIds());
       window.location.href = body.url;
     } catch (err) {
       setError(err instanceof Error ? err.message : "Checkout could not start");
