@@ -4,7 +4,6 @@ import { INDIVIDUAL_ITEM_PRICES, resolveCartItems } from "./pricing.ts";
 import { ASSET_LIST_PRICES } from "./value-stack.ts";
 import { mergePurchasedItems } from "./purchased-items.ts";
 import {
-  BUMP_PRICE_DOLLARS,
   CONTENT_LAUNCH_KIT,
   CONTENT_MRR,
   LAUNCH_KIT_PRICE_DOLLARS,
@@ -60,15 +59,14 @@ describe("shop prices stay on the catalog", () => {
 });
 
 describe("meta funnel sku", () => {
-  it("charges $47 for the report and $27 for the checklist bump", () => {
-    const items = buildFunnelItems(BUNDLE, true);
-    assert.deepEqual(items.map((item) => item.price), [MRR_PRICE_DOLLARS, BUMP_PRICE_DOLLARS]);
-    assert.equal(funnelTotalDollars(false), 47);
-    assert.equal(funnelTotalDollars(true), 74);
-    assert.deepEqual(funnelContentIds(false), [CONTENT_MRR]);
-    assert.deepEqual(funnelContentIds(true), [CONTENT_MRR, "checklist_27"]);
+  it("charges $47 for the report and does not add a checklist or course bump", () => {
+    const items = buildFunnelItems(BUNDLE);
+    assert.deepEqual(items.map((item) => item.price), [MRR_PRICE_DOLLARS]);
+    assert.equal(items.length, 1);
+    assert.equal(funnelTotalDollars(), 47);
+    assert.deepEqual(funnelContentIds(), [CONTENT_MRR]);
     assert.equal(items[0].purchased_item, "Market Research Report");
-    assert.equal(items[1].purchased_item, "Licensing Checklist");
+    assert.equal(items.some((item) => item.purchased_item === "Licensing Checklist"), false);
     assert.match(items[0].name, /Texas Personal Home Care — Market Research Report/);
   });
 

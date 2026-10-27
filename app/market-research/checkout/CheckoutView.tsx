@@ -8,16 +8,11 @@ import StateProgramSelect, { type CatalogChoice } from "../StateProgramSelect";
 import { trackBeginCheckout } from "@/lib/gads";
 import { ASSET_LIST_PRICES } from "@/lib/value-stack";
 import {
-  BUMP_DISPLAY_NAME,
-  BUMP_PRICE_DOLLARS,
   METHOD_NAME,
-  MRR_CREDIT_DOLLARS,
   MRR_PRICE_DOLLARS,
-  UPSELL_PRICE_DOLLARS,
   checkoutHref,
   formatUsd,
   funnelContentIds,
-  funnelTotalDollars,
 } from "@/lib/meta-funnel";
 import { TRACKING_KEYS, cancelUrlWithTracking } from "@/lib/tracking-params";
 import { trackMetaInitiateCheckout } from "@/lib/meta-pixel";
@@ -43,9 +38,8 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
   const program = matchProgram(choices, code, searchParams.get("type") || searchParams.get("program") || "");
   const [offerState, setOfferState] = useState<{
     key: string;
-    offer: { available?: boolean; checklist?: boolean };
+    offer: { available?: boolean };
   } | null>(null);
-  const [bump, setBump] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -61,7 +55,6 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
       .then((body) => {
         if (cancelled) return;
         setOfferState({ key, offer: body });
-        if (!body.checklist) setBump(false);
       })
       .catch(() => undefined);
     return () => {
@@ -83,8 +76,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
   };
 
   const selected = choices.find((item) => item.code === code && item.program === program) || null;
-  const includeBump = bump && offer?.checklist === true;
-  const total = funnelTotalDollars(includeBump);
+  const total = MRR_PRICE_DOLLARS;
 
   const pay = async () => {
     if (!selected) return;
@@ -106,7 +98,6 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
           funnel: "meta_mrr",
           state: selected.code,
           program: selected.program,
-          bump: includeBump,
           successUrl,
           cancelUrl: cancelUrlWithTracking(window.location.origin, checkoutHref(selected.code, selected.program), window.location.search),
         }),
@@ -114,7 +105,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
       const body = await res.json().catch(() => ({}));
       if (!res.ok || !body.url) throw new Error(body.error || "Checkout could not start");
       trackBeginCheckout(total);
-      trackMetaInitiateCheckout(total, funnelContentIds(includeBump));
+      trackMetaInitiateCheckout(total, funnelContentIds());
       window.location.href = body.url;
     } catch (err) {
       setError(err instanceof Error ? err.message : "Checkout could not start");
@@ -130,27 +121,19 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
           <h1 className="mt-2 text-3xl font-bold text-slate-950">Your Market Research Report</h1>
           <p className="mt-3 text-slate-600">
             {selected
-              ? `${selected.state} ${selected.program}. You pay ${formatUsd(MRR_PRICE_DOLLARS)} today. The shop listing stays ${formatUsd(ASSET_LIST_PRICES.report)}.`
-              : `Choose the state and program. The price on this page is the ${formatUsd(MRR_PRICE_DOLLARS)} offer.`}
+              ? `${selected.state} ${selected.program}. You pay ${formatUsd(MRR_PRICE_DOLLARS)} today for the report and the how-to-read checklist.`
+              : `Choose the state and program. You pay ${formatUsd(MRR_PRICE_DOLLARS)} for the report and the how-to-read checklist.`}
           </p>
           <p className="mt-3 text-slate-600">
-            After payment you download the PDF and a short guide for which pages to read first. For 7 days your{" "}
-            {formatUsd(MRR_CREDIT_DOLLARS)} credit can be used on the Launch Kit at {formatUsd(UPSELL_PRICE_DOLLARS)}.
-            You can skip the kit.
+            After payment you download the PDF and a short guide for which pages to read first.
           </p>
           <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
             <StateProgramSelect
               choices={choices}
               code={code}
               program={program}
-              onState={(state) => {
-                setBump(false);
-                replaceParams({ state, type: "" });
-              }}
-              onProgram={(type) => {
-                setBump(false);
-                replaceParams({ type });
-              }}
+              onState={(state) => replaceParams({ state, type: "" })}
+              onProgram={(type) => replaceParams({ type })}
             />
           </div>
           <p className="mt-4 text-sm text-slate-500">
@@ -165,30 +148,12 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
           <div className="mt-4 flex items-start justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
               <p className="font-semibold text-slate-900">State Market Research Report</p>
-              <p className="text-sm text-slate-500">PDF · shop value {formatUsd(ASSET_LIST_PRICES.report)}</p>
+              <p className="text-sm text-slate-500">
+                PDF and how-to-read checklist · shop value {formatUsd(ASSET_LIST_PRICES.report)}
+              </p>
             </div>
             <p className="font-semibold text-slate-900">{formatUsd(MRR_PRICE_DOLLARS)}</p>
           </div>
-
-          {offer?.checklist && (
-            <label className="mt-4 flex cursor-pointer gap-3 rounded-xl border border-emerald-200 bg-emerald-50 p-4">
-              <input
-                type="checkbox"
-                checked={bump}
-                onChange={(event) => setBump(event.target.checked)}
-                className="mt-1 h-5 w-5 accent-emerald-700"
-              />
-              <span>
-                <span className="block font-semibold text-slate-900">
-                  Add the {BUMP_DISPLAY_NAME} — {formatUsd(BUMP_PRICE_DOLLARS)}
-                </span>
-                <span className="mt-1 block text-sm text-slate-600">
-                  Order bump. Forms, fees, inspections, and agency steps for this program, in order. Shop price{" "}
-                  {formatUsd(ASSET_LIST_PRICES.checklist)}. Optional. Skip it and you still get the report.
-                </span>
-              </span>
-            </label>
-          )}
 
           <div className="mt-4 flex items-baseline justify-between">
             <span className="font-semibold text-slate-700">Due today</span>

@@ -5,11 +5,12 @@ import { findCompleteBundle, type CompleteBundle } from "@/lib/complete-bundles"
 import { queueFunnelEmail } from "@/lib/funnel-email";
 import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 import {
-  BUMP_PURCHASED_ITEM,
   CONTENT_LAUNCH_KIT,
+  CONTENT_MRR,
   LAUNCH_KIT_PRICE_DOLLARS,
   META_FUNNEL,
   MRR_CREDIT_DOLLARS,
+  MRR_PRICE_DOLLARS,
   MRR_PURCHASED_ITEM,
   UPSELL_PRICE_DOLLARS,
   buildFunnelItems,
@@ -68,20 +69,15 @@ export async function resolveFunnelBundle(
   supabase: SupabaseClient,
   code: string,
   program: string,
-  bump: boolean,
-): Promise<{ bundle: CompleteBundle; report: boolean; checklist: boolean }> {
+): Promise<{ bundle: CompleteBundle }> {
   const bundle = await findCompleteBundle(supabase, code, program);
   if (!bundle) throw new FunnelOrderError("That state and program isn't available.");
   const assets = await listBundleAssets(supabase, bundle.product_slug);
   const report = assets.some((asset) => asset.label === MRR_PURCHASED_ITEM);
-  const checklist = assets.some((asset) => asset.label === BUMP_PURCHASED_ITEM);
   if (!report) {
     throw new FunnelOrderError("The market research report for that program isn't available yet.");
   }
-  if (bump && !checklist) {
-    throw new FunnelOrderError("The licensing checklist add-on isn't available for that program yet.");
-  }
-  return { bundle, report, checklist };
+  return { bundle };
 }
 
 function allowedOrigins(requestOrigin: string): string[] {
@@ -104,7 +100,6 @@ export async function createFrontEndCheckout(
     state?: unknown;
     program?: unknown;
     type?: unknown;
-    bump?: unknown;
     successUrl?: unknown;
     cancelUrl?: unknown;
     userId?: string | null;
@@ -112,10 +107,9 @@ export async function createFrontEndCheckout(
   },
 ): Promise<{ url: string; sessionId: string; amount: number; contentIds: string[] }> {
   const { code, program } = parseStateProgram(input);
-  const bump = input.bump === true;
-  const { bundle } = await resolveFunnelBundle(supabase, code, program, bump);
-  const items = buildFunnelItems(bundle, bump);
-  const total = funnelTotalDollars(bump);
+  const { bundle } = await resolveFunnelBundle(supabase, code, program);
+  const items = buildFunnelItems(bundle);
+  const total = funnelTotalDollars();
   const origins = allowedOrigins(input.requestOrigin);
   const successUrl =
     typeof input.successUrl === "string" && isFunnelSuccessUrl(input.successUrl, origins)
@@ -131,8 +125,7 @@ export async function createFrontEndCheckout(
     state: bundle.code,
     program: bundle.program,
     state_name: bundle.state,
-    bump: bump ? "1" : "0",
-    content_ids: funnelContentIds(bump).join(","),
+    content_ids: funnelContentIds().join(","),
     discount_code: "",
     discount_percent: "0",
     tax_amount: "0",
@@ -152,10 +145,7 @@ export async function createFrontEndCheckout(
       unit_amount: Math.round(item.price * 100),
       product_data: {
         name: item.name,
-        description:
-          item.purchased_item === BUMP_PURCHASED_ITEM
-            ? "Licensing Documentation Checklist. Instant download."
-            : "State Market Research Report PDF. Instant download.",
+        description: "State Market Research Report PDF and how-to-read checklist. Instant download.",
       },
     },
   }));
@@ -191,7 +181,7 @@ export async function createFrontEndCheckout(
   }
 
   if (!session.url) throw new FunnelOrderError("Checkout could not start.", 500);
-  return { url: session.url, sessionId: session.id, amount: total, contentIds: funnelContentIds(bump) };
+  return { url: session.url, sessionId: session.id, amount: total, contentIds: funnelContentIds() };
 }
 
 export async function loadPaidFunnelSession(stripe: Stripe, sessionId: string): Promise<Stripe.Checkout.Session> {
@@ -299,16 +289,18 @@ export async function createUpsellCheckout(
 }
 
 export function funnelOrderSummary(session: Stripe.Checkout.Session, upsellTaken: boolean) {
-  const bump = session.metadata?.bump === "1";
   const created = session.created || Math.floor(Date.now() / 1000);
   const purchasedAt = created * 1000;
   const active = creditActive(purchasedAt);
+  const contentIds = String(session.metadata?.content_ids || CONTENT_MRR)
+    .split(",")
+    .map((id) => id.trim())
+    .filter(Boolean);
   return {
     paid: true,
-    amount: (session.amount_total ?? funnelTotalDollars(bump) * 100) / 100,
+    amount: (session.amount_total ?? MRR_PRICE_DOLLARS * 100) / 100,
     currency: "USD",
-    contentIds: funnelContentIds(bump),
-    bump,
+    contentIds: contentIds.length ? contentIds : [CONTENT_MRR],
     stateCode: session.metadata?.state || "",
     stateName: session.metadata?.state_name || session.metadata?.state || "",
     program: session.metadata?.program || "",
