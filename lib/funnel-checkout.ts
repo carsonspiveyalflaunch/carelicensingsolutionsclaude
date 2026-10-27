@@ -153,6 +153,9 @@ export async function createFrontEndCheckout(
   const base: Stripe.Checkout.SessionCreateParams = {
     mode: "payment",
     line_items: lineItems,
+    // Promo box for codes such as CLSFREE1 (coupon CLS_SCREENSHOT_ONCE).
+    // Shop checkout leaves this off; this $47 session is the one that needs it.
+    allow_promotion_codes: true,
     custom_text: { submit: { message: CHECKOUT_AGREEMENT_TEXT } },
     metadata,
     success_url: successUrl,
