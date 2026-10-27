@@ -105,6 +105,20 @@ export function upsellAmountCents(purchasedAtMs: number, now = Date.now()): numb
   return dollars * 100;
 }
 
+/**
+ * What the buyer pays for the Launch Kit on the post-pay thank-you offer.
+ * The charge is the $647 OTO. This sentence does not restate the $997 catalog
+ * price or the retired $950 / $847 credit math.
+ */
+export function thankYouLaunchKitOffer(): string {
+  return `You pay ${formatUsd(UPSELL_PRICE_DOLLARS)} for the Launch Kit. Your ${formatUsd(MRR_CREDIT_DOLLARS)} report credit is applied — about ${formatUsd(UPSELL_SAVINGS_DOLLARS)} off.`;
+}
+
+/** Stripe line the buyer sees when paying that same post-pay Launch Kit charge. */
+export function upsellCheckoutDescription(): string {
+  return `Care Business Launch Kit. You pay ${formatUsd(UPSELL_PRICE_DOLLARS)}.`;
+}
+
 /** One line: the $47 report. The how-to-read checklist is on-page copy, not a second SKU. */
 export function buildFunnelItems(bundle: FunnelBundle): FunnelLineItem[] {
   return [

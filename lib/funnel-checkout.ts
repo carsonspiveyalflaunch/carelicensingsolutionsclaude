@@ -7,9 +7,7 @@ import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 import {
   CONTENT_LAUNCH_KIT,
   CONTENT_MRR,
-  LAUNCH_KIT_PRICE_DOLLARS,
   META_FUNNEL,
-  MRR_CREDIT_DOLLARS,
   MRR_PRICE_DOLLARS,
   MRR_PURCHASED_ITEM,
   UPSELL_PRICE_DOLLARS,
@@ -22,6 +20,7 @@ import {
   isFunnelCancelUrl,
   isFunnelSuccessUrl,
   launchKitHref,
+  upsellCheckoutDescription,
 } from "@/lib/meta-funnel";
 import { packItemsMetadata } from "@/lib/stripe-items";
 import { STATE_NAMES } from "@/lib/us-states";
@@ -260,7 +259,7 @@ export async function createUpsellCheckout(
           unit_amount: price * 100,
           product_data: {
             name: item.name,
-            description: `Care Business Launch Kit. The $${LAUNCH_KIT_PRICE_DOLLARS} kit with your $${MRR_CREDIT_DOLLARS} report credit applied. You pay $${UPSELL_PRICE_DOLLARS}.`,
+            description: upsellCheckoutDescription(),
           },
         },
       },

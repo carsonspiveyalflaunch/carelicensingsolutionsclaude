@@ -19,7 +19,9 @@ import {
   funnelTotalDollars,
   isFunnelCancelUrl,
   isFunnelSuccessUrl,
+  thankYouLaunchKitOffer,
   upsellAmountCents,
+  upsellCheckoutDescription,
   type FunnelBundle,
 } from "./meta-funnel.ts";
 
@@ -84,6 +86,14 @@ describe("meta funnel sku", () => {
     assert.equal(kit.price, 647);
     assert.equal("purchased_item" in kit, false);
     assert.equal(CONTENT_LAUNCH_KIT, "launch_kit_997");
+  });
+
+  it("tells the thank-you buyer the Launch Kit charge is $647", () => {
+    const offer = thankYouLaunchKitOffer();
+    const checkout = upsellCheckoutDescription();
+    assert.equal(offer, "You pay $647 for the Launch Kit. Your $47 report credit is applied — about $350 off.");
+    assert.equal(checkout, "Care Business Launch Kit. You pay $647.");
+    assert.doesNotMatch(`${offer} ${checkout}`, /847|950|997/);
   });
 
   it("only accepts funnel return urls on our origin", () => {
