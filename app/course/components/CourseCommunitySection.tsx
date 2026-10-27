@@ -7,6 +7,8 @@ import {
   Shield,
   Calculator,
   Users,
+  BookOpen,
+  Monitor,
   User,
 } from "lucide-react";
 import { gsap } from "gsap";
@@ -14,13 +16,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const CourseCommunitySection = () => {
+const CourseCommunitySection = ({ animate = true }: { animate?: boolean }) => {
   const sectionRef = useRef(null);
   const headingRef = useRef(null);
   const cardsRef = useRef<HTMLDivElement[]>([]);
   const membersRef = useRef(null);
 
   useEffect(() => {
+    if (!animate) return;
     const ctx = gsap.context(() => {
       // Badge & Heading animation
       gsap.fromTo(
@@ -94,50 +97,62 @@ const CourseCommunitySection = () => {
     }, sectionRef);
 
     return () => ctx.revert();
-  }, []);
+  }, [animate]);
 
   const professionals = [
     {
-      icon: CheckSquare,
-      title: "Licensed Professionals",
-      desc: "Network with operators who've successfully navigated licensing in your state",
-      color: "text-black",
-    },
-    {
       icon: DollarSign,
       title: "Specialty Lenders",
-      desc: "Connect with lenders who specialize in care facility financing",
+      desc: "Connect with lenders who finance care facilities and agency acquisitions",
       color: "text-black",
     },
     {
       icon: Building2,
-      title: "Real Estate Brokers",
-      desc: "Work with brokers experienced in care facility properties",
-      color: "text-black",
-    },
-    {
-      icon: Shield,
-      title: "Insurance Brokers",
-      desc: "Get proper coverage from specialists who understand care business risks",
+      title: "Business Brokers",
+      desc: "Work with brokers who buy and sell care businesses and facility real estate",
       color: "text-black",
     },
     {
       icon: Calculator,
-      title: "Tax Planners & Advisors",
-      desc: "Optimize your structure with tax pros who know the industry",
+      title: "Tax Strategists",
+      desc: "Structure the agency with tax pros who know this industry",
+      color: "text-black",
+    },
+    {
+      icon: Shield,
+      title: "Insurance Agents",
+      desc: "Get coverage from agents who understand care-business risk",
       color: "text-black",
     },
     {
       icon: Users,
-      title: "HR & Bookkeeping",
-      desc: "Access bookkeepers and HR consultants familiar with care facilities",
+      title: "Fractional HR",
+      desc: "Hiring, handbooks, and personnel files with HR support built for care teams",
+      color: "text-black",
+    },
+    {
+      icon: BookOpen,
+      title: "Bookkeepers",
+      desc: "Bookkeepers who already keep the books for licensed care agencies",
+      color: "text-black",
+    },
+    {
+      icon: Monitor,
+      title: "Software & Systems",
+      desc: "Scheduling, billing, and compliance tools other owners actually run",
+      color: "text-black",
+    },
+    {
+      icon: CheckSquare,
+      title: "Licensed Operators",
+      desc: "Ask people who already hold a license in your kind of program",
       color: "text-black",
     },
   ];
 
   return (
     <section ref={sectionRef} className="relative w-full py-16 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16 md:mb-20 space-y-4 sm:space-y-6">
           <div className="community-header">
@@ -151,9 +166,9 @@ const CourseCommunitySection = () => {
           </h2>
 
           <p className="community-header text-sm sm:text-base text-gray-600 max-w-2xl mx-auto">
-            When you join, you gain access to our exclusive network of
-            already-licensed professionals and trusted industry partners ready
-            to support your journey.
+            When you join, you gain access to lenders, business brokers, tax
+            strategists, insurance agents, fractional HR, bookkeepers, the
+            software other owners run, and operators who are already licensed.
           </p>
         </div>
 

@@ -13,11 +13,16 @@ export default function BundlePreviews({
   program,
   productSlug,
   compact = false,
+  title,
+  caption,
 }: {
   stateName?: string;
   program?: string;
   productSlug?: string;
   compact?: boolean;
+  /** Replaces "Look inside the {state} bundle" when the pages are a published sample. */
+  title?: string;
+  caption?: string;
 }) {
   const slug = productSlug || (stateName && program ? bundleSlugFor(stateName, program) : "");
   const previews = slug ? previewsFor(slug) : [];
@@ -52,7 +57,8 @@ export default function BundlePreviews({
       <div className="flex items-end justify-between gap-3">
         <div>
           <p className="text-xs font-bold uppercase tracking-wider text-emerald-700">Real pages, not mockups</p>
-          <p className={`${compact ? "text-lg" : "text-2xl"} mt-1 font-bold text-slate-950`}>Look inside the {name}bundle</p>
+          <p className={`${compact ? "text-lg" : "text-2xl"} mt-1 font-bold text-slate-950`}>{title || `Look inside the ${name}bundle`}</p>
+          {caption ? <p className="mt-2 max-w-2xl text-sm text-slate-600">{caption}</p> : null}
         </div>
         <p className="hidden shrink-0 text-xs text-slate-500 sm:block">Click any page to zoom</p>
       </div>
