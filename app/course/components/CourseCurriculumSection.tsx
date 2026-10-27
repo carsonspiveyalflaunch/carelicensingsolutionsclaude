@@ -3,10 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import {
   ChevronDown,
   Play,
-  Clock,
   FileText,
-  Home,
-  X,
   BarChart3,
   ClipboardList,
   LineChart,
@@ -16,7 +13,7 @@ import {
 } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Link from "next/link";
+import AcademyModuleList from "../../components/AcademyModuleList";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -112,127 +109,11 @@ function FeatureCard({
   );
 }
 
-interface Module {
-  id: number;
-  title: string;
-  videos: number;
-  duration: number;
-  resources: number;
-  description: string;
-  videoPreviewUrl: string;
-}
-
-const modules: Module[] = [
-  {
-    id: 1,
-    title: "Introduction to the Industry",
-    videos: 17,
-    duration: 170,
-    resources: 12,
-    description:
-      "Understand the industry landscape, regulations, and opportunities.",
-    videoPreviewUrl: "https://www.youtube.com/embed/vaOVMgo4bS0",
-  },
-  {
-    id: 2,
-    title: "Business Entity Formation",
-    videos: 12,
-    duration: 120,
-    resources: 10,
-    description: "Learn the best business structures for your care facility.",
-    videoPreviewUrl: "https://www.loom.com/embed/b042a7334ed34c7d8882545f3a7820fa",
-  },
-  {
-    id: 3,
-    title: "Finding Your Administrator",
-    videos: 8,
-    duration: 100,
-    resources: 9,
-    description: "Discover how to hire and onboard the right leadership.",
-    videoPreviewUrl: "https://www.loom.com/embed/2e5442a02fb1480ebe20d702fba81b9e",
-  },
-  {
-    id: 4,
-    title: "Financing Your Facility",
-    videos: 9,
-    duration: 90,
-    resources: 7,
-    description: "Explore funding options and financial planning strategies.",
-    videoPreviewUrl: "https://www.loom.com/embed/4cf6bbf737a94c1abf7d7df860dc6d4b",
-  },
-  {
-    id: 5,
-    title: "Facility Acquisition",
-    videos: 10,
-    duration: 130,
-    resources: 8,
-    description: "Navigate property selection and acquisition processes.",
-    videoPreviewUrl: "https://www.loom.com/embed/96d4c3adf9d24df3b2034bbb444607ce",
-  },
-  {
-    id: 6,
-    title: "Licensing & Vendification",
-    videos: 9,
-    duration: 100,
-    resources: 14,
-    description: "Complete guide to licensing requirements and applications.",
-    videoPreviewUrl: "https://www.loom.com/embed/90f11bdacbab42359d447dc20dcfb0f5",
-  },
-  {
-    id: 7,
-    title: "Insurance & Risk Mitigation",
-    videos: 7,
-    duration: 100,
-    resources: 10,
-    description: "Protect your business with proper insurance coverage.",
-    videoPreviewUrl: "https://www.youtube.com/embed/O-acpAJLkME",
-  },
-  {
-    id: 8,
-    title: "Staff Hiring & Onboarding",
-    videos: 10,
-    duration: 100,
-    resources: 11,
-    description: "Build and train your care team from the ground up.",
-    videoPreviewUrl: "https://www.loom.com/embed/104fb7b33c1f42f8802dbddce374fded",
-  },
-  {
-    id: 9,
-    title: "Client Intake",
-    videos: 7,
-    duration: 70,
-    resources: 9,
-    description: "Master the admission and assessment process.",
-    videoPreviewUrl: "https://www.loom.com/embed/ffbe0df972ad4f9e8e3c58e2a31cd545",
-  },
-  {
-    id: 10,
-    title: "Marketing & Census Building",
-    videos: 10,
-    duration: 100,
-    resources: 11,
-    description: "Grow your client base through effective marketing.",
-    videoPreviewUrl: "https://www.youtube.com/embed/BpbFNYr8R80",
-  },
-  {
-    id: 11,
-    title: "Systems & Daily Operations",
-    videos: 8,
-    duration: 100,
-    resources: 15,
-    description: "Establish systems for smooth daily operations.",
-    videoPreviewUrl: "https://www.loom.com/embed/5823755ca08144de9b187ee93b46f252",
-  },
-];
-
 export default function CourseCurriculumSection() {
   const sectionRef = useRef(null);
   const listRef = useRef(null);
   const tabsRef = useRef<HTMLDivElement>(null);
   const [activeTab, setActiveTab] = useState("curriculum");
-  const [expandedModule, setExpandedModule] = useState<number | null>(null);
-  const [selectedModule, setSelectedModule] = useState<Module | null>(null);
-  const [showVideoModal, setShowVideoModal] = useState(false);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -274,19 +155,6 @@ export default function CourseCurriculumSection() {
 
     return () => ctx.revert();
   }, []);
-
-  const toggleModule = (id: number) => {
-    setExpandedModule(expandedModule === id ? null : id);
-  };
-
-  const openPreview = (module: Module) => {
-    setSelectedModule(module);
-    setShowVideoModal(true);
-  };
-
-  const totalVideos = modules.reduce((sum, m) => sum + m.videos, 0);
-  const totalDuration = modules.reduce((sum, m) => sum + m.duration, 0);
-  const totalResources = modules.reduce((sum, m) => sum + m.resources, 0);
 
   return (
     <section ref={sectionRef} id="lessons" className="relative w-full py-16 bg-white">
@@ -363,80 +231,8 @@ export default function CourseCurriculumSection() {
               </div>
             </div>
 
-            {/* Modules List */}
             <div ref={listRef} className="space-y-3">
-              {modules.map((module) => (
-                <div key={module.id} className="module-item">
-                  <div
-                    className={`border-2 rounded-lg transition ${
-                      expandedModule === module.id
-                        ? "border-green-500 bg-green-50"
-                        : "border-gray-200 bg-white"
-                    }`}
-                  >
-                    <button
-                      onClick={() => toggleModule(module.id)}
-                      className="w-full cursor-pointer flex items-start gap-4 p-4 hover:bg-opacity-50 transition text-left"
-                    >
-                      {/* Number Badge */}
-                      <div className="shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-900 text-white flex items-center justify-center font-bold text-sm sm:text-base">
-                        {module.id}
-                      </div>
-
-                      {/* Content */}
-                      <div className="flex-1">
-                        <h3 className="font-semibold text-gray-900 text-sm sm:text-base">
-                          {module.title}
-                        </h3>
-                        <div className="flex flex-wrap gap-3 mt-2 text-xs text-gray-600">
-                          <div className="flex items-center gap-1">
-                            <Play size={14} />
-                            {module.videos} videos
-                          </div>
-                          <div className="flex items-center gap-1">
-                            <Clock size={14} />
-                            {module.duration} min
-                          </div>
-                          <div className="flex items-center gap-1">
-                            <FileText size={14} />
-                            {module.resources} resources
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Toggle Icon */}
-                      <ChevronDown
-                        size={20}
-                        className={`shrink-0 text-gray-600 transition transform ${
-                          expandedModule === module.id ? "rotate-180" : ""
-                        }`}
-                      />
-                    </button>
-
-                    {/* Expanded Content */}
-                    {expandedModule === module.id && (
-                      <div className="px-4 pb-4">
-                        {/* Description */}
-                        <p className="text-gray-700 text-xs sm:text-sm mb-4 leading-relaxed">
-                          {module.description}
-                        </p>
-
-                        {/* Preview Button */}
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            openPreview(module);
-                          }}
-                          className="px-5 py-2.5 border-2 border-green-700 text-green-700 font-semibold rounded-lg hover:bg-green-700 hover:text-white transition text-xs sm:text-sm flex items-center gap-2 w-fit"
-                        >
-                          <Play size={16} />
-                          Preview Video
-                        </button>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
+              <AcademyModuleList />
             </div>
           </>
         )}
@@ -618,34 +414,6 @@ export default function CourseCurriculumSection() {
           </div>
         )}
       </div>
-
-      {/* Video Preview Modal */}
-      {showVideoModal && selectedModule && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg max-w-2xl w-full">
-            <div className="flex justify-between items-center p-4 sm:p-6 border-b">
-              <h3 className="font-bold text-gray-900 text-sm sm:text-base">
-                {selectedModule.title} - Preview
-              </h3>
-              <button
-                onClick={() => setShowVideoModal(false)}
-                className="text-gray-500 hover:text-gray-700"
-              >
-                <X size={24} />
-              </button>
-            </div>
-            <div className="aspect-video">
-              <iframe
-                src={selectedModule.videoPreviewUrl}
-                className="w-full h-full"
-                frameBorder="0"
-                allowFullScreen
-                title="Preview"
-              />
-            </div>
-          </div>
-        </div>
-      )}
     </section>
   );
 }
