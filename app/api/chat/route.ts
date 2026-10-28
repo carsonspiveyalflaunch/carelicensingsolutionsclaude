@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { funnelChatRefusal } from "@/lib/chat-visibility";
 import { chatSystemPrompt } from "@/lib/chat-prompt";
 import { PROGRAM_ALIASES } from "@/lib/go-links";
 import { createServerSupabaseClient } from "@/utils/supabase-server";
@@ -59,6 +60,8 @@ export async function POST(req: NextRequest) {
   }
 
   const page = typeof body.currentPage === "string" ? body.currentPage.slice(0, 200) : "";
+  const blocked = funnelChatRefusal(page);
+  if (blocked) return NextResponse.json(blocked, { status: 404 });
   const state = typeof body.stateCode === "string" && /^[A-Z]{2}$/.test(body.stateCode) ? body.stateCode : "";
   const program = typeof body.program === "string" ? body.program.slice(0, 40) : "";
   let context = "";
