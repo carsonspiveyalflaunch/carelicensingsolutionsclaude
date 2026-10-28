@@ -62,16 +62,51 @@ export function trackMetaViewContent() {
   );
 }
 
-export function trackMetaInitiateCheckout(value: number, contentIds: string[]) {
-  whenFbq((pixel) =>
-    pixel("track", "InitiateCheckout", {
+export function trackMetaInitiateCheckout(value: number, contentIds: string[], eventId?: string) {
+  const id = (eventId || "").trim();
+  whenFbq((pixel) => {
+    const custom = {
       value,
       currency: "USD",
       content_ids: contentIds,
       content_type: "product",
       num_items: contentIds.length,
-    }),
-  );
+    };
+    if (id) pixel("track", "InitiateCheckout", custom, { eventID: id });
+    else pixel("track", "InitiateCheckout", custom);
+  });
+}
+
+/** Cookie and click ids the checkout API stores for Conversions API match quality. */
+export function metaBrowserFields(): { fbp: string; fbc: string; fbclid: string; eventSourceUrl: string } {
+  if (typeof window === "undefined" || typeof document === "undefined") {
+    return { fbp: "", fbc: "", fbclid: "", eventSourceUrl: "" };
+  }
+  return {
+    fbp: cookieValue("_fbp"),
+    fbc: cookieValue("_fbc"),
+    fbclid: new URLSearchParams(window.location.search).get("fbclid") || "",
+    eventSourceUrl: window.location.href,
+  };
+}
+
+function cookieValue(name: string): string {
+  const prefix = `${name}=`;
+  const found = document.cookie.split("; ").find((part) => part.startsWith(prefix));
+  if (!found) return "";
+  try {
+    return decodeURIComponent(found.slice(prefix.length));
+  } catch {
+    return "";
+  }
+}
+
+/** Lets the pixel beacon leave before Stripe's hosted page replaces this one. */
+export function pauseForMetaPixel(ms = 300): Promise<void> {
+  if (typeof window === "undefined" || !metaPixelId()) return Promise.resolve();
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, ms);
+  });
 }
 
 /** Deduped per order + content id so the upsell page and thank-you page don't double-count. */

@@ -15,7 +15,7 @@ import {
   funnelContentIds,
 } from "@/lib/meta-funnel";
 import { TRACKING_KEYS, cancelUrlWithTracking } from "@/lib/tracking-params";
-import { trackMetaInitiateCheckout } from "@/lib/meta-pixel";
+import { metaBrowserFields, pauseForMetaPixel, trackMetaInitiateCheckout } from "@/lib/meta-pixel";
 import { funnelHref, funnelOfferQuery, programQueryValue } from "@/lib/program-codes";
 
 function matchCode(choices: CatalogChoice[], raw: string): string {
@@ -101,13 +101,16 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
             checkoutHref(selected.code, selected.program, window.location.search),
             window.location.search,
           ),
+          ...metaBrowserFields(),
         }),
       });
       const body = await res.json().catch(() => ({}));
       if (!res.ok || !body.url) throw new Error(body.error || "Checkout could not start");
       const charged = typeof body.amount === "number" ? body.amount : total;
+      const eventId = typeof body.sessionId === "string" ? body.sessionId : "";
       trackBeginCheckout(charged);
-      trackMetaInitiateCheckout(charged, funnelContentIds());
+      trackMetaInitiateCheckout(charged, funnelContentIds(), eventId);
+      await pauseForMetaPixel();
       window.location.href = body.url;
     } catch (err) {
       setError(err instanceof Error ? err.message : "Checkout could not start");

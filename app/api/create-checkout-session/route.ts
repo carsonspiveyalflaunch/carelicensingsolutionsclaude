@@ -9,6 +9,7 @@ import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
 import { promoPercent } from "@/lib/promos";
 import { CHECKOUT_PAYMENT_METHODS } from "@/lib/pay-later";
 import { createFrontEndCheckout, FunnelOrderError } from "@/lib/funnel-checkout";
+import { metaContextFromRequest } from "@/lib/meta-capi";
 import { META_FUNNEL } from "@/lib/meta-funnel";
 
 const stripe = process.env.STRIPE_SECRET_KEY
@@ -55,6 +56,7 @@ export async function POST(request: NextRequest) {
           ...body,
           userId,
           requestOrigin: request.nextUrl.origin,
+          meta: metaContextFromRequest(request, body),
         });
         return NextResponse.json(checkout);
       } catch (err) {

@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
+import { CONTENT_LAUNCH_KIT, UPSELL_PRICE_DOLLARS } from "@/lib/meta-funnel";
+import { metaBrowserFields, pauseForMetaPixel, trackMetaInitiateCheckout } from "@/lib/meta-pixel";
 
 export function useLaunchKitUpsell(sessionId: string) {
   const [loading, setLoading] = useState(false);
@@ -15,7 +17,7 @@ export function useLaunchKitUpsell(sessionId: string) {
       const res = await fetch("/api/funnel/upsell", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sessionId }),
+        body: JSON.stringify({ sessionId, ...metaBrowserFields() }),
       });
       const body = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(body.error || "The Launch Kit could not be added.");
@@ -24,6 +26,10 @@ export function useLaunchKitUpsell(sessionId: string) {
         return;
       }
       if (body.fallback && body.url) {
+        const eventId = typeof body.sessionId === "string" ? body.sessionId : "";
+        const amount = typeof body.amount === "number" ? body.amount : UPSELL_PRICE_DOLLARS;
+        if (eventId) trackMetaInitiateCheckout(amount, [CONTENT_LAUNCH_KIT], eventId);
+        await pauseForMetaPixel();
         window.location.href = body.url;
         return;
       }
@@ -41,7 +47,7 @@ export function useLaunchKitUpsell(sessionId: string) {
         const done = await fetch("/api/funnel/upsell", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ sessionId, paymentIntentId: body.paymentIntentId }),
+          body: JSON.stringify({ sessionId, paymentIntentId: body.paymentIntentId, ...metaBrowserFields() }),
         });
         const doneBody = await done.json().catch(() => ({}));
         if (!done.ok || !doneBody.redirect) throw new Error(doneBody.error || "The Launch Kit payment did not finish.");
