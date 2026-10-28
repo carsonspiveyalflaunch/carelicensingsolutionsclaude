@@ -15,6 +15,7 @@ import {
   UPSELL_PRICE_DOLLARS,
   buildLaunchKitItem,
   creditActive,
+  launchKitHref,
   thankYouHref,
 } from "@/lib/meta-funnel";
 import { packItemsMetadata } from "@/lib/stripe-items";
@@ -52,7 +53,7 @@ export async function POST(request: NextRequest) {
     if (!creditActive(purchasedAt)) {
       return NextResponse.json({
         expired: true,
-        launchKitUrl: `/launch-kit?state=${session.metadata?.state || ""}&type=${encodeURIComponent(session.metadata?.program || "")}`,
+        launchKitUrl: launchKitHref(session.metadata?.state || "", session.metadata?.program || ""),
       });
     }
 

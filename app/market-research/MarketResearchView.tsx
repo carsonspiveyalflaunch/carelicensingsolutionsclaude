@@ -18,6 +18,7 @@ import {
   toEmbedUrl,
 } from "@/lib/meta-funnel";
 import { trackMetaViewContent } from "@/lib/meta-pixel";
+import { funnelHref, funnelOfferQuery, programQueryValue } from "@/lib/program-codes";
 
 const COL = "mx-auto w-full max-w-[680px] px-4";
 const WIDE = "mx-auto w-full max-w-[1080px] px-4";
@@ -216,7 +217,7 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
   const router = useRouter();
   const searchParams = useSearchParams();
   const code = matchCode(choices, searchParams.get("state") || "");
-  const program = matchProgram(choices, code, searchParams.get("type") || searchParams.get("program") || "");
+  const program = matchProgram(choices, code, programQueryValue(searchParams));
   const [offerState, setOfferState] = useState<{
     key: string;
     offer: { available?: boolean; checklist?: boolean; error?: string };
@@ -235,7 +236,7 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
     if (!code || !program) return;
     let cancelled = false;
     const key = `${code}|${program}`;
-    fetch(`/api/funnel/offer?state=${code}&type=${encodeURIComponent(program)}`)
+    fetch(`/api/funnel/offer?${funnelOfferQuery(code, program)}`)
       .then((res) => res.json())
       .then((body) => {
         if (!cancelled) setOfferState({ key, offer: body });
@@ -257,17 +258,10 @@ export default function MarketResearchView({ choices }: { choices: CatalogChoice
   }, []);
 
   const replaceParams = (next: { state?: string; type?: string }) => {
-    const params = new URLSearchParams(searchParams.toString());
     const nextState = next.state ?? code;
     const offered = choices.filter((item) => item.code === nextState).map((item) => item.program);
     const nextType = next.type ?? (offered.includes(program) ? program : "");
-    if (nextState) params.set("state", nextState);
-    else params.delete("state");
-    if (nextType) params.set("type", nextType);
-    else params.delete("type");
-    params.delete("program");
-    const qs = params.toString();
-    router.replace(qs ? `/market-research?${qs}` : "/market-research", { scroll: false });
+    router.replace(funnelHref("/market-research", nextState, nextType, searchParams.toString()), { scroll: false });
   };
 
   const selected = choices.find((item) => item.code === code && item.program === program) || null;
