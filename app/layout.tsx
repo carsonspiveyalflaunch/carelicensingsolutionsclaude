@@ -62,6 +62,9 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
+// Manual mode: skip button-text and page-metadata scraping. PageView below,
+// plus ViewContent, InitiateCheckout, and Purchase, stay explicit fbq('track') calls.
+fbq('set', 'autoConfig', false, '${metaPixel}');
 fbq('init', '${metaPixel}');
 fbq('track', 'PageView');`}
           </Script>

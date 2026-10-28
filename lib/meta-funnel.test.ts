@@ -113,6 +113,9 @@ describe("meta funnel sku", () => {
     const back = checkoutHref("AZ", "Residential Care (DD)", "?state=AZ&type=Residential+Care+%28DD%29&promo=CLSFREE1");
     assert.match(back, /promo=CLSFREE1/);
     assert.match(back, /state=AZ/);
+    assert.match(back, /(?:^|[?&])p=rcdd(?:&|$)/);
+    assert.doesNotMatch(back, /(?:^|[?&])type=/);
+    assert.doesNotMatch(decodeURIComponent(back), /Residential|Hospice/);
   });
 });
 

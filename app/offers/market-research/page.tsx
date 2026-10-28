@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import { cleanFunnelSearch } from "@/lib/program-codes";
 
 export const metadata = { robots: { index: false, follow: false } };
 
@@ -15,5 +16,6 @@ export default async function MarketResearchOfferAlias({
     else if (Array.isArray(value)) value.forEach((item) => query.append(key, item));
   }
   const qs = query.toString();
-  redirect(qs ? `/market-research?${qs}` : "/market-research");
+  const next = cleanFunnelSearch(qs) ?? qs;
+  redirect(next ? `/market-research?${next}` : "/market-research");
 }
