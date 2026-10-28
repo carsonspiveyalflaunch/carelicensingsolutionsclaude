@@ -1,12 +1,15 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 import { PROGRAMS_BY_STATE } from "../app/data/programAvailability.ts";
 import { PROGRAM_ALIASES } from "./go-links.ts";
 import { checkoutHref, launchKitHref } from "./meta-funnel.ts";
 import {
+  FUNNEL_PROXY_PATHS,
   canonicalProgramName,
   cleanFunnelSearch,
   funnelOfferQuery,
+  isFunnelProxyPath,
   knownFunnelPrograms,
   programCodeForName,
   programNameFromCode,
@@ -118,5 +121,34 @@ describe("funnel urls omit program names", () => {
     const href = checkoutHref("AZ", "Secret Hospice Name", "");
     assert.equal(href, "/market-research/checkout?state=AZ");
     assert.doesNotMatch(href, /Hospice|type=/);
+  });
+
+  it("rewrites type= on upsell and thank-you without dropping the checkout session", () => {
+    const cleaned = cleanFunnelSearch("session_id=cs_test_abc&type=Personal+Home+Care&fbclid=1");
+    assert.ok(cleaned);
+    const params = new URLSearchParams(cleaned!);
+    assert.equal(params.get("p"), "phc");
+    assert.equal(params.get("session_id"), "cs_test_abc");
+    assert.equal(params.get("fbclid"), "1");
+    assert.equal(params.get("type"), null);
+    assert.doesNotMatch(cleaned!, /home|care|personal/i);
+  });
+});
+
+describe("funnel proxy covers every pixel page", () => {
+  it("matches checkout, upsell, and thank-you, and the Next matcher lists them", () => {
+    for (const path of FUNNEL_PROXY_PATHS) {
+      assert.equal(isFunnelProxyPath(path), true, path);
+    }
+    assert.equal(isFunnelProxyPath("/market-research/upsell"), true);
+    assert.equal(isFunnelProxyPath("/market-research/thank-you"), true);
+    assert.equal(isFunnelProxyPath("/shop"), false);
+    assert.equal(isFunnelProxyPath("/go/tx-hospice"), false);
+    assert.equal(isFunnelProxyPath("/get-started"), false);
+
+    const proxySource = readFileSync(new URL("../proxy.ts", import.meta.url), "utf8");
+    for (const path of [...FUNNEL_PROXY_PATHS, "/market-research/:path*"]) {
+      assert.ok(proxySource.includes(`"${path}"`), path);
+    }
   });
 });

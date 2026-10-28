@@ -136,6 +136,26 @@ export function cleanFunnelSearch(search: string): string | null {
   return params.toString();
 }
 
+/**
+ * Pages whose query string is rewritten before the Meta pixel loads.
+ * `/market-research/:path*` covers checkout, upsell, thank-you, and later children.
+ * The list is inlined in proxy.ts because Next.js only reads a literal matcher.
+ */
+export const FUNNEL_PROXY_PATHS = [
+  "/market-research",
+  "/market-research/checkout",
+  "/market-research/upsell",
+  "/market-research/thank-you",
+  "/launch-kit",
+  "/offers/mrr",
+] as const;
+
+export function isFunnelProxyPath(pathname: string): boolean {
+  if (pathname === "/market-research" || pathname.startsWith("/market-research/")) return true;
+  if (pathname === "/launch-kit") return true;
+  return pathname === "/offers/mrr";
+}
+
 /** Rewrite a same-site funnel URL that still carries `type=` or `program=`. */
 export function withCleanFunnelSearch(url: string): string {
   try {

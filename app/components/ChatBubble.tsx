@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { MessageCircle, X, Send, User, Search, RotateCcw } from "lucide-react";
+import { hideChatBubble } from "@/lib/chat-visibility";
 import { STATE_NAMES } from "@/lib/us-states";
 import { trackLead } from "@/lib/gads";
 
@@ -17,7 +18,6 @@ const NUDGE_MS = 45_000;
 const NUDGE_TEXT = "Want me to text you that link so you don't lose it? Just drop your number here and I'll send it over. 📲";
 type Captured = { email?: string; phone?: string; name?: string };
 const TOOLTIP_KEY = "cls-chat-tooltip-v1";
-const HIDE_ON = ["/admin", "/dashboard", "/checkout", "/market-research", "/offers"];
 const OPENING_REPLIES = ["I know my state", "Still exploring", "Already in process"];
 
 const GREETINGS = [
@@ -363,8 +363,9 @@ export default function ChatBubble() {
     setNudged(false);
   };
 
-  // The $47 report, its checkout, and offer pages sell a download. Keep the $997 assistant off them.
-  if (HIDE_ON.some((p) => pathname.startsWith(p))) return null;
+  // The $47 report, checkout, upsell, thank-you, and offer aliases sell a download.
+  // Keep the $997 assistant off every one of those routes.
+  if (hideChatBubble(pathname)) return null;
 
   return (
     <>
