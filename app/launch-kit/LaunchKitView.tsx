@@ -6,6 +6,7 @@ import { CheckCircle2, Clock, Download, FileSpreadsheet, FileText, ShieldCheck }
 import BuyButton from "../go/[slug]/BuyButton";
 import BundleValueStack from "../components/BundleValueStack";
 import { promoDeadline, promoPercent } from "@/lib/promos";
+import { cleanFunnelSearch, programCodeForName, programQueryValue } from "@/lib/program-codes";
 import { PAY_LATER_ENABLED, payIn4 } from "@/lib/pay-later";
 
 export type LaunchKitProduct = {
@@ -97,7 +98,7 @@ export default function LaunchKitView({ products, listPrice }: { products: Launc
   const router = useRouter();
   const searchParams = useSearchParams();
   const code = matchCode(products, searchParams.get("state") || "");
-  const program = matchProgram(products, code, searchParams.get("type") || searchParams.get("program") || "");
+  const program = matchProgram(products, code, programQueryValue(searchParams));
   const product = products.find((p) => p.code === code && p.program === program) || null;
 
   const discountCode = (() => {
@@ -127,14 +128,18 @@ export default function LaunchKitView({ products, listPrice }: { products: Launc
     const nextType = next.type ?? (offered.includes(program) ? program : "");
     if (nextState) params.set("state", nextState);
     else params.delete("state");
-    if (nextType) params.set("type", nextType);
-    else params.delete("type");
+    params.delete("type");
     params.delete("program");
+    const opaque = programCodeForName(nextType);
+    if (opaque) params.set("p", opaque);
+    else params.delete("p");
     const qs = params.toString();
     router.replace(qs ? `/launch-kit?${qs}` : "/launch-kit", { scroll: false });
   };
 
-  const cancelPath = `/launch-kit${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
+  const currentSearch = searchParams.toString();
+  const cancelSearch = cleanFunnelSearch(currentSearch) ?? currentSearch;
+  const cancelPath = cancelSearch ? `/launch-kit?${cancelSearch}` : "/launch-kit";
   const label = product
     ? pct
       ? `Get the Launch Kit for ${money(finalPrice)}`

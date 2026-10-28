@@ -17,11 +17,13 @@ import {
   creditExpiresIso,
   funnelContentIds,
   funnelTotalDollars,
+  checkoutHref,
   isFunnelCancelUrl,
   isFunnelSuccessUrl,
   launchKitHref,
   upsellCheckoutDescription,
 } from "@/lib/meta-funnel";
+import { resolveProgramInput, withCleanFunnelSearch } from "@/lib/program-codes";
 import {
   approximateFunnelDiscount,
   couponRefFromPromo,
@@ -149,11 +151,15 @@ export async function createFrontEndCheckout(
     promo?: unknown;
     successUrl?: unknown;
     cancelUrl?: unknown;
+    p?: unknown;
     userId?: string | null;
     requestOrigin: string;
   },
 ): Promise<{ url: string; sessionId: string; amount: number; contentIds: string[] }> {
-  const { code, program } = parseStateProgram(input);
+  const { code, program } = parseStateProgram({
+    state: input.state,
+    program: resolveProgramInput(input.program, input.type, input.p),
+  });
   const { bundle } = await resolveFunnelBundle(supabase, code, program);
   const items = buildFunnelItems(bundle);
   const total = funnelTotalDollars();
@@ -171,10 +177,13 @@ export async function createFrontEndCheckout(
     typeof input.successUrl === "string" && isFunnelSuccessUrl(input.successUrl, origins)
       ? input.successUrl
       : `${origins[0]}/market-research/upsell?session_id={CHECKOUT_SESSION_ID}`;
-  const cancelUrl =
+  const cancelQuery = new URLSearchParams();
+  if (applied?.code) cancelQuery.set("promo", applied.code);
+  const cancelUrl = withCleanFunnelSearch(
     typeof input.cancelUrl === "string" && isFunnelCancelUrl(input.cancelUrl, origins)
       ? input.cancelUrl
-      : `${origins[0]}/market-research/checkout?state=${code}&type=${encodeURIComponent(program)}${applied ? `&promo=${encodeURIComponent(applied.code)}` : ""}`;
+      : `${origins[0]}${checkoutHref(code, program, cancelQuery.toString())}`,
+  );
 
   const metadata: Record<string, string> = {
     funnel: META_FUNNEL,

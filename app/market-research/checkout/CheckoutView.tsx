@@ -16,6 +16,7 @@ import {
 } from "@/lib/meta-funnel";
 import { TRACKING_KEYS, cancelUrlWithTracking } from "@/lib/tracking-params";
 import { trackMetaInitiateCheckout } from "@/lib/meta-pixel";
+import { funnelHref, funnelOfferQuery, programQueryValue } from "@/lib/program-codes";
 
 function matchCode(choices: CatalogChoice[], raw: string): string {
   const value = raw.trim();
@@ -35,7 +36,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
   const router = useRouter();
   const searchParams = useSearchParams();
   const code = matchCode(choices, searchParams.get("state") || "");
-  const program = matchProgram(choices, code, searchParams.get("type") || searchParams.get("program") || "");
+  const program = matchProgram(choices, code, programQueryValue(searchParams));
   const [offerState, setOfferState] = useState<{
     key: string;
     offer: { available?: boolean };
@@ -50,7 +51,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
     if (!code || !program) return;
     let cancelled = false;
     const key = `${code}|${program}`;
-    fetch(`/api/funnel/offer?state=${code}&type=${encodeURIComponent(program)}`)
+    fetch(`/api/funnel/offer?${funnelOfferQuery(code, program)}`)
       .then((res) => res.json())
       .then((body) => {
         if (cancelled) return;
@@ -63,16 +64,10 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
   }, [code, program]);
 
   const replaceParams = (next: { state?: string; type?: string }) => {
-    const params = new URLSearchParams(searchParams.toString());
     const nextState = next.state ?? code;
     const offered = choices.filter((item) => item.code === nextState).map((item) => item.program);
     const nextType = next.type ?? (offered.includes(program) ? program : "");
-    if (nextState) params.set("state", nextState);
-    else params.delete("state");
-    if (nextType) params.set("type", nextType);
-    else params.delete("type");
-    const qs = params.toString();
-    router.replace(qs ? `/market-research/checkout?${qs}` : "/market-research/checkout", { scroll: false });
+    router.replace(funnelHref("/market-research/checkout", nextState, nextType, searchParams.toString()), { scroll: false });
   };
 
   const selected = choices.find((item) => item.code === code && item.program === program) || null;
@@ -144,7 +139,7 @@ export default function CheckoutView({ choices }: { choices: CatalogChoice[] }) 
             />
           </div>
           <p className="mt-4 text-sm text-slate-500">
-            <Link href={code ? `/market-research?state=${code}&type=${encodeURIComponent(program)}` : "/market-research"} className="text-emerald-700 underline">
+            <Link href={code ? funnelHref("/market-research", code, program, searchParams.toString()) : "/market-research"} className="text-emerald-700 underline">
               Back to the report details
             </Link>
           </p>

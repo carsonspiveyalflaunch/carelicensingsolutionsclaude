@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { bundleOfferFlags, listSellableBundleAssets } from "@/lib/bundle-files";
 import { catalogClients, findCompleteBundle } from "@/lib/complete-bundles";
 import { FunnelOrderError, parseStateProgram } from "@/lib/funnel-checkout";
+import { programQueryValue } from "@/lib/program-codes";
 
 function errorText(err: unknown): string {
   if (err instanceof Error) return err.message;
@@ -14,8 +15,7 @@ export async function GET(request: NextRequest) {
     const params = request.nextUrl.searchParams;
     const { code, program } = parseStateProgram({
       state: params.get("state"),
-      program: params.get("program"),
-      type: params.get("type"),
+      program: programQueryValue(params),
     });
     const clients = catalogClients();
     if (!clients.length) {

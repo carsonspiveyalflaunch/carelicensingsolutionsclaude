@@ -15,6 +15,7 @@ import {
   METHOD_NAME,
   UPSELL_PRICE_DOLLARS,
   formatUsd,
+  launchKitHref,
   reportBuyerKitPriceLine,
   thankYouHref,
 } from "@/lib/meta-funnel";
@@ -82,7 +83,7 @@ export default function UpsellView() {
       creditExpiresAt: previewExpiry,
       creditActive: true,
       upsellTaken: false,
-      launchKitUrl: "/launch-kit?state=AZ&type=Residential%20Care%20(DD)",
+      launchKitUrl: launchKitHref("AZ", "Residential Care (DD)"),
     };
   }, [preview, previewExpiry]);
 

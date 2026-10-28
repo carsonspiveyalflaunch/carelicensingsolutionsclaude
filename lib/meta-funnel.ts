@@ -4,6 +4,7 @@
  * through resolveCartItems. Do not reuse these numbers on those pages.
  */
 import { checkoutDisplayName, type CheckoutProduct } from "./checkout-name";
+import { funnelHref } from "./program-codes";
 
 export const META_FUNNEL = "meta_mrr" as const;
 
@@ -166,11 +167,7 @@ export function buildLaunchKitItem(bundle: FunnelBundle, priceDollars: number) {
 }
 
 export function launchKitHref(code: string, program: string): string {
-  const params = new URLSearchParams();
-  if (code) params.set("state", code);
-  if (program) params.set("type", program);
-  const qs = params.toString();
-  return qs ? `/launch-kit?${qs}` : "/launch-kit";
+  return funnelHref("/launch-kit", code, program);
 }
 
 export function thankYouHref(
@@ -185,14 +182,7 @@ export function thankYouHref(
 }
 
 export function checkoutHref(code: string, program: string, currentSearch = ""): string {
-  const params = new URLSearchParams(currentSearch.startsWith("?") ? currentSearch.slice(1) : currentSearch);
-  if (code) params.set("state", code);
-  else params.delete("state");
-  if (program) params.set("type", program);
-  else params.delete("type");
-  params.delete("program");
-  const qs = params.toString();
-  return qs ? `/market-research/checkout?${qs}` : "/market-research/checkout";
+  return funnelHref("/market-research/checkout", code, program, currentSearch);
 }
 
 /** YouTube, Loom, and Vimeo links become embed URLs. Anything else is ignored. */

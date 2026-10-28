@@ -16,7 +16,7 @@ export const dynamic = "force-dynamic";
 const marketResearchMeta = pageMeta(
   "/market-research",
   "License-First Market Map — $47 | Care Licensing Solutions",
-  "For nurses and healthcare professionals in any state. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
+  "For care-business founders and entrepreneurs in any state. The state and program market research report: rates, licensing path, and startup snapshot. $47, instant PDF.",
 );
 
 export const metadata: Metadata = {
