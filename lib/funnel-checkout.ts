@@ -4,11 +4,12 @@ import { listBundleAssets } from "@/lib/bundle-files";
 import { findCompleteBundle, type CompleteBundle } from "@/lib/complete-bundles";
 import { queueFunnelEmail } from "@/lib/funnel-email";
 import { CHECKOUT_AGREEMENT_TEXT } from "@/lib/legal";
+import { metaAttributionMetadata, splitPersonName, type MetaBrowserContext } from "@/lib/meta-capi";
+import { reportInitiateCheckout } from "@/lib/meta-report";
 import {
   CONTENT_LAUNCH_KIT,
   CONTENT_MRR,
   META_FUNNEL,
-  MRR_PRICE_DOLLARS,
   MRR_PURCHASED_ITEM,
   UPSELL_PRICE_DOLLARS,
   buildFunnelItems,
@@ -154,6 +155,7 @@ export async function createFrontEndCheckout(
     p?: unknown;
     userId?: string | null;
     requestOrigin: string;
+    meta?: MetaBrowserContext;
   },
 ): Promise<{ url: string; sessionId: string; amount: number; contentIds: string[] }> {
   const { code, program } = parseStateProgram({
@@ -200,6 +202,7 @@ export async function createFrontEndCheckout(
     customer_first_name: "",
     customer_last_name: "",
     ...packItemsMetadata(items),
+    ...metaAttributionMetadata(input.meta, [input.requestOrigin]),
   };
   if (input.userId) metadata.user_id = input.userId;
 
@@ -264,10 +267,24 @@ export async function createFrontEndCheckout(
   }
 
   if (!session.url) throw new FunnelOrderError("Checkout could not start.", 500);
+  const amount = applied ? charged : total;
+  await reportInitiateCheckout({
+    eventId: session.id,
+    value: amount,
+    currency: "usd",
+    contentIds: funnelContentIds(),
+    contentName: "State Market Research Report",
+    sourceUrl: input.meta?.sourceUrl || `${input.requestOrigin}/market-research/checkout`,
+    fbp: input.meta?.fbp,
+    fbc: input.meta?.fbc,
+    fbclid: input.meta?.fbclid,
+    clientIp: input.meta?.clientIp,
+    userAgent: input.meta?.userAgent,
+  });
   return {
     url: session.url,
     sessionId: session.id,
-    amount: applied ? charged : total,
+    amount,
     contentIds: funnelContentIds(),
   };
 }
@@ -308,7 +325,8 @@ export async function createUpsellCheckout(
   session: Stripe.Checkout.Session,
   bundle: CompleteBundle,
   requestOrigin: string,
-): Promise<string> {
+  meta?: MetaBrowserContext,
+): Promise<{ url: string; sessionId: string; amount: number }> {
   const price = UPSELL_PRICE_DOLLARS;
   const item = buildLaunchKitItem(bundle, price);
   const email = session.customer_details?.email || session.customer_email || undefined;
@@ -331,7 +349,9 @@ export async function createUpsellCheckout(
     customer_first_name: "",
     customer_last_name: "",
     customer_email: email || "",
+    ...(session.customer_details?.phone ? { customer_phone: session.customer_details.phone } : {}),
     ...packItemsMetadata([item]),
+    ...metaAttributionMetadata(meta, [requestOrigin]),
   };
   if (session.metadata?.user_id) metadata.user_id = session.metadata.user_id;
 
@@ -373,7 +393,25 @@ export async function createUpsellCheckout(
     },
   });
   if (!created.url) throw new FunnelOrderError("Launch Kit checkout could not start.", 500);
-  return created.url;
+  const person = splitPersonName(session.customer_details?.name);
+  await reportInitiateCheckout({
+    eventId: created.id,
+    value: price,
+    currency: "usd",
+    contentIds: [CONTENT_LAUNCH_KIT],
+    contentName: "Care Business Launch Kit",
+    email,
+    phone: session.customer_details?.phone,
+    firstName: person.firstName,
+    lastName: person.lastName,
+    sourceUrl: meta?.sourceUrl || `${requestOrigin}/market-research/upsell`,
+    fbp: meta?.fbp,
+    fbc: meta?.fbc,
+    fbclid: meta?.fbclid,
+    clientIp: meta?.clientIp,
+    userAgent: meta?.userAgent,
+  });
+  return { url: created.url, sessionId: created.id, amount: price };
 }
 
 export function funnelOrderSummary(session: Stripe.Checkout.Session, upsellTaken: boolean) {
@@ -386,7 +424,7 @@ export function funnelOrderSummary(session: Stripe.Checkout.Session, upsellTaken
     .filter(Boolean);
   return {
     paid: true,
-    amount: (session.amount_total ?? MRR_PRICE_DOLLARS * 100) / 100,
+    amount: typeof session.amount_total === "number" ? Math.round(session.amount_total) / 100 : 0,
     currency: "USD",
     contentIds: contentIds.length ? contentIds : [CONTENT_MRR],
     stateCode: session.metadata?.state || "",

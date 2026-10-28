@@ -3,8 +3,8 @@ import type Stripe from "stripe";
 import { findCompleteBundle } from "@/lib/complete-bundles";
 import { queueFunnelEmail } from "@/lib/funnel-email";
 import { syncFunnelBuyerInGhl } from "@/lib/ghl-funnel";
-import { sendMetaCapiPurchase, splitPersonName } from "@/lib/meta-capi";
-import { CONTENT_LAUNCH_KIT, META_FUNNEL, UPSELL_PRICE_DOLLARS, buildLaunchKitItem, creditExpiresIso } from "@/lib/meta-funnel";
+import { reportPaymentIntentPurchase } from "@/lib/meta-report";
+import { META_FUNNEL, UPSELL_PRICE_DOLLARS, buildLaunchKitItem, creditExpiresIso } from "@/lib/meta-funnel";
 import { STATE_NAMES } from "@/lib/us-states";
 import { deliverAccess, grantPurchase } from "@/lib/purchase-access";
 import { sendLaunchKitSkoolInvite } from "@/lib/skool-invite";
@@ -50,7 +50,11 @@ async function bundleFromMetadata(supabase: SupabaseClient, metadata: Stripe.Met
  * Record a succeeded one-click Launch Kit PaymentIntent.
  * Checkout-session upsells are recorded by the existing checkout.session.completed handler.
  */
-export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi: Stripe.PaymentIntent) {
+export async function fulfillLaunchKitPaymentIntent(
+  supabase: SupabaseClient,
+  pi: Stripe.PaymentIntent,
+  stripe?: Stripe | null,
+) {
   if (pi.metadata?.funnel !== META_FUNNEL || pi.metadata?.upsell !== "launch_kit") return null;
   if (pi.status !== "succeeded") return null;
   if (pi.amount !== UPSELL_CENTS) {
@@ -164,21 +168,8 @@ export async function fulfillLaunchKitPaymentIntent(supabase: SupabaseClient, pi
     });
   }
 
-  const person = splitPersonName(name);
   try {
-    const capi = await sendMetaCapiPurchase({
-      eventId: pi.id,
-      eventTime: pi.created,
-      value: pi.amount_received ? pi.amount_received / 100 : pi.amount / 100,
-      currency: pi.currency || "usd",
-      contentIds: [CONTENT_LAUNCH_KIT],
-      contentName: "Care Business Launch Kit",
-      email,
-      phone: pi.metadata.customer_phone || null,
-      firstName: person.firstName,
-      lastName: person.lastName,
-    });
-    console.log("Meta CAPI launch kit:", capi.reason, pi.id);
+    await reportPaymentIntentPurchase(stripe ?? null, pi);
   } catch (capiError) {
     console.error("Meta CAPI launch kit failed:", capiError instanceof Error ? capiError.message : "error");
   }
@@ -206,7 +197,7 @@ export async function isUpsellComplete(
         pi.metadata?.upsell === "launch_kit" &&
         pi.metadata?.upsell_source_session === session.id
       ) {
-        await fulfillLaunchKitPaymentIntent(supabase, pi);
+        await fulfillLaunchKitPaymentIntent(supabase, pi, stripe);
         return true;
       }
     } catch (err) {

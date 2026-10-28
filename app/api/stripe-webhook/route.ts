@@ -12,8 +12,8 @@ import { fulfillLaunchKitPaymentIntent } from "@/lib/funnel-fulfill";
 import { sendCheckoutBundleSkoolInvite } from "@/lib/skool-invite";
 import { queueFrontPurchaseEmail } from "@/lib/funnel-checkout";
 import { queueFunnelEmail } from "@/lib/funnel-email";
-import { sendMetaCapiPurchase, splitPersonName } from "@/lib/meta-capi";
-import { CONTENT_LAUNCH_KIT, CONTENT_MRR, META_FUNNEL } from "@/lib/meta-funnel";
+import { reportCheckoutPurchase } from "@/lib/meta-report";
+import { META_FUNNEL } from "@/lib/meta-funnel";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
         // so fulfillment returns before inviting and checkout.session.completed
         // remains the sender. Both paths lock the invite on the PaymentIntent id.
         if (pi.metadata?.funnel === META_FUNNEL && pi.metadata?.upsell === 'launch_kit') {
-          await fulfillLaunchKitPaymentIntent(supabase, pi);
+          await fulfillLaunchKitPaymentIntent(supabase, pi, stripe);
         }
         break;
       }
@@ -124,6 +124,17 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     const customerInfo = JSON.parse(session.metadata?.customer_info || '{}');
     const items = readItemsMetadata(session.metadata);
     const courseEmail = session.customer_details?.email || session.metadata?.customer_email || customerInfo.email;
+
+    // Paid funnel Purchase goes out before fulfillment. A later database error
+    // still returns 200, so Stripe would not retry a dropped CAPI call.
+    // $0 / 100%-off sessions are skipped unless a Test Events code is configured.
+    if (stripe && session.metadata?.funnel === META_FUNNEL) {
+      try {
+        await reportCheckoutPurchase(stripe, session);
+      } catch (capiError) {
+        console.error('Meta CAPI purchase failed:', capiError instanceof Error ? capiError.message : 'error');
+      }
+    }
 
     console.log(`📦 Processing checkout for ${isCourseEnrollment ? 'course' : `user ${userId}`} with ${items.length} item(s):`, items);
     
@@ -331,34 +342,6 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       });
     } else if (session.metadata?.funnel === META_FUNNEL) {
       await queueFrontPurchaseEmail(session);
-    }
-
-    if (session.metadata?.funnel === META_FUNNEL) {
-      const kit = session.metadata?.upsell === 'launch_kit';
-      const contentIds = kit
-        ? [CONTENT_LAUNCH_KIT]
-        : String(session.metadata?.content_ids || CONTENT_MRR)
-            .split(',')
-            .map((id) => id.trim())
-            .filter(Boolean);
-      const person = splitPersonName(session.customer_details?.name || customerInfo.firstName);
-      try {
-        const capi = await sendMetaCapiPurchase({
-          eventId: session.id,
-          eventTime: session.created,
-          value: total,
-          currency: session.currency || 'usd',
-          contentIds: contentIds.length ? contentIds : [kit ? CONTENT_LAUNCH_KIT : CONTENT_MRR],
-          contentName: kit ? 'Care Business Launch Kit' : 'State Market Research Report',
-          email: courseEmail,
-          phone: session.customer_details?.phone || customerInfo.phone,
-          firstName: customerInfo.firstName || person.firstName,
-          lastName: customerInfo.lastName || person.lastName,
-        });
-        console.log('Meta CAPI purchase:', capi.reason, session.id);
-      } catch (capiError) {
-        console.error('Meta CAPI purchase failed:', capiError instanceof Error ? capiError.message : 'error');
-      }
     }
 
     // Tell GHL this person bought, so sales emails/texts stop for them.

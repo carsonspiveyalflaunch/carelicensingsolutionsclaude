@@ -10,7 +10,9 @@ import {
   reusablePaymentMethod,
 } from "@/lib/funnel-checkout";
 import { fulfillLaunchKitPaymentIntent, isUpsellComplete } from "@/lib/funnel-fulfill";
+import { metaAttributionMetadata, metaContextFromRequest, splitPersonName, type MetaBrowserContext } from "@/lib/meta-capi";
 import {
+  CONTENT_LAUNCH_KIT,
   META_FUNNEL,
   UPSELL_PRICE_DOLLARS,
   buildLaunchKitItem,
@@ -18,6 +20,7 @@ import {
   launchKitHref,
   thankYouHref,
 } from "@/lib/meta-funnel";
+import { reportInitiateCheckout } from "@/lib/meta-report";
 import { packItemsMetadata } from "@/lib/stripe-items";
 import { getStripe } from "@/lib/stripe-server";
 import { createServerSupabaseClient, isSupabaseConfigured } from "@/utils/supabase-server";
@@ -38,6 +41,7 @@ export async function POST(request: NextRequest) {
 
     const body = await request.json().catch(() => ({}));
     const sessionId = typeof body.sessionId === "string" ? body.sessionId : "";
+    const meta = metaContextFromRequest(request, body);
     const supabase = createServerSupabaseClient();
     const session = await loadPaidFunnelSession(stripe, sessionId);
 
@@ -62,8 +66,13 @@ export async function POST(request: NextRequest) {
 
     const saved = await reusablePaymentMethod(stripe, session);
     if (!saved) {
-      const url = await createUpsellCheckout(stripe, session, bundle, request.nextUrl.origin);
-      return NextResponse.json({ fallback: true, url });
+      const checkout = await createUpsellCheckout(stripe, session, bundle, request.nextUrl.origin, meta);
+      return NextResponse.json({
+        fallback: true,
+        url: checkout.url,
+        sessionId: checkout.sessionId,
+        amount: checkout.amount,
+      });
     }
 
     const attempt = Number(session.metadata?.upsell_attempt || "1") || 1;
@@ -71,7 +80,7 @@ export async function POST(request: NextRequest) {
     if (/^pi_/.test(existingId)) {
       const existing = await stripe.paymentIntents.retrieve(existingId);
       if (existing.status === "succeeded") {
-        await fulfillLaunchKitPaymentIntent(supabase, existing);
+        await fulfillLaunchKitPaymentIntent(supabase, existing, stripe);
         return NextResponse.json({ ok: true, redirect: thankYouHref(session.id, { upsellPi: existing.id }) });
       }
       if (existing.status === "requires_action" && existing.client_secret) {
@@ -90,8 +99,10 @@ export async function POST(request: NextRequest) {
       program: bundle.program,
       customer_email: email,
       customer_name: name,
+      ...(session.customer_details?.phone ? { customer_phone: session.customer_details.phone } : {}),
       source_created: String(session.created || ""),
       ...packItemsMetadata([item]),
+      ...metaAttributionMetadata(meta, [request.nextUrl.origin]),
     };
     if (session.metadata?.user_id) metadata.user_id = session.metadata.user_id;
 
@@ -111,8 +122,13 @@ export async function POST(request: NextRequest) {
         { idempotencyKey: `meta-mrr-lk-${session.id}-${attempt}` },
       );
       await rememberSessionMetadata(stripe, session, { upsell_payment_intent: pi.id, upsell_attempt: String(attempt) });
+      await reportUpsellCheckoutStart(pi.id, meta, request.nextUrl.origin, {
+        email,
+        phone: session.customer_details?.phone,
+        name,
+      });
       if (pi.status === "succeeded") {
-        await fulfillLaunchKitPaymentIntent(supabase, pi);
+        await fulfillLaunchKitPaymentIntent(supabase, pi, stripe);
         return NextResponse.json({ ok: true, redirect: thankYouHref(session.id, { upsellPi: pi.id }) });
       }
       if (pi.status === "requires_action" && pi.client_secret) {
@@ -125,6 +141,11 @@ export async function POST(request: NextRequest) {
           upsell_payment_intent: authPi.id,
           upsell_attempt: String(attempt),
         });
+        await reportUpsellCheckoutStart(authPi.id, meta, request.nextUrl.origin, {
+          email,
+          phone: session.customer_details?.phone,
+          name,
+        });
         return NextResponse.json({
           requiresAction: true,
           clientSecret: authPi.client_secret,
@@ -135,8 +156,13 @@ export async function POST(request: NextRequest) {
       await rememberSessionMetadata(stripe, session, { upsell_attempt: String(attempt + 1) });
     }
 
-    const url = await createUpsellCheckout(stripe, session, bundle, request.nextUrl.origin);
-    return NextResponse.json({ fallback: true, url });
+    const checkout = await createUpsellCheckout(stripe, session, bundle, request.nextUrl.origin, meta);
+    return NextResponse.json({
+      fallback: true,
+      url: checkout.url,
+      sessionId: checkout.sessionId,
+      amount: checkout.amount,
+    });
   } catch (err) {
     return jsonError(err);
   }
@@ -156,8 +182,34 @@ async function completeConfirmedPayment(
   if (pi.status !== "succeeded") {
     return NextResponse.json({ error: "The bank still needs to approve that card." }, { status: 402 });
   }
-  await fulfillLaunchKitPaymentIntent(supabase, pi);
+  await fulfillLaunchKitPaymentIntent(supabase, pi, stripe);
   return NextResponse.json({ ok: true, redirect: thankYouHref(session.id, { upsellPi: pi.id }) });
+}
+
+function reportUpsellCheckoutStart(
+  eventId: string,
+  meta: MetaBrowserContext,
+  origin: string,
+  buyer: { email?: string | null; phone?: string | null; name?: string | null },
+) {
+  const person = splitPersonName(buyer.name);
+  return reportInitiateCheckout({
+    eventId,
+    value: UPSELL_PRICE_DOLLARS,
+    currency: "usd",
+    contentIds: [CONTENT_LAUNCH_KIT],
+    contentName: "Care Business Launch Kit",
+    email: buyer.email,
+    phone: buyer.phone,
+    firstName: person.firstName,
+    lastName: person.lastName,
+    sourceUrl: meta.sourceUrl || `${origin}/market-research/upsell`,
+    fbp: meta.fbp,
+    fbc: meta.fbc,
+    fbclid: meta.fbclid,
+    clientIp: meta.clientIp,
+    userAgent: meta.userAgent,
+  });
 }
 
 function authenticationIntent(err: unknown): Stripe.PaymentIntent | null {
