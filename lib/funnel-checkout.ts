@@ -407,13 +407,21 @@ export async function rememberSessionMetadata(
 }
 
 export async function queueFrontPurchaseEmail(session: Stripe.Checkout.Session) {
-  await queueFunnelEmail("meta_mrr_purchased", {
-    email: session.customer_details?.email || session.customer_email,
-    name: session.customer_details?.name,
-    sessionId: session.id,
-    state: session.metadata?.state,
-    program: session.metadata?.program,
-    creditExpiresAt: creditExpiresIso(session.created || Math.floor(Date.now() / 1000)),
-    amount: session.amount_total != null ? session.amount_total / 100 : null,
-  });
+  try {
+    const result = await queueFunnelEmail("meta_mrr_purchased", {
+      email: session.customer_details?.email || session.customer_email,
+      name: session.customer_details?.name,
+      sessionId: session.id,
+      state: session.metadata?.state,
+      stateName: session.metadata?.state_name,
+      program: session.metadata?.program,
+      creditExpiresAt: creditExpiresIso(session.created || Math.floor(Date.now() / 1000)),
+      amount: session.amount_total != null ? session.amount_total / 100 : null,
+    });
+    console.log("Market research receipt:", result.reason, session.id);
+    return result;
+  } catch (err) {
+    console.error("Market research receipt failed:", err instanceof Error ? err.message : "error");
+    return { queued: false as const, reason: "resend-network" as const };
+  }
 }

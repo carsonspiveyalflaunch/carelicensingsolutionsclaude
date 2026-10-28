@@ -4,6 +4,7 @@
  */
 import { resolveProductForItem } from "@/lib/resolve-product";
 import { SKOOL_COMMUNITY_URL } from "@/lib/community";
+import { LEGAL_EMAIL } from "@/lib/legal";
 import { mergePurchasedItems } from "@/lib/purchased-items";
 
 export { mergePurchasedItems } from "@/lib/purchased-items";
@@ -191,10 +192,10 @@ ${
 <a href="${SKOOL_COMMUNITY_URL}/classroom" style="color:#047857;font-weight:bold">Join and start the course &rarr;</a></div>`
     : ""
 }
-<p style="font-size:13px;color:#94a3b8;margin:0">Questions? Reply through <a href="${SITE_URL}/contact" style="color:#94a3b8">${SITE_URL.replace(/^https?:\/\//, "")}/contact</a>.</p>
+<p style="font-size:13px;color:#94a3b8;margin:0">Questions? Email <a href="mailto:${LEGAL_EMAIL}" style="color:#94a3b8">${LEGAL_EMAIL}</a> or visit <a href="${SITE_URL}/contact" style="color:#94a3b8">${SITE_URL.replace(/^https?:\/\//, "")}/contact</a>.</p>
 </td></tr></table></td></tr></table></body></html>`;
 
-  const text = `${first ? `${first}, your` : "Your"} files are ready.\n\n${list.map((n) => `- ${n}`).join("\n")}\n\nOpen your downloads (logs you in automatically): ${opts.link}\nIf the link expired, get a new one at ${SITE_URL}/access\n${opts.includeSkool ? `\nYour bonus: the Operational Success Academy. Join the community: ${SKOOL_COMMUNITY_URL}\n` : ""}`;
+  const text = `${first ? `${first}, your` : "Your"} files are ready.\n\n${list.map((n) => `- ${n}`).join("\n")}\n\nOpen your downloads (logs you in automatically): ${opts.link}\nIf the link expired, get a new one at ${SITE_URL}/access\n${opts.includeSkool ? `\nYour bonus: the Operational Success Academy. Join the community: ${SKOOL_COMMUNITY_URL}\n` : ""}\nQuestions? Email ${LEGAL_EMAIL} or visit ${SITE_URL}/contact.\n`;
 
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
