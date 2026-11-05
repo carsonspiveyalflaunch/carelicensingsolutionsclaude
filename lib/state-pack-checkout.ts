@@ -87,7 +87,7 @@ export async function createStatePackCheckout(
   const sourceUrl =
     opaqueStatePackUrl(input.meta?.sourceUrl || "") || `${origin}${statePackHref(code)}`;
 
-  const sessionParams = (opts: { saveCard: boolean; paymentIntent: boolean; collectIfRequired: boolean }) =>
+  const sessionParams = (opts: { paymentIntent: boolean; collectIfRequired: boolean }) =>
     buildStatePackSessionParams({
       code,
       stateName,
@@ -106,17 +106,16 @@ export async function createStatePackCheckout(
   let session: Stripe.Checkout.Session;
   try {
     session = await stripe.checkout.sessions.create(
-      sessionParams({ saveCard: !zeroDue, paymentIntent: !zeroDue, collectIfRequired: true }),
+      sessionParams({ paymentIntent: !zeroDue, collectIfRequired: true }),
     );
   } catch (err) {
     const message = err instanceof Error ? err.message : "";
-    if (!/setup_future_usage|future usage|customer_creation|payment_method_collection|payment_intent_data/i.test(message)) {
+    if (!/customer_creation|payment_method_collection|payment_intent_data|billing_address/i.test(message)) {
       throw err;
     }
-    console.warn("State pack checkout retrying without saved card:", message);
+    console.warn("State pack checkout retrying without payment intent data:", message);
     session = await stripe.checkout.sessions.create(
       sessionParams({
-        saveCard: false,
         paymentIntent:
           !zeroDue &&
           !/(unknown parameter: payment_intent_data|cannot (provide|pass|include|set) payment_intent_data)/i.test(message),
