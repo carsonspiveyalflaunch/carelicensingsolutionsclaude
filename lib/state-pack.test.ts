@@ -20,7 +20,10 @@ import {
   isStatePackCancelUrl,
   isStatePackSuccessUrl,
   opaqueStatePackUrl,
+  statePackFilePrices,
   statePackHref,
+  statePackPerPackTotal,
+  statePackSeparateTotal,
   statePackSuccessPath,
 } from "./state-pack-shared.ts";
 import type { FunnelBundle } from "./meta-funnel.ts";
@@ -76,6 +79,25 @@ describe("state pack checkout", () => {
       assert.equal(isCompleteBundleLine(item), true);
     }
     assert.throws(() => buildStatePackItems([]), /isn't available/);
+  });
+
+  it("anchors the value stack to the four file prices and does not price Skool", () => {
+    const lines = statePackFilePrices();
+    assert.ok(lines);
+    assert.deepEqual(
+      lines.map((line) => line.price),
+      [
+        INDIVIDUAL_ITEM_PRICES["Market Research Report"],
+        INDIVIDUAL_ITEM_PRICES["Pro Forma P&L Template"],
+        INDIVIDUAL_ITEM_PRICES["Policy & Procedure Manual"],
+        INDIVIDUAL_ITEM_PRICES["Licensing Checklist"],
+      ],
+    );
+    const perPack = statePackPerPackTotal();
+    assert.equal(perPack, 397 + 297 + 497 + 397);
+    assert.equal(statePackSeparateTotal(2), (perPack || 0) * 2);
+    assert.equal(statePackSeparateTotal(0), null);
+    assert.equal(JSON.stringify(lines).includes("Skool"), false);
   });
 
   it("builds one $997 Checkout line and does not pin payment_method_types", () => {
