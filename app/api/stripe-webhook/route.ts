@@ -14,6 +14,8 @@ import { queueFrontPurchaseEmail } from "@/lib/funnel-checkout";
 import { queueFunnelEmail } from "@/lib/funnel-email";
 import { reportCheckoutPurchase } from "@/lib/meta-report";
 import { META_FUNNEL } from "@/lib/meta-funnel";
+import { queueStatePackPurchaseEmail } from "@/lib/state-pack";
+import { STATE_PACK_FUNNEL } from "@/lib/state-pack-shared";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -128,7 +130,7 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
     // Paid funnel Purchase goes out before fulfillment. A later database error
     // still returns 200, so Stripe would not retry a dropped CAPI call.
     // $0 / 100%-off sessions are skipped unless a Test Events code is configured.
-    if (stripe && session.metadata?.funnel === META_FUNNEL) {
+    if (stripe && (session.metadata?.funnel === META_FUNNEL || session.metadata?.funnel === STATE_PACK_FUNNEL)) {
       try {
         await reportCheckoutPurchase(stripe, session);
       } catch (capiError) {
@@ -342,6 +344,8 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       });
     } else if (session.metadata?.funnel === META_FUNNEL) {
       await queueFrontPurchaseEmail(session);
+    } else if (session.metadata?.funnel === STATE_PACK_FUNNEL) {
+      await queueStatePackPurchaseEmail(session);
     }
 
     // Tell GHL this person bought, so sales emails/texts stop for them.
@@ -351,6 +355,11 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
       const slugs = enrichedItems.map((item: any) => item?.product_slug).filter(Boolean) as string[];
       const boughtBundle = slugs.some((s) => s.endsWith('-complete-bundle'));
       const tags = ['cls-purchased', boughtBundle ? 'cls-bought-bundle' : isCourseEnrollment ? 'cls-bought-course' : 'cls-bought-asset'];
+      if (session.metadata?.funnel === STATE_PACK_FUNNEL) {
+        tags.push('state-pack-buyer');
+        const packState = (session.metadata.state || '').trim().toLowerCase();
+        if (/^[a-z]{2}$/.test(packState)) tags.push(`state-pack-${packState}`);
+      }
       const buyer = {
         email: courseEmail,
         name: session.customer_details?.name || null,
@@ -407,6 +416,8 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session, 
 
     // Every bundle buyer also gets the Skool community (same Zapier hook the course uses).
     // Single resources (purchased_item) carry their bundle's slug, so they are excluded.
+    // The state pack stores one full-kit line per program, so this hook runs for it.
+    // A missing SKOOL_INVITE_WEBHOOK_URL skips the POST; the receipt still has the invite link.
     const paymentIntentId = typeof session.payment_intent === 'string'
       ? session.payment_intent
       : session.payment_intent?.id;

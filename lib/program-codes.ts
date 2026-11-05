@@ -146,6 +146,8 @@ export const FUNNEL_PROXY_PATHS = [
   "/market-research/checkout",
   "/market-research/upsell",
   "/market-research/thank-you",
+  "/market-research/state",
+  "/market-research/state/thank-you",
   "/launch-kit",
   "/offers/mrr",
 ] as const;

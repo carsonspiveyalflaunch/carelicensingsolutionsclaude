@@ -24,6 +24,8 @@ export const config = {
     "/market-research/checkout",
     "/market-research/upsell",
     "/market-research/thank-you",
+    "/market-research/state",
+    "/market-research/state/thank-you",
     "/market-research/:path*",
     "/launch-kit",
     "/offers/mrr",

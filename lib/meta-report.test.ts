@@ -3,6 +3,7 @@ import { afterEach, describe, it } from "node:test";
 import type Stripe from "stripe";
 import { buildMetaPurchaseBody } from "./meta-capi.ts";
 import { CONTENT_LAUNCH_KIT, CONTENT_MRR } from "./meta-funnel.ts";
+import { CONTENT_STATE_PACK } from "./state-pack-shared.ts";
 import {
   checkoutPurchaseInput,
   isOneClickLaunchKitPi,
@@ -115,6 +116,32 @@ describe("funnel purchase drafts", () => {
     assert.equal(free?.value, 0);
     assert.equal(unpaid?.value, 0);
     assert.equal(checkoutPurchaseInput({ id: "cs_other", amount_total: 4700, payment_status: "paid", metadata: {} }), null);
+  });
+
+  it("reports the $997 state pack as its own purchase and keeps program names out of the event URL", () => {
+    const pack = checkoutPurchaseInput({
+      id: "cs_live_state",
+      created: 1_700_000_200,
+      currency: "usd",
+      amount_total: 99700,
+      payment_status: "paid",
+      customer_details: { email: "mary@example.com", name: "Mary Ann" },
+      metadata: {
+        funnel: "state_pack",
+        content_ids: "state_pack_997",
+        state: "TX",
+        program: "Hospice Programs",
+      },
+    });
+    assert.ok(pack);
+    assert.equal(pack.value, 997);
+    assert.deepEqual(pack.contentIds, [CONTENT_STATE_PACK]);
+    assert.equal(pack.contentName, "State program pack");
+    assert.match(pack.sourceUrl, /\/market-research\/state\/thank-you$/);
+    assert.doesNotMatch(pack.sourceUrl, /hospice|type=|program=/i);
+    const body = buildMetaPurchaseBody(pack);
+    assert.ok(body);
+    assert.equal(JSON.stringify(body).includes("Hospice"), false);
   });
 
   it("prices a one-click kit from the PaymentIntent and ignores the hosted-checkout PaymentIntent", () => {
