@@ -11,6 +11,8 @@ import { CHECKOUT_PAYMENT_METHODS } from "@/lib/pay-later";
 import { createFrontEndCheckout, FunnelOrderError } from "@/lib/funnel-checkout";
 import { metaContextFromRequest } from "@/lib/meta-capi";
 import { META_FUNNEL } from "@/lib/meta-funnel";
+import { createStatePackCheckout } from "@/lib/state-pack-checkout";
+import { STATE_PACK_FUNNEL } from "@/lib/state-pack-shared";
 
 const stripe = process.env.STRIPE_SECRET_KEY
   ? new Stripe(process.env.STRIPE_SECRET_KEY, {
@@ -53,6 +55,23 @@ export async function POST(request: NextRequest) {
     if (body?.funnel === META_FUNNEL) {
       try {
         const checkout = await createFrontEndCheckout(stripe, supabase, {
+          ...body,
+          userId,
+          requestOrigin: request.nextUrl.origin,
+          meta: metaContextFromRequest(request, body),
+        });
+        return NextResponse.json(checkout);
+      } catch (err) {
+        if (err instanceof FunnelOrderError) {
+          return NextResponse.json({ error: err.message }, { status: err.status });
+        }
+        throw err;
+      }
+    }
+
+    if (body?.funnel === STATE_PACK_FUNNEL) {
+      try {
+        const checkout = await createStatePackCheckout(stripe, supabase, {
           ...body,
           userId,
           requestOrigin: request.nextUrl.origin,

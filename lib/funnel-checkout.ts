@@ -104,7 +104,7 @@ function recoveryParams(): Pick<Stripe.Checkout.SessionCreateParams, "consent_co
   };
 }
 
-async function resolveServerPromo(
+export async function resolveServerPromo(
   stripe: Stripe,
   requested: string,
   subtotalDollars: number,

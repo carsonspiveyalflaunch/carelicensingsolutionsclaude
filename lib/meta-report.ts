@@ -9,6 +9,7 @@ import {
   type MetaEventInput,
 } from "@/lib/meta-capi";
 import { CONTENT_LAUNCH_KIT, CONTENT_MRR, META_FUNNEL } from "@/lib/meta-funnel";
+import { CONTENT_STATE_PACK, STATE_PACK_FUNNEL, STATE_PACK_THANK_YOU_PATH } from "@/lib/state-pack-shared";
 import { SITE_URL } from "@/lib/seo";
 
 /**
@@ -75,6 +76,29 @@ function contentFromCheckout(metadata: Record<string, string> | null | undefined
 
 /** Actual amount paid. Unpaid and 100%-off sessions are value 0 so they are not real Purchases. */
 export function checkoutPurchaseInput(session: CheckoutLike): MetaEventInput | null {
+  if (session.metadata?.funnel === STATE_PACK_FUNNEL) {
+    const person = splitPersonName(session.customer_details?.name);
+    const browser = attributionFromMetadata(session.metadata);
+    const paid = session.payment_status === "paid";
+    const value = paid ? dollarsFromCents(session.amount_total) ?? 0 : 0;
+    return {
+      eventId: session.id,
+      eventTime: session.created || undefined,
+      value,
+      currency: session.currency || "usd",
+      contentIds: [CONTENT_STATE_PACK],
+      contentName: "State program pack",
+      email: session.customer_details?.email || session.customer_email || session.metadata?.customer_email || null,
+      phone: session.customer_details?.phone || session.metadata?.customer_phone || null,
+      firstName: session.metadata?.customer_first_name || person.firstName,
+      lastName: session.metadata?.customer_last_name || person.lastName,
+      sourceUrl: `${SITE_URL}${STATE_PACK_THANK_YOU_PATH}`,
+      fbp: browser.fbp,
+      fbc: browser.fbc,
+      clientIp: browser.clientIp,
+      userAgent: browser.userAgent,
+    };
+  }
   if (session.metadata?.funnel !== META_FUNNEL) return null;
   const content = contentFromCheckout(session.metadata);
   const person = splitPersonName(session.customer_details?.name);

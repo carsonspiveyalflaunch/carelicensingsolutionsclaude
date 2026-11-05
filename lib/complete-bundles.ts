@@ -94,6 +94,23 @@ export async function loadCompleteBundles(): Promise<CompleteBundle[]> {
   return queryBundles(anon);
 }
 
+/** Every active complete bundle for one state. Full-kit unlock uses this set. */
+export async function listCompleteBundlesForState(
+  supabase: SupabaseClient,
+  code: string,
+): Promise<CompleteBundle[]> {
+  const { data, error } = await supabase
+    .from("products")
+    .select(SELECT)
+    .eq("type", "bundle")
+    .eq("is_active", true)
+    .eq("product_label", "Complete Bundle")
+    .eq("code", code)
+    .like("product_slug", "%complete-bundle");
+  if (error) throw error;
+  return normalizeRows((data || []) as ProductRow[]);
+}
+
 export async function findCompleteBundle(
   supabase: SupabaseClient,
   code: string,
