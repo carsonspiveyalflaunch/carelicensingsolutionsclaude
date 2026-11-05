@@ -113,11 +113,15 @@ describe("state pack checkout", () => {
       subtotal: 997,
       successUrl: "https://carelicensingsolution.com/market-research/state/thank-you?session_id={CHECKOUT_SESSION_ID}",
       cancelUrl: "https://carelicensingsolution.com/market-research/state?state=TX",
-      saveCard: true,
       paymentIntent: true,
       collectIfRequired: true,
     });
     assert.equal(Object.hasOwn(params, "payment_method_types"), false);
+    assert.equal(params.billing_address_collection, "required");
+    assert.equal(params.payment_intent_data?.setup_future_usage, undefined);
+    assert.equal(params.payment_intent_data?.metadata?.funnel, "state_pack");
+    assert.equal(params.payment_intent_data?.metadata?.role, "state_pack");
+    assert.equal(JSON.stringify(params).includes("setup_future_usage"), false);
     assert.equal(params.line_items?.length, 1);
     const line = params.line_items?.[0];
     assert.equal(line && "price_data" in line ? line.price_data?.unit_amount : 0, 99700);
@@ -149,7 +153,6 @@ describe("state pack checkout", () => {
       subtotal: 997,
       successUrl: "https://carelicensingsolution.com/market-research/state/thank-you?session_id={CHECKOUT_SESSION_ID}",
       cancelUrl: "https://carelicensingsolution.com/market-research/state?state=TX&promo=CLSSTATE1",
-      saveCard: false,
       paymentIntent: false,
       collectIfRequired: true,
     });
@@ -158,6 +161,7 @@ describe("state pack checkout", () => {
     assert.equal(params.allow_promotion_codes, undefined);
     assert.equal(Object.hasOwn(params, "payment_method_types"), false);
     assert.equal(params.payment_intent_data, undefined);
+    assert.equal(params.billing_address_collection, undefined);
   });
 
   it("keeps program names out of the state-pack URLs", () => {

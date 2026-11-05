@@ -239,6 +239,10 @@ export async function createFrontEndCheckout(
     if (!opts.collectIfRequired) delete fields.payment_method_collection;
     if (opts.paymentIntent) {
       fields.payment_intent_data = {
+        // off_session hides single-use methods (Afterpay, Zip). The $47 funnel
+        // keeps it so the Launch Kit can charge this card off-session. The
+        // $997 state pack does not set this. A method that cannot be reused
+        // already opens a hosted Checkout instead of the one-click charge.
         ...(opts.saveCard ? { setup_future_usage: "off_session" as const } : {}),
         metadata: { funnel: META_FUNNEL, role: "front" },
       };

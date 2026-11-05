@@ -105,7 +105,6 @@ export function buildStatePackSessionParams(input: {
   attribution?: Record<string, string>;
   successUrl: string;
   cancelUrl: string;
-  saveCard: boolean;
   paymentIntent: boolean;
   collectIfRequired: boolean;
 }): Stripe.Checkout.SessionCreateParams {
@@ -134,6 +133,9 @@ export function buildStatePackSessionParams(input: {
     customer_creation: "always",
     // Leave payment_method_types unset so Checkout keeps every method enabled
     // on the Stripe account (card, Afterpay, Zip, and any other automatic method).
+    // Do not set payment_intent_data.setup_future_usage. Afterpay and Zip are
+    // single-use, and Stripe hides them when the session asks to save the card.
+    // A billing address is required for Afterpay eligibility.
     line_items: [
       {
         quantity: 1,
@@ -161,8 +163,8 @@ export function buildStatePackSessionParams(input: {
   };
   if (!input.collectIfRequired) delete fields.payment_method_collection;
   if (input.paymentIntent) {
+    fields.billing_address_collection = "required";
     fields.payment_intent_data = {
-      ...(input.saveCard ? { setup_future_usage: "off_session" as const } : {}),
       metadata: { funnel: STATE_PACK_FUNNEL, role: "state_pack" },
     };
   }
