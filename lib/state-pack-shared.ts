@@ -6,7 +6,9 @@
  * URLs carry the state code and ad params only. Program display names stay
  * off the query string (same rule as the rest of the Meta funnel).
  */
+import { BUNDLE_RESOURCES } from "./bundle-offer";
 import { LAUNCH_KIT_PRICE_DOLLARS } from "./meta-funnel";
+import { INDIVIDUAL_ITEM_PRICES } from "./pricing";
 import { TRACKING_KEYS } from "./tracking-params";
 import { STATE_NAMES } from "./us-states";
 
@@ -129,4 +131,32 @@ export function opaqueStatePackUrl(raw: string): string {
   } catch {
     return "";
   }
+}
+
+/**
+ * Separate-file prices for one program pack. Null when any kit file has no
+ * price in INDIVIDUAL_ITEM_PRICES, so the page never invents a number.
+ * Skool is not in that table and is not given a dollar value.
+ */
+export function statePackFilePrices(): { label: string; price: number }[] | null {
+  const lines: { label: string; price: number }[] = [];
+  for (const label of BUNDLE_RESOURCES) {
+    const price = INDIVIDUAL_ITEM_PRICES[label];
+    if (typeof price !== "number" || price <= 0) return null;
+    lines.push({ label, price });
+  }
+  return lines;
+}
+
+export function statePackPerPackTotal(): number | null {
+  const lines = statePackFilePrices();
+  if (!lines) return null;
+  return lines.reduce((sum, line) => sum + line.price, 0);
+}
+
+/** N packs × the four file prices. Null until a state with at least one pack is chosen. */
+export function statePackSeparateTotal(programCount: number): number | null {
+  const perPack = statePackPerPackTotal();
+  if (perPack == null || !Number.isInteger(programCount) || programCount < 1) return null;
+  return perPack * programCount;
 }

@@ -7,7 +7,7 @@ import { loadCompleteBundles } from "@/lib/complete-bundles";
 import { PRIVATE_PAGE } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { ...PRIVATE_PAGE, title: "Checkout | Care Licensing Solutions" };
+export const metadata: Metadata = { ...PRIVATE_PAGE, title: "Launch a licensed care business | Care Licensing Solutions" };
 
 export default async function StatePackCheckoutPage() {
   let choices: { code: string; state: string; program: string }[] = [];
@@ -25,6 +25,7 @@ export default async function StatePackCheckoutPage() {
         <StatePackCheckout choices={choices} />
       </Suspense>
       <Footer />
+      <div className="h-24 lg:hidden" aria-hidden />
     </>
   );
 }
